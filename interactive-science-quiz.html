@@ -1204,7 +1204,9 @@
 
         // Initialize chapters
         function initializeChapters() {
+            console.log('Initializing chapters...', Object.keys(questionBank));
             const grid = document.getElementById('chapterGrid');
+            console.log('Grid element:', grid);
             for (let i = 1; i <= 20; i++) {
                 const card = document.createElement('div');
                 card.className = 'chapter-card';
@@ -1213,6 +1215,7 @@
                 card.onclick = () => selectChapter(i);
                 grid.appendChild(card);
             }
+            console.log('Chapters initialized successfully!');
         }
 
         function selectChapter(chapter) {

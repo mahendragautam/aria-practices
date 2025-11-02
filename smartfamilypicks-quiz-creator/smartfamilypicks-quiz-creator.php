@@ -49,6 +49,7 @@ class SmartFamilyPicks_Quiz_Creator {
     private function __construct() {
         $this->load_dependencies();
         $this->init_hooks();
+        $this->init_components();
     }
 
     /**
@@ -64,17 +65,18 @@ class SmartFamilyPicks_Quiz_Creator {
      * Initialize WordPress hooks
      */
     private function init_hooks() {
-        add_action('plugins_loaded', array($this, 'init'));
-
         // Activation and deactivation hooks
         register_activation_hook(__FILE__, array($this, 'activate'));
         register_deactivation_hook(__FILE__, array($this, 'deactivate'));
+
+        // Load text domain
+        add_action('init', array($this, 'load_textdomain'));
     }
 
     /**
      * Initialize plugin components
      */
-    public function init() {
+    private function init_components() {
         // Initialize custom post type
         SFP_Quiz_Post_Type::get_instance();
 
@@ -83,8 +85,12 @@ class SmartFamilyPicks_Quiz_Creator {
 
         // Initialize shortcode
         SFP_Quiz_Shortcode::get_instance();
+    }
 
-        // Load text domain for translations
+    /**
+     * Load plugin text domain for translations
+     */
+    public function load_textdomain() {
         load_plugin_textdomain('smartfamilypicks-quiz', false, dirname(SFP_QUIZ_PLUGIN_BASENAME) . '/languages');
     }
 

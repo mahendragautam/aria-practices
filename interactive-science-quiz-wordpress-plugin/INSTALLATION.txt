@@ -1,0 +1,69 @@
+========================================
+INTERACTIVE SCIENCE QUIZ - INSTALLATION
+========================================
+
+QUICK START GUIDE
+-----------------
+
+1. UPLOAD THE PLUGIN
+   - Zip the "interactive-science-quiz-wordpress-plugin" folder
+   - Go to WordPress Admin → Plugins → Add New → Upload Plugin
+   - Upload the zip file
+   - Click "Activate"
+
+2. ADD TO YOUR PAGE
+   - Create a new page or edit existing one
+   - Add shortcode: [science_quiz]
+   - Publish the page
+
+3. VIEW YOUR QUIZ
+   - Visit the page to see your interactive science quiz!
+
+FEATURES CHECKLIST
+------------------
+✅ 20 Chapters with unique colors
+✅ 5 Difficulty levels per chapter
+✅ 10 Questions per level (50 questions per chapter)
+✅ Animated emojis for each question
+✅ Falling emoji animations (desktop only)
+✅ Timer and scoring system
+✅ Badge system (Beginner, Good, Master)
+✅ Question shuffling on retake
+✅ Fully responsive (mobile, tablet, desktop)
+✅ Topic badges (Biology, Physics, Chemistry, Astronomy)
+✅ Progress bar with counter
+
+WHAT'S INCLUDED
+---------------
+→ Main plugin file (interactive-science-quiz.php)
+→ Question database (data/questions-data.php)
+→ HTML template (templates/quiz-template.php)
+→ Stylesheet (assets/css/quiz-style.css)
+→ JavaScript (assets/js/quiz-script.js)
+→ Documentation (README.md)
+
+CUSTOMIZATION
+-------------
+- Edit questions: data/questions-data.php
+- Modify styles: assets/css/quiz-style.css
+- Change logic: assets/js/quiz-script.js
+
+SHORTCODE
+---------
+[science_quiz]
+
+Use this shortcode anywhere in your WordPress content!
+
+REQUIREMENTS
+------------
+- WordPress 5.0 or higher
+- Modern web browser
+- jQuery (included with WordPress)
+
+SUPPORT
+-------
+For support, refer to README.md for detailed documentation.
+
+========================================
+ENJOY YOUR INTERACTIVE SCIENCE QUIZ!
+========================================

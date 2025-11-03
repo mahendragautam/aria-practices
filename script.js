@@ -532,9 +532,21 @@ function submitExtremeAnswer() {
 function showExtremeAnswer() {
     const answerDiv = document.getElementById('extremeAnswer');
     const nextBtn = document.getElementById('nextBtn');
+    const input = document.getElementById('extremeInput');
+    const submitBtn = document.getElementById('submitBtn');
 
     // Show the answer
     answerDiv.style.display = 'block';
+
+    // Disable input and buttons (answer revealed, no more submission)
+    if (input) input.disabled = true;
+    if (submitBtn) {
+        submitBtn.disabled = true;
+        submitBtn.style.opacity = '0.5';
+    }
+
+    // Wrong answer bubble foam effect (since they're just viewing answer)
+    createFallingEmojis('✏️✏️✏️✏️✏️⚙️⚙️⚙️⚙️⚙️✏️✏️✏️⚙️⚙️⚙️✏️✏️⚙️⚙️');
 
     // Enable Next button
     nextBtn.disabled = false;

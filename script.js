@@ -414,15 +414,15 @@ function selectAnswer(selectedIndex) {
         feedback.textContent = ['Excellent! 🌟', 'Perfect! ✨', 'Outstanding! 🎯', 'Brilliant! 💡', 'Superb! 🏆'][Math.floor(Math.random() * 5)];
         feedback.className = 'feedback-message feedback-correct';
         score++;
-        // ONLY simple, universally supported positive emojis
-        createFallingEmojis('😀😃😄😁😆😊☺️🙂🤗🤩😍🥰😘😗😙😚🙃😉😌😎🥳🤓😇🌟⭐✨💫⚡🔥💥✅✔️👍👌🙌👏💪🎉🎊🎈🎁🏆🥇🏅💯💖💗💙💚💛🧡❤️💜🌈🌸🌺🌻🌼🌷🌹💐🦋☀️🌞🎵🎶🎸🎹🎤🎧🎼🎨🎭🎪🎬🚀');
+        // ONLY most basic emojis that work everywhere
+        createFallingEmojis('😀😃😄😁😆😊😍😘😗😙😚😋😛😝😜😉😌😎😇🙂🙃🤗🤩😂🤣🌟⭐✨💫⚡🔥💥✅👍👌🙌👏💪🎉🎊🎈🎁🏆💯❤💛💙💚💜💖💗💓💞💕🌈🌸🌺🌻🌷🌹💐☀🎵🎶🎸🎹🎤🎧🎨🎭🎬🚀');
     } else {
         options[selectedIndex].classList.add('incorrect');
         options[question.correct].classList.add('correct');
         feedback.textContent = ['Try next 📚', 'Keep learning 📖', 'Review this topic 🔍', 'Study more 💪', 'Not quite ❌'][Math.floor(Math.random() * 5)];
         feedback.className = 'feedback-message feedback-incorrect';
-        // ONLY simple, universally supported learning emojis
-        createFallingEmojis('📚📖📝📓📔📕📗📘📙📒📄📃📑🗒️📰📜📋📊📈📉💻⌨️🖥️📱🖱️💾💿🔬🔭📡🧪🧬⚗️🎓📐📏✏️🖊️🖍️🖌️📌📍📎🔖🗂️📂📁💡🔍🔎💭🧠🤔💪🌱🎯🔧🔨🛠️⚙️🔩');
+        // ONLY most basic learning emojis that work everywhere
+        createFallingEmojis('📚📖📝📓📔📕📗📘📙📒📄📃📋📊📈📉💻📱💾💿🔬🔭🎓📐📏✏️📌📎🔖📂📁💡🔍💭🤔💪🌱🎯🔧🔨');
     }
 
     nextBtn.disabled = false;

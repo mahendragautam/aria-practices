@@ -323,10 +323,11 @@ body {
     position: fixed;
     left: 0.5%;
     top: 50%;
-    font-size: 1.5em;
+    font-size: 1.4em;
     pointer-events: none;
     z-index: 1000;
     animation: popInOut 2.5s ease-in-out;
+    filter: brightness(1.1);
 }
 
 @keyframes popInOut {

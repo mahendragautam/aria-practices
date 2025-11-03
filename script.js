@@ -414,15 +414,15 @@ function selectAnswer(selectedIndex) {
         feedback.textContent = ['Excellent! 🌟', 'Perfect! ✨', 'Outstanding! 🎯', 'Brilliant! 💡', 'Superb! 🏆'][Math.floor(Math.random() * 5)];
         feedback.className = 'feedback-message feedback-correct';
         score++;
-        // Large set of positive vibe emojis for correct answer
-        createFallingEmojis('✅🎉⭐💫🌟🏆👏✨🎯💯😊🙌👍🌈💖🎊🥳🔥💪🌺🎈🌸💝🏅✔️👌💚💙💛🧡💜🤩😄😃💗🌻🦋🎁🍀🌷🌼🎵🎶');
+        // HUGE set of positive emojis - NO question marks
+        createFallingEmojis('✅🎉⭐💫🌟🏆👏✨🎯💯😊🙌👍🌈💖🎊🥳🔥💪🌺🎈🌸💝🏅✔️👌💚💙💛🧡💜🤩😄😃💗🌻🦋🎁🍀🌷🌼🎵🎶🌞🌝💐🌹🥇🎪🎭🎨🎬🎤🎧🎼🎹🎺🎷🥁🎸🎻🎲🎰🚀🌠⚡🔆🎀🌴🏝️🍉🍓🍑🍒🍇🍎🍏🥝🍋🍊');
     } else {
         options[selectedIndex].classList.add('incorrect');
         options[question.correct].classList.add('correct');
         feedback.textContent = ['Try next 📚', 'Keep learning 📖', 'Review this topic 🔍', 'Study more 💪', 'Not quite ❌'][Math.floor(Math.random() * 5)];
         feedback.className = 'feedback-message feedback-incorrect';
-        // Large set of learning/thinking emojis for wrong answer (minimal question marks)
-        createFallingEmojis('📚📖🤔💭🔍💡🧠📝💪🌱🎯📊📈🔬🧪⚗️🎓📐📏✏️📌📎🖊️🖍️🖋️💼📋📂📁🗂️📇📑📄📃📓📔📕📗📘📙');
+        // HUGE set of learning emojis - ZERO question marks
+        createFallingEmojis('📚📖🤔💭🔍💡🧠📝💪🌱🎯📊📈🔬🧪⚗️🎓📐📏✏️📌📎🖊️🖍️🖋️💼📋📂📁🗂️📇📑📄📃📓📔📕📗📘📙🔖📒🗒️📰🗞️📑📜📚💻🖥️⌨️🖱️📱💾💿📀🎮🕹️🔌🔋🔎🔬🔭📡🛠️🔧🔨🧰🧲⚙️🧬🔩⚗️🧫🩺🌡️💉');
     }
 
     nextBtn.disabled = false;
@@ -506,7 +506,7 @@ function createFallingEmojis(emojiString) {
     let emojiIndex = 0;
 
     const interval = setInterval(() => {
-        if (answered && fallingEmojis.length < 25) {  // Limit to 25 emojis for foam effect
+        if (answered && fallingEmojis.length < 45) {  // HEAVY foam: 45 emojis at once!
             const emoji = document.createElement('div');
             emoji.className = 'falling-emoji';
 
@@ -514,16 +514,16 @@ function createFallingEmojis(emojiString) {
             const randomIndex = Math.floor(Math.random() * emojis.length);
             emoji.textContent = emojis[randomIndex];
 
-            // Reshuffle periodically for continuous variety
-            if (Math.random() > 0.6) {
+            // Reshuffle frequently for maximum variety
+            if (Math.random() > 0.5) {
                 emojis = shuffleArray(emojis.slice());
             }
 
             // Position outside quiz container on left, from back button to topic area
-            emoji.style.left = (0.5 + Math.random() * 1.5) + '%';  // Slight horizontal variation
-            emoji.style.top = (10 + Math.random() * 70) + '%';  // 10% to 80% vertical coverage
-            emoji.style.animationDuration = (Math.random() * 1 + 1.5) + 's';  // 1.5-2.5s variation
-            emoji.style.fontSize = (1.2 + Math.random() * 0.6) + 'em';  // Size variation for depth
+            emoji.style.left = (0.3 + Math.random() * 2) + '%';  // More horizontal spread
+            emoji.style.top = (5 + Math.random() * 75) + '%';  // 5% to 80% vertical coverage
+            emoji.style.animationDuration = (Math.random() * 1.2 + 1.3) + 's';  // 1.3-2.5s variation
+            emoji.style.fontSize = (1 + Math.random() * 0.8) + 'em';  // 1-1.8em size variation
             document.body.appendChild(emoji);
             fallingEmojis.push(emoji);
 
@@ -532,7 +532,7 @@ function createFallingEmojis(emojiString) {
                 fallingEmojis = fallingEmojis.filter(e => e !== emoji);
             }, 2500);  // Match animation duration
         }
-    }, 150);  // Faster interval for foam bubble effect
+    }, 100);  // VERY fast interval - HEAVY FOAM EFFECT!
 
     // Store interval to clear later
     window.fallingInterval = interval;

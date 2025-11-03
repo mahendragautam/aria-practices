@@ -488,8 +488,21 @@ function retakeQuiz() {
 }
 
 function createFallingEmojis(emojiString) {
-    // Convert to array and shuffle for better randomization
-    const emojis = emojiString.split('').sort(() => Math.random() - 0.5);
+    // Convert to array and create multiple shuffled copies for better variety
+    let emojis = emojiString.split('');
+
+    // Fisher-Yates shuffle for true randomization
+    function shuffleArray(array) {
+        const shuffled = [...array];
+        for (let i = shuffled.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+        }
+        return shuffled;
+    }
+
+    // Create a pool of emojis with better distribution
+    emojis = shuffleArray(emojis);
     let emojiIndex = 0;
 
     const interval = setInterval(() => {
@@ -497,13 +510,18 @@ function createFallingEmojis(emojiString) {
             const emoji = document.createElement('div');
             emoji.className = 'falling-emoji';
 
-            // Pick emoji sequentially from shuffled array for better distribution
+            // Pick emoji sequentially from shuffled array for even distribution
             emoji.textContent = emojis[emojiIndex % emojis.length];
             emojiIndex++;
 
-            // Position beside answer container on left
-            emoji.style.left = '2%';
-            emoji.style.top = (40 + Math.random() * 30) + '%';  // Random vertical position
+            // Reshuffle after going through all emojis
+            if (emojiIndex % emojis.length === 0) {
+                emojis = shuffleArray(emojis.slice());
+            }
+
+            // Position outside quiz container on left
+            emoji.style.left = '0.5%';
+            emoji.style.top = (35 + Math.random() * 40) + '%';  // Random vertical position
             emoji.style.animationDuration = (Math.random() * 0.5 + 2) + 's';
             document.body.appendChild(emoji);
             fallingEmojis.push(emoji);

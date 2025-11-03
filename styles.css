@@ -91,7 +91,7 @@ body {
 
 .back-button {
     display: block;
-    margin: 20px auto 0 auto;
+    margin: 20px 0 0 15px;
     padding: 12px 28px;
     background: #667eea;
     color: white;
@@ -321,7 +321,7 @@ body {
 
 .falling-emoji {
     position: fixed;
-    left: 2%;
+    left: 0.5%;
     top: 50%;
     font-size: 1.5em;
     pointer-events: none;

@@ -414,15 +414,15 @@ function selectAnswer(selectedIndex) {
         feedback.textContent = ['Excellent! 🌟', 'Perfect! ✨', 'Outstanding! 🎯', 'Brilliant! 💡', 'Superb! 🏆'][Math.floor(Math.random() * 5)];
         feedback.className = 'feedback-message feedback-correct';
         score++;
-        // Positive vibe emojis for correct answer
-        createFallingEmojis('✅🎉⭐💫🌟🏆👏✨🎯💯😊🙌👍');
+        // Large set of positive vibe emojis for correct answer
+        createFallingEmojis('✅🎉⭐💫🌟🏆👏✨🎯💯😊🙌👍🌈💖🎊🥳🔥💪🌺🎈🌸💝🏅✔️👌💚💙💛🧡💜🤩😄😃💗🌻🦋🎁🍀🌷🌼🎵🎶');
     } else {
         options[selectedIndex].classList.add('incorrect');
         options[question.correct].classList.add('correct');
         feedback.textContent = ['Try next 📚', 'Keep learning 📖', 'Review this topic 🔍', 'Study more 💪', 'Not quite ❌'][Math.floor(Math.random() * 5)];
         feedback.className = 'feedback-message feedback-incorrect';
-        // Thinking, books, cross emojis for wrong answer (reduced question marks)
-        createFallingEmojis('❌📚📖🤔💭❓🔍💡🧠📝🤷‍♂️💪🌱');
+        // Large set of learning/thinking emojis for wrong answer (minimal question marks)
+        createFallingEmojis('📚📖🤔💭🔍💡🧠📝💪🌱🎯📊📈🔬🧪⚗️🎓📐📏✏️📌📎🖊️🖍️🖋️💼📋📂📁🗂️📇📑📄📃📓📔📕📗📘📙');
     }
 
     nextBtn.disabled = false;
@@ -506,7 +506,7 @@ function createFallingEmojis(emojiString) {
     let emojiIndex = 0;
 
     const interval = setInterval(() => {
-        if (answered && fallingEmojis.length < 12) {  // Limit to 12 emojis
+        if (answered && fallingEmojis.length < 25) {  // Limit to 25 emojis for foam effect
             const emoji = document.createElement('div');
             emoji.className = 'falling-emoji';
 
@@ -515,23 +515,24 @@ function createFallingEmojis(emojiString) {
             emoji.textContent = emojis[randomIndex];
 
             // Reshuffle periodically for continuous variety
-            if (Math.random() > 0.7) {
+            if (Math.random() > 0.6) {
                 emojis = shuffleArray(emojis.slice());
             }
 
             // Position outside quiz container on left, from back button to topic area
-            emoji.style.left = '0.5%';
+            emoji.style.left = (0.5 + Math.random() * 1.5) + '%';  // Slight horizontal variation
             emoji.style.top = (10 + Math.random() * 70) + '%';  // 10% to 80% vertical coverage
-            emoji.style.animationDuration = (Math.random() * 0.8 + 1.8) + 's';
+            emoji.style.animationDuration = (Math.random() * 1 + 1.5) + 's';  // 1.5-2.5s variation
+            emoji.style.fontSize = (1.2 + Math.random() * 0.6) + 'em';  // Size variation for depth
             document.body.appendChild(emoji);
             fallingEmojis.push(emoji);
 
             setTimeout(() => {
                 emoji.remove();
                 fallingEmojis = fallingEmojis.filter(e => e !== emoji);
-            }, 2600);  // Match animation duration
+            }, 2500);  // Match animation duration
         }
-    }, 280);  // Interval for emoji appearance
+    }, 150);  // Faster interval for foam bubble effect
 
     // Store interval to clear later
     window.fallingInterval = interval;

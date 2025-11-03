@@ -414,7 +414,13 @@ function displayQuestion() {
     if (currentLevel === 'extreme') {
         // Text input for extreme level
         html += `<input type="text" class="extreme-input" id="extremeInput" placeholder="Type your answer here..." onkeypress="if(event.key==='Enter') submitExtremeAnswer()">`;
-        html += `<button class="submit-answer-btn" id="submitBtn" onclick="submitExtremeAnswer()">Submit Answer</button>`;
+
+        // Button group for Submit and Show Answer
+        html += `<div class="extreme-buttons">`;
+        html += `<button class="submit-answer-btn" id="submitBtn" onclick="submitExtremeAnswer()">✓ Submit Answer</button>`;
+        html += `<button class="show-answer-btn" id="showBtn" onclick="showExtremeAnswer()">👁️ Show Answer</button>`;
+        html += `</div>`;
+
         html += `<div class="extreme-answer" id="extremeAnswer" style="display: none;"><strong>Correct Answer:</strong> ${question.answer}</div>`;
     } else {
         // Multiple choice answers
@@ -518,6 +524,17 @@ function submitExtremeAnswer() {
         // Show correct answer
         answerDiv.style.display = 'block';
     }
+
+    // Enable Next button
+    nextBtn.disabled = false;
+}
+
+function showExtremeAnswer() {
+    const answerDiv = document.getElementById('extremeAnswer');
+    const nextBtn = document.getElementById('nextBtn');
+
+    // Show the answer
+    answerDiv.style.display = 'block';
 
     // Enable Next button
     nextBtn.disabled = false;

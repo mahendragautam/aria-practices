@@ -16,7 +16,6 @@
 
         <!-- Level Selection -->
         <div class="level-selection">
-            <button class="back-button" onclick="showChapterSelection()">← Back</button>
             <h2 class="level-title" id="levelTitle">Select Difficulty Level</h2>
             <div class="level-grid">
                 <div class="level-card level-easy" onclick="startQuiz('easy')">
@@ -40,16 +39,13 @@
                     <div style="font-size: 0.9em; margin-top: 10px;">Text Answer</div>
                 </div>
             </div>
+            <button class="back-button" onclick="showChapterSelection()">← Back</button>
         </div>
 
         <!-- Quiz Container -->
         <div class="quiz-container">
-            <button class="back-button" onclick="showLevelSelection()">← Back</button>
             <div class="quiz-header">
                 <div class="progress-info" id="progressInfo">0/10</div>
-                <div class="progress-bar">
-                    <div class="progress-fill" id="progressFill"></div>
-                </div>
             </div>
             <div id="quizContent"></div>
         </div>

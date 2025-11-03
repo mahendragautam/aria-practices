@@ -343,8 +343,7 @@ function displayQuestion() {
     const question = shuffledQuestions[currentQuestionIndex];
 
     // Update progress
-    document.getElementById('progressInfo').textContent = `${currentQuestionIndex}/10`;
-    document.getElementById('progressFill').style.width = `${(currentQuestionIndex / 10) * 100}%`;
+    document.getElementById('progressInfo').textContent = `${currentQuestionIndex + 1}/10`;
 
     let html = '';
 
@@ -357,6 +356,13 @@ function displayQuestion() {
     html += `<div class="question-text">${question.question}</div>`;
     html += `</div>`;
 
+    // Progress bar between question and answers
+    html += `<div class="progress-bar-container">`;
+    html += `<div class="progress-bar">`;
+    html += `<div class="progress-fill" style="width: ${((currentQuestionIndex + 1) / 10) * 100}%"></div>`;
+    html += `</div>`;
+    html += `</div>`;
+
     // Feedback message
     html += `<div class="feedback-message" id="feedbackMessage"></div>`;
 
@@ -365,7 +371,12 @@ function displayQuestion() {
         html += `<input type="text" class="extreme-input" id="extremeInput" placeholder="Type your answer here...">`;
         html += `<button class="show-answer-btn" onclick="showExtremeAnswer()">Show Answer</button>`;
         html += `<div class="extreme-answer" id="extremeAnswer"><strong>Answer:</strong> ${question.answer}</div>`;
-        html += `<button class="next-button" onclick="nextQuestion()">Next Question →</button>`;
+
+        // Button container with Back and Next
+        html += `<div class="button-container">`;
+        html += `<button class="quiz-back-button" onclick="showLevelSelection()">← Back</button>`;
+        html += `<button class="next-button" onclick="nextQuestion()">Next →</button>`;
+        html += `</div>`;
     } else {
         // Multiple choice answers
         html += `<div class="answers-container">`;
@@ -373,7 +384,12 @@ function displayQuestion() {
             html += `<div class="answer-option" onclick="selectAnswer(${index})">${option}</div>`;
         });
         html += `</div>`;
-        html += `<button class="next-button" id="nextBtn" onclick="nextQuestion()" disabled>Next Question →</button>`;
+
+        // Button container with Back and Next
+        html += `<div class="button-container">`;
+        html += `<button class="quiz-back-button" onclick="showLevelSelection()">← Back</button>`;
+        html += `<button class="next-button" id="nextBtn" onclick="nextQuestion()" disabled>Next →</button>`;
+        html += `</div>`;
     }
 
     document.getElementById('quizContent').innerHTML = html;
@@ -398,13 +414,15 @@ function selectAnswer(selectedIndex) {
         feedback.textContent = ['Excellent! 🌟', 'Perfect! ✨', 'Outstanding! 🎯', 'Brilliant! 💡', 'Superb! 🏆'][Math.floor(Math.random() * 5)];
         feedback.className = 'feedback-message feedback-correct';
         score++;
-        createFallingEmojis('✅🎉⭐💫🌟');
+        // Positive vibe emojis for correct answer
+        createFallingEmojis('✅🎉⭐💫🌟🏆👏✨🎯💯😊🙌👍');
     } else {
         options[selectedIndex].classList.add('incorrect');
         options[question.correct].classList.add('correct');
         feedback.textContent = ['Try next 📚', 'Keep learning 📖', 'Review this topic 🔍', 'Study more 💪', 'Not quite ❌'][Math.floor(Math.random() * 5)];
         feedback.className = 'feedback-message feedback-incorrect';
-        createFallingEmojis('❌📚🔍💭📖');
+        // Thinking, books, question marks, cross emojis for wrong answer
+        createFallingEmojis('❌📚📖🤔💭❓❔🔍💡🧠📝🤷‍♂️');
     }
 
     nextBtn.disabled = false;
@@ -472,21 +490,22 @@ function retakeQuiz() {
 function createFallingEmojis(emojiString) {
     const emojis = emojiString.split('');
     const interval = setInterval(() => {
-        if (answered && fallingEmojis.length < 50) {
+        if (answered && fallingEmojis.length < 15) {  // Limit to 15 for single line
             const emoji = document.createElement('div');
             emoji.className = 'falling-emoji';
             emoji.textContent = emojis[Math.floor(Math.random() * emojis.length)];
-            emoji.style.left = Math.random() * 30 + '%';
-            emoji.style.animationDuration = (Math.random() * 2 + 3) + 's';
+            // Fixed position at 5% from left for single line effect
+            emoji.style.left = '5%';
+            emoji.style.animationDuration = (Math.random() * 1.5 + 2) + 's';
             document.body.appendChild(emoji);
             fallingEmojis.push(emoji);
 
             setTimeout(() => {
                 emoji.remove();
                 fallingEmojis = fallingEmojis.filter(e => e !== emoji);
-            }, 5000);
+            }, 4000);
         }
-    }, 200);
+    }, 250);  // Slower interval for cleaner single line
 
     // Store interval to clear later
     window.fallingInterval = interval;

@@ -421,8 +421,8 @@ function selectAnswer(selectedIndex) {
         options[question.correct].classList.add('correct');
         feedback.textContent = ['Try next 📚', 'Keep learning 📖', 'Review this topic 🔍', 'Study more 💪', 'Not quite ❌'][Math.floor(Math.random() * 5)];
         feedback.className = 'feedback-message feedback-incorrect';
-        // Thinking, books, question marks, cross emojis for wrong answer
-        createFallingEmojis('❌📚📖🤔💭❓❔🔍💡🧠📝🤷‍♂️');
+        // Thinking, books, cross emojis for wrong answer (reduced question marks)
+        createFallingEmojis('❌📚📖🤔💭❓🔍💡🧠📝🤷‍♂️💪🌱');
     }
 
     nextBtn.disabled = false;
@@ -506,32 +506,32 @@ function createFallingEmojis(emojiString) {
     let emojiIndex = 0;
 
     const interval = setInterval(() => {
-        if (answered && fallingEmojis.length < 10) {  // Limit to 10 emojis
+        if (answered && fallingEmojis.length < 12) {  // Limit to 12 emojis
             const emoji = document.createElement('div');
             emoji.className = 'falling-emoji';
 
-            // Pick emoji sequentially from shuffled array for even distribution
-            emoji.textContent = emojis[emojiIndex % emojis.length];
-            emojiIndex++;
+            // Pick emoji with complete randomization from shuffled array
+            const randomIndex = Math.floor(Math.random() * emojis.length);
+            emoji.textContent = emojis[randomIndex];
 
-            // Reshuffle after going through all emojis
-            if (emojiIndex % emojis.length === 0) {
+            // Reshuffle periodically for continuous variety
+            if (Math.random() > 0.7) {
                 emojis = shuffleArray(emojis.slice());
             }
 
-            // Position outside quiz container on left
+            // Position outside quiz container on left, from back button to topic area
             emoji.style.left = '0.5%';
-            emoji.style.top = (35 + Math.random() * 40) + '%';  // Random vertical position
-            emoji.style.animationDuration = (Math.random() * 0.5 + 2) + 's';
+            emoji.style.top = (10 + Math.random() * 70) + '%';  // 10% to 80% vertical coverage
+            emoji.style.animationDuration = (Math.random() * 0.8 + 1.8) + 's';
             document.body.appendChild(emoji);
             fallingEmojis.push(emoji);
 
             setTimeout(() => {
                 emoji.remove();
                 fallingEmojis = fallingEmojis.filter(e => e !== emoji);
-            }, 2500);  // Match animation duration
+            }, 2600);  // Match animation duration
         }
-    }, 300);  // Interval for emoji appearance
+    }, 280);  // Interval for emoji appearance
 
     // Store interval to clear later
     window.fallingInterval = interval;

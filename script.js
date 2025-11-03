@@ -414,15 +414,15 @@ function selectAnswer(selectedIndex) {
         feedback.textContent = ['Excellent! 🌟', 'Perfect! ✨', 'Outstanding! 🎯', 'Brilliant! 💡', 'Superb! 🏆'][Math.floor(Math.random() * 5)];
         feedback.className = 'feedback-message feedback-correct';
         score++;
-        // ONLY most basic emojis that work everywhere
-        createFallingEmojis('😀😃😄😁😆😊😍😘😗😙😚😋😛😝😜😉😌😎😇🙂🙃🤗🤩😂🤣🌟⭐✨💫⚡🔥💥✅👍👌🙌👏💪🎉🎊🎈🎁🏆💯❤💛💙💚💜💖💗💓💞💕🌈🌸🌺🌻🌷🌹💐☀🎵🎶🎸🎹🎤🎧🎨🎭🎬🚀');
+        // Ultra-basic emojis - Unicode 6.0 classic set only
+        createFallingEmojis('😀😁😂😃😄😅😆😇😈😉😊😋😌😍😎😏😐😑😒😓😔😕😖😗😘😙😚😛😜😝😞😟😠😡😢😣😤😥😦😧😨😩😪😫😬😭😮😯😰😱😲😳😴😵😶⭐✨💫🔥⚡💥👍👎👌👏💪❤💙💚💛💜🎉🎊🎈🎁💯');
     } else {
         options[selectedIndex].classList.add('incorrect');
         options[question.correct].classList.add('correct');
         feedback.textContent = ['Try next 📚', 'Keep learning 📖', 'Review this topic 🔍', 'Study more 💪', 'Not quite ❌'][Math.floor(Math.random() * 5)];
         feedback.className = 'feedback-message feedback-incorrect';
-        // ONLY most basic learning emojis that work everywhere
-        createFallingEmojis('📚📖📝📓📔📕📗📘📙📒📄📃📋📊📈📉💻📱💾💿🔬🔭🎓📐📏✏️📌📎🔖📂📁💡🔍💭🤔💪🌱🎯🔧🔨');
+        // Ultra-basic learning emojis - Unicode 6.0 classic set only
+        createFallingEmojis('📚📖📝📓📔📕📗📘📙📒📄📃📋📊📈📉💻📱📞📟📠📡💾💿📀🎓💡🔍🔎💭💬👓📐📏✏️📌📍📎📝🔧🔨💪');
     }
 
     nextBtn.disabled = false;
@@ -507,15 +507,15 @@ function createFallingEmojis(emojiString) {
 
     const interval = setInterval(() => {
         if (answered && fallingEmojis.length < 45) {  // HEAVY foam: 45 emojis at once!
-            const emoji = document.createElement('div');
+            const emoji = document.createElement('span');
             emoji.className = 'falling-emoji';
 
             // Pick emoji with complete randomization from shuffled array
             const randomIndex = Math.floor(Math.random() * emojis.length);
             const selectedEmoji = emojis[randomIndex];
 
-            // Use innerHTML and ensure proper encoding
-            emoji.innerHTML = selectedEmoji;
+            // Use textContent with proper character
+            emoji.textContent = String.fromCodePoint(selectedEmoji.codePointAt(0));
             emoji.setAttribute('role', 'img');
             emoji.setAttribute('aria-label', 'emoji');
 
@@ -529,6 +529,7 @@ function createFallingEmojis(emojiString) {
             emoji.style.top = (5 + Math.random() * 75) + '%';  // 5% to 80% vertical coverage
             emoji.style.animationDuration = (Math.random() * 1.2 + 1.3) + 's';  // 1.3-2.5s variation
             emoji.style.fontSize = (1 + Math.random() * 0.8) + 'em';  // 1-1.8em size variation
+            emoji.style.display = 'inline-block';  // Ensure proper rendering
             document.body.appendChild(emoji);
             fallingEmojis.push(emoji);
 

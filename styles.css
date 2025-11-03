@@ -149,6 +149,77 @@ html {
 .level-expert { background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); }
 .level-extreme { background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); }
 
+/* Mode sections (Normal Level and Quick Pick) */
+.mode-section {
+    margin: 20px 0;
+    padding: 15px 10px;
+    border-radius: 12px;
+    background: rgba(102, 126, 234, 0.05);
+}
+
+.mode-title {
+    text-align: center;
+    font-size: 1.5em;
+    color: #333;
+    margin: 0 0 8px 0;
+    font-weight: bold;
+}
+
+.mode-description {
+    text-align: center;
+    font-size: 0.95em;
+    color: #666;
+    margin: 0 0 15px 0;
+}
+
+/* Timer display for Quick Pick */
+.timer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15px;
+    margin: 10px 10px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+.timer-display {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.timer-pause-btn {
+    padding: 8px 20px;
+    background: rgba(255, 255, 255, 0.9);
+    color: #667eea;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.9em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.timer-pause-btn:hover {
+    background: white;
+    transform: scale(1.05);
+}
+
+.timer-warning {
+    background: linear-gradient(135deg, #ff6b6b 0%, #ee5a6f 100%);
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3); }
+    50% { box-shadow: 0 4px 25px rgba(255, 107, 107, 0.6); }
+}
+
 .back-button {
     display: block;
     margin: 10px 0 0 10px;

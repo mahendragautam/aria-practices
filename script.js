@@ -8,6 +8,21 @@ let answered = false;
 let shuffledQuestions = [];
 let fallingEmojis = [];
 
+// Timer state for Quick Pick mode
+let isTimedMode = false;
+let timeRemaining = 0;
+let timerInterval = null;
+let isPaused = false;
+
+// Time limits for Quick Pick (in seconds)
+const timeLimits = {
+    easy: 60,      // 1 minute
+    medium: 90,    // 1.5 minutes
+    hard: 120,     // 2 minutes
+    expert: 150,   // 2.5 minutes
+    extreme: 180   // 3 minutes
+};
+
 // Chapter colors
 const chapterColors = [
     '#FFB6C1', '#87CEEB', '#98FB98', '#DDA0DD', '#F0E68C',
@@ -311,11 +326,13 @@ function selectChapter(chapter) {
 
 function showChapterSelection() {
     clearFallingEmojis();
+    stopTimer();
     showScreen('chapter-selection');
 }
 
 function showLevelSelection() {
     clearFallingEmojis();
+    stopTimer();
     showScreen('level-selection');
 }
 
@@ -326,12 +343,22 @@ function showScreen(screenClass) {
     document.querySelector(`.${screenClass}`).classList.add('active');
 }
 
-function startQuiz(level) {
+function startQuiz(level, timedMode = false) {
     clearFallingEmojis();
+    stopTimer(); // Clear any existing timer
+
     currentLevel = level;
     currentQuestionIndex = 0;
     score = 0;
     startTime = Date.now();
+    isTimedMode = timedMode;
+    isPaused = false;
+
+    // Setup timer for Quick Pick mode
+    if (isTimedMode) {
+        timeRemaining = timeLimits[level];
+        startTimer();
+    }
 
     // Shuffle questions
     const questions = [...questionBank[currentChapter][level]];
@@ -349,6 +376,21 @@ function displayQuestion() {
 
     // Topic badge on left
     html += `<div class="topic-badge topic-${question.topic.toLowerCase()}">${question.topic}</div>`;
+
+    // Timer display for Quick Pick mode
+    if (isTimedMode) {
+        const minutes = Math.floor(timeRemaining / 60);
+        const seconds = timeRemaining % 60;
+        const timeDisplay = `${minutes}:${seconds.toString().padStart(2, '0')}`;
+        const timeClass = timeRemaining <= 30 ? 'timer-warning' : '';
+
+        html += `<div class="timer-container ${timeClass}">`;
+        html += `<div class="timer-display">⏱️ <span id="timerDisplay">${timeDisplay}</span></div>`;
+        html += `<button class="timer-pause-btn" id="pauseBtn" onclick="togglePause()">
+                    ${isPaused ? '▶️ Resume' : '⏸️ Pause'}
+                 </button>`;
+        html += `</div>`;
+    }
 
     // Question container - left aligned
     html += `<div class="question-container">`;
@@ -446,6 +488,8 @@ function nextQuestion() {
 
 function showResults() {
     clearFallingEmojis();
+    stopTimer();
+
     const endTime = Date.now();
     const timeTaken = Math.floor((endTime - startTime) / 1000);
     const minutes = Math.floor(timeTaken / 60);
@@ -486,7 +530,102 @@ function showResults() {
 }
 
 function retakeQuiz() {
-    startQuiz(currentLevel);
+    startQuiz(currentLevel, isTimedMode);
+}
+
+// Timer functions for Quick Pick mode
+function startTimer() {
+    stopTimer(); // Clear any existing timer
+
+    timerInterval = setInterval(() => {
+        if (!isPaused) {
+            timeRemaining--;
+
+            // Update timer display
+            updateTimerDisplay();
+
+            // Check if time is up
+            if (timeRemaining <= 0) {
+                handleTimeUp();
+            }
+        }
+    }, 1000);
+}
+
+function stopTimer() {
+    if (timerInterval) {
+        clearInterval(timerInterval);
+        timerInterval = null;
+    }
+}
+
+function updateTimerDisplay() {
+    const timerElement = document.getElementById('timerDisplay');
+    if (timerElement) {
+        const minutes = Math.floor(timeRemaining / 60);
+        const seconds = timeRemaining % 60;
+        timerElement.textContent = `${minutes}:${seconds.toString().padStart(2, '0')}`;
+
+        // Add warning class when time is low
+        const timerContainer = document.querySelector('.timer-container');
+        if (timerContainer) {
+            if (timeRemaining <= 30) {
+                timerContainer.classList.add('timer-warning');
+            } else {
+                timerContainer.classList.remove('timer-warning');
+            }
+        }
+    }
+}
+
+function togglePause() {
+    isPaused = !isPaused;
+
+    // Update pause button text
+    const pauseBtn = document.getElementById('pauseBtn');
+    if (pauseBtn) {
+        pauseBtn.textContent = isPaused ? '▶️ Resume' : '⏸️ Pause';
+    }
+
+    // Disable/enable answer selection when paused
+    const answerOptions = document.querySelectorAll('.answer-option');
+    const extremeInput = document.getElementById('extremeInput');
+    const nextBtn = document.getElementById('nextBtn');
+
+    if (isPaused) {
+        // Disable interactions when paused
+        answerOptions.forEach(option => option.style.pointerEvents = 'none');
+        if (extremeInput) extremeInput.disabled = true;
+        if (nextBtn) nextBtn.disabled = true;
+    } else {
+        // Re-enable interactions when resumed
+        answerOptions.forEach(option => option.style.pointerEvents = 'auto');
+        if (extremeInput) extremeInput.disabled = false;
+        if (nextBtn && answered) nextBtn.disabled = false;
+    }
+}
+
+function handleTimeUp() {
+    stopTimer();
+
+    // Show time up message
+    const feedbackMessage = document.getElementById('feedbackMessage');
+    if (feedbackMessage) {
+        feedbackMessage.textContent = '⏰ TIME UP!';
+        feedbackMessage.className = 'feedback-message feedback-incorrect';
+    }
+
+    // Disable all interactions
+    const answerOptions = document.querySelectorAll('.answer-option');
+    answerOptions.forEach(option => option.style.pointerEvents = 'none');
+
+    const extremeInput = document.getElementById('extremeInput');
+    if (extremeInput) extremeInput.disabled = true;
+
+    // Auto-show results after 2 seconds
+    setTimeout(() => {
+        showResults();
+    }, 2000);
 }
 
 function createFallingEmojis(emojiString) {

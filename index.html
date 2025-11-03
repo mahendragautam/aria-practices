@@ -17,28 +17,63 @@
         <!-- Level Selection -->
         <div class="level-selection">
             <h2 class="level-title" id="levelTitle">Select Difficulty Level</h2>
-            <div class="level-grid">
-                <div class="level-card level-easy" onclick="startQuiz('easy')">
-                    <div>🟢 EASY</div>
-                    <div style="font-size: 0.9em; margin-top: 10px;">True or False</div>
-                </div>
-                <div class="level-card level-medium" onclick="startQuiz('medium')">
-                    <div>🟡 MEDIUM</div>
-                    <div style="font-size: 0.9em; margin-top: 10px;">2 Options</div>
-                </div>
-                <div class="level-card level-hard" onclick="startQuiz('hard')">
-                    <div>🟠 HARD</div>
-                    <div style="font-size: 0.9em; margin-top: 10px;">3 Options</div>
-                </div>
-                <div class="level-card level-expert" onclick="startQuiz('expert')">
-                    <div>🔴 EXPERT</div>
-                    <div style="font-size: 0.9em; margin-top: 10px;">4 Options</div>
-                </div>
-                <div class="level-card level-extreme" onclick="startQuiz('extreme')">
-                    <div>⚫ EXTREME</div>
-                    <div style="font-size: 0.9em; margin-top: 10px;">Text Answer</div>
+
+            <!-- Normal Level Section -->
+            <div class="mode-section">
+                <h3 class="mode-title">📚 Normal Level</h3>
+                <p class="mode-description">Practice at your own pace - No time limit</p>
+                <div class="level-grid">
+                    <div class="level-card level-easy" onclick="startQuiz('easy', false)">
+                        <div>🟢 EASY</div>
+                        <div style="font-size: 0.9em; margin-top: 10px;">True or False</div>
+                    </div>
+                    <div class="level-card level-medium" onclick="startQuiz('medium', false)">
+                        <div>🟡 MEDIUM</div>
+                        <div style="font-size: 0.9em; margin-top: 10px;">2 Options</div>
+                    </div>
+                    <div class="level-card level-hard" onclick="startQuiz('hard', false)">
+                        <div>🟠 HARD</div>
+                        <div style="font-size: 0.9em; margin-top: 10px;">3 Options</div>
+                    </div>
+                    <div class="level-card level-expert" onclick="startQuiz('expert', false)">
+                        <div>🔴 EXPERT</div>
+                        <div style="font-size: 0.9em; margin-top: 10px;">4 Options</div>
+                    </div>
+                    <div class="level-card level-extreme" onclick="startQuiz('extreme', false)">
+                        <div>⚫ EXTREME</div>
+                        <div style="font-size: 0.9em; margin-top: 10px;">Text Answer</div>
+                    </div>
                 </div>
             </div>
+
+            <!-- Quick Pick Section -->
+            <div class="mode-section">
+                <h3 class="mode-title">⚡ Quick Pick</h3>
+                <p class="mode-description">Time-bound challenge - Beat the clock!</p>
+                <div class="level-grid">
+                    <div class="level-card level-easy" onclick="startQuiz('easy', true)">
+                        <div>🟢 EASY</div>
+                        <div style="font-size: 0.85em; margin-top: 8px;">⏱️ 1:00 min</div>
+                    </div>
+                    <div class="level-card level-medium" onclick="startQuiz('medium', true)">
+                        <div>🟡 MEDIUM</div>
+                        <div style="font-size: 0.85em; margin-top: 8px;">⏱️ 1:30 min</div>
+                    </div>
+                    <div class="level-card level-hard" onclick="startQuiz('hard', true)">
+                        <div>🟠 HARD</div>
+                        <div style="font-size: 0.85em; margin-top: 8px;">⏱️ 2:00 min</div>
+                    </div>
+                    <div class="level-card level-expert" onclick="startQuiz('expert', true)">
+                        <div>🔴 EXPERT</div>
+                        <div style="font-size: 0.85em; margin-top: 8px;">⏱️ 2:30 min</div>
+                    </div>
+                    <div class="level-card level-extreme" onclick="startQuiz('extreme', true)">
+                        <div>⚫ EXTREME</div>
+                        <div style="font-size: 0.85em; margin-top: 8px;">⏱️ 3:00 min</div>
+                    </div>
+                </div>
+            </div>
+
             <button class="back-button" onclick="showChapterSelection()">← Back</button>
         </div>
 

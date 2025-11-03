@@ -677,13 +677,13 @@ html {
 
 /* Mobile Devices */
 @media (max-width: 768px) {
-    /* Reduce all padding for mobile - full screen content */
+    /* Reduce all padding for mobile - minimal 5px side padding */
     .chapter-selection, .level-selection, .quiz-container, .result-container {
-        padding: 0 !important;
+        padding: 0 5px !important;
     }
 
     .chapter-grid, .level-grid {
-        padding: 0 5px 10px 5px !important;
+        padding: 0 0 10px 0 !important;
         gap: 8px;
     }
 
@@ -693,44 +693,44 @@ html {
     }
 
     .progress-info, .progress-bar-container, .quiz-header {
-        padding: 0 5px !important;
+        padding: 0 !important;
     }
 
     .topic-badge {
-        margin-left: 5px;
+        margin-left: 0;
     }
 
     .question-container {
-        padding: 0 5px !important;
+        padding: 0 !important;
     }
 
     .answers-container {
         grid-template-columns: 1fr;
-        padding: 0 5px !important;
+        padding: 0 !important;
         gap: 8px;
     }
 
     .button-container {
-        padding: 0 5px !important;
+        padding: 0 !important;
         margin: 10px 0;
     }
 
     .timer-container {
-        margin: 10px 5px;
+        margin: 10px 0;
         padding: 10px 12px;
     }
 
     .extreme-buttons {
-        margin: 15px 5px;
+        margin: 15px 0;
         gap: 8px;
     }
 
     .extreme-answer {
-        margin: 15px 5px;
+        margin: 15px 0;
     }
 
     .back-button {
-        margin: 10px 0 0 5px;
+        margin: 10px 0 0 0;
     }
 
     .question-emoji {

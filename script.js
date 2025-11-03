@@ -342,21 +342,21 @@ function displayQuestion() {
     answered = false;
     const question = shuffledQuestions[currentQuestionIndex];
 
-    // Update progress
-    document.getElementById('progressInfo').textContent = `${currentQuestionIndex + 1}/10`;
-
     let html = '';
 
-    // Topic badge
+    // Topic badge on left
     html += `<div class="topic-badge topic-${question.topic.toLowerCase()}">${question.topic}</div>`;
 
-    // Question container
+    // Question container - left aligned
     html += `<div class="question-container">`;
     html += `<div class="question-emoji">${question.emoji}</div>`;
     html += `<div class="question-text">${question.question}</div>`;
     html += `</div>`;
 
-    // Progress bar between question and answers
+    // Progress info above progress bar
+    html += `<div class="progress-info">${currentQuestionIndex + 1}/10</div>`;
+
+    // Progress bar
     html += `<div class="progress-bar-container">`;
     html += `<div class="progress-bar">`;
     html += `<div class="progress-fill" style="width: ${((currentQuestionIndex + 1) / 10) * 100}%"></div>`;

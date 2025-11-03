@@ -8,21 +8,24 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: #fff;
     overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
 }
 
 .main-container {
     width: 100vw;
-    min-height: 100vh;
+    height: 100vh;
     background: transparent;
     position: relative;
 }
 
 .chapter-selection, .level-selection, .quiz-container, .result-container {
-    width: 100%;
-    min-height: 100vh;
+    width: 100vw;
+    height: 100vh;
     padding: 15px;
     padding-bottom: 80px;
     display: none;
+    overflow-y: auto;
 }
 
 .chapter-selection.active, .level-selection.active, .quiz-container.active, .result-container.active {
@@ -33,7 +36,8 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 12px;
-    max-width: 600px;
+    width: 100%;
+    max-width: 100vw;
     margin: 0 auto;
     padding: 15px;
 }
@@ -58,7 +62,8 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 12px;
-    max-width: 600px;
+    width: 100%;
+    max-width: 100vw;
     margin: 20px auto;
     padding: 0 15px;
 }
@@ -105,24 +110,33 @@ body {
 }
 
 .quiz-header {
-    text-align: center;
-    margin-bottom: 15px;
+    text-align: left;
+    margin-bottom: 10px;
+    max-width: 100%;
+    padding: 0 15px;
 }
 
 .progress-info {
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     color: #333;
+    text-align: left;
+    max-width: 100%;
+    padding: 0 15px;
+}
+
+.progress-bar-container {
+    margin: 5px 0;
+    padding: 0 15px;
 }
 
 .progress-bar {
     width: 100%;
-    max-width: 500px;
+    max-width: 100%;
     height: 8px;
     background: #e0e0e0;
     border-radius: 10px;
-    margin: 0 auto 15px auto;
     overflow: hidden;
 }
 
@@ -135,11 +149,13 @@ body {
 
 .topic-badge {
     display: inline-block;
-    padding: 8px 18px;
+    padding: 6px 16px;
     border-radius: 20px;
     font-weight: bold;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     color: white;
+    font-size: 0.95em;
+    margin-left: 15px;
 }
 
 .topic-biology { background: #2ecc71; }
@@ -148,13 +164,14 @@ body {
 .topic-astronomy { background: #9b59b6; }
 
 .question-container {
-    text-align: center;
-    margin-bottom: 15px;
+    text-align: left;
+    margin-bottom: 12px;
+    padding: 0 15px;
 }
 
 .question-emoji {
     font-size: 4em;
-    margin: 15px 0;
+    margin: 10px 0;
     animation: bounce 2s infinite;
 }
 
@@ -166,20 +183,18 @@ body {
 .question-text {
     font-size: 1.4em;
     color: #333;
-    margin: 15px 0;
+    margin: 10px 0;
     font-weight: 600;
-}
-
-.progress-bar-container {
-    margin: 15px 0;
+    text-align: left;
 }
 
 .answers-container {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
-    max-width: 500px;
-    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    margin: 8px 0;
     padding: 0 15px;
 }
 
@@ -218,7 +233,7 @@ body {
     text-align: center;
     font-size: 1.2em;
     font-weight: bold;
-    margin: 15px 0;
+    margin: 12px 0;
     min-height: 30px;
 }
 
@@ -229,8 +244,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 500px;
-    margin: 20px auto;
+    width: 100%;
+    max-width: 100%;
+    margin: 15px 0;
     padding: 0 15px;
 }
 
@@ -273,12 +289,12 @@ body {
 
 .extreme-input {
     width: 100%;
-    max-width: 500px;
+    max-width: 100%;
     padding: 15px;
     font-size: 1.1em;
     border: 3px solid #667eea;
     border-radius: 10px;
-    margin: 15px auto;
+    margin: 15px 0;
     display: block;
 }
 
@@ -301,7 +317,7 @@ body {
     border: 2px solid #f39c12;
     border-radius: 10px;
     margin: 15px auto;
-    max-width: 500px;
+    max-width: 100%;
     text-align: justify;
 }
 
@@ -433,6 +449,18 @@ body {
     font-weight: bold;
 }
 
+.emoji-container {
+    display: inline-block;
+}
+
+.level-title {
+    text-align: center;
+    font-size: 2em;
+    margin: 20px 0;
+    color: #333;
+}
+
+/* Mobile Devices */
 @media (max-width: 768px) {
     .question-emoji {
         font-size: 3.5em;
@@ -440,6 +468,10 @@ body {
 
     .question-text {
         font-size: 1.2em;
+    }
+
+    .answers-container {
+        grid-template-columns: 1fr;
     }
 
     .chapter-grid {
@@ -463,13 +495,24 @@ body {
     }
 }
 
-.emoji-container {
-    display: inline-block;
+/* Larger screens - 3 columns for chapter and level */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .chapter-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .level-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
-.level-title {
-    text-align: center;
-    font-size: 2em;
-    margin: 20px 0;
-    color: #333;
+/* Very large screens - 4 columns */
+@media (min-width: 1025px) {
+    .chapter-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .level-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
 }

@@ -414,15 +414,15 @@ function selectAnswer(selectedIndex) {
         feedback.textContent = ['Excellent! 🌟', 'Perfect! ✨', 'Outstanding! 🎯', 'Brilliant! 💡', 'Superb! 🏆'][Math.floor(Math.random() * 5)];
         feedback.className = 'feedback-message feedback-correct';
         score++;
-        // HUGE set of positive emojis - NO question marks
-        createFallingEmojis('✅🎉⭐💫🌟🏆👏✨🎯💯😊🙌👍🌈💖🎊🥳🔥💪🌺🎈🌸💝🏅✔️👌💚💙💛🧡💜🤩😄😃💗🌻🦋🎁🍀🌷🌼🎵🎶🌞🌝💐🌹🥇🎪🎭🎨🎬🎤🎧🎼🎹🎺🎷🥁🎸🎻🎲🎰🚀🌠⚡🔆🎀🌴🏝️🍉🍓🍑🍒🍇🍎🍏🥝🍋🍊');
+        // ONLY simple, universally supported positive emojis
+        createFallingEmojis('😀😃😄😁😆😊☺️🙂🤗🤩😍🥰😘😗😙😚🙃😉😌😎🥳🤓😇🌟⭐✨💫⚡🔥💥✅✔️👍👌🙌👏💪🎉🎊🎈🎁🏆🥇🏅💯💖💗💙💚💛🧡❤️💜🌈🌸🌺🌻🌼🌷🌹💐🦋☀️🌞🎵🎶🎸🎹🎤🎧🎼🎨🎭🎪🎬🚀');
     } else {
         options[selectedIndex].classList.add('incorrect');
         options[question.correct].classList.add('correct');
         feedback.textContent = ['Try next 📚', 'Keep learning 📖', 'Review this topic 🔍', 'Study more 💪', 'Not quite ❌'][Math.floor(Math.random() * 5)];
         feedback.className = 'feedback-message feedback-incorrect';
-        // HUGE set of learning emojis - ZERO question marks
-        createFallingEmojis('📚📖🤔💭🔍💡🧠📝💪🌱🎯📊📈🔬🧪⚗️🎓📐📏✏️📌📎🖊️🖍️🖋️💼📋📂📁🗂️📇📑📄📃📓📔📕📗📘📙🔖📒🗒️📰🗞️📑📜📚💻🖥️⌨️🖱️📱💾💿📀🎮🕹️🔌🔋🔎🔬🔭📡🛠️🔧🔨🧰🧲⚙️🧬🔩⚗️🧫🩺🌡️💉');
+        // ONLY simple, universally supported learning emojis
+        createFallingEmojis('📚📖📝📓📔📕📗📘📙📒📄📃📑🗒️📰📜📋📊📈📉💻⌨️🖥️📱🖱️💾💿🔬🔭📡🧪🧬⚗️🎓📐📏✏️🖊️🖍️🖌️📌📍📎🔖🗂️📂📁💡🔍🔎💭🧠🤔💪🌱🎯🔧🔨🛠️⚙️🔩');
     }
 
     nextBtn.disabled = false;

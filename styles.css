@@ -4,13 +4,61 @@
     box-sizing: border-box;
 }
 
+/* Force override WordPress theme styles for quiz pages */
+body .site-content,
+body .entry-content,
+body .content-area,
+body .site-main,
+body article,
+body main,
+body #primary,
+body #content,
+body .post-content,
+body .page-content,
+body .hentry,
+body .type-page {
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+/* Remove theme spacing around quiz container */
+.main-container:before,
+.main-container:after,
+body .entry-content:before,
+body .entry-content:after {
+    display: none !important;
+}
+
+/* Force full width for quiz container */
+body .main-container,
+body .main-container *:not(.chapter-card):not(.level-card):not(.answer-option) {
+    max-width: 100vw !important;
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: #fff;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
     width: 100vw;
     margin: 0 !important;
     padding: 0 !important;
+}
+
+/* Prevent theme from adding extra space to quiz elements */
+html, body {
+    max-width: 100vw !important;
+    overflow-x: hidden !important;
+}
+
+/* Override theme heading styles for quiz */
+.main-container .title,
+.main-container .level-title,
+.main-container h1,
+.main-container h2 {
+    line-height: 1.2 !important;
+    letter-spacing: normal !important;
 }
 
 .main-container {

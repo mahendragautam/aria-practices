@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Science Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <!-- Chapter Selection -->
+        <div class="chapter-selection active">
+            <h1 class="title">🔬 Interactive Science Quiz 🔬</h1>
+            <div class="chapter-grid" id="chapterGrid"></div>
+        </div>
+
+        <!-- Level Selection -->
+        <div class="level-selection">
+            <button class="back-button" onclick="showChapterSelection()">← Back</button>
+            <h2 class="level-title" id="levelTitle">Select Difficulty Level</h2>
+            <div class="level-grid">
+                <div class="level-card level-easy" onclick="startQuiz('easy')">
+                    <div>🟢 EASY</div>
+                    <div style="font-size: 0.9em; margin-top: 10px;">True or False</div>
+                </div>
+                <div class="level-card level-medium" onclick="startQuiz('medium')">
+                    <div>🟡 MEDIUM</div>
+                    <div style="font-size: 0.9em; margin-top: 10px;">2 Options</div>
+                </div>
+                <div class="level-card level-hard" onclick="startQuiz('hard')">
+                    <div>🟠 HARD</div>
+                    <div style="font-size: 0.9em; margin-top: 10px;">3 Options</div>
+                </div>
+                <div class="level-card level-expert" onclick="startQuiz('expert')">
+                    <div>🔴 EXPERT</div>
+                    <div style="font-size: 0.9em; margin-top: 10px;">4 Options</div>
+                </div>
+                <div class="level-card level-extreme" onclick="startQuiz('extreme')">
+                    <div>⚫ EXTREME</div>
+                    <div style="font-size: 0.9em; margin-top: 10px;">Text Answer</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quiz Container -->
+        <div class="quiz-container">
+            <button class="back-button" onclick="showLevelSelection()">← Back</button>
+            <div class="quiz-header">
+                <div class="progress-info" id="progressInfo">0/10</div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+            </div>
+            <div id="quizContent"></div>
+        </div>
+
+        <!-- Result Container -->
+        <div class="result-container">
+            <div class="result-content">
+                <div class="result-title">Quiz Complete! 🎉</div>
+                <div class="badge" id="resultBadge"></div>
+                <div class="badge-text" id="badgeText"></div>
+                <div class="score-display" id="scoreDisplay"></div>
+                <div class="result-details">
+                    <div>
+                        <span>⏱️ Time Taken:</span>
+                        <span id="timeTaken"></span>
+                    </div>
+                    <div>
+                        <span>📊 Score:</span>
+                        <span id="finalScore"></span>
+                    </div>
+                    <div>
+                        <span>📈 Level:</span>
+                        <span id="levelCompleted"></span>
+                    </div>
+                </div>
+                <button class="restart-button" onclick="retakeQuiz()">🔄 Retake Quiz</button>
+                <button class="restart-button" onclick="showLevelSelection()">📚 Choose Different Level</button>
+                <button class="restart-button" onclick="showChapterSelection()">📖 Choose Different Chapter</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -310,10 +310,12 @@ function selectChapter(chapter) {
 }
 
 function showChapterSelection() {
+    clearFallingEmojis();
     showScreen('chapter-selection');
 }
 
 function showLevelSelection() {
+    clearFallingEmojis();
     showScreen('level-selection');
 }
 
@@ -325,6 +327,7 @@ function showScreen(screenClass) {
 }
 
 function startQuiz(level) {
+    clearFallingEmojis();
     currentLevel = level;
     currentQuestionIndex = 0;
     score = 0;
@@ -444,6 +447,7 @@ function nextQuestion() {
 }
 
 function showResults() {
+    clearFallingEmojis();
     const endTime = Date.now();
     const timeTaken = Math.floor((endTime - startTime) / 1000);
     const minutes = Math.floor(timeTaken / 60);

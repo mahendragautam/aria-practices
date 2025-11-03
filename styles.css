@@ -22,8 +22,7 @@ body {
 .chapter-selection, .level-selection, .quiz-container, .result-container {
     width: 100vw;
     height: 100vh;
-    padding: 5px;
-    padding-bottom: 5px;
+    padding: 0;
     display: none;
     overflow-y: auto;
 }
@@ -39,7 +38,7 @@ body {
     width: 100%;
     max-width: 100vw;
     margin: 0 auto;
-    padding: 5px;
+    padding: 0;
 }
 
 .chapter-card {
@@ -64,8 +63,8 @@ body {
     gap: 10px;
     width: 100%;
     max-width: 100vw;
-    margin: 5px auto;
-    padding: 0 5px;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .level-card {
@@ -477,7 +476,7 @@ body {
     text-align: center;
     font-size: 2.2em;
     color: #333;
-    margin: 10px 0 15px 0;
+    margin: 5px 0 5px 0;
     font-weight: bold;
 }
 
@@ -488,7 +487,7 @@ body {
 .level-title {
     text-align: center;
     font-size: 2em;
-    margin: 10px 0;
+    margin: 5px 0;
     color: #333;
 }
 

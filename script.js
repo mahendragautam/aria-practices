@@ -413,9 +413,9 @@ function displayQuestion() {
 
     if (currentLevel === 'extreme') {
         // Text input for extreme level
-        html += `<input type="text" class="extreme-input" id="extremeInput" placeholder="Type your answer here...">`;
-        html += `<button class="show-answer-btn" onclick="showExtremeAnswer()">Show Answer</button>`;
-        html += `<div class="extreme-answer" id="extremeAnswer"><strong>Answer:</strong> ${question.answer}</div>`;
+        html += `<input type="text" class="extreme-input" id="extremeInput" placeholder="Type your answer here..." onkeypress="if(event.key==='Enter') submitExtremeAnswer()">`;
+        html += `<button class="submit-answer-btn" id="submitBtn" onclick="submitExtremeAnswer()">Submit Answer</button>`;
+        html += `<div class="extreme-answer" id="extremeAnswer" style="display: none;"><strong>Correct Answer:</strong> ${question.answer}</div>`;
     } else {
         // Multiple choice answers
         html += `<div class="answers-container">`;
@@ -428,11 +428,7 @@ function displayQuestion() {
     // Button container with Back and Next (outside if/else - used for both question types)
     html += `<div class="button-container">`;
     html += `<button class="quiz-back-button" onclick="showLevelSelection()">← Back</button>`;
-    if (currentLevel === 'extreme') {
-        html += `<button class="next-button" onclick="nextQuestion()">Next →</button>`;
-    } else {
-        html += `<button class="next-button" id="nextBtn" onclick="nextQuestion()" disabled>Next →</button>`;
-    }
+    html += `<button class="next-button" id="nextBtn" onclick="nextQuestion()" disabled>Next →</button>`;
     html += `</div>`;
 
     document.getElementById('quizContent').innerHTML = html;
@@ -471,8 +467,60 @@ function selectAnswer(selectedIndex) {
     nextBtn.disabled = false;
 }
 
-function showExtremeAnswer() {
-    document.getElementById('extremeAnswer').style.display = 'block';
+function submitExtremeAnswer() {
+    if (answered) return;
+
+    const input = document.getElementById('extremeInput');
+    const userAnswer = input.value.trim();
+
+    // Don't submit if empty
+    if (!userAnswer) {
+        alert('Please type your answer first!');
+        return;
+    }
+
+    answered = true;
+    const question = shuffledQuestions[currentQuestionIndex];
+    const feedback = document.getElementById('feedbackMessage');
+    const nextBtn = document.getElementById('nextBtn');
+    const submitBtn = document.getElementById('submitBtn');
+    const answerDiv = document.getElementById('extremeAnswer');
+
+    // Disable input and submit button
+    input.disabled = true;
+    submitBtn.disabled = true;
+    submitBtn.style.opacity = '0.5';
+
+    // Check answer (case-insensitive, trim spaces)
+    const correctAnswer = question.answer.toLowerCase().trim();
+    const isCorrect = userAnswer.toLowerCase() === correctAnswer;
+
+    if (isCorrect) {
+        // Correct answer
+        input.style.borderColor = '#2ecc71';
+        input.style.background = '#d4edda';
+        feedback.textContent = ['Excellent! 🌟', 'Perfect! ✨', 'Outstanding! 🎯', 'Brilliant! 💡', 'Superb! 🏆'][Math.floor(Math.random() * 5)];
+        feedback.className = 'feedback-message feedback-correct';
+        score++;
+
+        // Correct answer bubble foam
+        createFallingEmojis('⭐⭐⭐✨✨✨⚡⚡⚡❤❤❤💙💙💚💚💛💛💜💜✅✅✔️✔️☀️☀️☀️⭐✨⚡❤💙💚💛💜✅✔️☀️');
+    } else {
+        // Wrong answer
+        input.style.borderColor = '#e74c3c';
+        input.style.background = '#f8d7da';
+        feedback.textContent = ['Not quite! 🤔', 'Try again next time! 💪', 'Keep learning! 📚', 'Close! 📝'][Math.floor(Math.random() * 4)];
+        feedback.className = 'feedback-message feedback-incorrect';
+
+        // Wrong answer bubble foam
+        createFallingEmojis('✏️✏️✏️✏️✏️⚙️⚙️⚙️⚙️⚙️✏️✏️✏️⚙️⚙️⚙️✏️✏️⚙️⚙️');
+
+        // Show correct answer
+        answerDiv.style.display = 'block';
+    }
+
+    // Enable Next button
+    nextBtn.disabled = false;
 }
 
 function nextQuestion() {

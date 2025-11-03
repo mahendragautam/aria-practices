@@ -14,14 +14,14 @@ body {
 
 .main-container {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     background: transparent;
     position: relative;
 }
 
 .chapter-selection, .level-selection, .quiz-container, .result-container {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     padding: 0;
     display: none;
     overflow-y: auto;

@@ -324,15 +324,21 @@ body {
 .falling-emoji {
     position: fixed;
     left: 5%;
-    font-size: 1.8em;
+    bottom: 0;
+    font-size: 1.5em;
     pointer-events: none;
     z-index: 1000;
-    animation: fall linear;
+    animation: riseUp linear;
 }
 
-@keyframes fall {
+@keyframes riseUp {
+    from {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+    }
     to {
-        transform: translateY(100vh) rotate(360deg);
+        transform: translateY(-100vh) rotate(360deg);
+        opacity: 0;
     }
 }
 
@@ -483,7 +489,7 @@ body {
     }
 
     .falling-emoji {
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
 
     .progress-bar {

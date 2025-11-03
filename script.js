@@ -374,12 +374,6 @@ function displayQuestion() {
         html += `<input type="text" class="extreme-input" id="extremeInput" placeholder="Type your answer here...">`;
         html += `<button class="show-answer-btn" onclick="showExtremeAnswer()">Show Answer</button>`;
         html += `<div class="extreme-answer" id="extremeAnswer"><strong>Answer:</strong> ${question.answer}</div>`;
-
-        // Button container with Back and Next
-        html += `<div class="button-container">`;
-        html += `<button class="quiz-back-button" onclick="showLevelSelection()">← Back</button>`;
-        html += `<button class="next-button" onclick="nextQuestion()">Next →</button>`;
-        html += `</div>`;
     } else {
         // Multiple choice answers
         html += `<div class="answers-container">`;
@@ -387,13 +381,17 @@ function displayQuestion() {
             html += `<div class="answer-option" onclick="selectAnswer(${index})">${option}</div>`;
         });
         html += `</div>`;
-
-        // Button container with Back and Next
-        html += `<div class="button-container">`;
-        html += `<button class="quiz-back-button" onclick="showLevelSelection()">← Back</button>`;
-        html += `<button class="next-button" id="nextBtn" onclick="nextQuestion()" disabled>Next →</button>`;
-        html += `</div>`;
     }
+
+    // Button container with Back and Next (outside if/else - used for both question types)
+    html += `<div class="button-container">`;
+    html += `<button class="quiz-back-button" onclick="showLevelSelection()">← Back</button>`;
+    if (currentLevel === 'extreme') {
+        html += `<button class="next-button" onclick="nextQuestion()">Next →</button>`;
+    } else {
+        html += `<button class="next-button" id="nextBtn" onclick="nextQuestion()" disabled>Next →</button>`;
+    }
+    html += `</div>`;
 
     document.getElementById('quizContent').innerHTML = html;
 

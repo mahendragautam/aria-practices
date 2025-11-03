@@ -488,24 +488,32 @@ function retakeQuiz() {
 }
 
 function createFallingEmojis(emojiString) {
-    const emojis = emojiString.split('');
+    // Convert to array and shuffle for better randomization
+    const emojis = emojiString.split('').sort(() => Math.random() - 0.5);
+    let emojiIndex = 0;
+
     const interval = setInterval(() => {
-        if (answered && fallingEmojis.length < 15) {  // Limit to 15 for single line
+        if (answered && fallingEmojis.length < 10) {  // Limit to 10 emojis
             const emoji = document.createElement('div');
             emoji.className = 'falling-emoji';
-            emoji.textContent = emojis[Math.floor(Math.random() * emojis.length)];
-            // Fixed position at 5% from left for single line effect
-            emoji.style.left = '5%';
-            emoji.style.animationDuration = (Math.random() * 1.5 + 2) + 's';
+
+            // Pick emoji sequentially from shuffled array for better distribution
+            emoji.textContent = emojis[emojiIndex % emojis.length];
+            emojiIndex++;
+
+            // Position beside answer container on left
+            emoji.style.left = '2%';
+            emoji.style.top = (40 + Math.random() * 30) + '%';  // Random vertical position
+            emoji.style.animationDuration = (Math.random() * 0.5 + 2) + 's';
             document.body.appendChild(emoji);
             fallingEmojis.push(emoji);
 
             setTimeout(() => {
                 emoji.remove();
                 fallingEmojis = fallingEmojis.filter(e => e !== emoji);
-            }, 4000);
+            }, 2500);  // Match animation duration
         }
-    }, 250);  // Slower interval for cleaner single line
+    }, 300);  // Interval for emoji appearance
 
     // Store interval to clear later
     window.fallingInterval = interval;

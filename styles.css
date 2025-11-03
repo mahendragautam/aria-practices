@@ -164,7 +164,7 @@ body {
 .topic-astronomy { background: #9b59b6; }
 
 .question-container {
-    text-align: left;
+    text-align: center;
     margin-bottom: 12px;
     padding: 0 15px;
 }
@@ -185,7 +185,7 @@ body {
     color: #333;
     margin: 10px 0;
     font-weight: 600;
-    text-align: left;
+    text-align: center;
 }
 
 .answers-container {

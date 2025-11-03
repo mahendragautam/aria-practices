@@ -512,7 +512,12 @@ function createFallingEmojis(emojiString) {
 
             // Pick emoji with complete randomization from shuffled array
             const randomIndex = Math.floor(Math.random() * emojis.length);
-            emoji.textContent = emojis[randomIndex];
+            const selectedEmoji = emojis[randomIndex];
+
+            // Use innerHTML and ensure proper encoding
+            emoji.innerHTML = selectedEmoji;
+            emoji.setAttribute('role', 'img');
+            emoji.setAttribute('aria-label', 'emoji');
 
             // Reshuffle frequently for maximum variety
             if (Math.random() > 0.5) {

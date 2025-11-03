@@ -38,7 +38,7 @@ body {
     width: 100%;
     max-width: 100vw;
     margin: 0 auto;
-    padding: 0;
+    padding: 0 10px;
 }
 
 .chapter-card {
@@ -64,7 +64,7 @@ body {
     width: 100%;
     max-width: 100vw;
     margin: 0 auto;
-    padding: 0;
+    padding: 0 10px;
 }
 
 .level-card {
@@ -476,7 +476,7 @@ body {
     text-align: center;
     font-size: 2.2em;
     color: #333;
-    margin: 5px 0 5px 0;
+    margin: 10px 0 20px 0;
     font-weight: bold;
 }
 
@@ -487,7 +487,7 @@ body {
 .level-title {
     text-align: center;
     font-size: 2em;
-    margin: 5px 0;
+    margin: 10px 0 15px 0;
     color: #333;
 }
 

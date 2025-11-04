@@ -991,7 +991,16 @@ function showResults() {
 }
 
 function retakeQuiz() {
-    startQuiz(currentLevel, isTimedMode);
+    // Retake quiz based on current mode
+    if (quizMode === 'normal') {
+        startQuiz(currentLevel, isTimedMode);
+    } else if (quizMode === 'subject-timer') {
+        startSubjectTimer(currentLevel);
+    } else if (quizMode === 'mixed-levelwise' || quizMode === 'mixed-complete') {
+        const mixType = quizMode === 'mixed-levelwise' ? 'levelwise' : 'complete';
+        const timedMode = returnPage === 'timer-challenges';
+        startMixedQuiz(currentLevel, mixType, timedMode);
+    }
 }
 
 // Timer functions for Quick Pick mode

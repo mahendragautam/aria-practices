@@ -581,6 +581,7 @@ function startSubjectTimer(level) {
     canPause = false; // No pause for timer challenges
     isPaused = false;
     quizMode = 'subject-timer';
+    returnPage = 'timer-challenges'; // Ensure returnPage is set
 
     // Collect all questions from all 20 chapters for this subject and level
     let allQuestions = [];

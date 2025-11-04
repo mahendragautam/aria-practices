@@ -507,6 +507,21 @@ function showHomePage() {
     showScreen('home-page');
 }
 
+function toggleSubjects() {
+    const grid = document.getElementById('subjectGrid');
+    const icon = document.getElementById('toggleIcon');
+
+    if (grid.classList.contains('expanded')) {
+        grid.classList.remove('expanded');
+        icon.classList.add('collapsed');
+        icon.textContent = '▶';
+    } else {
+        grid.classList.add('expanded');
+        icon.classList.remove('collapsed');
+        icon.textContent = '▼';
+    }
+}
+
 function selectSubject(subject) {
     currentSubject = subject;
     quizMode = 'normal';
@@ -702,7 +717,7 @@ function startQuiz(level, timedMode = false) {
     score = 0;
     startTime = Date.now();
     isTimedMode = timedMode;
-    canPause = true; // Normal quiz can pause
+    canPause = !timedMode; // Quick Pick (timed mode) cannot pause, normal mode can
     isPaused = false;
     quizMode = 'normal';
     returnPage = 'home';

@@ -204,12 +204,42 @@ html {
     padding: 0 5px;
 }
 
+.section-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    cursor: pointer;
+    padding: 15px 10px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 15px;
+    margin: 10px 5px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.section-header:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
 .section-title {
     text-align: center;
-    font-size: 1.8em;
-    margin: 20px 0;
-    color: #333;
+    font-size: 1.5em;
+    margin: 0;
+    color: #fff;
     font-weight: bold;
+}
+
+.toggle-icon {
+    font-size: 1.3em;
+    color: #fff;
+    transition: transform 0.3s;
+    font-weight: bold;
+}
+
+.toggle-icon.collapsed {
+    transform: rotate(-90deg);
 }
 
 .home-grid {
@@ -258,9 +288,17 @@ html {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
-    padding: 0 5px 20px 5px;
+    padding: 0;
     max-width: 100%;
     margin: 0 auto;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out, padding 0.5s ease-out;
+}
+
+.subject-grid.expanded {
+    max-height: 2000px;
+    padding: 0 5px 20px 5px;
 }
 
 .subject-grid.small {

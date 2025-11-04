@@ -12,10 +12,13 @@
         <div class="home-page active">
             <h1 class="title">🎯 Quiz Collection 🎯</h1>
 
-            <!-- Individual Subjects Section (Auto-Expanded) -->
+            <!-- Individual Subjects Section (Collapsible) -->
             <div class="home-section">
-                <h2 class="section-title">📚 Individual Subjects</h2>
-                <div class="subject-grid" id="subjectGrid">
+                <div class="section-header" onclick="toggleSubjects()">
+                    <h2 class="section-title">📚 Individual Subjects</h2>
+                    <span class="toggle-icon" id="toggleIcon">▼</span>
+                </div>
+                <div class="subject-grid expanded" id="subjectGrid">
                     <div class="subject-card" onclick="selectSubject('science')">
                         <div class="subject-emoji">🔬</div>
                         <div class="subject-name">Science</div>

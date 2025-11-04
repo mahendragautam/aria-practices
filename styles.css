@@ -199,10 +199,108 @@ html {
 .level-mixed { background: linear-gradient(135deg, #FF6B6B 0%, #4ECDC4 50%, #45B7D1 100%); }
 
 /* Home Page Styles */
+/* Hero Section */
+.hero-section {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 20px;
+    margin: 10px 5px 20px 5px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.hero-emoji {
+    font-size: 4em;
+    margin-bottom: 15px;
+    animation: bounce 2s infinite;
+}
+
+.hero-title {
+    font-size: 2.2em;
+    color: #fff;
+    margin: 0 0 10px 0;
+    font-weight: bold;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.hero-subtitle {
+    font-size: 1.1em;
+    color: #fff;
+    opacity: 0.95;
+    margin: 0 0 30px 0;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+.hero-stats {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.stat-item {
+    text-align: center;
+}
+
+.stat-number {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.stat-label {
+    font-size: 0.9em;
+    color: #fff;
+    opacity: 0.9;
+    margin-top: 5px;
+}
+
 .home-section {
     margin: 20px auto; /* Center on desktop */
     padding: 0 5px;
     max-width: 600px; /* Desktop max-width for cleaner look */
+}
+
+/* Footer Styles */
+.quiz-footer {
+    margin-top: 40px;
+    padding: 30px 10px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.footer-text {
+    color: #fff;
+    font-size: 1em;
+    margin: 0 0 15px 0;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.95em;
+    transition: opacity 0.3s;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+.footer-link:hover {
+    opacity: 0.8;
+    text-decoration: underline;
 }
 
 .section-header {

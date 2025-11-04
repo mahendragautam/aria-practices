@@ -235,8 +235,10 @@ html {
     text-align: center;
     padding: 40px 20px;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    border-radius: 20px;
-    margin: 10px 5px 20px 5px;
+    border-radius: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
     box-shadow: 0 8px 25px rgba(0,0,0,0.15);
 }
 
@@ -268,12 +270,13 @@ html {
 .hero-stats {
     display: flex;
     justify-content: center;
-    gap: 30px;
     flex-wrap: wrap;
+    margin: 0 -15px; /* Negative margin for spacing */
 }
 
 .stat-item {
     text-align: center;
+    margin: 0 15px; /* Spacing between items */
 }
 
 .stat-number {
@@ -1447,6 +1450,43 @@ html {
 
     .result-content {
         max-width: 900px;
+    }
+
+    /* Quiz content constraints for desktop */
+    .quiz-container {
+        max-width: 900px;
+        margin: 0 auto !important;
+        padding: 0 20px !important;
+    }
+
+    .question-container {
+        max-width: 800px;
+        margin: 0 auto 12px auto !important;
+    }
+
+    .answers-container {
+        max-width: 700px;
+        margin: 8px auto !important;
+    }
+
+    .progress-bar-container {
+        max-width: 800px;
+        margin: 5px auto !important;
+    }
+
+    .button-container {
+        max-width: 800px;
+        margin: 15px auto !important;
+    }
+
+    .extreme-input {
+        max-width: 700px;
+        margin: 15px auto !important;
+    }
+
+    .extreme-buttons {
+        max-width: 700px;
+        margin: 15px auto !important;
     }
 }
 

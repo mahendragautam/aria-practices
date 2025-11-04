@@ -1436,6 +1436,14 @@ html {
 
 /* Large screens - 3 columns */
 @media (min-width: 1025px) {
+    /* Chapter Selection and Level Selection Pages */
+    .chapter-selection,
+    .level-selection {
+        max-width: 1200px;
+        margin: 0 auto !important;
+        padding: 0 30px !important;
+    }
+
     /* Chapter and Level Grids */
     .chapter-grid {
         grid-template-columns: repeat(3, 1fr);
@@ -1447,6 +1455,14 @@ html {
         grid-template-columns: repeat(3, 1fr);
         max-width: 1200px;
         margin: 0 auto !important;
+    }
+
+    /* Home Page - White background container centered */
+    .home-content {
+        max-width: 1200px;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        padding: 35px 30px 0 !important;
     }
 
     /* Home Page Cards - Centered */
@@ -1471,9 +1487,17 @@ html {
         padding: 20px 10px !important;
     }
 
+    /* Result Container Page */
+    .result-container {
+        max-width: 1200px;
+        margin: 0 auto !important;
+        padding: 0 30px !important;
+    }
+
     /* Result Content */
     .result-content {
         max-width: 900px;
+        margin: 0 auto !important;
     }
 
     /* Quiz content constraints for desktop */
@@ -1541,6 +1565,17 @@ html {
 
 /* Extra large screens - 4 columns */
 @media (min-width: 1400px) {
+    /* Page containers - wider on extra large */
+    .home-content,
+    .chapter-selection,
+    .level-selection,
+    .result-container,
+    .timer-challenges-page,
+    .practice-mode-page,
+    .timer-subject-level-selection {
+        max-width: 1400px;
+    }
+
     .chapter-grid {
         grid-template-columns: repeat(4, 1fr);
         max-width: 1400px;

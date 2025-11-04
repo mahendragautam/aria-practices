@@ -911,8 +911,8 @@ function selectAnswer(selectedIndex) {
         options[question.correct].classList.add('correct');
         feedback.textContent = ['Try next 📚', 'Keep learning 📖', 'Review this topic 🔍', 'Study more 💪', 'Not quite ❌'][Math.floor(Math.random() * 5)];
         feedback.className = 'feedback-message feedback-incorrect';
-        // ONLY emojis that ACTUALLY work - repeated for variety
-        createFallingEmojis('✏️✏️✏️✏️✏️⚙️⚙️⚙️⚙️⚙️✏️✏️✏️⚙️⚙️⚙️✏️✏️⚙️⚙️');
+        // Colorful incorrect emojis - thinking, learning, questioning
+        createFallingEmojis('💭💭💭🤔🤔🤔📚📚📚🔍🔍🔍💡💡💡🧠🧠🧠❓❓❓🤷🤷🤷💭🤔📚🔍💡🧠❓🤷');
     }
 
     nextBtn.disabled = false;
@@ -963,8 +963,8 @@ function submitExtremeAnswer() {
         feedback.textContent = ['Not quite! 🤔', 'Try again next time! 💪', 'Keep learning! 📚', 'Close! 📝'][Math.floor(Math.random() * 4)];
         feedback.className = 'feedback-message feedback-incorrect';
 
-        // Wrong answer bubble foam
-        createFallingEmojis('✏️✏️✏️✏️✏️⚙️⚙️⚙️⚙️⚙️✏️✏️✏️⚙️⚙️⚙️✏️✏️⚙️⚙️');
+        // Wrong answer bubble foam - colorful emojis
+        createFallingEmojis('💭💭💭🤔🤔🤔📚📚📚🔍🔍🔍💡💡💡🧠🧠🧠❓❓❓🤷🤷🤷💭🤔📚🔍💡🧠❓🤷');
 
         // Show correct answer
         answerDiv.style.display = 'block';
@@ -990,8 +990,8 @@ function showExtremeAnswer() {
         submitBtn.style.opacity = '0.5';
     }
 
-    // Wrong answer bubble foam effect (since they're just viewing answer)
-    createFallingEmojis('✏️✏️✏️✏️✏️⚙️⚙️⚙️⚙️⚙️✏️✏️✏️⚙️⚙️⚙️✏️✏️⚙️⚙️');
+    // Wrong answer bubble foam effect - colorful emojis
+    createFallingEmojis('💭💭💭🤔🤔🤔📚📚📚🔍🔍🔍💡💡💡🧠🧠🧠❓❓❓🤷🤷🤷💭🤔📚🔍💡🧠❓🤷');
 
     // Enable Next button
     nextBtn.disabled = false;

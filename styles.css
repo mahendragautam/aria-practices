@@ -200,8 +200,9 @@ html {
 
 /* Home Page Styles */
 .home-section {
-    margin: 20px 0;
+    margin: 20px auto; /* Center on desktop */
     padding: 0 5px;
+    max-width: 600px; /* Desktop max-width for cleaner look */
 }
 
 .section-header {
@@ -229,6 +230,7 @@ html {
     margin: 0;
     color: #fff;
     font-weight: bold;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3); /* Better text visibility */
 }
 
 .toggle-icon {
@@ -247,7 +249,7 @@ html {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     padding: 0 5px 20px 5px;
-    max-width: 100%;
+    max-width: 600px; /* Desktop max-width for cleaner look */
     margin: 0 auto;
 }
 
@@ -260,6 +262,7 @@ html {
     transition: transform 0.3s, box-shadow 0.3s;
     color: #fff;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3); /* Better text visibility */
 }
 
 .home-card:hover {
@@ -289,11 +292,11 @@ html {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     padding: 0;
-    max-width: 100%;
+    max-width: 600px; /* Desktop max-width for cleaner look */
     margin: 0 auto;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.5s ease-out, padding 0.5s ease-out;
+    transition: max-height 0.3s ease-out, padding 0.3s ease-out; /* Faster animation */
 }
 
 .subject-grid.expanded {
@@ -314,6 +317,7 @@ html {
     transition: transform 0.3s, box-shadow 0.3s;
     color: #fff;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3); /* Better text visibility */
 }
 
 /* Different colors for each subject */
@@ -371,9 +375,10 @@ html {
 .mode-title {
     text-align: center;
     font-size: 1.5em;
-    color: #333;
+    color: #fff; /* White text for collapsible headers */
     margin: 0 0 8px 0;
     font-weight: bold;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3); /* Better text visibility */
 }
 
 .mode-description {
@@ -405,7 +410,7 @@ html {
 .collapsible-content {
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.5s ease-out, padding 0.5s ease-out;
+    transition: max-height 0.3s ease-out, padding 0.3s ease-out; /* Faster animation */
     padding: 0;
 }
 

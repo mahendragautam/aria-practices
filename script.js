@@ -526,6 +526,16 @@ function selectSubject(subject) {
     currentSubject = subject;
     quizMode = 'normal';
     returnPage = 'home';
+
+    // Auto-collapse subjects after selection
+    const grid = document.getElementById('subjectGrid');
+    const icon = document.getElementById('toggleIcon');
+    if (grid.classList.contains('expanded')) {
+        grid.classList.remove('expanded');
+        icon.classList.add('collapsed');
+        icon.textContent = '▶';
+    }
+
     const subjectData = subjects[subject];
     document.getElementById('subjectTitle').innerHTML = `${subjectData.emoji} ${subjectData.name} ${subjectData.emoji}`;
     initializeChapters();
@@ -639,12 +649,17 @@ function startMixedQuiz(level, mixType, timedMode) {
 function goBackFromResult() {
     if (returnPage === 'home') {
         if (quizMode === 'normal') {
-            showChapterSelection();
+            showLevelSelection();
         } else {
             showHomePage();
         }
     } else if (returnPage === 'timer-challenges') {
-        showTimerChallenges();
+        if (quizMode === 'subject-timer') {
+            // Go back to level selection for this subject
+            showScreen('timer-subject-level-selection');
+        } else {
+            showTimerChallenges();
+        }
     } else if (returnPage === 'practice-mode') {
         showPracticeMode();
     } else {
@@ -765,6 +780,7 @@ function displayQuestion() {
     // Question container - left aligned
     html += `<div class="question-container">`;
     html += `<div class="question-emoji">${question.emoji}</div>`;
+    html += `<div class="topic-badge">${question.topic}</div>`;
     html += `<div class="question-text">${question.question}</div>`;
     html += `</div>`;
 

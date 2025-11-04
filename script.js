@@ -677,6 +677,35 @@ function goBackFromResult() {
     }
 }
 
+function goBackFromQuiz() {
+    // Handle back button during quiz (not from result)
+    console.log('=== goBackFromQuiz DEBUG ===');
+    console.log('returnPage:', returnPage);
+    console.log('quizMode:', quizMode);
+    console.log('============================');
+
+    clearFallingEmojis();
+    stopTimer();
+
+    if (returnPage === 'home') {
+        if (quizMode === 'normal') {
+            showLevelSelection();
+        } else {
+            showHomePage();
+        }
+    } else if (returnPage === 'timer-challenges') {
+        // Go back to Timer Challenges page
+        console.log('Going back to Timer Challenges from quiz');
+        showTimerChallenges();
+    } else if (returnPage === 'practice-mode') {
+        // Go back to Practice Mode page
+        console.log('Going back to Practice Mode from quiz');
+        showPracticeMode();
+    } else {
+        showHomePage();
+    }
+}
+
 // Initialize chapters
 function initializeChapters() {
     const grid = document.getElementById('chapterGrid');
@@ -829,7 +858,7 @@ function displayQuestion() {
 
     // Button container with Back and Next (outside if/else - used for both question types)
     html += `<div class="button-container">`;
-    html += `<button class="quiz-back-button" onclick="showLevelSelection()">← Back</button>`;
+    html += `<button class="quiz-back-button" onclick="goBackFromQuiz()">← Back</button>`;
     html += `<button class="next-button" id="nextBtn" onclick="nextQuestion()" disabled>Next →</button>`;
     html += `</div>`;
 

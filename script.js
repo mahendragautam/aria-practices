@@ -37,7 +37,7 @@ const subjects = {
     english: { name: 'English', emoji: '📖' },
     health: { name: 'Health & Fitness', emoji: '💪' },
     environment: { name: 'Environment', emoji: '🌱' },
-    finance: { name: 'Finance', emoji: '💰' },
+    business: { name: 'Business', emoji: '💼' },
     technology: { name: 'Technology', emoji: '💻' },
     parenting: { name: 'Parenting', emoji: '👶' }
 };
@@ -248,7 +248,7 @@ const subjectQuestionBank = {
     english: {},
     health: {},
     environment: {},
-    finance: {},
+    business: {},
     technology: {},
     parenting: {}
 };
@@ -338,87 +338,87 @@ for (let ch = 4; ch <= 20; ch++) {
 }
 
 // Generate questions for all other subjects (all 20 chapters)
-const otherSubjects = ['math', 'history', 'geography', 'english', 'health', 'environment', 'finance', 'technology', 'parenting'];
+const otherSubjects = ['math', 'history', 'geography', 'english', 'health', 'environment', 'business', 'technology', 'parenting'];
 const subjectTopics = {
     math: {
-        topics: ['Algebra', 'Geometry', 'Calculus', 'Statistics'],
+        topics: ['Arithmetic', 'Algebra', 'Geometry', 'Calculus'],
         emojis: {
-            'Algebra': ['➕➖', '✖️➗', '🔢📊', '📐📏'],
+            'Arithmetic': ['➕➖', '✖️➗', '🔢💯', '📊🔢'],
+            'Algebra': ['📐📏', 'x²📊', '🔢📈', '∑📉'],
             'Geometry': ['📐🔺', '⭕🔷', '📏📐', '🔶⬛'],
-            'Calculus': ['∫📈', '📉∂', 'dx/dy', 'lim→'],
-            'Statistics': ['📊📈', '📉🎲', '🎯📊', '📈💹']
+            'Calculus': ['∫📈', '📉∂', 'dx/dy', 'lim→']
         }
     },
     history: {
-        topics: ['Ancient', 'Medieval', 'Modern', 'Contemporary'],
+        topics: ['Ancient', 'Medieval', 'Renaissance', 'Modern'],
         emojis: {
             'Ancient': ['🏛️👑', '⚔️🛡️', '📜🏺', '🗿🏛️'],
             'Medieval': ['🏰⚔️', '👑🛡️', '🗡️🏰', '⚔️🛡️'],
-            'Modern': ['🏭🚂', '✈️🚢', '📰🗞️', '🌍🗺️'],
-            'Contemporary': ['🌐💻', '🚀🛰️', '📱💾', '🌍🌎']
+            'Renaissance': ['🎨🖼️', '📚🖋️', '🎭🎨', '📜✨'],
+            'Modern': ['🏭🚂', '✈️🚢', '📰🗞️', '🌍🗺️']
         }
     },
     geography: {
-        topics: ['Physical', 'Political', 'Climate', 'Resources'],
+        topics: ['Continents', 'Oceans', 'Mountains', 'Rivers'],
         emojis: {
-            'Physical': ['🏔️🌋', '🏜️🏞️', '🌊🏝️', '🏔️⛰️'],
-            'Political': ['🗺️🌍', '🏛️🏢', '🌎🌏', '🗺️🌐'],
-            'Climate': ['☀️🌧️', '❄️🌨️', '🌈⛈️', '🌡️🌦️'],
-            'Resources': ['⛽🛢️', '💎⛏️', '🌾🌽', '💧🌊']
+            'Continents': ['🌍🌎', '🗺️🌏', '🌐🗺️', '🌍🌐'],
+            'Oceans': ['🌊🐋', '🏖️🌊', '🚢⛵', '🌊🐠'],
+            'Mountains': ['🏔️⛰️', '🏔️🗻', '⛰️🏔️', '🗻🏔️'],
+            'Rivers': ['🏞️💧', '💧🌊', '🏞️🏞️', '💧🏞️']
         }
     },
     english: {
-        topics: ['Grammar', 'Literature', 'Vocabulary', 'Writing'],
+        topics: ['Grammar', 'Vocabulary', 'Literature', 'Composition'],
         emojis: {
             'Grammar': ['📝✍️', '📖📚', '✏️📄', '📝📋'],
-            'Literature': ['📚📖', '📜✍️', '🎭📚', '📖🖋️'],
             'Vocabulary': ['💬📝', '🗣️💭', '📚🔤', '💬🔤'],
-            'Writing': ['✍️📝', '🖋️📜', '✏️📄', '📝🖊️']
+            'Literature': ['📚📖', '📜✍️', '🎭📚', '📖🖋️'],
+            'Composition': ['✍️📝', '🖋️📜', '✏️📄', '📝🖊️']
         }
     },
     health: {
-        topics: ['Nutrition', 'Exercise', 'Mental', 'Wellness'],
+        topics: ['Nutrition', 'Exercise', 'Yoga', 'Cardio'],
         emojis: {
             'Nutrition': ['🥗🍎', '🥦🥕', '🍊🥤', '🥗🍇'],
             'Exercise': ['🏃💪', '🏋️🤸', '🚴🏃', '💪🤸'],
-            'Mental': ['🧠💭', '😌🧘', '💆🧘', '🧠💆'],
-            'Wellness': ['🧘💚', '😊🌟', '💚🌈', '✨🌟']
+            'Yoga': ['🧘🕉️', '🧘‍♀️💆', '🕉️🧘', '💆🧘'],
+            'Cardio': ['🏃‍♂️💨', '🚴‍♀️💪', '⛹️‍♀️🏃', '🏃💨']
         }
     },
     environment: {
-        topics: ['Ecology', 'Conservation', 'Climate', 'Sustainability'],
+        topics: ['Ecology', 'Wildlife', 'Pollution', 'Recycling'],
         emojis: {
             'Ecology': ['🌿🌳', '🌱🦋', '🌲🐦', '🌿🦋'],
-            'Conservation': ['♻️🌍', '🌊🐋', '🌳🌿', '♻️🌱'],
-            'Climate': ['🌡️🌍', '❄️🌡️', '☀️🌧️', '🌡️⛈️'],
-            'Sustainability': ['♻️🌱', '🌍💚', '🌿💚', '♻️🌍']
+            'Wildlife': ['🦁🐘', '🐯🦒', '🦋🐝', '🦅🐺'],
+            'Pollution': ['💨🏭', '🌫️💨', '🚗💨', '🏭🌫️'],
+            'Recycling': ['♻️🌍', '♻️♻️', '🗑️♻️', '♻️🌱']
         }
     },
-    finance: {
-        topics: ['Budgeting', 'Investing', 'Saving', 'Planning'],
+    business: {
+        topics: ['Marketing', 'Finance', 'Accounting', 'Management'],
         emojis: {
-            'Budgeting': ['💰💵', '💳💸', '📊💰', '💰📈'],
-            'Investing': ['📈💹', '💵📊', '💸💹', '📈💰'],
-            'Saving': ['🏦💰', '💰🐷', '💵💰', '🏦💵'],
-            'Planning': ['📋💰', '📊💹', '💼📈', '📋💵']
+            'Marketing': ['📢📱', '🎯📊', '📣💼', '📊🎯'],
+            'Finance': ['💰💵', '💳💸', '📊💰', '💰📈'],
+            'Accounting': ['🧾📊', '💼📋', '📊🧾', '💵🧾'],
+            'Management': ['👔💼', '📋📊', '👨‍💼📈', '💼📋']
         }
     },
     technology: {
-        topics: ['Computing', 'Internet', 'AI', 'Security'],
+        topics: ['Programming', 'Hardware', 'Software', 'Networking'],
         emojis: {
-            'Computing': ['💻🖥️', '⌨️🖱️', '💾💿', '💻📱'],
-            'Internet': ['🌐📡', '📱💬', '🌍📡', '🌐💻'],
-            'AI': ['🤖🧠', '🤖💡', '🧠💻', '🤖📊'],
-            'Security': ['🔒🛡️', '🔐🔑', '🛡️🔒', '🔐🛡️']
+            'Programming': ['💻⌨️', '</>', '🖥️💾', '⌨️💻'],
+            'Hardware': ['🖥️⚙️', '💾🖱️', '⌨️🖥️', '💻🔧'],
+            'Software': ['💿💻', '📱💾', '🖥️💿', '💻📀'],
+            'Networking': ['🌐📡', '📡🌍', '🌐💻', '📡🔌']
         }
     },
     parenting: {
-        topics: ['Development', 'Education', 'Health', 'Discipline'],
+        topics: ['Newborn', 'Toddler', 'Preschool', 'School-Age'],
         emojis: {
-            'Development': ['👶👣', '🍼🧸', '👶💕', '🍼👶'],
-            'Education': ['📚👶', '🎓📖', '✏️📚', '📖🎓'],
-            'Health': ['🏥👶', '💉🩺', '🏥💊', '👶💊'],
-            'Discipline': ['📋👨‍👩‍👧', '⏰📝', '✅📋', '👨‍👩‍👧‍👦💬']
+            'Newborn': ['👶🍼', '🍼👶', '👶💕', '🍼💕'],
+            'Toddler': ['👶🧸', '🧸👣', '👣🧸', '👶👣'],
+            'Preschool': ['🎨✏️', '📚🖍️', '🧩🎨', '✏️📚'],
+            'School-Age': ['🎒📚', '📖🎓', '✏️📚', '🎓📖']
         }
     }
 };
@@ -654,13 +654,10 @@ function goBackFromResult() {
             showHomePage();
         }
     } else if (returnPage === 'timer-challenges') {
-        if (quizMode === 'subject-timer') {
-            // Go back to level selection for this subject
-            showScreen('timer-subject-level-selection');
-        } else {
-            showTimerChallenges();
-        }
+        // Always go back to Timer Challenges page
+        showTimerChallenges();
     } else if (returnPage === 'practice-mode') {
+        // Always go back to Practice Mode page
         showPracticeMode();
     } else {
         showHomePage();

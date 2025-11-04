@@ -904,15 +904,15 @@ function selectAnswer(selectedIndex) {
         feedback.textContent = ['Excellent! 🌟', 'Perfect! ✨', 'Outstanding! 🎯', 'Brilliant! 💡', 'Superb! 🏆'][Math.floor(Math.random() * 5)];
         feedback.className = 'feedback-message feedback-correct';
         score++;
-        // ONLY emojis that ACTUALLY work - repeated for variety
-        createFallingEmojis('⭐⭐⭐✨✨✨⚡⚡⚡❤❤❤💙💙💚💚💛💛💜💜✅✅✔️✔️☀️☀️☀️⭐✨⚡❤💙💚💛💜✅✔️☀️');
+        // Correct answer bubble foam
+        createFallingEmojis('correct');
     } else {
         options[selectedIndex].classList.add('incorrect');
         options[question.correct].classList.add('correct');
         feedback.textContent = ['Try next 📚', 'Keep learning 📖', 'Review this topic 🔍', 'Study more 💪', 'Not quite ❌'][Math.floor(Math.random() * 5)];
         feedback.className = 'feedback-message feedback-incorrect';
-        // Colorful incorrect emojis - thinking, learning, questioning
-        createFallingEmojis('💭💭💭🤔🤔🤔📚📚📚🔍🔍🔍💡💡💡🧠🧠🧠❓❓❓🤷🤷🤷💭🤔📚🔍💡🧠❓🤷');
+        // Wrong answer bubble foam - colorful emojis
+        createFallingEmojis('incorrect');
     }
 
     nextBtn.disabled = false;
@@ -955,7 +955,7 @@ function submitExtremeAnswer() {
         score++;
 
         // Correct answer bubble foam
-        createFallingEmojis('⭐⭐⭐✨✨✨⚡⚡⚡❤❤❤💙💙💚💚💛💛💜💜✅✅✔️✔️☀️☀️☀️⭐✨⚡❤💙💚💛💜✅✔️☀️');
+        createFallingEmojis('correct');
     } else {
         // Wrong answer
         input.style.borderColor = '#e74c3c';
@@ -964,7 +964,7 @@ function submitExtremeAnswer() {
         feedback.className = 'feedback-message feedback-incorrect';
 
         // Wrong answer bubble foam - colorful emojis
-        createFallingEmojis('💭💭💭🤔🤔🤔📚📚📚🔍🔍🔍💡💡💡🧠🧠🧠❓❓❓🤷🤷🤷💭🤔📚🔍💡🧠❓🤷');
+        createFallingEmojis('incorrect');
 
         // Show correct answer
         answerDiv.style.display = 'block';
@@ -991,7 +991,7 @@ function showExtremeAnswer() {
     }
 
     // Wrong answer bubble foam effect - colorful emojis
-    createFallingEmojis('💭💭💭🤔🤔🤔📚📚📚🔍🔍🔍💡💡💡🧠🧠🧠❓❓❓🤷🤷🤷💭🤔📚🔍💡🧠❓🤷');
+    createFallingEmojis('incorrect');
 
     // Enable Next button
     nextBtn.disabled = false;
@@ -1159,9 +1159,15 @@ function handleTimeUp() {
     }, 2000);
 }
 
-function createFallingEmojis(emojiString) {
-    // Convert to array and create multiple shuffled copies for better variety
-    let emojis = emojiString.split('');
+function createFallingEmojis(type) {
+    // Working emojis - these display properly!
+    const workingEmojis = {
+        correct: ['⭐', '✨', '⚡', '❤️', '💙', '💚', '💛', '💜', '✅', '✔️', '☀️', '🌟', '💫', '🎉', '🎊', '🎈'],
+        incorrect: ['💭', '🤔', '📚', '🔍', '💡', '🧠', '❓', '🤷', '📝', '📖']
+    };
+
+    // Get emojis based on answer type
+    const emojisToUse = type === 'correct' ? workingEmojis.correct : workingEmojis.incorrect;
 
     // Fisher-Yates shuffle for true randomization
     function shuffleArray(array) {
@@ -1174,26 +1180,22 @@ function createFallingEmojis(emojiString) {
     }
 
     // Create a pool of emojis with better distribution
-    emojis = shuffleArray(emojis);
-    let emojiIndex = 0;
+    let emojis = shuffleArray(emojisToUse);
 
     const interval = setInterval(() => {
         if (answered && fallingEmojis.length < 45) {  // HEAVY foam: 45 emojis at once!
             const emoji = document.createElement('span');
             emoji.className = 'falling-emoji';
 
-            // Pick emoji with complete randomization from shuffled array
-            const randomIndex = Math.floor(Math.random() * emojis.length);
-            const selectedEmoji = emojis[randomIndex];
-
-            // Use textContent with proper character
-            emoji.textContent = String.fromCodePoint(selectedEmoji.codePointAt(0));
+            // ✅ DIRECT TEXT ASSIGNMENT - KEY FIX!
+            const selectedEmoji = emojis[Math.floor(Math.random() * emojis.length)];
+            emoji.textContent = selectedEmoji;  // No HTML entities, no conversions!
             emoji.setAttribute('role', 'img');
-            emoji.setAttribute('aria-label', 'emoji');
+            emoji.setAttribute('aria-label', 'celebration emoji');
 
             // Reshuffle frequently for maximum variety
             if (Math.random() > 0.5) {
-                emojis = shuffleArray(emojis.slice());
+                emojis = shuffleArray(emojis);
             }
 
             // Position outside quiz container on left, from back button to topic area

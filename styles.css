@@ -546,8 +546,11 @@ html {
     max-width: fit-content !important;
     width: auto !important;
     box-sizing: border-box;
+    /* Default background for all topics */
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
 
+/* Science topic colors */
 .topic-biology { background: #2ecc71; }
 .topic-physics { background: #3498db; }
 .topic-chemistry { background: #e74c3c; }

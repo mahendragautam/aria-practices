@@ -522,6 +522,21 @@ function toggleSubjects() {
     }
 }
 
+function toggleSection(sectionId) {
+    const content = document.getElementById(sectionId);
+    const arrow = document.getElementById(sectionId + 'Arrow');
+
+    if (content.classList.contains('expanded')) {
+        content.classList.remove('expanded');
+        arrow.classList.add('collapsed');
+        arrow.textContent = '▶';
+    } else {
+        content.classList.add('expanded');
+        arrow.classList.remove('collapsed');
+        arrow.textContent = '▼';
+    }
+}
+
 function selectSubject(subject) {
     currentSubject = subject;
     quizMode = 'normal';
@@ -794,10 +809,13 @@ function displayQuestion() {
     answered = false;
     const question = shuffledQuestions[currentQuestionIndex];
 
-    let html = '';
+    console.log('=== DISPLAY QUESTION DEBUG ===');
+    console.log('Current Subject:', currentSubject);
+    console.log('Question Topic:', question.topic);
+    console.log('Question:', question.question);
+    console.log('==============================');
 
-    // Topic badge on left
-    html += `<div class="topic-badge topic-${question.topic.toLowerCase()}">${question.topic}</div>`;
+    let html = '';
 
     // Timer display for Quick Pick mode
     if (isTimedMode) {

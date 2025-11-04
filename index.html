@@ -100,9 +100,13 @@
 
             <!-- Normal Level Section -->
             <div class="mode-section">
-                <h3 class="mode-title">📚 Normal Level</h3>
-                <p class="mode-description">Practice at your own pace - No time limit</p>
-                <div class="level-grid">
+                <div class="collapsible-header" onclick="toggleSection('normalLevel')">
+                    <h3 class="mode-title">📚 Normal Level</h3>
+                    <span class="toggle-arrow" id="normalLevelArrow">▼</span>
+                </div>
+                <div class="collapsible-content expanded" id="normalLevel">
+                    <p class="mode-description">Practice at your own pace - No time limit</p>
+                    <div class="level-grid">
                     <div class="level-card level-easy" onclick="startQuiz('easy', false)">
                         <div>🟢 EASY</div>
                         <div style="font-size: 0.9em; margin-top: 10px;">True or False</div>
@@ -122,6 +126,7 @@
                     <div class="level-card level-extreme" onclick="startQuiz('extreme', false)">
                         <div>⚫ EXTREME</div>
                         <div style="font-size: 0.9em; margin-top: 10px;">Text Answer</div>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -163,16 +168,25 @@
 
             <!-- Section 1: Individual Subject Timer -->
             <div class="mode-section">
-                <h3 class="mode-title">🎯 Individual Subject Timer</h3>
-                <p class="mode-description">All 20 chapters combined - Choose subject & level</p>
-                <div class="subject-grid small expanded" id="timerSubjectGrid"></div>
+                <div class="collapsible-header" onclick="toggleSection('timerIndividual')">
+                    <h3 class="mode-title">🎯 Individual Subject Timer</h3>
+                    <span class="toggle-arrow" id="timerIndividualArrow">▼</span>
+                </div>
+                <div class="collapsible-content expanded" id="timerIndividual">
+                    <p class="mode-description">All 20 chapters combined - Choose subject & level</p>
+                    <div class="subject-grid small" id="timerSubjectGrid"></div>
+                </div>
             </div>
 
             <!-- Section 2: Level-wise Mix (All Subjects) -->
             <div class="mode-section">
-                <h3 class="mode-title">🌈 Level-wise Mix (All Subjects)</h3>
-                <p class="mode-description">Same level, all subjects mixed</p>
-                <div class="level-grid">
+                <div class="collapsible-header" onclick="toggleSection('timerLevelwise')">
+                    <h3 class="mode-title">🌈 Level-wise Mix (All Subjects)</h3>
+                    <span class="toggle-arrow" id="timerLevelwiseArrow">▼</span>
+                </div>
+                <div class="collapsible-content expanded" id="timerLevelwise">
+                    <p class="mode-description">Same level, all subjects mixed</p>
+                    <div class="level-grid">
                     <div class="level-card level-easy" onclick="startMixedQuiz('easy', 'levelwise', true)">
                         <div>🟢 EASY</div>
                         <div style="font-size: 0.85em; margin-top: 8px;">⏱️ 1:00 min</div>
@@ -192,6 +206,7 @@
                     <div class="level-card level-extreme" onclick="startMixedQuiz('extreme', 'levelwise', true)">
                         <div>⚫ EXTREME</div>
                         <div style="font-size: 0.85em; margin-top: 8px;">⏱️ 3:00 min</div>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -246,9 +261,13 @@
 
             <!-- Section 1: Level-wise Mix (No Timer) -->
             <div class="mode-section">
-                <h3 class="mode-title">🌈 Level-wise Mix (All Subjects)</h3>
-                <p class="mode-description">Same level, all subjects mixed - No timer</p>
-                <div class="level-grid">
+                <div class="collapsible-header" onclick="toggleSection('practiceLevelwise')">
+                    <h3 class="mode-title">🌈 Level-wise Mix (All Subjects)</h3>
+                    <span class="toggle-arrow" id="practiceLevelwiseArrow">▼</span>
+                </div>
+                <div class="collapsible-content expanded" id="practiceLevelwise">
+                    <p class="mode-description">Same level, all subjects mixed - No timer</p>
+                    <div class="level-grid">
                     <div class="level-card level-easy" onclick="startMixedQuiz('easy', 'levelwise', false)">
                         <div>🟢 EASY</div>
                         <div style="font-size: 0.9em; margin-top: 10px;">True or False</div>
@@ -268,6 +287,7 @@
                     <div class="level-card level-extreme" onclick="startMixedQuiz('extreme', 'levelwise', false)">
                         <div>⚫ EXTREME</div>
                         <div style="font-size: 0.9em; margin-top: 10px;">Text Answer</div>
+                    </div>
                     </div>
                 </div>
             </div>

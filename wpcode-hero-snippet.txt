@@ -41,6 +41,9 @@
     font-size: 4em;
     margin-bottom: 15px;
     animation: heroBounceFadeIn 2s ease-out, heroBounce 2s infinite;
+    font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', 'Segoe UI Symbol', 'Android Emoji', 'EmojiOne Color', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .quiz-hero-section .hero-title {

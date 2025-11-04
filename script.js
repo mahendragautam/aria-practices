@@ -817,6 +817,9 @@ function displayQuestion() {
 
     let html = '';
 
+    // Topic badge on left - at the top
+    html += `<div class="topic-badge">${question.topic}</div>`;
+
     // Timer display for Quick Pick mode
     if (isTimedMode) {
         const minutes = Math.floor(timeRemaining / 60);
@@ -834,10 +837,9 @@ function displayQuestion() {
         html += `</div>`;
     }
 
-    // Question container - left aligned
+    // Question container - centered
     html += `<div class="question-container">`;
     html += `<div class="question-emoji">${question.emoji}</div>`;
-    html += `<div class="topic-badge">${question.topic}</div>`;
     html += `<div class="question-text">${question.question}</div>`;
     html += `</div>`;
 

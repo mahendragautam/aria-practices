@@ -116,7 +116,38 @@ html {
     box-sizing: border-box;
 }
 
-.home-page, .chapter-selection, .level-selection, .quiz-container, .result-container,
+/* ==================== HOME PAGE DESIGN ==================== */
+.home-page {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: none;
+    overflow-y: auto;
+    overflow-x: hidden !important;
+    box-sizing: border-box;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.home-page.active {
+    display: flex !important;
+}
+
+/* HOME CONTENT - White rounded container */
+.home-content {
+    flex: 1;
+    background: white;
+    border-radius: 30px 30px 0 0;
+    margin-top: -25px;
+    padding: 35px 15px 0;
+    box-shadow: 0 -5px 20px rgba(0,0,0,0.1);
+    position: relative;
+    z-index: 2;
+}
+
+/* OTHER PAGES */
+.chapter-selection, .level-selection, .quiz-container, .result-container,
 .timer-challenges-page, .timer-subject-level-selection, .practice-mode-page,
 .riddles-page, .dad-jokes-page {
     width: 100% !important;
@@ -129,7 +160,7 @@ html {
     box-sizing: border-box;
 }
 
-.home-page.active, .chapter-selection.active, .level-selection.active,
+.chapter-selection.active, .level-selection.active,
 .quiz-container.active, .result-container.active, .timer-challenges-page.active,
 .timer-subject-level-selection.active, .practice-mode-page.active,
 .riddles-page.active, .dad-jokes-page.active {
@@ -256,10 +287,11 @@ html {
     margin-top: 5px;
 }
 
+/* HOME SECTION */
 .home-section {
-    margin: 20px auto; /* Center on desktop */
+    margin: 20px auto;
     padding: 0 5px;
-    max-width: 600px; /* Desktop max-width for cleaner look */
+    max-width: 600px;
 }
 
 /* Footer Styles */
@@ -327,11 +359,12 @@ html {
 
 .section-title {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.4em;
     margin: 0;
     color: #fff;
     font-weight: bold;
-    text-shadow: 0 2px 4px rgba(0,0,0,0.3); /* Better text visibility */
+    text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    flex: 1;
 }
 
 .toggle-icon {
@@ -346,12 +379,13 @@ html {
     transform: rotate(-90deg);
 }
 
+/* HOME GRID */
 .home-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     padding: 0 5px 20px 5px;
-    max-width: 600px; /* Desktop max-width for cleaner look */
+    max-width: 600px;
     margin: 0 auto;
 }
 
@@ -361,10 +395,28 @@ html {
     border-radius: 15px;
     text-align: center;
     cursor: pointer;
-    transition: transform 0.3s, box-shadow 0.3s;
+    transition: all 0.3s ease;
     color: #fff;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-    text-shadow: 0 2px 4px rgba(0,0,0,0.3); /* Better text visibility */
+    text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+.home-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255,255,255,0.1);
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+}
+
+.home-card:hover::before {
+    transform: translateY(0);
 }
 
 .home-card:hover {
@@ -375,17 +427,23 @@ html {
 .card-emoji {
     font-size: 3em;
     margin-bottom: 10px;
+    position: relative;
+    z-index: 1;
 }
 
 .card-title {
     font-size: 1.3em;
     font-weight: bold;
     margin-bottom: 5px;
+    position: relative;
+    z-index: 1;
 }
 
 .card-subtitle {
     font-size: 0.9em;
     opacity: 0.9;
+    position: relative;
+    z-index: 1;
 }
 
 /* Subject Grid Styles - SMOOTH & FAST COLLAPSE */
@@ -1143,9 +1201,43 @@ html {
 }
 
 /* Mobile Devices */
+/* 2. Mobile Padding Fix - REPLACE existing mobile media query section */
 @media (max-width: 768px) {
+    .home-header h1 {
+        font-size: 2.2em;
+    }
+
+    .home-subtitle {
+        font-size: 1em;
+    }
+
+    .stat-number {
+        font-size: 1.8em;
+    }
+
+    /* ✅ UPDATED: 5px padding for mobile */
+    .home-content {
+        padding: 35px 5px 0 !important;
+    }
+
+    .home-section {
+        padding: 0 5px !important;
+    }
+
+    .section-header {
+        margin: 10px 5px !important;
+    }
+
+    .subject-grid {
+        padding: 10px 5px 20px 5px !important;
+    }
+
+    .home-grid {
+        padding: 0 5px 20px 5px !important;
+    }
+
     .chapter-selection, .level-selection, .quiz-container, .result-container {
-        padding: 0 !important;
+        padding: 0 5px !important;
     }
 
     .chapter-grid, .level-grid {
@@ -1154,20 +1246,12 @@ html {
     }
 
     .mode-section {
-        margin: 15px 5px;
-        padding: 10px 5px;
+        margin: 20px 5px !important;
+        padding: 15px 5px !important;
     }
 
-    .progress-info, .progress-bar-container, .quiz-header {
-        padding: 0 5px !important;
-    }
-
-    .topic-badge {
-        margin: 8px 5px;
-        font-size: 0.9em;
-        padding: 6px 16px;
-    }
-
+    .quiz-header,
+    .progress-info,
     .question-container {
         padding: 0 5px !important;
     }
@@ -1178,19 +1262,37 @@ html {
         gap: 8px;
     }
 
-    .answer-option {
-        font-size: 1em;
-        padding: 14px;
+    .question-emoji {
+        font-size: 3em;
     }
 
-    .button-container {
+    .question-text {
+        font-size: 1.15em;
+    }
+
+    .falling-emoji {
+        font-size: 1.4em;
+    }
+
+    .result-content {
+        padding: 20px 5px !important;
+    }
+
+    .result-details {
+        margin: 20px 5px !important;
+    }
+
+    .button-container,
+    .extreme-buttons {
         padding: 0 5px !important;
-        margin: 10px 0;
+        margin: 15px 5px !important;
     }
 
-    .timer-container {
-        margin: 10px 5px;
-        padding: 10px 12px;
+    .back-button,
+    .restart-button,
+    .quiz-back-button,
+    .next-button {
+        margin: 10px 5px !important;
     }
 
     .extreme-buttons {

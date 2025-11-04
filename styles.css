@@ -1436,6 +1436,7 @@ html {
 
 /* Large screens - 3 columns */
 @media (min-width: 1025px) {
+    /* Chapter and Level Grids */
     .chapter-grid {
         grid-template-columns: repeat(3, 1fr);
         max-width: 1200px;
@@ -1448,6 +1449,29 @@ html {
         margin: 0 auto !important;
     }
 
+    /* Home Page Cards - Centered */
+    .home-section {
+        max-width: 900px;
+        margin: 20px auto !important;
+    }
+
+    .home-grid {
+        max-width: 800px;
+        margin: 0 auto !important;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .subject-grid {
+        max-width: 900px;
+        margin: 0 auto !important;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .subject-grid.expanded {
+        padding: 20px 10px !important;
+    }
+
+    /* Result Content */
     .result-content {
         max-width: 900px;
     }
@@ -1488,6 +1512,31 @@ html {
         max-width: 700px;
         margin: 15px auto !important;
     }
+
+    /* Timer Challenges and Practice Mode Pages */
+    .timer-challenges-page,
+    .practice-mode-page,
+    .timer-subject-level-selection {
+        max-width: 1200px;
+        margin: 0 auto !important;
+        padding: 0 20px !important;
+    }
+
+    .mode-section {
+        max-width: 1000px;
+        margin: 20px auto !important;
+    }
+
+    /* Collapsible content max-width */
+    .collapsible-content .level-grid {
+        max-width: 1000px;
+        margin: 0 auto !important;
+    }
+
+    .collapsible-content .subject-grid {
+        max-width: 900px;
+        margin: 0 auto !important;
+    }
 }
 
 /* Extra large screens - 4 columns */
@@ -1500,5 +1549,17 @@ html {
     .level-grid {
         grid-template-columns: repeat(4, 1fr);
         max-width: 1400px;
+    }
+
+    /* Home Page - 4 columns for subjects */
+    .subject-grid {
+        max-width: 1200px;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    /* Keep home-grid at 2 columns even on extra large */
+    .home-grid {
+        max-width: 900px;
+        grid-template-columns: repeat(2, 1fr);
     }
 }

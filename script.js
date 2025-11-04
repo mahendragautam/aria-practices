@@ -817,8 +817,8 @@ function displayQuestion() {
 
     let html = '';
 
-    // Topic badge on left - at the top
-    html += `<div class="topic-badge">${question.topic}</div>`;
+    // Topic badge on left - at the top with color class
+    html += `<div class="topic-badge topic-${question.topic.toLowerCase()}">${question.topic}</div>`;
 
     // Timer display for Quick Pick mode
     if (isTimedMode) {

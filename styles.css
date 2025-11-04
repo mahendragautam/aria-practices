@@ -556,6 +556,60 @@ html {
 .topic-chemistry { background: #e74c3c; }
 .topic-astronomy { background: #9b59b6; }
 
+/* Math topic colors */
+.topic-arithmetic { background: #e74c3c; }
+.topic-algebra { background: #3498db; }
+.topic-geometry { background: #2ecc71; }
+.topic-calculus { background: #9b59b6; }
+
+/* History topic colors */
+.topic-ancient { background: #e67e22; }
+.topic-medieval { background: #8e44ad; }
+.topic-renaissance { background: #e74c3c; }
+.topic-modern { background: #16a085; }
+
+/* Geography topic colors */
+.topic-continents { background: #27ae60; }
+.topic-oceans { background: #3498db; }
+.topic-mountains { background: #95a5a6; }
+.topic-rivers { background: #16a085; }
+
+/* English topic colors */
+.topic-grammar { background: #e74c3c; }
+.topic-vocabulary { background: #27ae60; }
+.topic-literature { background: #9b59b6; }
+.topic-composition { background: #3498db; }
+
+/* Health topic colors */
+.topic-nutrition { background: #27ae60; }
+.topic-exercise { background: #e74c3c; }
+.topic-yoga { background: #9b59b6; }
+.topic-cardio { background: #f39c12; }
+
+/* Environment topic colors */
+.topic-ecology { background: #27ae60; }
+.topic-wildlife { background: #f39c12; }
+.topic-pollution { background: #e67e22; }
+.topic-recycling { background: #16a085; }
+
+/* Business topic colors */
+.topic-marketing { background: #e74c3c; }
+.topic-finance { background: #27ae60; }
+.topic-accounting { background: #3498db; }
+.topic-management { background: #f39c12; }
+
+/* Technology topic colors */
+.topic-programming { background: #3498db; }
+.topic-hardware { background: #95a5a6; }
+.topic-software { background: #9b59b6; }
+.topic-networking { background: #16a085; }
+
+/* Parenting topic colors */
+.topic-newborn { background: #e74c3c; }
+.topic-toddler { background: #f39c12; }
+.topic-preschool { background: #3498db; }
+.topic-school-age { background: #27ae60; }
+
 .question-container {
     text-align: center;
     margin-bottom: 12px;

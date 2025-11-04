@@ -583,6 +583,11 @@ function startSubjectTimer(level) {
     quizMode = 'subject-timer';
     returnPage = 'timer-challenges'; // Ensure returnPage is set
 
+    console.log('=== startSubjectTimer DEBUG ===');
+    console.log('Set returnPage to:', returnPage);
+    console.log('Set quizMode to:', quizMode);
+    console.log('================================');
+
     // Collect all questions from all 20 chapters for this subject and level
     let allQuestions = [];
     for (let ch = 1; ch <= 20; ch++) {
@@ -648,6 +653,11 @@ function startMixedQuiz(level, mixType, timedMode) {
 }
 
 function goBackFromResult() {
+    console.log('=== goBackFromResult DEBUG ===');
+    console.log('returnPage:', returnPage);
+    console.log('quizMode:', quizMode);
+    console.log('==============================');
+
     if (returnPage === 'home') {
         if (quizMode === 'normal') {
             showLevelSelection();
@@ -656,9 +666,11 @@ function goBackFromResult() {
         }
     } else if (returnPage === 'timer-challenges') {
         // Always go back to Timer Challenges page
+        console.log('Going back to Timer Challenges page');
         showTimerChallenges();
     } else if (returnPage === 'practice-mode') {
         // Always go back to Practice Mode page
+        console.log('Going back to Practice Mode page');
         showPracticeMode();
     } else {
         showHomePage();

@@ -1,4 +1,5 @@
 // Quiz state
+let currentSubject = 'science';
 let currentChapter = 1;
 let currentLevel = 'easy';
 let currentQuestionIndex = 0;
@@ -7,12 +8,15 @@ let startTime = 0;
 let answered = false;
 let shuffledQuestions = [];
 let fallingEmojis = [];
+let quizMode = 'normal'; // 'normal', 'subject-timer', 'mixed-levelwise', 'mixed-complete'
+let returnPage = 'home'; // Track where to return after quiz
 
 // Timer state for Quick Pick mode
 let isTimedMode = false;
 let timeRemaining = 0;
 let timerInterval = null;
 let isPaused = false;
+let canPause = true; // Timer challenges cannot pause
 
 // Time limits for Quick Pick (in seconds)
 const timeLimits = {
@@ -20,7 +24,22 @@ const timeLimits = {
     medium: 90,    // 1.5 minutes
     hard: 120,     // 2 minutes
     expert: 150,   // 2.5 minutes
-    extreme: 180   // 3 minutes
+    extreme: 180,  // 3 minutes
+    complete: 120  // 2 minutes for complete mix
+};
+
+// Subjects definition
+const subjects = {
+    science: { name: 'Science', emoji: '🔬' },
+    math: { name: 'Math', emoji: '🔢' },
+    history: { name: 'History', emoji: '📜' },
+    geography: { name: 'Geography', emoji: '🌍' },
+    english: { name: 'English', emoji: '📖' },
+    health: { name: 'Health & Fitness', emoji: '💪' },
+    environment: { name: 'Environment', emoji: '🌱' },
+    finance: { name: 'Finance', emoji: '💰' },
+    technology: { name: 'Technology', emoji: '💻' },
+    parenting: { name: 'Parenting', emoji: '👶' }
 };
 
 // Chapter colors
@@ -31,9 +50,10 @@ const chapterColors = [
     '#FF1493', '#00CED1', '#FF4500', '#6A5ACD', '#FFB347'
 ];
 
-// Question bank - 1000 unique questions
-const questionBank = {
-    1: { // Chapter 1
+// Multi-subject question bank
+const subjectQuestionBank = {
+    science: {
+        1: { // Chapter 1
         easy: [
             {topic: 'Biology', emoji: '🧬💉', question: 'DNA stands for Deoxyribonucleic Acid.', options: ['True', 'False'], correct: 0},
             {topic: 'Physics', emoji: '⚡🔋', question: 'Light travels faster than sound.', options: ['True', 'False'], correct: 0},
@@ -219,11 +239,23 @@ const questionBank = {
             {topic: 'Physics', emoji: '⚡🔋', question: 'What is the potential difference also called?', answer: 'Voltage'}
         ]
     }
+    }, // end science chapters 1-3
+
+    // Other subjects will use generated questions for all 20 chapters
+    math: {},
+    history: {},
+    geography: {},
+    english: {},
+    health: {},
+    environment: {},
+    finance: {},
+    technology: {},
+    parenting: {}
 };
 
-// Generate remaining chapters (4-20) with unique questions
+// Generate remaining chapters (4-20) for Science with unique questions
 for (let ch = 4; ch <= 20; ch++) {
-    questionBank[ch] = {
+    subjectQuestionBank.science[ch] = {
         easy: [],
         medium: [],
         hard: [],
@@ -244,7 +276,7 @@ for (let ch = 4; ch <= 20; ch++) {
     for (let i = 0; i < 10; i++) {
         const topic = topics[i % 4];
         const emoji = emojis[topic][Math.floor(Math.random() * emojis[topic].length)];
-        questionBank[ch].easy.push({
+        subjectQuestionBank.science[ch].easy.push({
             topic: topic,
             emoji: emoji,
             question: `${topic} statement ${ch}-${i} is scientifically accurate.`,
@@ -257,7 +289,7 @@ for (let ch = 4; ch <= 20; ch++) {
     for (let i = 0; i < 10; i++) {
         const topic = topics[i % 4];
         const emoji = emojis[topic][Math.floor(Math.random() * emojis[topic].length)];
-        questionBank[ch].medium.push({
+        subjectQuestionBank.science[ch].medium.push({
             topic: topic,
             emoji: emoji,
             question: `What is the key concept in ${topic.toLowerCase()} related to topic ${ch}-${i}?`,
@@ -270,7 +302,7 @@ for (let ch = 4; ch <= 20; ch++) {
     for (let i = 0; i < 10; i++) {
         const topic = topics[i % 4];
         const emoji = emojis[topic][Math.floor(Math.random() * emojis[topic].length)];
-        questionBank[ch].hard.push({
+        subjectQuestionBank.science[ch].hard.push({
             topic: topic,
             emoji: emoji,
             question: `Which principle best describes ${topic.toLowerCase()} phenomenon ${ch}-${i}?`,
@@ -283,7 +315,7 @@ for (let ch = 4; ch <= 20; ch++) {
     for (let i = 0; i < 10; i++) {
         const topic = topics[i % 4];
         const emoji = emojis[topic][Math.floor(Math.random() * emojis[topic].length)];
-        questionBank[ch].expert.push({
+        subjectQuestionBank.science[ch].expert.push({
             topic: topic,
             emoji: emoji,
             question: `Advanced ${topic.toLowerCase()} question ${ch}-${i}: What is the correct answer?`,
@@ -296,7 +328,7 @@ for (let ch = 4; ch <= 20; ch++) {
     for (let i = 0; i < 10; i++) {
         const topic = topics[i % 4];
         const emoji = emojis[topic][Math.floor(Math.random() * emojis[topic].length)];
-        questionBank[ch].extreme.push({
+        subjectQuestionBank.science[ch].extreme.push({
             topic: topic,
             emoji: emoji,
             question: `Expert ${topic.toLowerCase()} question ${ch}-${i}: Provide the detailed answer.`,
@@ -305,9 +337,310 @@ for (let ch = 4; ch <= 20; ch++) {
     }
 }
 
+// Generate questions for all other subjects (all 20 chapters)
+const otherSubjects = ['math', 'history', 'geography', 'english', 'health', 'environment', 'finance', 'technology', 'parenting'];
+const subjectTopics = {
+    math: {
+        topics: ['Algebra', 'Geometry', 'Calculus', 'Statistics'],
+        emojis: {
+            'Algebra': ['➕➖', '✖️➗', '🔢📊', '📐📏'],
+            'Geometry': ['📐🔺', '⭕🔷', '📏📐', '🔶⬛'],
+            'Calculus': ['∫📈', '📉∂', 'dx/dy', 'lim→'],
+            'Statistics': ['📊📈', '📉🎲', '🎯📊', '📈💹']
+        }
+    },
+    history: {
+        topics: ['Ancient', 'Medieval', 'Modern', 'Contemporary'],
+        emojis: {
+            'Ancient': ['🏛️👑', '⚔️🛡️', '📜🏺', '🗿🏛️'],
+            'Medieval': ['🏰⚔️', '👑🛡️', '🗡️🏰', '⚔️🛡️'],
+            'Modern': ['🏭🚂', '✈️🚢', '📰🗞️', '🌍🗺️'],
+            'Contemporary': ['🌐💻', '🚀🛰️', '📱💾', '🌍🌎']
+        }
+    },
+    geography: {
+        topics: ['Physical', 'Political', 'Climate', 'Resources'],
+        emojis: {
+            'Physical': ['🏔️🌋', '🏜️🏞️', '🌊🏝️', '🏔️⛰️'],
+            'Political': ['🗺️🌍', '🏛️🏢', '🌎🌏', '🗺️🌐'],
+            'Climate': ['☀️🌧️', '❄️🌨️', '🌈⛈️', '🌡️🌦️'],
+            'Resources': ['⛽🛢️', '💎⛏️', '🌾🌽', '💧🌊']
+        }
+    },
+    english: {
+        topics: ['Grammar', 'Literature', 'Vocabulary', 'Writing'],
+        emojis: {
+            'Grammar': ['📝✍️', '📖📚', '✏️📄', '📝📋'],
+            'Literature': ['📚📖', '📜✍️', '🎭📚', '📖🖋️'],
+            'Vocabulary': ['💬📝', '🗣️💭', '📚🔤', '💬🔤'],
+            'Writing': ['✍️📝', '🖋️📜', '✏️📄', '📝🖊️']
+        }
+    },
+    health: {
+        topics: ['Nutrition', 'Exercise', 'Mental', 'Wellness'],
+        emojis: {
+            'Nutrition': ['🥗🍎', '🥦🥕', '🍊🥤', '🥗🍇'],
+            'Exercise': ['🏃💪', '🏋️🤸', '🚴🏃', '💪🤸'],
+            'Mental': ['🧠💭', '😌🧘', '💆🧘', '🧠💆'],
+            'Wellness': ['🧘💚', '😊🌟', '💚🌈', '✨🌟']
+        }
+    },
+    environment: {
+        topics: ['Ecology', 'Conservation', 'Climate', 'Sustainability'],
+        emojis: {
+            'Ecology': ['🌿🌳', '🌱🦋', '🌲🐦', '🌿🦋'],
+            'Conservation': ['♻️🌍', '🌊🐋', '🌳🌿', '♻️🌱'],
+            'Climate': ['🌡️🌍', '❄️🌡️', '☀️🌧️', '🌡️⛈️'],
+            'Sustainability': ['♻️🌱', '🌍💚', '🌿💚', '♻️🌍']
+        }
+    },
+    finance: {
+        topics: ['Budgeting', 'Investing', 'Saving', 'Planning'],
+        emojis: {
+            'Budgeting': ['💰💵', '💳💸', '📊💰', '💰📈'],
+            'Investing': ['📈💹', '💵📊', '💸💹', '📈💰'],
+            'Saving': ['🏦💰', '💰🐷', '💵💰', '🏦💵'],
+            'Planning': ['📋💰', '📊💹', '💼📈', '📋💵']
+        }
+    },
+    technology: {
+        topics: ['Computing', 'Internet', 'AI', 'Security'],
+        emojis: {
+            'Computing': ['💻🖥️', '⌨️🖱️', '💾💿', '💻📱'],
+            'Internet': ['🌐📡', '📱💬', '🌍📡', '🌐💻'],
+            'AI': ['🤖🧠', '🤖💡', '🧠💻', '🤖📊'],
+            'Security': ['🔒🛡️', '🔐🔑', '🛡️🔒', '🔐🛡️']
+        }
+    },
+    parenting: {
+        topics: ['Development', 'Education', 'Health', 'Discipline'],
+        emojis: {
+            'Development': ['👶👣', '🍼🧸', '👶💕', '🍼👶'],
+            'Education': ['📚👶', '🎓📖', '✏️📚', '📖🎓'],
+            'Health': ['🏥👶', '💉🩺', '🏥💊', '👶💊'],
+            'Discipline': ['📋👨‍👩‍👧', '⏰📝', '✅📋', '👨‍👩‍👧‍👦💬']
+        }
+    }
+};
+
+otherSubjects.forEach(subject => {
+    const topicData = subjectTopics[subject];
+    for (let ch = 1; ch <= 20; ch++) {
+        subjectQuestionBank[subject][ch] = {
+            easy: [],
+            medium: [],
+            hard: [],
+            expert: [],
+            extreme: []
+        };
+
+        // Easy level - True/False
+        for (let i = 0; i < 10; i++) {
+            const topic = topicData.topics[i % 4];
+            const emoji = topicData.emojis[topic][Math.floor(Math.random() * topicData.emojis[topic].length)];
+            subjectQuestionBank[subject][ch].easy.push({
+                topic: topic,
+                emoji: emoji,
+                question: `${topic} statement ${ch}-${i} in ${subject} is correct.`,
+                options: ['True', 'False'],
+                correct: Math.random() > 0.5 ? 0 : 1
+            });
+        }
+
+        // Medium level - 2 options
+        for (let i = 0; i < 10; i++) {
+            const topic = topicData.topics[i % 4];
+            const emoji = topicData.emojis[topic][Math.floor(Math.random() * topicData.emojis[topic].length)];
+            subjectQuestionBank[subject][ch].medium.push({
+                topic: topic,
+                emoji: emoji,
+                question: `What is the key ${topic.toLowerCase()} concept ${ch}-${i}?`,
+                options: [`Concept A${ch}${i}`, `Concept B${ch}${i}`],
+                correct: 0
+            });
+        }
+
+        // Hard level - 3 options
+        for (let i = 0; i < 10; i++) {
+            const topic = topicData.topics[i % 4];
+            const emoji = topicData.emojis[topic][Math.floor(Math.random() * topicData.emojis[topic].length)];
+            subjectQuestionBank[subject][ch].hard.push({
+                topic: topic,
+                emoji: emoji,
+                question: `Which principle describes ${topic.toLowerCase()} ${ch}-${i}?`,
+                options: [`Principle A${ch}${i}`, `Principle B${ch}${i}`, `Principle C${ch}${i}`],
+                correct: 0
+            });
+        }
+
+        // Expert level - 4 options
+        for (let i = 0; i < 10; i++) {
+            const topic = topicData.topics[i % 4];
+            const emoji = topicData.emojis[topic][Math.floor(Math.random() * topicData.emojis[topic].length)];
+            subjectQuestionBank[subject][ch].expert.push({
+                topic: topic,
+                emoji: emoji,
+                question: `Advanced ${topic.toLowerCase()} question ${ch}-${i}?`,
+                options: [`Option A${ch}${i}`, `Option B${ch}${i}`, `Option C${ch}${i}`, `Option D${ch}${i}`],
+                correct: 0
+            });
+        }
+
+        // Extreme level - Text input
+        for (let i = 0; i < 10; i++) {
+            const topic = topicData.topics[i % 4];
+            const emoji = topicData.emojis[topic][Math.floor(Math.random() * topicData.emojis[topic].length)];
+            subjectQuestionBank[subject][ch].extreme.push({
+                topic: topic,
+                emoji: emoji,
+                question: `Expert ${topic.toLowerCase()} question ${ch}-${i}: Provide the answer.`,
+                answer: `Answer for ${subject} chapter ${ch} question ${i}`
+            });
+        }
+    }
+});
+
+// Navigation functions
+function showHomePage() {
+    clearFallingEmojis();
+    stopTimer();
+    showScreen('home-page');
+}
+
+function selectSubject(subject) {
+    currentSubject = subject;
+    quizMode = 'normal';
+    returnPage = 'home';
+    const subjectData = subjects[subject];
+    document.getElementById('subjectTitle').innerHTML = `${subjectData.emoji} ${subjectData.name} ${subjectData.emoji}`;
+    initializeChapters();
+    showScreen('chapter-selection');
+}
+
+function showTimerChallenges() {
+    initializeTimerSubjects();
+    showScreen('timer-challenges-page');
+}
+
+function showPracticeMode() {
+    showScreen('practice-mode-page');
+}
+
+function showRiddles() {
+    showScreen('riddles-page');
+}
+
+function showDadJokes() {
+    showScreen('dad-jokes-page');
+}
+
+function selectTimerSubject(subject) {
+    currentSubject = subject;
+    quizMode = 'subject-timer';
+    returnPage = 'timer-challenges';
+    const subjectData = subjects[subject];
+    document.getElementById('timerSubjectTitle').innerHTML = `${subjectData.emoji} ${subjectData.name} - Select Level`;
+    showScreen('timer-subject-level-selection');
+}
+
+function startSubjectTimer(level) {
+    // Combine all 20 chapters for this subject at this level
+    clearFallingEmojis();
+    stopTimer();
+
+    currentLevel = level;
+    currentQuestionIndex = 0;
+    score = 0;
+    startTime = Date.now();
+    isTimedMode = true;
+    canPause = false; // No pause for timer challenges
+    isPaused = false;
+    quizMode = 'subject-timer';
+
+    // Collect all questions from all 20 chapters for this subject and level
+    let allQuestions = [];
+    for (let ch = 1; ch <= 20; ch++) {
+        allQuestions = allQuestions.concat(subjectQuestionBank[currentSubject][ch][level]);
+    }
+
+    // Shuffle questions
+    shuffledQuestions = allQuestions.sort(() => Math.random() - 0.5).slice(0, 10);
+
+    // Setup timer
+    timeRemaining = timeLimits[level];
+    startTimer();
+
+    displayQuestion();
+    showScreen('quiz-container');
+}
+
+function startMixedQuiz(level, mixType, timedMode) {
+    clearFallingEmojis();
+    stopTimer();
+
+    currentLevel = level;
+    currentQuestionIndex = 0;
+    score = 0;
+    startTime = Date.now();
+    isTimedMode = timedMode;
+    canPause = !timedMode; // Can only pause in practice mode
+    isPaused = false;
+    quizMode = mixType === 'levelwise' ? 'mixed-levelwise' : 'mixed-complete';
+    returnPage = timedMode ? 'timer-challenges' : 'practice-mode';
+
+    let allQuestions = [];
+
+    if (mixType === 'levelwise') {
+        // Collect questions from all subjects at the same level
+        Object.keys(subjects).forEach(subject => {
+            for (let ch = 1; ch <= 20; ch++) {
+                allQuestions = allQuestions.concat(subjectQuestionBank[subject][ch][level]);
+            }
+        });
+    } else {
+        // Complete mix - all subjects, all chapters, all levels
+        Object.keys(subjects).forEach(subject => {
+            for (let ch = 1; ch <= 20; ch++) {
+                ['easy', 'medium', 'hard', 'expert', 'extreme'].forEach(lvl => {
+                    allQuestions = allQuestions.concat(subjectQuestionBank[subject][ch][lvl]);
+                });
+            }
+        });
+    }
+
+    // Shuffle and select 10 questions
+    shuffledQuestions = allQuestions.sort(() => Math.random() - 0.5).slice(0, 10);
+
+    // Setup timer if timed mode
+    if (isTimedMode) {
+        timeRemaining = mixType === 'complete' ? timeLimits.complete : timeLimits[level];
+        startTimer();
+    }
+
+    displayQuestion();
+    showScreen('quiz-container');
+}
+
+function goBackFromResult() {
+    if (returnPage === 'home') {
+        if (quizMode === 'normal') {
+            showChapterSelection();
+        } else {
+            showHomePage();
+        }
+    } else if (returnPage === 'timer-challenges') {
+        showTimerChallenges();
+    } else if (returnPage === 'practice-mode') {
+        showPracticeMode();
+    } else {
+        showHomePage();
+    }
+}
+
 // Initialize chapters
 function initializeChapters() {
     const grid = document.getElementById('chapterGrid');
+    grid.innerHTML = ''; // Clear existing
     for (let i = 1; i <= 20; i++) {
         const card = document.createElement('div');
         card.className = 'chapter-card';
@@ -316,6 +649,23 @@ function initializeChapters() {
         card.onclick = () => selectChapter(i);
         grid.appendChild(card);
     }
+}
+
+// Initialize timer subjects
+function initializeTimerSubjects() {
+    const grid = document.getElementById('timerSubjectGrid');
+    grid.innerHTML = ''; // Clear existing
+    Object.keys(subjects).forEach(subjectKey => {
+        const subjectData = subjects[subjectKey];
+        const card = document.createElement('div');
+        card.className = 'subject-card';
+        card.onclick = () => selectTimerSubject(subjectKey);
+        card.innerHTML = `
+            <div class="subject-emoji">${subjectData.emoji}</div>
+            <div class="subject-name">${subjectData.name}</div>
+        `;
+        grid.appendChild(card);
+    });
 }
 
 function selectChapter(chapter) {
@@ -337,7 +687,7 @@ function showLevelSelection() {
 }
 
 function showScreen(screenClass) {
-    document.querySelectorAll('.chapter-selection, .level-selection, .quiz-container, .result-container').forEach(el => {
+    document.querySelectorAll('.home-page, .chapter-selection, .level-selection, .quiz-container, .result-container, .timer-challenges-page, .timer-subject-level-selection, .practice-mode-page, .riddles-page, .dad-jokes-page').forEach(el => {
         el.classList.remove('active');
     });
     document.querySelector(`.${screenClass}`).classList.add('active');
@@ -352,7 +702,10 @@ function startQuiz(level, timedMode = false) {
     score = 0;
     startTime = Date.now();
     isTimedMode = timedMode;
+    canPause = true; // Normal quiz can pause
     isPaused = false;
+    quizMode = 'normal';
+    returnPage = 'home';
 
     // Setup timer for Quick Pick mode
     if (isTimedMode) {
@@ -361,7 +714,7 @@ function startQuiz(level, timedMode = false) {
     }
 
     // Shuffle questions
-    const questions = [...questionBank[currentChapter][level]];
+    const questions = [...subjectQuestionBank[currentSubject][currentChapter][level]];
     shuffledQuestions = questions.sort(() => Math.random() - 0.5);
 
     showScreen('quiz-container');
@@ -386,9 +739,11 @@ function displayQuestion() {
 
         html += `<div class="timer-container ${timeClass}">`;
         html += `<div class="timer-display">⏱️ <span id="timerDisplay">${timeDisplay}</span></div>`;
-        html += `<button class="timer-pause-btn" id="pauseBtn" onclick="togglePause()">
-                    ${isPaused ? '▶️ Resume' : '⏸️ Pause'}
-                 </button>`;
+        if (canPause) {
+            html += `<button class="timer-pause-btn" id="pauseBtn" onclick="togglePause()">
+                        ${isPaused ? '▶️ Resume' : '⏸️ Pause'}
+                     </button>`;
+        }
         html += `</div>`;
     }
 

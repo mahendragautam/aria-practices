@@ -730,18 +730,49 @@ function goBackFromQuiz() {
     }
 }
 
-// Initialize chapters
+// Get available chapters for current subject
+function getAvailableChapters(subject) {
+    const chapters = [];
+    const subjectData = subjectQuestionBank[subject];
+
+    if (subjectData) {
+        // Get all chapter numbers that exist in the question bank
+        for (let chapterNum in subjectData) {
+            if (subjectData.hasOwnProperty(chapterNum)) {
+                chapters.push(parseInt(chapterNum));
+            }
+        }
+    }
+
+    // Sort chapters numerically
+    chapters.sort((a, b) => a - b);
+    return chapters;
+}
+
+// Initialize chapters - DYNAMIC based on question bank
 function initializeChapters() {
     const grid = document.getElementById('chapterGrid');
     grid.innerHTML = ''; // Clear existing
-    for (let i = 1; i <= 20; i++) {
+
+    // Get only chapters that have questions
+    const availableChapters = getAvailableChapters(currentSubject);
+
+    if (availableChapters.length === 0) {
+        // No chapters available for this subject
+        grid.innerHTML = '<div style="grid-column: 1/-1; text-align: center; padding: 40px; color: #999;">No chapters available yet. Check back soon!</div>';
+        return;
+    }
+
+    // Display only available chapters
+    availableChapters.forEach((chapterNum, index) => {
         const card = document.createElement('div');
         card.className = 'chapter-card';
-        card.style.background = chapterColors[i - 1];
-        card.textContent = `Chapter ${i}`;
-        card.onclick = () => selectChapter(i);
+        // Use color based on chapter number (not index)
+        card.style.background = chapterColors[(chapterNum - 1) % chapterColors.length];
+        card.textContent = `Chapter ${chapterNum}`;
+        card.onclick = () => selectChapter(chapterNum);
         grid.appendChild(card);
-    }
+    });
 }
 
 // Initialize timer subjects
@@ -789,6 +820,14 @@ function showScreen(screenClass) {
 function startQuiz(level, timedMode = false) {
     clearFallingEmojis();
     stopTimer(); // Clear any existing timer
+
+    // Validate chapter and level exist
+    if (!subjectQuestionBank[currentSubject] ||
+        !subjectQuestionBank[currentSubject][currentChapter] ||
+        !subjectQuestionBank[currentSubject][currentChapter][level]) {
+        alert(`Sorry! Questions for ${subjects[currentSubject].name} - Chapter ${currentChapter} - ${level.toUpperCase()} level are not available yet. Please try another chapter or level.`);
+        return;
+    }
 
     currentLevel = level;
     currentQuestionIndex = 0;

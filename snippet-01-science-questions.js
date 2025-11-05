@@ -59,16 +59,16 @@ const scienceQuestions = {
             {topic: 'Physics', emoji: '🔊🎵', question: 'What causes sound waves?', options: ['Vibrations', 'Light', 'Heat', 'Pressure'], correct: 0}
         ],
         extreme: [
-            {topic: 'Biology', emoji: '🧬🔬', question: 'What year was the structure of DNA discovered?', options: ['1953', '1963', '1943', '1973'], correct: 0},
-            {topic: 'Physics', emoji: '⚡🔋', question: 'Who formulated the laws of motion?', options: ['Isaac Newton', 'Albert Einstein', 'Galileo', 'Stephen Hawking'], correct: 0},
-            {topic: 'Chemistry', emoji: '⚗️🧪', question: 'What is Avogadro\'s number (approximately)?', options: ['6.02 × 10²³', '3.14 × 10²³', '6.02 × 10²²', '1.00 × 10²⁴'], correct: 0},
-            {topic: 'Astronomy', emoji: '🌍🌙', question: 'What is the name of our galaxy?', options: ['Milky Way', 'Andromeda', 'Triangulum', 'Whirlpool'], correct: 0},
-            {topic: 'Biology', emoji: '🫀❤️', question: 'How many chambers does the human heart have?', options: ['4', '3', '2', '5'], correct: 0},
-            {topic: 'Physics', emoji: '🌡️🔥', question: 'What is the first law of thermodynamics about?', options: ['Energy conservation', 'Entropy', 'Temperature', 'Pressure'], correct: 0},
-            {topic: 'Chemistry', emoji: '💎💍', question: 'What is the periodic table organized by?', options: ['Atomic number', 'Atomic mass', 'Electron count', 'Density'], correct: 0},
-            {topic: 'Astronomy', emoji: '☀️⭐', question: 'What is the largest planet in our solar system?', options: ['Jupiter', 'Saturn', 'Neptune', 'Uranus'], correct: 0},
-            {topic: 'Biology', emoji: '🦴🦷', question: 'What percentage of the human body is water?', options: ['About 60%', 'About 40%', 'About 80%', 'About 90%'], correct: 0},
-            {topic: 'Physics', emoji: '🔊🎵', question: 'What is the Doppler effect?', options: ['Change in frequency due to motion', 'Sound reflection', 'Sound absorption', 'Echo'], correct: 0}
+            {topic: 'Biology', emoji: '🧬🔬', question: 'In what year was the structure of DNA discovered?', answer: '1953'},
+            {topic: 'Physics', emoji: '⚡🔋', question: 'Name the scientist who formulated the three laws of motion', answer: 'Isaac Newton'},
+            {topic: 'Chemistry', emoji: '⚗️🧪', question: 'What is Avogadro\'s number?', answer: '6.02 × 10²³ or 6.022 × 10²³'},
+            {topic: 'Astronomy', emoji: '🌍🌙', question: 'What is the name of our galaxy?', answer: 'Milky Way'},
+            {topic: 'Biology', emoji: '🫀❤️', question: 'How many chambers does the human heart have?', answer: '4 or Four'},
+            {topic: 'Physics', emoji: '🌡️🔥', question: 'What does the first law of thermodynamics state?', answer: 'Energy cannot be created or destroyed, only converted'},
+            {topic: 'Chemistry', emoji: '💎💍', question: 'What property is used to organize the periodic table?', answer: 'Atomic number'},
+            {topic: 'Astronomy', emoji: '☀️⭐', question: 'Name the largest planet in our solar system', answer: 'Jupiter'},
+            {topic: 'Biology', emoji: '🦴🦷', question: 'What percentage of the human body is water?', answer: '60% or About 60%'},
+            {topic: 'Physics', emoji: '🔊🎵', question: 'What is the Doppler effect?', answer: 'Change in frequency due to motion or relative motion'}
         ]
     }
     // Add more chapters: 2, 3, 4, 5... jati ota pani!

@@ -59,16 +59,16 @@ const mathQuestions = {
             {topic: 'Arithmetic', emoji: '➕✖️', question: 'What is 12 × 12?', options: ['144', '124', '134', '154'], correct: 0}
         ],
         extreme: [
-            {topic: 'Arithmetic', emoji: '➕➖', question: 'What is 17.5% of 400?', options: ['70', '60', '80', '75'], correct: 0},
-            {topic: 'Geometry', emoji: '🔺📐', question: 'Volume of cube = ?', options: ['side³', 'side²', '6 × side', '4 × side'], correct: 0},
-            {topic: 'Algebra', emoji: '📊📈', question: 'Solve: x² = 49', options: ['x = ±7', 'x = 7', 'x = 49', 'x = 14'], correct: 0},
-            {topic: 'Arithmetic', emoji: '✖️➗', question: 'What is 15 × 15?', options: ['225', '215', '235', '205'], correct: 0},
-            {topic: 'Geometry', emoji: '⭕📏', question: 'Area of triangle = ?', options: ['½ × base × height', 'base × height', 'base + height', 'base ÷ height'], correct: 0},
-            {topic: 'Algebra', emoji: '🔢💯', question: 'What is 5³ (5 cubed)?', options: ['125', '15', '25', '75'], correct: 0},
-            {topic: 'Arithmetic', emoji: '💰💵', question: 'Convert 7/8 to decimal', options: ['0.875', '0.78', '0.87', '0.85'], correct: 0},
-            {topic: 'Geometry', emoji: '🔺📐', question: 'Sum of interior angles in pentagon?', options: ['540°', '360°', '180°', '720°'], correct: 0},
-            {topic: 'Algebra', emoji: '📈🔢', question: 'What is √144?', options: ['12', '14', '10', '16'], correct: 0},
-            {topic: 'Arithmetic', emoji: '➕✖️', question: 'What is 111 × 9?', options: ['999', '1000', '998', '1001'], correct: 0}
+            {topic: 'Arithmetic', emoji: '➕➖', question: 'Calculate 17.5% of 400', answer: '70'},
+            {topic: 'Geometry', emoji: '🔺📐', question: 'Write the formula for volume of a cube', answer: 'side³ or side cubed or s³'},
+            {topic: 'Algebra', emoji: '📊📈', question: 'Solve: x² = 49', answer: 'x = ±7 or x = 7 and -7'},
+            {topic: 'Arithmetic', emoji: '✖️➗', question: 'Calculate 15 × 15', answer: '225'},
+            {topic: 'Geometry', emoji: '⭕📏', question: 'Write the formula for area of a triangle', answer: '½ × base × height or (base × height)/2'},
+            {topic: 'Algebra', emoji: '🔢💯', question: 'What is 5³ (5 cubed)?', answer: '125'},
+            {topic: 'Arithmetic', emoji: '💰💵', question: 'Convert 7/8 to decimal', answer: '0.875'},
+            {topic: 'Geometry', emoji: '🔺📐', question: 'What is the sum of interior angles in a pentagon?', answer: '540° or 540 degrees'},
+            {topic: 'Algebra', emoji: '📈🔢', question: 'What is √144?', answer: '12'},
+            {topic: 'Arithmetic', emoji: '➕✖️', question: 'Calculate 111 × 9', answer: '999'}
         ]
     },
     2: { // Chapter 2: Fractions
@@ -121,16 +121,16 @@ const mathQuestions = {
             {topic: 'Fractions', emoji: '🍕➗', question: 'What is 7/10 ÷ 14/15?', options: ['3/4', '98/150', '1/2', '2/3'], correct: 0}
         ],
         extreme: [
-            {topic: 'Fractions', emoji: '🍕➗', question: 'Simplify: (2/3 + 1/4) × 3/5', options: ['11/20', '5/12', '1/2', '3/4'], correct: 0},
-            {topic: 'Fractions', emoji: '🥧🔢', question: 'What is (5/6 - 1/3) ÷ 1/2?', options: ['1', '5/9', '2/3', '3/4'], correct: 0},
-            {topic: 'Fractions', emoji: '🍰➕', question: 'Solve: x/4 = 3/8', options: ['x = 3/2', 'x = 1', 'x = 2', 'x = 3/4'], correct: 0},
-            {topic: 'Fractions', emoji: '🍕💯', question: 'What is (3/4)² ?', options: ['9/16', '6/8', '3/8', '9/8'], correct: 0},
-            {topic: 'Fractions', emoji: '🥧🔢', question: 'Simplify: (2/5 × 5/8) + 1/4', options: ['1/2', '3/8', '10/40', '2/3'], correct: 0},
-            {topic: 'Fractions', emoji: '🍰➗', question: 'What is 1 - (2/3 + 1/6)?', options: ['1/6', '1/2', '1/3', '2/3'], correct: 0},
-            {topic: 'Fractions', emoji: '🍕🔢', question: 'Solve: 2x/3 = 4/9', options: ['x = 2/3', 'x = 1', 'x = 8/27', 'x = 1/2'], correct: 0},
-            {topic: 'Fractions', emoji: '🥧➕', question: 'What is the reciprocal of 3/4?', options: ['4/3', '3/4', '1/4', '12'], correct: 0},
-            {topic: 'Fractions', emoji: '🍰💯', question: 'Simplify: (5/6 ÷ 2/3) - 1/4', options: ['1', '5/4', '3/4', '1/2'], correct: 0},
-            {topic: 'Fractions', emoji: '🍕➗', question: 'What is 2 2/3 as an improper fraction?', options: ['8/3', '6/3', '10/3', '4/3'], correct: 0}
+            {topic: 'Fractions', emoji: '🍕➗', question: 'Simplify: (2/3 + 1/4) × 3/5', answer: '11/20'},
+            {topic: 'Fractions', emoji: '🥧🔢', question: 'Calculate: (5/6 - 1/3) ÷ 1/2', answer: '1'},
+            {topic: 'Fractions', emoji: '🍰➕', question: 'Solve for x: x/4 = 3/8', answer: 'x = 3/2 or 3/2 or 1.5'},
+            {topic: 'Fractions', emoji: '🍕💯', question: 'What is (3/4)²?', answer: '9/16'},
+            {topic: 'Fractions', emoji: '🥧🔢', question: 'Simplify: (2/5 × 5/8) + 1/4', answer: '1/2'},
+            {topic: 'Fractions', emoji: '🍰➗', question: 'Calculate: 1 - (2/3 + 1/6)', answer: '1/6'},
+            {topic: 'Fractions', emoji: '🍕🔢', question: 'Solve for x: 2x/3 = 4/9', answer: 'x = 2/3 or 2/3'},
+            {topic: 'Fractions', emoji: '🥧➕', question: 'What is the reciprocal of 3/4?', answer: '4/3'},
+            {topic: 'Fractions', emoji: '🍰💯', question: 'Simplify: (5/6 ÷ 2/3) - 1/4', answer: '1'},
+            {topic: 'Fractions', emoji: '🍕➗', question: 'Convert mixed number 2 2/3 to improper fraction', answer: '8/3'}
         ]
     }
     // Add chapters 3, 4, 5... unlimited!

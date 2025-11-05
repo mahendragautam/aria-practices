@@ -50,14 +50,16 @@ For EACH file (snippet-01 to snippet-11):
 4. WordPress Admin > WPCode > Add Snippet > Add Your Custom Code
 5. Settings:
    ✓ Code Type: JavaScript
-   ✓ Location: Auto Insert > Footer
-   ✓ Run: Choose one option below
+   ✓ Location: Site Wide Footer (select from dropdown)
+   ✓ Load Options:
 
-   OPTION A - SIMPLE (for beginners):
-     → Run Everywhere (site-wide)
-     → Loads on all pages
+   OPTION A - SIMPLE (for testing):
+     → Location: Site Wide Footer
+     → Smart Conditional Logic: OFF
+     → Loads on all pages (site-wide)
 
-   OPTION B - EFFICIENT (recommended):
+   OPTION B - EFFICIENT (for production):
+     → Location: Site Wide Footer
      → Smart Conditional Logic: ON
      → Show if: URL contains "/quiz"
      → Loads ONLY on quiz page

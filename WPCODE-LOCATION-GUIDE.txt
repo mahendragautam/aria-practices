@@ -11,8 +11,8 @@ OPTION 1: SITE-WIDE (SIMPLE) ⭐ RECOMMENDED FOR BEGINNERS
 ────────────────────────────────────────────────────────────────────
 
 Configuration:
-✓ Location: Auto Insert > Footer
-✓ Run: Everywhere
+✓ Location: Site Wide Footer
+✓ Smart Conditional Logic: OFF
 ✓ No conditions needed
 
 Pros:
@@ -32,8 +32,8 @@ Use this if:
 
 WPCode Settings:
 ┌─────────────────────────────────────┐
-│ Location: Auto Insert > Footer      │
-│ Run: Everywhere (default)           │
+│ Location: Site Wide Footer          │
+│ Smart Conditional Logic: OFF        │
 │ Priority: 10, 11, 12... 20          │
 │ Status: Active ✓                    │
 └─────────────────────────────────────┘
@@ -43,9 +43,9 @@ OPTION 2: PAGE-SPECIFIC (EFFICIENT) ⭐ RECOMMENDED FOR PRODUCTION
 ────────────────────────────────────────────────────────────────────
 
 Configuration:
-✓ Location: Auto Insert > Footer
-✓ Run: Only on specific page/URL
-✓ Use conditional logic
+✓ Location: Site Wide Footer
+✓ Smart Conditional Logic: ON
+✓ Condition: URL contains "/quiz"
 
 Pros:
 + Loads ONLY on quiz page
@@ -64,10 +64,10 @@ Use this if:
 
 WPCode Settings:
 ┌─────────────────────────────────────────────────────────┐
-│ Location: Auto Insert > Footer                          │
-│ Run: Use Smart Conditional Logic                        │
-│   → Page: Select "Quiz Page" or enter URL pattern      │
-│   → OR URL contains: "/quiz" or "/interactive-quiz"    │
+│ Location: Site Wide Footer                              │
+│ Smart Conditional Logic: ON                             │
+│   → Show if: URL                                        │
+│   → Contains: /quiz                                     │
 │ Priority: 10, 11, 12... 20                              │
 │ Status: Active ✓                                        │
 └─────────────────────────────────────────────────────────┘

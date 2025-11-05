@@ -1,0 +1,250 @@
+═══════════════════════════════════════════════════════════════════
+    WPCODE EXACT SETTINGS (COPY THIS!)
+═══════════════════════════════════════════════════════════════════
+
+IMPORTANT: WPCode ma yo 2 options matra xa:
+1. Site Wide Header
+2. Site Wide Footer
+
+Quiz ko lagi: Site Wide Footer use garne! ✓
+
+═══════════════════════════════════════════════════════════════════
+    PHASE 1: TESTING (Site-Wide)
+═══════════════════════════════════════════════════════════════════
+
+For EACH snippet (snippet-01 to snippet-11):
+
+┌─────────────────────────────────────────────────────────────────┐
+│ WPCode Snippet Settings                                         │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│ 1. Code Type: JavaScript                                       │
+│                                                                 │
+│ 2. Location: Site Wide Footer ← Select from dropdown           │
+│                                                                 │
+│ 3. Smart Conditional Logic:                                    │
+│    [ ] Enable  ← Keep UNCHECKED (OFF)                         │
+│                                                                 │
+│ 4. Priority: 10 (for snippet-01)                              │
+│              11 (for snippet-02)                              │
+│              12 (for snippet-03)                              │
+│              ... (up to 20 for snippet-11)                    │
+│                                                                 │
+│ 5. Status: Active ✓ ← Turn ON                                 │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+
+Result: Loads on ALL pages (site-wide)
+
+═══════════════════════════════════════════════════════════════════
+    PHASE 2: PRODUCTION (Page-Specific)
+═══════════════════════════════════════════════════════════════════
+
+For EACH snippet (snippet-01 to snippet-11):
+
+┌─────────────────────────────────────────────────────────────────┐
+│ WPCode Snippet Settings                                         │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│ 1. Code Type: JavaScript                                       │
+│                                                                 │
+│ 2. Location: Site Wide Footer ← Same as Phase 1               │
+│                                                                 │
+│ 3. Smart Conditional Logic:                                    │
+│    [✓] Enable  ← CHECK this (turn ON)                         │
+│                                                                 │
+│    Rules:                                                      │
+│    ┌─────────────────────────────────────────────────────┐   │
+│    │ Show if: URL                    [Dropdown]          │   │
+│    │ Condition: contains             [Dropdown]          │   │
+│    │ Value: /quiz                    [Text field]        │   │
+│    └─────────────────────────────────────────────────────┘   │
+│                                                                 │
+│ 4. Priority: 10-20 (same as Phase 1)                          │
+│                                                                 │
+│ 5. Status: Active ✓                                            │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+
+Result: Loads ONLY on pages with "/quiz" in URL
+
+═══════════════════════════════════════════════════════════════════
+    WHY SITE WIDE FOOTER (NOT HEADER)?
+═══════════════════════════════════════════════════════════════════
+
+HEADER vs FOOTER:
+
+Site Wide Header:
+  → Loads in <head> section
+  → Runs BEFORE page HTML loads
+  → Can cause errors if HTML not ready
+  ❌ Not recommended for quiz
+
+Site Wide Footer:
+  → Loads before </body> tag
+  → Runs AFTER page HTML loads
+  → HTML elements available
+  ✓ Perfect for quiz!
+
+Example:
+
+<!-- Site Wide Header loads here -->
+<html>
+<head>
+  <title>Page</title>
+  <!-- Header JS loads HERE ❌ (too early!) -->
+</head>
+<body>
+  <div class="home-page">...</div>
+  <div class="quiz-page">...</div>
+
+  <!-- Site Wide Footer loads here -->
+  <!-- Footer JS loads HERE ✓ (perfect timing!) -->
+</body>
+</html>
+
+═══════════════════════════════════════════════════════════════════
+    DROPDOWN OPTIONS IN WPCODE
+═══════════════════════════════════════════════════════════════════
+
+When creating snippet, you'll see:
+
+Location Dropdown:
+┌────────────────────────────┐
+│ Select Location...         │ ← Click here
+├────────────────────────────┤
+│ Site Wide Header           │
+│ Site Wide Footer           │ ← Choose this!
+│ Before Content             │
+│ After Content              │
+│ Before Post                │
+│ After Post                 │
+│ ... (more options)         │
+└────────────────────────────┘
+
+Choose: Site Wide Footer ✓
+
+═══════════════════════════════════════════════════════════════════
+    CONDITIONAL LOGIC SETTINGS (PHASE 2)
+═══════════════════════════════════════════════════════════════════
+
+After enabling Smart Conditional Logic, you'll see:
+
+┌─────────────────────────────────────────────────────────────────┐
+│ Smart Conditional Logic                                         │
+├─────────────────────────────────────────────────────────────────┤
+│ [✓] Enable                                                      │
+│                                                                 │
+│ Rules:                                                          │
+│                                                                 │
+│ Show if:  [URL ▼]  [contains ▼]  [/quiz          ]            │
+│                                                                 │
+│ [+ Add Rule] [+ Add Group]                                     │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+
+Fill in:
+1. Show if: URL (select from dropdown)
+2. Condition: contains (select from dropdown)
+3. Value: /quiz (type this)
+
+═══════════════════════════════════════════════════════════════════
+    PRIORITY REFERENCE
+═══════════════════════════════════════════════════════════════════
+
+| Snippet File                      | Priority Number |
+|-----------------------------------|-----------------|
+| snippet-01-science-questions.js   | 10              |
+| snippet-02-math-questions.js      | 11              |
+| snippet-03-history-questions.js   | 12              |
+| snippet-04-geography-questions.js | 13              |
+| snippet-05-english-questions.js   | 14              |
+| snippet-06-health-questions.js    | 15              |
+| snippet-07-environment-questions.js| 16             |
+| snippet-08-business-questions.js  | 17              |
+| snippet-09-technology-questions.js| 18              |
+| snippet-10-parenting-questions.js | 19              |
+| snippet-11-master-app.js          | 20 ← LAST!      |
+
+═══════════════════════════════════════════════════════════════════
+    CHECKLIST FOR EACH SNIPPET
+═══════════════════════════════════════════════════════════════════
+
+PHASE 1 (Testing):
+□ Code Type: JavaScript ✓
+□ Location: Site Wide Footer ✓
+□ Smart Conditional Logic: OFF ✓
+□ Priority: Correct number (10-20) ✓
+□ Status: Active ✓
+□ Code pasted ✓
+□ Saved ✓
+
+PHASE 2 (Production):
+□ Edit snippet ✓
+□ Smart Conditional Logic: ON ✓
+□ Rule added: URL contains /quiz ✓
+□ Priority: Same as before ✓
+□ Status: Still Active ✓
+□ Saved ✓
+□ Tested ✓
+
+═══════════════════════════════════════════════════════════════════
+    COMMON MISTAKES
+═══════════════════════════════════════════════════════════════════
+
+❌ MISTAKE 1: Choosing "Site Wide Header"
+✓ FIX: Choose "Site Wide Footer"
+
+❌ MISTAKE 2: Different priority numbers
+✓ FIX: Follow table above (10-20)
+
+❌ MISTAKE 3: Forgetting to activate snippet
+✓ FIX: Toggle Status to Active ✓
+
+❌ MISTAKE 4: Phase 2 - Forgetting one snippet
+✓ FIX: Check all 11 snippets have conditional logic
+
+❌ MISTAKE 5: Wrong URL pattern
+✓ FIX: Use "/quiz" (with forward slash)
+
+═══════════════════════════════════════════════════════════════════
+    TESTING
+═══════════════════════════════════════════════════════════════════
+
+PHASE 1 (Site-Wide):
+1. Go to any page on your site
+2. Press F12 (browser console)
+3. Type: typeof scienceQuestions
+4. Should show: "object" ✓
+5. If "undefined" → Check snippet settings
+
+PHASE 2 (Page-Specific):
+1. Go to quiz page (/quiz)
+2. Press F12
+3. Type: typeof scienceQuestions
+4. Should show: "object" ✓
+
+Then:
+1. Go to homepage (/)
+2. Press F12
+3. Type: typeof scienceQuestions
+4. Should show: "undefined" ✓ (not loaded on homepage!)
+
+═══════════════════════════════════════════════════════════════════
+    SUMMARY
+═══════════════════════════════════════════════════════════════════
+
+WPCode Options:
+✓ Site Wide Header ← Don't use
+✓ Site Wide Footer ← Use this!
+
+Settings:
+✓ Code Type: JavaScript
+✓ Location: Site Wide Footer
+✓ Phase 1: Smart Conditional Logic OFF
+✓ Phase 2: Smart Conditional Logic ON → URL contains /quiz
+✓ Priority: 10-20
+✓ Status: Active
+
+That's it! ✅
+═══════════════════════════════════════════════════════════════════

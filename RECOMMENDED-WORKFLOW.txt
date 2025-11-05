@@ -14,8 +14,7 @@ GOAL: Test everything works properly
 
 SETUP:
 ┌─────────────────────────────────────┐
-│ Location: Auto Insert > Footer      │
-│ Run: Everywhere (site-wide)         │
+│ Location: Site Wide Footer          │
 │ Smart Conditional Logic: OFF        │
 │ Priority: 10, 11, 12... 20          │
 │ Status: Active ✓                    │
@@ -54,10 +53,10 @@ WHEN: After verifying everything works in Phase 1
 
 SETUP:
 ┌─────────────────────────────────────────────────────────┐
-│ Location: Auto Insert > Footer                          │
-│ Run: Smart Conditional Logic                            │
+│ Location: Site Wide Footer                              │
 │ Smart Conditional Logic: ON                             │
-│   → Show if: URL contains "/quiz"                       │
+│   → Show if: URL                                        │
+│   → Contains: /quiz                                     │
 │ Priority: 10, 11, 12... 20 (same as before)            │
 │ Status: Active ✓                                        │
 └─────────────────────────────────────────────────────────┘

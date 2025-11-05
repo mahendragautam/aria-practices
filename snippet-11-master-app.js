@@ -208,7 +208,16 @@ function startMixedQuiz(level, mixType, timedMode) {
     isTimedMode = timedMode;
     canPause = !timedMode; // Can only pause in practice mode
     isPaused = false;
-    quizMode = mixType === 'levelwise' ? 'mixed-levelwise' : 'mixed-complete';
+
+    // Set quiz mode based on mix type
+    if (mixType === 'levelwise') {
+        quizMode = 'mixed-levelwise';
+    } else if (mixType === 'complete') {
+        quizMode = 'mixed-complete';
+    } else if (mixType === 'allmix') {
+        quizMode = 'mixed-allmix';
+    }
+
     returnPage = timedMode ? 'timer-challenges' : 'practice-mode';
 
     let allQuestions = [];
@@ -220,22 +229,18 @@ function startMixedQuiz(level, mixType, timedMode) {
                 allQuestions = allQuestions.concat(subjectQuestionBank[subject][ch][level]);
             }
         });
-    } else {
-        // Complete mix - all subjects, all chapters, progressive difficulty
-        // Mix all levels UP TO the selected difficulty
-        const levelHierarchy = {
-            'easy': ['easy'],
-            'medium': ['easy', 'medium'],
-            'hard': ['easy', 'medium', 'hard'],
-            'expert': ['easy', 'medium', 'hard', 'expert'],
-            'extreme': ['easy', 'medium', 'hard', 'expert', 'extreme']
-        };
-
-        const levelsToInclude = levelHierarchy[level] || ['easy', 'medium', 'hard', 'expert', 'extreme'];
-
+    } else if (mixType === 'complete') {
+        // Complete mix - all subjects, all chapters, SAME level only
         Object.keys(subjects).forEach(subject => {
             for (let ch = 1; ch <= 20; ch++) {
-                levelsToInclude.forEach(lvl => {
+                allQuestions = allQuestions.concat(subjectQuestionBank[subject][ch][level]);
+            }
+        });
+    } else if (mixType === 'allmix') {
+        // All Levels Mix - all subjects, all chapters, ALL levels mixed
+        Object.keys(subjects).forEach(subject => {
+            for (let ch = 1; ch <= 20; ch++) {
+                ['easy', 'medium', 'hard', 'expert', 'extreme'].forEach(lvl => {
                     allQuestions = allQuestions.concat(subjectQuestionBank[subject][ch][lvl]);
                 });
             }
@@ -247,7 +252,7 @@ function startMixedQuiz(level, mixType, timedMode) {
 
     // Setup timer if timed mode
     if (isTimedMode) {
-        timeRemaining = mixType === 'complete' ? timeLimits.complete : timeLimits[level];
+        timeRemaining = (mixType === 'complete' || mixType === 'allmix') ? timeLimits.complete : timeLimits[level];
         startTimer();
     }
 
@@ -748,8 +753,15 @@ function retakeQuiz() {
         startQuiz(currentLevel, isTimedMode);
     } else if (quizMode === 'subject-timer') {
         startSubjectTimer(currentLevel);
-    } else if (quizMode === 'mixed-levelwise' || quizMode === 'mixed-complete') {
-        const mixType = quizMode === 'mixed-levelwise' ? 'levelwise' : 'complete';
+    } else if (quizMode === 'mixed-levelwise' || quizMode === 'mixed-complete' || quizMode === 'mixed-allmix') {
+        let mixType = 'levelwise';
+        if (quizMode === 'mixed-levelwise') {
+            mixType = 'levelwise';
+        } else if (quizMode === 'mixed-complete') {
+            mixType = 'complete';
+        } else if (quizMode === 'mixed-allmix') {
+            mixType = 'allmix';
+        }
         const timedMode = returnPage === 'timer-challenges';
         startMixedQuiz(currentLevel, mixType, timedMode);
     }

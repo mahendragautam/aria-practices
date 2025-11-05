@@ -219,20 +219,34 @@ NOTE: Do NOT include <!DOCTYPE>, <html>, <head>, or <body> tags
             </div>
         </div>
 
-        <!-- Section 3: Complete Mix (All Subjects, All Levels) -->
+        <!-- Section 3: Complete Mix (All Subjects, Same Level) -->
         <div class="mode-section">
             <div class="collapsible-header" onclick="toggleSection('timerComplete')">
-                <h3 class="mode-title">🔥 Complete Mix (All Subjects, All Levels)</h3>
+                <h3 class="mode-title">🔥 Complete Mix (All Subjects, Same Level)</h3>
                 <span class="toggle-arrow" id="timerCompleteArrow">▼</span>
             </div>
             <div class="collapsible-content expanded" id="timerComplete">
-                <p class="mode-description">Ultimate challenge - All subjects, all levels, all chapters mixed!</p>
+                <p class="mode-description">All subjects, all chapters - Pick your difficulty!</p>
                 <div class="level-grid">
                     <div class="level-card level-easy" onclick="startMixedQuiz('easy', 'complete', true)">🟢 EASY MIX</div>
                     <div class="level-card level-medium" onclick="startMixedQuiz('medium', 'complete', true)">🟡 MEDIUM MIX</div>
                     <div class="level-card level-hard" onclick="startMixedQuiz('hard', 'complete', true)">🟠 HARD MIX</div>
                     <div class="level-card level-expert" onclick="startMixedQuiz('expert', 'complete', true)">🔴 EXPERT MIX</div>
                     <div class="level-card level-extreme" onclick="startMixedQuiz('extreme', 'complete', true)">⚫ EXTREME MIX</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 4: All Levels Mix (Ultimate Challenge) -->
+        <div class="mode-section">
+            <div class="collapsible-header" onclick="toggleSection('timerAllMix')">
+                <h3 class="mode-title">💥 All Levels Mix (Ultimate Challenge)</h3>
+                <span class="toggle-arrow" id="timerAllMixArrow">▼</span>
+            </div>
+            <div class="collapsible-content expanded" id="timerAllMix">
+                <p class="mode-description">EXTREME! All subjects, all chapters, ALL levels mixed together!</p>
+                <div class="level-grid">
+                    <div class="level-card level-mixed" onclick="startMixedQuiz('medium', 'allmix', true)">🌟 START ALL LEVELS MIX</div>
                 </div>
             </div>
         </div>
@@ -285,14 +299,22 @@ NOTE: Do NOT include <!DOCTYPE>, <html>, <head>, or <body> tags
         </div>
 
         <div class="mode-section">
-            <h3 class="mode-title">🔥 Complete Mix (All Subjects, All Levels)</h3>
-            <p class="mode-description">Ultimate practice - All subjects, all levels, all chapters mixed - No timer</p>
+            <h3 class="mode-title">🔥 Complete Mix (All Subjects, Same Level)</h3>
+            <p class="mode-description">All subjects, all chapters - Pick your difficulty - No timer</p>
             <div class="level-grid">
                 <div class="level-card level-easy" onclick="startMixedQuiz('easy', 'complete', false)">🟢 EASY MIX</div>
                 <div class="level-card level-medium" onclick="startMixedQuiz('medium', 'complete', false)">🟡 MEDIUM MIX</div>
                 <div class="level-card level-hard" onclick="startMixedQuiz('hard', 'complete', false)">🟠 HARD MIX</div>
                 <div class="level-card level-expert" onclick="startMixedQuiz('expert', 'complete', false)">🔴 EXPERT MIX</div>
                 <div class="level-card level-extreme" onclick="startMixedQuiz('extreme', 'complete', false)">⚫ EXTREME MIX</div>
+            </div>
+        </div>
+
+        <div class="mode-section">
+            <h3 class="mode-title">💥 All Levels Mix (Ultimate Challenge)</h3>
+            <p class="mode-description">EXTREME! All subjects, all chapters, ALL levels mixed - No timer</p>
+            <div class="level-grid">
+                <div class="level-card level-mixed" onclick="startMixedQuiz('medium', 'allmix', false)">🌟 START ALL LEVELS MIX</div>
             </div>
         </div>
 

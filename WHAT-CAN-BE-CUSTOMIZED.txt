@@ -1,0 +1,362 @@
+═══════════════════════════════════════════════════════════════════
+    WHAT CAN BE CUSTOMIZED? (TITLE & TEXT CHANGES)
+═══════════════════════════════════════════════════════════════════
+
+Question: Title haru freely change garna milxa ki mildaena?
+
+Answer: YES! ✓ Dherai kura change garna sakinxa!
+
+═══════════════════════════════════════════════════════════════════
+    ✅ CAN CHANGE (Freely)
+═══════════════════════════════════════════════════════════════════
+
+1. PAGE TITLE
+────────────────────────────────────────────────────────────────────
+Location: index.html / standalone-quiz.html (Line ~6)
+
+CHANGE:
+<title>Interactive Quiz Collection</title>
+
+TO:
+<title>Mero Quiz App</title>
+<title>Super Brain Quiz</title>
+<title>Knowledge Test - Learn & Play</title>
+→ ANY title you want! ✓
+
+
+2. SUBJECT NAMES
+────────────────────────────────────────────────────────────────────
+Location: snippet-11-master-app.js (Line ~32)
+
+CHANGE:
+const subjects = {
+    science: { name: 'Science', emoji: '🔬' },
+    math: { name: 'Math', emoji: '🔢' }
+};
+
+TO:
+const subjects = {
+    science: { name: 'Vigyan', emoji: '🔬' },        // Nepali
+    math: { name: 'Ganit', emoji: '🔢' }            // Nepali
+};
+
+OR:
+const subjects = {
+    science: { name: 'सिकाइ', emoji: '🔬' },        // Devnagari
+    math: { name: 'गणित', emoji: '🔢' }             // Devnagari
+};
+
+→ Change to any language! ✓
+
+
+3. SUBJECT EMOJIS
+────────────────────────────────────────────────────────────────────
+Location: snippet-11-master-app.js (Line ~32)
+
+CHANGE:
+science: { name: 'Science', emoji: '🔬' }
+
+TO:
+science: { name: 'Science', emoji: '🧪' }          // Test tube
+science: { name: 'Science', emoji: '⚗️' }          // Flask
+science: { name: 'Science', emoji: '🔭' }          // Telescope
+
+→ Any emoji! ✓
+
+
+4. HEADER TEXT
+────────────────────────────────────────────────────────────────────
+Location: index.html (Line ~20)
+
+CHANGE:
+<h2 class="section-title">📚 Individual Subjects</h2>
+
+TO:
+<h2 class="section-title">📚 Subjects</h2>
+<h2 class="section-title">📚 Choose Topic</h2>
+<h2 class="section-title">📚 विषयहरू</h2>
+
+→ ANY text! ✓
+
+
+5. BUTTON TEXT
+────────────────────────────────────────────────────────────────────
+Location: index.html (various places)
+
+Examples:
+
+Home button:
+CHANGE: Home
+TO: होम / गृहपृष्ठ / Back to Home
+
+Level buttons:
+CHANGE: Easy, Medium, Hard, Expert, Extreme
+TO: सजिलो, मध्यम, गाह्रो, विशेषज्ञ, अति कठिन
+
+Start button:
+CHANGE: Start Quiz
+TO: क्विज सुरु गर्नुहोस् / Begin Test
+
+→ Change all button text! ✓
+
+
+6. MESSAGES
+────────────────────────────────────────────────────────────────────
+Location: snippet-11-master-app.js (search for text)
+
+Examples:
+
+"No chapters available yet"
+→ "अझै अध्यायहरू उपलब्ध छैनन्"
+
+"Correct!"
+→ "सहि!" / "ठीक!"
+
+"Time's up!"
+→ "समय सकियो!"
+
+"Your score:"
+→ "तपाईंको अंक:"
+
+→ Change all messages! ✓
+
+
+7. INSTRUCTIONS & HELP TEXT
+────────────────────────────────────────────────────────────────────
+Location: index.html (various places)
+
+All instruction text can be changed:
+- Quiz rules
+- How to play
+- Tips
+- Warnings
+
+→ Fully customizable! ✓
+
+
+8. COLORS & STYLING
+────────────────────────────────────────────────────────────────────
+Location: styles.css (embedded in HTML files)
+
+Change:
+- Background colors
+- Button colors
+- Text colors
+- Hover effects
+- Animations
+
+→ Complete design control! ✓
+
+
+═══════════════════════════════════════════════════════════════════
+    ❌ CANNOT CHANGE (Technical - Will Break)
+═══════════════════════════════════════════════════════════════════
+
+1. VARIABLE NAMES (JavaScript)
+────────────────────────────────────────────────────────────────────
+DON'T CHANGE:
+const scienceQuestions = { ... }  // Keep 'scienceQuestions'
+const subjectQuestionBank = { ... }  // Keep exact name
+function selectSubject() { ... }  // Keep function name
+
+WHY: Code references these exact names
+
+
+2. SUBJECT KEYS (Object keys)
+────────────────────────────────────────────────────────────────────
+DON'T CHANGE:
+const subjects = {
+    science: { ... },  // Keep 'science' key
+    math: { ... }      // Keep 'math' key
+};
+
+CAN CHANGE:
+const subjects = {
+    science: { name: 'Vigyan', ... },  // ✓ Change display name
+    math: { name: 'Ganit', ... }       // ✓ Change display name
+};
+
+WHY: Keys link questions to subjects
+
+
+3. HTML IDs & CLASSES
+────────────────────────────────────────────────────────────────────
+DON'T CHANGE:
+<div id="subjectGrid">  // Keep exact ID
+<div class="subject-card">  // Keep exact class
+
+WHY: JavaScript uses these to find elements
+
+
+4. FILE STRUCTURE
+────────────────────────────────────────────────────────────────────
+DON'T CHANGE:
+- Load order (questions before master app)
+- Priority numbers (10-20 order)
+- Script tag structure
+
+WHY: Breaks functionality
+
+
+═══════════════════════════════════════════════════════════════════
+    EXAMPLES: SAFE CHANGES
+═══════════════════════════════════════════════════════════════════
+
+EXAMPLE 1: Nepali Language
+────────────────────────────────────────────────────────────────────
+
+CHANGE subjects:
+const subjects = {
+    science: { name: 'विज्ञान', emoji: '🔬' },
+    math: { name: 'गणित', emoji: '🔢' },
+    history: { name: 'इतिहास', emoji: '📜' },
+    geography: { name: 'भूगोल', emoji: '🌍' },
+    english: { name: 'अंग्रेजी', emoji: '📖' }
+};
+
+CHANGE messages (in functions):
+// Find and replace:
+"Correct!" → "सही!"
+"Wrong!" → "गलत!"
+"Score:" → "अंक:"
+"Time:" → "समय:"
+
+Result: Full Nepali interface! ✓
+
+
+EXAMPLE 2: Kids Version
+────────────────────────────────────────────────────────────────────
+
+CHANGE subjects:
+const subjects = {
+    science: { name: '🔬 Fun Science', emoji: '⚗️' },
+    math: { name: '🔢 Number Games', emoji: '➕' },
+    history: { name: '📜 Story Time', emoji: '👑' }
+};
+
+CHANGE messages:
+"Start Quiz" → "Let's Play!"
+"Correct!" → "Awesome! 🎉"
+"Wrong!" → "Try Again! 💪"
+
+Result: Kid-friendly interface! ✓
+
+
+EXAMPLE 3: Professional Version
+────────────────────────────────────────────────────────────────────
+
+CHANGE title:
+<title>Professional Knowledge Assessment</title>
+
+CHANGE subjects:
+const subjects = {
+    science: { name: 'Scientific Knowledge', emoji: '🔬' },
+    business: { name: 'Business Acumen', emoji: '💼' }
+};
+
+CHANGE messages:
+"Quiz" → "Assessment"
+"Score" → "Result"
+"Easy" → "Level 1"
+
+Result: Professional interface! ✓
+
+
+═══════════════════════════════════════════════════════════════════
+    HOW TO CHANGE TEXT
+═══════════════════════════════════════════════════════════════════
+
+METHOD 1: Find & Replace (Easy)
+────────────────────────────────────────────────────────────────────
+
+1. Open file in text editor (VS Code, Notepad++)
+2. CTRL+H (Find & Replace)
+3. Find: "Start Quiz"
+4. Replace: "क्विज सुरु गर्नुहोस्"
+5. Replace All
+6. Save
+
+→ Changes all occurrences! ✓
+
+
+METHOD 2: Manual Edit (Precise)
+────────────────────────────────────────────────────────────────────
+
+1. Open file
+2. Search for specific text (CTRL+F)
+3. Edit that exact location
+4. Save
+
+→ Change only what you want! ✓
+
+
+═══════════════════════════════════════════════════════════════════
+    TESTING AFTER CHANGES
+═══════════════════════════════════════════════════════════════════
+
+After changing text:
+
+1. Save file
+2. Refresh browser (or reopen HTML)
+3. Check:
+   □ New text appears ✓
+   □ Quiz still works ✓
+   □ No JavaScript errors (F12 console) ✓
+   □ All features working ✓
+
+If broken:
+→ Check spelling of variable names
+→ Check you didn't change IDs/classes
+→ Restore from backup if needed
+
+
+═══════════════════════════════════════════════════════════════════
+    WHAT TO CHANGE IN EACH FILE
+═══════════════════════════════════════════════════════════════════
+
+index.html / standalone-quiz.html:
+  ✓ Page title
+  ✓ Section headers
+  ✓ Button text
+  ✓ Instructions
+  ✓ Help text
+
+snippet-11-master-app.js:
+  ✓ Subject names
+  ✓ Subject emojis
+  ✓ Messages (in functions)
+  ✓ Timer text
+  ✓ Score text
+
+styles.css (embedded):
+  ✓ Colors
+  ✓ Fonts
+  ✓ Sizes
+  ✓ Animations
+
+
+═══════════════════════════════════════════════════════════════════
+    SUMMARY
+═══════════════════════════════════════════════════════════════════
+
+CAN FREELY CHANGE:
+✓ All visible text (titles, labels, messages)
+✓ Subject display names
+✓ Emojis
+✓ Colors & styling
+✓ Button text
+✓ Instructions
+✓ Language (English → Nepali → Any)
+
+CANNOT CHANGE:
+❌ Variable names (scienceQuestions, etc.)
+❌ Object keys (science, math, etc.)
+❌ Function names
+❌ HTML IDs/classes
+❌ Load order
+
+RULE OF THUMB:
+→ If user sees it: CAN change ✓
+→ If code uses it: DON'T change ❌
+
+═══════════════════════════════════════════════════════════════════

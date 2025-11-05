@@ -1,0 +1,311 @@
+═══════════════════════════════════════════════════════════════════
+    ADDING NEW SUBJECT - COMPLETE GUIDE
+═══════════════════════════════════════════════════════════════════
+
+Question: Aru subject add garnu paryo vane kun kun thau ma k k change garnu parxa?
+
+Answer: 5 STEPS MA ADD HUNXA! ✓
+
+═══════════════════════════════════════════════════════════════════
+    EXAMPLE: ADD "COMPUTER" SUBJECT
+═══════════════════════════════════════════════════════════════════
+
+STEP 1: CREATE QUESTION FILE
+────────────────────────────────────────────────────────────────────
+
+File: snippet-12-computer-questions.js
+
+/**
+ * WPCode Snippet #12: Computer Questions
+ * ==================================================
+ * Type: JavaScript
+ * Location: Site Wide Footer
+ * Priority: 21
+ *
+ * COPY ALL CODE BELOW
+ */
+
+const computerQuestions = {
+    1: { // Chapter 1
+        easy: [
+            {topic: 'Basics', emoji: '💻🖱️', question: 'CPU stands for Central Processing Unit.', options: ['True', 'False'], correct: 0},
+            {topic: 'Hardware', emoji: '⌨️🖥️', question: 'RAM is permanent storage.', options: ['True', 'False'], correct: 1},
+            {topic: 'Software', emoji: '📱💾', question: 'Operating system manages computer resources.', options: ['True', 'False'], correct: 0},
+            {topic: 'Internet', emoji: '🌐📡', question: 'WWW stands for World Wide Web.', options: ['True', 'False'], correct: 0},
+            {topic: 'Basics', emoji: '🖱️⌨️', question: 'Mouse and keyboard are input devices.', options: ['True', 'False'], correct: 0},
+            {topic: 'Hardware', emoji: '💾💿', question: 'Hard disk is used for storage.', options: ['True', 'False'], correct: 0},
+            {topic: 'Software', emoji: '🎮🎯', question: 'Microsoft Word is a game.', options: ['True', 'False'], correct: 1},
+            {topic: 'Internet', emoji: '📧✉️', question: 'Email requires internet connection.', options: ['True', 'False'], correct: 0},
+            {topic: 'Basics', emoji: '🖥️💻', question: 'Monitor displays output.', options: ['True', 'False'], correct: 0},
+            {topic: 'Hardware', emoji: '🖨️📄', question: 'Printer is an output device.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Basics', emoji: '💻🔢', question: 'What is the brain of computer?', options: ['CPU', 'RAM'], correct: 0},
+            {topic: 'Hardware', emoji: '💾📊', question: 'Which is faster: SSD or HDD?', options: ['SSD', 'HDD'], correct: 0},
+            {topic: 'Software', emoji: '🪟💻', question: 'Windows is what type of software?', options: ['Operating System', 'Application'], correct: 0},
+            {topic: 'Internet', emoji: '🌐🔍', question: 'What does HTTP stand for?', options: ['HyperText Transfer Protocol', 'High Tech Transfer Protocol'], correct: 0},
+            {topic: 'Basics', emoji: '⌨️🖱️', question: 'What are input devices?', options: ['Keyboard, Mouse', 'Monitor, Printer'], correct: 0},
+            {topic: 'Hardware', emoji: '🎮🕹️', question: 'GPU is used for?', options: ['Graphics', 'Sound'], correct: 0},
+            {topic: 'Software', emoji: '🔒🛡️', question: 'Antivirus is which type?', options: ['Security software', 'Game'], correct: 0},
+            {topic: 'Internet', emoji: '📧🌐', question: 'What does @ mean in email?', options: ['At', 'And'], correct: 0},
+            {topic: 'Basics', emoji: '🔌⚡', question: 'What powers the computer?', options: ['Electricity', 'Battery only'], correct: 0},
+            {topic: 'Hardware', emoji: '🎧🔊', question: 'Speakers are which type?', options: ['Output device', 'Input device'], correct: 0}
+        ],
+        hard: [],
+        expert: [],
+        extreme: []
+    }
+};
+
+
+STEP 2: UPDATE MASTER APP (snippet-11-master-app.js)
+────────────────────────────────────────────────────────────────────
+
+LOCATION 1: Add to subjects definition (Line ~32)
+
+BEFORE:
+const subjects = {
+    science: { name: 'Science', emoji: '🔬' },
+    math: { name: 'Math', emoji: '🔢' },
+    history: { name: 'History', emoji: '📜' },
+    geography: { name: 'Geography', emoji: '🌍' },
+    english: { name: 'English', emoji: '📖' },
+    health: { name: 'Health & Fitness', emoji: '💪' },
+    environment: { name: 'Environment', emoji: '🌱' },
+    business: { name: 'Business', emoji: '💼' },
+    technology: { name: 'Technology', emoji: '💻' },
+    parenting: { name: 'Parenting', emoji: '👶' }
+};
+
+AFTER:
+const subjects = {
+    science: { name: 'Science', emoji: '🔬' },
+    math: { name: 'Math', emoji: '🔢' },
+    history: { name: 'History', emoji: '📜' },
+    geography: { name: 'Geography', emoji: '🌍' },
+    english: { name: 'English', emoji: '📖' },
+    health: { name: 'Health & Fitness', emoji: '💪' },
+    environment: { name: 'Environment', emoji: '🌱' },
+    business: { name: 'Business', emoji: '💼' },
+    technology: { name: 'Technology', emoji: '💻' },
+    parenting: { name: 'Parenting', emoji: '👶' },
+    computer: { name: 'Computer', emoji: '💻' }  // ← NEW!
+};
+
+
+LOCATION 2: Add to question bank (Line ~70)
+
+BEFORE:
+const subjectQuestionBank = {
+    science: scienceQuestions,
+    math: mathQuestions,
+    history: historyQuestions,
+    geography: geographyQuestions,
+    english: englishQuestions,
+    health: healthQuestions,
+    environment: environmentQuestions,
+    business: businessQuestions,
+    technology: technologyQuestions,
+    parenting: parentingQuestions
+};
+
+AFTER:
+const subjectQuestionBank = {
+    science: scienceQuestions,
+    math: mathQuestions,
+    history: historyQuestions,
+    geography: geographyQuestions,
+    english: englishQuestions,
+    health: healthQuestions,
+    environment: environmentQuestions,
+    business: businessQuestions,
+    technology: technologyQuestions,
+    parenting: parentingQuestions,
+    computer: computerQuestions  // ← NEW!
+};
+
+
+STEP 3: UPDATE HTML (index.html)
+────────────────────────────────────────────────────────────────────
+
+LOCATION 1: Add script tag (before snippet-11, around line 400)
+
+BEFORE:
+<script src="snippet-10-parenting-questions.js"></script>
+
+<!-- Load master app last -->
+<script src="snippet-11-master-app.js"></script>
+
+AFTER:
+<script src="snippet-10-parenting-questions.js"></script>
+<script src="snippet-12-computer-questions.js"></script>  ← NEW!
+
+<!-- Load master app last -->
+<script src="snippet-11-master-app.js"></script>
+
+
+LOCATION 2: Add subject card (around line 60)
+
+BEFORE:
+<div class="subject-card" onclick="selectSubject('parenting')">
+    <div class="subject-emoji">👶</div>
+    <div class="subject-name">Parenting</div>
+</div>
+</div> <!-- end of subject-grid -->
+
+AFTER:
+<div class="subject-card" onclick="selectSubject('parenting')">
+    <div class="subject-emoji">👶</div>
+    <div class="subject-name">Parenting</div>
+</div>
+<div class="subject-card" onclick="selectSubject('computer')">  ← NEW!
+    <div class="subject-emoji">💻</div>
+    <div class="subject-name">Computer</div>
+</div>
+</div> <!-- end of subject-grid -->
+
+
+STEP 4: UPDATE STANDALONE FILE (standalone-quiz.html) - OPTIONAL
+────────────────────────────────────────────────────────────────────
+
+If using standalone file, need to add:
+1. Same HTML subject card
+2. Same script additions
+3. Inside the embedded <script> tag
+
+
+STEP 5: WPCODE (if using WordPress)
+────────────────────────────────────────────────────────────────────
+
+1. Create new snippet #12:
+   - Name: Quiz - Computer
+   - Code: snippet-12-computer-questions.js content
+   - Priority: 21
+   - Location: Site Wide Footer
+   - Active: ON
+
+2. Update snippet #11 (Master App):
+   - Edit snippet-11-master-app.js
+   - Add computer to subjects{}
+   - Add computer to subjectQuestionBank{}
+   - Save
+
+
+═══════════════════════════════════════════════════════════════════
+    SUMMARY: 5 CHANGES NEEDED
+═══════════════════════════════════════════════════════════════════
+
+✓ 1. CREATE: snippet-12-computer-questions.js (new question file)
+✓ 2. EDIT: snippet-11-master-app.js (2 locations)
+✓ 3. EDIT: index.html (2 locations)
+✓ 4. EDIT: standalone-quiz.html (if using) (2 locations)
+✓ 5. WPCODE: Add snippet #12 + update snippet #11
+
+═══════════════════════════════════════════════════════════════════
+    CHECKLIST FOR NEW SUBJECT
+═══════════════════════════════════════════════════════════════════
+
+□ Question file created (snippet-12-computer-questions.js)
+□ Master app updated:
+  □ Added to subjects{} object
+  □ Added to subjectQuestionBank{} object
+□ HTML updated:
+  □ Script tag added
+  □ Subject card added
+□ Standalone updated (if using)
+□ WPCode updated (if using)
+□ Tested:
+  □ Subject appears on home page
+  □ Clicking subject works
+  □ Chapters load
+  □ Questions play
+
+═══════════════════════════════════════════════════════════════════
+    ADDING MULTIPLE SUBJECTS
+═══════════════════════════════════════════════════════════════════
+
+Want to add 3 new subjects (Computer, Art, Music)?
+
+Repeat 5 steps for each:
+
+Subject 1: Computer
+  → snippet-12-computer-questions.js (Priority: 21)
+
+Subject 2: Art
+  → snippet-13-art-questions.js (Priority: 22)
+
+Subject 3: Music
+  → snippet-14-music-questions.js (Priority: 23)
+
+Then update master app with all 3 at once.
+
+═══════════════════════════════════════════════════════════════════
+    PRIORITY NUMBERS
+═══════════════════════════════════════════════════════════════════
+
+Current: 10-20 (11 snippets)
+New subjects: Continue from 21
+
+| Subject      | Snippet # | Priority |
+|--------------|-----------|----------|
+| Science      | 01        | 10       |
+| Math         | 02        | 11       |
+| ...          | ...       | ...      |
+| Parenting    | 10        | 19       |
+| Master App   | 11        | 20       |
+| Computer     | 12        | 21       | ← NEW
+| Art          | 13        | 22       | ← NEW
+| Music        | 14        | 23       | ← NEW
+| ...          | ...       | ...      |
+
+Master App ALWAYS LAST! Update priority if needed.
+
+═══════════════════════════════════════════════════════════════════
+    QUICK REFERENCE: FILE LOCATIONS
+═══════════════════════════════════════════════════════════════════
+
+snippet-11-master-app.js:
+  Line ~32:  const subjects = { ... }
+  Line ~70:  const subjectQuestionBank = { ... }
+
+index.html:
+  Line ~60:   Subject cards (HTML)
+  Line ~400:  Script tags
+
+standalone-quiz.html:
+  Line ~60:   Subject cards (HTML)
+  Line ~2400: Script section with questions
+
+═══════════════════════════════════════════════════════════════════
+    TEMPLATE FOR NEW SUBJECT
+═══════════════════════════════════════════════════════════════════
+
+Copy this template:
+
+/**
+ * WPCode Snippet #XX: [SUBJECT] Questions
+ * Priority: XX
+ */
+
+const [subject]Questions = {
+    1: {
+        easy: [
+            {topic: 'Topic', emoji: '🎯🎨', question: 'Question here.', options: ['True', 'False'], correct: 0},
+            // Add 9 more (10 total)
+        ],
+        medium: [
+            {topic: 'Topic', emoji: '🎯🎨', question: 'Question here.', options: ['Option 1', 'Option 2'], correct: 0},
+            // Add 9 more (10 total)
+        ],
+        hard: [],
+        expert: [],
+        extreme: []
+    }
+};
+
+Replace:
+- XX = snippet number (12, 13, etc.)
+- [SUBJECT] = Subject name (Computer, Art, etc.)
+- [subject] = lowercase (computer, art, etc.)
+
+═══════════════════════════════════════════════════════════════════

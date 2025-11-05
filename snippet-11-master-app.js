@@ -28,6 +28,9 @@ let returnPage = 'home'; // Track where to return after quiz
 let isTimedMode = false;
 let timeRemaining = 0;
 let timerInterval = null;
+
+// History navigation flag (prevent recursive pushState)
+let isNavigatingHistory = false;
 let isPaused = false;
 let canPause = true; // Timer challenges cannot pause
 
@@ -390,15 +393,17 @@ function showScreen(screenClass) {
     });
     document.querySelector(`.${screenClass}`).classList.add('active');
 
-    // Push to browser history for back button support
-    const state = {
-        screen: screenClass,
-        subject: currentSubject,
-        chapter: currentChapter,
-        mode: quizMode,
-        returnPage: returnPage
-    };
-    history.pushState(state, '', `#${screenClass}`);
+    // Push to browser history ONLY if not restoring from history
+    if (!isNavigatingHistory) {
+        const state = {
+            screen: screenClass,
+            subject: currentSubject,
+            chapter: currentChapter,
+            mode: quizMode,
+            returnPage: returnPage
+        };
+        history.pushState(state, '', `#${screenClass}`);
+    }
 }
 
 function startQuiz(level, timedMode = false) {
@@ -902,6 +907,9 @@ window.onload = function() {
 
 // Handle browser back/forward buttons
 window.addEventListener('popstate', function(event) {
+    // Set flag to prevent recursive pushState
+    isNavigatingHistory = true;
+
     if (event.state && event.state.screen) {
         // Restore state from history
         if (event.state.subject) currentSubject = event.state.subject;
@@ -909,18 +917,63 @@ window.addEventListener('popstate', function(event) {
         if (event.state.mode) quizMode = event.state.mode;
         if (event.state.returnPage) returnPage = event.state.returnPage;
 
-        // Show the screen without pushing new history (to avoid loop)
-        document.querySelectorAll('.home-page, .chapter-selection, .level-selection, .quiz-container, .result-container, .timer-challenges-page, .timer-subject-level-selection, .practice-mode-page, .riddles-page, .dad-jokes-page').forEach(el => {
-            el.classList.remove('active');
-        });
-        document.querySelector(`.${event.state.screen}`).classList.add('active');
+        // Navigate to the appropriate screen using proper functions
+        switch(event.state.screen) {
+            case 'home-page':
+                clearFallingEmojis();
+                stopTimer();
+                showScreen('home-page');
+                break;
 
-        // Refresh chapter grid if going back to chapter selection
-        if (event.state.screen === 'chapter-selection') {
-            initializeChapters();
+            case 'chapter-selection':
+                const subjectData = subjects[currentSubject];
+                if (subjectData) {
+                    document.getElementById('subjectTitle').innerHTML = `${subjectData.emoji} ${subjectData.name} ${subjectData.emoji}`;
+                }
+                initializeChapters();
+                showScreen('chapter-selection');
+                break;
+
+            case 'level-selection':
+                showScreen('level-selection');
+                break;
+
+            case 'timer-challenges-page':
+                initializeTimerSubjects();
+                showScreen('timer-challenges-page');
+                break;
+
+            case 'timer-subject-level-selection':
+                const timerSubjectData = subjects[currentSubject];
+                if (timerSubjectData) {
+                    document.getElementById('timerSubjectTitle').innerHTML = `${timerSubjectData.emoji} ${timerSubjectData.name} - Select Level`;
+                }
+                showScreen('timer-subject-level-selection');
+                break;
+
+            case 'practice-mode-page':
+                showScreen('practice-mode-page');
+                break;
+
+            case 'riddles-page':
+                showScreen('riddles-page');
+                break;
+
+            case 'dad-jokes-page':
+                showScreen('dad-jokes-page');
+                break;
+
+            default:
+                // For quiz-container, result-container, etc.
+                showScreen(event.state.screen);
         }
     } else {
         // If no state, go to home page
-        showHomePage();
+        clearFallingEmojis();
+        stopTimer();
+        showScreen('home-page');
     }
+
+    // Reset flag after navigation
+    isNavigatingHistory = false;
 });

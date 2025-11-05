@@ -861,7 +861,7 @@ body .wp-block-template-part footer {
         width: 100%;
         max-width: 100vw;
         min-height: auto;
-        padding: 0;
+        padding: 0 0 20px 0;
         margin: 0;
         overflow-x: hidden;
     }
@@ -869,22 +869,28 @@ body .wp-block-template-part footer {
     .home-page.active {
         width: 100%;
         min-height: auto;
-        padding: 0;
+        padding: 0 0 20px 0;
     }
 
     .home-content {
-        padding: 15px 5px 10px;
+        padding: 15px 10px 10px;
         width: 100%;
+        box-sizing: border-box;
     }
 
     .subject-grid, .chapter-grid, .level-grid, .home-grid {
         grid-template-columns: repeat(2, 1fr);
-        padding: 10px 5px 20px 5px;
+        padding: 10px 0 20px 0;
+        gap: 10px;
+    }
+
+    .subject-card, .chapter-card, .level-card {
+        padding: 20px 10px;
     }
 
     .answers-container {
         grid-template-columns: 1fr;
-        padding: 0 5px;
+        padding: 0 10px;
     }
 
     .title, .level-title, .result-title {
@@ -895,33 +901,31 @@ body .wp-block-template-part footer {
         color: #000;
         font-weight: 900;
         text-shadow: none;
+        margin: 10px;
     }
 
     .question-text {
         font-size: 1.2em;
-        padding: 0 5px;
+        padding: 0 10px;
     }
 
     .question-container {
-        padding: 0 5px;
+        padding: 0 10px;
     }
 
     .chapter-selection, .level-selection, .quiz-container, .result-container {
-        padding: 10px 5px;
+        padding: 10px;
         min-height: auto;
     }
 
-    /* Button positioning - corners on mobile for quiz buttons */
+    /* Button positioning - normal flow below questions on mobile */
     .button-container {
-        position: fixed;
-        bottom: 20px;
-        left: 0;
-        right: 0;
+        position: relative;
         display: flex;
         justify-content: space-between;
-        padding: 0 10px;
+        padding: 10px;
+        margin: 20px 0 10px 0;
         gap: 0;
-        z-index: 100;
         background: transparent;
     }
 
@@ -947,9 +951,17 @@ body .wp-block-template-part footer {
         width: fit-content;
     }
 
-    /* Add padding to bottom of pages to avoid button overlap */
-    .chapter-selection, .level-selection, .quiz-container {
-        padding-bottom: 80px;
+    /* Level card text should be white */
+    .level-card {
+        color: white;
+    }
+
+    /* Mode title should be dark for visibility */
+    .mode-title {
+        color: #333;
+        background: rgba(102, 126, 234, 0.15);
+        padding: 10px;
+        border-radius: 10px;
     }
 }
 </style>

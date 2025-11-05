@@ -389,6 +389,16 @@ function showScreen(screenClass) {
         el.classList.remove('active');
     });
     document.querySelector(`.${screenClass}`).classList.add('active');
+
+    // Push to browser history for back button support
+    const state = {
+        screen: screenClass,
+        subject: currentSubject,
+        chapter: currentChapter,
+        mode: quizMode,
+        returnPage: returnPage
+    };
+    history.pushState(state, '', `#${screenClass}`);
 }
 
 function startQuiz(level, timedMode = false) {
@@ -884,4 +894,33 @@ function addFloatingEmojis(emoji) {
 }
 
 // Initialize on load
-window.onload = initializeChapters;
+window.onload = function() {
+    // Set initial state
+    history.replaceState({screen: 'home-page'}, '', '#home-page');
+    initializeChapters();
+};
+
+// Handle browser back/forward buttons
+window.addEventListener('popstate', function(event) {
+    if (event.state && event.state.screen) {
+        // Restore state from history
+        if (event.state.subject) currentSubject = event.state.subject;
+        if (event.state.chapter) currentChapter = event.state.chapter;
+        if (event.state.mode) quizMode = event.state.mode;
+        if (event.state.returnPage) returnPage = event.state.returnPage;
+
+        // Show the screen without pushing new history (to avoid loop)
+        document.querySelectorAll('.home-page, .chapter-selection, .level-selection, .quiz-container, .result-container, .timer-challenges-page, .timer-subject-level-selection, .practice-mode-page, .riddles-page, .dad-jokes-page').forEach(el => {
+            el.classList.remove('active');
+        });
+        document.querySelector(`.${event.state.screen}`).classList.add('active');
+
+        // Refresh chapter grid if going back to chapter selection
+        if (event.state.screen === 'chapter-selection') {
+            initializeChapters();
+        }
+    } else {
+        // If no state, go to home page
+        showHomePage();
+    }
+});

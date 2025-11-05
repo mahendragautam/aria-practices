@@ -3075,10 +3075,11 @@ function startQuiz(level, timedMode = false) {
     clearFallingEmojis();
     stopTimer(); // Clear any existing timer
 
-    // Validate chapter and level exist
+    // Validate chapter and level exist AND have questions
     if (!subjectQuestionBank[currentSubject] ||
         !subjectQuestionBank[currentSubject][currentChapter] ||
-        !subjectQuestionBank[currentSubject][currentChapter][level]) {
+        !subjectQuestionBank[currentSubject][currentChapter][level] ||
+        subjectQuestionBank[currentSubject][currentChapter][level].length === 0) {
         alert(`Sorry! Questions for ${subjects[currentSubject].name} - Chapter ${currentChapter} - ${level.toUpperCase()} level are not available yet. Please try another chapter or level.`);
         return;
     }

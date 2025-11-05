@@ -1,123 +1,308 @@
-# WAI-ARIA: Authoring Practices Guide
+# Interactive Quiz App - Separated Code Structure
 
-This repository maintains the WAI-ARIA Authoring Practices Guide (APG).
+## 📁 This Folder Contents
 
-- Published at: [w3.org/wai/aria/apg](https://www.w3.org/wai/aria/apg/)
-- Developed by the [Authoring Practices Task Force](https://www.w3.org/WAI/ARIA/task-forces/practices/) of the [ARIA Working Group](http://www.w3.org/WAI/ARIA/).
-- Staff contact: [Michael Cooper](http://www.w3.org/People/cooper/).
+This folder contains the **SEPARATED** version of the quiz app where questions are organized in individual files per subject.
 
-Please do not provide commit access to this repository without coordination.
+## ✅ Files in This Folder:
 
-## How the work is organized
+### **Main Files:**
+- `index.html` - Main quiz app HTML (modified to load separated files)
+- `styles.css` - Responsive CSS styling
+- `script.js` - Master app logic (modified to link external question files)
 
-- Work is planned and prioritized in our [milestones](https://github.com/w3c/aria-practices/milestones?direction=asc&sort=due_date&state=open). Each milestone corresponds to a working draft or release published to w3.org.
-- Work is organized by topic in our [projects](https://github.com/w3c/aria-practices/projects). Each project corresponds to a type of design pattern or section of guidance.
-- The [scope of work and roadmap](https://github.com/w3c/aria-practices/wiki/Scope) are described in the project wiki.
+### **Question Bank Files (10 subjects):**
+1. `science-questions.js` - Science questions (Chapter 1 ready)
+2. `math-questions.js` - Math questions (Chapter 1 ready)
+3. `history-questions.js` - History questions (Chapter 1 ready)
+4. `geography-questions.js` - Geography questions (Chapter 1 ready)
+5. `english-questions.js` - English questions (Chapter 1 ready)
+6. `health-questions.js` - Health & Fitness questions (Chapter 1 ready)
+7. `environment-questions.js` - Environment questions (Chapter 1 ready)
+8. `business-questions.js` - Business questions (Chapter 1 ready)
+9. `technology-questions.js` - Technology questions (Chapter 1 ready)
+10. `parenting-questions.js` - Parenting questions (Chapter 1 ready)
 
-## Contributing
+### **Supporting Files:**
+- `quiz-header.html` - WordPress header snippet
+- `quiz-footer.html` - WordPress footer snippet
+- `wpcode-hero-snippet.txt` - WordPress integration code
+- `wpcode-hero-snippet-fixed.txt` - Fixed WordPress snippet
+- `QUESTION_BANK_GUIDE.md` - How to add questions
+- `README.md` - This file!
 
-1. Comment in an existing issue or raise a new issue, expressing your willingness to help and briefly summarizing the nature of your proposed resolution.
-2. An editor will confirm there are no conflicting plans and, if needed, provide guidance.
-3. Be sure you have linters installed and configured as described below.
-4. Read our wiki page about [submitting pull requests](https://github.com/w3c/aria-practices/wiki/Submitting-Pull-Requests).
-5. Do some fabulous work and submit a pull request.
+---
 
-Note: Please feel free to ask questions either through an issue or on the [Authoring Practices Task Force mailing list](http://lists.w3.org/Archives/Public/public-aria-practices/).
+## 🚀 How to Use
 
-### Code conformance
+### **Option 1: Direct File Access (Local Testing)**
 
-This repository utilizes [linting](https://en.wikipedia.org/wiki/Lint_%28software%29) tools to do static code analysis and ensure consistent code quality across HTML, CSS, and JavaScript. Each linting tool and respective code standards are documented below and in the [code guide](https://github.com/w3c/aria-practices/wiki/Code-Guide).
+1. Open `index.html` in a web browser
+2. All 10 subjects will load with Chapter 1
+3. Test the quiz functionality
 
-Pull requests that contain linting errors will not be merged until the errors are resolved. To make this easier, you can install and run the tools locally before pushing code. Also note that the tools for CSS and JavaScript will automatically fix many issues if you have them installed locally. To install these tools:
+**Note**: All question files must be in the same folder as index.html!
 
-1. Make sure that you have [Node.js](https://nodejs.org/en/) installed, which comes with [node package manager (npm)](https://www.npmjs.com/get-npm)
-1. Open the directory that contains your `aria-practices` repository in a terminal
-1. Run `npm install`
+### **Option 2: Web Server**
 
-The HTML validator also requires the installation of a JDK in order to run. If you don't already have a JDK installed, [download the latest JDK from Oracle](https://www.oracle.com/technetwork/java/javase/downloads/index.html).
-
-It is also highly recommended that you use a code editor that supports these tools and [EditorConfig](http://editorconfig.org/).
-
-#### HTML
-
-HTML is validated against the [NU HTML Validator](https://github.com/validator/validator).
-Should a warning or error occur because a future ARIA feature is not yet implemented, it will be added to the [.vnurc file](.vnurc), allowing the error to pass through.
-
-Run locally:
-
-```sh
-npm run lint:html
+Upload all files to your web server:
+```
+/public_html/quiz/
+├── index.html
+├── styles.css
+├── script.js
+├── science-questions.js
+├── math-questions.js
+├── ... (all 10 question files)
 ```
 
-#### CSS
+Access: `https://yoursite.com/quiz/index.html`
 
-CSS is validated by [stylelint](https://stylelint.io/) using the [stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard) ruleset.
+### **Option 3: WordPress Integration**
 
-**NOTE**: on commit, stylelint will be run on staged CSS files. If errors are found that can be [automatically fixed with the --fix flag](https://stylelint.io/user-guide/cli/#autofixing-errors), they will be fixed and the changes committed.
+#### Method A: Upload Files
+1. Upload all files to: `/wp-content/uploads/quiz/`
+2. Create a WordPress page
+3. Add this HTML block:
 
-Run locally:
+```html
+<div id="quiz-app"></div>
 
-```sh
-npm run lint:css
+<script src="/wp-content/uploads/quiz/science-questions.js"></script>
+<script src="/wp-content/uploads/quiz/math-questions.js"></script>
+<script src="/wp-content/uploads/quiz/history-questions.js"></script>
+<script src="/wp-content/uploads/quiz/geography-questions.js"></script>
+<script src="/wp-content/uploads/quiz/english-questions.js"></script>
+<script src="/wp-content/uploads/quiz/health-questions.js"></script>
+<script src="/wp-content/uploads/quiz/environment-questions.js"></script>
+<script src="/wp-content/uploads/quiz/business-questions.js"></script>
+<script src="/wp-content/uploads/quiz/technology-questions.js"></script>
+<script src="/wp-content/uploads/quiz/parenting-questions.js"></script>
+<script src="/wp-content/uploads/quiz/script.js"></script>
 ```
 
-#### JavaScript
+#### Method B: WPCode Snippets
 
-JavaScript is validated by [ESLint](http://eslint.org/), using [our own config](.eslintrc.json).
+Create 11 separate WPCode snippets:
 
-**NOTE**: on commit, eslint will be run on staged CSS files. If errors are found that can be [automatically fixed with the --fix flag](https://eslint.org/docs/user-guide/command-line-interface#fixing-problems), they will be fixed and the changes committed.
+| Snippet | File Content | Priority | Location |
+|---------|-------------|----------|----------|
+| Science Q | science-questions.js | 10 | Footer |
+| Math Q | math-questions.js | 11 | Footer |
+| History Q | history-questions.js | 12 | Footer |
+| Geography Q | geography-questions.js | 13 | Footer |
+| English Q | english-questions.js | 14 | Footer |
+| Health Q | health-questions.js | 15 | Footer |
+| Environment Q | environment-questions.js | 16 | Footer |
+| Business Q | business-questions.js | 17 | Footer |
+| Technology Q | technology-questions.js | 18 | Footer |
+| Parenting Q | parenting-questions.js | 19 | Footer |
+| **Master App** | **script.js** | **20** | **Footer** |
 
-Run locally:
+**IMPORTANT**: Set priorities to ensure questions load before the master app!
 
-```sh
-npm run lint:js
+---
+
+## 📝 How to Add Questions
+
+### Add a New Chapter to Any Subject:
+
+Edit the subject's question file (e.g., `science-questions.js`):
+
+```javascript
+const scienceQuestions = {
+    1: { /* Existing Chapter 1 */ },
+    2: { // NEW CHAPTER 2!
+        easy: [
+            {topic: 'Biology', emoji: '🧬', question: 'Your question here', options: ['True', 'False'], correct: 0},
+            // Add 9 more easy questions (10 total)
+        ],
+        medium: [ /* 10 medium questions */ ],
+        hard: [ /* 10 hard questions */ ],
+        expert: [ /* 10 expert questions */ ],
+        extreme: [ /* 10 extreme questions */ ]
+    }
+    // Add more chapters: 3, 4, 5... unlimited!
+};
 ```
 
-### Test and fix your code
+**Result**: Chapter 2 automatically appears in the UI! No other changes needed!
 
-1. Open a terminal window to the directory that contains the `aria-practices` repository
-1. The repository has a script defined that will test all JavaScript in the examples directory. To run it, execute the command `npm test`. Note: this may take a few minutes to run and will open several browser windows during the test that will gain focus.
-1. Many errors can be fixed automatically with the command `npm run fix`.
-1. After running fix, test again to see what you need to fix manually.
-
-When the linter encounters errors, it will report them in the console.
-The error report will contain the file name and line number, and it will
-indicate the character or place in the line that raised the style violation. To
-fix an error, satisfy the change that the violation indicates.
-
-For example, here is an error for an invalid variable name style. Variables must
-follow a camelCase convention.
-
-```sh
-/Users/user1/Documents/github/aria-practices/examples/slider/js/text-slider.js
-  19:8  error  Identifier 'value_nodes' is not in camel case  camelcase
+### Add 50, 100, or 500 Chapters:
+```javascript
+const scienceQuestions = {
+    1: { /* ... */ },
+    2: { /* ... */ },
+    // ...
+    50: { /* ... */ },   // ✅ Works!
+    100: { /* ... */ },  // ✅ Works!
+    500: { /* ... */ }   // ✅ Works!
+};
 ```
 
-The error occurred in `examples/slider/js/text-slider.js`, on line 19 and the
-offending character is indicated by the number `8` after the colon. Change the
-variable `value_nodes` to `valueNodes` in your source file to eliminate this
-error.
+**No limit!** The dynamic system detects all chapters automatically.
 
-To see the complete list of style rules that are applied by ESLint, review the [.eslintrc.json](.eslintrc.json) file in the root of the project.
+---
 
-### Editorial documentation
+## 🎯 Key Features
 
-See the [APG Editorial Style Guidelines](https://github.com/w3c/aria-practices/wiki/APG-Editorial-Style-Guidelines)
-for information about writing prose for the APG.
-The [ReadMe for the ARIA specification](https://github.com/w3c/aria/)
-contains additional useful editorial guidance.
+### 1. **Separated Code Structure**
+- Each subject in its own file
+- Easy to maintain
+- Clean organization
 
-## ARIA Roles, Properties and States Referenced in Guidance and Examples(Also known as APG Coverage Report)
+### 2. **Unlimited Chapters**
+- No hardcoded limits
+- Add as many chapters as you want per subject
+- Dynamic detection
 
-[APG Coverage Report](https://raw.githack.com/w3c/aria-practices/main/coverage/index.html) includes information on number of guidance and example references in the WAI-ARIA Authoring Practices for each ARIA role, property and state.
+### 3. **Team Collaboration**
+- Person 1: Works on science-questions.js
+- Person 2: Works on math-questions.js
+- Person 3: Works on history-questions.js
+- No merge conflicts!
 
-As of January 11, 2022, APG has examples of
+### 4. **WordPress Ready**
+- Upload files method
+- WPCode snippets method
+- Easy integration
 
-1. CSV Files of Role, Properties and States Coverage
-2. Roles with no Guidance or Examples (29)
-3. Roles with at Least One Guidance or Example (13)
-4. Roles with More than One Guidance or Example (36)
-5. Properties and States with no Examples (12)
-6. Properties and States with One Examples (8)
-7. Properties and States with More than One Example (28)
-8. Example Coding Practices
+### 5. **Scalable**
+- Start with Chapter 1
+- Add chapters incrementally
+- Grows with your needs
+
+---
+
+## 🔄 Difference from Parent Folder
+
+### **Parent Folder** (Original - Backup):
+- `script.js` - All questions embedded in one file (1313 lines)
+- Works as-is, no external dependencies
+- Harder to maintain large question banks
+
+### **This Folder** (Separated):
+- `script.js` - Only app logic (896 lines - 32% smaller!)
+- Questions in separate files (10 files × ~200 lines each)
+- Easy to maintain and scale
+- Requires all question files to be loaded
+
+**Both versions work!** Choose based on your needs:
+- **Single file**: Good for small question banks, easy deployment
+- **Separated files**: Good for large question banks, team work, easier maintenance
+
+---
+
+## 📚 Documentation
+
+See parent folder for complete documentation:
+- `../QUESTION_BANK_GUIDE.md` - Question format guide
+- `../QUESTION_BANK_SEPARATION_GUIDE.md` - Architecture details
+- `../HOW_TO_USE_SEPARATED_FILES.md` - Implementation guide
+
+---
+
+## ⚠️ Important Notes
+
+### **Load Order Matters!**
+
+Question files MUST load BEFORE script.js:
+```html
+<!-- ✅ CORRECT -->
+<script src="science-questions.js"></script>
+<script src="math-questions.js"></script>
+<!-- ... all question files ... -->
+<script src="script.js"></script> <!-- LAST! -->
+
+<!-- ❌ WRONG -->
+<script src="script.js"></script> <!-- DON'T load first! -->
+<script src="science-questions.js"></script>
+```
+
+### **All Files Must Be in Same Folder**
+
+Or update paths in HTML:
+```html
+<!-- If files in subfolder: -->
+<script src="questions/science-questions.js"></script>
+<script src="questions/math-questions.js"></script>
+<!-- ... -->
+<script src="js/script.js"></script>
+```
+
+### **Question File Variables**
+
+Each question file must define its variable:
+- `science-questions.js` → `const scienceQuestions = { ... };`
+- `math-questions.js` → `const mathQuestions = { ... };`
+- etc.
+
+---
+
+## 🎉 Ready to Use!
+
+This folder is **COMPLETE and WORKING**:
+✅ All 10 subjects with Chapter 1
+✅ Modified HTML to load all files
+✅ Modified script.js to use external files
+✅ 500 total questions ready
+✅ Responsive design
+✅ Dynamic chapter detection
+✅ Professional structure
+
+**Just open index.html in a browser and start testing!** 🚀
+
+---
+
+## 📊 Quick Stats
+
+| Item | Count |
+|------|-------|
+| Total Files | 17 |
+| Question Files | 10 |
+| Subjects Available | 10 |
+| Chapters per Subject | 1 (add unlimited!) |
+| Questions per Chapter | 50 |
+| Total Questions | 500 |
+| Lines in script.js | 896 (vs 1313 original) |
+| Code Reduction | 32% smaller |
+
+---
+
+## 🆚 Comparison: Original vs Separated
+
+| Feature | Original (Parent) | Separated (This Folder) |
+|---------|------------------|-------------------------|
+| **File Structure** | Single script.js | 10 separate question files + script.js |
+| **script.js Size** | 1313 lines | 896 lines (32% smaller) |
+| **Maintenance** | Edit one huge file | Edit individual subject files |
+| **Team Work** | Merge conflicts | No conflicts |
+| **Scalability** | Gets harder with size | Easy to scale |
+| **Deployment** | 1 file upload | 11 files upload |
+| **WordPress** | 1 large snippet | 11 separate snippets |
+| **Add Questions** | Edit massive file | Edit specific subject file |
+| **Backup** | Backup 1 file | Backup specific files |
+
+**Conclusion**: Separated structure is better for large projects and teams!
+
+---
+
+## 💡 Tips
+
+1. **Test locally first** - Open index.html in browser
+2. **Check browser console** - For any loading errors
+3. **Verify load order** - Question files must load before script.js
+4. **Add chapters incrementally** - Start with Chapter 1, then add more
+5. **Keep backups** - Save original files before modifying
+
+---
+
+## 🚀 Next Steps
+
+1. **Test the app** - Open index.html
+2. **Try all 10 subjects** - Verify Chapter 1 works
+3. **Add more chapters** - Edit question files
+4. **Deploy** - Upload to server or WordPress
+5. **Share** - Let users enjoy the quiz!
+
+**Aba tapai ko separated version ready cha!** 🎉

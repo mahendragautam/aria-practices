@@ -51,6 +51,18 @@ For EACH file (snippet-01 to snippet-11):
 5. Settings:
    ✓ Code Type: JavaScript
    ✓ Location: Auto Insert > Footer
+   ✓ Run: Choose one option below
+
+   OPTION A - SIMPLE (for beginners):
+     → Run Everywhere (site-wide)
+     → Loads on all pages
+
+   OPTION B - EFFICIENT (recommended):
+     → Smart Conditional Logic: ON
+     → Show if: URL contains "/quiz"
+     → Loads ONLY on quiz page
+     → Better performance!
+
    ✓ Priority: (file number × 1 = priority)
       Example: snippet-01 → Priority 10
                snippet-02 → Priority 11
@@ -60,6 +72,8 @@ For EACH file (snippet-01 to snippet-11):
 7. Name: Quiz - Science (or Math, History, etc.)
 8. Save Snippet
 9. Next file!
+
+NOTE: See WPCODE-LOCATION-GUIDE.txt for detailed explanation
 
 ────────────────────────────────────────────────────────────────────
 PRIORITY TABLE:

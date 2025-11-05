@@ -188,18 +188,67 @@ NOTE: Do NOT include <!DOCTYPE>, <html>, <head>, or <body> tags
     <!-- Timer Challenges Page -->
     <div class="timer-challenges-page">
         <h1 class="title">⏱️ Timer Challenges ⏱️</h1>
+
+        <!-- Section 1: Individual Subject Timer -->
         <div class="mode-section">
-            <h3 class="mode-title">🌈 Level-wise Mix (All Subjects)</h3>
-            <p class="mode-description">Same level, all subjects mixed</p>
-            <div class="level-grid">
-                <div class="level-card level-easy" onclick="startMixedQuiz('easy', 'levelwise', true)">🟢 EASY</div>
-                <div class="level-card level-medium" onclick="startMixedQuiz('medium', 'levelwise', true)">🟡 MEDIUM</div>
-                <div class="level-card level-hard" onclick="startMixedQuiz('hard', 'levelwise', true)">🟠 HARD</div>
-                <div class="level-card level-expert" onclick="startMixedQuiz('expert', 'levelwise', true)">🔴 EXPERT</div>
-                <div class="level-card level-extreme" onclick="startMixedQuiz('extreme', 'levelwise', true)">⚫ EXTREME</div>
+            <div class="collapsible-header" onclick="toggleSection('timerIndividual')">
+                <h3 class="mode-title">🎯 Individual Subject Timer</h3>
+                <span class="toggle-arrow" id="timerIndividualArrow">▼</span>
+            </div>
+            <div class="collapsible-content expanded" id="timerIndividual">
+                <p class="mode-description">All 20 chapters combined - Choose subject & level</p>
+                <div class="subject-grid small expanded" id="timerSubjectGrid"></div>
             </div>
         </div>
+
+        <!-- Section 2: Level-wise Mix (All Subjects) -->
+        <div class="mode-section">
+            <div class="collapsible-header" onclick="toggleSection('timerLevelwise')">
+                <h3 class="mode-title">🌈 Level-wise Mix (All Subjects)</h3>
+                <span class="toggle-arrow" id="timerLevelwiseArrow">▼</span>
+            </div>
+            <div class="collapsible-content expanded" id="timerLevelwise">
+                <p class="mode-description">Same level, all subjects mixed</p>
+                <div class="level-grid">
+                    <div class="level-card level-easy" onclick="startMixedQuiz('easy', 'levelwise', true)">🟢 EASY</div>
+                    <div class="level-card level-medium" onclick="startMixedQuiz('medium', 'levelwise', true)">🟡 MEDIUM</div>
+                    <div class="level-card level-hard" onclick="startMixedQuiz('hard', 'levelwise', true)">🟠 HARD</div>
+                    <div class="level-card level-expert" onclick="startMixedQuiz('expert', 'levelwise', true)">🔴 EXPERT</div>
+                    <div class="level-card level-extreme" onclick="startMixedQuiz('extreme', 'levelwise', true)">⚫ EXTREME</div>
+                </div>
+            </div>
+        </div>
+
         <button class="back-button" onclick="showHomePage()">← Back to Home</button>
+    </div>
+
+    <!-- Timer Subject Level Selection Page -->
+    <div class="timer-subject-level-selection">
+        <h2 class="level-title" id="timerSubjectTitle">Select Level</h2>
+        <p class="mode-description">All 20 chapters combined</p>
+        <div class="level-grid">
+            <div class="level-card level-easy" onclick="startSubjectTimer('easy')">
+                <div>🟢 EASY</div>
+                <div style="font-size: 0.85em; margin-top: 8px;">⏱️ 1:00 min</div>
+            </div>
+            <div class="level-card level-medium" onclick="startSubjectTimer('medium')">
+                <div>🟡 MEDIUM</div>
+                <div style="font-size: 0.85em; margin-top: 8px;">⏱️ 1:30 min</div>
+            </div>
+            <div class="level-card level-hard" onclick="startSubjectTimer('hard')">
+                <div>🟠 HARD</div>
+                <div style="font-size: 0.85em; margin-top: 8px;">⏱️ 2:00 min</div>
+            </div>
+            <div class="level-card level-expert" onclick="startSubjectTimer('expert')">
+                <div>🔴 EXPERT</div>
+                <div style="font-size: 0.85em; margin-top: 8px;">⏱️ 2:30 min</div>
+            </div>
+            <div class="level-card level-extreme" onclick="startSubjectTimer('extreme')">
+                <div>⚫ EXTREME</div>
+                <div style="font-size: 0.85em; margin-top: 8px;">⏱️ 3:00 min</div>
+            </div>
+        </div>
+        <button class="back-button" onclick="showTimerChallenges()">← Back</button>
     </div>
 
     <!-- Practice Mode Page -->

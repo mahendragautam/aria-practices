@@ -835,29 +835,45 @@ body .wp-block-template-part footer {
     }
 }
 
+/* Button Positioning - Center on desktop */
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     body {
         background: #fff;
-        width: 100%;
+        width: 100vw;
+        max-width: 100vw;
         padding: 0;
         margin: 0;
+        overflow-x: hidden;
     }
 
     .main-container {
         background: #fff;
-        width: 100vw;
-        min-height: 100vh;
+        width: 100%;
+        max-width: 100vw;
+        min-height: auto;
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
     }
 
     .home-page.active {
         width: 100%;
-        min-height: 100vh;
+        min-height: auto;
         padding: 0;
     }
 
     .home-content {
-        padding: 15px 5px 0;
+        padding: 15px 5px 10px;
         width: 100%;
     }
 
@@ -873,7 +889,12 @@ body .wp-block-template-part footer {
 
     .title, .level-title, .result-title {
         font-size: 1.5em;
-        padding: 0 10px;
+        padding: 10px;
+        background: rgba(102, 126, 234, 0.15);
+        border-radius: 10px;
+        color: #000;
+        font-weight: 900;
+        text-shadow: none;
     }
 
     .question-text {
@@ -885,8 +906,50 @@ body .wp-block-template-part footer {
         padding: 0 5px;
     }
 
-    .chapter-selection, .level-selection {
+    .chapter-selection, .level-selection, .quiz-container, .result-container {
         padding: 10px 5px;
+        min-height: auto;
+    }
+
+    /* Button positioning - corners on mobile for quiz buttons */
+    .button-container {
+        position: fixed;
+        bottom: 20px;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+        gap: 0;
+        z-index: 100;
+        background: transparent;
+    }
+
+    .button-container .back-button,
+    .button-container .quiz-back-button {
+        margin: 0;
+    }
+
+    .button-container .next-button {
+        margin: 0;
+    }
+
+    /* Standalone back buttons stay centered on mobile */
+    .chapter-selection .back-button,
+    .level-selection .back-button,
+    .timer-challenges-page .back-button,
+    .timer-subject-level-selection .back-button,
+    .practice-mode-page .back-button,
+    .riddles-page .back-button,
+    .dad-jokes-page .back-button {
+        display: block;
+        margin: 20px auto;
+        width: fit-content;
+    }
+
+    /* Add padding to bottom of pages to avoid button overlap */
+    .chapter-selection, .level-selection, .quiz-container {
+        padding-bottom: 80px;
     }
 }
 </style>

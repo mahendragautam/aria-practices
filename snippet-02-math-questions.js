@@ -34,17 +34,104 @@ const mathQuestions = {
             {topic: 'Algebra', emoji: '📈💯', question: 'What is 10% of 100?', options: ['10', '1'], correct: 0},
             {topic: 'Arithmetic', emoji: '✖️➕', question: 'What is 9 × 9?', options: ['81', '72'], correct: 0}
         ],
-        hard: [],
-        expert: [],
-        extreme: []
+        hard: [
+            {topic: 'Arithmetic', emoji: '➕✖️', question: 'What is 15% of 200?', options: ['30', '25', '35'], correct: 0},
+            {topic: 'Geometry', emoji: '🔺📐', question: 'What is the sum of angles in a triangle?', options: ['180°', '360°', '90°'], correct: 0},
+            {topic: 'Algebra', emoji: '📊🔢', question: 'Solve: 3x + 9 = 24', options: ['x = 5', 'x = 7', 'x = 6'], correct: 0},
+            {topic: 'Arithmetic', emoji: '➗💯', question: 'What is 144 ÷ 12?', options: ['12', '14', '10'], correct: 0},
+            {topic: 'Geometry', emoji: '⭕📏', question: 'What is the area formula for a circle?', options: ['πr²', '2πr', 'πd'], correct: 0},
+            {topic: 'Algebra', emoji: '📈🔢', question: 'What is 2³ (2 cubed)?', options: ['8', '6', '9'], correct: 0},
+            {topic: 'Arithmetic', emoji: '➖💰', question: 'What is 1000 - 347?', options: ['653', '643', '663'], correct: 0},
+            {topic: 'Geometry', emoji: '🟦📐', question: 'Area of rectangle = ?', options: ['Length × Width', 'Length + Width', 'Length ÷ Width'], correct: 0},
+            {topic: 'Algebra', emoji: '📊💯', question: 'What is √64?', options: ['8', '7', '9'], correct: 0},
+            {topic: 'Arithmetic', emoji: '✖️➕', question: 'What is 25 × 4?', options: ['100', '90', '110'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Arithmetic', emoji: '➕➖', question: 'What is 20% of 500?', options: ['100', '80', '120', '90'], correct: 0},
+            {topic: 'Geometry', emoji: '🔺📐', question: 'What is the Pythagorean theorem?', options: ['a² + b² = c²', 'a + b = c', 'a² = b²', 'abc = 180'], correct: 0},
+            {topic: 'Algebra', emoji: '📊📈', question: 'Solve: 2x - 5 = 11', options: ['x = 8', 'x = 6', 'x = 10', 'x = 7'], correct: 0},
+            {topic: 'Arithmetic', emoji: '✖️➗', question: 'What is 225 ÷ 15?', options: ['15', '20', '10', '12'], correct: 0},
+            {topic: 'Geometry', emoji: '⭕📏', question: 'Circumference of circle = ?', options: ['2πr', 'πr²', 'πd²', 'r²'], correct: 0},
+            {topic: 'Algebra', emoji: '🔢💯', question: 'What is 4² + 3²?', options: ['25', '20', '30', '16'], correct: 0},
+            {topic: 'Arithmetic', emoji: '💰💵', question: 'Convert 3/4 to decimal', options: ['0.75', '0.50', '0.80', '0.70'], correct: 0},
+            {topic: 'Geometry', emoji: '🔺📐', question: 'Sum of angles in a quadrilateral?', options: ['360°', '180°', '540°', '270°'], correct: 0},
+            {topic: 'Algebra', emoji: '📈🔢', question: 'What is √100?', options: ['10', '100', '50', '20'], correct: 0},
+            {topic: 'Arithmetic', emoji: '➕✖️', question: 'What is 12 × 12?', options: ['144', '124', '134', '154'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Arithmetic', emoji: '➕➖', question: 'What is 17.5% of 400?', options: ['70', '60', '80', '75'], correct: 0},
+            {topic: 'Geometry', emoji: '🔺📐', question: 'Volume of cube = ?', options: ['side³', 'side²', '6 × side', '4 × side'], correct: 0},
+            {topic: 'Algebra', emoji: '📊📈', question: 'Solve: x² = 49', options: ['x = ±7', 'x = 7', 'x = 49', 'x = 14'], correct: 0},
+            {topic: 'Arithmetic', emoji: '✖️➗', question: 'What is 15 × 15?', options: ['225', '215', '235', '205'], correct: 0},
+            {topic: 'Geometry', emoji: '⭕📏', question: 'Area of triangle = ?', options: ['½ × base × height', 'base × height', 'base + height', 'base ÷ height'], correct: 0},
+            {topic: 'Algebra', emoji: '🔢💯', question: 'What is 5³ (5 cubed)?', options: ['125', '15', '25', '75'], correct: 0},
+            {topic: 'Arithmetic', emoji: '💰💵', question: 'Convert 7/8 to decimal', options: ['0.875', '0.78', '0.87', '0.85'], correct: 0},
+            {topic: 'Geometry', emoji: '🔺📐', question: 'Sum of interior angles in pentagon?', options: ['540°', '360°', '180°', '720°'], correct: 0},
+            {topic: 'Algebra', emoji: '📈🔢', question: 'What is √144?', options: ['12', '14', '10', '16'], correct: 0},
+            {topic: 'Arithmetic', emoji: '➕✖️', question: 'What is 111 × 9?', options: ['999', '1000', '998', '1001'], correct: 0}
+        ]
     },
     2: { // Chapter 2: Fractions
-        // Add Chapter 2 questions here
-        easy: [],
-        medium: [],
-        hard: [],
-        expert: [],
-        extreme: []
+        easy: [
+            {topic: 'Fractions', emoji: '🍕➗', question: '1/2 is equal to 0.5', options: ['True', 'False'], correct: 0},
+            {topic: 'Fractions', emoji: '🥧🔢', question: '1/4 is larger than 1/2', options: ['True', 'False'], correct: 1},
+            {topic: 'Fractions', emoji: '🍰➗', question: '2/4 is the same as 1/2', options: ['True', 'False'], correct: 0},
+            {topic: 'Fractions', emoji: '🍕💯', question: '3/3 equals 1', options: ['True', 'False'], correct: 0},
+            {topic: 'Fractions', emoji: '🥧🔢', question: '1/2 + 1/2 equals 1', options: ['True', 'False'], correct: 0},
+            {topic: 'Fractions', emoji: '🍰➕', question: '1/4 + 1/4 equals 1/2', options: ['True', 'False'], correct: 0},
+            {topic: 'Fractions', emoji: '🍕🔢', question: '3/4 is less than 1', options: ['True', 'False'], correct: 0},
+            {topic: 'Fractions', emoji: '🥧➗', question: '1/3 is smaller than 1/2', options: ['True', 'False'], correct: 0},
+            {topic: 'Fractions', emoji: '🍰💯', question: '5/5 equals 1', options: ['True', 'False'], correct: 0},
+            {topic: 'Fractions', emoji: '🍕➕', question: '1/2 + 1/4 equals 3/4', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Fractions', emoji: '🍕➗', question: 'What is 1/2 + 1/3?', options: ['5/6', '2/5', '3/5'], correct: 0},
+            {topic: 'Fractions', emoji: '🥧🔢', question: 'What is 3/4 - 1/4?', options: ['1/2', '2/4', '1/4'], correct: 0},
+            {topic: 'Fractions', emoji: '🍰➕', question: 'What is 2/3 × 3/4?', options: ['1/2', '5/7', '6/12'], correct: 0},
+            {topic: 'Fractions', emoji: '🍕💯', question: 'What is 1/2 ÷ 1/4?', options: ['2', '1/8', '4'], correct: 0},
+            {topic: 'Fractions', emoji: '🥧🔢', question: 'Simplify: 4/8', options: ['1/2', '2/4', '1/4'], correct: 0},
+            {topic: 'Fractions', emoji: '🍰➗', question: 'What is 2/5 + 1/5?', options: ['3/5', '3/10', '1/2'], correct: 0},
+            {topic: 'Fractions', emoji: '🍕🔢', question: 'What is 5/6 - 1/6?', options: ['2/3', '4/6', '1/2'], correct: 0},
+            {topic: 'Fractions', emoji: '🥧➕', question: 'What is 1/3 × 2?', options: ['2/3', '1/6', '3/2'], correct: 0},
+            {topic: 'Fractions', emoji: '🍰💯', question: 'Simplify: 6/9', options: ['2/3', '3/4', '1/2'], correct: 0},
+            {topic: 'Fractions', emoji: '🍕➗', question: 'What is 3/4 ÷ 1/2?', options: ['3/2', '1/2', '6/4'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Fractions', emoji: '🍕➗', question: 'What is 2/3 + 3/4?', options: ['17/12', '5/7', '1'], correct: 0},
+            {topic: 'Fractions', emoji: '🥧🔢', question: 'What is 5/6 - 2/3?', options: ['1/6', '3/9', '1/3'], correct: 0},
+            {topic: 'Fractions', emoji: '🍰➕', question: 'What is 3/5 × 5/6?', options: ['1/2', '15/30', '8/11'], correct: 0},
+            {topic: 'Fractions', emoji: '🍕💯', question: 'What is 3/4 ÷ 2/3?', options: ['9/8', '6/12', '1'], correct: 0},
+            {topic: 'Fractions', emoji: '🥧🔢', question: 'Simplify: 12/16', options: ['3/4', '6/8', '2/3'], correct: 0},
+            {topic: 'Fractions', emoji: '🍰➗', question: 'What is 4/5 + 1/3?', options: ['17/15', '5/8', '1'], correct: 0},
+            {topic: 'Fractions', emoji: '🍕🔢', question: 'What is 7/8 - 3/4?', options: ['1/8', '4/12', '1/4'], correct: 0},
+            {topic: 'Fractions', emoji: '🥧➕', question: 'What is 2/3 × 9/10?', options: ['3/5', '18/30', '11/13'], correct: 0},
+            {topic: 'Fractions', emoji: '🍰💯', question: 'Simplify: 15/20', options: ['3/4', '5/10', '1/2'], correct: 0},
+            {topic: 'Fractions', emoji: '🍕➗', question: 'What is 5/6 ÷ 5/12?', options: ['2', '25/72', '1/2'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Fractions', emoji: '🍕➗', question: 'What is 7/8 + 5/6?', options: ['41/24', '12/14', '1', '2'], correct: 0},
+            {topic: 'Fractions', emoji: '🥧🔢', question: 'What is 11/12 - 3/8?', options: ['13/24', '8/20', '1/2', '1/3'], correct: 0},
+            {topic: 'Fractions', emoji: '🍰➕', question: 'What is 4/7 × 7/8?', options: ['1/2', '28/56', '11/15', '3/4'], correct: 0},
+            {topic: 'Fractions', emoji: '🍕💯', question: 'What is 5/6 ÷ 5/9?', options: ['3/2', '25/54', '1', '2/3'], correct: 0},
+            {topic: 'Fractions', emoji: '🥧🔢', question: 'Simplify: 24/32', options: ['3/4', '12/16', '6/8', '1/2'], correct: 0},
+            {topic: 'Fractions', emoji: '🍰➗', question: 'What is 5/8 + 3/10?', options: ['37/40', '8/18', '1', '1/2'], correct: 0},
+            {topic: 'Fractions', emoji: '🍕🔢', question: 'What is 13/15 - 2/5?', options: ['7/15', '11/20', '1/3', '1/2'], correct: 0},
+            {topic: 'Fractions', emoji: '🥧➕', question: 'What is 3/8 × 16/21?', options: ['2/7', '48/168', '1/3', '1/4'], correct: 0},
+            {topic: 'Fractions', emoji: '🍰💯', question: 'Simplify: 36/48', options: ['3/4', '18/24', '9/12', '6/8'], correct: 0},
+            {topic: 'Fractions', emoji: '🍕➗', question: 'What is 7/10 ÷ 14/15?', options: ['3/4', '98/150', '1/2', '2/3'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Fractions', emoji: '🍕➗', question: 'Simplify: (2/3 + 1/4) × 3/5', options: ['11/20', '5/12', '1/2', '3/4'], correct: 0},
+            {topic: 'Fractions', emoji: '🥧🔢', question: 'What is (5/6 - 1/3) ÷ 1/2?', options: ['1', '5/9', '2/3', '3/4'], correct: 0},
+            {topic: 'Fractions', emoji: '🍰➕', question: 'Solve: x/4 = 3/8', options: ['x = 3/2', 'x = 1', 'x = 2', 'x = 3/4'], correct: 0},
+            {topic: 'Fractions', emoji: '🍕💯', question: 'What is (3/4)² ?', options: ['9/16', '6/8', '3/8', '9/8'], correct: 0},
+            {topic: 'Fractions', emoji: '🥧🔢', question: 'Simplify: (2/5 × 5/8) + 1/4', options: ['1/2', '3/8', '10/40', '2/3'], correct: 0},
+            {topic: 'Fractions', emoji: '🍰➗', question: 'What is 1 - (2/3 + 1/6)?', options: ['1/6', '1/2', '1/3', '2/3'], correct: 0},
+            {topic: 'Fractions', emoji: '🍕🔢', question: 'Solve: 2x/3 = 4/9', options: ['x = 2/3', 'x = 1', 'x = 8/27', 'x = 1/2'], correct: 0},
+            {topic: 'Fractions', emoji: '🥧➕', question: 'What is the reciprocal of 3/4?', options: ['4/3', '3/4', '1/4', '12'], correct: 0},
+            {topic: 'Fractions', emoji: '🍰💯', question: 'Simplify: (5/6 ÷ 2/3) - 1/4', options: ['1', '5/4', '3/4', '1/2'], correct: 0},
+            {topic: 'Fractions', emoji: '🍕➗', question: 'What is 2 2/3 as an improper fraction?', options: ['8/3', '6/3', '10/3', '4/3'], correct: 0}
+        ]
     }
     // Add chapters 3, 4, 5... unlimited!
 };

@@ -544,6 +544,14 @@ function selectAnswer(selectedIndex) {
         score++;
         // Correct answer bubble foam
         createFallingEmojis('correct');
+        // Celebration emoji from left corner
+        const celebrationEmojis = ['🎉', '🎊', '⭐', '✨', '🌟'];
+        for (let i = 0; i < 3; i++) {
+            setTimeout(() => {
+                const emoji = celebrationEmojis[Math.floor(Math.random() * celebrationEmojis.length)];
+                createCelebrationEmoji(emoji);
+            }, i * 200);
+        }
     } else {
         options[selectedIndex].classList.add('incorrect');
         options[question.correct].classList.add('correct');
@@ -551,6 +559,14 @@ function selectAnswer(selectedIndex) {
         feedback.className = 'feedback-message feedback-incorrect';
         // Wrong answer bubble foam - colorful emojis
         createFallingEmojis('incorrect');
+        // Celebration emoji from left corner (sad face for wrong answer)
+        const sadEmojis = ['😢', '😞', '😔', '💭'];
+        for (let i = 0; i < 2; i++) {
+            setTimeout(() => {
+                const emoji = sadEmojis[Math.floor(Math.random() * sadEmojis.length)];
+                createCelebrationEmoji(emoji);
+            }, i * 300);
+        }
     }
 
     nextBtn.disabled = false;
@@ -594,6 +610,14 @@ function submitExtremeAnswer() {
 
         // Correct answer bubble foam
         createFallingEmojis('correct');
+        // Celebration emoji from left corner
+        const celebrationEmojis = ['🎉', '🎊', '⭐', '✨', '🌟'];
+        for (let i = 0; i < 3; i++) {
+            setTimeout(() => {
+                const emoji = celebrationEmojis[Math.floor(Math.random() * celebrationEmojis.length)];
+                createCelebrationEmoji(emoji);
+            }, i * 200);
+        }
     } else {
         // Wrong answer
         input.style.borderColor = '#e74c3c';
@@ -603,6 +627,14 @@ function submitExtremeAnswer() {
 
         // Wrong answer bubble foam - colorful emojis
         createFallingEmojis('incorrect');
+        // Celebration emoji from left corner (sad face for wrong answer)
+        const sadEmojis = ['😢', '😞', '😔', '💭'];
+        for (let i = 0; i < 2; i++) {
+            setTimeout(() => {
+                const emoji = sadEmojis[Math.floor(Math.random() * sadEmojis.length)];
+                createCelebrationEmoji(emoji);
+            }, i * 300);
+        }
 
         // Show correct answer
         answerDiv.style.display = 'block';
@@ -876,7 +908,9 @@ function createCelebrationEmoji(emoji) {
     const elem = document.createElement('div');
     elem.className = 'celebration-emoji';
     elem.textContent = emoji;
-    elem.style.left = Math.random() * 90 + '%';
+    // Start from left corner (0-15% from left)
+    elem.style.left = Math.random() * 15 + '%';
+    elem.style.bottom = '0';
     document.body.appendChild(elem);
 
     setTimeout(() => elem.remove(), 3000);

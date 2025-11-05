@@ -30,6 +30,21 @@ body {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     overflow-x: hidden;
     position: relative;
+    min-height: 100vh;
+}
+
+/* Hide WordPress theme footer to avoid duplicate */
+body .site-footer,
+body footer:not(.quiz-footer),
+body #colophon,
+body .footer-container,
+body .wp-block-template-part footer {
+    display: none !important;
+}
+
+/* Ensure quiz custom footer shows */
+.quiz-footer {
+    display: block !important;
 }
 
 /* Bubble Foam Effect */
@@ -156,7 +171,8 @@ body {
     width: 100%;
     max-width: 100%;
     background: white;
-    min-height: 100vh;
+    min-height: auto;
+    position: relative;
 }
 
 /* Page visibility control */
@@ -480,6 +496,17 @@ body {
 .question-emoji {
     font-size: 4em;
     margin: 20px 0;
+    animation: questionBounce 2s infinite;
+    font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', 'Segoe UI Symbol', sans-serif;
+}
+
+@keyframes questionBounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
 }
 
 .question-text {
@@ -710,14 +737,146 @@ body {
     transform: rotate(-90deg);
 }
 
+/* Topic Badge - Show topic name with colored background */
+.topic-badge {
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin: 8px 5px;
+    color: white;
+    font-size: 0.95em;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+/* Science topics */
+.topic-biology { background: #2ecc71; }
+.topic-physics { background: #3498db; }
+.topic-chemistry { background: #e74c3c; }
+.topic-astronomy { background: #9b59b6; }
+
+/* Math topics */
+.topic-arithmetic { background: #e74c3c; }
+.topic-algebra { background: #3498db; }
+.topic-geometry { background: #2ecc71; }
+.topic-calculus { background: #9b59b6; }
+
+/* History topics */
+.topic-ancient { background: #e67e22; }
+.topic-medieval { background: #8e44ad; }
+.topic-renaissance { background: #e74c3c; }
+.topic-modern { background: #16a085; }
+
+/* Geography topics */
+.topic-continents { background: #27ae60; }
+.topic-oceans { background: #3498db; }
+.topic-mountains { background: #95a5a6; }
+.topic-rivers { background: #16a085; }
+
+/* English topics */
+.topic-grammar { background: #e74c3c; }
+.topic-vocabulary { background: #27ae60; }
+.topic-literature { background: #9b59b6; }
+.topic-composition { background: #3498db; }
+
+/* Health topics */
+.topic-nutrition { background: #27ae60; }
+.topic-exercise { background: #e74c3c; }
+.topic-yoga { background: #9b59b6; }
+.topic-cardio { background: #f39c12; }
+
+/* Environment topics */
+.topic-ecology { background: #27ae60; }
+.topic-wildlife { background: #f39c12; }
+.topic-pollution { background: #e67e22; }
+.topic-recycling { background: #16a085; }
+
+/* Business topics */
+.topic-marketing { background: #e74c3c; }
+.topic-finance { background: #27ae60; }
+.topic-accounting { background: #3498db; }
+.topic-management { background: #f39c12; }
+
+/* Technology topics */
+.topic-programming { background: #3498db; }
+.topic-hardware { background: #95a5a6; }
+.topic-software { background: #9b59b6; }
+.topic-networking { background: #16a085; }
+
+/* Parenting topics */
+.topic-newborn { background: #e74c3c; }
+.topic-toddler { background: #f39c12; }
+.topic-preschool { background: #3498db; }
+.topic-school-age { background: #27ae60; }
+
+/* Celebration Emoji - Flies up from bottom corner on correct answer */
+.celebration-emoji {
+    position: fixed;
+    font-size: 3em;
+    animation: celebrate 3s ease-out forwards;
+    pointer-events: none;
+    z-index: 2000;
+    font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', 'Segoe UI Symbol', sans-serif;
+}
+
+@keyframes celebrate {
+    0% {
+        transform: translateY(100vh) scale(0);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-100vh) scale(1.5);
+        opacity: 0;
+    }
+}
+
+/* Floating Background Emoji - Subtle background decoration */
+.floating-bg-emoji {
+    position: fixed;
+    font-size: 2.5em;
+    opacity: 0.08;
+    animation: floatBg 20s infinite ease-in-out;
+    pointer-events: none;
+    z-index: 0;
+}
+
+@keyframes floatBg {
+    0%, 100% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+    33% {
+        transform: translate(80px, -80px) rotate(120deg);
+    }
+    66% {
+        transform: translate(-80px, 80px) rotate(240deg);
+    }
+}
+
 /* Responsive */
 @media (max-width: 768px) {
+    body {
+        background: #fff;
+    }
+
+    .main-container {
+        background: #fff;
+    }
+
+    .home-content {
+        padding: 35px 5px 0;
+    }
+
     .subject-grid, .chapter-grid, .level-grid, .home-grid {
         grid-template-columns: repeat(2, 1fr);
+        padding: 10px 5px 20px 5px;
     }
 
     .answers-container {
         grid-template-columns: 1fr;
+        padding: 0 5px;
     }
 
     .title, .level-title, .result-title {
@@ -726,6 +885,10 @@ body {
 
     .question-text {
         font-size: 1.2em;
+    }
+
+    .question-container {
+        padding: 0 5px;
     }
 }
 </style>

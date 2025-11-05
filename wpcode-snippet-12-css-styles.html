@@ -603,6 +603,9 @@ body .wp-block-template-part footer {
 .badge {
     font-size: 5em;
     margin: 20px 0;
+    font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', 'Segoe UI Symbol', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .badge-text {
@@ -617,6 +620,7 @@ body .wp-block-template-part footer {
     font-weight: bold;
     color: #667eea;
     margin: 20px 0;
+    font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', 'Segoe UI Symbol', sans-serif;
 }
 
 .result-details {
@@ -625,6 +629,7 @@ body .wp-block-template-part footer {
     border-radius: 15px;
     margin: 30px 0;
     text-align: left;
+    font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', 'Segoe UI Symbol', sans-serif;
 }
 
 .result-details div {
@@ -632,6 +637,7 @@ body .wp-block-template-part footer {
     margin: 15px 0;
     display: flex;
     justify-content: space-between;
+    font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', 'Segoe UI Symbol', sans-serif;
 }
 
 /* Coming Soon */
@@ -810,14 +816,9 @@ body .wp-block-template-part footer {
 .topic-preschool { background: #3498db; }
 .topic-school-age { background: #27ae60; }
 
-/* Celebration Emoji - Flies up from bottom corner on correct answer */
+/* Celebration Emoji - DISABLED (user requested removal of up-flying emojis) */
 .celebration-emoji {
-    position: fixed;
-    font-size: 3em;
-    animation: celebrate 3s ease-out forwards;
-    pointer-events: none;
-    z-index: 2000;
-    font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', 'Segoe UI Symbol', sans-serif;
+    display: none !important;
 }
 
 @keyframes celebrate {
@@ -834,11 +835,10 @@ body .wp-block-template-part footer {
     }
 }
 
-/* Falling Emoji - Pop from left corner and fly across screen */
+/* Falling Emoji - Pop in/out at left corner like bubble foam */
 .falling-emoji {
     position: fixed;
-    left: 0.5%;
-    top: 50%;
+    left: 2%;
     font-size: 1.4em;
     pointer-events: none;
     z-index: 1000;
@@ -855,19 +855,19 @@ body .wp-block-template-part footer {
 
 @keyframes popInOut {
     0% {
-        transform: scale(0) translateX(0) translateY(0);
+        transform: scale(0);
         opacity: 0;
     }
-    10% {
-        transform: scale(1.2) translateX(5vw) translateY(-8vh);
+    15% {
+        transform: scale(1.3);
         opacity: 1;
     }
-    90% {
-        transform: scale(0.9) translateX(95vw) translateY(-85vh);
-        opacity: 0.8;
+    85% {
+        transform: scale(1);
+        opacity: 1;
     }
     100% {
-        transform: scale(0) translateX(98vw) translateY(-95vh);
+        transform: scale(0);
         opacity: 0;
     }
 }

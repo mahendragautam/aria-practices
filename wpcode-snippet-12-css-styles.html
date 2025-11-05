@@ -265,8 +265,21 @@ body .wp-block-template-part footer {
 }
 
 .subject-card:hover {
-    transform: translateY(-10px) scale(1.02);
+    transform: translateY(-10px) scale(1.05) rotate(2deg);
     box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+    animation: rotateCircle 0.6s ease-in-out;
+}
+
+@keyframes rotateCircle {
+    0% {
+        transform: translateY(0) scale(1) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-10px) scale(1.08) rotate(3deg);
+    }
+    100% {
+        transform: translateY(-10px) scale(1.05) rotate(2deg);
+    }
 }
 
 .subject-card:nth-child(1) { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
@@ -338,7 +351,9 @@ body .wp-block-template-part footer {
 }
 
 .home-card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-8px) scale(1.05) rotate(2deg);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+    animation: rotateCircle 0.6s ease-in-out;
 }
 
 .card-emoji {
@@ -470,12 +485,12 @@ body .wp-block-template-part footer {
 /* Quiz Styles */
 .question-container {
     text-align: center;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .question-emoji {
     font-size: 4em;
-    margin: 20px 0;
+    margin: 10px 0;
     animation: questionBounce 2s infinite;
     font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', 'Segoe UI Symbol', sans-serif;
 }
@@ -492,7 +507,7 @@ body .wp-block-template-part footer {
 .question-text {
     font-size: 1.5em;
     color: #333;
-    margin: 20px 0;
+    margin: 10px 0;
     font-weight: 600;
 }
 
@@ -500,7 +515,7 @@ body .wp-block-template-part footer {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 15px;
-    margin: 20px 0;
+    margin: 15px 0;
 }
 
 .answer-option {
@@ -538,7 +553,7 @@ body .wp-block-template-part footer {
     text-align: center;
     font-size: 1.3em;
     font-weight: bold;
-    margin: 20px 0;
+    margin: 10px 0;
     min-height: 40px;
 }
 
@@ -549,12 +564,12 @@ body .wp-block-template-part footer {
 .progress-info {
     font-size: 1.2em;
     font-weight: bold;
-    margin: 10px 0;
+    margin: 5px 0;
     color: #333;
 }
 
 .progress-bar-container {
-    margin: 10px 0;
+    margin: 5px 0 10px 0;
 }
 
 .progress-bar {
@@ -720,10 +735,10 @@ body .wp-block-template-part footer {
 /* Topic Badge - Show topic name with colored background */
 .topic-badge {
     display: inline-block;
-    padding: 8px 20px;
+    padding: 6px 16px;
     border-radius: 20px;
     font-weight: bold;
-    margin: 8px 5px;
+    margin: 5px 5px 10px 5px;
     color: white;
     font-size: 0.95em;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -907,10 +922,28 @@ body .wp-block-template-part footer {
     .question-text {
         font-size: 1.2em;
         padding: 0 10px;
+        margin: 8px 0;
     }
 
     .question-container {
         padding: 0 10px;
+        margin: 8px 0;
+    }
+
+    .question-emoji {
+        margin: 8px 0;
+    }
+
+    .progress-info {
+        margin: 5px 0;
+    }
+
+    .progress-bar-container {
+        margin: 5px 0 10px 0;
+    }
+
+    .answers-container {
+        margin: 10px 0;
     }
 
     .chapter-selection, .level-selection, .quiz-container, .result-container {

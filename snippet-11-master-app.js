@@ -221,10 +221,21 @@ function startMixedQuiz(level, mixType, timedMode) {
             }
         });
     } else {
-        // Complete mix - all subjects, all chapters, all levels
+        // Complete mix - all subjects, all chapters, progressive difficulty
+        // Mix all levels UP TO the selected difficulty
+        const levelHierarchy = {
+            'easy': ['easy'],
+            'medium': ['easy', 'medium'],
+            'hard': ['easy', 'medium', 'hard'],
+            'expert': ['easy', 'medium', 'hard', 'expert'],
+            'extreme': ['easy', 'medium', 'hard', 'expert', 'extreme']
+        };
+
+        const levelsToInclude = levelHierarchy[level] || ['easy', 'medium', 'hard', 'expert', 'extreme'];
+
         Object.keys(subjects).forEach(subject => {
             for (let ch = 1; ch <= 20; ch++) {
-                ['easy', 'medium', 'hard', 'expert', 'extreme'].forEach(lvl => {
+                levelsToInclude.forEach(lvl => {
                     allQuestions = allQuestions.concat(subjectQuestionBank[subject][ch][lvl]);
                 });
             }
@@ -961,6 +972,8 @@ window.addEventListener('popstate', function(event) {
                 break;
 
             case 'chapter-selection':
+                clearFallingEmojis();
+                stopTimer();
                 const subjectData = subjects[currentSubject];
                 if (subjectData) {
                     document.getElementById('subjectTitle').innerHTML = `${subjectData.emoji} ${subjectData.name} ${subjectData.emoji}`;
@@ -970,15 +983,21 @@ window.addEventListener('popstate', function(event) {
                 break;
 
             case 'level-selection':
+                clearFallingEmojis();
+                stopTimer();
                 showScreen('level-selection');
                 break;
 
             case 'timer-challenges-page':
+                clearFallingEmojis();
+                stopTimer();
                 initializeTimerSubjects();
                 showScreen('timer-challenges-page');
                 break;
 
             case 'timer-subject-level-selection':
+                clearFallingEmojis();
+                stopTimer();
                 const timerSubjectData = subjects[currentSubject];
                 if (timerSubjectData) {
                     document.getElementById('timerSubjectTitle').innerHTML = `${timerSubjectData.emoji} ${timerSubjectData.name} - Select Level`;
@@ -987,14 +1006,20 @@ window.addEventListener('popstate', function(event) {
                 break;
 
             case 'practice-mode-page':
+                clearFallingEmojis();
+                stopTimer();
                 showScreen('practice-mode-page');
                 break;
 
             case 'riddles-page':
+                clearFallingEmojis();
+                stopTimer();
                 showScreen('riddles-page');
                 break;
 
             case 'dad-jokes-page':
+                clearFallingEmojis();
+                stopTimer();
                 showScreen('dad-jokes-page');
                 break;
 

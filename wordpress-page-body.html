@@ -219,6 +219,20 @@ NOTE: Do NOT include <!DOCTYPE>, <html>, <head>, or <body> tags
             </div>
         </div>
 
+        <!-- Section 3: Complete Mix (All Subjects, All Levels) -->
+        <div class="mode-section">
+            <div class="collapsible-header" onclick="toggleSection('timerComplete')">
+                <h3 class="mode-title">🔥 Complete Mix (All Subjects, All Levels)</h3>
+                <span class="toggle-arrow" id="timerCompleteArrow">▼</span>
+            </div>
+            <div class="collapsible-content expanded" id="timerComplete">
+                <p class="mode-description">Ultimate challenge - All subjects, all levels, all chapters mixed!</p>
+                <div class="level-grid">
+                    <div class="level-card level-mixed" onclick="startMixedQuiz('medium', 'complete', true)">🌟 START COMPLETE MIX</div>
+                </div>
+            </div>
+        </div>
+
         <button class="back-button" onclick="showHomePage()">← Back to Home</button>
     </div>
 
@@ -265,6 +279,15 @@ NOTE: Do NOT include <!DOCTYPE>, <html>, <head>, or <body> tags
                 <div class="level-card level-extreme" onclick="startMixedQuiz('extreme', 'levelwise', false)">⚫ EXTREME</div>
             </div>
         </div>
+
+        <div class="mode-section">
+            <h3 class="mode-title">🔥 Complete Mix (All Subjects, All Levels)</h3>
+            <p class="mode-description">Ultimate practice - All subjects, all levels, all chapters mixed - No timer</p>
+            <div class="level-grid">
+                <div class="level-card level-mixed" onclick="startMixedQuiz('medium', 'complete', false)">🌟 START COMPLETE MIX</div>
+            </div>
+        </div>
+
         <button class="back-button" onclick="showHomePage()">← Back to Home</button>
     </div>
 

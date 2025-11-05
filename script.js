@@ -697,8 +697,17 @@ function goBackFromQuiz() {
     console.log('=== goBackFromQuiz DEBUG ===');
     console.log('returnPage:', returnPage);
     console.log('quizMode:', quizMode);
+    console.log('currentQuestionIndex:', currentQuestionIndex);
     console.log('============================');
 
+    // If not on first question, go to previous question
+    if (currentQuestionIndex > 0) {
+        console.log('Going to previous question');
+        previousQuestion();
+        return;
+    }
+
+    // If on first question (index 0), exit quiz
     clearFallingEmojis();
     stopTimer();
 
@@ -1005,6 +1014,16 @@ function nextQuestion() {
         displayQuestion();
     } else {
         showResults();
+    }
+}
+
+function previousQuestion() {
+    // Go back to previous question
+    clearFallingEmojis();
+    currentQuestionIndex--;
+
+    if (currentQuestionIndex >= 0) {
+        displayQuestion();
     }
 }
 

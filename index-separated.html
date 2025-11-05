@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz Collection - Separated Code Structure</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Your quiz HTML content here (same as index.html) -->
+    <div class="main-container">
+        <!-- All quiz pages go here -->
+    </div>
+
+    <!-- ============================================ -->
+    <!-- LOAD QUESTION BANKS FIRST (in order)        -->
+    <!-- ============================================ -->
+
+    <!-- 1. Science Questions -->
+    <script src="science-questions.js"></script>
+
+    <!-- 2. Math Questions -->
+    <script src="math-questions.js"></script>
+
+    <!-- 3. History Questions -->
+    <script src="history-questions.js"></script>
+
+    <!-- 4. Geography Questions -->
+    <script src="geography-questions.js"></script>
+
+    <!-- 5. English Questions -->
+    <script src="english-questions.js"></script>
+
+    <!-- 6. Health & Fitness Questions -->
+    <script src="health-questions.js"></script>
+
+    <!-- 7. Environment Questions -->
+    <script src="environment-questions.js"></script>
+
+    <!-- 8. Business Questions -->
+    <script src="business-questions.js"></script>
+
+    <!-- 9. Technology Questions -->
+    <script src="technology-questions.js"></script>
+
+    <!-- 10. Parenting Questions -->
+    <script src="parenting-questions.js"></script>
+
+    <!-- ============================================ -->
+    <!-- LOAD MASTER APP LAST                        -->
+    <!-- ============================================ -->
+
+    <!-- Master App - Must load AFTER all question files -->
+    <script src="script.js"></script>
+
+    <!--
+    IMPORTANT NOTES:
+
+    1. Load order matters!
+       - Load all question files FIRST
+       - Load script.js (master app) LAST
+
+    2. Question files must define:
+       - scienceQuestions
+       - mathQuestions
+       - historyQuestions
+       - geographyQuestions
+       - englishQuestions
+       - healthQuestions
+       - environmentQuestions
+       - businessQuestions
+       - technologyQuestions
+       - parentingQuestions
+
+    3. Master app (script.js) should link them:
+       const subjectQuestionBank = {
+           science: scienceQuestions,
+           math: mathQuestions,
+           // ... etc
+       };
+
+    4. For WordPress:
+       - Create separate WPCode snippets for each file
+       - Set priorities so questions load before app
+       - Or upload files and link with <script src="...">
+
+    5. Benefits:
+       ✅ Easy to maintain
+       ✅ Team collaboration friendly
+       ✅ Clean code separation
+       ✅ Unlimited chapters per subject
+       ✅ Add/update one subject at a time
+    -->
+</body>
+</html>

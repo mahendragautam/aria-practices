@@ -2786,14 +2786,9 @@ function selectSubject(subject) {
     quizMode = 'normal';
     returnPage = 'home';
 
-    // Auto-collapse subjects after selection
-    const grid = document.getElementById('subjectGrid');
-    const icon = document.getElementById('toggleIcon');
-    if (grid.classList.contains('expanded')) {
-        grid.classList.remove('expanded');
-        icon.classList.add('collapsed');
-        icon.textContent = '▶';
-    }
+    // Keep subjects expanded - don't auto-collapse
+    // User can manually collapse if needed
+
 
     const subjectData = subjects[subject];
     document.getElementById('subjectTitle').innerHTML = `${subjectData.emoji} ${subjectData.name} ${subjectData.emoji}`;

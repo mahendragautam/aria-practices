@@ -920,22 +920,29 @@ body > main,
    404 ERROR PAGE STYLES
    ======================================== */
 
-/* Remove all gaps around 404 page */
+/* Remove all gaps around 404 page - FORCE FULL WIDTH */
 body.error404,
 body.error404 .wp-site-blocks,
-body.error404 main {
+body.error404 main,
+body.error404 .wp-block-group,
+body.error404 .entry-content,
+body.error404 article {
     margin: 0 !important;
     padding: 0 !important;
+    max-width: 100% !important;
 }
 
 .error-404-page {
     display: none;
     position: relative;
     width: 100vw;
-    min-height: 100vh;
+    max-width: 100vw;
+    min-height: calc(100vh - 120px);
     background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
     padding: 0;
     margin: 0 !important;
+    margin-left: calc(-50vw + 50%) !important;
+    margin-right: calc(-50vw + 50%) !important;
     overflow-y: auto;
     overflow-x: hidden;
     box-sizing: border-box;
@@ -1335,8 +1342,11 @@ body.error404 main {
         padding: 0;
         position: relative;
         width: 100vw;
-        min-height: 100vh;
-        margin: 0;
+        max-width: 100vw;
+        min-height: calc(100vh - 80px);
+        margin: 0 !important;
+        margin-left: calc(-50vw + 50%) !important;
+        margin-right: calc(-50vw + 50%) !important;
         box-sizing: border-box;
     }
 

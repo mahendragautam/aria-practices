@@ -88,7 +88,8 @@ const subjectQuestionBank = {
 function showHomePage() {
     clearFallingEmojis();
     stopTimer();
-    showScreen('home-page');
+    // Navigate to homepage
+    window.location.href = '/';
 }
 
 function toggleSubjects() {
@@ -126,13 +127,12 @@ function selectSubject(subject) {
     quizMode = 'normal';
     returnPage = 'home';
 
-    // Keep subjects expanded - don't auto-collapse
-    // User can manually collapse if needed
+    // Get subject name from ID
+    const subjectNames = ['math', 'science', 'english', 'nepali', 'social', 'computer'];
+    const subjectName = subjectNames[subject];
 
-    const subjectData = subjects[subject];
-    document.getElementById('subjectTitle').innerHTML = `${subjectData.emoji} ${subjectData.name} ${subjectData.emoji}`;
-    initializeChapters();
-    showScreen('chapter-selection');
+    // Navigate to WordPress subject page
+    window.location.href = `/${subjectName}/`;
 }
 
 function showTimerChallenges() {
@@ -388,8 +388,13 @@ function initializeTimerSubjects() {
 
 function selectChapter(chapter) {
     currentChapter = chapter;
-    document.getElementById('levelTitle').textContent = `Chapter ${chapter} - Select Difficulty Level`;
-    showScreen('level-selection');
+
+    // Get subject name from current subject ID
+    const subjectNames = ['math', 'science', 'english', 'nepali', 'social', 'computer'];
+    const subjectName = subjectNames[currentSubject];
+
+    // Navigate to WordPress chapter page
+    window.location.href = `/${subjectName}/chapter-${chapter}/`;
 }
 
 function showChapterSelection() {
@@ -488,6 +493,18 @@ function showScreen(screenClass) {
 }
 
 function startQuiz(level, timedMode = false) {
+    // Check if we need to navigate to the level page first
+    const currentPath = window.location.pathname;
+    const subjectNames = ['math', 'science', 'english', 'nepali', 'social', 'computer'];
+    const expectedPath = `/${subjectNames[currentSubject]}/chapter-${currentChapter}/${level}/`;
+
+    // If not on the correct level page, navigate there
+    if (!currentPath.includes(`/chapter-${currentChapter}/${level}`)) {
+        window.location.href = expectedPath;
+        return;
+    }
+
+    // We're on the correct page, start the quiz
     clearFallingEmojis();
     stopTimer(); // Clear any existing timer
 
@@ -1021,37 +1038,87 @@ function addFloatingEmojis(emoji) {
     }
 }
 
-// Initialize on load
+// Initialize on load - WordPress path-based URLs
 window.onload = function() {
-    // Get current hash from URL
-    const urlPath = window.location.hash.substring(1); // Remove '#'
+    // Get current path from URL (e.g., /math/chapter-1/easy/)
+    const fullPath = window.location.pathname;
 
-    // Try to get screen from URL
-    const screenClass = getScreenFromUrl(urlPath);
+    // Remove leading/trailing slashes and split
+    const pathParts = fullPath.replace(/^\/|\/$/g, '').split('/');
 
-    if (screenClass) {
-        // Valid URL found
-        // Extract level from quiz URLs (quiz-easy, quiz-medium, etc)
-        if (urlPath.startsWith('quiz-')) {
-            const level = urlPath.replace('quiz-', '');
+    // Map subject names to IDs
+    const subjectMap = {
+        'math': 0,
+        'science': 1,
+        'english': 2,
+        'nepali': 3,
+        'social': 4,
+        'computer': 5
+    };
+
+    // Check if we're on homepage (root or no path)
+    if (pathParts.length === 0 || pathParts[0] === '') {
+        // Homepage
+        history.replaceState({screen: 'home-page'}, '', window.location.pathname);
+        showScreen('home-page');
+    }
+    // Check for timer page
+    else if (pathParts[0] === 'timer') {
+        history.replaceState({screen: 'timer-challenges-page'}, '', window.location.pathname);
+        showScreen('timer-challenges-page');
+    }
+    // Check for practice page
+    else if (pathParts[0] === 'practice') {
+        history.replaceState({screen: 'practice-mode-page'}, '', window.location.pathname);
+        showScreen('practice-mode-page');
+    }
+    // Check for subject pages (e.g., /math/ or /math/chapter-1/ or /math/chapter-1/easy/)
+    else if (subjectMap.hasOwnProperty(pathParts[0])) {
+        const subject = pathParts[0];
+        currentSubject = subjectMap[subject];
+
+        // Just subject page - show chapters
+        if (pathParts.length === 1) {
+            const subjectData = subjects[currentSubject];
+            if (subjectData) {
+                document.getElementById('subjectTitle').innerHTML = `${subjectData.emoji} ${subjectData.name} ${subjectData.emoji}`;
+            }
+            initializeChapters();
+            history.replaceState({screen: 'chapter-selection', subject: currentSubject}, '', window.location.pathname);
+            showScreen('chapter-selection');
+        }
+        // Subject + chapter (e.g., /math/chapter-1/)
+        else if (pathParts.length === 2 && pathParts[1].startsWith('chapter-')) {
+            const chapterNum = parseInt(pathParts[1].replace('chapter-', ''));
+            currentChapter = chapterNum;
+            history.replaceState({screen: 'level-selection', subject: currentSubject, chapter: currentChapter}, '', window.location.pathname);
+            showScreen('level-selection');
+        }
+        // Subject + chapter + level (e.g., /math/chapter-1/easy/)
+        else if (pathParts.length === 3 && pathParts[1].startsWith('chapter-')) {
+            const chapterNum = parseInt(pathParts[1].replace('chapter-', ''));
+            const level = pathParts[2]; // easy, medium, hard, extreme
+
             if (['easy', 'medium', 'hard', 'extreme'].includes(level)) {
+                currentChapter = chapterNum;
                 currentLevel = level;
+
+                // Start the quiz directly
+                history.replaceState({screen: 'quiz-container', subject: currentSubject, chapter: currentChapter, level: level}, '', window.location.pathname);
+                startQuiz(level, false);
+            } else {
+                // Invalid level - show level selection
+                currentChapter = chapterNum;
+                showScreen('level-selection');
             }
         }
-
-        // Get the proper clean URL for this screen
-        const cleanUrl = getUrlForScreen(screenClass);
-
-        if (screenClass === 'home-page') {
-            history.replaceState({screen: 'home-page'}, '', window.location.pathname);
-        } else {
-            // Always use clean URL format (redirects old URLs to new)
-            history.replaceState({screen: screenClass, level: currentLevel}, '', `#${cleanUrl}`);
+        else {
+            // Invalid path - go to homepage
+            showScreen('home-page');
         }
-        showScreen(screenClass);
-    } else {
-        // Invalid or no hash - go to homepage with clean URL
-        history.replaceState({screen: 'home-page'}, '', window.location.pathname);
+    }
+    // Unknown path - show homepage
+    else {
         showScreen('home-page');
     }
 

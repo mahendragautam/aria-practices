@@ -1,23 +1,6 @@
-<?php
-/**
- * Custom 404 Error Page Template
- *
- * This template replaces WordPress default 404 page with our beautiful quiz-themed design.
- *
- * Installation Instructions:
- * 1. Upload this file to your WordPress theme directory:
- *    /wp-content/themes/YOUR-THEME-NAME/404.php
- *
- * 2. If your theme already has a 404.php file, you can either:
- *    a) Replace it with this file (backup the original first!)
- *    b) Or merge the content below into your existing 404.php
- *
- * For child themes: Upload to /wp-content/themes/YOUR-CHILD-THEME-NAME/404.php
- */
+<!-- wp:template-part {"slug":"header"} /-->
 
-get_header(); // Load theme header
-?>
-
+<!-- wp:html -->
 <div class="error-404-page active">
     <div class="error-404-container">
         <div class="error-404-content">
@@ -29,7 +12,7 @@ get_header(); // Load theme header
                 Maybe it's taking a quiz somewhere? 🤔
             </p>
             <div class="error-404-buttons">
-                <a href="<?php echo esc_url(home_url('/')); ?>" class="error-404-btn error-404-btn-primary">
+                <a href="/" class="error-404-btn error-404-btn-primary">
                     🏠 Go Home
                 </a>
                 <a href="javascript:history.back()" class="error-404-btn error-404-btn-secondary">
@@ -39,9 +22,9 @@ get_header(); // Load theme header
             <div class="error-404-suggestions">
                 <h3>🎯 Try These Instead:</h3>
                 <div class="error-404-links">
-                    <a href="<?php echo esc_url(home_url('/#timer-challenges')); ?>" class="error-404-link">⏱️ Timer Challenges</a>
-                    <a href="<?php echo esc_url(home_url('/#practice-mode')); ?>" class="error-404-link">🎯 Practice Mode</a>
-                    <a href="<?php echo esc_url(home_url('/#home')); ?>" class="error-404-link">📚 Browse Subjects</a>
+                    <a href="/#timer-challenges" class="error-404-link">⏱️ Timer Challenges</a>
+                    <a href="/#practice-mode" class="error-404-link">🎯 Practice Mode</a>
+                    <a href="/#home" class="error-404-link">📚 Browse Subjects</a>
                 </div>
             </div>
         </div>
@@ -54,7 +37,6 @@ get_header(); // Load theme header
         </div>
     </div>
 </div>
+<!-- /wp:html -->
 
-<?php
-get_footer(); // Load theme footer
-?>
+<!-- wp:template-part {"slug":"footer"} /-->

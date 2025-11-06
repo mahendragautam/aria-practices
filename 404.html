@@ -189,6 +189,8 @@ body.error404 article {
     font-weight: bold;
     transition: all 0.3s ease;
     border: 2px solid transparent;
+    box-sizing: border-box;
+    max-width: 100%;
 }
 
 .error-404-link:hover {
@@ -420,11 +422,18 @@ body.error404 article {
         flex-direction: column;
         gap: 10px;
         width: 100%;
+        padding: 0 10px;
+        box-sizing: border-box;
     }
 
     .error-404-link {
         width: 100%;
+        max-width: 100%;
         margin: 0;
+        padding: 12px 15px;
+        box-sizing: border-box;
+        word-wrap: break-word;
+        overflow: hidden;
     }
 
     .floating-emoji {
@@ -459,6 +468,15 @@ body.error404 article {
 
     .error-404-buttons {
         padding: 0 5px;
+    }
+
+    .error-404-links {
+        padding: 0 5px;
+    }
+
+    .error-404-link {
+        padding: 10px 12px;
+        font-size: 0.95em;
     }
 
     .floating-emoji {

@@ -1,0 +1,368 @@
+<!--
+=============================================================================
+WORDPRESS PAGE BODY CONTENT
+=============================================================================
+File: wordpress-page-body.html
+Purpose: Body content to paste in WordPress page editor (NOT full HTML file)
+
+INSTRUCTIONS:
+1. Copy EVERYTHING below this comment block
+2. WordPress Admin > Pages > Quiz Page > Edit
+3. Switch to "Code Editor" or "Text" tab
+4. Paste this content
+5. Update page
+
+NOTE: Do NOT include <!DOCTYPE>, <html>, <head>, or <body> tags
+      WordPress theme handles those automatically
+=============================================================================
+-->
+
+<!-- Bubble Foam Background Effect -->
+<div class="bubble-container">
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+</div>
+
+<div class="main-container">
+    <!-- HOME PAGE -->
+    <div class="home-page active">
+        <div class="home-content">
+            <div class="home-section">
+                <div class="section-header" onclick="toggleSubjects()">
+                    <h2 class="section-title">📚 Individual Subjects</h2>
+                    <span class="toggle-icon" id="toggleIcon">▼</span>
+                </div>
+                <div class="subject-grid expanded" id="subjectGrid">
+                    <div class="subject-card" onclick="selectSubject('science')">
+                        <div class="subject-emoji">🔬</div>
+                        <div class="subject-name">Science</div>
+                    </div>
+                    <div class="subject-card" onclick="selectSubject('math')">
+                        <div class="subject-emoji">🔢</div>
+                        <div class="subject-name">Math</div>
+                    </div>
+                    <div class="subject-card" onclick="selectSubject('history')">
+                        <div class="subject-emoji">📜</div>
+                        <div class="subject-name">History</div>
+                    </div>
+                    <div class="subject-card" onclick="selectSubject('geography')">
+                        <div class="subject-emoji">🌍</div>
+                        <div class="subject-name">Geography</div>
+                    </div>
+                    <div class="subject-card" onclick="selectSubject('english')">
+                        <div class="subject-emoji">📖</div>
+                        <div class="subject-name">English</div>
+                    </div>
+                    <div class="subject-card" onclick="selectSubject('health')">
+                        <div class="subject-emoji">💪</div>
+                        <div class="subject-name">Health & Fitness</div>
+                    </div>
+                    <div class="subject-card" onclick="selectSubject('environment')">
+                        <div class="subject-emoji">🌱</div>
+                        <div class="subject-name">Environment</div>
+                    </div>
+                    <div class="subject-card" onclick="selectSubject('business')">
+                        <div class="subject-emoji">💼</div>
+                        <div class="subject-name">Business</div>
+                    </div>
+                    <div class="subject-card" onclick="selectSubject('technology')">
+                        <div class="subject-emoji">💻</div>
+                        <div class="subject-name">Technology</div>
+                    </div>
+                    <div class="subject-card" onclick="selectSubject('parenting')">
+                        <div class="subject-emoji">👶</div>
+                        <div class="subject-name">Parenting</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Other Mode Cards -->
+            <div class="home-grid">
+                <div class="home-card" onclick="showTimerChallenges()">
+                    <div class="card-emoji">⏱️</div>
+                    <div class="card-title">Timer Challenges</div>
+                    <div class="card-subtitle">Mix - All Subjects</div>
+                </div>
+                <div class="home-card" onclick="showPracticeMode()">
+                    <div class="card-emoji">🎯</div>
+                    <div class="card-title">Practice Mode</div>
+                    <div class="card-subtitle">Mix - No Timer</div>
+                </div>
+                <div class="home-card" onclick="showRiddles()">
+                    <div class="card-emoji">🎭</div>
+                    <div class="card-title">Riddles</div>
+                    <div class="card-subtitle">Brain Teasers</div>
+                </div>
+                <div class="home-card" onclick="showDadJokes()">
+                    <div class="card-emoji">😂</div>
+                    <div class="card-title">Dad Jokes</div>
+                    <div class="card-subtitle">Fun Time</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Chapter Selection -->
+    <div class="chapter-selection">
+        <h1 class="title" id="subjectTitle">🔬 Science 🔬</h1>
+        <div class="chapter-grid" id="chapterGrid"></div>
+        <button class="back-button" onclick="showHomePage()">← Back to Home</button>
+    </div>
+
+    <!-- Level Selection -->
+    <div class="level-selection">
+        <h2 class="level-title" id="levelTitle">Select Difficulty Level</h2>
+
+        <!-- Normal Level Section -->
+        <div class="mode-section">
+            <div class="collapsible-header" onclick="toggleSection('normalLevel')">
+                <h3 class="mode-title">📚 Normal Level</h3>
+                <span class="toggle-arrow" id="normalLevelArrow">▼</span>
+            </div>
+            <div class="collapsible-content expanded" id="normalLevel">
+                <p class="mode-description">Practice at your own pace - No time limit</p>
+                <div class="level-grid">
+                    <div class="level-card level-easy" onclick="startQuiz('easy', false)">
+                        <div>🟢 EASY</div>
+                        <div style="font-size: 0.9em; margin-top: 10px;">True or False</div>
+                    </div>
+                    <div class="level-card level-medium" onclick="startQuiz('medium', false)">
+                        <div>🟡 MEDIUM</div>
+                        <div style="font-size: 0.9em; margin-top: 10px;">2 Options</div>
+                    </div>
+                    <div class="level-card level-hard" onclick="startQuiz('hard', false)">
+                        <div>🟠 HARD</div>
+                        <div style="font-size: 0.9em; margin-top: 10px;">3 Options</div>
+                    </div>
+                    <div class="level-card level-expert" onclick="startQuiz('expert', false)">
+                        <div>🔴 EXPERT</div>
+                        <div style="font-size: 0.9em; margin-top: 10px;">4 Options</div>
+                    </div>
+                    <div class="level-card level-extreme" onclick="startQuiz('extreme', false)">
+                        <div>⚫ EXTREME</div>
+                        <div style="font-size: 0.9em; margin-top: 10px;">Text Answer</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quick Pick Section -->
+        <div class="mode-section">
+            <h3 class="mode-title">⚡ Quick Pick</h3>
+            <p class="mode-description">Time-bound challenge - Beat the clock!</p>
+            <div class="level-grid">
+                <div class="level-card level-easy" onclick="startQuiz('easy', true)">
+                    <div>🟢 EASY</div>
+                    <div style="font-size: 0.85em; margin-top: 8px;">⏱️ 1:00 min</div>
+                </div>
+                <div class="level-card level-medium" onclick="startQuiz('medium', true)">
+                    <div>🟡 MEDIUM</div>
+                    <div style="font-size: 0.85em; margin-top: 8px;">⏱️ 1:30 min</div>
+                </div>
+                <div class="level-card level-hard" onclick="startQuiz('hard', true)">
+                    <div>🟠 HARD</div>
+                    <div style="font-size: 0.85em; margin-top: 8px;">⏱️ 2:00 min</div>
+                </div>
+                <div class="level-card level-expert" onclick="startQuiz('expert', true)">
+                    <div>🔴 EXPERT</div>
+                    <div style="font-size: 0.85em; margin-top: 8px;">⏱️ 2:30 min</div>
+                </div>
+                <div class="level-card level-extreme" onclick="startQuiz('extreme', true)">
+                    <div>⚫ EXTREME</div>
+                    <div style="font-size: 0.85em; margin-top: 8px;">⏱️ 3:00 min</div>
+                </div>
+            </div>
+        </div>
+
+        <button class="back-button" onclick="showChapterSelection()">← Back</button>
+    </div>
+
+    <!-- Timer Challenges Page -->
+    <div class="timer-challenges-page">
+        <h1 class="title">⏱️ Timer Challenges ⏱️</h1>
+
+        <!-- Section 1: Individual Subject Timer -->
+        <div class="mode-section">
+            <div class="collapsible-header" onclick="toggleSection('timerIndividual')">
+                <h3 class="mode-title">🎯 Individual Subject Timer</h3>
+                <span class="toggle-arrow" id="timerIndividualArrow">▼</span>
+            </div>
+            <div class="collapsible-content expanded" id="timerIndividual">
+                <p class="mode-description">All 20 chapters combined - Choose subject & level</p>
+                <div class="subject-grid small expanded" id="timerSubjectGrid"></div>
+            </div>
+        </div>
+
+        <!-- Section 2: Complete Mix (All Subjects, Same Level) -->
+        <div class="mode-section">
+            <div class="collapsible-header" onclick="toggleSection('timerComplete')">
+                <h3 class="mode-title">🔥 Complete Mix (All Subjects, Same Level)</h3>
+                <span class="toggle-arrow" id="timerCompleteArrow">▼</span>
+            </div>
+            <div class="collapsible-content expanded" id="timerComplete">
+                <p class="mode-description">All subjects, all chapters - Pick your difficulty!</p>
+                <div class="level-grid">
+                    <div class="level-card level-easy" onclick="startMixedQuiz('easy', 'complete', true)">🟢 EASY MIX</div>
+                    <div class="level-card level-medium" onclick="startMixedQuiz('medium', 'complete', true)">🟡 MEDIUM MIX</div>
+                    <div class="level-card level-hard" onclick="startMixedQuiz('hard', 'complete', true)">🟠 HARD MIX</div>
+                    <div class="level-card level-expert" onclick="startMixedQuiz('expert', 'complete', true)">🔴 EXPERT MIX</div>
+                    <div class="level-card level-extreme" onclick="startMixedQuiz('extreme', 'complete', true)">⚫ EXTREME MIX</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 3: All Levels Mix (Ultimate Challenge) -->
+        <div class="mode-section">
+            <div class="collapsible-header" onclick="toggleSection('timerAllMix')">
+                <h3 class="mode-title">💥 All Levels Mix (Ultimate Challenge)</h3>
+                <span class="toggle-arrow" id="timerAllMixArrow">▼</span>
+            </div>
+            <div class="collapsible-content expanded" id="timerAllMix">
+                <p class="mode-description">EXTREME! All subjects, all chapters, ALL levels mixed together!</p>
+                <div class="level-grid">
+                    <div class="level-card level-mixed full-width-mobile" onclick="startMixedQuiz('medium', 'allmix', true)">🌟 START ALL LEVELS MIX</div>
+                </div>
+            </div>
+        </div>
+
+        <button class="back-button" onclick="showHomePage()">← Back to Home</button>
+    </div>
+
+    <!-- Timer Subject Level Selection Page -->
+    <div class="timer-subject-level-selection">
+        <h2 class="level-title" id="timerSubjectTitle">Select Level</h2>
+        <p class="mode-description">All 20 chapters combined</p>
+        <div class="level-grid">
+            <div class="level-card level-easy" onclick="startSubjectTimer('easy')">
+                <div>🟢 EASY</div>
+                <div style="font-size: 0.85em; margin-top: 8px;">⏱️ 1:00 min</div>
+            </div>
+            <div class="level-card level-medium" onclick="startSubjectTimer('medium')">
+                <div>🟡 MEDIUM</div>
+                <div style="font-size: 0.85em; margin-top: 8px;">⏱️ 1:30 min</div>
+            </div>
+            <div class="level-card level-hard" onclick="startSubjectTimer('hard')">
+                <div>🟠 HARD</div>
+                <div style="font-size: 0.85em; margin-top: 8px;">⏱️ 2:00 min</div>
+            </div>
+            <div class="level-card level-expert" onclick="startSubjectTimer('expert')">
+                <div>🔴 EXPERT</div>
+                <div style="font-size: 0.85em; margin-top: 8px;">⏱️ 2:30 min</div>
+            </div>
+            <div class="level-card level-extreme" onclick="startSubjectTimer('extreme')">
+                <div>⚫ EXTREME</div>
+                <div style="font-size: 0.85em; margin-top: 8px;">⏱️ 3:00 min</div>
+            </div>
+        </div>
+        <button class="back-button" onclick="showTimerChallenges()">← Back</button>
+    </div>
+
+    <!-- Practice Mode Page -->
+    <div class="practice-mode-page">
+        <h1 class="title">🎯 Practice Mode 🎯</h1>
+
+        <div class="mode-section">
+            <h3 class="mode-title">🔥 Complete Mix (All Subjects, Same Level)</h3>
+            <p class="mode-description">All subjects, all chapters - Pick your difficulty - No timer</p>
+            <div class="level-grid">
+                <div class="level-card level-easy" onclick="startMixedQuiz('easy', 'complete', false)">🟢 EASY MIX</div>
+                <div class="level-card level-medium" onclick="startMixedQuiz('medium', 'complete', false)">🟡 MEDIUM MIX</div>
+                <div class="level-card level-hard" onclick="startMixedQuiz('hard', 'complete', false)">🟠 HARD MIX</div>
+                <div class="level-card level-expert" onclick="startMixedQuiz('expert', 'complete', false)">🔴 EXPERT MIX</div>
+                <div class="level-card level-extreme" onclick="startMixedQuiz('extreme', 'complete', false)">⚫ EXTREME MIX</div>
+            </div>
+        </div>
+
+        <div class="mode-section">
+            <h3 class="mode-title">💥 All Levels Mix (Ultimate Challenge)</h3>
+            <p class="mode-description">EXTREME! All subjects, all chapters, ALL levels mixed - No timer</p>
+            <div class="level-grid">
+                <div class="level-card level-mixed full-width-mobile" onclick="startMixedQuiz('medium', 'allmix', false)">🌟 START ALL LEVELS MIX</div>
+            </div>
+        </div>
+
+        <button class="back-button" onclick="showHomePage()">← Back to Home</button>
+    </div>
+
+    <!-- Riddles Page -->
+    <div class="riddles-page">
+        <h1 class="title">🎭 Riddles 🎭</h1>
+        <div class="coming-soon"><p>Coming Soon...</p></div>
+        <button class="back-button" onclick="showHomePage()">← Back to Home</button>
+    </div>
+
+    <!-- Dad Jokes Page -->
+    <div class="dad-jokes-page">
+        <h1 class="title">😂 Dad Jokes 😂</h1>
+        <div class="coming-soon"><p>Coming Soon...</p></div>
+        <button class="back-button" onclick="showHomePage()">← Back to Home</button>
+    </div>
+
+    <!-- Quiz Container -->
+    <div class="quiz-container">
+        <div id="quizContent"></div>
+    </div>
+
+    <!-- Result Container -->
+    <div class="result-container">
+        <div class="result-content">
+            <div class="result-title">Quiz Complete! 🎉</div>
+            <div class="badge" id="resultBadge"></div>
+            <div class="badge-text" id="badgeText"></div>
+            <div class="score-display" id="scoreDisplay"></div>
+            <div class="result-details">
+                <div><span>⏱️ Time Taken:</span><span id="timeTaken"></span></div>
+                <div><span>📊 Score:</span><span id="finalScore"></span></div>
+                <div><span>📈 Level:</span><span id="levelCompleted"></span></div>
+            </div>
+            <button class="restart-button" onclick="retakeQuiz()">🔄 Retake Quiz</button>
+            <button class="restart-button" onclick="goBackFromResult()">← Go Back</button>
+        </div>
+    </div>
+
+    <!-- 404 Error Page -->
+    <div class="error-404-page">
+        <div class="error-404-container">
+            <div class="error-404-content">
+                <div class="error-404-emoji">🔍</div>
+                <h1 class="error-404-title">404</h1>
+                <h2 class="error-404-subtitle">Oops! Page Not Found</h2>
+                <p class="error-404-description">
+                    The page you're looking for seems to have vanished into thin air!
+                    Maybe it's taking a quiz somewhere? 🤔
+                </p>
+                <div class="error-404-buttons">
+                    <a href="/" class="error-404-btn error-404-btn-primary">
+                        🏠 Go Home
+                    </a>
+                    <a href="javascript:history.back()" class="error-404-btn error-404-btn-secondary">
+                        ← Go Back
+                    </a>
+                </div>
+                <div class="error-404-suggestions">
+                    <h3>🎯 Try These Instead:</h3>
+                    <div class="error-404-links">
+                        <a href="/#timer-challenges" class="error-404-link">⏱️ Timer Challenges</a>
+                        <a href="/#practice-mode" class="error-404-link">🎯 Practice Mode</a>
+                        <a href="/#home" class="error-404-link">📚 Browse Subjects</a>
+                    </div>
+                </div>
+            </div>
+            <div class="error-404-animation">
+                <div class="floating-emoji">😵</div>
+                <div class="floating-emoji">🤷</div>
+                <div class="floating-emoji">📖</div>
+                <div class="floating-emoji">🎓</div>
+                <div class="floating-emoji">💭</div>
+            </div>
+        </div>
+    </div>
+</div>

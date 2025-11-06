@@ -1231,14 +1231,15 @@ body.error404 .wp-block-group {
     /* Full width centered button for All Levels Mix on mobile */
     .level-card.full-width-mobile {
         grid-column: 1 / -1;
-        width: 100%;
+        width: calc(100% - 20px) !important;
         max-width: 100%;
-        margin: 0 auto;
+        margin: 0 10px !important;
         text-align: center;
-        font-size: 1.3em;
-        padding: 25px 15px;
+        font-size: 1.2em;
+        padding: 20px 10px;
         font-weight: 900;
         display: block;
+        box-sizing: border-box;
     }
 
     .answers-container {

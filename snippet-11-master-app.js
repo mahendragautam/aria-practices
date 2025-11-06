@@ -421,9 +421,10 @@ function getUrlForScreen(screenClass) {
     return urlMap[screenClass] || screenClass;
 }
 
-// Map URL paths back to screen classes
+// Map URL paths back to screen classes (with backward compatibility)
 function getScreenFromUrl(urlPath) {
     const screenMap = {
+        // New clean URLs (primary)
         '': 'home-page',
         'chapters': 'chapter-selection',
         'levels': 'level-selection',
@@ -436,7 +437,22 @@ function getScreenFromUrl(urlPath) {
         'practice': 'practice-mode-page',
         'timer-setup': 'timer-subject-level-selection',
         'riddles': 'riddles-page',
-        'jokes': 'dad-jokes-page'
+        'jokes': 'dad-jokes-page',
+
+        // Old URLs (backward compatibility - accept and will redirect to new)
+        'home-page': 'home-page',
+        'chapter-selection': 'chapter-selection',
+        'level-selection': 'level-selection',
+        'quiz-container': 'quiz-container',
+        'result-container': 'result-container',
+        'result-screen': 'result-container',
+        'timer-challenges': 'timer-challenges-page',
+        'timer-challenges-page': 'timer-challenges-page',
+        'practice-mode': 'practice-mode-page',
+        'practice-mode-page': 'practice-mode-page',
+        'timer-subject-level-selection': 'timer-subject-level-selection',
+        'riddles-page': 'riddles-page',
+        'dad-jokes-page': 'dad-jokes-page'
     };
 
     return screenMap[urlPath] || null;
@@ -1022,10 +1038,14 @@ window.onload = function() {
             }
         }
 
+        // Get the proper clean URL for this screen
+        const cleanUrl = getUrlForScreen(screenClass);
+
         if (screenClass === 'home-page') {
             history.replaceState({screen: 'home-page'}, '', window.location.pathname);
         } else {
-            history.replaceState({screen: screenClass, level: currentLevel}, '', `#${urlPath}`);
+            // Always use clean URL format (redirects old URLs to new)
+            history.replaceState({screen: screenClass, level: currentLevel}, '', `#${cleanUrl}`);
         }
         showScreen(screenClass);
     } else {

@@ -753,6 +753,504 @@ const businessQuestions = {
             {topic: 'Pipeline', emoji: '🔄📈', question: 'Name three pipeline stages', answer: 'Prospecting, Qualification, Proposal, Negotiation, Close (any 3)'}
         ]
     }
+,
+    13: { // Chapter 13: Customer Service
+        easy: [
+            {topic: 'Service', emoji: '💁‍♀️😊', question: 'Customer service helps customers.', options: ['True', 'False'], correct: 0},
+            {topic: 'Support', emoji: '🛠️💬', question: 'Support solves problems.', options: ['True', 'False'], correct: 0},
+            {topic: 'Satisfaction', emoji: '😊⭐', question: 'Happy customers are important.', options: ['True', 'False'], correct: 0},
+            {topic: 'Communication', emoji: '💬📞', question: 'Good communication is essential.', options: ['True', 'False'], correct: 0},
+            {topic: 'Service', emoji: '💁‍♀️🤝', question: 'Being polite builds trust.', options: ['True', 'False'], correct: 0},
+            {topic: 'Response', emoji: '⚡💬', question: 'Quick responses matter.', options: ['True', 'False'], correct: 0},
+            {topic: 'Complaint', emoji: '😠➡️😊', question: 'Complaints should be handled well.', options: ['True', 'False'], correct: 0},
+            {topic: 'Loyalty', emoji: '❤️🔄', question: 'Good service creates loyalty.', options: ['True', 'False'], correct: 0},
+            {topic: 'Service', emoji: '💁‍♀️✅', question: 'Training improves service quality.', options: ['True', 'False'], correct: 0},
+            {topic: 'Feedback', emoji: '📝💭', question: 'Customer feedback is valuable.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Service', emoji: '💁‍♀️😊', question: 'What is customer service?', options: ['Support before, during, after purchase', 'Selling only'], correct: 0},
+            {topic: 'Support', emoji: '🛠️💬', question: 'What is ticketing system?', options: ['Track customer issues', 'Payment system'], correct: 0},
+            {topic: 'Satisfaction', emoji: '😊⭐', question: 'What is CSAT?', options: ['Customer Satisfaction Score', 'Complete Sales Tracking'], correct: 0},
+            {topic: 'Communication', emoji: '💬📞', question: 'What is omnichannel support?', options: ['Multiple integrated channels', 'One channel only'], correct: 0},
+            {topic: 'Service', emoji: '💁‍♀️🤝', question: 'What is active listening?', options: ['Fully focus on customer', 'Waiting to speak'], correct: 0},
+            {topic: 'Response', emoji: '⚡💬', question: 'What is first response time?', options: ['Time to initial reply', 'Resolution time'], correct: 0},
+            {topic: 'Complaint', emoji: '😠➡️😊', question: 'What is service recovery?', options: ['Fix problems and restore satisfaction', 'Ignore issues'], correct: 0},
+            {topic: 'Loyalty', emoji: '❤️🔄', question: 'What is customer retention?', options: ['Keep existing customers', 'Find new ones'], correct: 0},
+            {topic: 'Service', emoji: '💁‍♀️✅', question: 'What is SLA?', options: ['Service Level Agreement', 'Sales Lead Analysis'], correct: 0},
+            {topic: 'Feedback', emoji: '📝💭', question: 'What is Net Promoter Score?', options: ['Customer loyalty metric', 'Sales metric'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Service', emoji: '💁‍♀️😊', question: 'What is customer experience (CX)?', options: ['Total journey with company', 'Single interaction', 'Product only'], correct: 0},
+            {topic: 'Support', emoji: '🛠️💬', question: 'What is self-service portal?', options: ['Customers find answers themselves', 'Agent required', 'No support'], correct: 0},
+            {topic: 'Satisfaction', emoji: '😊⭐', question: 'What is CES?', options: ['Customer Effort Score', 'Complete Engagement System', 'Central Evaluation Standard'], correct: 0},
+            {topic: 'Communication', emoji: '💬📞', question: 'What is empathy in service?', options: ['Understand customer feelings', 'Indifference', 'No emotion'], correct: 0},
+            {topic: 'Service', emoji: '💁‍♀️🤝', question: 'What is customer-centric culture?', options: ['Put customer first in all decisions', 'Product focus', 'Profit only'], correct: 0},
+            {topic: 'Response', emoji: '⚡💬', question: 'What is response time SLA?', options: ['Promised time to respond', 'No guarantee', 'Whenever possible'], correct: 0},
+            {topic: 'Complaint', emoji: '😠➡️😊', question: 'What is complaint escalation?', options: ['Move issue to higher level', 'Ignore problem', 'Close ticket'], correct: 0},
+            {topic: 'Loyalty', emoji: '❤️🔄', question: 'What is churn rate?', options: ['Percentage of customers lost', 'Growth rate', 'Satisfaction'], correct: 0},
+            {topic: 'Service', emoji: '💁‍♀️✅', question: 'What is knowledge base?', options: ['Repository of answers', 'Employee list', 'Product catalog'], correct: 0},
+            {topic: 'Feedback', emoji: '📝💭', question: 'What is VOC?', options: ['Voice of Customer', 'Value Of Communication', 'Variety Of Choices'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Service', emoji: '💁‍♀️😊', question: 'What is typical customer service cost per contact?', options: ['$5-15', '$100', '$1', '$500'], correct: 0},
+            {topic: 'Support', emoji: '🛠️💬', question: 'What is first contact resolution rate target?', options: ['70-80%', '10%', '100%', '5%'], correct: 0},
+            {topic: 'Satisfaction', emoji: '😊⭐', question: 'What CSAT score is considered good?', options: ['80%+', '20%', '50%', '100%'], correct: 0},
+            {topic: 'Communication', emoji: '💬📞', question: 'What percentage of communication is non-verbal?', options: ['~70%', '10%', '0%', '100%'], correct: 0},
+            {topic: 'Service', emoji: '💁‍♀️🤝', question: 'What is the service profit chain?', options: ['Link employee satisfaction to profit', 'Profit focus only', 'No connection', 'Random theory'], correct: 0},
+            {topic: 'Response', emoji: '⚡💬', question: 'What is expected email response time?', options: ['24 hours', '1 month', '5 minutes', 'Never'], correct: 0},
+            {topic: 'Complaint', emoji: '😠➡️😊', question: 'What percentage of unhappy customers complain?', options: ['~5%', '100%', '75%', '0%'], correct: 0},
+            {topic: 'Loyalty', emoji: '❤️🔄', question: 'What does it cost to acquire vs retain?', options: ['5-7x more to acquire', 'Same cost', 'Cheaper to acquire', 'No difference'], correct: 0},
+            {topic: 'Service', emoji: '💁‍♀️✅', question: 'What is AI chatbot resolution rate?', options: ['60-80%', '5%', '100%', '0%'], correct: 0},
+            {topic: 'Feedback', emoji: '📝💭', question: 'What NPS score is considered excellent?', options: ['70+', '10', '0', '100'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Service', emoji: '💁‍♀️😊', question: 'Name three common customer service channels', answer: 'Phone, Email, Chat, Social media, In-person (any 3)'},
+            {topic: 'Support', emoji: '🛠️💬', question: 'Name three support tiers', answer: 'Tier 1 (basic), Tier 2 (advanced), Tier 3 (expert)'},
+            {topic: 'Satisfaction', emoji: '😊⭐', question: 'Name three satisfaction metrics', answer: 'CSAT, NPS, CES, Retention, Reviews (any 3)'},
+            {topic: 'Communication', emoji: '💬📞', question: 'Name three communication skills', answer: 'Active listening, Empathy, Clarity, Patience, Problem-solving (any 3)'},
+            {topic: 'Service', emoji: '💁‍♀️🤝', question: 'Name three service standards', answer: 'Response time, Resolution time, Quality, Availability (any 3)'},
+            {topic: 'Response', emoji: '⚡💬', question: 'Name three response time targets by channel', answer: 'Chat: 1 min, Email: 24 hrs, Phone: immediate'},
+            {topic: 'Complaint', emoji: '😠➡️😊', question: 'Name three complaint resolution steps', answer: 'Listen, Apologize, Solve, Follow-up'},
+            {topic: 'Loyalty', emoji: '❤️🔄', question: 'Name three loyalty drivers', answer: 'Quality service, Consistency, Personalization, Value (any 3)'},
+            {topic: 'Service', emoji: '💁‍♀️✅', question: 'Name three service technologies', answer: 'CRM, Chatbots, Knowledge base, Ticketing system (any 3)'},
+            {topic: 'Feedback', emoji: '📝💭', question: 'Name three feedback collection methods', answer: 'Surveys, Reviews, Social listening, Focus groups (any 3)'}
+        ]
+    },
+    14: { // Chapter 14: Innovation and R&D
+        easy: [
+            {topic: 'Innovation', emoji: '💡🚀', question: 'Innovation creates new things.', options: ['True', 'False'], correct: 0},
+            {topic: 'Research', emoji: '🔬📊', question: 'Research discovers knowledge.', options: ['True', 'False'], correct: 0},
+            {topic: 'Development', emoji: '⚙️🏗️', question: 'Development builds products.', options: ['True', 'False'], correct: 0},
+            {topic: 'Creativity', emoji: '🎨💭', question: 'Creativity generates ideas.', options: ['True', 'False'], correct: 0},
+            {topic: 'Innovation', emoji: '💡✨', question: 'Innovation drives growth.', options: ['True', 'False'], correct: 0},
+            {topic: 'Technology', emoji: '🔧💻', question: 'Technology enables innovation.', options: ['True', 'False'], correct: 0},
+            {topic: 'Patents', emoji: '📜🔒', question: 'Patents protect inventions.', options: ['True', 'False'], correct: 0},
+            {topic: 'Testing', emoji: '🧪✅', question: 'Testing validates ideas.', options: ['True', 'False'], correct: 0},
+            {topic: 'Innovation', emoji: '💡🌟', question: 'Innovation requires investment.', options: ['True', 'False'], correct: 0},
+            {topic: 'Improvement', emoji: '📈🔄', question: 'Continuous improvement matters.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Innovation', emoji: '💡🚀', question: 'What is innovation?', options: ['New or improved product/process', 'Same as before'], correct: 0},
+            {topic: 'Research', emoji: '🔬📊', question: 'What is R&D?', options: ['Research and Development', 'Revenue and Data'], correct: 0},
+            {topic: 'Development', emoji: '⚙️🏗️', question: 'What is product development cycle?', options: ['Stages from idea to launch', 'One step'], correct: 0},
+            {topic: 'Creativity', emoji: '🎨💭', question: 'What is brainstorming?', options: ['Generate ideas in group', 'Individual work'], correct: 0},
+            {topic: 'Innovation', emoji: '💡✨', question: 'What does disruptive innovation do?', options: ['Create new market', 'Incremental change'], correct: 0},
+            {topic: 'Technology', emoji: '🔧💻', question: 'What is technology transfer?', options: ['Share tech between entities', 'Keep secret'], correct: 0},
+            {topic: 'Patents', emoji: '📜🔒', question: 'What is intellectual property?', options: ['Creations of the mind', 'Physical property'], correct: 0},
+            {topic: 'Testing', emoji: '🧪✅', question: 'What is prototype?', options: ['Early model for testing', 'Final product'], correct: 0},
+            {topic: 'Innovation', emoji: '💡🌟', question: 'What is innovation pipeline?', options: ['Flow of ideas to market', 'One project'], correct: 0},
+            {topic: 'Improvement', emoji: '📈🔄', question: 'What is continuous improvement?', options: ['Ongoing enhancement', 'One-time change'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Innovation', emoji: '💡🚀', question: 'What is open innovation?', options: ['Collaborate with external partners', 'Internal only', 'No collaboration'], correct: 0},
+            {topic: 'Research', emoji: '🔬📊', question: 'What is basic vs applied research?', options: ['Theory vs practical application', 'Same thing', 'No difference'], correct: 0},
+            {topic: 'Development', emoji: '⚙️🏗️', question: 'What is stage-gate process?', options: ['Phased product development', 'No phases', 'Random approach'], correct: 0},
+            {topic: 'Creativity', emoji: '🎨💭', question: 'What is design thinking?', options: ['User-centered problem solving', 'Art design', 'No method'], correct: 0},
+            {topic: 'Innovation', emoji: '💡✨', question: 'What is technology readiness level?', options: ['Scale of tech maturity', 'Price level', 'No scale'], correct: 0},
+            {topic: 'Technology', emoji: '🔧💻', question: 'What is proof of concept?', options: ['Demonstrate feasibility', 'Final product', 'No testing'], correct: 0},
+            {topic: 'Patents', emoji: '📜🔒', question: 'What is prior art?', options: ['Existing knowledge before patent', 'New invention', 'No relevance'], correct: 0},
+            {topic: 'Testing', emoji: '🧪✅', question: 'What is A/B testing in innovation?', options: ['Compare two versions', 'Single test', 'No testing'], correct: 0},
+            {topic: 'Innovation', emoji: '💡🌟', question: 'What is minimum viable product?', options: ['Basic version to test market', 'Perfect product', 'No product'], correct: 0},
+            {topic: 'Improvement', emoji: '📈🔄', question: 'What is innovation funnel?', options: ['Filter many ideas to few products', 'All ideas succeed', 'No filtering'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Innovation', emoji: '💡🚀', question: 'What percentage of innovations fail?', options: ['~90%', '10%', '50%', '0%'], correct: 0},
+            {topic: 'Research', emoji: '🔬📊', question: 'What is typical R&D spending as % of revenue?', options: ['3-15%', '50%', '1%', '100%'], correct: 0},
+            {topic: 'Development', emoji: '⚙️🏗️', question: 'What is time-to-market?', options: ['Idea to launch duration', 'Market hours', 'No time limit', 'Random'], correct: 0},
+            {topic: 'Creativity', emoji: '🎨💭', question: 'What is lateral thinking?', options: ['Solve problems indirectly', 'Linear approach', 'No thinking', 'Random thoughts'], correct: 0},
+            {topic: 'Innovation', emoji: '💡✨', question: 'What is the diffusion of innovation curve?', options: ['Innovators, Early adopters, Majority, Laggards', 'Everyone at once', 'No pattern', 'Random adoption'], correct: 0},
+            {topic: 'Technology', emoji: '🔧💻', question: 'What is technology S-curve?', options: ['Performance improvement over time', 'Linear growth', 'Decline only', 'No pattern'], correct: 0},
+            {topic: 'Patents', emoji: '📜🔒', question: 'What is patent litigation cost?', options: ['$1-5M average', '$100', '$50K', '$100M'], correct: 0},
+            {topic: 'Testing', emoji: '🧪✅', question: 'What is beta testing?', options: ['Real users test pre-release', 'Internal only', 'No testing', 'Post-launch'], correct: 0},
+            {topic: 'Innovation', emoji: '💡🌟', question: 'What is innovation accounting?', options: ['Measure innovation progress', 'Regular accounting', 'No measurement', 'Random'], correct: 0},
+            {topic: 'Improvement', emoji: '📈🔄', question: 'What is the 70-20-10 innovation rule?', options: ['Core, Adjacent, Transformational', 'Equal split', 'All core', 'Random'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Innovation', emoji: '💡🚀', question: 'Name three types of innovation', answer: 'Product, Process, Business model, Disruptive, Incremental (any 3)'},
+            {topic: 'Research', emoji: '🔬📊', question: 'Name three R&D activities', answer: 'Basic research, Applied research, Development, Testing (any 3)'},
+            {topic: 'Development', emoji: '⚙️🏗️', question: 'Name the stages of product development', answer: 'Idea, Concept, Design, Prototype, Test, Launch (any 3)'},
+            {topic: 'Creativity', emoji: '🎨💭', question: 'Name three ideation techniques', answer: 'Brainstorming, Mind mapping, SCAMPER, 6 thinking hats (any 3)'},
+            {topic: 'Innovation', emoji: '💡✨', question: 'Name three innovation metrics', answer: 'R&D spend, Time-to-market, Patent count, Revenue from new products (any 3)'},
+            {topic: 'Technology', emoji: '🔧💻', question: 'Name three emerging technologies', answer: 'AI, Blockchain, IoT, Quantum computing, 5G (any 3)'},
+            {topic: 'Patents', emoji: '📜🔒', question: 'Name three types of IP', answer: 'Patent, Trademark, Copyright, Trade secret'},
+            {topic: 'Testing', emoji: '🧪✅', question: 'Name three testing phases', answer: 'Alpha, Beta, Pilot, UAT (any 3)'},
+            {topic: 'Innovation', emoji: '💡🌟', question: 'Name three barriers to innovation', answer: 'Risk aversion, Lack of resources, Culture, Silos (any 3)'},
+            {topic: 'Improvement', emoji: '📈🔄', question: 'Name three innovation frameworks', answer: 'Design thinking, Lean startup, Agile, Stage-gate (any 3)'}
+        ]
+    },
+    15: { // Chapter 15: Business Analytics
+        easy: [
+            {topic: 'Data', emoji: '📊💾', question: 'Data provides information.', options: ['True', 'False'], correct: 0},
+            {topic: 'Analytics', emoji: '📈🔍', question: 'Analytics examines data.', options: ['True', 'False'], correct: 0},
+            {topic: 'Metrics', emoji: '📏📊', question: 'Metrics measure performance.', options: ['True', 'False'], correct: 0},
+            {topic: 'Reports', emoji: '📄📊', question: 'Reports summarize data.', options: ['True', 'False'], correct: 0},
+            {topic: 'Data', emoji: '📊💻', question: 'Data helps make decisions.', options: ['True', 'False'], correct: 0},
+            {topic: 'Visualization', emoji: '📊📉', question: 'Charts visualize data.', options: ['True', 'False'], correct: 0},
+            {topic: 'Trends', emoji: '📈⬆️', question: 'Trends show patterns.', options: ['True', 'False'], correct: 0},
+            {topic: 'Insights', emoji: '💡📊', question: 'Insights drive actions.', options: ['True', 'False'], correct: 0},
+            {topic: 'Data', emoji: '📊🔢', question: 'Numbers tell stories.', options: ['True', 'False'], correct: 0},
+            {topic: 'Analysis', emoji: '🔍📊', question: 'Analysis reveals opportunities.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Data', emoji: '📊💾', question: 'What is big data?', options: ['Large complex datasets', 'Small files'], correct: 0},
+            {topic: 'Analytics', emoji: '📈🔍', question: 'What is descriptive analytics?', options: ['What happened', 'What will happen'], correct: 0},
+            {topic: 'Metrics', emoji: '📏📊', question: 'What is a KPI in analytics?', options: ['Key Performance Indicator', 'Knowledge Priority Index'], correct: 0},
+            {topic: 'Reports', emoji: '📄📊', question: 'What is dashboard?', options: ['Visual data display', 'Steering wheel'], correct: 0},
+            {topic: 'Data', emoji: '📊💻', question: 'What is data mining?', options: ['Discover patterns in data', 'Physical mining'], correct: 0},
+            {topic: 'Visualization', emoji: '📊📉', question: 'What is data visualization?', options: ['Graphical representation', 'Text only'], correct: 0},
+            {topic: 'Trends', emoji: '📈⬆️', question: 'What is trend analysis?', options: ['Identify patterns over time', 'Random data'], correct: 0},
+            {topic: 'Insights', emoji: '💡📊', question: 'What is actionable insight?', options: ['Finding that drives decision', 'Interesting fact'], correct: 0},
+            {topic: 'Data', emoji: '📊🔢', question: 'What is data warehouse?', options: ['Central data repository', 'Physical storage'], correct: 0},
+            {topic: 'Analysis', emoji: '🔍📊', question: 'What is correlation?', options: ['Relationship between variables', 'No connection'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Data', emoji: '📊💾', question: 'What are the 5 Vs of big data?', options: ['Volume, Velocity, Variety, Veracity, Value', 'Five databases', 'Five charts'], correct: 0},
+            {topic: 'Analytics', emoji: '📈🔍', question: 'What is predictive analytics?', options: ['Forecast future outcomes', 'Past data only', 'No prediction'], correct: 0},
+            {topic: 'Metrics', emoji: '📏📊', question: 'What is North Star metric?', options: ['Single key success measure', 'Random metric', 'All metrics'], correct: 0},
+            {topic: 'Reports', emoji: '📄📊', question: 'What is real-time reporting?', options: ['Live data updates', 'Monthly reports', 'No updates'], correct: 0},
+            {topic: 'Data', emoji: '📊💻', question: 'What is ETL?', options: ['Extract, Transform, Load', 'Estimated Time Left', 'Electronic Trade License'], correct: 0},
+            {topic: 'Visualization', emoji: '📊📉', question: 'What is heat map?', options: ['Color-coded data matrix', 'Temperature chart', 'Location map'], correct: 0},
+            {topic: 'Trends', emoji: '📈⬆️', question: 'What is seasonality in data?', options: ['Recurring patterns by time', 'Random variation', 'No pattern'], correct: 0},
+            {topic: 'Insights', emoji: '💡📊', question: 'What is prescriptive analytics?', options: ['Recommend actions', 'Describe past', 'No recommendation'], correct: 0},
+            {topic: 'Data', emoji: '📊🔢', question: 'What is data lake?', options: ['Raw data repository', 'Structured only', 'Water storage'], correct: 0},
+            {topic: 'Analysis', emoji: '🔍📊', question: 'What is cohort analysis?', options: ['Compare groups over time', 'Single group', 'No comparison'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Data', emoji: '📊💾', question: 'What is typical data quality accuracy target?', options: ['95%+', '50%', '10%', '100%'], correct: 0},
+            {topic: 'Analytics', emoji: '📈🔍', question: 'What is the CRISP-DM process?', options: ['Cross Industry Standard Process for Data Mining', 'Computer Research Process', 'Customer Relations System', 'Critical Response Plan'], correct: 0},
+            {topic: 'Metrics', emoji: '📏📊', question: 'What is vanity metric?', options: ['Looks good but not actionable', 'Important metric', 'Revenue metric', 'No value'], correct: 0},
+            {topic: 'Reports', emoji: '📄📊', question: 'What percentage of data is never analyzed?', options: ['~80%', '0%', '50%', '100%'], correct: 0},
+            {topic: 'Data', emoji: '📊💻', question: 'What is machine learning?', options: ['Algorithms learn from data', 'Manual programming', 'No learning', 'Random results'], correct: 0},
+            {topic: 'Visualization', emoji: '📊📉', question: 'What is Tufte data-ink ratio?', options: ['Proportion of ink showing data', 'Chart size', 'Color count', 'Random ratio'], correct: 0},
+            {topic: 'Trends', emoji: '📈⬆️', question: 'What is regression analysis?', options: ['Relationships between variables', 'Going backward', 'No analysis', 'Random'], correct: 0},
+            {topic: 'Insights', emoji: '💡📊', question: 'What is A/B test significance level?', options: ['95% confidence', '50%', '10%', '100%'], correct: 0},
+            {topic: 'Data', emoji: '📊🔢', question: 'What is data governance?', options: ['Management of data assets', 'No rules', 'Random access', 'Storage only'], correct: 0},
+            {topic: 'Analysis', emoji: '🔍📊', question: 'What is statistical significance?', options: ['Result unlikely due to chance', 'Any result', 'Important finding', 'Random'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Data', emoji: '📊💾', question: 'Name three types of data', answer: 'Structured, Unstructured, Semi-structured'},
+            {topic: 'Analytics', emoji: '📈🔍', question: 'Name four types of analytics', answer: 'Descriptive, Diagnostic, Predictive, Prescriptive'},
+            {topic: 'Metrics', emoji: '📏📊', question: 'Name three business metrics', answer: 'Revenue, Profit, Growth rate, Churn, CAC, LTV (any 3)'},
+            {topic: 'Reports', emoji: '📄📊', question: 'Name three reporting tools', answer: 'Tableau, Power BI, Google Analytics, Excel (any 3)'},
+            {topic: 'Data', emoji: '📊💻', question: 'Name three data sources', answer: 'Databases, APIs, Web scraping, Sensors, Surveys (any 3)'},
+            {topic: 'Visualization', emoji: '📊📉', question: 'Name three chart types', answer: 'Bar, Line, Pie, Scatter, Heat map (any 3)'},
+            {topic: 'Trends', emoji: '📈⬆️', question: 'Name three statistical methods', answer: 'Regression, Correlation, Hypothesis testing, Time series (any 3)'},
+            {topic: 'Insights', emoji: '💡📊', question: 'Name three steps in analysis', answer: 'Define question, Collect data, Analyze, Visualize, Communicate (any 3)'},
+            {topic: 'Data', emoji: '📊🔢', question: 'Name three data quality dimensions', answer: 'Accuracy, Completeness, Consistency, Timeliness (any 3)'},
+            {topic: 'Analysis', emoji: '🔍📊', question: 'Name three analytical skills', answer: 'Critical thinking, Problem solving, Statistical knowledge, Communication (any 3)'}
+        ]
+    }
+,
+    16: { // Chapter 16: Digital Transformation
+        easy: [
+            {topic: 'Digital', emoji: '💻🔄', question: 'Digital technology changes business.', options: ['True', 'False'], correct: 0},
+            {topic: 'Cloud', emoji: '☁️💾', question: 'Cloud stores data online.', options: ['True', 'False'], correct: 0},
+            {topic: 'Automation', emoji: '🤖⚙️', question: 'Automation improves efficiency.', options: ['True', 'False'], correct: 0},
+            {topic: 'Mobile', emoji: '📱💼', question: 'Mobile enables work anywhere.', options: ['True', 'False'], correct: 0},
+            {topic: 'Digital', emoji: '💻📈', question: 'Digital transformation improves efficiency.', options: ['True', 'False'], correct: 0},
+            {topic: 'AI', emoji: '🤖🧠', question: 'AI assists decision-making.', options: ['True', 'False'], correct: 0},
+            {topic: 'Data', emoji: '📊💾', question: 'Data drives digital business.', options: ['True', 'False'], correct: 0},
+            {topic: 'Integration', emoji: '🔗💻', question: 'Systems should connect.', options: ['True', 'False'], correct: 0},
+            {topic: 'Digital', emoji: '💻🌐', question: 'Digital reaches more customers.', options: ['True', 'False'], correct: 0},
+            {topic: 'Change', emoji: '🔄✨', question: 'Change management is important.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Digital', emoji: '💻🔄', question: 'What is digital transformation?', options: ['Integrate digital in all areas', 'Buy computers'], correct: 0},
+            {topic: 'Cloud', emoji: '☁️💾', question: 'What is SaaS?', options: ['Software as a Service', 'Storage and Secure'], correct: 0},
+            {topic: 'Automation', emoji: '🤖⚙️', question: 'What is RPA?', options: ['Robotic Process Automation', 'Random Process Activity'], correct: 0},
+            {topic: 'Mobile', emoji: '📱💼', question: 'What is mobile-first design?', options: ['Prioritize mobile experience', 'Desktop only'], correct: 0},
+            {topic: 'Digital', emoji: '💻📈', question: 'What is digital maturity?', options: ['Level of digital adoption', 'Age of company'], correct: 0},
+            {topic: 'AI', emoji: '🤖🧠', question: 'What is artificial intelligence?', options: ['Machine intelligence', 'Human intelligence'], correct: 0},
+            {topic: 'Data', emoji: '📊💾', question: 'What is data-driven decision making?', options: ['Use data for decisions', 'Gut feeling only'], correct: 0},
+            {topic: 'Integration', emoji: '🔗💻', question: 'What is API?', options: ['Application Programming Interface', 'Advanced Program Integration'], correct: 0},
+            {topic: 'Digital', emoji: '💻🌐', question: 'What is omnichannel experience?', options: ['Seamless multi-channel experience', 'One channel'], correct: 0},
+            {topic: 'Change', emoji: '🔄✨', question: 'What is change resistance?', options: ['Opposition to change', 'Accept everything'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Digital', emoji: '💻🔄', question: 'What is the digital divide?', options: ['Gap in technology access', 'Line in code', 'No difference'], correct: 0},
+            {topic: 'Cloud', emoji: '☁️💾', question: 'What is hybrid cloud?', options: ['Mix of public and private cloud', 'Weather system', 'No cloud'], correct: 0},
+            {topic: 'Automation', emoji: '🤖⚙️', question: 'What is intelligent automation?', options: ['AI plus automation', 'Simple scripts', 'No intelligence'], correct: 0},
+            {topic: 'Mobile', emoji: '📱💼', question: 'What is PWA?', options: ['Progressive Web App', 'Public Wireless Access', 'Private Work Area'], correct: 0},
+            {topic: 'Digital', emoji: '💻📈', question: 'What is digital disruption?', options: ['Technology changes industry', 'No impact', 'Small change'], correct: 0},
+            {topic: 'AI', emoji: '🤖🧠', question: 'What is machine learning in business?', options: ['AI learns from data', 'Fixed programming', 'No learning'], correct: 0},
+            {topic: 'Data', emoji: '📊💾', question: 'What is IoT?', options: ['Internet of Things', 'Index Of Terms', 'International Operations Team'], correct: 0},
+            {topic: 'Integration', emoji: '🔗💻', question: 'What is microservices architecture?', options: ['Small independent services', 'Monolithic system', 'No services'], correct: 0},
+            {topic: 'Digital', emoji: '💻🌐', question: 'What is customer data platform?', options: ['Unified customer data', 'Separate databases', 'No platform'], correct: 0},
+            {topic: 'Change', emoji: '🔄✨', question: 'What is agile transformation?', options: ['Adopt agile methodologies', 'Waterfall only', 'No change'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Digital', emoji: '💻🔄', question: 'What percentage of digital transformations succeed?', options: ['~30%', '90%', '5%', '100%'], correct: 0},
+            {topic: 'Cloud', emoji: '☁️💾', question: 'What is typical cloud cost savings?', options: ['15-30%', '90%', '0%', '100%'], correct: 0},
+            {topic: 'Automation', emoji: '🤖⚙️', question: 'What percentage of jobs are automatable?', options: ['~30-50%', '5%', '100%', '0%'], correct: 0},
+            {topic: 'Mobile', emoji: '📱💼', question: 'What percentage of web traffic is mobile?', options: ['~60%', '5%', '100%', '0%'], correct: 0},
+            {topic: 'Digital', emoji: '💻📈', question: 'What is the IoT device count by 2030?', options: ['~50 billion', '100', '1 million', '1 trillion'], correct: 0},
+            {topic: 'AI', emoji: '🤖🧠', question: 'What is typical AI project failure rate?', options: ['~85%', '5%', '50%', '0%'], correct: 0},
+            {topic: 'Data', emoji: '📊💾', question: 'What is data mesh?', options: ['Decentralized data architecture', 'Centralized only', 'No architecture', 'Random structure'], correct: 0},
+            {topic: 'Integration', emoji: '🔗💻', question: 'What is API-first design?', options: ['Build APIs before interfaces', 'No APIs', 'UI first', 'Random order'], correct: 0},
+            {topic: 'Digital', emoji: '💻🌐', question: 'What is headless architecture?', options: ['Separate front and backend', 'Integrated', 'No architecture', 'Random'], correct: 0},
+            {topic: 'Change', emoji: '🔄✨', question: 'What is Kotter 8-step change model?', options: ['Change management framework', 'Random steps', 'No model', 'Dance move'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Digital', emoji: '💻🔄', question: 'Name three pillars of digital transformation', answer: 'Technology, Data, People/Process, Culture (any 3)'},
+            {topic: 'Cloud', emoji: '☁️💾', question: 'Name three cloud service models', answer: 'IaaS, PaaS, SaaS'},
+            {topic: 'Automation', emoji: '🤖⚙️', question: 'Name three automation technologies', answer: 'RPA, AI, Workflow automation, DevOps (any 3)'},
+            {topic: 'Mobile', emoji: '📱💼', question: 'Name three mobile technologies', answer: 'Native apps, PWA, Responsive design, 5G (any 3)'},
+            {topic: 'Digital', emoji: '💻📈', question: 'Name three digital channels', answer: 'Website, App, Social media, Email, Chat (any 3)'},
+            {topic: 'AI', emoji: '🤖🧠', question: 'Name three AI applications', answer: 'Chatbots, Prediction, Image recognition, NLP (any 3)'},
+            {topic: 'Data', emoji: '📊💾', question: 'Name three data technologies', answer: 'Big data, Data lake, Data warehouse, Analytics (any 3)'},
+            {topic: 'Integration', emoji: '🔗💻', question: 'Name three integration patterns', answer: 'API, ESB, Microservices, Webhooks (any 3)'},
+            {topic: 'Digital', emoji: '💻🌐', question: 'Name three digital business models', answer: 'Subscription, Platform, Marketplace, Freemium (any 3)'},
+            {topic: 'Change', emoji: '🔄✨', question: 'Name three change management activities', answer: 'Communication, Training, Support, Feedback (any 3)'}
+        ]
+    },
+    17: { // Chapter 17: Leadership
+        easy: [
+            {topic: 'Leadership', emoji: '👔🌟', question: 'Leaders guide teams.', options: ['True', 'False'], correct: 0},
+            {topic: 'Vision', emoji: '🔮👁️', question: 'Vision inspires people.', options: ['True', 'False'], correct: 0},
+            {topic: 'Motivation', emoji: '💪🎯', question: 'Motivation drives performance.', options: ['True', 'False'], correct: 0},
+            {topic: 'Communication', emoji: '💬👥', question: 'Leaders communicate clearly.', options: ['True', 'False'], correct: 0},
+            {topic: 'Leadership', emoji: '👔💡', question: 'Leadership can be learned.', options: ['True', 'False'], correct: 0},
+            {topic: 'Trust', emoji: '🤝💚', question: 'Trust is essential for leadership.', options: ['True', 'False'], correct: 0},
+            {topic: 'Decision', emoji: '🎯✅', question: 'Leaders make tough decisions.', options: ['True', 'False'], correct: 0},
+            {topic: 'Delegation', emoji: '📋👥', question: 'Delegation empowers teams.', options: ['True', 'False'], correct: 0},
+            {topic: 'Leadership', emoji: '👔🚀', question: 'Leaders drive change.', options: ['True', 'False'], correct: 0},
+            {topic: 'Example', emoji: '⭐👤', question: 'Leaders lead by example.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Leadership', emoji: '👔🌟', question: 'What is leadership?', options: ['Influence and guide others', 'Just title'], correct: 0},
+            {topic: 'Vision', emoji: '🔮👁️', question: 'What is strategic vision?', options: ['Future direction', 'Past achievements'], correct: 0},
+            {topic: 'Motivation', emoji: '💪🎯', question: 'What is intrinsic motivation?', options: ['Internal drive', 'External rewards'], correct: 0},
+            {topic: 'Communication', emoji: '💬👥', question: 'What is active listening in leadership?', options: ['Fully engage and understand', 'Wait to talk'], correct: 0},
+            {topic: 'Leadership', emoji: '👔💡', question: 'What is emotional intelligence?', options: ['Understand and manage emotions', 'IQ only'], correct: 0},
+            {topic: 'Trust', emoji: '🤝💚', question: 'What builds trust?', options: ['Consistency and honesty', 'Empty promises'], correct: 0},
+            {topic: 'Decision', emoji: '🎯✅', question: 'What is data-driven leadership?', options: ['Base decisions on data', 'Gut feeling only'], correct: 0},
+            {topic: 'Delegation', emoji: '📋👥', question: 'What is effective delegation?', options: ['Assign tasks with authority', 'Do everything'], correct: 0},
+            {topic: 'Leadership', emoji: '👔🚀', question: 'What is transformational leadership?', options: ['Inspire and develop followers', 'Maintain status quo'], correct: 0},
+            {topic: 'Example', emoji: '⭐👤', question: 'What is servant leadership?', options: ['Serve team needs first', 'Self-serving'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Leadership', emoji: '👔🌟', question: 'What is situational leadership?', options: ['Adapt style to situation', 'One style always', 'No flexibility'], correct: 0},
+            {topic: 'Vision', emoji: '🔮👁️', question: 'What is BHAG in leadership?', options: ['Big Hairy Audacious Goal', 'Basic Goal', 'No vision'], correct: 0},
+            {topic: 'Motivation', emoji: '💪🎯', question: 'What is Maslow hierarchy?', options: ['Needs pyramid', 'Flat structure', 'No hierarchy'], correct: 0},
+            {topic: 'Communication', emoji: '💬👥', question: 'What is transparent communication?', options: ['Open honest sharing', 'Hide information', 'Partial truth'], correct: 0},
+            {topic: 'Leadership', emoji: '👔💡', question: 'What are the 5 EI competencies?', options: ['Self-awareness, Self-regulation, Motivation, Empathy, Social skills', 'Random traits', 'No competencies'], correct: 0},
+            {topic: 'Trust', emoji: '🤝💚', question: 'What is psychological safety?', options: ['Feel safe to take risks', 'Physical safety', 'No safety'], correct: 0},
+            {topic: 'Decision', emoji: '🎯✅', question: 'What is decision paralysis?', options: ['Unable to decide', 'Fast decisions', 'No decisions needed'], correct: 0},
+            {topic: 'Delegation', emoji: '📋👥', question: 'What is micromanagement?', options: ['Excessive control', 'Good delegation', 'No oversight'], correct: 0},
+            {topic: 'Leadership', emoji: '👔🚀', question: 'What is authentic leadership?', options: ['Genuine and true to values', 'Fake persona', 'No authenticity'], correct: 0},
+            {topic: 'Example', emoji: '⭐👤', question: 'What is leading from front vs behind?', options: ['Direct vs support style', 'Same thing', 'No difference'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Leadership', emoji: '👔🌟', question: 'What percentage of leadership is learned vs innate?', options: ['~70-80% learned', '0% learned', '100% innate', '50-50'], correct: 0},
+            {topic: 'Vision', emoji: '🔮👁️', question: 'What is Jim Collins Level 5 leadership?', options: ['Humility plus will', 'Just confidence', 'No levels', 'Random theory'], correct: 0},
+            {topic: 'Motivation', emoji: '💪🎯', question: 'What is Herzberg two-factor theory?', options: ['Hygiene and motivators', 'One factor', 'No theory', 'Random'], correct: 0},
+            {topic: 'Communication', emoji: '💬👥', question: 'What percentage of communication is body language?', options: ['~55%', '5%', '100%', '0%'], correct: 0},
+            {topic: 'Leadership', emoji: '👔💡', question: 'What is Goleman EI framework?', options: ['Self and social competence', 'IQ only', 'No framework', 'Random'], correct: 0},
+            {topic: 'Trust', emoji: '🤝💚', question: 'What is the trust equation?', options: ['Credibility+Reliability+Intimacy/Self-orientation', 'Random formula', 'No equation', 'Trust = time'], correct: 0},
+            {topic: 'Decision', emoji: '🎯✅', question: 'What is the OODA loop?', options: ['Observe, Orient, Decide, Act', 'Random acronym', 'No loop', 'Single step'], correct: 0},
+            {topic: 'Delegation', emoji: '📋👥', question: 'What is the delegation ladder?', options: ['Levels of authority', 'Climbing tool', 'No levels', 'Random'], correct: 0},
+            {topic: 'Leadership', emoji: '👔🚀', question: 'What is the leadership pipeline?', options: ['Develop leaders at all levels', 'Single leader', 'No development', 'Random'], correct: 0},
+            {topic: 'Example', emoji: '⭐👤', question: 'What percentage of employees leave due to bad leaders?', options: ['~50%', '5%', '100%', '0%'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Leadership', emoji: '👔🌟', question: 'Name three leadership styles', answer: 'Autocratic, Democratic, Laissez-faire, Transformational, Servant (any 3)'},
+            {topic: 'Vision', emoji: '🔮👁️', question: 'Name three elements of compelling vision', answer: 'Clear, Inspiring, Achievable, Future-focused (any 3)'},
+            {topic: 'Motivation', emoji: '💪🎯', question: 'Name three motivation theories', answer: 'Maslow, Herzberg, McGregor, Self-determination (any 3)'},
+            {topic: 'Communication', emoji: '💬👥', question: 'Name three communication channels', answer: 'Verbal, Written, Non-verbal, Visual (any 3)'},
+            {topic: 'Leadership', emoji: '👔💡', question: 'Name the 5 EI components', answer: 'Self-awareness, Self-regulation, Motivation, Empathy, Social skills'},
+            {topic: 'Trust', emoji: '🤝💚', question: 'Name three trust-building behaviors', answer: 'Honesty, Consistency, Transparency, Competence, Care (any 3)'},
+            {topic: 'Decision', emoji: '🎯✅', question: 'Name three decision-making models', answer: 'Rational, Intuitive, Recognition-primed, OODA (any 3)'},
+            {topic: 'Delegation', emoji: '📋👥', question: 'Name three delegation benefits', answer: 'Empowerment, Development, Efficiency, Scalability (any 3)'},
+            {topic: 'Leadership', emoji: '👔🚀', question: 'Name three leadership competencies', answer: 'Vision, Communication, Decision-making, Emotional intelligence (any 3)'},
+            {topic: 'Example', emoji: '⭐👤', question: 'Name three ways leaders model behavior', answer: 'Actions, Decisions, Communication, Values, Accountability (any 3)'}
+        ]
+    },
+    18: { // Chapter 18: Change Management
+        easy: [
+            {topic: 'Change', emoji: '🔄💼', question: 'Change is constant in business.', options: ['True', 'False'], correct: 0},
+            {topic: 'Resistance', emoji: '🚫😟', question: 'People resist change.', options: ['True', 'False'], correct: 0},
+            {topic: 'Planning', emoji: '📋🔄', question: 'Planning helps manage change.', options: ['True', 'False'], correct: 0},
+            {topic: 'Communication', emoji: '💬📢', question: 'Communication reduces fear.', options: ['True', 'False'], correct: 0},
+            {topic: 'Change', emoji: '🔄✨', question: 'Change creates opportunities.', options: ['True', 'False'], correct: 0},
+            {topic: 'Training', emoji: '📚👨‍🎓', question: 'Training supports change.', options: ['True', 'False'], correct: 0},
+            {topic: 'Leadership', emoji: '👔🔄', question: 'Leaders facilitate change.', options: ['True', 'False'], correct: 0},
+            {topic: 'Culture', emoji: '🌟🔄', question: 'Culture affects change success.', options: ['True', 'False'], correct: 0},
+            {topic: 'Change', emoji: '🔄⏰', question: 'Change takes time.', options: ['True', 'False'], correct: 0},
+            {topic: 'Support', emoji: '🤝💪', question: 'Support helps people adapt.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Change', emoji: '🔄💼', question: 'What is organizational change?', options: ['Transformation in structure or strategy', 'Stay same'], correct: 0},
+            {topic: 'Resistance', emoji: '🚫😟', question: 'What causes change resistance?', options: ['Fear and uncertainty', 'Excitement'], correct: 0},
+            {topic: 'Planning', emoji: '📋🔄', question: 'What is change roadmap?', options: ['Plan for implementing change', 'Random approach'], correct: 0},
+            {topic: 'Communication', emoji: '💬📢', question: 'What is change narrative?', options: ['Story explaining why change', 'Silent approach'], correct: 0},
+            {topic: 'Change', emoji: '🔄✨', question: 'What is incremental change?', options: ['Small gradual changes', 'Radical shift'], correct: 0},
+            {topic: 'Training', emoji: '📚👨‍🎓', question: 'What is change readiness?', options: ['Ability to adapt', 'Resistance'], correct: 0},
+            {topic: 'Leadership', emoji: '👔🔄', question: 'What is change champion?', options: ['Leader promoting change', 'Opponent'], correct: 0},
+            {topic: 'Culture', emoji: '🌟🔄', question: 'What is change-friendly culture?', options: ['Embraces adaptation', 'Resists everything'], correct: 0},
+            {topic: 'Change', emoji: '🔄⏰', question: 'What is transition period?', options: ['Time to adjust', 'Instant change'], correct: 0},
+            {topic: 'Support', emoji: '🤝💪', question: 'What is change fatigue?', options: ['Exhaustion from too much change', 'Excitement'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Change', emoji: '🔄💼', question: 'What is Kotter change model?', options: ['8 steps from urgency to sustain', 'Random steps', 'No model'], correct: 0},
+            {topic: 'Resistance', emoji: '🚫😟', question: 'What is ADKAR model?', options: ['Awareness, Desire, Knowledge, Ability, Reinforcement', 'Random acronym', 'No model'], correct: 0},
+            {topic: 'Planning', emoji: '📋🔄', question: 'What is force field analysis?', options: ['Identify driving and restraining forces', 'Random analysis', 'No analysis'], correct: 0},
+            {topic: 'Communication', emoji: '💬📢', question: 'What is two-way communication in change?', options: ['Listen and respond', 'One-way only', 'No communication'], correct: 0},
+            {topic: 'Change', emoji: '🔄✨', question: 'What is transformational change?', options: ['Fundamental organizational shift', 'Minor tweak', 'No change'], correct: 0},
+            {topic: 'Training', emoji: '📚👨‍🎓', question: 'What is capability building?', options: ['Develop skills for new state', 'No development', 'Random training'], correct: 0},
+            {topic: 'Leadership', emoji: '👔🔄', question: 'What is coalition building?', options: ['Form group to drive change', 'Work alone', 'No team'], correct: 0},
+            {topic: 'Culture', emoji: '🌟🔄', question: 'What is cultural transformation?', options: ['Shift values and behaviors', 'Surface change', 'No shift'], correct: 0},
+            {topic: 'Change', emoji: '🔄⏰', question: 'What is change saturation?', options: ['Too many changes at once', 'No changes', 'Perfect amount'], correct: 0},
+            {topic: 'Support', emoji: '🤝💪', question: 'What is transition management?', options: ['Guide people through change', 'Ignore feelings', 'Force change'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Change', emoji: '🔄💼', question: 'What percentage of change initiatives fail?', options: ['~70%', '10%', '0%', '100%'], correct: 0},
+            {topic: 'Resistance', emoji: '🚫😟', question: 'What is the change curve?', options: ['Emotional journey through change', 'Straight line', 'No pattern', 'Random'], correct: 0},
+            {topic: 'Planning', emoji: '📋🔄', question: 'What is McKinsey 7-S framework?', options: ['7 elements of organization', 'Random number', 'No framework', 'Single factor'], correct: 0},
+            {topic: 'Communication', emoji: '💬📢', question: 'What is optimal communication frequency during change?', options: ['More frequent than normal', 'Less', 'Same', 'Never'], correct: 0},
+            {topic: 'Change', emoji: '🔄✨', question: 'What is the tipping point in change?', options: ['Critical mass of adoption', 'Starting point', 'End point', 'Random'], correct: 0},
+            {topic: 'Training', emoji: '📚👨‍🎓', question: 'What is the learning model for change?', options: ['70% experience, 20% others, 10% formal', 'All classroom', 'No learning', 'Random'], correct: 0},
+            {topic: 'Leadership', emoji: '👔🔄', question: 'What is sponsorship in change?', options: ['Active visible executive support', 'Financial only', 'No involvement', 'Random'], correct: 0},
+            {topic: 'Culture', emoji: '🌟🔄', question: 'What is Schein culture model?', options: ['Artifacts, Values, Assumptions', 'Single layer', 'No model', 'Random'], correct: 0},
+            {topic: 'Change', emoji: '🔄⏰', question: 'What is typical change duration?', options: ['6-18 months', '1 day', '1 week', '10 years'], correct: 0},
+            {topic: 'Support', emoji: '🤝💪', question: 'What is resistance analysis?', options: ['Identify sources of resistance', 'Ignore resistance', 'No analysis', 'Random'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Change', emoji: '🔄💼', question: 'Name the 8 steps in Kotter model', answer: 'Create urgency, Build coalition, Form vision, Communicate, Remove obstacles, Short-term wins, Build on change, Anchor in culture'},
+            {topic: 'Resistance', emoji: '🚫😟', question: 'Name five ADKAR elements', answer: 'Awareness, Desire, Knowledge, Ability, Reinforcement'},
+            {topic: 'Planning', emoji: '📋🔄', question: 'Name three key change management activities', answer: 'Assess, Plan, Implement, Monitor, Sustain (any 3)'},
+            {topic: 'Communication', emoji: '💬📢', question: 'Name three communication strategies', answer: 'Town halls, Newsletters, One-on-ones, FAQs (any 3)'},
+            {topic: 'Change', emoji: '🔄✨', question: 'Name three types of organizational change', answer: 'Strategic, Structural, Cultural, Technological (any 3)'},
+            {topic: 'Training', emoji: '📚👨‍🎓', question: 'Name three training methods for change', answer: 'Classroom, Online, Coaching, Job aids (any 3)'},
+            {topic: 'Leadership', emoji: '👔🔄', question: 'Name three leadership roles in change', answer: 'Sponsor, Champion, Agent, Coach (any 3)'},
+            {topic: 'Culture', emoji: '🌟🔄', question: 'Name three culture change levers', answer: 'Behaviors, Systems, Symbols, Stories (any 3)'},
+            {topic: 'Change', emoji: '🔄⏰', question: 'Name three phases of change', answer: 'Unfreeze, Change, Refreeze (Lewin model)'},
+            {topic: 'Support', emoji: '🤝💪', question: 'Name three support mechanisms', answer: 'Training, Coaching, Help desk, Champions (any 3)'}
+        ]
+    },
+    19: { // Chapter 19: Business Communication
+        easy: [
+            {topic: 'Communication', emoji: '💬📝', question: 'Communication shares information.', options: ['True', 'False'], correct: 0},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Clear writing is important.', options: ['True', 'False'], correct: 0},
+            {topic: 'Speaking', emoji: '🗣️💼', question: 'Speaking skills help careers.', options: ['True', 'False'], correct: 0},
+            {topic: 'Listening', emoji: '👂💭', question: 'Listening is part of communication.', options: ['True', 'False'], correct: 0},
+            {topic: 'Email', emoji: '📧💻', question: 'Email is common in business.', options: ['True', 'False'], correct: 0},
+            {topic: 'Presentation', emoji: '📊🎤', question: 'Presentations persuade audiences.', options: ['True', 'False'], correct: 0},
+            {topic: 'Meeting', emoji: '👥📋', question: 'Meetings should have agendas.', options: ['True', 'False'], correct: 0},
+            {topic: 'Feedback', emoji: '💬✅', question: 'Feedback improves performance.', options: ['True', 'False'], correct: 0},
+            {topic: 'Communication', emoji: '💬🌐', question: 'Digital tools enable communication.', options: ['True', 'False'], correct: 0},
+            {topic: 'Professionalism', emoji: '👔✨', question: 'Professional tone matters.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Communication', emoji: '💬📝', question: 'What is business communication?', options: ['Information sharing in organizations', 'Personal chat'], correct: 0},
+            {topic: 'Writing', emoji: '✍️📄', question: 'What is business writing?', options: ['Clear, concise, professional', 'Casual informal'], correct: 0},
+            {topic: 'Speaking', emoji: '🗣️💼', question: 'What is executive presence?', options: ['Confident authoritative communication', 'Shy behavior'], correct: 0},
+            {topic: 'Listening', emoji: '👂💭', question: 'What is active listening skill?', options: ['Fully focus and understand', 'Wait to talk'], correct: 0},
+            {topic: 'Email', emoji: '📧💻', question: 'What is email etiquette?', options: ['Professional email practices', 'No rules'], correct: 0},
+            {topic: 'Presentation', emoji: '📊🎤', question: 'What is elevator pitch?', options: ['Brief compelling message', 'Long speech'], correct: 0},
+            {topic: 'Meeting', emoji: '👥📋', question: 'What is meeting facilitation?', options: ['Guide productive discussion', 'No structure'], correct: 0},
+            {topic: 'Feedback', emoji: '💬✅', question: 'What is constructive feedback?', options: ['Helpful developmental input', 'Criticism only'], correct: 0},
+            {topic: 'Communication', emoji: '💬🌐', question: 'What is asynchronous communication?', options: ['Not in real-time', 'Simultaneous'], correct: 0},
+            {topic: 'Professionalism', emoji: '👔✨', question: 'What is professional communication?', options: ['Appropriate for business context', 'Informal'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Communication', emoji: '💬📝', question: 'What is communication model?', options: ['Sender, Message, Channel, Receiver, Feedback', 'One-way only', 'No model'], correct: 0},
+            {topic: 'Writing', emoji: '✍️📄', question: 'What is the inverted pyramid?', options: ['Important info first', 'Bury the lead', 'Random order'], correct: 0},
+            {topic: 'Speaking', emoji: '🗣️💼', question: 'What is rhetorical triangle?', options: ['Ethos, Pathos, Logos', 'Random concept', 'No triangle'], correct: 0},
+            {topic: 'Listening', emoji: '👂💭', question: 'What are listening barriers?', options: ['Obstacles to understanding', 'Perfect hearing', 'No barriers'], correct: 0},
+            {topic: 'Email', emoji: '📧💻', question: 'What is email overload?', options: ['Too many emails to manage', 'Perfect amount', 'No emails'], correct: 0},
+            {topic: 'Presentation', emoji: '📊🎤', question: 'What is Pecha Kucha?', options: ['20 slides x 20 seconds', 'Any format', 'No structure'], correct: 0},
+            {topic: 'Meeting', emoji: '👥📋', question: 'What is meeting ROI?', options: ['Value vs time cost', 'No calculation', 'Random'], correct: 0},
+            {topic: 'Feedback', emoji: '💬✅', question: 'What is SBI feedback model?', options: ['Situation, Behavior, Impact', 'Random acronym', 'No model'], correct: 0},
+            {topic: 'Communication', emoji: '💬🌐', question: 'What is rich media?', options: ['High information channel', 'Simple text', 'No media'], correct: 0},
+            {topic: 'Professionalism', emoji: '👔✨', question: 'What is cultural communication?', options: ['Adapt to cultural norms', 'One style fits all', 'No adaptation'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Communication', emoji: '💬📝', question: 'What percentage of workplace time is communication?', options: ['~70%', '10%', '100%', '5%'], correct: 0},
+            {topic: 'Writing', emoji: '✍️📄', question: 'What is optimal email length?', options: ['50-125 words', '5000 words', '1 word', 'No limit'], correct: 0},
+            {topic: 'Speaking', emoji: '🗣️💼', question: 'What is glossophobia?', options: ['Fear of public speaking', 'Love of speaking', 'Language skill', 'No fear'], correct: 0},
+            {topic: 'Listening', emoji: '👂💭', question: 'What percentage of communication is listening?', options: ['~45%', '5%', '100%', '0%'], correct: 0},
+            {topic: 'Email', emoji: '📧💻', question: 'What is average email response time expectation?', options: ['24 hours', '1 minute', '1 month', 'Never'], correct: 0},
+            {topic: 'Presentation', emoji: '📊🎤', question: 'What is optimal slide count for 20 min presentation?', options: ['10-15 slides', '100 slides', '1 slide', 'No slides'], correct: 0},
+            {topic: 'Meeting', emoji: '👥📋', question: 'What percentage of meetings are considered unproductive?', options: ['~50%', '0%', '100%', '5%'], correct: 0},
+            {topic: 'Feedback', emoji: '💬✅', question: 'What is feedback ratio for positive vs developmental?', options: ['5:1 (Losada)', '1:1', '1:10', 'All negative'], correct: 0},
+            {topic: 'Communication', emoji: '💬🌐', question: 'What is the 7-38-55 rule?', options: ['Words, Tone, Body language', 'Random numbers', 'No rule', 'Equal thirds'], correct: 0},
+            {topic: 'Professionalism', emoji: '👔✨', question: 'What is high-context culture communication?', options: ['Indirect, implicit', 'Direct explicit', 'No context', 'Random'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Communication', emoji: '💬📝', question: 'Name five elements of communication model', answer: 'Sender, Message, Channel, Receiver, Feedback'},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Name three business writing types', answer: 'Email, Report, Proposal, Memo, Policy (any 3)'},
+            {topic: 'Speaking', emoji: '🗣️💼', question: 'Name three public speaking techniques', answer: 'Eye contact, Vocal variety, Gestures, Pauses (any 3)'},
+            {topic: 'Listening', emoji: '👂💭', question: 'Name three listening levels', answer: 'Internal, Focused, Global (or Passive, Active, Empathetic)'},
+            {topic: 'Email', emoji: '📧💻', question: 'Name three email best practices', answer: 'Clear subject, Brief, Professional tone, Proofread (any 3)'},
+            {topic: 'Presentation', emoji: '📊🎤', question: 'Name three presentation structures', answer: 'Problem-Solution, Chronological, Compare-Contrast, Story (any 3)'},
+            {topic: 'Meeting', emoji: '👥📋', question: 'Name three meeting types', answer: 'Status, Decision, Brainstorm, Retrospective (any 3)'},
+            {topic: 'Feedback', emoji: '💬✅', question: 'Name three feedback models', answer: 'SBI, STAR, Sandwich, Feedforward (any 3)'},
+            {topic: 'Communication', emoji: '💬🌐', question: 'Name three business communication channels', answer: 'Face-to-face, Email, Phone, Video, Chat (any 3)'},
+            {topic: 'Professionalism', emoji: '👔✨', question: 'Name three aspects of professional presence', answer: 'Appearance, Communication, Behavior, Confidence (any 3)'}
+        ]
+    },
+    20: { // Chapter 20: Corporate Finance
+        easy: [
+            {topic: 'Finance', emoji: '💰📊', question: 'Finance manages money.', options: ['True', 'False'], correct: 0},
+            {topic: 'Capital', emoji: '💵🏢', question: 'Capital is needed for business.', options: ['True', 'False'], correct: 0},
+            {topic: 'Investment', emoji: '📈💰', question: 'Investment grows wealth.', options: ['True', 'False'], correct: 0},
+            {topic: 'Risk', emoji: '⚠️💼', question: 'All investments have risk.', options: ['True', 'False'], correct: 0},
+            {topic: 'Finance', emoji: '💰📋', question: 'Budgets control spending.', options: ['True', 'False'], correct: 0},
+            {topic: 'Value', emoji: '💎📊', question: 'Valuation determines worth.', options: ['True', 'False'], correct: 0},
+            {topic: 'Profit', emoji: '💰📈', question: 'Profit is goal of business.', options: ['True', 'False'], correct: 0},
+            {topic: 'Cost', emoji: '💵📉', question: 'Controlling costs increases profit.', options: ['True', 'False'], correct: 0},
+            {topic: 'Finance', emoji: '💰🏦', question: 'Banks provide financing.', options: ['True', 'False'], correct: 0},
+            {topic: 'Return', emoji: '📈💵', question: 'Return measures investment performance.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Finance', emoji: '💰📊', question: 'What is corporate finance?', options: ['Managing company money', 'Personal finance'], correct: 0},
+            {topic: 'Capital', emoji: '💵🏢', question: 'What is capital structure?', options: ['Mix of debt and equity', 'Building design'], correct: 0},
+            {topic: 'Investment', emoji: '📈💰', question: 'What is capital budgeting?', options: ['Evaluate investment projects', 'Operating budget'], correct: 0},
+            {topic: 'Risk', emoji: '⚠️💼', question: 'What is financial risk management?', options: ['Identify and mitigate risks', 'Ignore risks'], correct: 0},
+            {topic: 'Finance', emoji: '💰📋', question: 'What does working capital represent?', options: ['Current assets minus liabilities', 'Total capital'], correct: 0},
+            {topic: 'Value', emoji: '💎📊', question: 'What is shareholder value?', options: ['Return to shareholders', 'Employee value'], correct: 0},
+            {topic: 'Profit', emoji: '💰📈', question: 'What is profit margin?', options: ['Profit as percentage of revenue', 'Total profit'], correct: 0},
+            {topic: 'Cost', emoji: '💵📉', question: 'What is cost of capital?', options: ['Cost of financing', 'Operating cost'], correct: 0},
+            {topic: 'Finance', emoji: '💰🏦', question: 'What is leverage?', options: ['Using debt to invest', 'Physical force'], correct: 0},
+            {topic: 'Return', emoji: '📈💵', question: 'What is return on investment metric?', options: ['Return on Investment', 'Revenue Only Index'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Finance', emoji: '💰📊', question: 'What is WACC?', options: ['Weighted Average Cost of Capital', 'Working Asset Cash Calculation', 'World Accounting Control Center'], correct: 0},
+            {topic: 'Capital', emoji: '💵🏢', question: 'What is optimal capital structure?', options: ['Minimize cost of capital', 'All debt', 'All equity'], correct: 0},
+            {topic: 'Investment', emoji: '📈💰', question: 'What does NPV stand for?', options: ['Net Present Value', 'New Product Value', 'National Profit Variable'], correct: 0},
+            {topic: 'Risk', emoji: '⚠️💼', question: 'What is beta in finance?', options: ['Measure of systematic risk', 'Software version', 'Greek letter'], correct: 0},
+            {topic: 'Finance', emoji: '💰📋', question: 'What is free cash flow?', options: ['Cash after operations and CapEx', 'Any cash', 'No cost'], correct: 0},
+            {topic: 'Value', emoji: '💎📊', question: 'What is DCF valuation?', options: ['Discounted Cash Flow', 'Direct Cost Formula', 'Data Collection Framework'], correct: 0},
+            {topic: 'Profit', emoji: '💰📈', question: 'What does EBITDA measure?', options: ['Earnings before interest, tax, depreciation, amortization', 'Total profit', 'Revenue'], correct: 0},
+            {topic: 'Cost', emoji: '💵📉', question: 'What is opportunity cost?', options: ['Value of next best alternative', 'Actual cost', 'No cost'], correct: 0},
+            {topic: 'Finance', emoji: '💰🏦', question: 'What is debt-to-equity ratio?', options: ['Total debt / Total equity', 'Assets / Liabilities', 'Revenue / Expenses'], correct: 0},
+            {topic: 'Return', emoji: '📈💵', question: 'What is IRR?', options: ['Internal Rate of Return', 'Immediate Revenue Report', 'International Risk Rating'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Finance', emoji: '💰📊', question: 'What is typical corporate tax rate?', options: ['21-25%', '90%', '0%', '100%'], correct: 0},
+            {topic: 'Capital', emoji: '💵🏢', question: 'What is Modigliani-Miller theorem?', options: ['Capital structure irrelevance', 'Debt is best', 'Equity only', 'Random theory'], correct: 0},
+            {topic: 'Investment', emoji: '📈💰', question: 'What is payback period for projects?', options: ['Time to recover investment', 'Project duration', 'No period', 'Random'], correct: 0},
+            {topic: 'Risk', emoji: '⚠️💼', question: 'What is VaR?', options: ['Value at Risk', 'Variable Annual Return', 'Verified Audit Report', 'Virtual Asset Register'], correct: 0},
+            {topic: 'Finance', emoji: '💰📋', question: 'What is working capital ratio target?', options: ['1.5-2.0', '0.1', '10', '100'], correct: 0},
+            {topic: 'Value', emoji: '💎📊', question: 'What is typical PE ratio?', options: ['15-25', '1', '1000', '0'], correct: 0},
+            {topic: 'Profit', emoji: '💰📈', question: 'What is economic profit?', options: ['Accounting profit minus opportunity cost', 'Same as accounting profit', 'No difference', 'Random'], correct: 0},
+            {topic: 'Cost', emoji: '💵📉', question: 'What is the time value of money?', options: ['Money now worth more than future', 'Same value', 'Future worth more', 'No difference'], correct: 0},
+            {topic: 'Finance', emoji: '💰🏦', question: 'What is M&A?', options: ['Mergers and Acquisitions', 'Money and Assets', 'Management and Administration', 'Markets and Analysis'], correct: 0},
+            {topic: 'Return', emoji: '📈💵', question: 'What is the risk-return tradeoff?', options: ['Higher risk, higher potential return', 'No relationship', 'Inverse', 'Random'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Finance', emoji: '💰📊', question: 'Name three areas of corporate finance', answer: 'Capital budgeting, Capital structure, Working capital management'},
+            {topic: 'Capital', emoji: '💵🏢', question: 'Name three sources of capital', answer: 'Debt, Equity, Retained earnings'},
+            {topic: 'Investment', emoji: '📈💰', question: 'Name three investment appraisal methods', answer: 'NPV, IRR, Payback period, ARR (any 3)'},
+            {topic: 'Risk', emoji: '⚠️💼', question: 'Name three types of financial risk', answer: 'Market, Credit, Liquidity, Operational (any 3)'},
+            {topic: 'Finance', emoji: '💰📋', question: 'Name the three core financial statements', answer: 'Balance sheet, Income statement, Cash flow statement'},
+            {topic: 'Value', emoji: '💎📊', question: 'Name three valuation methods', answer: 'DCF, Comparable companies, Precedent transactions (any 3)'},
+            {topic: 'Profit', emoji: '💰📈', question: 'Name three profitability ratios', answer: 'Gross margin, Operating margin, Net margin, ROE, ROCE (any 3)'},
+            {topic: 'Cost', emoji: '💵📉', question: 'Name three cost types', answer: 'Fixed, Variable, Direct, Indirect, Opportunity (any 3)'},
+            {topic: 'Finance', emoji: '💰🏦', question: 'Name three financial markets', answer: 'Stock, Bond, Forex, Commodity, Derivatives (any 3)'},
+            {topic: 'Return', emoji: '📈💵', question: 'Name three return metrics', answer: 'ROI, ROE, ROIC, ROA (any 3)'}
+        ]
+    }
     // Add more chapters: 2, 3, 4... unlimited!
 };
 

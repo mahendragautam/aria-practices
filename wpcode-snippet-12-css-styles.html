@@ -919,14 +919,17 @@ body > main,
 /* ========================================
    404 ERROR PAGE STYLES
    ======================================== */
+
 .error-404-page {
     display: none;
-    min-height: calc(100vh - 200px);
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
-    padding: 60px 20px;
     position: relative;
     width: 100%;
-    margin: 0 auto;
+    min-height: calc(100vh - 150px);
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+    padding: 40px 20px;
+    margin: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .error-404-page.active {
@@ -1319,9 +1322,10 @@ body > main,
 
     /* 404 Page Mobile Responsive */
     .error-404-page {
-        padding: 40px 0;
-        min-height: calc(100vh - 180px);
-        width: 100vw;
+        padding: 30px 10px;
+        position: relative;
+        width: 100%;
+        min-height: calc(100vh - 100px);
         margin: 0;
     }
 

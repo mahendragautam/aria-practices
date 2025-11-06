@@ -958,8 +958,22 @@ function addFloatingEmojis(emoji) {
 
 // Initialize on load
 window.onload = function() {
-    // Set initial state
-    history.replaceState({screen: 'home-page'}, '', '#home-page');
+    // Get current hash from URL
+    const hash = window.location.hash.substring(1); // Remove '#'
+
+    // Valid page hashes
+    const validHashes = ['home-page', 'chapter-selection', 'level-selection', 'quiz-container',
+                         'result-screen', 'timer-challenges', 'practice-mode', 'timer-subject-level-selection'];
+
+    // If no hash or invalid hash, keep URL clean (no hash)
+    if (!hash || !validHashes.includes(hash)) {
+        history.replaceState({screen: 'home-page'}, '', window.location.pathname);
+        showScreen('home-page');
+    } else {
+        // Valid hash exists, keep it
+        history.replaceState({screen: hash}, '', `#${hash}`);
+    }
+
     initializeChapters();
 };
 

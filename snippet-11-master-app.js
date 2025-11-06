@@ -403,6 +403,45 @@ function showLevelSelection() {
     showScreen('level-selection');
 }
 
+// Map screen classes to clean URL paths
+function getUrlForScreen(screenClass) {
+    const urlMap = {
+        'home-page': '',  // Clean URL without hash
+        'chapter-selection': 'chapters',
+        'level-selection': 'levels',
+        'quiz-container': `quiz-${currentLevel}`,  // Dynamic based on level
+        'result-container': 'results',
+        'timer-challenges-page': 'timer',
+        'practice-mode-page': 'practice',
+        'timer-subject-level-selection': 'timer-setup',
+        'riddles-page': 'riddles',
+        'dad-jokes-page': 'jokes'
+    };
+
+    return urlMap[screenClass] || screenClass;
+}
+
+// Map URL paths back to screen classes
+function getScreenFromUrl(urlPath) {
+    const screenMap = {
+        '': 'home-page',
+        'chapters': 'chapter-selection',
+        'levels': 'level-selection',
+        'quiz-easy': 'quiz-container',
+        'quiz-medium': 'quiz-container',
+        'quiz-hard': 'quiz-container',
+        'quiz-extreme': 'quiz-container',
+        'results': 'result-container',
+        'timer': 'timer-challenges-page',
+        'practice': 'practice-mode-page',
+        'timer-setup': 'timer-subject-level-selection',
+        'riddles': 'riddles-page',
+        'jokes': 'dad-jokes-page'
+    };
+
+    return screenMap[urlPath] || null;
+}
+
 function showScreen(screenClass) {
     document.querySelectorAll('.home-page, .chapter-selection, .level-selection, .quiz-container, .result-container, .timer-challenges-page, .timer-subject-level-selection, .practice-mode-page, .riddles-page, .dad-jokes-page').forEach(el => {
         el.classList.remove('active');
@@ -416,13 +455,17 @@ function showScreen(screenClass) {
             subject: currentSubject,
             chapter: currentChapter,
             mode: quizMode,
-            returnPage: returnPage
+            returnPage: returnPage,
+            level: currentLevel
         };
+
+        const urlPath = getUrlForScreen(screenClass);
+
         // Home page should have clean URL without hash
-        if (screenClass === 'home-page') {
+        if (urlPath === '') {
             history.pushState(state, '', window.location.pathname);
         } else {
-            history.pushState(state, '', `#${screenClass}`);
+            history.pushState(state, '', `#${urlPath}`);
         }
     }
 }
@@ -964,19 +1007,31 @@ function addFloatingEmojis(emoji) {
 // Initialize on load
 window.onload = function() {
     // Get current hash from URL
-    const hash = window.location.hash.substring(1); // Remove '#'
+    const urlPath = window.location.hash.substring(1); // Remove '#'
 
-    // Valid page hashes (NOTE: 'home-page' excluded - homepage should have clean URL)
-    const validHashes = ['chapter-selection', 'level-selection', 'quiz-container',
-                         'result-screen', 'timer-challenges', 'practice-mode', 'timer-subject-level-selection'];
+    // Try to get screen from URL
+    const screenClass = getScreenFromUrl(urlPath);
 
-    // If no hash, invalid hash, OR 'home-page' hash, keep URL clean (no hash)
-    if (!hash || !validHashes.includes(hash)) {
+    if (screenClass) {
+        // Valid URL found
+        // Extract level from quiz URLs (quiz-easy, quiz-medium, etc)
+        if (urlPath.startsWith('quiz-')) {
+            const level = urlPath.replace('quiz-', '');
+            if (['easy', 'medium', 'hard', 'extreme'].includes(level)) {
+                currentLevel = level;
+            }
+        }
+
+        if (screenClass === 'home-page') {
+            history.replaceState({screen: 'home-page'}, '', window.location.pathname);
+        } else {
+            history.replaceState({screen: screenClass, level: currentLevel}, '', `#${urlPath}`);
+        }
+        showScreen(screenClass);
+    } else {
+        // Invalid or no hash - go to homepage with clean URL
         history.replaceState({screen: 'home-page'}, '', window.location.pathname);
         showScreen('home-page');
-    } else {
-        // Valid hash exists, keep it
-        history.replaceState({screen: hash}, '', `#${hash}`);
     }
 
     initializeChapters();
@@ -993,6 +1048,7 @@ window.addEventListener('popstate', function(event) {
         if (event.state.chapter) currentChapter = event.state.chapter;
         if (event.state.mode) quizMode = event.state.mode;
         if (event.state.returnPage) returnPage = event.state.returnPage;
+        if (event.state.level) currentLevel = event.state.level;
 
         // Navigate to the appropriate screen using proper functions
         switch(event.state.screen) {

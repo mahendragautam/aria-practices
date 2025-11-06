@@ -2,14 +2,17 @@
 
 <!-- wp:html -->
 <style>
-/* 404 Full Width - Simple Approach */
+/* 404 Full Width Override - Ensure full viewport coverage */
 body.error404 .wp-site-blocks,
 body.error404 main,
-body.error404 .wp-block-group {
+body.error404 .wp-block-group,
+body.error404 .entry-content {
     padding: 0 !important;
     margin: 0 !important;
+    max-width: 100% !important;
 }
 
+/* Force 404 page to full width */
 .error-404-page {
     width: 100vw !important;
     margin-left: calc(50% - 50vw) !important;
@@ -18,16 +21,36 @@ body.error404 .wp-block-group {
     box-sizing: border-box !important;
 }
 </style>
+
 <div class="error-404-page active">
+    <!-- Floating Background Animations -->
+    <div class="error-404-animation">
+        <div class="floating-emoji">😵</div>
+        <div class="floating-emoji">🤷</div>
+        <div class="floating-emoji">📖</div>
+        <div class="floating-emoji">🎓</div>
+        <div class="floating-emoji">💭</div>
+    </div>
+
+    <!-- Main Content Container -->
     <div class="error-404-container">
         <div class="error-404-content">
+            <!-- Search Icon -->
             <div class="error-404-emoji">🔍</div>
+
+            <!-- 404 Title -->
             <h1 class="error-404-title">404</h1>
+
+            <!-- Subtitle -->
             <h2 class="error-404-subtitle">Oops! Page Not Found</h2>
+
+            <!-- Description -->
             <p class="error-404-description">
-                The page you're looking for seems to have vanished into thin air!
+                The page you're looking for seems to have vanished into thin air!<br>
                 Maybe it's taking a quiz somewhere? 🤔
             </p>
+
+            <!-- Action Buttons -->
             <div class="error-404-buttons">
                 <a href="/" class="error-404-btn error-404-btn-primary">
                     🏠 Go Home
@@ -36,21 +59,22 @@ body.error404 .wp-block-group {
                     ← Go Back
                 </a>
             </div>
+
+            <!-- Suggestions Section -->
             <div class="error-404-suggestions">
                 <h3>🎯 Try These Instead:</h3>
                 <div class="error-404-links">
-                    <a href="/#timer-challenges" class="error-404-link">⏱️ Timer Challenges</a>
-                    <a href="/#practice-mode" class="error-404-link">🎯 Practice Mode</a>
-                    <a href="/#home" class="error-404-link">📚 Browse Subjects</a>
+                    <a href="/#home-page" class="error-404-link">
+                        🏠 Home Page
+                    </a>
+                    <a href="/#timer-challenges" class="error-404-link">
+                        ⏱️ Timer Challenges
+                    </a>
+                    <a href="/#practice-mode" class="error-404-link">
+                        🎯 Practice Mode
+                    </a>
                 </div>
             </div>
-        </div>
-        <div class="error-404-animation">
-            <div class="floating-emoji">😵</div>
-            <div class="floating-emoji">🤷</div>
-            <div class="floating-emoji">📖</div>
-            <div class="floating-emoji">🎓</div>
-            <div class="floating-emoji">💭</div>
         </div>
     </div>
 </div>

@@ -920,19 +920,13 @@ body > main,
    404 ERROR PAGE STYLES
    ======================================== */
 .error-404-page {
-    display: none; /* Hidden by default, shown by WordPress on 404 */
-    min-height: 100vh;
-    height: 100vh;
+    display: none;
+    min-height: calc(100vh - 200px);
     background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
-    padding: 40px 20px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    overflow-y: auto;
-    overflow-x: hidden;
-    z-index: 9999;
+    padding: 60px 20px;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .error-404-page.active {
@@ -947,6 +941,7 @@ body > main,
     margin: 0 auto;
     position: relative;
     z-index: 2;
+    padding: 0 15px;
 }
 
 .error-404-content {
@@ -1324,13 +1319,23 @@ body > main,
 
     /* 404 Page Mobile Responsive */
     .error-404-page {
-        padding: 15px 10px;
+        padding: 40px 0;
+        min-height: calc(100vh - 180px);
+        width: 100vw;
+        margin: 0;
+    }
+
+    .error-404-container {
+        width: 100%;
+        padding: 0 10px;
+        box-sizing: border-box;
     }
 
     .error-404-content {
         padding: 30px 15px;
         border-radius: 20px;
         width: 100%;
+        max-width: 100%;
         box-sizing: border-box;
     }
 
@@ -1348,13 +1353,14 @@ body > main,
 
     .error-404-description {
         font-size: 0.95em;
-        padding: 0 10px;
+        padding: 0 5px;
     }
 
     .error-404-buttons {
         flex-direction: column;
         gap: 12px;
-        padding: 0 10px;
+        padding: 0;
+        width: 100%;
     }
 
     .error-404-btn {
@@ -1367,7 +1373,7 @@ body > main,
 
     .error-404-suggestions {
         margin-top: 30px;
-        padding: 20px 10px 0;
+        padding: 20px 0 0;
     }
 
     .error-404-suggestions h3 {
@@ -1377,7 +1383,8 @@ body > main,
     .error-404-links {
         flex-direction: column;
         gap: 10px;
-        padding: 0 10px;
+        padding: 0;
+        width: 100%;
     }
 
     .error-404-link {

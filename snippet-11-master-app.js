@@ -31,6 +31,7 @@ let timerInterval = null;
 
 // History navigation flag (prevent recursive pushState)
 let isNavigatingHistory = false;
+let isInitialLoad = true;  // Prevent double state push on initial load
 let isPaused = false;
 let canPause = true; // Timer challenges cannot pause
 
@@ -464,8 +465,8 @@ function showScreen(screenClass) {
     });
     document.querySelector(`.${screenClass}`).classList.add('active');
 
-    // Push to browser history ONLY if not restoring from history
-    if (!isNavigatingHistory) {
+    // Push to browser history ONLY if not restoring from history and not initial load
+    if (!isNavigatingHistory && !isInitialLoad) {
         const state = {
             screen: screenClass,
             subject: currentSubject,
@@ -1055,6 +1056,9 @@ window.onload = function() {
     }
 
     initializeChapters();
+
+    // Mark initial load as complete
+    isInitialLoad = false;
 };
 
 // Handle browser back/forward buttons

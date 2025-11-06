@@ -57,6 +57,8 @@ body.error404 article {
     animation: fadeInUp 0.8s ease-out;
     position: relative;
     overflow: hidden;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 /* Search emoji */
@@ -364,6 +366,9 @@ body.error404 article {
     .error-404-content {
         padding: 30px 20px;
         border-radius: 0px;
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
     }
 
     .error-404-emoji {
@@ -387,16 +392,19 @@ body.error404 article {
         flex-direction: column;
         gap: 12px;
         width: 100%;
-        padding: 0;
+        padding: 0 10px;
         margin: 30px 0;
+        box-sizing: border-box;
     }
 
     .error-404-btn {
         width: 100%;
         max-width: 100%;
-        padding: 15px 20px;
+        padding: 15px 15px;
         font-size: 1em;
         box-sizing: border-box;
+        word-wrap: break-word;
+        overflow: hidden;
     }
 
     .error-404-suggestions {
@@ -440,11 +448,17 @@ body.error404 article {
 
     .error-404-content {
         padding: 25px 15px;
+        width: 100%;
+        max-width: 100%;
     }
 
     .error-404-btn {
-        padding: 14px 18px;
+        padding: 14px 12px;
         font-size: 0.95em;
+    }
+
+    .error-404-buttons {
+        padding: 0 5px;
     }
 
     .floating-emoji {

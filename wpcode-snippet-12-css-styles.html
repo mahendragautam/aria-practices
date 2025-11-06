@@ -434,6 +434,18 @@ body > main,
 .level-extreme { background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); }
 .level-mixed { background: linear-gradient(135deg, #FF6B6B 0%, #4ECDC4 50%, #45B7D1 100%); }
 
+/* Full width centered button for All Levels Mix - Desktop */
+.level-card.full-width-mobile {
+    grid-column: 1 / -1;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.3em;
+    padding: 30px 20px;
+    font-weight: 900;
+}
+
 /* Buttons */
 .back-button, .restart-button, .next-button, .quiz-back-button {
     padding: 12px 30px;
@@ -1216,13 +1228,17 @@ body.error404 .wp-block-group {
         padding: 20px 10px;
     }
 
-    /* Full width button for All Levels Mix on mobile */
+    /* Full width centered button for All Levels Mix on mobile */
     .level-card.full-width-mobile {
         grid-column: 1 / -1;
         width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
         text-align: center;
-        font-size: 1.2em;
+        font-size: 1.3em;
         padding: 25px 15px;
+        font-weight: 900;
+        display: block;
     }
 
     .answers-container {

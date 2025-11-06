@@ -418,7 +418,12 @@ function showScreen(screenClass) {
             mode: quizMode,
             returnPage: returnPage
         };
-        history.pushState(state, '', `#${screenClass}`);
+        // Home page should have clean URL without hash
+        if (screenClass === 'home-page') {
+            history.pushState(state, '', window.location.pathname);
+        } else {
+            history.pushState(state, '', `#${screenClass}`);
+        }
     }
 }
 
@@ -961,11 +966,11 @@ window.onload = function() {
     // Get current hash from URL
     const hash = window.location.hash.substring(1); // Remove '#'
 
-    // Valid page hashes
-    const validHashes = ['home-page', 'chapter-selection', 'level-selection', 'quiz-container',
+    // Valid page hashes (NOTE: 'home-page' excluded - homepage should have clean URL)
+    const validHashes = ['chapter-selection', 'level-selection', 'quiz-container',
                          'result-screen', 'timer-challenges', 'practice-mode', 'timer-subject-level-selection'];
 
-    // If no hash or invalid hash, keep URL clean (no hash)
+    // If no hash, invalid hash, OR 'home-page' hash, keep URL clean (no hash)
     if (!hash || !validHashes.includes(hash)) {
         history.replaceState({screen: 'home-page'}, '', window.location.pathname);
         showScreen('home-page');

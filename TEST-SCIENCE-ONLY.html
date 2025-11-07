@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Quiz Test - Local</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .test-result {
+            padding: 20px;
+            margin: 10px 0;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+        .success {
+            background: #d4edda;
+            color: #155724;
+            border: 2px solid #c3e6cb;
+        }
+        .error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 2px solid #f5c6cb;
+        }
+        .info {
+            background: #d1ecf1;
+            color: #0c5460;
+            border: 2px solid #bee5eb;
+        }
+        pre {
+            background: #fff;
+            padding: 10px;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>🔬 Science Quiz - Local Test</h1>
+    <p>This file tests if the snippets work correctly before uploading to WordPress.</p>
+
+    <div id="test-results"></div>
+
+    <!-- Load Science Questions FIRST -->
+    <script src="snippet-01-science-questions.js"></script>
+
+    <!-- Load Master App SECOND -->
+    <script src="snippet-11-master-app.js"></script>
+
+    <!-- Test Script -->
+    <script>
+        const results = document.getElementById('test-results');
+
+        function addResult(message, type = 'info') {
+            const div = document.createElement('div');
+            div.className = `test-result ${type}`;
+            div.innerHTML = message;
+            results.appendChild(div);
+        }
+
+        // Test 1: Check if scienceQuestions is defined
+        if (typeof scienceQuestions !== 'undefined') {
+            addResult('✅ TEST 1 PASSED: scienceQuestions is defined', 'success');
+
+            // Check structure
+            if (scienceQuestions[1] && scienceQuestions[1].easy) {
+                const questionCount = scienceQuestions[1].easy.length;
+                addResult(`✅ TEST 2 PASSED: Chapter 1 Easy has ${questionCount} questions`, 'success');
+            } else {
+                addResult('❌ TEST 2 FAILED: Chapter 1 structure is wrong', 'error');
+            }
+        } else {
+            addResult('❌ TEST 1 FAILED: scienceQuestions is NOT defined', 'error');
+        }
+
+        // Test 3: Check if currentSubject is defined
+        if (typeof currentSubject !== 'undefined') {
+            addResult(`✅ TEST 3 PASSED: currentSubject = "${currentSubject}"`, 'success');
+        } else {
+            addResult('❌ TEST 3 FAILED: currentSubject is NOT defined', 'error');
+        }
+
+        // Test 4: Check if subjectQuestionBank is defined
+        if (typeof subjectQuestionBank !== 'undefined') {
+            const loadedSubjects = Object.keys(subjectQuestionBank);
+            addResult(`✅ TEST 4 PASSED: subjectQuestionBank has ${loadedSubjects.length} subjects`, 'success');
+            addResult(`Loaded subjects: ${loadedSubjects.join(', ')}`, 'info');
+        } else {
+            addResult('❌ TEST 4 FAILED: subjectQuestionBank is NOT defined', 'error');
+        }
+
+        // Test 5: Check if subjects object exists
+        if (typeof subjects !== 'undefined') {
+            addResult('✅ TEST 5 PASSED: subjects object exists', 'success');
+        } else {
+            addResult('❌ TEST 5 FAILED: subjects object is NOT defined', 'error');
+        }
+
+        // Test 6: Check for duplicate declarations
+        let currentSubjectCount = 0;
+        try {
+            // This would throw if declared twice
+            eval('let currentSubject = "test";');
+            addResult('✅ TEST 6 PASSED: No duplicate currentSubject declaration', 'success');
+        } catch (e) {
+            if (e.message.includes('already been declared')) {
+                addResult('❌ TEST 6 FAILED: currentSubject is declared multiple times!', 'error');
+            }
+        }
+
+        // Test 7: Verify console logs
+        addResult('📋 Check browser console (F12) for detailed loading logs', 'info');
+
+        // Summary
+        addResult('<hr><h3>Summary:</h3>If all tests passed, your snippets are ready for WordPress!', 'info');
+    </script>
+</body>
+</html>

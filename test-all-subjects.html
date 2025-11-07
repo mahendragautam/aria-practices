@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Subjects Test - All 10 Subjects</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+        }
+        h1 {
+            text-align: center;
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+        }
+        .test-section {
+            margin: 20px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+        .test-section h2 {
+            margin-top: 0;
+            color: #444;
+        }
+        .result {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 12px;
+            margin: 8px 0;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+        .success {
+            background: #d4edda;
+            border: 1px solid #c3e6cb;
+            color: #155724;
+        }
+        .error {
+            background: #f8d7da;
+            border: 1px solid #f5c6cb;
+            color: #721c24;
+        }
+        .icon {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .details {
+            font-size: 12px;
+            margin-top: 5px;
+            opacity: 0.8;
+        }
+        .summary {
+            margin-top: 30px;
+            padding: 20px;
+            background: #e7f3ff;
+            border-left: 4px solid #2196F3;
+            border-radius: 5px;
+        }
+        .summary h3 {
+            margin-top: 0;
+            color: #2196F3;
+        }
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 15px;
+        }
+        .stat {
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 32px;
+            font-weight: bold;
+            color: #667eea;
+        }
+        .stat-label {
+            font-size: 14px;
+            color: #666;
+        }
+        .fix-instructions {
+            margin-top: 20px;
+            padding: 15px;
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 8px;
+        }
+        .fix-instructions h4 {
+            margin-top: 0;
+            color: #856404;
+        }
+        .fix-instructions ol {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        .fix-instructions li {
+            margin: 5px 0;
+        }
+        button {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 10px 5px;
+        }
+        button:hover {
+            background: #5568d3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎯 Quiz Subjects Test</h1>
+        <p class="subtitle">Testing all 10 subject JavaScript files</p>
+
+        <div style="text-align: center; margin: 20px 0;">
+            <button onclick="runTests()">🔍 Run Tests</button>
+            <button onclick="location.reload()">🔄 Refresh Page</button>
+        </div>
+
+        <div class="test-section">
+            <h2>📊 Test Results</h2>
+            <div id="results"></div>
+        </div>
+
+        <div id="summary" style="display:none;"></div>
+
+        <div id="fixInstructions" style="display:none;" class="fix-instructions">
+            <h4>⚠️ How to Fix Missing Subjects</h4>
+            <ol>
+                <li>Go to WordPress Dashboard → Code Snippets (WPCode)</li>
+                <li>For each missing subject, click "Add Snippet"</li>
+                <li>Set snippet settings:
+                    <ul>
+                        <li><strong>Type:</strong> JavaScript</li>
+                        <li><strong>Location:</strong> Footer</li>
+                        <li><strong>Priority:</strong> 10-19 (see table above)</li>
+                        <li><strong>Status:</strong> ACTIVATED (toggle ON)</li>
+                    </ul>
+                </li>
+                <li>Copy-paste the entire JS file content</li>
+                <li>Save and refresh this page to test again</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- Load all subject files -->
+    <script src="Science-questions.js"></script>
+    <script src="math-questions.js"></script>
+    <script src="history-questions.js"></script>
+    <script src="geography-questions.js"></script>
+    <script src="english-questions.js"></script>
+    <script src="health-questions.js"></script>
+    <script src="environment-questions.js"></script>
+    <script src="business-questions.js"></script>
+    <script src="technology-questions.js"></script>
+    <script src="parenting-questions.js"></script>
+
+    <script>
+        const subjects = {
+            'scienceQuestions': { name: 'Science', emoji: '🔬', priority: 10 },
+            'mathQuestions': { name: 'Math', emoji: '🔢', priority: 11 },
+            'historyQuestions': { name: 'History', emoji: '📜', priority: 12 },
+            'geographyQuestions': { name: 'Geography', emoji: '🌍', priority: 13 },
+            'englishQuestions': { name: 'English', emoji: '📖', priority: 14 },
+            'healthQuestions': { name: 'Health', emoji: '💪', priority: 15 },
+            'environmentQuestions': { name: 'Environment', emoji: '🌱', priority: 16 },
+            'businessQuestions': { name: 'Business', emoji: '💼', priority: 17 },
+            'technologyQuestions': { name: 'Technology', emoji: '💻', priority: 18 },
+            'parentingQuestions': { name: 'Parenting', emoji: '👶', priority: 19 }
+        };
+
+        function runTests() {
+            const resultsDiv = document.getElementById('results');
+            const summaryDiv = document.getElementById('summary');
+            const fixInstructionsDiv = document.getElementById('fixInstructions');
+
+            resultsDiv.innerHTML = '';
+            let loadedCount = 0;
+            let missingCount = 0;
+            const missingSubjects = [];
+
+            for (const [varName, info] of Object.entries(subjects)) {
+                const result = document.createElement('div');
+
+                if (typeof window[varName] !== 'undefined' && window[varName] !== null) {
+                    result.className = 'result success';
+                    const chapters = Object.keys(window[varName]).length;
+                    result.innerHTML = `
+                        <span class="icon">✅</span>
+                        <div>
+                            <strong>${info.emoji} ${info.name}</strong> - LOADED
+                            <div class="details">Variable: ${varName} | Chapters: ${chapters} | Priority: ${info.priority}</div>
+                        </div>
+                    `;
+                    loadedCount++;
+                } else {
+                    result.className = 'result error';
+                    result.innerHTML = `
+                        <span class="icon">❌</span>
+                        <div>
+                            <strong>${info.emoji} ${info.name}</strong> - MISSING
+                            <div class="details">Variable "${varName}" is not defined! Priority should be: ${info.priority}</div>
+                        </div>
+                    `;
+                    missingCount++;
+                    missingSubjects.push(info.name);
+                }
+
+                resultsDiv.appendChild(result);
+            }
+
+            // Show summary
+            summaryDiv.style.display = 'block';
+            summaryDiv.className = 'summary';
+            summaryDiv.innerHTML = `
+                <h3>📈 Summary</h3>
+                <div class="stats">
+                    <div class="stat">
+                        <div class="stat-number">${loadedCount}</div>
+                        <div class="stat-label">Loaded</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">${missingCount}</div>
+                        <div class="stat-label">Missing</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">${Math.round((loadedCount/10)*100)}%</div>
+                        <div class="stat-label">Success Rate</div>
+                    </div>
+                </div>
+                ${missingCount > 0 ? `<p style="margin-top:15px; color:#856404;"><strong>⚠️ Missing Subjects:</strong> ${missingSubjects.join(', ')}</p>` : '<p style="margin-top:15px; color:#155724;"><strong>🎉 All subjects loaded successfully!</strong></p>'}
+            `;
+
+            // Show fix instructions if there are missing subjects
+            if (missingCount > 0) {
+                fixInstructionsDiv.style.display = 'block';
+            } else {
+                fixInstructionsDiv.style.display = 'none';
+            }
+        }
+
+        // Auto-run tests on load
+        window.onload = function() {
+            runTests();
+        };
+    </script>
+</body>
+</html>

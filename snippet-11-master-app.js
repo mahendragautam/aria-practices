@@ -31,7 +31,6 @@ let timerInterval = null;
 
 // History navigation flag (prevent recursive pushState)
 let isNavigatingHistory = false;
-let isInitialLoad = true;  // Prevent double state push on initial load
 let isPaused = false;
 let canPause = true; // Timer challenges cannot pause
 
@@ -88,8 +87,7 @@ const subjectQuestionBank = {
 function showHomePage() {
     clearFallingEmojis();
     stopTimer();
-    // Navigate to homepage
-    window.location.href = '/';
+    showScreen('home-page');
 }
 
 function toggleSubjects() {
@@ -127,16 +125,12 @@ function selectSubject(subject) {
     quizMode = 'normal';
     returnPage = 'home';
 
-    // Update subject title with emoji and name
+    // Keep subjects expanded - don't auto-collapse
+    // User can manually collapse if needed
+
     const subjectData = subjects[subject];
-    if (subjectData) {
-        document.getElementById('subjectTitle').innerHTML = `${subjectData.emoji} ${subjectData.name} ${subjectData.emoji}`;
-    }
-
-    // Initialize chapters for this subject
+    document.getElementById('subjectTitle').innerHTML = `${subjectData.emoji} ${subjectData.name} ${subjectData.emoji}`;
     initializeChapters();
-
-    // Show chapter selection screen
     showScreen('chapter-selection');
 }
 
@@ -393,8 +387,7 @@ function initializeTimerSubjects() {
 
 function selectChapter(chapter) {
     currentChapter = chapter;
-
-    // Show level selection screen
+    document.getElementById('levelTitle').textContent = `Chapter ${chapter} - Select Difficulty Level`;
     showScreen('level-selection');
 }
 
@@ -410,86 +403,22 @@ function showLevelSelection() {
     showScreen('level-selection');
 }
 
-// Map screen classes to clean URL paths
-function getUrlForScreen(screenClass) {
-    const urlMap = {
-        'home-page': '',  // Clean URL without hash
-        'chapter-selection': 'chapters',
-        'level-selection': 'levels',
-        'quiz-container': `quiz-${currentLevel}`,  // Dynamic based on level
-        'result-container': 'results',
-        'timer-challenges-page': 'timer',
-        'practice-mode-page': 'practice',
-        'timer-subject-level-selection': 'timer-setup',
-        'riddles-page': 'riddles',
-        'dad-jokes-page': 'jokes'
-    };
-
-    return urlMap[screenClass] || screenClass;
-}
-
-// Map URL paths back to screen classes (with backward compatibility)
-function getScreenFromUrl(urlPath) {
-    const screenMap = {
-        // New clean URLs (primary)
-        '': 'home-page',
-        'chapters': 'chapter-selection',
-        'levels': 'level-selection',
-        'quiz-easy': 'quiz-container',
-        'quiz-medium': 'quiz-container',
-        'quiz-hard': 'quiz-container',
-        'quiz-extreme': 'quiz-container',
-        'results': 'result-container',
-        'timer': 'timer-challenges-page',
-        'practice': 'practice-mode-page',
-        'timer-setup': 'timer-subject-level-selection',
-        'riddles': 'riddles-page',
-        'jokes': 'dad-jokes-page',
-
-        // Old URLs (backward compatibility - accept and will redirect to new)
-        'home-page': 'home-page',
-        'chapter-selection': 'chapter-selection',
-        'level-selection': 'level-selection',
-        'quiz-container': 'quiz-container',
-        'result-container': 'result-container',
-        'result-screen': 'result-container',
-        'timer-challenges': 'timer-challenges-page',
-        'timer-challenges-page': 'timer-challenges-page',
-        'practice-mode': 'practice-mode-page',
-        'practice-mode-page': 'practice-mode-page',
-        'timer-subject-level-selection': 'timer-subject-level-selection',
-        'riddles-page': 'riddles-page',
-        'dad-jokes-page': 'dad-jokes-page'
-    };
-
-    return screenMap[urlPath] || null;
-}
-
 function showScreen(screenClass) {
     document.querySelectorAll('.home-page, .chapter-selection, .level-selection, .quiz-container, .result-container, .timer-challenges-page, .timer-subject-level-selection, .practice-mode-page, .riddles-page, .dad-jokes-page').forEach(el => {
         el.classList.remove('active');
     });
     document.querySelector(`.${screenClass}`).classList.add('active');
 
-    // Push to browser history ONLY if not restoring from history and not initial load
-    if (!isNavigatingHistory && !isInitialLoad) {
+    // Push to browser history ONLY if not restoring from history
+    if (!isNavigatingHistory) {
         const state = {
             screen: screenClass,
             subject: currentSubject,
             chapter: currentChapter,
             mode: quizMode,
-            returnPage: returnPage,
-            level: currentLevel
+            returnPage: returnPage
         };
-
-        const urlPath = getUrlForScreen(screenClass);
-
-        // Home page should have clean URL without hash
-        if (urlPath === '') {
-            history.pushState(state, '', window.location.pathname);
-        } else {
-            history.pushState(state, '', `#${urlPath}`);
-        }
+        history.pushState(state, '', `#${screenClass}`);
     }
 }
 
@@ -1029,23 +958,9 @@ function addFloatingEmojis(emoji) {
 
 // Initialize on load
 window.onload = function() {
-    // Check URL hash for navigation state
-    const hash = window.location.hash.substring(1); // Remove the '#'
-
-    if (hash) {
-        const screenClass = getScreenFromUrl(hash);
-        if (screenClass) {
-            showScreen(screenClass);
-        } else {
-            showScreen('home-page');
-        }
-    } else {
-        // Default to home page
-        showScreen('home-page');
-    }
-
-    // Mark initial load as complete
-    isInitialLoad = false;
+    // Set initial state
+    history.replaceState({screen: 'home-page'}, '', '#home-page');
+    initializeChapters();
 };
 
 // Handle browser back/forward buttons
@@ -1059,7 +974,6 @@ window.addEventListener('popstate', function(event) {
         if (event.state.chapter) currentChapter = event.state.chapter;
         if (event.state.mode) quizMode = event.state.mode;
         if (event.state.returnPage) returnPage = event.state.returnPage;
-        if (event.state.level) currentLevel = event.state.level;
 
         // Navigate to the appropriate screen using proper functions
         switch(event.state.screen) {

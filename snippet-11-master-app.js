@@ -68,18 +68,56 @@ const chapterColors = [
 ];
 
 
-const subjectQuestionBank = {
-    science: scienceQuestions,        // From science-questions.js
-    math: mathQuestions,              // From math-questions.js
-    history: historyQuestions,        // From history-questions.js
-    geography: geographyQuestions,    // From geography-questions.js
-    english: englishQuestions,        // From english-questions.js
-    health: healthQuestions,          // From health-questions.js
-    environment: environmentQuestions,// From environment-questions.js
-    business: businessQuestions,      // From business-questions.js
-    technology: technologyQuestions,  // From technology-questions.js
-    parenting: parentingQuestions     // From parenting-questions.js
-};
+// SAFE: Only add subjects that are actually loaded
+const subjectQuestionBank = {};
+
+// Debug: Log what's available
+console.log('🎓 Master Quiz App Loading...');
+console.log('Available question banks:');
+
+// Check if each question bank exists before adding it
+if (typeof scienceQuestions !== 'undefined') {
+    subjectQuestionBank.science = scienceQuestions;
+    console.log('✅ Science questions loaded');
+}
+if (typeof mathQuestions !== 'undefined') {
+    subjectQuestionBank.math = mathQuestions;
+    console.log('✅ Math questions loaded');
+}
+if (typeof historyQuestions !== 'undefined') {
+    subjectQuestionBank.history = historyQuestions;
+    console.log('✅ History questions loaded');
+}
+if (typeof geographyQuestions !== 'undefined') {
+    subjectQuestionBank.geography = geographyQuestions;
+    console.log('✅ Geography questions loaded');
+}
+if (typeof englishQuestions !== 'undefined') {
+    subjectQuestionBank.english = englishQuestions;
+    console.log('✅ English questions loaded');
+}
+if (typeof healthQuestions !== 'undefined') {
+    subjectQuestionBank.health = healthQuestions;
+    console.log('✅ Health questions loaded');
+}
+if (typeof environmentQuestions !== 'undefined') {
+    subjectQuestionBank.environment = environmentQuestions;
+    console.log('✅ Environment questions loaded');
+}
+if (typeof businessQuestions !== 'undefined') {
+    subjectQuestionBank.business = businessQuestions;
+    console.log('✅ Business questions loaded');
+}
+if (typeof technologyQuestions !== 'undefined') {
+    subjectQuestionBank.technology = technologyQuestions;
+    console.log('✅ Technology questions loaded');
+}
+if (typeof parentingQuestions !== 'undefined') {
+    subjectQuestionBank.parenting = parentingQuestions;
+    console.log('✅ Parenting questions loaded');
+}
+
+console.log('📊 Total subjects loaded:', Object.keys(subjectQuestionBank).length);
 
 // ===================================================
 // APPLICATION FUNCTIONS START BELOW
@@ -88,8 +126,7 @@ const subjectQuestionBank = {
 function showHomePage() {
     clearFallingEmojis();
     stopTimer();
-    // Navigate to homepage
-    window.location.href = '/';
+    showScreen('home-page');
 }
 
 function toggleSubjects() {

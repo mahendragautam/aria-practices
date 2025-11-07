@@ -111,7 +111,7 @@ const businessQuestions = {
         expert: [
             {topic: 'Startup', emoji: '🚀💡', question: 'What is typical startup failure rate?', options: ['~90%', '10%', '50%', '25%'], correct: 0},
             {topic: 'Startup', emoji: '💡🏢', question: 'What is customer acquisition cost (CAC)?', options: ['Cost to acquire customer', 'Product cost', 'Total revenue', 'Profit margin'], correct: 0},
-            {topic: 'Innovation', emoji: '🔬💡', question: 'What is the innovator's dilemma?', options: ['Successful companies miss disruptions', 'Too much innovation', 'No innovation', 'Fast innovation'], correct: 0},
+            {topic: 'Innovation', emoji: '🔬💡', question: 'What is the innovator\'s dilemma?', options: ['Successful companies miss disruptions', 'Too much innovation', 'No innovation', 'Fast innovation'], correct: 0},
             {topic: 'Startup', emoji: '🚀📈', question: 'What is hockey stick growth?', options: ['Exponential growth curve', 'Linear growth', 'Decline', 'Flat'], correct: 0},
             {topic: 'Risk', emoji: '⚠️💼', question: 'What is pivot vs persevere?', options: ['Change or continue decision', 'Always pivot', 'Never change', 'Random choice'], correct: 0},
             {topic: 'Startup', emoji: '💡🌟', question: 'What is typical angel investment amount?', options: ['$25k-$100k', '$1M+', '$1k', '$10M'], correct: 0},
@@ -345,7 +345,7 @@ const businessQuestions = {
             {topic: 'Implementation', emoji: '⚙️✅', question: 'What is strategic execution?', options: ['Putting strategy into action', 'Just planning'], correct: 0}
         ],
         hard: [
-            {topic: 'Strategy', emoji: '🎯📋', question: 'What is Porter's Five Forces?', options: ['Industry competition analysis', 'Employee model', 'Marketing tool'], correct: 0},
+            {topic: 'Strategy', emoji: '🎯📋', question: 'What is Porter\'s Five Forces?', options: ['Industry competition analysis', 'Employee model', 'Marketing tool'], correct: 0},
             {topic: 'Vision', emoji: '🔮✨', question: 'What is strategic intent?', options: ['Ambitious long-term goal', 'Short-term target'], correct: 0},
             {topic: 'Mission', emoji: '🎯💼', question: 'What is value proposition?', options: ['Benefits offered to customers', 'Company values'], correct: 0},
             {topic: 'Goals', emoji: '🏆📊', question: 'What is stretch goal?', options: ['Ambitious challenging target', 'Easy objective'], correct: 0},
@@ -373,7 +373,7 @@ const businessQuestions = {
             {topic: 'Vision', emoji: '🔮✨', question: 'Name three characteristics of good vision', answer: 'Clear, Inspiring, Future-focused, Achievable (any 3)'},
             {topic: 'Mission', emoji: '🎯💼', question: 'Name three elements of mission statement', answer: 'Purpose, Values, What we do, Who we serve (any 3)'},
             {topic: 'Goals', emoji: '🏆📊', question: 'Name the five SMART criteria', answer: 'Specific, Measurable, Achievable, Relevant, Time-bound'},
-            {topic: 'Strategy', emoji: '🎯🗺️', question: 'Name Porter's three generic strategies', answer: 'Cost leadership, Differentiation, Focus'},
+            {topic: 'Strategy', emoji: '🎯🗺️', question: 'Name Porter\'s three generic strategies', answer: 'Cost leadership, Differentiation, Focus'},
             {topic: 'Analysis', emoji: '📊🔍', question: 'Name the four quadrants of SWOT', answer: 'Strengths, Weaknesses, Opportunities, Threats'},
             {topic: 'Competition', emoji: '🏆⚔️', question: 'Name three types of competitive advantage', answer: 'Cost, Differentiation, Speed, Quality, Service (any 3)'},
             {topic: 'Growth', emoji: '📈🚀', question: 'Name four growth strategies in Ansoff Matrix', answer: 'Market penetration, Market development, Product development, Diversification'},
@@ -440,7 +440,6 @@ const businessQuestions = {
             {topic: 'Fairness', emoji: '⚖️👥', question: 'Name three diversity dimensions', answer: 'Race, Gender, Age, Disability, Religion (any 3)'},
             {topic: 'Integrity', emoji: '💎✨', question: 'Name three whistleblower protections', answer: 'Anti-retaliation, Anonymity, Legal protection'},
             {topic: 'Ethics', emoji: '⚖️📜', question: 'Name three elements of ethics program', answer: 'Code of conduct, Training, Hotline, Enforcement (any 3)'}, 
-,
     8: { // Chapter 8: E-commerce
         easy: [
             {topic: 'Online', emoji: '💻🛒', question: 'E-commerce is online shopping.', options: ['True', 'False'], correct: 0},

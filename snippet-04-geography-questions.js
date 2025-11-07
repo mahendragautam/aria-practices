@@ -70,7 +70,7 @@ const geographyQuestions = {
             {topic: 'Continents', emoji: '🌍🗺️', question: 'Name five countries in South America', answer: 'Brazil, Argentina, Chile, Peru, Colombia (any 5)'},
             {topic: 'Oceans', emoji: '🌊💧', question: 'What connects the Atlantic and Pacific Oceans?', answer: 'Panama Canal or Drake Passage'}
         ]
-    },,
+    },
     2: { // Chapter 2: Countries and Borders
         easy: [
             {topic: 'Countries', emoji: '🇺🇸🗺️', question: 'Canada is the second largest country.', options: ['True', 'False'], correct: 0},
@@ -382,7 +382,6 @@ const geographyQuestions = {
             {topic: 'Demographics', emoji: '📊📉', question: 'Name three push factors for migration', answer: 'War, poverty, climate, persecution (any 3)'}
         ]
     },
-,
     7: { // Chapter 7: Natural Resources
         easy: [
             {topic: 'Resources', emoji: '💎⛏️', question: 'Oil is a natural resource.', options: ['True', 'False'], correct: 0},

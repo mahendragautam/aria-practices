@@ -388,7 +388,7 @@ const mathQuestions = {
             {topic: 'Linear Equations', emoji: '📉🎯', question: 'Linear graphs are straight lines.', options: ['True', 'False'], correct: 0},
             {topic: 'Linear Equations', emoji: '📈💯', question: 'The slope is rise over run.', options: ['True', 'False'], correct: 0},
             {topic: 'Linear Equations', emoji: '🔢📉', question: 'y = mx + b is slope-intercept form.', options: ['True', 'False'], correct: 0},
-            {topic: 'Linear Equations', emoji: '📊🎯', question: 'm' represents the slope in y = mx + b.', options: ['True', 'False'], correct: 0},
+            {topic: 'Linear Equations', emoji: '📊🎯', question: '"m" represents the slope in y = mx + b.', options: ['True', 'False'], correct: 0},
             {topic: 'Linear Equations', emoji: '📈🔢', question: 'A horizontal line has slope 0.', options: ['True', 'False'], correct: 0},
             {topic: 'Linear Equations', emoji: '📉💰', question: 'Parallel lines have equal slopes.', options: ['True', 'False'], correct: 0},
             {topic: 'Linear Equations', emoji: '🔢📈', question: 'Vertical lines have undefined slope.', options: ['True', 'False'], correct: 0},
@@ -565,6 +565,7 @@ const mathQuestions = {
             {topic: 'Angles', emoji: '📐💰', question: 'Triangle exterior angles ratio 4:5:6. Find smallest interior.', answer: '48°'},
             {topic: 'Angles', emoji: '📏🔢', question: 'How many diagonals in a decagon (10 sides)?', answer: '35'},
             {topic: 'Angles', emoji: '🔺📊', question: 'If n-gon has 54 diagonals, find n', answer: '12'}
+        ]
     },
     10: { // Chapter 10: Triangles
         easy: [
@@ -626,8 +627,6 @@ const mathQuestions = {
             {topic: 'Triangles', emoji: '📐📊', question: 'Area with two sides 10, 12 and included angle 30°', answer: '30'},
             {topic: 'Triangles', emoji: '🔺🎯', question: 'If triangle sides are x, x+2, x+4 and perimeter 30, find x', answer: '8'},
             {topic: 'Triangles', emoji: '📏🔺', question: 'Distance from centroid to vertex if median length 15', answer: '10'}
-        ]
-    }
         ]
     },
     11: { // Chapter 11: Circles
@@ -753,8 +752,6 @@ const mathQuestions = {
             {topic: '3D Shapes', emoji: '📦🎯', question: 'If cube volume is 1728, find its surface area', answer: '864'},
             {topic: '3D Shapes', emoji: '🎲📊', question: 'Volume of cone formed by semicircle radius 7 rotating around diameter', answer: '343π/3'}
         ]
-    }
-
     },
     13: { // Chapter 13: Exponents and Powers
         easy: [
@@ -890,7 +887,7 @@ const mathQuestions = {
             {topic: 'Probability', emoji: '🃏📈', question: 'Total probability of all outcomes is 1.', options: ['True', 'False'], correct: 0},
             {topic: 'Probability', emoji: '🎲🔢', question: 'P(not A) = 1 - P(A).', options: ['True', 'False'], correct: 0},
             {topic: 'Probability', emoji: '🃏🎲', question: 'Deck has 52 cards.', options: ['True', 'False'], correct: 0},
-            {topic: 'Probability', emoji: '🎯💯', question: 'Independent events don't affect each other.', options: ['True', 'False'], correct: 0},
+            {topic: 'Probability', emoji: '🎯💯', question: 'Independent events don\'t affect each other.', options: ['True', 'False'], correct: 0},
             {topic: 'Probability', emoji: '🎲📊', question: 'Sample space contains all outcomes.', options: ['True', 'False'], correct: 0}
         ],
         medium: [
@@ -1251,8 +1248,6 @@ const mathQuestions = {
             {topic: 'Mensuration', emoji: '📏🔢', question: 'Area of rhombus if diagonals ratio 3:4 and perimeter 40', answer: '96'},
             {topic: 'Mensuration', emoji: '💯📐', question: 'Height of cone if volume 462 cm³ and base area 154 cm²', answer: '9'}
         ]
-    }
-
     }
 };
 

@@ -127,12 +127,15 @@ function selectSubject(subject) {
     quizMode = 'normal';
     returnPage = 'home';
 
-    // Get subject name from ID
-    const subjectNames = ['math', 'science', 'english', 'nepali', 'social', 'computer'];
-    const subjectName = subjectNames[subject];
+    // Set subject title
+    const subjectData = subjects[subject];
+    if (subjectData) {
+        document.getElementById('subjectTitle').innerHTML = `${subjectData.emoji} ${subjectData.name} ${subjectData.emoji}`;
+    }
 
-    // Navigate to WordPress subject page
-    window.location.href = `/${subjectName}/`;
+    // Initialize and show chapter selection
+    initializeChapters();
+    showScreen('chapter-selection');
 }
 
 function showTimerChallenges() {
@@ -388,13 +391,7 @@ function initializeTimerSubjects() {
 
 function selectChapter(chapter) {
     currentChapter = chapter;
-
-    // Get subject name from current subject ID
-    const subjectNames = ['math', 'science', 'english', 'nepali', 'social', 'computer'];
-    const subjectName = subjectNames[currentSubject];
-
-    // Navigate to WordPress chapter page
-    window.location.href = `/${subjectName}/chapter-${chapter}/`;
+    showLevelSelection();
 }
 
 function showChapterSelection() {
@@ -493,18 +490,6 @@ function showScreen(screenClass) {
 }
 
 function startQuiz(level, timedMode = false) {
-    // Check if we need to navigate to the level page first
-    const currentPath = window.location.pathname;
-    const subjectNames = ['math', 'science', 'english', 'nepali', 'social', 'computer'];
-    const expectedPath = `/${subjectNames[currentSubject]}/chapter-${currentChapter}/${level}/`;
-
-    // If not on the correct level page, navigate there
-    if (!currentPath.includes(`/chapter-${currentChapter}/${level}`)) {
-        window.location.href = expectedPath;
-        return;
-    }
-
-    // We're on the correct page, start the quiz
     clearFallingEmojis();
     stopTimer(); // Clear any existing timer
 
@@ -1038,91 +1023,23 @@ function addFloatingEmojis(emoji) {
     }
 }
 
-// Initialize on load - WordPress path-based URLs
+// Initialize on load - Single Page App with hash navigation
 window.onload = function() {
-    // Get current path from URL (e.g., /math/chapter-1/easy/)
-    const fullPath = window.location.pathname;
+    // Check if there's a hash in URL
+    const hash = window.location.hash.substring(1); // Remove the # symbol
+    const urlPath = hash || '';
 
-    // Remove leading/trailing slashes and split
-    const pathParts = fullPath.replace(/^\/|\/$/g, '').split('/');
+    // Get screen from URL hash (supports both old and new URL formats)
+    const screen = getScreenFromUrl(urlPath);
 
-    // Map subject names to IDs
-    const subjectMap = {
-        'math': 0,
-        'science': 1,
-        'english': 2,
-        'nepali': 3,
-        'social': 4,
-        'computer': 5
-    };
-
-    // Check if we're on homepage (root or no path)
-    if (pathParts.length === 0 || pathParts[0] === '') {
-        // Homepage
+    if (screen) {
+        // Show the screen from URL
+        showScreen(screen);
+    } else {
+        // Default to homepage
         history.replaceState({screen: 'home-page'}, '', window.location.pathname);
         showScreen('home-page');
     }
-    // Check for timer page
-    else if (pathParts[0] === 'timer') {
-        history.replaceState({screen: 'timer-challenges-page'}, '', window.location.pathname);
-        showScreen('timer-challenges-page');
-    }
-    // Check for practice page
-    else if (pathParts[0] === 'practice') {
-        history.replaceState({screen: 'practice-mode-page'}, '', window.location.pathname);
-        showScreen('practice-mode-page');
-    }
-    // Check for subject pages (e.g., /math/ or /math/chapter-1/ or /math/chapter-1/easy/)
-    else if (subjectMap.hasOwnProperty(pathParts[0])) {
-        const subject = pathParts[0];
-        currentSubject = subjectMap[subject];
-
-        // Just subject page - show chapters
-        if (pathParts.length === 1) {
-            const subjectData = subjects[currentSubject];
-            if (subjectData) {
-                document.getElementById('subjectTitle').innerHTML = `${subjectData.emoji} ${subjectData.name} ${subjectData.emoji}`;
-            }
-            initializeChapters();
-            history.replaceState({screen: 'chapter-selection', subject: currentSubject}, '', window.location.pathname);
-            showScreen('chapter-selection');
-        }
-        // Subject + chapter (e.g., /math/chapter-1/)
-        else if (pathParts.length === 2 && pathParts[1].startsWith('chapter-')) {
-            const chapterNum = parseInt(pathParts[1].replace('chapter-', ''));
-            currentChapter = chapterNum;
-            history.replaceState({screen: 'level-selection', subject: currentSubject, chapter: currentChapter}, '', window.location.pathname);
-            showScreen('level-selection');
-        }
-        // Subject + chapter + level (e.g., /math/chapter-1/easy/)
-        else if (pathParts.length === 3 && pathParts[1].startsWith('chapter-')) {
-            const chapterNum = parseInt(pathParts[1].replace('chapter-', ''));
-            const level = pathParts[2]; // easy, medium, hard, extreme
-
-            if (['easy', 'medium', 'hard', 'extreme'].includes(level)) {
-                currentChapter = chapterNum;
-                currentLevel = level;
-
-                // Start the quiz directly
-                history.replaceState({screen: 'quiz-container', subject: currentSubject, chapter: currentChapter, level: level}, '', window.location.pathname);
-                startQuiz(level, false);
-            } else {
-                // Invalid level - show level selection
-                currentChapter = chapterNum;
-                showScreen('level-selection');
-            }
-        }
-        else {
-            // Invalid path - go to homepage
-            showScreen('home-page');
-        }
-    }
-    // Unknown path - show homepage
-    else {
-        showScreen('home-page');
-    }
-
-    initializeChapters();
 
     // Mark initial load as complete
     isInitialLoad = false;

@@ -1317,9 +1317,9 @@ function updateSubjectCardStatus() {
 window.addEventListener('DOMContentLoaded', function() {
     setTimeout(updateSubjectCardStatus, 100);
 
-    // Intercept header home links to prevent page reload
-    const headerLinks = document.querySelectorAll('.quiz-header a[href*="quiz.smartfamilypicks.com"]');
-    headerLinks.forEach(link => {
+    // Intercept header AND footer home links to prevent page reload
+    const homeLinks = document.querySelectorAll('.quiz-header a[href*="quiz.smartfamilypicks.com"], .quiz-footer a[href*="quiz.smartfamilypicks.com"]');
+    homeLinks.forEach(link => {
         link.addEventListener('click', function(e) {
             e.preventDefault(); // Prevent default link behavior
             showHomePage(); // Use JavaScript navigation

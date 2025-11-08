@@ -241,7 +241,7 @@ const historyQuestions = {
             {topic: 'Ancient Rome', emoji: '🏛️👨‍⚖️', question: 'Who was Cicero?', options: ['Orator/statesman', 'General', 'Emperor', 'Gladiator'], correct: 0},
             {topic: 'Ancient Rome', emoji: '🛣️🏛️', question: 'What was a Roman aqueduct?', options: ['Water channel', 'Road', 'Bridge', 'Building'], correct: 0},
             {topic: 'Ancient Rome', emoji: '👑🦅', question: 'Who was Nero?', options: ['Emperor', 'General', 'Senator', 'Consul'], correct: 0},
-            {topic: 'Ancient Rome', emoji: '🏛️⚖️', question: 'What was the Praetorian Guard?', options: ["Emperor's bodyguard", 'Senate guard', 'City police', 'Army unit'], correct: 0},
+            {topic: 'Ancient Rome', emoji: '🏛️⚖️', question: "What was the Praetorian Guard?", options: ["Emperor's bodyguard", 'Senate guard', 'City police', 'Army unit'], correct: 0},
             {topic: 'Ancient Rome', emoji: '⚔️🛡️', question: 'Who sacked Rome in 410 AD?', options: ['Visigoths', 'Vandals', 'Huns', 'Ostrogoths'], correct: 0}
         ],
         extreme: [
@@ -359,7 +359,7 @@ const historyQuestions = {
         expert: [
             {topic: 'Renaissance', emoji: '🎨🖼️', question: 'Which Pope commissioned Sistine Chapel?', options: ['Julius II', 'Leo X', 'Clement VII', 'Paul III'], correct: 0},
             {topic: 'Renaissance', emoji: '📚✍️', question: "What was Leonardo's most famous painting?", options: ['Mona Lisa', 'Last Supper', 'Vitruvian Man', 'Annunciation'], correct: 0},
-            {topic: 'Renaissance', emoji: '🖼️🎭', question: 'What tomb did Michelangelo design?', options: ['Medici Chapel', "St. Peter's", 'Julius II', 'His own'], correct: 0},
+            {topic: 'Renaissance', emoji: '🖼️🎭', question: "What tomb did Michelangelo design?", options: ['Medici Chapel', "St. Peter's", 'Julius II', 'His own'], correct: 0},
             {topic: 'Renaissance', emoji: '📖🖋️', question: 'What was first printed book?', options: ['Gutenberg Bible', 'Divine Comedy', 'Canterbury Tales', 'Decameron'], correct: 0},
             {topic: 'Renaissance', emoji: '🎨👨‍🎨', question: 'What technique used perspective?', options: ['Linear perspective', 'Chiaroscuro', 'Sfumato', 'Fresco'], correct: 0},
             {topic: 'Renaissance', emoji: '🏛️📚', question: 'Who wrote "Divine Comedy"?', options: ['Dante', 'Petrarch', 'Boccaccio', 'Machiavelli'], correct: 0},
@@ -420,21 +420,21 @@ const historyQuestions = {
             {topic: 'Exploration', emoji: '🧭⛵', question: 'What was a cross-staff used for?', options: ['Measuring stars', 'Navigation', 'Both'], correct: 2}
         ],
         expert: [
-            {topic: 'Exploration', emoji: '🌍🚢', question: 'What were Columbus's three ships?', options: ['Niña, Pinta, Santa María', 'Victoria, Trinidad, San Antonio', 'Golden Hind, Pelican, Elizabeth', 'Matthew, Gabriel, Michael'], correct: 0},
+            {topic: 'Exploration', emoji: '🌍🚢', question: "What were Columbus's three ships?", options: ['Niña, Pinta, Santa María', 'Victoria, Trinidad, San Antonio', 'Golden Hind, Pelican, Elizabeth', 'Matthew, Gabriel, Michael'], correct: 0},
             {topic: 'Exploration', emoji: '⛵🗺️', question: 'Who named the Pacific Ocean?', options: ['Magellan', 'Balboa', 'Drake', 'Cook'], correct: 0},
-            {topic: 'Exploration', emoji: '🧭🌊', question: 'Who completed Magellan's voyage?', options: ['Elcano', 'Drake', 'Pigafetta', 'Barbosa'], correct: 0},
+            {topic: 'Exploration', emoji: '🧭🌊', question: "Who completed Magellan's voyage?", options: ['Elcano', 'Drake', 'Pigafetta', 'Barbosa'], correct: 0},
             {topic: 'Exploration', emoji: '🚢💰', question: 'What was the Silk Road?', options: ['Trade route', 'Sea route', 'River', 'Mountain pass'], correct: 0},
-            {topic: 'Exploration', emoji: '🌎⚓', question: 'What disease did da Gama's crew get?', options: ['Scurvy', 'Plague', 'Malaria', 'Typhus'], correct: 0},
+            {topic: 'Exploration', emoji: '🌎⚓', question: "What disease did da Gama's crew get?", options: ['Scurvy', 'Plague', 'Malaria', 'Typhus'], correct: 0},
             {topic: 'Exploration', emoji: '🗺️🧭', question: 'Who was Prince Henry the Navigator?', options: ['Portuguese prince', 'Spanish king', 'Explorer', 'Admiral'], correct: 0},
             {topic: 'Exploration', emoji: '⛵🌍', question: 'What treaty divided New World?', options: ['Tordesillas', 'Westphalia', 'Utrecht', 'Paris'], correct: 0},
-            {topic: 'Exploration', emoji: '🚢🌊', question: 'What was Drake's ship called?', options: ['Golden Hind', 'Mayflower', 'Endeavour', 'Victory'], correct: 0},
+            {topic: 'Exploration', emoji: '🚢🌊', question: "What was Drake's ship called?", options: ['Golden Hind', 'Mayflower', 'Endeavour', 'Victory'], correct: 0},
             {topic: 'Exploration', emoji: '💎🌴', question: 'Who conquered the Inca?', options: ['Pizarro', 'Cortés', 'Balboa', 'Coronado'], correct: 0},
             {topic: 'Exploration', emoji: '🧭⛵', question: 'What was a sextant used for?', options: ['Measuring angles', 'Time', 'Speed', 'Depth'], correct: 0}
         ],
         extreme: [
             {topic: 'Exploration', emoji: '🌍🚢', question: 'What island did Columbus first land on?', answer: 'San Salvador or Guanahani'},
             {topic: 'Exploration', emoji: '⛵🗺️', question: 'Name three motivations for exploration', answer: 'Gold, glory, God or trade, territory, religion (any 3)'},
-            {topic: 'Exploration', emoji: '🧭🌊', question: 'How long did Magellan's voyage take?', answer: '3 years or 1519-1522'},
+            {topic: 'Exploration', emoji: '🧭🌊', question: "How long did Magellan's voyage take?", answer: '3 years or 1519-1522'},
             {topic: 'Exploration', emoji: '🚢💰', question: 'Name three valuable spices', answer: 'Pepper, cinnamon, nutmeg, cloves (any 3)'},
             {topic: 'Exploration', emoji: '🌎⚓', question: 'What route did da Gama establish?', answer: 'Sea route to India via Cape of Good Hope'},
             {topic: 'Exploration', emoji: '🗺️🧭', question: 'Name three Portuguese explorers', answer: 'Da Gama, Dias, Cabral, Magellan (any 3)'},
@@ -443,8 +443,6 @@ const historyQuestions = {
             {topic: 'Exploration', emoji: '💎🌴', question: 'Name three conquistadors', answer: 'Cortés, Pizarro, Balboa, Coronado (any 3)'},
             {topic: 'Exploration', emoji: '🧭⛵', question: 'Name three navigation tools', answer: 'Compass, astrolabe, cross-staff, sextant (any 3)'}
         ]
-    }
-
     },
     8: { // Chapter 8: American Revolution  
         easy: [
@@ -461,7 +459,7 @@ const historyQuestions = {
         ],
         medium: [
             {topic: 'American Revolution', emoji: '🗽🇺🇸', question: 'What date was Declaration signed?', options: ['July 4, 1776', 'July 2, 1776'], correct: 0},
-            {topic: 'American Revolution', emoji: '⚔️🎖️', question: 'Where was Washington's winter camp?', options: ['Valley Forge', 'Philadelphia'], correct: 0},
+            {topic: 'American Revolution', emoji: '⚔️🎖️', question: "Where was Washington's winter camp?", options: ['Valley Forge', 'Philadelphia'], correct: 0},
             {topic: 'American Revolution', emoji: '📜✍️', question: 'What did Declaration declare?', options: ['Independence', 'War'], correct: 0},
             {topic: 'American Revolution', emoji: '🚢☕', question: 'What did colonists dump in harbor?', options: ['Tea', 'Sugar'], correct: 0},
             {topic: 'American Revolution', emoji: '🇬🇧⚔️', question: 'Who was British king?', options: ['George III', 'George II'], correct: 0},
@@ -477,7 +475,7 @@ const historyQuestions = {
             {topic: 'American Revolution', emoji: '📜✍️', question: 'Who helped write Declaration?', options: ['Franklin, Adams', 'Madison, Hamilton', 'Jay, Morris'], correct: 0},
             {topic: 'American Revolution', emoji: '🚢☕', question: 'When was Boston Tea Party?', options: ['1773', '1774', '1772'], correct: 0},
             {topic: 'American Revolution', emoji: '🇬🇧⚔️', question: 'What were British soldiers called?', options: ['Redcoats', 'Bluecoats', 'Grenadiers'], correct: 0},
-            {topic: 'American Revolution', emoji: '🎖️⚔️', question: 'When was Revere's ride?', options: ['April 1775', 'May 1775', 'March 1775'], correct: 0},
+            {topic: 'American Revolution', emoji: '🎖️⚔️', question: "When was Revere's ride?", options: ['April 1775', 'May 1775', 'March 1775'], correct: 0},
             {topic: 'American Revolution', emoji: '🔔🗽', question: 'When did Liberty Bell crack?', options: ['1800s', '1700s', '1900s'], correct: 0},
             {topic: 'American Revolution', emoji: '⚔️🏴', question: 'When did France join war?', options: ['1778', '1777', '1779'], correct: 0},
             {topic: 'American Revolution', emoji: '📜🇺🇸', question: 'How many signed Constitution?', options: ['39', '40', '50'], correct: 0},
@@ -486,11 +484,11 @@ const historyQuestions = {
         expert: [
             {topic: 'American Revolution', emoji: '🗽🇺🇸', question: 'What was Lexington and Concord?', options: ['First battles', 'Last battles', 'Major defeat', 'Peace talks'], correct: 0},
             {topic: 'American Revolution', emoji: '⚔️🎖️', question: 'Who wrote "Common Sense"?', options: ['Thomas Paine', 'Jefferson', 'Franklin', 'Adams'], correct: 0},
-            {topic: 'American Revolution', emoji: '📜✍️', question: 'What inspired Declaration's ideas?', options: ['Enlightenment', 'Bible', 'Roman law', 'English law'], correct: 0},
+            {topic: 'American Revolution', emoji: '📜✍️', question: "What inspired Declaration's ideas?", options: ['Enlightenment', 'Bible', 'Roman law', 'English law'], correct: 0},
             {topic: 'American Revolution', emoji: '🚢☕', question: 'What acts angered colonists?', options: ['Intolerable Acts', 'Stamp Act', 'Tea Act', 'All'], correct: 3},
             {topic: 'American Revolution', emoji: '🇬🇧⚔️', question: 'Who were Hessians?', options: ['German mercenaries', 'British soldiers', 'Loyalists', 'Natives'], correct: 0},
             {topic: 'American Revolution', emoji: '🎖️⚔️', question: 'Who was Minuteman?', options: ['Militia ready quickly', 'Regular soldier', 'Messenger', 'Spy'], correct: 0},
-            {topic: 'American Revolution', emoji: '🔔🗽', question: 'What's on Liberty Bell?', options: ['Bible verse', 'Declaration', 'Song', 'Prayer'], correct: 0},
+            {topic: 'American Revolution', emoji: '🔔🗽', question: "What's on Liberty Bell?", options: ['Bible verse', 'Declaration', 'Song', 'Prayer'], correct: 0},
             {topic: 'American Revolution', emoji: '⚔️🏴', question: 'What was Treaty of Alliance?', options: ['French-American pact', 'Peace treaty', 'Trade deal', 'Military plan'], correct: 0},
             {topic: 'American Revolution', emoji: '📜🇺🇸', question: 'Who is "Father of Constitution"?', options: ['Madison', 'Jefferson', 'Franklin', 'Washington'], correct: 0},
             {topic: 'American Revolution', emoji: '🎖️🗽', question: 'What ended the Revolutionary War?', options: ['Treaty of Paris', 'Treaty of Versailles', 'Yorktown', 'Surrender'], correct: 0}
@@ -527,7 +525,7 @@ const historyQuestions = {
             {topic: 'French Revolution', emoji: '🗼🇫🇷', question: 'When was Bastille stormed?', options: ['July 14, 1789', 'July 4, 1789'], correct: 0},
             {topic: 'French Revolution', emoji: '⚖️📜', question: 'What were the three estates?', options: ['Clergy, Nobles, Commoners', 'King, Lords, Peasants'], correct: 0},
             {topic: 'French Revolution', emoji: '🔪😱', question: 'Who led Reign of Terror?', options: ['Robespierre', 'Danton'], correct: 0},
-            {topic: 'French Revolution', emoji: '👑💎', question: 'What was Marie Antoinette's nickname?', options: ['Madame Deficit', 'Queen of Hearts'], correct: 0},
+            {topic: 'French Revolution', emoji: '👑💎', question: "What was Marie Antoinette's nickname?", options: ['Madame Deficit', 'Queen of Hearts'], correct: 0},
             {topic: 'French Revolution', emoji: '⚔️🇫🇷', question: 'What title did Napoleon take?', options: ['Emperor', 'King'], correct: 0},
             {topic: 'French Revolution', emoji: '🎭🗡️', question: 'Who invented the guillotine?', options: ['Dr. Guillotin', 'Robespierre'], correct: 0},
             {topic: 'French Revolution', emoji: '📜⚖️', question: 'What was declared in August 1789?', options: ['Rights of Man', 'Republic'], correct: 0},
@@ -547,24 +545,24 @@ const historyQuestions = {
         ],
         expert: [
             {topic: 'French Revolution', emoji: '🇫🇷⚔️', question: 'What caused French Revolution?', options: ['Financial crisis, inequality', 'Foreign invasion', 'Religious conflict', 'Civil war'], correct: 0},
-            {topic: 'French Revolution', emoji: '👑🔪', question: 'What was Louis XVI's crime?', options: ['Treason', 'Murder', 'Theft', 'Cowardice'], correct: 0},
+            {topic: 'French Revolution', emoji: '👑🔪', question: "What was Louis XVI's crime?", options: ['Treason', 'Murder', 'Theft', 'Cowardice'], correct: 0},
             {topic: 'French Revolution', emoji: '🗼🇫🇷', question: 'What did Bastille symbolize?', options: ['Royal tyranny', 'Justice', 'Power', 'Wealth'], correct: 0},
             {topic: 'French Revolution', emoji: '⚖️📜', question: 'What was Estates-General?', options: ['Assembly', 'Parliament', 'Court', 'Council'], correct: 0},
             {topic: 'French Revolution', emoji: '🔪😱', question: 'What group led Terror?', options: ['Jacobins', 'Girondins', 'Montagnards', 'Sans-culottes'], correct: 0},
             {topic: 'French Revolution', emoji: '👑💎', question: 'Where was Marie Antoinette from?', options: ['Austria', 'Germany', 'Spain', 'Italy'], correct: 0},
-            {topic: 'French Revolution', emoji: '⚔️🇫🇷', question: 'What was Napoleon's coup called?', options: ['18 Brumaire', '18 Thermidor', '9 Thermidor', '14 July'], correct: 0},
-            {topic: 'French Revolution', emoji: '🎭🗡️', question: 'What ended Reign of Terror?', options: ['Robespierre's execution', 'Napoleon's coup', 'Treaty', 'Invasion'], correct: 0},
+            {topic: 'French Revolution', emoji: '⚔️🇫🇷', question: "What was Napoleon's coup called?", options: ['18 Brumaire', '18 Thermidor', '9 Thermidor', '14 July'], correct: 0},
+            {topic: 'French Revolution', emoji: '🎭🗡️', question: "What ended Reign of Terror?", options: ["Robespierre's execution", "Napoleon's coup", 'Treaty', 'Invasion'], correct: 0},
             {topic: 'French Revolution', emoji: '📜⚖️', question: 'Who wrote "Social Contract"?', options: ['Rousseau', 'Voltaire', 'Montesquieu', 'Diderot'], correct: 0},
             {topic: 'French Revolution', emoji: '🔵⚪🔴', question: 'What was sans-culottes?', options: ['Working class', 'Nobles', 'Clergy', 'Soldiers'], correct: 0}
         ],
         extreme: [
             {topic: 'French Revolution', emoji: '🇫🇷⚔️', question: 'Name three causes of French Revolution', answer: 'Financial crisis, inequality, Enlightenment ideas (any 3)'},
-            {topic: 'French Revolution', emoji: '👑🔪', question: 'What were Louis XVI's last words?', answer: 'I die innocent or similar'},
+            {topic: 'French Revolution', emoji: '👑🔪', question: "What were Louis XVI's last words?", answer: 'I die innocent or similar'},
             {topic: 'French Revolution', emoji: '🗼🇫🇷', question: 'What date is Bastille Day?', answer: 'July 14'},
             {topic: 'French Revolution', emoji: '⚖️📜', question: 'Name three Enlightenment thinkers', answer: 'Rousseau, Voltaire, Montesquieu, Diderot (any 3)'},
             {topic: 'French Revolution', emoji: '🔪😱', question: 'How long did Reign of Terror last?', answer: '10 months or September 1793 - July 1794'},
             {topic: 'French Revolution', emoji: '👑💎', question: 'What supposedly did Marie Antoinette say about bread?', answer: 'Let them eat cake (disputed)'},
-            {topic: 'French Revolution', emoji: '⚔️🇫🇷', question: 'Name three of Napoleon's battles', answer: 'Austerlitz, Waterloo, Jena, Wagram (any 3)'},
+            {topic: 'French Revolution', emoji: '⚔️🇫🇷', question: "Name three of Napoleon's battles", answer: 'Austerlitz, Waterloo, Jena, Wagram (any 3)'},
             {topic: 'French Revolution', emoji: '🎭🗡️', question: 'How did Robespierre die?', answer: 'Guillotine'},
             {topic: 'French Revolution', emoji: '📜⚖️', question: 'Name three rights in Declaration', answer: 'Liberty, property, security, resistance (any 3)'},
             {topic: 'French Revolution', emoji: '🔵⚪🔴', question: 'What were the Directory years?', answer: '1795-1799'}
@@ -674,10 +672,10 @@ const historyQuestions = {
             {topic: 'World War I', emoji: '💣🔫', question: 'Who killed Franz Ferdinand?', options: ['Gavrilo Princip', 'Black Hand', 'Nationalist', 'Anarchist'], correct: 0},
             {topic: 'World War I', emoji: '🇬🇧🇫🇷', question: 'What were soldiers called?', options: ['Tommies/Poilus', 'Doughboys', 'Diggers', 'Soldiers'], correct: 0},
             {topic: 'World War I', emoji: '🇩🇪⚔️', question: 'What was unrestricted submarine warfare?', options: ['Attacking all ships', 'Naval blockade', 'Convoy system', 'Mine laying'], correct: 0},
-            {topic: 'World War I', emoji: '🎖️💀', question: 'What was no man\'s land?', options: ['Ground between trenches', 'Neutral territory', 'Dead zone', 'Battle area'], correct: 0},
+            {topic: 'World War I', emoji: '🎖️💀', question: "What was no man\'s land?", options: ['Ground between trenches', 'Neutral territory', 'Dead zone', 'Battle area'], correct: 0},
             {topic: 'World War I', emoji: '🚢💥', question: 'How many died on Lusitania?', options: ['1,198', '500', '2,000', '800'], correct: 0},
-            {topic: 'World War I', emoji: '🇺🇸⚔️', question: 'What was Wilson\'s plan?', options: ['14 Points', '10 Points', 'Peace Plan', 'League Plan'], correct: 0},
-            {topic: 'World War I', emoji: '✈️💣', question: 'What was Red Baron\'s real name?', options: ['Manfred von Richthofen', 'Hermann Göring', 'Ernst Udet', 'Oswald Boelcke'], correct: 0},
+            {topic: 'World War I', emoji: '🇺🇸⚔️', question: "What was Wilson\'s plan?", options: ['14 Points', '10 Points', 'Peace Plan', 'League Plan'], correct: 0},
+            {topic: 'World War I', emoji: '✈️💣', question: "What was Red Baron\'s real name?", options: ['Manfred von Richthofen', 'Hermann Göring', 'Ernst Udet', 'Oswald Boelcke'], correct: 0},
             {topic: 'World War I', emoji: '☠️💨', question: 'When was gas first used?', options: ['1915', '1914', '1916', '1917'], correct: 0},
             {topic: 'World War I', emoji: '📜🕊️', question: 'What did Treaty do to Germany?', options: ['Harsh reparations/blame', 'Light punishment', 'Division', 'Occupation'], correct: 0}
         ],
@@ -688,7 +686,7 @@ const historyQuestions = {
             {topic: 'World War I', emoji: '🇩🇪⚔️', question: 'Name three Central Powers', answer: 'Germany, Austria-Hungary, Ottoman Empire, Bulgaria (any 3)'},
             {topic: 'World War I', emoji: '🎖️💀', question: 'Name three major WWI battles', answer: 'Somme, Verdun, Marne, Tannenberg, Gallipoli (any 3)'},
             {topic: 'World War I', emoji: '🚢💥', question: 'What year was Lusitania sunk?', answer: '1915'},
-            {topic: 'World War I', emoji: '🇺🇸⚔️', question: 'Name three of Wilson\'s 14 Points', answer: 'Self-determination, League of Nations, open diplomacy (any 3)'},
+            {topic: 'World War I', emoji: '🇺🇸⚔️', question: "Name three of Wilson\'s 14 Points", answer: 'Self-determination, League of Nations, open diplomacy (any 3)'},
             {topic: 'World War I', emoji: '✈️💣', question: 'How many victories did Red Baron have?', answer: '80'},
             {topic: 'World War I', emoji: '☠️💨', question: 'Name three types of poison gas used', answer: 'Chlorine, mustard gas, phosgene (any 3)'},
             {topic: 'World War I', emoji: '📜🕊️', question: 'What organization did Treaty create?', answer: 'League of Nations'}
@@ -709,7 +707,7 @@ const historyQuestions = {
         ],
         medium: [
             {topic: 'World War II', emoji: '⚔️🌎', question: 'What started WWII?', options: ['Germany invaded Poland', 'Pearl Harbor'], correct: 0},
-            {topic: 'World War II', emoji: '🇩🇪💀', question: 'What was Hitler\'s party?', options: ['Nazi', 'Fascist'], correct: 0},
+            {topic: 'World War II', emoji: '🇩🇪💀', question: "What was Hitler\'s party?", options: ['Nazi', 'Fascist'], correct: 0},
             {topic: 'World War II', emoji: '💣🏙️', question: 'When was Pearl Harbor?', options: ['December 7, 1941', 'December 7, 1942'], correct: 0},
             {topic: 'World War II', emoji: '✡️😢', question: 'What was Holocaust?', options: ['Genocide of Jews', 'Battle'], correct: 0},
             {topic: 'World War II', emoji: '🇺🇸🇬🇧', question: 'Who were main Allies?', options: ['USA, Britain, USSR', 'Germany, Italy'], correct: 0},
@@ -721,7 +719,7 @@ const historyQuestions = {
         ],
         hard: [
             {topic: 'World War II', emoji: '⚔️🌎', question: 'When did WWII start?', options: ['September 1, 1939', 'September 3, 1939', 'December 7, 1941'], correct: 0},
-            {topic: 'World War II', emoji: '🇩🇪💀', question: 'What was Hitler\'s book?', options: ['Mein Kampf', 'Das Kapital', 'Manifesto'], correct: 0},
+            {topic: 'World War II', emoji: '🇩🇪💀', question: "What was Hitler\'s book?", options: ['Mein Kampf', 'Das Kapital', 'Manifesto'], correct: 0},
             {topic: 'World War II', emoji: '💣🏙️', question: 'Who attacked Pearl Harbor?', options: ['Japan', 'Germany', 'Italy'], correct: 0},
             {topic: 'World War II', emoji: '✡️😢', question: 'How many Jews were killed?', options: ['6 million', '10 million', '3 million'], correct: 0},
             {topic: 'World War II', emoji: '🇺🇸🇬🇧', question: 'Who was British PM?', options: ['Churchill', 'Chamberlain', 'Attlee'], correct: 0},

@@ -566,6 +566,7 @@ const mathQuestions = {
             {topic: 'Angles', emoji: '📐💰', question: 'Triangle exterior angles ratio 4:5:6. Find smallest interior.', answer: '48°'},
             {topic: 'Angles', emoji: '📏🔢', question: 'How many diagonals in a decagon (10 sides)?', answer: '35'},
             {topic: 'Angles', emoji: '🔺📊', question: 'If n-gon has 54 diagonals, find n', answer: '12'}
+        ]
     },
     10: { // Chapter 10: Triangles
         easy: [
@@ -627,8 +628,6 @@ const mathQuestions = {
             {topic: 'Triangles', emoji: '📐📊', question: 'Area with two sides 10, 12 and included angle 30°', answer: '30'},
             {topic: 'Triangles', emoji: '🔺🎯', question: 'If triangle sides are x, x+2, x+4 and perimeter 30, find x', answer: '8'},
             {topic: 'Triangles', emoji: '📏🔺', question: 'Distance from centroid to vertex if median length 15', answer: '10'}
-        ]
-    }
         ]
     },
     11: { // Chapter 11: Circles
@@ -755,6 +754,4 @@ const mathQuestions = {
             {topic: '3D Shapes', emoji: '🎲📊', question: 'Volume of cone formed by semicircle radius 7 rotating around diameter', answer: '343π/3'}
         ]
     }
-
-    },
 };

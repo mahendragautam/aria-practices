@@ -538,6 +538,8 @@ function getAvailableChapters(subject) {
 // Initialize chapters - DYNAMIC based on question bank
 function initializeChapters() {
     const grid = document.getElementById('chapterGrid');
+    if (!grid) return; // Exit if element doesn't exist (not on quiz page)
+
     grid.innerHTML = ''; // Clear existing
 
     // Get only chapters that have questions
@@ -601,7 +603,14 @@ function showScreen(screenClass, scrollToTop = true) {
     document.querySelectorAll('.home-page, .chapter-selection, .level-selection, .quiz-container, .result-container, .timer-challenges-page, .timer-subject-level-selection, .practice-mode-page, .riddles-page, .dad-jokes-page').forEach(el => {
         el.classList.remove('active');
     });
-    document.querySelector(`.${screenClass}`).classList.add('active');
+
+    const targetScreen = document.querySelector(`.${screenClass}`);
+    if (!targetScreen) {
+        console.warn(`⚠️ Screen element .${screenClass} not found. Are you on the quiz page?`);
+        return; // Exit if element doesn't exist
+    }
+
+    targetScreen.classList.add('active');
 
     // Smart scroll: Only scroll to top on forward navigation, not on back/restore
     if (scrollToTop) {
@@ -1168,6 +1177,14 @@ function addFloatingEmojis(emoji) {
 window.onload = function() {
     console.log('🚀 Quiz app initializing...');
 
+    // Check if we're on a quiz page (has .main-container element)
+    const isQuizPage = document.querySelector('.main-container') !== null;
+
+    if (!isQuizPage) {
+        console.log('ℹ️ Not a quiz page, skipping quiz initialization');
+        return; // Exit early if not on quiz page
+    }
+
     // Try to restore previous state
     const restored = restoreQuizState();
 
@@ -1183,6 +1200,10 @@ window.onload = function() {
 
 // Handle browser back/forward buttons
 window.addEventListener('popstate', function(event) {
+    // Only handle popstate on quiz pages
+    const isQuizPage = document.querySelector('.main-container') !== null;
+    if (!isQuizPage) return;
+
     // Set flag to prevent recursive pushState
     isNavigatingHistory = true;
 
@@ -1315,6 +1336,10 @@ function updateSubjectCardStatus() {
 
 // Call this after page loads
 window.addEventListener('DOMContentLoaded', function() {
+    // Only run on quiz pages
+    const isQuizPage = document.querySelector('.main-container') !== null;
+    if (!isQuizPage) return;
+
     setTimeout(updateSubjectCardStatus, 100);
 
     // Intercept header AND footer home links to prevent page reload

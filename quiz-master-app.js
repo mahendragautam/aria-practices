@@ -1027,6 +1027,8 @@ window.addEventListener('popstate', function(event) {
                 break;
 
             case 'chapter-selection':
+                clearFallingEmojis(true); // Instant removal for browser back button
+                stopTimer();
                 const subjectData = subjects[currentSubject];
                 if (subjectData) {
                     document.getElementById('subjectTitle').innerHTML = `${subjectData.emoji} ${subjectData.name} ${subjectData.emoji}`;
@@ -1036,15 +1038,21 @@ window.addEventListener('popstate', function(event) {
                 break;
 
             case 'level-selection':
+                clearFallingEmojis(true); // Instant removal for browser back button
+                stopTimer();
                 showScreen('level-selection');
                 break;
 
             case 'timer-challenges-page':
+                clearFallingEmojis(true); // Instant removal for browser back button
+                stopTimer();
                 initializeTimerSubjects();
                 showScreen('timer-challenges-page');
                 break;
 
             case 'timer-subject-level-selection':
+                clearFallingEmojis(true); // Instant removal for browser back button
+                stopTimer();
                 const timerSubjectData = subjects[currentSubject];
                 if (timerSubjectData) {
                     document.getElementById('timerSubjectTitle').innerHTML = `${timerSubjectData.emoji} ${timerSubjectData.name} - Select Level`;
@@ -1053,19 +1061,27 @@ window.addEventListener('popstate', function(event) {
                 break;
 
             case 'practice-mode-page':
+                clearFallingEmojis(true); // Instant removal for browser back button
+                stopTimer();
                 showScreen('practice-mode-page');
                 break;
 
             case 'riddles-page':
+                clearFallingEmojis(true); // Instant removal for browser back button
+                stopTimer();
                 showScreen('riddles-page');
                 break;
 
             case 'dad-jokes-page':
+                clearFallingEmojis(true); // Instant removal for browser back button
+                stopTimer();
                 showScreen('dad-jokes-page');
                 break;
 
             default:
                 // For quiz-container, result-container, etc.
+                clearFallingEmojis(true); // Instant removal for browser back button
+                stopTimer();
                 showScreen(event.state.screen);
         }
     } else {

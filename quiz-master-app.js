@@ -1309,11 +1309,31 @@ let loadingProgress = {
 // Show loading screen on page load
 (function() {
     // Add loading class to body to hide main content
-    document.body.classList.add('quiz-loading');
+    if (document.body) {
+        document.body.classList.add('quiz-loading');
+    } else {
+        document.addEventListener('DOMContentLoaded', function() {
+            document.body.classList.add('quiz-loading');
+        });
+    }
 
-    // Create loading overlay
+    // Create loading overlay with inline styles for immediate effect
     const loadingScreen = document.createElement('div');
     loadingScreen.id = 'quiz-loading-screen';
+    loadingScreen.style.cssText = `
+        position: fixed !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100vw !important;
+        height: 100vh !important;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        z-index: 999999 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    `;
     loadingScreen.innerHTML = `
         <div class="loading-content">
             <div class="loading-emoji">🎮</div>
@@ -1334,12 +1354,14 @@ let loadingProgress = {
         </div>
     `;
 
-    // Insert at start of body
+    // Insert at start of body immediately
     if (document.body) {
         document.body.insertBefore(loadingScreen, document.body.firstChild);
     } else {
         document.addEventListener('DOMContentLoaded', function() {
-            document.body.insertBefore(loadingScreen, document.body.firstChild);
+            if (document.body) {
+                document.body.insertBefore(loadingScreen, document.body.firstChild);
+            }
         });
     }
 })();

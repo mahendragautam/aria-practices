@@ -358,7 +358,11 @@ html {
 /* Responsive Styles - Mobile */
 @media (max-width: 480px) {
     body {
-        padding: 5px;
+        padding: 5px !important; /* Force 5px padding */
+    }
+
+    .container {
+        padding: 0; /* Container has no extra padding */
     }
 
     .emoji-item {
@@ -426,38 +430,35 @@ html {
 
 /* ============================================
    TWENTY TWENTY-FIVE THEME FIX
-   Adds optimal padding for mobile devices
+   Force consistent 5px padding on mobile
    ============================================ */
 
-/* Mobile devices - Add small padding for better spacing */
+/* Mobile devices - Force 5px all around */
 @media (max-width: 768px) {
     .wp-site-blocks,
     .wp-block-post-content,
-    body,
-    .has-global-padding {
-        padding-left: 6px !important;
-        padding-right: 6px !important;
+    .has-global-padding,
+    .entry-content {
+        padding: 5px !important;
     }
-    
+
+    body {
+        padding: 5px !important; /* Consistent 5px padding */
+    }
+
     .has-global-padding > .alignfull {
         margin-left: 0 !important;
         margin-right: 0 !important;
     }
-    
-    .entry-content {
-        padding-left: 6px !important;
-        padding-right: 6px !important;
-    }
 }
 
-/* Extra small screens - Smaller padding */
+/* Extra small screens - Keep same 5px padding */
 @media (max-width: 400px) {
     .wp-site-blocks,
     .wp-block-post-content,
-    body,
     .has-global-padding,
-    .entry-content {
-        padding-left: 4px !important;
-        padding-right: 4px !important;
+    .entry-content,
+    body {
+        padding: 5px !important; /* Consistent 5px everywhere */
     }
 }

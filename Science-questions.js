@@ -753,5 +753,502 @@ const mathQuestions = {
             {topic: '3D Shapes', emoji: '📦🎯', question: 'If cube volume is 1728, find its surface area', answer: '864'},
             {topic: '3D Shapes', emoji: '🎲📊', question: 'Volume of cone formed by semicircle radius 7 rotating around diameter', answer: '343π/3'}
         ]
+    },
+        13: { // Chapter 13: Exponents and Powers
+        easy: [
+            {topic: 'Exponents', emoji: '🔢💪', question: '2³ equals 8.', options: ['True', 'False'], correct: 0},
+            {topic: 'Exponents', emoji: '💯📊', question: 'Any number to power 0 equals 1.', options: ['True', 'False'], correct: 0},
+            {topic: 'Exponents', emoji: '🔢🎯', question: '10² equals 100.', options: ['True', 'False'], correct: 0},
+            {topic: 'Exponents', emoji: '💪📈', question: '5¹ equals 5.', options: ['True', 'False'], correct: 0},
+            {topic: 'Exponents', emoji: '🔢💯', question: '3² equals 9.', options: ['True', 'False'], correct: 0},
+            {topic: 'Exponents', emoji: '📊🎯', question: '4² equals 16.', options: ['True', 'False'], correct: 0},
+            {topic: 'Exponents', emoji: '💪🔢', question: '2⁴ equals 16.', options: ['True', 'False'], correct: 0},
+            {topic: 'Exponents', emoji: '💯📈', question: '1 to any power equals 1.', options: ['True', 'False'], correct: 0},
+            {topic: 'Exponents', emoji: '🔢📊', question: '6² equals 36.', options: ['True', 'False'], correct: 0},
+            {topic: 'Exponents', emoji: '🎯💪', question: '10³ equals 1000.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Exponents', emoji: '🔢💪', question: 'What is 2⁵?', options: ['32', '64'], correct: 0},
+            {topic: 'Exponents', emoji: '💯📊', question: 'What is 3⁴?', options: ['81', '64'], correct: 0},
+            {topic: 'Exponents', emoji: '🔢🎯', question: 'What is 5³?', options: ['125', '75'], correct: 0},
+            {topic: 'Exponents', emoji: '💪📈', question: 'Simplify: 2³ × 2²', options: ['2⁵', '2⁶'], correct: 0},
+            {topic: 'Exponents', emoji: '🔢💯', question: 'What is 7²?', options: ['49', '14'], correct: 0},
+            {topic: 'Exponents', emoji: '📊🎯', question: 'Simplify: 10⁴ ÷ 10²', options: ['10²', '10⁶'], correct: 0},
+            {topic: 'Exponents', emoji: '💪🔢', question: 'What is 2⁻¹?', options: ['0.5', '2'], correct: 0},
+            {topic: 'Exponents', emoji: '💯📈', question: 'What is (3²)²?', options: ['3⁴', '3⁸'], correct: 0},
+            {topic: 'Exponents', emoji: '🔢📊', question: 'What is 8²?', options: ['64', '16'], correct: 0},
+            {topic: 'Exponents', emoji: '🎯💪', question: 'Simplify: 5² × 5³', options: ['5⁵', '5⁶'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Exponents', emoji: '🔢💪', question: 'Simplify: (2³)⁴', options: ['2¹²', '2⁷', '2¹⁶'], correct: 0},
+            {topic: 'Exponents', emoji: '💯📊', question: 'What is 4⁻²?', options: ['1/16', '1/8', '1/4'], correct: 0},
+            {topic: 'Exponents', emoji: '🔢🎯', question: 'Simplify: (x²y³)²', options: ['x⁴y⁶', 'x⁴y⁵', 'x²y⁶'], correct: 0},
+            {topic: 'Exponents', emoji: '💪📈', question: 'What is 2⁶ ÷ 2³?', options: ['8', '4', '16'], correct: 0},
+            {topic: 'Exponents', emoji: '🔢💯', question: 'Simplify: 3⁵ × 3⁻²', options: ['3³', '3⁷', '3¹⁰'], correct: 0},
+            {topic: 'Exponents', emoji: '📊🎯', question: 'What is (5²)³?', options: ['5⁶', '5⁵', '5⁸'], correct: 0},
+            {topic: 'Exponents', emoji: '💪🔢', question: 'Simplify: x⁸ ÷ x³', options: ['x⁵', 'x¹¹', 'x⁶'], correct: 0},
+            {topic: 'Exponents', emoji: '💯📈', question: 'What is 16^(1/2)?', options: ['4', '8', '2'], correct: 0},
+            {topic: 'Exponents', emoji: '🔢📊', question: 'Simplify: (ab²)³', options: ['a³b⁶', 'a³b⁵', 'a²b⁶'], correct: 0},
+            {topic: 'Exponents', emoji: '🎯💪', question: 'What is 27^(1/3)?', options: ['3', '9', '6'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Exponents', emoji: '🔢💪', question: 'Simplify: (2x³y²)⁴', options: ['16x¹²y⁸', '8x¹²y⁸', '16x⁷y⁶', '2x¹²y⁸'], correct: 0},
+            {topic: 'Exponents', emoji: '💯📊', question: 'What is 8^(2/3)?', options: ['4', '2', '8', '16'], correct: 0},
+            {topic: 'Exponents', emoji: '🔢🎯', question: 'Simplify: (x⁻²y³)⁻³', options: ['x⁶/y⁹', 'x⁶y⁹', 'x⁻⁶y⁹', 'x⁻⁶/y⁹'], correct: 0},
+            {topic: 'Exponents', emoji: '💪📈', question: 'What is 32^(3/5)?', options: ['8', '16', '4', '32'], correct: 0},
+            {topic: 'Exponents', emoji: '🔢💯', question: 'Simplify: (2⁴ × 3²)/(2² × 3)', options: ['12', '18', '6', '24'], correct: 0},
+            {topic: 'Exponents', emoji: '📊🎯', question: 'What is (1/4)⁻²?', options: ['16', '8', '4', '1/16'], correct: 0},
+            {topic: 'Exponents', emoji: '💪🔢', question: 'Simplify: √(x⁴y⁶)', options: ['x²y³', 'x²y²', 'xy³', 'x⁴y³'], correct: 0},
+            {topic: 'Exponents', emoji: '💯📈', question: 'What is 64^(-1/3)?', options: ['1/4', '4', '1/8', '8'], correct: 0},
+            {topic: 'Exponents', emoji: '🔢📊', question: 'Simplify: (a²b⁻³)/(a⁻¹b²)', options: ['a³/b⁵', 'a³b⁵', 'a/b⁵', 'a³/b'], correct: 0},
+            {topic: 'Exponents', emoji: '🎯💪', question: 'What is 125^(2/3)?', options: ['25', '15', '5', '50'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Exponents', emoji: '🔢💪', question: 'Simplify: (3²)³ × 3⁻⁴', answer: '9 or 3²'},
+            {topic: 'Exponents', emoji: '💯📊', question: 'If 2^x = 32, find x', answer: '5'},
+            {topic: 'Exponents', emoji: '🔢🎯', question: 'Simplify: (x³y⁻²z)⁴/(x²y⁻³z⁴)', answer: 'x¹⁰y⁴ or x^10/y^-4'},
+            {topic: 'Exponents', emoji: '💪📈', question: 'What is 16^(3/4)?', answer: '8'},
+            {topic: 'Exponents', emoji: '🔢💯', question: 'If 3^(2x+1) = 27, find x', answer: '1'},
+            {topic: 'Exponents', emoji: '📊🎯', question: 'Simplify: (2^n × 4^n)/8^n', answer: '1'},
+            {topic: 'Exponents', emoji: '💪🔢', question: 'What is (√2)⁸?', answer: '16'},
+            {topic: 'Exponents', emoji: '💯📈', question: 'If 5^x = 1/125, find x', answer: '-3'},
+            {topic: 'Exponents', emoji: '🔢📊', question: 'Simplify: (27)^(4/3)', answer: '81'},
+            {topic: 'Exponents', emoji: '🎯💪', question: 'If 2^x × 4^x = 64, find x', answer: '2'}
+        ]
+    },
+    14: { // Chapter 14: Square Roots and Radicals
+        easy: [
+            {topic: 'Square Roots', emoji: '√️🔢', question: '√4 equals 2.', options: ['True', 'False'], correct: 0},
+            {topic: 'Square Roots', emoji: '💯√️', question: '√9 equals 3.', options: ['True', 'False'], correct: 0},
+            {topic: 'Square Roots', emoji: '√️📊', question: '√16 equals 4.', options: ['True', 'False'], correct: 0},
+            {topic: 'Square Roots', emoji: '🔢💪', question: '√25 equals 5.', options: ['True', 'False'], correct: 0},
+            {topic: 'Square Roots', emoji: '√️🎯', question: '√36 equals 6.', options: ['True', 'False'], correct: 0},
+            {topic: 'Square Roots', emoji: '💯🔢', question: '√49 equals 7.', options: ['True', 'False'], correct: 0},
+            {topic: 'Square Roots', emoji: '√️📈', question: '√64 equals 8.', options: ['True', 'False'], correct: 0},
+            {topic: 'Square Roots', emoji: '🔢√️', question: '√81 equals 9.', options: ['True', 'False'], correct: 0},
+            {topic: 'Square Roots', emoji: '💪💯', question: '√100 equals 10.', options: ['True', 'False'], correct: 0},
+            {topic: 'Square Roots', emoji: '√️📊', question: '√1 equals 1.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Square Roots', emoji: '√️🔢', question: 'What is √121?', options: ['11', '12'], correct: 0},
+            {topic: 'Square Roots', emoji: '💯√️', question: 'Find √144', options: ['12', '14'], correct: 0},
+            {topic: 'Square Roots', emoji: '√️📊', question: 'What is √169?', options: ['13', '12'], correct: 0},
+            {topic: 'Square Roots', emoji: '🔢💪', question: 'Simplify: √50', options: ['5√2', '2√5'], correct: 0},
+            {topic: 'Square Roots', emoji: '√️🎯', question: 'What is √196?', options: ['14', '13'], correct: 0},
+            {topic: 'Square Roots', emoji: '💯🔢', question: 'Simplify: √32', options: ['4√2', '2√8'], correct: 0},
+            {topic: 'Square Roots', emoji: '√️📈', question: 'What is √225?', options: ['15', '14'], correct: 0},
+            {topic: 'Square Roots', emoji: '🔢√️', question: 'Simplify: √18', options: ['3√2', '2√3'], correct: 0},
+            {topic: 'Square Roots', emoji: '💪💯', question: 'What is √256?', options: ['16', '15'], correct: 0},
+            {topic: 'Square Roots', emoji: '√️📊', question: 'Simplify: √75', options: ['5√3', '3√5'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Square Roots', emoji: '√️🔢', question: 'Simplify: √(48)', options: ['4√3', '3√4', '2√12'], correct: 0},
+            {topic: 'Square Roots', emoji: '💯√️', question: 'What is √(0.25)?', options: ['0.5', '0.25', '1'], correct: 0},
+            {topic: 'Square Roots', emoji: '√️📊', question: 'Simplify: 2√3 + 3√3', options: ['5√3', '6√3', '√15'], correct: 0},
+            {topic: 'Square Roots', emoji: '🔢💪', question: 'Rationalize: 1/√2', options: ['√2/2', '1/2', '2/√2'], correct: 0},
+            {topic: 'Square Roots', emoji: '√️🎯', question: 'Simplify: √8 × √2', options: ['4', '√16', '2√4'], correct: 0},
+            {topic: 'Square Roots', emoji: '💯🔢', question: 'What is √(49/64)?', options: ['7/8', '1/2', '8/7'], correct: 0},
+            {topic: 'Square Roots', emoji: '√️📈', question: 'Simplify: √72', options: ['6√2', '2√36', '8√3'], correct: 0},
+            {topic: 'Square Roots', emoji: '🔢√️', question: 'Rationalize: 2/√5', options: ['2√5/5', '√5/2', '10/√5'], correct: 0},
+            {topic: 'Square Roots', emoji: '💪💯', question: 'Simplify: √27 + √12', options: ['3√3 + 2√3', '√39', '5√3'], correct: 0},
+            {topic: 'Square Roots', emoji: '√️📊', question: 'What is (√5)²?', options: ['5', '√25', '25'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Square Roots', emoji: '√️🔢', question: 'Rationalize: 1/(√3 + √2)', options: ['√3 - √2', '1', '√3 + √2', '√6'], correct: 0},
+            {topic: 'Square Roots', emoji: '💯√️', question: 'Reduce: √(x⁴y⁶)', options: ['x²y³', 'x²y²', 'xy³', 'x⁴y³'], correct: 0},
+            {topic: 'Square Roots', emoji: '√️📊', question: 'What is ³√27?', options: ['3', '9', '6', '√27'], correct: 0},
+            {topic: 'Square Roots', emoji: '🔢💪', question: 'Simplify: (2 + √3)(2 - √3)', options: ['1', '4', '7', '4 - 3'], correct: 0},
+            {topic: 'Square Roots', emoji: '√️🎯', question: 'Rationalize: 3/(2 - √5)', options: ['-6 - 3√5', '6 + 3√5', '3√5', '-3√5'], correct: 0},
+            {topic: 'Square Roots', emoji: '💯🔢', question: 'What is ³√64?', options: ['4', '8', '2', '16'], correct: 0},
+            {topic: 'Square Roots', emoji: '√️📈', question: 'Simplify: √(98a²b⁴)', options: ['7ab²√2', '7a²b⁴√2', '14ab²', '7ab√2'], correct: 0},
+            {topic: 'Square Roots', emoji: '🔢√️', question: 'What is ⁴√16?', options: ['2', '4', '8', '1'], correct: 0},
+            {topic: 'Square Roots', emoji: '💪💯', question: 'Rationalize: √2/(√3 - 1)', options: ['(√6 + √2)/2', '√6 - √2', '√6/2', '√2'], correct: 0},
+            {topic: 'Square Roots', emoji: '√️📊', question: 'Simplify: ³√(54x⁶)', options: ['3x²³√2', '3x³√2', '6x²', '9x²'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Square Roots', emoji: '√️🔢', question: 'Rationalize: (√5 + √3)/(√5 - √3)', answer: '4 + √15 or (4 + √15)'},
+            {topic: 'Square Roots', emoji: '💯√️', question: 'Simplify: √(12 + 2√35)', answer: '√7 + √5'},
+            {topic: 'Square Roots', emoji: '√️📊', question: 'If √(x + 5) = 7, find x', answer: '44'},
+            {topic: 'Square Roots', emoji: '🔢💪', question: 'Simplify: ³√(128x⁹y⁶)', answer: '4x³y²³√2'},
+            {topic: 'Square Roots', emoji: '√️🎯', question: 'Rationalize: 1/(√2 + √3 + √5)', answer: '(√30 + √10 - √6 - 2)/4'},
+            {topic: 'Square Roots', emoji: '💯🔢', question: 'What is ⁴√(256)?', answer: '4'},
+            {topic: 'Square Roots', emoji: '√️📈', question: 'If √(2x + 3) = √(x + 7), find x', answer: '4'},
+            {topic: 'Square Roots', emoji: '🔢√️', question: 'Simplify: (√3 + √2)²', answer: '5 + 2√6'},
+            {topic: 'Square Roots', emoji: '💪💯', question: 'Rationalize: 2/(³√4)', answer: '³√2'},
+            {topic: 'Square Roots', emoji: '√️📊', question: 'If √x + 1/√x = 3, find x + 1/x', answer: '7'}
+        ]
+    },
+    15: { // Chapter 15: Probability
+        easy: [
+            {topic: 'Probability', emoji: '🎲🎯', question: 'Probability is between 0 and 1.', options: ['True', 'False'], correct: 0},
+            {topic: 'Probability', emoji: '🃏💯', question: 'Impossible event has probability 0.', options: ['True', 'False'], correct: 0},
+            {topic: 'Probability', emoji: '🎲📊', question: 'Certain event has probability 1.', options: ['True', 'False'], correct: 0},
+            {topic: 'Probability', emoji: '🃏🎯', question: 'Probability of heads in coin toss is 0.5.', options: ['True', 'False'], correct: 0},
+            {topic: 'Probability', emoji: '🎲💰', question: 'Dice has 6 equally likely outcomes.', options: ['True', 'False'], correct: 0},
+            {topic: 'Probability', emoji: '🃏📈', question: 'Total probability of all outcomes is 1.', options: ['True', 'False'], correct: 0},
+            {topic: 'Probability', emoji: '🎲🔢', question: 'P(not A) = 1 - P(A).', options: ['True', 'False'], correct: 0},
+            {topic: 'Probability', emoji: '🃏🎲', question: 'Deck has 52 cards.', options: ['True', 'False'], correct: 0},
+            {topic: 'Probability', emoji: '🎯💯', question: "Independent events don't affect each other.", options: ['True', 'False'], correct: 0},
+            {topic: 'Probability', emoji: '🎲📊', question: 'Sample space contains all outcomes.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Probability', emoji: '🎲🎯', question: 'Probability of getting 3 on a die?', options: ['1/6', '1/3'], correct: 0},
+            {topic: 'Probability', emoji: '🃏💯', question: 'Probability of drawing a heart from deck?', options: ['1/4', '1/13'], correct: 0},
+            {topic: 'Probability', emoji: '🎲📊', question: 'Probability of even number on die?', options: ['1/2', '1/3'], correct: 0},
+            {topic: 'Probability', emoji: '🃏🎯', question: 'Probability of drawing an ace?', options: ['1/13', '1/52'], correct: 0},
+            {topic: 'Probability', emoji: '🎲💰', question: 'Probability of getting more than 4 on die?', options: ['1/3', '1/2'], correct: 0},
+            {topic: 'Probability', emoji: '🃏📈', question: 'If P(A) = 0.3, what is P(not A)?', options: ['0.7', '0.3'], correct: 0},
+            {topic: 'Probability', emoji: '🎲🔢', question: 'Probability of rolling a 1 or 2?', options: ['1/3', '1/6'], correct: 0},
+            {topic: 'Probability', emoji: '🃏🎲', question: 'Probability of drawing a face card?', options: ['3/13', '1/4'], correct: 0},
+            {topic: 'Probability', emoji: '🎯💯', question: 'Probability of two heads in 2 tosses?', options: ['1/4', '1/2'], correct: 0},
+            {topic: 'Probability', emoji: '🎲📊', question: 'Probability of getting 7 on die?', options: ['0', '1/6'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Probability', emoji: '🎲🎯', question: 'Probability of sum 7 with two dice?', options: ['1/6', '1/12', '1/36'], correct: 0},
+            {topic: 'Probability', emoji: '🃏💯', question: 'P(drawing 2 aces from deck without replacement)?', options: ['1/221', '1/169', '1/52'], correct: 0},
+            {topic: 'Probability', emoji: '🎲📊', question: 'P(at least one head in 3 coin tosses)?', options: ['7/8', '1/2', '3/4'], correct: 0},
+            {topic: 'Probability', emoji: '🃏🎯', question: 'P(both cards red, 2 draws no replacement)?', options: ['25/102', '1/4', '1/2'], correct: 0},
+            {topic: 'Probability', emoji: '🎲💰', question: 'If A and B independent, P(A)=0.4, P(B)=0.5, P(A∩B)?', options: ['0.2', '0.9', '0.1'], correct: 0},
+            {topic: 'Probability', emoji: '🃏📈', question: 'P(sum of 2 dice is 10)?', options: ['1/12', '1/6', '1/36'], correct: 0},
+            {topic: 'Probability', emoji: '🎲🔢', question: 'P(exactly 2 heads in 4 tosses)?', options: ['3/8', '1/4', '1/2'], correct: 0},
+            {topic: 'Probability', emoji: '🃏🎲', question: 'P(king or queen from deck)?', options: ['2/13', '1/13', '1/26'], correct: 0},
+            {topic: 'Probability', emoji: '🎯💯', question: 'P(no sixes in 3 dice rolls)?', options: ['125/216', '5/6', '1/216'], correct: 0},
+            {topic: 'Probability', emoji: '🎲📊', question: 'P(A∪B) if P(A)=0.6, P(B)=0.5, P(A∩B)=0.3?', options: ['0.8', '1.1', '0.5'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Probability', emoji: '🎲🎯', question: 'P(exactly 3 heads in 5 coin tosses)?', options: ['10/32', '5/16', '1/2', '3/5'], correct: 0},
+            {topic: 'Probability', emoji: '🃏💯', question: 'P(full house in poker - 5 cards)?', options: ['6/4165', '1/4165', '9/4165', '3/4165'], correct: 0},
+            {topic: 'Probability', emoji: '🎲📊', question: 'P(sum 8 with 3 dice)?', options: ['21/216', '15/216', '27/216', '18/216'], correct: 0},
+            {topic: 'Probability', emoji: '🃏🎯', question: 'If P(A|B)=0.8, P(B)=0.5, P(A∩B)?', options: ['0.4', '0.8', '0.5', '0.3'], correct: 0},
+            {topic: 'Probability', emoji: '🎲💰', question: 'P(at least one 6 in 4 dice rolls)?', options: ['671/1296', '1/6', '625/1296', '5/6'], correct: 0},
+            {topic: 'Probability', emoji: '🃏📈', question: 'P(flush in poker - all same suit)?', options: ['33/16660', '1/509', '4/52', '1/1000'], correct: 0},
+            {topic: 'Probability', emoji: '🎲🔢', question: 'P(getting all different numbers in 3 dice)?', options: ['5/9', '1/6', '1/2', '2/3'], correct: 0},
+            {topic: 'Probability', emoji: '🃏🎲', question: 'If P(A)=0.7, P(B|A)=0.6, P(A∩B)?', options: ['0.42', '0.7', '0.6', '1.3'], correct: 0},
+            {topic: 'Probability', emoji: '🎯💯', question: 'P(exactly 2 sixes in 5 dice rolls)?', options: ['625/3888', '25/216', '125/1296', '5/36'], correct: 0},
+            {topic: 'Probability', emoji: '🎲📊', question: 'Birthday paradox: P(2 share birthday in 23)?', options: ['> 0.5', '< 0.5', '= 0.5', '= 0.23'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Probability', emoji: '🎲🎯', question: 'P(exactly 7 heads in 10 coin tosses)', answer: '120/1024 or 15/128'},
+            {topic: 'Probability', emoji: '🃏💯', question: 'If P(A)=0.6, P(B)=0.5, P(A∪B)=0.8, find P(A|B)', answer: '0.6'},
+            {topic: 'Probability', emoji: '🎲📊', question: 'P(sum divisible by 5 with 2 dice)', answer: '7/36'},
+            {topic: 'Probability', emoji: '🃏🎯', question: 'P(drawing 3 aces in 5 cards from deck)', answer: '94/54145'},
+            {topic: 'Probability', emoji: '🎲💰', question: 'Expected value of rolling one die', answer: '3.5'},
+            {topic: 'Probability', emoji: '🃏📈', question: 'P(royal flush in poker)', answer: '1/649740'},
+            {topic: 'Probability', emoji: '🎲🔢', question: 'P(all 6 faces appear when rolling die 10 times)', answer: '0.272 or 27.2%'},
+            {topic: 'Probability', emoji: '🃏🎲', question: 'If disease affects 1%, test 95% accurate. P(disease|positive)?', answer: '≈0.161 or 16.1%'},
+            {topic: 'Probability', emoji: '🎯💯', question: 'P(Monty Hall: switching wins)', answer: '2/3'},
+            {topic: 'Probability', emoji: '🎲📊', question: 'P(no repeated numbers in 4 dice rolls)', answer: '5/18'}
+        ]
+    },
+    16: { // Chapter 16: Statistics
+        easy: [
+            {topic: 'Statistics', emoji: '📊📈', question: 'Mean is the average.', options: ['True', 'False'], correct: 0},
+            {topic: 'Statistics', emoji: '📉🔢', question: 'Median is the middle value.', options: ['True', 'False'], correct: 0},
+            {topic: 'Statistics', emoji: '📊💯', question: 'Mode is the most frequent value.', options: ['True', 'False'], correct: 0},
+            {topic: 'Statistics', emoji: '📈🎯', question: 'Range is max minus min.', options: ['True', 'False'], correct: 0},
+            {topic: 'Statistics', emoji: '📉📊', question: 'Data can have multiple modes.', options: ['True', 'False'], correct: 0},
+            {topic: 'Statistics', emoji: '🔢💰', question: 'Mean uses all data values.', options: ['True', 'False'], correct: 0},
+            {topic: 'Statistics', emoji: '📊🔢', question: 'Median needs data to be ordered.', options: ['True', 'False'], correct: 0},
+            {topic: 'Statistics', emoji: '📈💯', question: 'Standard deviation measures spread.', options: ['True', 'False'], correct: 0},
+            {topic: 'Statistics', emoji: '📉🎯', question: 'Outliers affect the mean.', options: ['True', 'False'], correct: 0},
+            {topic: 'Statistics', emoji: '📊📈', question: 'Population is larger than sample.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Statistics', emoji: '📊📈', question: 'Mean of 3, 7, 11, 15?', options: ['9', '11'], correct: 0},
+            {topic: 'Statistics', emoji: '📉🔢', question: 'Median of 2, 4, 6, 8, 10?', options: ['6', '5'], correct: 0},
+            {topic: 'Statistics', emoji: '📊💯', question: 'Mode of 3, 5, 5, 7, 9?', options: ['5', '7'], correct: 0},
+            {topic: 'Statistics', emoji: '📈🎯', question: 'Range of 10, 15, 20, 25?', options: ['15', '20'], correct: 0},
+            {topic: 'Statistics', emoji: '📉📊', question: 'Median of 1, 3, 5, 7?', options: ['4', '5'], correct: 0},
+            {topic: 'Statistics', emoji: '🔢💰', question: 'Mean of 5, 10, 15, 20?', options: ['12.5', '15'], correct: 0},
+            {topic: 'Statistics', emoji: '📊🔢', question: 'Mode of 2, 2, 3, 4, 4?', options: ['2 and 4', '3'], correct: 0},
+            {topic: 'Statistics', emoji: '📈💯', question: 'Range of 8, 12, 15, 22?', options: ['14', '12'], correct: 0},
+            {topic: 'Statistics', emoji: '📉🎯', question: 'Median of 5, 8, 12?', options: ['8', '5'], correct: 0},
+            {topic: 'Statistics', emoji: '📊📈', question: 'Mean of 6, 9, 12, 15?', options: ['10.5', '9'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Statistics', emoji: '📊📈', question: 'Mean of 2, 5, 7, 11, 15?', options: ['8', '7', '9'], correct: 0},
+            {topic: 'Statistics', emoji: '📉🔢', question: 'Q1 of data: 3, 7, 8, 12, 15, 18, 20?', options: ['7.5', '7', '8'], correct: 0},
+            {topic: 'Statistics', emoji: '📊💯', question: 'IQR if Q1=25 and Q3=40?', options: ['15', '65', '25'], correct: 0},
+            {topic: 'Statistics', emoji: '📈🎯', question: 'Variance of 2, 4, 6, 8 (mean=5)?', options: ['5', '2.5', '10'], correct: 0},
+            {topic: 'Statistics', emoji: '📉📊', question: 'Standard deviation if variance=16?', options: ['4', '8', '2'], correct: 0},
+            {topic: 'Statistics', emoji: '🔢💰', question: 'Median of 3, 5, 7, 9, 11, 13?', options: ['8', '7', '9'], correct: 0},
+            {topic: 'Statistics', emoji: '📊🔢', question: 'Weighted mean: 80(weight 3), 90(weight 2)?', options: ['84', '85', '86'], correct: 0},
+            {topic: 'Statistics', emoji: '📈💯', question: 'Q3 of data: 2, 4, 6, 8, 10?', options: ['9', '8', '10'], correct: 0},
+            {topic: 'Statistics', emoji: '📉🎯', question: 'Range of 5, 12, 8, 20, 15?', options: ['15', '12', '20'], correct: 0},
+            {topic: 'Statistics', emoji: '📊📈', question: 'Mean absolute deviation of 2, 4, 6 (mean=4)?', options: ['4/3', '2', '1'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Statistics', emoji: '📊📈', question: 'If mean=50, SD=10, what % within 1 SD (normal)?', options: ['68%', '95%', '99.7%', '50%'], correct: 0},
+            {topic: 'Statistics', emoji: '📉🔢', question: 'Correlation coefficient r=1 means?', options: ['Perfect positive', 'Perfect negative', 'No correlation', 'Weak'], correct: 0},
+            {topic: 'Statistics', emoji: '📊💯', question: 'Z-score if x=75, mean=60, SD=5?', options: ['3', '2', '15', '1'], correct: 0},
+            {topic: 'Statistics', emoji: '📈🎯', question: 'Coefficient of variation: mean=50, SD=10?', options: ['20%', '5%', '10%', '0.2'], correct: 0},
+            {topic: 'Statistics', emoji: '📉📊', question: 'Percentile rank if 80 out of 100 below you?', options: ['80th', '20th', '90th', '70th'], correct: 0},
+            {topic: 'Statistics', emoji: '🔢💰', question: 'Sample variance divisor for n=10?', options: ['9', '10', '11', '8'], correct: 0},
+            {topic: 'Statistics', emoji: '📊🔢', question: 'Skewness: mean>median>mode indicates?', options: ['Right skew', 'Left skew', 'Symmetric', 'Uniform'], correct: 0},
+            {topic: 'Statistics', emoji: '📈💯', question: 'If r²=0.64, what is r (positive)?', options: ['0.8', '0.64', '0.4', '0.32'], correct: 0},
+            {topic: 'Statistics', emoji: '📉🎯', question: 'Standard error = SD/√n. If SD=20, n=25?', options: ['4', '5', '0.8', '100'], correct: 0},
+            {topic: 'Statistics', emoji: '📊📈', question: 'Outlier if beyond Q1 - 1.5×IQR or Q3 + 1.5×IQR. Q1=20, Q3=40, is 70 outlier?', options: ['Yes', 'No', 'Maybe', 'Cannot tell'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Statistics', emoji: '📊📈', question: 'Find variance of data set: 4, 8, 12, 16, 20', answer: '32'},
+            {topic: 'Statistics', emoji: '📉🔢', question: 'If z-score is 2.5, mean=100, SD=15, find x', answer: '137.5'},
+            {topic: 'Statistics', emoji: '📊💯', question: 'Find standard deviation of: 2, 4, 6, 8, 10', answer: '√8 or 2.83'},
+            {topic: 'Statistics', emoji: '📈🎯', question: 'Calculate IQR for: 3, 5, 7, 9, 11, 13, 15, 17, 19', answer: '10'},
+            {topic: 'Statistics', emoji: '📉📊', question: 'Correlation r=-0.9 means what type of relationship?', answer: 'Strong negative'},
+            {topic: 'Statistics', emoji: '🔢💰', question: 'If data set sum=500, n=25, find mean', answer: '20'},
+            {topic: 'Statistics', emoji: '📊🔢', question: 'What percentile is score 85 if mean=70, SD=10 (normal)?', answer: '93.3 or 93rd'},
+            {topic: 'Statistics', emoji: '📈💯', question: 'Find coefficient of variation if mean=80, SD=16', answer: '20% or 0.2'},
+            {topic: 'Statistics', emoji: '📉🎯', question: 'In normal distribution, what % within 2 SD of mean?', answer: '95% or 95.45%'},
+            {topic: 'Statistics', emoji: '📊📈', question: 'Calculate weighted mean: 70(wt 2), 80(wt 3), 90(wt 5)', answer: '83'}
+        ]
+    },
+    17: { // Chapter 17: Sequences and Series
+        easy: [
+            {topic: 'Sequences', emoji: '🔢➡️', question: 'Arithmetic sequence has constant difference.', options: ['True', 'False'], correct: 0},
+            {topic: 'Sequences', emoji: '📊💯', question: 'Geometric sequence has constant ratio.', options: ['True', 'False'], correct: 0},
+            {topic: 'Sequences', emoji: '🔢📈', question: '2, 4, 6, 8 is arithmetic.', options: ['True', 'False'], correct: 0},
+            {topic: 'Sequences', emoji: '➡️🎯', question: '3, 6, 12, 24 is geometric.', options: ['True', 'False'], correct: 0},
+            {topic: 'Sequences', emoji: '🔢💰', question: 'First term is often denoted a₁.', options: ['True', 'False'], correct: 0},
+            {topic: 'Sequences', emoji: '📊🔢', question: 'Common difference is denoted d.', options: ['True', 'False'], correct: 0},
+            {topic: 'Sequences', emoji: '➡️💯', question: 'Common ratio is denoted r.', options: ['True', 'False'], correct: 0},
+            {topic: 'Sequences', emoji: '🔢📊', question: 'Series is sum of sequence terms.', options: ['True', 'False'], correct: 0},
+            {topic: 'Sequences', emoji: '🎯📈', question: '1, 3, 5, 7 has common difference 2.', options: ['True', 'False'], correct: 0},
+            {topic: 'Sequences', emoji: '🔢➡️', question: '2, 6, 18, 54 has common ratio 3.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Sequences', emoji: '🔢➡️', question: 'Next term in 5, 10, 15, 20, __?', options: ['25', '30'], correct: 0},
+            {topic: 'Sequences', emoji: '📊💯', question: 'Next term in 3, 9, 27, 81, __?', options: ['243', '162'], correct: 0},
+            {topic: 'Sequences', emoji: '🔢📈', question: 'Common difference in 7, 12, 17, 22?', options: ['5', '10'], correct: 0},
+            {topic: 'Sequences', emoji: '➡️🎯', question: 'Common ratio in 2, 6, 18, 54?', options: ['3', '4'], correct: 0},
+            {topic: 'Sequences', emoji: '🔢💰', question: '10th term of 3, 6, 9, 12, ...?', options: ['30', '33'], correct: 0},
+            {topic: 'Sequences', emoji: '📊🔢', question: 'Sum of first 5 terms: 2, 4, 6, 8, 10?', options: ['30', '20'], correct: 0},
+            {topic: 'Sequences', emoji: '➡️💯', question: '5th term of 2, 4, 8, 16, ...?', options: ['32', '64'], correct: 0},
+            {topic: 'Sequences', emoji: '🔢📊', question: 'Missing term: 5, __, 15, 20?', options: ['10', '12'], correct: 0},
+            {topic: 'Sequences', emoji: '🎯📈', question: 'Common difference in 100, 95, 90, 85?', options: ['-5', '5'], correct: 0},
+            {topic: 'Sequences', emoji: '🔢➡️', question: 'Next in 1, 4, 9, 16, __? (squares)', options: ['25', '20'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Sequences', emoji: '🔢➡️', question: 'aₙ = 3n + 2. Find a₁₀?', options: ['32', '30', '35'], correct: 0},
+            {topic: 'Sequences', emoji: '📊💯', question: 'Sum of first 10 terms: 1, 2, 3, ..., 10?', options: ['55', '50', '45'], correct: 0},
+            {topic: 'Sequences', emoji: '🔢📈', question: 'Geometric: a₁=3, r=2. Find a₅?', options: ['48', '32', '96'], correct: 0},
+            {topic: 'Sequences', emoji: '➡️🎯', question: 'Arithmetic: a₁=5, d=3. Find a₁₅?', options: ['47', '50', '44'], correct: 0},
+            {topic: 'Sequences', emoji: '🔢💰', question: 'Sum of geometric: a=2, r=3, n=4?', options: ['80', '120', '40'], correct: 0},
+            {topic: 'Sequences', emoji: '📊🔢', question: 'aₙ = 2ⁿ. Find a₆?', options: ['64', '32', '128'], correct: 0},
+            {topic: 'Sequences', emoji: '➡️💯', question: 'Which term is 37 in 1, 4, 7, 10, ...?', options: ['13th', '12th', '14th'], correct: 0},
+            {topic: 'Sequences', emoji: '🔢📊', question: 'Sum: 5 + 10 + 15 + ... + 50?', options: ['275', '250', '300'], correct: 0},
+            {topic: 'Sequences', emoji: '🎯📈', question: 'Geometric mean of 4 and 16?', options: ['8', '10', '12'], correct: 0},
+            {topic: 'Sequences', emoji: '🔢➡️', question: 'Arithmetic mean of 8 and 24?', options: ['16', '18', '20'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Sequences', emoji: '🔢➡️', question: 'Sum of infinite geometric: a=8, r=0.5?', options: ['16', '32', '8', '24'], correct: 0},
+            {topic: 'Sequences', emoji: '📊💯', question: 'If aₙ = n² + 1, find a₁₀?', options: ['101', '100', '99', '102'], correct: 0},
+            {topic: 'Sequences', emoji: '🔢📈', question: 'Arithmetic: a₃=14, a₇=26. Find d?', options: ['3', '4', '2', '5'], correct: 0},
+            {topic: 'Sequences', emoji: '➡️🎯', question: 'Sum of first n natural numbers: n=100?', options: ['5050', '10100', '5000', '10000'], correct: 0},
+            {topic: 'Sequences', emoji: '🔢💰', question: 'Geometric: a₂=6, a₅=48. Find r?', options: ['2', '3', '4', '8'], correct: 0},
+            {topic: 'Sequences', emoji: '📊🔢', question: 'How many terms in: 5, 8, 11, ..., 50?', options: ['16', '15', '17', '14'], correct: 0},
+            {topic: 'Sequences', emoji: '➡️💯', question: 'Sum of arithmetic: a₁=3, aₙ=99, n=17?', options: ['867', '850', '900', '800'], correct: 0},
+            {topic: 'Sequences', emoji: '🔢📊', question: 'If Sₙ = n²+n, find nth term?', options: ['2n', 'n²', 'n+1', '2n+1'], correct: 0},
+            {topic: 'Sequences', emoji: '🎯📈', question: 'Harmonic mean of 2 and 8?', options: ['3.2', '4', '5', '3'], correct: 0},
+            {topic: 'Sequences', emoji: '🔢➡️', question: 'Infinite sum: 1 + 1/2 + 1/4 + 1/8 + ...?', options: ['2', '1', '3', '∞'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Sequences', emoji: '🔢➡️', question: 'Find sum of arithmetic series with a₁=5, d=3, n=20', answer: '670'},
+            {topic: 'Sequences', emoji: '📊💯', question: 'If geometric a₁=3, r=2, find S₈ (sum of 8 terms)', answer: '765'},
+            {topic: 'Sequences', emoji: '🔢📈', question: 'Sum of infinite geometric series: a=12, r=1/3', answer: '18'},
+            {topic: 'Sequences', emoji: '➡️🎯', question: 'If arithmetic a₅=17 and a₁₂=38, find a₁', answer: '5'},
+            {topic: 'Sequences', emoji: '🔢💰', question: 'Find nth term formula if 3, 7, 11, 15, ...', answer: '4n - 1'},
+            {topic: 'Sequences', emoji: '📊🔢', question: 'Sum of first 50 odd numbers', answer: '2500'},
+            {topic: 'Sequences', emoji: '➡️💯', question: 'If geometric a₃=12, a₆=96, find a₁', answer: '3'},
+            {topic: 'Sequences', emoji: '🔢📊', question: 'Sum: 2 + 4 + 8 + 16 + ... + 512', answer: '1022'},
+            {topic: 'Sequences', emoji: '🎯📈', question: 'Find r if infinite geometric sum=20 and a₁=12', answer: '0.4 or 2/5'},
+            {topic: 'Sequences', emoji: '🔢➡️', question: 'Insert 3 arithmetic means between 5 and 21 (find common difference)', answer: '4'}
+        ]
+    },
+    18: { // Chapter 18: Functions
+        easy: [
+            {topic: 'Functions', emoji: '📈🔢', question: 'A function maps input to output.', options: ['True', 'False'], correct: 0},
+            {topic: 'Functions', emoji: '🎯📊', question: 'f(x) notation represents a function.', options: ['True', 'False'], correct: 0},
+            {topic: 'Functions', emoji: '📈💯', question: 'Domain is set of all inputs.', options: ['True', 'False'], correct: 0},
+            {topic: 'Functions', emoji: '🔢🎯', question: 'Range is set of all outputs.', options: ['True', 'False'], correct: 0},
+            {topic: 'Functions', emoji: '📊📈', question: 'f(x) = x + 1 is a function.', options: ['True', 'False'], correct: 0},
+            {topic: 'Functions', emoji: '💯🔢', question: 'Each input has exactly one output.', options: ['True', 'False'], correct: 0},
+            {topic: 'Functions', emoji: '📈🎯', question: 'f(2) means substitute x = 2.', options: ['True', 'False'], correct: 0},
+            {topic: 'Functions', emoji: '🔢📊', question: 'Linear function has form f(x) = mx + b.', options: ['True', 'False'], correct: 0},
+            {topic: 'Functions', emoji: '🎯💯', question: 'Vertical line test checks if relation is function.', options: ['True', 'False'], correct: 0},
+            {topic: 'Functions', emoji: '📈🔢', question: 'f(0) is the y-intercept.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Functions', emoji: '📈🔢', question: 'If f(x) = 2x + 3, find f(4)', options: ['11', '8'], correct: 0},
+            {topic: 'Functions', emoji: '🎯📊', question: 'If f(x) = x², find f(5)', options: ['25', '10'], correct: 0},
+            {topic: 'Functions', emoji: '📈💯', question: 'If f(x) = 3x - 1, find f(0)', options: ['-1', '1'], correct: 0},
+            {topic: 'Functions', emoji: '🔢🎯', question: 'Domain of f(x) = √x?', options: ['x ≥ 0', 'All reals'], correct: 0},
+            {topic: 'Functions', emoji: '📊📈', question: 'If f(x) = x/2, find f(10)', options: ['5', '20'], correct: 0},
+            {topic: 'Functions', emoji: '💯🔢', question: 'Range of f(x) = x²?', options: ['y ≥ 0', 'All reals'], correct: 0},
+            {topic: 'Functions', emoji: '📈🎯', question: 'If f(x) = 5 - x, find f(3)', options: ['2', '8'], correct: 0},
+            {topic: 'Functions', emoji: '🔢📊', question: 'If f(x) = x³, find f(2)', options: ['8', '6'], correct: 0},
+            {topic: 'Functions', emoji: '🎯💯', question: 'Domain of f(x) = 1/x?', options: ['x ≠ 0', 'All reals'], correct: 0},
+            {topic: 'Functions', emoji: '📈🔢', question: 'If f(x) = |x|, find f(-5)', options: ['5', '-5'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Functions', emoji: '📈🔢', question: 'If f(x) = x² - 3x + 2, find f(4)', options: ['6', '8', '4'], correct: 0},
+            {topic: 'Functions', emoji: '🎯📊', question: 'If f(x)=2x+1 and g(x)=x², find f(g(2))', options: ['9', '17', '5'], correct: 0},
+            {topic: 'Functions', emoji: '📈💯', question: 'Domain of f(x) = √(x-3)?', options: ['x ≥ 3', 'x > 3', 'x ≥ 0'], correct: 0},
+            {topic: 'Functions', emoji: '🔢🎯', question: 'If f(x)=x²+1, solve f(x)=10', options: ['x = ±3', 'x = 3', 'x = 9'], correct: 0},
+            {topic: 'Functions', emoji: '📊📈', question: 'Inverse of f(x) = 2x + 4?', options: ['(x-4)/2', 'x/2 - 4', '2x - 4'], correct: 0},
+            {topic: 'Functions', emoji: '💯🔢', question: 'If f(x)=1/x, find f(f(2))', options: ['2', '1/2', '4'], correct: 0},
+            {topic: 'Functions', emoji: '📈🎯', question: 'Domain of f(x) = 1/(x-5)?', options: ['x ≠ 5', 'x > 5', 'x ≥ 5'], correct: 0},
+            {topic: 'Functions', emoji: '🔢📊', question: 'If f(x)=x²-4, solve f(x)=0', options: ['x = ±2', 'x = 4', 'x = 2'], correct: 0},
+            {topic: 'Functions', emoji: '🎯💯', question: 'Range of f(x) = -x² + 4?', options: ['y ≤ 4', 'y ≥ 4', 'All reals'], correct: 0},
+            {topic: 'Functions', emoji: '📈🔢', question: 'If f(x)=3x-2, find f⁻¹(7)', options: ['3', '5', '19'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Functions', emoji: '📈🔢', question: 'If f(g(x))=x and g(f(x))=x, then g is?', options: ['Inverse of f', 'Equal to f', 'Composite', 'Reciprocal'], correct: 0},
+            {topic: 'Functions', emoji: '🎯📊', question: 'Domain of f(x) = √(x²-9)?', options: ['|x| ≥ 3', 'x ≥ 3', 'x > 3', 'x ≥ 0'], correct: 0},
+            {topic: 'Functions', emoji: '📈💯', question: 'If f(x)=2x+3 and g(x)=x-1, find (f∘g)(5)', options: ['11', '13', '9', '7'], correct: 0},
+            {topic: 'Functions', emoji: '🔢🎯', question: 'Inverse of f(x) = (x+2)/3?', options: ['3x - 2', '3x + 2', 'x/3 - 2', '(x-2)/3'], correct: 0},
+            {topic: 'Functions', emoji: '📊📈', question: 'If f(x) is even, then f(-x) = ?', options: ['f(x)', '-f(x)', '1/f(x)', 'x'], correct: 0},
+            {topic: 'Functions', emoji: '💯🔢', question: 'Domain of f(x) = ln(x-5)?', options: ['x > 5', 'x ≥ 5', 'x ≠ 5', 'x < 5'], correct: 0},
+            {topic: 'Functions', emoji: '📈🎯', question: 'If f(x) is odd, then f(-x) = ?', options: ['-f(x)', 'f(x)', '1/f(x)', '0'], correct: 0},
+            {topic: 'Functions', emoji: '🔢📊', question: 'Range of f(x) = e^x?', options: ['y > 0', 'y ≥ 0', 'All reals', 'y ≠ 0'], correct: 0},
+            {topic: 'Functions', emoji: '🎯💯', question: 'If f(x)=x³, find (f∘f)(2)', options: ['512', '64', '8', '16'], correct: 0},
+            {topic: 'Functions', emoji: '📈🔢', question: 'Inverse of f(x) = √(x-1)?', options: ['x² + 1', '(x+1)²', 'x² - 1', '√(x+1)'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Functions', emoji: '📈🔢', question: 'If f(x) = 3x - 5, find f⁻¹(x)', answer: '(x+5)/3'},
+            {topic: 'Functions', emoji: '🎯📊', question: 'If f(x)=x² and g(x)=√x, find (f∘g)(16)', answer: '16'},
+            {topic: 'Functions', emoji: '📈💯', question: 'Find domain of f(x) = 1/√(4-x²)', answer: '-2 < x < 2'},
+            {topic: 'Functions', emoji: '🔢🎯', question: 'If f(x) = 2x+1 and g(x) = x²-3, find (g∘f)(2)', answer: '22'},
+            {topic: 'Functions', emoji: '📊📈', question: 'Inverse of f(x) = (3x-2)/(x+1), x ≠ -1', answer: '(-x-2)/(x-3)'},
+            {topic: 'Functions', emoji: '💯🔢', question: 'If f is even and f(3)=5, what is f(-3)?', answer: '5'},
+            {topic: 'Functions', emoji: '📈🎯', question: 'If f is odd and f(2)=7, what is f(-2)?', answer: '-7'},
+            {topic: 'Functions', emoji: '🔢📊', question: 'Find range of f(x) = 3/(x²+1)', answer: '0 < y ≤ 3'},
+            {topic: 'Functions', emoji: '🎯💯', question: 'If f(x)=2x-3 and f⁻¹(a)=4, find a', answer: '5'},
+            {topic: 'Functions', emoji: '📈🔢', question: 'If f(f(x))=4x-9 and f(x)=ax+b, find a', answer: '2'}
+        ]
+    },
+    19: { // Chapter 19: Coordinate Geometry
+        easy: [
+            {topic: 'Coordinates', emoji: '📍🗺️', question: 'Origin has coordinates (0, 0).', options: ['True', 'False'], correct: 0},
+            {topic: 'Coordinates', emoji: '🎯📊', question: 'X-axis is horizontal.', options: ['True', 'False'], correct: 0},
+            {topic: 'Coordinates', emoji: '📍💯', question: 'Y-axis is vertical.', options: ['True', 'False'], correct: 0},
+            {topic: 'Coordinates', emoji: '🗺️🔢', question: 'Point (3, 5) has x-coordinate 3.', options: ['True', 'False'], correct: 0},
+            {topic: 'Coordinates', emoji: '📍🎯', question: 'Quadrant I has positive x and y.', options: ['True', 'False'], correct: 0},
+            {topic: 'Coordinates', emoji: '🎯📈', question: 'Distance formula uses Pythagorean theorem.', options: ['True', 'False'], correct: 0},
+            {topic: 'Coordinates', emoji: '📍🔢', question: 'Midpoint averages coordinates.', options: ['True', 'False'], correct: 0},
+            {topic: 'Coordinates', emoji: '🗺️💯', question: 'Slope measures steepness of line.', options: ['True', 'False'], correct: 0},
+            {topic: 'Coordinates', emoji: '📍📊', question: 'Point (-2, 3) is in Quadrant II.', options: ['True', 'False'], correct: 0},
+            {topic: 'Coordinates', emoji: '🎯🗺️', question: 'Collinear points lie on same line.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Coordinates', emoji: '📍🗺️', question: 'Distance between (0,0) and (3,4)?', options: ['5', '7'], correct: 0},
+            {topic: 'Coordinates', emoji: '🎯📊', question: 'Midpoint of (2,4) and (6,8)?', options: ['(4, 6)', '(8, 12)'], correct: 0},
+            {topic: 'Coordinates', emoji: '📍💯', question: 'Find slope between points (1,2) and (3,6)?', options: ['2', '4'], correct: 0},
+            {topic: 'Coordinates', emoji: '🗺️🔢', question: 'Distance between (1,1) and (4,5)?', options: ['5', '3'], correct: 0},
+            {topic: 'Coordinates', emoji: '📍🎯', question: 'Which quadrant is (-3, -5)?', options: ['III', 'II'], correct: 0},
+            {topic: 'Coordinates', emoji: '🎯📈', question: 'Midpoint of (0,0) and (8,6)?', options: ['(4, 3)', '(8, 6)'], correct: 0},
+            {topic: 'Coordinates', emoji: '📍🔢', question: 'Slope through (2,3) and (4,7)?', options: ['2', '1'], correct: 0},
+            {topic: 'Coordinates', emoji: '🗺️💯', question: 'Distance from (0,0) to (5,12)?', options: ['13', '17'], correct: 0},
+            {topic: 'Coordinates', emoji: '📍📊', question: 'Which quadrant is (4, -3)?', options: ['IV', 'I'], correct: 0},
+            {topic: 'Coordinates', emoji: '🎯🗺️', question: 'Midpoint of (-2,4) and (6,2)?', options: ['(2, 3)', '(4, 6)'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Coordinates', emoji: '📍🗺️', question: 'Distance between (-3,4) and (5,10)?', options: ['10', '14', '8'], correct: 0},
+            {topic: 'Coordinates', emoji: '🎯📊', question: 'Slope of line through (-2,3) and (4,-5)?', options: ['-4/3', '4/3', '-3/4'], correct: 0},
+            {topic: 'Coordinates', emoji: '📍💯', question: 'Equation of line through (0,5) with slope 2?', options: ['y = 2x + 5', 'y = 5x + 2', 'y = 2x - 5'], correct: 0},
+            {topic: 'Coordinates', emoji: '🗺️🔢', question: 'Find y-intercept of line through (3,7) and (0,1)?', options: ['1', '7', '0'], correct: 0},
+            {topic: 'Coordinates', emoji: '📍🎯', question: 'Point dividing (2,3) and (8,9) in ratio 1:2?', options: ['(4, 5)', '(5, 6)', '(6, 7)'], correct: 0},
+            {topic: 'Coordinates', emoji: '🎯📈', question: 'Distance of (3,4) from origin?', options: ['5', '7', '3'], correct: 0},
+            {topic: 'Coordinates', emoji: '📍🔢', question: 'Perpendicular slope to m = 3?', options: ['-1/3', '3', '-3'], correct: 0},
+            {topic: 'Coordinates', emoji: '🗺️💯', question: 'Equation of x-axis?', options: ['y = 0', 'x = 0', 'y = x'], correct: 0},
+            {topic: 'Coordinates', emoji: '📍📊', question: 'Centroid of triangle (0,0), (6,0), (0,6)?', options: ['(2, 2)', '(3, 3)', '(4, 4)'], correct: 0},
+            {topic: 'Coordinates', emoji: '🎯🗺️', question: 'Slope of line 3x + 4y = 12?', options: ['-3/4', '4/3', '-4/3'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Coordinates', emoji: '📍🗺️', question: 'Distance from (2,3) to line 3x + 4y = 10?', options: ['4/5', '2', '8/5', '1'], correct: 0},
+            {topic: 'Coordinates', emoji: '🎯📊', question: 'Equation perpendicular to 2x - y = 5 through (1,3)?', options: ['x + 2y = 7', '2x + y = 5', 'y = -2x + 5', 'y = x/2'], correct: 0},
+            {topic: 'Coordinates', emoji: '📍💯', question: 'Area of triangle: (0,0), (4,0), (0,6)?', options: ['12', '24', '10', '6'], correct: 0},
+            {topic: 'Coordinates', emoji: '🗺️🔢', question: 'Reflection of (3,5) over x-axis?', options: ['(3, -5)', '(-3, 5)', '(-3, -5)', '(5, 3)'], correct: 0},
+            {topic: 'Coordinates', emoji: '📍🎯', question: 'Center of circle: x² + y² - 6x + 4y = 12?', options: ['(3, -2)', '(-3, 2)', '(6, -4)', '(3, 2)'], correct: 0},
+            {topic: 'Coordinates', emoji: '🎯📈', question: 'Equation of circle center (3,4), radius 5?', options: ['(x-3)²+(y-4)²=25', '(x+3)²+(y+4)²=25', 'x²+y²=25', '(x-3)²+(y-4)²=5'], correct: 0},
+            {topic: 'Coordinates', emoji: '📍🔢', question: 'Section formula: P divides A(2,3) to B(7,8) in 2:3?', options: ['(4, 5)', '(5, 6)', '(3, 4)', '(6, 7)'], correct: 0},
+            {topic: 'Coordinates', emoji: '🗺️💯', question: 'Locus of points equidistant from (0,0) and (4,0)?', options: ['x = 2', 'y = 2', 'x + y = 2', 'x - y = 2'], correct: 0},
+            {topic: 'Coordinates', emoji: '📍📊', question: 'Area of quadrilateral: (0,0),(4,0),(4,3),(0,3)?', options: ['12', '14', '10', '7'], correct: 0},
+            {topic: 'Coordinates', emoji: '🎯🗺️', question: 'Equation of perpendicular bisector of (1,2) and (5,6)?', options: ['x + y = 7', 'x - y = 1', 'y = x + 1', 'y = -x + 7'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Coordinates', emoji: '📍🗺️', question: 'Find centroid of triangle with vertices (2,3), (4,7), (6,5)', answer: '(4, 5)'},
+            {topic: 'Coordinates', emoji: '🎯📊', question: 'Distance from point (1,2) to line 3x + 4y - 6 = 0', answer: '1'},
+            {topic: 'Coordinates', emoji: '📍💯', question: 'Area of triangle with vertices (0,0), (8,0), (4,6)', answer: '24'},
+            {topic: 'Coordinates', emoji: '🗺️🔢', question: 'Find radius of circle x² + y² - 8x + 6y = 0', answer: '5'},
+            {topic: 'Coordinates', emoji: '📍🎯', question: 'Equation of line through (2,3) perpendicular to 2x + 3y = 6', answer: '3x - 2y = 0 or y = 1.5x'},
+            {topic: 'Coordinates', emoji: '🎯📈', question: 'Find orthocenteter of right triangle at (0,0), (4,0), (0,3)', answer: '(0, 0)'},
+            {topic: 'Coordinates', emoji: '📍🔢', question: 'Point dividing (1,2) and (4,8) externally in ratio 2:1', answer: '(7, 14)'},
+            {topic: 'Coordinates', emoji: '🗺️💯', question: 'Equation of circle with diameter endpoints (2,3) and (6,7)', answer: '(x-4)²+(y-5)²=8'},
+            {topic: 'Coordinates', emoji: '📍📊', question: 'Find angle between lines y = 2x and y = 3x', answer: 'arctan(1/7) or 8.13°'},
+            {topic: 'Coordinates', emoji: '🎯🗺️', question: 'Area of parallelogram with vertices (0,0), (3,0), (4,5), (1,5)', answer: '15'}
+        ]
+    },
+    20: { // Chapter 20: Mensuration
+        easy: [
+            {topic: 'Mensuration', emoji: '📏🔢', question: 'Perimeter is distance around a shape.', options: ['True', 'False'], correct: 0},
+            {topic: 'Mensuration', emoji: '📐💯', question: 'Area is measured in square units.', options: ['True', 'False'], correct: 0},
+            {topic: 'Mensuration', emoji: '📏🎯', question: 'Volume is measured in cubic units.', options: ['True', 'False'], correct: 0},
+            {topic: 'Mensuration', emoji: '🔢📊', question: 'Perimeter of rectangle = 2(l + w).', options: ['True', 'False'], correct: 0},
+            {topic: 'Mensuration', emoji: '📐📈', question: 'Area of rectangle = length × width.', options: ['True', 'False'], correct: 0},
+            {topic: 'Mensuration', emoji: '📏💰', question: 'Perimeter of square = 4 × side.', options: ['True', 'False'], correct: 0},
+            {topic: 'Mensuration', emoji: '🔢🎯', question: 'Area of square = side².', options: ['True', 'False'], correct: 0},
+            {topic: 'Mensuration', emoji: '📐📊', question: 'Circle circumference equals 2πr.', options: ['True', 'False'], correct: 0},
+            {topic: 'Mensuration', emoji: '📏🔢', question: 'Circle area equals πr².', options: ['True', 'False'], correct: 0},
+            {topic: 'Mensuration', emoji: '💯📐', question: 'Triangle area equals ½ × base × height.', options: ['True', 'False'], correct: 0},
+        ],
+        medium: [
+            {topic: 'Mensuration', emoji: '📏🔢', question: 'Perimeter of rectangle: length 8, width 5?', options: ['26', '40'], correct: 0},
+            {topic: 'Mensuration', emoji: '📐💯', question: 'Area of square with side 7?', options: ['49', '28'], correct: 0},
+            {topic: 'Mensuration', emoji: '📏🎯', question: 'Find circumference when radius = 7?', options: ['14π', '49π'], correct: 0},
+            {topic: 'Mensuration', emoji: '🔢📊', question: 'Triangle area with base 10, height 6?', options: ['30', '60'], correct: 0},
+            {topic: 'Mensuration', emoji: '📐📈', question: 'Volume of cube with side 4?', options: ['64', '16'], correct: 0},
+            {topic: 'Mensuration', emoji: '📏💰', question: 'Area of circle with diameter 10?', options: ['25π', '100π'], correct: 0},
+            {topic: 'Mensuration', emoji: '🔢🎯', question: 'Perimeter of square with area 36?', options: ['24', '36'], correct: 0},
+            {topic: 'Mensuration', emoji: '📐📊', question: 'Area of rectangle: length 12, width 7?', options: ['84', '38'], correct: 0},
+            {topic: 'Mensuration', emoji: '📏🔢', question: 'Cylinder volume when r=3, h=7?', options: ['63π', '21π'], correct: 0},
+            {topic: 'Mensuration', emoji: '💯📐', question: 'Surface area of cube with side 5?', options: ['150', '125'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Mensuration', emoji: '📏🔢', question: 'Area of trapezoid: parallel sides 8, 12, height 5?', options: ['50', '100', '60'], correct: 0},
+            {topic: 'Mensuration', emoji: '📐💯', question: 'Find total surface area of cylinder: r=7, h=10?', options: ['238π', '140π', '119π'], correct: 0},
+            {topic: 'Mensuration', emoji: '📏🎯', question: 'Volume of cone: r=6, h=8?', options: ['96π', '288π', '48π'], correct: 0},
+            {topic: 'Mensuration', emoji: '🔢📊', question: 'Area of rhombus: diagonals 10 and 16?', options: ['80', '160', '26'], correct: 0},
+            {topic: 'Mensuration', emoji: '📐📈', question: 'Lateral surface area of cone: r=5, l=13?', options: ['65π', '325π', '169π'], correct: 0},
+            {topic: 'Mensuration', emoji: '📏💰', question: 'Volume of sphere with diameter 12?', options: ['288π', '576π', '144π'], correct: 0},
+            {topic: 'Mensuration', emoji: '🔢🎯', question: 'Area of parallelogram: base 15, height 8?', options: ['120', '46', '60'], correct: 0},
+            {topic: 'Mensuration', emoji: '📐📊', question: 'Cuboid volume with dimensions 8×6×5?', options: ['240', '220', '180'], correct: 0},
+            {topic: 'Mensuration', emoji: '📏🔢', question: 'Surface area of sphere with radius 7?', options: ['196π', '49π', '392π'], correct: 0},
+            {topic: 'Mensuration', emoji: '💯📐', question: 'Area of regular hexagon with side 6?', options: ['54√3', '36√3', '108√3'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Mensuration', emoji: '📏🔢', question: 'Frustum volume with top r=3, bottom r=5, h=4?', options: ['196π/3', '64π', '52π', '100π'], correct: 0},
+            {topic: 'Mensuration', emoji: '📐💯', question: 'Area of sector: angle 60°, radius 12?', options: ['24π', '48π', '12π', '72π'], correct: 0},
+            {topic: 'Mensuration', emoji: '📏🎯', question: 'Volume of hollow cylinder: R=10, r=8, h=7?', options: ['252π', '560π', '126π', '490π'], correct: 0},
+            {topic: 'Mensuration', emoji: '🔢📊', question: 'Surface area of hemisphere with radius 14?', options: ['1176π', '588π', '784π', '392π'], correct: 0},
+            {topic: 'Mensuration', emoji: '📐📈', question: 'Find segment area: sector 120°, r=6, triangle subtracted?', options: ['12π - 9√3', '12π', '6π', '18π'], correct: 0},
+            {topic: 'Mensuration', emoji: '📏💰', question: 'Volume of pyramid: square base side 6, height 8?', options: ['96', '288', '144', '48'], correct: 0},
+            {topic: 'Mensuration', emoji: '🔢🎯', question: 'Area of ring: outer r=10, inner r=7?', options: ['51π', '100π', '30π', '149π'], correct: 0},
+            {topic: 'Mensuration', emoji: '📐📊', question: 'Volume of prism: triangular base area 30, height 12?', options: ['360', '180', '720', '72'], correct: 0},
+            {topic: 'Mensuration', emoji: '📏🔢', question: 'Diagonal of cuboid: 12×9×8?', options: ['17', '15', '20', '14'], correct: 0},
+            {topic: 'Mensuration', emoji: '💯📐', question: 'Area of equilateral triangle inscribed in circle r=10?', options: ['75√3', '50√3', '100√3', '25√3'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Mensuration', emoji: '📏🔢', question: 'Find height of cylinder if volume 440π and radius 5', answer: '17.6'},
+            {topic: 'Mensuration', emoji: '📐💯', question: 'Area of largest circle inscribed in equilateral triangle side 12', answer: '12π'},
+            {topic: 'Mensuration', emoji: '📏🎯', question: 'Volume of cone formed by rotating right triangle legs 6, 8 around leg 6', answer: '96π'},
+            {topic: 'Mensuration', emoji: '🔢📊', question: 'Total surface area of hollow hemisphere outer r=10, inner r=8', answer: '468π'},
+            {topic: 'Mensuration', emoji: '📐📈', question: 'Area of path 2m wide around rectangular field 20×15m', answer: '156'},
+            {topic: 'Mensuration', emoji: '📏💰', question: 'Volume of largest sphere inscribed in cube side 12', answer: '288π'},
+            {topic: 'Mensuration', emoji: '🔢🎯', question: 'Area of quadrant (quarter circle) with radius 14', answer: '154 or 49π'},
+            {topic: 'Mensuration', emoji: '📐📊', question: 'Volume of spherical shell outer r=10, inner r=6', answer: '736π'},
+            {topic: 'Mensuration', emoji: '📏🔢', question: 'Area of rhombus if diagonals ratio 3:4 and perimeter 40', answer: '96'},
+            {topic: 'Mensuration', emoji: '💯📐', question: 'Height of cone if volume 462 cm³ and base area 154 cm²', answer: '9'}
+        ]
     }
+
 };

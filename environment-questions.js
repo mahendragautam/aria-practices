@@ -754,4 +754,502 @@ const environmentQuestions = {
             {topic: 'Technology', emoji: '📲💚', question: 'Name three ways to reduce digital carbon footprint', answer: 'Efficient devices, Cloud optimization, Dark mode, Unsubscribe (any 3)'}
         ]
     },
+        13: { // Chapter 13: Environmental Policy
+        easy: [
+            {topic: 'Policy', emoji: '📜🌍', question: 'Environmental laws protect nature.', options: ['True', 'False'], correct: 0},
+            {topic: 'Policy', emoji: '⚖️🌱', question: 'Governments make environmental rules.', options: ['True', 'False'], correct: 0},
+            {topic: 'Policy', emoji: '🌍🤝', question: 'Countries work together on climate.', options: ['True', 'False'], correct: 0},
+            {topic: 'Policy', emoji: '💰♻️', question: 'Taxes can encourage recycling.', options: ['True', 'False'], correct: 0},
+            {topic: 'Policy', emoji: '🏭⚖️', question: 'Factories must follow pollution rules.', options: ['True', 'False'], correct: 0},
+            {topic: 'Policy', emoji: '🌳📜', question: 'National parks are protected by law.', options: ['True', 'False'], correct: 0},
+            {topic: 'Policy', emoji: '🚫🗑️', question: 'Some plastics are banned.', options: ['True', 'False'], correct: 0},
+            {topic: 'Policy', emoji: '🌍💚', question: 'Citizens can influence policy.', options: ['True', 'False'], correct: 0},
+            {topic: 'Policy', emoji: '📊🌱', question: 'Environmental data guides decisions.', options: ['True', 'False'], correct: 0},
+            {topic: 'Policy', emoji: '⚡📜', question: 'Energy policies affect emissions.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Policy', emoji: '📜🌍', question: 'What is environmental policy?', options: ['Rules to protect nature', 'Any rule'], correct: 0},
+            {topic: 'Policy', emoji: '⚖️🌱', question: 'What is environmental law?', options: ['Legal framework for protection', 'Business law'], correct: 0},
+            {topic: 'Policy', emoji: '🌍🤝', question: 'What does the Paris Agreement address?', options: ['Climate change treaty', 'Trade deal'], correct: 0},
+            {topic: 'Policy', emoji: '💰♻️', question: 'What is a carbon tax?', options: ['Fee on emissions', 'Income tax'], correct: 0},
+            {topic: 'Policy', emoji: '🏭⚖️', question: 'What is cap and trade?', options: ['Emission limit system', 'Stock market'], correct: 0},
+            {topic: 'Policy', emoji: '🌳📜', question: 'What is the Endangered Species Act?', options: ['US wildlife protection law', 'Hunting law'], correct: 0},
+            {topic: 'Policy', emoji: '🚫🗑️', question: 'What is Extended Producer Responsibility?', options: ['Makers responsible for disposal', 'Buyer pays'], correct: 0},
+            {topic: 'Policy', emoji: '🌍💚', question: 'What is environmental advocacy?', options: ['Supporting nature protection', 'Opposing laws'], correct: 0},
+            {topic: 'Policy', emoji: '📊🌱', question: 'What is environmental impact assessment?', options: ['Study project effects', 'Skip review'], correct: 0},
+            {topic: 'Policy', emoji: '⚡📜', question: 'What is a renewable energy mandate?', options: ['Required clean energy', 'Optional only'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Policy', emoji: '📜🌍', question: 'What is the precautionary principle?', options: ['Act despite uncertainty', 'Wait for proof', 'Ignore risks'], correct: 0},
+            {topic: 'Policy', emoji: '⚖️🌱', question: 'What does the Clean Air Act regulate?', options: ['US air pollution law', 'Water law', 'Land law'], correct: 0},
+            {topic: 'Policy', emoji: '🌍🤝', question: 'What is the Kyoto Protocol?', options: ['Climate treaty', 'Trade agreement', 'War treaty'], correct: 0},
+            {topic: 'Policy', emoji: '💰♻️', question: 'What is green subsidy?', options: ['Financial support for eco-projects', 'Tax increase', 'Penalty'], correct: 0},
+            {topic: 'Policy', emoji: '🏭⚖️', question: 'What is environmental regulation?', options: ['Rules limiting pollution', 'No limits', 'Voluntary only'], correct: 0},
+            {topic: 'Policy', emoji: '🌳📜', question: 'What is CITES?', options: ['Wildlife trade treaty', 'Climate deal', 'Ocean law'], correct: 0},
+            {topic: 'Policy', emoji: '🚫🗑️', question: 'What is single-use plastic ban?', options: ['Prohibit disposable plastics', 'Require plastic', 'No law'], correct: 0},
+            {topic: 'Policy', emoji: '🌍💚', question: 'What is environmental justice?', options: ['Fair distribution of impacts', 'Court system', 'No fairness'], correct: 0},
+            {topic: 'Policy', emoji: '📊🌱', question: 'What is the polluter pays principle?', options: ['Polluter covers costs', 'Public pays', 'No cost'], correct: 0},
+            {topic: 'Policy', emoji: '⚡📜', question: 'What is feed-in tariff?', options: ['Payment for renewable energy', 'Import tax', 'Fine'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Policy', emoji: '📜🌍', question: 'What is the Montreal Protocol about?', options: ['Ozone layer protection', 'Climate only', 'Ocean protection', 'Trade'], correct: 0},
+            {topic: 'Policy', emoji: '⚖️🌱', question: 'What is the National Environmental Policy Act?', options: ['US environmental review law', 'State law', 'City law', 'No law'], correct: 0},
+            {topic: 'Policy', emoji: '🌍🤝', question: 'How many countries signed Paris Agreement?', options: ['~195', '10', '50', '5'], correct: 0},
+            {topic: 'Policy', emoji: '💰♻️', question: 'What is carbon pricing?', options: ['Cost on emissions', 'Free emissions', 'No pricing', 'Energy cost'], correct: 0},
+            {topic: 'Policy', emoji: '🏭⚖️', question: 'What is best available technology requirement?', options: ['Use cleanest methods', 'Any method', 'Cheapest only', 'No requirement'], correct: 0},
+            {topic: 'Policy', emoji: '🌳📜', question: 'How much land has protected status globally?', options: ['~15%', '50%', '2%', '90%'], correct: 0},
+            {topic: 'Policy', emoji: '🚫🗑️', question: 'How many countries ban single-use plastics?', options: ['~70+', '5', '0', '200'], correct: 0},
+            {topic: 'Policy', emoji: '🌍💚', question: 'What is the Aarhus Convention?', options: ['Public participation rights', 'Climate treaty', 'Trade deal', 'War convention'], correct: 0},
+            {topic: 'Policy', emoji: '📊🌱', question: 'What is strategic environmental assessment?', options: ['Policy-level review', 'Project only', 'No assessment', 'Financial audit'], correct: 0},
+            {topic: 'Policy', emoji: '⚡📜', question: 'What is renewable portfolio standard?', options: ['Required renewable percentage', 'Optional target', 'No standard', 'Fossil fuel quota'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Policy', emoji: '📜🌍', question: 'Name three major environmental treaties', answer: 'Paris Agreement, Montreal Protocol, Convention on Biological Diversity (any 3)'},
+            {topic: 'Policy', emoji: '⚖️🌱', question: 'Name three environmental law types', answer: 'Air quality, Water protection, Wildlife, Waste, Land use (any 3)'},
+            {topic: 'Policy', emoji: '🌍🤝', question: 'Name three UN environmental goals', answer: 'Climate action, Clean water, Life on land, Life below water (any 3)'},
+            {topic: 'Policy', emoji: '💰♻️', question: 'Name three economic instruments for environment', answer: 'Carbon tax, Subsidies, Cap-and-trade, Eco-labeling (any 3)'},
+            {topic: 'Policy', emoji: '🏭⚖️', question: 'Name three pollution control approaches', answer: 'Regulations, Market-based, Voluntary, Technology standards (any 3)'},
+            {topic: 'Policy', emoji: '🌳📜', question: 'Name three US environmental laws', answer: 'Clean Air Act, Clean Water Act, ESA, NEPA (any 3)'},
+            {topic: 'Policy', emoji: '🚫🗑️', question: 'Name three plastic policy approaches', answer: 'Bans, Taxes, EPR, Deposit schemes (any 3)'},
+            {topic: 'Policy', emoji: '🌍💚', question: 'Name three ways citizens influence policy', answer: 'Voting, Advocacy, Lawsuits, Public comment (any 3)'},
+            {topic: 'Policy', emoji: '📊🌱', question: 'Name three components of environmental assessment', answer: 'Baseline study, Impact prediction, Mitigation, Monitoring (any 3)'},
+            {topic: 'Policy', emoji: '⚡📜', question: 'Name three renewable energy policies', answer: 'Feed-in tariffs, RPS, Tax credits, Net metering (any 3)'}
+        ]
+    },
+    14: { // Chapter 14: Sustainable Living
+        easy: [
+            {topic: 'Living', emoji: '🏠💚', question: 'We can live more sustainably.', options: ['True', 'False'], correct: 0},
+            {topic: 'Living', emoji: '🚶‍♂️🚴', question: 'Walking is better than driving.', options: ['True', 'False'], correct: 0},
+            {topic: 'Living', emoji: '🛍️♻️', question: 'Reusable bags help environment.', options: ['True', 'False'], correct: 0},
+            {topic: 'Living', emoji: '🥗🌱', question: 'Eating local food is sustainable.', options: ['True', 'False'], correct: 0},
+            {topic: 'Living', emoji: '💡🔌', question: 'Turning off lights saves energy.', options: ['True', 'False'], correct: 0},
+            {topic: 'Living', emoji: '🚿💧', question: 'Short showers save water.', options: ['True', 'False'], correct: 0},
+            {topic: 'Living', emoji: '♻️🗑️', question: 'Separating waste helps recycling.', options: ['True', 'False'], correct: 0},
+            {topic: 'Living', emoji: '👕🔄', question: 'Buying used clothes is sustainable.', options: ['True', 'False'], correct: 0},
+            {topic: 'Living', emoji: '🌱🏡', question: 'Growing food at home helps.', options: ['True', 'False'], correct: 0},
+            {topic: 'Living', emoji: '📱♻️', question: 'Keeping phones longer reduces waste.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Living', emoji: '🏠💚', question: 'What is sustainable living?', options: ['Minimize environmental impact', 'Any lifestyle'], correct: 0},
+            {topic: 'Living', emoji: '🚶‍♂️🚴', question: 'What is active transportation?', options: ['Walking, biking', 'Driving only'], correct: 0},
+            {topic: 'Living', emoji: '🛍️♻️', question: 'What is zero waste lifestyle?', options: ['Minimize landfill waste', 'Create more waste'], correct: 0},
+            {topic: 'Living', emoji: '🥗🌱', question: 'What is farm-to-table?', options: ['Direct from farm', 'Imported food'], correct: 0},
+            {topic: 'Living', emoji: '💡🔌', question: 'What is energy conservation?', options: ['Using less energy', 'Using more'], correct: 0},
+            {topic: 'Living', emoji: '🚿💧', question: 'What is water-wise living?', options: ['Conserve water', 'Waste water'], correct: 0},
+            {topic: 'Living', emoji: '♻️🗑️', question: 'What is composting at home?', options: ['Organic waste recycling', 'Throwing away'], correct: 0},
+            {topic: 'Living', emoji: '👕🔄', question: 'What is slow fashion?', options: ['Quality, lasting clothes', 'Fast consumption'], correct: 0},
+            {topic: 'Living', emoji: '🌱🏡', question: 'What is urban gardening?', options: ['Growing food in cities', 'No gardening'], correct: 0},
+            {topic: 'Living', emoji: '📱♻️', question: 'What is planned obsolescence?', options: ['Designed to fail', 'Long-lasting'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Living', emoji: '🏠💚', question: 'What is carbon neutral living?', options: ['Balance emissions', 'High emissions', 'No emissions'], correct: 0},
+            {topic: 'Living', emoji: '🚶‍♂️🚴', question: 'How much CO2 saved by biking vs driving 10 miles?', options: ['~5 kg', '0 kg', '50 kg'], correct: 0},
+            {topic: 'Living', emoji: '🛍️♻️', question: 'What is the true cost of fast fashion?', options: ['Environmental and social', 'Price only', 'No cost'], correct: 0},
+            {topic: 'Living', emoji: '🥗🌱', question: 'What is plant-based diet impact?', options: ['Lower carbon footprint', 'Higher', 'Same'], correct: 0},
+            {topic: 'Living', emoji: '💡🔌', question: 'What is vampire power?', options: ['Standby energy use', 'No power', 'Maximum power'], correct: 0},
+            {topic: 'Living', emoji: '🚿💧', question: 'How much water in 5-minute shower?', options: ['~10-25 gallons', '1 gallon', '100 gallons'], correct: 0},
+            {topic: 'Living', emoji: '♻️🗑️', question: 'What percentage of household waste is organic?', options: ['~30%', '5%', '90%'], correct: 0},
+            {topic: 'Living', emoji: '👕🔄', question: 'What is textile recycling rate?', options: ['~15%', '90%', '100%'], correct: 0},
+            {topic: 'Living', emoji: '🌱🏡', question: 'What is permaculture gardening?', options: ['Sustainable design', 'Monoculture', 'No design'], correct: 0},
+            {topic: 'Living', emoji: '📱♻️', question: 'What is right to repair movement?', options: ['Fix not replace', 'Always buy new', 'No repairs'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Living', emoji: '🏠💚', question: 'What is ecological footprint?', options: ['Resource use measure', 'Shoe size', 'Walking distance', 'House size'], correct: 0},
+            {topic: 'Living', emoji: '🚶‍♂️🚴', question: 'What is the 15-minute city concept?', options: ['All needs nearby', 'Commute time', 'Speed limit', 'No concept'], correct: 0},
+            {topic: 'Living', emoji: '🛍️♻️', question: 'What is product lifecycle thinking?', options: ['Cradle to grave impact', 'Buy only', 'No thinking', 'Price only'], correct: 0},
+            {topic: 'Living', emoji: '🥗🌱', question: 'How much less emissions: vegan vs meat diet?', options: ['~50-70%', '10%', 'Same', 'More'], correct: 0},
+            {topic: 'Living', emoji: '💡🔌', question: 'What is home energy audit?', options: ['Assess efficiency', 'Ignore waste', 'Increase use', 'No audit'], correct: 0},
+            {topic: 'Living', emoji: '🚿💧', question: 'What is greywater system?', options: ['Reuse household water', 'Waste all', 'Drinking water', 'No system'], correct: 0},
+            {topic: 'Living', emoji: '♻️🗑️', question: 'What is bokashi composting?', options: ['Fermentation method', 'Regular compost', 'No composting', 'Burning'], correct: 0},
+            {topic: 'Living', emoji: '👕🔄', question: 'How many wears before washing jeans?', options: ['~5-10 or more', '1', 'Never', 'Daily'], correct: 0},
+            {topic: 'Living', emoji: '🌱🏡', question: 'What is aquaponics?', options: ['Fish and plants together', 'Fish only', 'Plants only', 'No system'], correct: 0},
+            {topic: 'Living', emoji: '📱♻️', question: 'What is modular phone design?', options: ['Replaceable parts', 'Fixed design', 'Disposable', 'No design'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Living', emoji: '🏠💚', question: 'Name three pillars of sustainable living', answer: 'Environmental, Social, Economic sustainability'},
+            {topic: 'Living', emoji: '🚶‍♂️🚴', question: 'Name three benefits of active transport', answer: 'Health, Lower emissions, Cost savings, Reduce congestion (any 3)'},
+            {topic: 'Living', emoji: '🛍️♻️', question: 'Name the five Rs of sustainable consumption', answer: 'Refuse, Reduce, Reuse, Recycle, Rot'},
+            {topic: 'Living', emoji: '🥗🌱', question: 'Name three sustainable diet principles', answer: 'Plant-based, Local, Seasonal, Minimal waste (any 3)'},
+            {topic: 'Living', emoji: '💡🔌', question: 'Name three home energy saving actions', answer: 'LED bulbs, Unplug devices, Insulation, Efficient appliances (any 3)'},
+            {topic: 'Living', emoji: '🚿💧', question: 'Name three water conservation actions', answer: 'Fix leaks, Short showers, Low-flow fixtures, Full loads (any 3)'},
+            {topic: 'Living', emoji: '♻️🗑️', question: 'Name three home composting methods', answer: 'Bin composting, Worm composting, Bokashi, Trench (any 3)'},
+            {topic: 'Living', emoji: '👕🔄', question: 'Name three sustainable fashion choices', answer: 'Buy used, Quality over quantity, Natural fibers, Repair (any 3)'},
+            {topic: 'Living', emoji: '🌱🏡', question: 'Name three benefits of home gardening', answer: 'Fresh food, Lower emissions, Biodiversity, Mental health (any 3)'},
+            {topic: 'Living', emoji: '📱♻️', question: 'Name three ways to extend device lifespan', answer: 'Repair, Upgrade, Protective case, Software updates (any 3)'}
+        ]
+    },
+    15: { // Chapter 15: Urban Environment
+        easy: [
+            {topic: 'Urban', emoji: '🏙️🌿', question: 'Cities can be green.', options: ['True', 'False'], correct: 0},
+            {topic: 'Urban', emoji: '🌳🏘️', question: 'Trees in cities are important.', options: ['True', 'False'], correct: 0},
+            {topic: 'Urban', emoji: '🚇🚌', question: 'Public transit reduces pollution.', options: ['True', 'False'], correct: 0},
+            {topic: 'Urban', emoji: '🏢♻️', question: 'Buildings use a lot of energy.', options: ['True', 'False'], correct: 0},
+            {topic: 'Urban', emoji: '🌆🌡️', question: 'Cities are hotter than countryside.', options: ['True', 'False'], correct: 0},
+            {topic: 'Urban', emoji: '🚴‍♀️🛴', question: 'Bike lanes help reduce cars.', options: ['True', 'False'], correct: 0},
+            {topic: 'Urban', emoji: '🏞️🏙️', question: 'Urban parks improve quality of life.', options: ['True', 'False'], correct: 0},
+            {topic: 'Urban', emoji: '💧🏙️', question: 'Cities use lots of water.', options: ['True', 'False'], correct: 0},
+            {topic: 'Urban', emoji: '🗑️🏙️', question: 'Urban areas create much waste.', options: ['True', 'False'], correct: 0},
+            {topic: 'Urban', emoji: '🌍🏘️', question: 'Most people live in cities.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Urban', emoji: '🏙️🌿', question: 'What is green infrastructure?', options: ['Natural systems in cities', 'Grey concrete'], correct: 0},
+            {topic: 'Urban', emoji: '🌳🏘️', question: 'What is urban forestry?', options: ['Managing city trees', 'Rural forests'], correct: 0},
+            {topic: 'Urban', emoji: '🚇🚌', question: 'What is transit-oriented development?', options: ['Build near transit', 'Car-dependent'], correct: 0},
+            {topic: 'Urban', emoji: '🏢♻️', question: 'What is green building?', options: ['Sustainable construction', 'Green paint'], correct: 0},
+            {topic: 'Urban', emoji: '🌆🌡️', question: 'What is urban heat island?', options: ['Cities warmer than surroundings', 'Cold cities'], correct: 0},
+            {topic: 'Urban', emoji: '🚴‍♀️🛴', question: 'What is complete streets?', options: ['Safe for all users', 'Cars only'], correct: 0},
+            {topic: 'Urban', emoji: '🏞️🏙️', question: 'What is pocket park?', options: ['Small urban green space', 'Large forest'], correct: 0},
+            {topic: 'Urban', emoji: '💧🏙️', question: 'What is stormwater management?', options: ['Control urban runoff', 'Ignore water'], correct: 0},
+            {topic: 'Urban', emoji: '🗑️🏙️', question: 'What is municipal waste?', options: ['City household trash', 'Industrial only'], correct: 0},
+            {topic: 'Urban', emoji: '🌍🏘️', question: 'What is urbanization?', options: ['Population shift to cities', 'Rural growth'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Urban', emoji: '🏙️🌿', question: 'What is biophilic design?', options: ['Nature in architecture', 'No nature', 'Industrial only'], correct: 0},
+            {topic: 'Urban', emoji: '🌳🏘️', question: 'What is urban tree canopy goal?', options: ['~40% coverage', '5%', '100%'], correct: 0},
+            {topic: 'Urban', emoji: '🚇🚌', question: 'How much CO2 saved: bus vs car?', options: ['~50-70%', '10%', 'Same'], correct: 0},
+            {topic: 'Urban', emoji: '🏢♻️', question: 'What percentage of energy in buildings?', options: ['~40%', '5%', '90%'], correct: 0},
+            {topic: 'Urban', emoji: '🌆🌡️', question: 'How much hotter are cities?', options: ['1-7°F', '0°F', '50°F'], correct: 0},
+            {topic: 'Urban', emoji: '🚴‍♀️🛴', question: 'What is protected bike lane?', options: ['Physically separated', 'Painted only', 'No protection'], correct: 0},
+            {topic: 'Urban', emoji: '🏞️🏙️', question: 'What is the 10-minute walk standard?', options: ['Park within 10 min', '1 hour', 'No standard'], correct: 0},
+            {topic: 'Urban', emoji: '💧🏙️', question: 'What is green roof benefit?', options: ['Absorb stormwater', 'No benefit', 'Increase runoff'], correct: 0},
+            {topic: 'Urban', emoji: '🗑️🏙️', question: 'What is circular city concept?', options: ['Zero waste economy', 'Linear flow', 'Maximum waste'], correct: 0},
+            {topic: 'Urban', emoji: '🌍🏘️', question: 'What percentage live in cities globally?', options: ['~55%', '10%', '100%'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Urban', emoji: '🏙️🌿', question: 'What is sponge city?', options: ['Absorb and reuse water', 'Impermeable surfaces', 'Dry city', 'No water'], correct: 0},
+            {topic: 'Urban', emoji: '🌳🏘️', question: 'What is i-Tree assessment?', options: ['Urban forest evaluation', 'Tree age', 'Tree height', 'No assessment'], correct: 0},
+            {topic: 'Urban', emoji: '🚇🚌', question: 'What is Bus Rapid Transit?', options: ['High-capacity bus system', 'Regular bus', 'No system', 'Private cars'], correct: 0},
+            {topic: 'Urban', emoji: '🏢♻️', question: 'What is net-zero building?', options: ['Zero net energy', 'High energy', 'No building', 'Negative energy'], correct: 0},
+            {topic: 'Urban', emoji: '🌆🌡️', question: 'What is cool pavement?', options: ['Reflects heat', 'Absorbs heat', 'Regular asphalt', 'No pavement'], correct: 0},
+            {topic: 'Urban', emoji: '🚴‍♀️🛴', question: 'What is modal share?', options: ['Transportation mode percentage', 'Shared bikes', 'Car only', 'No data'], correct: 0},
+            {topic: 'Urban', emoji: '🏞️🏙️', question: 'What is the High Line model?', options: ['Elevated park conversion', 'Underground park', 'Traditional park', 'No park'], correct: 0},
+            {topic: 'Urban', emoji: '💧🏙️', question: 'What is rain garden?', options: ['Bioretention planting', 'Regular garden', 'Dry garden', 'No garden'], correct: 0},
+            {topic: 'Urban', emoji: '🗑️🏙️', question: 'What is waste-to-energy facility?', options: ['Convert trash to power', 'Landfill only', 'Export waste', 'No facility'], correct: 0},
+            {topic: 'Urban', emoji: '🌍🏘️', question: 'What is compact city strategy?', options: ['High density mixed-use', 'Sprawl', 'Low density', 'No strategy'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Urban', emoji: '🏙️🌿', question: 'Name three green infrastructure types', answer: 'Green roofs, Rain gardens, Bioswales, Urban forests (any 3)'},
+            {topic: 'Urban', emoji: '🌳🏘️', question: 'Name three urban forest benefits', answer: 'Air quality, Cooling, Stormwater, Mental health (any 3)'},
+            {topic: 'Urban', emoji: '🚇🚌', question: 'Name three sustainable transport modes', answer: 'Walking, Biking, Transit, Carpooling (any 3)'},
+            {topic: 'Urban', emoji: '🏢♻️', question: 'List three sustainable building features', answer: 'Solar panels, Insulation, Efficient HVAC, Daylighting (any 3)'},
+            {topic: 'Urban', emoji: '🌆🌡️', question: 'Name three ways to reduce urban heat', answer: 'Trees, Green roofs, Cool pavement, Water features (any 3)'},
+            {topic: 'Urban', emoji: '🚴‍♀️🛴', question: 'Name three complete streets elements', answer: 'Bike lanes, Wide sidewalks, Transit, Trees (any 3)'},
+            {topic: 'Urban', emoji: '🏞️🏙️', question: 'Name three types of urban green space', answer: 'Parks, Gardens, Greenways, Plazas (any 3)'},
+            {topic: 'Urban', emoji: '💧🏙️', question: 'Name three stormwater management strategies', answer: 'Rain gardens, Permeable pavement, Green roofs, Wetlands (any 3)'},
+            {topic: 'Urban', emoji: '🗑️🏙️', question: 'Name three urban waste management approaches', answer: 'Recycling, Composting, Waste-to-energy, Reduction (any 3)'},
+            {topic: 'Urban', emoji: '🌍🏘️', question: 'Name three sustainable city principles', answer: 'Compact, Connected, Clean, Collaborative (any 3)'}
+        ]
+    },
+    16: { // Chapter 16: Conservation Biology
+        easy: [
+            {topic: 'Conservation', emoji: '🐾🌿', question: 'Conservation protects wildlife.', options: ['True', 'False'], correct: 0},
+            {topic: 'Conservation', emoji: '🦏⚠️', question: 'Many animals need protection.', options: ['True', 'False'], correct: 0},
+            {topic: 'Conservation', emoji: '🌳🔒', question: 'Protected areas help species.', options: ['True', 'False'], correct: 0},
+            {topic: 'Conservation', emoji: '🐼💚', question: 'Endangered species can recover.', options: ['True', 'False'], correct: 0},
+            {topic: 'Conservation', emoji: '🌍🔬', question: 'Science helps conservation.', options: ['True', 'False'], correct: 0},
+            {topic: 'Conservation', emoji: '🦅🏞️', question: 'Habitats need protection.', options: ['True', 'False'], correct: 0},
+            {topic: 'Conservation', emoji: '🌱🌲', question: 'Reforestation helps wildlife.', options: ['True', 'False'], correct: 0},
+            {topic: 'Conservation', emoji: '🐢🥚', question: 'Breeding programs save species.', options: ['True', 'False'], correct: 0},
+            {topic: 'Conservation', emoji: '🌊🐋', question: 'Marine reserves protect ocean life.', options: ['True', 'False'], correct: 0},
+            {topic: 'Conservation', emoji: '👥🌿', question: 'People can help conservation.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Conservation', emoji: '🐾🌿', question: 'What is conservation biology?', options: ['Science of protecting life', 'Any biology'], correct: 0},
+            {topic: 'Conservation', emoji: '🦏⚠️', question: 'What is keystone species?', options: ['Critical to ecosystem', 'Common animal'], correct: 0},
+            {topic: 'Conservation', emoji: '🌳🔒', question: 'What is protected area?', options: ['Conservation zone', 'Unprotected land'], correct: 0},
+            {topic: 'Conservation', emoji: '🐼💚', question: 'What is species recovery plan?', options: ['Strategy to save species', 'No plan'], correct: 0},
+            {topic: 'Conservation', emoji: '🌍🔬', question: 'What is population viability analysis?', options: ['Extinction risk assessment', 'Count animals'], correct: 0},
+            {topic: 'Conservation', emoji: '🦅🏞️', question: 'What is habitat restoration?', options: ['Rebuild damaged areas', 'Destroy habitat'], correct: 0},
+            {topic: 'Conservation', emoji: '🌱🌲', question: 'What is corridor conservation?', options: ['Connect habitats', 'Isolate areas'], correct: 0},
+            {topic: 'Conservation', emoji: '🐢🥚', question: 'What is captive breeding?', options: ['Breed in facilities', 'Wild only'], correct: 0},
+            {topic: 'Conservation', emoji: '🌊🐋', question: 'What is a marine protected area?', options: ['Ocean conservation zone', 'Fishing ground'], correct: 0},
+            {topic: 'Conservation', emoji: '👥🌿', question: 'What is community-based conservation?', options: ['Local people involved', 'Top-down only'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Conservation', emoji: '🐾🌿', question: 'What is minimum viable population?', options: ['Lowest for survival', 'Any number', 'Maximum'], correct: 0},
+            {topic: 'Conservation', emoji: '🦏⚠️', question: 'What is a trophic cascade?', options: ['Top predator effects', 'Bottom only', 'No effect'], correct: 0},
+            {topic: 'Conservation', emoji: '🌳🔒', question: 'What is the global conservation target?', options: ['~30% goal', '5%', '100%'], correct: 0},
+            {topic: 'Conservation', emoji: '🐼💚', question: 'What is IUCN Red List status?', options: ['Threat classification', 'Color chart', 'No system'], correct: 0},
+            {topic: 'Conservation', emoji: '🌍🔬', question: 'What is genetic bottleneck?', options: ['Loss of diversity', 'Increase diversity', 'No change'], correct: 0},
+            {topic: 'Conservation', emoji: '🦅🏞️', question: 'What is ecosystem engineer species?', options: ['Modifies habitat', 'No effect', 'Destroys only'], correct: 0},
+            {topic: 'Conservation', emoji: '🌱🌲', question: 'What is assisted migration?', options: ['Help species relocate', 'Natural only', 'No movement'], correct: 0},
+            {topic: 'Conservation', emoji: '🐢🥚', question: 'What is genetic rescue?', options: ['Add genetic diversity', 'Isolate genes', 'No action'], correct: 0},
+            {topic: 'Conservation', emoji: '🌊🐋', question: 'What is no-take zone?', options: ['No fishing allowed', 'Fishing encouraged', 'Any activity'], correct: 0},
+            {topic: 'Conservation', emoji: '👥🌿', question: 'What is traditional ecological knowledge?', options: ['Indigenous wisdom', 'Modern only', 'No knowledge'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Conservation', emoji: '🐾🌿', question: 'What is the 50/500 rule?', options: ['Minimum population genetics', 'Age rule', 'Distance rule', 'No rule'], correct: 0},
+            {topic: 'Conservation', emoji: '🦏⚠️', question: 'What is umbrella species concept?', options: ['Protect many by protecting one', 'One species only', 'No concept', 'Random selection'], correct: 0},
+            {topic: 'Conservation', emoji: '🌳🔒', question: 'What is IUCN protected area category?', options: ['Classification system', 'Single type', 'No categories', 'Size only'], correct: 0},
+            {topic: 'Conservation', emoji: '🐼💚', question: 'What is extinction vortex?', options: ['Positive feedback to extinction', 'Reverse direction', 'No effect', 'Static'], correct: 0},
+            {topic: 'Conservation', emoji: '🌍🔬', question: 'What is effective population size?', options: ['Breeding individuals', 'Total count', 'Maximum possible', 'Zero'], correct: 0},
+            {topic: 'Conservation', emoji: '🦅🏞️', question: 'What does rewilding involve?', options: ['Restore natural processes', 'Remove all animals', 'Intensive management', 'No change'], correct: 0},
+            {topic: 'Conservation', emoji: '🌱🌲', question: 'What is edge effect?', options: ['Habitat boundary impacts', 'Core area', 'No effect', 'Color'], correct: 0},
+            {topic: 'Conservation', emoji: '🐢🥚', question: 'What is head-starting?', options: ['Raise young, release adults', 'Wild from birth', 'Keep all', 'No intervention'], correct: 0},
+            {topic: 'Conservation', emoji: '🌊🐋', question: 'What is marine spatial planning?', options: ['Ocean use zoning', 'Random use', 'No planning', 'Land only'], correct: 0},
+            {topic: 'Conservation', emoji: '👥🌿', question: 'What is CBNRM?', options: ['Community-based resource management', 'Central control', 'No management', 'Corporate only'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Conservation', emoji: '🐾🌿', question: 'Name three conservation biology principles', answer: 'Diversity has value, Ecological complexity, Evolution continues, Humans part of nature (any 3)'},
+            {topic: 'Conservation', emoji: '🦏⚠️', question: 'Name three types of keystone species', answer: 'Predators, Ecosystem engineers, Mutualists'},
+            {topic: 'Conservation', emoji: '🌳🔒', question: 'Name three protected area types', answer: 'National parks, Wilderness, Wildlife refuges, Marine reserves (any 3)'},
+            {topic: 'Conservation', emoji: '🐼💚', question: 'Name three recovery plan elements', answer: 'Threat assessment, Goals, Actions, Monitoring (any 3)'},
+            {topic: 'Conservation', emoji: '🌍🔬', question: 'Name three threats to genetic diversity', answer: 'Small population, Inbreeding, Genetic drift, Bottleneck (any 3)'},
+            {topic: 'Conservation', emoji: '🦅🏞️', question: 'Name three habitat restoration methods', answer: 'Replanting, Remove invasives, Reintroduce species, Reconnect (any 3)'},
+            {topic: 'Conservation', emoji: '🌱🌲', question: 'Name three landscape connectivity strategies', answer: 'Wildlife corridors, Stepping stones, Matrix management (any 3)'},
+            {topic: 'Conservation', emoji: '🐢🥚', question: 'Name three ex-situ conservation methods', answer: 'Captive breeding, Seed banks, Zoos, Botanical gardens (any 3)'},
+            {topic: 'Conservation', emoji: '🌊🐋', question: 'Name three marine conservation tools', answer: 'MPAs, Fishing regulations, Species protection, Restoration (any 3)'},
+            {topic: 'Conservation', emoji: '👥🌿', question: 'Name three benefits of community conservation', answer: 'Local knowledge, Sustainable use, Economic benefits, Long-term support (any 3)'}
+        ]
+    },
+    17: { // Chapter 17: Environmental Education
+        easy: [
+            {topic: 'Education', emoji: '📚🌍', question: 'Learning about environment is important.', options: ['True', 'False'], correct: 0},
+            {topic: 'Education', emoji: '👨‍🏫🌱', question: 'Schools teach environmental topics.', options: ['True', 'False'], correct: 0},
+            {topic: 'Education', emoji: '🌳🔍', question: 'Field trips help learn about nature.', options: ['True', 'False'], correct: 0},
+            {topic: 'Education', emoji: '💚📖', question: 'Everyone can learn sustainability.', options: ['True', 'False'], correct: 0},
+            {topic: 'Education', emoji: '🌍👶', question: 'Children should learn about Earth.', options: ['True', 'False'], correct: 0},
+            {topic: 'Education', emoji: '📺🌿', question: 'Media spreads environmental awareness.', options: ['True', 'False'], correct: 0},
+            {topic: 'Education', emoji: '🏫♻️', question: 'Schools can be eco-friendly.', options: ['True', 'False'], correct: 0},
+            {topic: 'Education', emoji: '🌱🎨', question: 'Art can teach environmental lessons.', options: ['True', 'False'], correct: 0},
+            {topic: 'Education', emoji: '👥💬', question: 'Discussion helps understanding.', options: ['True', 'False'], correct: 0},
+            {topic: 'Education', emoji: '🌍💡', question: 'Knowledge leads to action.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Education', emoji: '📚🌍', question: 'What is environmental education?', options: ['Learning about nature and sustainability', 'Any education'], correct: 0},
+            {topic: 'Education', emoji: '👨‍🏫🌱', question: 'What is outdoor education?', options: ['Learning in nature', 'Classroom only'], correct: 0},
+            {topic: 'Education', emoji: '🌳🔍', question: 'What is citizen science?', options: ['Public participates in research', 'Scientists only'], correct: 0},
+            {topic: 'Education', emoji: '💚📖', question: 'What is sustainability literacy?', options: ['Understanding sustainability', 'Reading only'], correct: 0},
+            {topic: 'Education', emoji: '🌍👶', question: 'What is nature deficit disorder?', options: ['Lack of outdoor experience', 'Medical disease'], correct: 0},
+            {topic: 'Education', emoji: '📺🌿', question: 'What is environmental communication?', options: ['Share environmental info', 'No communication'], correct: 0},
+            {topic: 'Education', emoji: '🏫♻️', question: 'What is green school?', options: ['Eco-friendly operations', 'Green paint'], correct: 0},
+            {topic: 'Education', emoji: '🌱🎨', question: 'What is eco-art?', options: ['Art about environment', 'Any art'], correct: 0},
+            {topic: 'Education', emoji: '👥💬', question: 'What is environmental workshop?', options: ['Hands-on learning session', 'Lecture only'], correct: 0},
+            {topic: 'Education', emoji: '🌍💡', question: 'What is behavior change education?', options: ['Promote sustainable actions', 'No change'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Education', emoji: '📚🌍', question: 'What is the Belgrade Charter?', options: ['Environmental education framework', 'Treaty', 'Building'], correct: 0},
+            {topic: 'Education', emoji: '👨‍🏫🌱', question: 'What is place-based education?', options: ['Learn from local environment', 'Generic curriculum'], correct: 0},
+            {topic: 'Education', emoji: '🌳🔍', question: 'What is bioblitz?', options: ['Species inventory event', 'Storm', 'No event'], correct: 0},
+            {topic: 'Education', emoji: '💚📖', question: 'What is systems thinking?', options: ['Understand connections', 'Linear thinking'], correct: 0},
+            {topic: 'Education', emoji: '🌍👶', question: 'What is forest school?', options: ['Outdoor learning program', 'Traditional school'], correct: 0},
+            {topic: 'Education', emoji: '📺🌿', question: 'What is climate communication?', options: ['Explain climate science', 'No communication'], correct: 0},
+            {topic: 'Education', emoji: '🏫♻️', question: 'What is LEED for Schools?', options: ['Green building certification', 'Test score'], correct: 0},
+            {topic: 'Education', emoji: '🌱🎨', question: 'What is land art?', options: ['Sculpture with nature', 'Regular art'], correct: 0},
+            {topic: 'Education', emoji: '👥💬', question: 'What is environmental justice education?', options: ['Teach equity issues', 'Ignore justice'], correct: 0},
+            {topic: 'Education', emoji: '🌍💡', question: 'What is action competence?', options: ['Ability to create change', 'No action'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Education', emoji: '📚🌍', question: 'What is the Tbilisi Declaration?', options: ['1977 environmental education goals', 'Recent document', 'No declaration', 'Trade treaty'], correct: 0},
+            {topic: 'Education', emoji: '👨‍🏫🌱', question: 'What is inquiry-based learning?', options: ['Student-driven exploration', 'Lecture only', 'No questions', 'Memorization'], correct: 0},
+            {topic: 'Education', emoji: '🌳🔍', question: 'What is phenology?', options: ['Study seasonal patterns', 'Plant names', 'Rock study', 'Weather'], correct: 0},
+            {topic: 'Education', emoji: '💚📖', question: 'What is transformative learning?', options: ['Change worldview', 'Surface learning', 'No change', 'Rote memory'], correct: 0},
+            {topic: 'Education', emoji: '🌍👶', question: 'What is the Last Child in the Woods?', options: ['Book on nature deficit', 'Movie', 'Song', 'Place'], correct: 0},
+            {topic: 'Education', emoji: '📺🌿', question: 'What is environmental literacy?', options: ['Knowledge and action capacity', 'Reading only', 'No literacy', 'Math skills'], correct: 0},
+            {topic: 'Education', emoji: '🏫♻️', question: 'What is carbon-neutral campus?', options: ['Net-zero emissions school', 'High emissions', 'No goal', 'Average'], correct: 0},
+            {topic: 'Education', emoji: '🌱🎨', question: 'What is ecological aesthetics?', options: ['Beauty in nature connection', 'Appearance only', 'No aesthetics', 'Artificial'], correct: 0},
+            {topic: 'Education', emoji: '👥💬', question: 'What is participatory action research?', options: ['Community-driven study', 'Lab only', 'No participation', 'Solo work'], correct: 0},
+            {topic: 'Education', emoji: '🌍💡', question: 'What is the UN Decade of ESD?', options: ['Education for sustainable development', 'Regular decade', 'No program', 'Trade decade'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Education', emoji: '📚🌍', question: 'Name three environmental education goals', answer: 'Awareness, Knowledge, Attitudes, Skills, Participation (any 3)'},
+            {topic: 'Education', emoji: '👨‍🏫🌱', question: 'Name three outdoor learning benefits', answer: 'Health, Engagement, Systems thinking, Connection to nature (any 3)'},
+            {topic: 'Education', emoji: '🌳🔍', question: 'Name three citizen science platforms', answer: 'iNaturalist, eBird, Zooniverse, GLOBE (any 3)'},
+            {topic: 'Education', emoji: '💚📖', question: 'Name three sustainability competencies', answer: 'Systems thinking, Anticipatory, Normative, Strategic, Interpersonal (any 3)'},
+            {topic: 'Education', emoji: '🌍👶', question: 'Name three nature connection activities', answer: 'Hiking, Gardening, Wildlife watching, Camping (any 3)'},
+            {topic: 'Education', emoji: '📺🌿', question: 'Name three environmental documentaries', answer: 'Planet Earth, Our Planet, Chasing Ice, Before the Flood (any 3)'},
+            {topic: 'Education', emoji: '🏫♻️', question: 'Name three green school practices', answer: 'Recycling, Energy efficiency, Gardens, Green curriculum (any 3)'},
+            {topic: 'Education', emoji: '🌱🎨', question: 'Name three environmental artists', answer: 'Andy Goldsworthy, Christo, Agnes Denes, Maya Lin (any 3)'},
+            {topic: 'Education', emoji: '👥💬', question: 'Name three teaching methods for environment', answer: 'Project-based, Experiential, Inquiry-based, Collaborative (any 3)'},
+            {topic: 'Education', emoji: '🌍💡', question: 'Name three ways education drives change', answer: 'Awareness, Skills, Values, Critical thinking (any 3)'}
+        ]
+    },
+    18: { // Chapter 18: Circular Economy
+        easy: [
+            {topic: 'Circular', emoji: '♻️🔄', question: 'Circular economy reduces waste.', options: ['True', 'False'], correct: 0},
+            {topic: 'Circular', emoji: '🔄💚', question: 'We can reuse many things.', options: ['True', 'False'], correct: 0},
+            {topic: 'Circular', emoji: '📦♻️', question: 'Packaging can be reused.', options: ['True', 'False'], correct: 0},
+            {topic: 'Circular', emoji: '🛠️🔧', question: 'Repair is better than replace.', options: ['True', 'False'], correct: 0},
+            {topic: 'Circular', emoji: '🌍🔄', question: 'Resources should be kept in use.', options: ['True', 'False'], correct: 0},
+            {topic: 'Circular', emoji: '♻️🏭', question: 'Products can be remade.', options: ['True', 'False'], correct: 0},
+            {topic: 'Circular', emoji: '🔄💡', question: 'Design affects recyclability.', options: ['True', 'False'], correct: 0},
+            {topic: 'Circular', emoji: '🌱🔄', question: 'Nature works in cycles.', options: ['True', 'False'], correct: 0},
+            {topic: 'Circular', emoji: '💼♻️', question: 'Businesses can be circular.', options: ['True', 'False'], correct: 0},
+            {topic: 'Circular', emoji: '🔄🌍', question: 'Circular economy helps planet.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Circular', emoji: '♻️🔄', question: 'Describe circular economy', options: ['Eliminate waste concept', 'Linear use'], correct: 0},
+            {topic: 'Circular', emoji: '🔄💚', question: 'What is product life extension?', options: ['Use longer', 'Quick disposal'], correct: 0},
+            {topic: 'Circular', emoji: '📦♻️', question: 'What is reusable packaging?', options: ['Multiple use containers', 'Single use'], correct: 0},
+            {topic: 'Circular', emoji: '🛠️🔧', question: 'What is right to repair?', options: ['Legal ability to fix', 'Must replace'], correct: 0},
+            {topic: 'Circular', emoji: '🌍🔄', question: 'What is resource efficiency?', options: ['More output per input', 'Waste resources'], correct: 0},
+            {topic: 'Circular', emoji: '♻️🏭', question: 'What is remanufacturing?', options: ['Rebuild to like-new', 'Make new'], correct: 0},
+            {topic: 'Circular', emoji: '🔄💡', question: 'What is design for disassembly?', options: ['Easy to take apart', 'Permanent assembly'], correct: 0},
+            {topic: 'Circular', emoji: '🌱🔄', question: 'What is biological cycle?', options: ['Return to nature', 'Synthetic only'], correct: 0},
+            {topic: 'Circular', emoji: '💼♻️', question: 'What is product-as-service?', options: ['Lease not buy', 'Ownership only'], correct: 0},
+            {topic: 'Circular', emoji: '🔄🌍', question: 'What does industrial symbiosis involve?', options: ['Share resources between firms', 'Compete only'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Circular', emoji: '♻️🔄', question: 'What are the 3 principles of circular economy?', options: ['Eliminate waste, circulate, regenerate', 'Take-make-dispose', 'Single use'], correct: 0},
+            {topic: 'Circular', emoji: '🔄💚', question: 'What is performance economy?', options: ['Sell function not product', 'Sell products', 'No economy'], correct: 0},
+            {topic: 'Circular', emoji: '📦♻️', question: 'What is loop logistics?', options: ['Return and reuse system', 'One-way shipping', 'No returns'], correct: 0},
+            {topic: 'Circular', emoji: '🛠️🔧', question: 'What is modular design?', options: ['Replaceable components', 'Fixed design', 'No parts'], correct: 0},
+            {topic: 'Circular', emoji: '🌍🔄', question: 'What is material passport?', options: ['Product composition data', 'Travel document', 'No data'], correct: 0},
+            {topic: 'Circular', emoji: '♻️🏭', question: 'What is upcycling?', options: ['Increase value', 'Decrease value', 'No change'], correct: 0},
+            {topic: 'Circular', emoji: '🔄💡', question: 'What is cradle-to-cradle?', options: ['Continuous reuse cycle', 'Cradle-to-grave', 'Disposal'], correct: 0},
+            {topic: 'Circular', emoji: '🌱🔄', question: 'What is regenerative design?', options: ['Restore systems', 'Extract only', 'Degrade'], correct: 0},
+            {topic: 'Circular', emoji: '💼♻️', question: 'What is sharing economy?', options: ['Access over ownership', 'Individual ownership', 'No sharing'], correct: 0},
+            {topic: 'Circular', emoji: '🔄🌍', question: 'What is decoupling?', options: ['Growth without resource use', 'Direct link', 'No change'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Circular', emoji: '♻️🔄', question: 'What is Ellen MacArthur Foundation?', options: ['Leading circular economy org', 'Linear economy', 'No organization', 'Trading company'], correct: 0},
+            {topic: 'Circular', emoji: '🔄💚', question: 'What is cascade use?', options: ['Sequential material use', 'Single use', 'No cascade', 'Parallel only'], correct: 0},
+            {topic: 'Circular', emoji: '📦♻️', question: 'What does EPR mean?', options: ['Maker handles end-of-life', 'Consumer responsible', 'No responsibility', 'Government only'], correct: 0},
+            {topic: 'Circular', emoji: '🛠️🔧', question: 'What is the repairability index?', options: ['Ease of repair score', 'Price', 'No index', 'Speed'], correct: 0},
+            {topic: 'Circular', emoji: '🌍🔄', question: 'What is material flow analysis?', options: ['Track resource movement', 'No tracking', 'Financial only', 'One-time check'], correct: 0},
+            {topic: 'Circular', emoji: '♻️🏭', question: 'What is closed-loop manufacturing?', options: ['Waste becomes input', 'Open loop', 'No loop', 'Linear'], correct: 0},
+            {topic: 'Circular', emoji: '🔄💡', question: 'What is biomimicry in design?', options: ['Learn from nature', 'Ignore nature', 'Synthetic only', 'Random design'], correct: 0},
+            {topic: 'Circular', emoji: '🌱🔄', question: 'What does nutrient cycling mean?', options: ['Biological material return', 'Waste disposal', 'No cycling', 'One-way'], correct: 0},
+            {topic: 'Circular', emoji: '💼♻️', question: 'What is servitization?', options: ['Shift to service model', 'Product only', 'No services', 'Traditional'], correct: 0},
+            {topic: 'Circular', emoji: '🔄🌍', question: 'What is circular business model?', options: ['Eliminate waste in operations', 'Linear model', 'Disposal focus', 'No model'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Circular', emoji: '♻️🔄', question: 'Name the three core circular economy principles', answer: 'Eliminate waste, Circulate products, Regenerate nature'},
+            {topic: 'Circular', emoji: '🔄💚', question: 'Name three product life extension strategies', answer: 'Repair, Refurbish, Remanufacture, Upgrade (any 3)'},
+            {topic: 'Circular', emoji: '📦♻️', question: 'Name three packaging circular strategies', answer: 'Reusable, Refillable, Compostable, Recyclable (any 3)'},
+            {topic: 'Circular', emoji: '🛠️🔧', question: 'Name three barriers to repair', answer: 'Design, Cost, Availability of parts, Skills (any 3)'},
+            {topic: 'Circular', emoji: '🌍🔄', question: 'Name three material recovery methods', answer: 'Recycling, Composting, Anaerobic digestion, Pyrolysis (any 3)'},
+            {topic: 'Circular', emoji: '♻️🏭', question: 'Name three circular economy business models', answer: 'Product-as-service, Sharing, Remanufacturing, Recycling (any 3)'},
+            {topic: 'Circular', emoji: '🔄💡', question: 'Name three design for circularity principles', answer: 'Durability, Modularity, Recyclability, Non-toxic (any 3)'},
+            {topic: 'Circular', emoji: '🌱🔄', question: 'Name three biological cycle materials', answer: 'Food, Wood, Cotton, Paper, Natural fibers (any 3)'},
+            {topic: 'Circular', emoji: '💼♻️', question: 'Name three sharing economy examples', answer: 'Car sharing, Tool libraries, Co-working, Clothing rental (any 3)'},
+            {topic: 'Circular', emoji: '🔄🌍', question: 'Name three benefits of circular economy', answer: 'Resource security, Job creation, Reduced emissions, Innovation (any 3)'}
+        ]
+    },
+    19: { // Chapter 19: Indigenous Environmental Knowledge
+        easy: [
+            {topic: 'Indigenous', emoji: '👥🌍', question: 'Indigenous people have environmental knowledge.', options: ['True', 'False'], correct: 0},
+            {topic: 'Indigenous', emoji: '🌱📚', question: 'Traditional knowledge is valuable.', options: ['True', 'False'], correct: 0},
+            {topic: 'Indigenous', emoji: '🌲👣', question: 'Indigenous peoples lived sustainably.', options: ['True', 'False'], correct: 0},
+            {topic: 'Indigenous', emoji: '🔥🌿', question: 'Traditional fire use managed forests.', options: ['True', 'False'], correct: 0},
+            {topic: 'Indigenous', emoji: '🌍🤝', question: 'We can learn from indigenous wisdom.', options: ['True', 'False'], correct: 0},
+            {topic: 'Indigenous', emoji: '💧🏔️', question: 'Indigenous peoples protect lands.', options: ['True', 'False'], correct: 0},
+            {topic: 'Indigenous', emoji: '🦌🌲', question: 'Traditional hunting was sustainable.', options: ['True', 'False'], correct: 0},
+            {topic: 'Indigenous', emoji: '🌾🌱', question: 'Indigenous agriculture preserved diversity.', options: ['True', 'False'], correct: 0},
+            {topic: 'Indigenous', emoji: '⚖️🌍', question: 'Indigenous rights are important.', options: ['True', 'False'], correct: 0},
+            {topic: 'Indigenous', emoji: '🔬🌿', question: 'Science and traditional knowledge can work together.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Indigenous', emoji: '👥🌍', question: 'What is TEK?', options: ['Indigenous environmental wisdom', 'Modern science only'], correct: 0},
+            {topic: 'Indigenous', emoji: '🌱📚', question: 'What is intergenerational knowledge?', options: ['Passed through generations', 'One generation'], correct: 0},
+            {topic: 'Indigenous', emoji: '🌲👣', question: 'What is land stewardship?', options: ['Caring for territory', 'Exploitation'], correct: 0},
+            {topic: 'Indigenous', emoji: '🔥🌿', question: 'What is cultural burning?', options: ['Traditional fire management', 'Wildfire'], correct: 0},
+            {topic: 'Indigenous', emoji: '🌍🤝', question: 'What is co-management?', options: ['Shared resource governance', 'Exclude indigenous'], correct: 0},
+            {topic: 'Indigenous', emoji: '💧🏔️', question: 'What are indigenous protected areas?', options: ['Lands managed by indigenous peoples', 'Government only'], correct: 0},
+            {topic: 'Indigenous', emoji: '🦌🌲', question: 'What is subsistence harvesting?', options: ['Take only what is needed', 'Commercial exploitation'], correct: 0},
+            {topic: 'Indigenous', emoji: '🌾🌱', question: 'What is three sisters planting?', options: ['Corn, beans, squash together', 'Single crop'], correct: 0},
+            {topic: 'Indigenous', emoji: '⚖️🌍', question: 'What is UNDRIP?', options: ['Indigenous rights declaration', 'Trade agreement'], correct: 0},
+            {topic: 'Indigenous', emoji: '🔬🌿', question: 'What is two-eyed seeing?', options: ['Combine indigenous and Western knowledge', 'One view only'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Indigenous', emoji: '👥🌍', question: 'What percentage of biodiversity on indigenous lands?', options: ['~80%', '10%', '50%'], correct: 0},
+            {topic: 'Indigenous', emoji: '🌱📚', question: 'What is oral tradition?', options: ['Knowledge passed verbally', 'Written only'], correct: 0},
+            {topic: 'Indigenous', emoji: '🌲👣', question: 'What is the Seventh Generation principle?', options: ['Consider future impact', 'Present only'], correct: 0},
+            {topic: 'Indigenous', emoji: '🔥🌿', question: 'How did indigenous burning benefit ecosystems?', options: ['Reduced fuel, increased diversity', 'Destroyed all'], correct: 0},
+            {topic: 'Indigenous', emoji: '🌍🤝', question: 'What is free prior informed consent?', options: ['Indigenous approval required', 'No consultation'], correct: 0},
+            {topic: 'Indigenous', emoji: '💧🏔️', question: 'What are indigenous territories?', options: ['Traditional lands', 'Any land'], correct: 0},
+            {topic: 'Indigenous', emoji: '🦌🌲', question: 'What is the honorable harvest?', options: ['Take respectfully', 'Take everything'], correct: 0},
+            {topic: 'Indigenous', emoji: '🌾🌱', question: 'What is milpa agriculture?', options: ['Diverse crop system', 'Monoculture'], correct: 0},
+            {topic: 'Indigenous', emoji: '⚖️🌍', question: 'What are indigenous land rights?', options: ['Legal territorial claims', 'No rights'], correct: 0},
+            {topic: 'Indigenous', emoji: '🔬🌿', question: 'What is biocultural diversity?', options: ['Link between culture and nature', 'Separate concepts'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Indigenous', emoji: '👥🌍', question: 'How many indigenous people worldwide?', options: ['~370-500 million', '10 million', '1 billion', '100,000'], correct: 0},
+            {topic: 'Indigenous', emoji: '🌱📚', question: 'What is the precautionary principle in TEK?', options: ['Careful with unknown', 'Rush ahead'], correct: 0},
+            {topic: 'Indigenous', emoji: '🌲👣', question: 'What is indigenous guardianship?', options: ['Cultural responsibility for land', 'Ownership only'], correct: 0},
+            {topic: 'Indigenous', emoji: '🔥🌿', question: 'What is fire-stick farming?', options: ['Australian Aboriginal burning', 'Regular farming'], correct: 0},
+            {topic: 'Indigenous', emoji: '🌍🤝', question: 'What is the Nagoya Protocol?', options: ['Benefit-sharing from genetic resources', 'Climate treaty'], correct: 0},
+            {topic: 'Indigenous', emoji: '💧🏔️', question: 'What percentage of forest is in indigenous territories?', options: ['~36%', '5%', '90%', '1%'], correct: 0},
+            {topic: 'Indigenous', emoji: '🦌🌲', question: 'What is seasonal round?', options: ['Annual resource use cycle', 'No pattern'], correct: 0},
+            {topic: 'Indigenous', emoji: '🌾🌱', question: 'What is terra preta?', options: ['Amazon dark earth soil', 'Regular soil'], correct: 0},
+            {topic: 'Indigenous', emoji: '⚖️🌍', question: 'What is ILO Convention 169?', options: ['Indigenous peoples rights', 'Labor law'], correct: 0},
+            {topic: 'Indigenous', emoji: '🔬🌿', question: 'What is ethnobotany?', options: ['Study of plant-people relationships', 'Plant taxonomy'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Indigenous', emoji: '👥🌍', question: 'Name three aspects of traditional ecological knowledge', answer: 'Knowledge, Practice, Belief, Worldview (any 3)'},
+            {topic: 'Indigenous', emoji: '🌱📚', question: 'Name three ways TEK is transmitted', answer: 'Oral tradition, Observation, Experience, Ceremony (any 3)'},
+            {topic: 'Indigenous', emoji: '🌲👣', question: 'Name three indigenous conservation practices', answer: 'Sacred sites, Seasonal harvest, Rotation, Habitat management (any 3)'},
+            {topic: 'Indigenous', emoji: '🔥🌿', question: 'Name three benefits of cultural burning', answer: 'Reduce fuel, Promote growth, Habitat diversity, Food production (any 3)'},
+            {topic: 'Indigenous', emoji: '🌍🤝', question: 'Name three principles of UNDRIP', answer: 'Self-determination, Land rights, FPIC, Cultural rights (any 3)'},
+            {topic: 'Indigenous', emoji: '💧🏔️', question: 'Name three indigenous-managed conservation areas', answer: 'Alaska Native lands, Australian IPAs, Canadian territories (any 3)'},
+            {topic: 'Indigenous', emoji: '🦌🌲', question: 'Name three sustainable harvesting principles', answer: 'Take only needed, Leave for others, Thank the resource, Reciprocity (any 3)'},
+            {topic: 'Indigenous', emoji: '🌾🌱', question: 'Name three indigenous agricultural innovations', answer: 'Raised beds, Terracing, Polyculture, Seed saving (any 3)'},
+            {topic: 'Indigenous', emoji: '⚖️🌍', question: 'Name three indigenous rights', answer: 'Land, Self-determination, Culture, FPIC (any 3)'},
+            {topic: 'Indigenous', emoji: '🔬🌿', question: 'Name three ways to integrate TEK and science', answer: 'Co-research, Two-eyed seeing, Respect protocols, Benefit sharing (any 3)'}
+        ]
+    },
+    20: { // Chapter 20: Future of Environment
+        easy: [
+            {topic: 'Future', emoji: '🌍🔮', question: 'The future depends on our actions.', options: ['True', 'False'], correct: 0},
+            {topic: 'Future', emoji: '🌱💡', question: 'Innovation can solve problems.', options: ['True', 'False'], correct: 0},
+            {topic: 'Future', emoji: '👨‍👩‍👧‍👦🌍', question: 'Everyone has a role in the future.', options: ['True', 'False'], correct: 0},
+            {topic: 'Future', emoji: '🌳🌈', question: 'A green future is possible.', options: ['True', 'False'], correct: 0},
+            {topic: 'Future', emoji: '🔄💚', question: 'Change is happening now.', options: ['True', 'False'], correct: 0},
+            {topic: 'Future', emoji: '🌞⚡', question: 'Renewable energy is the future.', options: ['True', 'False'], correct: 0},
+            {topic: 'Future', emoji: '🚀🌍', question: 'Technology helps sustainability.', options: ['True', 'False'], correct: 0},
+            {topic: 'Future', emoji: '💪🌱', question: 'Young people drive change.', options: ['True', 'False'], correct: 0},
+            {topic: 'Future', emoji: '🌍❤️', question: 'Hope is important.', options: ['True', 'False'], correct: 0},
+            {topic: 'Future', emoji: '✨🌏', question: 'We can make a difference.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Future', emoji: '🌍🔮', question: 'What is sustainable development?', options: ['Meet needs without harming future', 'Unlimited growth'], correct: 0},
+            {topic: 'Future', emoji: '🌱💡', question: 'What is green innovation?', options: ['Eco-friendly technology', 'Any invention'], correct: 0},
+            {topic: 'Future', emoji: '👨‍👩‍👧‍👦🌍', question: 'What is environmental citizenship?', options: ['Responsible environmental behavior', 'No responsibility'], correct: 0},
+            {topic: 'Future', emoji: '🌳🌈', question: 'What is the green economy?', options: ['Economic growth with sustainability', 'Traditional economy'], correct: 0},
+            {topic: 'Future', emoji: '🔄💚', question: 'What is transition movement?', options: ['Community resilience initiatives', 'No change'], correct: 0},
+            {topic: 'Future', emoji: '🌞⚡', question: 'What is energy transition?', options: ['Shift to renewables', 'Stay with fossil fuels'], correct: 0},
+            {topic: 'Future', emoji: '🚀🌍', question: 'What is climate tech?', options: ['Technology for climate solutions', 'Any tech'], correct: 0},
+            {topic: 'Future', emoji: '💪🌱', question: 'What is youth climate movement?', options: ['Young activists for climate', 'No movement'], correct: 0},
+            {topic: 'Future', emoji: '🌍❤️', question: 'What is solastalgia?', options: ['Distress about environmental change', 'No feeling'], correct: 0},
+            {topic: 'Future', emoji: '✨🌏', question: 'What is planetary health?', options: ['Human and Earth wellbeing', 'Humans only'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Future', emoji: '🌍🔮', question: 'What are the SDGs?', options: ['UN Sustainable Development Goals', 'Sports', 'No goals'], correct: 0},
+            {topic: 'Future', emoji: '🌱💡', question: 'What is breakthrough technology?', options: ['Transformative innovation', 'Incremental change'], correct: 0},
+            {topic: 'Future', emoji: '👨‍👩‍👧‍👦🌍', question: 'What is collective action?', options: ['Group working for change', 'Individual only'], correct: 0},
+            {topic: 'Future', emoji: '🌳🌈', question: 'What is degrowth?', options: ['Reduce consumption', 'Infinite growth'], correct: 0},
+            {topic: 'Future', emoji: '🔄💚', question: 'What is systems change?', options: ['Transform underlying structures', 'Surface fix'], correct: 0},
+            {topic: 'Future', emoji: '🌞⚡', question: 'When could we be 100% renewable?', options: ['2030-2050 possible', '2200', 'Never'], correct: 0},
+            {topic: 'Future', emoji: '🚀🌍', question: 'What is negative emissions technology?', options: ['Remove CO2 from air', 'Add CO2'], correct: 0},
+            {topic: 'Future', emoji: '💪🌱', question: 'What is Fridays for Future?', options: ['Youth climate strikes', 'Day off'], correct: 0},
+            {topic: 'Future', emoji: '🌍❤️', question: 'What is ecological grief?', options: ['Mourning environmental loss', 'No emotion'], correct: 0},
+            {topic: 'Future', emoji: '✨🌏', question: 'What is the Anthropocene?', options: ['Human-dominated era', 'Past era'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Future', emoji: '🌍🔮', question: 'How many SDGs are there?', options: ['17', '5', '50', '100'], correct: 0},
+            {topic: 'Future', emoji: '🌱💡', question: 'What is mission-oriented innovation?', options: ['Goal-directed research', 'Random discovery'], correct: 0},
+            {topic: 'Future', emoji: '👨‍👩‍👧‍👦🌍', question: 'What is the commons?', options: ['Shared resources', 'Private property'], correct: 0},
+            {topic: 'Future', emoji: '🌳🌈', question: 'What is doughnut economics?', options: ['Balance social and planetary boundaries', 'Growth only'], correct: 0},
+            {topic: 'Future', emoji: '🔄💚', question: 'What is deep leverage point?', options: ['System paradigm shift', 'Surface intervention'], correct: 0},
+            {topic: 'Future', emoji: '🌞⚡', question: 'What is sector coupling?', options: ['Integrate energy sectors', 'Separate sectors'], correct: 0},
+            {topic: 'Future', emoji: '🚀🌍', question: 'What is carbon removal target by 2050?', options: ['~10 Gt CO2/year', '0', '1 Mt'], correct: 0},
+            {topic: 'Future', emoji: '💪🌱', question: 'Who is Greta Thunberg?', options: ['Climate activist', 'Politician'], correct: 0},
+            {topic: 'Future', emoji: '🌍❤️', question: 'What is active hope?', options: ['Engage despite uncertainty', 'Passive waiting'], correct: 0},
+            {topic: 'Future', emoji: '✨🌏', question: 'What is the Great Transition?', options: ['Sustainability transformation', 'No change'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Future', emoji: '🌍🔮', question: 'Name three SDG environmental goals', answer: 'Climate action, Life below water, Life on land, Clean water (any 3)'},
+            {topic: 'Future', emoji: '🌱💡', question: 'Name three emerging green technologies', answer: 'Green hydrogen, Carbon capture, Advanced batteries, Synthetic biology (any 3)'},
+            {topic: 'Future', emoji: '👨‍👩‍👧‍👦🌍', question: 'Name three environmental movements', answer: 'Climate strikes, Extinction Rebellion, Sunrise, 350.org (any 3)'},
+            {topic: 'Future', emoji: '🌳🌈', question: 'Name three alternative economic models', answer: 'Circular economy, Doughnut economics, Degrowth, Wellbeing economy (any 3)'},
+            {topic: 'Future', emoji: '🔄💚', question: 'Name three leverage points for change', answer: 'Paradigms, Goals, Rules, Feedback (any 3)'},
+            {topic: 'Future', emoji: '🌞⚡', question: 'Name three pillars of energy transition', answer: 'Renewable energy, Energy efficiency, Electrification, Storage (any 3)'},
+            {topic: 'Future', emoji: '🚀🌍', question: 'Name three climate solutions', answer: 'Renewable energy, Reforestation, Regenerative agriculture, Carbon removal (any 3)'},
+            {topic: 'Future', emoji: '💪🌱', question: 'Name three youth climate leaders', answer: 'Greta Thunberg, Vanessa Nakate, Xiye Bastida, Autumn Peltier (any 3)'},
+            {topic: 'Future', emoji: '🌍❤️', question: 'Name three sources of hope', answer: 'Renewable growth, Youth activism, Nature resilience, Innovation (any 3)'},
+            {topic: 'Future', emoji: '✨🌏', question: 'Name three visions for 2050', answer: 'Carbon neutral, Nature positive, Circular economy, Climate resilient (any 3)'}
+        ]
+    }
+    // Add more chapters
+    // Add more chapters: 2, 3, 4... unlimited!
 };

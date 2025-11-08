@@ -753,4 +753,501 @@ const healthQuestions = {
             {topic: 'Preventive', emoji: '🏥✅', question: 'Name three preventive healthcare items 10', answer: 'Item 1, Item 2, Item 3'}
         ]
     },
+        13: { // Chapter 13: Substance Abuse and Addiction
+        easy: [
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Substance Abuse and Addiction topic 1.', options: ['True', 'False'], correct: 0},
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Substance Abuse and Addiction topic 2.', options: ['True', 'False'], correct: 0},
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Substance Abuse and Addiction topic 3.', options: ['True', 'False'], correct: 0},
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Substance Abuse and Addiction topic 4.', options: ['True', 'False'], correct: 0},
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Substance Abuse and Addiction topic 5.', options: ['True', 'False'], correct: 0},
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Substance Abuse and Addiction topic 6.', options: ['True', 'False'], correct: 0},
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Substance Abuse and Addiction topic 7.', options: ['True', 'False'], correct: 0},
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Substance Abuse and Addiction topic 8.', options: ['True', 'False'], correct: 0},
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Substance Abuse and Addiction topic 9.', options: ['True', 'False'], correct: 0},
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Substance Abuse and Addiction topic 10.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Substance Abuse and Addiction question 1?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Substance Abuse and Addiction question 2?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Substance Abuse and Addiction question 3?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Substance Abuse and Addiction question 4?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Substance Abuse and Addiction question 5?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Substance Abuse and Addiction question 6?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Substance Abuse and Addiction question 7?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Substance Abuse and Addiction question 8?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Substance Abuse and Addiction question 9?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Substance Abuse and Addiction question 10?', options: ['Option A', 'Option B'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Substance Abuse and Addiction advanced question 1?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Substance Abuse and Addiction advanced question 2?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Substance Abuse and Addiction advanced question 3?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Substance Abuse and Addiction advanced question 4?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Substance Abuse and Addiction advanced question 5?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Substance Abuse and Addiction advanced question 6?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Substance Abuse and Addiction advanced question 7?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Substance Abuse and Addiction advanced question 8?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Substance Abuse and Addiction advanced question 9?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Substance Abuse and Addiction advanced question 10?', options: ['A', 'B', 'C'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Substance Abuse and Addiction expert question 1?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Substance Abuse and Addiction expert question 2?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Substance Abuse and Addiction expert question 3?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Substance Abuse and Addiction expert question 4?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Substance Abuse and Addiction expert question 5?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Substance Abuse and Addiction expert question 6?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Substance Abuse and Addiction expert question 7?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Substance Abuse and Addiction expert question 8?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Substance Abuse and Addiction expert question 9?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Substance Abuse and Addiction expert question 10?', options: ['A', 'B', 'C', 'D'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Name three substance abuse and addiction items 1', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Name three substance abuse and addiction items 2', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Name three substance abuse and addiction items 3', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Name three substance abuse and addiction items 4', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Name three substance abuse and addiction items 5', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Name three substance abuse and addiction items 6', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Name three substance abuse and addiction items 7', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Name three substance abuse and addiction items 8', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Name three substance abuse and addiction items 9', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Substance', emoji: '🚭🚫', question: 'Name three substance abuse and addiction items 10', answer: 'Item 1, Item 2, Item 3'}
+        ]
+    },
+    14: { // Chapter 14: Environmental Health
+        easy: [
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Environmental Health topic 1.', options: ['True', 'False'], correct: 0},
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Environmental Health topic 2.', options: ['True', 'False'], correct: 0},
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Environmental Health topic 3.', options: ['True', 'False'], correct: 0},
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Environmental Health topic 4.', options: ['True', 'False'], correct: 0},
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Environmental Health topic 5.', options: ['True', 'False'], correct: 0},
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Environmental Health topic 6.', options: ['True', 'False'], correct: 0},
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Environmental Health topic 7.', options: ['True', 'False'], correct: 0},
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Environmental Health topic 8.', options: ['True', 'False'], correct: 0},
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Environmental Health topic 9.', options: ['True', 'False'], correct: 0},
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Environmental Health topic 10.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Environmental Health question 1?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Environmental Health question 2?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Environmental Health question 3?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Environmental Health question 4?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Environmental Health question 5?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Environmental Health question 6?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Environmental Health question 7?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Environmental Health question 8?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Environmental Health question 9?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Environmental Health question 10?', options: ['Option A', 'Option B'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Environmental Health advanced question 1?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Environmental Health advanced question 2?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Environmental Health advanced question 3?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Environmental Health advanced question 4?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Environmental Health advanced question 5?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Environmental Health advanced question 6?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Environmental Health advanced question 7?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Environmental Health advanced question 8?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Environmental Health advanced question 9?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Environmental Health advanced question 10?', options: ['A', 'B', 'C'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Environmental Health expert question 1?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Environmental Health expert question 2?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Environmental Health expert question 3?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Environmental Health expert question 4?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Environmental Health expert question 5?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Environmental Health expert question 6?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Environmental Health expert question 7?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Environmental Health expert question 8?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Environmental Health expert question 9?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Environmental Health expert question 10?', options: ['A', 'B', 'C', 'D'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Name three environmental health items 1', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Name three environmental health items 2', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Name three environmental health items 3', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Name three environmental health items 4', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Name three environmental health items 5', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Name three environmental health items 6', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Name three environmental health items 7', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Name three environmental health items 8', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Name three environmental health items 9', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Environmental', emoji: '🌍♻️', question: 'Name three environmental health items 10', answer: 'Item 1, Item 2, Item 3'}
+        ]
+    },
+    15: { // Chapter 15: Sexual and Reproductive Health
+        easy: [
+            {topic: 'Sexual', emoji: '👶💕', question: 'Sexual and Reproductive Health topic 1.', options: ['True', 'False'], correct: 0},
+            {topic: 'Sexual', emoji: '👶💕', question: 'Sexual and Reproductive Health topic 2.', options: ['True', 'False'], correct: 0},
+            {topic: 'Sexual', emoji: '👶💕', question: 'Sexual and Reproductive Health topic 3.', options: ['True', 'False'], correct: 0},
+            {topic: 'Sexual', emoji: '👶💕', question: 'Sexual and Reproductive Health topic 4.', options: ['True', 'False'], correct: 0},
+            {topic: 'Sexual', emoji: '👶💕', question: 'Sexual and Reproductive Health topic 5.', options: ['True', 'False'], correct: 0},
+            {topic: 'Sexual', emoji: '👶💕', question: 'Sexual and Reproductive Health topic 6.', options: ['True', 'False'], correct: 0},
+            {topic: 'Sexual', emoji: '👶💕', question: 'Sexual and Reproductive Health topic 7.', options: ['True', 'False'], correct: 0},
+            {topic: 'Sexual', emoji: '👶💕', question: 'Sexual and Reproductive Health topic 8.', options: ['True', 'False'], correct: 0},
+            {topic: 'Sexual', emoji: '👶💕', question: 'Sexual and Reproductive Health topic 9.', options: ['True', 'False'], correct: 0},
+            {topic: 'Sexual', emoji: '👶💕', question: 'Sexual and Reproductive Health topic 10.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Sexual', emoji: '👶💕', question: 'Sexual and Reproductive Health question 1?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Sexual', emoji: '👶💕', question: 'Sexual and Reproductive Health question 2?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Sexual', emoji: '👶💕', question: 'Sexual and Reproductive Health question 3?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Sexual', emoji: '👶💕', question: 'Sexual and Reproductive Health question 4?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Sexual', emoji: '👶💕', question: 'Sexual and Reproductive Health question 5?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Sexual', emoji: '👶💕', question: 'Sexual and Reproductive Health question 6?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Sexual', emoji: '👶💕', question: 'Sexual and Reproductive Health question 7?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Sexual', emoji: '👶💕', question: 'Sexual and Reproductive Health question 8?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Sexual', emoji: '👶💕', question: 'Sexual and Reproductive Health question 9?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Sexual', emoji: '👶💕', question: 'Sexual and Reproductive Health question 10?', options: ['Option A', 'Option B'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Sexual', emoji: '👶💕', question: 'Sexual and Reproductive Health advanced question 1?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Sexual', emoji: '👶💕', question: 'Sexual and Reproductive Health advanced question 2?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Sexual', emoji: '👶💕', question: 'Sexual and Reproductive Health advanced question 3?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Sexual', emoji: '👶💕', question: 'Sexual and Reproductive Health advanced question 4?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Sexual', emoji: '👶💕', question: 'Sexual and Reproductive Health advanced question 5?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Sexual', emoji: '👶💕', question: 'Sexual and Reproductive Health advanced question 6?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Sexual', emoji: '👶💕', question: 'Sexual and Reproductive Health advanced question 7?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Sexual', emoji: '👶💕', question: 'Sexual and Reproductive Health advanced question 8?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Sexual', emoji: '👶💕', question: 'Sexual and Reproductive Health advanced question 9?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Sexual', emoji: '👶💕', question: 'Sexual and Reproductive Health advanced question 10?', options: ['A', 'B', 'C'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Sexual', emoji: '👶💕', question: 'Sexual and Reproductive Health expert question 1?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Sexual', emoji: '👶💕', question: 'Sexual and Reproductive Health expert question 2?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Sexual', emoji: '👶💕', question: 'Sexual and Reproductive Health expert question 3?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Sexual', emoji: '👶💕', question: 'Sexual and Reproductive Health expert question 4?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Sexual', emoji: '👶💕', question: 'Sexual and Reproductive Health expert question 5?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Sexual', emoji: '👶💕', question: 'Sexual and Reproductive Health expert question 6?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Sexual', emoji: '👶💕', question: 'Sexual and Reproductive Health expert question 7?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Sexual', emoji: '👶💕', question: 'Sexual and Reproductive Health expert question 8?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Sexual', emoji: '👶💕', question: 'Sexual and Reproductive Health expert question 9?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Sexual', emoji: '👶💕', question: 'Sexual and Reproductive Health expert question 10?', options: ['A', 'B', 'C', 'D'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Sexual', emoji: '👶💕', question: 'Name three sexual and reproductive health items 1', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Sexual', emoji: '👶💕', question: 'Name three sexual and reproductive health items 2', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Sexual', emoji: '👶💕', question: 'Name three sexual and reproductive health items 3', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Sexual', emoji: '👶💕', question: 'Name three sexual and reproductive health items 4', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Sexual', emoji: '👶💕', question: 'Name three sexual and reproductive health items 5', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Sexual', emoji: '👶💕', question: 'Name three sexual and reproductive health items 6', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Sexual', emoji: '👶💕', question: 'Name three sexual and reproductive health items 7', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Sexual', emoji: '👶💕', question: 'Name three sexual and reproductive health items 8', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Sexual', emoji: '👶💕', question: 'Name three sexual and reproductive health items 9', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Sexual', emoji: '👶💕', question: 'Name three sexual and reproductive health items 10', answer: 'Item 1, Item 2, Item 3'}
+        ]
+    },
+    16: { // Chapter 16: Chronic Diseases
+        easy: [
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Chronic Diseases topic 1.', options: ['True', 'False'], correct: 0},
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Chronic Diseases topic 2.', options: ['True', 'False'], correct: 0},
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Chronic Diseases topic 3.', options: ['True', 'False'], correct: 0},
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Chronic Diseases topic 4.', options: ['True', 'False'], correct: 0},
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Chronic Diseases topic 5.', options: ['True', 'False'], correct: 0},
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Chronic Diseases topic 6.', options: ['True', 'False'], correct: 0},
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Chronic Diseases topic 7.', options: ['True', 'False'], correct: 0},
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Chronic Diseases topic 8.', options: ['True', 'False'], correct: 0},
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Chronic Diseases topic 9.', options: ['True', 'False'], correct: 0},
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Chronic Diseases topic 10.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Chronic Diseases question 1?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Chronic Diseases question 2?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Chronic Diseases question 3?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Chronic Diseases question 4?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Chronic Diseases question 5?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Chronic Diseases question 6?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Chronic Diseases question 7?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Chronic Diseases question 8?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Chronic Diseases question 9?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Chronic Diseases question 10?', options: ['Option A', 'Option B'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Chronic Diseases advanced question 1?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Chronic Diseases advanced question 2?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Chronic Diseases advanced question 3?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Chronic Diseases advanced question 4?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Chronic Diseases advanced question 5?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Chronic Diseases advanced question 6?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Chronic Diseases advanced question 7?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Chronic Diseases advanced question 8?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Chronic Diseases advanced question 9?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Chronic Diseases advanced question 10?', options: ['A', 'B', 'C'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Chronic Diseases expert question 1?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Chronic Diseases expert question 2?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Chronic Diseases expert question 3?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Chronic Diseases expert question 4?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Chronic Diseases expert question 5?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Chronic Diseases expert question 6?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Chronic Diseases expert question 7?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Chronic Diseases expert question 8?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Chronic Diseases expert question 9?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Chronic Diseases expert question 10?', options: ['A', 'B', 'C', 'D'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Name three chronic diseases items 1', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Name three chronic diseases items 2', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Name three chronic diseases items 3', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Name three chronic diseases items 4', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Name three chronic diseases items 5', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Name three chronic diseases items 6', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Name three chronic diseases items 7', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Name three chronic diseases items 8', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Name three chronic diseases items 9', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Chronic', emoji: '🩺📋', question: 'Name three chronic diseases items 10', answer: 'Item 1, Item 2, Item 3'}
+        ]
+    },
+    17: { // Chapter 17: Infectious Diseases
+        easy: [
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Infectious Diseases topic 1.', options: ['True', 'False'], correct: 0},
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Infectious Diseases topic 2.', options: ['True', 'False'], correct: 0},
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Infectious Diseases topic 3.', options: ['True', 'False'], correct: 0},
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Infectious Diseases topic 4.', options: ['True', 'False'], correct: 0},
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Infectious Diseases topic 5.', options: ['True', 'False'], correct: 0},
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Infectious Diseases topic 6.', options: ['True', 'False'], correct: 0},
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Infectious Diseases topic 7.', options: ['True', 'False'], correct: 0},
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Infectious Diseases topic 8.', options: ['True', 'False'], correct: 0},
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Infectious Diseases topic 9.', options: ['True', 'False'], correct: 0},
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Infectious Diseases topic 10.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Infectious Diseases question 1?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Infectious Diseases question 2?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Infectious Diseases question 3?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Infectious Diseases question 4?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Infectious Diseases question 5?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Infectious Diseases question 6?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Infectious Diseases question 7?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Infectious Diseases question 8?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Infectious Diseases question 9?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Infectious Diseases question 10?', options: ['Option A', 'Option B'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Infectious Diseases advanced question 1?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Infectious Diseases advanced question 2?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Infectious Diseases advanced question 3?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Infectious Diseases advanced question 4?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Infectious Diseases advanced question 5?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Infectious Diseases advanced question 6?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Infectious Diseases advanced question 7?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Infectious Diseases advanced question 8?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Infectious Diseases advanced question 9?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Infectious Diseases advanced question 10?', options: ['A', 'B', 'C'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Infectious Diseases expert question 1?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Infectious Diseases expert question 2?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Infectious Diseases expert question 3?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Infectious Diseases expert question 4?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Infectious Diseases expert question 5?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Infectious Diseases expert question 6?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Infectious Diseases expert question 7?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Infectious Diseases expert question 8?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Infectious Diseases expert question 9?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Infectious Diseases expert question 10?', options: ['A', 'B', 'C', 'D'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Name three infectious diseases items 1', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Name three infectious diseases items 2', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Name three infectious diseases items 3', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Name three infectious diseases items 4', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Name three infectious diseases items 5', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Name three infectious diseases items 6', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Name three infectious diseases items 7', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Name three infectious diseases items 8', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Name three infectious diseases items 9', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Infectious', emoji: '🦠🌡️', question: 'Name three infectious diseases items 10', answer: 'Item 1, Item 2, Item 3'}
+        ]
+    },
+    18: { // Chapter 18: Healthcare Systems
+        easy: [
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Healthcare Systems topic 1.', options: ['True', 'False'], correct: 0},
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Healthcare Systems topic 2.', options: ['True', 'False'], correct: 0},
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Healthcare Systems topic 3.', options: ['True', 'False'], correct: 0},
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Healthcare Systems topic 4.', options: ['True', 'False'], correct: 0},
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Healthcare Systems topic 5.', options: ['True', 'False'], correct: 0},
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Healthcare Systems topic 6.', options: ['True', 'False'], correct: 0},
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Healthcare Systems topic 7.', options: ['True', 'False'], correct: 0},
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Healthcare Systems topic 8.', options: ['True', 'False'], correct: 0},
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Healthcare Systems topic 9.', options: ['True', 'False'], correct: 0},
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Healthcare Systems topic 10.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Healthcare Systems question 1?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Healthcare Systems question 2?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Healthcare Systems question 3?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Healthcare Systems question 4?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Healthcare Systems question 5?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Healthcare Systems question 6?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Healthcare Systems question 7?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Healthcare Systems question 8?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Healthcare Systems question 9?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Healthcare Systems question 10?', options: ['Option A', 'Option B'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Healthcare Systems advanced question 1?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Healthcare Systems advanced question 2?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Healthcare Systems advanced question 3?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Healthcare Systems advanced question 4?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Healthcare Systems advanced question 5?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Healthcare Systems advanced question 6?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Healthcare Systems advanced question 7?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Healthcare Systems advanced question 8?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Healthcare Systems advanced question 9?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Healthcare Systems advanced question 10?', options: ['A', 'B', 'C'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Healthcare Systems expert question 1?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Healthcare Systems expert question 2?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Healthcare Systems expert question 3?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Healthcare Systems expert question 4?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Healthcare Systems expert question 5?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Healthcare Systems expert question 6?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Healthcare Systems expert question 7?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Healthcare Systems expert question 8?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Healthcare Systems expert question 9?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Healthcare Systems expert question 10?', options: ['A', 'B', 'C', 'D'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Name three healthcare systems items 1', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Name three healthcare systems items 2', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Name three healthcare systems items 3', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Name three healthcare systems items 4', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Name three healthcare systems items 5', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Name three healthcare systems items 6', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Name three healthcare systems items 7', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Name three healthcare systems items 8', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Name three healthcare systems items 9', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Healthcare', emoji: '🏥🩺', question: 'Name three healthcare systems items 10', answer: 'Item 1, Item 2, Item 3'}
+        ]
+    },
+    19: { // Chapter 19: Alternative and Complementary Medicine
+        easy: [
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Alternative and Complementary Medicine topic 1.', options: ['True', 'False'], correct: 0},
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Alternative and Complementary Medicine topic 2.', options: ['True', 'False'], correct: 0},
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Alternative and Complementary Medicine topic 3.', options: ['True', 'False'], correct: 0},
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Alternative and Complementary Medicine topic 4.', options: ['True', 'False'], correct: 0},
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Alternative and Complementary Medicine topic 5.', options: ['True', 'False'], correct: 0},
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Alternative and Complementary Medicine topic 6.', options: ['True', 'False'], correct: 0},
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Alternative and Complementary Medicine topic 7.', options: ['True', 'False'], correct: 0},
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Alternative and Complementary Medicine topic 8.', options: ['True', 'False'], correct: 0},
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Alternative and Complementary Medicine topic 9.', options: ['True', 'False'], correct: 0},
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Alternative and Complementary Medicine topic 10.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Alternative and Complementary Medicine question 1?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Alternative and Complementary Medicine question 2?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Alternative and Complementary Medicine question 3?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Alternative and Complementary Medicine question 4?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Alternative and Complementary Medicine question 5?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Alternative and Complementary Medicine question 6?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Alternative and Complementary Medicine question 7?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Alternative and Complementary Medicine question 8?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Alternative and Complementary Medicine question 9?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Alternative and Complementary Medicine question 10?', options: ['Option A', 'Option B'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Alternative and Complementary Medicine advanced question 1?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Alternative and Complementary Medicine advanced question 2?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Alternative and Complementary Medicine advanced question 3?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Alternative and Complementary Medicine advanced question 4?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Alternative and Complementary Medicine advanced question 5?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Alternative and Complementary Medicine advanced question 6?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Alternative and Complementary Medicine advanced question 7?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Alternative and Complementary Medicine advanced question 8?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Alternative and Complementary Medicine advanced question 9?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Alternative and Complementary Medicine advanced question 10?', options: ['A', 'B', 'C'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Alternative and Complementary Medicine expert question 1?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Alternative and Complementary Medicine expert question 2?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Alternative and Complementary Medicine expert question 3?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Alternative and Complementary Medicine expert question 4?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Alternative and Complementary Medicine expert question 5?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Alternative and Complementary Medicine expert question 6?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Alternative and Complementary Medicine expert question 7?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Alternative and Complementary Medicine expert question 8?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Alternative and Complementary Medicine expert question 9?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Alternative and Complementary Medicine expert question 10?', options: ['A', 'B', 'C', 'D'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Name three alternative and complementary medicine items 1', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Name three alternative and complementary medicine items 2', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Name three alternative and complementary medicine items 3', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Name three alternative and complementary medicine items 4', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Name three alternative and complementary medicine items 5', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Name three alternative and complementary medicine items 6', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Name three alternative and complementary medicine items 7', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Name three alternative and complementary medicine items 8', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Name three alternative and complementary medicine items 9', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Alternative', emoji: '🌿💊', question: 'Name three alternative and complementary medicine items 10', answer: 'Item 1, Item 2, Item 3'}
+        ]
+    },
+    20: { // Chapter 20: Aging and Wellness
+        easy: [
+            {topic: 'Aging', emoji: '👴👵', question: 'Aging and Wellness topic 1.', options: ['True', 'False'], correct: 0},
+            {topic: 'Aging', emoji: '👴👵', question: 'Aging and Wellness topic 2.', options: ['True', 'False'], correct: 0},
+            {topic: 'Aging', emoji: '👴👵', question: 'Aging and Wellness topic 3.', options: ['True', 'False'], correct: 0},
+            {topic: 'Aging', emoji: '👴👵', question: 'Aging and Wellness topic 4.', options: ['True', 'False'], correct: 0},
+            {topic: 'Aging', emoji: '👴👵', question: 'Aging and Wellness topic 5.', options: ['True', 'False'], correct: 0},
+            {topic: 'Aging', emoji: '👴👵', question: 'Aging and Wellness topic 6.', options: ['True', 'False'], correct: 0},
+            {topic: 'Aging', emoji: '👴👵', question: 'Aging and Wellness topic 7.', options: ['True', 'False'], correct: 0},
+            {topic: 'Aging', emoji: '👴👵', question: 'Aging and Wellness topic 8.', options: ['True', 'False'], correct: 0},
+            {topic: 'Aging', emoji: '👴👵', question: 'Aging and Wellness topic 9.', options: ['True', 'False'], correct: 0},
+            {topic: 'Aging', emoji: '👴👵', question: 'Aging and Wellness topic 10.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Aging', emoji: '👴👵', question: 'Aging and Wellness question 1?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Aging', emoji: '👴👵', question: 'Aging and Wellness question 2?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Aging', emoji: '👴👵', question: 'Aging and Wellness question 3?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Aging', emoji: '👴👵', question: 'Aging and Wellness question 4?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Aging', emoji: '👴👵', question: 'Aging and Wellness question 5?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Aging', emoji: '👴👵', question: 'Aging and Wellness question 6?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Aging', emoji: '👴👵', question: 'Aging and Wellness question 7?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Aging', emoji: '👴👵', question: 'Aging and Wellness question 8?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Aging', emoji: '👴👵', question: 'Aging and Wellness question 9?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Aging', emoji: '👴👵', question: 'Aging and Wellness question 10?', options: ['Option A', 'Option B'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Aging', emoji: '👴👵', question: 'Aging and Wellness advanced question 1?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Aging', emoji: '👴👵', question: 'Aging and Wellness advanced question 2?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Aging', emoji: '👴👵', question: 'Aging and Wellness advanced question 3?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Aging', emoji: '👴👵', question: 'Aging and Wellness advanced question 4?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Aging', emoji: '👴👵', question: 'Aging and Wellness advanced question 5?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Aging', emoji: '👴👵', question: 'Aging and Wellness advanced question 6?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Aging', emoji: '👴👵', question: 'Aging and Wellness advanced question 7?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Aging', emoji: '👴👵', question: 'Aging and Wellness advanced question 8?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Aging', emoji: '👴👵', question: 'Aging and Wellness advanced question 9?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Aging', emoji: '👴👵', question: 'Aging and Wellness advanced question 10?', options: ['A', 'B', 'C'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Aging', emoji: '👴👵', question: 'Aging and Wellness expert question 1?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Aging', emoji: '👴👵', question: 'Aging and Wellness expert question 2?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Aging', emoji: '👴👵', question: 'Aging and Wellness expert question 3?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Aging', emoji: '👴👵', question: 'Aging and Wellness expert question 4?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Aging', emoji: '👴👵', question: 'Aging and Wellness expert question 5?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Aging', emoji: '👴👵', question: 'Aging and Wellness expert question 6?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Aging', emoji: '👴👵', question: 'Aging and Wellness expert question 7?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Aging', emoji: '👴👵', question: 'Aging and Wellness expert question 8?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Aging', emoji: '👴👵', question: 'Aging and Wellness expert question 9?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Aging', emoji: '👴👵', question: 'Aging and Wellness expert question 10?', options: ['A', 'B', 'C', 'D'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Aging', emoji: '👴👵', question: 'Name three aging and wellness items 1', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Aging', emoji: '👴👵', question: 'Name three aging and wellness items 2', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Aging', emoji: '👴👵', question: 'Name three aging and wellness items 3', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Aging', emoji: '👴👵', question: 'Name three aging and wellness items 4', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Aging', emoji: '👴👵', question: 'Name three aging and wellness items 5', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Aging', emoji: '👴👵', question: 'Name three aging and wellness items 6', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Aging', emoji: '👴👵', question: 'Name three aging and wellness items 7', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Aging', emoji: '👴👵', question: 'Name three aging and wellness items 8', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Aging', emoji: '👴👵', question: 'Name three aging and wellness items 9', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Aging', emoji: '👴👵', question: 'Name three aging and wellness items 10', answer: 'Item 1, Item 2, Item 3'}
+        ]
+    }
+    // Add more chapters: 2, 3, 4... unlimited!
 };

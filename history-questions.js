@@ -754,4 +754,501 @@ const historyQuestions = {
             {topic: 'World War II', emoji: '🕊️📜', question: 'What organization was formed after WWII?', answer: 'United Nations'}
         ]
     },
+        13: { // Chapter 13: Cold War
+        easy: [
+            {topic: 'Cold War', emoji: '🥶⚔️', question: 'Cold War was between USA and USSR.', options: ['True', 'False'], correct: 0},
+            {topic: 'Cold War', emoji: '🧱🇩🇪', question: 'Berlin Wall divided Germany.', options: ['True', 'False'], correct: 0},
+            {topic: 'Cold War', emoji: '☢️💣', question: 'Nuclear weapons were threat.', options: ['True', 'False'], correct: 0},
+            {topic: 'Cold War', emoji: '🚀🌙', question: 'Space race occurred.', options: ['True', 'False'], correct: 0},
+            {topic: 'Cold War', emoji: '🇰🇷⚔️', question: 'Korean War happened.', options: ['True', 'False'], correct: 0},
+            {topic: 'Cold War', emoji: '🇻🇳🎖️', question: 'Vietnam War was fought.', options: ['True', 'False'], correct: 0},
+            {topic: 'Cold War', emoji: '🕵️💼', question: 'Espionage was common.', options: ['True', 'False'], correct: 0},
+            {topic: 'Cold War', emoji: '🇨🇺💣', question: 'Cuban Missile Crisis occurred.', options: ['True', 'False'], correct: 0},
+            {topic: 'Cold War', emoji: '☭🆚🦅', question: 'Communism vs Capitalism.', options: ['True', 'False'], correct: 0},
+            {topic: 'Cold War', emoji: '🕊️🤝', question: 'Cold War ended peacefully.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Cold War', emoji: '🥶⚔️', question: 'When did Cold War begin?', options: ['After WWII', 'Before WWII'], correct: 0},
+            {topic: 'Cold War', emoji: '🧱🇩🇪', question: 'When was Berlin Wall built?', options: ['1961', '1945'], correct: 0},
+            {topic: 'Cold War', emoji: '☢️💣', question: 'What was MAD?', options: ['Mutually Assured Destruction', 'Military Armed Defense'], correct: 0},
+            {topic: 'Cold War', emoji: '🚀🌙', question: 'Who landed on moon first?', options: ['USA', 'USSR'], correct: 0},
+            {topic: 'Cold War', emoji: '🇰🇷⚔️', question: 'When was Korean War?', options: ['1950-1953', '1960-1963'], correct: 0},
+            {topic: 'Cold War', emoji: '🇻🇳🎖️', question: 'Who won Vietnam War?', options: ['North Vietnam', 'South Vietnam'], correct: 0},
+            {topic: 'Cold War', emoji: '🕵️💼', question: 'What was the CIA?', options: ['US intelligence', 'Soviet intelligence'], correct: 0},
+            {topic: 'Cold War', emoji: '🇨🇺💣', question: 'When was Cuban Crisis?', options: ['1962', '1961'], correct: 0},
+            {topic: 'Cold War', emoji: '☭🆚🦅', question: 'What alliance did USA lead?', options: ['NATO', 'Warsaw Pact'], correct: 0},
+            {topic: 'Cold War', emoji: '🕊️🤝', question: 'When did Cold War end?', options: ['1991', '1989'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Cold War', emoji: '🥶⚔️', question: 'What speech mentioned "Iron Curtain"?', options: ['Churchill 1946', 'Stalin 1945', 'Truman 1947'], correct: 0},
+            {topic: 'Cold War', emoji: '🧱🇩🇪', question: 'When did Berlin Wall fall?', options: ['1989', '1990', '1991'], correct: 0},
+            {topic: 'Cold War', emoji: '☢️💣', question: 'What was arms race?', options: ['Nuclear buildup', 'Space competition', 'Economic contest'], correct: 0},
+            {topic: 'Cold War', emoji: '🚀🌙', question: 'Who was first in space?', options: ['Yuri Gagarin', 'Neil Armstrong', 'John Glenn'], correct: 0},
+            {topic: 'Cold War', emoji: '🇰🇷⚔️', question: 'What parallel divided Korea?', options: ['38th', '17th', '49th'], correct: 0},
+            {topic: 'Cold War', emoji: '🇻🇳🎖️', question: 'When did US leave Vietnam?', options: ['1973', '1975', '1970'], correct: 0},
+            {topic: 'Cold War', emoji: '🕵️💼', question: 'What was KGB?', options: ['Soviet intelligence', 'US intelligence', 'British intelligence'], correct: 0},
+            {topic: 'Cold War', emoji: '🇨🇺💣', question: 'Who was Soviet leader in 1962?', options: ['Khrushchev', 'Brezhnev', 'Stalin'], correct: 0},
+            {topic: 'Cold War', emoji: '☭🆚🦅', question: 'What was Warsaw Pact?', options: ['Soviet alliance', 'Western alliance', 'Trade agreement'], correct: 0},
+            {topic: 'Cold War', emoji: '🕊️🤝', question: 'Who was last Soviet leader?', options: ['Gorbachev', 'Yeltsin', 'Brezhnev'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Cold War', emoji: '🥶⚔️', question: 'What was Truman Doctrine?', options: ['Contain communism', 'Marshall Plan', 'Nuclear deterrence', 'Space program'], correct: 0},
+            {topic: 'Cold War', emoji: '🧱🇩🇪', question: 'What was Berlin Airlift?', options: ['Supply blockaded Berlin', 'Escape route', 'Bombing campaign', 'Spy operation'], correct: 0},
+            {topic: 'Cold War', emoji: '☢️💣', question: 'What treaty limited nuclear weapons?', options: ['START/SALT', 'NPT', 'CTBT', 'ABM'], correct: 0},
+            {topic: 'Cold War', emoji: '🚀🌙', question: 'What was Sputnik?', options: ['First satellite', 'Moon rocket', 'Space station', 'Mars probe'], correct: 0},
+            {topic: 'Cold War', emoji: '🇰🇷⚔️', question: 'Who led North Korea?', options: ['Kim Il-sung', 'Mao', 'Ho Chi Minh', 'Stalin'], correct: 0},
+            {topic: 'Cold War', emoji: '🇻🇳🎖️', question: 'What was Tet Offensive?', options: ['Major 1968 attack', 'US invasion', 'Peace treaty', 'Withdrawal'], correct: 0},
+            {topic: 'Cold War', emoji: '🕵️💼', question: 'What were Rosenbergs accused of?', options: ['Espionage', 'Murder', 'Sabotage', 'Treason'], correct: 0},
+            {topic: 'Cold War', emoji: '🇨🇺💣', question: 'How long did Cuban Crisis last?', options: ['13 days', '1 month', '1 week', '3 months'], correct: 0},
+            {topic: 'Cold War', emoji: '☭🆚🦅', question: 'What was domino theory?', options: ['Communism would spread', 'Nuclear war chain', 'Economic collapse', 'Alliance theory'], correct: 0},
+            {topic: 'Cold War', emoji: '🕊️🤝', question: 'What was Gorbachev\'s reform?', options: ['Glasnost/Perestroika', 'New Deal', 'Great Leap', 'Cultural Revolution'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Cold War', emoji: '🥶⚔️', question: 'Name three Cold War presidents', answer: 'Truman, Eisenhower, Kennedy, Johnson, Nixon, Reagan (any 3)'},
+            {topic: 'Cold War', emoji: '🧱🇩🇪', question: 'What year was Berlin Wall built?', answer: '1961'},
+            {topic: 'Cold War', emoji: '☢️💣', question: 'Name three nuclear powers', answer: 'USA, USSR, Britain, France, China (any 3)'},
+            {topic: 'Cold War', emoji: '🚀🌙', question: 'What year did man land on moon?', answer: '1969'},
+            {topic: 'Cold War', emoji: '🇰🇷⚔️', question: 'Name three countries involved in Korean War', answer: 'USA, China, North Korea, South Korea (any 3)'},
+            {topic: 'Cold War', emoji: '🇻🇳🎖️', question: 'What year did Saigon fall?', answer: '1975'},
+            {topic: 'Cold War', emoji: '🕵️💼', question: 'Name three spy agencies', answer: 'CIA, KGB, MI6, Mossad (any 3)'},
+            {topic: 'Cold War', emoji: '🇨🇺💣', question: 'Who was US president during Cuban Crisis?', answer: 'John F. Kennedy'},
+            {topic: 'Cold War', emoji: '☭🆚🦅', question: 'Name three NATO founding members', answer: 'USA, Britain, France, Canada, Belgium (any 3)'},
+            {topic: 'Cold War', emoji: '🕊️🤝', question: 'What year did Soviet Union dissolve?', answer: '1991'}
+        ]
+    },
+    14: { // Chapter 14: Civil Rights Movement
+        easy: [
+            {topic: 'Civil Rights', emoji: '✊🏿✊🏾', question: 'Martin Luther King Jr. led movement.', options: ['True', 'False'], correct: 0},
+            {topic: 'Civil Rights', emoji: '🚌🪑', question: 'Rosa Parks refused to give seat.', options: ['True', 'False'], correct: 0},
+            {topic: 'Civil Rights', emoji: '📜⚖️', question: 'Civil Rights Act was passed.', options: ['True', 'False'], correct: 0},
+            {topic: 'Civil Rights', emoji: '🗳️✅', question: 'Voting Rights Act helped equality.', options: ['True', 'False'], correct: 0},
+            {topic: 'Civil Rights', emoji: '🏫📚', question: 'Schools were segregated.', options: ['True', 'False'], correct: 0},
+            {topic: 'Civil Rights', emoji: '🎤💭', question: 'MLK had a famous speech.', options: ['True', 'False'], correct: 0},
+            {topic: 'Civil Rights', emoji: '⚖️🏛️', question: 'Supreme Court made rulings.', options: ['True', 'False'], correct: 0},
+            {topic: 'Civil Rights', emoji: '🚶‍♂️🚶‍♀️', question: 'Marches were peaceful protests.', options: ['True', 'False'], correct: 0},
+            {topic: 'Civil Rights', emoji: '🕊️✊', question: 'Nonviolent resistance was key.', options: ['True', 'False'], correct: 0},
+            {topic: 'Civil Rights', emoji: '🇺🇸🤝', question: 'Movement changed America.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Civil Rights', emoji: '✊🏿✊🏾', question: 'What was MLK\'s method?', options: ['Nonviolent resistance', 'Armed struggle'], correct: 0},
+            {topic: 'Civil Rights', emoji: '🚌🪑', question: 'Where did Parks protest?', options: ['Montgomery', 'Atlanta'], correct: 0},
+            {topic: 'Civil Rights', emoji: '📜⚖️', question: 'When was Civil Rights Act?', options: ['1964', '1968'], correct: 0},
+            {topic: 'Civil Rights', emoji: '🗳️✅', question: 'What did Voting Rights Act do?', options: ['Ended voting discrimination', 'Gave women vote'], correct: 0},
+            {topic: 'Civil Rights', emoji: '🏫📚', question: 'What ended school segregation?', options: ['Brown v. Board', 'Plessy v. Ferguson'], correct: 0},
+            {topic: 'Civil Rights', emoji: '🎤💭', question: 'What was MLK\'s speech?', options: ['I Have a Dream', 'Free at Last'], correct: 0},
+            {topic: 'Civil Rights', emoji: '⚖️🏛️', question: 'Who was Chief Justice in Brown case?', options: ['Warren', 'Marshall'], correct: 0},
+            {topic: 'Civil Rights', emoji: '🚶‍♂️🚶‍♀️', question: 'What was march from Selma to?', options: ['Montgomery', 'Birmingham'], correct: 0},
+            {topic: 'Civil Rights', emoji: '🕊️✊', question: 'Who influenced MLK\'s tactics?', options: ['Gandhi', 'Malcolm X'], correct: 0},
+            {topic: 'Civil Rights', emoji: '🇺🇸🤝', question: 'Who signed Civil Rights Act?', options: ['Lyndon Johnson', 'Kennedy'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Civil Rights', emoji: '✊🏿✊🏾', question: 'When was MLK assassinated?', options: ['1968', '1965', '1969'], correct: 0},
+            {topic: 'Civil Rights', emoji: '🚌🪑', question: 'When did Parks refuse seat?', options: ['December 1955', 'January 1956', 'November 1955'], correct: 0},
+            {topic: 'Civil Rights', emoji: '📜⚖️', question: 'What did 1964 Act outlaw?', options: ['Discrimination', 'Segregation only', 'Voting barriers'], correct: 0},
+            {topic: 'Civil Rights', emoji: '🗳️✅', question: 'When was Voting Rights Act?', options: ['1965', '1964', '1968'], correct: 0},
+            {topic: 'Civil Rights', emoji: '🏫📚', question: 'When was Brown v. Board?', options: ['1954', '1955', '1960'], correct: 0},
+            {topic: 'Civil Rights', emoji: '🎤💭', question: 'Where was Dream speech given?', options: ['Washington DC', 'Montgomery', 'Memphis'], correct: 0},
+            {topic: 'Civil Rights', emoji: '⚖️🏛️', question: 'What did Brown overturn?', options: ['Plessy v. Ferguson', 'Dred Scott', 'Korematsu'], correct: 0},
+            {topic: 'Civil Rights', emoji: '🚶‍♂️🚶‍♀️', question: 'When was Selma march?', options: ['1965', '1963', '1968'], correct: 0},
+            {topic: 'Civil Rights', emoji: '🕊️✊', question: 'What was sit-in movement?', options: ['Lunch counter protests', 'Bus boycott', 'March'], correct: 0},
+            {topic: 'Civil Rights', emoji: '🇺🇸🤝', question: 'Who was first Black Supreme Court Justice?', options: ['Thurgood Marshall', 'Clarence Thomas', 'Robert Jackson'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Civil Rights', emoji: '✊🏿✊🏾', question: 'What organization did MLK lead?', options: ['SCLC', 'NAACP', 'SNCC', 'CORE'], correct: 0},
+            {topic: 'Civil Rights', emoji: '🚌🪑', question: 'How long did Montgomery boycott last?', options: ['381 days', '200 days', '500 days', '300 days'], correct: 0},
+            {topic: 'Civil Rights', emoji: '📜⚖️', question: 'What did Title VII address?', options: ['Employment discrimination', 'Housing', 'Education', 'Voting'], correct: 0},
+            {topic: 'Civil Rights', emoji: '🗳️✅', question: 'What did Act ban?', options: ['Literacy tests', 'Poll taxes', 'All barriers', 'Registration'], correct: 0},
+            {topic: 'Civil Rights', emoji: '🏫📚', question: 'What was Little Rock Nine?', options: ['Students integrating school', 'Court case', 'Protest group', 'Legal team'], correct: 0},
+            {topic: 'Civil Rights', emoji: '🎤💭', question: 'When was I Have a Dream speech?', options: ['August 1963', 'July 1963', 'September 1963', 'June 1963'], correct: 0},
+            {topic: 'Civil Rights', emoji: '⚖️🏛️', question: 'What was "separate but equal"?', options: ['Segregation doctrine', 'Integration policy', 'Court ruling', 'Civil rights law'], correct: 0},
+            {topic: 'Civil Rights', emoji: '🚶‍♂️🚶‍♀️', question: 'What happened on Bloody Sunday?', options: ['Police attacked marchers', 'MLK arrested', 'Bombing', 'Shooting'], correct: 0},
+            {topic: 'Civil Rights', emoji: '🕊️✊', question: 'What were Freedom Riders?', options: ['Interstate bus protesters', 'Voters', 'Marchers', 'Speakers'], correct: 0},
+            {topic: 'Civil Rights', emoji: '🇺🇸🤝', question: 'What was affirmative action?', options: ['Remedy for discrimination', 'Voting law', 'School policy', 'Court case'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Civil Rights', emoji: '✊🏿✊🏾', question: 'Where was MLK assassinated?', answer: 'Memphis, Tennessee'},
+            {topic: 'Civil Rights', emoji: '🚌🪑', question: 'Name three civil rights organizations', answer: 'NAACP, SCLC, SNCC, CORE (any 3)'},
+            {topic: 'Civil Rights', emoji: '📜⚖️', question: 'Name three provisions of 1964 Act', answer: 'End employment discrimination, public accommodation, school segregation (any 3)'},
+            {topic: 'Civil Rights', emoji: '🗳️✅', question: 'What president signed Voting Rights Act?', answer: 'Lyndon B. Johnson'},
+            {topic: 'Civil Rights', emoji: '🏫📚', question: 'Name the lawyer in Brown v. Board', answer: 'Thurgood Marshall'},
+            {topic: 'Civil Rights', emoji: '🎤💭', question: 'Name three parts of Dream speech', answer: 'Dream, freedom, equality, justice (any 3)'},
+            {topic: 'Civil Rights', emoji: '⚖️🏛️', question: 'What year was Plessy v. Ferguson?', answer: '1896'},
+            {topic: 'Civil Rights', emoji: '🚶‍♂️🚶‍♀️', question: 'Name three major civil rights marches', answer: 'March on Washington, Selma to Montgomery, Freedom Rides (any 3)'},
+            {topic: 'Civil Rights', emoji: '🕊️✊', question: 'What prize did MLK win in 1964?', answer: 'Nobel Peace Prize'},
+            {topic: 'Civil Rights', emoji: '🇺🇸🤝', question: 'Name three civil rights leaders', answer: 'MLK, Rosa Parks, Malcolm X, John Lewis (any 3)'}
+        ]
+    },
+    15: { // Chapter 15: Modern China
+        easy: [
+            {topic: 'Modern China', emoji: '🇨🇳⭐', question: 'China is communist country.', options: ['True', 'False'], correct: 0},
+            {topic: 'Modern China', emoji: '👨‍💼📕', question: 'Mao Zedong led revolution.', options: ['True', 'False'], correct: 0},
+            {topic: 'Modern China', emoji: '🏭📈', question: 'China has large economy.', options: ['True', 'False'], correct: 0},
+            {topic: 'Modern China', emoji: '🌾😢', question: 'Great Leap Forward caused famine.', options: ['True', 'False'], correct: 0},
+            {topic: 'Modern China', emoji: '📚🔴', question: 'Cultural Revolution occurred.', options: ['True', 'False'], correct: 0},
+            {topic: 'Modern China', emoji: '🏛️🟥', question: 'Tiananmen Square is in Beijing.', options: ['True', 'False'], correct: 0},
+            {topic: 'Modern China', emoji: '🏙️💰', question: 'China has mega cities.', options: ['True', 'False'], correct: 0},
+            {topic: 'Modern China', emoji: '👶👨‍👩‍👧', question: 'One-child policy existed.', options: ['True', 'False'], correct: 0},
+            {topic: 'Modern China', emoji: '🏭🌏', question: 'China manufactures globally.', options: ['True', 'False'], correct: 0},
+            {topic: 'Modern China', emoji: '🔴⭐', question: 'Communist Party rules China.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Modern China', emoji: '🇨🇳⭐', question: 'When was PRC founded?', options: ['1949', '1945'], correct: 0},
+            {topic: 'Modern China', emoji: '👨‍💼📕', question: 'What did Mao lead?', options: ['Communist Revolution', 'Republic'], correct: 0},
+            {topic: 'Modern China', emoji: '🏭📈', question: 'What transformed China\'s economy?', options: ['Market reforms', 'Communism'], correct: 0},
+            {topic: 'Modern China', emoji: '🌾😢', question: 'When was Great Leap Forward?', options: ['1958-1962', '1966-1976'], correct: 0},
+            {topic: 'Modern China', emoji: '📚🔴', question: 'What was Cultural Revolution?', options: ['Political upheaval', 'Economic reform'], correct: 0},
+            {topic: 'Modern China', emoji: '🏛️🟥', question: 'What happened in Tiananmen 1989?', options: ['Protests crushed', 'Celebration'], correct: 0},
+            {topic: 'Modern China', emoji: '🏙️💰', question: 'What is China\'s largest city?', options: ['Shanghai', 'Beijing'], correct: 0},
+            {topic: 'Modern China', emoji: '👶👨‍👩‍👧', question: 'Why one-child policy?', options: ['Population control', 'Economy'], correct: 0},
+            {topic: 'Modern China', emoji: '🏭🌏', question: 'What is China called?', options: ['World\'s factory', 'Asian tiger'], correct: 0},
+            {topic: 'Modern China', emoji: '🔴⭐', question: 'Who leads China today?', options: ['Xi Jinping', 'Mao'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Modern China', emoji: '🇨🇳⭐', question: 'What was China before PRC?', options: ['Republic of China', 'Empire', 'Colony'], correct: 0},
+            {topic: 'Modern China', emoji: '👨‍💼📕', question: 'When did Mao die?', options: ['1976', '1970', '1980'], correct: 0},
+            {topic: 'Modern China', emoji: '🏭📈', question: 'Who started reforms?', options: ['Deng Xiaoping', 'Mao', 'Jiang Zemin'], correct: 0},
+            {topic: 'Modern China', emoji: '🌾😢', question: 'How many died in Great Leap?', options: ['15-45 million', '5-10 million', '1-5 million'], correct: 0},
+            {topic: 'Modern China', emoji: '📚🔴', question: 'When was Cultural Revolution?', options: ['1966-1976', '1958-1962', '1949-1959'], correct: 0},
+            {topic: 'Modern China', emoji: '🏛️🟥', question: 'What year was Tiananmen?', options: ['1989', '1990', '1988'], correct: 0},
+            {topic: 'Modern China', emoji: '🏙️💰', question: 'What are Special Economic Zones?', options: ['Capitalist areas', 'Industrial cities', 'Trade ports'], correct: 0},
+            {topic: 'Modern China', emoji: '👶👨‍👩‍👧', question: 'When did one-child policy start?', options: ['1979', '1980', '1975'], correct: 0},
+            {topic: 'Modern China', emoji: '🏭🌏', question: 'When did China join WTO?', options: ['2001', '2000', '2005'], correct: 0},
+            {topic: 'Modern China', emoji: '🔴⭐', question: 'What is China\'s legislature?', options: ['National People\'s Congress', 'Parliament', 'Politburo'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Modern China', emoji: '🇨🇳⭐', question: 'What was Long March?', options: ['Communist retreat/survival', 'Military campaign', 'Economic plan', 'Cultural event'], correct: 0},
+            {topic: 'Modern China', emoji: '👨‍💼📕', question: 'What was Mao\'s famous book?', options: ['Little Red Book', 'Communist Manifesto', 'Art of War', 'Quotations'], correct: 0},
+            {topic: 'Modern China', emoji: '🏭📈', question: 'What was "socialism with Chinese characteristics"?', options: ['Market socialism', 'Pure communism', 'Capitalism', 'Mixed economy'], correct: 0},
+            {topic: 'Modern China', emoji: '🌾😢', question: 'What caused Great Leap famine?', options: ['Failed collectivization', 'War', 'Drought', 'Flood'], correct: 0},
+            {topic: 'Modern China', emoji: '📚🔴', question: 'Who were Red Guards?', options: ['Student militants', 'Army', 'Police', 'Workers'], correct: 0},
+            {topic: 'Modern China', emoji: '🏛️🟥', question: 'What did protesters demand?', options: ['Democracy/reform', 'Communism', 'Independence', 'Revolution'], correct: 0},
+            {topic: 'Modern China', emoji: '🏙️💰', question: 'What was first SEZ?', options: ['Shenzhen', 'Shanghai', 'Beijing', 'Guangzhou'], correct: 0},
+            {topic: 'Modern China', emoji: '👶👨‍👩‍👧', question: 'When did policy end?', options: ['2015', '2010', '2020', '2016'], correct: 0},
+            {topic: 'Modern China', emoji: '🏭🌏', question: 'What is Belt and Road Initiative?', options: ['Infrastructure project', 'Trade deal', 'Military alliance', 'Aid program'], correct: 0},
+            {topic: 'Modern China', emoji: '🔴⭐', question: 'How many members in Communist Party?', options: ['90+ million', '50 million', '150 million', '30 million'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Modern China', emoji: '🇨🇳⭐', question: 'What date was PRC proclaimed?', answer: 'October 1, 1949'},
+            {topic: 'Modern China', emoji: '👨‍💼📕', question: 'Name three Chinese communist leaders', answer: 'Mao Zedong, Deng Xiaoping, Xi Jinping, Jiang Zemin (any 3)'},
+            {topic: 'Modern China', emoji: '🏭📈', question: 'Name three economic reforms', answer: 'SEZs, private enterprise, foreign investment, market economy (any 3)'},
+            {topic: 'Modern China', emoji: '🌾😢', question: 'What were the Four Pests campaign targets?', answer: 'Rats, flies, mosquitoes, sparrows'},
+            {topic: 'Modern China', emoji: '📚🔴', question: 'Name three targets of Cultural Revolution', answer: 'Intellectuals, traditional culture, capitalists, old customs (any 3)'},
+            {topic: 'Modern China', emoji: '🏛️🟥', question: 'What date was Tiananmen crackdown?', answer: 'June 4, 1989'},
+            {topic: 'Modern China', emoji: '🏙️💰', question: 'Name three major Chinese cities', answer: 'Beijing, Shanghai, Guangzhou, Shenzhen (any 3)'},
+            {topic: 'Modern China', emoji: '👶👨‍👩‍👧', question: 'What replaced one-child policy?', answer: 'Two-child policy (now three-child)'},
+            {topic: 'Modern China', emoji: '🏭🌏', question: 'Name three Chinese tech companies', answer: 'Alibaba, Tencent, Huawei, Baidu (any 3)'},
+            {topic: 'Modern China', emoji: '🔴⭐', question: 'Name three of China\'s Five-Year Plans', answer: 'Any numbered plan like First, Second, 14th (any 3)'}
+        ]
+    },
+    16: { // Chapter 16: Decolonization
+        easy: [
+            {topic: 'Decolonization', emoji: '🌍🗽', question: 'Colonies gained independence.', options: ['True', 'False'], correct: 0},
+            {topic: 'Decolonization', emoji: '🇮🇳🕊️', question: 'India became independent.', options: ['True', 'False'], correct: 0},
+            {topic: 'Decolonization', emoji: '🇬🇧👑', question: 'Britain had many colonies.', options: ['True', 'False'], correct: 0},
+            {topic: 'Decolonization', emoji: '⚔️🗽', question: 'Some independence was violent.', options: ['True', 'False'], correct: 0},
+            {topic: 'Decolonization', emoji: '🌍🇫🇷', question: 'France had African colonies.', options: ['True', 'False'], correct: 0},
+            {topic: 'Decolonization', emoji: '🕊️✊', question: 'Gandhi used nonviolence.', options: ['True', 'False'], correct: 0},
+            {topic: 'Decolonization', emoji: '🗺️✂️', question: 'New nations were created.', options: ['True', 'False'], correct: 0},
+            {topic: 'Decolonization', emoji: '🇿🇦⚖️', question: 'South Africa had apartheid.', options: ['True', 'False'], correct: 0},
+            {topic: 'Decolonization', emoji: '🌏🆕', question: 'Asia decolonized after WWII.', options: ['True', 'False'], correct: 0},
+            {topic: 'Decolonization', emoji: '🇰🇪⚔️', question: 'Kenya fought for freedom.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Decolonization', emoji: '🌍🗽', question: 'When did most decolonization occur?', options: ['After WWII', 'Before WWI'], correct: 0},
+            {topic: 'Decolonization', emoji: '🇮🇳🕊️', question: 'When did India gain independence?', options: ['1947', '1950'], correct: 0},
+            {topic: 'Decolonization', emoji: '🇬🇧👑', question: 'What was British Empire called?', options: ['Commonwealth', 'Union'], correct: 0},
+            {topic: 'Decolonization', emoji: '⚔️🗽', question: 'Which had violent independence?', options: ['Algeria', 'India'], correct: 0},
+            {topic: 'Decolonization', emoji: '🌍🇫🇷', question: 'What was French Africa called?', options: ['French West/Equatorial Africa', 'French Congo'], correct: 0},
+            {topic: 'Decolonization', emoji: '🕊️✊', question: 'What was Gandhi\'s method?', options: ['Satyagraha', 'Revolution'], correct: 0},
+            {topic: 'Decolonization', emoji: '🗺️✂️', question: 'What created new borders?', options: ['Partition', 'Treaty'], correct: 0},
+            {topic: 'Decolonization', emoji: '🇿🇦⚖️', question: 'What was apartheid?', options: ['Racial segregation', 'Independence'], correct: 0},
+            {topic: 'Decolonization', emoji: '🌏🆕', question: 'Which Asian country was never colonized?', options: ['Thailand', 'India'], correct: 0},
+            {topic: 'Decolonization', emoji: '🇰🇪⚔️', question: 'What was Kenya uprising called?', options: ['Mau Mau', 'Zulu War'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Decolonization', emoji: '🌍🗽', question: 'What year was "Year of Africa"?', options: ['1960', '1950', '1970'], correct: 0},
+            {topic: 'Decolonization', emoji: '🇮🇳🕊️', question: 'Who was first PM of India?', options: ['Nehru', 'Gandhi', 'Patel'], correct: 0},
+            {topic: 'Decolonization', emoji: '🇬🇧👑', question: 'What was "Wind of Change" speech?', options: ['British PM on decolonization', 'Churchill speech', 'UN address'], correct: 0},
+            {topic: 'Decolonization', emoji: '⚔️🗽', question: 'How long did Algerian War last?', options: ['8 years', '5 years', '10 years'], correct: 0},
+            {topic: 'Decolonization', emoji: '🌍🇫🇷', question: 'When did most French Africa gain independence?', options: ['1960', '1955', '1965'], correct: 0},
+            {topic: 'Decolonization', emoji: '🕊️✊', question: 'When was Gandhi assassinated?', options: ['1948', '1947', '1950'], correct: 0},
+            {topic: 'Decolonization', emoji: '🗺️✂️', question: 'What was India-Pakistan partition?', options: ['1947 division', '1950 split', '1945 separation'], correct: 0},
+            {topic: 'Decolonization', emoji: '🇿🇦⚖️', question: 'When did apartheid end?', options: ['1991-1994', '1980-1985', '1995-2000'], correct: 0},
+            {topic: 'Decolonization', emoji: '🌏🆕', question: 'What was Indonesia called under Dutch?', options: ['Dutch East Indies', 'Netherlands India', 'Java'], correct: 0},
+            {topic: 'Decolonization', emoji: '🇰🇪⚔️', question: 'When did Kenya gain independence?', options: ['1963', '1960', '1965'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Decolonization', emoji: '🌍🗽', question: 'What caused decolonization wave?', options: ['WWII weakened empires', 'UN mandate', 'Economic crisis', 'Cold War'], correct: 0},
+            {topic: 'Decolonization', emoji: '🇮🇳🕊️', question: 'What was Quit India Movement?', options: ['1942 independence campaign', 'Partition', 'Salt March', 'Civil disobedience'], correct: 0},
+            {topic: 'Decolonization', emoji: '🇬🇧👑', question: 'Who gave "Wind of Change" speech?', options: ['Macmillan', 'Churchill', 'Attlee', 'Eden'], correct: 0},
+            {topic: 'Decolonization', emoji: '⚔️🗽', question: 'Who led Algerian independence?', options: ['FLN', 'ALN', 'OAS', 'MNA'], correct: 0},
+            {topic: 'Decolonization', emoji: '🌍🇫🇷', question: 'What was French response to independence?', options: ['Reluctant withdrawal', 'Quick exit', 'War', 'Negotiation'], correct: 0},
+            {topic: 'Decolonization', emoji: '🕊️✊', question: 'What was Salt March?', options: ['1930 protest against tax', 'Independence march', 'Partition protest', 'Religious march'], correct: 0},
+            {topic: 'Decolonization', emoji: '🗺️✂️', question: 'What was Radcliffe Line?', options: ['India-Pakistan border', 'Israel border', 'Korea border', 'Vietnam border'], correct: 0},
+            {topic: 'Decolonization', emoji: '🇿🇦⚖️', question: 'Who was first Black president of South Africa?', options: ['Nelson Mandela', 'Desmond Tutu', 'Steve Biko', 'Thabo Mbeki'], correct: 0},
+            {topic: 'Decolonization', emoji: '🌏🆕', question: 'Who led Indonesian independence?', options: ['Sukarno', 'Suharto', 'Hatta', 'Sjahrir'], correct: 0},
+            {topic: 'Decolonization', emoji: '🇰🇪⚔️', question: 'Who was first president of Kenya?', options: ['Jomo Kenyatta', 'Daniel arap Moi', 'Tom Mboya', 'Oginga Odinga'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Decolonization', emoji: '🌍🗽', question: 'How many African countries gained independence in 1960?', answer: '17'},
+            {topic: 'Decolonization', emoji: '🇮🇳🕊️', question: 'Name three Indian independence leaders', answer: 'Gandhi, Nehru, Patel, Bose (any 3)'},
+            {topic: 'Decolonization', emoji: '🇬🇧👑', question: 'Name three former British colonies in Africa', answer: 'Kenya, Nigeria, Ghana, Uganda, Tanzania (any 3)'},
+            {topic: 'Decolonization', emoji: '⚔️🗽', question: 'What years was Algerian War?', answer: '1954-1962'},
+            {topic: 'Decolonization', emoji: '🌍🇫🇷', question: 'Name three former French colonies', answer: 'Algeria, Senegal, Mali, Ivory Coast, Vietnam (any 3)'},
+            {topic: 'Decolonization', emoji: '🕊️✊', question: 'What year was Salt March?', answer: '1930'},
+            {topic: 'Decolonization', emoji: '🗺️✂️', question: 'Name three consequences of partition', answer: 'Mass migration, violence, religious division, refugee crisis (any 3)'},
+            {topic: 'Decolonization', emoji: '🇿🇦⚖️', question: 'How long was Mandela imprisoned?', answer: '27 years'},
+            {topic: 'Decolonization', emoji: '🌏🆕', question: 'What year did Indonesia gain independence?', answer: '1945 (recognized 1949)'},
+            {topic: 'Decolonization', emoji: '🇰🇪⚔️', question: 'Name three African independence movements', answer: 'Mau Mau, FLN, MPLA, ANC (any 3)'}
+        ]
+    },
+    17: { // Chapter 17: Space Race
+        easy: [
+            {topic: 'Space Race', emoji: '🚀🌙', question: 'Humans landed on moon.', options: ['True', 'False'], correct: 0},
+            {topic: 'Space Race', emoji: '🇺🇸🇷🇺', question: 'USA and USSR competed.', options: ['True', 'False'], correct: 0},
+            {topic: 'Space Race', emoji: '🛰️📡', question: 'Satellites were launched.', options: ['True', 'False'], correct: 0},
+            {topic: 'Space Race', emoji: '👨‍🚀🌍', question: 'Astronauts orbited Earth.', options: ['True', 'False'], correct: 0},
+            {topic: 'Space Race', emoji: '🌌⭐', question: 'Space race was Cold War part.', options: ['True', 'False'], correct: 0},
+            {topic: 'Space Race', emoji: '🚀💨', question: 'Rockets carried spacecraft.', options: ['True', 'False'], correct: 0},
+            {topic: 'Space Race', emoji: '🌕👣', question: 'Neil Armstrong walked on moon.', options: ['True', 'False'], correct: 0},
+            {topic: 'Space Race', emoji: '🛸🔬', question: 'Technology advanced rapidly.', options: ['True', 'False'], correct: 0},
+            {topic: 'Space Race', emoji: '📺🌍', question: 'Moon landing was televised.', options: ['True', 'False'], correct: 0},
+            {topic: 'Space Race', emoji: '🏆🇺🇸', question: 'USA won moon race.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Space Race', emoji: '🚀🌙', question: 'When did moon landing occur?', options: ['1969', '1965'], correct: 0},
+            {topic: 'Space Race', emoji: '🇺🇸🇷🇺', question: 'What started space race?', options: ['Sputnik', 'Apollo'], correct: 0},
+            {topic: 'Space Race', emoji: '🛰️📡', question: 'What was first satellite?', options: ['Sputnik', 'Explorer'], correct: 0},
+            {topic: 'Space Race', emoji: '👨‍🚀🌍', question: 'Who was first person in space?', options: ['Yuri Gagarin', 'John Glenn'], correct: 0},
+            {topic: 'Space Race', emoji: '🌌⭐', question: 'Why did space race occur?', options: ['Cold War competition', 'Scientific curiosity'], correct: 0},
+            {topic: 'Space Race', emoji: '🚀💨', question: 'What was Saturn V?', options: ['Moon rocket', 'Satellite'], correct: 0},
+            {topic: 'Space Race', emoji: '🌕👣', question: 'What did Armstrong say?', options: ['One small step', 'Giant leap'], correct: 0},
+            {topic: 'Space Race', emoji: '🛸🔬', question: 'What agency leads US space?', options: ['NASA', 'ESA'], correct: 0},
+            {topic: 'Space Race', emoji: '📺🌍', question: 'How many watched moon landing?', options: ['600 million', '100 million'], correct: 0},
+            {topic: 'Space Race', emoji: '🏆🇺🇸', question: 'What was Apollo program?', options: ['Moon missions', 'Space station'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Space Race', emoji: '🚀🌙', question: 'Which Apollo mission landed first?', options: ['Apollo 11', 'Apollo 10', 'Apollo 12'], correct: 0},
+            {topic: 'Space Race', emoji: '🇺🇸🇷🇺', question: 'When was Sputnik launched?', options: ['1957', '1958', '1960'], correct: 0},
+            {topic: 'Space Race', emoji: '🛰️📡', question: 'What did Sputnik do?', options: ['Orbited Earth', 'Went to moon', 'Explored Mars'], correct: 0},
+            {topic: 'Space Race', emoji: '👨‍🚀🌍', question: 'When was Gagarin\'s flight?', options: ['1961', '1962', '1960'], correct: 0},
+            {topic: 'Space Race', emoji: '🌌⭐', question: 'Who proposed moon goal?', options: ['Kennedy', 'Eisenhower', 'Nixon'], correct: 0},
+            {topic: 'Space Race', emoji: '🚀💨', question: 'How many stages did Saturn V have?', options: ['3', '2', '4'], correct: 0},
+            {topic: 'Space Race', emoji: '🌕👣', question: 'Who was second on moon?', options: ['Buzz Aldrin', 'Michael Collins', 'Pete Conrad'], correct: 0},
+            {topic: 'Space Race', emoji: '🛸🔬', question: 'When was NASA founded?', options: ['1958', '1957', '1960'], correct: 0},
+            {topic: 'Space Race', emoji: '📺🌍', question: 'What date was moon landing?', options: ['July 20, 1969', 'July 21, 1969', 'July 16, 1969'], correct: 0},
+            {topic: 'Space Race', emoji: '🏆🇺🇸', question: 'How many Apollo moon landings?', options: ['6', '5', '7'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Space Race', emoji: '🚀🌙', question: 'What was lunar module called?', options: ['Eagle', 'Columbia', 'Challenger', 'Discovery'], correct: 0},
+            {topic: 'Space Race', emoji: '🇺🇸🇷🇺', question: 'What was Soviet moon program?', options: ['Luna', 'Soyuz', 'Vostok', 'Salyut'], correct: 0},
+            {topic: 'Space Race', emoji: '🛰️📡', question: 'What was first US satellite?', options: ['Explorer 1', 'Vanguard', 'Telstar', 'Echo'], correct: 0},
+            {topic: 'Space Race', emoji: '👨‍🚀🌍', question: 'What was first US manned program?', options: ['Mercury', 'Gemini', 'Apollo', 'Skylab'], correct: 0},
+            {topic: 'Space Race', emoji: '🌌⭐', question: 'What was Kennedy\'s deadline?', options: ['End of 1960s', '1965', '1970', '1968'], correct: 0},
+            {topic: 'Space Race', emoji: '🚀💨', question: 'Who designed Saturn V?', options: ['Wernher von Braun', 'Sergei Korolev', 'Robert Goddard', 'Hermann Oberth'], correct: 0},
+            {topic: 'Space Race', emoji: '🌕👣', question: 'How long did Armstrong walk?', options: ['2.5 hours', '1 hour', '4 hours', '6 hours'], correct: 0},
+            {topic: 'Space Race', emoji: '🛸🔬', question: 'What was Apollo 13 problem?', options: ['Oxygen tank explosion', 'Engine failure', 'Computer error', 'Collision'], correct: 0},
+            {topic: 'Space Race', emoji: '📺🌍', question: 'What was Armstrong\'s full quote?', options: ['One small step for man, giant leap for mankind', 'Small step, big achievement', 'First step on moon', 'Historic moment'], correct: 0},
+            {topic: 'Space Race', emoji: '🏆🇺🇸', question: 'What ended space race?', options: ['Apollo-Soyuz mission', 'Moon landing', 'Shuttle program', 'ISS'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Space Race', emoji: '🚀🌙', question: 'Name the three Apollo 11 astronauts', answer: 'Neil Armstrong, Buzz Aldrin, Michael Collins'},
+            {topic: 'Space Race', emoji: '🇺🇸🇷🇺', question: 'Name three Soviet space achievements', answer: 'Sputnik, Gagarin, Luna, Venera, Salyut (any 3)'},
+            {topic: 'Space Race', emoji: '🛰️📡', question: 'What year was Sputnik launched?', answer: '1957'},
+            {topic: 'Space Race', emoji: '👨‍🚀🌍', question: 'Name three Mercury astronauts', answer: 'Glenn, Shepard, Carpenter, Cooper, Schirra, Grissom, Slayton (any 3)'},
+            {topic: 'Space Race', emoji: '🌌⭐', question: 'What did Kennedy say in 1962 speech?', answer: 'We choose to go to the moon'},
+            {topic: 'Space Race', emoji: '🚀💨', question: 'How tall was Saturn V rocket?', answer: '363 feet or 111 meters'},
+            {topic: 'Space Race', emoji: '🌕👣', question: 'Name three Apollo missions that landed', answer: 'Apollo 11, 12, 14, 15, 16, 17 (any 3)'},
+            {topic: 'Space Race', emoji: '🛸🔬', question: 'What year was Apollo 13?', answer: '1970'},
+            {topic: 'Space Race', emoji: '📺🌍', question: 'Name three inventions from space program', answer: 'Microchips, water filters, memory foam, satellite TV (any 3)'},
+            {topic: 'Space Race', emoji: '🏆🇺🇸', question: 'What year was Apollo-Soyuz?', answer: '1975'}
+        ]
+    },
+    18: { // Chapter 18: Modern Middle East
+        easy: [
+            {topic: 'Middle East', emoji: '🕌🌍', question: 'Middle East has oil resources.', options: ['True', 'False'], correct: 0},
+            {topic: 'Middle East', emoji: '🇮🇱🇵🇸', question: 'Israel-Palestine conflict exists.', options: ['True', 'False'], correct: 0},
+            {topic: 'Middle East', emoji: '⚔️💥', question: 'Wars occurred in region.', options: ['True', 'False'], correct: 0},
+            {topic: 'Middle East', emoji: '🕌📿', question: 'Islam is major religion.', options: ['True', 'False'], correct: 0},
+            {topic: 'Middle East', emoji: '🛢️💰', question: 'Oil drives economies.', options: ['True', 'False'], correct: 0},
+            {topic: 'Middle East', emoji: '🏜️🌴', question: 'Region has deserts.', options: ['True', 'False'], correct: 0},
+            {topic: 'Middle East', emoji: '🇸🇦👑', question: 'Saudi Arabia is kingdom.', options: ['True', 'False'], correct: 0},
+            {topic: 'Middle East', emoji: '⚡🔥', question: 'Arab Spring occurred.', options: ['True', 'False'], correct: 0},
+            {topic: 'Middle East', emoji: '🇮🇷🏛️', question: 'Iran had revolution.', options: ['True', 'False'], correct: 0},
+            {topic: 'Middle East', emoji: '🕊️✍️', question: 'Peace efforts continue.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Middle East', emoji: '🕌🌍', question: 'What is OPEC?', options: ['Oil organization', 'Trade group'], correct: 0},
+            {topic: 'Middle East', emoji: '🇮🇱🇵🇸', question: 'When was Israel founded?', options: ['1948', '1950'], correct: 0},
+            {topic: 'Middle East', emoji: '⚔️💥', question: 'What was Gulf War?', options: ['Iraq invasion response', 'Civil war'], correct: 0},
+            {topic: 'Middle East', emoji: '🕌📿', question: 'What are two main Islamic branches?', options: ['Sunni and Shia', 'Orthodox and Reform'], correct: 0},
+            {topic: 'Middle East', emoji: '🛢️💰', question: 'Which has most oil?', options: ['Saudi Arabia', 'Iran'], correct: 0},
+            {topic: 'Middle East', emoji: '🏜️🌴', question: 'What is largest desert?', options: ['Arabian', 'Sahara'], correct: 0},
+            {topic: 'Middle East', emoji: '🇸🇦👑', question: 'What are Saudi rulers called?', options: ['Kings', 'Sultans'], correct: 0},
+            {topic: 'Middle East', emoji: '⚡🔥', question: 'When was Arab Spring?', options: ['2011', '2010'], correct: 0},
+            {topic: 'Middle East', emoji: '🇮🇷🏛️', question: 'When was Iranian Revolution?', options: ['1979', '1980'], correct: 0},
+            {topic: 'Middle East', emoji: '🕊️✍️', question: 'What were Oslo Accords?', options: ['Peace agreement', 'Trade deal'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Middle East', emoji: '🕌🌍', question: 'When was OPEC founded?', options: ['1960', '1970', '1950'], correct: 0},
+            {topic: 'Middle East', emoji: '🇮🇱🇵🇸', question: 'What was 1967 war called?', options: ['Six-Day War', 'Yom Kippur War', 'War of Independence'], correct: 0},
+            {topic: 'Middle East', emoji: '⚔️💥', question: 'When was first Gulf War?', options: ['1991', '1990', '2003'], correct: 0},
+            {topic: 'Middle East', emoji: '🕌📿', question: 'Where is Islam\'s holiest site?', options: ['Mecca', 'Medina', 'Jerusalem'], correct: 0},
+            {topic: 'Middle East', emoji: '🛢️💰', question: 'When was oil embargo?', options: ['1973', '1979', '1967'], correct: 0},
+            {topic: 'Middle East', emoji: '🏜️🌴', question: 'What is Fertile Crescent?', options: ['Historic agricultural region', 'Desert area', 'Oil field'], correct: 0},
+            {topic: 'Middle East', emoji: '🇸🇦👑', question: 'Who founded Saudi Arabia?', options: ['Ibn Saud', 'Faisal', 'Abdullah'], correct: 0},
+            {topic: 'Middle East', emoji: '⚡🔥', question: 'Where did Arab Spring start?', options: ['Tunisia', 'Egypt', 'Libya'], correct: 0},
+            {topic: 'Middle East', emoji: '🇮🇷🏛️', question: 'Who led Iranian Revolution?', options: ['Khomeini', 'Khamenei', 'Rafsanjani'], correct: 0},
+            {topic: 'Middle East', emoji: '🕊️✍️', question: 'When were Oslo Accords?', options: ['1993', '1995', '1990'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Middle East', emoji: '🕌🌍', question: 'What does OPEC stand for?', options: ['Organization of Petroleum Exporting Countries', 'Oil Production Economic Council', 'Oriental Petroleum Export Consortium', 'Oil Pricing Executive Committee'], correct: 0},
+            {topic: 'Middle East', emoji: '🇮🇱🇵🇸', question: 'What was Balfour Declaration?', options: ['British support for Jewish homeland', 'Peace treaty', 'UN resolution', 'Independence document'], correct: 0},
+            {topic: 'Middle East', emoji: '⚔️💥', question: 'What was Operation Desert Storm?', options: ['1991 Iraq liberation', '2003 invasion', 'Israeli operation', 'Syrian conflict'], correct: 0},
+            {topic: 'Middle East', emoji: '🕌📿', question: 'What is Hajj?', options: ['Pilgrimage to Mecca', 'Holy month', 'Prayer time', 'Religious leader'], correct: 0},
+            {topic: 'Middle East', emoji: '🛢️💰', question: 'Why was 1973 embargo?', options: ['Yom Kippur War support', 'Price dispute', 'Revolution', 'Trade war'], correct: 0},
+            {topic: 'Middle East', emoji: '🏜️🌴', question: 'What rivers form Fertile Crescent?', options: ['Tigris and Euphrates', 'Nile and Jordan', 'Jordan and Euphrates', 'Tigris and Nile'], correct: 0},
+            {topic: 'Middle East', emoji: '🇸🇦👑', question: 'What is Wahhabism?', options: ['Conservative Islamic movement', 'Political party', 'Oil company', 'Royal family'], correct: 0},
+            {topic: 'Middle East', emoji: '⚡🔥', question: 'What caused Arab Spring?', options: ['Economic/political grievances', 'Foreign invasion', 'Religious conflict', 'Oil crisis'], correct: 0},
+            {topic: 'Middle East', emoji: '🇮🇷🏛️', question: 'What was Iran before revolution?', options: ['Monarchy under Shah', 'Democracy', 'Colony', 'Republic'], correct: 0},
+            {topic: 'Middle East', emoji: '🕊️✍️', question: 'Who signed Oslo Accords?', options: ['Rabin and Arafat', 'Begin and Sadat', 'Netanyahu and Abbas', 'Sharon and Abbas'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Middle East', emoji: '🕌🌍', question: 'Name three OPEC members', answer: 'Saudi Arabia, Iran, Iraq, UAE, Kuwait, Venezuela (any 3)'},
+            {topic: 'Middle East', emoji: '🇮🇱🇵🇸', question: 'What year was Balfour Declaration?', answer: '1917'},
+            {topic: 'Middle East', emoji: '⚔️💥', question: 'Name three Middle East wars', answer: 'Six-Day War, Yom Kippur War, Gulf War, Iran-Iraq War (any 3)'},
+            {topic: 'Middle East', emoji: '🕌📿', question: 'Name three holy cities in Islam', answer: 'Mecca, Medina, Jerusalem'},
+            {topic: 'Middle East', emoji: '🛢️💰', question: 'Name three oil-rich countries', answer: 'Saudi Arabia, UAE, Kuwait, Iraq, Iran (any 3)'},
+            {topic: 'Middle East', emoji: '🏜️🌴', question: 'Name three ancient civilizations in region', answer: 'Mesopotamia, Babylonia, Assyria, Persia (any 3)'},
+            {topic: 'Middle East', emoji: '🇸🇦👑', question: 'What year was Saudi Arabia founded?', answer: '1932'},
+            {topic: 'Middle East', emoji: '⚡🔥', question: 'Name three Arab Spring countries', answer: 'Tunisia, Egypt, Libya, Syria, Yemen (any 3)'},
+            {topic: 'Middle East', emoji: '🇮🇷🏛️', question: 'Name three Iranian leaders since revolution', answer: 'Khomeini, Khamenei, Rafsanjani, Khatami, Ahmadinejad (any 3)'},
+            {topic: 'Middle East', emoji: '🕊️✍️', question: 'Name three peace initiatives', answer: 'Oslo Accords, Camp David, Madrid Conference, Abraham Accords (any 3)'}
+        ]
+    },
+    19: { // Chapter 19: Fall of Communism
+        easy: [
+            {topic: 'Fall of Communism', emoji: '🧱💥', question: 'Berlin Wall fell.', options: ['True', 'False'], correct: 0},
+            {topic: 'Fall of Communism', emoji: '🇷🇺🔴', question: 'Soviet Union collapsed.', options: ['True', 'False'], correct: 0},
+            {topic: 'Fall of Communism', emoji: '🕊️🗽', question: 'Eastern Europe became free.', options: ['True', 'False'], correct: 0},
+            {topic: 'Fall of Communism', emoji: '⚖️📜', question: 'Democracy spread eastward.', options: ['True', 'False'], correct: 0},
+            {topic: 'Fall of Communism', emoji: '🇵🇱✊', question: 'Poland had Solidarity movement.', options: ['True', 'False'], correct: 0},
+            {topic: 'Fall of Communism', emoji: '🇩🇪🤝', question: 'Germany reunified.', options: ['True', 'False'], correct: 0},
+            {topic: 'Fall of Communism', emoji: '☭❌', question: 'Communist regimes ended.', options: ['True', 'False'], correct: 0},
+            {topic: 'Fall of Communism', emoji: '📺🗣️', question: 'Glasnost meant openness.', options: ['True', 'False'], correct: 0},
+            {topic: 'Fall of Communism', emoji: '🏛️⚖️', question: 'Free elections were held.', options: ['True', 'False'], correct: 0},
+            {topic: 'Fall of Communism', emoji: '🎉🆓', question: 'People celebrated freedom.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Fall of Communism', emoji: '🧱💥', question: 'When did the Berlin Wall come down?', options: ['1989', '1990'], correct: 0},
+            {topic: 'Fall of Communism', emoji: '🇷🇺🔴', question: 'When did USSR dissolve?', options: ['1991', '1989'], correct: 0},
+            {topic: 'Fall of Communism', emoji: '🕊️🗽', question: 'What was Velvet Revolution?', options: ['Peaceful Czech change', 'Polish uprising'], correct: 0},
+            {topic: 'Fall of Communism', emoji: '⚖️📜', question: 'What replaced communism?', options: ['Democracy and capitalism', 'Monarchy'], correct: 0},
+            {topic: 'Fall of Communism', emoji: '🇵🇱✊', question: 'Who led Solidarity?', options: ['Lech Walesa', 'Gorbachev'], correct: 0},
+            {topic: 'Fall of Communism', emoji: '🇩🇪🤝', question: 'When was Germany reunified?', options: ['1990', '1989'], correct: 0},
+            {topic: 'Fall of Communism', emoji: '☭❌', question: 'What was last Soviet leader?', options: ['Gorbachev', 'Yeltsin'], correct: 0},
+            {topic: 'Fall of Communism', emoji: '📺🗣️', question: 'What was perestroika?', options: ['Restructuring', 'Openness'], correct: 0},
+            {topic: 'Fall of Communism', emoji: '🏛️⚖️', question: 'What alliance dissolved?', options: ['Warsaw Pact', 'NATO'], correct: 0},
+            {topic: 'Fall of Communism', emoji: '🎉🆓', question: 'What year was fall of communism?', options: ['1989', '1991'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Fall of Communism', emoji: '🧱💥', question: 'What date did Wall fall?', options: ['November 9, 1989', 'November 10, 1989', 'October 9, 1989'], correct: 0},
+            {topic: 'Fall of Communism', emoji: '🇷🇺🔴', question: 'How many republics left USSR?', options: ['15', '10', '20'], correct: 0},
+            {topic: 'Fall of Communism', emoji: '🕊️🗽', question: 'Who led Velvet Revolution?', options: ['Vaclav Havel', 'Lech Walesa', 'Yeltsin'], correct: 0},
+            {topic: 'Fall of Communism', emoji: '⚖️📜', question: 'What was shock therapy?', options: ['Rapid economic reform', 'Political change', 'Social program'], correct: 0},
+            {topic: 'Fall of Communism', emoji: '🇵🇱✊', question: 'When was Solidarity founded?', options: ['1980', '1989', '1985'], correct: 0},
+            {topic: 'Fall of Communism', emoji: '🇩🇪🤝', question: 'Who was German chancellor?', options: ['Helmut Kohl', 'Willy Brandt', 'Gerhard Schröder'], correct: 0},
+            {topic: 'Fall of Communism', emoji: '☭❌', question: 'What was 1991 coup attempt?', options: ['Hardliners vs Gorbachev', 'Revolution', 'Civil war'], correct: 0},
+            {topic: 'Fall of Communism', emoji: '📺🗣️', question: 'When did glasnost start?', options: ['1985', '1987', '1989'], correct: 0},
+            {topic: 'Fall of Communism', emoji: '🏛️⚖️', question: 'When did Warsaw Pact end?', options: ['1991', '1989', '1990'], correct: 0},
+            {topic: 'Fall of Communism', emoji: '🎉🆓', question: 'What was Autumn of Nations?', options: ['1989 revolutions', 'Spring uprisings', 'Winter protests'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Fall of Communism', emoji: '🧱💥', question: 'What opened Berlin Wall?', options: ['Announcement error', 'Protest', 'Government plan', 'Revolution'], correct: 0},
+            {topic: 'Fall of Communism', emoji: '🇷🇺🔴', question: 'What replaced USSR?', options: ['Russian Federation/CIS', 'Commonwealth', 'Union', 'Federation'], correct: 0},
+            {topic: 'Fall of Communism', emoji: '🕊️🗽', question: 'What was Prague Spring?', options: ['1968 reform movement', '1989 revolution', 'Protest', 'Independence'], correct: 0},
+            {topic: 'Fall of Communism', emoji: '⚖️📜', question: 'What was Civic Forum?', options: ['Czech opposition group', 'Government', 'Political party', 'Parliament'], correct: 0},
+            {topic: 'Fall of Communism', emoji: '🇵🇱✊', question: 'What was Solidarity originally?', options: ['Trade union', 'Political party', 'Army', 'Church group'], correct: 0},
+            {topic: 'Fall of Communism', emoji: '🇩🇪🤝', question: 'What was cost of reunification?', options: ['High economic burden', 'Small cost', 'No cost', 'Profitable'], correct: 0},
+            {topic: 'Fall of Communism', emoji: '☭❌', question: 'What was Gorbachev\'s role in end?', options: ['Reforms weakened system', 'Opposed change', 'Led coup', 'Resigned early'], correct: 0},
+            {topic: 'Fall of Communism', emoji: '📺🗣️', question: 'What did glasnost reveal?', options: ['Soviet problems/history', 'Economic success', 'Military strength', 'Party unity'], correct: 0},
+            {topic: 'Fall of Communism', emoji: '🏛️⚖️', question: 'What was Roundtable Talks?', options: ['Polish negotiations', 'Soviet meeting', 'German talks', 'Czech dialogue'], correct: 0},
+            {topic: 'Fall of Communism', emoji: '🎉🆓', question: 'Which country executed dictator?', options: ['Romania', 'Poland', 'Hungary', 'Czechoslovakia'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Fall of Communism', emoji: '🧱💥', question: 'How long did Berlin Wall stand?', answer: '28 years'},
+            {topic: 'Fall of Communism', emoji: '🇷🇺🔴', question: 'Name three former Soviet republics', answer: 'Russia, Ukraine, Belarus, Kazakhstan, Georgia (any 3)'},
+            {topic: 'Fall of Communism', emoji: '🕊️🗽', question: 'Name three peaceful revolutions', answer: 'Velvet Revolution, Singing Revolution, Peaceful Revolution (any 3)'},
+            {topic: 'Fall of Communism', emoji: '⚖️📜', question: 'Name three Eastern Bloc countries', answer: 'Poland, Hungary, Czechoslovakia, Romania, Bulgaria, East Germany (any 3)'},
+            {topic: 'Fall of Communism', emoji: '🇵🇱✊', question: 'What Pope supported Solidarity?', answer: 'John Paul II'},
+            {topic: 'Fall of Communism', emoji: '🇩🇪🤝', question: 'What was German reunification day?', answer: 'October 3, 1990'},
+            {topic: 'Fall of Communism', emoji: '☭❌', question: 'Name three causes of collapse', answer: 'Economic failure, reforms, nationalism, arms race (any 3)'},
+            {topic: 'Fall of Communism', emoji: '📺🗣️', question: 'Name Gorbachev\'s two main policies', answer: 'Glasnost and Perestroika'},
+            {topic: 'Fall of Communism', emoji: '🏛️⚖️', question: 'Who was first Russian president?', answer: 'Boris Yeltsin'},
+            {topic: 'Fall of Communism', emoji: '🎉🆓', question: 'Name three symbols of fall', answer: 'Berlin Wall, hammer and sickle, statues removed (any 3)'}
+        ]
+    },
+    20: { // Chapter 20: Contemporary History
+        easy: [
+            {topic: 'Contemporary', emoji: '🌐💻', question: 'Internet changed the world.', options: ['True', 'False'], correct: 0},
+            {topic: 'Contemporary', emoji: '📱🌍', question: 'Smartphones are everywhere.', options: ['True', 'False'], correct: 0},
+            {topic: 'Contemporary', emoji: '🌡️🌍', question: 'Climate change is concern.', options: ['True', 'False'], correct: 0},
+            {topic: 'Contemporary', emoji: '🦠😷', question: 'COVID-19 was pandemic.', options: ['True', 'False'], correct: 0},
+            {topic: 'Contemporary', emoji: '💬📱', question: 'Social media is influential.', options: ['True', 'False'], correct: 0},
+            {topic: 'Contemporary', emoji: '🌍🤝', question: 'Globalization increased.', options: ['True', 'False'], correct: 0},
+            {topic: 'Contemporary', emoji: '⚡🔋', question: 'Renewable energy is growing.', options: ['True', 'False'], correct: 0},
+            {topic: 'Contemporary', emoji: '🚀🔬', question: 'Technology advances rapidly.', options: ['True', 'False'], correct: 0},
+            {topic: 'Contemporary', emoji: '🗳️🌍', question: 'Democracy faces challenges.', options: ['True', 'False'], correct: 0},
+            {topic: 'Contemporary', emoji: '📈💰', question: 'China became economic power.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Contemporary', emoji: '🌐💻', question: 'When was World Wide Web created?', options: ['1989', '1995'], correct: 0},
+            {topic: 'Contemporary', emoji: '📱🌍', question: 'What company made iPhone?', options: ['Apple', 'Samsung'], correct: 0},
+            {topic: 'Contemporary', emoji: '🌡️🌍', question: 'What is Paris Agreement about?', options: ['Climate change', 'Trade'], correct: 0},
+            {topic: 'Contemporary', emoji: '🦠😷', question: 'When did COVID pandemic start?', options: ['2019-2020', '2018'], correct: 0},
+            {topic: 'Contemporary', emoji: '💬📱', question: 'What is largest social media?', options: ['Facebook', 'Twitter'], correct: 0},
+            {topic: 'Contemporary', emoji: '🌍🤝', question: 'What is EU?', options: ['European Union', 'Eastern Union'], correct: 0},
+            {topic: 'Contemporary', emoji: '⚡🔋', question: 'What powers electric cars?', options: ['Batteries', 'Solar'], correct: 0},
+            {topic: 'Contemporary', emoji: '🚀🔬', question: 'What is AI?', options: ['Artificial Intelligence', 'Advanced Internet'], correct: 0},
+            {topic: 'Contemporary', emoji: '🗳️🌍', question: 'What was Arab Spring?', options: ['Democratic uprisings', 'Trade agreement'], correct: 0},
+            {topic: 'Contemporary', emoji: '📈💰', question: 'When did China join the WTO?', options: ['2001', '2005'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Contemporary', emoji: '🌐💻', question: 'Who invented World Wide Web?', options: ['Tim Berners-Lee', 'Bill Gates', 'Steve Jobs'], correct: 0},
+            {topic: 'Contemporary', emoji: '📱🌍', question: 'When was first iPhone?', options: ['2007', '2005', '2010'], correct: 0},
+            {topic: 'Contemporary', emoji: '🌡️🌍', question: 'When was Paris Agreement?', options: ['2015', '2016', '2020'], correct: 0},
+            {topic: 'Contemporary', emoji: '🦠😷', question: 'Where did COVID originate?', options: ['Wuhan, China', 'Italy', 'USA'], correct: 0},
+            {topic: 'Contemporary', emoji: '💬📱', question: 'When was Facebook founded?', options: ['2004', '2006', '2002'], correct: 0},
+            {topic: 'Contemporary', emoji: '🌍🤝', question: 'When did Brexit occur?', options: ['2020', '2016', '2019'], correct: 0},
+            {topic: 'Contemporary', emoji: '⚡🔋', question: 'What is Tesla known for?', options: ['Electric vehicles', 'Solar panels', 'Batteries'], correct: 0},
+            {topic: 'Contemporary', emoji: '🚀🔬', question: 'What is ChatGPT?', options: ['AI chatbot', 'Search engine', 'Social media'], correct: 0},
+            {topic: 'Contemporary', emoji: '🗳️🌍', question: 'What was 2008 financial crisis?', options: ['Global recession', 'Stock boom', 'Trade war'], correct: 0},
+            {topic: 'Contemporary', emoji: '📈💰', question: 'What is BRICS?', options: ['Emerging economies', 'Trade bloc', 'Currency'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Contemporary', emoji: '🌐💻', question: 'What was dot-com bubble?', options: ['Late 1990s tech speculation', 'Internet crash', 'Tech boom', 'Digital revolution'], correct: 0},
+            {topic: 'Contemporary', emoji: '📱🌍', question: 'What was smartphone revolution?', options: ['Mobile computing era', 'App economy', '5G network', 'Social media'], correct: 0},
+            {topic: 'Contemporary', emoji: '🌡️🌍', question: 'What is carbon neutrality?', options: ['Net zero emissions', 'Renewable energy', 'Green technology', 'Clean air'], correct: 0},
+            {topic: 'Contemporary', emoji: '🦠😷', question: 'What was COVID vaccine technology?', options: ['mRNA', 'Live virus', 'Protein', 'Vector'], correct: 0},
+            {topic: 'Contemporary', emoji: '💬📱', question: 'What is platform economy?', options: ['Digital marketplace model', 'Social network', 'App store', 'Gig work'], correct: 0},
+            {topic: 'Contemporary', emoji: '🌍🤝', question: 'What was 2008 financial crisis cause?', options: ['Subprime mortgages', 'Oil prices', 'War', 'Trade'], correct: 0},
+            {topic: 'Contemporary', emoji: '⚡🔋', question: 'What is energy transition?', options: ['Shift to renewables', 'Nuclear power', 'Oil independence', 'Grid upgrade'], correct: 0},
+            {topic: 'Contemporary', emoji: '🚀🔬', question: 'What is machine learning?', options: ['AI training method', 'Computer program', 'Robot', 'Algorithm'], correct: 0},
+            {topic: 'Contemporary', emoji: '🗳️🌍', question: 'What was 2016 US election notable for?', options: ['Trump victory/populism', 'High turnout', 'Third party', 'Technology'], correct: 0},
+            {topic: 'Contemporary', emoji: '📈💰', question: 'What is cryptocurrency?', options: ['Digital currency', 'Stock', 'Bond', 'Commodity'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Contemporary', emoji: '🌐💻', question: 'Name three major tech companies', answer: 'Google, Apple, Microsoft, Amazon, Facebook/Meta (any 3)'},
+            {topic: 'Contemporary', emoji: '📱🌍', question: 'Name three smartphone operating systems', answer: 'iOS, Android, Windows Phone (any 3)'},
+            {topic: 'Contemporary', emoji: '🌡️🌍', question: 'Name three climate agreements', answer: 'Paris Agreement, Kyoto Protocol, Copenhagen Accord (any 3)'},
+            {topic: 'Contemporary', emoji: '🦠😷', question: 'Name three COVID vaccines', answer: 'Pfizer, Moderna, AstraZeneca, Johnson & Johnson (any 3)'},
+            {topic: 'Contemporary', emoji: '💬📱', question: 'Name three social media platforms', answer: 'Facebook, Twitter/X, Instagram, TikTok, YouTube (any 3)'},
+            {topic: 'Contemporary', emoji: '🌍🤝', question: 'Name three major trading blocs', answer: 'EU, NAFTA/USMCA, ASEAN, Mercosur (any 3)'},
+            {topic: 'Contemporary', emoji: '⚡🔋', question: 'Name three renewable energy sources', answer: 'Solar, wind, hydro, geothermal (any 3)'},
+            {topic: 'Contemporary', emoji: '🚀🔬', question: 'Name three AI applications', answer: 'ChatGPT, self-driving cars, voice assistants, image recognition (any 3)'},
+            {topic: 'Contemporary', emoji: '🗳️🌍', question: 'Name three 21st century conflicts', answer: 'Iraq War, Afghanistan War, Syrian Civil War, Ukraine War (any 3)'},
+            {topic: 'Contemporary', emoji: '📈💰', question: 'Name three cryptocurrencies', answer: 'Bitcoin, Ethereum, Ripple, Litecoin (any 3)'}
+        ]
+    }
+
 };

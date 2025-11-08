@@ -755,4 +755,501 @@ const englishQuestions = {
             {topic: 'Modern', emoji: '📚🆕', question: 'Name three modern literature items 10', answer: 'Item 1, Item 2, Item 3'}
         ]
     },
+        13: { // Chapter 13: Shakespeare and Drama
+        easy: [
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Shakespeare and Drama topic 1.', options: ['True', 'False'], correct: 0},
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Shakespeare and Drama topic 2.', options: ['True', 'False'], correct: 0},
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Shakespeare and Drama topic 3.', options: ['True', 'False'], correct: 0},
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Shakespeare and Drama topic 4.', options: ['True', 'False'], correct: 0},
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Shakespeare and Drama topic 5.', options: ['True', 'False'], correct: 0},
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Shakespeare and Drama topic 6.', options: ['True', 'False'], correct: 0},
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Shakespeare and Drama topic 7.', options: ['True', 'False'], correct: 0},
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Shakespeare and Drama topic 8.', options: ['True', 'False'], correct: 0},
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Shakespeare and Drama topic 9.', options: ['True', 'False'], correct: 0},
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Shakespeare and Drama topic 10.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Shakespeare and Drama question 1?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Shakespeare and Drama question 2?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Shakespeare and Drama question 3?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Shakespeare and Drama question 4?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Shakespeare and Drama question 5?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Shakespeare and Drama question 6?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Shakespeare and Drama question 7?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Shakespeare and Drama question 8?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Shakespeare and Drama question 9?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Shakespeare and Drama question 10?', options: ['Option A', 'Option B'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Shakespeare and Drama advanced question 1?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Shakespeare and Drama advanced question 2?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Shakespeare and Drama advanced question 3?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Shakespeare and Drama advanced question 4?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Shakespeare and Drama advanced question 5?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Shakespeare and Drama advanced question 6?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Shakespeare and Drama advanced question 7?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Shakespeare and Drama advanced question 8?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Shakespeare and Drama advanced question 9?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Shakespeare and Drama advanced question 10?', options: ['A', 'B', 'C'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Shakespeare and Drama expert question 1?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Shakespeare and Drama expert question 2?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Shakespeare and Drama expert question 3?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Shakespeare and Drama expert question 4?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Shakespeare and Drama expert question 5?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Shakespeare and Drama expert question 6?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Shakespeare and Drama expert question 7?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Shakespeare and Drama expert question 8?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Shakespeare and Drama expert question 9?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Shakespeare and Drama expert question 10?', options: ['A', 'B', 'C', 'D'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Name three shakespeare and drama items 1', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Name three shakespeare and drama items 2', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Name three shakespeare and drama items 3', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Name three shakespeare and drama items 4', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Name three shakespeare and drama items 5', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Name three shakespeare and drama items 6', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Name three shakespeare and drama items 7', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Name three shakespeare and drama items 8', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Name three shakespeare and drama items 9', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Shakespeare', emoji: '🎭👑', question: 'Name three shakespeare and drama items 10', answer: 'Item 1, Item 2, Item 3'}
+        ]
+    },
+    14: { // Chapter 14: American Literature
+        easy: [
+            {topic: 'American', emoji: '🇺🇸📖', question: 'American Literature topic 1.', options: ['True', 'False'], correct: 0},
+            {topic: 'American', emoji: '🇺🇸📖', question: 'American Literature topic 2.', options: ['True', 'False'], correct: 0},
+            {topic: 'American', emoji: '🇺🇸📖', question: 'American Literature topic 3.', options: ['True', 'False'], correct: 0},
+            {topic: 'American', emoji: '🇺🇸📖', question: 'American Literature topic 4.', options: ['True', 'False'], correct: 0},
+            {topic: 'American', emoji: '🇺🇸📖', question: 'American Literature topic 5.', options: ['True', 'False'], correct: 0},
+            {topic: 'American', emoji: '🇺🇸📖', question: 'American Literature topic 6.', options: ['True', 'False'], correct: 0},
+            {topic: 'American', emoji: '🇺🇸📖', question: 'American Literature topic 7.', options: ['True', 'False'], correct: 0},
+            {topic: 'American', emoji: '🇺🇸📖', question: 'American Literature topic 8.', options: ['True', 'False'], correct: 0},
+            {topic: 'American', emoji: '🇺🇸📖', question: 'American Literature topic 9.', options: ['True', 'False'], correct: 0},
+            {topic: 'American', emoji: '🇺🇸📖', question: 'American Literature topic 10.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'American', emoji: '🇺🇸📖', question: 'American Literature question 1?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'American', emoji: '🇺🇸📖', question: 'American Literature question 2?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'American', emoji: '🇺🇸📖', question: 'American Literature question 3?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'American', emoji: '🇺🇸📖', question: 'American Literature question 4?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'American', emoji: '🇺🇸📖', question: 'American Literature question 5?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'American', emoji: '🇺🇸📖', question: 'American Literature question 6?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'American', emoji: '🇺🇸📖', question: 'American Literature question 7?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'American', emoji: '🇺🇸📖', question: 'American Literature question 8?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'American', emoji: '🇺🇸📖', question: 'American Literature question 9?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'American', emoji: '🇺🇸📖', question: 'American Literature question 10?', options: ['Option A', 'Option B'], correct: 0}
+        ],
+        hard: [
+            {topic: 'American', emoji: '🇺🇸📖', question: 'American Literature advanced question 1?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'American', emoji: '🇺🇸📖', question: 'American Literature advanced question 2?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'American', emoji: '🇺🇸📖', question: 'American Literature advanced question 3?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'American', emoji: '🇺🇸📖', question: 'American Literature advanced question 4?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'American', emoji: '🇺🇸📖', question: 'American Literature advanced question 5?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'American', emoji: '🇺🇸📖', question: 'American Literature advanced question 6?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'American', emoji: '🇺🇸📖', question: 'American Literature advanced question 7?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'American', emoji: '🇺🇸📖', question: 'American Literature advanced question 8?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'American', emoji: '🇺🇸📖', question: 'American Literature advanced question 9?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'American', emoji: '🇺🇸📖', question: 'American Literature advanced question 10?', options: ['A', 'B', 'C'], correct: 0}
+        ],
+        expert: [
+            {topic: 'American', emoji: '🇺🇸📖', question: 'American Literature expert question 1?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'American', emoji: '🇺🇸📖', question: 'American Literature expert question 2?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'American', emoji: '🇺🇸📖', question: 'American Literature expert question 3?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'American', emoji: '🇺🇸📖', question: 'American Literature expert question 4?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'American', emoji: '🇺🇸📖', question: 'American Literature expert question 5?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'American', emoji: '🇺🇸📖', question: 'American Literature expert question 6?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'American', emoji: '🇺🇸📖', question: 'American Literature expert question 7?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'American', emoji: '🇺🇸📖', question: 'American Literature expert question 8?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'American', emoji: '🇺🇸📖', question: 'American Literature expert question 9?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'American', emoji: '🇺🇸📖', question: 'American Literature expert question 10?', options: ['A', 'B', 'C', 'D'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'American', emoji: '🇺🇸📖', question: 'Name three american literature items 1', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'American', emoji: '🇺🇸📖', question: 'Name three american literature items 2', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'American', emoji: '🇺🇸📖', question: 'Name three american literature items 3', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'American', emoji: '🇺🇸📖', question: 'Name three american literature items 4', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'American', emoji: '🇺🇸📖', question: 'Name three american literature items 5', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'American', emoji: '🇺🇸📖', question: 'Name three american literature items 6', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'American', emoji: '🇺🇸📖', question: 'Name three american literature items 7', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'American', emoji: '🇺🇸📖', question: 'Name three american literature items 8', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'American', emoji: '🇺🇸📖', question: 'Name three american literature items 9', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'American', emoji: '🇺🇸📖', question: 'Name three american literature items 10', answer: 'Item 1, Item 2, Item 3'}
+        ]
+    },
+    15: { // Chapter 15: British Literature
+        easy: [
+            {topic: 'British', emoji: '🇬🇧📚', question: 'British Literature topic 1.', options: ['True', 'False'], correct: 0},
+            {topic: 'British', emoji: '🇬🇧📚', question: 'British Literature topic 2.', options: ['True', 'False'], correct: 0},
+            {topic: 'British', emoji: '🇬🇧📚', question: 'British Literature topic 3.', options: ['True', 'False'], correct: 0},
+            {topic: 'British', emoji: '🇬🇧📚', question: 'British Literature topic 4.', options: ['True', 'False'], correct: 0},
+            {topic: 'British', emoji: '🇬🇧📚', question: 'British Literature topic 5.', options: ['True', 'False'], correct: 0},
+            {topic: 'British', emoji: '🇬🇧📚', question: 'British Literature topic 6.', options: ['True', 'False'], correct: 0},
+            {topic: 'British', emoji: '🇬🇧📚', question: 'British Literature topic 7.', options: ['True', 'False'], correct: 0},
+            {topic: 'British', emoji: '🇬🇧📚', question: 'British Literature topic 8.', options: ['True', 'False'], correct: 0},
+            {topic: 'British', emoji: '🇬🇧📚', question: 'British Literature topic 9.', options: ['True', 'False'], correct: 0},
+            {topic: 'British', emoji: '🇬🇧📚', question: 'British Literature topic 10.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'British', emoji: '🇬🇧📚', question: 'British Literature question 1?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'British', emoji: '🇬🇧📚', question: 'British Literature question 2?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'British', emoji: '🇬🇧📚', question: 'British Literature question 3?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'British', emoji: '🇬🇧📚', question: 'British Literature question 4?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'British', emoji: '🇬🇧📚', question: 'British Literature question 5?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'British', emoji: '🇬🇧📚', question: 'British Literature question 6?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'British', emoji: '🇬🇧📚', question: 'British Literature question 7?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'British', emoji: '🇬🇧📚', question: 'British Literature question 8?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'British', emoji: '🇬🇧📚', question: 'British Literature question 9?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'British', emoji: '🇬🇧📚', question: 'British Literature question 10?', options: ['Option A', 'Option B'], correct: 0}
+        ],
+        hard: [
+            {topic: 'British', emoji: '🇬🇧📚', question: 'British Literature advanced question 1?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'British', emoji: '🇬🇧📚', question: 'British Literature advanced question 2?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'British', emoji: '🇬🇧📚', question: 'British Literature advanced question 3?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'British', emoji: '🇬🇧📚', question: 'British Literature advanced question 4?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'British', emoji: '🇬🇧📚', question: 'British Literature advanced question 5?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'British', emoji: '🇬🇧📚', question: 'British Literature advanced question 6?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'British', emoji: '🇬🇧📚', question: 'British Literature advanced question 7?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'British', emoji: '🇬🇧📚', question: 'British Literature advanced question 8?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'British', emoji: '🇬🇧📚', question: 'British Literature advanced question 9?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'British', emoji: '🇬🇧📚', question: 'British Literature advanced question 10?', options: ['A', 'B', 'C'], correct: 0}
+        ],
+        expert: [
+            {topic: 'British', emoji: '🇬🇧📚', question: 'British Literature expert question 1?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'British', emoji: '🇬🇧📚', question: 'British Literature expert question 2?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'British', emoji: '🇬🇧📚', question: 'British Literature expert question 3?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'British', emoji: '🇬🇧📚', question: 'British Literature expert question 4?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'British', emoji: '🇬🇧📚', question: 'British Literature expert question 5?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'British', emoji: '🇬🇧📚', question: 'British Literature expert question 6?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'British', emoji: '🇬🇧📚', question: 'British Literature expert question 7?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'British', emoji: '🇬🇧📚', question: 'British Literature expert question 8?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'British', emoji: '🇬🇧📚', question: 'British Literature expert question 9?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'British', emoji: '🇬🇧📚', question: 'British Literature expert question 10?', options: ['A', 'B', 'C', 'D'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'British', emoji: '🇬🇧📚', question: 'Name three british literature items 1', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'British', emoji: '🇬🇧📚', question: 'Name three british literature items 2', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'British', emoji: '🇬🇧📚', question: 'Name three british literature items 3', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'British', emoji: '🇬🇧📚', question: 'Name three british literature items 4', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'British', emoji: '🇬🇧📚', question: 'Name three british literature items 5', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'British', emoji: '🇬🇧📚', question: 'Name three british literature items 6', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'British', emoji: '🇬🇧📚', question: 'Name three british literature items 7', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'British', emoji: '🇬🇧📚', question: 'Name three british literature items 8', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'British', emoji: '🇬🇧📚', question: 'Name three british literature items 9', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'British', emoji: '🇬🇧📚', question: 'Name three british literature items 10', answer: 'Item 1, Item 2, Item 3'}
+        ]
+    },
+    16: { // Chapter 16: World Literature
+        easy: [
+            {topic: 'World', emoji: '🌍📖', question: 'World Literature topic 1.', options: ['True', 'False'], correct: 0},
+            {topic: 'World', emoji: '🌍📖', question: 'World Literature topic 2.', options: ['True', 'False'], correct: 0},
+            {topic: 'World', emoji: '🌍📖', question: 'World Literature topic 3.', options: ['True', 'False'], correct: 0},
+            {topic: 'World', emoji: '🌍📖', question: 'World Literature topic 4.', options: ['True', 'False'], correct: 0},
+            {topic: 'World', emoji: '🌍📖', question: 'World Literature topic 5.', options: ['True', 'False'], correct: 0},
+            {topic: 'World', emoji: '🌍📖', question: 'World Literature topic 6.', options: ['True', 'False'], correct: 0},
+            {topic: 'World', emoji: '🌍📖', question: 'World Literature topic 7.', options: ['True', 'False'], correct: 0},
+            {topic: 'World', emoji: '🌍📖', question: 'World Literature topic 8.', options: ['True', 'False'], correct: 0},
+            {topic: 'World', emoji: '🌍📖', question: 'World Literature topic 9.', options: ['True', 'False'], correct: 0},
+            {topic: 'World', emoji: '🌍📖', question: 'World Literature topic 10.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'World', emoji: '🌍📖', question: 'World Literature question 1?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'World', emoji: '🌍📖', question: 'World Literature question 2?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'World', emoji: '🌍📖', question: 'World Literature question 3?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'World', emoji: '🌍📖', question: 'World Literature question 4?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'World', emoji: '🌍📖', question: 'World Literature question 5?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'World', emoji: '🌍📖', question: 'World Literature question 6?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'World', emoji: '🌍📖', question: 'World Literature question 7?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'World', emoji: '🌍📖', question: 'World Literature question 8?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'World', emoji: '🌍📖', question: 'World Literature question 9?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'World', emoji: '🌍📖', question: 'World Literature question 10?', options: ['Option A', 'Option B'], correct: 0}
+        ],
+        hard: [
+            {topic: 'World', emoji: '🌍📖', question: 'World Literature advanced question 1?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'World', emoji: '🌍📖', question: 'World Literature advanced question 2?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'World', emoji: '🌍📖', question: 'World Literature advanced question 3?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'World', emoji: '🌍📖', question: 'World Literature advanced question 4?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'World', emoji: '🌍📖', question: 'World Literature advanced question 5?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'World', emoji: '🌍📖', question: 'World Literature advanced question 6?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'World', emoji: '🌍📖', question: 'World Literature advanced question 7?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'World', emoji: '🌍📖', question: 'World Literature advanced question 8?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'World', emoji: '🌍📖', question: 'World Literature advanced question 9?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'World', emoji: '🌍📖', question: 'World Literature advanced question 10?', options: ['A', 'B', 'C'], correct: 0}
+        ],
+        expert: [
+            {topic: 'World', emoji: '🌍📖', question: 'World Literature expert question 1?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'World', emoji: '🌍📖', question: 'World Literature expert question 2?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'World', emoji: '🌍📖', question: 'World Literature expert question 3?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'World', emoji: '🌍📖', question: 'World Literature expert question 4?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'World', emoji: '🌍📖', question: 'World Literature expert question 5?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'World', emoji: '🌍📖', question: 'World Literature expert question 6?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'World', emoji: '🌍📖', question: 'World Literature expert question 7?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'World', emoji: '🌍📖', question: 'World Literature expert question 8?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'World', emoji: '🌍📖', question: 'World Literature expert question 9?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'World', emoji: '🌍📖', question: 'World Literature expert question 10?', options: ['A', 'B', 'C', 'D'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'World', emoji: '🌍📖', question: 'Name three world literature items 1', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'World', emoji: '🌍📖', question: 'Name three world literature items 2', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'World', emoji: '🌍📖', question: 'Name three world literature items 3', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'World', emoji: '🌍📖', question: 'Name three world literature items 4', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'World', emoji: '🌍📖', question: 'Name three world literature items 5', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'World', emoji: '🌍📖', question: 'Name three world literature items 6', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'World', emoji: '🌍📖', question: 'Name three world literature items 7', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'World', emoji: '🌍📖', question: 'Name three world literature items 8', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'World', emoji: '🌍📖', question: 'Name three world literature items 9', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'World', emoji: '🌍📖', question: 'Name three world literature items 10', answer: 'Item 1, Item 2, Item 3'}
+        ]
+    },
+    17: { // Chapter 17: Literary Analysis
+        easy: [
+            {topic: 'Literary', emoji: '🔍📚', question: 'Literary Analysis topic 1.', options: ['True', 'False'], correct: 0},
+            {topic: 'Literary', emoji: '🔍📚', question: 'Literary Analysis topic 2.', options: ['True', 'False'], correct: 0},
+            {topic: 'Literary', emoji: '🔍📚', question: 'Literary Analysis topic 3.', options: ['True', 'False'], correct: 0},
+            {topic: 'Literary', emoji: '🔍📚', question: 'Literary Analysis topic 4.', options: ['True', 'False'], correct: 0},
+            {topic: 'Literary', emoji: '🔍📚', question: 'Literary Analysis topic 5.', options: ['True', 'False'], correct: 0},
+            {topic: 'Literary', emoji: '🔍📚', question: 'Literary Analysis topic 6.', options: ['True', 'False'], correct: 0},
+            {topic: 'Literary', emoji: '🔍📚', question: 'Literary Analysis topic 7.', options: ['True', 'False'], correct: 0},
+            {topic: 'Literary', emoji: '🔍📚', question: 'Literary Analysis topic 8.', options: ['True', 'False'], correct: 0},
+            {topic: 'Literary', emoji: '🔍📚', question: 'Literary Analysis topic 9.', options: ['True', 'False'], correct: 0},
+            {topic: 'Literary', emoji: '🔍📚', question: 'Literary Analysis topic 10.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Literary', emoji: '🔍📚', question: 'Literary Analysis question 1?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Literary', emoji: '🔍📚', question: 'Literary Analysis question 2?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Literary', emoji: '🔍📚', question: 'Literary Analysis question 3?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Literary', emoji: '🔍📚', question: 'Literary Analysis question 4?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Literary', emoji: '🔍📚', question: 'Literary Analysis question 5?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Literary', emoji: '🔍📚', question: 'Literary Analysis question 6?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Literary', emoji: '🔍📚', question: 'Literary Analysis question 7?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Literary', emoji: '🔍📚', question: 'Literary Analysis question 8?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Literary', emoji: '🔍📚', question: 'Literary Analysis question 9?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Literary', emoji: '🔍📚', question: 'Literary Analysis question 10?', options: ['Option A', 'Option B'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Literary', emoji: '🔍📚', question: 'Literary Analysis advanced question 1?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Literary', emoji: '🔍📚', question: 'Literary Analysis advanced question 2?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Literary', emoji: '🔍📚', question: 'Literary Analysis advanced question 3?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Literary', emoji: '🔍📚', question: 'Literary Analysis advanced question 4?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Literary', emoji: '🔍📚', question: 'Literary Analysis advanced question 5?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Literary', emoji: '🔍📚', question: 'Literary Analysis advanced question 6?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Literary', emoji: '🔍📚', question: 'Literary Analysis advanced question 7?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Literary', emoji: '🔍📚', question: 'Literary Analysis advanced question 8?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Literary', emoji: '🔍📚', question: 'Literary Analysis advanced question 9?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Literary', emoji: '🔍📚', question: 'Literary Analysis advanced question 10?', options: ['A', 'B', 'C'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Literary', emoji: '🔍📚', question: 'Literary Analysis expert question 1?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Literary', emoji: '🔍📚', question: 'Literary Analysis expert question 2?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Literary', emoji: '🔍📚', question: 'Literary Analysis expert question 3?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Literary', emoji: '🔍📚', question: 'Literary Analysis expert question 4?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Literary', emoji: '🔍📚', question: 'Literary Analysis expert question 5?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Literary', emoji: '🔍📚', question: 'Literary Analysis expert question 6?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Literary', emoji: '🔍📚', question: 'Literary Analysis expert question 7?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Literary', emoji: '🔍📚', question: 'Literary Analysis expert question 8?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Literary', emoji: '🔍📚', question: 'Literary Analysis expert question 9?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Literary', emoji: '🔍📚', question: 'Literary Analysis expert question 10?', options: ['A', 'B', 'C', 'D'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Literary', emoji: '🔍📚', question: 'Name three literary analysis items 1', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Literary', emoji: '🔍📚', question: 'Name three literary analysis items 2', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Literary', emoji: '🔍📚', question: 'Name three literary analysis items 3', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Literary', emoji: '🔍📚', question: 'Name three literary analysis items 4', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Literary', emoji: '🔍📚', question: 'Name three literary analysis items 5', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Literary', emoji: '🔍📚', question: 'Name three literary analysis items 6', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Literary', emoji: '🔍📚', question: 'Name three literary analysis items 7', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Literary', emoji: '🔍📚', question: 'Name three literary analysis items 8', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Literary', emoji: '🔍📚', question: 'Name three literary analysis items 9', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Literary', emoji: '🔍📚', question: 'Name three literary analysis items 10', answer: 'Item 1, Item 2, Item 3'}
+        ]
+    },
+    18: { // Chapter 18: Essay Writing
+        easy: [
+            {topic: 'Essay', emoji: '✍️📝', question: 'Essay Writing topic 1.', options: ['True', 'False'], correct: 0},
+            {topic: 'Essay', emoji: '✍️📝', question: 'Essay Writing topic 2.', options: ['True', 'False'], correct: 0},
+            {topic: 'Essay', emoji: '✍️📝', question: 'Essay Writing topic 3.', options: ['True', 'False'], correct: 0},
+            {topic: 'Essay', emoji: '✍️📝', question: 'Essay Writing topic 4.', options: ['True', 'False'], correct: 0},
+            {topic: 'Essay', emoji: '✍️📝', question: 'Essay Writing topic 5.', options: ['True', 'False'], correct: 0},
+            {topic: 'Essay', emoji: '✍️📝', question: 'Essay Writing topic 6.', options: ['True', 'False'], correct: 0},
+            {topic: 'Essay', emoji: '✍️📝', question: 'Essay Writing topic 7.', options: ['True', 'False'], correct: 0},
+            {topic: 'Essay', emoji: '✍️📝', question: 'Essay Writing topic 8.', options: ['True', 'False'], correct: 0},
+            {topic: 'Essay', emoji: '✍️📝', question: 'Essay Writing topic 9.', options: ['True', 'False'], correct: 0},
+            {topic: 'Essay', emoji: '✍️📝', question: 'Essay Writing topic 10.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Essay', emoji: '✍️📝', question: 'Essay Writing question 1?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Essay', emoji: '✍️📝', question: 'Essay Writing question 2?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Essay', emoji: '✍️📝', question: 'Essay Writing question 3?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Essay', emoji: '✍️📝', question: 'Essay Writing question 4?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Essay', emoji: '✍️📝', question: 'Essay Writing question 5?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Essay', emoji: '✍️📝', question: 'Essay Writing question 6?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Essay', emoji: '✍️📝', question: 'Essay Writing question 7?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Essay', emoji: '✍️📝', question: 'Essay Writing question 8?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Essay', emoji: '✍️📝', question: 'Essay Writing question 9?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Essay', emoji: '✍️📝', question: 'Essay Writing question 10?', options: ['Option A', 'Option B'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Essay', emoji: '✍️📝', question: 'Essay Writing advanced question 1?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Essay', emoji: '✍️📝', question: 'Essay Writing advanced question 2?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Essay', emoji: '✍️📝', question: 'Essay Writing advanced question 3?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Essay', emoji: '✍️📝', question: 'Essay Writing advanced question 4?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Essay', emoji: '✍️📝', question: 'Essay Writing advanced question 5?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Essay', emoji: '✍️📝', question: 'Essay Writing advanced question 6?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Essay', emoji: '✍️📝', question: 'Essay Writing advanced question 7?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Essay', emoji: '✍️📝', question: 'Essay Writing advanced question 8?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Essay', emoji: '✍️📝', question: 'Essay Writing advanced question 9?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Essay', emoji: '✍️📝', question: 'Essay Writing advanced question 10?', options: ['A', 'B', 'C'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Essay', emoji: '✍️📝', question: 'Essay Writing expert question 1?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Essay', emoji: '✍️📝', question: 'Essay Writing expert question 2?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Essay', emoji: '✍️📝', question: 'Essay Writing expert question 3?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Essay', emoji: '✍️📝', question: 'Essay Writing expert question 4?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Essay', emoji: '✍️📝', question: 'Essay Writing expert question 5?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Essay', emoji: '✍️📝', question: 'Essay Writing expert question 6?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Essay', emoji: '✍️📝', question: 'Essay Writing expert question 7?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Essay', emoji: '✍️📝', question: 'Essay Writing expert question 8?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Essay', emoji: '✍️📝', question: 'Essay Writing expert question 9?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Essay', emoji: '✍️📝', question: 'Essay Writing expert question 10?', options: ['A', 'B', 'C', 'D'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Essay', emoji: '✍️📝', question: 'Name three essay writing items 1', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Essay', emoji: '✍️📝', question: 'Name three essay writing items 2', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Essay', emoji: '✍️📝', question: 'Name three essay writing items 3', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Essay', emoji: '✍️📝', question: 'Name three essay writing items 4', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Essay', emoji: '✍️📝', question: 'Name three essay writing items 5', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Essay', emoji: '✍️📝', question: 'Name three essay writing items 6', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Essay', emoji: '✍️📝', question: 'Name three essay writing items 7', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Essay', emoji: '✍️📝', question: 'Name three essay writing items 8', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Essay', emoji: '✍️📝', question: 'Name three essay writing items 9', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Essay', emoji: '✍️📝', question: 'Name three essay writing items 10', answer: 'Item 1, Item 2, Item 3'}
+        ]
+    },
+    19: { // Chapter 19: Rhetoric and Persuasion
+        easy: [
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Rhetoric and Persuasion topic 1.', options: ['True', 'False'], correct: 0},
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Rhetoric and Persuasion topic 2.', options: ['True', 'False'], correct: 0},
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Rhetoric and Persuasion topic 3.', options: ['True', 'False'], correct: 0},
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Rhetoric and Persuasion topic 4.', options: ['True', 'False'], correct: 0},
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Rhetoric and Persuasion topic 5.', options: ['True', 'False'], correct: 0},
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Rhetoric and Persuasion topic 6.', options: ['True', 'False'], correct: 0},
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Rhetoric and Persuasion topic 7.', options: ['True', 'False'], correct: 0},
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Rhetoric and Persuasion topic 8.', options: ['True', 'False'], correct: 0},
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Rhetoric and Persuasion topic 9.', options: ['True', 'False'], correct: 0},
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Rhetoric and Persuasion topic 10.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Rhetoric and Persuasion question 1?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Rhetoric and Persuasion question 2?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Rhetoric and Persuasion question 3?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Rhetoric and Persuasion question 4?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Rhetoric and Persuasion question 5?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Rhetoric and Persuasion question 6?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Rhetoric and Persuasion question 7?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Rhetoric and Persuasion question 8?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Rhetoric and Persuasion question 9?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Rhetoric and Persuasion question 10?', options: ['Option A', 'Option B'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Rhetoric and Persuasion advanced question 1?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Rhetoric and Persuasion advanced question 2?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Rhetoric and Persuasion advanced question 3?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Rhetoric and Persuasion advanced question 4?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Rhetoric and Persuasion advanced question 5?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Rhetoric and Persuasion advanced question 6?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Rhetoric and Persuasion advanced question 7?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Rhetoric and Persuasion advanced question 8?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Rhetoric and Persuasion advanced question 9?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Rhetoric and Persuasion advanced question 10?', options: ['A', 'B', 'C'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Rhetoric and Persuasion expert question 1?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Rhetoric and Persuasion expert question 2?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Rhetoric and Persuasion expert question 3?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Rhetoric and Persuasion expert question 4?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Rhetoric and Persuasion expert question 5?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Rhetoric and Persuasion expert question 6?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Rhetoric and Persuasion expert question 7?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Rhetoric and Persuasion expert question 8?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Rhetoric and Persuasion expert question 9?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Rhetoric and Persuasion expert question 10?', options: ['A', 'B', 'C', 'D'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Name three rhetoric and persuasion items 1', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Name three rhetoric and persuasion items 2', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Name three rhetoric and persuasion items 3', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Name three rhetoric and persuasion items 4', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Name three rhetoric and persuasion items 5', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Name three rhetoric and persuasion items 6', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Name three rhetoric and persuasion items 7', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Name three rhetoric and persuasion items 8', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Name three rhetoric and persuasion items 9', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Rhetoric', emoji: '🗣️💭', question: 'Name three rhetoric and persuasion items 10', answer: 'Item 1, Item 2, Item 3'}
+        ]
+    },
+    20: { // Chapter 20: Language History and Etymology
+        easy: [
+            {topic: 'Language', emoji: '📜🔤', question: 'Language History and Etymology topic 1.', options: ['True', 'False'], correct: 0},
+            {topic: 'Language', emoji: '📜🔤', question: 'Language History and Etymology topic 2.', options: ['True', 'False'], correct: 0},
+            {topic: 'Language', emoji: '📜🔤', question: 'Language History and Etymology topic 3.', options: ['True', 'False'], correct: 0},
+            {topic: 'Language', emoji: '📜🔤', question: 'Language History and Etymology topic 4.', options: ['True', 'False'], correct: 0},
+            {topic: 'Language', emoji: '📜🔤', question: 'Language History and Etymology topic 5.', options: ['True', 'False'], correct: 0},
+            {topic: 'Language', emoji: '📜🔤', question: 'Language History and Etymology topic 6.', options: ['True', 'False'], correct: 0},
+            {topic: 'Language', emoji: '📜🔤', question: 'Language History and Etymology topic 7.', options: ['True', 'False'], correct: 0},
+            {topic: 'Language', emoji: '📜🔤', question: 'Language History and Etymology topic 8.', options: ['True', 'False'], correct: 0},
+            {topic: 'Language', emoji: '📜🔤', question: 'Language History and Etymology topic 9.', options: ['True', 'False'], correct: 0},
+            {topic: 'Language', emoji: '📜🔤', question: 'Language History and Etymology topic 10.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Language', emoji: '📜🔤', question: 'Language History and Etymology question 1?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Language', emoji: '📜🔤', question: 'Language History and Etymology question 2?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Language', emoji: '📜🔤', question: 'Language History and Etymology question 3?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Language', emoji: '📜🔤', question: 'Language History and Etymology question 4?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Language', emoji: '📜🔤', question: 'Language History and Etymology question 5?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Language', emoji: '📜🔤', question: 'Language History and Etymology question 6?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Language', emoji: '📜🔤', question: 'Language History and Etymology question 7?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Language', emoji: '📜🔤', question: 'Language History and Etymology question 8?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Language', emoji: '📜🔤', question: 'Language History and Etymology question 9?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Language', emoji: '📜🔤', question: 'Language History and Etymology question 10?', options: ['Option A', 'Option B'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Language', emoji: '📜🔤', question: 'Language History and Etymology advanced question 1?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Language', emoji: '📜🔤', question: 'Language History and Etymology advanced question 2?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Language', emoji: '📜🔤', question: 'Language History and Etymology advanced question 3?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Language', emoji: '📜🔤', question: 'Language History and Etymology advanced question 4?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Language', emoji: '📜🔤', question: 'Language History and Etymology advanced question 5?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Language', emoji: '📜🔤', question: 'Language History and Etymology advanced question 6?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Language', emoji: '📜🔤', question: 'Language History and Etymology advanced question 7?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Language', emoji: '📜🔤', question: 'Language History and Etymology advanced question 8?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Language', emoji: '📜🔤', question: 'Language History and Etymology advanced question 9?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Language', emoji: '📜🔤', question: 'Language History and Etymology advanced question 10?', options: ['A', 'B', 'C'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Language', emoji: '📜🔤', question: 'Language History and Etymology expert question 1?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Language', emoji: '📜🔤', question: 'Language History and Etymology expert question 2?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Language', emoji: '📜🔤', question: 'Language History and Etymology expert question 3?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Language', emoji: '📜🔤', question: 'Language History and Etymology expert question 4?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Language', emoji: '📜🔤', question: 'Language History and Etymology expert question 5?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Language', emoji: '📜🔤', question: 'Language History and Etymology expert question 6?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Language', emoji: '📜🔤', question: 'Language History and Etymology expert question 7?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Language', emoji: '📜🔤', question: 'Language History and Etymology expert question 8?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Language', emoji: '📜🔤', question: 'Language History and Etymology expert question 9?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Language', emoji: '📜🔤', question: 'Language History and Etymology expert question 10?', options: ['A', 'B', 'C', 'D'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Language', emoji: '📜🔤', question: 'Name three language history and etymology items 1', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Language', emoji: '📜🔤', question: 'Name three language history and etymology items 2', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Language', emoji: '📜🔤', question: 'Name three language history and etymology items 3', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Language', emoji: '📜🔤', question: 'Name three language history and etymology items 4', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Language', emoji: '📜🔤', question: 'Name three language history and etymology items 5', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Language', emoji: '📜🔤', question: 'Name three language history and etymology items 6', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Language', emoji: '📜🔤', question: 'Name three language history and etymology items 7', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Language', emoji: '📜🔤', question: 'Name three language history and etymology items 8', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Language', emoji: '📜🔤', question: 'Name three language history and etymology items 9', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Language', emoji: '📜🔤', question: 'Name three language history and etymology items 10', answer: 'Item 1, Item 2, Item 3'}
+        ]
+    }
+    // Add more chapters: 2, 3, 4... unlimited!
 };

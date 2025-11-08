@@ -755,4 +755,502 @@ const parentingQuestions = {
             {topic: 'Support', emoji: '🤝🌈', question: 'Name three inclusion benefits', answer: 'Social skills, Acceptance, Academic growth, Peer models (any 3)'}
         ]
     },
+        13: { // Chapter 13: Family Dynamics
+        easy: [
+            {topic: 'Family', emoji: '👨‍👩‍👧‍👦❤️', question: 'Families come in different forms.', options: ['True', 'False'], correct: 0},
+            {topic: 'Siblings', emoji: '👧👦', question: 'Sibling relationships are important.', options: ['True', 'False'], correct: 0},
+            {topic: 'Family', emoji: '👨‍👩‍👧‍👦🏠', question: 'Family routines provide stability.', options: ['True', 'False'], correct: 0},
+            {topic: 'Siblings', emoji: '👧😡👦', question: 'Siblings sometimes fight.', options: ['True', 'False'], correct: 0},
+            {topic: 'Family', emoji: '👨‍👩‍👧‍👦🍽️', question: 'Family meals benefit children.', options: ['True', 'False'], correct: 0},
+            {topic: 'Siblings', emoji: '👧🤝👦', question: 'Siblings can be friends.', options: ['True', 'False'], correct: 0},
+            {topic: 'Family', emoji: '👨‍👩‍👧‍👦💬', question: 'Communication strengthens families.', options: ['True', 'False'], correct: 0},
+            {topic: 'Siblings', emoji: '👧👶', question: 'New siblings need adjustment.', options: ['True', 'False'], correct: 0},
+            {topic: 'Family', emoji: '👨‍👩‍👧‍👦🎉', question: 'Family traditions matter.', options: ['True', 'False'], correct: 0},
+            {topic: 'Siblings', emoji: '👧⚖️👦', question: 'Fairness doesn\'t mean equal.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Family', emoji: '👨‍👩‍👧‍👦❤️', question: 'What is a nuclear family?', options: ['Parents and children', 'Extended relatives'], correct: 0},
+            {topic: 'Siblings', emoji: '👧👦', question: 'What is sibling rivalry?', options: ['Competition between siblings', 'Always harmony'], correct: 0},
+            {topic: 'Family', emoji: '👨‍👩‍👧‍👦🏠', question: 'What are family routines?', options: ['Regular predictable activities', 'Random schedules'], correct: 0},
+            {topic: 'Siblings', emoji: '👧😡👦', question: 'What causes sibling conflict?', options: ['Competition, jealousy, differences', 'Nothing'], correct: 0},
+            {topic: 'Family', emoji: '👨‍👩‍👧‍👦🍽️', question: 'What are family meal benefits?', options: ['Better nutrition, communication', 'No benefits'], correct: 0},
+            {topic: 'Siblings', emoji: '👧🤝👦', question: 'What is sibling bonding?', options: ['Close emotional connection', 'Always fighting'], correct: 0},
+            {topic: 'Family', emoji: '👨‍👩‍👧‍👦💬', question: 'What is family meeting?', options: ['Discuss issues together', 'No discussion'], correct: 0},
+            {topic: 'Siblings', emoji: '👧👶', question: 'What is sibling preparation?', options: ['Helping child adjust to new baby', 'No preparation'], correct: 0},
+            {topic: 'Family', emoji: '👨‍👩‍👧‍👦🎉', question: 'What are family rituals?', options: ['Meaningful repeated activities', 'Random events'], correct: 0},
+            {topic: 'Siblings', emoji: '👧⚖️👦', question: 'What is equal vs fair?', options: ['Equal is same, fair is what each needs', 'Same thing'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Family', emoji: '👨‍👩‍👧‍👦❤️', question: 'What is a blended family?', options: ['Remarriage combining children', 'Original family', 'No children'], correct: 0},
+            {topic: 'Siblings', emoji: '👧👦', question: 'What is differential parental treatment?', options: ['Treating siblings differently', 'Exactly equal', 'No difference'], correct: 0},
+            {topic: 'Family', emoji: '👨‍👩‍👧‍👦🏠', question: 'What is family systems theory?', options: ['Family as interconnected system', 'Independent individuals', 'No theory'], correct: 0},
+            {topic: 'Siblings', emoji: '👧😡👦', question: 'What is sibling deidentification?', options: ['Developing different identities', 'Being identical', 'No identity'], correct: 0},
+            {topic: 'Family', emoji: '👨‍👩‍👧‍👦🍽️', question: 'What is the recommended family meal frequency?', options: ['5-7 times per week', 'Once a month', 'Never'], correct: 0},
+            {topic: 'Siblings', emoji: '👧🤝👦', question: 'What is sibling warmth?', options: ['Affection and support between siblings', 'Temperature', 'No warmth'], correct: 0},
+            {topic: 'Family', emoji: '👨‍👩‍👧‍👦💬', question: 'What is Gottman\'s ratio for relationships?', options: ['5:1 positive to negative', '1:1', '1:5', 'No ratio'], correct: 0},
+            {topic: 'Siblings', emoji: '👧👶', question: 'What is sibling regression?', options: ['Older child acts younger', 'Normal development', 'No change'], correct: 0},
+            {topic: 'Family', emoji: '👨‍👩‍👧‍👦🎉', question: 'What is intergenerational transmission?', options: ['Passing values across generations', 'No passing', 'Random'], correct: 0},
+            {topic: 'Siblings', emoji: '👧⚖️👦', question: 'What is birth order theory?', options: ['Personality affected by birth position', 'No effect', 'Random'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Family', emoji: '👨‍👩‍👧‍👦❤️', question: 'What percentage of children live in two-parent homes?', options: ['~70%', '10%', '100%', '0%'], correct: 0},
+            {topic: 'Siblings', emoji: '👧👦', question: 'What is typical sibling conflict frequency?', options: ['3-7 conflicts per hour for young kids', 'Never', 'Once a year', 'Constant'], correct: 0},
+            {topic: 'Family', emoji: '👨‍👩‍👧‍👦🏠', question: 'What percentage of families eat together daily?', options: ['~30%', '100%', '0%', '90%'], correct: 0},
+            {topic: 'Siblings', emoji: '👧😡👦', question: 'At what age is sibling rivalry highest?', options: ['3-7 years', '15 years', '1 month', '20 years'], correct: 0},
+            {topic: 'Family', emoji: '👨‍👩‍👧‍👦🍽️', question: 'What is the impact of family meals on academics?', options: ['Higher grades and vocabulary', 'No impact', 'Lower grades', 'Random'], correct: 0},
+            {topic: 'Siblings', emoji: '👧🤝👦', question: 'What percentage of adults remain close to siblings?', options: ['~80%', '10%', '0%', '100%'], correct: 0},
+            {topic: 'Family', emoji: '👨‍👩‍👧‍👦💬', question: 'What is the recommended family meeting frequency?', options: ['Weekly', 'Never', 'Daily', 'Yearly'], correct: 0},
+            {topic: 'Siblings', emoji: '👧👶', question: 'What is optimal spacing between siblings?', options: ['2-4 years', '10 years', '1 month', 'No spacing'], correct: 0},
+            {topic: 'Family', emoji: '👨‍👩‍👧‍👦🎉', question: 'What percentage of families have regular traditions?', options: ['~75%', '10%', '0%', '100%'], correct: 0},
+            {topic: 'Siblings', emoji: '👧⚖️👦', question: 'What does research say about equal treatment?', options: ['Less important than fairness', 'Must be equal', 'No importance', 'Random'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Family', emoji: '👨‍👩‍👧‍👦❤️', question: 'Name three family structures', answer: 'Nuclear, Extended, Blended, Single-parent, Same-sex (any 3)'},
+            {topic: 'Siblings', emoji: '👧👦', question: 'Name three factors affecting sibling relationships', answer: 'Age gap, Gender, Personality, Parental treatment (any 3)'},
+            {topic: 'Family', emoji: '👨‍👩‍👧‍👦🏠', question: 'Name three family routine benefits', answer: 'Security, Stability, Connection, Healthy habits (any 3)'},
+            {topic: 'Siblings', emoji: '👧😡👦', question: 'Name three ways to reduce sibling conflict', answer: 'Teach conflict resolution, Give attention, Avoid comparisons, Individual time (any 3)'},
+            {topic: 'Family', emoji: '👨‍👩‍👧‍👦🍽️', question: 'Name three family meal benefits', answer: 'Better nutrition, Communication, Academic success, Mental health (any 3)'},
+            {topic: 'Siblings', emoji: '👧🤝👦', question: 'Name three ways to build sibling bonds', answer: 'Shared activities, Teamwork, Encourage kindness, Celebrate each other (any 3)'},
+            {topic: 'Family', emoji: '👨‍👩‍👧‍👦💬', question: 'Name three family communication skills', answer: 'Active listening, I-messages, Problem-solving, Respect (any 3)'},
+            {topic: 'Siblings', emoji: '👧👶', question: 'Name three ways to prepare for new sibling', answer: 'Read books, Tour hospital, Practice helping, Discuss changes (any 3)'},
+            {topic: 'Family', emoji: '👨‍👩‍👧‍👦🎉', question: 'Name three types of family traditions', answer: 'Holiday, Daily, Milestone, Seasonal, Cultural (any 3)'},
+            {topic: 'Siblings', emoji: '👧⚖️👦', question: 'Name three fairness strategies', answer: 'Individual needs, Take turns, Different rules by age, Equal time (any 3)'}
+        ]
+    },
+    14: { // Chapter 14: Communication
+        easy: [
+            {topic: 'Communication', emoji: '💬👂', question: 'Listening is part of communication.', options: ['True', 'False'], correct: 0},
+            {topic: 'Talking', emoji: '🗣️👶', question: 'Talk to children at their level.', options: ['True', 'False'], correct: 0},
+            {topic: 'Communication', emoji: '💬❤️', question: 'Kind words matter.', options: ['True', 'False'], correct: 0},
+            {topic: 'Talking', emoji: '🗣️📖', question: 'Reading builds vocabulary.', options: ['True', 'False'], correct: 0},
+            {topic: 'Communication', emoji: '💬👁️', question: 'Body language communicates.', options: ['True', 'False'], correct: 0},
+            {topic: 'Talking', emoji: '🗣️❓', question: 'Ask open-ended questions.', options: ['True', 'False'], correct: 0},
+            {topic: 'Communication', emoji: '💬🚫', question: 'Avoid criticism.', options: ['True', 'False'], correct: 0},
+            {topic: 'Talking', emoji: '🗣️💭', question: 'Validate children\'s feelings.', options: ['True', 'False'], correct: 0},
+            {topic: 'Communication', emoji: '💬⏰', question: 'Timing matters in communication.', options: ['True', 'False'], correct: 0},
+            {topic: 'Talking', emoji: '🗣️👍', question: 'Positive language encourages.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Communication', emoji: '💬👂', question: 'How to practice active listening?', options: ['Fully focusing on speaker', 'Waiting to talk'], correct: 0},
+            {topic: 'Talking', emoji: '🗣️👶', question: 'What is parentese?', options: ['Simplified speech for babies', 'Baby talk'], correct: 0},
+            {topic: 'Communication', emoji: '💬❤️', question: 'What are I-messages?', options: ['Express feelings without blame', 'You-statements'], correct: 0},
+            {topic: 'Talking', emoji: '🗣️📖', question: 'What is dialogic reading?', options: ['Interactive back-and-forth reading', 'Silent reading'], correct: 0},
+            {topic: 'Communication', emoji: '💬👁️', question: 'What is nonverbal communication?', options: ['Body language, facial expressions', 'Only words'], correct: 0},
+            {topic: 'Talking', emoji: '🗣️❓', question: 'What are open-ended questions?', options: ['Require more than yes/no', 'Yes/no only'], correct: 0},
+            {topic: 'Communication', emoji: '💬🚫', question: 'What is constructive feedback?', options: ['Helpful, specific suggestions', 'Harsh criticism'], correct: 0},
+            {topic: 'Talking', emoji: '🗣️💭', question: 'How does reflective listening work?', options: ['Mirroring back what heard', 'Ignoring'], correct: 0},
+            {topic: 'Communication', emoji: '💬⏰', question: 'What is the best time to talk?', options: ['When calm and receptive', 'During tantrum'], correct: 0},
+            {topic: 'Talking', emoji: '🗣️👍', question: 'What is positive phrasing?', options: ['Say what to do', 'Focus on negatives'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Communication', emoji: '💬👂', question: 'What is the communication ratio?', options: ['80% listen, 20% talk', '100% talk', '50-50', 'No ratio'], correct: 0},
+            {topic: 'Talking', emoji: '🗣️👶', question: 'What does joint attention involve?', options: ['Shared focus with child', 'Separate activities', 'No attention'], correct: 0},
+            {topic: 'Communication', emoji: '💬❤️', question: 'What is the Gottman method?', options: ['Build emotional connection', 'Conflict only', 'No method'], correct: 0},
+            {topic: 'Talking', emoji: '🗣️📖', question: 'What is the word gap?', options: ['Difference in words heard by income', 'No gap', 'Random'], correct: 0},
+            {topic: 'Communication', emoji: '💬👁️', question: 'How much communication is nonverbal?', options: ['~70-93%', '10%', '0%', '100%'], correct: 0},
+            {topic: 'Talking', emoji: '🗣️❓', question: 'What is scaffolding in conversation?', options: ['Support that builds skills', 'No support', 'Random'], correct: 0},
+            {topic: 'Communication', emoji: '💬🚫', question: 'What is the criticism-to-praise ratio?', options: ['Should be 1:5 or higher praise', 'All criticism', '1:1', 'Random'], correct: 0},
+            {topic: 'Talking', emoji: '🗣️💭', question: 'What is validation vs agreement?', options: ['Understand feelings vs agree with behavior', 'Same thing', 'No difference'], correct: 0},
+            {topic: 'Communication', emoji: '💬⏰', question: 'What is the repair attempt?', options: ['Effort to de-escalate conflict', 'No attempt', 'Escalate'], correct: 0},
+            {topic: 'Talking', emoji: '🗣️👍', question: 'What is specific vs general praise?', options: ['Describe exact behavior vs generic', 'Same thing', 'No difference'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Communication', emoji: '💬👂', question: 'What is the average parent-child conversation time?', options: ['~38 minutes per day', '10 hours', '1 minute', '0'], correct: 0},
+            {topic: 'Talking', emoji: '🗣️👶', question: 'How many words should children hear daily?', options: ['~21,000', '100', '1,000', '100,000'], correct: 0},
+            {topic: 'Communication', emoji: '💬❤️', question: 'What is the magic ratio by Gottman?', options: ['5:1 positive to negative', '1:1', '1:5', 'No ratio'], correct: 0},
+            {topic: 'Talking', emoji: '🗣️📖', question: 'What is the 30 million word gap?', options: ['Difference by age 3 based on income', 'No gap', '100 word gap', 'Random'], correct: 0},
+            {topic: 'Communication', emoji: '💬👁️', question: 'What percentage of message is tone?', options: ['~38%', '0%', '100%', '10%'], correct: 0},
+            {topic: 'Talking', emoji: '🗣️❓', question: 'How many questions do preschoolers ask daily?', options: ['~300', '5', '1000', '0'], correct: 0},
+            {topic: 'Communication', emoji: '💬🚫', question: 'What is the impact of criticism on children?', options: ['Lowers self-esteem and compliance', 'No impact', 'Always positive', 'Random'], correct: 0},
+            {topic: 'Talking', emoji: '🗣️💭', question: 'What is the recommended validation frequency?', options: ['Multiple times daily', 'Never', 'Once a year', 'Rarely'], correct: 0},
+            {topic: 'Communication', emoji: '💬⏰', question: 'What is the best conflict timing?', options: ['When calm, not in moment', 'During tantrum', 'Never', 'Random'], correct: 0},
+            {topic: 'Talking', emoji: '🗣️👍', question: 'What is the ideal praise specificity?', options: ['Describe specific behavior and impact', 'Generic only', 'No praise', 'Random'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Communication', emoji: '💬👂', question: 'Name three active listening skills', answer: 'Eye contact, Reflecting, Paraphrasing, No interrupting, Full attention (any 3)'},
+            {topic: 'Talking', emoji: '🗣️👶', question: 'Name three ways to build language', answer: 'Read together, Narrate activities, Ask questions, Expand utterances (any 3)'},
+            {topic: 'Communication', emoji: '💬❤️', question: 'Name three I-message components', answer: 'I feel, When you, Because, I need (any 3)'},
+            {topic: 'Talking', emoji: '🗣️📖', question: 'Name three dialogic reading techniques', answer: 'Ask questions, Expand answers, Repeat, Praise, Follow interest (any 3)'},
+            {topic: 'Communication', emoji: '💬👁️', question: 'Name three types of nonverbal communication', answer: 'Facial expressions, Body language, Tone, Gestures, Eye contact (any 3)'},
+            {topic: 'Talking', emoji: '🗣️❓', question: 'Name three open-ended question starters', answer: 'How, What, Why, Tell me about, Describe (any 3)'},
+            {topic: 'Communication', emoji: '💬🚫', question: 'Name three constructive feedback elements', answer: 'Specific, Kind, Focused on behavior, Timely, Solutions (any 3)'},
+            {topic: 'Talking', emoji: '🗣️💭', question: 'Name three validation statements', answer: 'I see you\'re upset, That makes sense, I understand, You seem frustrated (any 3)'},
+            {topic: 'Communication', emoji: '💬⏰', question: 'Name three communication timing tips', answer: 'When calm, Private setting, Unrushed, Good mood, Receptive (any 3)'},
+            {topic: 'Talking', emoji: '🗣️👍', question: 'Name three positive phrasing examples', answer: 'Walk please vs don\'t run, Use gentle hands vs don\'t hit, Inside voice vs don\'t yell (any 3)'}
+        ]
+    },
+    15: { // Chapter 15: Self-Care for Parents
+        easy: [
+            {topic: 'Self-Care', emoji: '🧘‍♀️💆', question: 'Parents need self-care.', options: ['True', 'False'], correct: 0},
+            {topic: 'Wellness', emoji: '💪🥗', question: 'Healthy parents raise healthy children.', options: ['True', 'False'], correct: 0},
+            {topic: 'Self-Care', emoji: '🧘‍♀️😌', question: 'Rest is important for parents.', options: ['True', 'False'], correct: 0},
+            {topic: 'Wellness', emoji: '💪😴', question: 'Sleep affects parenting.', options: ['True', 'False'], correct: 0},
+            {topic: 'Self-Care', emoji: '🧘‍♀️🤝', question: 'Parents need support.', options: ['True', 'False'], correct: 0},
+            {topic: 'Wellness', emoji: '💪🏃', question: 'Exercise reduces stress.', options: ['True', 'False'], correct: 0},
+            {topic: 'Self-Care', emoji: '🧘‍♀️⏰', question: 'Me-time is not selfish.', options: ['True', 'False'], correct: 0},
+            {topic: 'Wellness', emoji: '💪🧠', question: 'Mental health matters.', options: ['True', 'False'], correct: 0},
+            {topic: 'Self-Care', emoji: '🧘‍♀️❤️', question: 'Self-care helps parenting.', options: ['True', 'False'], correct: 0},
+            {topic: 'Wellness', emoji: '💪🌈', question: 'Balance is key.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Self-Care', emoji: '🧘‍♀️💆', question: 'What is self-care?', options: ['Meeting own physical and emotional needs', 'Ignoring needs'], correct: 0},
+            {topic: 'Wellness', emoji: '💪🥗', question: 'What is the oxygen mask principle?', options: ['Help yourself before helping others', 'Help others first'], correct: 0},
+            {topic: 'Self-Care', emoji: '🧘‍♀️😌', question: 'What is mindfulness?', options: ['Present-moment awareness', 'Constant worry'], correct: 0},
+            {topic: 'Wellness', emoji: '💪😴', question: 'How much sleep do adults need?', options: ['7-9 hours', '3 hours'], correct: 0},
+            {topic: 'Self-Care', emoji: '🧘‍♀️🤝', question: 'What is a support system?', options: ['Network of helping people', 'No support'], correct: 0},
+            {topic: 'Wellness', emoji: '💪🏃', question: 'What is the exercise recommendation?', options: ['150 minutes moderate per week', '0 minutes'], correct: 0},
+            {topic: 'Self-Care', emoji: '🧘‍♀️⏰', question: 'What is me-time?', options: ['Time for own interests', 'Never alone'], correct: 0},
+            {topic: 'Wellness', emoji: '💪🧠', question: 'What is parental burnout?', options: ['Exhaustion from parenting stress', 'Normal energy'], correct: 0},
+            {topic: 'Self-Care', emoji: '🧘‍♀️❤️', question: 'What is self-compassion?', options: ['Kindness toward self', 'Self-criticism'], correct: 0},
+            {topic: 'Wellness', emoji: '💪🌈', question: 'What is work-life balance?', options: ['Managing multiple roles', 'Work only'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Self-Care', emoji: '🧘‍♀️💆', question: 'What is the self-care deficit?', options: ['Gap between needs and self-care', 'Surplus', 'No gap'], correct: 0},
+            {topic: 'Wellness', emoji: '💪🥗', question: 'What is stress eating?', options: ['Eating in response to emotions', 'Hunger-based eating'], correct: 0},
+            {topic: 'Self-Care', emoji: '🧘‍♀️😌', question: 'What is meditation?', options: ['Focused attention practice', 'Sleep', 'Worry'], correct: 0},
+            {topic: 'Wellness', emoji: '💪😴', question: 'How is sleep debt defined?', options: ['Cumulative sleep deprivation', 'Surplus sleep'], correct: 0},
+            {topic: 'Self-Care', emoji: '🧘‍♀️🤝', question: 'What does respite care provide?', options: ['Temporary relief for caregivers', 'Permanent care'], correct: 0},
+            {topic: 'Wellness', emoji: '💪🏃', question: 'What is the mind-body connection?', options: ['Physical health affects mental health', 'No connection'], correct: 0},
+            {topic: 'Self-Care', emoji: '🧘‍♀️⏰', question: 'What is time scarcity?', options: ['Feeling of not enough time', 'Too much time'], correct: 0},
+            {topic: 'Wellness', emoji: '💪🧠', question: 'What is postpartum depression?', options: ['Depression after childbirth', 'Normal emotions'], correct: 0},
+            {topic: 'Self-Care', emoji: '🧘‍♀️❤️', question: 'What is the self-care wheel?', options: ['Six dimensions of wellness', 'No wheel'], correct: 0},
+            {topic: 'Wellness', emoji: '💪🌈', question: 'What is role strain?', options: ['Stress from multiple roles', 'No stress'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Self-Care', emoji: '🧘‍♀️💆', question: 'What percentage of parents report burnout?', options: ['~66%', '10%', '0%', '100%'], correct: 0},
+            {topic: 'Wellness', emoji: '💪🥗', question: 'What is the recommended water intake?', options: ['8-12 cups daily', '1 cup', '1 gallon hourly', 'None'], correct: 0},
+            {topic: 'Self-Care', emoji: '🧘‍♀️😌', question: 'What is the impact of 10 minutes meditation?', options: ['Reduces stress and anxiety', 'No impact', 'Increases stress', 'Random'], correct: 0},
+            {topic: 'Wellness', emoji: '💪😴', question: 'What percentage of parents are sleep deprived?', options: ['~60-70%', '5%', '0%', '100%'], correct: 0},
+            {topic: 'Self-Care', emoji: '🧘‍♀️🤝', question: 'What is the isolation rate for new parents?', options: ['~80% feel isolated', '0%', '10%', '100%'], correct: 0},
+            {topic: 'Wellness', emoji: '💪🏃', question: 'What is the stress reduction from exercise?', options: ['~20-30% reduction', '0%', '100%', '5%'], correct: 0},
+            {topic: 'Self-Care', emoji: '🧘‍♀️⏰', question: 'What is the recommended me-time frequency?', options: ['Daily, even 15 minutes', 'Never', 'Once a year', 'Random'], correct: 0},
+            {topic: 'Wellness', emoji: '💪🧠', question: 'What is the postpartum depression rate?', options: ['~15-20%', '0%', '100%', '1%'], correct: 0},
+            {topic: 'Self-Care', emoji: '🧘‍♀️❤️', question: 'What is the self-compassion benefit?', options: ['Better mental health and parenting', 'No benefit', 'Worse outcomes', 'Random'], correct: 0},
+            {topic: 'Wellness', emoji: '💪🌈', question: 'What percentage of parents struggle with balance?', options: ['~75%', '10%', '0%', '100%'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Self-Care', emoji: '🧘‍♀️💆', question: 'Name three self-care activities', answer: 'Exercise, Reading, Bath, Hobbies, Friends, Nature (any 3)'},
+            {topic: 'Wellness', emoji: '💪🥗', question: 'Name three healthy habits', answer: 'Balanced diet, Exercise, Sleep, Hydration, Stress management (any 3)'},
+            {topic: 'Self-Care', emoji: '🧘‍♀️😌', question: 'Name three stress-reduction techniques', answer: 'Meditation, Deep breathing, Yoga, Exercise, Nature (any 3)'},
+            {topic: 'Wellness', emoji: '💪😴', question: 'Name three sleep hygiene practices', answer: 'Regular schedule, Dark room, No screens, Cool temp (any 3)'},
+            {topic: 'Self-Care', emoji: '🧘‍♀️🤝', question: 'Name three types of support', answer: 'Emotional, Practical, Informational, Social (any 3)'},
+            {topic: 'Wellness', emoji: '💪🏃', question: 'Name three exercise benefits', answer: 'Mood boost, Energy, Health, Stress relief, Better sleep (any 3)'},
+            {topic: 'Self-Care', emoji: '🧘‍♀️⏰', question: 'Name three me-time ideas', answer: 'Hobbies, Exercise, Read, Friends, Spa, Walk (any 3)'},
+            {topic: 'Wellness', emoji: '💪🧠', question: 'Name three signs of parental burnout', answer: 'Exhaustion, Detachment, Ineffectiveness, Irritability (any 3)'},
+            {topic: 'Self-Care', emoji: '🧘‍♀️❤️', question: 'Name three self-compassion practices', answer: 'Self-kindness, Common humanity, Mindfulness, Positive self-talk (any 3)'},
+            {topic: 'Wellness', emoji: '💪🌈', question: 'Name three work-life balance strategies', answer: 'Boundaries, Prioritize, Delegate, Say no, Schedule time (any 3)'}
+        ]
+    },
+    16: { // Chapter 16: Potty Training & Milestones
+        easy: [
+            {topic: 'Potty Training', emoji: '🚽👶', question: 'Potty training requires readiness.', options: ['True', 'False'], correct: 0},
+            {topic: 'Milestones', emoji: '🎯📏', question: 'Children reach milestones at different ages.', options: ['True', 'False'], correct: 0},
+            {topic: 'Potty Training', emoji: '🚽✅', question: 'Patience is key in potty training.', options: ['True', 'False'], correct: 0},
+            {topic: 'Milestones', emoji: '🎯👶', question: 'Tracking milestones helps development.', options: ['True', 'False'], correct: 0},
+            {topic: 'Potty Training', emoji: '🚽🎉', question: 'Praise encourages potty success.', options: ['True', 'False'], correct: 0},
+            {topic: 'Milestones', emoji: '🎯🗣️', question: 'Language develops gradually.', options: ['True', 'False'], correct: 0},
+            {topic: 'Potty Training', emoji: '🚽💧', question: 'Accidents are normal.', options: ['True', 'False'], correct: 0},
+            {topic: 'Milestones', emoji: '🎯🚶', question: 'Walking is a major milestone.', options: ['True', 'False'], correct: 0},
+            {topic: 'Potty Training', emoji: '🚽📚', question: 'Books help potty training.', options: ['True', 'False'], correct: 0},
+            {topic: 'Milestones', emoji: '🎯🍴', question: 'Self-feeding is a milestone.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Potty Training', emoji: '🚽👶', question: 'At what age is potty training readiness typical?', options: ['18-24 months', '6 months'], correct: 0},
+            {topic: 'Milestones', emoji: '🎯📏', question: 'What are developmental milestones?', options: ['Skills most children achieve by certain age', 'Random skills'], correct: 0},
+            {topic: 'Potty Training', emoji: '🚽✅', question: 'What are readiness signs?', options: ['Stays dry, interest, communication', 'Only age'], correct: 0},
+            {topic: 'Milestones', emoji: '🎯👶', question: 'What is red flag for development?', options: ['Missing multiple milestones', 'One variation'], correct: 0},
+            {topic: 'Potty Training', emoji: '🚽🎉', question: 'What is positive reinforcement?', options: ['Praise and rewards', 'Punishment'], correct: 0},
+            {topic: 'Milestones', emoji: '🎯🗣️', question: 'When should children combine words?', options: ['18-24 months', '6 months'], correct: 0},
+            {topic: 'Potty Training', emoji: '🚽💧', question: 'How to handle accidents?', options: ['Stay calm, no punishment', 'Get angry'], correct: 0},
+            {topic: 'Milestones', emoji: '🎯🚶', question: 'What age for independent walking?', options: ['12-15 months', '3 months'], correct: 0},
+            {topic: 'Potty Training', emoji: '🚽📚', question: 'What is the 3-day method?', options: ['Intensive training approach', 'Three years'], correct: 0},
+            {topic: 'Milestones', emoji: '🎯🍴', question: 'When can children use utensils?', options: ['15-18 months', '5 years'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Potty Training', emoji: '🚽👶', question: 'What is child-oriented approach?', options: ['Follow child\'s cues', 'Force training'], correct: 0},
+            {topic: 'Milestones', emoji: '🎯📏', question: 'What is developmental surveillance?', options: ['Ongoing monitoring of development', 'One-time check'], correct: 0},
+            {topic: 'Potty Training', emoji: '🚽✅', question: 'What is elimination communication?', options: ['Diaper-free from infancy', 'Traditional training'], correct: 0},
+            {topic: 'Milestones', emoji: '🎯👶', question: 'What is developmental screening?', options: ['Standardized assessment tool', 'Informal check'], correct: 0},
+            {topic: 'Potty Training', emoji: '🚽🎉', question: 'What is regression?', options: ['Going backwards in training', 'Steady progress'], correct: 0},
+            {topic: 'Milestones', emoji: '🎯🗣️', question: 'What is expressive vs receptive language?', options: ['Speaking vs understanding', 'Same thing'], correct: 0},
+            {topic: 'Potty Training', emoji: '🚽💧', question: 'What is enuresis?', options: ['Bedwetting beyond age 5', 'Normal wetting'], correct: 0},
+            {topic: 'Milestones', emoji: '🎯🚶', question: 'What are gross vs fine motor skills?', options: ['Large vs small muscle movements', 'Same thing'], correct: 0},
+            {topic: 'Potty Training', emoji: '🚽📚', question: 'What is scheduled toileting?', options: ['Regular potty times', 'Random times'], correct: 0},
+            {topic: 'Milestones', emoji: '🎯🍴', question: 'What is pincer grasp?', options: ['Thumb and finger grasp', 'Whole hand'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Potty Training', emoji: '🚽👶', question: 'What is average potty training completion age?', options: ['2.5-3 years', '1 year', '5 years'], correct: 0},
+            {topic: 'Milestones', emoji: '🎯📏', question: 'What percentage of children walk by 15 months?', options: ['~90%', '10%', '100%'], correct: 0},
+            {topic: 'Potty Training', emoji: '🚽✅', question: 'What percentage achieve daytime dryness by age 3?', options: ['~85%', '10%', '100%'], correct: 0},
+            {topic: 'Milestones', emoji: '🎯👶', question: 'When should screening occur?', options: ['9, 18, 24, 30 months', 'Never', 'Once'], correct: 0},
+            {topic: 'Potty Training', emoji: '🚽🎉', question: 'How many accidents are normal during training?', options: ['Several daily in early stages', 'None', 'Constant'], correct: 0},
+            {topic: 'Milestones', emoji: '🎯🗣️', question: 'How many words at 18 months?', options: ['~10-20 words', '500 words', '1 word'], correct: 0},
+            {topic: 'Potty Training', emoji: '🚽💧', question: 'What is typical nighttime dryness age?', options: ['4-5 years', '1 year', '10 years'], correct: 0},
+            {topic: 'Milestones', emoji: '🎯🚶', question: 'What is typical crawling age range?', options: ['6-10 months', '1 year', '2 years'], correct: 0},
+            {topic: 'Potty Training', emoji: '🚽📚', question: 'How long does potty training typically take?', options: ['3-6 months', '1 week', '5 years'], correct: 0},
+            {topic: 'Milestones', emoji: '🎯🍴', question: 'When can children drink from cup?', options: ['12-15 months', '3 years', '5 years'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Potty Training', emoji: '🚽👶', question: 'List three signs of potty training readiness', answer: 'Stays dry 2hrs, Shows interest, Can communicate, Follows directions (any 3)'},
+            {topic: 'Milestones', emoji: '🎯📏', question: 'Name the four developmental domains', answer: 'Physical, Cognitive, Social, Emotional'},
+            {topic: 'Potty Training', emoji: '🚽✅', question: 'Name three potty training methods', answer: 'Child-oriented, 3-day, Elimination communication, Scheduled (any 3)'},
+            {topic: 'Milestones', emoji: '🎯👶', question: 'Name three first-year milestones', answer: 'Rolling, Sitting, Crawling, Standing, First words (any 3)'},
+            {topic: 'Potty Training', emoji: '🚽🎉', question: 'Name three rewards for potty success', answer: 'Praise, Stickers, Small treats, Special privileges (any 3)'},
+            {topic: 'Milestones', emoji: '🎯🗣️', question: 'Name three language milestones', answer: 'Cooing, Babbling, First words, Two-word phrases, Sentences (any 3)'},
+            {topic: 'Potty Training', emoji: '🚽💧', question: 'Name three accident prevention strategies', answer: 'Regular schedule, Watch for cues, Easy clothing, Accessible potty (any 3)'},
+            {topic: 'Milestones', emoji: '🎯🚶', question: 'Name three motor milestones', answer: 'Rolling, Crawling, Walking, Running, Jumping (any 3)'},
+            {topic: 'Potty Training', emoji: '🚽📚', question: 'Name three potty training supplies', answer: 'Potty chair, Training pants, Books, Stickers, Wipes (any 3)'},
+            {topic: 'Milestones', emoji: '🎯🍴', question: 'Name three self-help milestones', answer: 'Self-feeding, Drinking from cup, Dressing, Potty training (any 3)'}
+        ]
+    }
+,
+    17: { // Chapter 17: Money & Allowance
+        easy: [
+            {topic: 'Money', emoji: '💰👶', question: 'Children can learn about money.', options: ['True', 'False'], correct: 0},
+            {topic: 'Allowance', emoji: '💵📅', question: 'Allowance teaches financial skills.', options: ['True', 'False'], correct: 0},
+            {topic: 'Money', emoji: '💰🏦', question: 'Saving is an important skill.', options: ['True', 'False'], correct: 0},
+            {topic: 'Allowance', emoji: '💵🎯', question: 'Children can make spending choices.', options: ['True', 'False'], correct: 0},
+            {topic: 'Money', emoji: '💰🛍️', question: 'Money has limits.', options: ['True', 'False'], correct: 0},
+            {topic: 'Allowance', emoji: '💵🏠', question: 'Chores can tie to allowance.', options: ['True', 'False'], correct: 0},
+            {topic: 'Money', emoji: '💰📊', question: 'Budgeting is a life skill.', options: ['True', 'False'], correct: 0},
+            {topic: 'Allowance', emoji: '💵💡', question: 'Mistakes teach money lessons.', options: ['True', 'False'], correct: 0},
+            {topic: 'Money', emoji: '💰🎁', question: 'Giving teaches generosity.', options: ['True', 'False'], correct: 0},
+            {topic: 'Allowance', emoji: '💵⏰', question: 'Age affects allowance amount.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Money', emoji: '💰👶', question: 'What age to start teaching about money?', options: ['3-4 years', '18 years'], correct: 0},
+            {topic: 'Allowance', emoji: '💵📅', question: 'What is allowance?', options: ['Regular money given to child', 'One-time payment'], correct: 0},
+            {topic: 'Money', emoji: '💰🏦', question: 'What are the three jars?', options: ['Save, Spend, Give', 'Only spend'], correct: 0},
+            {topic: 'Allowance', emoji: '💵🎯', question: 'What is earned allowance?', options: ['Money for completing tasks', 'Free money'], correct: 0},
+            {topic: 'Money', emoji: '💰🛍️', question: 'What is opportunity cost?', options: ['What you give up for choice', 'No cost'], correct: 0},
+            {topic: 'Allowance', emoji: '💵🏠', question: 'Should chores be paid?', options: ['Debatable, varies by family', 'Always'], correct: 0},
+            {topic: 'Money', emoji: '💰📊', question: 'What is a budget?', options: ['Plan for spending and saving', 'Unlimited spending'], correct: 0},
+            {topic: 'Allowance', emoji: '💵💡', question: 'What if child wastes allowance?', options: ['Let them experience consequence', 'Always rescue'], correct: 0},
+            {topic: 'Money', emoji: '💰🎁', question: 'What is charitable giving?', options: ['Donating to help others', 'Keeping all'], correct: 0},
+            {topic: 'Allowance', emoji: '💵⏰', question: 'How much allowance is appropriate?', options: ['$1-2 per year of age weekly', '$100 weekly'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Money', emoji: '💰👶', question: 'What is delayed gratification?', options: ['Waiting for better reward', 'Immediate satisfaction', 'No waiting'], correct: 0},
+            {topic: 'Allowance', emoji: '💵📅', question: 'What is commission vs allowance?', options: ['Earned vs given', 'Same thing', 'No difference'], correct: 0},
+            {topic: 'Money', emoji: '💰🏦', question: 'What is compound interest?', options: ['Interest on interest', 'Simple interest', 'No interest'], correct: 0},
+            {topic: 'Allowance', emoji: '💵🎯', question: 'What is the save-spend-give ratio?', options: ['10-10-80 or similar', 'All spend', 'Random'], correct: 0},
+            {topic: 'Money', emoji: '💰🛍️', question: 'What is impulse buying?', options: ['Unplanned purchases', 'Planned shopping', 'Saving'], correct: 0},
+            {topic: 'Allowance', emoji: '💵🏠', question: 'What are family contributions?', options: ['Unpaid chores for household', 'All paid', 'No chores'], correct: 0},
+            {topic: 'Money', emoji: '💰📊', question: 'What is needs vs wants?', options: ['Essential vs desirable', 'Same thing', 'No difference'], correct: 0},
+            {topic: 'Allowance', emoji: '💵💡', question: 'What is financial independence?', options: ['Managing own money responsibly', 'Total dependence', 'No management'], correct: 0},
+            {topic: 'Money', emoji: '💰🎁', question: 'What is the giving percentage?', options: ['10% often recommended', '100%', '0%'], correct: 0},
+            {topic: 'Allowance', emoji: '💵⏰', question: 'What is age-appropriate financial responsibility?', options: ['Increasing with age and maturity', 'Same at all ages', 'No responsibility'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Money', emoji: '💰👶', question: 'At what age do children understand money?', options: ['~3-4 years basic concept', '18 years', '1 month', '15 years'], correct: 0},
+            {topic: 'Allowance', emoji: '💵📅', question: 'What percentage of families give allowance?', options: ['~60%', '100%', '0%', '10%'], correct: 0},
+            {topic: 'Money', emoji: '💰🏦', question: 'What is the average teen savings?', options: ['~$500-1000', '$10,000', '$0', '$100'], correct: 0},
+            {topic: 'Allowance', emoji: '💵🎯', question: 'What is typical weekly allowance for 10-year-old?', options: ['$10-15', '$100', '$1', '$1000'], correct: 0},
+            {topic: 'Money', emoji: '💰🛍️', question: 'What percentage of teens overspend?', options: ['~30-40%', '0%', '100%', '5%'], correct: 0},
+            {topic: 'Allowance', emoji: '💵🏠', question: 'What is the debate on payment for chores?', options: ['Teaches work vs family duty', 'No debate', 'Always pay', 'Never pay'], correct: 0},
+            {topic: 'Money', emoji: '💰📊', question: 'What percentage of adults lack financial literacy?', options: ['~60%', '0%', '100%', '10%'], correct: 0},
+            {topic: 'Allowance', emoji: '💵💡', question: 'What does the marshmallow test measure?', options: ['Delayed gratification study', 'Food test', 'No test', 'Speed test'], correct: 0},
+            {topic: 'Money', emoji: '💰🎁', question: 'What percentage of allowance should go to giving?', options: ['10% commonly suggested', '100%', '0%', '90%'], correct: 0},
+            {topic: 'Allowance', emoji: '💵⏰', question: 'When should teens have debit cards?', options: ['13-15 with supervision', 'Age 5', 'Never', 'Age 2'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Money', emoji: '💰👶', question: 'Name three money concepts for young children', answer: 'Coins have value, Money buys things, Saving vs spending (any 3)'},
+            {topic: 'Allowance', emoji: '💵📅', question: 'Name three allowance approaches', answer: 'Commission, Unconditional, Hybrid, No allowance (any 3)'},
+            {topic: 'Money', emoji: '💰🏦', question: 'Name the three jars method', answer: 'Save, Spend, Give'},
+            {topic: 'Allowance', emoji: '💵🎯', question: 'Name three ways to earn extra money', answer: 'Extra chores, Entrepreneurship, Odd jobs, Selling items (any 3)'},
+            {topic: 'Money', emoji: '💰🛍️', question: 'Name three smart spending habits', answer: 'Compare prices, Wait before buying, Use lists, Avoid impulse (any 3)'},
+            {topic: 'Allowance', emoji: '💵🏠', question: 'Name three unpaid family contributions', answer: 'Clean room, Set table, Pet care, Help siblings (any 3)'},
+            {topic: 'Money', emoji: '💰📊', question: 'Name three budgeting categories', answer: 'Save, Spend, Give, Needs, Wants (any 3)'},
+            {topic: 'Allowance', emoji: '💵💡', question: 'Name three financial mistakes to allow', answer: 'Impulse buys, Running out, Poor choices, Buyer\'s remorse (any 3)'},
+            {topic: 'Money', emoji: '💰🎁', question: 'Name three ways children can give', answer: 'Donate money, Volunteer time, Share toys, Help others (any 3)'},
+            {topic: 'Allowance', emoji: '💵⏰', question: 'Name three age-appropriate money tasks', answer: 'Preschool: identify coins, Elementary: count change, Teens: budget (any 3)'}
+        ]
+    },
+    18: { // Chapter 18: Divorce & Co-Parenting
+        easy: [
+            {topic: 'Divorce', emoji: '💔👨‍👩‍👧', question: 'Divorce affects children.', options: ['True', 'False'], correct: 0},
+            {topic: 'Co-Parenting', emoji: '👨‍👧👩‍👧', question: 'Two homes can work.', options: ['True', 'False'], correct: 0},
+            {topic: 'Divorce', emoji: '💔😢', question: 'Children need reassurance.', options: ['True', 'False'], correct: 0},
+            {topic: 'Co-Parenting', emoji: '👨‍👧💬👩‍👧', question: 'Communication helps co-parenting.', options: ['True', 'False'], correct: 0},
+            {topic: 'Divorce', emoji: '💔🙅', question: 'Divorce is not child\'s fault.', options: ['True', 'False'], correct: 0},
+            {topic: 'Co-Parenting', emoji: '👨‍👧⚖️👩‍👧', question: 'Consistency across homes helps.', options: ['True', 'False'], correct: 0},
+            {topic: 'Divorce', emoji: '💔❤️', question: 'Parents still love children.', options: ['True', 'False'], correct: 0},
+            {topic: 'Co-Parenting', emoji: '👨‍👧🤝👩‍👧', question: 'Respect between parents matters.', options: ['True', 'False'], correct: 0},
+            {topic: 'Divorce', emoji: '💔⏰', question: 'Adjustment takes time.', options: ['True', 'False'], correct: 0},
+            {topic: 'Co-Parenting', emoji: '👨‍👧📅👩‍👧', question: 'Schedules provide stability.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Divorce', emoji: '💔👨‍👩‍👧', question: 'What percentage of marriages end in divorce?', options: ['~40-50%', '5%'], correct: 0},
+            {topic: 'Co-Parenting', emoji: '👨‍👧👩‍👧', question: 'What is co-parenting?', options: ['Sharing parenting responsibilities', 'Solo parenting'], correct: 0},
+            {topic: 'Divorce', emoji: '💔😢', question: 'What emotions do children feel?', options: ['Sadness, anger, confusion, relief', 'Only happy'], correct: 0},
+            {topic: 'Co-Parenting', emoji: '👨‍👧💬👩‍👧', question: 'What is parallel parenting?', options: ['Minimal interaction between parents', 'Constant communication'], correct: 0},
+            {topic: 'Divorce', emoji: '💔🙅', question: 'What do children need to hear?', options: ['It\'s not your fault, we still love you', 'It\'s your fault'], correct: 0},
+            {topic: 'Co-Parenting', emoji: '👨‍👧⚖️👩‍👧', question: 'What is a parenting plan?', options: ['Agreement on custody and decisions', 'No plan'], correct: 0},
+            {topic: 'Divorce', emoji: '💔❤️', question: 'What is age-appropriate explanation?', options: ['Simple, honest, age-suitable', 'All details'], correct: 0},
+            {topic: 'Co-Parenting', emoji: '👨‍👧🤝👩‍👧', question: 'What is putting children first?', options: ['Prioritizing child\'s needs', 'Own needs first'], correct: 0},
+            {topic: 'Divorce', emoji: '💔⏰', question: 'What is adjustment period?', options: ['Time to adapt to changes', 'Immediate acceptance'], correct: 0},
+            {topic: 'Co-Parenting', emoji: '👨‍👧📅👩‍👧', question: 'What is custody schedule?', options: ['Time division between parents', 'Random visits'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Divorce', emoji: '💔👨‍👩‍👧', question: 'What is high-conflict divorce?', options: ['Ongoing disputes affecting children', 'Amicable split', 'No conflict'], correct: 0},
+            {topic: 'Co-Parenting', emoji: '👨‍👧👩‍👧', question: 'What is parallel vs cooperative parenting?', options: ['Low vs high communication', 'Same thing', 'No difference'], correct: 0},
+            {topic: 'Divorce', emoji: '💔😢', question: 'What is parental alienation?', options: ['One parent turns child against other', 'Healthy relationship', 'No alienation'], correct: 0},
+            {topic: 'Co-Parenting', emoji: '👨‍👧💬👩‍👧', question: 'What is a parenting communication app?', options: ['Documented parent messaging', 'No documentation'], correct: 0},
+            {topic: 'Divorce', emoji: '💔🙅', question: 'What is parentification?', options: ['Child takes adult role', 'Appropriate roles', 'No change'], correct: 0},
+            {topic: 'Co-Parenting', emoji: '👨‍👧⚖️👩‍👧', question: 'What is joint vs sole custody?', options: ['Shared vs one parent decision-making', 'Same thing', 'No custody'], correct: 0},
+            {topic: 'Divorce', emoji: '💔❤️', question: 'What is the sleeper effect?', options: ['Delayed impact appearing later', 'Immediate only', 'No effect'], correct: 0},
+            {topic: 'Co-Parenting', emoji: '👨‍👧🤝👩‍👧', question: 'What is the business relationship model?', options: ['Professional co-parent interaction', 'Personal relationship', 'No model'], correct: 0},
+            {topic: 'Divorce', emoji: '💔⏰', question: 'How long does adjustment typically take?', options: ['1-2 years', '1 week', '10 years'], correct: 0},
+            {topic: 'Co-Parenting', emoji: '👨‍👧📅👩‍👧', question: 'What is a 2-2-3 schedule?', options: ['2 days each, 3 days alternating', 'Random', 'No schedule'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Divorce', emoji: '💔👨‍👩‍👧', question: 'What percentage of children experience parental divorce?', options: ['~40%', '5%', '100%', '0%'], correct: 0},
+            {topic: 'Co-Parenting', emoji: '👨‍👧👩‍👧', question: 'What is the ideal parenting communication?', options: ['Respectful, child-focused, business-like', 'Hostile', 'None', 'Personal'], correct: 0},
+            {topic: 'Divorce', emoji: '💔😢', question: 'What is the biggest predictor of child adjustment?', options: ['Parental conflict level', 'Custody arrangement', 'Money', 'No predictor'], correct: 0},
+            {topic: 'Co-Parenting', emoji: '👨‍👧💬👩‍👧', question: 'What percentage of divorced parents co-parent effectively?', options: ['~25-30%', '100%', '0%', '90%'], correct: 0},
+            {topic: 'Divorce', emoji: '💔🙅', question: 'What percentage of children blame themselves?', options: ['~30-40%', '0%', '100%', '5%'], correct: 0},
+            {topic: 'Co-Parenting', emoji: '👨‍👧⚖️👩‍👧', question: 'What is shared physical custody outcome?', options: ['Better child adjustment', 'Worse outcomes', 'No difference', 'Harmful'], correct: 0},
+            {topic: 'Divorce', emoji: '💔❤️', question: 'When should children be told about divorce?', options: ['Together by both parents, once decided', 'Never', 'By one parent', 'Last minute'], correct: 0},
+            {topic: 'Co-Parenting', emoji: '👨‍👧🤝👩‍👧', question: 'What is the impact of parental conflict?', options: ['More harmful than divorce itself', 'No impact', 'Always helpful', 'Random'], correct: 0},
+            {topic: 'Divorce', emoji: '💔⏰', question: 'What is the crisis period?', options: ['First 6-12 months', 'First week', 'First 10 years', 'Never'], correct: 0},
+            {topic: 'Co-Parenting', emoji: '👨‍👧📅👩‍👧', question: 'What percentage prefer consistent schedules?', options: ['~85% of children', '10%', '0%', '100%'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Divorce', emoji: '💔👨‍👩‍👧', question: 'Name three common child reactions', answer: 'Sadness, Anger, Anxiety, Guilt, Relief (any 3)'},
+            {topic: 'Co-Parenting', emoji: '👨‍👧👩‍👧', question: 'Name three co-parenting approaches', answer: 'Cooperative, Parallel, Conflicted (any 3)'},
+            {topic: 'Divorce', emoji: '💔😢', question: 'Name three ways to support children', answer: 'Reassure love, Maintain routines, Listen, Therapy, Books (any 3)'},
+            {topic: 'Co-Parenting', emoji: '👨‍👧💬👩‍👧', question: 'Name three communication tools', answer: 'Email, App, Notebook, Scheduled calls, Mediator (any 3)'},
+            {topic: 'Divorce', emoji: '💔🙅', question: 'Name three things never to do', answer: 'Badmouth other parent, Use child as messenger, Put child in middle (any 3)'},
+            {topic: 'Co-Parenting', emoji: '👨‍👧⚖️👩‍👧', question: 'Name three custody arrangements', answer: 'Joint, Sole, Shared physical, Bird\'s nest (any 3)'},
+            {topic: 'Divorce', emoji: '💔❤️', question: 'Name three essential messages for children', answer: 'Not your fault, We both love you, We\'ll be okay (any 3)'},
+            {topic: 'Co-Parenting', emoji: '👨‍👧🤝👩‍👧', question: 'Name three co-parenting rules', answer: 'Respect, Child-focused, No badmouthing, Consistency (any 3)'},
+            {topic: 'Divorce', emoji: '💔⏰', question: 'Name three adjustment phases', answer: 'Crisis, Adjustment, Recovery, New normal (any 3)'},
+            {topic: 'Co-Parenting', emoji: '👨‍👧📅👩‍👧', question: 'Name three schedule types', answer: '2-2-3, Week on/off, Alternating weekends, Bird\'s nest (any 3)'}
+        ]
+    },
+    19: { // Chapter 19: Bullying & Peer Pressure
+        easy: [
+            {topic: 'Bullying', emoji: '😢👊', question: 'Bullying hurts children.', options: ['True', 'False'], correct: 0},
+            {topic: 'Peer Pressure', emoji: '👥⚠️', question: 'Peer pressure affects decisions.', options: ['True', 'False'], correct: 0},
+            {topic: 'Bullying', emoji: '😢🚫', question: 'Bullying is wrong.', options: ['True', 'False'], correct: 0},
+            {topic: 'Peer Pressure', emoji: '👥💪', question: 'Children can resist pressure.', options: ['True', 'False'], correct: 0},
+            {topic: 'Bullying', emoji: '😢🗣️', question: 'Reporting bullying is important.', options: ['True', 'False'], correct: 0},
+            {topic: 'Peer Pressure', emoji: '👥🤔', question: 'Not all peer influence is bad.', options: ['True', 'False'], correct: 0},
+            {topic: 'Bullying', emoji: '😢❤️', question: 'Victims need support.', options: ['True', 'False'], correct: 0},
+            {topic: 'Peer Pressure', emoji: '👥🛑', question: 'Saying no is okay.', options: ['True', 'False'], correct: 0},
+            {topic: 'Bullying', emoji: '😢👀', question: 'Bystanders can help.', options: ['True', 'False'], correct: 0},
+            {topic: 'Peer Pressure', emoji: '👥👍', question: 'Good friends respect choices.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Bullying', emoji: '😢👊', question: 'What is bullying?', options: ['Repeated harmful behavior', 'One-time conflict'], correct: 0},
+            {topic: 'Peer Pressure', emoji: '👥⚠️', question: 'How is peer pressure defined?', options: ['Influence from peers to conform', 'No influence'], correct: 0},
+            {topic: 'Bullying', emoji: '😢🚫', question: 'What are types of bullying?', options: ['Physical, verbal, social, cyber', 'Physical only'], correct: 0},
+            {topic: 'Peer Pressure', emoji: '👥💪', question: 'What builds resistance to pressure?', options: ['Confidence, values, skills', 'Nothing'], correct: 0},
+            {topic: 'Bullying', emoji: '😢🗣️', question: 'What is the difference between tattling and reporting?', options: ['Reporting is for safety', 'Same thing'], correct: 0},
+            {topic: 'Peer Pressure', emoji: '👥🤔', question: 'What is positive peer pressure?', options: ['Encouragement toward good choices', 'Always negative'], correct: 0},
+            {topic: 'Bullying', emoji: '😢❤️', question: 'What do bullying victims need?', options: ['Belief, support, safety', 'Blame'], correct: 0},
+            {topic: 'Peer Pressure', emoji: '👥🛑', question: 'What is an exit strategy?', options: ['Way to leave uncomfortable situation', 'No strategy'], correct: 0},
+            {topic: 'Bullying', emoji: '😢👀', question: 'What is a bystander?', options: ['Witness to bullying', 'Bully'], correct: 0},
+            {topic: 'Peer Pressure', emoji: '👥👍', question: 'What are healthy friendships?', options: ['Mutual respect and support', 'One-sided'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Bullying', emoji: '😢👊', question: 'What is the bullying triangle?', options: ['Bully, victim, bystander', 'Two people', 'No triangle'], correct: 0},
+            {topic: 'Peer Pressure', emoji: '👥⚠️', question: 'What is the imaginary audience phenomenon?', options: ['Teens feel constantly watched', 'No audience', 'Real watchers'], correct: 0},
+            {topic: 'Bullying', emoji: '😢🚫', question: 'How is cyberbullying defined?', options: ['Online harassment', 'In-person only', 'No bullying'], correct: 0},
+            {topic: 'Peer Pressure', emoji: '👥💪', question: 'What is assertiveness?', options: ['Express needs respectfully', 'Aggression', 'Passivity'], correct: 0},
+            {topic: 'Bullying', emoji: '😢🗣️', question: 'What is an upstander?', options: ['Someone who intervenes', 'Bystander', 'Bully'], correct: 0},
+            {topic: 'Peer Pressure', emoji: '👥🤔', question: 'What is social capital?', options: ['Resources from relationships', 'Money', 'No capital'], correct: 0},
+            {topic: 'Bullying', emoji: '😢❤️', question: 'What is trauma-informed response?', options: ['Understand impact of bullying', 'Blame victim', 'Ignore'], correct: 0},
+            {topic: 'Peer Pressure', emoji: '👥🛑', question: 'What is the broken record technique?', options: ['Repeat refusal calmly', 'Give in', 'Yell'], correct: 0},
+            {topic: 'Bullying', emoji: '😢👀', question: 'What is the bystander effect?', options: ['Less likely to help in group', 'Always help', 'No effect'], correct: 0},
+            {topic: 'Peer Pressure', emoji: '👥👍', question: 'What is relational aggression?', options: ['Harm relationships to hurt', 'Physical aggression', 'No aggression'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Bullying', emoji: '😢👊', question: 'What percentage of students experience bullying?', options: ['~20-25%', '0%', '100%', '5%'], correct: 0},
+            {topic: 'Peer Pressure', emoji: '👥⚠️', question: 'At what age is peer pressure strongest?', options: ['12-14 years', '5 years', '25 years', '1 year'], correct: 0},
+            {topic: 'Bullying', emoji: '😢🚫', question: 'What percentage of bullying is cyberbullying?', options: ['~15-20%', '90%', '0%', '100%'], correct: 0},
+            {topic: 'Peer Pressure', emoji: '👥💪', question: 'What is the resistance success rate with skills?', options: ['~60-70% higher', '0%', '100%', '10%'], correct: 0},
+            {topic: 'Bullying', emoji: '😢🗣️', question: 'What percentage of bullying is reported?', options: ['~20-30%', '100%', '0%', '90%'], correct: 0},
+            {topic: 'Peer Pressure', emoji: '👥🤔', question: 'What percentage of peer influence is positive?', options: ['Can be ~40-60%', '0%', '100%', '5%'], correct: 0},
+            {topic: 'Bullying', emoji: '😢❤️', question: 'What is suicide risk increase from bullying?', options: ['2-9 times higher', 'No increase', 'Lower', 'Same'], correct: 0},
+            {topic: 'Peer Pressure', emoji: '👥🛑', question: 'What percentage of teens face pressure to drink?', options: ['~40-50%', '0%', '100%', '5%'], correct: 0},
+            {topic: 'Bullying', emoji: '😢👀', question: 'What percentage of bystanders do nothing?', options: ['~80%', '0%', '100%', '10%'], correct: 0},
+            {topic: 'Peer Pressure', emoji: '👥👍', question: 'What is the impact of one close friend?', options: ['Significant protection', 'No impact', 'Negative', 'Random'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Bullying', emoji: '😢👊', question: 'Name the four types of bullying', answer: 'Physical, Verbal, Social, Cyber'},
+            {topic: 'Peer Pressure', emoji: '👥⚠️', question: 'Name three sources of peer pressure', answer: 'Friends, Media, Social norms, Desire to fit in (any 3)'},
+            {topic: 'Bullying', emoji: '😢🚫', question: 'Name three signs of being bullied', answer: 'Withdrawn, Injuries, Lost items, School avoidance, Mood changes (any 3)'},
+            {topic: 'Peer Pressure', emoji: '👥💪', question: 'Name three resistance strategies', answer: 'Say no firmly, Suggest alternatives, Walk away, Blame parents (any 3)'},
+            {topic: 'Bullying', emoji: '😢🗣️', question: 'Name three ways to report bullying', answer: 'Tell parent, Teacher, Counselor, Anonymous tip, App (any 3)'},
+            {topic: 'Peer Pressure', emoji: '👥🤔', question: 'Name three positive peer influences', answer: 'Academic effort, Sports, Volunteering, Healthy habits (any 3)'},
+            {topic: 'Bullying', emoji: '😢❤️', question: 'Name three ways to support victim', answer: 'Believe them, Listen, Report, Document, Therapy (any 3)'},
+            {topic: 'Peer Pressure', emoji: '👥🛑', question: 'Name three refusal skills', answer: 'Say no, Give reason, Suggest alternative, Leave, Broken record (any 3)'},
+            {topic: 'Bullying', emoji: '😢👀', question: 'Name three upstander actions', answer: 'Intervene safely, Support victim, Report, Refuse to join, Tell adult (any 3)'},
+            {topic: 'Peer Pressure', emoji: '👥👍', question: 'Name three friendship qualities', answer: 'Respect, Trust, Support, Honesty, Acceptance (any 3)'}
+        ]
+    },
+    20: { // Chapter 20: Values & Character Building
+        easy: [
+            {topic: 'Values', emoji: '⭐💎', question: 'Values guide behavior.', options: ['True', 'False'], correct: 0},
+            {topic: 'Character', emoji: '🌟💪', question: 'Character can be taught.', options: ['True', 'False'], correct: 0},
+            {topic: 'Values', emoji: '⭐❤️', question: 'Kindness is a value.', options: ['True', 'False'], correct: 0},
+            {topic: 'Character', emoji: '🌟🙏', question: 'Honesty builds character.', options: ['True', 'False'], correct: 0},
+            {topic: 'Values', emoji: '⭐🤝', question: 'Respect matters in families.', options: ['True', 'False'], correct: 0},
+            {topic: 'Character', emoji: '🌟💡', question: 'Responsibility is important.', options: ['True', 'False'], correct: 0},
+            {topic: 'Values', emoji: '⭐🌈', question: 'Parents model values.', options: ['True', 'False'], correct: 0},
+            {topic: 'Character', emoji: '🌟🎯', question: 'Perseverance leads to success.', options: ['True', 'False'], correct: 0},
+            {topic: 'Values', emoji: '⭐🙌', question: 'Gratitude is beneficial.', options: ['True', 'False'], correct: 0},
+            {topic: 'Character', emoji: '🌟⚖️', question: 'Fairness is a virtue.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Values', emoji: '⭐💎', question: 'What are values?', options: ['Beliefs guiding behavior', 'Random ideas'], correct: 0},
+            {topic: 'Character', emoji: '🌟💪', question: 'What is character education?', options: ['Teaching ethical values', 'Academic only'], correct: 0},
+            {topic: 'Values', emoji: '⭐❤️', question: 'How would you define empathy?', options: ['Understanding others\' feelings', 'No feeling'], correct: 0},
+            {topic: 'Character', emoji: '🌟🙏', question: 'What is integrity?', options: ['Doing right even when alone', 'Doing right when watched'], correct: 0},
+            {topic: 'Values', emoji: '⭐🤝', question: 'What is respect?', options: ['Valuing others and self', 'Disregard'], correct: 0},
+            {topic: 'Character', emoji: '🌟💡', question: 'What is accountability?', options: ['Taking responsibility for actions', 'Blaming others'], correct: 0},
+            {topic: 'Values', emoji: '⭐🌈', question: 'What does modeling values mean?', options: ['Demonstrating values through actions', 'Telling only'], correct: 0},
+            {topic: 'Character', emoji: '🌟🎯', question: 'What is grit?', options: ['Passion and perseverance', 'Giving up'], correct: 0},
+            {topic: 'Values', emoji: '⭐🙌', question: 'What is gratitude practice?', options: ['Regularly expressing thankfulness', 'Complaining'], correct: 0},
+            {topic: 'Character', emoji: '🌟⚖️', question: 'What is justice?', options: ['Fairness and moral rightness', 'Unfairness'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Values', emoji: '⭐💎', question: 'What is the values hierarchy?', options: ['Prioritized ranking of values', 'All equal', 'No hierarchy'], correct: 0},
+            {topic: 'Character', emoji: '🌟💪', question: 'What are the six pillars of character?', options: ['Trustworthiness, Respect, Responsibility, Fairness, Caring, Citizenship', 'Two pillars', 'No pillars'], correct: 0},
+            {topic: 'Values', emoji: '⭐❤️', question: 'What is moral development theory?', options: ['Stages of ethical reasoning (Kohlberg)', 'No theory', 'Random'], correct: 0},
+            {topic: 'Character', emoji: '🌟🙏', question: 'What is moral courage?', options: ['Standing up for values despite risk', 'Going along', 'No courage'], correct: 0},
+            {topic: 'Values', emoji: '⭐🤝', question: 'What is cultural relativism?', options: ['Values vary by culture', 'Universal only', 'No variation'], correct: 0},
+            {topic: 'Character', emoji: '🌟💡', question: 'What is intrinsic vs extrinsic motivation?', options: ['Internal values vs external rewards', 'Same thing', 'No difference'], correct: 0},
+            {topic: 'Values', emoji: '⭐🌈', question: 'What is the hidden curriculum?', options: ['Values taught through example', 'Formal lessons', 'No curriculum'], correct: 0},
+            {topic: 'Character', emoji: '🌟🎯', question: 'What does delayed gratification mean?', options: ['Resisting immediate reward for better', 'Immediate satisfaction', 'No delay'], correct: 0},
+            {topic: 'Values', emoji: '⭐🙌', question: 'What is the gratitude-happiness link?', options: ['Gratitude increases wellbeing', 'No connection', 'Decreases'], correct: 0},
+            {topic: 'Character', emoji: '🌟⚖️', question: 'What is moral reasoning?', options: ['Thinking through ethical issues', 'No thinking', 'Random'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Values', emoji: '⭐💎', question: 'At what age do children understand values?', options: ['~5-7 years', '18 years', '1 month', '20 years'], correct: 0},
+            {topic: 'Character', emoji: '🌟💪', question: 'What percentage of schools have character education?', options: ['~70%', '0%', '100%', '10%'], correct: 0},
+            {topic: 'Values', emoji: '⭐❤️', question: 'At what age does empathy fully develop?', options: ['Continues through adolescence', 'Age 5 complete', 'Birth', 'Never'], correct: 0},
+            {topic: 'Character', emoji: '🌟🙏', question: 'What is the honesty development timeline?', options: ['Increases with age and reasoning', 'Decreases', 'Static', 'Random'], correct: 0},
+            {topic: 'Values', emoji: '⭐🤝', question: 'What percentage of values come from parents?', options: ['~70-80% primary influence', '10%', '0%', '100%'], correct: 0},
+            {topic: 'Character', emoji: '🌟💡', question: 'What is the impact of responsibility on success?', options: ['Strong positive correlation', 'No correlation', 'Negative', 'Random'], correct: 0},
+            {topic: 'Values', emoji: '⭐🌈', question: 'What is the modeling effectiveness?', options: ['Actions more powerful than words', 'Words more powerful', 'Equal', 'No impact'], correct: 0},
+            {topic: 'Character', emoji: '🌟🎯', question: 'What did Angela Duckworth study?', options: ['Grit predicts success', 'IQ only', 'No research', 'Random'], correct: 0},
+            {topic: 'Values', emoji: '⭐🙌', question: 'What is the gratitude journal impact?', options: ['25% increase in happiness', 'No change', 'Decrease', '100% increase'], correct: 0},
+            {topic: 'Character', emoji: '🌟⚖️', question: 'What are Kohlberg\'s stages?', options: ['6 stages of moral development', '2 stages', 'No stages', '10 stages'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Values', emoji: '⭐💎', question: 'Name three core values to teach', answer: 'Honesty, Kindness, Respect, Responsibility, Courage (any 3)'},
+            {topic: 'Character', emoji: '🌟💪', question: 'Name the six pillars of character', answer: 'Trustworthiness, Respect, Responsibility, Fairness, Caring, Citizenship (any 3)'},
+            {topic: 'Values', emoji: '⭐❤️', question: 'List three methods to teach empathy', answer: 'Model it, Discuss feelings, Read stories, Volunteer (any 3)'},
+            {topic: 'Character', emoji: '🌟🙏', question: 'Name three honesty-building practices', answer: 'Model honesty, Praise truth-telling, Discuss why it matters (any 3)'},
+            {topic: 'Values', emoji: '⭐🤝', question: 'Name three respect behaviors', answer: 'Listen, Use manners, Value differences, Kind words (any 3)'},
+            {topic: 'Character', emoji: '🌟💡', question: 'Name three responsibility tasks by age', answer: 'Preschool: clean up, Elementary: homework, Teens: job (any 3)'},
+            {topic: 'Values', emoji: '⭐🌈', question: 'Name three values modeling opportunities', answer: 'Daily actions, Admit mistakes, Show kindness, Help others (any 3)'},
+            {topic: 'Character', emoji: '🌟🎯', question: 'Name three perseverance strategies', answer: 'Growth mindset, Break tasks down, Celebrate effort, Learn from failure (any 3)'},
+            {topic: 'Values', emoji: '⭐🙌', question: 'Name three gratitude practices', answer: 'Thank you notes, Gratitude journal, Share at dinner, Acts of kindness (any 3)'},
+            {topic: 'Character', emoji: '🌟⚖️', question: 'Name three ways to teach fairness', answer: 'Model it, Discuss scenarios, Turn-taking, Equal vs fair (any 3)'}
+        ]
+    }
+    // Add more chapters: 2, 3, 4... unlimited!
 };

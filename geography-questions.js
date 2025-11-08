@@ -755,4 +755,501 @@ const geographyQuestions = {
             {topic: 'Lakes', emoji: '🏞️💧', question: 'Name three lakes and water bodies items 10', answer: 'Item 1, Item 2, Item 3'}
         ]
     },
+        13: { // Chapter 13: Forests and Woodlands
+        easy: [
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Forests and Woodlands topic 1.', options: ['True', 'False'], correct: 0},
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Forests and Woodlands topic 2.', options: ['True', 'False'], correct: 0},
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Forests and Woodlands topic 3.', options: ['True', 'False'], correct: 0},
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Forests and Woodlands topic 4.', options: ['True', 'False'], correct: 0},
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Forests and Woodlands topic 5.', options: ['True', 'False'], correct: 0},
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Forests and Woodlands topic 6.', options: ['True', 'False'], correct: 0},
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Forests and Woodlands topic 7.', options: ['True', 'False'], correct: 0},
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Forests and Woodlands topic 8.', options: ['True', 'False'], correct: 0},
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Forests and Woodlands topic 9.', options: ['True', 'False'], correct: 0},
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Forests and Woodlands topic 10.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Forests and Woodlands question 1?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Forests and Woodlands question 2?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Forests and Woodlands question 3?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Forests and Woodlands question 4?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Forests and Woodlands question 5?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Forests and Woodlands question 6?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Forests and Woodlands question 7?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Forests and Woodlands question 8?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Forests and Woodlands question 9?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Forests and Woodlands question 10?', options: ['Option A', 'Option B'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Forests and Woodlands difficult question 1?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Forests and Woodlands difficult question 2?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Forests and Woodlands difficult question 3?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Forests and Woodlands difficult question 4?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Forests and Woodlands difficult question 5?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Forests and Woodlands difficult question 6?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Forests and Woodlands difficult question 7?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Forests and Woodlands difficult question 8?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Forests and Woodlands difficult question 9?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Forests and Woodlands difficult question 10?', options: ['A', 'B', 'C'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Forests and Woodlands expert question 1?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Forests and Woodlands expert question 2?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Forests and Woodlands expert question 3?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Forests and Woodlands expert question 4?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Forests and Woodlands expert question 5?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Forests and Woodlands expert question 6?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Forests and Woodlands expert question 7?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Forests and Woodlands expert question 8?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Forests and Woodlands expert question 9?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Forests and Woodlands expert question 10?', options: ['A', 'B', 'C', 'D'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Name three forests and woodlands items 1', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Name three forests and woodlands items 2', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Name three forests and woodlands items 3', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Name three forests and woodlands items 4', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Name three forests and woodlands items 5', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Name three forests and woodlands items 6', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Name three forests and woodlands items 7', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Name three forests and woodlands items 8', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Name three forests and woodlands items 9', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Forests', emoji: '🌲🌳', question: 'Name three forests and woodlands items 10', answer: 'Item 1, Item 2, Item 3'}
+        ]
+    },
+    14: { // Chapter 14: Agriculture and Farming
+        easy: [
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Agriculture and Farming topic 1.', options: ['True', 'False'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Agriculture and Farming topic 2.', options: ['True', 'False'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Agriculture and Farming topic 3.', options: ['True', 'False'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Agriculture and Farming topic 4.', options: ['True', 'False'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Agriculture and Farming topic 5.', options: ['True', 'False'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Agriculture and Farming topic 6.', options: ['True', 'False'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Agriculture and Farming topic 7.', options: ['True', 'False'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Agriculture and Farming topic 8.', options: ['True', 'False'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Agriculture and Farming topic 9.', options: ['True', 'False'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Agriculture and Farming topic 10.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Agriculture and Farming question 1?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Agriculture and Farming question 2?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Agriculture and Farming question 3?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Agriculture and Farming question 4?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Agriculture and Farming question 5?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Agriculture and Farming question 6?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Agriculture and Farming question 7?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Agriculture and Farming question 8?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Agriculture and Farming question 9?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Agriculture and Farming question 10?', options: ['Option A', 'Option B'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Agriculture and Farming difficult question 1?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Agriculture and Farming difficult question 2?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Agriculture and Farming difficult question 3?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Agriculture and Farming difficult question 4?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Agriculture and Farming difficult question 5?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Agriculture and Farming difficult question 6?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Agriculture and Farming difficult question 7?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Agriculture and Farming difficult question 8?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Agriculture and Farming difficult question 9?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Agriculture and Farming difficult question 10?', options: ['A', 'B', 'C'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Agriculture and Farming expert question 1?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Agriculture and Farming expert question 2?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Agriculture and Farming expert question 3?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Agriculture and Farming expert question 4?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Agriculture and Farming expert question 5?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Agriculture and Farming expert question 6?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Agriculture and Farming expert question 7?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Agriculture and Farming expert question 8?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Agriculture and Farming expert question 9?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Agriculture and Farming expert question 10?', options: ['A', 'B', 'C', 'D'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Name three agriculture and farming items 1', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Name three agriculture and farming items 2', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Name three agriculture and farming items 3', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Name three agriculture and farming items 4', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Name three agriculture and farming items 5', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Name three agriculture and farming items 6', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Name three agriculture and farming items 7', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Name three agriculture and farming items 8', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Name three agriculture and farming items 9', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Name three agriculture and farming items 10', answer: 'Item 1, Item 2, Item 3'}
+        ]
+    },
+    15: { // Chapter 15: Urban Geography
+        easy: [
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Urban Geography topic 1.', options: ['True', 'False'], correct: 0},
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Urban Geography topic 2.', options: ['True', 'False'], correct: 0},
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Urban Geography topic 3.', options: ['True', 'False'], correct: 0},
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Urban Geography topic 4.', options: ['True', 'False'], correct: 0},
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Urban Geography topic 5.', options: ['True', 'False'], correct: 0},
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Urban Geography topic 6.', options: ['True', 'False'], correct: 0},
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Urban Geography topic 7.', options: ['True', 'False'], correct: 0},
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Urban Geography topic 8.', options: ['True', 'False'], correct: 0},
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Urban Geography topic 9.', options: ['True', 'False'], correct: 0},
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Urban Geography topic 10.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Urban Geography question 1?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Urban Geography question 2?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Urban Geography question 3?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Urban Geography question 4?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Urban Geography question 5?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Urban Geography question 6?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Urban Geography question 7?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Urban Geography question 8?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Urban Geography question 9?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Urban Geography question 10?', options: ['Option A', 'Option B'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Urban Geography difficult question 1?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Urban Geography difficult question 2?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Urban Geography difficult question 3?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Urban Geography difficult question 4?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Urban Geography difficult question 5?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Urban Geography difficult question 6?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Urban Geography difficult question 7?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Urban Geography difficult question 8?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Urban Geography difficult question 9?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Urban Geography difficult question 10?', options: ['A', 'B', 'C'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Urban Geography expert question 1?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Urban Geography expert question 2?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Urban Geography expert question 3?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Urban Geography expert question 4?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Urban Geography expert question 5?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Urban Geography expert question 6?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Urban Geography expert question 7?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Urban Geography expert question 8?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Urban Geography expert question 9?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Urban Geography expert question 10?', options: ['A', 'B', 'C', 'D'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Name three urban geography items 1', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Name three urban geography items 2', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Name three urban geography items 3', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Name three urban geography items 4', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Name three urban geography items 5', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Name three urban geography items 6', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Name three urban geography items 7', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Name three urban geography items 8', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Name three urban geography items 9', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Urban', emoji: '🏙️🌆', question: 'Name three urban geography items 10', answer: 'Item 1, Item 2, Item 3'}
+        ]
+    },
+    16: { // Chapter 16: Coastal Geography
+        easy: [
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Coastal Geography topic 1.', options: ['True', 'False'], correct: 0},
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Coastal Geography topic 2.', options: ['True', 'False'], correct: 0},
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Coastal Geography topic 3.', options: ['True', 'False'], correct: 0},
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Coastal Geography topic 4.', options: ['True', 'False'], correct: 0},
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Coastal Geography topic 5.', options: ['True', 'False'], correct: 0},
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Coastal Geography topic 6.', options: ['True', 'False'], correct: 0},
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Coastal Geography topic 7.', options: ['True', 'False'], correct: 0},
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Coastal Geography topic 8.', options: ['True', 'False'], correct: 0},
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Coastal Geography topic 9.', options: ['True', 'False'], correct: 0},
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Coastal Geography topic 10.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Coastal Geography question 1?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Coastal Geography question 2?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Coastal Geography question 3?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Coastal Geography question 4?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Coastal Geography question 5?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Coastal Geography question 6?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Coastal Geography question 7?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Coastal Geography question 8?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Coastal Geography question 9?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Coastal Geography question 10?', options: ['Option A', 'Option B'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Coastal Geography difficult question 1?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Coastal Geography difficult question 2?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Coastal Geography difficult question 3?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Coastal Geography difficult question 4?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Coastal Geography difficult question 5?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Coastal Geography difficult question 6?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Coastal Geography difficult question 7?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Coastal Geography difficult question 8?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Coastal Geography difficult question 9?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Coastal Geography difficult question 10?', options: ['A', 'B', 'C'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Coastal Geography expert question 1?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Coastal Geography expert question 2?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Coastal Geography expert question 3?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Coastal Geography expert question 4?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Coastal Geography expert question 5?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Coastal Geography expert question 6?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Coastal Geography expert question 7?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Coastal Geography expert question 8?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Coastal Geography expert question 9?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Coastal Geography expert question 10?', options: ['A', 'B', 'C', 'D'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Name three coastal geography items 1', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Name three coastal geography items 2', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Name three coastal geography items 3', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Name three coastal geography items 4', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Name three coastal geography items 5', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Name three coastal geography items 6', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Name three coastal geography items 7', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Name three coastal geography items 8', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Name three coastal geography items 9', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Coastal', emoji: '🏖️🌊', question: 'Name three coastal geography items 10', answer: 'Item 1, Item 2, Item 3'}
+        ]
+    },
+    17: { // Chapter 17: Volcanoes and Geothermal
+        easy: [
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Volcanoes and Geothermal topic 1.', options: ['True', 'False'], correct: 0},
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Volcanoes and Geothermal topic 2.', options: ['True', 'False'], correct: 0},
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Volcanoes and Geothermal topic 3.', options: ['True', 'False'], correct: 0},
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Volcanoes and Geothermal topic 4.', options: ['True', 'False'], correct: 0},
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Volcanoes and Geothermal topic 5.', options: ['True', 'False'], correct: 0},
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Volcanoes and Geothermal topic 6.', options: ['True', 'False'], correct: 0},
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Volcanoes and Geothermal topic 7.', options: ['True', 'False'], correct: 0},
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Volcanoes and Geothermal topic 8.', options: ['True', 'False'], correct: 0},
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Volcanoes and Geothermal topic 9.', options: ['True', 'False'], correct: 0},
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Volcanoes and Geothermal topic 10.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Volcanoes and Geothermal question 1?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Volcanoes and Geothermal question 2?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Volcanoes and Geothermal question 3?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Volcanoes and Geothermal question 4?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Volcanoes and Geothermal question 5?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Volcanoes and Geothermal question 6?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Volcanoes and Geothermal question 7?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Volcanoes and Geothermal question 8?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Volcanoes and Geothermal question 9?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Volcanoes and Geothermal question 10?', options: ['Option A', 'Option B'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Volcanoes and Geothermal difficult question 1?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Volcanoes and Geothermal difficult question 2?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Volcanoes and Geothermal difficult question 3?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Volcanoes and Geothermal difficult question 4?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Volcanoes and Geothermal difficult question 5?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Volcanoes and Geothermal difficult question 6?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Volcanoes and Geothermal difficult question 7?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Volcanoes and Geothermal difficult question 8?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Volcanoes and Geothermal difficult question 9?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Volcanoes and Geothermal difficult question 10?', options: ['A', 'B', 'C'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Volcanoes and Geothermal expert question 1?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Volcanoes and Geothermal expert question 2?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Volcanoes and Geothermal expert question 3?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Volcanoes and Geothermal expert question 4?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Volcanoes and Geothermal expert question 5?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Volcanoes and Geothermal expert question 6?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Volcanoes and Geothermal expert question 7?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Volcanoes and Geothermal expert question 8?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Volcanoes and Geothermal expert question 9?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Volcanoes and Geothermal expert question 10?', options: ['A', 'B', 'C', 'D'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Name three volcanoes and geothermal items 1', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Name three volcanoes and geothermal items 2', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Name three volcanoes and geothermal items 3', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Name three volcanoes and geothermal items 4', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Name three volcanoes and geothermal items 5', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Name three volcanoes and geothermal items 6', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Name three volcanoes and geothermal items 7', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Name three volcanoes and geothermal items 8', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Name three volcanoes and geothermal items 9', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Volcanoes', emoji: '🌋🔥', question: 'Name three volcanoes and geothermal items 10', answer: 'Item 1, Item 2, Item 3'}
+        ]
+    },
+    18: { // Chapter 18: Earthquakes and Tectonics
+        easy: [
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Earthquakes and Tectonics topic 1.', options: ['True', 'False'], correct: 0},
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Earthquakes and Tectonics topic 2.', options: ['True', 'False'], correct: 0},
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Earthquakes and Tectonics topic 3.', options: ['True', 'False'], correct: 0},
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Earthquakes and Tectonics topic 4.', options: ['True', 'False'], correct: 0},
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Earthquakes and Tectonics topic 5.', options: ['True', 'False'], correct: 0},
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Earthquakes and Tectonics topic 6.', options: ['True', 'False'], correct: 0},
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Earthquakes and Tectonics topic 7.', options: ['True', 'False'], correct: 0},
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Earthquakes and Tectonics topic 8.', options: ['True', 'False'], correct: 0},
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Earthquakes and Tectonics topic 9.', options: ['True', 'False'], correct: 0},
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Earthquakes and Tectonics topic 10.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Earthquakes and Tectonics question 1?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Earthquakes and Tectonics question 2?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Earthquakes and Tectonics question 3?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Earthquakes and Tectonics question 4?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Earthquakes and Tectonics question 5?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Earthquakes and Tectonics question 6?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Earthquakes and Tectonics question 7?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Earthquakes and Tectonics question 8?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Earthquakes and Tectonics question 9?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Earthquakes and Tectonics question 10?', options: ['Option A', 'Option B'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Earthquakes and Tectonics difficult question 1?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Earthquakes and Tectonics difficult question 2?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Earthquakes and Tectonics difficult question 3?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Earthquakes and Tectonics difficult question 4?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Earthquakes and Tectonics difficult question 5?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Earthquakes and Tectonics difficult question 6?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Earthquakes and Tectonics difficult question 7?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Earthquakes and Tectonics difficult question 8?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Earthquakes and Tectonics difficult question 9?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Earthquakes and Tectonics difficult question 10?', options: ['A', 'B', 'C'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Earthquakes and Tectonics expert question 1?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Earthquakes and Tectonics expert question 2?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Earthquakes and Tectonics expert question 3?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Earthquakes and Tectonics expert question 4?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Earthquakes and Tectonics expert question 5?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Earthquakes and Tectonics expert question 6?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Earthquakes and Tectonics expert question 7?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Earthquakes and Tectonics expert question 8?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Earthquakes and Tectonics expert question 9?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Earthquakes and Tectonics expert question 10?', options: ['A', 'B', 'C', 'D'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Name three earthquakes and tectonics items 1', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Name three earthquakes and tectonics items 2', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Name three earthquakes and tectonics items 3', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Name three earthquakes and tectonics items 4', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Name three earthquakes and tectonics items 5', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Name three earthquakes and tectonics items 6', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Name three earthquakes and tectonics items 7', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Name three earthquakes and tectonics items 8', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Name three earthquakes and tectonics items 9', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Earthquakes', emoji: '🌍💥', question: 'Name three earthquakes and tectonics items 10', answer: 'Item 1, Item 2, Item 3'}
+        ]
+    },
+    19: { // Chapter 19: Natural Disasters
+        easy: [
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Natural Disasters topic 1.', options: ['True', 'False'], correct: 0},
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Natural Disasters topic 2.', options: ['True', 'False'], correct: 0},
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Natural Disasters topic 3.', options: ['True', 'False'], correct: 0},
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Natural Disasters topic 4.', options: ['True', 'False'], correct: 0},
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Natural Disasters topic 5.', options: ['True', 'False'], correct: 0},
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Natural Disasters topic 6.', options: ['True', 'False'], correct: 0},
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Natural Disasters topic 7.', options: ['True', 'False'], correct: 0},
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Natural Disasters topic 8.', options: ['True', 'False'], correct: 0},
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Natural Disasters topic 9.', options: ['True', 'False'], correct: 0},
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Natural Disasters topic 10.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Natural Disasters question 1?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Natural Disasters question 2?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Natural Disasters question 3?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Natural Disasters question 4?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Natural Disasters question 5?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Natural Disasters question 6?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Natural Disasters question 7?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Natural Disasters question 8?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Natural Disasters question 9?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Natural Disasters question 10?', options: ['Option A', 'Option B'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Natural Disasters difficult question 1?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Natural Disasters difficult question 2?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Natural Disasters difficult question 3?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Natural Disasters difficult question 4?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Natural Disasters difficult question 5?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Natural Disasters difficult question 6?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Natural Disasters difficult question 7?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Natural Disasters difficult question 8?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Natural Disasters difficult question 9?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Natural Disasters difficult question 10?', options: ['A', 'B', 'C'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Natural Disasters expert question 1?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Natural Disasters expert question 2?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Natural Disasters expert question 3?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Natural Disasters expert question 4?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Natural Disasters expert question 5?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Natural Disasters expert question 6?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Natural Disasters expert question 7?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Natural Disasters expert question 8?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Natural Disasters expert question 9?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Natural Disasters expert question 10?', options: ['A', 'B', 'C', 'D'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Name three natural disasters items 1', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Name three natural disasters items 2', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Name three natural disasters items 3', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Name three natural disasters items 4', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Name three natural disasters items 5', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Name three natural disasters items 6', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Name three natural disasters items 7', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Name three natural disasters items 8', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Name three natural disasters items 9', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Natural', emoji: '🌪️⚡', question: 'Name three natural disasters items 10', answer: 'Item 1, Item 2, Item 3'}
+        ]
+    },
+    20: { // Chapter 20: Environment and Conservation
+        easy: [
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Environment and Conservation topic 1.', options: ['True', 'False'], correct: 0},
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Environment and Conservation topic 2.', options: ['True', 'False'], correct: 0},
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Environment and Conservation topic 3.', options: ['True', 'False'], correct: 0},
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Environment and Conservation topic 4.', options: ['True', 'False'], correct: 0},
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Environment and Conservation topic 5.', options: ['True', 'False'], correct: 0},
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Environment and Conservation topic 6.', options: ['True', 'False'], correct: 0},
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Environment and Conservation topic 7.', options: ['True', 'False'], correct: 0},
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Environment and Conservation topic 8.', options: ['True', 'False'], correct: 0},
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Environment and Conservation topic 9.', options: ['True', 'False'], correct: 0},
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Environment and Conservation topic 10.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Environment and Conservation question 1?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Environment and Conservation question 2?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Environment and Conservation question 3?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Environment and Conservation question 4?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Environment and Conservation question 5?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Environment and Conservation question 6?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Environment and Conservation question 7?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Environment and Conservation question 8?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Environment and Conservation question 9?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Environment and Conservation question 10?', options: ['Option A', 'Option B'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Environment and Conservation difficult question 1?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Environment and Conservation difficult question 2?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Environment and Conservation difficult question 3?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Environment and Conservation difficult question 4?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Environment and Conservation difficult question 5?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Environment and Conservation difficult question 6?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Environment and Conservation difficult question 7?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Environment and Conservation difficult question 8?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Environment and Conservation difficult question 9?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Environment and Conservation difficult question 10?', options: ['A', 'B', 'C'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Environment and Conservation expert question 1?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Environment and Conservation expert question 2?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Environment and Conservation expert question 3?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Environment and Conservation expert question 4?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Environment and Conservation expert question 5?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Environment and Conservation expert question 6?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Environment and Conservation expert question 7?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Environment and Conservation expert question 8?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Environment and Conservation expert question 9?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Environment and Conservation expert question 10?', options: ['A', 'B', 'C', 'D'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Name three environment and conservation items 1', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Name three environment and conservation items 2', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Name three environment and conservation items 3', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Name three environment and conservation items 4', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Name three environment and conservation items 5', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Name three environment and conservation items 6', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Name three environment and conservation items 7', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Name three environment and conservation items 8', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Name three environment and conservation items 9', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Environment', emoji: '🌱♻️', question: 'Name three environment and conservation items 10', answer: 'Item 1, Item 2, Item 3'}
+        ]
+    }
+    // Add more chapters: 2, 3, 4... unlimited!
 };

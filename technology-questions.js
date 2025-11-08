@@ -756,5 +756,502 @@ const technologyQuestions = {
             {topic: 'Design', emoji: '🎨🔧', question: 'Name the five SOLID principles', answer: 'Single Responsibility, Open-Closed, Liskov Substitution, Interface Segregation, Dependency Inversion (any 3)'}
         ]
     },
-
+        13: { // Chapter 13: Computer Networks
+        easy: [
+            {topic: 'Networks', emoji: '🌐💻', question: 'Networks connect computers.', options: ['True', 'False'], correct: 0},
+            {topic: 'Internet', emoji: '🌍🔗', question: 'Internet is a global network.', options: ['True', 'False'], correct: 0},
+            {topic: 'Networks', emoji: '🌐📡', question: 'WiFi is wireless networking.', options: ['True', 'False'], correct: 0},
+            {topic: 'Protocols', emoji: '📋🔗', question: 'Protocols are communication rules.', options: ['True', 'False'], correct: 0},
+            {topic: 'Internet', emoji: '🌍🔍', question: 'DNS translates domain names.', options: ['True', 'False'], correct: 0},
+            {topic: 'Networks', emoji: '🌐🔌', question: 'Ethernet uses cables.', options: ['True', 'False'], correct: 0},
+            {topic: 'Protocols', emoji: '📋💻', question: 'HTTP is for web browsing.', options: ['True', 'False'], correct: 0},
+            {topic: 'Internet', emoji: '🌍📧', question: 'Email uses networks.', options: ['True', 'False'], correct: 0},
+            {topic: 'Networks', emoji: '🌐🏠', question: 'Routers connect networks.', options: ['True', 'False'], correct: 0},
+            {topic: 'Security', emoji: '🔒🌐', question: 'Firewalls protect networks.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Networks', emoji: '🌐💻', question: 'What is a computer network?', options: ['Connected devices sharing resources', 'Single computer'], correct: 0},
+            {topic: 'Internet', emoji: '🌍🔗', question: 'What is an IP address?', options: ['Device identifier on network', 'Phone number'], correct: 0},
+            {topic: 'Networks', emoji: '🌐📡', question: 'What is network bandwidth?', options: ['Data transfer rate', 'Physical width'], correct: 0},
+            {topic: 'Protocols', emoji: '📋🔗', question: 'What is TCP?', options: ['Transmission Control Protocol', 'Text Copy Protocol'], correct: 0},
+            {topic: 'Internet', emoji: '🌍🔍', question: 'What is a domain name?', options: ['Human-readable web address', 'IP address'], correct: 0},
+            {topic: 'Networks', emoji: '🌐🔌', question: 'What is a LAN?', options: ['Local Area Network', 'Large Area Network'], correct: 0},
+            {topic: 'Protocols', emoji: '📋💻', question: 'What is HTTPS?', options: ['Secure HTTP', 'Hypertext Protocol'], correct: 0},
+            {topic: 'Internet', emoji: '🌍📧', question: 'What is SMTP?', options: ['Email sending protocol', 'Web protocol'], correct: 0},
+            {topic: 'Networks', emoji: '🌐🏠', question: 'What is a switch?', options: ['Connects devices in network', 'Power button'], correct: 0},
+            {topic: 'Security', emoji: '🔒🌐', question: 'What is a VPN?', options: ['Virtual Private Network', 'Video Protocol Network'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Networks', emoji: '🌐💻', question: 'What is the OSI model?', options: ['7-layer network model', '3-layer model', 'No model'], correct: 0},
+            {topic: 'Internet', emoji: '🌍🔗', question: 'What is IPv6?', options: ['New IP address version', 'Old IP version', 'No version'], correct: 0},
+            {topic: 'Networks', emoji: '🌐📡', question: 'What is latency?', options: ['Time delay in transmission', 'Data size', 'No delay'], correct: 0},
+            {topic: 'Protocols', emoji: '📋🔗', question: 'What is UDP?', options: ['User Datagram Protocol', 'Universal Data Protocol', 'Unified Download Process'], correct: 0},
+            {topic: 'Internet', emoji: '🌍🔍', question: 'What is DNS cache poisoning?', options: ['Corrupt DNS records', 'Clean cache', 'No attack'], correct: 0},
+            {topic: 'Networks', emoji: '🌐🔌', question: 'What is network topology?', options: ['Physical/logical layout', 'Speed measure', 'No layout'], correct: 0},
+            {topic: 'Protocols', emoji: '📋💻', question: 'What is WebSocket?', options: ['Full-duplex communication protocol', 'Web page', 'Database'], correct: 0},
+            {topic: 'Internet', emoji: '🌍📧', question: 'What is POP3?', options: ['Email retrieval protocol', 'Web protocol', 'File transfer'], correct: 0},
+            {topic: 'Networks', emoji: '🌐🏠', question: 'What is NAT?', options: ['Network Address Translation', 'Network Access Tool', 'No translation'], correct: 0},
+            {topic: 'Security', emoji: '🔒🌐', question: 'What are SSL/TLS protocols?', options: ['Encryption protocols', 'Routing protocol', 'No security'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Networks', emoji: '🌐💻', question: 'What are the 7 OSI layers?', options: ['Physical, Data Link, Network, Transport, Session, Presentation, Application', '3 layers', '5 layers', '10 layers'], correct: 0},
+            {topic: 'Internet', emoji: '🌍🔗', question: 'How many IPv6 addresses exist?', options: ['340 undecillion (2^128)', '4 billion', 'Unlimited', '1 million'], correct: 0},
+            {topic: 'Networks', emoji: '🌐📡', question: 'What is typical fiber optic speed?', options: ['1-100 Gbps', '10 Mbps', '1 Kbps', '1 Tbps'], correct: 0},
+            {topic: 'Protocols', emoji: '📋🔗', question: 'What port does HTTP use?', options: ['80', '443', '22', '21'], correct: 0},
+            {topic: 'Internet', emoji: '🌍🔍', question: 'What is root DNS server count?', options: ['13 root server systems', '1 server', '1000 servers', 'No servers'], correct: 0},
+            {topic: 'Networks', emoji: '🌐🔌', question: 'What is the maximum Ethernet frame size?', options: ['1518 bytes', '100 bytes', '10 KB', '1 MB'], correct: 0},
+            {topic: 'Protocols', emoji: '📋💻', question: 'What is the three-way handshake?', options: ['TCP connection establishment', 'UDP process', 'No handshake', 'Two-way process'], correct: 0},
+            {topic: 'Internet', emoji: '🌍📧', question: 'What is the typical email size limit?', options: ['25 MB', '1 GB', '1 KB', 'No limit'], correct: 0},
+            {topic: 'Networks', emoji: '🌐🏠', question: 'What is BGP?', options: ['Border Gateway Protocol', 'Basic Gateway Process', 'Backup Gateway Protocol', 'No protocol'], correct: 0},
+            {topic: 'Security', emoji: '🔒🌐', question: 'What is the Diffie-Hellman algorithm for?', options: ['Key exchange', 'Routing', 'No purpose', 'Compression'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Networks', emoji: '🌐💻', question: 'Name three network types', answer: 'LAN, WAN, MAN, PAN, VPN (any 3)'},
+            {topic: 'Internet', emoji: '🌍🔗', question: 'Name three Internet protocols', answer: 'HTTP, FTP, SMTP, DNS, DHCP (any 3)'},
+            {topic: 'Networks', emoji: '🌐📡', question: 'Name three wireless standards', answer: 'WiFi (802.11), Bluetooth, 5G, LTE, Zigbee (any 3)'},
+            {topic: 'Protocols', emoji: '📋🔗', question: 'Name three transport layer protocols', answer: 'TCP, UDP, SCTP'},
+            {topic: 'Internet', emoji: '🌍🔍', question: 'Name three DNS record types', answer: 'A, AAAA, CNAME, MX, TXT (any 3)'},
+            {topic: 'Networks', emoji: '🌐🔌', question: 'Name three network topologies', answer: 'Star, Ring, Bus, Mesh, Tree (any 3)'},
+            {topic: 'Protocols', emoji: '📋💻', question: 'Name three application layer protocols', answer: 'HTTP, FTP, SMTP, DNS, SSH (any 3)'},
+            {topic: 'Internet', emoji: '🌍📧', question: 'Name three email protocols', answer: 'SMTP, POP3, IMAP'},
+            {topic: 'Networks', emoji: '🌐🏠', question: 'Name three network devices', answer: 'Router, Switch, Hub, Bridge, Gateway (any 3)'},
+            {topic: 'Security', emoji: '🔒🌐', question: 'Name three network security measures', answer: 'Firewall, VPN, IDS/IPS, Encryption, Authentication (any 3)'}
+        ]
+    },
+    14: { // Chapter 14: Operating Systems
+        easy: [
+            {topic: 'OS', emoji: '💻🖥️', question: 'OS software controls computer hardware.', options: ['True', 'False'], correct: 0},
+            {topic: 'Windows', emoji: '🪟💻', question: 'Windows is an operating system.', options: ['True', 'False'], correct: 0},
+            {topic: 'OS', emoji: '💻📂', question: 'OS manages files.', options: ['True', 'False'], correct: 0},
+            {topic: 'Linux', emoji: '🐧💻', question: 'Linux is open source.', options: ['True', 'False'], correct: 0},
+            {topic: 'OS', emoji: '💻⚙️', question: 'OS allocates memory.', options: ['True', 'False'], correct: 0},
+            {topic: 'macOS', emoji: '🍎💻', question: 'macOS runs on Apple computers.', options: ['True', 'False'], correct: 0},
+            {topic: 'OS', emoji: '💻🔄', question: 'OS schedules processes.', options: ['True', 'False'], correct: 0},
+            {topic: 'Mobile', emoji: '📱💻', question: 'Android is a mobile OS.', options: ['True', 'False'], correct: 0},
+            {topic: 'OS', emoji: '💻🔐', question: 'OS provides security.', options: ['True', 'False'], correct: 0},
+            {topic: 'Mobile', emoji: '📱🍎', question: 'iOS powers Apple mobile devices.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'OS', emoji: '💻🖥️', question: 'What is an operating system?', options: ['Software managing hardware and software', 'Application'], correct: 0},
+            {topic: 'Windows', emoji: '🪟💻', question: 'What is Windows Registry?', options: ['Database for system settings', 'File folder'], correct: 0},
+            {topic: 'OS', emoji: '💻📂', question: 'What is a file system?', options: ['Organize and store files', 'Application'], correct: 0},
+            {topic: 'Linux', emoji: '🐧💻', question: 'What is the Linux kernel?', options: ['Core of Linux OS', 'Application'], correct: 0},
+            {topic: 'OS', emoji: '💻⚙️', question: 'What is virtual memory?', options: ['Use disk as RAM extension', 'Physical RAM only'], correct: 0},
+            {topic: 'macOS', emoji: '🍎💻', question: 'What is macOS based on?', options: ['Unix', 'DOS'], correct: 0},
+            {topic: 'OS', emoji: '💻🔄', question: 'What is a process?', options: ['Running program instance', 'Static program'], correct: 0},
+            {topic: 'Mobile', emoji: '📱💻', question: 'What is Android based on?', options: ['Linux kernel', 'Windows'], correct: 0},
+            {topic: 'OS', emoji: '💻🔐', question: 'What is user authentication?', options: ['Verify user identity', 'Run programs'], correct: 0},
+            {topic: 'Mobile', emoji: '📱🍎', question: 'What is iOS kernel?', options: ['XNU (Darwin)', 'Linux'], correct: 0}
+        ],
+        hard: [
+            {topic: 'OS', emoji: '💻🖥️', question: 'What is a kernel?', options: ['Core of operating system', 'Application', 'User interface'], correct: 0},
+            {topic: 'Windows', emoji: '🪟💻', question: 'What is NTFS?', options: ['Windows file system', 'Network protocol', 'Application'], correct: 0},
+            {topic: 'OS', emoji: '💻📂', question: 'What are inodes?', options: ['File system data structure', 'Applications', 'Users'], correct: 0},
+            {topic: 'Linux', emoji: '🐧💻', question: 'What is a Linux distribution?', options: ['OS built on Linux kernel', 'Application', 'Hardware'], correct: 0},
+            {topic: 'OS', emoji: '💻⚙️', question: 'What is paging?', options: ['Memory management technique', 'Web browsing', 'No technique'], correct: 0},
+            {topic: 'macOS', emoji: '🍎💻', question: 'What is Finder?', options: ['macOS file manager', 'Search engine', 'Browser'], correct: 0},
+            {topic: 'OS', emoji: '💻🔄', question: 'What is context switching?', options: ['Switch between processes', 'Change settings', 'No switching'], correct: 0},
+            {topic: 'Mobile', emoji: '📱💻', question: 'What is ART in Android?', options: ['Android Runtime', 'Application', 'File system'], correct: 0},
+            {topic: 'OS', emoji: '💻🔐', question: 'What is privilege escalation?', options: ['Gain higher access rights', 'Normal login', 'No access'], correct: 0},
+            {topic: 'Mobile', emoji: '📱🍎', question: 'What is sandboxing in iOS?', options: ['Isolate app execution', 'Combine apps', 'No isolation'], correct: 0}
+        ],
+        expert: [
+            {topic: 'OS', emoji: '💻🖥️', question: 'What is the difference between monolithic and microkernel?', options: ['All services in kernel vs separate services', 'No difference', 'Same thing', 'Both monolithic'], correct: 0},
+            {topic: 'Windows', emoji: '🪟💻', question: 'What is the Windows HAL?', options: ['Hardware Abstraction Layer', 'High Access Level', 'Hard Application Link', 'No HAL'], correct: 0},
+            {topic: 'OS', emoji: '💻📂', question: 'What is journaling in file systems?', options: ['Track changes for recovery', 'Delete files', 'No tracking', 'Random writes'], correct: 0},
+            {topic: 'Linux', emoji: '🐧💻', question: 'What is systemd?', options: ['Init system and service manager', 'File system', 'Text editor', 'Kernel'], correct: 0},
+            {topic: 'OS', emoji: '💻⚙️', question: 'What is thrashing?', options: ['Excessive paging reduces performance', 'Fast performance', 'No issue', 'Good state'], correct: 0},
+            {topic: 'macOS', emoji: '🍎💻', question: 'What is Spotlight?', options: ['System-wide search', 'Light control', 'Screen brightness', 'No search'], correct: 0},
+            {topic: 'OS', emoji: '💻🔄', question: 'What is the scheduler in OS?', options: ['Determines process execution order', 'Calendar app', 'No scheduling', 'Random order'], correct: 0},
+            {topic: 'Mobile', emoji: '📱💻', question: 'What is the Android Zygote?', options: ['App process spawner', 'File manager', 'Browser', 'No zygote'], correct: 0},
+            {topic: 'OS', emoji: '💻🔐', question: 'What is SELinux?', options: ['Security-Enhanced Linux', 'Simple Enhanced Linux', 'Search Engine Linux', 'No SELinux'], correct: 0},
+            {topic: 'Mobile', emoji: '📱🍎', question: 'What is the typical iOS memory for apps?', options: ['Varies by device, ~1-2 GB limit', 'Unlimited', '10 MB', '100 GB'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'OS', emoji: '💻🖥️', question: 'Name three major operating systems', answer: 'Windows, Linux, macOS, Unix, Android (any 3)'},
+            {topic: 'Windows', emoji: '🪟💻', question: 'Name three Windows versions', answer: 'Windows 10, Windows 11, Windows Server, Windows 7 (any 3)'},
+            {topic: 'OS', emoji: '💻📂', question: 'Name three file systems', answer: 'NTFS, ext4, FAT32, HFS+, ZFS (any 3)'},
+            {topic: 'Linux', emoji: '🐧💻', question: 'Name three Linux distributions', answer: 'Ubuntu, Debian, Fedora, CentOS, Arch (any 3)'},
+            {topic: 'OS', emoji: '💻⚙️', question: 'Name three memory management techniques', answer: 'Paging, Segmentation, Virtual memory, Swapping (any 3)'},
+            {topic: 'macOS', emoji: '🍎💻', question: 'Name three macOS versions', answer: 'Monterey, Ventura, Sonoma, Big Sur (any 3)'},
+            {topic: 'OS', emoji: '💻🔄', question: 'Name three process states', answer: 'Running, Ready, Blocked, Terminated (any 3)'},
+            {topic: 'Mobile', emoji: '📱💻', question: 'Name three mobile operating systems', answer: 'Android, iOS, HarmonyOS, KaiOS (any 3)'},
+            {topic: 'OS', emoji: '💻🔐', question: 'Name three OS security features', answer: 'Authentication, Access control, Encryption, Firewall, Sandboxing (any 3)'},
+            {topic: 'Mobile', emoji: '📱🍎', question: 'Name three iOS features', answer: 'Face ID, iCloud, App Store, Siri, AirDrop (any 3)'}
+        ]
+    },
+    15: { // Chapter 15: Algorithms
+        easy: [
+            {topic: 'Algorithms', emoji: '📝🔢', question: 'Algorithms are step-by-step instructions.', options: ['True', 'False'], correct: 0},
+            {topic: 'Sorting', emoji: '🔀📊', question: 'Sorting arranges data in order.', options: ['True', 'False'], correct: 0},
+            {topic: 'Algorithms', emoji: '📝🔍', question: 'Search algorithms find data.', options: ['True', 'False'], correct: 0},
+            {topic: 'Complexity', emoji: '⏱️📈', question: 'Algorithm efficiency matters.', options: ['True', 'False'], correct: 0},
+            {topic: 'Sorting', emoji: '🔀⬆️', question: 'Bubble sort is a sorting algorithm.', options: ['True', 'False'], correct: 0},
+            {topic: 'Algorithms', emoji: '📝🧮', question: 'Algorithms solve problems.', options: ['True', 'False'], correct: 0},
+            {topic: 'Search', emoji: '🔍📊', question: 'Binary search is fast.', options: ['True', 'False'], correct: 0},
+            {topic: 'Complexity', emoji: '⏱️💻', question: 'Time complexity measures speed.', options: ['True', 'False'], correct: 0},
+            {topic: 'Algorithms', emoji: '📝🔄', question: 'Recursion calls itself.', options: ['True', 'False'], correct: 0},
+            {topic: 'Sorting', emoji: '🔀⚡', question: 'Quick sort is efficient.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Algorithms', emoji: '📝🔢', question: 'What is an algorithm?', options: ['Step-by-step problem solution', 'Random steps'], correct: 0},
+            {topic: 'Sorting', emoji: '🔀📊', question: 'What is merge sort?', options: ['Divide and conquer sorting', 'Simple swap sorting'], correct: 0},
+            {topic: 'Algorithms', emoji: '📝🔍', question: 'What is linear search?', options: ['Check each element sequentially', 'Random search'], correct: 0},
+            {topic: 'Complexity', emoji: '⏱️📈', question: 'What does Big O notation describe?', options: ['Describe algorithm complexity', 'Variable name'], correct: 0},
+            {topic: 'Sorting', emoji: '🔀⬆️', question: 'What is insertion sort?', options: ['Build sorted array incrementally', 'Random sorting'], correct: 0},
+            {topic: 'Algorithms', emoji: '📝🧮', question: 'What is a greedy algorithm?', options: ['Make locally optimal choice', 'Random choice'], correct: 0},
+            {topic: 'Search', emoji: '🔍📊', question: 'What is binary search?', options: ['Search sorted array by halving', 'Linear search'], correct: 0},
+            {topic: 'Complexity', emoji: '⏱️💻', question: 'What is space complexity?', options: ['Memory usage measure', 'Time measure'], correct: 0},
+            {topic: 'Algorithms', emoji: '📝🔄', question: 'What defines recursion?', options: ['Function calling itself', 'Loop'], correct: 0},
+            {topic: 'Sorting', emoji: '🔀⚡', question: 'What is quick sort?', options: ['Partition-based sorting', 'Slow sorting'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Algorithms', emoji: '📝🔢', question: 'What is dynamic programming?', options: ['Solve by breaking into subproblems', 'Random approach', 'No strategy'], correct: 0},
+            {topic: 'Sorting', emoji: '🔀📊', question: 'What is heap sort?', options: ['Use heap data structure to sort', 'Simple swap', 'No structure'], correct: 0},
+            {topic: 'Algorithms', emoji: '📝🔍', question: 'What is depth-first search?', options: ['Explore branch fully before backtrack', 'Breadth search', 'No search'], correct: 0},
+            {topic: 'Complexity', emoji: '⏱️📈', question: 'What is O(n log n) complexity?', options: ['Linearithmic time', 'Linear time', 'Constant time'], correct: 0},
+            {topic: 'Sorting', emoji: '🔀⬆️', question: 'What is radix sort?', options: ['Sort by digits/characters', 'Comparison sort', 'No sorting'], correct: 0},
+            {topic: 'Algorithms', emoji: '📝🧮', question: 'What is the knapsack problem?', options: ['Optimize item selection with constraint', 'Simple counting', 'No problem'], correct: 0},
+            {topic: 'Search', emoji: '🔍📊', question: 'What is breadth-first search?', options: ['Explore level by level', 'Depth search', 'No search'], correct: 0},
+            {topic: 'Complexity', emoji: '⏱️💻', question: 'What is amortized analysis?', options: ['Average time over sequence', 'Worst case only', 'No analysis'], correct: 0},
+            {topic: 'Algorithms', emoji: '📝🔄', question: 'What is memoization?', options: ['Cache results to avoid recomputation', 'No caching', 'Delete results'], correct: 0},
+            {topic: 'Sorting', emoji: '🔀⚡', question: 'What is the best comparison sort complexity?', options: ['O(n log n)', 'O(n)', 'O(n²)'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Algorithms', emoji: '📝🔢', question: 'What is the P vs NP problem?', options: ['Major unsolved computer science problem', 'Solved problem', 'No problem', 'Simple question'], correct: 0},
+            {topic: 'Sorting', emoji: '🔀📊', question: 'What is the worst-case complexity of quick sort?', options: ['O(n²)', 'O(n log n)', 'O(n)', 'O(1)'], correct: 0},
+            {topic: 'Algorithms', emoji: '📝🔍', question: 'What is Dijkstra\'s algorithm for?', options: ['Shortest path in graph', 'Sorting', 'Searching tree', 'No purpose'], correct: 0},
+            {topic: 'Complexity', emoji: '⏱️📈', question: 'What does NP-complete mean?', options: ['Hardest problems in NP class', 'Easy problems', 'No classification', 'Simple'], correct: 0},
+            {topic: 'Sorting', emoji: '🔀⬆️', question: 'Is bubble sort stable?', options: ['Yes', 'No', 'Sometimes', 'Unknown'], correct: 0},
+            {topic: 'Algorithms', emoji: '📝🧮', question: 'What is the traveling salesman problem?', options: ['Find shortest route visiting all cities', 'Simple path', 'No problem', 'Easy solution'], correct: 0},
+            {topic: 'Search', emoji: '🔍📊', question: 'What is A* search algorithm?', options: ['Informed search with heuristic', 'Blind search', 'No search', 'Random'], correct: 0},
+            {topic: 'Complexity', emoji: '⏱️💻', question: 'What is the Master Theorem for?', options: ['Analyze divide-and-conquer algorithms', 'Sort data', 'No purpose', 'Count elements'], correct: 0},
+            {topic: 'Algorithms', emoji: '📝🔄', question: 'What is tail recursion?', options: ['Recursive call is last operation', 'First operation', 'No recursion', 'Middle operation'], correct: 0},
+            {topic: 'Sorting', emoji: '🔀⚡', question: 'What is counting sort complexity?', options: ['O(n + k) where k is range', 'O(n²)', 'O(n log n)', 'O(1)'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Algorithms', emoji: '📝🔢', question: 'Name three algorithm paradigms', answer: 'Divide and conquer, Dynamic programming, Greedy, Backtracking (any 3)'},
+            {topic: 'Sorting', emoji: '🔀📊', question: 'Name three O(n log n) sorting algorithms', answer: 'Merge sort, Heap sort, Quick sort (average)'},
+            {topic: 'Algorithms', emoji: '📝🔍', question: 'Name three graph algorithms', answer: 'DFS, BFS, Dijkstra, Bellman-Ford, A* (any 3)'},
+            {topic: 'Complexity', emoji: '⏱️📈', question: 'Name three complexity classes', answer: 'P, NP, NP-complete, NP-hard, PSPACE (any 3)'},
+            {topic: 'Sorting', emoji: '🔀⬆️', question: 'Name three O(n²) sorting algorithms', answer: 'Bubble sort, Insertion sort, Selection sort'},
+            {topic: 'Algorithms', emoji: '📝🧮', question: 'Name three optimization problems', answer: 'Knapsack, Traveling salesman, Shortest path, Minimum spanning tree (any 3)'},
+            {topic: 'Search', emoji: '🔍📊', question: 'Name three tree traversal methods', answer: 'Inorder, Preorder, Postorder, Level-order (any 3)'},
+            {topic: 'Complexity', emoji: '⏱️💻', question: 'Order these complexities: O(1), O(log n), O(n), O(n log n), O(n²)', answer: 'O(1) < O(log n) < O(n) < O(n log n) < O(n²)'},
+            {topic: 'Algorithms', emoji: '📝🔄', question: 'Name three divide-and-conquer algorithms', answer: 'Merge sort, Quick sort, Binary search, Strassen matrix (any 3)'},
+            {topic: 'Sorting', emoji: '🔀⚡', question: 'Name three stable sorting algorithms', answer: 'Merge sort, Insertion sort, Bubble sort, Counting sort (any 3)'}
+        ]
+    },
+    16: { // Chapter 16: Computer Graphics
+        easy: [
+            {topic: 'Graphics', emoji: '🎨🖼️', question: 'Computer graphics create images.', options: ['True', 'False'], correct: 0},
+            {topic: '2D', emoji: '🖼️📐', question: '2D graphics are flat.', options: ['True', 'False'], correct: 0},
+            {topic: 'Graphics', emoji: '🎨🎮', question: 'Games use computer graphics.', options: ['True', 'False'], correct: 0},
+            {topic: '3D', emoji: '📦🎨', question: '3D graphics have depth.', options: ['True', 'False'], correct: 0},
+            {topic: 'Graphics', emoji: '🎨🖱️', question: 'Graphics software creates art.', options: ['True', 'False'], correct: 0},
+            {topic: 'Rendering', emoji: '🖼️⚡', question: 'Rendering creates final image.', options: ['True', 'False'], correct: 0},
+            {topic: 'Graphics', emoji: '🎨📹', question: 'Animation is moving graphics.', options: ['True', 'False'], correct: 0},
+            {topic: '3D', emoji: '📦🎬', question: 'Movies use 3D graphics.', options: ['True', 'False'], correct: 0},
+            {topic: 'Graphics', emoji: '🎨💡', question: 'Lighting affects graphics realism.', options: ['True', 'False'], correct: 0},
+            {topic: 'Rendering', emoji: '🖼️🔍', question: 'Ray tracing simulates light.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Graphics', emoji: '🎨🖼️', question: 'What is computer graphics?', options: ['Create and manipulate visual content', 'Text only'], correct: 0},
+            {topic: '2D', emoji: '🖼️📐', question: 'What is a pixel?', options: ['Smallest image unit', 'Large image'], correct: 0},
+            {topic: 'Graphics', emoji: '🎨🎮', question: 'What is a GPU?', options: ['Graphics Processing Unit', 'General Purpose Unit'], correct: 0},
+            {topic: '3D', emoji: '📦🎨', question: 'What is a polygon?', options: ['Basic 3D shape building block', '2D circle'], correct: 0},
+            {topic: 'Graphics', emoji: '🎨🖱️', question: 'What is vector graphics?', options: ['Use mathematical equations', 'Use pixels'], correct: 0},
+            {topic: 'Rendering', emoji: '🖼️⚡', question: 'What is rasterization?', options: ['Convert vector to pixels', 'Delete graphics'], correct: 0},
+            {topic: 'Graphics', emoji: '🎨📹', question: 'What is FPS?', options: ['Frames Per Second', 'First Person Shooter'], correct: 0},
+            {topic: '3D', emoji: '📦🎬', question: 'What is a mesh?', options: ['3D object made of polygons', 'Fishing net'], correct: 0},
+            {topic: 'Graphics', emoji: '🎨💡', question: 'What is shading?', options: ['Apply color and lighting', 'Delete color'], correct: 0},
+            {topic: 'Rendering', emoji: '🖼️🔍', question: 'What is texture mapping?', options: ['Apply images to 3D surfaces', 'Delete textures'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Graphics', emoji: '🎨🖼️', question: 'What is the graphics pipeline?', options: ['Series of steps to render image', 'Single step', 'No process'], correct: 0},
+            {topic: '2D', emoji: '🖼️📐', question: 'What is anti-aliasing?', options: ['Smooth jagged edges', 'Create jagged edges', 'No effect'], correct: 0},
+            {topic: 'Graphics', emoji: '🎨🎮', question: 'What is a shader?', options: ['Program for rendering effects', 'Hardware device', 'No program'], correct: 0},
+            {topic: '3D', emoji: '📦🎨', question: 'What is model transformation?', options: ['Move, rotate, scale 3D objects', 'Delete objects', 'No transformation'], correct: 0},
+            {topic: 'Graphics', emoji: '🎨🖱️', question: 'What is Bezier curve?', options: ['Parametric curve for smooth paths', 'Straight line', 'Random curve'], correct: 0},
+            {topic: 'Rendering', emoji: '🖼️⚡', question: 'What is Z-buffering?', options: ['Manage depth for visibility', 'Color buffer', 'No buffer'], correct: 0},
+            {topic: 'Graphics', emoji: '🎨📹', question: 'What is keyframe animation?', options: ['Define start and end, interpolate between', 'No frames', 'Single frame'], correct: 0},
+            {topic: '3D', emoji: '📦🎬', question: 'What is normal mapping?', options: ['Simulate surface detail without geometry', 'Add polygons', 'Delete detail'], correct: 0},
+            {topic: 'Graphics', emoji: '🎨💡', question: 'What is ambient occlusion?', options: ['Shadow effect where surfaces meet', 'Bright light', 'No shadow'], correct: 0},
+            {topic: 'Rendering', emoji: '🖼️🔍', question: 'What is global illumination?', options: ['Account for indirect light bounces', 'Direct light only', 'No light'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Graphics', emoji: '🎨🖼️', question: 'What is the typical game target frame rate?', options: ['60 FPS', '10 FPS', '1 FPS', '1000 FPS'], correct: 0},
+            {topic: '2D', emoji: '🖼️📐', question: 'What is MSAA?', options: ['Multi-Sample Anti-Aliasing', 'Main Screen Active Area', 'Multiple System Access Algorithm', 'No MSAA'], correct: 0},
+            {topic: 'Graphics', emoji: '🎨🎮', question: 'What is CUDA?', options: ['Parallel computing platform by NVIDIA', 'Graphics format', 'Game engine', 'No CUDA'], correct: 0},
+            {topic: '3D', emoji: '📦🎨', question: 'What is typical polygon count for game character?', options: ['10,000-100,000', '100', '10 million', '10'], correct: 0},
+            {topic: 'Graphics', emoji: '🎨🖱️', question: 'What is SVG?', options: ['Scalable Vector Graphics', 'Simple Visual Graphics', 'Standard Video Game', 'No SVG'], correct: 0},
+            {topic: 'Rendering', emoji: '🖼️⚡', question: 'What is deferred rendering?', options: ['Separate geometry and lighting passes', 'Single pass', 'No rendering', 'Random order'], correct: 0},
+            {topic: 'Graphics', emoji: '🎨📹', question: 'What is motion blur?', options: ['Simulate camera movement blur', 'Sharp image', 'No blur', 'Error'], correct: 0},
+            {topic: '3D', emoji: '📦🎬', question: 'What is tessellation?', options: ['Subdivide polygons for detail', 'Delete polygons', 'No change', 'Combine polygons'], correct: 0},
+            {topic: 'Graphics', emoji: '🎨💡', question: 'What is the Phong reflection model?', options: ['Ambient + Diffuse + Specular lighting', 'Ambient only', 'No model', 'Single component'], correct: 0},
+            {topic: 'Rendering', emoji: '🖼️🔍', question: 'What is path tracing?', options: ['Ray tracing extension for realism', 'Simple rendering', 'No tracing', '2D only'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Graphics', emoji: '🎨🖼️', question: 'Name three graphics APIs', answer: 'OpenGL, DirectX, Vulkan, Metal, WebGL (any 3)'},
+            {topic: '2D', emoji: '🖼️📐', question: 'Name three image formats', answer: 'JPEG, PNG, GIF, BMP, SVG (any 3)'},
+            {topic: 'Graphics', emoji: '🎨🎮', question: 'Name three game engines', answer: 'Unity, Unreal Engine, Godot, CryEngine (any 3)'},
+            {topic: '3D', emoji: '📦🎨', question: 'Name three 3D modeling software', answer: 'Blender, Maya, 3ds Max, Cinema 4D, ZBrush (any 3)'},
+            {topic: 'Graphics', emoji: '🎨🖱️', question: 'Name three graphics software', answer: 'Photoshop, Illustrator, GIMP, Inkscape, Affinity (any 3)'},
+            {topic: 'Rendering', emoji: '🖼️⚡', question: 'Name three rendering techniques', answer: 'Ray tracing, Rasterization, Path tracing, Radiosity (any 3)'},
+            {topic: 'Graphics', emoji: '🎨📹', question: 'Name three animation principles', answer: 'Squash and stretch, Anticipation, Timing, Follow-through (any 3)'},
+            {topic: '3D', emoji: '📦🎬', question: 'Name three 3D file formats', answer: 'OBJ, FBX, STL, GLTF, Collada (any 3)'},
+            {topic: 'Graphics', emoji: '🎨💡', question: 'Name three lighting types', answer: 'Ambient, Diffuse, Specular, Point light, Directional (any 3)'},
+            {topic: 'Rendering', emoji: '🖼️🔍', question: 'Name three shader types', answer: 'Vertex shader, Fragment shader, Geometry shader, Compute shader (any 3)'}
+        ]
+    }
+,
+    17: { // Chapter 17: Robotics
+        easy: [
+            {topic: 'Robots', emoji: '🤖🔧', question: 'Robots are automated machines.', options: ['True', 'False'], correct: 0},
+            {topic: 'Applications', emoji: '🏭🤖', question: 'Factories use robots.', options: ['True', 'False'], correct: 0},
+            {topic: 'Robots', emoji: '🤖⚙️', question: 'Robots have sensors.', options: ['True', 'False'], correct: 0},
+            {topic: 'AI', emoji: '🤖🧠', question: 'AI powers smart robots.', options: ['True', 'False'], correct: 0},
+            {topic: 'Applications', emoji: '🏥🤖', question: 'Robots assist in surgery.', options: ['True', 'False'], correct: 0},
+            {topic: 'Robots', emoji: '🤖💪', question: 'Robots can lift heavy objects.', options: ['True', 'False'], correct: 0},
+            {topic: 'Programming', emoji: '💻🤖', question: 'Robots need programming.', options: ['True', 'False'], correct: 0},
+            {topic: 'Applications', emoji: '🚗🤖', question: 'Self-driving cars are robots.', options: ['True', 'False'], correct: 0},
+            {topic: 'Robots', emoji: '🤖👁️', question: 'Robots use computer vision.', options: ['True', 'False'], correct: 0},
+            {topic: 'Future', emoji: '🤖🚀', question: 'Robotics is growing field.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Robots', emoji: '🤖🔧', question: 'What is a robot?', options: ['Programmable machine for tasks', 'Human worker'], correct: 0},
+            {topic: 'Applications', emoji: '🏭🤖', question: 'What is industrial robotics?', options: ['Robots in manufacturing', 'Home robots'], correct: 0},
+            {topic: 'Robots', emoji: '🤖⚙️', question: 'What does an actuator do?', options: ['Moves robot parts', 'Sensor'], correct: 0},
+            {topic: 'AI', emoji: '🤖🧠', question: 'What is autonomous robot?', options: ['Operates without human control', 'Remote controlled'], correct: 0},
+            {topic: 'Applications', emoji: '🏥🤖', question: 'What is surgical robot?', options: ['Assists in precise surgery', 'Replaces doctors'], correct: 0},
+            {topic: 'Robots', emoji: '🤖💪', question: 'What is a robotic arm?', options: ['Manipulator for tasks', 'Human arm'], correct: 0},
+            {topic: 'Programming', emoji: '💻🤖', question: 'What is ROS?', options: ['Robot Operating System', 'Regular OS'], correct: 0},
+            {topic: 'Applications', emoji: '🚗🤖', question: 'What is a drone?', options: ['Unmanned aerial vehicle', 'Ground robot'], correct: 0},
+            {topic: 'Robots', emoji: '🤖👁️', question: 'What is LIDAR?', options: ['Light detection and ranging', 'Camera'], correct: 0},
+            {topic: 'Future', emoji: '🤖🚀', question: 'What is humanoid robot?', options: ['Human-like appearance', 'Animal-like'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Robots', emoji: '🤖🔧', question: 'What is kinematics?', options: ['Study of robot motion', 'Power source', 'Sensor type'], correct: 0},
+            {topic: 'Applications', emoji: '🏭🤖', question: 'What is collaborative robot (cobot)?', options: ['Works alongside humans', 'Isolated operation', 'No collaboration'], correct: 0},
+            {topic: 'Robots', emoji: '🤖⚙️', question: 'What is degrees of freedom in robotics?', options: ['Independent motion directions', 'Temperature range', 'No freedom'], correct: 0},
+            {topic: 'AI', emoji: '🤖🧠', question: 'What is SLAM?', options: ['Simultaneous Localization and Mapping', 'Simple Linear Algorithm', 'No SLAM'], correct: 0},
+            {topic: 'Applications', emoji: '🏥🤖', question: 'What is the da Vinci surgical system?', options: ['Robotic surgery platform', 'Painting tool', 'No system'], correct: 0},
+            {topic: 'Robots', emoji: '🤖💪', question: 'What is end effector?', options: ['Tool at robot arm end', 'Starting point', 'No effector'], correct: 0},
+            {topic: 'Programming', emoji: '💻🤖', question: 'What is path planning?', options: ['Calculate robot movement route', 'Random movement', 'No planning'], correct: 0},
+            {topic: 'Applications', emoji: '🚗🤖', question: 'What is swarm robotics?', options: ['Coordinated multi-robot system', 'Single robot', 'No coordination'], correct: 0},
+            {topic: 'Robots', emoji: '🤖👁️', question: 'What is sensor fusion?', options: ['Combine multiple sensor data', 'Single sensor', 'No fusion'], correct: 0},
+            {topic: 'Future', emoji: '🤖🚀', question: 'What is soft robotics?', options: ['Flexible compliant materials', 'Hard metals only', 'No flexibility'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Robots', emoji: '🤖🔧', question: 'What are the three laws of robotics by Asimov?', options: ['Harm prevention, Obey orders, Self-preservation', 'Speed, Accuracy, Strength', 'No laws', 'One law'], correct: 0},
+            {topic: 'Applications', emoji: '🏭🤖', question: 'What is typical robot arm accuracy?', options: ['±0.1 mm for industrial', '±10 cm', '±1 m', 'No accuracy'], correct: 0},
+            {topic: 'Robots', emoji: '🤖⚙️', question: 'What is a 6-axis robot?', options: ['Robot with 6 degrees of freedom', '6 wheels', '6 sensors', '6 motors'], correct: 0},
+            {topic: 'AI', emoji: '🤖🧠', question: 'What is reinforcement learning in robotics?', options: ['Learn through trial and reward', 'Supervised learning', 'No learning', 'Pre-programmed only'], correct: 0},
+            {topic: 'Applications', emoji: '🏥🤖', question: 'What is typical robot surgery precision?', options: ['Sub-millimeter accuracy', '1 cm', '10 cm', 'No precision'], correct: 0},
+            {topic: 'Robots', emoji: '🤖💪', question: 'What is the payload capacity of industrial robots?', options: ['10 kg - 1000 kg range', '1 kg max', '10 tons', 'Unlimited'], correct: 0},
+            {topic: 'Programming', emoji: '💻🤖', question: 'What is inverse kinematics?', options: ['Calculate joint angles from desired position', 'Forward motion', 'No calculation', 'Random angles'], correct: 0},
+            {topic: 'Applications', emoji: '🚗🤖', question: 'What is the Turing test for robots?', options: ['Test if robot exhibits human-like intelligence', 'Speed test', 'No test', 'Strength test'], correct: 0},
+            {topic: 'Robots', emoji: '🤖👁️', question: 'What is typical camera frame rate for robot vision?', options: ['30-60 FPS', '1 FPS', '1000 FPS', 'No frames'], correct: 0},
+            {topic: 'Future', emoji: '🤖🚀', question: 'What is the uncanny valley?', options: ['Discomfort with human-like robots', 'Physical valley', 'No valley', 'Happy feeling'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Robots', emoji: '🤖🔧', question: 'Name three types of robots', answer: 'Industrial, Service, Humanoid, Mobile, Surgical (any 3)'},
+            {topic: 'Applications', emoji: '🏭🤖', question: 'Name three robot applications', answer: 'Manufacturing, Surgery, Exploration, Agriculture, Delivery (any 3)'},
+            {topic: 'Robots', emoji: '🤖⚙️', question: 'Name three robot components', answer: 'Sensors, Actuators, Controller, Power supply, End effector (any 3)'},
+            {topic: 'AI', emoji: '🤖🧠', question: 'Name three robot sensing methods', answer: 'Vision, LIDAR, Ultrasonic, Touch, IMU (any 3)'},
+            {topic: 'Applications', emoji: '🏥🤖', question: 'Name three surgical robot advantages', answer: 'Precision, Minimal invasion, Steady hands, Better visualization (any 3)'},
+            {topic: 'Robots', emoji: '🤖💪', question: 'Name three robot arm joints', answer: 'Shoulder, Elbow, Wrist, Base, Tool (any 3)'},
+            {topic: 'Programming', emoji: '💻🤖', question: 'Name three robot programming methods', answer: 'Text-based, Teach pendant, Simulation, Visual programming (any 3)'},
+            {topic: 'Applications', emoji: '🚗🤖', question: 'Name three autonomous vehicle sensors', answer: 'LIDAR, Camera, Radar, GPS, Ultrasonic (any 3)'},
+            {topic: 'Robots', emoji: '🤖👁️', question: 'Name three computer vision tasks for robots', answer: 'Object detection, Localization, Tracking, Recognition (any 3)'},
+            {topic: 'Future', emoji: '🤖🚀', question: 'Name three robotics challenges', answer: 'AI, Power efficiency, Cost, Safety, Ethics (any 3)'}
+        ]
+    },
+    18: { // Chapter 18: Virtual Reality
+        easy: [
+            {topic: 'VR', emoji: '🥽🌐', question: 'VR creates immersive experiences.', options: ['True', 'False'], correct: 0},
+            {topic: 'Hardware', emoji: '🥽💻', question: 'VR headsets display virtual worlds.', options: ['True', 'False'], correct: 0},
+            {topic: 'VR', emoji: '🥽🎮', question: 'Games use VR technology.', options: ['True', 'False'], correct: 0},
+            {topic: 'AR', emoji: '📱🌍', question: 'AR overlays digital on real world.', options: ['True', 'False'], correct: 0},
+            {topic: 'VR', emoji: '🥽👓', question: 'VR is different from AR.', options: ['True', 'False'], correct: 0},
+            {topic: 'Applications', emoji: '🏫🥽', question: 'VR is used for training.', options: ['True', 'False'], correct: 0},
+            {topic: 'VR', emoji: '🥽🎬', question: 'VR creates 360-degree experiences.', options: ['True', 'False'], correct: 0},
+            {topic: 'Hardware', emoji: '🎮🥽', question: 'Controllers enable VR interaction.', options: ['True', 'False'], correct: 0},
+            {topic: 'VR', emoji: '🥽🏠', question: 'VR can simulate environments.', options: ['True', 'False'], correct: 0},
+            {topic: 'Applications', emoji: '🎨🥽', question: 'VR enables virtual tours.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'VR', emoji: '🥽🌐', question: 'What is virtual reality?', options: ['Computer-generated immersive environment', 'Real world'], correct: 0},
+            {topic: 'Hardware', emoji: '🥽💻', question: 'What is a VR headset?', options: ['Head-mounted display', 'Regular screen'], correct: 0},
+            {topic: 'VR', emoji: '🥽🎮', question: 'What is 6DOF?', options: ['Six Degrees of Freedom', 'Six Days of Fun'], correct: 0},
+            {topic: 'AR', emoji: '📱🌍', question: 'What is augmented reality?', options: ['Overlay digital on physical', 'Pure virtual'], correct: 0},
+            {topic: 'VR', emoji: '🥽👓', question: 'What is mixed reality?', options: ['Blend of VR and AR', 'VR only'], correct: 0},
+            {topic: 'Applications', emoji: '🏫🥽', question: 'What is VR training?', options: ['Practice skills in virtual environment', 'Book learning'], correct: 0},
+            {topic: 'VR', emoji: '🥽🎬', question: 'What is presence in VR?', options: ['Feeling of being there', 'No feeling'], correct: 0},
+            {topic: 'Hardware', emoji: '🎮🥽', question: 'What is haptic feedback?', options: ['Touch sensations', 'Visual only'], correct: 0},
+            {topic: 'VR', emoji: '🥽🏠', question: 'What is room-scale VR?', options: ['Move in physical space', 'Seated only'], correct: 0},
+            {topic: 'Applications', emoji: '🎨🥽', question: 'What is virtual tour?', options: ['Explore place virtually', 'Physical visit'], correct: 0}
+        ],
+        hard: [
+            {topic: 'VR', emoji: '🥽🌐', question: 'What is stereoscopic 3D?', options: ['Different images for each eye', 'Same image both eyes', 'No 3D'], correct: 0},
+            {topic: 'Hardware', emoji: '🥽💻', question: 'What is the field of view in VR?', options: ['Visible area in headset', 'Headset weight', 'No view'], correct: 0},
+            {topic: 'VR', emoji: '🥽🎮', question: 'What is inside-out tracking?', options: ['Headset tracks itself', 'External sensors track', 'No tracking'], correct: 0},
+            {topic: 'AR', emoji: '📱🌍', question: 'What is marker-based AR?', options: ['Use visual markers for positioning', 'No markers', 'Random placement'], correct: 0},
+            {topic: 'VR', emoji: '🥽👓', question: 'What is passthrough mode?', options: ['See real world through VR headset', 'Virtual only', 'No view'], correct: 0},
+            {topic: 'Applications', emoji: '🏫🥽', question: 'What is VR therapy?', options: ['Treat conditions with VR', 'Regular therapy', 'No treatment'], correct: 0},
+            {topic: 'VR', emoji: '🥽🎬', question: 'What is locomotion in VR?', options: ['Movement in virtual space', 'Standing still', 'No movement'], correct: 0},
+            {topic: 'Hardware', emoji: '🎮🥽', question: 'What is latency in VR?', options: ['Delay between action and display', 'No delay', 'Speed'], correct: 0},
+            {topic: 'VR', emoji: '🥽🏠', question: 'What is social VR?', options: ['Interact with others in VR', 'Single player', 'No interaction'], correct: 0},
+            {topic: 'Applications', emoji: '🎨🥽', question: 'What is VR cinema?', options: ['Watch movies in virtual theater', 'Regular cinema', 'No viewing'], correct: 0}
+        ],
+        expert: [
+            {topic: 'VR', emoji: '🥽🌐', question: 'What is the typical VR headset refresh rate?', options: ['90-120 Hz', '30 Hz', '10 Hz', '1000 Hz'], correct: 0},
+            {topic: 'Hardware', emoji: '🥽💻', question: 'What is the Oculus Quest resolution per eye?', options: ['~1832 x 1920 pixels', '640 x 480', '4K', '8K'], correct: 0},
+            {topic: 'VR', emoji: '🥽🎮', question: 'What causes VR motion sickness?', options: ['Sensory mismatch', 'Perfect tracking', 'No cause', 'High frame rate'], correct: 0},
+            {topic: 'AR', emoji: '📱🌍', question: 'What is SLAM in AR?', options: ['Simultaneous Localization and Mapping', 'Simple Linear Algorithm', 'No SLAM', 'Screen Level Adjustment'], correct: 0},
+            {topic: 'VR', emoji: '🥽👓', question: 'What is the metaverse?', options: ['Shared virtual world', 'Single game', 'No connection', 'Website'], correct: 0},
+            {topic: 'Applications', emoji: '🏫🥽', question: 'What is surgical VR training effectiveness?', options: ['Improves skills by 30-50%', 'No improvement', '100% mastery', '5% improvement'], correct: 0},
+            {topic: 'VR', emoji: '🥽🎬', question: 'What is foveated rendering?', options: ['Render high quality where user looks', 'Equal quality everywhere', 'No rendering', 'Low quality only'], correct: 0},
+            {topic: 'Hardware', emoji: '🎮🥽', question: 'What is acceptable VR latency?', options: ['<20 milliseconds', '500 ms', '1 second', '10 seconds'], correct: 0},
+            {topic: 'VR', emoji: '🥽🏠', question: 'What is volumetric capture?', options: ['Record 3D space and movement', '2D video', 'No capture', 'Audio only'], correct: 0},
+            {topic: 'Applications', emoji: '🎨🥽', question: 'What is the VR market size projection for 2025?', options: ['$50-70 billion', '$1 billion', '$500 billion', '$100 million'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'VR', emoji: '🥽🌐', question: 'Name three VR display technologies', answer: 'LCD, OLED, MicroLED'},
+            {topic: 'Hardware', emoji: '🥽💻', question: 'Name three VR headsets', answer: 'Meta Quest, PlayStation VR, HTC Vive, Valve Index (any 3)'},
+            {topic: 'VR', emoji: '🥽🎮', question: 'Name three VR tracking methods', answer: 'Inside-out, Outside-in, Optical, Inertial (any 3)'},
+            {topic: 'AR', emoji: '📱🌍', question: 'Name three AR devices', answer: 'Microsoft HoloLens, Magic Leap, Google Glass, Smartphone AR (any 3)'},
+            {topic: 'VR', emoji: '🥽👓', question: 'Name three XR categories', answer: 'VR (Virtual Reality), AR (Augmented Reality), MR (Mixed Reality)'},
+            {topic: 'Applications', emoji: '🏫🥽', question: 'Name three VR application areas', answer: 'Gaming, Training, Education, Healthcare, Real estate (any 3)'},
+            {topic: 'VR', emoji: '🥽🎬', question: 'Name three VR challenges', answer: 'Motion sickness, Cost, Content, Resolution, Comfort (any 3)'},
+            {topic: 'Hardware', emoji: '🎮🥽', question: 'Name three VR input methods', answer: 'Controllers, Hand tracking, Voice, Eye tracking (any 3)'},
+            {topic: 'VR', emoji: '🥽🏠', question: 'Name three VR platforms', answer: 'SteamVR, Oculus Platform, PlayStation VR, Viveport (any 3)'},
+            {topic: 'Applications', emoji: '🎨🥽', question: 'Name three VR content types', answer: 'Games, Videos, Simulations, Social spaces, Training (any 3)'}
+        ]
+    },
+    19: { // Chapter 19: Quantum Computing
+        easy: [
+            {topic: 'Quantum', emoji: '⚛️💻', question: 'Quantum computers are different from regular computers.', options: ['True', 'False'], correct: 0},
+            {topic: 'Qubits', emoji: '⚛️🔢', question: 'Qubits are quantum bits.', options: ['True', 'False'], correct: 0},
+            {topic: 'Quantum', emoji: '⚛️⚡', question: 'Quantum computers are very fast.', options: ['True', 'False'], correct: 0},
+            {topic: 'Science', emoji: '🔬⚛️', question: 'Quantum computing uses quantum physics.', options: ['True', 'False'], correct: 0},
+            {topic: 'Quantum', emoji: '⚛️🌡️', question: 'Quantum computers need extreme cold.', options: ['True', 'False'], correct: 0},
+            {topic: 'Applications', emoji: '🔐⚛️', question: 'Quantum computers affect cryptography.', options: ['True', 'False'], correct: 0},
+            {topic: 'Quantum', emoji: '⚛️🧪', question: 'Quantum computing is experimental.', options: ['True', 'False'], correct: 0},
+            {topic: 'Qubits', emoji: '⚛️💡', question: 'Qubits can be 0 and 1 simultaneously.', options: ['True', 'False'], correct: 0},
+            {topic: 'Quantum', emoji: '⚛️🏢', question: 'Tech companies invest in quantum computing.', options: ['True', 'False'], correct: 0},
+            {topic: 'Future', emoji: '⚛️🚀', question: 'Quantum computing is future technology.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Quantum', emoji: '⚛️💻', question: 'What defines quantum computing?', options: ['Computing using quantum mechanics', 'Regular computing'], correct: 0},
+            {topic: 'Qubits', emoji: '⚛️🔢', question: 'What is a qubit?', options: ['Quantum bit', 'Regular bit'], correct: 0},
+            {topic: 'Quantum', emoji: '⚛️⚡', question: 'What is quantum advantage?', options: ['Quantum outperforms classical', 'No advantage'], correct: 0},
+            {topic: 'Science', emoji: '🔬⚛️', question: 'What is superposition?', options: ['Exist in multiple states', 'Single state'], correct: 0},
+            {topic: 'Quantum', emoji: '⚛️🌡️', question: 'What temperature do quantum computers need?', options: ['Near absolute zero', 'Room temperature'], correct: 0},
+            {topic: 'Applications', emoji: '🔐⚛️', question: 'What is quantum cryptography?', options: ['Secure communication using quantum', 'Regular encryption'], correct: 0},
+            {topic: 'Quantum', emoji: '⚛️🧪', question: 'What is quantum annealing?', options: ['Find optimal solutions', 'Regular computation'], correct: 0},
+            {topic: 'Qubits', emoji: '⚛️💡', question: 'What is entanglement?', options: ['Qubits connected regardless of distance', 'No connection'], correct: 0},
+            {topic: 'Quantum', emoji: '⚛️🏢', question: 'What is IBM Q?', options: ['IBM quantum computer', 'Regular computer'], correct: 0},
+            {topic: 'Future', emoji: '⚛️🚀', question: 'What is quantum supremacy?', options: ['Quantum solves unsolvable classical problems', 'No difference'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Quantum', emoji: '⚛️💻', question: 'What is a quantum gate?', options: ['Basic quantum operation', 'Physical gate', 'No operation'], correct: 0},
+            {topic: 'Qubits', emoji: '⚛️🔢', question: 'What is quantum decoherence?', options: ['Loss of quantum state', 'Perfect stability', 'No loss'], correct: 0},
+            {topic: 'Quantum', emoji: '⚛️⚡', question: 'What is Grover\'s algorithm?', options: ['Quantum search algorithm', 'Classical algorithm', 'No algorithm'], correct: 0},
+            {topic: 'Science', emoji: '🔬⚛️', question: 'What is quantum interference?', options: ['Combine quantum states', 'Block states', 'No combination'], correct: 0},
+            {topic: 'Quantum', emoji: '⚛️🌡️', question: 'What is a dilution refrigerator?', options: ['Cools quantum computers', 'Regular fridge', 'Heater'], correct: 0},
+            {topic: 'Applications', emoji: '🔐⚛️', question: 'What is Shor\'s algorithm?', options: ['Factor numbers efficiently', 'Encrypt data', 'No algorithm'], correct: 0},
+            {topic: 'Quantum', emoji: '⚛️🧪', question: 'What is topological qubit?', options: ['Error-resistant qubit design', 'Regular qubit', 'No design'], correct: 0},
+            {topic: 'Qubits', emoji: '⚛️💡', question: 'What is quantum measurement?', options: ['Collapse superposition to definite state', 'No change', 'Continuous'], correct: 0},
+            {topic: 'Quantum', emoji: '⚛️🏢', question: 'What is D-Wave?', options: ['Quantum annealing company', 'Classical computer', 'No company'], correct: 0},
+            {topic: 'Future', emoji: '⚛️🚀', question: 'What is quantum error correction?', options: ['Fix errors in quantum computation', 'No correction', 'Classical method'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Quantum', emoji: '⚛️💻', question: 'What is the typical qubit coherence time?', options: ['Microseconds to milliseconds', 'Hours', 'Years', 'Seconds'], correct: 0},
+            {topic: 'Qubits', emoji: '⚛️🔢', question: 'What is the no-cloning theorem?', options: ['Cannot copy unknown quantum state', 'Can copy everything', 'No theorem', 'Classical only'], correct: 0},
+            {topic: 'Quantum', emoji: '⚛️⚡', question: 'What speedup does Grover provide?', options: ['Quadratic (square root)', 'Exponential', 'Linear', 'No speedup'], correct: 0},
+            {topic: 'Science', emoji: '🔬⚛️', question: 'What is the Bloch sphere?', options: ['Represent qubit state geometrically', 'Physical ball', 'No representation', 'Cube'], correct: 0},
+            {topic: 'Quantum', emoji: '⚛️🌡️', question: 'What temperature is needed for superconducting qubits?', options: ['~15 millikelvin', '0°C', '100°C', 'Room temp'], correct: 0},
+            {topic: 'Applications', emoji: '🔐⚛️', question: 'What is BB84 protocol?', options: ['Quantum key distribution', 'Classical encryption', 'No protocol', 'Web protocol'], correct: 0},
+            {topic: 'Quantum', emoji: '⚛️🧪', question: 'What is adiabatic quantum computing?', options: ['Evolve system to find solution', 'Gate-based computing', 'No computing', 'Classical method'], correct: 0},
+            {topic: 'Qubits', emoji: '⚛️💡', question: 'What is the quantum volume metric?', options: ['Measure quantum computer capability', 'Physical volume', 'No metric', 'Speed only'], correct: 0},
+            {topic: 'Quantum', emoji: '⚛️🏢', question: 'How many qubits did Google\'s Sycamore have?', options: ['53', '1', '1000', '10'], correct: 0},
+            {topic: 'Future', emoji: '⚛️🚀', question: 'What is fault-tolerant quantum computing?', options: ['Reliable computation despite errors', 'No errors possible', 'Ignore errors', 'Classical fallback'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Quantum', emoji: '⚛️💻', question: 'Name three quantum computing approaches', answer: 'Gate-based, Annealing, Topological'},
+            {topic: 'Qubits', emoji: '⚛️🔢', question: 'Name three qubit implementations', answer: 'Superconducting, Ion trap, Photonic, Topological (any 3)'},
+            {topic: 'Quantum', emoji: '⚛️⚡', question: 'Name three quantum algorithms', answer: 'Shor, Grover, VQE, QAOA, Deutsch-Jozsa (any 3)'},
+            {topic: 'Science', emoji: '🔬⚛️', question: 'Name three quantum properties', answer: 'Superposition, Entanglement, Interference'},
+            {topic: 'Quantum', emoji: '⚛️🌡️', question: 'Name three quantum computer components', answer: 'Qubits, Control electronics, Dilution refrigerator, Shielding (any 3)'},
+            {topic: 'Applications', emoji: '🔐⚛️', question: 'Name three quantum computing applications', answer: 'Cryptography, Drug discovery, Optimization, Finance, AI (any 3)'},
+            {topic: 'Quantum', emoji: '⚛️🧪', question: 'Name three quantum computing companies', answer: 'IBM, Google, D-Wave, Rigetti, IonQ (any 3)'},
+            {topic: 'Qubits', emoji: '⚛️💡', question: 'Name three quantum gates', answer: 'Hadamard, CNOT, Pauli-X, Pauli-Z, T-gate (any 3)'},
+            {topic: 'Quantum', emoji: '⚛️🏢', question: 'Name three challenges in quantum computing', answer: 'Decoherence, Error rates, Scalability, Cost, Temperature (any 3)'},
+            {topic: 'Future', emoji: '⚛️🚀', question: 'Name three quantum advantage domains', answer: 'Cryptography, Simulation, Optimization, Machine learning (any 3)'}
+        ]
+    },
+    20: { // Chapter 20: Tech Ethics
+        easy: [
+            {topic: 'Ethics', emoji: '⚖️💻', question: 'Technology raises ethical questions.', options: ['True', 'False'], correct: 0},
+            {topic: 'Privacy', emoji: '🔐👤', question: 'Privacy is important online.', options: ['True', 'False'], correct: 0},
+            {topic: 'Ethics', emoji: '⚖️🤖', question: 'AI needs ethical guidelines.', options: ['True', 'False'], correct: 0},
+            {topic: 'Data', emoji: '📊🔒', question: 'Data collection has privacy concerns.', options: ['True', 'False'], correct: 0},
+            {topic: 'Ethics', emoji: '⚖️🌍', question: 'Technology impacts society.', options: ['True', 'False'], correct: 0},
+            {topic: 'Bias', emoji: '⚠️🤖', question: 'AI can have biases.', options: ['True', 'False'], correct: 0},
+            {topic: 'Ethics', emoji: '⚖️📱', question: 'Social media affects mental health.', options: ['True', 'False'], correct: 0},
+            {topic: 'Environment', emoji: '🌱💻', question: 'Tech has environmental impact.', options: ['True', 'False'], correct: 0},
+            {topic: 'Ethics', emoji: '⚖️👥', question: 'Digital divide creates inequality.', options: ['True', 'False'], correct: 0},
+            {topic: 'Security', emoji: '🔒💻', question: 'Cybersecurity is ethical responsibility.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Ethics', emoji: '⚖️💻', question: 'What is tech ethics?', options: ['Moral principles in technology', 'No ethics'], correct: 0},
+            {topic: 'Privacy', emoji: '🔐👤', question: 'What is data privacy?', options: ['Control over personal information', 'No control'], correct: 0},
+            {topic: 'Ethics', emoji: '⚖️🤖', question: 'What is algorithmic bias?', options: ['Unfair AI decisions', 'Fair treatment'], correct: 0},
+            {topic: 'Data', emoji: '📊🔒', question: 'What is informed consent?', options: ['Agreement with full knowledge', 'No knowledge needed'], correct: 0},
+            {topic: 'Ethics', emoji: '⚖️🌍', question: 'What is digital citizenship?', options: ['Responsible technology use', 'No responsibility'], correct: 0},
+            {topic: 'Bias', emoji: '⚠️🤖', question: 'What is facial recognition bias?', options: ['Inaccuracy across demographics', 'Perfect accuracy'], correct: 0},
+            {topic: 'Ethics', emoji: '⚖️📱', question: 'What is attention economy?', options: ['Monetize user attention', 'Free content'], correct: 0},
+            {topic: 'Environment', emoji: '🌱💻', question: 'What is e-waste?', options: ['Discarded electronics', 'Regular trash'], correct: 0},
+            {topic: 'Ethics', emoji: '⚖️👥', question: 'What is digital divide?', options: ['Gap in technology access', 'No gap'], correct: 0},
+            {topic: 'Security', emoji: '🔒💻', question: 'What is ethical hacking?', options: ['Authorized security testing', 'Illegal hacking'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Ethics', emoji: '⚖️💻', question: 'What is the trolley problem in AI?', options: ['Ethical decision in autonomous systems', 'Train problem', 'No problem'], correct: 0},
+            {topic: 'Privacy', emoji: '🔐👤', question: 'What is differential privacy?', options: ['Add noise to protect individuals', 'No privacy', 'Perfect privacy'], correct: 0},
+            {topic: 'Ethics', emoji: '⚖️🤖', question: 'What is explainable AI?', options: ['AI that can explain decisions', 'Black box', 'No explanation'], correct: 0},
+            {topic: 'Data', emoji: '📊🔒', question: 'What is right to be forgotten?', options: ['Delete personal data from internet', 'Keep forever', 'No rights'], correct: 0},
+            {topic: 'Ethics', emoji: '⚖️🌍', question: 'What is surveillance capitalism?', options: ['Profit from behavioral data', 'Free services', 'No surveillance'], correct: 0},
+            {topic: 'Bias', emoji: '⚠️🤖', question: 'What is training data bias?', options: ['Biased data leads to biased AI', 'Perfect data', 'No bias'], correct: 0},
+            {topic: 'Ethics', emoji: '⚖️📱', question: 'What is dark pattern?', options: ['Manipulative UI design', 'Helpful design', 'No pattern'], correct: 0},
+            {topic: 'Environment', emoji: '🌱💻', question: 'What is green computing?', options: ['Environmentally responsible computing', 'Color choice', 'No responsibility'], correct: 0},
+            {topic: 'Ethics', emoji: '⚖️👥', question: 'What is algorithmic accountability?', options: ['Responsibility for automated decisions', 'No accountability', 'Perfect algorithms'], correct: 0},
+            {topic: 'Security', emoji: '🔒💻', question: 'What is responsible disclosure?', options: ['Report vulnerabilities to vendor first', 'Publish immediately', 'Hide forever'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Ethics', emoji: '⚖️💻', question: 'What is the IEEE code of ethics for engineers?', options: ['Professional conduct guidelines', 'No code', 'Informal rules', 'Company policy'], correct: 0},
+            {topic: 'Privacy', emoji: '🔐👤', question: 'What percentage of users read privacy policies?', options: ['~1-9%', '90%', '50%', '100%'], correct: 0},
+            {topic: 'Ethics', emoji: '⚖️🤖', question: 'What is the European AI Act?', options: ['Regulate AI based on risk level', 'No regulation', 'Ban all AI', 'US law'], correct: 0},
+            {topic: 'Data', emoji: '📊🔒', question: 'What is GDPR maximum fine?', options: ['€20M or 4% of revenue, whichever higher', '€100', 'No fine', 'Unlimited'], correct: 0},
+            {topic: 'Ethics', emoji: '⚖️🌍', question: 'What is the digital divide percentage globally?', options: ['~40% lack internet access', '1%', '90%', '0%'], correct: 0},
+            {topic: 'Bias', emoji: '⚠️🤖', question: 'What is the COMPAS bias controversy?', options: ['Racial bias in recidivism prediction', 'No bias', 'Perfect system', 'Weather prediction'], correct: 0},
+            {topic: 'Ethics', emoji: '⚖️📱', question: 'What is the average daily screen time?', options: ['~7 hours', '1 hour', '30 minutes', '24 hours'], correct: 0},
+            {topic: 'Environment', emoji: '🌱💻', question: 'What is data center energy use percentage?', options: ['~1-2% of global electricity', '50%', '0.01%', '20%'], correct: 0},
+            {topic: 'Ethics', emoji: '⚖️👥', question: 'What is digital redlining?', options: ['Discriminatory access to services', 'Equal access', 'No discrimination', 'Physical boundaries'], correct: 0},
+            {topic: 'Security', emoji: '🔒💻', question: 'What is the average data breach cost?', options: ['~$4-5 million', '$100', '$1 billion', '$10'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Ethics', emoji: '⚖️💻', question: 'Name three tech ethics principles', answer: 'Privacy, Fairness, Transparency, Accountability, Security (any 3)'},
+            {topic: 'Privacy', emoji: '🔐👤', question: 'Name three data protection laws', answer: 'GDPR, CCPA, HIPAA, COPPA, PCI DSS (any 3)'},
+            {topic: 'Ethics', emoji: '⚖️🤖', question: 'Name three AI ethics concerns', answer: 'Bias, Privacy, Transparency, Accountability, Job displacement (any 3)'},
+            {topic: 'Data', emoji: '📊🔒', question: 'Name three data protection rights', answer: 'Access, Deletion, Portability, Rectification, Restriction (any 3)'},
+            {topic: 'Ethics', emoji: '⚖️🌍', question: 'Name three social impacts of technology', answer: 'Digital divide, Mental health, Privacy, Jobs, Democracy (any 3)'},
+            {topic: 'Bias', emoji: '⚠️🤖', question: 'Name three types of AI bias', answer: 'Data bias, Algorithmic bias, Human bias, Selection bias (any 3)'},
+            {topic: 'Ethics', emoji: '⚖️📱', question: 'Name three dark pattern types', answer: 'Confirmshaming, Hidden costs, Forced continuity, Misdirection (any 3)'},
+            {topic: 'Environment', emoji: '🌱💻', question: 'Name three green computing practices', answer: 'Energy efficiency, Recycling, Renewable energy, Virtualization (any 3)'},
+            {topic: 'Ethics', emoji: '⚖️👥', question: 'Name three ethical frameworks for tech', answer: 'Utilitarianism, Deontology, Virtue ethics, Care ethics (any 3)'},
+            {topic: 'Security', emoji: '🔒💻', question: 'Name three responsible disclosure steps', answer: 'Report to vendor, Allow fix time, Coordinate disclosure, Avoid harm (any 3)'}
+        ]
+    }
+    // Add more chapters: 2, 3, 4... unlimited!
 };

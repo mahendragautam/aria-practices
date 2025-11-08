@@ -8,11 +8,6 @@
  * ⚠️ IMPORTANT: This must load AFTER all question snippets!
  * Make sure Priority is 20 (higher than all question snippets 10-19)
  *
- * 🚀 PERFORMANCE OPTIMIZATION ENABLED:
- * - Browser caching for offline play (30 days)
- * - Gzip compression (70% smaller downloads)
- * - Loading progress indicator
- *
  * COPY ALL CODE BELOW
  */
 
@@ -48,151 +43,6 @@ const timeLimits = {
     extreme: 180,  // 3 minutes
     complete: 120  // 2 minutes for complete mix
 };
-
-// ===================================================
-// STATE PERSISTENCE - Stay on Same Page on Refresh
-// ===================================================
-
-// Save quiz state to sessionStorage
-function saveQuizState() {
-    const state = {
-        screen: getCurrentScreen(),
-        subject: currentSubject,
-        chapter: currentChapter,
-        level: currentLevel,
-        questionIndex: currentQuestionIndex,
-        score: score,
-        startTime: startTime,
-        isTimedMode: isTimedMode,
-        timeRemaining: timeRemaining,
-        quizMode: quizMode,
-        returnPage: returnPage,
-        shuffledQuestions: shuffledQuestions,
-        answered: answered
-    };
-
-    try {
-        sessionStorage.setItem('quizState', JSON.stringify(state));
-        console.log('✅ Quiz state saved');
-    } catch (e) {
-        console.warn('⚠️ Could not save state:', e);
-    }
-}
-
-// Get current active screen
-function getCurrentScreen() {
-    const screens = [
-        'home-page', 'chapter-selection', 'level-selection',
-        'quiz-container', 'result-container', 'timer-challenges-page',
-        'timer-subject-level-selection', 'practice-mode-page',
-        'riddles-page', 'dad-jokes-page'
-    ];
-
-    for (let screen of screens) {
-        const element = document.querySelector(`.${screen}`);
-        if (element && element.classList.contains('active')) {
-            return screen;
-        }
-    }
-    return 'home-page'; // Default
-}
-
-// Restore quiz state from sessionStorage
-function restoreQuizState() {
-    try {
-        const savedState = sessionStorage.getItem('quizState');
-        if (!savedState) {
-            console.log('ℹ️ No saved state, showing home page');
-            return false;
-        }
-
-        const state = JSON.parse(savedState);
-        console.log('🔄 Restoring saved state:', state.screen);
-
-        // Restore variables
-        currentSubject = state.subject || 'science';
-        currentChapter = state.chapter || 1;
-        currentLevel = state.level || 'easy';
-        currentQuestionIndex = state.questionIndex || 0;
-        score = state.score || 0;
-        startTime = state.startTime || Date.now();
-        isTimedMode = state.isTimedMode || false;
-        timeRemaining = state.timeRemaining || 0;
-        quizMode = state.quizMode || 'normal';
-        returnPage = state.returnPage || 'home';
-        shuffledQuestions = state.shuffledQuestions || [];
-        answered = state.answered || false;
-
-        // Restore the correct screen
-        switch(state.screen) {
-            case 'quiz-container':
-                if (shuffledQuestions.length > 0) {
-                    // Resume quiz
-                    if (isTimedMode && timeRemaining > 0) {
-                        startTimer(); // Resume timer
-                    }
-                    displayQuestion();
-                    showScreen('quiz-container');
-                } else {
-                    showHomePage();
-                }
-                break;
-
-            case 'chapter-selection':
-                const subjectData = subjects[currentSubject];
-                if (subjectData) {
-                    document.getElementById('subjectTitle').innerHTML = `${subjectData.emoji} ${subjectData.name} ${subjectData.emoji}`;
-                }
-                initializeChapters();
-                showScreen('chapter-selection');
-                break;
-
-            case 'level-selection':
-                document.getElementById('levelTitle').textContent = `Chapter ${currentChapter} - Select Difficulty Level`;
-                showScreen('level-selection');
-                break;
-
-            case 'timer-challenges-page':
-                initializeTimerSubjects();
-                showScreen('timer-challenges-page');
-                break;
-
-            case 'timer-subject-level-selection':
-                const timerSubjectData = subjects[currentSubject];
-                if (timerSubjectData) {
-                    document.getElementById('timerSubjectTitle').innerHTML = `${timerSubjectData.emoji} ${timerSubjectData.name} - Select Level`;
-                }
-                showScreen('timer-subject-level-selection');
-                break;
-
-            case 'practice-mode-page':
-                showScreen('practice-mode-page');
-                break;
-
-            case 'result-container':
-                showScreen('result-container');
-                break;
-
-            default:
-                showHomePage();
-        }
-
-        return true;
-    } catch (e) {
-        console.warn('⚠️ Could not restore state:', e);
-        return false;
-    }
-}
-
-// Clear quiz state (when user explicitly goes home)
-function clearQuizState() {
-    try {
-        sessionStorage.removeItem('quizState');
-        console.log('🗑️ Quiz state cleared');
-    } catch (e) {
-        console.warn('⚠️ Could not clear state:', e);
-    }
-}
 
 // Subjects definition
 const subjects = {
@@ -246,7 +96,6 @@ if (Object.keys(subjectQuestionBank).length < 10) {
 function showHomePage() {
     clearFallingEmojis(true); // Instant removal for button clicks
     stopTimer();
-    clearQuizState(); // Clear saved state when going home
     showScreen('home-page');
 }
 
@@ -576,7 +425,6 @@ function selectChapter(chapter) {
     currentChapter = chapter;
     document.getElementById('levelTitle').textContent = `Chapter ${chapter} - Select Difficulty Level`;
     showScreen('level-selection');
-    saveQuizState(); // Save state after chapter selection
 }
 
 function showChapterSelection() {
@@ -614,9 +462,6 @@ function showScreen(screenClass) {
         };
         history.pushState(state, '', `#${screenClass}`);
     }
-
-    // Save state after screen change
-    saveQuizState();
 }
 
 function startQuiz(level, timedMode = false) {
@@ -886,7 +731,6 @@ function nextQuestion() {
 
     if (currentQuestionIndex < 10) {
         displayQuestion();
-        saveQuizState(); // Save state after moving to next question
     } else {
         showResults();
     }
@@ -1157,18 +1001,8 @@ function addFloatingEmojis(emoji) {
 
 // Initialize on load
 window.onload = function() {
-    console.log('🚀 Quiz app initializing...');
-
-    // Try to restore previous state
-    const restored = restoreQuizState();
-
-    if (!restored) {
-        // Fresh start - no saved state
-        history.replaceState({screen: 'home-page'}, '', '#home-page');
-        showHomePage();
-    }
-
-    // Always initialize chapters for home page
+    // Set initial state
+    history.replaceState({screen: 'home-page'}, '', '#home-page');
     initializeChapters();
 };
 

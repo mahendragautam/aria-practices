@@ -240,7 +240,7 @@ body .wp-block-template-part footer {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 15px;
-    padding: 20px 10px;
+    padding: 0; /* No padding when collapsed - prevents gap */
     max-height: 0;
     overflow: hidden;
     opacity: 0;
@@ -250,6 +250,7 @@ body .wp-block-template-part footer {
 .subject-grid.expanded {
     max-height: 2000px;
     opacity: 1;
+    padding: 20px 10px; /* Add padding only when expanded */
 }
 
 .subject-card {

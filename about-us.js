@@ -3,24 +3,26 @@
  * Handles collapsible sections with smooth animations
  */
 
-// Toggle section open/close - Make it globally accessible
-window.toggleSection = function(sectionId) {
-    const section = document.getElementById(sectionId);
-    if (!section) return;
-
-    const header = section.querySelector('.section-header');
-    const content = section.querySelector('.section-content');
-
-    if (header && content) {
-        header.classList.toggle('active');
-        content.classList.toggle('active');
-    }
-}
-
-// Auto-open section if URL has hash and handle smooth scrolling
+// Initialize accordion functionality when DOM is loaded
 window.addEventListener('DOMContentLoaded', function() {
-    const hash = window.location.hash.substring(1);
+    // Add click listeners to all section headers
+    const sectionHeaders = document.querySelectorAll('.section-header');
 
+    sectionHeaders.forEach(function(header) {
+        header.addEventListener('click', function() {
+            const section = this.parentElement;
+            const content = section.querySelector('.section-content');
+
+            if (content) {
+                // Toggle active class
+                this.classList.toggle('active');
+                content.classList.toggle('active');
+            }
+        });
+    });
+
+    // Auto-open section if URL has hash
+    const hash = window.location.hash.substring(1);
     if (hash) {
         const section = document.getElementById(hash);
         if (section) {

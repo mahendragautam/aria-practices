@@ -29,7 +29,7 @@ html {
 .header {
     background: white;
     border-radius: 12px;
-    padding: 25px 20px;
+    padding: 20px;
     margin-bottom: 20px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
     text-align: center;
@@ -37,34 +37,8 @@ html {
 
 .header h1 {
     color: #667eea;
-    font-size: 2.2em;
-    margin-bottom: 15px;
-}
-
-.nav-links {
-    display: flex;
-    gap: 12px;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 15px;
-}
-
-.nav-links a {
-    text-decoration: none;
-    color: #667eea;
-    font-weight: 600;
-    padding: 8px 16px;
-    border-radius: 8px;
-    border: 2px solid #667eea;
-    transition: all 0.3s ease;
-    font-size: 0.95em;
-}
-
-.nav-links a:hover {
-    background: #667eea;
-    color: white;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+    font-size: 2em;
+    margin: 0;
 }
 
 /* Animated Emoji Banner (Top Banner) */
@@ -281,11 +255,11 @@ html {
 /* Footer */
 .footer {
     background: white;
-    border-radius: 15px;
-    padding: 30px;
+    border-radius: 12px;
+    padding: 25px 20px;
     text-align: center;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-    margin-top: 30px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+    margin-top: 20px;
 }
 
 .footer a {
@@ -298,14 +272,39 @@ html {
     text-decoration: underline;
 }
 
+/* Home Button - Prominent at Footer */
+.home-button {
+    display: inline-block;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white !important;
+    padding: 15px 40px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-decoration: none !important;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+}
+
+.home-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.5);
+    text-decoration: none !important;
+}
+
 /* Responsive Styles - Tablet */
 @media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
     .emoji-item {
         font-size: 50px;
     }
 
     .emoji-banner {
         padding: 25px 15px;
+        margin: 15px 0;
     }
 
     .emoji-tagline {
@@ -336,63 +335,51 @@ html {
         font-size: 1.05em;
     }
 
-    /* 2-column grid layout for navigation buttons */
-    .nav-links {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 10px;
-        margin-top: 15px;
-    }
-
-    .nav-links a {
-        width: 100%;
-        text-align: center;
-        padding: 10px 8px;
-        font-size: 0.9em;
-    }
-
-    /* Home button spans full width at bottom */
-    .nav-links a:last-child {
-        grid-column: 1 / -1;
-    }
-
     .header {
-        padding: 20px 15px;
+        padding: 18px 15px;
+        margin-bottom: 15px;
     }
 
     .header h1 {
-        font-size: 1.8em;
+        font-size: 1.7em;
+    }
+
+    .home-button {
+        padding: 14px 35px;
+        font-size: 1.1em;
     }
 }
 
 /* Responsive Styles - Mobile */
 @media (max-width: 480px) {
     body {
-        padding: 10px;
+        padding: 8px;
     }
 
     .emoji-item {
-        font-size: 40px;
+        font-size: 38px;
     }
 
     .emoji-container {
-        gap: 12px;
+        gap: 10px;
     }
 
     .emoji-tagline {
-        font-size: 0.95em;
+        font-size: 0.9em;
     }
 
     .emoji-banner {
-        padding: 20px 12px;
+        padding: 20px 10px;
+        margin: 12px 0;
     }
 
     .header {
-        padding: 18px 12px;
+        padding: 16px 12px;
+        margin-bottom: 12px;
     }
 
     .header h1 {
-        font-size: 1.5em;
+        font-size: 1.4em;
     }
 
     .section-header {
@@ -404,15 +391,15 @@ html {
     }
 
     .section-content.active {
-        padding: 15px 18px;
+        padding: 15px 16px;
     }
 
     .section-content {
-        padding: 0 18px;
+        padding: 0 16px;
     }
 
     .section-content h3 {
-        font-size: 1.15em;
+        font-size: 1.1em;
     }
 
     .section-content h4 {
@@ -420,11 +407,14 @@ html {
     }
 
     .footer {
-        padding: 18px 12px;
+        padding: 20px 12px;
+        margin-top: 15px;
     }
 
-    .nav-links a {
-        padding: 10px 6px;
-        font-size: 0.85em;
+    .home-button {
+        padding: 12px 30px;
+        font-size: 1em;
+        width: 90%;
+        max-width: 300px;
     }
 }

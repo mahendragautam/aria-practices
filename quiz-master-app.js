@@ -256,15 +256,18 @@ function showHomePage() {
 function toggleSubjects() {
     const grid = document.getElementById('subjectGrid');
     const icon = document.getElementById('toggleIcon');
+    const header = icon.closest('.section-header');
 
     if (grid.classList.contains('expanded')) {
         grid.classList.remove('expanded');
         icon.classList.add('collapsed');
         icon.textContent = '▶';
+        if (header) header.style.marginBottom = '0'; // No gap when collapsed
     } else {
         grid.classList.add('expanded');
         icon.classList.remove('collapsed');
         icon.textContent = '▼';
+        if (header) header.style.marginBottom = '10px'; // Add gap when expanded
     }
 }
 
@@ -615,7 +618,8 @@ function showScreen(screenClass, scrollToTop = true) {
             subject: currentSubject,
             chapter: currentChapter,
             mode: quizMode,
-            returnPage: returnPage
+            returnPage: returnPage,
+            scrollPosition: window.scrollY // Save current scroll position
         };
         history.pushState(state, '', `#${screenClass}`);
     }
@@ -1189,12 +1193,17 @@ window.addEventListener('popstate', function(event) {
         if (event.state.mode) quizMode = event.state.mode;
         if (event.state.returnPage) returnPage = event.state.returnPage;
 
+        // Save scroll position to restore after screen change
+        const savedScrollPosition = event.state.scrollPosition || 0;
+
         // Navigate to the appropriate screen using proper functions
         switch(event.state.screen) {
             case 'home-page':
                 clearFallingEmojis(true); // Instant removal for browser back button
                 stopTimer();
                 showScreen('home-page', false); // Don't scroll - stay at back button position
+                // Restore scroll position after a short delay
+                setTimeout(() => window.scrollTo(0, savedScrollPosition), 100);
                 break;
 
             case 'chapter-selection':
@@ -1206,12 +1215,14 @@ window.addEventListener('popstate', function(event) {
                 }
                 initializeChapters();
                 showScreen('chapter-selection', false); // Don't scroll - stay at back button position
+                setTimeout(() => window.scrollTo(0, savedScrollPosition), 100);
                 break;
 
             case 'level-selection':
                 clearFallingEmojis(true); // Instant removal for browser back button
                 stopTimer();
                 showScreen('level-selection', false); // Don't scroll - stay at back button position
+                setTimeout(() => window.scrollTo(0, savedScrollPosition), 100);
                 break;
 
             case 'timer-challenges-page':
@@ -1219,6 +1230,7 @@ window.addEventListener('popstate', function(event) {
                 stopTimer();
                 initializeTimerSubjects();
                 showScreen('timer-challenges-page', false); // Don't scroll - stay at back button position
+                setTimeout(() => window.scrollTo(0, savedScrollPosition), 100);
                 break;
 
             case 'timer-subject-level-selection':
@@ -1229,24 +1241,28 @@ window.addEventListener('popstate', function(event) {
                     document.getElementById('timerSubjectTitle').innerHTML = `${timerSubjectData.emoji} ${timerSubjectData.name} - Select Level`;
                 }
                 showScreen('timer-subject-level-selection', false); // Don't scroll - stay at back button position
+                setTimeout(() => window.scrollTo(0, savedScrollPosition), 100);
                 break;
 
             case 'practice-mode-page':
                 clearFallingEmojis(true); // Instant removal for browser back button
                 stopTimer();
                 showScreen('practice-mode-page', false); // Don't scroll - stay at back button position
+                setTimeout(() => window.scrollTo(0, savedScrollPosition), 100);
                 break;
 
             case 'riddles-page':
                 clearFallingEmojis(true); // Instant removal for browser back button
                 stopTimer();
                 showScreen('riddles-page', false); // Don't scroll - stay at back button position
+                setTimeout(() => window.scrollTo(0, savedScrollPosition), 100);
                 break;
 
             case 'dad-jokes-page':
                 clearFallingEmojis(true); // Instant removal for browser back button
                 stopTimer();
                 showScreen('dad-jokes-page', false); // Don't scroll - stay at back button position
+                setTimeout(() => window.scrollTo(0, savedScrollPosition), 100);
                 break;
 
             default:
@@ -1254,6 +1270,7 @@ window.addEventListener('popstate', function(event) {
                 clearFallingEmojis(true); // Instant removal for browser back button
                 stopTimer();
                 showScreen(event.state.screen, false); // Don't scroll - stay at back button position
+                setTimeout(() => window.scrollTo(0, savedScrollPosition), 100);
         }
     } else {
         // If no state, go to home page
@@ -1299,6 +1316,16 @@ function updateSubjectCardStatus() {
 // Call this after page loads
 window.addEventListener('DOMContentLoaded', function() {
     setTimeout(updateSubjectCardStatus, 100);
+
+    // Intercept header home links to prevent page reload
+    const headerLinks = document.querySelectorAll('.quiz-header a[href*="quiz.smartfamilypicks.com"]');
+    headerLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault(); // Prevent default link behavior
+            showHomePage(); // Use JavaScript navigation
+            return false;
+        });
+    });
 });
 
 // ===================================================

@@ -1308,6 +1308,9 @@ let loadingProgress = {
 
 // Show loading screen on page load
 (function() {
+    // Add loading class to body to hide main content
+    document.body.classList.add('quiz-loading');
+
     // Create loading overlay
     const loadingScreen = document.createElement('div');
     loadingScreen.id = 'quiz-loading-screen';
@@ -1367,6 +1370,8 @@ function hideLoadingScreen() {
         loadingScreen.style.opacity = '0';
         setTimeout(() => {
             loadingScreen.remove();
+            // Remove loading class to show main content
+            document.body.classList.remove('quiz-loading');
         }, 300);
     }
 }

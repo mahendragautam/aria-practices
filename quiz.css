@@ -1130,6 +1130,14 @@ body > main,
 /* ===================================================
    LOADING PROGRESS BAR STYLES
    ================================================== */
+
+/* Hide main content during loading */
+body.quiz-loading .main-container,
+body.quiz-loading .bubble-container {
+    opacity: 0;
+    pointer-events: none;
+}
+
 #quiz-loading-screen {
     position: fixed;
     top: 0;

@@ -318,8 +318,6 @@ const historyQuestions = {
             {topic: 'Medieval', emoji: '🏰🔔', question: 'Name three features of Gothic architecture', answer: 'Pointed arches, flying buttresses, stained glass (any 3)'},
             {topic: 'Medieval', emoji: '📜⚔️', question: 'What were three key rights in Magna Carta?', answer: 'Due process, fair trial, no taxation without consent (any 3)'}
         ]
-    }
-
     },
     6: { // Chapter 6: Renaissance
         easy: [

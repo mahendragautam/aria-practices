@@ -66,52 +66,95 @@
             box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
         }
 
-        /* Content Sections */
+        /* Collapsible Accordion Sections */
         .content-section {
             background: white;
             border-radius: 15px;
-            padding: 40px;
-            margin-bottom: 30px;
+            margin-bottom: 15px;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
             scroll-margin-top: 20px;
+            overflow: hidden;
         }
 
-        .content-section h2 {
-            color: #667eea;
-            margin-bottom: 20px;
-            font-size: 2em;
-            border-bottom: 3px solid #764ba2;
-            padding-bottom: 10px;
+        .section-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px 30px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.3s ease;
+            user-select: none;
         }
 
-        .content-section h3 {
+        .section-header:hover {
+            background: linear-gradient(135deg, #7a8cf0 0%, #8559b0 100%);
+            transform: translateY(-2px);
+        }
+
+        .section-header h2 {
+            font-size: 1.8em;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .toggle-icon {
+            font-size: 1.5em;
+            transition: transform 0.3s ease;
+        }
+
+        .section-header.active .toggle-icon {
+            transform: rotate(180deg);
+        }
+
+        .section-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease-out, padding 0.4s ease-out;
+            padding: 0 40px;
+        }
+
+        .section-content.active {
+            max-height: 5000px;
+            padding: 30px 40px;
+            transition: max-height 0.6s ease-in, padding 0.4s ease-in;
+        }
+
+        .section-content h3 {
             color: #764ba2;
             margin-top: 25px;
             margin-bottom: 15px;
             font-size: 1.5em;
         }
 
-        .content-section p {
+        .section-content h3:first-child {
+            margin-top: 0;
+        }
+
+        .section-content p {
             margin-bottom: 15px;
             text-align: justify;
         }
 
-        .content-section ul {
+        .section-content ul {
             margin-left: 30px;
             margin-bottom: 15px;
         }
 
-        .content-section li {
+        .section-content li {
             margin-bottom: 8px;
         }
 
-        .content-section a {
+        .section-content a {
             color: #667eea;
             font-weight: 600;
             text-decoration: none;
         }
 
-        .content-section a:hover {
+        .section-content a:hover {
             text-decoration: underline;
         }
 
@@ -156,12 +199,16 @@
         }
 
         @media (max-width: 768px) {
-            .content-section {
-                padding: 25px;
+            .section-content.active {
+                padding: 20px 25px;
             }
 
-            .content-section h2 {
-                font-size: 1.5em;
+            .section-header {
+                padding: 15px 20px;
+            }
+
+            .section-header h2 {
+                font-size: 1.3em;
             }
 
             .nav-links {
@@ -174,6 +221,31 @@
             }
         }
     </style>
+    <script>
+        function toggleSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            const header = section.querySelector('.section-header');
+            const content = section.querySelector('.section-content');
+
+            header.classList.toggle('active');
+            content.classList.toggle('active');
+        }
+
+        // Auto-open section if URL has hash
+        window.addEventListener('DOMContentLoaded', function() {
+            const hash = window.location.hash.substring(1);
+            if (hash) {
+                const section = document.getElementById(hash);
+                if (section) {
+                    const header = section.querySelector('.section-header');
+                    const content = section.querySelector('.section-content');
+                    header.classList.add('active');
+                    content.classList.add('active');
+                    setTimeout(() => section.scrollIntoView({ behavior: 'smooth' }), 100);
+                }
+            }
+        });
+    </script>
 </head>
 <body>
     <div class="container">
@@ -193,8 +265,11 @@
 
         <!-- About Us Section -->
         <section id="about" class="content-section">
-            <h2>📖 About Us</h2>
-
+            <div class="section-header" onclick="toggleSection('about')">
+                <h2>📖 About Us</h2>
+                <span class="toggle-icon">▼</span>
+            </div>
+            <div class="section-content">
             <h3>Welcome to Smart Family Picks Quiz!</h3>
             <p>
                 Welcome to <strong>Smart Family Picks Quiz</strong>, your ultimate destination for fun, educational, and engaging quiz experiences! We are part of the <a href="https://smartfamilypicks.com" target="_blank">Smart Family Picks</a> family, dedicated to providing valuable resources and entertainment for families around the world.
@@ -217,11 +292,16 @@
                 <li>Timed challenges for Quiz Mode</li>
                 <li>Unlimited practice opportunities in Practice Mode</li>
             </ul>
+            </div>
         </section>
 
         <!-- Mission Section -->
         <section id="mission" class="content-section">
-            <h2>🎯 Our Mission</h2>
+            <div class="section-header" onclick="toggleSection('mission')">
+                <h2>🎯 Our Mission</h2>
+                <span class="toggle-icon">▼</span>
+            </div>
+            <div class="section-content">
             <p>
                 At Smart Family Picks Quiz, our mission is simple: to make learning fun and accessible for everyone. We believe that knowledge should be engaging, interactive, and available to all—completely free of charge. Our quizzes cover a wide range of topics including:
             </p>
@@ -237,11 +317,16 @@
                 <li><strong>💻 Technology:</strong> Stay updated with the digital world</li>
                 <li><strong>👶 Parenting:</strong> Navigate the journey of raising children</li>
             </ul>
+            </div>
         </section>
 
         <!-- Features Section -->
         <section id="features" class="content-section">
-            <h2>✨ Why Choose Us?</h2>
+            <div class="section-header" onclick="toggleSection('features')">
+                <h2>✨ Why Choose Us?</h2>
+                <span class="toggle-icon">▼</span>
+            </div>
+            <div class="section-content">
 
             <div class="info-box">
                 <h3>🎯 100% Free Content</h3>
@@ -277,11 +362,16 @@
                 <li>Providing a safe, user-friendly experience for all ages</li>
                 <li>Respecting your privacy and data security</li>
             </ul>
+            </div>
         </section>
 
         <!-- Contact Section -->
         <section id="contact" class="content-section">
-            <h2>📧 Contact Us</h2>
+            <div class="section-header" onclick="toggleSection('contact')">
+                <h2>📧 Contact Us</h2>
+                <span class="toggle-icon">▼</span>
+            </div>
+            <div class="section-content">
 
             <h3>Get in Touch</h3>
             <p>
@@ -302,11 +392,16 @@
             <div class="warning-box">
                 <p><strong>Note:</strong> While our quiz content is completely free, we may use cookies and third-party services to improve your experience and support our platform. We also may include affiliate links to products and services that we believe will benefit our users.</p>
             </div>
+            </div>
         </section>
 
         <!-- Privacy Policy Section -->
         <section id="privacy" class="content-section">
-            <h2>🔒 Privacy Policy</h2>
+            <div class="section-header" onclick="toggleSection('privacy')">
+                <h2>🔒 Privacy Policy</h2>
+                <span class="toggle-icon">▼</span>
+            </div>
+            <div class="section-content">
 
             <h3>Your Privacy Matters</h3>
             <p>
@@ -346,11 +441,16 @@
             <div class="warning-box">
                 <p><strong>Note:</strong> This platform is part of the Smart Family Picks network. For complete privacy information regarding our parent website, please visit <a href="https://smartfamilypicks.com/privacy" target="_blank">smartfamilypicks.com/privacy</a></p>
             </div>
+            </div>
         </section>
 
         <!-- Terms of Service Section -->
         <section id="terms" class="content-section">
-            <h2>📜 Terms of Service</h2>
+            <div class="section-header" onclick="toggleSection('terms')">
+                <h2>📜 Terms of Service</h2>
+                <span class="toggle-icon">▼</span>
+            </div>
+            <div class="section-content">
 
             <h3>Welcome to Our Terms</h3>
             <p>
@@ -404,6 +504,7 @@
             <div class="info-box">
                 <p><strong>Last Updated:</strong> January 2025</p>
                 <p>These Terms of Service are effective as of the date listed above and apply to all users of the Smart Family Picks Quiz platform.</p>
+            </div>
             </div>
         </section>
 

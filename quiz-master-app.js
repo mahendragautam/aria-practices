@@ -186,6 +186,12 @@ function startSubjectTimer(level) {
     clearFallingEmojis();
     stopTimer();
 
+    // Check if subject is loaded
+    if (!subjectQuestionBank[currentSubject]) {
+        alert(`Subject "${currentSubject}" is not loaded. Please check if the question file is uploaded.`);
+        return;
+    }
+
     currentLevel = level;
     currentQuestionIndex = 0;
     score = 0;
@@ -204,7 +210,14 @@ function startSubjectTimer(level) {
     // Collect all questions from all 20 chapters for this subject and level
     let allQuestions = [];
     for (let ch = 1; ch <= 20; ch++) {
-        allQuestions = allQuestions.concat(subjectQuestionBank[currentSubject][ch][level]);
+        if (subjectQuestionBank[currentSubject][ch] && subjectQuestionBank[currentSubject][ch][level]) {
+            allQuestions = allQuestions.concat(subjectQuestionBank[currentSubject][ch][level]);
+        }
+    }
+
+    if (allQuestions.length === 0) {
+        alert(`No questions found for ${level} level. Please check the question files.`);
+        return;
     }
 
     // Shuffle questions
@@ -237,19 +250,34 @@ function startMixedQuiz(level, mixType, timedMode) {
     if (mixType === 'levelwise') {
         // Collect questions from all subjects at the same level
         Object.keys(subjects).forEach(subject => {
+            // Check if subject is loaded
+            if (!subjectQuestionBank[subject]) return;
+
             for (let ch = 1; ch <= 20; ch++) {
-                allQuestions = allQuestions.concat(subjectQuestionBank[subject][ch][level]);
+                if (subjectQuestionBank[subject][ch] && subjectQuestionBank[subject][ch][level]) {
+                    allQuestions = allQuestions.concat(subjectQuestionBank[subject][ch][level]);
+                }
             }
         });
     } else {
         // Complete mix - all subjects, all chapters, all levels
         Object.keys(subjects).forEach(subject => {
+            // Check if subject is loaded
+            if (!subjectQuestionBank[subject]) return;
+
             for (let ch = 1; ch <= 20; ch++) {
                 ['easy', 'medium', 'hard', 'expert', 'extreme'].forEach(lvl => {
-                    allQuestions = allQuestions.concat(subjectQuestionBank[subject][ch][lvl]);
+                    if (subjectQuestionBank[subject][ch] && subjectQuestionBank[subject][ch][lvl]) {
+                        allQuestions = allQuestions.concat(subjectQuestionBank[subject][ch][lvl]);
+                    }
                 });
             }
         });
+    }
+
+    if (allQuestions.length === 0) {
+        alert(`No questions found. Please check if question files are loaded correctly.`);
+        return;
     }
 
     // Shuffle and select 10 questions
@@ -926,13 +954,18 @@ function clearFallingEmojis() {
     clearInterval(window.fallingInterval);
 
     // Smooth fadeout instead of instant removal
-    fallingEmojis.forEach(emoji => {
+    const emojisToRemove = [...fallingEmojis]; // Copy array
+    fallingEmojis = []; // Clear reference immediately
+
+    emojisToRemove.forEach(emoji => {
         emoji.style.transition = 'opacity 0.5s ease-out';
         emoji.style.opacity = '0';
-        setTimeout(() => emoji.remove(), 500); // Remove after fadeout
+        setTimeout(() => {
+            if (emoji && emoji.parentNode) {
+                emoji.remove();
+            }
+        }, 500); // Remove after fadeout completes
     });
-
-    fallingEmojis = [];
 }
 
 function createCelebrationEmoji(emoji) {

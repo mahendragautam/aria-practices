@@ -1128,10 +1128,11 @@ body > main,
 }
 
 /* ===================================================
-   LOADING PROGRESS BAR STYLES
+   LOADING PROGRESS BAR STYLES - DISABLED
    ================================================== */
+/* User requested to disable loading screen
+   Keeping code commented for future reference
 
-/* Hide main content during loading - High priority */
 body.quiz-loading .main-container,
 body.quiz-loading .bubble-container,
 body.quiz-loading > *:not(#quiz-loading-screen) {
@@ -1228,7 +1229,6 @@ body.quiz-loading > *:not(#quiz-loading-screen) {
     font-style: italic;
 }
 
-/* Mobile responsive */
 @media (max-width: 768px) {
     .loading-title {
         font-size: 1.5em;
@@ -1246,4 +1246,4 @@ body.quiz-loading > *:not(#quiz-loading-screen) {
         font-size: 1em;
     }
 }
-</style>
+*/

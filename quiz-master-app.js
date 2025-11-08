@@ -591,17 +591,19 @@ function showLevelSelection() {
     showScreen('level-selection');
 }
 
-function showScreen(screenClass) {
+function showScreen(screenClass, scrollToTop = true) {
     document.querySelectorAll('.home-page, .chapter-selection, .level-selection, .quiz-container, .result-container, .timer-challenges-page, .timer-subject-level-selection, .practice-mode-page, .riddles-page, .dad-jokes-page').forEach(el => {
         el.classList.remove('active');
     });
     document.querySelector(`.${screenClass}`).classList.add('active');
 
-    // Scroll to top when navigating to new screen
-    window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-    });
+    // Smart scroll: Only scroll to top on forward navigation, not on back button
+    if (scrollToTop) {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
 
     // Push to browser history ONLY if not restoring from history
     if (!isNavigatingHistory) {
@@ -1189,7 +1191,7 @@ window.addEventListener('popstate', function(event) {
             case 'home-page':
                 clearFallingEmojis(true); // Instant removal for browser back button
                 stopTimer();
-                showScreen('home-page');
+                showScreen('home-page', false); // Don't scroll - stay at back button position
                 break;
 
             case 'chapter-selection':
@@ -1200,20 +1202,20 @@ window.addEventListener('popstate', function(event) {
                     document.getElementById('subjectTitle').innerHTML = `${subjectData.emoji} ${subjectData.name} ${subjectData.emoji}`;
                 }
                 initializeChapters();
-                showScreen('chapter-selection');
+                showScreen('chapter-selection', false); // Don't scroll - stay at back button position
                 break;
 
             case 'level-selection':
                 clearFallingEmojis(true); // Instant removal for browser back button
                 stopTimer();
-                showScreen('level-selection');
+                showScreen('level-selection', false); // Don't scroll - stay at back button position
                 break;
 
             case 'timer-challenges-page':
                 clearFallingEmojis(true); // Instant removal for browser back button
                 stopTimer();
                 initializeTimerSubjects();
-                showScreen('timer-challenges-page');
+                showScreen('timer-challenges-page', false); // Don't scroll - stay at back button position
                 break;
 
             case 'timer-subject-level-selection':
@@ -1223,38 +1225,38 @@ window.addEventListener('popstate', function(event) {
                 if (timerSubjectData) {
                     document.getElementById('timerSubjectTitle').innerHTML = `${timerSubjectData.emoji} ${timerSubjectData.name} - Select Level`;
                 }
-                showScreen('timer-subject-level-selection');
+                showScreen('timer-subject-level-selection', false); // Don't scroll - stay at back button position
                 break;
 
             case 'practice-mode-page':
                 clearFallingEmojis(true); // Instant removal for browser back button
                 stopTimer();
-                showScreen('practice-mode-page');
+                showScreen('practice-mode-page', false); // Don't scroll - stay at back button position
                 break;
 
             case 'riddles-page':
                 clearFallingEmojis(true); // Instant removal for browser back button
                 stopTimer();
-                showScreen('riddles-page');
+                showScreen('riddles-page', false); // Don't scroll - stay at back button position
                 break;
 
             case 'dad-jokes-page':
                 clearFallingEmojis(true); // Instant removal for browser back button
                 stopTimer();
-                showScreen('dad-jokes-page');
+                showScreen('dad-jokes-page', false); // Don't scroll - stay at back button position
                 break;
 
             default:
                 // For quiz-container, result-container, etc.
                 clearFallingEmojis(true); // Instant removal for browser back button
                 stopTimer();
-                showScreen(event.state.screen);
+                showScreen(event.state.screen, false); // Don't scroll - stay at back button position
         }
     } else {
         // If no state, go to home page
         clearFallingEmojis(true); // Instant removal for browser back button
         stopTimer();
-        showScreen('home-page');
+        showScreen('home-page', false); // Don't scroll - stay at back button position
     }
 
     // Reset flag after navigation
@@ -1297,18 +1299,19 @@ window.addEventListener('DOMContentLoaded', function() {
 });
 
 // ===================================================
-// LOADING PROGRESS BAR
+// LOADING PROGRESS BAR - DISABLED
 // ===================================================
-// Track loading progress for better UX
+// User requested to disable loading screen
+// Keeping code commented for future reference
+
+/*
 let loadingProgress = {
-    total: 11, // CSS + 10 question files + App JS
+    total: 11,
     loaded: 0,
     startTime: Date.now()
 };
 
-// Show loading screen on page load
 (function() {
-    // Add loading class to body to hide main content
     if (document.body) {
         document.body.classList.add('quiz-loading');
     } else {
@@ -1317,7 +1320,6 @@ let loadingProgress = {
         });
     }
 
-    // Create loading overlay with inline styles for immediate effect
     const loadingScreen = document.createElement('div');
     loadingScreen.id = 'quiz-loading-screen';
     loadingScreen.style.cssText = `
@@ -1354,7 +1356,6 @@ let loadingProgress = {
         </div>
     `;
 
-    // Insert at start of body immediately
     if (document.body) {
         document.body.insertBefore(loadingScreen, document.body.firstChild);
     } else {
@@ -1366,7 +1367,6 @@ let loadingProgress = {
     }
 })();
 
-// Update progress
 function updateLoadingProgress() {
     loadingProgress.loaded++;
     const percent = Math.floor((loadingProgress.loaded / loadingProgress.total) * 100);
@@ -1379,33 +1379,27 @@ function updateLoadingProgress() {
     if (percentText) percentText.textContent = percent + '%';
     if (filesText) filesText.textContent = loadingProgress.loaded + '/' + loadingProgress.total + ' files';
 
-    // If all loaded, hide loading screen
     if (loadingProgress.loaded >= loadingProgress.total) {
         setTimeout(hideLoadingScreen, 500);
     }
 }
 
-// Hide loading screen with animation
 function hideLoadingScreen() {
     const loadingScreen = document.getElementById('quiz-loading-screen');
     if (loadingScreen) {
         loadingScreen.style.opacity = '0';
         setTimeout(() => {
             loadingScreen.remove();
-            // Remove loading class to show main content
             document.body.classList.remove('quiz-loading');
         }, 300);
     }
 }
 
-// Track when each question file loads
-// This gets called by each question snippet at the end
 window.quizFileLoaded = function(fileName) {
     console.log('✅ Loaded:', fileName);
     updateLoadingProgress();
 };
 
-// Auto-complete loading after 5 seconds (fallback)
 setTimeout(function() {
     if (document.getElementById('quiz-loading-screen')) {
         console.log('⏱️ Loading timeout - forcing completion');
@@ -1414,5 +1408,5 @@ setTimeout(function() {
     }
 }, 5000);
 
-// Start with CSS loaded
 updateLoadingProgress();
+*/

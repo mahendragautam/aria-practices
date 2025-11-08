@@ -956,31 +956,18 @@ function createFallingEmojis(type) {
     window.fallingInterval = interval;
 }
 
-function clearFallingEmojis(instant = false) {
+function clearFallingEmojis(instant = true) {
     clearInterval(window.fallingInterval);
 
     const emojisToRemove = [...fallingEmojis]; // Copy array
     fallingEmojis = []; // Clear reference immediately
 
-    if (instant) {
-        // Instant removal for button clicks
-        emojisToRemove.forEach(emoji => {
-            if (emoji && emoji.parentNode) {
-                emoji.remove();
-            }
-        });
-    } else {
-        // Smooth fadeout for browser back button navigation
-        emojisToRemove.forEach(emoji => {
-            emoji.style.transition = 'opacity 0.5s ease-out';
-            emoji.style.opacity = '0';
-            setTimeout(() => {
-                if (emoji && emoji.parentNode) {
-                    emoji.remove();
-                }
-            }, 500); // Remove after fadeout completes
-        });
-    }
+    // Instant removal - sudden disappearance like original backup
+    emojisToRemove.forEach(emoji => {
+        if (emoji && emoji.parentNode) {
+            emoji.remove();
+        }
+    });
 }
 
 function createCelebrationEmoji(emoji) {
@@ -1034,7 +1021,7 @@ window.addEventListener('popstate', function(event) {
         // Navigate to the appropriate screen using proper functions
         switch(event.state.screen) {
             case 'home-page':
-                clearFallingEmojis();
+                clearFallingEmojis(true); // Instant removal for browser back button
                 stopTimer();
                 showScreen('home-page');
                 break;
@@ -1083,7 +1070,7 @@ window.addEventListener('popstate', function(event) {
         }
     } else {
         // If no state, go to home page
-        clearFallingEmojis();
+        clearFallingEmojis(true); // Instant removal for browser back button
         stopTimer();
         showScreen('home-page');
     }

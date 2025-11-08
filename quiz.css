@@ -33,6 +33,37 @@ body {
     min-height: 100vh;
 }
 
+/* WordPress Full Width Override - Force full screen view */
+.has-global-padding > .alignfull {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+/* Remove WordPress default padding that causes side gaps */
+.wp-site-blocks,
+.has-global-padding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+/* Force WordPress content area to full width */
+.wp-block-post-content,
+.entry-content,
+.site-content {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+/* Ensure alignfull blocks are truly full width */
+.alignfull {
+    width: 100vw !important;
+    max-width: 100vw !important;
+    margin-left: calc(50% - 50vw) !important;
+    margin-right: calc(50% - 50vw) !important;
+}
+
 /* Hide WordPress theme footer to avoid duplicate */
 body .site-footer,
 body footer:not(.quiz-footer),

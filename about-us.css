@@ -11,13 +11,27 @@
     box-sizing: border-box;
 }
 
+/* Force body padding - override everything */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    min-height: 100vh;
-    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    line-height: 1.6 !important;
+    color: #333 !important;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+    min-height: 100vh !important;
+    padding: 20px !important;
+}
+
+/* Mobile body padding override - highest priority */
+@media (max-width: 768px) {
+    body {
+        padding: 5px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 5px !important;
+    }
 }
 
 .container {
@@ -357,12 +371,10 @@ html {
 
 /* Responsive Styles - Mobile */
 @media (max-width: 480px) {
-    body {
-        padding: 5px !important; /* Force 5px padding */
-    }
+    /* Body padding already set above - Lines 31-34 */
 
     .container {
-        padding: 0; /* Container has no extra padding */
+        padding: 0 !important; /* Container has no extra padding */
     }
 
     .emoji-item {
@@ -430,35 +442,23 @@ html {
 
 /* ============================================
    TWENTY TWENTY-FIVE THEME FIX
-   Force consistent 5px padding on mobile
+   Remove WordPress padding that conflicts with our body padding
    ============================================ */
 
-/* Mobile devices - Force 5px all around */
-@media (max-width: 768px) {
-    .wp-site-blocks,
-    .wp-block-post-content,
-    .has-global-padding,
-    .entry-content {
-        padding: 5px !important;
-    }
-
-    body {
-        padding: 5px !important; /* Consistent 5px padding */
-    }
-
-    .has-global-padding > .alignfull {
-        margin-left: 0 !important;
-        margin-right: 0 !important;
-    }
+/* All screen sizes - Remove WordPress padding */
+.wp-site-blocks,
+.wp-block-post-content,
+.has-global-padding,
+.entry-content {
+    padding: 0 !important; /* Remove WordPress padding */
+    margin: 0 !important; /* Remove WordPress margin */
 }
 
-/* Extra small screens - Keep same 5px padding */
-@media (max-width: 400px) {
-    .wp-site-blocks,
-    .wp-block-post-content,
-    .has-global-padding,
-    .entry-content,
-    body {
-        padding: 5px !important; /* Consistent 5px everywhere */
-    }
+/* Prevent WordPress from adding padding to our content */
+.has-global-padding > .alignfull {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 }
+
+/* Body padding is controlled at top of file (Lines 15-35) */
+/* Do NOT add body padding rules here - it will conflict */

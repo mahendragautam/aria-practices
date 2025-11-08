@@ -94,7 +94,7 @@ if (Object.keys(subjectQuestionBank).length < 10) {
 // ===================================================
 // Navigation functions
 function showHomePage() {
-    clearFallingEmojis();
+    clearFallingEmojis(true); // Instant removal for button clicks
     stopTimer();
     showScreen('home-page');
 }
@@ -183,7 +183,7 @@ function selectTimerSubject(subject) {
 
 function startSubjectTimer(level) {
     // Combine all 20 chapters for this subject at this level
-    clearFallingEmojis();
+    clearFallingEmojis(true); // Instant removal for button clicks
     stopTimer();
 
     // Check if subject is loaded
@@ -232,7 +232,7 @@ function startSubjectTimer(level) {
 }
 
 function startMixedQuiz(level, mixType, timedMode) {
-    clearFallingEmojis();
+    clearFallingEmojis(true); // Instant removal for button clicks
     stopTimer();
 
     currentLevel = level;
@@ -334,7 +334,7 @@ function goBackFromQuiz() {
     }
 
     // If on first question (index 0), exit quiz
-    clearFallingEmojis();
+    clearFallingEmojis(true); // Instant removal for button clicks
     stopTimer();
 
     if (returnPage === 'home') {
@@ -428,13 +428,13 @@ function selectChapter(chapter) {
 }
 
 function showChapterSelection() {
-    clearFallingEmojis();
+    clearFallingEmojis(true); // Instant removal for button clicks
     stopTimer();
     showScreen('chapter-selection');
 }
 
 function showLevelSelection() {
-    clearFallingEmojis();
+    clearFallingEmojis(true); // Instant removal for button clicks
     stopTimer();
     showScreen('level-selection');
 }
@@ -444,6 +444,12 @@ function showScreen(screenClass) {
         el.classList.remove('active');
     });
     document.querySelector(`.${screenClass}`).classList.add('active');
+
+    // Scroll to top when navigating to new screen
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
 
     // Push to browser history ONLY if not restoring from history
     if (!isNavigatingHistory) {
@@ -459,7 +465,7 @@ function showScreen(screenClass) {
 }
 
 function startQuiz(level, timedMode = false) {
-    clearFallingEmojis();
+    clearFallingEmojis(true); // Instant removal for button clicks
     stopTimer(); // Clear any existing timer
 
     // Validate chapter and level exist AND have questions
@@ -720,7 +726,7 @@ function showExtremeAnswer() {
 }
 
 function nextQuestion() {
-    clearFallingEmojis();
+    clearFallingEmojis(true); // Instant removal for button clicks
     currentQuestionIndex++;
 
     if (currentQuestionIndex < 10) {
@@ -732,7 +738,7 @@ function nextQuestion() {
 
 function previousQuestion() {
     // Go back to previous question
-    clearFallingEmojis();
+    clearFallingEmojis(true); // Instant removal for button clicks
     currentQuestionIndex--;
 
     if (currentQuestionIndex >= 0) {
@@ -741,7 +747,7 @@ function previousQuestion() {
 }
 
 function showResults() {
-    clearFallingEmojis();
+    clearFallingEmojis(true); // Instant removal for button clicks
     stopTimer();
 
     const endTime = Date.now();
@@ -950,22 +956,31 @@ function createFallingEmojis(type) {
     window.fallingInterval = interval;
 }
 
-function clearFallingEmojis() {
+function clearFallingEmojis(instant = false) {
     clearInterval(window.fallingInterval);
 
-    // Smooth fadeout instead of instant removal
     const emojisToRemove = [...fallingEmojis]; // Copy array
     fallingEmojis = []; // Clear reference immediately
 
-    emojisToRemove.forEach(emoji => {
-        emoji.style.transition = 'opacity 0.5s ease-out';
-        emoji.style.opacity = '0';
-        setTimeout(() => {
+    if (instant) {
+        // Instant removal for button clicks
+        emojisToRemove.forEach(emoji => {
             if (emoji && emoji.parentNode) {
                 emoji.remove();
             }
-        }, 500); // Remove after fadeout completes
-    });
+        });
+    } else {
+        // Smooth fadeout for browser back button navigation
+        emojisToRemove.forEach(emoji => {
+            emoji.style.transition = 'opacity 0.5s ease-out';
+            emoji.style.opacity = '0';
+            setTimeout(() => {
+                if (emoji && emoji.parentNode) {
+                    emoji.remove();
+                }
+            }, 500); // Remove after fadeout completes
+        });
+    }
 }
 
 function createCelebrationEmoji(emoji) {

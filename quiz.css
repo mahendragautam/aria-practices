@@ -240,7 +240,7 @@ body > main,
 }
 
 .home-section {
-    margin: 30px 0;
+    margin: 15px 0; /* Reduced from 30px for tighter spacing */
 }
 
 .section-header {
@@ -282,7 +282,7 @@ body > main,
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 15px;
-    padding: 20px 10px;
+    padding: 0; /* No padding when collapsed */
     max-height: 0;
     overflow: hidden;
     opacity: 0;
@@ -292,6 +292,7 @@ body > main,
 .subject-grid.expanded {
     max-height: 2000px;
     opacity: 1;
+    padding: 20px 10px; /* Add padding when expanded */
 }
 
 .subject-card {
@@ -994,8 +995,11 @@ body > main,
 
     .subject-grid, .chapter-grid, .level-grid, .home-grid {
         grid-template-columns: repeat(2, 1fr);
-        padding: 10px 0 20px 0;
         gap: 10px;
+    }
+
+    .subject-grid.expanded, .chapter-grid, .level-grid, .home-grid {
+        padding: 10px 0 20px 0;
     }
 
     .subject-card, .chapter-card, .level-card {

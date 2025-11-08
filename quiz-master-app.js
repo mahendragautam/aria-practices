@@ -67,31 +67,18 @@ const chapterColors = [
 ];
 
 
-
-// ============================================================
-// RESILIENT SUBJECT LOADING
-// ============================================================
-// Each subject loads independently - if one fails, others still work!
-const subjectQuestionBank = {};
-
-try { if (typeof scienceQuestions !== 'undefined') subjectQuestionBank.science = scienceQuestions; } catch(e) { console.warn('❌ Science not loaded:', e); }
-try { if (typeof mathQuestions !== 'undefined') subjectQuestionBank.math = mathQuestions; } catch(e) { console.warn('❌ Math not loaded:', e); }
-try { if (typeof historyQuestions !== 'undefined') subjectQuestionBank.history = historyQuestions; } catch(e) { console.warn('❌ History not loaded:', e); }
-try { if (typeof geographyQuestions !== 'undefined') subjectQuestionBank.geography = geographyQuestions; } catch(e) { console.warn('❌ Geography not loaded:', e); }
-try { if (typeof englishQuestions !== 'undefined') subjectQuestionBank.english = englishQuestions; } catch(e) { console.warn('❌ English not loaded:', e); }
-try { if (typeof healthQuestions !== 'undefined') subjectQuestionBank.health = healthQuestions; } catch(e) { console.warn('❌ Health not loaded:', e); }
-try { if (typeof environmentQuestions !== 'undefined') subjectQuestionBank.environment = environmentQuestions; } catch(e) { console.warn('❌ Environment not loaded:', e); }
-try { if (typeof businessQuestions !== 'undefined') subjectQuestionBank.business = businessQuestions; } catch(e) { console.warn('❌ Business not loaded:', e); }
-try { if (typeof technologyQuestions !== 'undefined') subjectQuestionBank.technology = technologyQuestions; } catch(e) { console.warn('❌ Technology not loaded:', e); }
-try { if (typeof parentingQuestions !== 'undefined') subjectQuestionBank.parenting = parentingQuestions; } catch(e) { console.warn('❌ Parenting not loaded:', e); }
-
-// Log loaded subjects count
-console.log('✅ Quiz App Loaded: ' + Object.keys(subjectQuestionBank).length + '/10 subjects available');
-if (Object.keys(subjectQuestionBank).length < 10) {
-    console.warn('⚠️ Warning: Some subjects are missing. Check if all subject JS files are uploaded and activated.');
-    console.log('📋 Available subjects:', Object.keys(subjectQuestionBank).join(', '));
-}
-
+const subjectQuestionBank = {
+    science: scienceQuestions,        // From science-questions.js
+    math: mathQuestions,              // From math-questions.js
+    history: historyQuestions,        // From history-questions.js
+    geography: geographyQuestions,    // From geography-questions.js
+    english: englishQuestions,        // From english-questions.js
+    health: healthQuestions,          // From health-questions.js
+    environment: environmentQuestions,// From environment-questions.js
+    business: businessQuestions,      // From business-questions.js
+    technology: technologyQuestions,  // From technology-questions.js
+    parenting: parentingQuestions     // From parenting-questions.js
+};
 
 // ===================================================
 // APPLICATION FUNCTIONS START BELOW
@@ -913,14 +900,7 @@ function createFallingEmojis(type) {
 
 function clearFallingEmojis() {
     clearInterval(window.fallingInterval);
-    
-    // SMOOTH FADEOUT - Emojis gradually disappear instead of instant removal
-    fallingEmojis.forEach(emoji => {
-        emoji.style.transition = 'opacity 0.5s ease-out';
-        emoji.style.opacity = '0';
-        setTimeout(() => emoji.remove(), 500); // Remove after fadeout animation
-    });
-    
+    fallingEmojis.forEach(emoji => emoji.remove());
     fallingEmojis = [];
 }
 

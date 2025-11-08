@@ -8,11 +8,6 @@
  * ⚠️ IMPORTANT: This must load AFTER all question snippets!
  * Make sure Priority is 20 (higher than all question snippets 10-19)
  *
- * 🚀 PERFORMANCE OPTIMIZATION ENABLED:
- * - Browser caching for offline play (30 days)
- * - Gzip compression (70% smaller downloads)
- * - Loading progress indicator
- *
  * COPY ALL CODE BELOW
  */
 
@@ -48,151 +43,6 @@ const timeLimits = {
     extreme: 180,  // 3 minutes
     complete: 120  // 2 minutes for complete mix
 };
-
-// ===================================================
-// STATE PERSISTENCE - Stay on Same Page on Refresh
-// ===================================================
-
-// Save quiz state to sessionStorage
-function saveQuizState() {
-    const state = {
-        screen: getCurrentScreen(),
-        subject: currentSubject,
-        chapter: currentChapter,
-        level: currentLevel,
-        questionIndex: currentQuestionIndex,
-        score: score,
-        startTime: startTime,
-        isTimedMode: isTimedMode,
-        timeRemaining: timeRemaining,
-        quizMode: quizMode,
-        returnPage: returnPage,
-        shuffledQuestions: shuffledQuestions,
-        answered: answered
-    };
-
-    try {
-        sessionStorage.setItem('quizState', JSON.stringify(state));
-        console.log('✅ Quiz state saved');
-    } catch (e) {
-        console.warn('⚠️ Could not save state:', e);
-    }
-}
-
-// Get current active screen
-function getCurrentScreen() {
-    const screens = [
-        'home-page', 'chapter-selection', 'level-selection',
-        'quiz-container', 'result-container', 'timer-challenges-page',
-        'timer-subject-level-selection', 'practice-mode-page',
-        'riddles-page', 'dad-jokes-page'
-    ];
-
-    for (let screen of screens) {
-        const element = document.querySelector(`.${screen}`);
-        if (element && element.classList.contains('active')) {
-            return screen;
-        }
-    }
-    return 'home-page'; // Default
-}
-
-// Restore quiz state from sessionStorage
-function restoreQuizState() {
-    try {
-        const savedState = sessionStorage.getItem('quizState');
-        if (!savedState) {
-            console.log('ℹ️ No saved state, showing home page');
-            return false;
-        }
-
-        const state = JSON.parse(savedState);
-        console.log('🔄 Restoring saved state:', state.screen);
-
-        // Restore variables
-        currentSubject = state.subject || 'science';
-        currentChapter = state.chapter || 1;
-        currentLevel = state.level || 'easy';
-        currentQuestionIndex = state.questionIndex || 0;
-        score = state.score || 0;
-        startTime = state.startTime || Date.now();
-        isTimedMode = state.isTimedMode || false;
-        timeRemaining = state.timeRemaining || 0;
-        quizMode = state.quizMode || 'normal';
-        returnPage = state.returnPage || 'home';
-        shuffledQuestions = state.shuffledQuestions || [];
-        answered = state.answered || false;
-
-        // Restore the correct screen
-        switch(state.screen) {
-            case 'quiz-container':
-                if (shuffledQuestions.length > 0) {
-                    // Resume quiz
-                    if (isTimedMode && timeRemaining > 0) {
-                        startTimer(); // Resume timer
-                    }
-                    displayQuestion();
-                    showScreen('quiz-container');
-                } else {
-                    showHomePage();
-                }
-                break;
-
-            case 'chapter-selection':
-                const subjectData = subjects[currentSubject];
-                if (subjectData) {
-                    document.getElementById('subjectTitle').innerHTML = `${subjectData.emoji} ${subjectData.name} ${subjectData.emoji}`;
-                }
-                initializeChapters();
-                showScreen('chapter-selection');
-                break;
-
-            case 'level-selection':
-                document.getElementById('levelTitle').textContent = `Chapter ${currentChapter} - Select Difficulty Level`;
-                showScreen('level-selection');
-                break;
-
-            case 'timer-challenges-page':
-                initializeTimerSubjects();
-                showScreen('timer-challenges-page');
-                break;
-
-            case 'timer-subject-level-selection':
-                const timerSubjectData = subjects[currentSubject];
-                if (timerSubjectData) {
-                    document.getElementById('timerSubjectTitle').innerHTML = `${timerSubjectData.emoji} ${timerSubjectData.name} - Select Level`;
-                }
-                showScreen('timer-subject-level-selection');
-                break;
-
-            case 'practice-mode-page':
-                showScreen('practice-mode-page');
-                break;
-
-            case 'result-container':
-                showScreen('result-container');
-                break;
-
-            default:
-                showHomePage();
-        }
-
-        return true;
-    } catch (e) {
-        console.warn('⚠️ Could not restore state:', e);
-        return false;
-    }
-}
-
-// Clear quiz state (when user explicitly goes home)
-function clearQuizState() {
-    try {
-        sessionStorage.removeItem('quizState');
-        console.log('🗑️ Quiz state cleared');
-    } catch (e) {
-        console.warn('⚠️ Could not clear state:', e);
-    }
-}
 
 // Subjects definition
 const subjects = {
@@ -246,7 +96,6 @@ if (Object.keys(subjectQuestionBank).length < 10) {
 function showHomePage() {
     clearFallingEmojis(true); // Instant removal for button clicks
     stopTimer();
-    clearQuizState(); // Clear saved state when going home
     showScreen('home-page');
 }
 
@@ -576,7 +425,6 @@ function selectChapter(chapter) {
     currentChapter = chapter;
     document.getElementById('levelTitle').textContent = `Chapter ${chapter} - Select Difficulty Level`;
     showScreen('level-selection');
-    saveQuizState(); // Save state after chapter selection
 }
 
 function showChapterSelection() {
@@ -614,9 +462,6 @@ function showScreen(screenClass) {
         };
         history.pushState(state, '', `#${screenClass}`);
     }
-
-    // Save state after screen change
-    saveQuizState();
 }
 
 function startQuiz(level, timedMode = false) {
@@ -886,7 +731,6 @@ function nextQuestion() {
 
     if (currentQuestionIndex < 10) {
         displayQuestion();
-        saveQuizState(); // Save state after moving to next question
     } else {
         showResults();
     }
@@ -1157,18 +1001,8 @@ function addFloatingEmojis(emoji) {
 
 // Initialize on load
 window.onload = function() {
-    console.log('🚀 Quiz app initializing...');
-
-    // Try to restore previous state
-    const restored = restoreQuizState();
-
-    if (!restored) {
-        // Fresh start - no saved state
-        history.replaceState({screen: 'home-page'}, '', '#home-page');
-        showHomePage();
-    }
-
-    // Always initialize chapters for home page
+    // Set initial state
+    history.replaceState({screen: 'home-page'}, '', '#home-page');
     initializeChapters();
 };
 
@@ -1295,124 +1129,3 @@ function updateSubjectCardStatus() {
 window.addEventListener('DOMContentLoaded', function() {
     setTimeout(updateSubjectCardStatus, 100);
 });
-
-// ===================================================
-// LOADING PROGRESS BAR
-// ===================================================
-// Track loading progress for better UX
-let loadingProgress = {
-    total: 11, // CSS + 10 question files + App JS
-    loaded: 0,
-    startTime: Date.now()
-};
-
-// Show loading screen on page load
-(function() {
-    // Add loading class to body to hide main content
-    if (document.body) {
-        document.body.classList.add('quiz-loading');
-    } else {
-        document.addEventListener('DOMContentLoaded', function() {
-            document.body.classList.add('quiz-loading');
-        });
-    }
-
-    // Create loading overlay with inline styles for immediate effect
-    const loadingScreen = document.createElement('div');
-    loadingScreen.id = 'quiz-loading-screen';
-    loadingScreen.style.cssText = `
-        position: fixed !important;
-        top: 0 !important;
-        left: 0 !important;
-        width: 100vw !important;
-        height: 100vh !important;
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
-        display: flex !important;
-        align-items: center !important;
-        justify-content: center !important;
-        z-index: 999999 !important;
-        margin: 0 !important;
-        padding: 0 !important;
-    `;
-    loadingScreen.innerHTML = `
-        <div class="loading-content">
-            <div class="loading-emoji">🎮</div>
-            <h2 class="loading-title">Smart Family Picks Quiz</h2>
-            <p class="loading-subtitle">Loading 10,000+ Questions for Offline Play</p>
-
-            <div class="progress-bar-wrapper">
-                <div class="progress-bar-fill" id="loadingProgressBar"></div>
-            </div>
-
-            <div class="loading-stats">
-                <span id="loadingPercent">0%</span>
-                <span class="loading-divider">•</span>
-                <span id="loadingFiles">0/11 files</span>
-            </div>
-
-            <p class="loading-note">💡 After this loads once, works offline!</p>
-        </div>
-    `;
-
-    // Insert at start of body immediately
-    if (document.body) {
-        document.body.insertBefore(loadingScreen, document.body.firstChild);
-    } else {
-        document.addEventListener('DOMContentLoaded', function() {
-            if (document.body) {
-                document.body.insertBefore(loadingScreen, document.body.firstChild);
-            }
-        });
-    }
-})();
-
-// Update progress
-function updateLoadingProgress() {
-    loadingProgress.loaded++;
-    const percent = Math.floor((loadingProgress.loaded / loadingProgress.total) * 100);
-
-    const progressBar = document.getElementById('loadingProgressBar');
-    const percentText = document.getElementById('loadingPercent');
-    const filesText = document.getElementById('loadingFiles');
-
-    if (progressBar) progressBar.style.width = percent + '%';
-    if (percentText) percentText.textContent = percent + '%';
-    if (filesText) filesText.textContent = loadingProgress.loaded + '/' + loadingProgress.total + ' files';
-
-    // If all loaded, hide loading screen
-    if (loadingProgress.loaded >= loadingProgress.total) {
-        setTimeout(hideLoadingScreen, 500);
-    }
-}
-
-// Hide loading screen with animation
-function hideLoadingScreen() {
-    const loadingScreen = document.getElementById('quiz-loading-screen');
-    if (loadingScreen) {
-        loadingScreen.style.opacity = '0';
-        setTimeout(() => {
-            loadingScreen.remove();
-            // Remove loading class to show main content
-            document.body.classList.remove('quiz-loading');
-        }, 300);
-    }
-}
-
-// Track when each question file loads
-// This gets called by each question snippet at the end
-window.quizFileLoaded = function(fileName) {
-    console.log('✅ Loaded:', fileName);
-    updateLoadingProgress();
-};
-
-// Auto-complete loading after 5 seconds (fallback)
-setTimeout(function() {
-    if (document.getElementById('quiz-loading-screen')) {
-        console.log('⏱️ Loading timeout - forcing completion');
-        loadingProgress.loaded = loadingProgress.total;
-        updateLoadingProgress();
-    }
-}, 5000);
-
-// Start with CSS loaded
-updateLoadingProgress();

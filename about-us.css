@@ -353,7 +353,7 @@ html {
 /* Responsive Styles - Mobile */
 @media (max-width: 480px) {
     body {
-        padding: 8px;
+        padding: 5px;
     }
 
     .emoji-item {
@@ -369,13 +369,13 @@ html {
     }
 
     .emoji-banner {
-        padding: 20px 10px;
-        margin: 12px 0;
+        padding: 20px 8px;
+        margin: 10px 0;
     }
 
     .header {
-        padding: 16px 12px;
-        margin-bottom: 12px;
+        padding: 16px 10px;
+        margin-bottom: 10px;
     }
 
     .header h1 {
@@ -383,7 +383,7 @@ html {
     }
 
     .section-header {
-        padding: 12px 15px;
+        padding: 12px 12px;
     }
 
     .section-header h2 {
@@ -391,11 +391,11 @@ html {
     }
 
     .section-content.active {
-        padding: 15px 16px;
+        padding: 15px 10px;
     }
 
     .section-content {
-        padding: 0 16px;
+        padding: 0 10px;
     }
 
     .section-content h3 {
@@ -407,14 +407,14 @@ html {
     }
 
     .footer {
-        padding: 20px 12px;
+        padding: 20px 10px;
         margin-top: 15px;
     }
 
     .home-button {
         padding: 12px 30px;
         font-size: 1em;
-        width: 90%;
-        max-width: 300px;
+        width: 95%;
+        max-width: 320px;
     }
 }

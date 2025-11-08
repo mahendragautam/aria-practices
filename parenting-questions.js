@@ -87,7 +87,7 @@ const parentingQuestions = {
         ],
         medium: [
             {topic: 'Discipline', emoji: '📏👶', question: 'What is positive discipline?', options: ['Teaching rather than punishing', 'Only punishment'], correct: 0},
-            {topic: 'Behavior', emoji: '🎭😊', question: 'What is a natural consequence?', options: ['Result of child's action', 'Parent-imposed punishment'], correct: 0},
+            {topic: 'Behavior', emoji: '🎭😊', question: 'What is a natural consequence?', options: ["Result of child's action", 'Parent-imposed punishment'], correct: 0},
             {topic: 'Discipline', emoji: '📏✅', question: 'What is redirection?', options: ['Guide to better choice', 'Ignore behavior'], correct: 0},
             {topic: 'Behavior', emoji: '🎭😡', question: 'What triggers tantrums?', options: ['Frustration and overwhelm', 'Only hunger'], correct: 0},
             {topic: 'Discipline', emoji: '📏⏰', question: 'How long should time-outs be?', options: ['1 minute per year of age', '1 hour'], correct: 0},
@@ -351,7 +351,7 @@ const parentingQuestions = {
             {topic: 'Safety', emoji: '🛡️🚗', question: 'What are car seat stages?', options: ['Rear-facing, forward-facing, booster, belt', 'One stage', 'No stages'], correct: 0},
             {topic: 'First Aid', emoji: '🩹🔥', question: 'What is a second-degree burn?', options: ['Blisters, deeper skin damage', 'Surface only', 'Full thickness'], correct: 0},
             {topic: 'Safety', emoji: '🛡️🏊', question: 'What is touch supervision?', options: ['Within arm's reach', 'Same room', 'Different room'], correct: 0},
-            {topic: 'First Aid', emoji: '🩹🤕', question: 'When do cuts need stitches?', options: ['Deep, gaping, won't stop bleeding', 'All cuts', 'No cuts'], correct: 0},
+            {topic: 'First Aid', emoji: '🩹🤕', question: 'When do cuts need stitches?', options: ['Deep, gaping, won\'t stop bleeding', 'All cuts', 'No cuts'], correct: 0},
             {topic: 'Safety', emoji: '🛡️🔌', question: 'What is GFCI outlet?', options: ['Ground Fault Circuit Interrupter', 'Regular outlet', 'No difference'], correct: 0},
             {topic: 'First Aid', emoji: '🩹😵', question: 'What is CPR ratio for children?', options: ['30 compressions, 2 breaths', '15:2', '5:1'], correct: 0},
             {topic: 'Safety', emoji: '🛡️🚴', question: 'What makes a proper fitting helmet?', options: ['Level, snug, 2 fingers above eyebrows', 'Loose', 'Tilted'], correct: 0},

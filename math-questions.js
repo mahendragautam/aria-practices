@@ -388,7 +388,7 @@ const mathQuestions = {
             {topic: 'Linear Equations', emoji: '📉🎯', question: 'Linear graphs are straight lines.', options: ['True', 'False'], correct: 0},
             {topic: 'Linear Equations', emoji: '📈💯', question: 'The slope is rise over run.', options: ['True', 'False'], correct: 0},
             {topic: 'Linear Equations', emoji: '🔢📉', question: 'y = mx + b is slope-intercept form.', options: ['True', 'False'], correct: 0},
-            {topic: 'Linear Equations', emoji: '📊🎯', question: 'm' represents the slope in y = mx + b.', options: ['True', 'False'], correct: 0},
+            {topic: 'Linear Equations', emoji: '📊🎯', question: "'m' represents the slope in y = mx + b.", options: ['True', 'False'], correct: 0},
             {topic: 'Linear Equations', emoji: '📈🔢', question: 'A horizontal line has slope 0.', options: ['True', 'False'], correct: 0},
             {topic: 'Linear Equations', emoji: '📉💰', question: 'Parallel lines have equal slopes.', options: ['True', 'False'], correct: 0},
             {topic: 'Linear Equations', emoji: '🔢📈', question: 'Vertical lines have undefined slope.', options: ['True', 'False'], correct: 0},
@@ -890,7 +890,7 @@ const mathQuestions = {
             {topic: 'Probability', emoji: '🃏📈', question: 'Total probability of all outcomes is 1.', options: ['True', 'False'], correct: 0},
             {topic: 'Probability', emoji: '🎲🔢', question: 'P(not A) = 1 - P(A).', options: ['True', 'False'], correct: 0},
             {topic: 'Probability', emoji: '🃏🎲', question: 'Deck has 52 cards.', options: ['True', 'False'], correct: 0},
-            {topic: 'Probability', emoji: '🎯💯', question: 'Independent events don't affect each other.', options: ['True', 'False'], correct: 0},
+            {topic: 'Probability', emoji: '🎯💯', question: 'Independent events don\'t affect each other.', options: ['True', 'False'], correct: 0},
             {topic: 'Probability', emoji: '🎲📊', question: 'Sample space contains all outcomes.', options: ['True', 'False'], correct: 0}
         ],
         medium: [

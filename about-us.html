@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Smart Family Picks Quiz</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Animated Emoji Banner */
+        .emoji-banner {
+            background: white;
+            border-radius: 15px;
+            padding: 40px 20px;
+            margin: 30px 0;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .emoji-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            animation: fadeIn 1s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        .emoji-item {
+            font-size: 80px;
+            animation: bounce 2s ease-in-out infinite;
+        }
+
+        .emoji-item:nth-child(1) { animation-delay: 0s; }
+        .emoji-item:nth-child(2) { animation: pulse 2s ease-in-out infinite; animation-delay: 0.2s; }
+        .emoji-item:nth-child(3) { animation-delay: 0.4s; }
+        .emoji-item:nth-child(4) { animation: pulse 2s ease-in-out infinite; animation-delay: 0.6s; }
+        .emoji-item:nth-child(5) { animation-delay: 0.8s; }
+        .emoji-item:nth-child(6) { animation: pulse 2s ease-in-out infinite; animation-delay: 1s; }
+        .emoji-item:nth-child(7) { animation-delay: 1.2s; }
+        .emoji-item:nth-child(8) { animation: pulse 2s ease-in-out infinite; animation-delay: 1.4s; }
+        .emoji-item:nth-child(9) { animation-delay: 1.6s; }
+        .emoji-item:nth-child(10) { animation: pulse 2s ease-in-out infinite; animation-delay: 1.8s; }
+
+        .emoji-tagline {
+            margin-top: 20px;
+            font-size: 1.5em;
+            color: #667eea;
+            font-weight: 600;
+        }
+
+        /* Header */
+        .header {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .header h1 {
+            color: #667eea;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #667eea;
+            font-weight: 600;
+            padding: 10px 20px;
+            border-radius: 8px;
+            border: 2px solid #667eea;
+            transition: all 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            background: #667eea;
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+        }
+
+        /* Collapsible Accordion Sections */
+        .content-section {
+            background: transparent;
+            border-radius: 15px;
+            margin-bottom: 15px;
+            box-shadow: none;
+            scroll-margin-top: 20px;
+            overflow: hidden;
+        }
+
+        /* Mobile: Add shadow and white background to sections */
+        @media (max-width: 768px) {
+            .content-section {
+                background: white;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            }
+        }
+
+        .section-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px 30px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.3s ease;
+            user-select: none;
+        }
+
+        .section-header:hover {
+            background: linear-gradient(135deg, #7a8cf0 0%, #8559b0 100%);
+            transform: translateY(-2px);
+        }
+
+        .section-header h2 {
+            font-size: 1.8em;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .toggle-icon {
+            font-size: 1.5em;
+            transition: transform 0.3s ease;
+        }
+
+        .section-header.active .toggle-icon {
+            transform: rotate(180deg);
+        }
+
+        .section-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease-out, padding 0.4s ease-out;
+            padding: 0 40px;
+        }
+
+        .section-content.active {
+            max-height: 5000px;
+            padding: 30px 40px;
+            transition: max-height 0.6s ease-in, padding 0.4s ease-in;
+        }
+
+        .section-content h3 {
+            color: #764ba2;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+
+        .section-content h3:first-child {
+            margin-top: 0;
+        }
+
+        .section-content p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        .section-content ul {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+
+        .section-content li {
+            margin-bottom: 8px;
+        }
+
+        .section-content a {
+            color: #667eea;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .section-content a:hover {
+            text-decoration: underline;
+        }
+
+        .info-box {
+            background: #f0f4ff;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        .warning-box {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        /* Footer */
+        .footer {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            margin-top: 30px;
+        }
+
+        .footer a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Desktop: White background wrapper for content */
+        @media (min-width: 769px) {
+            .sections-wrapper {
+                background: white;
+                border-radius: 15px;
+                padding: 20px;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .emoji-item {
+                font-size: 50px;
+            }
+
+            .emoji-banner {
+                padding: 30px 15px;
+            }
+
+            .emoji-tagline {
+                font-size: 1.2em;
+            }
+
+            .section-content.active {
+                padding: 20px 25px;
+            }
+
+            .section-header {
+                padding: 15px 20px;
+            }
+
+            .section-header h2 {
+                font-size: 1.3em;
+            }
+
+            .nav-links {
+                flex-direction: column;
+            }
+
+            .nav-links a {
+                width: 100%;
+                text-align: center;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .emoji-item {
+                font-size: 40px;
+            }
+
+            .emoji-container {
+                gap: 15px;
+            }
+        }
+    </style>
+    <script>
+        function toggleSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            const header = section.querySelector('.section-header');
+            const content = section.querySelector('.section-content');
+
+            header.classList.toggle('active');
+            content.classList.toggle('active');
+        }
+
+        // Auto-open section if URL has hash
+        window.addEventListener('DOMContentLoaded', function() {
+            const hash = window.location.hash.substring(1);
+            if (hash) {
+                const section = document.getElementById(hash);
+                if (section) {
+                    const header = section.querySelector('.section-header');
+                    const content = section.querySelector('.section-content');
+                    header.classList.add('active');
+                    content.classList.add('active');
+                    setTimeout(() => section.scrollIntoView({ behavior: 'smooth' }), 100);
+                }
+            }
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>📖 About Smart Family Picks Quiz</h1>
+            <div class="nav-links">
+                <a href="/">🏠 Home</a>
+                <a href="#about">📖 About Us</a>
+                <a href="#mission">🎯 Our Mission</a>
+                <a href="#features">✨ Features</a>
+                <a href="#contact">📧 Contact</a>
+                <a href="#privacy">🔒 Privacy</a>
+                <a href="#terms">📜 Terms</a>
+            </div>
+        </header>
+
+        <!-- Animated Emoji Banner -->
+        <div class="emoji-banner">
+            <div class="emoji-container">
+                <span class="emoji-item">🔬</span>
+                <span class="emoji-item">🔢</span>
+                <span class="emoji-item">📜</span>
+                <span class="emoji-item">🌍</span>
+                <span class="emoji-item">📖</span>
+                <span class="emoji-item">💪</span>
+                <span class="emoji-item">🌱</span>
+                <span class="emoji-item">💼</span>
+                <span class="emoji-item">💻</span>
+                <span class="emoji-item">👶</span>
+            </div>
+            <div class="emoji-tagline">10 Subjects • 20 Chapters • 10,000+ Questions</div>
+        </div>
+
+        <!-- Desktop White Background Wrapper -->
+        <div class="sections-wrapper">
+        <!-- About Us Section -->
+        <section id="about" class="content-section">
+            <div class="section-header" onclick="toggleSection('about')">
+                <h2>📖 About Us</h2>
+                <span class="toggle-icon">▼</span>
+            </div>
+            <div class="section-content">
+            <h3>Welcome to Smart Family Picks Quiz!</h3>
+            <p>
+                Welcome to <strong>Smart Family Picks Quiz</strong>, your ultimate destination for fun, educational, and engaging quiz experiences! We are part of the <a href="https://smartfamilypicks.com" target="_blank">Smart Family Picks</a> family, dedicated to providing valuable resources and entertainment for families around the world.
+            </p>
+
+            <h3>Our Story</h3>
+            <p>
+                Smart Family Picks Quiz was born from a passion for education and a desire to create meaningful learning experiences. As part of the Smart Family Picks ecosystem, we understand the importance of making quality educational resources accessible to everyone. Whether you're a student looking to test your knowledge, a parent seeking educational activities for your children, or simply someone who loves learning new things, we've got you covered.
+            </p>
+
+            <h3>What We Offer</h3>
+            <p>
+                Our platform features thousands of carefully curated questions across 10 major categories, with each category containing 20 chapters and 1,000 unique questions. This means you have access to:
+            </p>
+            <ul>
+                <li>10,000+ quiz questions</li>
+                <li>200 chapters across various subjects</li>
+                <li>Instant feedback and scoring</li>
+                <li>Progress tracking</li>
+                <li>Timed challenges for Quiz Mode</li>
+                <li>Unlimited practice opportunities in Practice Mode</li>
+            </ul>
+            </div>
+        </section>
+
+        <!-- Mission Section -->
+        <section id="mission" class="content-section">
+            <div class="section-header" onclick="toggleSection('mission')">
+                <h2>🎯 Our Mission</h2>
+                <span class="toggle-icon">▼</span>
+            </div>
+            <div class="section-content">
+            <p>
+                At Smart Family Picks Quiz, our mission is simple: to make learning fun and accessible for everyone. We believe that knowledge should be engaging, interactive, and available to all—completely free of charge. Our quizzes cover a wide range of topics including:
+            </p>
+            <ul>
+                <li><strong>🔬 Science:</strong> Explore the wonders of the natural world</li>
+                <li><strong>🔢 Math:</strong> Challenge your problem-solving skills</li>
+                <li><strong>📜 History:</strong> Journey through time and learn from the past</li>
+                <li><strong>🌍 Geography:</strong> Discover the world around you</li>
+                <li><strong>📖 English:</strong> Enhance your language and literature knowledge</li>
+                <li><strong>💪 Health:</strong> Learn about wellness and healthy living</li>
+                <li><strong>🌱 Environment:</strong> Understand our planet and sustainability</li>
+                <li><strong>💼 Business:</strong> Develop your entrepreneurial mindset</li>
+                <li><strong>💻 Technology:</strong> Stay updated with the digital world</li>
+                <li><strong>👶 Parenting:</strong> Navigate the journey of raising children</li>
+            </ul>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="content-section">
+            <div class="section-header" onclick="toggleSection('features')">
+                <h2>✨ Why Choose Us?</h2>
+                <span class="toggle-icon">▼</span>
+            </div>
+            <div class="section-content">
+
+            <div class="info-box">
+                <h3>🎯 100% Free Content</h3>
+                <p>All our quizzes are completely free. No subscriptions, no hidden fees—just pure educational fun!</p>
+            </div>
+
+            <div class="info-box">
+                <h3>📚 Quality Educational Content</h3>
+                <p>Each quiz is carefully crafted with accurate information and designed to enhance your knowledge in an engaging way.</p>
+            </div>
+
+            <div class="info-box">
+                <h3>👨‍👩‍👧‍👦 Family-Friendly</h3>
+                <p>Our content is suitable for learners of all ages—from kids to adults, everyone can benefit from our quizzes.</p>
+            </div>
+
+            <div class="info-box">
+                <h3>🎓 Multiple Learning Modes</h3>
+                <p>Choose between Quiz Mode for a challenge or Practice Mode to learn at your own pace.</p>
+            </div>
+
+            <h3>Our Community</h3>
+            <p>
+                We're more than just a quiz website—we're a community of curious minds who love to learn. Join thousands of learners who use our platform daily to expand their knowledge, challenge themselves, and have fun while doing it.
+            </p>
+
+            <h3>Our Commitment to You</h3>
+            <p>We are committed to:</p>
+            <ul>
+                <li>Maintaining 100% free access to all quiz content</li>
+                <li>Continuously updating and expanding our question database</li>
+                <li>Ensuring accuracy and quality in all our content</li>
+                <li>Providing a safe, user-friendly experience for all ages</li>
+                <li>Respecting your privacy and data security</li>
+            </ul>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="content-section">
+            <div class="section-header" onclick="toggleSection('contact')">
+                <h2>📧 Contact Us</h2>
+                <span class="toggle-icon">▼</span>
+            </div>
+            <div class="section-content">
+
+            <h3>Get in Touch</h3>
+            <p>
+                We love hearing from our users! Whether you have questions, feedback, suggestions, or just want to say hello, we're here for you.
+            </p>
+
+            <div class="info-box">
+                <h3>📍 Main Website</h3>
+                <p><a href="https://smartfamilypicks.com" target="_blank">www.smartfamilypicks.com</a></p>
+
+                <h3>🎯 Quiz Platform</h3>
+                <p><a href="https://quiz.smartfamilypicks.com" target="_blank">quiz.smartfamilypicks.com</a></p>
+
+                <h3>✉️ Email Us</h3>
+                <p><a href="mailto:info@smartfamilypicks.com">info@smartfamilypicks.com</a></p>
+            </div>
+
+            <div class="warning-box">
+                <p><strong>Note:</strong> While our quiz content is completely free, we may use cookies and third-party services to improve your experience and support our platform. We also may include affiliate links to products and services that we believe will benefit our users.</p>
+            </div>
+            </div>
+        </section>
+
+        <!-- Privacy Policy Section -->
+        <section id="privacy" class="content-section">
+            <div class="section-header" onclick="toggleSection('privacy')">
+                <h2>🔒 Privacy Policy</h2>
+                <span class="toggle-icon">▼</span>
+            </div>
+            <div class="section-content">
+
+            <h3>Your Privacy Matters</h3>
+            <p>
+                At Smart Family Picks Quiz, we are committed to protecting your privacy and ensuring a safe browsing experience. This Privacy Policy explains how we collect, use, and safeguard your information.
+            </p>
+
+            <h3>Information We Collect</h3>
+            <p>Our quiz platform is designed to be simple and privacy-friendly. We collect minimal information:</p>
+            <ul>
+                <li><strong>Usage Data:</strong> We may collect non-personal information about how you use our quizzes (e.g., quiz completion rates, popular subjects) to improve our platform.</li>
+                <li><strong>Cookies:</strong> We use cookies to enhance your experience and remember your preferences. You can disable cookies in your browser settings if you prefer.</li>
+                <li><strong>Third-Party Services:</strong> We may use third-party services (like analytics tools) that collect information to help us understand how users interact with our platform.</li>
+            </ul>
+
+            <h3>How We Use Your Information</h3>
+            <p>Any information we collect is used solely to:</p>
+            <ul>
+                <li>Improve our quiz content and user experience</li>
+                <li>Understand which subjects and topics are most popular</li>
+                <li>Maintain and optimize our platform performance</li>
+                <li>Support our platform through carefully selected affiliate partnerships</li>
+            </ul>
+
+            <h3>Data Security</h3>
+            <p>
+                We implement reasonable security measures to protect any information collected through our platform. However, no method of transmission over the internet is 100% secure, and we cannot guarantee absolute security.
+            </p>
+
+            <h3>Your Rights</h3>
+            <p>You have the right to:</p>
+            <ul>
+                <li>Use our quiz platform without creating an account or providing personal information</li>
+                <li>Disable cookies in your browser settings</li>
+                <li>Contact us with any privacy concerns at <a href="mailto:info@smartfamilypicks.com">info@smartfamilypicks.com</a></li>
+            </ul>
+
+            <div class="warning-box">
+                <p><strong>Note:</strong> This platform is part of the Smart Family Picks network. For complete privacy information regarding our parent website, please visit <a href="https://smartfamilypicks.com/privacy" target="_blank">smartfamilypicks.com/privacy</a></p>
+            </div>
+            </div>
+        </section>
+
+        <!-- Terms of Service Section -->
+        <section id="terms" class="content-section">
+            <div class="section-header" onclick="toggleSection('terms')">
+                <h2>📜 Terms of Service</h2>
+                <span class="toggle-icon">▼</span>
+            </div>
+            <div class="section-content">
+
+            <h3>Welcome to Our Terms</h3>
+            <p>
+                By using Smart Family Picks Quiz, you agree to these Terms of Service. Please read them carefully.
+            </p>
+
+            <h3>1. Acceptance of Terms</h3>
+            <p>
+                By accessing and using this quiz platform, you accept and agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our platform.
+            </p>
+
+            <h3>2. Use of Service</h3>
+            <p>You agree to use our quiz platform:</p>
+            <ul>
+                <li>For personal, educational, and non-commercial purposes</li>
+                <li>In compliance with all applicable laws and regulations</li>
+                <li>Without attempting to harm or disrupt the platform's functionality</li>
+                <li>Without copying, modifying, or distributing our content without permission</li>
+            </ul>
+
+            <h3>3. Content and Intellectual Property</h3>
+            <p>
+                All quiz content, including questions, answers, graphics, and design elements, are the property of Smart Family Picks or its content creators. You may not reproduce, distribute, or create derivative works without our explicit permission.
+            </p>
+
+            <h3>4. Disclaimer of Warranties</h3>
+            <p>
+                Our quiz platform is provided "as is" without warranties of any kind. While we strive for accuracy in our educational content, we cannot guarantee that all information is 100% accurate or up-to-date. Use our quizzes as a supplementary learning tool.
+            </p>
+
+            <h3>5. Limitation of Liability</h3>
+            <p>
+                Smart Family Picks Quiz and its operators shall not be liable for any direct, indirect, incidental, or consequential damages resulting from your use of our platform.
+            </p>
+
+            <h3>6. Affiliate Disclosure</h3>
+            <p>
+                Our platform may contain affiliate links to products or services. If you make a purchase through these links, we may earn a commission at no additional cost to you. These affiliate relationships help support our free quiz platform.
+            </p>
+
+            <h3>7. Changes to Terms</h3>
+            <p>
+                We reserve the right to modify these Terms of Service at any time. Continued use of the platform after changes constitutes acceptance of the modified terms.
+            </p>
+
+            <h3>8. Contact for Legal Matters</h3>
+            <p>
+                For any questions or concerns about these Terms of Service, please contact us at <a href="mailto:info@smartfamilypicks.com">info@smartfamilypicks.com</a>
+            </p>
+
+            <div class="info-box">
+                <p><strong>Last Updated:</strong> January 2025</p>
+                <p>These Terms of Service are effective as of the date listed above and apply to all users of the Smart Family Picks Quiz platform.</p>
+            </div>
+            </div>
+        </section>
+        </div><!-- End sections-wrapper -->
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2024 <a href="https://smartfamilypicks.com" target="_blank">Smart Family Picks</a>. All rights reserved.</p>
+            <p>Quiz Platform: <a href="https://quiz.smartfamilypicks.com" target="_blank">quiz.smartfamilypicks.com</a></p>
+            <p style="margin-top: 15px;">
+                <a href="#about">About Us</a> |
+                <a href="#mission">Our Mission</a> |
+                <a href="#features">Features</a> |
+                <a href="#contact">Contact</a> |
+                <a href="#privacy">Privacy</a> |
+                <a href="#terms">Terms</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>

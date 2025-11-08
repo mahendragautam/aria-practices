@@ -3,8 +3,8 @@
  * Handles collapsible sections with smooth animations
  */
 
-// Toggle section open/close
-function toggleSection(sectionId) {
+// Toggle section open/close - Make it globally accessible
+window.toggleSection = function(sectionId) {
     const section = document.getElementById(sectionId);
     if (!section) return;
 

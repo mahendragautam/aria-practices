@@ -28,51 +28,52 @@ html {
 /* Header */
 .header {
     background: white;
-    border-radius: 15px;
-    padding: 30px;
-    margin-bottom: 30px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    padding: 25px 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
     text-align: center;
 }
 
 .header h1 {
     color: #667eea;
-    font-size: 2.5em;
-    margin-bottom: 10px;
+    font-size: 2.2em;
+    margin-bottom: 15px;
 }
 
 .nav-links {
     display: flex;
-    gap: 20px;
+    gap: 12px;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .nav-links a {
     text-decoration: none;
     color: #667eea;
     font-weight: 600;
-    padding: 10px 20px;
+    padding: 8px 16px;
     border-radius: 8px;
     border: 2px solid #667eea;
     transition: all 0.3s ease;
+    font-size: 0.95em;
 }
 
 .nav-links a:hover {
     background: #667eea;
     color: white;
     transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
 }
 
 /* Animated Emoji Banner (Top Banner) */
 .emoji-banner {
     background: white;
-    border-radius: 15px;
-    padding: 40px 20px;
-    margin: 30px 0;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    padding: 30px 20px;
+    margin: 20px 0;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
     text-align: center;
     overflow: hidden;
 }
@@ -133,17 +134,17 @@ html {
 @media (min-width: 769px) {
     .sections-wrapper {
         background: white;
-        border-radius: 15px;
-        padding: 20px;
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        border-radius: 12px;
+        padding: 15px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
     }
 }
 
 /* Collapsible Accordion Sections */
 .content-section {
     background: transparent;
-    border-radius: 15px;
-    margin-bottom: 15px;
+    border-radius: 12px;
+    margin-bottom: 12px;
     box-shadow: none;
     scroll-margin-top: 20px;
     overflow: hidden;
@@ -153,14 +154,14 @@ html {
 @media (max-width: 768px) {
     .content-section {
         background: white;
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
     }
 }
 
 .section-header {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
-    padding: 20px 30px;
+    padding: 16px 24px;
     cursor: pointer;
     display: flex;
     justify-content: space-between;
@@ -196,13 +197,13 @@ html {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.4s ease-out, padding 0.4s ease-out;
-    padding: 0 40px;
+    padding: 0 30px;
     background: white;
 }
 
 .section-content.active {
     max-height: 5000px;
-    padding: 30px 40px;
+    padding: 24px 30px;
     transition: max-height 0.6s ease-in, padding 0.4s ease-in;
 }
 
@@ -304,48 +305,63 @@ html {
     }
 
     .emoji-banner {
-        padding: 30px 15px;
+        padding: 25px 15px;
     }
 
     .emoji-tagline {
-        font-size: 1.2em;
-    }
-
-    .section-content.active {
-        padding: 20px 25px;
-    }
-
-    .section-content {
-        padding: 0 25px;
-    }
-
-    .section-header {
-        padding: 15px 20px;
-    }
-
-    .section-header h2 {
-        font-size: 1.3em;
-    }
-
-    .section-content h3 {
-        font-size: 1.3em;
-    }
-
-    .section-content h4 {
         font-size: 1.1em;
     }
 
+    .section-content.active {
+        padding: 18px 20px;
+    }
+
+    .section-content {
+        padding: 0 20px;
+    }
+
+    .section-header {
+        padding: 14px 18px;
+    }
+
+    .section-header h2 {
+        font-size: 1.2em;
+    }
+
+    .section-content h3 {
+        font-size: 1.25em;
+    }
+
+    .section-content h4 {
+        font-size: 1.05em;
+    }
+
+    /* 2-column grid layout for navigation buttons */
     .nav-links {
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        margin-top: 15px;
     }
 
     .nav-links a {
         width: 100%;
         text-align: center;
+        padding: 10px 8px;
+        font-size: 0.9em;
+    }
+
+    /* Home button spans full width at bottom */
+    .nav-links a:last-child {
+        grid-column: 1 / -1;
+    }
+
+    .header {
+        padding: 20px 15px;
     }
 
     .header h1 {
-        font-size: 2em;
+        font-size: 1.8em;
     }
 }
 
@@ -360,19 +376,23 @@ html {
     }
 
     .emoji-container {
-        gap: 15px;
+        gap: 12px;
     }
 
     .emoji-tagline {
-        font-size: 1em;
+        font-size: 0.95em;
+    }
+
+    .emoji-banner {
+        padding: 20px 12px;
     }
 
     .header {
-        padding: 20px 15px;
+        padding: 18px 12px;
     }
 
     .header h1 {
-        font-size: 1.6em;
+        font-size: 1.5em;
     }
 
     .section-header {
@@ -380,26 +400,31 @@ html {
     }
 
     .section-header h2 {
-        font-size: 1.1em;
+        font-size: 1.05em;
     }
 
     .section-content.active {
-        padding: 15px 20px;
+        padding: 15px 18px;
     }
 
     .section-content {
-        padding: 0 20px;
+        padding: 0 18px;
     }
 
     .section-content h3 {
-        font-size: 1.2em;
+        font-size: 1.15em;
     }
 
     .section-content h4 {
-        font-size: 1em;
+        font-size: 0.95em;
     }
 
     .footer {
-        padding: 20px 15px;
+        padding: 18px 12px;
+    }
+
+    .nav-links a {
+        padding: 10px 6px;
+        font-size: 0.85em;
     }
 }

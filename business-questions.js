@@ -381,4 +381,379 @@ const businessQuestions = {
             {topic: 'Implementation', emoji: '⚙️✅', question: 'Name three barriers to strategy execution', answer: 'Resistance to change, Poor communication, Lack of resources, Unclear goals (any 3)'}
         ]
     },
+
+    7: { // Chapter 7: Business Ethics
+        easy: [
+            {topic: 'Ethics', emoji: '⚖️💼', question: 'Ethics guide right and wrong.', options: ['True', 'False'], correct: 0},
+            {topic: 'Compliance', emoji: '📋✅', question: 'Companies must follow laws.', options: ['True', 'False'], correct: 0},
+            {topic: 'Honesty', emoji: '🤝💚', question: 'Honesty builds trust.', options: ['True', 'False'], correct: 0},
+            {topic: 'Responsibility', emoji: '🎯🌍', question: 'Businesses have social responsibility.', options: ['True', 'False'], correct: 0},
+            {topic: 'Ethics', emoji: '⚖️🏢', question: 'Ethical behavior is important.', options: ['True', 'False'], correct: 0},
+            {topic: 'Transparency', emoji: '🔍📊', question: 'Transparency means being open.', options: ['True', 'False'], correct: 0},
+            {topic: 'Fairness', emoji: '⚖️👥', question: 'Fair treatment matters.', options: ['True', 'False'], correct: 0},
+            {topic: 'Integrity', emoji: '💎✨', question: 'Integrity means doing the right thing.', options: ['True', 'False'], correct: 0},
+            {topic: 'Ethics', emoji: '⚖️📜', question: 'Codes of conduct set standards.', options: ['True', 'False'], correct: 0},
+            {topic: 'Accountability', emoji: '👤📊', question: 'People should be accountable.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Ethics', emoji: '⚖️💼', question: 'What is business ethics?', options: ['Moral principles in business', 'Any practice'], correct: 0},
+            {topic: 'Compliance', emoji: '📋✅', question: 'What is regulatory compliance?', options: ['Following government rules', 'Ignoring rules'], correct: 0},
+            {topic: 'Honesty', emoji: '🤝💚', question: 'What is fiduciary duty?', options: ['Legal obligation to act in best interest', 'No obligation'], correct: 0},
+            {topic: 'Responsibility', emoji: '🎯🌍', question: 'What is CSR?', options: ['Corporate Social Responsibility', 'Company Sales Report'], correct: 0},
+            {topic: 'Ethics', emoji: '⚖️🏢', question: 'What is ethical dilemma?', options: ['Conflict between moral choices', 'Easy decision'], correct: 0},
+            {topic: 'Transparency', emoji: '🔍📊', question: 'What is disclosure?', options: ['Revealing information', 'Hiding facts'], correct: 0},
+            {topic: 'Fairness', emoji: '⚖️👥', question: 'What is equal opportunity?', options: ['Fair access for all', 'Discrimination'], correct: 0},
+            {topic: 'Integrity', emoji: '💎✨', question: 'What is whistleblowing?', options: ['Reporting wrongdoing', 'Staying silent'], correct: 0},
+            {topic: 'Ethics', emoji: '⚖️📜', question: 'What is code of ethics?', options: ['Written moral guidelines', 'No guidelines'], correct: 0},
+            {topic: 'Accountability', emoji: '👤📊', question: 'What is corporate governance?', options: ['System of rules and practices', 'No oversight'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Ethics', emoji: '⚖️💼', question: 'What is stakeholder theory?', options: ['Consider all affected parties', 'Shareholders only'], correct: 0},
+            {topic: 'Compliance', emoji: '📋✅', question: 'What is Sarbanes-Oxley Act?', options: ['Financial reporting law', 'Employment law'], correct: 0},
+            {topic: 'Honesty', emoji: '🤝💚', question: 'What is conflict of interest?', options: ['Personal interest conflicts with duty', 'No conflict'], correct: 0},
+            {topic: 'Responsibility', emoji: '🎯🌍', question: 'What is triple bottom line?', options: ['People, Planet, Profit', 'Profit only'], correct: 0},
+            {topic: 'Ethics', emoji: '⚖️🏢', question: 'What is moral hazard?', options: ['Risk-taking without consequences', 'Ethical behavior'], correct: 0},
+            {topic: 'Transparency', emoji: '🔍📊', question: 'What is GAAP principle?', options: ['Accounting transparency standards', 'Business strategy'], correct: 0},
+            {topic: 'Fairness', emoji: '⚖️👥', question: 'What is pay equity?', options: ['Equal pay for equal work', 'Unequal pay'], correct: 0},
+            {topic: 'Integrity', emoji: '💎✨', question: 'What is ethical leadership?', options: ['Lead by moral example', 'Ignore ethics'], correct: 0},
+            {topic: 'Ethics', emoji: '⚖️📜', question: 'What is ethical sourcing?', options: ['Responsible procurement', 'Any supplier'], correct: 0},
+            {topic: 'Accountability', emoji: '👤📊', question: 'What is board of directors role?', options: ['Oversee management', 'No oversight'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Ethics', emoji: '⚖️💼', question: 'What is utilitarian ethics?', options: ['Greatest good for greatest number', 'Individual rights', 'Duty-based', 'Virtue-based'], correct: 0},
+            {topic: 'Compliance', emoji: '📋✅', question: 'What is FCPA?', options: ['Foreign Corrupt Practices Act', 'Financial Compliance Protection Act', 'Federal Corporate Policy Act', 'Fair Competition Procedures Act'], correct: 0},
+            {topic: 'Honesty', emoji: '🤝💚', question: 'What is materiality in disclosure?', options: ['Information significance', 'Material goods', 'Physical assets', 'No importance'], correct: 0},
+            {topic: 'Responsibility', emoji: '🎯🌍', question: 'What is ESG?', options: ['Environmental, Social, Governance', 'Economic Strategy Guide', 'Employee Safety Guidelines', 'Earnings, Sales, Growth'], correct: 0},
+            {topic: 'Ethics', emoji: '⚖️🏢', question: 'What is ethical relativism?', options: ['Ethics vary by culture', 'Universal ethics', 'No ethics', 'Absolute rules'], correct: 0},
+            {topic: 'Transparency', emoji: '🔍📊', question: 'What is audit independence?', options: ['Auditor objectivity', 'Audit dependence', 'No audits', 'Biased review'], correct: 0},
+            {topic: 'Fairness', emoji: '⚖️👥', question: 'What is distributive justice?', options: ['Fair allocation of resources', 'Unequal distribution', 'Random allocation', 'No fairness'], correct: 0},
+            {topic: 'Integrity', emoji: '💎✨', question: 'What is ethical climate?', options: ['Organizational moral culture', 'Weather conditions', 'Physical environment', 'No culture'], correct: 0},
+            {topic: 'Ethics', emoji: '⚖️📜', question: 'What is greenwashing?', options: ['Misleading environmental claims', 'Eco-friendly practice', 'Cleaning service', 'No claims'], correct: 0},
+            {topic: 'Accountability', emoji: '👤📊', question: 'What is clawback provision?', options: ['Recover executive compensation', 'Give more pay', 'No provisions', 'Bonus guarantee'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Ethics', emoji: '⚖️💼', question: 'Name three ethical theories', answer: 'Utilitarianism, Deontology, Virtue ethics, Rights-based (any 3)'},
+            {topic: 'Compliance', emoji: '📋✅', question: 'Name three major business regulations', answer: 'SOX, FCPA, GDPR, Anti-trust, Labor laws (any 3)'},
+            {topic: 'Honesty', emoji: '🤝💚', question: 'Name three types of fraud', answer: 'Financial, Identity, Securities, Insurance, Tax (any 3)'},
+            {topic: 'Responsibility', emoji: '🎯🌍', question: 'Name the three pillars of CSR', answer: 'Economic, Social, Environmental responsibility'},
+            {topic: 'Ethics', emoji: '⚖️🏢', question: 'Name three ethical decision-making steps', answer: 'Identify issue, Consider stakeholders, Evaluate options, Decide, Reflect (any 3)'},
+            {topic: 'Transparency', emoji: '🔍📊', question: 'Name three transparency practices', answer: 'Financial disclosure, Open communication, Audit trails, Reporting (any 3)'},
+            {topic: 'Fairness', emoji: '⚖️👥', question: 'Name three diversity dimensions', answer: 'Race, Gender, Age, Disability, Religion (any 3)'},
+            {topic: 'Integrity', emoji: '💎✨', question: 'Name three whistleblower protections', answer: 'Anti-retaliation, Anonymity, Legal protection'},
+            {topic: 'Ethics', emoji: '⚖️📜', question: 'Name three elements of ethics program', answer: 'Code of conduct, Training, Hotline, Enforcement (any 3)'}
+        ]
+    },
+    8: { // Chapter 8: E-commerce
+        easy: [
+            {topic: 'Online', emoji: '💻🛒', question: 'E-commerce is online shopping.', options: ['True', 'False'], correct: 0},
+            {topic: 'Website', emoji: '🌐🏬', question: 'Websites sell products.', options: ['True', 'False'], correct: 0},
+            {topic: 'Payment', emoji: '💳💰', question: 'Credit cards work online.', options: ['True', 'False'], correct: 0},
+            {topic: 'Shipping', emoji: '📦🚚', question: 'Products are shipped to customers.', options: ['True', 'False'], correct: 0},
+            {topic: 'Online', emoji: '💻📱', question: 'Mobile apps enable shopping.', options: ['True', 'False'], correct: 0},
+            {topic: 'Marketing', emoji: '📢💻', question: 'Digital ads reach customers.', options: ['True', 'False'], correct: 0},
+            {topic: 'Customer', emoji: '👤⭐', question: 'Reviews influence purchases.', options: ['True', 'False'], correct: 0},
+            {topic: 'Security', emoji: '🔒💻', question: 'Online security is important.', options: ['True', 'False'], correct: 0},
+            {topic: 'Online', emoji: '💻🌍', question: 'E-commerce is global.', options: ['True', 'False'], correct: 0},
+            {topic: 'Convenience', emoji: '⏰🛒', question: 'Online shopping is convenient.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Online', emoji: '💻🛒', question: 'What is B2C e-commerce?', options: ['Business to Consumer', 'Business to Business'], correct: 0},
+            {topic: 'Website', emoji: '🌐🏬', question: 'What is shopping cart?', options: ['Virtual basket for items', 'Physical cart'], correct: 0},
+            {topic: 'Payment', emoji: '💳💰', question: 'What is payment gateway?', options: ['Processes online payments', 'Physical gate'], correct: 0},
+            {topic: 'Shipping', emoji: '📦🚚', question: 'What is fulfillment?', options: ['Process orders and ship', 'Cancel orders'], correct: 0},
+            {topic: 'Online', emoji: '💻📱', question: 'What is m-commerce?', options: ['Mobile commerce', 'Mail commerce'], correct: 0},
+            {topic: 'Marketing', emoji: '📢💻', question: 'What is conversion rate?', options: ['Visitors who buy', 'All visitors'], correct: 0},
+            {topic: 'Customer', emoji: '👤⭐', question: 'What is user experience (UX)?', options: ['How users interact with site', 'Product features'], correct: 0},
+            {topic: 'Security', emoji: '🔒💻', question: 'What is SSL certificate?', options: ['Secure connection encryption', 'Business license'], correct: 0},
+            {topic: 'Online', emoji: '💻🌍', question: 'What is dropshipping?', options: ['Seller doesn\'t hold inventory', 'Own warehouse'], correct: 0},
+            {topic: 'Convenience', emoji: '⏰🛒', question: 'What is one-click checkout?', options: ['Fast purchase process', 'Multiple steps'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Online', emoji: '💻🛒', question: 'What is omnichannel retail?', options: ['Integrated multi-channel', 'Online only'], correct: 0},
+            {topic: 'Website', emoji: '🌐🏬', question: 'What is responsive design?', options: ['Adapts to device size', 'Fixed layout'], correct: 0},
+            {topic: 'Payment', emoji: '💳💰', question: 'What is PCI DSS?', options: ['Payment security standard', 'Payment type'], correct: 0},
+            {topic: 'Shipping', emoji: '📦🚚', question: 'What is real-time inventory?', options: ['Live stock updates', 'Monthly count'], correct: 0},
+            {topic: 'Online', emoji: '💻📱', question: 'What is progressive web app?', options: ['Web app like mobile app', 'Traditional website'], correct: 0},
+            {topic: 'Marketing', emoji: '📢💻', question: 'What is retargeting?', options: ['Show ads to previous visitors', 'New customers only'], correct: 0},
+            {topic: 'Customer', emoji: '👤⭐', question: 'What is customer journey mapping?', options: ['Visualize buyer experience', 'Product catalog'], correct: 0},
+            {topic: 'Security', emoji: '🔒💻', question: 'What is two-factor authentication?', options: ['Extra security layer', 'One password'], correct: 0},
+            {topic: 'Online', emoji: '💻🌍', question: 'What is marketplace model?', options: ['Platform for multiple sellers', 'Single seller'], correct: 0},
+            {topic: 'Convenience', emoji: '⏰🛒', question: 'What is subscription commerce?', options: ['Recurring automatic orders', 'One-time purchase'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Online', emoji: '💻🛒', question: 'What is typical e-commerce conversion rate?', options: ['2-3%', '50%', '90%', '0.1%'], correct: 0},
+            {topic: 'Website', emoji: '🌐🏬', question: 'What is A/B testing?', options: ['Compare two versions', 'Single test', 'No testing', 'Random change'], correct: 0},
+            {topic: 'Payment', emoji: '💳💰', question: 'What is chargeback?', options: ['Reversed payment', 'Extra charge', 'Discount', 'Bonus'], correct: 0},
+            {topic: 'Shipping', emoji: '📦🚚', question: 'What is cross-border e-commerce challenge?', options: ['Customs and regulations', 'Domestic shipping', 'No issues', 'Simple process'], correct: 0},
+            {topic: 'Online', emoji: '💻📱', question: 'What percentage of e-commerce is mobile?', options: ['~60-70%', '10%', '1%', '99%'], correct: 0},
+            {topic: 'Marketing', emoji: '📢💻', question: 'What is CAC in e-commerce?', options: ['Customer Acquisition Cost', 'Computer Access Code', 'Central Admin Console', 'Customer Account Center'], correct: 0},
+            {topic: 'Customer', emoji: '👤⭐', question: 'What is cart abandonment rate?', options: ['~70% average', '10%', '0%', '100%'], correct: 0},
+            {topic: 'Security', emoji: '🔒💻', question: 'What is GDPR?', options: ['Data protection regulation', 'Payment method', 'Shipping rule', 'Marketing tool'], correct: 0},
+            {topic: 'Online', emoji: '💻🌍', question: 'What is headless commerce?', options: ['Separate frontend and backend', 'Traditional setup', 'No interface', 'Single system'], correct: 0},
+            {topic: 'Convenience', emoji: '⏰🛒', question: 'What is average delivery expectation?', options: ['2-3 days', '1 month', '1 year', '1 hour'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Online', emoji: '💻🛒', question: 'Name three e-commerce business models', answer: 'B2C, B2B, C2C, D2C, Marketplace (any 3)'},
+            {topic: 'Website', emoji: '🌐🏬', question: 'Name three website optimization techniques', answer: 'Speed, Mobile, SEO, UX, Security (any 3)'},
+            {topic: 'Payment', emoji: '💳💰', question: 'Name three payment methods', answer: 'Credit card, PayPal, Digital wallet, COD, Crypto (any 3)'},
+            {topic: 'Shipping', emoji: '📦🚚', question: 'Name three shipping options', answer: 'Standard, Express, Same-day, Free, International (any 3)'},
+            {topic: 'Online', emoji: '💻📱', question: 'Name three mobile commerce features', answer: 'App, Mobile wallet, Push notifications, Location-based (any 3)'},
+            {topic: 'Marketing', emoji: '📢💻', question: 'Name three key digital marketing channels', answer: 'SEO, PPC, Email, Social media, Content (any 3)'},
+            {topic: 'Customer', emoji: '👤⭐', question: 'Name three ways to reduce cart abandonment', answer: 'Simplify checkout, Show costs, Save cart, Email reminders (any 3)'},
+            {topic: 'Security', emoji: '🔒💻', question: 'Name three security measures', answer: 'SSL, 2FA, Encryption, Fraud detection, Compliance (any 3)'},
+            {topic: 'Online', emoji: '💻🌍', question: 'Name three major e-commerce platforms', answer: 'Shopify, WooCommerce, Magento, BigCommerce (any 3)'},
+            {topic: 'Convenience', emoji: '⏰🛒', question: 'Name three customer service channels', answer: 'Chat, Email, Phone, Social media, FAQ (any 3)'}
+        ]
+    }
+,
+    9: { // Chapter 9: International Business  
+        easy: [
+            {topic: 'Global', emoji: '🌍💼', question: 'International business crosses borders.', options: ['True', 'False'], correct: 0},
+            {topic: 'Trade', emoji: '🚢📦', question: 'Countries trade with each other.', options: ['True', 'False'], correct: 0},
+            {topic: 'Currency', emoji: '💱💵', question: 'Different countries use different currencies.', options: ['True', 'False'], correct: 0},
+            {topic: 'Culture', emoji: '🌏🤝', question: 'Culture affects business.', options: ['True', 'False'], correct: 0},
+            {topic: 'Global', emoji: '🌍🏢', question: 'Global companies operate worldwide.', options: ['True', 'False'], correct: 0},
+            {topic: 'Export', emoji: '📤🌐', question: 'Exports are goods sold abroad.', options: ['True', 'False'], correct: 0},
+            {topic: 'Import', emoji: '📥🌍', question: 'Imports are goods bought from abroad.', options: ['True', 'False'], correct: 0},
+            {topic: 'Market', emoji: '🌐💹', question: 'Foreign markets offer opportunities.', options: ['True', 'False'], correct: 0},
+            {topic: 'Global', emoji: '🌍✈️', question: 'Travel connects global business.', options: ['True', 'False'], correct: 0},
+            {topic: 'Language', emoji: '🗣️🌏', question: 'Language barriers exist internationally.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Global', emoji: '🌍💼', question: 'What is globalization?', options: ['Worldwide economic integration', 'Local business only'], correct: 0},
+            {topic: 'Trade', emoji: '🚢📦', question: 'What is free trade?', options: ['Trade without barriers', 'No trade allowed'], correct: 0},
+            {topic: 'Currency', emoji: '💱💵', question: 'What is exchange rate?', options: ['Currency conversion value', 'Interest rate'], correct: 0},
+            {topic: 'Culture', emoji: '🌏🤝', question: 'What is cultural intelligence?', options: ['Ability to work across cultures', 'Language skills only'], correct: 0},
+            {topic: 'Global', emoji: '🌍🏢', question: 'What is multinational corporation?', options: ['Company in multiple countries', 'Local business'], correct: 0},
+            {topic: 'Export', emoji: '📤🌐', question: 'What is export subsidy?', options: ['Government support for exports', 'Tax on exports'], correct: 0},
+            {topic: 'Import', emoji: '📥🌍', question: 'What is tariff?', options: ['Tax on imports', 'Import permission'], correct: 0},
+            {topic: 'Market', emoji: '🌐💹', question: 'What is market entry?', options: ['Entering foreign market', 'Leaving market'], correct: 0},
+            {topic: 'Global', emoji: '🌍✈️', question: 'What is expatriate?', options: ['Employee working abroad', 'Tourist'], correct: 0},
+            {topic: 'Language', emoji: '🗣️🌏', question: 'What is lingua franca?', options: ['Common business language', 'Native language'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Global', emoji: '🌍💼', question: 'What is GLOCAL strategy?', options: ['Think global, act local', 'Global only', 'Local only'], correct: 0},
+            {topic: 'Trade', emoji: '🚢📦', question: 'What is WTO?', options: ['World Trade Organization', 'World Tourism Office', 'Worldwide Tax Office'], correct: 0},
+            {topic: 'Currency', emoji: '💱💵', question: 'What is currency hedging?', options: ['Protect against exchange rate risk', 'Currency trading', 'No protection'], correct: 0},
+            {topic: 'Culture', emoji: '🌏🤝', question: 'What is Hofstede dimensions?', options: ['Cultural value framework', 'Business model', 'Trade agreement'], correct: 0},
+            {topic: 'Global', emoji: '🌍🏢', question: 'What is joint venture?', options: ['Partnership with local company', 'Solo operation', 'Acquisition'], correct: 0},
+            {topic: 'Export', emoji: '📤🌐', question: 'What is letter of credit?', options: ['Payment guarantee', 'Export license', 'Trade agreement'], correct: 0},
+            {topic: 'Import', emoji: '📥🌍', question: 'What is quota?', options: ['Import quantity limit', 'Quality standard', 'Price control'], correct: 0},
+            {topic: 'Market', emoji: '🌐💹', question: 'What is franchising?', options: ['License business model', 'Direct investment', 'Export only'], correct: 0},
+            {topic: 'Global', emoji: '🌍✈️', question: 'What is repatriation?', options: ['Return employee to home country', 'Send abroad', 'Local hire'], correct: 0},
+            {topic: 'Language', emoji: '🗣️🌏', question: 'What is localization?', options: ['Adapt to local market', 'Global standard', 'No changes'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Global', emoji: '🌍💼', question: 'What is Uppsala model?', options: ['Incremental internationalization', 'Rapid expansion', 'No growth', 'Random approach'], correct: 0},
+            {topic: 'Trade', emoji: '🚢📦', question: 'What percentage does international trade represent of global GDP?', options: ['~60%', '10%', '1%', '100%'], correct: 0},
+            {topic: 'Currency', emoji: '💱💵', question: 'What is purchasing power parity?', options: ['Compare currencies by buying power', 'Fixed exchange rate', 'No comparison', 'Interest rate'], correct: 0},
+            {topic: 'Culture', emoji: '🌏🤝', question: 'What is high-context vs low-context culture?', options: ['Indirect vs direct communication', 'Rich vs poor', 'East vs West', 'Old vs new'], correct: 0},
+            {topic: 'Global', emoji: '🌍🏢', question: 'What is FDI?', options: ['Foreign Direct Investment', 'Federal Department Index', 'Financial Debt Indicator', 'Foreign Development Institute'], correct: 0},
+            {topic: 'Export', emoji: '📤🌐', question: 'What is Incoterms?', options: ['International trade terms', 'Currency rates', 'Tax codes', 'Shipping times'], correct: 0},
+            {topic: 'Import', emoji: '📥🌍', question: 'What is non-tariff barrier?', options: ['Regulations limiting imports', 'Tax only', 'No barriers', 'Price control'], correct: 0},
+            {topic: 'Market', emoji: '🌐💹', question: 'What is psychic distance?', options: ['Perceived cultural difference', 'Physical distance', 'Time zones', 'Travel time'], correct: 0},
+            {topic: 'Global', emoji: '🌍✈️', question: 'What is culture shock?', options: ['Adjustment difficulty abroad', 'Happy experience', 'No change', 'Quick adaptation'], correct: 0},
+            {topic: 'Language', emoji: '🗣️🌏', question: 'What percentage of international business uses English?', options: ['~80%', '10%', '100%', '5%'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Global', emoji: '🌍💼', question: 'Name three internationalization strategies', answer: 'Export, Licensing, FDI, Joint venture, Franchise (any 3)'},
+            {topic: 'Trade', emoji: '🚢📦', question: 'Name three trade agreements', answer: 'USMCA, EU, ASEAN, RCEP, CPTPP (any 3)'},
+            {topic: 'Currency', emoji: '💱💵', question: 'Name three currency risks', answer: 'Transaction, Translation, Economic exposure'},
+            {topic: 'Culture', emoji: '🌏🤝', question: 'Name three Hofstede cultural dimensions', answer: 'Power distance, Individualism, Uncertainty avoidance, Masculinity (any 3)'},
+            {topic: 'Global', emoji: '🌍🏢', question: 'Name three market entry modes', answer: 'Export, Licensing, Joint venture, Wholly-owned subsidiary (any 3)'},
+            {topic: 'Export', emoji: '📤🌐', question: 'Name three export documents', answer: 'Invoice, Bill of lading, Certificate of origin, Packing list (any 3)'},
+            {topic: 'Import', emoji: '📥🌍', question: 'Name three trade barriers', answer: 'Tariffs, Quotas, Regulations, Subsidies (any 3)'},
+            {topic: 'Market', emoji: '🌐💹', question: 'Name three emerging markets', answer: 'BRICS (Brazil, Russia, India, China, South Africa)'},
+            {topic: 'Global', emoji: '🌍✈️', question: 'Name three challenges of global HRM', answer: 'Different labor laws, Cultural differences, Compensation, Talent retention (any 3)'},
+            {topic: 'Language', emoji: '🗣️🌏', question: 'Name three aspects of cross-cultural communication', answer: 'Language, Non-verbal, Context, Etiquette (any 3)'}
+        ]
+    },
+    10: { // Chapter 10: Business Law
+        easy: [
+            {topic: 'Law', emoji: '⚖️📜', question: 'Laws regulate business.', options: ['True', 'False'], correct: 0},
+            {topic: 'Contract', emoji: '📄🤝', question: 'Contracts are binding agreements.', options: ['True', 'False'], correct: 0},
+            {topic: 'Property', emoji: '🏢📋', question: 'Intellectual property protects ideas.', options: ['True', 'False'], correct: 0},
+            {topic: 'Employment', emoji: '👥⚖️', question: 'Employment laws protect workers.', options: ['True', 'False'], correct: 0},
+            {topic: 'Law', emoji: '⚖️💼', question: 'Businesses must comply with regulations.', options: ['True', 'False'], correct: 0},
+            {topic: 'Liability', emoji: '🛡️⚠️', question: 'Liability means legal responsibility.', options: ['True', 'False'], correct: 0},
+            {topic: 'Tax', emoji: '💰📊', question: 'Companies pay taxes.', options: ['True', 'False'], correct: 0},
+            {topic: 'Consumer', emoji: '🛍️⚖️', question: 'Consumer protection laws exist.', options: ['True', 'False'], correct: 0},
+            {topic: 'Law', emoji: '⚖️🏛️', question: 'Courts resolve disputes.', options: ['True', 'False'], correct: 0},
+            {topic: 'Compliance', emoji: '✅📋', question: 'Compliance avoids penalties.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Law', emoji: '⚖️📜', question: 'What is commercial law?', options: ['Law governing business', 'Criminal law'], correct: 0},
+            {topic: 'Contract', emoji: '📄🤝', question: 'What makes a contract valid?', options: ['Offer, acceptance, consideration', 'Verbal agreement only'], correct: 0},
+            {topic: 'Property', emoji: '🏢📋', question: 'What is trademark?', options: ['Brand protection', 'Building ownership'], correct: 0},
+            {topic: 'Employment', emoji: '👥⚖️', question: 'What is at-will employment?', options: ['Can terminate anytime', 'Permanent job'], correct: 0},
+            {topic: 'Law', emoji: '⚖️💼', question: 'What is tort law?', options: ['Civil wrongs and damages', 'Criminal offenses'], correct: 0},
+            {topic: 'Liability', emoji: '🛡️⚠️', question: 'What is limited liability?', options: ['Personal assets protected', 'Unlimited responsibility'], correct: 0},
+            {topic: 'Tax', emoji: '💰📊', question: 'What is corporate tax?', options: ['Tax on company profits', 'Personal income tax'], correct: 0},
+            {topic: 'Consumer', emoji: '🛍️⚖️', question: 'What is warranty?', options: ['Product guarantee', 'Insurance'], correct: 0},
+            {topic: 'Law', emoji: '⚖️🏛️', question: 'What is arbitration?', options: ['Alternative dispute resolution', 'Court trial'], correct: 0},
+            {topic: 'Compliance', emoji: '✅📋', question: 'What is due diligence?', options: ['Investigation before transaction', 'Random check'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Law', emoji: '⚖️📜', question: 'What is UCC?', options: ['Uniform Commercial Code', 'United Consumer Council', 'Universal Credit Check'], correct: 0},
+            {topic: 'Contract', emoji: '📄🤝', question: 'What is breach of contract?', options: ['Failure to perform obligations', 'Sign contract', 'Negotiate terms'], correct: 0},
+            {topic: 'Property', emoji: '🏢📋', question: 'What is patent duration?', options: ['20 years', '5 years', 'Forever'], correct: 0},
+            {topic: 'Employment', emoji: '👥⚖️', question: 'What is wrongful termination?', options: ['Illegal firing', 'Any firing', 'Retirement'], correct: 0},
+            {topic: 'Law', emoji: '⚖️💼', question: 'What is vicarious liability?', options: ['Employer liable for employee acts', 'No liability', 'Personal only'], correct: 0},
+            {topic: 'Liability', emoji: '🛡️⚠️', question: 'What is product liability?', options: ['Manufacturer responsibility for harm', 'No responsibility', 'Consumer fault'], correct: 0},
+            {topic: 'Tax', emoji: '💰📊', question: 'What is double taxation?', options: ['Taxed at corporate and personal level', 'Pay twice', 'No tax'], correct: 0},
+            {topic: 'Consumer', emoji: '🛍️⚖️', question: 'What is caveat emptor?', options: ['Buyer beware', 'Seller beware', 'No responsibility'], correct: 0},
+            {topic: 'Law', emoji: '⚖️🏛️', question: 'What is class action lawsuit?', options: ['Group sues together', 'Individual lawsuit', 'Government suit'], correct: 0},
+            {topic: 'Compliance', emoji: '✅📋', question: 'What is SEC?', options: ['Securities Exchange Commission', 'Standard Employment Contract', 'Sales Efficiency Code'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Law', emoji: '⚖️📜', question: 'What is piercing the corporate veil?', options: ['Hold owners personally liable', 'Corporate protection', 'Tax benefit', 'No consequences'], correct: 0},
+            {topic: 'Contract', emoji: '📄🤝', question: 'What is statute of frauds?', options: ['Certain contracts must be written', 'All oral', 'No requirements', 'Fraud prevention'], correct: 0},
+            {topic: 'Property', emoji: '🏢📋', question: 'What is fair use doctrine?', options: ['Limited use of copyrighted work', 'No limits', 'Complete ban', 'Free access'], correct: 0},
+            {topic: 'Employment', emoji: '👥⚖️', question: 'What is EEOC?', options: ['Equal Employment Opportunity Commission', 'Employee Expense Oversight Committee', 'Ethical Employment Operations Center', 'Executive Employee Organization Council'], correct: 0},
+            {topic: 'Law', emoji: '⚖️💼', question: 'What is force majeure?', options: ['Unforeseeable circumstances excuse', 'Breach allowed', 'Contract void', 'No excuse'], correct: 0},
+            {topic: 'Liability', emoji: '🛡️⚠️', question: 'What is strict liability?', options: ['Liable regardless of fault', 'Need proof of negligence', 'No liability', 'Conditional'], correct: 0},
+            {topic: 'Tax', emoji: '💰📊', question: 'What is transfer pricing?', options: ['Pricing between related entities', 'Customer pricing', 'Retail price', 'No pricing'], correct: 0},
+            {topic: 'Consumer', emoji: '🛍️⚖️', question: 'What is lemon law?', options: ['Defective product remedies', 'Fruit regulation', 'No protection', 'Tax law'], correct: 0},
+            {topic: 'Law', emoji: '⚖️🏛️', question: 'What is statute of limitations?', options: ['Time limit to file lawsuit', 'Crime severity', 'No limit', 'Court backlog'], correct: 0},
+            {topic: 'Compliance', emoji: '✅📋', question: 'What is insider trading?', options: ['Illegal trading on non-public info', 'Legal trading', 'Day trading', 'No restriction'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Law', emoji: '⚖️📜', question: 'Name three types of business entities', answer: 'Sole proprietorship, Partnership, LLC, Corporation (any 3)'},
+            {topic: 'Contract', emoji: '📄🤝', question: 'Name three essential elements of contract', answer: 'Offer, Acceptance, Consideration, Capacity, Legality (any 3)'},
+            {topic: 'Property', emoji: '🏢📋', question: 'Name three types of intellectual property', answer: 'Patent, Trademark, Copyright, Trade secret'},
+            {topic: 'Employment', emoji: '👥⚖️', question: 'Name three major employment laws', answer: 'FLSA, ADA, FMLA, Title VII, OSHA (any 3)'},
+            {topic: 'Law', emoji: '⚖️💼', question: 'Name three areas of business law', answer: 'Contract, Tort, Property, Employment, Tax (any 3)'},
+            {topic: 'Liability', emoji: '🛡️⚠️', question: 'Name three types of liability', answer: 'Strict, Vicarious, Joint and several, Product (any 3)'},
+            {topic: 'Tax', emoji: '💰📊', question: 'Name three types of business taxes', answer: 'Income, Payroll, Sales, Property, Excise (any 3)'},
+            {topic: 'Consumer', emoji: '🛍️⚖️', question: 'Name three consumer protection laws', answer: 'FTC Act, Consumer Product Safety Act, Truth in Lending, Warranty Act (any 3)'},
+            {topic: 'Law', emoji: '⚖️🏛️', question: 'Name three alternative dispute resolutions', answer: 'Arbitration, Mediation, Negotiation'},
+            {topic: 'Compliance', emoji: '✅📋', question: 'Name three regulatory agencies', answer: 'SEC, FTC, EPA, OSHA, FDA (any 3)'}
+        ]
+    }
+,
+    11: { // Chapter 11: Project Management
+        easy: [
+            {topic: 'Project', emoji: '📊🎯', question: 'Projects have start and end dates.', options: ['True', 'False'], correct: 0},
+            {topic: 'Planning', emoji: '📋✏️', question: 'Planning helps project success.', options: ['True', 'False'], correct: 0},
+            {topic: 'Team', emoji: '👥🤝', question: 'Teams work on projects together.', options: ['True', 'False'], correct: 0},
+            {topic: 'Budget', emoji: '💰📊', question: 'Projects need budgets.', options: ['True', 'False'], correct: 0},
+            {topic: 'Schedule', emoji: '📅⏰', question: 'Schedules track project timeline.', options: ['True', 'False'], correct: 0},
+            {topic: 'Goals', emoji: '🎯✅', question: 'Projects have specific goals.', options: ['True', 'False'], correct: 0},
+            {topic: 'Risk', emoji: '⚠️🛡️', question: 'Risks can affect projects.', options: ['True', 'False'], correct: 0},
+            {topic: 'Quality', emoji: '✨🔍', question: 'Quality matters in projects.', options: ['True', 'False'], correct: 0},
+            {topic: 'Communication', emoji: '💬📢', question: 'Communication is essential.', options: ['True', 'False'], correct: 0},
+            {topic: 'Completion', emoji: '🏁✅', question: 'Projects should be completed on time.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Project', emoji: '📊🎯', question: 'What is a project?', options: ['Temporary endeavor with unique goal', 'Ongoing operations'], correct: 0},
+            {topic: 'Planning', emoji: '📋✏️', question: 'What is project scope?', options: ['Work included in project', 'Project cost'], correct: 0},
+            {topic: 'Team', emoji: '👥🤝', question: 'What is project manager role?', options: ['Lead and coordinate project', 'Just observe'], correct: 0},
+            {topic: 'Budget', emoji: '💰📊', question: 'What is cost estimation?', options: ['Predict project expenses', 'Final invoice'], correct: 0},
+            {topic: 'Schedule', emoji: '📅⏰', question: 'What is milestone?', options: ['Key project checkpoint', 'Final deadline'], correct: 0},
+            {topic: 'Goals', emoji: '🎯✅', question: 'What are deliverables?', options: ['Project outputs', 'Input resources'], correct: 0},
+            {topic: 'Risk', emoji: '⚠️🛡️', question: 'What does risk management involve?', options: ['Identify and mitigate risks', 'Ignore problems'], correct: 0},
+            {topic: 'Quality', emoji: '✨🔍', question: 'What is quality assurance?', options: ['Ensure standards met', 'No checking'], correct: 0},
+            {topic: 'Communication', emoji: '💬📢', question: 'What is stakeholder?', options: ['Person affected by project', 'Team member only'], correct: 0},
+            {topic: 'Completion', emoji: '🏁✅', question: 'What is project closure?', options: ['Formal project end', 'Abandon project'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Project', emoji: '📊🎯', question: 'What is triple constraint?', options: ['Scope, time, cost balance', 'Three projects', 'Three teams'], correct: 0},
+            {topic: 'Planning', emoji: '📋✏️', question: 'What is WBS?', options: ['Work Breakdown Structure', 'Weekly Business Summary', 'Workflow Basic System'], correct: 0},
+            {topic: 'Team', emoji: '👥🤝', question: 'What is RACI matrix?', options: ['Responsible, Accountable, Consulted, Informed', 'Resource Allocation Chart'], correct: 0},
+            {topic: 'Budget', emoji: '💰📊', question: 'What is earned value management?', options: ['Project performance measurement', 'Salary calculation', 'Revenue tracking'], correct: 0},
+            {topic: 'Schedule', emoji: '📅⏰', question: 'What is critical path?', options: ['Longest task sequence', 'Shortest route', 'Most important tasks'], correct: 0},
+            {topic: 'Goals', emoji: '🎯✅', question: 'What is project charter?', options: ['Project authorization document', 'Team roster', 'Budget report'], correct: 0},
+            {topic: 'Risk', emoji: '⚠️🛡️', question: 'What is risk register?', options: ['Document of identified risks', 'Employee list', 'Budget sheet'], correct: 0},
+            {topic: 'Quality', emoji: '✨🔍', question: 'What is quality control?', options: ['Monitor specific results', 'Prevent defects', 'No checking'], correct: 0},
+            {topic: 'Communication', emoji: '💬📢', question: 'What is status report?', options: ['Project progress update', 'Final report', 'Budget request'], correct: 0},
+            {topic: 'Completion', emoji: '🏁✅', question: 'What is lessons learned?', options: ['Document for future projects', 'Failure report', 'No documentation'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Project', emoji: '📊🎯', question: 'What is PMI?', options: ['Project Management Institute', 'Primary Management Indicator', 'Public Market Index', 'Personnel Management Integration'], correct: 0},
+            {topic: 'Planning', emoji: '📋✏️', question: 'What is rolling wave planning?', options: ['Detailed near-term, high-level long-term', 'All detailed upfront', 'No planning', 'Random approach'], correct: 0},
+            {topic: 'Team', emoji: '👥🤝', question: 'What is Tuckman team development stages?', options: ['Forming, Storming, Norming, Performing', 'Start, Middle, End', 'Plan, Execute, Close', 'Hire, Train, Work'], correct: 0},
+            {topic: 'Budget', emoji: '💰📊', question: 'What is typical project management overhead cost?', options: ['10-20%', '50%', '1%', '90%'], correct: 0},
+            {topic: 'Schedule', emoji: '📅⏰', question: 'What is fast tracking?', options: ['Overlap sequential activities', 'Add resources', 'Reduce scope', 'Extend timeline'], correct: 0},
+            {topic: 'Goals', emoji: '🎯✅', question: 'What is scope creep?', options: ['Uncontrolled project expansion', 'Scope reduction', 'Fast completion', 'No changes'], correct: 0},
+            {topic: 'Risk', emoji: '⚠️🛡️', question: 'What is Monte Carlo simulation?', options: ['Risk analysis technique', 'Gambling method', 'No analysis', 'Simple guess'], correct: 0},
+            {topic: 'Quality', emoji: '✨🔍', question: 'What is Six Sigma in project management?', options: ['Quality improvement methodology', 'Time management', 'Cost cutting', 'Team building'], correct: 0},
+            {topic: 'Communication', emoji: '💬📢', question: 'What percentage of PM time is communication?', options: ['~90%', '10%', '50%', '0%'], correct: 0},
+            {topic: 'Completion', emoji: '🏁✅', question: 'What is project success rate industry average?', options: ['~35%', '90%', '5%', '100%'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Project', emoji: '📊🎯', question: 'Name three project management methodologies', answer: 'Waterfall, Agile, Scrum, PRINCE2, Kanban (any 3)'},
+            {topic: 'Planning', emoji: '📋✏️', question: 'Name the five process groups in PMBOK', answer: 'Initiating, Planning, Executing, Monitoring and Controlling, Closing'},
+            {topic: 'Team', emoji: '👥🤝', question: 'Name three project roles', answer: 'Project manager, Team member, Sponsor, Stakeholder (any 3)'},
+            {topic: 'Budget', emoji: '💰📊', question: 'Name three cost estimation techniques', answer: 'Analogous, Parametric, Bottom-up, Three-point (any 3)'},
+            {topic: 'Schedule', emoji: '📅⏰', question: 'Name three schedule compression techniques', answer: 'Fast tracking, Crashing, Scope reduction'},
+            {topic: 'Goals', emoji: '🎯✅', question: 'Name three project constraints', answer: 'Scope, Time, Cost, Quality, Resources, Risk (any 3)'},
+            {topic: 'Risk', emoji: '⚠️🛡️', question: 'Name four risk response strategies', answer: 'Avoid, Transfer, Mitigate, Accept'},
+            {topic: 'Quality', emoji: '✨🔍', question: 'Name three quality management tools', answer: 'Control charts, Pareto diagrams, Ishikawa diagrams, Checklists (any 3)'},
+            {topic: 'Communication', emoji: '💬📢', question: 'Name three types of project reports', answer: 'Status, Progress, Performance, Risk, Quality (any 3)'},
+            {topic: 'Completion', emoji: '🏁✅', question: 'Name three project closure activities', answer: 'Final deliverable, Documentation, Lessons learned, Release resources (any 3)'}
+        ]
+    },
+    12: { // Chapter 12: Sales Management  
+        easy: [
+            {topic: 'Sales', emoji: '💰🤝', question: 'Sales generate revenue.', options: ['True', 'False'], correct: 0},
+            {topic: 'Customer', emoji: '👤💼', question: 'Customers buy products.', options: ['True', 'False'], correct: 0},
+            {topic: 'Prospecting', emoji: '🔍👥', question: 'Finding new customers is important.', options: ['True', 'False'], correct: 0},
+            {topic: 'Negotiation', emoji: '🤝💬', question: 'Negotiation helps close deals.', options: ['True', 'False'], correct: 0},
+            {topic: 'Sales', emoji: '💰📊', question: 'Sales targets drive performance.', options: ['True', 'False'], correct: 0},
+            {topic: 'Relationship', emoji: '🤝❤️', question: 'Building relationships increases sales.', options: ['True', 'False'], correct: 0},
+            {topic: 'Product', emoji: '📦💡', question: 'Product knowledge helps sell.', options: ['True', 'False'], correct: 0},
+            {topic: 'Follow-up', emoji: '📞✅', question: 'Following up is important.', options: ['True', 'False'], correct: 0},
+            {topic: 'Sales', emoji: '💰🎯', question: 'Closing deals requires skill.', options: ['True', 'False'], correct: 0},
+            {topic: 'Pipeline', emoji: '🔄📈', question: 'Sales pipeline tracks opportunities.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Sales', emoji: '💰🤝', question: 'What is sales cycle?', options: ['Steps from prospect to close', 'One meeting'], correct: 0},
+            {topic: 'Customer', emoji: '👤💼', question: 'What is lead qualification?', options: ['Assess prospect potential', 'Reject all leads'], correct: 0},
+            {topic: 'Prospecting', emoji: '🔍👥', question: 'What is cold calling?', options: ['Contact without prior relationship', 'Warm introduction'], correct: 0},
+            {topic: 'Negotiation', emoji: '🤝💬', question: 'What is win-win negotiation?', options: ['Both parties benefit', 'One side wins'], correct: 0},
+            {topic: 'Sales', emoji: '💰📊', question: 'What is sales quota?', options: ['Target sales amount', 'Minimum price'], correct: 0},
+            {topic: 'Relationship', emoji: '🤝❤️', question: 'What is account management?', options: ['Maintain customer relationships', 'Open accounts'], correct: 0},
+            {topic: 'Product', emoji: '📦💡', question: 'What does value proposition mean?', options: ['Benefits offered to customer', 'Price only'], correct: 0},
+            {topic: 'Follow-up', emoji: '📞✅', question: 'What is objection handling?', options: ['Address customer concerns', 'Ignore objections'], correct: 0},
+            {topic: 'Sales', emoji: '💰🎯', question: 'What is closing technique?', options: ['Method to finalize sale', 'Opening pitch'], correct: 0},
+            {topic: 'Pipeline', emoji: '🔄📈', question: 'What is sales funnel?', options: ['Stages from awareness to purchase', 'Marketing only'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Sales', emoji: '💰🤝', question: 'What is SPIN selling?', options: ['Situation, Problem, Implication, Need-payoff', 'Fast pitch', 'Price focus', 'No questions'], correct: 0},
+            {topic: 'Customer', emoji: '👤💼', question: 'What is BANT framework?', options: ['Budget, Authority, Need, Timeline', 'Price, Product, Place', 'Random criteria'], correct: 0},
+            {topic: 'Prospecting', emoji: '🔍👥', question: 'What is social selling?', options: ['Use social media for sales', 'In-person only', 'No technology'], correct: 0},
+            {topic: 'Negotiation', emoji: '🤝💬', question: 'What is BATNA?', options: ['Best Alternative To Negotiated Agreement', 'Beginning Approach', 'Basic Tactics'], correct: 0},
+            {topic: 'Sales', emoji: '💰📊', question: 'What is sales velocity?', options: ['Speed of deals through pipeline', 'Sales volume', 'Price point'], correct: 0},
+            {topic: 'Relationship', emoji: '🤝❤️', question: 'What does customer lifetime value measure?', options: ['Total revenue from customer', 'First purchase', 'One year'], correct: 0},
+            {topic: 'Product', emoji: '📦💡', question: 'What is solution selling?', options: ['Solve customer problems', 'Product features only', 'Price-based'], correct: 0},
+            {topic: 'Follow-up', emoji: '📞✅', question: 'What is nurture campaign?', options: ['Ongoing prospect engagement', 'One-time contact', 'No follow-up'], correct: 0},
+            {topic: 'Sales', emoji: '💰🎯', question: 'What is trial close?', options: ['Test readiness to buy', 'Final close', 'Opening'], correct: 0},
+            {topic: 'Pipeline', emoji: '🔄📈', question: 'What is pipeline coverage ratio?', options: ['Pipeline value vs quota', 'Number of deals', 'Conversion rate'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Sales', emoji: '💰🤝', question: 'What is typical B2B sales cycle length?', options: ['3-6 months', '1 day', '1 week', '5 years'], correct: 0},
+            {topic: 'Customer', emoji: '👤💼', question: 'What is lead-to-customer conversion rate average?', options: ['2-5%', '90%', '50%', '0.1%'], correct: 0},
+            {topic: 'Prospecting', emoji: '🔍👥', question: 'What is SQL vs MQL?', options: ['Sales vs Marketing Qualified Lead', 'Same thing', 'No difference', 'Random terms'], correct: 0},
+            {topic: 'Negotiation', emoji: '🤝💬', question: 'What is anchoring in negotiation?', options: ['Set initial reference point', 'Final offer', 'No strategy', 'Random price'], correct: 0},
+            {topic: 'Sales', emoji: '💰📊', question: 'What is typical sales commission rate?', options: ['5-15%', '100%', '1%', '50%'], correct: 0},
+            {topic: 'Relationship', emoji: '🤝❤️', question: 'What is NPS?', options: ['Net Promoter Score', 'New Product Sales', 'National Pricing Standard', 'Next Phase Strategy'], correct: 0},
+            {topic: 'Product', emoji: '📦💡', question: 'What is feature vs benefit?', options: ['What it does vs why it matters', 'Same thing', 'No difference', 'Random terms'], correct: 0},
+            {topic: 'Follow-up', emoji: '📞✅', question: 'What is optimal follow-up frequency?', options: ['Every 3-7 days', 'Daily', 'Never', 'Monthly'], correct: 0},
+            {topic: 'Sales', emoji: '💰🎯', question: 'What percentage of reps hit quota?', options: ['~50-60%', '100%', '5%', '0%'], correct: 0},
+            {topic: 'Pipeline', emoji: '🔄📈', question: 'What is ideal pipeline coverage?', options: ['3-5x quota', '1x', '0.5x', '20x'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Sales', emoji: '💰🤝', question: 'Name three sales methodologies', answer: 'SPIN, Challenger, Solution, Consultative, MEDDIC (any 3)'},
+            {topic: 'Customer', emoji: '👤💼', question: 'Name three buyer personas elements', answer: 'Demographics, Pain points, Goals, Budget, Authority (any 3)'},
+            {topic: 'Prospecting', emoji: '🔍👥', question: 'Name three prospecting methods', answer: 'Cold calling, Email, Social media, Referrals, Networking (any 3)'},
+            {topic: 'Negotiation', emoji: '🤝💬', question: 'Name three negotiation tactics', answer: 'Anchoring, Bundling, Trade-offs, Silence, Time pressure (any 3)'},
+            {topic: 'Sales', emoji: '💰📊', question: 'Name three sales metrics', answer: 'Quota, Win rate, Average deal size, Sales cycle, Pipeline (any 3)'},
+            {topic: 'Relationship', emoji: '🤝❤️', question: 'Name three retention strategies', answer: 'Customer success, Upselling, Regular check-ins, Training (any 3)'},
+            {topic: 'Product', emoji: '📦💡', question: 'Name three product positioning elements', answer: 'Target market, Problem solved, Differentiation, Value (any 3)'},
+            {topic: 'Follow-up', emoji: '📞✅', question: 'Name three follow-up channels', answer: 'Email, Phone, Text, Social media, In-person (any 3)'},
+            {topic: 'Sales', emoji: '💰🎯', question: 'Name three closing techniques', answer: 'Assumptive, Alternative, Urgency, Trial, Summary (any 3)'},
+            {topic: 'Pipeline', emoji: '🔄📈', question: 'Name three pipeline stages', answer: 'Prospecting, Qualification, Proposal, Negotiation, Close (any 3)'}
+        ]
+    }
+,
 };

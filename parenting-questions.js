@@ -380,5 +380,379 @@ const parentingQuestions = {
             {topic: 'Safety', emoji: '🛡️🚴', question: 'Name three helmet safety rules', answer: 'Proper fit, Level position, Chin strap, Replace after crash (any 3)'},
             {topic: 'First Aid', emoji: '🩹🌡️', question: 'Name three fever management strategies', answer: 'Acetaminophen, Fluids, Light clothing, Lukewarm bath (any 3)'}
         ]
+    },
+
+    7: { // Chapter 7: Emotional Intelligence
+        easy: [
+            {topic: 'Emotions', emoji: '😊❤️', question: 'Children have feelings.', options: ['True', 'False'], correct: 0},
+            {topic: 'EQ', emoji: '🧠💚', question: 'Emotional intelligence can be taught.', options: ['True', 'False'], correct: 0},
+            {topic: 'Emotions', emoji: '😢🤗', question: 'Validating feelings helps children.', options: ['True', 'False'], correct: 0},
+            {topic: 'EQ', emoji: '🧠😌', question: 'Self-regulation is important.', options: ['True', 'False'], correct: 0},
+            {topic: 'Emotions', emoji: '😡🛑', question: 'Anger is a normal emotion.', options: ['True', 'False'], correct: 0},
+            {topic: 'EQ', emoji: '🧠🤝', question: 'Empathy can be learned.', options: ['True', 'False'], correct: 0},
+            {topic: 'Emotions', emoji: '😰😌', question: 'Children feel anxiety.', options: ['True', 'False'], correct: 0},
+            {topic: 'EQ', emoji: '🧠👂', question: 'Listening validates emotions.', options: ['True', 'False'], correct: 0},
+            {topic: 'Emotions', emoji: '😊🌈', question: 'Positive emotions are beneficial.', options: ['True', 'False'], correct: 0},
+            {topic: 'EQ', emoji: '🧠💪', question: 'Resilience can be built.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Emotions', emoji: '😊❤️', question: 'What is emotion labeling?', options: ['Naming feelings', 'Ignoring emotions'], correct: 0},
+            {topic: 'EQ', emoji: '🧠💚', question: 'What is emotional intelligence?', options: ['Understanding and managing emotions', 'Only IQ'], correct: 0},
+            {topic: 'Emotions', emoji: '😢🤗', question: 'What is emotion validation?', options: ['Acknowledging feelings as real', 'Dismissing feelings'], correct: 0},
+            {topic: 'EQ', emoji: '🧠😌', question: 'What is self-regulation?', options: ['Managing own emotions and behavior', 'Always happy'], correct: 0},
+            {topic: 'Emotions', emoji: '😡🛑', question: 'What is anger management?', options: ['Healthy ways to express anger', 'Suppressing anger'], correct: 0},
+            {topic: 'EQ', emoji: '🧠🤝', question: 'What is empathy?', options: ['Understanding others\' feelings', 'Only sympathy'], correct: 0},
+            {topic: 'Emotions', emoji: '😰😌', question: 'What causes childhood anxiety?', options: ['Stress, change, uncertainty', 'Nothing'], correct: 0},
+            {topic: 'EQ', emoji: '🧠👂', question: 'What does active listening require?', options: ['Fully focusing and understanding', 'Half paying attention'], correct: 0},
+            {topic: 'Emotions', emoji: '😊🌈', question: 'What is emotional vocabulary?', options: ['Words to describe feelings', 'Regular words'], correct: 0},
+            {topic: 'EQ', emoji: '🧠💪', question: 'What is resilience?', options: ['Bouncing back from challenges', 'Never struggling'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Emotions', emoji: '😊❤️', question: 'What is the Window of Tolerance?', options: ['Optimal arousal zone', 'Time limit', 'Anger threshold'], correct: 0},
+            {topic: 'EQ', emoji: '🧠💚', question: 'What are the five components of EQ?', options: ['Self-awareness, regulation, motivation, empathy, social skills', 'Only IQ', 'Two components'], correct: 0},
+            {topic: 'Emotions', emoji: '😢🤗', question: 'What does emotion coaching involve?', options: ['Teaching emotional awareness and regulation', 'Dismissing emotions', 'Punishing feelings'], correct: 0},
+            {topic: 'EQ', emoji: '🧠😌', question: 'What is co-regulation?', options: ['Adult helps child regulate', 'Child alone', 'No regulation'], correct: 0},
+            {topic: 'Emotions', emoji: '😡🛑', question: 'What is the amygdala hijack?', options: ['Emotional override of rational brain', 'Calm state', 'No reaction'], correct: 0},
+            {topic: 'EQ', emoji: '🧠🤝', question: 'What is perspective-taking?', options: ['Seeing from another\'s viewpoint', 'Own view only', 'No perspective'], correct: 0},
+            {topic: 'Emotions', emoji: '😰😌', question: 'What is separation anxiety disorder?', options: ['Excessive fear of separation', 'Normal separation', 'No anxiety'], correct: 0},
+            {topic: 'EQ', emoji: '🧠👂', question: 'What does reflective listening mean?', options: ['Mirroring feelings back', 'Only hearing', 'Ignoring'], correct: 0},
+            {topic: 'Emotions', emoji: '😊🌈', question: 'What is positive psychology?', options: ['Focus on strengths and wellbeing', 'Only problems', 'Ignore challenges'], correct: 0},
+            {topic: 'EQ', emoji: '🧠💪', question: 'What does growth mindset mean?', options: ['Belief abilities can develop', 'Fixed abilities', 'No growth'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Emotions', emoji: '😊❤️', question: 'At what age can children recognize basic emotions?', options: ['2-3 years', '10 years', '1 month', '15 years'], correct: 0},
+            {topic: 'EQ', emoji: '🧠💚', question: 'Who developed the concept of emotional intelligence?', options: ['Daniel Goleman', 'Sigmund Freud', 'B.F. Skinner', 'Erik Erikson'], correct: 0},
+            {topic: 'Emotions', emoji: '😢🤗', question: 'What is the optimal ratio of positive to negative emotions?', options: ['3:1 or higher', '1:1', '1:3', '10:1'], correct: 0},
+            {topic: 'EQ', emoji: '🧠😌', question: 'At what age does self-regulation fully develop?', options: ['Mid-20s', 'Age 5', 'Birth', 'Age 10'], correct: 0},
+            {topic: 'Emotions', emoji: '😡🛑', question: 'What percentage of children experience anger issues?', options: ['~7-10%', '90%', '1%', '100%'], correct: 0},
+            {topic: 'EQ', emoji: '🧠🤝', question: 'When does empathy begin to develop?', options: ['18-24 months', '10 years', 'Birth', '5 years'], correct: 0},
+            {topic: 'Emotions', emoji: '😰😌', question: 'What percentage of children have anxiety disorders?', options: ['~7-8%', '50%', '1%', '100%'], correct: 0},
+            {topic: 'EQ', emoji: '🧠👂', question: 'What is the impact of emotional validation?', options: ['Reduces intensity and duration of emotions', 'Increases problems', 'No impact', 'Makes worse'], correct: 0},
+            {topic: 'Emotions', emoji: '😊🌈', question: 'How many basic emotions do researchers identify?', options: ['6-8 basic emotions', '2', '100', '1'], correct: 0},
+            {topic: 'EQ', emoji: '🧠💪', question: 'What is the ACE study?', options: ['Adverse Childhood Experiences research', 'Athletic test', 'Art class', 'No study'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Emotions', emoji: '😊❤️', question: 'Name the six basic emotions', answer: 'Happiness, Sadness, Anger, Fear, Surprise, Disgust'},
+            {topic: 'EQ', emoji: '🧠💚', question: 'Name the five components of emotional intelligence', answer: 'Self-awareness, Self-regulation, Motivation, Empathy, Social skills'},
+            {topic: 'Emotions', emoji: '😢🤗', question: 'Name three emotion validation statements', answer: 'I see you\'re upset, That sounds frustrating, Your feelings are okay (any 3)'},
+            {topic: 'EQ', emoji: '🧠😌', question: 'Name three self-regulation strategies', answer: 'Deep breathing, Counting, Time-out, Physical activity, Mindfulness (any 3)'},
+            {topic: 'Emotions', emoji: '😡🛑', question: 'Name three healthy anger outlets', answer: 'Physical exercise, Art, Talking, Journaling, Pillow punching (any 3)'},
+            {topic: 'EQ', emoji: '🧠🤝', question: 'Name three ways to teach empathy', answer: 'Model empathy, Read stories, Discuss feelings, Perspective-taking (any 3)'},
+            {topic: 'Emotions', emoji: '😰😌', question: 'Name three signs of anxiety in children', answer: 'Worry, Physical symptoms, Avoidance, Clinginess, Sleep issues (any 3)'},
+            {topic: 'EQ', emoji: '🧠👂', question: 'List three active listening techniques', answer: 'Eye contact, Reflecting, Paraphrasing, No interrupting, Validating (any 3)'},
+            {topic: 'Emotions', emoji: '😊🌈', question: 'Name three positive emotions', answer: 'Joy, Gratitude, Love, Pride, Hope, Contentment (any 3)'},
+            {topic: 'EQ', emoji: '🧠💪', question: 'Name three resilience-building practices', answer: 'Problem-solving, Positive relationships, Coping skills, Optimism (any 3)'}
+        ]
+    },
+    8: { // Chapter 8: Screen Time & Technology
+        easy: [
+            {topic: 'Screen Time', emoji: '📱⏰', question: 'Too much screen time is harmful.', options: ['True', 'False'], correct: 0},
+            {topic: 'Technology', emoji: '💻🧒', question: 'Children need screen time limits.', options: ['True', 'False'], correct: 0},
+            {topic: 'Screen Time', emoji: '📺👀', question: 'Screen time affects sleep.', options: ['True', 'False'], correct: 0},
+            {topic: 'Technology', emoji: '🎮🕹️', question: 'Video games can be educational.', options: ['True', 'False'], correct: 0},
+            {topic: 'Screen Time', emoji: '📱🚫', question: 'Screen-free time is important.', options: ['True', 'False'], correct: 0},
+            {topic: 'Technology', emoji: '💻🔒', question: 'Online safety is essential.', options: ['True', 'False'], correct: 0},
+            {topic: 'Screen Time', emoji: '📺👨‍👩‍👧', question: 'Co-viewing media benefits children.', options: ['True', 'False'], correct: 0},
+            {topic: 'Technology', emoji: '📱📚', question: 'Educational apps can aid learning.', options: ['True', 'False'], correct: 0},
+            {topic: 'Screen Time', emoji: '📺⏱️', question: 'AAP recommends screen time limits.', options: ['True', 'False'], correct: 0},
+            {topic: 'Technology', emoji: '💻👁️', question: 'Blue light affects eyes.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Screen Time', emoji: '📱⏰', question: 'What is recommended screen time for kids 2-5?', options: ['1 hour quality programming', 'Unlimited'], correct: 0},
+            {topic: 'Technology', emoji: '💻🧒', question: 'What is digital citizenship?', options: ['Responsible online behavior', 'Just using tech'], correct: 0},
+            {topic: 'Screen Time', emoji: '📺👀', question: 'What is blue light?', options: ['High-energy visible light from screens', 'Regular light'], correct: 0},
+            {topic: 'Technology', emoji: '🎮🕹️', question: 'What is ESRB rating?', options: ['Video game age rating', 'Movie rating'], correct: 0},
+            {topic: 'Screen Time', emoji: '📱🚫', question: 'What are screen-free zones?', options: ['Areas without devices', 'Everywhere screens'], correct: 0},
+            {topic: 'Technology', emoji: '💻🔒', question: 'What is cyberbullying?', options: ['Online harassment', 'In-person only'], correct: 0},
+            {topic: 'Screen Time', emoji: '📺👨‍👩‍👧', question: 'What is co-viewing?', options: ['Watching together and discussing', 'Alone viewing'], correct: 0},
+            {topic: 'Technology', emoji: '📱📚', question: 'What makes content educational?', options: ['Age-appropriate, interactive, engaging', 'Any content'], correct: 0},
+            {topic: 'Screen Time', emoji: '📺⏱️', question: 'What is screen time?', options: ['Time using electronic devices', 'Homework time'], correct: 0},
+            {topic: 'Technology', emoji: '💻👁️', question: 'What is digital eye strain?', options: ['Tired eyes from screens', 'No effect'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Screen Time', emoji: '📱⏰', question: 'What is the AAP recommendation for under 18 months?', options: ['No screen time except video chat', 'Unlimited', '5 hours'], correct: 0},
+            {topic: 'Technology', emoji: '💻🧒', question: 'What is COPPA?', options: ['Children\'s Online Privacy Protection Act', 'Computer Program', 'No law'], correct: 0},
+            {topic: 'Screen Time', emoji: '📺👀', question: 'How does blue light affect melatonin?', options: ['Suppresses production, delays sleep', 'Increases melatonin', 'No effect'], correct: 0},
+            {topic: 'Technology', emoji: '🎮🕹️', question: 'What is problematic gaming?', options: ['Gaming interferes with life', 'Any gaming', 'No issues'], correct: 0},
+            {topic: 'Screen Time', emoji: '📱🚫', question: 'What is a media diet?', options: ['Balanced mix of screen and non-screen', 'Only screens', 'No media'], correct: 0},
+            {topic: 'Technology', emoji: '💻🔒', question: 'What is digital footprint?', options: ['Online data trail', 'Physical steps', 'No record'], correct: 0},
+            {topic: 'Screen Time', emoji: '📺👨‍👩‍👧', question: 'What is parasocial interaction?', options: ['One-sided relationship with media figures', 'Real friendship', 'No interaction'], correct: 0},
+            {topic: 'Technology', emoji: '📱📚', question: 'What is the app gap?', options: ['Quality difference in educational apps', 'Storage space', 'No gap'], correct: 0},
+            {topic: 'Screen Time', emoji: '📺⏱️', question: 'What is binge-watching?', options: ['Watching multiple episodes consecutively', 'One episode', 'No watching'], correct: 0},
+            {topic: 'Technology', emoji: '💻👁️', question: 'What is the 20-20-20 rule?', options: ['Every 20 min, look 20 ft away for 20 sec', 'Random rule', 'No rule'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Screen Time', emoji: '📱⏰', question: 'What percentage of children under 2 use screens daily?', options: ['~90%', '10%', '50%', '0%'], correct: 0},
+            {topic: 'Technology', emoji: '💻🧒', question: 'At what age should children learn about online safety?', options: ['As soon as they use devices', 'Age 18', 'Never', 'Age 10'], correct: 0},
+            {topic: 'Screen Time', emoji: '📺👀', question: 'How much does screen time displace physical activity?', options: ['~1:1 ratio', 'No displacement', 'Triple', 'No correlation'], correct: 0},
+            {topic: 'Technology', emoji: '🎮🕹️', question: 'What is the WHO gaming disorder threshold?', options: ['Impaired control causing significant impairment 12+ months', '1 hour', 'No threshold', 'Any gaming'], correct: 0},
+            {topic: 'Screen Time', emoji: '📱🚫', question: 'What percentage of parents struggle with limits?', options: ['~60-70%', '5%', '100%', '0%'], correct: 0},
+            {topic: 'Technology', emoji: '💻🔒', question: 'What percentage of teens have experienced cyberbullying?', options: ['~59%', '1%', '100%', '10%'], correct: 0},
+            {topic: 'Screen Time', emoji: '📺👨‍👩‍👧', question: 'What is the impact of background TV?', options: ['Reduces quality interactions', 'No impact', 'Helps learning', 'Always beneficial'], correct: 0},
+            {topic: 'Technology', emoji: '📱📚', question: 'What percentage of educational apps lack evidence?', options: ['~80%', '0%', '10%', '100%'], correct: 0},
+            {topic: 'Screen Time', emoji: '📺⏱️', question: 'What is average daily screen time for teens?', options: ['~7-9 hours', '1 hour', '30 minutes', '24 hours'], correct: 0},
+            {topic: 'Technology', emoji: '💻👁️', question: 'What wavelength is blue light?', options: ['380-500 nanometers', '1000 nm', '50 nm', '5000 nm'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Screen Time', emoji: '📱⏰', question: 'Name AAP screen time guidelines by age', answer: 'Under 18mo: none, 18-24mo: quality only, 2-5yo: 1hr, 6+: consistent limits (any 3)'},
+            {topic: 'Technology', emoji: '💻🧒', question: 'Name three digital citizenship principles', answer: 'Respect, Educate, Protect, Privacy, Critical thinking (any 3)'},
+            {topic: 'Screen Time', emoji: '📺👀', question: 'Name three effects of excessive screen time', answer: 'Sleep issues, Obesity, Behavioral problems, Academic issues (any 3)'},
+            {topic: 'Technology', emoji: '🎮🕹️', question: 'Name three benefits of gaming', answer: 'Problem-solving, Hand-eye coordination, Social connection, Creativity (any 3)'},
+            {topic: 'Screen Time', emoji: '📱🚫', question: 'Name three screen-free activities', answer: 'Outdoor play, Reading, Art, Sports, Board games (any 3)'},
+            {topic: 'Technology', emoji: '💻🔒', question: 'Name three online safety rules', answer: 'No personal info, Tell adult about problems, Think before posting (any 3)'},
+            {topic: 'Screen Time', emoji: '📺👨‍👩‍👧', question: 'Name three co-viewing benefits', answer: 'Learning support, Media literacy, Bonding, Critical thinking (any 3)'},
+            {topic: 'Technology', emoji: '📱📚', question: 'Name three criteria for quality educational apps', answer: 'Age-appropriate, Interactive, Evidence-based, Engaging (any 3)'},
+            {topic: 'Screen Time', emoji: '📺⏱️', question: 'Name three family media plan components', answer: 'Screen-free times, Device-free zones, Quality content, Limits (any 3)'},
+            {topic: 'Technology', emoji: '💻👁️', question: 'Name three ways to reduce eye strain', answer: '20-20-20 rule, Proper distance, Good lighting, Blink often (any 3)'}
+        ]
+    },
+    9: { // Chapter 9: Sleep & Bedtime
+        easy: [
+            {topic: 'Sleep', emoji: '😴💤', question: 'Sleep is essential for children.', options: ['True', 'False'], correct: 0},
+            {topic: 'Bedtime', emoji: '🌙🛏️', question: 'Bedtime routines help children sleep.', options: ['True', 'False'], correct: 0},
+            {topic: 'Sleep', emoji: '😴⏰', question: 'Children need more sleep than adults.', options: ['True', 'False'], correct: 0},
+            {topic: 'Bedtime', emoji: '🌙📖', question: 'Reading helps children wind down.', options: ['True', 'False'], correct: 0},
+            {topic: 'Sleep', emoji: '😴🧠', question: 'Sleep affects brain development.', options: ['True', 'False'], correct: 0},
+            {topic: 'Bedtime', emoji: '🌙🎵', question: 'Lullabies calm children.', options: ['True', 'False'], correct: 0},
+            {topic: 'Sleep', emoji: '😴💪', question: 'Sleep affects growth.', options: ['True', 'False'], correct: 0},
+            {topic: 'Bedtime', emoji: '🌙🌡️', question: 'Cool rooms promote sleep.', options: ['True', 'False'], correct: 0},
+            {topic: 'Sleep', emoji: '😴😫', question: 'Lack of sleep causes crankiness.', options: ['True', 'False'], correct: 0},
+            {topic: 'Bedtime', emoji: '🌙🚫', question: 'Screens before bed disrupt sleep.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Sleep', emoji: '😴💤', question: 'How much sleep do toddlers need?', options: ['11-14 hours', '5 hours'], correct: 0},
+            {topic: 'Bedtime', emoji: '🌙🛏️', question: 'What is a bedtime routine?', options: ['Consistent activities before sleep', 'Random activities'], correct: 0},
+            {topic: 'Sleep', emoji: '😴⏰', question: 'What is circadian rhythm?', options: ['Internal body clock', 'Random sleep'], correct: 0},
+            {topic: 'Bedtime', emoji: '🌙📖', question: 'What is sleep hygiene?', options: ['Practices promoting good sleep', 'Bathing'], correct: 0},
+            {topic: 'Sleep', emoji: '😴🧠', question: 'What happens during sleep?', options: ['Brain consolidates memories', 'Nothing happens'], correct: 0},
+            {topic: 'Bedtime', emoji: '🌙🎵', question: 'What is white noise?', options: ['Consistent sound masking others', 'Music'], correct: 0},
+            {topic: 'Sleep', emoji: '😴💪', question: 'What is growth hormone?', options: ['Hormone released during sleep', 'Energy drink'], correct: 0},
+            {topic: 'Bedtime', emoji: '🌙🌡️', question: 'What is ideal sleep temperature?', options: ['60-67°F (15-19°C)', '90°F'], correct: 0},
+            {topic: 'Sleep', emoji: '😴😫', question: 'What is sleep debt?', options: ['Cumulative sleep loss', 'Financial debt'], correct: 0},
+            {topic: 'Bedtime', emoji: '🌙🚫', question: 'Why avoid screens before bed?', options: ['Blue light disrupts melatonin', 'No effect'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Sleep', emoji: '😴💤', question: 'What is REM sleep?', options: ['Rapid Eye Movement, dream stage', 'Light sleep', 'Deep sleep'], correct: 0},
+            {topic: 'Bedtime', emoji: '🌙🛏️', question: 'What is sleep association?', options: ['Condition needed to fall asleep', 'Any sleep', 'No association'], correct: 0},
+            {topic: 'Sleep', emoji: '😴⏰', question: 'What is melatonin?', options: ['Sleep-regulating hormone', 'Wake hormone', 'No hormone'], correct: 0},
+            {topic: 'Bedtime', emoji: '🌙📖', question: 'What is the Ferber method?', options: ['Gradual extinction sleep training', 'Cry it out', 'Co-sleeping'], correct: 0},
+            {topic: 'Sleep', emoji: '😴🧠', question: 'What is sleep cycle?', options: ['Progression through sleep stages', 'One stage', 'No cycle'], correct: 0},
+            {topic: 'Bedtime', emoji: '🌙🎵', question: 'What is sleep regression?', options: ['Temporary sleep disruption', 'Permanent problem', 'No change'], correct: 0},
+            {topic: 'Sleep', emoji: '😴💪', question: 'What is sleep apnea?', options: ['Breathing stops during sleep', 'Normal breathing', 'Deep sleep'], correct: 0},
+            {topic: 'Bedtime', emoji: '🌙🌡️', question: 'What is sleep environment?', options: ['Physical setting for sleep', 'Daytime activity', 'No environment'], correct: 0},
+            {topic: 'Sleep', emoji: '😴😫', question: 'What is chronic sleep deprivation?', options: ['Ongoing insufficient sleep', 'One bad night', 'Too much sleep'], correct: 0},
+            {topic: 'Bedtime', emoji: '🌙🚫', question: 'What is delayed sleep phase?', options: ['Later natural sleep time', 'Early sleep', 'Normal timing'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Sleep', emoji: '😴💤', question: 'How many sleep cycles do children have per night?', options: ['4-6 cycles', '1 cycle', '20 cycles', 'No cycles'], correct: 0},
+            {topic: 'Bedtime', emoji: '🌙🛏️', question: 'What percentage of children resist bedtime?', options: ['~20-30%', '0%', '100%', '5%'], correct: 0},
+            {topic: 'Sleep', emoji: '😴⏰', question: 'When does melatonin production peak?', options: ['9-11 PM', '6 AM', 'Noon', '3 PM'], correct: 0},
+            {topic: 'Bedtime', emoji: '🌙📖', question: 'How long should bedtime routine be?', options: ['20-30 minutes', '5 minutes', '2 hours', '10 seconds'], correct: 0},
+            {topic: 'Sleep', emoji: '😴🧠', question: 'What percentage of learning is consolidated during sleep?', options: ['Significant portion', '0%', '5%', '100%'], correct: 0},
+            {topic: 'Bedtime', emoji: '🌙🎵', question: 'At what age do sleep regressions commonly occur?', options: ['4, 8, 12, 18 months, 2 years', 'Never', 'Only once', 'Age 10'], correct: 0},
+            {topic: 'Sleep', emoji: '😴💪', question: 'When is growth hormone primarily released?', options: ['During deep sleep', 'While awake', 'Never', 'Random'], correct: 0},
+            {topic: 'Bedtime', emoji: '🌙🌡️', question: 'What percentage of children have sleep problems?', options: ['~25-40%', '0%', '100%', '5%'], correct: 0},
+            {topic: 'Sleep', emoji: '😴😫', question: 'How does one hour sleep loss affect children?', options: ['Equivalent to 2 years cognitive delay', 'No effect', 'Minimal', 'Positive'], correct: 0},
+            {topic: 'Bedtime', emoji: '🌙🚫', question: 'How long before bed to avoid screens?', options: ['1-2 hours', '5 minutes', '5 hours', 'Never'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Sleep', emoji: '😴💤', question: 'Name recommended sleep hours by age', answer: 'Newborn: 14-17hr, Toddler: 11-14hr, School-age: 9-12hr, Teen: 8-10hr (any 3)'},
+            {topic: 'Bedtime', emoji: '🌙🛏️', question: 'Name three bedtime routine activities', answer: 'Bath, Story, Lullaby, Cuddles, Brush teeth (any 3)'},
+            {topic: 'Sleep', emoji: '😴⏰', question: 'Name the stages of sleep', answer: 'Stage 1, Stage 2, Stage 3 (deep), REM'},
+            {topic: 'Bedtime', emoji: '🌙📖', question: 'Name three sleep training methods', answer: 'Ferber, Cry it out, Chair method, Pick up/put down, No tears (any 3)'},
+            {topic: 'Sleep', emoji: '😴🧠', question: 'Name three benefits of sleep', answer: 'Memory consolidation, Growth, Immune function, Mood (any 3)'},
+            {topic: 'Bedtime', emoji: '🌙🎵', question: 'Name three sleep regression ages', answer: '4 months, 8 months, 12 months, 18 months, 2 years (any 3)'},
+            {topic: 'Sleep', emoji: '😴💪', question: 'Name three signs of sleep deprivation', answer: 'Irritability, Hyperactivity, Poor focus, Clumsiness (any 3)'},
+            {topic: 'Bedtime', emoji: '🌙🌡️', question: 'Name three ideal sleep environment features', answer: 'Cool, Dark, Quiet, Comfortable bed (any 3)'},
+            {topic: 'Sleep', emoji: '😴😫', question: 'Name three common sleep problems', answer: 'Insomnia, Night terrors, Sleep apnea, Restless legs (any 3)'},
+            {topic: 'Bedtime', emoji: '🌙🚫', question: 'Name three sleep disruptors', answer: 'Screen time, Caffeine, Noise, Light, Stress (any 3)'}
+        ]
+    },
+    10: { // Chapter 10: Social Skills
+        easy: [
+            {topic: 'Social Skills', emoji: '👫🤝', question: 'Children learn social skills.', options: ['True', 'False'], correct: 0},
+            {topic: 'Friendship', emoji: '👧👦', question: 'Friends are important for children.', options: ['True', 'False'], correct: 0},
+            {topic: 'Social Skills', emoji: '👫💬', question: 'Communication is a social skill.', options: ['True', 'False'], correct: 0},
+            {topic: 'Friendship', emoji: '🤝😊', question: 'Sharing builds friendships.', options: ['True', 'False'], correct: 0},
+            {topic: 'Social Skills', emoji: '👫🎭', question: 'Taking turns is important.', options: ['True', 'False'], correct: 0},
+            {topic: 'Friendship', emoji: '👧🗣️', question: 'Listening helps friendships.', options: ['True', 'False'], correct: 0},
+            {topic: 'Social Skills', emoji: '👫🙏', question: 'Manners show respect.', options: ['True', 'False'], correct: 0},
+            {topic: 'Friendship', emoji: '🤝❤️', question: 'Kindness attracts friends.', options: ['True', 'False'], correct: 0},
+            {topic: 'Social Skills', emoji: '👫🎨', question: 'Play teaches social skills.', options: ['True', 'False'], correct: 0},
+            {topic: 'Friendship', emoji: '👧💔', question: 'Conflicts happen in friendships.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Social Skills', emoji: '👫🤝', question: 'What are social skills?', options: ['Abilities to interact effectively', 'Only talking'], correct: 0},
+            {topic: 'Friendship', emoji: '👧👦', question: 'What does parallel play mean?', options: ['Playing alongside others', 'Playing together'], correct: 0},
+            {topic: 'Social Skills', emoji: '👫💬', question: 'What does nonverbal communication include?', options: ['Body language and gestures', 'Only words'], correct: 0},
+            {topic: 'Friendship', emoji: '🤝😊', question: 'What is reciprocity?', options: ['Give and take in relationships', 'Only taking'], correct: 0},
+            {topic: 'Social Skills', emoji: '👫🎭', question: 'What is turn-taking?', options: ['Waiting for one\'s turn', 'Going first always'], correct: 0},
+            {topic: 'Friendship', emoji: '👧🗣️', question: 'How to practice active listening with friends?', options: ['Fully focusing on speaker', 'Waiting to talk'], correct: 0},
+            {topic: 'Social Skills', emoji: '👫🙏', question: 'What are table manners?', options: ['Polite eating behaviors', 'No rules'], correct: 0},
+            {topic: 'Friendship', emoji: '🤝❤️', question: 'What is prosocial behavior?', options: ['Helping and cooperating', 'Selfish behavior'], correct: 0},
+            {topic: 'Social Skills', emoji: '👫🎨', question: 'What is cooperative play?', options: ['Playing together with common goal', 'Playing alone'], correct: 0},
+            {topic: 'Friendship', emoji: '👧💔', question: 'What is conflict resolution?', options: ['Solving disagreements', 'Ignoring problems'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Social Skills', emoji: '👫🤝', question: 'What is social cognition?', options: ['Understanding social situations', 'Physical skills', 'No understanding'], correct: 0},
+            {topic: 'Friendship', emoji: '👧👦', question: 'What is Parten\'s stages of play?', options: ['6 stages from solitary to cooperative', '2 stages', 'No stages'], correct: 0},
+            {topic: 'Social Skills', emoji: '👫💬', question: 'What is pragmatic language?', options: ['Using language in social contexts', 'Grammar only', 'No language'], correct: 0},
+            {topic: 'Friendship', emoji: '🤝😊', question: 'What is social reciprocity?', options: ['Back-and-forth social interaction', 'One-way', 'No interaction'], correct: 0},
+            {topic: 'Social Skills', emoji: '👫🎭', question: 'What is impulse control?', options: ['Ability to wait and think first', 'Acting immediately', 'No control'], correct: 0},
+            {topic: 'Friendship', emoji: '👧🗣️', question: 'What does perspective-taking involve?', options: ['Understanding others\' viewpoints', 'Own view only', 'No perspective'], correct: 0},
+            {topic: 'Social Skills', emoji: '👫🙏', question: 'What is social etiquette?', options: ['Culturally-accepted behaviors', 'No rules', 'Random actions'], correct: 0},
+            {topic: 'Friendship', emoji: '🤝❤️', question: 'What is altruism?', options: ['Selfless concern for others', 'Selfish behavior', 'No concern'], correct: 0},
+            {topic: 'Social Skills', emoji: '👫🎨', question: 'What does symbolic play involve?', options: ['Using objects to represent other things', 'Literal play', 'No imagination'], correct: 0},
+            {topic: 'Friendship', emoji: '👧💔', question: 'What is peer mediation?', options: ['Peers help resolve conflicts', 'Adult intervention', 'Fighting'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Social Skills', emoji: '👫🤝', question: 'At what age do children develop theory of mind?', options: ['4-5 years', '1 year', '15 years', 'Birth'], correct: 0},
+            {topic: 'Friendship', emoji: '👧👦', question: 'What percentage of preschoolers have at least one friend?', options: ['~75%', '10%', '100%', '0%'], correct: 0},
+            {topic: 'Social Skills', emoji: '👫💬', question: 'What percentage of communication is nonverbal?', options: ['~70-93%', '10%', '50%', '100%'], correct: 0},
+            {topic: 'Friendship', emoji: '🤝😊', question: 'When does sharing typically develop?', options: ['3-4 years', '1 month', '10 years', 'Birth'], correct: 0},
+            {topic: 'Social Skills', emoji: '👫🎭', question: 'What is the marshmallow test?', options: ['Delayed gratification study', 'Food preference', 'No test', 'IQ test'], correct: 0},
+            {topic: 'Friendship', emoji: '👧🗣️', question: 'What is the recommended child-to-child ratio for optimal play?', options: ['2-4 children', '20 children', '1 child', '100 children'], correct: 0},
+            {topic: 'Social Skills', emoji: '👫🙏', question: 'At what age can children say please and thank you?', options: ['2-3 years', '10 years', '1 month', '15 years'], correct: 0},
+            {topic: 'Friendship', emoji: '🤝❤️', question: 'When does empathy fully develop?', options: ['Continues into adulthood', 'Age 5 complete', 'Birth', 'Never'], correct: 0},
+            {topic: 'Social Skills', emoji: '👫🎨', question: 'What age range for cooperative play?', options: ['4-6 years', '1 year', '15 years', 'Birth'], correct: 0},
+            {topic: 'Friendship', emoji: '👧💔', question: 'What percentage of children experience peer rejection?', options: ['~10-15%', '90%', '0%', '100%'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Social Skills', emoji: '👫🤝', question: 'Name three essential social skills', answer: 'Communication, Cooperation, Sharing, Empathy, Conflict resolution (any 3)'},
+            {topic: 'Friendship', emoji: '👧👦', question: 'Name Parten\'s six stages of play', answer: 'Unoccupied, Solitary, Onlooker, Parallel, Associative, Cooperative (any 3)'},
+            {topic: 'Social Skills', emoji: '👫💬', question: 'Name three communication skills', answer: 'Listening, Speaking clearly, Eye contact, Taking turns (any 3)'},
+            {topic: 'Friendship', emoji: '🤝😊', question: 'Name three qualities of good friendship', answer: 'Trust, Loyalty, Kindness, Respect, Fun (any 3)'},
+            {topic: 'Social Skills', emoji: '👫🎭', question: 'Name three self-control strategies', answer: 'Deep breathing, Counting, Wait time, Think first (any 3)'},
+            {topic: 'Friendship', emoji: '👧🗣️', question: 'Name three conversation skills', answer: 'Greeting, Asking questions, Listening, Responding, Eye contact (any 3)'},
+            {topic: 'Social Skills', emoji: '👫🙏', question: 'Name three basic manners', answer: 'Please, Thank you, Excuse me, Sorry, You\'re welcome (any 3)'},
+            {topic: 'Friendship', emoji: '🤝❤️', question: 'Name three prosocial behaviors', answer: 'Helping, Sharing, Comforting, Cooperating (any 3)'},
+            {topic: 'Social Skills', emoji: '👫🎨', question: 'Identify three types of play', answer: 'Solitary, Parallel, Cooperative, Symbolic, Physical (any 3)'},
+            {topic: 'Friendship', emoji: '👧💔', question: 'Name three conflict resolution steps', answer: 'Stop, Talk, Listen, Brainstorm solutions, Compromise (any 3)'}
+        ]
+    },
+    11: { // Chapter 11: Adolescence & Teens
+        easy: [
+            {topic: 'Adolescence', emoji: '👦👧', question: 'Adolescence is a time of change.', options: ['True', 'False'], correct: 0},
+            {topic: 'Teens', emoji: '🧑‍🎓📱', question: 'Teens need independence.', options: ['True', 'False'], correct: 0},
+            {topic: 'Adolescence', emoji: '👦💪', question: 'Puberty involves physical changes.', options: ['True', 'False'], correct: 0},
+            {topic: 'Teens', emoji: '🧑‍🎓🧠', question: 'Teen brains are still developing.', options: ['True', 'False'], correct: 0},
+            {topic: 'Adolescence', emoji: '👦😊', question: 'Peer relationships matter to teens.', options: ['True', 'False'], correct: 0},
+            {topic: 'Teens', emoji: '🧑‍🎓💭', question: 'Teens need privacy.', options: ['True', 'False'], correct: 0},
+            {topic: 'Adolescence', emoji: '👦🎭', question: 'Identity development occurs in teens.', options: ['True', 'False'], correct: 0},
+            {topic: 'Teens', emoji: '🧑‍🎓🗣️', question: 'Communication changes with teens.', options: ['True', 'False'], correct: 0},
+            {topic: 'Adolescence', emoji: '👦📈', question: 'Teens grow rapidly.', options: ['True', 'False'], correct: 0},
+            {topic: 'Teens', emoji: '🧑‍🎓⚖️', question: 'Teens need boundaries.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Adolescence', emoji: '👦👧', question: 'What age range is adolescence?', options: ['10-19 years', '1-5 years'], correct: 0},
+            {topic: 'Teens', emoji: '🧑‍🎓📱', question: 'What is autonomy?', options: ['Self-governance and independence', 'Total dependence'], correct: 0},
+            {topic: 'Adolescence', emoji: '👦💪', question: 'What is puberty?', options: ['Physical maturation to adulthood', 'No change'], correct: 0},
+            {topic: 'Teens', emoji: '🧑‍🎓🧠', question: 'What is the prefrontal cortex?', options: ['Brain area for decision-making', 'No function'], correct: 0},
+            {topic: 'Adolescence', emoji: '👦😊', question: 'What is peer pressure?', options: ['Influence from friends', 'No influence'], correct: 0},
+            {topic: 'Teens', emoji: '🧑‍🎓💭', question: 'What is appropriate privacy?', options: ['Balance between trust and safety', 'Total freedom'], correct: 0},
+            {topic: 'Adolescence', emoji: '👦🎭', question: 'What is identity formation?', options: ['Developing sense of self', 'No change'], correct: 0},
+            {topic: 'Teens', emoji: '🧑‍🎓🗣️', question: 'What is active listening for teens?', options: ['Hearing without judging', 'Lecturing'], correct: 0},
+            {topic: 'Adolescence', emoji: '👦📈', question: 'What is growth spurt?', options: ['Rapid physical growth', 'Slow growth'], correct: 0},
+            {topic: 'Teens', emoji: '🧑‍🎓⚖️', question: 'What are natural consequences?', options: ['Results of teen\'s choices', 'Parent punishment'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Adolescence', emoji: '👦👧', question: 'What is the adolescent brain development timeline?', options: ['Continues until mid-20s', 'Complete at 10', 'Complete at birth'], correct: 0},
+            {topic: 'Teens', emoji: '🧑‍🎓📱', question: 'What is individuation?', options: ['Separating identity from parents', 'Complete dependence', 'No change'], correct: 0},
+            {topic: 'Adolescence', emoji: '👦💪', question: 'What is the HPG axis?', options: ['Hypothalamic-Pituitary-Gonadal hormonal system', 'No system', 'Random'], correct: 0},
+            {topic: 'Teens', emoji: '🧑‍🎓🧠', question: 'What is synaptic pruning?', options: ['Elimination of unused brain connections', 'Building connections', 'No change'], correct: 0},
+            {topic: 'Adolescence', emoji: '👦😊', question: 'What is social identity theory?', options: ['Self-concept from group membership', 'Individual only', 'No identity'], correct: 0},
+            {topic: 'Teens', emoji: '🧑‍🎓💭', question: 'What is monitored independence?', options: ['Freedom with oversight', 'Total freedom', 'No freedom'], correct: 0},
+            {topic: 'Adolescence', emoji: '👦🎭', question: 'What is Erikson\'s adolescent stage?', options: ['Identity vs Role Confusion', 'Trust vs Mistrust', 'No stage'], correct: 0},
+            {topic: 'Teens', emoji: '🧑‍🎓🗣️', question: 'What is motivational interviewing?', options: ['Collaborative conversation style', 'Lecturing', 'Ignoring'], correct: 0},
+            {topic: 'Adolescence', emoji: '👦📈', question: 'What is asynchronous development?', options: ['Uneven physical/emotional development', 'Even development', 'No development'], correct: 0},
+            {topic: 'Teens', emoji: '🧑‍🎓⚖️', question: 'What is collaborative problem-solving?', options: ['Work together to find solutions', 'Parent decides', 'No solutions'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Adolescence', emoji: '👦👧', question: 'When does the prefrontal cortex fully mature?', options: ['Age 25-26', 'Age 10', 'Age 5', 'Age 30'], correct: 0},
+            {topic: 'Teens', emoji: '🧑‍🎓📱', question: 'What percentage of teens want more independence?', options: ['~85%', '10%', '5%', '100%'], correct: 0},
+            {topic: 'Adolescence', emoji: '👦💪', question: 'What is the average age for puberty start?', options: ['Girls 10-11, Boys 11-12', 'Age 20', 'Birth', 'Age 5'], correct: 0},
+            {topic: 'Teens', emoji: '🧑‍🎓🧠', question: 'What is myelination?', options: ['Insulation of nerve fibers', 'No process', 'Random'], correct: 0},
+            {topic: 'Adolescence', emoji: '👦😊', question: 'What percentage of teens experience peer pressure?', options: ['~90%', '10%', '0%', '100%'], correct: 0},
+            {topic: 'Teens', emoji: '🧑‍🎓💭', question: 'What is the recommended approach to monitoring?', options: ['Know friends, activities, whereabouts', 'No monitoring', 'Complete control', 'Random'], correct: 0},
+            {topic: 'Adolescence', emoji: '👦🎭', question: 'What is identity moratorium?', options: ['Exploring without commitment', 'Fixed identity', 'No exploration'], correct: 0},
+            {topic: 'Teens', emoji: '🧑‍🎓🗣️', question: 'What is the ideal parent-teen communication?', options: ['Open, non-judgmental dialogue', 'One-way lectures', 'No communication', 'Random'], correct: 0},
+            {topic: 'Adolescence', emoji: '👦📈', question: 'How much can teens grow in a year?', options: ['Up to 4 inches', '1 foot', 'No growth', '1 inch'], correct: 0},
+            {topic: 'Teens', emoji: '🧑‍🎓⚖️', question: 'What is the recommended parenting style for teens?', options: ['Authoritative', 'Authoritarian', 'Permissive', 'Uninvolved'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Adolescence', emoji: '👦👧', question: 'Name the three phases of adolescence', answer: 'Early (10-13), Middle (14-17), Late (18-21)'},
+            {topic: 'Teens', emoji: '🧑‍🎓📱', question: 'Name three teen developmental tasks', answer: 'Identity formation, Independence, Peer relationships, Career planning (any 3)'},
+            {topic: 'Adolescence', emoji: '👦💪', question: 'Name three puberty changes', answer: 'Growth spurt, Sexual maturation, Body composition, Voice changes (any 3)'},
+            {topic: 'Teens', emoji: '🧑‍🎓🧠', question: 'Name three brain development changes', answer: 'Synaptic pruning, Myelination, Prefrontal cortex development (any 3)'},
+            {topic: 'Adolescence', emoji: '👦😊', question: 'Name three peer relationship functions', answer: 'Social support, Identity exploration, Emotional support, Belonging (any 3)'},
+            {topic: 'Teens', emoji: '🧑‍🎓💭', question: 'Name three privacy boundaries', answer: 'Room, Phone, Journal, Conversations with friends (any 3)'},
+            {topic: 'Adolescence', emoji: '👦🎭', question: 'Name Marcia\'s four identity statuses', answer: 'Diffusion, Foreclosure, Moratorium, Achievement'},
+            {topic: 'Teens', emoji: '🧑‍🎓🗣️', question: 'Name three communication tips for teens', answer: 'Listen without judging, Ask open questions, Respect opinions, Pick timing (any 3)'},
+            {topic: 'Adolescence', emoji: '👦📈', question: 'Name three adolescent health concerns', answer: 'Sleep, Nutrition, Mental health, Risk-taking, Substance use (any 3)'},
+            {topic: 'Teens', emoji: '🧑‍🎓⚖️', question: 'Name three appropriate boundaries for teens', answer: 'Curfew, Chores, Academic expectations, Respect, Safety (any 3)'}
+        ]
     }
+,
+    12: { // Chapter 12: Special Needs
+        easy: [
+            {topic: 'Special Needs', emoji: '♿🌟', question: 'Every child is unique.', options: ['True', 'False'], correct: 0},
+            {topic: 'Support', emoji: '🤝💙', question: 'Children with special needs can thrive.', options: ['True', 'False'], correct: 0},
+            {topic: 'Special Needs', emoji: '♿📚', question: 'Early intervention helps.', options: ['True', 'False'], correct: 0},
+            {topic: 'Support', emoji: '🤝🏫', question: 'Schools provide accommodations.', options: ['True', 'False'], correct: 0},
+            {topic: 'Special Needs', emoji: '♿❤️', question: 'Acceptance is important.', options: ['True', 'False'], correct: 0},
+            {topic: 'Support', emoji: '🤝👨‍⚕️', question: 'Therapies can help development.', options: ['True', 'False'], correct: 0},
+            {topic: 'Special Needs', emoji: '♿🎯', question: 'Children have strengths.', options: ['True', 'False'], correct: 0},
+            {topic: 'Support', emoji: '🤝👨‍👩‍👧', question: 'Family support is crucial.', options: ['True', 'False'], correct: 0},
+            {topic: 'Special Needs', emoji: '♿📖', question: 'Education is a right.', options: ['True', 'False'], correct: 0},
+            {topic: 'Support', emoji: '🤝🌈', question: 'Inclusion benefits everyone.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Special Needs', emoji: '♿🌟', question: 'What are special needs?', options: ['Require additional support', 'No support needed'], correct: 0},
+            {topic: 'Support', emoji: '🤝💙', question: 'What is early intervention?', options: ['Services for young children with delays', 'School-age only'], correct: 0},
+            {topic: 'Special Needs', emoji: '♿📚', question: 'What does IEP stand for?', options: ['Individualized Education Program', 'Internet Protocol'], correct: 0},
+            {topic: 'Support', emoji: '🤝🏫', question: 'What is a 504 plan?', options: ['Accommodations under Section 504', 'No plan'], correct: 0},
+            {topic: 'Special Needs', emoji: '♿❤️', question: 'What is neurodiversity?', options: ['Natural variation in brain function', 'Disorder only'], correct: 0},
+            {topic: 'Support', emoji: '🤝👨‍⚕️', question: 'What is occupational therapy?', options: ['Help with daily living skills', 'Job training'], correct: 0},
+            {topic: 'Special Needs', emoji: '♿🎯', question: 'What is strength-based approach?', options: ['Focus on abilities', 'Focus on deficits'], correct: 0},
+            {topic: 'Support', emoji: '🤝👨‍👩‍👧', question: 'What is respite care?', options: ['Temporary relief for caregivers', 'Permanent care'], correct: 0},
+            {topic: 'Special Needs', emoji: '♿📖', question: 'What is IDEA?', options: ['Individuals with Disabilities Education Act', 'No law'], correct: 0},
+            {topic: 'Support', emoji: '🤝🌈', question: 'What is inclusion?', options: ['Full participation in regular settings', 'Separation'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Special Needs', emoji: '♿🌟', question: 'What is the difference between IEP and 504?', options: ['IEP is special ed, 504 is accommodations', 'Same thing', 'No difference'], correct: 0},
+            {topic: 'Support', emoji: '🤝💙', question: 'What ages qualify for early intervention?', options: ['Birth to 3 years', '5-10 years', 'Teens only'], correct: 0},
+            {topic: 'Special Needs', emoji: '♿📚', question: 'What is FAPE?', options: ['Free Appropriate Public Education', 'Fast Learning', 'No acronym'], correct: 0},
+            {topic: 'Support', emoji: '🤝🏫', question: 'What is LRE?', options: ['Least Restrictive Environment', 'Limited Resources', 'No meaning'], correct: 0},
+            {topic: 'Special Needs', emoji: '♿❤️', question: 'What is person-first language?', options: ['Child with autism, not autistic child', 'Labels first', 'No preference'], correct: 0},
+            {topic: 'Support', emoji: '🤝👨‍⚕️', question: 'What is ABA therapy?', options: ['Applied Behavior Analysis', 'Art therapy', 'No therapy'], correct: 0},
+            {topic: 'Special Needs', emoji: '♿🎯', question: 'What is a sensory processing disorder?', options: ['Difficulty processing sensory information', 'Normal processing', 'No disorder'], correct: 0},
+            {topic: 'Support', emoji: '🤝👨‍👩‍👧', question: 'What is family-centered care?', options: ['Family as partners in care', 'Professional-only decisions', 'No family'], correct: 0},
+            {topic: 'Special Needs', emoji: '♿📖', question: 'What is transition planning?', options: ['Plan for post-school life', 'No planning', 'School only'], correct: 0},
+            {topic: 'Support', emoji: '🤝🌈', question: 'What is universal design for learning?', options: ['Flexible approaches for all learners', 'One-size-fits-all', 'No design'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Special Needs', emoji: '♿🌟', question: 'What percentage of children have special needs?', options: ['~15-20%', '1%', '90%', '0%'], correct: 0},
+            {topic: 'Support', emoji: '🤝💙', question: 'What is the recommended hours for early intervention?', options: ['Varies, typically 2-10 hours/week', '100 hours', '0 hours', '1 hour/year'], correct: 0},
+            {topic: 'Special Needs', emoji: '♿📚', question: 'At what age must IEP transition planning begin?', options: ['Age 16 (or earlier)', 'Age 5', 'Age 21', 'Never'], correct: 0},
+            {topic: 'Support', emoji: '🤝🏫', question: 'What percentage of students have IEPs?', options: ['~14%', '90%', '1%', '100%'], correct: 0},
+            {topic: 'Special Needs', emoji: '♿❤️', question: 'What is the autism prevalence?', options: ['1 in 36 children', '1 in 1000', '1 in 2', 'No data'], correct: 0},
+            {topic: 'Support', emoji: '🤝👨‍⚕️', question: 'How many hours of ABA therapy are recommended?', options: ['20-40 hours per week', '1 hour', '100 hours', 'None'], correct: 0},
+            {topic: 'Special Needs', emoji: '♿🎯', question: 'What is the ADHD prevalence in children?', options: ['~9-10%', '90%', '1%', '0%'], correct: 0},
+            {topic: 'Support', emoji: '🤝👨‍👩‍👧', question: 'What percentage of parents report stress?', options: ['~50% report high stress', '0%', '100%', '5%'], correct: 0},
+            {topic: 'Special Needs', emoji: '♿📖', question: 'What did IDEA replace?', options: ['Education for All Handicapped Children Act', 'No prior law', 'NCLB', 'Random'], correct: 0},
+            {topic: 'Support', emoji: '🤝🌈', question: 'What percentage of students are in inclusive settings?', options: ['~65%', '5%', '100%', '0%'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Special Needs', emoji: '♿🌟', question: 'Name three categories of special needs', answer: 'Physical, Learning, Developmental, Behavioral, Sensory (any 3)'},
+            {topic: 'Support', emoji: '🤝💙', question: 'Name three early intervention services', answer: 'Speech therapy, PT, OT, Special instruction, Family training (any 3)'},
+            {topic: 'Special Needs', emoji: '♿📚', question: 'Name three IEP components', answer: 'Present levels, Goals, Accommodations, Services, Placement (any 3)'},
+            {topic: 'Support', emoji: '🤝🏫', question: 'Name three types of accommodations', answer: 'Extra time, Reduced distractions, Assistive tech, Modified assignments (any 3)'},
+            {topic: 'Special Needs', emoji: '♿❤️', question: 'Name three neurodevelopmental conditions', answer: 'Autism, ADHD, Learning disabilities, Intellectual disability (any 3)'},
+            {topic: 'Support', emoji: '🤝👨‍⚕️', question: 'Name three types of therapy', answer: 'Speech, Occupational, Physical, ABA, Play therapy (any 3)'},
+            {topic: 'Special Needs', emoji: '♿🎯', question: 'Name three strengths-based practices', answer: 'Focus on abilities, Build confidence, Use interests, Celebrate progress (any 3)'},
+            {topic: 'Support', emoji: '🤝👨‍👩‍👧', question: 'Name three family support services', answer: 'Respite care, Support groups, Counseling, Parent training (any 3)'},
+            {topic: 'Special Needs', emoji: '♿📖', question: 'Name three IDEA principles', answer: 'FAPE, LRE, IEP, Parent participation, Due process (any 3)'},
+            {topic: 'Support', emoji: '🤝🌈', question: 'Name three inclusion benefits', answer: 'Social skills, Acceptance, Academic growth, Peer models (any 3)'}
+        ]
+    },
 };

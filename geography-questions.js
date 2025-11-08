@@ -381,4 +381,378 @@ const geographyQuestions = {
             {topic: 'Demographics', emoji: '📊📉', question: 'Name three push factors for migration', answer: 'War, poverty, climate, persecution (any 3)'}
         ]
     },
+
+    7: { // Chapter 7: Natural Resources
+        easy: [
+            {topic: 'Resources', emoji: '💎⛏️', question: 'Oil is a natural resource.', options: ['True', 'False'], correct: 0},
+            {topic: 'Resources', emoji: '🌲🪵', question: 'Wood comes from forests.', options: ['True', 'False'], correct: 0},
+            {topic: 'Resources', emoji: '💧🚰', question: 'Fresh water is limited.', options: ['True', 'False'], correct: 0},
+            {topic: 'Resources', emoji: '⚡💡', question: 'Coal produces energy.', options: ['True', 'False'], correct: 0},
+            {topic: 'Resources', emoji: '🌾🌽', question: 'Soil is renewable resource.', options: ['True', 'False'], correct: 0},
+            {topic: 'Resources', emoji: '☀️🔋', question: 'Solar is renewable energy.', options: ['True', 'False'], correct: 0},
+            {topic: 'Resources', emoji: '🐟🦐', question: 'Oceans provide food.', options: ['True', 'False'], correct: 0},
+            {topic: 'Resources', emoji: '⛰️🪨', question: 'Minerals are non-renewable.', options: ['True', 'False'], correct: 0},
+            {topic: 'Resources', emoji: '🌬️💨', question: 'Wind creates electricity.', options: ['True', 'False'], correct: 0},
+            {topic: 'Resources', emoji: '🔥🪵', question: 'Biomass is energy source.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Resources', emoji: '💎⛏️', question: 'Which country has most oil?', options: ['Venezuela', 'Saudi Arabia'], correct: 0},
+            {topic: 'Resources', emoji: '🌲🪵', question: 'What is deforestation?', options: ['Forest removal', 'Tree planting'], correct: 0},
+            {topic: 'Resources', emoji: '💧🚰', question: 'What percent of water is fresh?', options: ['2.5%', '10%'], correct: 0},
+            {topic: 'Resources', emoji: '⚡💡', question: 'What is fossil fuel?', options: ['Ancient organic matter', 'Modern fuel'], correct: 0},
+            {topic: 'Resources', emoji: '🌾🌽', question: 'What is topsoil?', options: ['Upper soil layer', 'Deep soil'], correct: 0},
+            {topic: 'Resources', emoji: '☀️🔋', question: 'What is photovoltaic?', options: ['Solar to electricity', 'Wind power'], correct: 0},
+            {topic: 'Resources', emoji: '🐟🦐', question: 'What is overfishing?', options: ['Taking too many fish', 'Fish farming'], correct: 0},
+            {topic: 'Resources', emoji: '⛰️🪨', question: 'What is mining?', options: ['Extracting minerals', 'Digging holes'], correct: 0},
+            {topic: 'Resources', emoji: '🌬️💨', question: 'What are wind turbines?', options: ['Wind to electricity', 'Weather tool'], correct: 0},
+            {topic: 'Resources', emoji: '🔥🪵', question: 'What is biomass?', options: ['Organic matter fuel', 'Chemical fuel'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Resources', emoji: '💎⛏️', question: 'How much oil does Venezuela have?', options: ['300+ billion barrels', '200 billion', '400 billion'], correct: 0},
+            {topic: 'Resources', emoji: '🌲🪵', question: 'How much rainforest is lost yearly?', options: ['10 million hectares', '5 million', '15 million'], correct: 0},
+            {topic: 'Resources', emoji: '💧🚰', question: 'Where is most freshwater?', options: ['Ice and glaciers', 'Rivers', 'Lakes'], correct: 0},
+            {topic: 'Resources', emoji: '⚡💡', question: 'Which fossil fuel is cleanest?', options: ['Natural gas', 'Coal', 'Oil'], correct: 0},
+            {topic: 'Resources', emoji: '🌾🌽', question: 'How long to form 1 inch of topsoil?', options: ['500 years', '100 years', '1000 years'], correct: 0},
+            {topic: 'Resources', emoji: '☀️🔋', question: 'What percent of energy is solar?', options: ['3%', '10%', '1%'], correct: 0},
+            {topic: 'Resources', emoji: '🐟🦐', question: 'What percent of stocks are overfished?', options: ['35%', '20%', '50%'], correct: 0},
+            {topic: 'Resources', emoji: '⛰️🪨', question: 'What is the biggest gold producer?', options: ['China', 'Australia', 'Russia'], correct: 0},
+            {topic: 'Resources', emoji: '🌬️💨', question: 'Which country has most wind power?', options: ['China', 'USA', 'Germany'], correct: 0},
+            {topic: 'Resources', emoji: '🔥🪵', question: 'What percent use biomass for cooking?', options: ['40%', '20%', '60%'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Resources', emoji: '💎⛏️', question: 'What is peak oil theory?', options: ['Maximum extraction rate reached', 'Oil discovery peak', 'Price maximum', 'Production decline'], correct: 0},
+            {topic: 'Resources', emoji: '🌲🪵', question: 'What is sustainable forestry?', options: ['Harvesting that maintains forest', 'No cutting', 'Fast cutting', 'Tree planting'], correct: 0},
+            {topic: 'Resources', emoji: '💧🚰', question: 'What is water stress?', options: ['Demand exceeds supply', 'Drought', 'Pollution', 'Scarcity'], correct: 0},
+            {topic: 'Resources', emoji: '⚡💡', question: 'What is carbon capture?', options: ['Storing CO2 emissions', 'Reducing emissions', 'Clean energy', 'Tree planting'], correct: 0},
+            {topic: 'Resources', emoji: '🌾🌽', question: 'What is soil erosion?', options: ['Loss of topsoil', 'Soil formation', 'Weathering', 'Deposition'], correct: 0},
+            {topic: 'Resources', emoji: '☀️🔋', question: 'What is solar efficiency?', options: ['Energy conversion rate', 'Panel size', 'Sunlight amount', 'Cost'], correct: 0},
+            {topic: 'Resources', emoji: '🐟🦐', question: 'What is aquaculture?', options: ['Fish farming', 'Wild fishing', 'Ocean study', 'Coral growing'], correct: 0},
+            {topic: 'Resources', emoji: '⛰️🪨', question: 'What is strip mining?', options: ['Surface mineral extraction', 'Underground mining', 'Ocean mining', 'Cave mining'], correct: 0},
+            {topic: 'Resources', emoji: '🌬️💨', question: 'What is offshore wind?', options: ['Ocean-based turbines', 'Coastal winds', 'Storm energy', 'Tidal power'], correct: 0},
+            {topic: 'Resources', emoji: '🔥🪵', question: 'What is biofuel?', options: ['Fuel from organic matter', 'Fossil fuel', 'Nuclear fuel', 'Chemical fuel'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Resources', emoji: '💎⛏️', question: 'Name three OPEC countries', answer: 'Saudi Arabia, Iran, Iraq, UAE, Venezuela (any 3)'},
+            {topic: 'Resources', emoji: '🌲🪵', question: 'Name three threats to forests', answer: 'Deforestation, fire, disease, climate change (any 3)'},
+            {topic: 'Resources', emoji: '💧🚰', question: 'Name three major aquifers', answer: 'Ogallala, Great Artesian Basin, Guarani (any 3)'},
+            {topic: 'Resources', emoji: '⚡💡', question: 'Name three fossil fuels', answer: 'Coal, oil, natural gas'},
+            {topic: 'Resources', emoji: '🌾🌽', question: 'Name three causes of soil degradation', answer: 'Erosion, overgrazing, deforestation, chemicals (any 3)'},
+            {topic: 'Resources', emoji: '☀️🔋', question: 'Name three renewable energy sources', answer: 'Solar, wind, hydro, geothermal, biomass (any 3)'},
+            {topic: 'Resources', emoji: '🐟🦐', question: 'Name three major fishing grounds', answer: 'Grand Banks, North Sea, Bering Sea (any 3)'},
+            {topic: 'Resources', emoji: '⛰️🪨', question: 'Name three precious metals', answer: 'Gold, silver, platinum, palladium (any 3)'},
+            {topic: 'Resources', emoji: '🌬️💨', question: 'Name three countries leading in wind energy', answer: 'China, USA, Germany, India, Spain (any 3)'},
+            {topic: 'Resources', emoji: '🔥🪵', question: 'Name three biomass sources', answer: 'Wood, crop waste, animal waste, algae (any 3)'}
+        ]
+    },
+    8: { // Chapter 8: Biomes
+        easy: [
+            {topic: 'Biomes', emoji: '🌳🌲', question: 'Forests are biomes.', options: ['True', 'False'], correct: 0},
+            {topic: 'Biomes', emoji: '🌾🦁', question: 'Savannas have grasslands.', options: ['True', 'False'], correct: 0},
+            {topic: 'Biomes', emoji: '🏔️❄️', question: 'Tundra is very cold.', options: ['True', 'False'], correct: 0},
+            {topic: 'Biomes', emoji: '🏜️🦎', question: 'Deserts get little rain.', options: ['True', 'False'], correct: 0},
+            {topic: 'Biomes', emoji: '🌴🦜', question: 'Rainforests are biodiverse.', options: ['True', 'False'], correct: 0},
+            {topic: 'Biomes', emoji: '🌊🐠', question: 'Marine is aquatic biome.', options: ['True', 'False'], correct: 0},
+            {topic: 'Biomes', emoji: '🌿🌾', question: 'Grasslands have few trees.', options: ['True', 'False'], correct: 0},
+            {topic: 'Biomes', emoji: '🦌🌲', question: 'Taiga has coniferous forests.', options: ['True', 'False'], correct: 0},
+            {topic: 'Biomes', emoji: '💧🪷', question: 'Wetlands are transition zones.', options: ['True', 'False'], correct: 0},
+            {topic: 'Biomes', emoji: '🍂🦫', question: 'Deciduous trees lose leaves.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Biomes', emoji: '🌳🌲', question: 'What is largest land biome?', options: ['Taiga', 'Rainforest'], correct: 0},
+            {topic: 'Biomes', emoji: '🌾🦁', question: 'Where are most savannas?', options: ['Africa', 'South America'], correct: 0},
+            {topic: 'Biomes', emoji: '🏔️❄️', question: 'What characterizes tundra?', options: ['Permafrost', 'Snow'], correct: 0},
+            {topic: 'Biomes', emoji: '🏜️🦎', question: 'What is coldest desert?', options: ['Antarctic', 'Gobi'], correct: 0},
+            {topic: 'Biomes', emoji: '🌴🦜', question: 'What percent of species in rainforest?', options: ['50%', '30%'], correct: 0},
+            {topic: 'Biomes', emoji: '🌊🐠', question: 'What is ocean zonation?', options: ['Depth layers', 'Temperature zones'], correct: 0},
+            {topic: 'Biomes', emoji: '🌿🌾', question: 'What are prairies?', options: ['Grasslands', 'Wetlands'], correct: 0},
+            {topic: 'Biomes', emoji: '🦌🌲', question: 'What is taiga also called?', options: ['Boreal forest', 'Pine forest'], correct: 0},
+            {topic: 'Biomes', emoji: '💧🪷', question: 'What are mangroves?', options: ['Coastal wetland trees', 'Swamp plants'], correct: 0},
+            {topic: 'Biomes', emoji: '🍂🦫', question: 'Where are temperate forests?', options: ['Mid-latitudes', 'Tropics'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Biomes', emoji: '🌳🌲', question: 'What percent of land is taiga?', options: ['17%', '10%', '25%'], correct: 0},
+            {topic: 'Biomes', emoji: '🌾🦁', question: 'What is savanna rainfall range?', options: ['500-1500mm', '250-500mm', '1500-2500mm'], correct: 0},
+            {topic: 'Biomes', emoji: '🏔️❄️', question: 'What is tundra growing season?', options: ['50-60 days', '90 days', '30 days'], correct: 0},
+            {topic: 'Biomes', emoji: '🏜️🦎', question: 'What percent of land is desert?', options: ['33%', '20%', '45%'], correct: 0},
+            {topic: 'Biomes', emoji: '🌴🦜', question: 'How many rainforest trees per hectare?', options: ['100-200', '50-100', '200-300'], correct: 0},
+            {topic: 'Biomes', emoji: '🌊🐠', question: 'What depth is photic zone?', options: ['200m', '100m', '300m'], correct: 0},
+            {topic: 'Biomes', emoji: '🌿🌾', question: 'What is steppe?', options: ['Eurasian grassland', 'African grassland', 'American grassland'], correct: 0},
+            {topic: 'Biomes', emoji: '🦌🌲', question: 'What percent of forest is taiga?', options: ['29%', '20%', '35%'], correct: 0},
+            {topic: 'Biomes', emoji: '💧🪷', question: 'What percent of species use wetlands?', options: ['40%', '25%', '50%'], correct: 0},
+            {topic: 'Biomes', emoji: '🍂🦫', question: 'How many seasons in temperate forest?', options: ['4', '2', '3'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Biomes', emoji: '🌳🌲', question: 'What defines a biome?', options: ['Climate and organisms', 'Plant types', 'Animal types', 'Rainfall'], correct: 0},
+            {topic: 'Biomes', emoji: '🌾🦁', question: 'What is fire\'s role in savanna?', options: ['Maintains grassland', 'Destroys habitat', 'Kills animals', 'Causes drought'], correct: 0},
+            {topic: 'Biomes', emoji: '🏔️❄️', question: 'What is alpine tundra?', options: ['High mountain treeless area', 'Arctic region', 'Cold desert', 'Snow field'], correct: 0},
+            {topic: 'Biomes', emoji: '🏜️🦎', question: 'What is desertification?', options: ['Land becoming desert', 'Desert expansion', 'Drought', 'Sandstorm'], correct: 0},
+            {topic: 'Biomes', emoji: '🌴🦜', question: 'What is canopy in rainforest?', options: ['Upper tree layer', 'Forest floor', 'Tree type', 'Vine layer'], correct: 0},
+            {topic: 'Biomes', emoji: '🌊🐠', question: 'What is benthic zone?', options: ['Ocean floor', 'Surface water', 'Mid-water', 'Coastal area'], correct: 0},
+            {topic: 'Biomes', emoji: '🌿🌾', question: 'What threatens grasslands?', options: ['Agriculture conversion', 'Fire', 'Grazing', 'Drought'], correct: 0},
+            {topic: 'Biomes', emoji: '🦌🌲', question: 'What is taiga climate?', options: ['Long cold winters, short summers', 'Cold year-round', 'Moderate', 'Dry'], correct: 0},
+            {topic: 'Biomes', emoji: '💧🪷', question: 'What services do wetlands provide?', options: ['Water filtration, flood control', 'Food only', 'Recreation', 'Habitat only'], correct: 0},
+            {topic: 'Biomes', emoji: '🍂🦫', question: 'What is succession in forests?', options: ['Ecological change over time', 'Tree growth', 'Seasonal change', 'Forest fire'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Biomes', emoji: '🌳🌲', question: 'Name three major forest biomes', answer: 'Tropical rainforest, temperate forest, taiga/boreal'},
+            {topic: 'Biomes', emoji: '🌾🦁', question: 'Name three animals in African savanna', answer: 'Lions, elephants, zebras, giraffes, wildebeest (any 3)'},
+            {topic: 'Biomes', emoji: '🏔️❄️', question: 'Name three tundra adaptations', answer: 'Small size, insulation, hibernation, migration (any 3)'},
+            {topic: 'Biomes', emoji: '🏜️🦎', question: 'Name three hot deserts', answer: 'Sahara, Arabian, Kalahari, Sonoran (any 3)'},
+            {topic: 'Biomes', emoji: '🌴🦜', question: 'Name three rainforest layers', answer: 'Emergent, canopy, understory, forest floor (any 3)'},
+            {topic: 'Biomes', emoji: '🌊🐠', question: 'Name three ocean zones', answer: 'Epipelagic, mesopelagic, bathypelagic, abyssal (any 3)'},
+            {topic: 'Biomes', emoji: '🌿🌾', question: 'Name three grassland names worldwide', answer: 'Prairie, steppe, pampas, savanna, veld (any 3)'},
+            {topic: 'Biomes', emoji: '🦌🌲', question: 'Name three taiga animals', answer: 'Moose, wolf, lynx, bear, owl (any 3)'},
+            {topic: 'Biomes', emoji: '💧🪷', question: 'Name three types of wetlands', answer: 'Marshes, swamps, bogs, fens (any 3)'},
+            {topic: 'Biomes', emoji: '🍂🦫', question: 'Name three deciduous trees', answer: 'Oak, maple, beech, ash, birch (any 3)'}
+        ]
+    },
+    9: { // Chapter 9: Weather Patterns
+        easy: [
+            {topic: 'Weather', emoji: '☀️🌤️', question: 'Weather changes daily.', options: ['True', 'False'], correct: 0},
+            {topic: 'Weather', emoji: '🌧️💧', question: 'Rain comes from clouds.', options: ['True', 'False'], correct: 0},
+            {topic: 'Weather', emoji: '⚡🌩️', question: 'Lightning makes thunder.', options: ['True', 'False'], correct: 0},
+            {topic: 'Weather', emoji: '🌨️❄️', question: 'Snow is frozen precipitation.', options: ['True', 'False'], correct: 0},
+            {topic: 'Weather', emoji: '🌪️💨', question: 'Tornadoes are rotating storms.', options: ['True', 'False'], correct: 0},
+            {topic: 'Weather', emoji: '🌀🌊', question: 'Hurricanes form over ocean.', options: ['True', 'False'], correct: 0},
+            {topic: 'Weather', emoji: '🌡️☀️', question: 'Temperature measures heat.', options: ['True', 'False'], correct: 0},
+            {topic: 'Weather', emoji: '💨🍃', question: 'Wind is moving air.', options: ['True', 'False'], correct: 0},
+            {topic: 'Weather', emoji: '🌫️💭', question: 'Fog is low cloud.', options: ['True', 'False'], correct: 0},
+            {topic: 'Weather', emoji: '🌈☔', question: 'Rainbows need sun and rain.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Weather', emoji: '☀️🌤️', question: 'What causes weather?', options: ['Atmospheric conditions', 'Earth rotation'], correct: 0},
+            {topic: 'Weather', emoji: '🌧️💧', question: 'What is precipitation?', options: ['Water falling from sky', 'Cloud formation'], correct: 0},
+            {topic: 'Weather', emoji: '⚡🌩️', question: 'What causes lightning?', options: ['Electrical discharge', 'Thunder'], correct: 0},
+            {topic: 'Weather', emoji: '🌨️❄️', question: 'At what temp does snow form?', options: ['Below 0°C', 'Below 5°C'], correct: 0},
+            {topic: 'Weather', emoji: '🌪️💨', question: 'Where do tornadoes form most?', options: ['Tornado Alley USA', 'Everywhere'], correct: 0},
+            {topic: 'Weather', emoji: '🌀🌊', question: 'What is a hurricane called in Asia?', options: ['Typhoon', 'Cyclone'], correct: 0},
+            {topic: 'Weather', emoji: '🌡️☀️', question: 'What scale measures temp in USA?', options: ['Fahrenheit', 'Celsius'], correct: 0},
+            {topic: 'Weather', emoji: '💨🍃', question: 'What causes wind?', options: ['Pressure differences', 'Earth rotation'], correct: 0},
+            {topic: 'Weather', emoji: '🌫️💭', question: 'When does fog form?', options: ['Air cools to dew point', 'Rain evaporates'], correct: 0},
+            {topic: 'Weather', emoji: '🌈☔', question: 'What causes rainbow colors?', options: ['Light refraction', 'Cloud colors'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Weather', emoji: '☀️🌤️', question: 'What is weather vs climate?', options: ['Short-term vs long-term', 'Same thing', 'Local vs global'], correct: 0},
+            {topic: 'Weather', emoji: '🌧️💧', question: 'What is wettest place on Earth?', options: ['Mawsynram India', 'Amazon', 'Hawaii'], correct: 0},
+            {topic: 'Weather', emoji: '⚡🌩️', question: 'How hot is lightning?', options: ['30,000°C', '10,000°C', '50,000°C'], correct: 0},
+            {topic: 'Weather', emoji: '🌨️❄️', question: 'What is a blizzard?', options: ['Heavy snow with wind', 'Light snow', 'Ice storm'], correct: 0},
+            {topic: 'Weather', emoji: '🌪️💨', question: 'What is tornado wind speed?', options: ['Up to 480 km/h', '300 km/h', '600 km/h'], correct: 0},
+            {topic: 'Weather', emoji: '🌀🌊', question: 'What is hurricane category based on?', options: ['Wind speed', 'Size', 'Rainfall'], correct: 0},
+            {topic: 'Weather', emoji: '🌡️☀️', question: 'What is hottest temp recorded?', options: ['56.7°C', '50°C', '60°C'], correct: 0},
+            {topic: 'Weather', emoji: '💨🍃', question: 'What is the Beaufort scale?', options: ['Wind speed scale', 'Temperature scale', 'Pressure scale'], correct: 0},
+            {topic: 'Weather', emoji: '🌫️💭', question: 'What is smog?', options: ['Smoke and fog pollution', 'Natural fog', 'Cloud type'], correct: 0},
+            {topic: 'Weather', emoji: '🌈☔', question: 'Can you see double rainbow?', options: ['Yes with two reflections', 'No', 'Only in tropics'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Weather', emoji: '☀️🌤️', question: 'What is a weather front?', options: ['Boundary between air masses', 'Storm system', 'Cloud type', 'Wind pattern'], correct: 0},
+            {topic: 'Weather', emoji: '🌧️💧', question: 'What is orographic precipitation?', options: ['Mountain-induced rainfall', 'Ocean rain', 'Storm rain', 'Light rain'], correct: 0},
+            {topic: 'Weather', emoji: '⚡🌩️', question: 'What is thunder?', options: ['Sound from lightning', 'Lightning sound', 'Cloud noise', 'Wind sound'], correct: 0},
+            {topic: 'Weather', emoji: '🌨️❄️', question: 'What is graupel?', options: ['Soft hail', 'Sleet', 'Snow', 'Ice'], correct: 0},
+            {topic: 'Weather', emoji: '🌪️💨', question: 'What is Enhanced Fujita scale?', options: ['Tornado intensity rating', 'Wind scale', 'Damage scale', 'Speed scale'], correct: 0},
+            {topic: 'Weather', emoji: '🌀🌊', question: 'What is hurricane eye?', options: ['Calm center', 'Storm wall', 'Wind maximum', 'Cloud ring'], correct: 0},
+            {topic: 'Weather', emoji: '🌡️☀️', question: 'What is heat index?', options: ['Temperature plus humidity feel', 'Actual temperature', 'Maximum temp', 'Average temp'], correct: 0},
+            {topic: 'Weather', emoji: '💨🍃', question: 'What are tropical trade winds?', options: ['Tropical easterly winds', 'Western winds', 'Storm winds', 'Sea breeze'], correct: 0},
+            {topic: 'Weather', emoji: '🌫️💭', question: 'What is advection fog?', options: ['Warm air over cold surface', 'Radiation fog', 'Valley fog', 'Sea fog'], correct: 0},
+            {topic: 'Weather', emoji: '🌈☔', question: 'What is a moonbow?', options: ['Rainbow at night', 'Moon ring', 'Lunar halo', 'Night clouds'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Weather', emoji: '☀️🌤️', question: 'Name three types of weather fronts', answer: 'Cold front, warm front, stationary, occluded (any 3)'},
+            {topic: 'Weather', emoji: '🌧️💧', question: 'Name three types of precipitation', answer: 'Rain, snow, sleet, hail, freezing rain (any 3)'},
+            {topic: 'Weather', emoji: '⚡🌩️', question: 'Name three types of lightning', answer: 'Cloud-to-ground, cloud-to-cloud, intra-cloud (any 3)'},
+            {topic: 'Weather', emoji: '🌨️❄️', question: 'Name three types of snow crystals', answer: 'Plates, columns, dendrites, needles (any 3)'},
+            {topic: 'Weather', emoji: '🌪️💨', question: 'Name three tornado safety rules', answer: 'Go to basement, interior room, avoid windows (any 3)'},
+            {topic: 'Weather', emoji: '🌀🌊', question: 'Name three hurricane categories', answer: 'Category 1, 2, 3, 4, 5 (any 3)'},
+            {topic: 'Weather', emoji: '🌡️☀️', question: 'Name three temperature scales', answer: 'Celsius, Fahrenheit, Kelvin'},
+            {topic: 'Weather', emoji: '💨🍃', question: 'Name three global wind patterns', answer: 'Trade winds, westerlies, polar easterlies'},
+            {topic: 'Weather', emoji: '🌫️💭', question: 'Name three types of fog', answer: 'Radiation, advection, upslope, steam (any 3)'},
+            {topic: 'Weather', emoji: '🌈☔', question: 'Name three optical phenomena', answer: 'Rainbow, halo, corona, glory (any 3)'}
+        ]
+    },
+    10: { // Chapter 10: Deserts and Arid Lands
+        easy: [
+            {topic: 'Deserts', emoji: '🏜️🌵', question: 'Desert regions receive little rainfall.', options: ['True', 'False'], correct: 0},
+            {topic: 'Deserts', emoji: '🐪🌴', question: 'Camels live in deserts.', options: ['True', 'False'], correct: 0},
+            {topic: 'Deserts', emoji: '☀️🌡️', question: 'Deserts are hot during day.', options: ['True', 'False'], correct: 0},
+            {topic: 'Deserts', emoji: '🌵🪨', question: 'Cacti store water.', options: ['True', 'False'], correct: 0},
+            {topic: 'Deserts', emoji: '🦎🐍', question: 'Reptiles live in deserts.', options: ['True', 'False'], correct: 0},
+            {topic: 'Deserts', emoji: '💨🏜️', question: 'Wind shapes desert landscapes.', options: ['True', 'False'], correct: 0},
+            {topic: 'Deserts', emoji: '🌙❄️', question: 'Deserts get cold at night.', options: ['True', 'False'], correct: 0},
+            {topic: 'Deserts', emoji: '🏜️💧', question: 'Oases have water.', options: ['True', 'False'], correct: 0},
+            {topic: 'Deserts', emoji: '🏺🏜️', question: 'Ancient civilizations had deserts.', options: ['True', 'False'], correct: 0},
+            {topic: 'Deserts', emoji: '🌵🌸', question: 'Desert plants have adaptations.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Deserts', emoji: '🏜️🌵', question: 'What is largest hot desert?', options: ['Sahara', 'Arabian'], correct: 0},
+            {topic: 'Deserts', emoji: '🐪🌴', question: 'How long can camels go without water?', options: ['7 days', '3 days'], correct: 0},
+            {topic: 'Deserts', emoji: '☀️🌡️', question: 'What is hottest desert?', options: ['Lut Desert Iran', 'Sahara'], correct: 0},
+            {topic: 'Deserts', emoji: '🌵🪨', question: 'What is saguaro?', options: ['Giant cactus', 'Desert animal'], correct: 0},
+            {topic: 'Deserts', emoji: '🦎🐍', question: 'How do desert animals stay cool?', options: ['Nocturnal, burrow', 'Panting'], correct: 0},
+            {topic: 'Deserts', emoji: '💨🏜️', question: 'What are sand dunes?', options: ['Wind-formed sand hills', 'Rock formations'], correct: 0},
+            {topic: 'Deserts', emoji: '🌙❄️', question: 'Why do deserts cool at night?', options: ['No cloud insulation', 'Wind'], correct: 0},
+            {topic: 'Deserts', emoji: '🏜️💧', question: 'What is an oasis?', options: ['Fertile area with water', 'Desert town'], correct: 0},
+            {topic: 'Deserts', emoji: '🏺🏜️', question: 'Where was ancient Egypt?', options: ['Nile in Sahara', 'Arabian desert'], correct: 0},
+            {topic: 'Deserts', emoji: '🌵🌸', question: 'What is desert bloom?', options: ['Flowers after rain', 'Cactus flowers'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Deserts', emoji: '🏜️🌵', question: 'How big is Sahara Desert?', options: ['9 million km²', '7 million km²', '11 million km²'], correct: 0},
+            {topic: 'Deserts', emoji: '🐪🌴', question: 'How much weight can camels lose?', options: ['25%', '15%', '35%'], correct: 0},
+            {topic: 'Deserts', emoji: '☀️🌡️', question: 'What was hottest ground temp recorded?', options: ['70.7°C', '60°C', '80°C'], correct: 0},
+            {topic: 'Deserts', emoji: '🌵🪨', question: 'How tall can saguaro grow?', options: ['12m', '8m', '15m'], correct: 0},
+            {topic: 'Deserts', emoji: '🦎🐍', question: 'What is largest desert animal?', options: ['Addax antelope', 'Camel', 'Gazelle'], correct: 0},
+            {topic: 'Deserts', emoji: '💨🏜️', question: 'What is largest sand desert?', options: ['Rub\' al Khali', 'Sahara', 'Gobi'], correct: 0},
+            {topic: 'Deserts', emoji: '🌙❄️', question: 'What desert recorded -50°C?', options: ['Gobi', 'Antarctica', 'Arctic'], correct: 0},
+            {topic: 'Deserts', emoji: '🏜️💧', question: 'How many oases in Sahara?', options: ['90+', '50', '150'], correct: 0},
+            {topic: 'Deserts', emoji: '🏺🏜️', question: 'What civilization was in Atacama?', options: ['Inca', 'Maya', 'Aztec'], correct: 0},
+            {topic: 'Deserts', emoji: '🌵🌸', question: 'How often does desert bloom occur?', options: ['After rare rains', 'Yearly', 'Monthly'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Deserts', emoji: '🏜️🌵', question: 'What causes deserts to form?', options: ['Rain shadow, latitude, currents', 'Heat only', 'No water', 'Soil type'], correct: 0},
+            {topic: 'Deserts', emoji: '🐪🌴', question: 'What is camel\'s hump for?', options: ['Fat storage not water', 'Water storage', 'Balance', 'Heat regulation'], correct: 0},
+            {topic: 'Deserts', emoji: '☀️🌡️', question: 'What is albedo effect?', options: ['Surface reflectivity', 'Heat absorption', 'Wind pattern', 'Evaporation'], correct: 0},
+            {topic: 'Deserts', emoji: '🌵🪨', question: 'What is CAM photosynthesis?', options: ['Water-saving plant process', 'Cactus type', 'Desert adaptation', 'Root system'], correct: 0},
+            {topic: 'Deserts', emoji: '🦎🐍', question: 'What is estivation?', options: ['Summer dormancy', 'Hibernation', 'Migration', 'Hunting'], correct: 0},
+            {topic: 'Deserts', emoji: '💨🏜️', question: 'What is aeolian process?', options: ['Wind erosion and deposition', 'Sand movement', 'Dune formation', 'Desert creation'], correct: 0},
+            {topic: 'Deserts', emoji: '🌙❄️', question: 'What is diurnal temperature range?', options: ['Day-night temperature difference', 'Seasonal change', 'Annual variation', 'Heat measure'], correct: 0},
+            {topic: 'Deserts', emoji: '🏜️💧', question: 'What creates an oasis?', options: ['Underground water reaching surface', 'Rain collection', 'River', 'Lake'], correct: 0},
+            {topic: 'Deserts', emoji: '🏺🏜️', question: 'What causes desertification?', options: ['Land becoming desert', 'Desert expansion', 'Climate change', 'Overgrazing'], correct: 0},
+            {topic: 'Deserts', emoji: '🌵🌸', question: 'What triggers desert seeds?', options: ['Specific rainfall amount', 'Any water', 'Temperature', 'Season'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Deserts', emoji: '🏜️🌵', question: 'Name three major hot deserts', answer: 'Sahara, Arabian, Kalahari, Mojave, Sonoran (any 3)'},
+            {topic: 'Deserts', emoji: '🐪🌴', question: 'Name three desert animals', answer: 'Camel, scorpion, rattlesnake, roadrunner, fennec fox (any 3)'},
+            {topic: 'Deserts', emoji: '☀️🌡️', question: 'Name three coldest deserts', answer: 'Antarctic, Arctic, Gobi, Great Basin (any 3)'},
+            {topic: 'Deserts', emoji: '🌵🪨', question: 'Name three desert plants', answer: 'Cactus, Joshua tree, creosote bush, mesquite (any 3)'},
+            {topic: 'Deserts', emoji: '🦎🐍', question: 'Name three desert reptiles', answer: 'Rattlesnake, horned lizard, desert tortoise, Gila monster (any 3)'},
+            {topic: 'Deserts', emoji: '💨🏜️', question: 'Name three types of sand dunes', answer: 'Barchan, longitudinal, star, parabolic (any 3)'},
+            {topic: 'Deserts', emoji: '🌙❄️', question: 'Name three desert climate features', answer: 'Low rainfall, high evaporation, temperature extremes'},
+            {topic: 'Deserts', emoji: '🏜️💧', question: 'Name three famous oases', answer: 'Siwa, Bahariya, Kharga, Turpan (any 3)'},
+            {topic: 'Deserts', emoji: '🏺🏜️', question: 'Name three causes of desertification', answer: 'Overgrazing, deforestation, poor irrigation, climate change (any 3)'},
+            {topic: 'Deserts', emoji: '🌵🌸', question: 'Name three desert adaptations', answer: 'Water storage, nocturnal activity, small leaves, deep roots (any 3)'}
+        ]
+    },
+    11: { // Chapter 11: Islands and Archipelagos
+        easy: [
+            {topic: 'Islands', emoji: '🏝️🌴', question: 'Islands are completely encircled by water.', options: ['True', 'False'], correct: 0},
+            {topic: 'Islands', emoji: '🗾🌏', question: 'Japan is an island nation.', options: ['True', 'False'], correct: 0},
+            {topic: 'Archipelagos', emoji: '🏝️🏝️', question: 'Archipelagos are island groups.', options: ['True', 'False'], correct: 0},
+            {topic: 'Islands', emoji: '🌋🏝️', question: 'Some islands are volcanic.', options: ['True', 'False'], correct: 0},
+            {topic: 'Islands', emoji: '🐠🪸', question: 'Coral reefs form islands.', options: ['True', 'False'], correct: 0},
+            {topic: 'Archipelagos', emoji: '🇵🇭🏝️', question: 'Philippines has many islands.', options: ['True', 'False'], correct: 0},
+            {topic: 'Islands', emoji: '🏝️❄️', question: 'Greenland is largest island.', options: ['True', 'False'], correct: 0},
+            {topic: 'Islands', emoji: '🌊🏝️', question: 'Islands can be man-made.', options: ['True', 'False'], correct: 0},
+            {topic: 'Archipelagos', emoji: '🏝️🗺️', question: 'Indonesia is an archipelago.', options: ['True', 'False'], correct: 0},
+            {topic: 'Islands', emoji: '🏝️🌴', question: 'Islands have unique ecosystems.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Islands', emoji: '🏝️🌴', question: 'What is second largest island?', options: ['New Guinea', 'Borneo'], correct: 0},
+            {topic: 'Islands', emoji: '🗾🌏', question: 'How many main islands in Japan?', options: ['4', '5'], correct: 0},
+            {topic: 'Archipelagos', emoji: '🏝️🏝️', question: 'What is largest archipelago?', options: ['Indonesia', 'Philippines'], correct: 0},
+            {topic: 'Islands', emoji: '🌋🏝️', question: 'What created Hawaiian Islands?', options: ['Volcanic hotspot', 'Coral'], correct: 0},
+            {topic: 'Islands', emoji: '🐠🪸', question: 'What are atolls?', options: ['Ring-shaped coral island', 'Volcanic island'], correct: 0},
+            {topic: 'Archipelagos', emoji: '🇵🇭🏝️', question: 'How many islands in Philippines?', options: ['7,600+', '5,000'], correct: 0},
+            {topic: 'Islands', emoji: '🏝️❄️', question: 'Where is Greenland located?', options: ['North America', 'Europe'], correct: 0},
+            {topic: 'Islands', emoji: '🌊🏝️', question: 'What are Palm Islands?', options: ['Artificial islands Dubai', 'Natural islands'], correct: 0},
+            {topic: 'Archipelagos', emoji: '🏝️🗺️', question: 'How many islands in Indonesia?', options: ['17,000+', '10,000'], correct: 0},
+            {topic: 'Islands', emoji: '🏝️🌴', question: 'What is endemic species?', options: ['Found only in one place', 'Common everywhere'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Islands', emoji: '🏝️🌴', question: 'How big is Greenland?', options: ['2.2 million km²', '1.5 million km²', '3 million km²'], correct: 0},
+            {topic: 'Islands', emoji: '🗾🌏', question: 'What is Japan\'s largest island?', options: ['Honshu', 'Hokkaido', 'Kyushu'], correct: 0},
+            {topic: 'Archipelagos', emoji: '🏝️🏝️', question: 'How many islands in Caribbean?', options: ['700+', '500', '1000'], correct: 0},
+            {topic: 'Islands', emoji: '🌋🏝️', question: 'What is youngest Hawaiian island?', options: ['Hawaii (Big Island)', 'Maui', 'Oahu'], correct: 0},
+            {topic: 'Islands', emoji: '🐠🪸', question: 'What is largest atoll?', options: ['Kwajalein', 'Maldives', 'Great Chagos'], correct: 0},
+            {topic: 'Archipelagos', emoji: '🇵🇭🏝️', question: 'What is largest Philippine island?', options: ['Luzon', 'Mindanao', 'Palawan'], correct: 0},
+            {topic: 'Islands', emoji: '🏝️❄️', question: 'What percent of Greenland is ice?', options: ['80%', '60%', '90%'], correct: 0},
+            {topic: 'Islands', emoji: '🌊🏝️', question: 'When were Palm Islands built?', options: ['2001-2008', '1990-2000', '2010-2015'], correct: 0},
+            {topic: 'Archipelagos', emoji: '🏝️🗺️', question: 'What is Java\'s population?', options: ['145 million', '100 million', '200 million'], correct: 0},
+            {topic: 'Islands', emoji: '🏝️🌴', question: 'What causes island gigantism?', options: ['Lack of predators', 'Climate', 'Food'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Islands', emoji: '🏝️🌴', question: 'What is island biogeography theory?', options: ['Species richness on islands', 'Island formation', 'Ocean currents', 'Climate'], correct: 0},
+            {topic: 'Islands', emoji: '🗾🌏', question: 'What tectonic feature is Japan on?', options: ['Pacific Ring of Fire', 'Mid-ocean ridge', 'Rift valley', 'Transform fault'], correct: 0},
+            {topic: 'Archipelagos', emoji: '🏝️🏝️', question: 'What is an island arc?', options: ['Volcanic chain from subduction', 'Coral islands', 'River delta', 'Coastal islands'], correct: 0},
+            {topic: 'Islands', emoji: '🌋🏝️', question: 'What is a shield volcano?', options: ['Broad gentle-sloped volcano', 'Steep volcano', 'Explosive volcano', 'Extinct volcano'], correct: 0},
+            {topic: 'Islands', emoji: '🐠🪸', question: 'How do atolls form?', options: ['Volcano subsides, reef remains', 'Coral grows', 'Waves build up', 'Sand accumulates'], correct: 0},
+            {topic: 'Archipelagos', emoji: '🇵🇭🏝️', question: 'What is the Philippines\' biodiversity status?', options: ['Megadiverse country', 'Low diversity', 'Moderate diversity', 'Desert'], correct: 0},
+            {topic: 'Islands', emoji: '🏝️❄️', question: 'Why is Greenland not a continent?', options: ['On continental shelf', 'Too small', 'Ice-covered', 'Definition'], correct: 0},
+            {topic: 'Islands', emoji: '🌊🏝️', question: 'What threat do artificial islands face?', options: ['Sea level rise, subsidence', 'Earthquakes', 'Storms only', 'Pollution'], correct: 0},
+            {topic: 'Archipelagos', emoji: '🏝️🗺️', question: 'What is Wallace Line?', options: ['Asian-Australian fauna boundary', 'Island chain', 'Ocean trench', 'Climate zone'], correct: 0},
+            {topic: 'Islands', emoji: '🏝️🌴', question: 'What is island dwarfism?', options: ['Species becoming smaller', 'Small islands', 'Low biodiversity', 'Endemic species'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Islands', emoji: '🏝️🌴', question: 'Name the three largest islands', answer: 'Greenland, New Guinea, Borneo'},
+            {topic: 'Islands', emoji: '🗾🌏', question: 'Name four main Japanese islands', answer: 'Honshu, Hokkaido, Kyushu, Shikoku'},
+            {topic: 'Archipelagos', emoji: '🏝️🏝️', question: 'Name three island nations', answer: 'Indonesia, Philippines, Japan, UK, New Zealand (any 3)'},
+            {topic: 'Islands', emoji: '🌋🏝️', question: 'Name three volcanic islands', answer: 'Hawaii, Iceland, Santorini, Java (any 3)'},
+            {topic: 'Islands', emoji: '🐠🪸', question: 'Name three coral island nations', answer: 'Maldives, Tuvalu, Marshall Islands (any 3)'},
+            {topic: 'Archipelagos', emoji: '🇵🇭🏝️', question: 'Name three large Philippine islands', answer: 'Luzon, Mindanao, Palawan, Negros (any 3)'},
+            {topic: 'Islands', emoji: '🏝️❄️', question: 'Name three Arctic islands', answer: 'Greenland, Svalbard, Ellesmere, Iceland (any 3)'},
+            {topic: 'Islands', emoji: '🌊🏝️', question: 'Name three artificial islands', answer: 'Palm Jumeirah, Kansai Airport, Flevopolder (any 3)'},
+            {topic: 'Archipelagos', emoji: '🏝️🗺️', question: 'Name three Southeast Asian archipelagos', answer: 'Indonesia, Philippines, Malaysia'},
+            {topic: 'Islands', emoji: '🏝️🌴', question: 'Name three island endemic species examples', answer: 'Galapagos tortoise, lemurs (Madagascar), kiwi (New Zealand) (any 3)'}
+        ]
+    }
+,
+    12: { // Chapter 12: Lakes and Water Bodies
+        easy: [
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Lakes and Water Bodies topic 1.', options: ['True', 'False'], correct: 0},
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Lakes and Water Bodies topic 2.', options: ['True', 'False'], correct: 0},
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Lakes and Water Bodies topic 3.', options: ['True', 'False'], correct: 0},
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Lakes and Water Bodies topic 4.', options: ['True', 'False'], correct: 0},
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Lakes and Water Bodies topic 5.', options: ['True', 'False'], correct: 0},
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Lakes and Water Bodies topic 6.', options: ['True', 'False'], correct: 0},
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Lakes and Water Bodies topic 7.', options: ['True', 'False'], correct: 0},
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Lakes and Water Bodies topic 8.', options: ['True', 'False'], correct: 0},
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Lakes and Water Bodies topic 9.', options: ['True', 'False'], correct: 0},
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Lakes and Water Bodies topic 10.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Lakes and Water Bodies question 1?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Lakes and Water Bodies question 2?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Lakes and Water Bodies question 3?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Lakes and Water Bodies question 4?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Lakes and Water Bodies question 5?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Lakes and Water Bodies question 6?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Lakes and Water Bodies question 7?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Lakes and Water Bodies question 8?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Lakes and Water Bodies question 9?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Lakes and Water Bodies question 10?', options: ['Option A', 'Option B'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Lakes and Water Bodies difficult question 1?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Lakes and Water Bodies difficult question 2?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Lakes and Water Bodies difficult question 3?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Lakes and Water Bodies difficult question 4?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Lakes and Water Bodies difficult question 5?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Lakes and Water Bodies difficult question 6?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Lakes and Water Bodies difficult question 7?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Lakes and Water Bodies difficult question 8?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Lakes and Water Bodies difficult question 9?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Lakes and Water Bodies difficult question 10?', options: ['A', 'B', 'C'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Lakes and Water Bodies expert question 1?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Lakes and Water Bodies expert question 2?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Lakes and Water Bodies expert question 3?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Lakes and Water Bodies expert question 4?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Lakes and Water Bodies expert question 5?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Lakes and Water Bodies expert question 6?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Lakes and Water Bodies expert question 7?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Lakes and Water Bodies expert question 8?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Lakes and Water Bodies expert question 9?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Lakes and Water Bodies expert question 10?', options: ['A', 'B', 'C', 'D'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Name three lakes and water bodies items 1', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Name three lakes and water bodies items 2', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Name three lakes and water bodies items 3', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Name three lakes and water bodies items 4', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Name three lakes and water bodies items 5', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Name three lakes and water bodies items 6', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Name three lakes and water bodies items 7', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Name three lakes and water bodies items 8', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Name three lakes and water bodies items 9', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Lakes', emoji: '🏞️💧', question: 'Name three lakes and water bodies items 10', answer: 'Item 1, Item 2, Item 3'}
+        ]
+    },
 };

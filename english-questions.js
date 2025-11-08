@@ -382,4 +382,377 @@ const englishQuestions = {
             {topic: 'Vocabulary', emoji: '🔤📚', question: 'Name three vocabulary building items 10', answer: 'Item 1, Item 2, Item 3'}
         ]
     },
+
+    7: { // Chapter 7: Reading Comprehension
+        easy: [
+            {topic: 'Reading', emoji: '📖👁️', question: 'Reading Comprehension topic 1.', options: ['True', 'False'], correct: 0},
+            {topic: 'Reading', emoji: '📖👁️', question: 'Reading Comprehension topic 2.', options: ['True', 'False'], correct: 0},
+            {topic: 'Reading', emoji: '📖👁️', question: 'Reading Comprehension topic 3.', options: ['True', 'False'], correct: 0},
+            {topic: 'Reading', emoji: '📖👁️', question: 'Reading Comprehension topic 4.', options: ['True', 'False'], correct: 0},
+            {topic: 'Reading', emoji: '📖👁️', question: 'Reading Comprehension topic 5.', options: ['True', 'False'], correct: 0},
+            {topic: 'Reading', emoji: '📖👁️', question: 'Reading Comprehension topic 6.', options: ['True', 'False'], correct: 0},
+            {topic: 'Reading', emoji: '📖👁️', question: 'Reading Comprehension topic 7.', options: ['True', 'False'], correct: 0},
+            {topic: 'Reading', emoji: '📖👁️', question: 'Reading Comprehension topic 8.', options: ['True', 'False'], correct: 0},
+            {topic: 'Reading', emoji: '📖👁️', question: 'Reading Comprehension topic 9.', options: ['True', 'False'], correct: 0},
+            {topic: 'Reading', emoji: '📖👁️', question: 'Reading Comprehension topic 10.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Reading', emoji: '📖👁️', question: 'Reading Comprehension question 1?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Reading', emoji: '📖👁️', question: 'Reading Comprehension question 2?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Reading', emoji: '📖👁️', question: 'Reading Comprehension question 3?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Reading', emoji: '📖👁️', question: 'Reading Comprehension question 4?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Reading', emoji: '📖👁️', question: 'Reading Comprehension question 5?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Reading', emoji: '📖👁️', question: 'Reading Comprehension question 6?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Reading', emoji: '📖👁️', question: 'Reading Comprehension question 7?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Reading', emoji: '📖👁️', question: 'Reading Comprehension question 8?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Reading', emoji: '📖👁️', question: 'Reading Comprehension question 9?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Reading', emoji: '📖👁️', question: 'Reading Comprehension question 10?', options: ['Option A', 'Option B'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Reading', emoji: '📖👁️', question: 'Reading Comprehension advanced question 1?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Reading', emoji: '📖👁️', question: 'Reading Comprehension advanced question 2?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Reading', emoji: '📖👁️', question: 'Reading Comprehension advanced question 3?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Reading', emoji: '📖👁️', question: 'Reading Comprehension advanced question 4?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Reading', emoji: '📖👁️', question: 'Reading Comprehension advanced question 5?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Reading', emoji: '📖👁️', question: 'Reading Comprehension advanced question 6?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Reading', emoji: '📖👁️', question: 'Reading Comprehension advanced question 7?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Reading', emoji: '📖👁️', question: 'Reading Comprehension advanced question 8?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Reading', emoji: '📖👁️', question: 'Reading Comprehension advanced question 9?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Reading', emoji: '📖👁️', question: 'Reading Comprehension advanced question 10?', options: ['A', 'B', 'C'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Reading', emoji: '📖👁️', question: 'Reading Comprehension expert question 1?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Reading', emoji: '📖👁️', question: 'Reading Comprehension expert question 2?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Reading', emoji: '📖👁️', question: 'Reading Comprehension expert question 3?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Reading', emoji: '📖👁️', question: 'Reading Comprehension expert question 4?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Reading', emoji: '📖👁️', question: 'Reading Comprehension expert question 5?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Reading', emoji: '📖👁️', question: 'Reading Comprehension expert question 6?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Reading', emoji: '📖👁️', question: 'Reading Comprehension expert question 7?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Reading', emoji: '📖👁️', question: 'Reading Comprehension expert question 8?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Reading', emoji: '📖👁️', question: 'Reading Comprehension expert question 9?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Reading', emoji: '📖👁️', question: 'Reading Comprehension expert question 10?', options: ['A', 'B', 'C', 'D'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Reading', emoji: '📖👁️', question: 'Name three reading comprehension items 1', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Reading', emoji: '📖👁️', question: 'Name three reading comprehension items 2', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Reading', emoji: '📖👁️', question: 'Name three reading comprehension items 3', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Reading', emoji: '📖👁️', question: 'Name three reading comprehension items 4', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Reading', emoji: '📖👁️', question: 'Name three reading comprehension items 5', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Reading', emoji: '📖👁️', question: 'Name three reading comprehension items 6', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Reading', emoji: '📖👁️', question: 'Name three reading comprehension items 7', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Reading', emoji: '📖👁️', question: 'Name three reading comprehension items 8', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Reading', emoji: '📖👁️', question: 'Name three reading comprehension items 9', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Reading', emoji: '📖👁️', question: 'Name three reading comprehension items 10', answer: 'Item 1, Item 2, Item 3'}
+        ]
+    },
+    8: { // Chapter 8: Poetry and Figurative Language
+        easy: [
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Poetry and Figurative Language topic 1.', options: ['True', 'False'], correct: 0},
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Poetry and Figurative Language topic 2.', options: ['True', 'False'], correct: 0},
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Poetry and Figurative Language topic 3.', options: ['True', 'False'], correct: 0},
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Poetry and Figurative Language topic 4.', options: ['True', 'False'], correct: 0},
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Poetry and Figurative Language topic 5.', options: ['True', 'False'], correct: 0},
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Poetry and Figurative Language topic 6.', options: ['True', 'False'], correct: 0},
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Poetry and Figurative Language topic 7.', options: ['True', 'False'], correct: 0},
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Poetry and Figurative Language topic 8.', options: ['True', 'False'], correct: 0},
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Poetry and Figurative Language topic 9.', options: ['True', 'False'], correct: 0},
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Poetry and Figurative Language topic 10.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Poetry and Figurative Language question 1?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Poetry and Figurative Language question 2?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Poetry and Figurative Language question 3?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Poetry and Figurative Language question 4?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Poetry and Figurative Language question 5?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Poetry and Figurative Language question 6?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Poetry and Figurative Language question 7?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Poetry and Figurative Language question 8?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Poetry and Figurative Language question 9?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Poetry and Figurative Language question 10?', options: ['Option A', 'Option B'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Poetry and Figurative Language advanced question 1?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Poetry and Figurative Language advanced question 2?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Poetry and Figurative Language advanced question 3?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Poetry and Figurative Language advanced question 4?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Poetry and Figurative Language advanced question 5?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Poetry and Figurative Language advanced question 6?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Poetry and Figurative Language advanced question 7?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Poetry and Figurative Language advanced question 8?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Poetry and Figurative Language advanced question 9?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Poetry and Figurative Language advanced question 10?', options: ['A', 'B', 'C'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Poetry and Figurative Language expert question 1?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Poetry and Figurative Language expert question 2?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Poetry and Figurative Language expert question 3?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Poetry and Figurative Language expert question 4?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Poetry and Figurative Language expert question 5?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Poetry and Figurative Language expert question 6?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Poetry and Figurative Language expert question 7?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Poetry and Figurative Language expert question 8?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Poetry and Figurative Language expert question 9?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Poetry and Figurative Language expert question 10?', options: ['A', 'B', 'C', 'D'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Name three poetry and figurative language items 1', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Name three poetry and figurative language items 2', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Name three poetry and figurative language items 3', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Name three poetry and figurative language items 4', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Name three poetry and figurative language items 5', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Name three poetry and figurative language items 6', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Name three poetry and figurative language items 7', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Name three poetry and figurative language items 8', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Name three poetry and figurative language items 9', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Poetry', emoji: '🎭📝', question: 'Name three poetry and figurative language items 10', answer: 'Item 1, Item 2, Item 3'}
+        ]
+    },
+    9: { // Chapter 9: Writing Techniques
+        easy: [
+            {topic: 'Writing', emoji: '✍️📄', question: 'Writing Techniques topic 1.', options: ['True', 'False'], correct: 0},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Writing Techniques topic 2.', options: ['True', 'False'], correct: 0},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Writing Techniques topic 3.', options: ['True', 'False'], correct: 0},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Writing Techniques topic 4.', options: ['True', 'False'], correct: 0},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Writing Techniques topic 5.', options: ['True', 'False'], correct: 0},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Writing Techniques topic 6.', options: ['True', 'False'], correct: 0},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Writing Techniques topic 7.', options: ['True', 'False'], correct: 0},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Writing Techniques topic 8.', options: ['True', 'False'], correct: 0},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Writing Techniques topic 9.', options: ['True', 'False'], correct: 0},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Writing Techniques topic 10.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Writing', emoji: '✍️📄', question: 'Writing Techniques question 1?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Writing Techniques question 2?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Writing Techniques question 3?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Writing Techniques question 4?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Writing Techniques question 5?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Writing Techniques question 6?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Writing Techniques question 7?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Writing Techniques question 8?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Writing Techniques question 9?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Writing Techniques question 10?', options: ['Option A', 'Option B'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Writing', emoji: '✍️📄', question: 'Writing Techniques advanced question 1?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Writing Techniques advanced question 2?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Writing Techniques advanced question 3?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Writing Techniques advanced question 4?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Writing Techniques advanced question 5?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Writing Techniques advanced question 6?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Writing Techniques advanced question 7?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Writing Techniques advanced question 8?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Writing Techniques advanced question 9?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Writing Techniques advanced question 10?', options: ['A', 'B', 'C'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Writing', emoji: '✍️📄', question: 'Writing Techniques expert question 1?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Writing Techniques expert question 2?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Writing Techniques expert question 3?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Writing Techniques expert question 4?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Writing Techniques expert question 5?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Writing Techniques expert question 6?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Writing Techniques expert question 7?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Writing Techniques expert question 8?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Writing Techniques expert question 9?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Writing Techniques expert question 10?', options: ['A', 'B', 'C', 'D'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Writing', emoji: '✍️📄', question: 'Name three writing techniques items 1', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Name three writing techniques items 2', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Name three writing techniques items 3', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Name three writing techniques items 4', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Name three writing techniques items 5', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Name three writing techniques items 6', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Name three writing techniques items 7', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Name three writing techniques items 8', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Name three writing techniques items 9', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Writing', emoji: '✍️📄', question: 'Name three writing techniques items 10', answer: 'Item 1, Item 2, Item 3'}
+        ]
+    },
+    10: { // Chapter 10: Literature Genres
+        easy: [
+            {topic: 'Literature', emoji: '📚🎭', question: 'Literature Genres topic 1.', options: ['True', 'False'], correct: 0},
+            {topic: 'Literature', emoji: '📚🎭', question: 'Literature Genres topic 2.', options: ['True', 'False'], correct: 0},
+            {topic: 'Literature', emoji: '📚🎭', question: 'Literature Genres topic 3.', options: ['True', 'False'], correct: 0},
+            {topic: 'Literature', emoji: '📚🎭', question: 'Literature Genres topic 4.', options: ['True', 'False'], correct: 0},
+            {topic: 'Literature', emoji: '📚🎭', question: 'Literature Genres topic 5.', options: ['True', 'False'], correct: 0},
+            {topic: 'Literature', emoji: '📚🎭', question: 'Literature Genres topic 6.', options: ['True', 'False'], correct: 0},
+            {topic: 'Literature', emoji: '📚🎭', question: 'Literature Genres topic 7.', options: ['True', 'False'], correct: 0},
+            {topic: 'Literature', emoji: '📚🎭', question: 'Literature Genres topic 8.', options: ['True', 'False'], correct: 0},
+            {topic: 'Literature', emoji: '📚🎭', question: 'Literature Genres topic 9.', options: ['True', 'False'], correct: 0},
+            {topic: 'Literature', emoji: '📚🎭', question: 'Literature Genres topic 10.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Literature', emoji: '📚🎭', question: 'Literature Genres question 1?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Literature', emoji: '📚🎭', question: 'Literature Genres question 2?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Literature', emoji: '📚🎭', question: 'Literature Genres question 3?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Literature', emoji: '📚🎭', question: 'Literature Genres question 4?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Literature', emoji: '📚🎭', question: 'Literature Genres question 5?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Literature', emoji: '📚🎭', question: 'Literature Genres question 6?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Literature', emoji: '📚🎭', question: 'Literature Genres question 7?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Literature', emoji: '📚🎭', question: 'Literature Genres question 8?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Literature', emoji: '📚🎭', question: 'Literature Genres question 9?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Literature', emoji: '📚🎭', question: 'Literature Genres question 10?', options: ['Option A', 'Option B'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Literature', emoji: '📚🎭', question: 'Literature Genres advanced question 1?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Literature', emoji: '📚🎭', question: 'Literature Genres advanced question 2?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Literature', emoji: '📚🎭', question: 'Literature Genres advanced question 3?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Literature', emoji: '📚🎭', question: 'Literature Genres advanced question 4?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Literature', emoji: '📚🎭', question: 'Literature Genres advanced question 5?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Literature', emoji: '📚🎭', question: 'Literature Genres advanced question 6?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Literature', emoji: '📚🎭', question: 'Literature Genres advanced question 7?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Literature', emoji: '📚🎭', question: 'Literature Genres advanced question 8?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Literature', emoji: '📚🎭', question: 'Literature Genres advanced question 9?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Literature', emoji: '📚🎭', question: 'Literature Genres advanced question 10?', options: ['A', 'B', 'C'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Literature', emoji: '📚🎭', question: 'Literature Genres expert question 1?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Literature', emoji: '📚🎭', question: 'Literature Genres expert question 2?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Literature', emoji: '📚🎭', question: 'Literature Genres expert question 3?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Literature', emoji: '📚🎭', question: 'Literature Genres expert question 4?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Literature', emoji: '📚🎭', question: 'Literature Genres expert question 5?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Literature', emoji: '📚🎭', question: 'Literature Genres expert question 6?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Literature', emoji: '📚🎭', question: 'Literature Genres expert question 7?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Literature', emoji: '📚🎭', question: 'Literature Genres expert question 8?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Literature', emoji: '📚🎭', question: 'Literature Genres expert question 9?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Literature', emoji: '📚🎭', question: 'Literature Genres expert question 10?', options: ['A', 'B', 'C', 'D'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Literature', emoji: '📚🎭', question: 'Name three literature genres items 1', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Literature', emoji: '📚🎭', question: 'Name three literature genres items 2', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Literature', emoji: '📚🎭', question: 'Name three literature genres items 3', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Literature', emoji: '📚🎭', question: 'Name three literature genres items 4', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Literature', emoji: '📚🎭', question: 'Name three literature genres items 5', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Literature', emoji: '📚🎭', question: 'Name three literature genres items 6', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Literature', emoji: '📚🎭', question: 'Name three literature genres items 7', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Literature', emoji: '📚🎭', question: 'Name three literature genres items 8', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Literature', emoji: '📚🎭', question: 'Name three literature genres items 9', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Literature', emoji: '📚🎭', question: 'Name three literature genres items 10', answer: 'Item 1, Item 2, Item 3'}
+        ]
+    },
+    11: { // Chapter 11: Classic Literature
+        easy: [
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Classic Literature topic 1.', options: ['True', 'False'], correct: 0},
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Classic Literature topic 2.', options: ['True', 'False'], correct: 0},
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Classic Literature topic 3.', options: ['True', 'False'], correct: 0},
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Classic Literature topic 4.', options: ['True', 'False'], correct: 0},
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Classic Literature topic 5.', options: ['True', 'False'], correct: 0},
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Classic Literature topic 6.', options: ['True', 'False'], correct: 0},
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Classic Literature topic 7.', options: ['True', 'False'], correct: 0},
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Classic Literature topic 8.', options: ['True', 'False'], correct: 0},
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Classic Literature topic 9.', options: ['True', 'False'], correct: 0},
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Classic Literature topic 10.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Classic Literature question 1?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Classic Literature question 2?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Classic Literature question 3?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Classic Literature question 4?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Classic Literature question 5?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Classic Literature question 6?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Classic Literature question 7?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Classic Literature question 8?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Classic Literature question 9?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Classic Literature question 10?', options: ['Option A', 'Option B'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Classic Literature advanced question 1?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Classic Literature advanced question 2?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Classic Literature advanced question 3?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Classic Literature advanced question 4?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Classic Literature advanced question 5?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Classic Literature advanced question 6?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Classic Literature advanced question 7?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Classic Literature advanced question 8?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Classic Literature advanced question 9?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Classic Literature advanced question 10?', options: ['A', 'B', 'C'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Classic Literature expert question 1?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Classic Literature expert question 2?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Classic Literature expert question 3?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Classic Literature expert question 4?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Classic Literature expert question 5?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Classic Literature expert question 6?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Classic Literature expert question 7?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Classic Literature expert question 8?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Classic Literature expert question 9?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Classic Literature expert question 10?', options: ['A', 'B', 'C', 'D'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Name three classic literature items 1', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Name three classic literature items 2', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Name three classic literature items 3', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Name three classic literature items 4', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Name three classic literature items 5', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Name three classic literature items 6', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Name three classic literature items 7', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Name three classic literature items 8', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Name three classic literature items 9', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Classic', emoji: '📖🏛️', question: 'Name three classic literature items 10', answer: 'Item 1, Item 2, Item 3'}
+        ]
+    },
+    12: { // Chapter 12: Modern Literature
+        easy: [
+            {topic: 'Modern', emoji: '📚🆕', question: 'Modern Literature topic 1.', options: ['True', 'False'], correct: 0},
+            {topic: 'Modern', emoji: '📚🆕', question: 'Modern Literature topic 2.', options: ['True', 'False'], correct: 0},
+            {topic: 'Modern', emoji: '📚🆕', question: 'Modern Literature topic 3.', options: ['True', 'False'], correct: 0},
+            {topic: 'Modern', emoji: '📚🆕', question: 'Modern Literature topic 4.', options: ['True', 'False'], correct: 0},
+            {topic: 'Modern', emoji: '📚🆕', question: 'Modern Literature topic 5.', options: ['True', 'False'], correct: 0},
+            {topic: 'Modern', emoji: '📚🆕', question: 'Modern Literature topic 6.', options: ['True', 'False'], correct: 0},
+            {topic: 'Modern', emoji: '📚🆕', question: 'Modern Literature topic 7.', options: ['True', 'False'], correct: 0},
+            {topic: 'Modern', emoji: '📚🆕', question: 'Modern Literature topic 8.', options: ['True', 'False'], correct: 0},
+            {topic: 'Modern', emoji: '📚🆕', question: 'Modern Literature topic 9.', options: ['True', 'False'], correct: 0},
+            {topic: 'Modern', emoji: '📚🆕', question: 'Modern Literature topic 10.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Modern', emoji: '📚🆕', question: 'Modern Literature question 1?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Modern', emoji: '📚🆕', question: 'Modern Literature question 2?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Modern', emoji: '📚🆕', question: 'Modern Literature question 3?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Modern', emoji: '📚🆕', question: 'Modern Literature question 4?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Modern', emoji: '📚🆕', question: 'Modern Literature question 5?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Modern', emoji: '📚🆕', question: 'Modern Literature question 6?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Modern', emoji: '📚🆕', question: 'Modern Literature question 7?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Modern', emoji: '📚🆕', question: 'Modern Literature question 8?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Modern', emoji: '📚🆕', question: 'Modern Literature question 9?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Modern', emoji: '📚🆕', question: 'Modern Literature question 10?', options: ['Option A', 'Option B'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Modern', emoji: '📚🆕', question: 'Modern Literature advanced question 1?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Modern', emoji: '📚🆕', question: 'Modern Literature advanced question 2?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Modern', emoji: '📚🆕', question: 'Modern Literature advanced question 3?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Modern', emoji: '📚🆕', question: 'Modern Literature advanced question 4?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Modern', emoji: '📚🆕', question: 'Modern Literature advanced question 5?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Modern', emoji: '📚🆕', question: 'Modern Literature advanced question 6?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Modern', emoji: '📚🆕', question: 'Modern Literature advanced question 7?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Modern', emoji: '📚🆕', question: 'Modern Literature advanced question 8?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Modern', emoji: '📚🆕', question: 'Modern Literature advanced question 9?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Modern', emoji: '📚🆕', question: 'Modern Literature advanced question 10?', options: ['A', 'B', 'C'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Modern', emoji: '📚🆕', question: 'Modern Literature expert question 1?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Modern', emoji: '📚🆕', question: 'Modern Literature expert question 2?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Modern', emoji: '📚🆕', question: 'Modern Literature expert question 3?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Modern', emoji: '📚🆕', question: 'Modern Literature expert question 4?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Modern', emoji: '📚🆕', question: 'Modern Literature expert question 5?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Modern', emoji: '📚🆕', question: 'Modern Literature expert question 6?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Modern', emoji: '📚🆕', question: 'Modern Literature expert question 7?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Modern', emoji: '📚🆕', question: 'Modern Literature expert question 8?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Modern', emoji: '📚🆕', question: 'Modern Literature expert question 9?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Modern', emoji: '📚🆕', question: 'Modern Literature expert question 10?', options: ['A', 'B', 'C', 'D'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Modern', emoji: '📚🆕', question: 'Name three modern literature items 1', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Modern', emoji: '📚🆕', question: 'Name three modern literature items 2', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Modern', emoji: '📚🆕', question: 'Name three modern literature items 3', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Modern', emoji: '📚🆕', question: 'Name three modern literature items 4', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Modern', emoji: '📚🆕', question: 'Name three modern literature items 5', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Modern', emoji: '📚🆕', question: 'Name three modern literature items 6', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Modern', emoji: '📚🆕', question: 'Name three modern literature items 7', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Modern', emoji: '📚🆕', question: 'Name three modern literature items 8', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Modern', emoji: '📚🆕', question: 'Name three modern literature items 9', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Modern', emoji: '📚🆕', question: 'Name three modern literature items 10', answer: 'Item 1, Item 2, Item 3'}
+        ]
+    },
 };

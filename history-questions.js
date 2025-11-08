@@ -381,4 +381,379 @@ const historyQuestions = {
             {topic: 'Renaissance', emoji: '🔬🌍', question: 'Name three Renaissance scientists', answer: 'Copernicus, Galileo, Newton, Kepler (any 3)'}
         ]
     },
+
+    7: { // Chapter 7: Age of Exploration
+        easy: [
+            {topic: 'Exploration', emoji: '🌍🚢', question: 'Columbus sailed in 1492.', options: ['True', 'False'], correct: 0},
+            {topic: 'Exploration', emoji: '⛵🗺️', question: 'Explorers sought new trade routes.', options: ['True', 'False'], correct: 0},
+            {topic: 'Exploration', emoji: '🧭🌊', question: "Magellan's crew circumnavigated Earth.", options: ['True', 'False'], correct: 0},
+            {topic: 'Exploration', emoji: '🚢💰', question: 'Spices were very valuable.', options: ['True', 'False'], correct: 0},
+            {topic: 'Exploration', emoji: '🌎⚓', question: 'Vasco da Gama reached India.', options: ['True', 'False'], correct: 0},
+            {topic: 'Exploration', emoji: '🗺️🧭', question: 'Portugal led early exploration.', options: ['True', 'False'], correct: 0},
+            {topic: 'Exploration', emoji: '⛵🌍', question: 'Spain sponsored Columbus.', options: ['True', 'False'], correct: 0},
+            {topic: 'Exploration', emoji: '🚢🌊', question: 'Caravels were exploration ships.', options: ['True', 'False'], correct: 0},
+            {topic: 'Exploration', emoji: '💎🌴', question: 'Explorers found new lands.', options: ['True', 'False'], correct: 0},
+            {topic: 'Exploration', emoji: '🧭⛵', question: 'Navigation improved with compass.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Exploration', emoji: '🌍🚢', question: 'Where did Columbus think he landed?', options: ['Asia/Indies', 'America'], correct: 0},
+            {topic: 'Exploration', emoji: '⛵🗺️', question: 'Why explore new routes to Asia?', options: ['Avoid Ottoman control', 'Faster'], correct: 0},
+            {topic: 'Exploration', emoji: '🧭🌊', question: 'Did Magellan complete voyage?', options: ['No, died', 'Yes'], correct: 0},
+            {topic: 'Exploration', emoji: '🚢💰', question: 'Which spices were sought?', options: ['Pepper, cinnamon', 'Salt, sugar'], correct: 0},
+            {topic: 'Exploration', emoji: '🌎⚓', question: 'Which route did da Gama take?', options: ['Around Africa', 'Across Atlantic'], correct: 0},
+            {topic: 'Exploration', emoji: '🗺️🧭', question: 'Who started Portuguese exploration?', options: ['Prince Henry', 'King John'], correct: 0},
+            {topic: 'Exploration', emoji: '⛵🌍', question: 'Who sponsored Spanish exploration?', options: ['Isabella and Ferdinand', 'Charles V'], correct: 0},
+            {topic: 'Exploration', emoji: '🚢🌊', question: 'What advantage did caravels have?', options: ['Speed and maneuverability', 'Size'], correct: 0},
+            {topic: 'Exploration', emoji: '💎🌴', question: 'What did conquistadors seek?', options: ['Gold', 'Land only'], correct: 0},
+            {topic: 'Exploration', emoji: '🧭⛵', question: 'What helped sailors navigate?', options: ['Astrolabe', 'Maps only'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Exploration', emoji: '🌍🚢', question: 'How many voyages did Columbus make?', options: ['4', '3', '5'], correct: 0},
+            {topic: 'Exploration', emoji: '⛵🗺️', question: 'When did Age of Exploration begin?', options: ['15th century', '14th century', '16th century'], correct: 0},
+            {topic: 'Exploration', emoji: '🧭🌊', question: 'When did Magellan start his voyage?', options: ['1519', '1520', '1521'], correct: 0},
+            {topic: 'Exploration', emoji: '🚢💰', question: 'What were the Spice Islands called?', options: ['Moluccas', 'East Indies', 'Philippines'], correct: 0},
+            {topic: 'Exploration', emoji: '🌎⚓', question: 'When did da Gama reach India?', options: ['1498', '1488', '1508'], correct: 0},
+            {topic: 'Exploration', emoji: '🗺️🧭', question: 'What cape did Dias round?', options: ['Good Hope', 'Horn', 'Agulhas'], correct: 0},
+            {topic: 'Exploration', emoji: '⛵🌍', question: 'Who explored for England?', options: ['Cabot', 'Drake', 'Raleigh'], correct: 0},
+            {topic: 'Exploration', emoji: '🚢🌊', question: 'How many masts did caravels have?', options: ['2-3', '1', '4'], correct: 0},
+            {topic: 'Exploration', emoji: '💎🌴', question: 'Who conquered the Aztecs?', options: ['Cortés', 'Pizarro', 'Balboa'], correct: 0},
+            {topic: 'Exploration', emoji: '🧭⛵', question: 'What was a cross-staff used for?', options: ['Measuring stars', 'Navigation', 'Both'], correct: 2}
+        ],
+        expert: [
+            {topic: 'Exploration', emoji: '🌍🚢', question: 'What were Columbus's three ships?', options: ['Niña, Pinta, Santa María', 'Victoria, Trinidad, San Antonio', 'Golden Hind, Pelican, Elizabeth', 'Matthew, Gabriel, Michael'], correct: 0},
+            {topic: 'Exploration', emoji: '⛵🗺️', question: 'Who named the Pacific Ocean?', options: ['Magellan', 'Balboa', 'Drake', 'Cook'], correct: 0},
+            {topic: 'Exploration', emoji: '🧭🌊', question: 'Who completed Magellan's voyage?', options: ['Elcano', 'Drake', 'Pigafetta', 'Barbosa'], correct: 0},
+            {topic: 'Exploration', emoji: '🚢💰', question: 'What was the Silk Road?', options: ['Trade route', 'Sea route', 'River', 'Mountain pass'], correct: 0},
+            {topic: 'Exploration', emoji: '🌎⚓', question: 'What disease did da Gama's crew get?', options: ['Scurvy', 'Plague', 'Malaria', 'Typhus'], correct: 0},
+            {topic: 'Exploration', emoji: '🗺️🧭', question: 'Who was Prince Henry the Navigator?', options: ['Portuguese prince', 'Spanish king', 'Explorer', 'Admiral'], correct: 0},
+            {topic: 'Exploration', emoji: '⛵🌍', question: 'What treaty divided New World?', options: ['Tordesillas', 'Westphalia', 'Utrecht', 'Paris'], correct: 0},
+            {topic: 'Exploration', emoji: '🚢🌊', question: 'What was Drake's ship called?', options: ['Golden Hind', 'Mayflower', 'Endeavour', 'Victory'], correct: 0},
+            {topic: 'Exploration', emoji: '💎🌴', question: 'Who conquered the Inca?', options: ['Pizarro', 'Cortés', 'Balboa', 'Coronado'], correct: 0},
+            {topic: 'Exploration', emoji: '🧭⛵', question: 'What was a sextant used for?', options: ['Measuring angles', 'Time', 'Speed', 'Depth'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Exploration', emoji: '🌍🚢', question: 'What island did Columbus first land on?', answer: 'San Salvador or Guanahani'},
+            {topic: 'Exploration', emoji: '⛵🗺️', question: 'Name three motivations for exploration', answer: 'Gold, glory, God or trade, territory, religion (any 3)'},
+            {topic: 'Exploration', emoji: '🧭🌊', question: 'How long did Magellan's voyage take?', answer: '3 years or 1519-1522'},
+            {topic: 'Exploration', emoji: '🚢💰', question: 'Name three valuable spices', answer: 'Pepper, cinnamon, nutmeg, cloves (any 3)'},
+            {topic: 'Exploration', emoji: '🌎⚓', question: 'What route did da Gama establish?', answer: 'Sea route to India via Cape of Good Hope'},
+            {topic: 'Exploration', emoji: '🗺️🧭', question: 'Name three Portuguese explorers', answer: 'Da Gama, Dias, Cabral, Magellan (any 3)'},
+            {topic: 'Exploration', emoji: '⛵🌍', question: 'What year was Treaty of Tordesillas?', answer: '1494'},
+            {topic: 'Exploration', emoji: '🚢🌊', question: 'Name three types of exploration ships', answer: 'Caravel, carrack, galleon (any 3)'},
+            {topic: 'Exploration', emoji: '💎🌴', question: 'Name three conquistadors', answer: 'Cortés, Pizarro, Balboa, Coronado (any 3)'},
+            {topic: 'Exploration', emoji: '🧭⛵', question: 'Name three navigation tools', answer: 'Compass, astrolabe, cross-staff, sextant (any 3)'}
+        ]
+    }
+
+    },
+    8: { // Chapter 8: American Revolution  
+        easy: [
+            {topic: 'American Revolution', emoji: '🗽🇺🇸', question: 'American colonies declared independence in 1776.', options: ['True', 'False'], correct: 0},
+            {topic: 'American Revolution', emoji: '⚔️🎖️', question: 'George Washington led the colonists.', options: ['True', 'False'], correct: 0},
+            {topic: 'American Revolution', emoji: '📜✍️', question: 'Thomas Jefferson wrote Declaration.', options: ['True', 'False'], correct: 0},
+            {topic: 'American Revolution', emoji: '🚢☕', question: 'Boston Tea Party protested taxes.', options: ['True', 'False'], correct: 0},
+            {topic: 'American Revolution', emoji: '🇬🇧⚔️', question: 'Britain fought the colonists.', options: ['True', 'False'], correct: 0},
+            {topic: 'American Revolution', emoji: '🎖️⚔️', question: 'Paul Revere warned of British.', options: ['True', 'False'], correct: 0},
+            {topic: 'American Revolution', emoji: '🔔🗽', question: 'Liberty Bell is a freedom symbol.', options: ['True', 'False'], correct: 0},
+            {topic: 'American Revolution', emoji: '⚔️🏴', question: 'France helped the Americans.', options: ['True', 'False'], correct: 0},
+            {topic: 'American Revolution', emoji: '📜🇺🇸', question: 'Constitution was written after war.', options: ['True', 'False'], correct: 0},
+            {topic: 'American Revolution', emoji: '🎖️🗽', question: 'Yorktown was the last major battle.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'American Revolution', emoji: '🗽🇺🇸', question: 'What date was Declaration signed?', options: ['July 4, 1776', 'July 2, 1776'], correct: 0},
+            {topic: 'American Revolution', emoji: '⚔️🎖️', question: 'Where was Washington's winter camp?', options: ['Valley Forge', 'Philadelphia'], correct: 0},
+            {topic: 'American Revolution', emoji: '📜✍️', question: 'What did Declaration declare?', options: ['Independence', 'War'], correct: 0},
+            {topic: 'American Revolution', emoji: '🚢☕', question: 'What did colonists dump in harbor?', options: ['Tea', 'Sugar'], correct: 0},
+            {topic: 'American Revolution', emoji: '🇬🇧⚔️', question: 'Who was British king?', options: ['George III', 'George II'], correct: 0},
+            {topic: 'American Revolution', emoji: '🎖️⚔️', question: 'What did Revere say?', options: ['British are coming', 'To arms'], correct: 0},
+            {topic: 'American Revolution', emoji: '🔔🗽', question: 'Where is Liberty Bell?', options: ['Philadelphia', 'Boston'], correct: 0},
+            {topic: 'American Revolution', emoji: '⚔️🏴', question: 'Who was French ally?', options: ['Lafayette', 'Napoleon'], correct: 0},
+            {topic: 'American Revolution', emoji: '📜🇺🇸', question: 'When was Constitution written?', options: ['1787', '1777'], correct: 0},
+            {topic: 'American Revolution', emoji: '🎖️🗽', question: 'Who surrendered at Yorktown?', options: ['Cornwallis', 'Burgoyne'], correct: 0}
+        ],
+        hard: [
+            {topic: 'American Revolution', emoji: '🗽🇺🇸', question: 'How many colonies rebelled?', options: ['13', '12', '14'], correct: 0},
+            {topic: 'American Revolution', emoji: '⚔️🎖️', question: 'When was Washington inaugurated?', options: ['1789', '1788', '1790'], correct: 0},
+            {topic: 'American Revolution', emoji: '📜✍️', question: 'Who helped write Declaration?', options: ['Franklin, Adams', 'Madison, Hamilton', 'Jay, Morris'], correct: 0},
+            {topic: 'American Revolution', emoji: '🚢☕', question: 'When was Boston Tea Party?', options: ['1773', '1774', '1772'], correct: 0},
+            {topic: 'American Revolution', emoji: '🇬🇧⚔️', question: 'What were British soldiers called?', options: ['Redcoats', 'Bluecoats', 'Grenadiers'], correct: 0},
+            {topic: 'American Revolution', emoji: '🎖️⚔️', question: 'When was Revere's ride?', options: ['April 1775', 'May 1775', 'March 1775'], correct: 0},
+            {topic: 'American Revolution', emoji: '🔔🗽', question: 'When did Liberty Bell crack?', options: ['1800s', '1700s', '1900s'], correct: 0},
+            {topic: 'American Revolution', emoji: '⚔️🏴', question: 'When did France join war?', options: ['1778', '1777', '1779'], correct: 0},
+            {topic: 'American Revolution', emoji: '📜🇺🇸', question: 'How many signed Constitution?', options: ['39', '40', '50'], correct: 0},
+            {topic: 'American Revolution', emoji: '🎖️🗽', question: 'When was Battle of Yorktown?', options: ['1781', '1780', '1782'], correct: 0}
+        ],
+        expert: [
+            {topic: 'American Revolution', emoji: '🗽🇺🇸', question: 'What was Lexington and Concord?', options: ['First battles', 'Last battles', 'Major defeat', 'Peace talks'], correct: 0},
+            {topic: 'American Revolution', emoji: '⚔️🎖️', question: 'Who wrote "Common Sense"?', options: ['Thomas Paine', 'Jefferson', 'Franklin', 'Adams'], correct: 0},
+            {topic: 'American Revolution', emoji: '📜✍️', question: 'What inspired Declaration's ideas?', options: ['Enlightenment', 'Bible', 'Roman law', 'English law'], correct: 0},
+            {topic: 'American Revolution', emoji: '🚢☕', question: 'What acts angered colonists?', options: ['Intolerable Acts', 'Stamp Act', 'Tea Act', 'All'], correct: 3},
+            {topic: 'American Revolution', emoji: '🇬🇧⚔️', question: 'Who were Hessians?', options: ['German mercenaries', 'British soldiers', 'Loyalists', 'Natives'], correct: 0},
+            {topic: 'American Revolution', emoji: '🎖️⚔️', question: 'Who was Minuteman?', options: ['Militia ready quickly', 'Regular soldier', 'Messenger', 'Spy'], correct: 0},
+            {topic: 'American Revolution', emoji: '🔔🗽', question: 'What's on Liberty Bell?', options: ['Bible verse', 'Declaration', 'Song', 'Prayer'], correct: 0},
+            {topic: 'American Revolution', emoji: '⚔️🏴', question: 'What was Treaty of Alliance?', options: ['French-American pact', 'Peace treaty', 'Trade deal', 'Military plan'], correct: 0},
+            {topic: 'American Revolution', emoji: '📜🇺🇸', question: 'Who is "Father of Constitution"?', options: ['Madison', 'Jefferson', 'Franklin', 'Washington'], correct: 0},
+            {topic: 'American Revolution', emoji: '🎖️🗽', question: 'What ended the Revolutionary War?', options: ['Treaty of Paris', 'Treaty of Versailles', 'Yorktown', 'Surrender'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'American Revolution', emoji: '🗽🇺🇸', question: 'Name the three main parts of Declaration', answer: 'Preamble, grievances, declaration of independence'},
+            {topic: 'American Revolution', emoji: '⚔️🎖️', question: 'Name three Continental Army generals', answer: 'Washington, Greene, Arnold, Wayne (any 3)'},
+            {topic: 'American Revolution', emoji: '📜✍️', question: 'When was Declaration approved by Congress?', answer: 'July 2, 1776'},
+            {topic: 'American Revolution', emoji: '🚢☕', question: 'Name three taxes that angered colonists', answer: 'Stamp Act, Tea Act, Townshend Acts (any 3)'},
+            {topic: 'American Revolution', emoji: '🇬🇧⚔️', question: 'Name three major British generals', answer: 'Cornwallis, Howe, Burgoyne, Clinton (any 3)'},
+            {topic: 'American Revolution', emoji: '🎖️⚔️', question: 'What was the slogan "No taxation without..."?', answer: 'Representation'},
+            {topic: 'American Revolution', emoji: '🔔🗽', question: 'What does Liberty Bell inscription say?', answer: 'Proclaim liberty throughout the land'},
+            {topic: 'American Revolution', emoji: '⚔️🏴', question: 'Name three countries that helped America', answer: 'France, Spain, Netherlands'},
+            {topic: 'American Revolution', emoji: '📜🇺🇸', question: 'Name three Founding Fathers', answer: 'Washington, Jefferson, Franklin, Adams, Madison (any 3)'},
+            {topic: 'American Revolution', emoji: '🎖️🗽', question: 'What year did Revolutionary War end?', answer: '1783'}
+        ]
+    },
+    9: { // Chapter 9: French Revolution
+        easy: [
+            {topic: 'French Revolution', emoji: '🇫🇷⚔️', question: 'French Revolution began in 1789.', options: ['True', 'False'], correct: 0},
+            {topic: 'French Revolution', emoji: '👑🔪', question: 'King Louis XVI was executed.', options: ['True', 'False'], correct: 0},
+            {topic: 'French Revolution', emoji: '🗼🇫🇷', question: 'Bastille was a prison.', options: ['True', 'False'], correct: 0},
+            {topic: 'French Revolution', emoji: '⚖️📜', question: 'Revolution sought equality.', options: ['True', 'False'], correct: 0},
+            {topic: 'French Revolution', emoji: '🔪😱', question: 'Reign of Terror was violent period.', options: ['True', 'False'], correct: 0},
+            {topic: 'French Revolution', emoji: '👑💎', question: 'Marie Antoinette was queen.', options: ['True', 'False'], correct: 0},
+            {topic: 'French Revolution', emoji: '⚔️🇫🇷', question: 'Napoleon rose after Revolution.', options: ['True', 'False'], correct: 0},
+            {topic: 'French Revolution', emoji: '🎭🗡️', question: 'Guillotine was execution method.', options: ['True', 'False'], correct: 0},
+            {topic: 'French Revolution', emoji: '📜⚖️', question: 'Declaration of Rights was written.', options: ['True', 'False'], correct: 0},
+            {topic: 'French Revolution', emoji: '🔵⚪🔴', question: 'French tricolor flag was adopted.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'French Revolution', emoji: '🇫🇷⚔️', question: 'What was the slogan?', options: ['Liberty, Equality, Fraternity', 'Freedom or Death'], correct: 0},
+            {topic: 'French Revolution', emoji: '👑🔪', question: 'How did Louis XVI die?', options: ['Guillotine', 'Hanging'], correct: 0},
+            {topic: 'French Revolution', emoji: '🗼🇫🇷', question: 'When was Bastille stormed?', options: ['July 14, 1789', 'July 4, 1789'], correct: 0},
+            {topic: 'French Revolution', emoji: '⚖️📜', question: 'What were the three estates?', options: ['Clergy, Nobles, Commoners', 'King, Lords, Peasants'], correct: 0},
+            {topic: 'French Revolution', emoji: '🔪😱', question: 'Who led Reign of Terror?', options: ['Robespierre', 'Danton'], correct: 0},
+            {topic: 'French Revolution', emoji: '👑💎', question: 'What was Marie Antoinette's nickname?', options: ['Madame Deficit', 'Queen of Hearts'], correct: 0},
+            {topic: 'French Revolution', emoji: '⚔️🇫🇷', question: 'What title did Napoleon take?', options: ['Emperor', 'King'], correct: 0},
+            {topic: 'French Revolution', emoji: '🎭🗡️', question: 'Who invented the guillotine?', options: ['Dr. Guillotin', 'Robespierre'], correct: 0},
+            {topic: 'French Revolution', emoji: '📜⚖️', question: 'What was declared in August 1789?', options: ['Rights of Man', 'Republic'], correct: 0},
+            {topic: 'French Revolution', emoji: '🔵⚪🔴', question: 'What do flag colors represent?', options: ['Liberty, Equality, Fraternity', 'Past, Present, Future'], correct: 0}
+        ],
+        hard: [
+            {topic: 'French Revolution', emoji: '🇫🇷⚔️', question: 'When did Revolution end?', options: ['1799', '1795', '1804'], correct: 0},
+            {topic: 'French Revolution', emoji: '👑🔪', question: 'When was Louis XVI executed?', options: ['1793', '1792', '1794'], correct: 0},
+            {topic: 'French Revolution', emoji: '🗼🇫🇷', question: 'How many prisoners in Bastille?', options: ['7', '100', '50'], correct: 0},
+            {topic: 'French Revolution', emoji: '⚖️📜', question: 'Which estate was largest?', options: ['Third', 'Second', 'First'], correct: 0},
+            {topic: 'French Revolution', emoji: '🔪😱', question: 'When was Reign of Terror?', options: ['1793-1794', '1792-1793', '1794-1795'], correct: 0},
+            {topic: 'French Revolution', emoji: '👑💎', question: 'When was Marie Antoinette executed?', options: ['October 1793', 'January 1793', 'December 1793'], correct: 0},
+            {topic: 'French Revolution', emoji: '⚔️🇫🇷', question: 'When did Napoleon become emperor?', options: ['1804', '1800', '1808'], correct: 0},
+            {topic: 'French Revolution', emoji: '🎭🗡️', question: 'How many died in Terror?', options: ['17,000+', '10,000', '25,000'], correct: 0},
+            {topic: 'French Revolution', emoji: '📜⚖️', question: 'Who wrote "What is Third Estate?"', options: ['Sieyès', 'Rousseau', 'Voltaire'], correct: 0},
+            {topic: 'French Revolution', emoji: '🔵⚪🔴', question: 'When was First Republic declared?', options: ['1792', '1789', '1793'], correct: 0}
+        ],
+        expert: [
+            {topic: 'French Revolution', emoji: '🇫🇷⚔️', question: 'What caused French Revolution?', options: ['Financial crisis, inequality', 'Foreign invasion', 'Religious conflict', 'Civil war'], correct: 0},
+            {topic: 'French Revolution', emoji: '👑🔪', question: 'What was Louis XVI's crime?', options: ['Treason', 'Murder', 'Theft', 'Cowardice'], correct: 0},
+            {topic: 'French Revolution', emoji: '🗼🇫🇷', question: 'What did Bastille symbolize?', options: ['Royal tyranny', 'Justice', 'Power', 'Wealth'], correct: 0},
+            {topic: 'French Revolution', emoji: '⚖️📜', question: 'What was Estates-General?', options: ['Assembly', 'Parliament', 'Court', 'Council'], correct: 0},
+            {topic: 'French Revolution', emoji: '🔪😱', question: 'What group led Terror?', options: ['Jacobins', 'Girondins', 'Montagnards', 'Sans-culottes'], correct: 0},
+            {topic: 'French Revolution', emoji: '👑💎', question: 'Where was Marie Antoinette from?', options: ['Austria', 'Germany', 'Spain', 'Italy'], correct: 0},
+            {topic: 'French Revolution', emoji: '⚔️🇫🇷', question: 'What was Napoleon's coup called?', options: ['18 Brumaire', '18 Thermidor', '9 Thermidor', '14 July'], correct: 0},
+            {topic: 'French Revolution', emoji: '🎭🗡️', question: 'What ended Reign of Terror?', options: ['Robespierre's execution', 'Napoleon's coup', 'Treaty', 'Invasion'], correct: 0},
+            {topic: 'French Revolution', emoji: '📜⚖️', question: 'Who wrote "Social Contract"?', options: ['Rousseau', 'Voltaire', 'Montesquieu', 'Diderot'], correct: 0},
+            {topic: 'French Revolution', emoji: '🔵⚪🔴', question: 'What was sans-culottes?', options: ['Working class', 'Nobles', 'Clergy', 'Soldiers'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'French Revolution', emoji: '🇫🇷⚔️', question: 'Name three causes of French Revolution', answer: 'Financial crisis, inequality, Enlightenment ideas (any 3)'},
+            {topic: 'French Revolution', emoji: '👑🔪', question: 'What were Louis XVI's last words?', answer: 'I die innocent or similar'},
+            {topic: 'French Revolution', emoji: '🗼🇫🇷', question: 'What date is Bastille Day?', answer: 'July 14'},
+            {topic: 'French Revolution', emoji: '⚖️📜', question: 'Name three Enlightenment thinkers', answer: 'Rousseau, Voltaire, Montesquieu, Diderot (any 3)'},
+            {topic: 'French Revolution', emoji: '🔪😱', question: 'How long did Reign of Terror last?', answer: '10 months or September 1793 - July 1794'},
+            {topic: 'French Revolution', emoji: '👑💎', question: 'What supposedly did Marie Antoinette say about bread?', answer: 'Let them eat cake (disputed)'},
+            {topic: 'French Revolution', emoji: '⚔️🇫🇷', question: 'Name three of Napoleon's battles', answer: 'Austerlitz, Waterloo, Jena, Wagram (any 3)'},
+            {topic: 'French Revolution', emoji: '🎭🗡️', question: 'How did Robespierre die?', answer: 'Guillotine'},
+            {topic: 'French Revolution', emoji: '📜⚖️', question: 'Name three rights in Declaration', answer: 'Liberty, property, security, resistance (any 3)'},
+            {topic: 'French Revolution', emoji: '🔵⚪🔴', question: 'What were the Directory years?', answer: '1795-1799'}
+        ]
+    },
+    10: { // Chapter 10: Industrial Revolution
+        easy: [
+            {topic: 'Industrial Revolution', emoji: '🏭⚙️', question: 'Industrial Revolution started in Britain.', options: ['True', 'False'], correct: 0},
+            {topic: 'Industrial Revolution', emoji: '🚂💨', question: 'Steam engines powered trains.', options: ['True', 'False'], correct: 0},
+            {topic: 'Industrial Revolution', emoji: '🏭👷', question: 'Factories employed many workers.', options: ['True', 'False'], correct: 0},
+            {topic: 'Industrial Revolution', emoji: '⚙️🔧', question: 'Machines replaced hand tools.', options: ['True', 'False'], correct: 0},
+            {topic: 'Industrial Revolution', emoji: '🏙️🏭', question: 'Cities grew rapidly.', options: ['True', 'False'], correct: 0},
+            {topic: 'Industrial Revolution', emoji: '👨‍👩‍👧‍👦🏭', question: 'Children worked in factories.', options: ['True', 'False'], correct: 0},
+            {topic: 'Industrial Revolution', emoji: '💡🔦', question: 'Electricity was harnessed.', options: ['True', 'False'], correct: 0},
+            {topic: 'Industrial Revolution', emoji: '🚢⚓', question: 'Steamships improved trade.', options: ['True', 'False'], correct: 0},
+            {topic: 'Industrial Revolution', emoji: '📈💰', question: 'Production increased greatly.', options: ['True', 'False'], correct: 0},
+            {topic: 'Industrial Revolution', emoji: '🏭🌫️', question: 'Pollution was a problem.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Industrial Revolution', emoji: '🏭⚙️', question: 'When did it begin in Britain?', options: ['1760s', '1860s'], correct: 0},
+            {topic: 'Industrial Revolution', emoji: '🚂💨', question: 'Who improved the steam engine?', options: ['James Watt', 'George Stephenson'], correct: 0},
+            {topic: 'Industrial Revolution', emoji: '🏭👷', question: 'What were working conditions like?', options: ['Harsh', 'Good'], correct: 0},
+            {topic: 'Industrial Revolution', emoji: '⚙️🔧', question: 'What powered early machines?', options: ['Water/steam', 'Electricity'], correct: 0},
+            {topic: 'Industrial Revolution', emoji: '🏙️🏭', question: 'Where did people move?', options: ['Cities', 'Countryside'], correct: 0},
+            {topic: 'Industrial Revolution', emoji: '👨‍👩‍👧‍👦🏭', question: 'Why did children work?', options: ['Family needed money', 'Education'], correct: 0},
+            {topic: 'Industrial Revolution', emoji: '💡🔦', question: 'Who invented light bulb?', options: ['Edison', 'Tesla'], correct: 0},
+            {topic: 'Industrial Revolution', emoji: '🚢⚓', question: 'What replaced sailing ships?', options: ['Steamships', 'Motorboats'], correct: 0},
+            {topic: 'Industrial Revolution', emoji: '📈💰', question: 'What economic system grew?', options: ['Capitalism', 'Feudalism'], correct: 0},
+            {topic: 'Industrial Revolution', emoji: '🏭🌫️', question: 'What caused smog?', options: ['Coal burning', 'Cars'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Industrial Revolution', emoji: '🏭⚙️', question: 'Which industry industrialized first?', options: ['Textiles', 'Steel', 'Coal'], correct: 0},
+            {topic: 'Industrial Revolution', emoji: '🚂💨', question: 'When was first passenger railway?', options: ['1825', '1830', '1820'], correct: 0},
+            {topic: 'Industrial Revolution', emoji: '🏭👷', question: 'How long were work days?', options: ['12-16 hours', '8-10 hours', '6-8 hours'], correct: 0},
+            {topic: 'Industrial Revolution', emoji: '⚙️🔧', question: 'What was spinning jenny?', options: ['Textile machine', 'Steam engine', 'Locomotive'], correct: 0},
+            {topic: 'Industrial Revolution', emoji: '🏙️🏭', question: 'What was urbanization?', options: ['City growth', 'Farming', 'Trade'], correct: 0},
+            {topic: 'Industrial Revolution', emoji: '👨‍👩‍👧‍👦🏭', question: 'At what age did children work?', options: ['As young as 5-6', '10-12', '15-16'], correct: 0},
+            {topic: 'Industrial Revolution', emoji: '💡🔦', question: 'When was light bulb invented?', options: ['1879', '1889', '1869'], correct: 0},
+            {topic: 'Industrial Revolution', emoji: '🚢⚓', question: 'Who built first steamship?', options: ['Fulton', 'Watt', 'Stephenson'], correct: 0},
+            {topic: 'Industrial Revolution', emoji: '📈💰', question: 'What was laissez-faire?', options: ['Free market', 'Regulation', 'Socialism'], correct: 0},
+            {topic: 'Industrial Revolution', emoji: '🏭🌫️', question: 'What disease spread in cities?', options: ['Cholera', 'Plague', 'Smallpox'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Industrial Revolution', emoji: '🏭⚙️', question: 'Who invented power loom?', options: ['Cartwright', 'Arkwright', 'Hargreaves', 'Crompton'], correct: 0},
+            {topic: 'Industrial Revolution', emoji: '🚂💨', question: 'Who built "Rocket" locomotive?', options: ['Stephenson', 'Watt', 'Trevithick', 'Fulton'], correct: 0},
+            {topic: 'Industrial Revolution', emoji: '🏭👷', question: 'What were labor unions?', options: ['Worker organizations', 'Factory groups', 'Government bodies', 'Trade guilds'], correct: 0},
+            {topic: 'Industrial Revolution', emoji: '⚙️🔧', question: 'What was Bessemer process?', options: ['Steel making', 'Textile production', 'Mining', 'Shipping'], correct: 0},
+            {topic: 'Industrial Revolution', emoji: '🏙️🏭', question: 'What were tenements?', options: ['Crowded housing', 'Factories', 'Markets', 'Schools'], correct: 0},
+            {topic: 'Industrial Revolution', emoji: '👨‍👩‍👧‍👦🏭', question: 'What laws protected child workers?', options: ['Factory Acts', 'Labor Laws', 'Reform Acts', 'Child Acts'], correct: 0},
+            {topic: 'Industrial Revolution', emoji: '💡🔦', question: 'What was AC vs DC?', options: ['Current types', 'Motor types', 'Generator types', 'Battery types'], correct: 0},
+            {topic: 'Industrial Revolution', emoji: '🚢⚓', question: 'What canal linked Atlantic-Pacific?', options: ['Panama', 'Suez', 'Erie', 'Kiel'], correct: 0},
+            {topic: 'Industrial Revolution', emoji: '📈💰', question: 'Who wrote "Wealth of Nations"?', options: ['Adam Smith', 'Marx', 'Ricardo', 'Mill'], correct: 0},
+            {topic: 'Industrial Revolution', emoji: '🏭🌫️', question: 'What was Great Stink of 1858?', options: ['London sewage crisis', 'Factory smoke', 'Disease outbreak', 'Chemical spill'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Industrial Revolution', emoji: '🏭⚙️', question: 'Name three textile inventions', answer: 'Spinning jenny, water frame, power loom (any 3)'},
+            {topic: 'Industrial Revolution', emoji: '🚂💨', question: 'What were three impacts of railways?', answer: 'Transport, trade, communication, urbanization (any 3)'},
+            {topic: 'Industrial Revolution', emoji: '🏭👷', question: 'Name three working class reforms', answer: 'Factory Acts, labor unions, shorter hours, child labor laws (any 3)'},
+            {topic: 'Industrial Revolution', emoji: '⚙️🔧', question: 'Name three key industries', answer: 'Textiles, iron/steel, coal, railways (any 3)'},
+            {topic: 'Industrial Revolution', emoji: '🏙️🏭', question: 'Name three industrial cities', answer: 'Manchester, Birmingham, Liverpool, Leeds (any 3)'},
+            {topic: 'Industrial Revolution', emoji: '👨‍👩‍👧‍👦🏭', question: 'What year was first Factory Act in Britain?', answer: '1833'},
+            {topic: 'Industrial Revolution', emoji: '💡🔦', question: 'Name three inventors', answer: 'Edison, Tesla, Watt, Stephenson, Fulton (any 3)'},
+            {topic: 'Industrial Revolution', emoji: '🚢⚓', question: 'When was Suez Canal opened?', answer: '1869'},
+            {topic: 'Industrial Revolution', emoji: '📈💰', question: 'Name three economic changes', answer: 'Capitalism, mass production, wage labor, consumerism (any 3)'},
+            {topic: 'Industrial Revolution', emoji: '🏭🌫️', question: 'Name three social problems', answer: 'Pollution, poverty, overcrowding, disease (any 3)'}
+        ]
+    },
+    11: { // Chapter 11: World War I
+        easy: [
+            {topic: 'World War I', emoji: '⚔️🌍', question: 'WWI started in 1914.', options: ['True', 'False'], correct: 0},
+            {topic: 'World War I', emoji: '💣🔫', question: 'Trench warfare was common.', options: ['True', 'False'], correct: 0},
+            {topic: 'World War I', emoji: '🇬🇧🇫🇷', question: 'Britain and France were allies.', options: ['True', 'False'], correct: 0},
+            {topic: 'World War I', emoji: '🇩🇪⚔️', question: 'Germany was Central Power.', options: ['True', 'False'], correct: 0},
+            {topic: 'World War I', emoji: '🎖️💀', question: 'Millions of soldiers died.', options: ['True', 'False'], correct: 0},
+            {topic: 'World War I', emoji: '🚢💥', question: 'Lusitania was sunk.', options: ['True', 'False'], correct: 0},
+            {topic: 'World War I', emoji: '🇺🇸⚔️', question: 'USA joined the war.', options: ['True', 'False'], correct: 0},
+            {topic: 'World War I', emoji: '✈️💣', question: 'Aircraft were used in combat.', options: ['True', 'False'], correct: 0},
+            {topic: 'World War I', emoji: '☠️💨', question: 'Poison gas was weapon.', options: ['True', 'False'], correct: 0},
+            {topic: 'World War I', emoji: '📜🕊️', question: 'Treaty of Versailles ended war.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'World War I', emoji: '⚔️🌍', question: 'When did WWI begin?', options: ['1914', '1915'], correct: 0},
+            {topic: 'World War I', emoji: '💣🔫', question: 'What sparked the war?', options: ['Assassination of Franz Ferdinand', 'German invasion'], correct: 0},
+            {topic: 'World War I', emoji: '🇬🇧🇫🇷', question: 'Who were the Allies?', options: ['Britain, France, Russia', 'Germany, Austria'], correct: 0},
+            {topic: 'World War I', emoji: '🇩🇪⚔️', question: 'Who were Central Powers?', options: ['Germany, Austria-Hungary', 'Britain, France'], correct: 0},
+            {topic: 'World War I', emoji: '🎖️💀', question: 'About how many died?', options: ['17 million', '5 million'], correct: 0},
+            {topic: 'World War I', emoji: '🚢💥', question: 'What country owned Lusitania?', options: ['Britain', 'USA'], correct: 0},
+            {topic: 'World War I', emoji: '🇺🇸⚔️', question: 'When did USA enter?', options: ['1917', '1914'], correct: 0},
+            {topic: 'World War I', emoji: '✈️💣', question: 'What were fighter pilots called?', options: ['Aces', 'Warriors'], correct: 0},
+            {topic: 'World War I', emoji: '☠️💨', question: 'What gas was commonly used?', options: ['Mustard gas', 'Nerve gas'], correct: 0},
+            {topic: 'World War I', emoji: '📜🕊️', question: 'When was Treaty signed?', options: ['1919', '1918'], correct: 0}
+        ],
+        hard: [
+            {topic: 'World War I', emoji: '⚔️🌍', question: 'When did war end?', options: ['November 11, 1918', 'December 25, 1918', 'January 1, 1919'], correct: 0},
+            {topic: 'World War I', emoji: '💣🔫', question: 'Where was Franz Ferdinand killed?', options: ['Sarajevo', 'Vienna', 'Berlin'], correct: 0},
+            {topic: 'World War I', emoji: '🇬🇧🇫🇷', question: 'What was Western Front?', options: ['France/Belgium battleground', 'Eastern Europe', 'Italy'], correct: 0},
+            {topic: 'World War I', emoji: '🇩🇪⚔️', question: 'What plan did Germany use?', options: ['Schlieffen Plan', 'Barbarossa', 'Blitzkrieg'], correct: 0},
+            {topic: 'World War I', emoji: '🎖️💀', question: 'What was Battle of Somme?', options: ['Major 1916 battle', '1914 battle', '1918 battle'], correct: 0},
+            {topic: 'World War I', emoji: '🚢💥', question: 'When was Lusitania sunk?', options: ['1915', '1916', '1917'], correct: 0},
+            {topic: 'World War I', emoji: '🇺🇸⚔️', question: 'Who was US president?', options: ['Woodrow Wilson', 'Taft', 'Roosevelt'], correct: 0},
+            {topic: 'World War I', emoji: '✈️💣', question: 'Who was famous German ace?', options: ['Red Baron', 'Blue Max', 'Black Eagle'], correct: 0},
+            {topic: 'World War I', emoji: '☠️💨', question: 'What protected from gas?', options: ['Gas masks', 'Helmets', 'Suits'], correct: 0},
+            {topic: 'World War I', emoji: '📜🕊️', question: 'Where was Treaty signed?', options: ['Versailles', 'Paris', 'Geneva'], correct: 0}
+        ],
+        expert: [
+            {topic: 'World War I', emoji: '⚔️🌍', question: 'What alliance system existed?', options: ['Triple Entente vs Triple Alliance', 'NATO vs Warsaw', 'Axis vs Allies', 'League vs Central'], correct: 0},
+            {topic: 'World War I', emoji: '💣🔫', question: 'Who killed Franz Ferdinand?', options: ['Gavrilo Princip', 'Black Hand', 'Nationalist', 'Anarchist'], correct: 0},
+            {topic: 'World War I', emoji: '🇬🇧🇫🇷', question: 'What were soldiers called?', options: ['Tommies/Poilus', 'Doughboys', 'Diggers', 'Soldiers'], correct: 0},
+            {topic: 'World War I', emoji: '🇩🇪⚔️', question: 'What was unrestricted submarine warfare?', options: ['Attacking all ships', 'Naval blockade', 'Convoy system', 'Mine laying'], correct: 0},
+            {topic: 'World War I', emoji: '🎖️💀', question: 'What was no man\'s land?', options: ['Ground between trenches', 'Neutral territory', 'Dead zone', 'Battle area'], correct: 0},
+            {topic: 'World War I', emoji: '🚢💥', question: 'How many died on Lusitania?', options: ['1,198', '500', '2,000', '800'], correct: 0},
+            {topic: 'World War I', emoji: '🇺🇸⚔️', question: 'What was Wilson\'s plan?', options: ['14 Points', '10 Points', 'Peace Plan', 'League Plan'], correct: 0},
+            {topic: 'World War I', emoji: '✈️💣', question: 'What was Red Baron\'s real name?', options: ['Manfred von Richthofen', 'Hermann Göring', 'Ernst Udet', 'Oswald Boelcke'], correct: 0},
+            {topic: 'World War I', emoji: '☠️💨', question: 'When was gas first used?', options: ['1915', '1914', '1916', '1917'], correct: 0},
+            {topic: 'World War I', emoji: '📜🕊️', question: 'What did Treaty do to Germany?', options: ['Harsh reparations/blame', 'Light punishment', 'Division', 'Occupation'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'World War I', emoji: '⚔️🌍', question: 'Name three causes of WWI', answer: 'Militarism, alliances, imperialism, nationalism (any 3)'},
+            {topic: 'World War I', emoji: '💣🔫', question: 'What date was Franz Ferdinand killed?', answer: 'June 28, 1914'},
+            {topic: 'World War I', emoji: '🇬🇧🇫🇷', question: 'Name three Allied powers', answer: 'Britain, France, Russia, USA, Italy (any 3)'},
+            {topic: 'World War I', emoji: '🇩🇪⚔️', question: 'Name three Central Powers', answer: 'Germany, Austria-Hungary, Ottoman Empire, Bulgaria (any 3)'},
+            {topic: 'World War I', emoji: '🎖️💀', question: 'Name three major WWI battles', answer: 'Somme, Verdun, Marne, Tannenberg, Gallipoli (any 3)'},
+            {topic: 'World War I', emoji: '🚢💥', question: 'What year was Lusitania sunk?', answer: '1915'},
+            {topic: 'World War I', emoji: '🇺🇸⚔️', question: 'Name three of Wilson\'s 14 Points', answer: 'Self-determination, League of Nations, open diplomacy (any 3)'},
+            {topic: 'World War I', emoji: '✈️💣', question: 'How many victories did Red Baron have?', answer: '80'},
+            {topic: 'World War I', emoji: '☠️💨', question: 'Name three types of poison gas used', answer: 'Chlorine, mustard gas, phosgene (any 3)'},
+            {topic: 'World War I', emoji: '📜🕊️', question: 'What organization did Treaty create?', answer: 'League of Nations'}
+        ]
+    },
+    12: { // Chapter 12: World War II
+        easy: [
+            {topic: 'World War II', emoji: '⚔️🌎', question: 'WWII started in 1939.', options: ['True', 'False'], correct: 0},
+            {topic: 'World War II', emoji: '🇩🇪💀', question: 'Hitler led Nazi Germany.', options: ['True', 'False'], correct: 0},
+            {topic: 'World War II', emoji: '💣🏙️', question: 'Pearl Harbor was attacked.', options: ['True', 'False'], correct: 0},
+            {topic: 'World War II', emoji: '✡️😢', question: 'Holocaust killed millions.', options: ['True', 'False'], correct: 0},
+            {topic: 'World War II', emoji: '🇺🇸🇬🇧', question: 'Allies defeated Axis.', options: ['True', 'False'], correct: 0},
+            {topic: 'World War II', emoji: '☢️💥', question: 'Atomic bombs were used.', options: ['True', 'False'], correct: 0},
+            {topic: 'World War II', emoji: '🏖️⚔️', question: 'D-Day was invasion.', options: ['True', 'False'], correct: 0},
+            {topic: 'World War II', emoji: '🇷🇺❄️', question: 'Soviet Union fought Germany.', options: ['True', 'False'], correct: 0},
+            {topic: 'World War II', emoji: '✈️💣', question: 'London was bombed.', options: ['True', 'False'], correct: 0},
+            {topic: 'World War II', emoji: '🕊️📜', question: 'War ended in 1945.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'World War II', emoji: '⚔️🌎', question: 'What started WWII?', options: ['Germany invaded Poland', 'Pearl Harbor'], correct: 0},
+            {topic: 'World War II', emoji: '🇩🇪💀', question: 'What was Hitler\'s party?', options: ['Nazi', 'Fascist'], correct: 0},
+            {topic: 'World War II', emoji: '💣🏙️', question: 'When was Pearl Harbor?', options: ['December 7, 1941', 'December 7, 1942'], correct: 0},
+            {topic: 'World War II', emoji: '✡️😢', question: 'What was Holocaust?', options: ['Genocide of Jews', 'Battle'], correct: 0},
+            {topic: 'World War II', emoji: '🇺🇸🇬🇧', question: 'Who were main Allies?', options: ['USA, Britain, USSR', 'Germany, Italy'], correct: 0},
+            {topic: 'World War II', emoji: '☢️💥', question: 'Where were atomic bombs dropped?', options: ['Hiroshima and Nagasaki', 'Tokyo and Kyoto'], correct: 0},
+            {topic: 'World War II', emoji: '🏖️⚔️', question: 'When was D-Day?', options: ['June 6, 1944', 'May 8, 1945'], correct: 0},
+            {topic: 'World War II', emoji: '🇷🇺❄️', question: 'What was key Soviet battle?', options: ['Stalingrad', 'Moscow'], correct: 0},
+            {topic: 'World War II', emoji: '✈️💣', question: 'What was London bombing called?', options: ['The Blitz', 'Operation Torch'], correct: 0},
+            {topic: 'World War II', emoji: '🕊️📜', question: 'When did Germany surrender?', options: ['May 8, 1945', 'September 2, 1945'], correct: 0}
+        ],
+        hard: [
+            {topic: 'World War II', emoji: '⚔️🌎', question: 'When did WWII start?', options: ['September 1, 1939', 'September 3, 1939', 'December 7, 1941'], correct: 0},
+            {topic: 'World War II', emoji: '🇩🇪💀', question: 'What was Hitler\'s book?', options: ['Mein Kampf', 'Das Kapital', 'Manifesto'], correct: 0},
+            {topic: 'World War II', emoji: '💣🏙️', question: 'Who attacked Pearl Harbor?', options: ['Japan', 'Germany', 'Italy'], correct: 0},
+            {topic: 'World War II', emoji: '✡️😢', question: 'How many Jews were killed?', options: ['6 million', '10 million', '3 million'], correct: 0},
+            {topic: 'World War II', emoji: '🇺🇸🇬🇧', question: 'Who was British PM?', options: ['Churchill', 'Chamberlain', 'Attlee'], correct: 0},
+            {topic: 'World War II', emoji: '☢️💥', question: 'When was first atomic bomb used?', options: ['August 6, 1945', 'August 9, 1945', 'July 16, 1945'], correct: 0},
+            {topic: 'World War II', emoji: '🏖️⚔️', question: 'Where was D-Day landing?', options: ['Normandy', 'Calais', 'Dunkirk'], correct: 0},
+            {topic: 'World War II', emoji: '🇷🇺❄️', question: 'When did Stalingrad battle end?', options: ['February 1943', 'January 1943', 'March 1943'], correct: 0},
+            {topic: 'World War II', emoji: '✈️💣', question: 'When was the Blitz?', options: ['1940-1941', '1939-1940', '1941-1942'], correct: 0},
+            {topic: 'World War II', emoji: '🕊️📜', question: 'What is VE Day?', options: ['Victory in Europe', 'Victory End', 'Victory Event'], correct: 0}
+        ],
+        expert: [
+            {topic: 'World War II', emoji: '⚔️🌎', question: 'What was Blitzkrieg?', options: ['Lightning warfare', 'Trench warfare', 'Naval warfare', 'Air warfare'], correct: 0},
+            {topic: 'World War II', emoji: '🇩🇪💀', question: 'What was Operation Barbarossa?', options: ['Invasion of USSR', 'Battle of Britain', 'D-Day', 'North Africa'], correct: 0},
+            {topic: 'World War II', emoji: '💣🏙️', question: 'Who commanded at Pearl Harbor?', options: ['Admiral Kimmel', 'Nimitz', 'Halsey', 'MacArthur'], correct: 0},
+            {topic: 'World War II', emoji: '✡️😢', question: 'What were concentration camps?', options: ['Death/labor camps', 'POW camps', 'Military bases', 'Hospitals'], correct: 0},
+            {topic: 'World War II', emoji: '🇺🇸🇬🇧', question: 'Who was Supreme Allied Commander?', options: ['Eisenhower', 'Patton', 'Montgomery', 'Bradley'], correct: 0},
+            {topic: 'World War II', emoji: '☢️💥', question: 'What was Manhattan Project?', options: ['Atomic bomb development', 'Invasion plan', 'Spy operation', 'Naval strategy'], correct: 0},
+            {topic: 'World War II', emoji: '🏖️⚔️', question: 'What was code name for D-Day?', options: ['Operation Overlord', 'Operation Neptune', 'Operation Torch', 'Market Garden'], correct: 0},
+            {topic: 'World War II', emoji: '🇷🇺❄️', question: 'Who led Soviet defense?', options: ['Zhukov', 'Stalin', 'Rokossovsky', 'Konev'], correct: 0},
+            {topic: 'World War II', emoji: '✈️💣', question: 'What was Battle of Britain?', options: ['Air campaign', 'Naval battle', 'Land invasion', 'Siege'], correct: 0},
+            {topic: 'World War II', emoji: '🕊️📜', question: 'What trials followed war?', options: ['Nuremberg', 'Geneva', 'Hague', 'Versailles'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'World War II', emoji: '⚔️🌎', question: 'Name three Axis powers', answer: 'Germany, Italy, Japan'},
+            {topic: 'World War II', emoji: '🇩🇪💀', question: 'When did Hitler become Chancellor?', answer: '1933'},
+            {topic: 'World War II', emoji: '💣🏙️', question: 'How many Americans died at Pearl Harbor?', answer: 'About 2,400'},
+            {topic: 'World War II', emoji: '✡️😢', question: 'Name three concentration camps', answer: 'Auschwitz, Dachau, Treblinka, Bergen-Belsen (any 3)'},
+            {topic: 'World War II', emoji: '🇺🇸🇬🇧', question: 'Name three Allied leaders', answer: 'Roosevelt/Truman, Churchill, Stalin'},
+            {topic: 'World War II', emoji: '☢️💥', question: 'Who led Manhattan Project?', answer: 'J. Robert Oppenheimer'},
+            {topic: 'World War II', emoji: '🏖️⚔️', question: 'Name three D-Day beaches', answer: 'Omaha, Utah, Gold, Juno, Sword (any 3)'},
+            {topic: 'World War II', emoji: '🇷🇺❄️', question: 'How long did Stalingrad battle last?', answer: '5 months or 200 days'},
+            {topic: 'World War II', emoji: '✈️💣', question: 'Name three famous WWII aircraft', answer: 'Spitfire, Mustang, Messerschmitt, Zero (any 3)'},
+            {topic: 'World War II', emoji: '🕊️📜', question: 'What organization was formed after WWII?', answer: 'United Nations'}
+        ]
+    },
 };

@@ -381,4 +381,377 @@ const environmentQuestions = {
             {topic: 'Waste', emoji: '🚮✅', question: 'Name three waste diversion strategies', answer: 'Recycling, Composting, Donation, Repair (any 3)'}
         ]
     },
+
+    7: { // Chapter 7: Sustainable Agriculture
+        easy: [
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Farming produces food.', options: ['True', 'False'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌱🌿', question: 'Organic farming uses no chemicals.', options: ['True', 'False'], correct: 0},
+            {topic: 'Agriculture', emoji: '💧🌾', question: 'Crops need water.', options: ['True', 'False'], correct: 0},
+            {topic: 'Agriculture', emoji: '🐄🌾', question: 'Animals are part of farming.', options: ['True', 'False'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌍♻️', question: 'Sustainable farming helps environment.', options: ['True', 'False'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌻🐝', question: 'Bees help crops grow.', options: ['True', 'False'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌳🌾', question: 'Trees prevent soil erosion.', options: ['True', 'False'], correct: 0},
+            {topic: 'Agriculture', emoji: '🔄🌱', question: 'Crop rotation is healthy.', options: ['True', 'False'], correct: 0},
+            {topic: 'Agriculture', emoji: '🚜💨', question: 'Farming can cause pollution.', options: ['True', 'False'], correct: 0},
+            {topic: 'Agriculture', emoji: '🥗💚', question: 'Local food is fresher.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'What is sustainable agriculture?', options: ['Eco-friendly farming', 'Harmful practices'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌱🌿', question: 'What is organic farming?', options: ['No synthetic chemicals', 'Any farming'], correct: 0},
+            {topic: 'Agriculture', emoji: '💧🌾', question: 'What is drip irrigation?', options: ['Water directly to roots', 'Spray everywhere'], correct: 0},
+            {topic: 'Agriculture', emoji: '🐄🌾', question: 'What is integrated farming?', options: ['Crops and livestock together', 'Crops only'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌍♻️', question: 'What is regenerative agriculture?', options: ['Restore soil health', 'Deplete soil'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌻🐝', question: 'What is agroforestry?', options: ['Trees and crops together', 'No trees'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌳🌾', question: 'What is soil conservation?', options: ['Protect from erosion', 'Allow erosion'], correct: 0},
+            {topic: 'Agriculture', emoji: '🔄🌱', question: 'Why rotate crops?', options: ['Prevent soil depletion', 'No benefit'], correct: 0},
+            {topic: 'Agriculture', emoji: '🚜💨', question: 'What is runoff in farming?', options: ['Water with chemicals flowing', 'Irrigation'], correct: 0},
+            {topic: 'Agriculture', emoji: '🥗💚', question: 'What is food miles?', options: ['Distance food travels', 'Recipe length'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'What is monoculture?', options: ['Single crop large area', 'Multiple crops', 'No crops'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌱🌿', question: 'What percentage of US farmland is organic?', options: ['~1-2%', '50%', '90%'], correct: 0},
+            {topic: 'Agriculture', emoji: '💧🌾', question: 'What is precision agriculture?', options: ['Technology-based farming', 'Random planting', 'No planning'], correct: 0},
+            {topic: 'Agriculture', emoji: '🐄🌾', question: 'What is the main issue with livestock farming?', options: ['High emissions', 'Too healthy', 'No issues'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌍♻️', question: 'What is carbon farming?', options: ['Sequester CO2 in soil', 'Release carbon', 'Burn fields'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌻🐝', question: 'What is permaculture?', options: ['Sustainable design system', 'Temporary farming', 'Chemical use'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌳🌾', question: 'What is contour farming?', options: ['Plow along slopes', 'Down slopes', 'No pattern'], correct: 0},
+            {topic: 'Agriculture', emoji: '🔄🌱', question: 'What is nitrogen fixation?', options: ['Converting N2 to usable form', 'Removing nitrogen', 'Adding chemicals'], correct: 0},
+            {topic: 'Agriculture', emoji: '🚜💨', question: 'What causes eutrophication?', options: ['Excess nutrients in water', 'Soil health', 'Dry conditions'], correct: 0},
+            {topic: 'Agriculture', emoji: '🥗💚', question: 'What is community supported agriculture?', options: ['Direct farm subscriptions', 'Supermarkets', 'Imports'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'What percentage of global emissions is from agriculture?', options: ['~25%', '5%', '75%', '1%'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌱🌿', question: 'What is biological pest control?', options: ['Natural predators', 'Chemicals only', 'No control', 'Fire'], correct: 0},
+            {topic: 'Agriculture', emoji: '💧🌾', question: 'What percentage of freshwater is used for agriculture?', options: ['~70%', '10%', '30%', '95%'], correct: 0},
+            {topic: 'Agriculture', emoji: '🐄🌾', question: 'How much more land does beef require vs plants?', options: ['~20x more', 'Same', 'Less', '2x'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌍♻️', question: 'What is soil organic matter?', options: ['Carbon-rich material', 'Rocks', 'Water', 'Air'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌻🐝', question: 'What percentage of food crops rely on pollinators?', options: ['~75%', '10%', '100%', '5%'], correct: 0},
+            {topic: 'Agriculture', emoji: '🌳🌾', question: 'How much topsoil is lost annually to erosion?', options: ['24 billion tons', '1 ton', '100 tons', '1 billion tons'], correct: 0},
+            {topic: 'Agriculture', emoji: '🔄🌱', question: 'What is cover cropping?', options: ['Plants between main crops', 'Plastic covers', 'No planting', 'Only main crop'], correct: 0},
+            {topic: 'Agriculture', emoji: '🚜💨', question: 'What is integrated pest management?', options: ['Combined control strategies', 'Chemicals only', 'No management', 'One method'], correct: 0},
+            {topic: 'Agriculture', emoji: '🥗💚', question: 'What is vertical farming?', options: ['Indoor stacked growing', 'Traditional fields', 'Underground', 'No farming'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Agriculture', emoji: '🌾🚜', question: 'Name three sustainable farming practices', answer: 'Crop rotation, Organic methods, Cover crops, Reduced tillage (any 3)'},
+            {topic: 'Agriculture', emoji: '🌱🌿', question: 'Name three benefits of organic farming', answer: 'No synthetic chemicals, Soil health, Biodiversity, Water quality (any 3)'},
+            {topic: 'Agriculture', emoji: '💧🌾', question: 'Name three water-efficient irrigation methods', answer: 'Drip irrigation, Sprinkler systems, Mulching, Rainwater harvesting (any 3)'},
+            {topic: 'Agriculture', emoji: '🐄🌾', question: 'Name three alternatives to industrial livestock farming', answer: 'Pasture-raised, Free-range, Organic, Rotational grazing (any 3)'},
+            {topic: 'Agriculture', emoji: '🌍♻️', question: 'Name three ways farming can sequester carbon', answer: 'Cover crops, No-till farming, Agroforestry, Compost (any 3)'},
+            {topic: 'Agriculture', emoji: '🌻🐝', question: 'Name three pollinator-friendly practices', answer: 'Wildflower strips, Reduce pesticides, Diverse crops, Hedgerows (any 3)'},
+            {topic: 'Agriculture', emoji: '🌳🌾', question: 'Name three soil conservation methods', answer: 'Terracing, Contour plowing, Windbreaks, Cover crops (any 3)'},
+            {topic: 'Agriculture', emoji: '🔄🌱', question: 'Explain a typical crop rotation cycle', answer: 'Legumes (fix nitrogen) → Heavy feeders (corn) → Light feeders (roots) → Repeat'},
+            {topic: 'Agriculture', emoji: '🚜💨', question: 'Name three environmental impacts of conventional agriculture', answer: 'Soil erosion, Water pollution, Biodiversity loss, Emissions (any 3)'},
+            {topic: 'Agriculture', emoji: '🥗💚', question: 'Name three benefits of local food systems', answer: 'Freshness, Lower emissions, Support farmers, Seasonal eating (any 3)'}
+        ]
+    },
+    8: { // Chapter 8: Biodiversity Conservation
+        easy: [
+            {topic: 'Biodiversity', emoji: '🦁🐘', question: 'Many species exist on Earth.', options: ['True', 'False'], correct: 0},
+            {topic: 'Biodiversity', emoji: '🌳🦋', question: 'Forests have many animals.', options: ['True', 'False'], correct: 0},
+            {topic: 'Biodiversity', emoji: '🌍💚', question: 'Biodiversity is important.', options: ['True', 'False'], correct: 0},
+            {topic: 'Biodiversity', emoji: '🐼⚠️', question: 'Some animals are endangered.', options: ['True', 'False'], correct: 0},
+            {topic: 'Biodiversity', emoji: '🌊🐠', question: 'Oceans have diverse life.', options: ['True', 'False'], correct: 0},
+            {topic: 'Biodiversity', emoji: '🦅🦉', question: 'Birds are important for ecosystems.', options: ['True', 'False'], correct: 0},
+            {topic: 'Biodiversity', emoji: '🌺🌸', question: 'Plants provide food and oxygen.', options: ['True', 'False'], correct: 0},
+            {topic: 'Biodiversity', emoji: '🐝🦋', question: 'Insects pollinate plants.', options: ['True', 'False'], correct: 0},
+            {topic: 'Biodiversity', emoji: '🏞️🌲', question: 'National parks protect wildlife.', options: ['True', 'False'], correct: 0},
+            {topic: 'Biodiversity', emoji: '🌍🔗', question: 'All life is connected.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Biodiversity', emoji: '🦁🐘', question: 'What does the term biodiversity mean?', options: ['Variety of life', 'One species'], correct: 0},
+            {topic: 'Biodiversity', emoji: '🌳🦋', question: 'What is habitat?', options: ["Where species lives", 'Food type'], correct: 0},
+            {topic: 'Biodiversity', emoji: '🌍💚', question: 'Why is biodiversity important?', options: ['Ecosystem stability', 'No importance'], correct: 0},
+            {topic: 'Biodiversity', emoji: '🐼⚠️', question: 'What is an endangered species?', options: ['Risk of extinction', 'Very common'], correct: 0},
+            {topic: 'Biodiversity', emoji: '🌊🐠', question: 'What does marine biodiversity refer to?', options: ['Ocean life variety', 'Land animals'], correct: 0},
+            {topic: 'Biodiversity', emoji: '🦅🦉', question: 'What is a species?', options: ['Group that can breed', 'Any animal'], correct: 0},
+            {topic: 'Biodiversity', emoji: '🌺🌸', question: 'What is endemic species?', options: ['Found only in one place', 'Everywhere'], correct: 0},
+            {topic: 'Biodiversity', emoji: '🐝🦋', question: 'What is a pollinator?', options: ['Helps plant reproduction', 'Eats plants'], correct: 0},
+            {topic: 'Biodiversity', emoji: '🏞️🌲', question: 'What is a protected area?', options: ['Conservation zone', 'Shopping mall'], correct: 0},
+            {topic: 'Biodiversity', emoji: '🌍🔗', question: 'Define an ecosystem', options: ['Living things interact', 'One animal'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Biodiversity', emoji: '🦁🐘', question: 'How many species exist on Earth?', options: ['~8-9 million', '1000', '100 billion'], correct: 0},
+            {topic: 'Biodiversity', emoji: '🌳🦋', question: 'What is habitat fragmentation?', options: ['Breaking up habitats', 'Connecting habitats', 'No change'], correct: 0},
+            {topic: 'Biodiversity', emoji: '🌍💚', question: 'What are biodiversity hotspots?', options: ['High species richness areas', 'Low diversity', 'Empty zones'], correct: 0},
+            {topic: 'Biodiversity', emoji: '🐼⚠️', question: 'What is the IUCN Red List?', options: ['Threatened species list', 'Shopping list', 'Color chart'], correct: 0},
+            {topic: 'Biodiversity', emoji: '🌊🐠', question: 'What percentage of species are in oceans?', options: ['~50-80%', '1%', '100%'], correct: 0},
+            {topic: 'Biodiversity', emoji: '🦅🦉', question: 'What is genetic diversity?', options: ['Variation within species', 'Same DNA', 'No variation'], correct: 0},
+            {topic: 'Biodiversity', emoji: '🌺🌸', question: 'What is the main threat to biodiversity?', options: ['Habitat loss', 'Too many animals', 'Too much rain'], correct: 0},
+            {topic: 'Biodiversity', emoji: '🐝🦋', question: 'What percentage of plant species need pollinators?', options: ['~90%', '10%', '0%'], correct: 0},
+            {topic: 'Biodiversity', emoji: '🏞️🌲', question: 'What is in-situ conservation?', options: ['Protect in natural habitat', 'Zoo only', 'Laboratory'], correct: 0},
+            {topic: 'Biodiversity', emoji: '🌍🔗', question: 'What is the sixth mass extinction?', options: ['Current biodiversity crisis', 'Past event', 'Future possibility'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Biodiversity', emoji: '🦁🐘', question: 'What is the current extinction rate compared to background?', options: ['100-1000x higher', 'Same', '2x', '10x'], correct: 0},
+            {topic: 'Biodiversity', emoji: '🌳🦋', question: 'What is edge effect in ecology?', options: ['Habitat boundary impacts', 'Center areas', 'No effect', 'Weather pattern'], correct: 0},
+            {topic: 'Biodiversity', emoji: '🌍💚', question: 'How many biodiversity hotspots exist?', options: ['36', '5', '100', '3'], correct: 0},
+            {topic: 'Biodiversity', emoji: '🐼⚠️', question: 'What is ex-situ conservation?', options: ['Outside natural habitat', 'In wild', 'No conservation', 'Destruction'], correct: 0},
+            {topic: 'Biodiversity', emoji: '🌊🐠', question: 'What is the Coral Triangle?', options: ['Marine biodiversity center', 'Shape only', 'Empty ocean', 'One reef'], correct: 0},
+            {topic: 'Biodiversity', emoji: '🦅🦉', question: 'What is taxonomic diversity?', options: ['Variety of taxonomic groups', 'One group', 'No groups', 'Name only'], correct: 0},
+            {topic: 'Biodiversity', emoji: '🌺🌸', question: 'What is island biogeography?', options: ['Species-area relationship', 'Vacation spots', 'No theory', 'Weather study'], correct: 0},
+            {topic: 'Biodiversity', emoji: '🐝🦋', question: 'What is colony collapse disorder?', options: ['Bee hive die-off', 'Ant problem', 'Plant disease', 'Weather event'], correct: 0},
+            {topic: 'Biodiversity', emoji: '🏞️🌲', question: 'What percentage of land is protected globally?', options: ['~15%', '50%', '1%', '90%'], correct: 0},
+            {topic: 'Biodiversity', emoji: '🌍🔗', question: 'What is the Convention on Biological Diversity?', options: ['International treaty', 'Book', 'Company', 'Animal'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Biodiversity', emoji: '🦁🐘', question: 'Name three levels of biodiversity', answer: 'Genetic, Species, Ecosystem'},
+            {topic: 'Biodiversity', emoji: '🌳🦋', question: 'Name three causes of habitat loss', answer: 'Deforestation, Urbanization, Agriculture, Mining (any 3)'},
+            {topic: 'Biodiversity', emoji: '🌍💚', question: 'Name three ecosystem services from biodiversity', answer: 'Pollination, Water purification, Climate regulation, Food (any 3)'},
+            {topic: 'Biodiversity', emoji: '🐼⚠️', question: 'Name three endangered species', answer: 'Tigers, Rhinos, Elephants, Pandas, Gorillas, Whales (any 3)'},
+            {topic: 'Biodiversity', emoji: '🌊🐠', question: 'Name three threats to marine biodiversity', answer: 'Overfishing, Pollution, Climate change, Acidification (any 3)'},
+            {topic: 'Biodiversity', emoji: '🦅🦉', question: 'Name three conservation strategies', answer: 'Protected areas, Breeding programs, Habitat restoration, Anti-poaching (any 3)'},
+            {topic: 'Biodiversity', emoji: '🌺🌸', question: 'Name three biodiversity hotspots', answer: 'Amazon, Madagascar, Southeast Asia, Mediterranean, Caribbean (any 3)'},
+            {topic: 'Biodiversity', emoji: '🐝🦋', question: 'Name three important pollinators', answer: 'Bees, Butterflies, Birds, Bats, Moths (any 3)'},
+            {topic: 'Biodiversity', emoji: '🏞️🌲', question: 'Name three types of protected areas', answer: 'National parks, Wildlife sanctuaries, Marine reserves, Biosphere reserves (any 3)'},
+            {topic: 'Biodiversity', emoji: '🌍🔗', question: 'Name three benefits of biodiversity', answer: 'Ecosystem resilience, Medicine sources, Food security, Economic value (any 3)'}
+        ]
+    },
+    9: { // Chapter 9: Air Quality
+        easy: [
+            {topic: 'Air', emoji: '💨🌍', question: 'Air is essential for life.', options: ['True', 'False'], correct: 0},
+            {topic: 'Air', emoji: '🏭💨', question: 'Factories pollute air.', options: ['True', 'False'], correct: 0},
+            {topic: 'Air', emoji: '🚗💨', question: 'Cars emit pollution.', options: ['True', 'False'], correct: 0},
+            {topic: 'Air', emoji: '🌳💚', question: 'Trees clean the air.', options: ['True', 'False'], correct: 0},
+            {topic: 'Air', emoji: '🏙️🌫️', question: 'Smog is harmful.', options: ['True', 'False'], correct: 0},
+            {topic: 'Air', emoji: '😷🤧', question: 'Air pollution affects health.', options: ['True', 'False'], correct: 0},
+            {topic: 'Air', emoji: '🌬️☁️', question: 'Wind moves pollution.', options: ['True', 'False'], correct: 0},
+            {topic: 'Air', emoji: '🏠💨', question: 'Indoor air can be polluted.', options: ['True', 'False'], correct: 0},
+            {topic: 'Air', emoji: '🔥💨', question: 'Burning things pollutes air.', options: ['True', 'False'], correct: 0},
+            {topic: 'Air', emoji: '🌍💚', question: 'Clean air is a right.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Air', emoji: '💨🌍', question: 'What is air quality?', options: ['Condition of air', 'Temperature'], correct: 0},
+            {topic: 'Air', emoji: '🏭💨', question: 'What is industrial emission?', options: ['Pollutants from factories', 'Natural air'], correct: 0},
+            {topic: 'Air', emoji: '🚗💨', question: 'What is vehicular pollution?', options: ['Exhaust from vehicles', 'Clean air'], correct: 0},
+            {topic: 'Air', emoji: '🌳💚', question: 'How do trees help air quality?', options: ['Absorb pollutants, produce oxygen', 'Create pollution'], correct: 0},
+            {topic: 'Air', emoji: '🏙️🌫️', question: 'What is smog?', options: ['Fog mixed with pollution', 'Clean mist'], correct: 0},
+            {topic: 'Air', emoji: '😷🤧', question: 'What health issues from air pollution?', options: ['Respiratory, heart disease', 'Perfect health'], correct: 0},
+            {topic: 'Air', emoji: '🌬️☁️', question: 'What is atmospheric circulation?', options: ['Air movement patterns', 'Stationary air'], correct: 0},
+            {topic: 'Air', emoji: '🏠💨', question: 'What is indoor air pollution?', options: ['Contaminants inside buildings', 'Outside only'], correct: 0},
+            {topic: 'Air', emoji: '🔥💨', question: 'What is biomass burning?', options: ['Wood, crop burning', 'No burning'], correct: 0},
+            {topic: 'Air', emoji: '🌍💚', question: 'What is the Clean Air Act?', options: ['US air quality law', 'Car brand'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Air', emoji: '💨🌍', question: 'What is the Air Quality Index?', options: ['Pollution level measure', 'Temperature', 'Humidity'], correct: 0},
+            {topic: 'Air', emoji: '🏭💨', question: 'What does PM2.5 measure?', options: ['Fine particles <2.5 microns', 'Time', 'Temperature'], correct: 0},
+            {topic: 'Air', emoji: '🚗💨', question: 'What is the main car pollutant?', options: ['Nitrogen oxides', 'Water', 'Oxygen'], correct: 0},
+            {topic: 'Air', emoji: '🌳💚', question: 'What is the urban heat island effect?', options: ['Cities hotter than surroundings', 'Cooler cities', 'No difference'], correct: 0},
+            {topic: 'Air', emoji: '🏙️🌫️', question: 'What causes photochemical smog?', options: ['Sunlight on pollutants', 'Rain', 'Snow'], correct: 0},
+            {topic: 'Air', emoji: '😷🤧', question: 'How many die from air pollution yearly?', options: ['~7 million', '1000', '100'], correct: 0},
+            {topic: 'Air', emoji: '🌬️☁️', question: 'What is transboundary pollution?', options: ['Crosses borders', 'Stays local', 'No movement'], correct: 0},
+            {topic: 'Air', emoji: '🏠💨', question: 'What is volatile organic compound?', options: ['Evaporates easily', 'Solid', 'Water'], correct: 0},
+            {topic: 'Air', emoji: '🔥💨', question: 'What is black carbon?', options: ['Soot from burning', 'Clean air', 'Oxygen'], correct: 0},
+            {topic: 'Air', emoji: '🌍💚', question: 'What is emission standard?', options: ['Legal pollution limit', 'No limit', 'Infinite'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Air', emoji: '💨🌍', question: 'What AQI value is considered unhealthy?', options: ['151-200', '0-50', '51-100', '500+'], correct: 0},
+            {topic: 'Air', emoji: '🏭💨', question: 'What is a scrubber in industry?', options: ['Pollution control device', 'Cleaning tool', 'Worker', 'Product'], correct: 0},
+            {topic: 'Air', emoji: '🚗💨', question: 'What is catalytic converter?', options: ['Reduces vehicle emissions', 'Increases power', 'Fuel tank', 'Radio'], correct: 0},
+            {topic: 'Air', emoji: '🌳💚', question: 'How much CO2 does a tree absorb yearly?', options: ['~48 lbs', '1 lb', '1000 lbs', '0 lbs'], correct: 0},
+            {topic: 'Air', emoji: '🏙️🌫️', question: 'What is the Great Smog of London?', options: ['1952 deadly fog event', 'Modern issue', 'Myth', 'Weather'], correct: 0},
+            {topic: 'Air', emoji: '😷🤧', question: 'What is the leading air pollution health risk?', options: ['PM2.5 exposure', 'Noise', 'Light', 'Temperature'], correct: 0},
+            {topic: 'Air', emoji: '🌬️☁️', question: 'What is atmospheric inversion?', options: ['Warm air traps cool air', 'Normal flow', 'No air', 'Wind'], correct: 0},
+            {topic: 'Air', emoji: '🏠💨', question: 'What is sick building syndrome?', options: ['Health issues from indoor air', 'Structural damage', 'Old building', 'Paint color'], correct: 0},
+            {topic: 'Air', emoji: '🔥💨', question: 'What percentage of pollution from biomass burning?', options: ['~25% globally', '1%', '90%', '0%'], correct: 0},
+            {topic: 'Air', emoji: '🌍💚', question: 'What is the National Ambient Air Quality Standards?', options: ['US EPA air limits', 'Temperature standard', 'Music', 'Food rule'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Air', emoji: '💨🌍', question: 'Name the six criteria air pollutants (US EPA)', answer: 'PM, Ozone, CO, SO2, NO2, Lead'},
+            {topic: 'Air', emoji: '🏭💨', question: 'Name three industrial air pollutants', answer: 'Sulfur dioxide, Nitrogen oxides, Particulates, VOCs (any 3)'},
+            {topic: 'Air', emoji: '🚗💨', question: 'Name three strategies to reduce vehicle emissions', answer: 'Electric vehicles, Public transit, Catalytic converters, Carpooling (any 3)'},
+            {topic: 'Air', emoji: '🌳💚', question: 'Name three ways plants improve air quality', answer: 'Absorb CO2, Produce oxygen, Filter particles, Cool air (any 3)'},
+            {topic: 'Air', emoji: '🏙️🌫️', question: 'Name three cities with worst air quality', answer: 'Delhi, Beijing, Los Angeles, Mexico City, Dhaka (any 3)'},
+            {topic: 'Air', emoji: '😷🤧', question: 'Name three health effects of air pollution', answer: 'Asthma, Heart disease, Lung cancer, Stroke (any 3)'},
+            {topic: 'Air', emoji: '🌬️☁️', question: 'Name three factors affecting air dispersion', answer: 'Wind speed, Temperature inversion, Topography, Humidity (any 3)'},
+            {topic: 'Air', emoji: '🏠💨', question: 'Name three indoor air pollutants', answer: 'Radon, Mold, VOCs, CO, Tobacco smoke (any 3)'},
+            {topic: 'Air', emoji: '🔥💨', question: 'Name three sources of particulate matter', answer: 'Vehicles, Industry, Burning, Dust, Construction (any 3)'},
+            {topic: 'Air', emoji: '🌍💚', question: 'Name three air quality monitoring methods', answer: 'Ground stations, Satellites, Sensors, Air sampling (any 3)'}
+        ]
+    },
+    10: { // Chapter 10: Carbon Footprint
+        easy: [
+            {topic: 'Carbon', emoji: '👣💨', question: 'Carbon footprint measures emissions.', options: ['True', 'False'], correct: 0},
+            {topic: 'Carbon', emoji: '🚗💨', question: 'Driving increases carbon footprint.', options: ['True', 'False'], correct: 0},
+            {topic: 'Carbon', emoji: '🏠⚡', question: 'Electricity use creates emissions.', options: ['True', 'False'], correct: 0},
+            {topic: 'Carbon', emoji: '✈️💨', question: 'Flying produces a lot of CO2.', options: ['True', 'False'], correct: 0},
+            {topic: 'Carbon', emoji: '🥩🍔', question: 'Meat has high carbon footprint.', options: ['True', 'False'], correct: 0},
+            {topic: 'Carbon', emoji: '♻️💚', question: 'Recycling reduces footprint.', options: ['True', 'False'], correct: 0},
+            {topic: 'Carbon', emoji: '🌳🌲', question: 'Trees absorb carbon.', options: ['True', 'False'], correct: 0},
+            {topic: 'Carbon', emoji: '💡⚡', question: 'LED bulbs save energy.', options: ['True', 'False'], correct: 0},
+            {topic: 'Carbon', emoji: '🚴‍♂️💚', question: 'Biking has low footprint.', options: ['True', 'False'], correct: 0},
+            {topic: 'Carbon', emoji: '🌍💚', question: 'We can reduce our footprint.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Carbon', emoji: '👣💨', question: 'What does carbon footprint measure?', options: ['Total CO2 emissions', 'Shoe size'], correct: 0},
+            {topic: 'Carbon', emoji: '🚗💨', question: 'What is carbon offset?', options: ['Compensate for emissions', 'Increase emissions'], correct: 0},
+            {topic: 'Carbon', emoji: '🏠⚡', question: 'What uses most home energy?', options: ['Heating and cooling', 'TV'], correct: 0},
+            {topic: 'Carbon', emoji: '✈️💨', question: 'How much CO2 per flight mile?', options: ['~0.4 kg', '0.01 kg'], correct: 0},
+            {topic: 'Carbon', emoji: '🥩🍔', question: 'Why is beef high footprint?', options: ['Methane from cows', 'Low emissions'], correct: 0},
+            {topic: 'Carbon', emoji: '♻️💚', question: 'How does recycling help?', options: ['Saves energy, reduces production', 'No benefit'], correct: 0},
+            {topic: 'Carbon', emoji: '🌳🌲', question: 'What does carbon sequestration do?', options: ['Capturing and storing CO2', 'Releasing CO2'], correct: 0},
+            {topic: 'Carbon', emoji: '💡⚡', question: 'How much energy do LEDs save?', options: ['75% vs incandescent', '10%'], correct: 0},
+            {topic: 'Carbon', emoji: '🚴‍♂️💚', question: 'What is sustainable transport?', options: ['Low-emission travel', 'Any travel'], correct: 0},
+            {topic: 'Carbon', emoji: '🌍💚', question: 'What is carbon neutrality?', options: ['Net zero emissions', 'High emissions'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Carbon', emoji: '👣💨', question: 'What is average US carbon footprint?', options: ['~16 tons per year', '1 ton', '100 tons'], correct: 0},
+            {topic: 'Carbon', emoji: '🚗💨', question: 'What is scope 1, 2, 3 emissions?', options: ['Direct, indirect, supply chain', 'Past, present, future'], correct: 0},
+            {topic: 'Carbon', emoji: '🏠⚡', question: 'What is embodied carbon?', options: ['Emissions to make product', 'Future emissions', 'No emissions'], correct: 0},
+            {topic: 'Carbon', emoji: '✈️💨', question: 'What is radiative forcing from aviation?', options: ['Extra warming at altitude', 'Cooling effect', 'No effect'], correct: 0},
+            {topic: 'Carbon', emoji: '🥩🍔', question: 'How much more emissions: beef vs beans?', options: ['~20x more', 'Same', 'Less'], correct: 0},
+            {topic: 'Carbon', emoji: '♻️💚', question: 'What does circular economy aim for?', options: ['Eliminate waste', 'Linear use', 'Disposable'], correct: 0},
+            {topic: 'Carbon', emoji: '🌳🌲', question: 'How much CO2 does a tree absorb lifetime?', options: ['~1 ton', '10 kg', '100 tons'], correct: 0},
+            {topic: 'Carbon', emoji: '💡⚡', question: 'What is energy efficiency rating?', options: ['Energy use performance', 'Color', 'Price'], correct: 0},
+            {topic: 'Carbon', emoji: '🚴‍♂️💚', question: 'What is modal shift?', options: ['Change transport mode', 'Gear shift', 'No change'], correct: 0},
+            {topic: 'Carbon', emoji: '🌍💚', question: 'What is the 2-ton challenge?', options: ['Personal footprint goal', 'Weight loss', 'Lifting'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Carbon', emoji: '👣💨', question: 'What is life cycle assessment?', options: ['Total environmental impact', 'Age measurement', 'Biography', 'Health check'], correct: 0},
+            {topic: 'Carbon', emoji: '🚗💨', question: 'What is the EPA emission factor for gasoline?', options: ['~8.9 kg CO2/gallon', '1 kg', '100 kg', '0.1 kg'], correct: 0},
+            {topic: 'Carbon', emoji: '🏠⚡', question: 'What is Passivhaus standard?', options: ['Ultra-low energy building', 'Normal house', 'Abandoned', 'Factory'], correct: 0},
+            {topic: 'Carbon', emoji: '✈️💨', question: 'What percentage of global emissions from aviation?', options: ['~2-3%', '50%', '0.1%', '75%'], correct: 0},
+            {topic: 'Carbon', emoji: '🥩🍔', question: 'What is the carbon intensity of beef?', options: ['~27 kg CO2/kg', '1 kg', '100 kg', '0.1 kg'], correct: 0},
+            {topic: 'Carbon', emoji: '♻️💚', question: 'What is industrial symbiosis?', options: ['Waste = resource', 'Competition', 'No interaction', 'Conflict'], correct: 0},
+            {topic: 'Carbon', emoji: '🌳🌲', question: 'What is blue carbon?', options: ['Ocean/coastal carbon storage', 'Sky color', 'Lake', 'Ice'], correct: 0},
+            {topic: 'Carbon', emoji: '💡⚡', question: 'What is demand-side management?', options: ['Optimize energy consumption', 'Supply only', 'Ignore demand', 'Maximum use'], correct: 0},
+            {topic: 'Carbon', emoji: '🚴‍♂️💚', question: 'What is mobility as a service?', options: ['Integrated transport options', 'Car ownership', 'One mode only', 'No transport'], correct: 0},
+            {topic: 'Carbon', emoji: '🌍💚', question: 'What is science-based target?', options: ['Emission goal aligned with climate', 'Random number', 'No target', 'Marketing'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Carbon', emoji: '👣💨', question: 'Calculate CO2 from 100-mile car trip (25 mpg)', answer: '~35.6 kg CO2 (100 miles / 25 mpg × 8.9 kg/gal)'},
+            {topic: 'Carbon', emoji: '🚗💨', question: 'Name three ways to reduce transportation footprint', answer: 'Public transit, Carpool, Electric vehicle, Bike, Walk (any 3)'},
+            {topic: 'Carbon', emoji: '🏠⚡', question: 'Name three home energy efficiency upgrades', answer: 'Insulation, LED bulbs, Efficient appliances, Solar panels (any 3)'},
+            {topic: 'Carbon', emoji: '✈️💨', question: 'Name three alternatives to flying', answer: 'Train, Video conference, Drive, Bus (any 3)'},
+            {topic: 'Carbon', emoji: '🥩🍔', question: 'Name three low-carbon protein sources', answer: 'Beans, Lentils, Tofu, Nuts, Eggs (any 3)'},
+            {topic: 'Carbon', emoji: '♻️💚', question: 'Name three Rs to reduce footprint', answer: 'Reduce, Reuse, Recycle, Refuse, Repair (any 3)'},
+            {topic: 'Carbon', emoji: '🌳🌲', question: 'Name three carbon sequestration methods', answer: 'Reforestation, Soil management, Ocean fertilization, Direct air capture (any 3)'},
+            {topic: 'Carbon', emoji: '💡⚡', question: 'List three renewable energy types', answer: 'Solar, Wind, Hydro, Geothermal, Biomass (any 3)'},
+            {topic: 'Carbon', emoji: '🚴‍♂️💚', question: 'Rank by carbon footprint: car, bus, train, bike', answer: 'Car highest, Bus, Train, Bike lowest (zero)'},
+            {topic: 'Carbon', emoji: '🌍💚', question: 'List three major emission sectors', answer: 'Energy, Transportation, Industry, Agriculture (any 3)'}
+        ]
+    },
+    11: { // Chapter 11: Ocean Conservation
+        easy: [
+            {topic: 'Ocean', emoji: '🌊💙', question: 'Oceans cover most of Earth.', options: ['True', 'False'], correct: 0},
+            {topic: 'Ocean', emoji: '🐟🐠', question: 'Fish live in the ocean.', options: ['True', 'False'], correct: 0},
+            {topic: 'Ocean', emoji: '🗑️🌊', question: 'Plastic pollutes oceans.', options: ['True', 'False'], correct: 0},
+            {topic: 'Ocean', emoji: '🐢🐙', question: 'Marine life is diverse.', options: ['True', 'False'], correct: 0},
+            {topic: 'Ocean', emoji: '🪸🐠', question: 'Coral reefs are important.', options: ['True', 'False'], correct: 0},
+            {topic: 'Ocean', emoji: '🌊🌡️', question: 'Oceans are getting warmer.', options: ['True', 'False'], correct: 0},
+            {topic: 'Ocean', emoji: '🎣⚠️', question: 'Overfishing is a problem.', options: ['True', 'False'], correct: 0},
+            {topic: 'Ocean', emoji: '🌊💚', question: 'We should protect oceans.', options: ['True', 'False'], correct: 0},
+            {topic: 'Ocean', emoji: '🐋🐬', question: 'Whales and dolphins are mammals.', options: ['True', 'False'], correct: 0},
+            {topic: 'Ocean', emoji: '🌊☀️', question: 'Oceans affect climate.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Ocean', emoji: '🌊💙', question: 'What percentage of Earth is ocean?', options: ['~70%', '30%'], correct: 0},
+            {topic: 'Ocean', emoji: '🐟🐠', question: 'What is marine biodiversity?', options: ['Variety of ocean life', 'One species'], correct: 0},
+            {topic: 'Ocean', emoji: '🗑️🌊', question: 'What does marine debris refer to?', options: ['Trash in oceans', 'Natural seaweed'], correct: 0},
+            {topic: 'Ocean', emoji: '🐢🐙', question: 'What causes ocean acidification?', options: ['Ocean becoming acidic', 'Ocean getting salty'], correct: 0},
+            {topic: 'Ocean', emoji: '🪸🐠', question: 'What are coral reefs?', options: ['Underwater ecosystems', 'Rocks only'], correct: 0},
+            {topic: 'Ocean', emoji: '🌊🌡️', question: 'Why are oceans warming?', options: ['Climate change', 'Natural only'], correct: 0},
+            {topic: 'Ocean', emoji: '🎣⚠️', question: 'What is overfishing?', options: ['Taking too many fish', 'Not enough fishing'], correct: 0},
+            {topic: 'Ocean', emoji: '🌊💚', question: 'What is marine protected area?', options: ['Conservation zone', 'Fishing zone'], correct: 0},
+            {topic: 'Ocean', emoji: '🐋🐬', question: 'Why protect marine mammals?', options: ['Endangered, ecosystem role', 'No reason'], correct: 0},
+            {topic: 'Ocean', emoji: '🌊☀️', question: 'How do oceans regulate climate?', options: ['Absorb heat and CO2', 'No effect'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Ocean', emoji: '🌊💙', question: 'How much oxygen is produced by oceans?', options: ['~50-80%', '5%', '100%'], correct: 0},
+            {topic: 'Ocean', emoji: '🐟🐠', question: 'What is the ocean twilight zone?', options: ['Mesopelagic layer', 'Surface only', 'Beach area'], correct: 0},
+            {topic: 'Ocean', emoji: '🗑️🌊', question: 'How much plastic enters oceans yearly?', options: ['8-12 million tons', '1 ton', '100 tons'], correct: 0},
+            {topic: 'Ocean', emoji: '🐢🐙', question: 'How much has ocean pH decreased?', options: ['0.1 units', '5 units', 'No change'], correct: 0},
+            {topic: 'Ocean', emoji: '🪸🐠', question: 'What percentage of coral reefs are threatened?', options: ['~75%', '10%', '100%'], correct: 0},
+            {topic: 'Ocean', emoji: '🌊🌡️', question: 'How much ocean heat has increased?', options: ['~90% of warming', '10%', '0%'], correct: 0},
+            {topic: 'Ocean', emoji: '🎣⚠️', question: 'What percentage of fish stocks are overfished?', options: ['~35%', '5%', '90%'], correct: 0},
+            {topic: 'Ocean', emoji: '🌊💚', question: 'What is the goal for marine protection?', options: ['30% by 2030', '5%', '100%'], correct: 0},
+            {topic: 'Ocean', emoji: '🐋🐬', question: 'What is bycatch?', options: ['Unintended catch', 'Target fish', 'No catch'], correct: 0},
+            {topic: 'Ocean', emoji: '🌊☀️', question: 'What is the thermohaline circulation?', options: ['Global ocean conveyor', 'Local current', 'No movement'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Ocean', emoji: '🌊💙', question: 'What is the average ocean depth?', options: ['~3,700 meters', '100 meters', '10,000 meters', '50 meters'], correct: 0},
+            {topic: 'Ocean', emoji: '🐟🐠', question: 'What is the Dead Zone?', options: ['Low oxygen area', 'Deep trench', 'Warm current', 'Reef'], correct: 0},
+            {topic: 'Ocean', emoji: '🗑️🌊', question: 'What is microplastic size?', options: ['<5mm', '<1cm', '<10cm', '<1m'], correct: 0},
+            {topic: 'Ocean', emoji: '🐢🐙', question: 'How much CO2 have oceans absorbed?', options: ['~30% of emissions', '5%', '90%', '0%'], correct: 0},
+            {topic: 'Ocean', emoji: '🪸🐠', question: 'What is coral bleaching?', options: ['Coral loses algae', 'Coral grows', 'Coral migrates', 'Coral eats'], correct: 0},
+            {topic: 'Ocean', emoji: '🌊🌡️', question: 'What is ocean stratification?', options: ['Layer separation', 'Mixed water', 'Freezing', 'Evaporation'], correct: 0},
+            {topic: 'Ocean', emoji: '🎣⚠️', question: 'What is IUU fishing?', options: ['Illegal, unreported, unregulated', 'Sustainable method', 'Sport fishing', 'No fishing'], correct: 0},
+            {topic: 'Ocean', emoji: '🌊💚', question: 'What is blue economy?', options: ['Sustainable ocean use', 'Deep sea mining', 'All extraction', 'No use'], correct: 0},
+            {topic: 'Ocean', emoji: '🐋🐬', question: 'What is the main threat to cetaceans?', options: ['Ship strikes and nets', 'Natural predators', 'Old age', 'Nothing'], correct: 0},
+            {topic: 'Ocean', emoji: '🌊☀️', question: 'What is El Niño?', options: ['Pacific warming pattern', 'Atlantic storm', 'Arctic ice', 'River flow'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Ocean', emoji: '🌊💙', question: 'Name the five ocean basins', answer: 'Pacific, Atlantic, Indian, Arctic, Southern'},
+            {topic: 'Ocean', emoji: '🐟🐠', question: 'Name three threats to marine life', answer: 'Pollution, Overfishing, Climate change, Habitat loss (any 3)'},
+            {topic: 'Ocean', emoji: '🗑️🌊', question: 'List three origins of ocean plastic', answer: 'Rivers, Fishing gear, Beaches, Ships, Landfills (any 3)'},
+            {topic: 'Ocean', emoji: '🐢🐙', question: 'Name three impacts of ocean acidification', answer: 'Shell dissolution, Coral damage, Food web disruption, Fish behavior (any 3)'},
+            {topic: 'Ocean', emoji: '🪸🐠', question: 'Name three types of coral reef ecosystems', answer: 'Fringing, Barrier, Atoll reefs'},
+            {topic: 'Ocean', emoji: '🌊🌡️', question: 'Name three consequences of ocean warming', answer: 'Sea level rise, Coral bleaching, Species migration, Storm intensity (any 3)'},
+            {topic: 'Ocean', emoji: '🎣⚠️', question: 'Name three sustainable fishing practices', answer: 'Catch limits, Marine reserves, Selective gear, Certification (any 3)'},
+            {topic: 'Ocean', emoji: '🌊💚', question: 'Name three ocean conservation strategies', answer: 'Marine protected areas, Sustainable fishing, Pollution reduction, Restoration (any 3)'},
+            {topic: 'Ocean', emoji: '🐋🐬', question: 'Name three endangered marine mammals', answer: 'Vaquita, Right whale, Monk seal, Manatee (any 3)'},
+            {topic: 'Ocean', emoji: '🌊☀️', question: 'Name three ocean currents', answer: 'Gulf Stream, Kuroshio, California, Antarctic Circumpolar (any 3)'}
+        ]
+    },
+    12: { // Chapter 12: Green Technology
+        easy: [
+            {topic: 'Technology', emoji: '💚📱', question: 'Green tech helps environment.', options: ['True', 'False'], correct: 0},
+            {topic: 'Technology', emoji: '☀️🔋', question: 'Solar panels make electricity.', options: ['True', 'False'], correct: 0},
+            {topic: 'Technology', emoji: '🚗⚡', question: 'Electric cars are cleaner.', options: ['True', 'False'], correct: 0},
+            {topic: 'Technology', emoji: '💡🌱', question: 'LED lights save energy.', options: ['True', 'False'], correct: 0},
+            {topic: 'Technology', emoji: '♻️💻', question: 'Electronics can be recycled.', options: ['True', 'False'], correct: 0},
+            {topic: 'Technology', emoji: '🏠🌿', question: 'Green buildings use less energy.', options: ['True', 'False'], correct: 0},
+            {topic: 'Technology', emoji: '💨⚡', question: 'Wind turbines generate power.', options: ['True', 'False'], correct: 0},
+            {topic: 'Technology', emoji: '🔋♻️', question: 'Batteries can be recharged.', options: ['True', 'False'], correct: 0},
+            {topic: 'Technology', emoji: '🌍💻', question: 'Technology can solve problems.', options: ['True', 'False'], correct: 0},
+            {topic: 'Technology', emoji: '📲💚', question: 'Apps can help sustainability.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Technology', emoji: '💚📱', question: 'What is green technology?', options: ['Eco-friendly innovation', 'Any technology'], correct: 0},
+            {topic: 'Technology', emoji: '☀️🔋', question: 'How do solar panels work?', options: ['Convert light to electricity', 'Store water'], correct: 0},
+            {topic: 'Technology', emoji: '🚗⚡', question: 'What is an EV?', options: ['Electric vehicle', 'Energy voltage'], correct: 0},
+            {topic: 'Technology', emoji: '💡🌱', question: 'What is smart home technology?', options: ['Automated efficiency', 'Regular home'], correct: 0},
+            {topic: 'Technology', emoji: '♻️💻', question: 'What is e-waste recycling?', options: ['Electronic waste recovery', 'Paper recycling'], correct: 0},
+            {topic: 'Technology', emoji: '🏠🌿', question: 'What is LEED certification?', options: ['Green building standard', 'Car rating'], correct: 0},
+            {topic: 'Technology', emoji: '💨⚡', question: 'What is wind energy capacity factor?', options: ['Average output percentage', 'Maximum size'], correct: 0},
+            {topic: 'Technology', emoji: '🔋♻️', question: 'What is battery recycling?', options: ['Recover materials', 'Throw away'], correct: 0},
+            {topic: 'Technology', emoji: '🌍💻', question: 'What is cleantech?', options: ['Clean technology sector', 'Cleaning tools'], correct: 0},
+            {topic: 'Technology', emoji: '📲💚', question: 'What is sustainable IT?', options: ['Eco-friendly computing', 'Any computer'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Technology', emoji: '💚📱', question: 'What is cradle-to-cradle design?', options: ['Circular product lifecycle', 'One-time use', 'Disposal focus'], correct: 0},
+            {topic: 'Technology', emoji: '☀️🔋', question: 'What is solar panel efficiency?', options: ['~15-22%', '90%', '5%'], correct: 0},
+            {topic: 'Technology', emoji: '🚗⚡', question: 'What is regenerative braking?', options: ['Recovers energy', 'Wastes energy', 'No braking'], correct: 0},
+            {topic: 'Technology', emoji: '💡🌱', question: 'What is the Internet of Things for environment?', options: ['Connected sensors', 'Regular internet', 'No connection'], correct: 0},
+            {topic: 'Technology', emoji: '♻️💻', question: 'What percentage of e-waste is properly recycled?', options: ['~20%', '90%', '100%'], correct: 0},
+            {topic: 'Technology', emoji: '🏠🌿', question: 'What is passive solar design?', options: ['Natural heating/cooling', 'Active systems only', 'No design'], correct: 0},
+            {topic: 'Technology', emoji: '💨⚡', question: 'What is offshore wind power?', options: ['Ocean-based turbines', 'Land turbines', 'No power'], correct: 0},
+            {topic: 'Technology', emoji: '🔋♻️', question: 'What is a lithium-ion battery?', options: ['Rechargeable battery type', 'Disposable', 'No battery'], correct: 0},
+            {topic: 'Technology', emoji: '🌍💻', question: 'What is carbon capture technology?', options: ['Removes CO2', 'Adds CO2', 'No effect'], correct: 0},
+            {topic: 'Technology', emoji: '📲💚', question: 'What is green computing?', options: ['Energy-efficient IT', 'Any computer use', 'No computing'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Technology', emoji: '💚📱', question: 'What is biomimicry in technology?', options: ['Nature-inspired design', 'Random design', 'Synthetic only', 'No inspiration'], correct: 0},
+            {topic: 'Technology', emoji: '☀️🔋', question: 'What is perovskite solar cell?', options: ['New solar technology', 'Old method', 'Not solar', 'Battery'], correct: 0},
+            {topic: 'Technology', emoji: '🚗⚡', question: 'What is battery electric vehicle range?', options: ['~200-400 miles typical', '10 miles', '2000 miles', 'Infinite'], correct: 0},
+            {topic: 'Technology', emoji: '💡🌱', question: 'What is smart grid technology?', options: ['Intelligent power distribution', 'Regular grid', 'No grid', 'Manual only'], correct: 0},
+            {topic: 'Technology', emoji: '♻️💻', question: 'What is urban mining for electronics?', options: ['Recovering metals from e-waste', 'Traditional mining', 'No mining', 'Coal mining'], correct: 0},
+            {topic: 'Technology', emoji: '🏠🌿', question: 'What is net-zero energy building?', options: ['Produces as much as uses', 'Uses more', 'No energy', 'Wastes energy'], correct: 0},
+            {topic: 'Technology', emoji: '💨⚡', question: 'What is capacity factor for wind?', options: ['~35% average', '100%', '5%', '90%'], correct: 0},
+            {topic: 'Technology', emoji: '🔋♻️', question: 'What is solid-state battery?', options: ['Next-gen battery tech', 'Liquid battery', 'Old technology', 'No battery'], correct: 0},
+            {topic: 'Technology', emoji: '🌍💻', question: 'What is direct air capture?', options: ['Remove CO2 from air', 'Add CO2', 'Capture water', 'No capture'], correct: 0},
+            {topic: 'Technology', emoji: '📲💚', question: 'What is data center PUE?', options: ['Power usage effectiveness', 'Price unit', 'Processing speed', 'Storage size'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Technology', emoji: '💚📱', question: 'Name three green technology sectors', answer: 'Renewable energy, Electric vehicles, Green building, Waste tech (any 3)'},
+            {topic: 'Technology', emoji: '☀️🔋', question: 'List three solar technology types', answer: 'Photovoltaic, Solar thermal, Concentrated solar power'},
+            {topic: 'Technology', emoji: '🚗⚡', question: 'Name three benefits of electric vehicles', answer: 'Zero emissions, Lower operating cost, Quiet, Efficient (any 3)'},
+            {topic: 'Technology', emoji: '💡🌱', question: 'Name three smart home energy features', answer: 'Smart thermostat, LED automation, Energy monitoring, Solar integration (any 3)'},
+            {topic: 'Technology', emoji: '♻️💻', question: 'Name three valuable materials in electronics', answer: 'Gold, Silver, Copper, Rare earths, Cobalt (any 3)'},
+            {topic: 'Technology', emoji: '🏠🌿', question: 'Name three green building features', answer: 'Solar panels, Insulation, Efficient HVAC, Green roof (any 3)'},
+            {topic: 'Technology', emoji: '💨⚡', question: 'Name three wind energy advantages', answer: 'Renewable, Clean, Cost-effective, Scalable (any 3)'},
+            {topic: 'Technology', emoji: '🔋♻️', question: 'Name three battery technologies', answer: 'Lithium-ion, Solid-state, Flow battery, Sodium-ion (any 3)'},
+            {topic: 'Technology', emoji: '🌍💻', question: 'Name three carbon removal technologies', answer: 'Direct air capture, Biochar, Ocean fertilization, Enhanced weathering (any 3)'},
+            {topic: 'Technology', emoji: '📲💚', question: 'Name three ways to reduce digital carbon footprint', answer: 'Efficient devices, Cloud optimization, Dark mode, Unsubscribe (any 3)'}
+        ]
+    },
 };

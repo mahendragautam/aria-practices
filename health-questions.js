@@ -380,4 +380,377 @@ const healthQuestions = {
             {topic: 'Nutrition', emoji: '🥗📊', question: 'Name three nutrition and diet plans items 10', answer: 'Item 1, Item 2, Item 3'}
         ]
     },
+
+    7: { // Chapter 7: Physical Fitness Training
+        easy: [
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Physical Fitness Training topic 1.', options: ['True', 'False'], correct: 0},
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Physical Fitness Training topic 2.', options: ['True', 'False'], correct: 0},
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Physical Fitness Training topic 3.', options: ['True', 'False'], correct: 0},
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Physical Fitness Training topic 4.', options: ['True', 'False'], correct: 0},
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Physical Fitness Training topic 5.', options: ['True', 'False'], correct: 0},
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Physical Fitness Training topic 6.', options: ['True', 'False'], correct: 0},
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Physical Fitness Training topic 7.', options: ['True', 'False'], correct: 0},
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Physical Fitness Training topic 8.', options: ['True', 'False'], correct: 0},
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Physical Fitness Training topic 9.', options: ['True', 'False'], correct: 0},
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Physical Fitness Training topic 10.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Physical Fitness Training question 1?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Physical Fitness Training question 2?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Physical Fitness Training question 3?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Physical Fitness Training question 4?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Physical Fitness Training question 5?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Physical Fitness Training question 6?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Physical Fitness Training question 7?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Physical Fitness Training question 8?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Physical Fitness Training question 9?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Physical Fitness Training question 10?', options: ['Option A', 'Option B'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Physical Fitness Training advanced question 1?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Physical Fitness Training advanced question 2?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Physical Fitness Training advanced question 3?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Physical Fitness Training advanced question 4?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Physical Fitness Training advanced question 5?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Physical Fitness Training advanced question 6?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Physical Fitness Training advanced question 7?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Physical Fitness Training advanced question 8?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Physical Fitness Training advanced question 9?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Physical Fitness Training advanced question 10?', options: ['A', 'B', 'C'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Physical Fitness Training expert question 1?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Physical Fitness Training expert question 2?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Physical Fitness Training expert question 3?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Physical Fitness Training expert question 4?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Physical Fitness Training expert question 5?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Physical Fitness Training expert question 6?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Physical Fitness Training expert question 7?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Physical Fitness Training expert question 8?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Physical Fitness Training expert question 9?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Physical Fitness Training expert question 10?', options: ['A', 'B', 'C', 'D'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Name three physical fitness training items 1', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Name three physical fitness training items 2', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Name three physical fitness training items 3', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Name three physical fitness training items 4', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Name three physical fitness training items 5', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Name three physical fitness training items 6', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Name three physical fitness training items 7', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Name three physical fitness training items 8', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Name three physical fitness training items 9', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Physical', emoji: '🏋️‍♀️💪', question: 'Name three physical fitness training items 10', answer: 'Item 1, Item 2, Item 3'}
+        ]
+    },
+    8: { // Chapter 8: First Aid and Safety
+        easy: [
+            {topic: 'First', emoji: '🚑⚕️', question: 'First Aid and Safety topic 1.', options: ['True', 'False'], correct: 0},
+            {topic: 'First', emoji: '🚑⚕️', question: 'First Aid and Safety topic 2.', options: ['True', 'False'], correct: 0},
+            {topic: 'First', emoji: '🚑⚕️', question: 'First Aid and Safety topic 3.', options: ['True', 'False'], correct: 0},
+            {topic: 'First', emoji: '🚑⚕️', question: 'First Aid and Safety topic 4.', options: ['True', 'False'], correct: 0},
+            {topic: 'First', emoji: '🚑⚕️', question: 'First Aid and Safety topic 5.', options: ['True', 'False'], correct: 0},
+            {topic: 'First', emoji: '🚑⚕️', question: 'First Aid and Safety topic 6.', options: ['True', 'False'], correct: 0},
+            {topic: 'First', emoji: '🚑⚕️', question: 'First Aid and Safety topic 7.', options: ['True', 'False'], correct: 0},
+            {topic: 'First', emoji: '🚑⚕️', question: 'First Aid and Safety topic 8.', options: ['True', 'False'], correct: 0},
+            {topic: 'First', emoji: '🚑⚕️', question: 'First Aid and Safety topic 9.', options: ['True', 'False'], correct: 0},
+            {topic: 'First', emoji: '🚑⚕️', question: 'First Aid and Safety topic 10.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'First', emoji: '🚑⚕️', question: 'First Aid and Safety question 1?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'First', emoji: '🚑⚕️', question: 'First Aid and Safety question 2?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'First', emoji: '🚑⚕️', question: 'First Aid and Safety question 3?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'First', emoji: '🚑⚕️', question: 'First Aid and Safety question 4?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'First', emoji: '🚑⚕️', question: 'First Aid and Safety question 5?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'First', emoji: '🚑⚕️', question: 'First Aid and Safety question 6?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'First', emoji: '🚑⚕️', question: 'First Aid and Safety question 7?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'First', emoji: '🚑⚕️', question: 'First Aid and Safety question 8?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'First', emoji: '🚑⚕️', question: 'First Aid and Safety question 9?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'First', emoji: '🚑⚕️', question: 'First Aid and Safety question 10?', options: ['Option A', 'Option B'], correct: 0}
+        ],
+        hard: [
+            {topic: 'First', emoji: '🚑⚕️', question: 'First Aid and Safety advanced question 1?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'First', emoji: '🚑⚕️', question: 'First Aid and Safety advanced question 2?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'First', emoji: '🚑⚕️', question: 'First Aid and Safety advanced question 3?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'First', emoji: '🚑⚕️', question: 'First Aid and Safety advanced question 4?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'First', emoji: '🚑⚕️', question: 'First Aid and Safety advanced question 5?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'First', emoji: '🚑⚕️', question: 'First Aid and Safety advanced question 6?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'First', emoji: '🚑⚕️', question: 'First Aid and Safety advanced question 7?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'First', emoji: '🚑⚕️', question: 'First Aid and Safety advanced question 8?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'First', emoji: '🚑⚕️', question: 'First Aid and Safety advanced question 9?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'First', emoji: '🚑⚕️', question: 'First Aid and Safety advanced question 10?', options: ['A', 'B', 'C'], correct: 0}
+        ],
+        expert: [
+            {topic: 'First', emoji: '🚑⚕️', question: 'First Aid and Safety expert question 1?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'First', emoji: '🚑⚕️', question: 'First Aid and Safety expert question 2?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'First', emoji: '🚑⚕️', question: 'First Aid and Safety expert question 3?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'First', emoji: '🚑⚕️', question: 'First Aid and Safety expert question 4?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'First', emoji: '🚑⚕️', question: 'First Aid and Safety expert question 5?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'First', emoji: '🚑⚕️', question: 'First Aid and Safety expert question 6?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'First', emoji: '🚑⚕️', question: 'First Aid and Safety expert question 7?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'First', emoji: '🚑⚕️', question: 'First Aid and Safety expert question 8?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'First', emoji: '🚑⚕️', question: 'First Aid and Safety expert question 9?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'First', emoji: '🚑⚕️', question: 'First Aid and Safety expert question 10?', options: ['A', 'B', 'C', 'D'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'First', emoji: '🚑⚕️', question: 'Name three first aid and safety items 1', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'First', emoji: '🚑⚕️', question: 'Name three first aid and safety items 2', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'First', emoji: '🚑⚕️', question: 'Name three first aid and safety items 3', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'First', emoji: '🚑⚕️', question: 'Name three first aid and safety items 4', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'First', emoji: '🚑⚕️', question: 'Name three first aid and safety items 5', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'First', emoji: '🚑⚕️', question: 'Name three first aid and safety items 6', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'First', emoji: '🚑⚕️', question: 'Name three first aid and safety items 7', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'First', emoji: '🚑⚕️', question: 'Name three first aid and safety items 8', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'First', emoji: '🚑⚕️', question: 'Name three first aid and safety items 9', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'First', emoji: '🚑⚕️', question: 'Name three first aid and safety items 10', answer: 'Item 1, Item 2, Item 3'}
+        ]
+    },
+    9: { // Chapter 9: Body Systems and Functions
+        easy: [
+            {topic: 'Body', emoji: '🫀🫁', question: 'Body Systems and Functions topic 1.', options: ['True', 'False'], correct: 0},
+            {topic: 'Body', emoji: '🫀🫁', question: 'Body Systems and Functions topic 2.', options: ['True', 'False'], correct: 0},
+            {topic: 'Body', emoji: '🫀🫁', question: 'Body Systems and Functions topic 3.', options: ['True', 'False'], correct: 0},
+            {topic: 'Body', emoji: '🫀🫁', question: 'Body Systems and Functions topic 4.', options: ['True', 'False'], correct: 0},
+            {topic: 'Body', emoji: '🫀🫁', question: 'Body Systems and Functions topic 5.', options: ['True', 'False'], correct: 0},
+            {topic: 'Body', emoji: '🫀🫁', question: 'Body Systems and Functions topic 6.', options: ['True', 'False'], correct: 0},
+            {topic: 'Body', emoji: '🫀🫁', question: 'Body Systems and Functions topic 7.', options: ['True', 'False'], correct: 0},
+            {topic: 'Body', emoji: '🫀🫁', question: 'Body Systems and Functions topic 8.', options: ['True', 'False'], correct: 0},
+            {topic: 'Body', emoji: '🫀🫁', question: 'Body Systems and Functions topic 9.', options: ['True', 'False'], correct: 0},
+            {topic: 'Body', emoji: '🫀🫁', question: 'Body Systems and Functions topic 10.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Body', emoji: '🫀🫁', question: 'Body Systems and Functions question 1?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Body', emoji: '🫀🫁', question: 'Body Systems and Functions question 2?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Body', emoji: '🫀🫁', question: 'Body Systems and Functions question 3?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Body', emoji: '🫀🫁', question: 'Body Systems and Functions question 4?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Body', emoji: '🫀🫁', question: 'Body Systems and Functions question 5?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Body', emoji: '🫀🫁', question: 'Body Systems and Functions question 6?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Body', emoji: '🫀🫁', question: 'Body Systems and Functions question 7?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Body', emoji: '🫀🫁', question: 'Body Systems and Functions question 8?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Body', emoji: '🫀🫁', question: 'Body Systems and Functions question 9?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Body', emoji: '🫀🫁', question: 'Body Systems and Functions question 10?', options: ['Option A', 'Option B'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Body', emoji: '🫀🫁', question: 'Body Systems and Functions advanced question 1?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Body', emoji: '🫀🫁', question: 'Body Systems and Functions advanced question 2?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Body', emoji: '🫀🫁', question: 'Body Systems and Functions advanced question 3?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Body', emoji: '🫀🫁', question: 'Body Systems and Functions advanced question 4?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Body', emoji: '🫀🫁', question: 'Body Systems and Functions advanced question 5?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Body', emoji: '🫀🫁', question: 'Body Systems and Functions advanced question 6?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Body', emoji: '🫀🫁', question: 'Body Systems and Functions advanced question 7?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Body', emoji: '🫀🫁', question: 'Body Systems and Functions advanced question 8?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Body', emoji: '🫀🫁', question: 'Body Systems and Functions advanced question 9?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Body', emoji: '🫀🫁', question: 'Body Systems and Functions advanced question 10?', options: ['A', 'B', 'C'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Body', emoji: '🫀🫁', question: 'Body Systems and Functions expert question 1?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Body', emoji: '🫀🫁', question: 'Body Systems and Functions expert question 2?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Body', emoji: '🫀🫁', question: 'Body Systems and Functions expert question 3?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Body', emoji: '🫀🫁', question: 'Body Systems and Functions expert question 4?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Body', emoji: '🫀🫁', question: 'Body Systems and Functions expert question 5?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Body', emoji: '🫀🫁', question: 'Body Systems and Functions expert question 6?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Body', emoji: '🫀🫁', question: 'Body Systems and Functions expert question 7?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Body', emoji: '🫀🫁', question: 'Body Systems and Functions expert question 8?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Body', emoji: '🫀🫁', question: 'Body Systems and Functions expert question 9?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Body', emoji: '🫀🫁', question: 'Body Systems and Functions expert question 10?', options: ['A', 'B', 'C', 'D'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Body', emoji: '🫀🫁', question: 'Name three body systems and functions items 1', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Body', emoji: '🫀🫁', question: 'Name three body systems and functions items 2', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Body', emoji: '🫀🫁', question: 'Name three body systems and functions items 3', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Body', emoji: '🫀🫁', question: 'Name three body systems and functions items 4', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Body', emoji: '🫀🫁', question: 'Name three body systems and functions items 5', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Body', emoji: '🫀🫁', question: 'Name three body systems and functions items 6', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Body', emoji: '🫀🫁', question: 'Name three body systems and functions items 7', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Body', emoji: '🫀🫁', question: 'Name three body systems and functions items 8', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Body', emoji: '🫀🫁', question: 'Name three body systems and functions items 9', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Body', emoji: '🫀🫁', question: 'Name three body systems and functions items 10', answer: 'Item 1, Item 2, Item 3'}
+        ]
+    },
+    10: { // Chapter 10: Healthy Lifestyle Habits
+        easy: [
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Healthy Lifestyle Habits topic 1.', options: ['True', 'False'], correct: 0},
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Healthy Lifestyle Habits topic 2.', options: ['True', 'False'], correct: 0},
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Healthy Lifestyle Habits topic 3.', options: ['True', 'False'], correct: 0},
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Healthy Lifestyle Habits topic 4.', options: ['True', 'False'], correct: 0},
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Healthy Lifestyle Habits topic 5.', options: ['True', 'False'], correct: 0},
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Healthy Lifestyle Habits topic 6.', options: ['True', 'False'], correct: 0},
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Healthy Lifestyle Habits topic 7.', options: ['True', 'False'], correct: 0},
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Healthy Lifestyle Habits topic 8.', options: ['True', 'False'], correct: 0},
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Healthy Lifestyle Habits topic 9.', options: ['True', 'False'], correct: 0},
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Healthy Lifestyle Habits topic 10.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Healthy Lifestyle Habits question 1?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Healthy Lifestyle Habits question 2?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Healthy Lifestyle Habits question 3?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Healthy Lifestyle Habits question 4?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Healthy Lifestyle Habits question 5?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Healthy Lifestyle Habits question 6?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Healthy Lifestyle Habits question 7?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Healthy Lifestyle Habits question 8?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Healthy Lifestyle Habits question 9?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Healthy Lifestyle Habits question 10?', options: ['Option A', 'Option B'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Healthy Lifestyle Habits advanced question 1?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Healthy Lifestyle Habits advanced question 2?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Healthy Lifestyle Habits advanced question 3?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Healthy Lifestyle Habits advanced question 4?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Healthy Lifestyle Habits advanced question 5?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Healthy Lifestyle Habits advanced question 6?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Healthy Lifestyle Habits advanced question 7?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Healthy Lifestyle Habits advanced question 8?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Healthy Lifestyle Habits advanced question 9?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Healthy Lifestyle Habits advanced question 10?', options: ['A', 'B', 'C'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Healthy Lifestyle Habits expert question 1?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Healthy Lifestyle Habits expert question 2?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Healthy Lifestyle Habits expert question 3?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Healthy Lifestyle Habits expert question 4?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Healthy Lifestyle Habits expert question 5?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Healthy Lifestyle Habits expert question 6?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Healthy Lifestyle Habits expert question 7?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Healthy Lifestyle Habits expert question 8?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Healthy Lifestyle Habits expert question 9?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Healthy Lifestyle Habits expert question 10?', options: ['A', 'B', 'C', 'D'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Name three healthy lifestyle habits items 1', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Name three healthy lifestyle habits items 2', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Name three healthy lifestyle habits items 3', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Name three healthy lifestyle habits items 4', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Name three healthy lifestyle habits items 5', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Name three healthy lifestyle habits items 6', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Name three healthy lifestyle habits items 7', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Name three healthy lifestyle habits items 8', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Name three healthy lifestyle habits items 9', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Healthy', emoji: '🌟💚', question: 'Name three healthy lifestyle habits items 10', answer: 'Item 1, Item 2, Item 3'}
+        ]
+    },
+    11: { // Chapter 11: Stress Management
+        easy: [
+            {topic: 'Stress', emoji: '😌🧘', question: 'Stress Management topic 1.', options: ['True', 'False'], correct: 0},
+            {topic: 'Stress', emoji: '😌🧘', question: 'Stress Management topic 2.', options: ['True', 'False'], correct: 0},
+            {topic: 'Stress', emoji: '😌🧘', question: 'Stress Management topic 3.', options: ['True', 'False'], correct: 0},
+            {topic: 'Stress', emoji: '😌🧘', question: 'Stress Management topic 4.', options: ['True', 'False'], correct: 0},
+            {topic: 'Stress', emoji: '😌🧘', question: 'Stress Management topic 5.', options: ['True', 'False'], correct: 0},
+            {topic: 'Stress', emoji: '😌🧘', question: 'Stress Management topic 6.', options: ['True', 'False'], correct: 0},
+            {topic: 'Stress', emoji: '😌🧘', question: 'Stress Management topic 7.', options: ['True', 'False'], correct: 0},
+            {topic: 'Stress', emoji: '😌🧘', question: 'Stress Management topic 8.', options: ['True', 'False'], correct: 0},
+            {topic: 'Stress', emoji: '😌🧘', question: 'Stress Management topic 9.', options: ['True', 'False'], correct: 0},
+            {topic: 'Stress', emoji: '😌🧘', question: 'Stress Management topic 10.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Stress', emoji: '😌🧘', question: 'Stress Management question 1?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Stress', emoji: '😌🧘', question: 'Stress Management question 2?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Stress', emoji: '😌🧘', question: 'Stress Management question 3?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Stress', emoji: '😌🧘', question: 'Stress Management question 4?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Stress', emoji: '😌🧘', question: 'Stress Management question 5?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Stress', emoji: '😌🧘', question: 'Stress Management question 6?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Stress', emoji: '😌🧘', question: 'Stress Management question 7?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Stress', emoji: '😌🧘', question: 'Stress Management question 8?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Stress', emoji: '😌🧘', question: 'Stress Management question 9?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Stress', emoji: '😌🧘', question: 'Stress Management question 10?', options: ['Option A', 'Option B'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Stress', emoji: '😌🧘', question: 'Stress Management advanced question 1?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Stress', emoji: '😌🧘', question: 'Stress Management advanced question 2?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Stress', emoji: '😌🧘', question: 'Stress Management advanced question 3?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Stress', emoji: '😌🧘', question: 'Stress Management advanced question 4?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Stress', emoji: '😌🧘', question: 'Stress Management advanced question 5?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Stress', emoji: '😌🧘', question: 'Stress Management advanced question 6?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Stress', emoji: '😌🧘', question: 'Stress Management advanced question 7?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Stress', emoji: '😌🧘', question: 'Stress Management advanced question 8?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Stress', emoji: '😌🧘', question: 'Stress Management advanced question 9?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Stress', emoji: '😌🧘', question: 'Stress Management advanced question 10?', options: ['A', 'B', 'C'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Stress', emoji: '😌🧘', question: 'Stress Management expert question 1?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Stress', emoji: '😌🧘', question: 'Stress Management expert question 2?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Stress', emoji: '😌🧘', question: 'Stress Management expert question 3?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Stress', emoji: '😌🧘', question: 'Stress Management expert question 4?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Stress', emoji: '😌🧘', question: 'Stress Management expert question 5?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Stress', emoji: '😌🧘', question: 'Stress Management expert question 6?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Stress', emoji: '😌🧘', question: 'Stress Management expert question 7?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Stress', emoji: '😌🧘', question: 'Stress Management expert question 8?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Stress', emoji: '😌🧘', question: 'Stress Management expert question 9?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Stress', emoji: '😌🧘', question: 'Stress Management expert question 10?', options: ['A', 'B', 'C', 'D'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Stress', emoji: '😌🧘', question: 'Name three stress management items 1', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Stress', emoji: '😌🧘', question: 'Name three stress management items 2', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Stress', emoji: '😌🧘', question: 'Name three stress management items 3', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Stress', emoji: '😌🧘', question: 'Name three stress management items 4', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Stress', emoji: '😌🧘', question: 'Name three stress management items 5', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Stress', emoji: '😌🧘', question: 'Name three stress management items 6', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Stress', emoji: '😌🧘', question: 'Name three stress management items 7', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Stress', emoji: '😌🧘', question: 'Name three stress management items 8', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Stress', emoji: '😌🧘', question: 'Name three stress management items 9', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Stress', emoji: '😌🧘', question: 'Name three stress management items 10', answer: 'Item 1, Item 2, Item 3'}
+        ]
+    },
+    12: { // Chapter 12: Preventive Healthcare
+        easy: [
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Preventive Healthcare topic 1.', options: ['True', 'False'], correct: 0},
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Preventive Healthcare topic 2.', options: ['True', 'False'], correct: 0},
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Preventive Healthcare topic 3.', options: ['True', 'False'], correct: 0},
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Preventive Healthcare topic 4.', options: ['True', 'False'], correct: 0},
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Preventive Healthcare topic 5.', options: ['True', 'False'], correct: 0},
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Preventive Healthcare topic 6.', options: ['True', 'False'], correct: 0},
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Preventive Healthcare topic 7.', options: ['True', 'False'], correct: 0},
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Preventive Healthcare topic 8.', options: ['True', 'False'], correct: 0},
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Preventive Healthcare topic 9.', options: ['True', 'False'], correct: 0},
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Preventive Healthcare topic 10.', options: ['True', 'False'], correct: 0}
+        ],
+        medium: [
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Preventive Healthcare question 1?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Preventive Healthcare question 2?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Preventive Healthcare question 3?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Preventive Healthcare question 4?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Preventive Healthcare question 5?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Preventive Healthcare question 6?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Preventive Healthcare question 7?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Preventive Healthcare question 8?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Preventive Healthcare question 9?', options: ['Option A', 'Option B'], correct: 0},
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Preventive Healthcare question 10?', options: ['Option A', 'Option B'], correct: 0}
+        ],
+        hard: [
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Preventive Healthcare advanced question 1?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Preventive Healthcare advanced question 2?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Preventive Healthcare advanced question 3?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Preventive Healthcare advanced question 4?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Preventive Healthcare advanced question 5?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Preventive Healthcare advanced question 6?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Preventive Healthcare advanced question 7?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Preventive Healthcare advanced question 8?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Preventive Healthcare advanced question 9?', options: ['A', 'B', 'C'], correct: 0},
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Preventive Healthcare advanced question 10?', options: ['A', 'B', 'C'], correct: 0}
+        ],
+        expert: [
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Preventive Healthcare expert question 1?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Preventive Healthcare expert question 2?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Preventive Healthcare expert question 3?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Preventive Healthcare expert question 4?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Preventive Healthcare expert question 5?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Preventive Healthcare expert question 6?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Preventive Healthcare expert question 7?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Preventive Healthcare expert question 8?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Preventive Healthcare expert question 9?', options: ['A', 'B', 'C', 'D'], correct: 0},
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Preventive Healthcare expert question 10?', options: ['A', 'B', 'C', 'D'], correct: 0}
+        ],
+        extreme: [
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Name three preventive healthcare items 1', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Name three preventive healthcare items 2', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Name three preventive healthcare items 3', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Name three preventive healthcare items 4', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Name three preventive healthcare items 5', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Name three preventive healthcare items 6', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Name three preventive healthcare items 7', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Name three preventive healthcare items 8', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Name three preventive healthcare items 9', answer: 'Item 1, Item 2, Item 3'},
+            {topic: 'Preventive', emoji: '🏥✅', question: 'Name three preventive healthcare items 10', answer: 'Item 1, Item 2, Item 3'}
+        ]
+    },
 };

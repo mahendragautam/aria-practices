@@ -25,6 +25,69 @@
             margin: 0 auto;
         }
 
+        /* Animated Emoji Banner */
+        .emoji-banner {
+            background: white;
+            border-radius: 15px;
+            padding: 40px 20px;
+            margin: 30px 0;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .emoji-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            animation: fadeIn 1s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        .emoji-item {
+            font-size: 80px;
+            animation: bounce 2s ease-in-out infinite;
+        }
+
+        .emoji-item:nth-child(1) { animation-delay: 0s; }
+        .emoji-item:nth-child(2) { animation: pulse 2s ease-in-out infinite; animation-delay: 0.2s; }
+        .emoji-item:nth-child(3) { animation-delay: 0.4s; }
+        .emoji-item:nth-child(4) { animation: pulse 2s ease-in-out infinite; animation-delay: 0.6s; }
+        .emoji-item:nth-child(5) { animation-delay: 0.8s; }
+        .emoji-item:nth-child(6) { animation: pulse 2s ease-in-out infinite; animation-delay: 1s; }
+        .emoji-item:nth-child(7) { animation-delay: 1.2s; }
+        .emoji-item:nth-child(8) { animation: pulse 2s ease-in-out infinite; animation-delay: 1.4s; }
+        .emoji-item:nth-child(9) { animation-delay: 1.6s; }
+        .emoji-item:nth-child(10) { animation: pulse 2s ease-in-out infinite; animation-delay: 1.8s; }
+
+        .emoji-tagline {
+            margin-top: 20px;
+            font-size: 1.5em;
+            color: #667eea;
+            font-weight: 600;
+        }
+
         /* Header */
         .header {
             background: white;
@@ -68,12 +131,20 @@
 
         /* Collapsible Accordion Sections */
         .content-section {
-            background: white;
+            background: transparent;
             border-radius: 15px;
             margin-bottom: 15px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            box-shadow: none;
             scroll-margin-top: 20px;
             overflow: hidden;
+        }
+
+        /* Mobile: Add shadow and white background to sections */
+        @media (max-width: 768px) {
+            .content-section {
+                background: white;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            }
         }
 
         .section-header {
@@ -198,7 +269,29 @@
             scroll-behavior: smooth;
         }
 
+        /* Desktop: White background wrapper for content */
+        @media (min-width: 769px) {
+            .sections-wrapper {
+                background: white;
+                border-radius: 15px;
+                padding: 20px;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            }
+        }
+
         @media (max-width: 768px) {
+            .emoji-item {
+                font-size: 50px;
+            }
+
+            .emoji-banner {
+                padding: 30px 15px;
+            }
+
+            .emoji-tagline {
+                font-size: 1.2em;
+            }
+
             .section-content.active {
                 padding: 20px 25px;
             }
@@ -218,6 +311,16 @@
             .nav-links a {
                 width: 100%;
                 text-align: center;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .emoji-item {
+                font-size: 40px;
+            }
+
+            .emoji-container {
+                gap: 15px;
             }
         }
     </style>
@@ -263,6 +366,25 @@
             </div>
         </header>
 
+        <!-- Animated Emoji Banner -->
+        <div class="emoji-banner">
+            <div class="emoji-container">
+                <span class="emoji-item">🔬</span>
+                <span class="emoji-item">🔢</span>
+                <span class="emoji-item">📜</span>
+                <span class="emoji-item">🌍</span>
+                <span class="emoji-item">📖</span>
+                <span class="emoji-item">💪</span>
+                <span class="emoji-item">🌱</span>
+                <span class="emoji-item">💼</span>
+                <span class="emoji-item">💻</span>
+                <span class="emoji-item">👶</span>
+            </div>
+            <div class="emoji-tagline">10 Subjects • 20 Chapters • 10,000+ Questions</div>
+        </div>
+
+        <!-- Desktop White Background Wrapper -->
+        <div class="sections-wrapper">
         <!-- About Us Section -->
         <section id="about" class="content-section">
             <div class="section-header" onclick="toggleSection('about')">
@@ -507,6 +629,7 @@
             </div>
             </div>
         </section>
+        </div><!-- End sections-wrapper -->
 
         <!-- Footer -->
         <footer class="footer">

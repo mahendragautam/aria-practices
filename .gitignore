@@ -3,3 +3,6 @@ node_modules
 .vscode/*
 !.vscode/extensions.json
 .env
+# Auto-generated combined files
+quiz-combined.css
+quiz-master-app-combined.js

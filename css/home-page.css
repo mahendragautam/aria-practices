@@ -151,6 +151,17 @@
     transform: translateY(-5px);
 }
 
+/* Coming soon card text - smaller to fit better */
+.subject-card.coming-soon .subject-name {
+    font-size: 0.85em;
+    line-height: 1.1;
+}
+
+.subject-card.coming-soon .subject-emoji {
+    font-size: 2.2em;
+    margin-bottom: 6px;
+}
+
 /* Home Grid for Other Modes */
 .home-grid {
     display: grid;

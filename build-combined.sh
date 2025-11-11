@@ -104,18 +104,30 @@ cat js/quiz-state.js \
 echo "✅ quiz-master-app-combined.js created ($(wc -l < quiz-master-app-combined.js) lines)"
 
 ##############################################
+# Copy to Production Files
+##############################################
+echo ""
+echo "📋 Copying to production files..."
+
+# Copy combined files to production names
+cp quiz-combined.css quiz.css
+cp quiz-master-app-combined.js quiz-master-app.js
+
+echo "✅ quiz.css updated"
+echo "✅ quiz-master-app.js updated"
+
+##############################################
 # Summary
 ##############################################
 echo ""
 echo "🎉 Build complete!"
 echo ""
 echo "Generated files:"
-echo "  - quiz-combined.css"
-echo "  - quiz-master-app-combined.js"
+echo "  ✓ quiz-combined.css → quiz.css ($(wc -l < quiz.css) lines)"
+echo "  ✓ quiz-master-app-combined.js → quiz-master-app.js ($(wc -l < quiz-master-app.js) lines)"
 echo ""
 echo "Next steps:"
-echo "  1. Copy these files to production branch"
-echo "  2. Rename quiz-combined.css → quiz.css"
-echo "  3. Rename quiz-master-app-combined.js → quiz-master-app.js"
-echo "  4. Update WPCode snippets if needed"
+echo "  1. Commit changes: git add quiz.css quiz-master-app.js"
+echo "  2. Push to remote branch"
+echo "  3. Update WPCode snippets in WordPress"
 echo ""

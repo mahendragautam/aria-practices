@@ -39,7 +39,7 @@
 
     .subject-grid, .chapter-grid, .level-grid, .home-grid {
         grid-template-columns: repeat(2, 1fr);
-        padding: 10px 0 20px 0;
+        padding: 0px 0 0px 0;
         gap: 10px;
     }
 

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application - Modular Template</title>
+
+    <!-- ====================================================== -->
+    <!-- OPTION 1: Load Main CSS (includes all modules)        -->
+    <!-- ====================================================== -->
+    <link rel="stylesheet" href="css/quiz-main.css">
+
+    <!-- ====================================================== -->
+    <!-- OPTION 2: Load Individual CSS Modules                 -->
+    <!-- (Comment out quiz-main.css above and uncomment below) -->
+    <!-- ====================================================== -->
+    <!--
+    <link rel="stylesheet" href="css/base-reset.css">
+    <link rel="stylesheet" href="css/bubble-animations.css">
+    <link rel="stylesheet" href="css/layout-container.css">
+    <link rel="stylesheet" href="css/home-page.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/quiz.css">
+    <link rel="stylesheet" href="css/progress-results.css">
+    <link rel="stylesheet" href="css/collapsible.css">
+    <link rel="stylesheet" href="css/topics-badges.css">
+    <link rel="stylesheet" href="css/emojis-effects.css">
+    <link rel="stylesheet" href="css/mobile-responsive.css">
+    -->
+
+    <!-- Header and Footer Styles (if using those components) -->
+    <link rel="stylesheet" href="css/quiz-header.css">
+    <link rel="stylesheet" href="css/quiz-footer.css">
+</head>
+<body>
+    <!-- Your quiz content goes here -->
+
+    <!-- ====================================================== -->
+    <!-- Load ALL Subject Question Files (10 total)            -->
+    <!-- ====================================================== -->
+    <script src="Science-questions.js"></script>
+    <script src="math-questions.js"></script>
+    <script src="history-questions.js"></script>
+    <script src="geography-questions.js"></script>
+    <script src="english-questions.js"></script>
+    <script src="health-questions.js"></script>
+    <script src="environment-questions.js"></script>
+    <script src="business-questions.js"></script>
+    <script src="technology-questions.js"></script>
+    <script src="parenting-questions.js"></script>
+
+    <!-- ====================================================== -->
+    <!-- Load Modular Quiz JavaScript Files                    -->
+    <!-- IMPORTANT: Must be loaded in this exact order!        -->
+    <!-- ====================================================== -->
+
+    <!-- 1. State Management (must load first) -->
+    <script src="js/quiz-state.js"></script>
+
+    <!-- 2. Storage & Persistence -->
+    <script src="js/quiz-storage.js"></script>
+
+    <!-- 3. Data Loading -->
+    <script src="js/quiz-data.js"></script>
+
+    <!-- 4. Timer Functionality -->
+    <script src="js/quiz-timer.js"></script>
+
+    <!-- 5. Animations & Effects -->
+    <script src="js/quiz-animations.js"></script>
+
+    <!-- 6. Display & UI Rendering -->
+    <script src="js/quiz-display.js"></script>
+
+    <!-- 7. Quiz Logic -->
+    <script src="js/quiz-logic.js"></script>
+
+    <!-- 8. Results Handling -->
+    <script src="js/quiz-results.js"></script>
+
+    <!-- 9. Navigation (uses functions from above modules) -->
+    <script src="js/quiz-navigation.js"></script>
+
+    <!-- 10. Initialization (must load last) -->
+    <script src="js/quiz-init.js"></script>
+
+    <!-- ====================================================== -->
+    <!-- Footer Scripts (if using footer component)            -->
+    <!-- ====================================================== -->
+    <script src="js/quiz-footer.js"></script>
+</body>
+</html>

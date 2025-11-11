@@ -1,123 +1,192 @@
-# WAI-ARIA: Authoring Practices Guide
+# Quiz Application - Subject Question Files
 
-This repository maintains the WAI-ARIA Authoring Practices Guide (APG).
+## 📁 Files in This Repository
 
-- Published at: [w3.org/wai/aria/apg](https://www.w3.org/wai/aria/apg/)
-- Developed by the [Authoring Practices Task Force](https://www.w3.org/WAI/ARIA/task-forces/practices/) of the [ARIA Working Group](http://www.w3.org/WAI/ARIA/).
-- Staff contact: [Michael Cooper](http://www.w3.org/People/cooper/).
+This repository contains the complete quiz application with all subject question files.
 
-Please do not provide commit access to this repository without coordination.
+### Quiz Core Files:
+- `home-page.html` - Main quiz interface
+- `quiz-master-app.js` - Main application logic (Priority: 20)
+- `quiz.css` - Styling
+- `quiz-header.html` - Header component
+- `quiz-footer.html` - Footer component
 
-## How the work is organized
+### Subject Question Files:
+1. `Science-questions.js` - 🔬 Science (Priority: 10)
+2. `math-questions.js` - 🔢 Math (Priority: 11)
+3. `history-questions.js` - 📜 History (Priority: 12)
+4. `geography-questions.js` - 🌍 Geography (Priority: 13)
+5. `english-questions.js` - 📖 English (Priority: 14)
+6. `health-questions.js` - 💪 Health & Fitness (Priority: 15)
+7. `environment-questions.js` - 🌱 Environment (Priority: 16)
+8. `business-questions.js` - 💼 Business (Priority: 17)
+9. `technology-questions.js` - 💻 Technology (Priority: 18)
+10. `parenting-questions.js` - 👶 Parenting (Priority: 19)
 
-- Work is planned and prioritized in our [milestones](https://github.com/w3c/aria-practices/milestones?direction=asc&sort=due_date&state=open). Each milestone corresponds to a working draft or release published to w3.org.
-- Work is organized by topic in our [projects](https://github.com/w3c/aria-practices/projects). Each project corresponds to a type of design pattern or section of guidance.
-- The [scope of work and roadmap](https://github.com/w3c/aria-practices/wiki/Scope) are described in the project wiki.
+---
 
-## Contributing
+## 🚨 IMPORTANT: Loading Order
 
-1. Comment in an existing issue or raise a new issue, expressing your willingness to help and briefly summarizing the nature of your proposed resolution.
-2. An editor will confirm there are no conflicting plans and, if needed, provide guidance.
-3. Be sure you have linters installed and configured as described below.
-4. Read our wiki page about [submitting pull requests](https://github.com/w3c/aria-practices/wiki/Submitting-Pull-Requests).
-5. Do some fabulous work and submit a pull request.
+### WPCode Snippet Setup
 
-Note: Please feel free to ask questions either through an issue or on the [Authoring Practices Task Force mailing list](http://lists.w3.org/Archives/Public/public-aria-practices/).
+All JavaScript files MUST be loaded in this order:
 
-### Code conformance
-
-This repository utilizes [linting](https://en.wikipedia.org/wiki/Lint_%28software%29) tools to do static code analysis and ensure consistent code quality across HTML, CSS, and JavaScript. Each linting tool and respective code standards are documented below and in the [code guide](https://github.com/w3c/aria-practices/wiki/Code-Guide).
-
-Pull requests that contain linting errors will not be merged until the errors are resolved. To make this easier, you can install and run the tools locally before pushing code. Also note that the tools for CSS and JavaScript will automatically fix many issues if you have them installed locally. To install these tools:
-
-1. Make sure that you have [Node.js](https://nodejs.org/en/) installed, which comes with [node package manager (npm)](https://www.npmjs.com/get-npm)
-1. Open the directory that contains your `aria-practices` repository in a terminal
-1. Run `npm install`
-
-The HTML validator also requires the installation of a JDK in order to run. If you don't already have a JDK installed, [download the latest JDK from Oracle](https://www.oracle.com/technetwork/java/javase/downloads/index.html).
-
-It is also highly recommended that you use a code editor that supports these tools and [EditorConfig](http://editorconfig.org/).
-
-#### HTML
-
-HTML is validated against the [NU HTML Validator](https://github.com/validator/validator).
-Should a warning or error occur because a future ARIA feature is not yet implemented, it will be added to the [.vnurc file](.vnurc), allowing the error to pass through.
-
-Run locally:
-
-```sh
-npm run lint:html
+```
+Priority 10: Science-questions.js
+Priority 11: math-questions.js
+Priority 12: history-questions.js
+Priority 13: geography-questions.js
+Priority 14: english-questions.js
+Priority 15: health-questions.js
+Priority 16: environment-questions.js
+Priority 17: business-questions.js
+Priority 18: technology-questions.js
+Priority 19: parenting-questions.js
+Priority 20: quiz-master-app.js ⚠️ MUST BE LAST!
 ```
 
-#### CSS
+**Why?** The `quiz-master-app.js` expects all subject variables to be defined first:
+- `scienceQuestions`
+- `mathQuestions`
+- `historyQuestions`
+- etc.
 
-CSS is validated by [stylelint](https://stylelint.io/) using the [stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard) ruleset.
+If a subject JS file is not loaded (not added to WPCode or deactivated), that subject won't work when clicked!
 
-**NOTE**: on commit, stylelint will be run on staged CSS files. If errors are found that can be [automatically fixed with the --fix flag](https://stylelint.io/user-guide/cli/#autofixing-errors), they will be fixed and the changes committed.
+---
 
-Run locally:
+## 🐛 Troubleshooting
 
-```sh
-npm run lint:css
+### Problem: Some subjects don't work when clicked
+
+**Symptom**: Click on Math/History/Geography etc. and nothing happens
+
+**Cause**: The subject's JS file is not loaded in WordPress
+
+**Solution**:
+1. Check if the subject JS file is added as a WPCode snippet
+2. Make sure it's **ACTIVATED** (toggle ON)
+3. Verify Priority is correct (10-19, before master app)
+4. Verify Location is set to **Footer**
+5. Clear browser cache
+
+### Diagnostic Tool
+
+Use `check-loaded-subjects.js` to see which subjects are loaded:
+1. Open quiz page
+2. Press F12 (open browser console)
+3. Copy-paste code from `check-loaded-subjects.js`
+4. Press Enter
+5. See report: ✅ Loaded vs ❌ Missing
+
+---
+
+## 📝 WPCode Configuration
+
+For each JavaScript file:
+
+1. **Type**: JavaScript
+2. **Location**: Auto Insert > Footer
+3. **Priority**: See table above
+4. **Status**: ACTIVATED ✅
+5. **Insert Method**: Auto Insert
+
+---
+
+## 🌐 WordPress Integration
+
+### Method 1: WPCode Snippets (Recommended)
+- Add each JS file as a separate snippet
+- Set correct priority
+- Activate all snippets
+
+### Method 2: Theme Files
+- Add all JS files to theme's `js` folder
+- Enqueue in correct order using `wp_enqueue_script()`
+- Set dependencies properly
+
+---
+
+## ✅ Complete Setup Checklist
+
+- [ ] All 10 subject JS files added to WPCode
+- [ ] quiz-master-app.js added with Priority 20
+- [ ] All snippets ACTIVATED
+- [ ] Priorities correctly set (10-19 for subjects)
+- [ ] Location set to Footer for all
+- [ ] Browser cache cleared
+- [ ] Tested all subjects - they all work!
+
+---
+
+## 📖 Documentation Files
+
+- `FIX-INSTRUCTIONS-NEPALI.md` - Complete fix guide in Nepali
+- `check-loaded-subjects.js` - Diagnostic tool
+- `README.md` - This file
+
+---
+
+## 🎯 Features
+
+- 10 subjects with 20 chapters each
+- 5 difficulty levels (Easy, Medium, Hard, Expert, Extreme)
+- Timer challenges
+- Practice mode
+- Mixed quiz modes
+- Progress tracking
+- Beautiful UI with animations
+
+---
+
+## 📦 Repository Structure
+
+```
+aria-practices/
+├── README.md
+├── FIX-INSTRUCTIONS-NEPALI.md
+├── check-loaded-subjects.js
+├── home-page.html
+├── quiz-master-app.js
+├── quiz.css
+├── quiz-header.html
+├── quiz-footer.html
+├── Science-questions.js
+├── math-questions.js
+├── history-questions.js
+├── geography-questions.js
+├── english-questions.js
+├── health-questions.js
+├── environment-questions.js
+├── business-questions.js
+├── technology-questions.js
+└── parenting-questions.js
 ```
 
-#### JavaScript
+---
 
-JavaScript is validated by [ESLint](http://eslint.org/), using [our own config](.eslintrc.json).
+## 🔧 Technical Notes
 
-**NOTE**: on commit, eslint will be run on staged CSS files. If errors are found that can be [automatically fixed with the --fix flag](https://eslint.org/docs/user-guide/command-line-interface#fixing-problems), they will be fixed and the changes committed.
-
-Run locally:
-
-```sh
-npm run lint:js
+### Global Variables
+Each subject file defines a global variable:
+```javascript
+const scienceQuestions = { ... };
+const mathQuestions = { ... };
+// etc.
 ```
 
-### Test and fix your code
-
-1. Open a terminal window to the directory that contains the `aria-practices` repository
-1. The repository has a script defined that will test all JavaScript in the examples directory. To run it, execute the command `npm test`. Note: this may take a few minutes to run and will open several browser windows during the test that will gain focus.
-1. Many errors can be fixed automatically with the command `npm run fix`.
-1. After running fix, test again to see what you need to fix manually.
-
-When the linter encounters errors, it will report them in the console.
-The error report will contain the file name and line number, and it will
-indicate the character or place in the line that raised the style violation. To
-fix an error, satisfy the change that the violation indicates.
-
-For example, here is an error for an invalid variable name style. Variables must
-follow a camelCase convention.
-
-```sh
-/Users/user1/Documents/github/aria-practices/examples/slider/js/text-slider.js
-  19:8  error  Identifier 'value_nodes' is not in camel case  camelcase
+### Master App References
+The master app references these in line 70-81:
+```javascript
+const subjectQuestionBank = {
+    science: scienceQuestions,
+    math: mathQuestions,
+    // etc.
+};
 ```
 
-The error occurred in `examples/slider/js/text-slider.js`, on line 19 and the
-offending character is indicated by the number `8` after the colon. Change the
-variable `value_nodes` to `valueNodes` in your source file to eliminate this
-error.
+If a variable is undefined, that subject will fail silently!
 
-To see the complete list of style rules that are applied by ESLint, review the [.eslintrc.json](.eslintrc.json) file in the root of the project.
+---
 
-### Editorial documentation
-
-See the [APG Editorial Style Guidelines](https://github.com/w3c/aria-practices/wiki/APG-Editorial-Style-Guidelines)
-for information about writing prose for the APG.
-The [ReadMe for the ARIA specification](https://github.com/w3c/aria/)
-contains additional useful editorial guidance.
-
-## ARIA Roles, Properties and States Referenced in Guidance and Examples(Also known as APG Coverage Report)
-
-[APG Coverage Report](https://raw.githack.com/w3c/aria-practices/main/coverage/index.html) includes information on number of guidance and example references in the WAI-ARIA Authoring Practices for each ARIA role, property and state.
-
-As of January 11, 2022, APG has examples of
-
-1. CSV Files of Role, Properties and States Coverage
-2. Roles with no Guidance or Examples (29)
-3. Roles with at Least One Guidance or Example (13)
-4. Roles with More than One Guidance or Example (36)
-5. Properties and States with no Examples (12)
-6. Properties and States with One Examples (8)
-7. Properties and States with More than One Example (28)
-8. Example Coding Practices
+**Happy Quizzing! 🎉**

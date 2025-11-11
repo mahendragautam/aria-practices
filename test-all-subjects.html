@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Subjects Test - All 10 Subjects</title>
+    <link rel="stylesheet" href="css/test-all-subjects.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎯 Quiz Subjects Test</h1>
+        <p class="subtitle">Testing all 10 subject JavaScript files</p>
+
+        <div style="text-align: center; margin: 20px 0;">
+            <button onclick="runTests()">🔍 Run Tests</button>
+            <button onclick="location.reload()">🔄 Refresh Page</button>
+        </div>
+
+        <div class="test-section">
+            <h2>📊 Test Results</h2>
+            <div id="results"></div>
+        </div>
+
+        <div id="summary" style="display:none;"></div>
+
+        <div id="fixInstructions" style="display:none;" class="fix-instructions">
+            <h4>⚠️ How to Fix Missing Subjects</h4>
+            <ol>
+                <li>Go to WordPress Dashboard → Code Snippets (WPCode)</li>
+                <li>For each missing subject, click "Add Snippet"</li>
+                <li>Set snippet settings:
+                    <ul>
+                        <li><strong>Type:</strong> JavaScript</li>
+                        <li><strong>Location:</strong> Footer</li>
+                        <li><strong>Priority:</strong> 10-19 (see table above)</li>
+                        <li><strong>Status:</strong> ACTIVATED (toggle ON)</li>
+                    </ul>
+                </li>
+                <li>Copy-paste the entire JS file content</li>
+                <li>Save and refresh this page to test again</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- Load all subject files -->
+    <script src="Science-questions.js"></script>
+    <script src="math-questions.js"></script>
+    <script src="history-questions.js"></script>
+    <script src="geography-questions.js"></script>
+    <script src="english-questions.js"></script>
+    <script src="health-questions.js"></script>
+    <script src="environment-questions.js"></script>
+    <script src="business-questions.js"></script>
+    <script src="technology-questions.js"></script>
+    <script src="parenting-questions.js"></script>
+    <script src="js/test-all-subjects.js"></script>
+</body>
+</html>

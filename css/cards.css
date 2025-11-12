@@ -20,6 +20,16 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-decoration: none; /* Remove underline for links */
+}
+
+/* Ensure link cards maintain styling */
+a.subject-card:visited {
+    color: white;
+}
+
+a.subject-card:active {
+    color: white;
 }
 
 .subject-card:hover {

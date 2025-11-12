@@ -14,6 +14,11 @@ function showHomePage() {
     stopTimer();
     clearQuizState(); // Clear saved state when going home
     showScreen('home-page');
+
+    // Update URL to root
+    if (typeof navigateTo !== 'undefined') {
+        updateURL('/');
+    }
 }
 
 function toggleSubjects() {
@@ -73,6 +78,11 @@ function selectSubject(subject) {
     document.getElementById('subjectTitle').innerHTML = `${subjectData.emoji} ${subjectData.name} ${subjectData.emoji}`;
     initializeChapters();
     showScreen('chapter-selection');
+
+    // Update URL: /science
+    if (typeof navigateTo !== 'undefined') {
+        updateURL(`/${subject}`);
+    }
 }
 
 function showTimerChallenges() {
@@ -281,6 +291,11 @@ function selectChapter(chapter) {
     document.getElementById('levelTitle').textContent = `Chapter ${chapter} - Select Difficulty Level`;
     showScreen('level-selection');
     saveQuizState(); // Save state after chapter selection
+
+    // Update URL: /science/chapter-1
+    if (typeof navigateTo !== 'undefined' && currentSubject) {
+        updateURL(`/${currentSubject}/chapter-${chapter}`);
+    }
 }
 
 function showChapterSelection() {
@@ -316,8 +331,10 @@ function showScreen(screenClass, scrollToTop = true) {
         });
     }
 
-    // Push to browser history ONLY if not restoring from history
-    if (!isNavigatingHistory) {
+    // Push to browser history ONLY if:
+    // 1. Not restoring from history
+    // 2. Router is NOT active (router handles its own history)
+    if (!isNavigatingHistory && typeof navigateTo === 'undefined') {
         const state = {
             screen: screenClass,
             subject: currentSubject,

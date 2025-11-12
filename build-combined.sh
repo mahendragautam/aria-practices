@@ -97,6 +97,7 @@ cat js/quiz-state.js \
     js/quiz-display.js \
     js/quiz-logic.js \
     js/quiz-results.js \
+    js/quiz-router.js \
     js/quiz-navigation.js \
     js/quiz-init.js \
     >> quiz-master-app-combined.js

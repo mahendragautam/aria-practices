@@ -44,6 +44,11 @@ function startQuiz(level, timedMode = false) {
 
     showScreen('quiz-container');
     displayQuestion();
+
+    // Update URL: /science/chapter-1/easy
+    if (typeof navigateTo !== 'undefined' && currentSubject && currentChapter) {
+        updateURL(`/${currentSubject}/chapter-${currentChapter}/${level}`);
+    }
 }
 
 function selectAnswer(selectedIndex) {

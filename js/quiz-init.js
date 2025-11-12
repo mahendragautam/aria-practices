@@ -21,6 +21,14 @@ window.onload = function() {
         return; // Exit early if not on quiz page
     }
 
+    // If router is active, it will handle initialization via DOMContentLoaded
+    if (typeof navigateTo !== 'undefined') {
+        console.log('✅ URL Router is active');
+        initializeChapters(); // Still initialize chapters
+        return; // Router handles the rest
+    }
+
+    // Legacy initialization (when router is not available)
     // Try to restore previous state
     const restored = restoreQuizState();
 
@@ -36,6 +44,9 @@ window.onload = function() {
 
 // Handle browser back/forward buttons
 window.addEventListener('popstate', function(event) {
+    // If router is active, let it handle popstate
+    if (typeof navigateTo !== 'undefined') return;
+
     // Only handle popstate on quiz pages
     const isQuizPage = document.querySelector('.main-container') !== null;
     if (!isQuizPage) return;

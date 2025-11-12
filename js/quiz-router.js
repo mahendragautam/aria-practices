@@ -219,6 +219,16 @@ window.addEventListener('popstate', function(event) {
  * Initialize router on page load
  */
 window.addEventListener('DOMContentLoaded', function() {
+    // Check if WordPress set auto-start subject (for SEO pages)
+    if (window.autoStartSubject) {
+        console.log('🎯 Auto-starting subject:', window.autoStartSubject);
+        // Wait for quiz to initialize, then auto-start subject
+        setTimeout(function() {
+            selectSubject(window.autoStartSubject);
+        }, 100);
+        return; // Don't load from URL if auto-starting
+    }
+
     // Check if there's a URL to load (not just /)
     const path = window.location.pathname;
     if (path && path !== '/') {

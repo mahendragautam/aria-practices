@@ -47,7 +47,7 @@ function startQuiz(level, timedMode = false) {
 
     // Update URL: /science/chapter-1/easy
     if (typeof navigateTo !== 'undefined' && currentSubject && currentChapter) {
-        updateURL(`/${currentSubject}/chapter-${currentChapter}/${level}`);
+        navigateTo(`/${currentSubject}/chapter-${currentChapter}/${level}`);
     }
 }
 

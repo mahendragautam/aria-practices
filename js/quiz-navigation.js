@@ -17,7 +17,7 @@ function showHomePage() {
 
     // Update URL to root
     if (typeof navigateTo !== 'undefined') {
-        updateURL('/');
+        navigateTo('/');
     }
 }
 
@@ -81,7 +81,7 @@ function selectSubject(subject) {
 
     // Update URL: /science
     if (typeof navigateTo !== 'undefined') {
-        updateURL(`/${subject}`);
+        navigateTo(`/${subject}`);
     }
 }
 
@@ -294,7 +294,7 @@ function selectChapter(chapter) {
 
     // Update URL: /science/chapter-1
     if (typeof navigateTo !== 'undefined' && currentSubject) {
-        updateURL(`/${currentSubject}/chapter-${chapter}`);
+        navigateTo(`/${currentSubject}/chapter-${chapter}`);
     }
 }
 

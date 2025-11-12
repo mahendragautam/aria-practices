@@ -728,7 +728,7 @@ function startQuiz(level, timedMode = false) {
 
     // Update URL: /science/chapter-1/easy
     if (typeof navigateTo !== 'undefined' && currentSubject && currentChapter) {
-        updateURL(`/${currentSubject}/chapter-${currentChapter}/${level}`);
+        navigateTo(`/${currentSubject}/chapter-${currentChapter}/${level}`);
     }
 }
 
@@ -1232,7 +1232,7 @@ function showHomePage() {
 
     // Update URL to root
     if (typeof navigateTo !== 'undefined') {
-        updateURL('/');
+        navigateTo('/');
     }
 }
 
@@ -1296,7 +1296,7 @@ function selectSubject(subject) {
 
     // Update URL: /science
     if (typeof navigateTo !== 'undefined') {
-        updateURL(`/${subject}`);
+        navigateTo(`/${subject}`);
     }
 }
 
@@ -1509,7 +1509,7 @@ function selectChapter(chapter) {
 
     // Update URL: /science/chapter-1
     if (typeof navigateTo !== 'undefined' && currentSubject) {
-        updateURL(`/${currentSubject}/chapter-${chapter}`);
+        navigateTo(`/${currentSubject}/chapter-${chapter}`);
     }
 }
 

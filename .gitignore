@@ -6,3 +6,5 @@ node_modules
 # Auto-generated combined files
 quiz-combined.css
 quiz-master-app-combined.js
+quiz.css
+quiz-master-app.js

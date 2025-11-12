@@ -1181,18 +1181,32 @@ window.addEventListener('popstate', function(event) {
  * Initialize router on page load
  */
 window.addEventListener('DOMContentLoaded', function() {
-    // Check if WordPress set auto-start subject (for SEO pages)
+    // Get current URL path
+    const path = window.location.pathname;
+
+    // Check if URL matches WordPress SEO page pattern (e.g., /science-quiz, /math-quiz)
+    const seoPageMatch = path.match(/^\/([\w-]+)-quiz\/?$/);
+    if (seoPageMatch) {
+        const subjectSlug = seoPageMatch[1]; // Extract "science" from "/science-quiz"
+        console.log('🎯 SEO page detected, auto-starting subject:', subjectSlug);
+
+        // Wait for quiz to initialize, then auto-start subject
+        setTimeout(function() {
+            selectSubject(subjectSlug);
+        }, 100);
+        return;
+    }
+
+    // Check if WordPress set auto-start subject (for SEO pages) - LEGACY SUPPORT
     if (window.autoStartSubject) {
         console.log('🎯 Auto-starting subject:', window.autoStartSubject);
-        // Wait for quiz to initialize, then auto-start subject
         setTimeout(function() {
             selectSubject(window.autoStartSubject);
         }, 100);
-        return; // Don't load from URL if auto-starting
+        return;
     }
 
     // Check if there's a URL to load (not just /)
-    const path = window.location.pathname;
     if (path && path !== '/') {
         // Load content from URL
         loadFromURL(path);

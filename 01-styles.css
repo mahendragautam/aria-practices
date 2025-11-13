@@ -337,11 +337,12 @@ footer::before {
     .link-card {
         width: 100%;
         margin: 0 0 1rem 0;
-        padding: 1.8rem 1.5rem;
-        flex-direction: column;
-        text-align: center;
+        padding: 1.5rem 1.2rem;
+        flex-direction: row;
+        text-align: left;
         border-radius: 0;
         box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+        gap: 1.2rem;
     }
 
     .link-card:hover {
@@ -350,29 +351,30 @@ footer::before {
     }
 
     .card-icon {
-        font-size: 3rem;
-        min-width: 80px;
-        height: 80px;
-        margin-bottom: 1rem;
+        font-size: 2.5rem;
+        min-width: 70px;
+        height: 70px;
+        margin-bottom: 0;
     }
 
     .card-content {
-        text-align: center;
-        width: 100%;
+        text-align: left;
+        flex: 1;
     }
 
     .card-title {
-        font-size: 1.4rem;
-        margin-bottom: 0.8rem;
+        font-size: 1.3rem;
+        margin-bottom: 0.5rem;
     }
 
     .card-description {
-        font-size: 1rem;
-        line-height: 1.6;
+        font-size: 0.95rem;
+        line-height: 1.5;
     }
 
     .card-arrow {
-        display: none;
+        display: block;
+        font-size: 1.3rem;
     }
 
     .social-links a {
@@ -411,24 +413,32 @@ footer::before {
     .link-card {
         width: 100%;
         margin: 0 0 0.5rem 0;
-        padding: 1.5rem 1rem;
+        padding: 1.2rem 1rem;
         border-radius: 0;
+        flex-direction: row;
+        gap: 1rem;
     }
 
     .card-icon {
-        font-size: 2.5rem;
-        min-width: 70px;
-        height: 70px;
-        margin-bottom: 0.8rem;
+        font-size: 2.2rem;
+        min-width: 60px;
+        height: 60px;
+        margin-bottom: 0;
     }
 
     .card-title {
-        font-size: 1.2rem;
-        margin-bottom: 0.5rem;
+        font-size: 1.1rem;
+        margin-bottom: 0.4rem;
     }
 
     .card-description {
-        font-size: 0.9rem;
+        font-size: 0.85rem;
+        line-height: 1.4;
+    }
+
+    .card-arrow {
+        display: block;
+        font-size: 1.2rem;
     }
 
     .social-links a {

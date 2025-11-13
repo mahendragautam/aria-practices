@@ -1,329 +1,226 @@
-# Smart Family Picks Hub
+# Smart Family Picks - Divided WPCode Snippets
 
-A beautiful, modular, and responsive landing page for Smart Family Picks - Your Trusted Resource Hub.
+यो folder मा सबै code अलग अलग parts मा छ। तपाईं हरेक part लाई separately WPCode plugin मा add गर्न सक्नुहुन्छ।
 
-## 📁 Repository Contents
+## 📂 Files Overview
 
-This repository contains two versions of the Smart Family Picks Hub:
-
-### 🌐 Standard HTML Version
-For regular web hosting (Apache, Nginx, GitHub Pages, etc.)
-
-- **index.html** - Main HTML file with component loading
-- **styles.css** - All CSS styles
-- **header.html** - Header component
-- **footer.html** - Footer component
-- **main-content.html** - Main content component
-- **SMARTFAMILYPICKS-README.md** - Documentation for HTML version
-
-### 🔌 WordPress WPCode Plugin Version
-For WordPress sites using the WPCode plugin
-
-- **wpcode-snippet-all-in-one.php** - Complete PHP snippet (RECOMMENDED)
-- **wpcode-snippet-html-only.html** - HTML-only snippet version
-- **WPCODE-INSTRUCTIONS.md** - Complete WordPress installation guide
+| File | Type | Purpose | WPCode Settings |
+|------|------|---------|-----------------|
+| **01-styles.css** | CSS | सबै styles (पूरा background gradient सहित) | CSS Snippet → Site Wide Header |
+| **02-header.html** | HTML | Logo र header | HTML Snippet → Site Wide Header |
+| **03-main-content.html** | HTML | Cards र main content | HTML Snippet → Manual/Shortcode |
+| **04-footer.html** | HTML | Social links र footer | HTML Snippet → Site Wide Footer |
+| **05-analytics.js** | JavaScript | Click tracking र Google Analytics | JS Snippet → Site Wide Footer |
+| **06-shortcodes.php** | PHP (Optional) | Shortcodes for flexibility | PHP Snippet → Auto Insert Off |
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Installation Steps
 
-### For WordPress Sites (Recommended)
+### Method 1: Full Page Setup (पूरा page को लागि)
 
-**1. Install WPCode Plugin**
-```
-WordPress Admin → Plugins → Add New → Search "WPCode" → Install & Activate
-```
+यदि तपाईं पूरा page नै Smart Family Picks बनाउनु हुन्छ:
 
-**2. Add the Snippet**
-```
-WordPress Admin → Code Snippets → Add Snippet → Add Your Custom Code
-- Name: Smart Family Picks Hub
-- Code Type: PHP Snippet
-- Copy content from: wpcode-snippet-all-in-one.php
-- Insertion: Shortcode
-- Status: Active
-```
+**Step 1: Add CSS**
+1. WPCode → Add Snippet → CSS Snippet
+2. Name: `SFP Styles`
+3. Copy content from: `01-styles.css`
+4. Location: **Site Wide Header**
+5. Status: Active
 
-**3. Use the Shortcode**
-```
-Add to any page: [smartfamilypicks]
-```
+**Step 2: Add Header**
+1. WPCode → Add Snippet → HTML Snippet
+2. Name: `SFP Header`
+3. Copy content from: `02-header.html`
+4. Location: **Site Wide Header**
+5. Status: Active
 
-**Full Instructions:** See `WPCODE-INSTRUCTIONS.md`
+**Step 3: Add Main Content**
+1. WPCode → Add Snippet → HTML Snippet
+2. Name: `SFP Main Content`
+3. Copy content from: `03-main-content.html`
+4. Location: **Site Wide Body** (or use in page content)
+5. Status: Active
 
----
+**Step 4: Add Footer**
+1. WPCode → Add Snippet → HTML Snippet
+2. Name: `SFP Footer`
+3. Copy content from: `04-footer.html`
+4. Location: **Site Wide Footer**
+5. Status: Active
 
-### For Regular Web Hosting
-
-**Option 1: Single Page (Standalone)**
-
-Just open `index.html` in a browser! All components load dynamically.
-
-**Note:** For local testing, you need a local server due to CORS restrictions:
-
-```bash
-# Python 3
-python -m http.server 8000
-
-# Python 2
-python -m SimpleHTTPServer 8000
-
-# Node.js
-npx http-server
-
-# PHP
-php -S localhost:8000
-```
-
-Then visit: `http://localhost:8000`
-
-**Option 2: Combined Single File**
-
-Use the WordPress HTML snippet version (`wpcode-snippet-html-only.html`) - it's a complete standalone file that works anywhere!
-
-**Full Instructions:** See `SMARTFAMILYPICKS-README.md`
+**Step 5: Add Analytics (Optional)**
+1. WPCode → Add Snippet → JavaScript Snippet
+2. Name: `SFP Analytics`
+3. Copy content from: `05-analytics.js`
+4. Location: **Site Wide Footer**
+5. Status: Active
 
 ---
 
-## ✨ Features
+### Method 2: Shortcode Setup (Flexible placement)
 
-- **Fully Responsive** - Works perfectly on desktop, tablet, and mobile
-- **Modular Architecture** - Easy to maintain and customize
-- **Animated Background** - Beautiful gradient animation
-- **Smooth Transitions** - Professional hover effects
-- **Google Analytics Ready** - Built-in tracking support
-- **SEO Optimized** - Proper meta tags and structure
-- **Zero Dependencies** - Pure HTML, CSS, and JavaScript
-- **Scoped Styles** - No conflicts with existing CSS (WordPress version)
+यदि तपाईं shortcodes प्रयोग गर्नु हुन्छ:
+
+**Step 1: Add CSS** (same as Method 1)
+
+**Step 2: Add Shortcode PHP**
+1. WPCode → Add Snippet → PHP Snippet
+2. Name: `SFP Shortcodes`
+3. Copy content from: `06-shortcodes.php`
+4. Auto Insert: **Off** (or Site Wide Footer)
+5. Status: Active
+
+**Step 3: Use Shortcodes in Pages**
+
+```
+[sfp_header]          - Header only
+[sfp_main_content]    - Cards only
+[sfp_footer]          - Footer only
+[sfp_full]            - Everything
+```
+
+**Step 4: Add Analytics** (same as Method 1)
 
 ---
 
-## 🎨 Customization
+## ⚙️ Configuration
 
 ### Update Links
 
-All versions allow easy link customization. Find and update:
+`03-main-content.html` or `06-shortcodes.php` मा edit गर्नुहोस्:
 
 ```html
-<a href="https://shop.smartfamilypicks.com" ...>
-<a href="https://quiz.smartfamilypicks.com" ...>
-<a href="https://health.smartfamilypicks.com" ...>
-<a href="https://tools.smartfamilypicks.com" ...>
+href="https://shop.smartfamilypicks.com"     ← यो change गर्नुहोस्
+href="https://quiz.smartfamilypicks.com"     ← यो change गर्नुहोस्
+href="https://health.smartfamilypicks.com"   ← यो change गर्नुहोस्
+href="https://tools.smartfamilypicks.com"    ← यो change गर्नुहोस्
 ```
 
 ### Update Social Media
 
+`04-footer.html` or `06-shortcodes.php` मा edit गर्नुहोस्:
+
 ```html
-<a href="https://facebook.com/yourpage" ...>
-<a href="https://twitter.com/yourhandle" ...>
-<a href="https://instagram.com/yourhandle" ...>
-<a href="mailto:contact@smartfamilypicks.com" ...>
+href="https://facebook.com/yourpage"         ← यो change गर्नुहोस्
+href="https://twitter.com/yourhandle"        ← यो change गर्नुहोस्
+href="https://instagram.com/yourhandle"      ← यो change गर्नुहोस्
+href="mailto:contact@smartfamilypicks.com"   ← यो change गर्नुहोस्
 ```
 
-### Change Colors
+### Update Colors
 
-Modify the gradient colors in CSS:
+`01-styles.css` मा edit गर्नुहोस्:
 
 ```css
-/* Main background */
-background: linear-gradient(135deg, #667eea 0%, #764ba2 25%, #f093fb 50%, #4facfe 75%, #00f2fe 100%);
+/* Main background gradient */
+background: linear-gradient(135deg, #667eea 0%, #764ba2 25%...);
 
-/* Card gradients */
+/* Card icon gradients */
 .card-shop .card-icon {
     background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
 }
 ```
 
-### Update Text
+### Update Text Content
 
-Simply edit the HTML content:
-
+`02-header.html` मा:
 ```html
-<h1>Smart Family Picks</h1>
-<p class="tagline">Your Trusted Resource Hub</p>
-<h2>Welcome to Our Community!</h2>
+<h1>Smart Family Picks</h1>              ← Change title
+<p class="tagline">Your Trusted...</p>   ← Change tagline
 ```
 
----
+`03-main-content.html` मा:
+```html
+<h2>Welcome to Our Community!</h2>       ← Change welcome text
+<h3 class="card-title">Daily Essentials</h3>  ← Change card titles
+<p class="card-description">Discover...</p>   ← Change descriptions
+```
 
-## 📊 Google Analytics
+### Add Google Analytics
 
-### WordPress Version
-
-Uncomment and configure in the PHP snippet:
+`05-analytics.js` मा uncomment गर्नुहोस् र ID add गर्नुहोस्:
 
 ```javascript
-gtag('config', 'G-XXXXXXXXXX'); // Replace with your GA4 ID
-```
-
-### HTML Version
-
-Add to your `index.html` before `</head>`:
-
-```html
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+gtag('config', 'G-XXXXXXXXXX'); // तपाईंको GA4 ID राख्नुहोस्
 ```
 
 ---
 
-## 📱 Responsive Breakpoints
+## 📱 Features
 
-- **Desktop**: > 768px - Full layout with arrows
-- **Tablet**: 481px - 768px - Stacked cards
-- **Mobile**: ≤ 480px - Optimized for small screens
-
----
-
-## 🔧 Technical Details
-
-### HTML Version
-- **No build process** - Works out of the box
-- **Component loading** - Dynamic HTML includes via JavaScript
-- **Fallback support** - Works without JavaScript (static version)
-
-### WordPress Version
-- **Scoped CSS** - All styles prefixed with `.sfp-hub-wrapper`
-- **No theme conflicts** - Completely isolated styles
-- **Shortcode ready** - Easy integration anywhere
-- **Widget compatible** - Works in widget areas
+✅ **Full Screen Background** - पूरा screen मा gradient background
+✅ **Original Design** - तपाईंको original design जस्तै
+✅ **Responsive** - Mobile, tablet, desktop सबैमा काम गर्छ
+✅ **Separated Components** - हरेक part अलग छ
+✅ **Easy to Update** - कुनै पनि part अलग बाट edit गर्न सजिलो
+✅ **No Theme Conflicts** - Original class names प्रयोग गरेको
+✅ **Shortcode Support** - Flexible placement options
 
 ---
 
-## 📦 File Sizes
+## 🔍 Troubleshooting
 
-| File | Size | Purpose |
-|------|------|---------|
-| index.html | 2.0K | Main HTML entry point |
-| styles.css | 6.4K | All CSS styles |
-| header.html | 218B | Header component |
-| footer.html | 749B | Footer component |
-| main-content.html | 2.6K | Main content |
-| wpcode-snippet-all-in-one.php | 16K | WordPress PHP snippet |
-| wpcode-snippet-html-only.html | 13K | WordPress HTML snippet |
+### Issue: Background color देखिएन
+**Solution**:
+- Check if `01-styles.css` snippet is Active
+- Location should be "Site Wide Header"
+- Browser cache clear गर्नुहोस्
 
-**Total**: ~42K (uncompressed)
+### Issue: Header/Footer देखिएन
+**Solution**:
+- Check respective snippet Status = Active
+- Location settings check गर्नुहोस्
+- Page reload गर्नुहोस्
 
----
+### Issue: Cards क्लिक हुँदैन
+**Solution**:
+- Links check गर्नुहोस् (https:// छ कि छैन)
+- Target="_blank" attribute छ कि छैन verify गर्नुहोस्
 
-## 🎯 Use Cases
-
-### 1. WordPress Landing Page
-Use WPCode snippet with shortcode on a dedicated page
-
-### 2. Website Hub Page
-Upload HTML files to create a central resource hub
-
-### 3. Subdomain Portal
-Host on a subdomain like `hub.yourdomain.com`
-
-### 4. GitHub Pages
-Perfect for GitHub Pages hosting
-
-### 5. Custom WordPress Template
-Integrate into a custom page template
+### Issue: Mobile मा ठीक देखिएन
+**Solution**:
+- CSS snippet active छ कि छैन check गर्नुहोस्
+- Browser inspector ले media queries हेर्नुहोस्
+- Cache clear गर्नुहोस्
 
 ---
 
-## 🌐 Browser Support
+## 🆚 Comparison with Combined Version
 
-- ✅ Chrome (latest)
-- ✅ Firefox (latest)
-- ✅ Safari (latest)
-- ✅ Edge (latest)
-- ✅ Mobile browsers (iOS Safari, Chrome Mobile)
+### Divided Version (यो folder):
+✅ Each component separate
+✅ Easy to edit individual parts
+✅ Can enable/disable parts independently
+✅ Original design with full-screen background
+✅ No wrapper div
+✅ Original class names
 
-**Minimum Requirements:**
-- CSS Grid support
-- CSS Flexbox support
-- CSS Animations support
-- JavaScript ES6+ (for dynamic loading)
-
----
-
-## 🛠️ Troubleshooting
-
-### WordPress: Shortcode shows as text
-- Ensure WPCode plugin is active
-- Check snippet is set to "Active" status
-- Verify code type is "PHP Snippet"
-
-### HTML: Components don't load
-- Use a local server (not file://)
-- Check browser console for errors
-- Verify all HTML files are in same directory
-
-### Styling looks broken
-- Check for CSS conflicts with existing styles
-- WordPress: Ensure scoped class names are intact
-- Clear browser cache
-
-### Links don't work
-- Verify URLs include `https://`
-- Check `target="_blank"` is present
-- Test in different browser
+### Combined Version (wpcode-snippet-all-in-one.php):
+✅ Single file - easy to manage
+✅ Scoped styles (no conflicts)
+✅ Wrapper div for WordPress compatibility
+✅ Prefixed class names (sfp-*)
+❌ Full screen background limited by wrapper
 
 ---
 
-## 📖 Documentation
+## 💡 Tips
 
-- **WordPress Installation**: `WPCODE-INSTRUCTIONS.md`
-- **HTML Version Guide**: `SMARTFAMILYPICKS-README.md`
-- **This File**: Overview and quick reference
-
----
-
-## 🔄 Version History
-
-**v1.0** (2025)
-- Initial release
-- Modular HTML structure
-- WordPress WPCode integration
-- Full responsive design
-- Animation effects
-- Google Analytics support
+1. **Testing**: Test in staging site पहिला
+2. **Backup**: Code को backup राख्नुहोस्
+3. **Mobile**: Mobile मा पनि test गर्नुहोस्
+4. **Performance**: सबै snippets एकै पटक activate नगर्नुहोस् (Method बाट choose गर्नुहोस्)
+5. **Updates**: Edit गर्दा code को syntax check गर्नुहोस्
 
 ---
 
-## 📞 Support
+## 📞 Need Help?
 
-For issues or questions:
-1. Check the troubleshooting sections in documentation
-2. Review browser console for errors
-3. Test with default theme (WordPress)
-4. Verify all files are uploaded correctly
+- WPCode plugin documentation हेर्नुहोस्
+- Browser console errors check गर्नुहोस्
+- Each file मा comments छन् - ती पढ्नुहोस्
 
 ---
 
-## 📄 License
-
-© 2025 Smart Family Picks. All rights reserved.
-
----
-
-## 🎓 Learning Resources
-
-### Want to customize further?
-
-**CSS Gradients:**
-- [CSS Gradient Generator](https://cssgradient.io/)
-- [uiGradients](https://uigradients.com/)
-
-**Animations:**
-- [Animate.css](https://animate.style/)
-- [CSS Animation Tutorial](https://www.w3schools.com/css/css3_animations.asp)
-
-**WordPress Shortcodes:**
-- [WordPress Shortcode API](https://developer.wordpress.org/plugins/shortcodes/)
-- [WPCode Documentation](https://wpcode.com/docs/)
-
----
-
-## 🚀 Quick Links
-
-- [View HTML Demo](index.html) - Open in browser with local server
-- [WordPress Setup](WPCODE-INSTRUCTIONS.md) - Complete guide
-- [HTML Documentation](SMARTFAMILYPICKS-README.md) - Standalone version guide
-
----
-
-**Made with ❤️ for families everywhere**
+**Made with ❤️ for Smart Family Picks**

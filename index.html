@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Smart Family Picks - Your trusted resource hub for daily essentials, quizzes, health products, and business tools.">
+    <title>Smart Family Picks - Your Trusted Resource Hub</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Google Analytics 4 - Replace with your Measurement ID -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+
+        // Click tracking function
+        function trackLinkClick(linkName, linkUrl) {
+            gtag('event', 'click', {
+                'event_category': 'Outbound Link',
+                'event_label': linkName,
+                'value': linkUrl
+            });
+        }
+
+        // Load external HTML components
+        function loadComponent(elementId, filePath) {
+            fetch(filePath)
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById(elementId).innerHTML = data;
+                })
+                .catch(error => console.error('Error loading component:', error));
+        }
+
+        // Load all components when DOM is ready
+        document.addEventListener('DOMContentLoaded', function() {
+            loadComponent('header-placeholder', 'header.html');
+            loadComponent('main-placeholder', 'main-content.html');
+            loadComponent('footer-placeholder', 'footer.html');
+        });
+    </script>
+</head>
+<body>
+    <!-- Header Component -->
+    <div id="header-placeholder"></div>
+
+    <!-- Main Content Component -->
+    <div id="main-placeholder"></div>
+
+    <!-- Footer Component -->
+    <div id="footer-placeholder"></div>
+</body>
+</html>

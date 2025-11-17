@@ -1,4 +1,4 @@
-const chapters1And2 = {
+const moviesTVQuestions = {
     1: {
         easy: [
             {
@@ -9661,6 +9661,9 @@ const chapter20 = {
         ]
     }
 };
+};
 
-// Export for use
-console.log(JSON.stringify(chapter20, null, 2));
+// Register in global question bank
+if (typeof subjectQuestionBank !== 'undefined') {
+    subjectQuestionBank['movies'] = moviesTVQuestions;
+}

@@ -10080,8 +10080,9 @@ const sportsQuestionsExtended = {
                 "topic": "Competitions",
                 "emoji": "🧗‍♀️🏆",
                 "question": "Name three climbing competition formats?",
-                "answer": "Speed climbing, Bouldering, Lead climbing, Combined format (any 3)"
-            }
-        ]
-    }
 };
+
+// Register in global question bank
+if (typeof subjectQuestionBank !== 'undefined') {
+    subjectQuestionBank['sports'] = sportsQuestions;
+}

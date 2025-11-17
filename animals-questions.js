@@ -7662,8 +7662,9 @@ const chapter20 = {
         ]
     }
 };
+};
 
-// Export for use
-if (typeof module !== 'undefined' && module.exports) {
-    module.exports = chapter20;
+// Register in global question bank
+if (typeof subjectQuestionBank !== 'undefined') {
+    subjectQuestionBank['animals'] = animalsQuestions;
 }

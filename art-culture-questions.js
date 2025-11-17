@@ -7943,8 +7943,9 @@ const artCultureChapters19_20 = {
                 topic: "Crafts",
                 emoji: "🧵🪡",
                 question: "What is three-dimensional embroidery?",
-                answer: "Stumpwork or Raised work"
-            }
-        ]
-    }
 };
+
+// Register in global question bank
+if (typeof subjectQuestionBank !== 'undefined') {
+    subjectQuestionBank['art-literature'] = artCultureQuestions;
+}

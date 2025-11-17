@@ -57,7 +57,12 @@ const subjects = {
     environment: { name: 'Environment', emoji: '🌱' },
     business: { name: 'Business', emoji: '💼' },
     technology: { name: 'Technology', emoji: '💻' },
-    parenting: { name: 'Parenting', emoji: '👶' }
+    parenting: { name: 'Parenting', emoji: '👶' },
+    animals: { name: 'Animals & Wildlife', emoji: '🐾' },
+    movies: { name: 'Movies & TV', emoji: '🎬' },
+    sports: { name: 'Sports', emoji: '🏆' },
+    'food-drinks': { name: 'Food & Drinks', emoji: '🍔' },
+    'art-literature': { name: 'Art & Culture', emoji: '🎨' }
 };
 
 // Chapter colors
@@ -89,7 +94,7 @@ try { if (typeof technologyQuestions !== 'undefined') subjectQuestionBank.techno
 try { if (typeof parentingQuestions !== 'undefined') subjectQuestionBank.parenting = parentingQuestions; } catch(e) { console.warn('Parenting questions not loaded:', e); }
 
 // Log loaded subjects
-console.log('✅ Loaded subjects:', Object.keys(subjectQuestionBank).length + '/10');
-if (Object.keys(subjectQuestionBank).length < 10) {
+console.log('✅ Loaded subjects:', Object.keys(subjectQuestionBank).length + '/15');
+if (Object.keys(subjectQuestionBank).length < 15) {
     console.warn('⚠️ Some subjects failed to load. Check browser console for details.');
 }

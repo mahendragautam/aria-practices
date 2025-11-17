@@ -9966,8 +9966,9 @@ const foodDrinksQuestions = {
                 "topic": "Stadium Foods",
                 "emoji": "🏟️🌭",
                 "question": "Name three stadium food items?",
-                "answer": "Hot dogs, Nachos, Popcorn, Peanuts, Soft pretzels (any 3)"
-            }
-        ]
-    }
 };
+
+// Register in global question bank
+if (typeof subjectQuestionBank !== 'undefined') {
+    subjectQuestionBank['food-drinks'] = foodDrinksQuestions;
+}

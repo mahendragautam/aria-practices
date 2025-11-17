@@ -19,7 +19,7 @@ const businessQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Finance",
@@ -39,7 +39,7 @@ const businessQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Accounting",
@@ -49,7 +49,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Marketing",
@@ -69,7 +69,7 @@ const businessQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Management",
@@ -109,7 +109,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -121,7 +121,7 @@ const businessQuestions = {
                     "Profit, People, Plan, Price",
                     "Product, Price, Place, Promotion"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Finance",
@@ -141,7 +141,7 @@ const businessQuestions = {
                     "Doing everything",
                     "Assigning tasks"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Accounting",
@@ -151,7 +151,7 @@ const businessQuestions = {
                     "Financial statement",
                     "Employee list"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Marketing",
@@ -181,7 +181,7 @@ const businessQuestions = {
                     "Strengths, Weaknesses, Opportunities, Threats",
                     "Sales, Work, Operations, Training"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Accounting",
@@ -224,7 +224,7 @@ const businessQuestions = {
                     "Reducing costs",
                     "Dividing customers into groups"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Finance",
@@ -235,7 +235,7 @@ const businessQuestions = {
                     "Maximum profit",
                     "Revenue equals costs"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Management",
@@ -268,7 +268,7 @@ const businessQuestions = {
                     "Annual revenue",
                     "First purchase"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Finance",
@@ -290,7 +290,7 @@ const businessQuestions = {
                     "Key Profit Indicator",
                     "Knowledge and Practice Index"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Accounting",
@@ -301,7 +301,7 @@ const businessQuestions = {
                     "Profit formula",
                     "Accounting standards"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Marketing",
@@ -312,7 +312,7 @@ const businessQuestions = {
                     "Business to Business",
                     "Budget to Business"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Finance",
@@ -323,7 +323,7 @@ const businessQuestions = {
                     "Government grant",
                     "Startup investment"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -337,7 +337,7 @@ const businessQuestions = {
                     "Profit/Revenue",
                     "Conversions/Visitors × 100"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Finance",
@@ -349,7 +349,7 @@ const businessQuestions = {
                     "Revenue/Expenses",
                     "Profit/Sales"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Management",
@@ -361,7 +361,7 @@ const businessQuestions = {
                     "HR strategy",
                     "Continuous improvement"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Accounting",
@@ -373,7 +373,7 @@ const businessQuestions = {
                     "Earnings before interest, tax, depreciation, amortization",
                     "Gross income"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Marketing",
@@ -385,7 +385,7 @@ const businessQuestions = {
                     "Awareness, Interest, Decision, Action",
                     "Plan, Execute, Measure"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Finance",
@@ -409,7 +409,7 @@ const businessQuestions = {
                     "Waterfall model",
                     "Iterative development"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Accounting",
@@ -421,7 +421,7 @@ const businessQuestions = {
                     "Duplicate records",
                     "Two accountants"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Marketing",
@@ -433,7 +433,7 @@ const businessQuestions = {
                     "Search Engine Optimization",
                     "Sales Efficiency Objective"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Finance",
@@ -521,7 +521,7 @@ const businessQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Startup",
@@ -531,7 +531,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Innovation",
@@ -541,7 +541,7 @@ const businessQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Startup",
@@ -581,7 +581,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Startup",
@@ -601,7 +601,7 @@ const businessQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Startup",
@@ -611,7 +611,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -643,7 +643,7 @@ const businessQuestions = {
                     "Incremental change",
                     "New market creation"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Startup",
@@ -683,7 +683,7 @@ const businessQuestions = {
                     "Minimum Viable Product",
                     "Maximum Value Price"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Startup",
@@ -693,7 +693,7 @@ const businessQuestions = {
                     "Final round",
                     "Early-stage investment"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Risk",
@@ -703,7 +703,7 @@ const businessQuestions = {
                     "Stay same course",
                     "Change business direction"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Startup",
@@ -713,7 +713,7 @@ const businessQuestions = {
                     "Partner who starts company",
                     "Employee"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -726,7 +726,7 @@ const businessQuestions = {
                     "Build-measure-learn",
                     "Plan-execute-finish"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Startup",
@@ -737,7 +737,7 @@ const businessQuestions = {
                     "Market research",
                     "Product satisfies market demand"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Innovation",
@@ -748,7 +748,7 @@ const businessQuestions = {
                     "Uncontested market space",
                     "Competitive market"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Startup",
@@ -759,7 +759,7 @@ const businessQuestions = {
                     "Any startup",
                     "Startup valued at $1B+"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Risk",
@@ -803,7 +803,7 @@ const businessQuestions = {
                     "Ownership percentage decrease",
                     "Profit increase"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Risk",
@@ -814,7 +814,7 @@ const businessQuestions = {
                     "Growth rate",
                     "Time until money runs out"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Startup",
@@ -825,7 +825,7 @@ const businessQuestions = {
                     "Salary increase",
                     "Equity earned over time"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -839,7 +839,7 @@ const businessQuestions = {
                     "50%",
                     "~90%"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Startup",
@@ -851,7 +851,7 @@ const businessQuestions = {
                     "Cost to acquire customer",
                     "Product cost"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Innovation",
@@ -863,7 +863,7 @@ const businessQuestions = {
                     "Successful companies miss disruptions",
                     "Too much innovation"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Startup",
@@ -899,7 +899,7 @@ const businessQuestions = {
                     "$1k",
                     "$25k-$100k"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Innovation",
@@ -911,7 +911,7 @@ const businessQuestions = {
                     "10 times better than competitors",
                     "10 customers"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Startup",
@@ -923,7 +923,7 @@ const businessQuestions = {
                     "Employee contract",
                     "Investment agreement terms"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Risk",
@@ -935,7 +935,7 @@ const businessQuestions = {
                     "Profit measures",
                     "Market caps"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Startup",
@@ -947,7 +947,7 @@ const businessQuestions = {
                     "Cash investment",
                     "Ownership for work"
                 ],
-                "correct": 3
+                "correct": 1
             }
         ],
         "extreme": [
@@ -1023,7 +1023,7 @@ const businessQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Recruitment",
@@ -1033,7 +1033,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Training",
@@ -1043,7 +1043,7 @@ const businessQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Benefits",
@@ -1063,7 +1063,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Performance",
@@ -1093,7 +1093,7 @@ const businessQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Training",
@@ -1113,7 +1113,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -1135,7 +1135,7 @@ const businessQuestions = {
                     "Finding and hiring",
                     "Firing people"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Training",
@@ -1145,7 +1145,7 @@ const businessQuestions = {
                     "Legal Department",
                     "Learning and Development"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Benefits",
@@ -1185,7 +1185,7 @@ const businessQuestions = {
                     "HR Information System",
                     "HR Insurance Service"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Recruitment",
@@ -1205,7 +1205,7 @@ const businessQuestions = {
                     "Firing employees",
                     "Learning new skills"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Benefits",
@@ -1215,7 +1215,7 @@ const businessQuestions = {
                     "Retirement savings plan",
                     "Health insurance"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -1228,7 +1228,7 @@ const businessQuestions = {
                     "No strategy",
                     "Align HR with business goals"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Recruitment",
@@ -1239,7 +1239,7 @@ const businessQuestions = {
                     "Interview room",
                     "Job board"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Training",
@@ -1250,7 +1250,7 @@ const businessQuestions = {
                     "70% experience, 20% others, 10% formal",
                     "70% online"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Benefits",
@@ -1272,7 +1272,7 @@ const businessQuestions = {
                     "Office location",
                     "Shared values and behaviors"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Performance",
@@ -1305,7 +1305,7 @@ const businessQuestions = {
                     "Unemployed",
                     "Not actively job seeking"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Training",
@@ -1327,7 +1327,7 @@ const businessQuestions = {
                     "Fixed package",
                     "No benefits"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -1341,7 +1341,7 @@ const businessQuestions = {
                     "Promotion rate",
                     "Percentage leaving annually"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Recruitment",
@@ -1353,7 +1353,7 @@ const businessQuestions = {
                     "30-45 days",
                     "6 months"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Training",
@@ -1389,7 +1389,7 @@ const businessQuestions = {
                     "Mass employee exodus trend",
                     "Layoff period"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Performance",
@@ -1401,7 +1401,7 @@ const businessQuestions = {
                     "Random assignment",
                     "Rank employees by performance"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "HR",
@@ -1413,7 +1413,7 @@ const businessQuestions = {
                     "Strategic HR role",
                     "Administrative only"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Recruitment",
@@ -1565,7 +1565,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Quality",
@@ -1575,7 +1575,7 @@ const businessQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Process",
@@ -1605,7 +1605,7 @@ const businessQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Quality",
@@ -1615,7 +1615,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -1627,7 +1627,7 @@ const businessQuestions = {
                     "Marketing only",
                     "Manage production and delivery"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Quality",
@@ -1647,7 +1647,7 @@ const businessQuestions = {
                     "Keeping same",
                     "Making operations better"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Inventory",
@@ -1657,7 +1657,7 @@ const businessQuestions = {
                     "Receive goods as needed",
                     "Store everything"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Operations",
@@ -1717,7 +1717,7 @@ const businessQuestions = {
                     "Percentage of flawed products",
                     "Total production"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -1730,7 +1730,7 @@ const businessQuestions = {
                     "Eliminate waste",
                     "Slow production"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Quality",
@@ -1763,7 +1763,7 @@ const businessQuestions = {
                     "Estimated Output Quota",
                     "Economic Order Quantity"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Operations",
@@ -1796,7 +1796,7 @@ const businessQuestions = {
                     "Marketing tool",
                     "Visualize process flow"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Inventory",
@@ -1807,7 +1807,7 @@ const businessQuestions = {
                     "Damaged goods",
                     "Buffer inventory"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Operations",
@@ -1818,7 +1818,7 @@ const businessQuestions = {
                     "Overall Equipment Effectiveness",
                     "Operational Efficiency Estimate"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Quality",
@@ -1843,7 +1843,7 @@ const businessQuestions = {
                     "Ignore constraints",
                     "Focus on bottlenecks"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Quality",
@@ -1855,7 +1855,7 @@ const businessQuestions = {
                     "Design, Make, Assemble, Inspect, Check",
                     "Data, Model, Apply, Interpret, Complete"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Process",
@@ -1867,7 +1867,7 @@ const businessQuestions = {
                     "Annual production",
                     "Monthly output"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Inventory",
@@ -1879,7 +1879,7 @@ const businessQuestions = {
                     "Assets / Inventory",
                     "COGS / Average inventory"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Operations",
@@ -1903,7 +1903,7 @@ const businessQuestions = {
                     "Production cost",
                     "Prevention, appraisal, failure costs"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Process",
@@ -1939,7 +1939,7 @@ const businessQuestions = {
                     "Sort, Set, Shine, Standardize, Sustain",
                     "5 supervisors"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Quality",
@@ -1951,7 +1951,7 @@ const businessQuestions = {
                     "Inspection tool",
                     "Training method"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "extreme": [
@@ -2027,7 +2027,7 @@ const businessQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Logistics",
@@ -2037,7 +2037,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Procurement",
@@ -2057,7 +2057,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Supply Chain",
@@ -2077,7 +2077,7 @@ const businessQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Procurement",
@@ -2107,7 +2107,7 @@ const businessQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Logistics",
@@ -2129,7 +2129,7 @@ const businessQuestions = {
                     "Sales only",
                     "Flow from supplier to customer"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Logistics",
@@ -2149,7 +2149,7 @@ const businessQuestions = {
                     "Random buying",
                     "Long-term supplier relationships"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Warehouse",
@@ -2169,7 +2169,7 @@ const businessQuestions = {
                     "Managing supplier relationships",
                     "Ignoring suppliers"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Logistics",
@@ -2189,7 +2189,7 @@ const businessQuestions = {
                     "Request for Proposal",
                     "Ready for Payment"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Warehouse",
@@ -2199,7 +2199,7 @@ const businessQuestions = {
                     "Worker Management Service",
                     "Warehouse Management System"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Supply Chain",
@@ -2232,7 +2232,7 @@ const businessQuestions = {
                     "Stable demand",
                     "Demand amplification upstream"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Logistics",
@@ -2242,7 +2242,7 @@ const businessQuestions = {
                     "Multiple transport modes",
                     "One mode only"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Procurement",
@@ -2252,7 +2252,7 @@ const businessQuestions = {
                     "Purchase price only",
                     "All costs over lifetime"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Warehouse",
@@ -2272,7 +2272,7 @@ const businessQuestions = {
                     "Control multiple supply chain stages",
                     "Outsource everything"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Logistics",
@@ -2302,7 +2302,7 @@ const businessQuestions = {
                     "Same thing",
                     "First-In-First-Out vs Last-In-First-Out"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Supply Chain",
@@ -2336,7 +2336,7 @@ const businessQuestions = {
                     "Supply Cost Optimization Rate",
                     "Supply Chain Operations Reference"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Logistics",
@@ -2348,7 +2348,7 @@ const businessQuestions = {
                     "50%",
                     "5-10%"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Procurement",
@@ -2360,7 +2360,7 @@ const businessQuestions = {
                     "Revenue tracking",
                     "Analyze purchasing data"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Warehouse",
@@ -2372,7 +2372,7 @@ const businessQuestions = {
                     "Optimal product placement",
                     "Size sorting"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Supply Chain",
@@ -2384,7 +2384,7 @@ const businessQuestions = {
                     "10%",
                     "85-95%"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Logistics",
@@ -2408,7 +2408,7 @@ const businessQuestions = {
                     "Evaluate supplier performance",
                     "Random selection"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Warehouse",
@@ -2420,7 +2420,7 @@ const businessQuestions = {
                     "Annual count",
                     "Continuous inventory audit"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Supply Chain",
@@ -2444,7 +2444,7 @@ const businessQuestions = {
                     "Random routes",
                     "Regular route pickups"
                 ],
-                "correct": 3
+                "correct": 1
             }
         ],
         "extreme": [
@@ -2570,7 +2570,7 @@ const businessQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Competition",
@@ -2580,7 +2580,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Growth",
@@ -2590,7 +2590,7 @@ const businessQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Strategy",
@@ -2622,7 +2622,7 @@ const businessQuestions = {
                     "Daily operations",
                     "Define long-term direction"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Vision",
@@ -2662,7 +2662,7 @@ const businessQuestions = {
                     "Alignment of strategy and resources",
                     "Random plan"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Analysis",
@@ -2672,7 +2672,7 @@ const businessQuestions = {
                     "Sales analysis",
                     "Strengths, Weaknesses, Opportunities, Threats"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Competition",
@@ -2692,7 +2692,7 @@ const businessQuestions = {
                     "Enter new market",
                     "Increase share in current market"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Strategy",
@@ -2735,7 +2735,7 @@ const businessQuestions = {
                     "Ambitious long-term goal",
                     "Short-term target"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Mission",
@@ -2785,7 +2785,7 @@ const businessQuestions = {
                     "Compare with best practices",
                     "Ignore competitors"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Growth",
@@ -2829,7 +2829,7 @@ const businessQuestions = {
                     "No change",
                     "Fast adaptation"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Vision",
@@ -2841,7 +2841,7 @@ const businessQuestions = {
                     "Business Handling Annual Gains",
                     "Brand Helping Achieve Growth"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Mission",
@@ -2865,7 +2865,7 @@ const businessQuestions = {
                     "Overall Knowledge Review",
                     "Operational Key Ratios"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Strategy",
@@ -2877,7 +2877,7 @@ const businessQuestions = {
                     "Prepare for multiple futures",
                     "Random approach"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Analysis",
@@ -2889,7 +2889,7 @@ const businessQuestions = {
                     "Cost cutting",
                     "Examine activity value creation"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Competition",
@@ -2901,7 +2901,7 @@ const businessQuestions = {
                     "Disadvantage",
                     "Benefits of market entry first"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Growth",
@@ -2913,7 +2913,7 @@ const businessQuestions = {
                     "Internal vs acquisition",
                     "No difference"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Strategy",
@@ -2937,7 +2937,7 @@ const businessQuestions = {
                     "~70%",
                     "100%"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "extreme": [
@@ -3013,7 +3013,7 @@ const businessQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Compliance",
@@ -3033,7 +3033,7 @@ const businessQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Responsibility",
@@ -3043,7 +3043,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ethics",
@@ -3053,7 +3053,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Transparency",
@@ -3063,7 +3063,7 @@ const businessQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Fairness",
@@ -3083,7 +3083,7 @@ const businessQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ethics",
@@ -3145,7 +3145,7 @@ const businessQuestions = {
                     "Corporate Social Responsibility",
                     "Company Sales Report"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ethics",
@@ -3155,7 +3155,7 @@ const businessQuestions = {
                     "Conflict between moral choices",
                     "Easy decision"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Transparency",
@@ -3165,7 +3165,7 @@ const businessQuestions = {
                     "Hiding facts",
                     "Revealing information"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Fairness",
@@ -3175,7 +3175,7 @@ const businessQuestions = {
                     "Fair access for all",
                     "Discrimination"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Integrity",
@@ -3195,7 +3195,7 @@ const businessQuestions = {
                     "No guidelines",
                     "Written moral guidelines"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Accountability",
@@ -3217,7 +3217,7 @@ const businessQuestions = {
                     "Shareholders only",
                     "Consider all affected parties"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Compliance",
@@ -3227,7 +3227,7 @@ const businessQuestions = {
                     "Financial reporting law",
                     "Employment law"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Honesty",
@@ -3257,7 +3257,7 @@ const businessQuestions = {
                     "Risk-taking without consequences",
                     "Ethical behavior"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Transparency",
@@ -3267,7 +3267,7 @@ const businessQuestions = {
                     "Business strategy",
                     "Accounting transparency standards"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Fairness",
@@ -3287,7 +3287,7 @@ const businessQuestions = {
                     "Ignore ethics",
                     "Lead by moral example"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ethics",
@@ -3297,7 +3297,7 @@ const businessQuestions = {
                     "Any supplier",
                     "Responsible procurement"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Accountability",
@@ -3307,7 +3307,7 @@ const businessQuestions = {
                     "Oversee management",
                     "No oversight"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -3333,7 +3333,7 @@ const businessQuestions = {
                     "Financial Compliance Protection Act",
                     "Foreign Corrupt Practices Act"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Honesty",
@@ -3357,7 +3357,7 @@ const businessQuestions = {
                     "Economic Strategy Guide",
                     "Employee Safety Guidelines"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ethics",
@@ -3369,7 +3369,7 @@ const businessQuestions = {
                     "Ethics vary by culture",
                     "No ethics"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Transparency",
@@ -3393,7 +3393,7 @@ const businessQuestions = {
                     "Fair allocation of resources",
                     "Random allocation"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Integrity",
@@ -3417,7 +3417,7 @@ const businessQuestions = {
                     "Misleading environmental claims",
                     "Eco-friendly practice"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Accountability",
@@ -3429,7 +3429,7 @@ const businessQuestions = {
                     "Give more pay",
                     "Bonus guarantee"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "extreme": [
@@ -3515,7 +3515,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Payment",
@@ -3525,7 +3525,7 @@ const businessQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Shipping",
@@ -3545,7 +3545,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Marketing",
@@ -3565,7 +3565,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Security",
@@ -3575,7 +3575,7 @@ const businessQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Online",
@@ -3595,7 +3595,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -3607,7 +3607,7 @@ const businessQuestions = {
                     "Business to Business",
                     "Business to Consumer"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Website",
@@ -3617,7 +3617,7 @@ const businessQuestions = {
                     "Virtual basket for items",
                     "Physical cart"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Payment",
@@ -3657,7 +3657,7 @@ const businessQuestions = {
                     "All visitors",
                     "Visitors who buy"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Customer",
@@ -3677,7 +3677,7 @@ const businessQuestions = {
                     "Business license",
                     "Secure connection encryption"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Online",
@@ -3687,7 +3687,7 @@ const businessQuestions = {
                     "Own warehouse",
                     "Seller doesn't hold inventory"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Convenience",
@@ -3697,7 +3697,7 @@ const businessQuestions = {
                     "Fast purchase process",
                     "Multiple steps"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -3709,7 +3709,7 @@ const businessQuestions = {
                     "Online only",
                     "Integrated multi-channel"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Website",
@@ -3719,7 +3719,7 @@ const businessQuestions = {
                     "Adapts to device size",
                     "Fixed layout"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Payment",
@@ -3729,7 +3729,7 @@ const businessQuestions = {
                     "Payment type",
                     "Payment security standard"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Shipping",
@@ -3739,7 +3739,7 @@ const businessQuestions = {
                     "Live stock updates",
                     "Monthly count"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Online",
@@ -3759,7 +3759,7 @@ const businessQuestions = {
                     "New customers only",
                     "Show ads to previous visitors"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Customer",
@@ -3779,7 +3779,7 @@ const businessQuestions = {
                     "One password",
                     "Extra security layer"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Online",
@@ -3789,7 +3789,7 @@ const businessQuestions = {
                     "Single seller",
                     "Platform for multiple sellers"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Convenience",
@@ -3813,7 +3813,7 @@ const businessQuestions = {
                     "50%",
                     "0.1%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Website",
@@ -3825,7 +3825,7 @@ const businessQuestions = {
                     "Compare two versions",
                     "Single test"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Payment",
@@ -3837,7 +3837,7 @@ const businessQuestions = {
                     "Discount",
                     "Reversed payment"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Shipping",
@@ -3849,7 +3849,7 @@ const businessQuestions = {
                     "Customs and regulations",
                     "Simple process"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Online",
@@ -3873,7 +3873,7 @@ const businessQuestions = {
                     "Central Admin Console",
                     "Customer Acquisition Cost"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Customer",
@@ -3885,7 +3885,7 @@ const businessQuestions = {
                     "~70% average",
                     "0%"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Security",
@@ -3897,7 +3897,7 @@ const businessQuestions = {
                     "Shipping rule",
                     "Data protection regulation"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Online",
@@ -3909,7 +3909,7 @@ const businessQuestions = {
                     "Single system",
                     "Separate frontend and backend"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Convenience",
@@ -3921,7 +3921,7 @@ const businessQuestions = {
                     "2-3 days",
                     "1 month"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "extreme": [
@@ -4007,7 +4007,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Currency",
@@ -4017,7 +4017,7 @@ const businessQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Culture",
@@ -4067,7 +4067,7 @@ const businessQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Global",
@@ -4087,7 +4087,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -4099,7 +4099,7 @@ const businessQuestions = {
                     "Local business only",
                     "Worldwide economic integration"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Trade",
@@ -4109,7 +4109,7 @@ const businessQuestions = {
                     "Trade without barriers",
                     "No trade allowed"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Currency",
@@ -4139,7 +4139,7 @@ const businessQuestions = {
                     "Company in multiple countries",
                     "Local business"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Export",
@@ -4149,7 +4149,7 @@ const businessQuestions = {
                     "Tax on exports",
                     "Government support for exports"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Import",
@@ -4179,7 +4179,7 @@ const businessQuestions = {
                     "Tourist",
                     "Employee working abroad"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Language",
@@ -4189,7 +4189,7 @@ const businessQuestions = {
                     "Common business language",
                     "Native language"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -4213,7 +4213,7 @@ const businessQuestions = {
                     "World Tourism Office",
                     "Worldwide Tax Office"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Currency",
@@ -4235,7 +4235,7 @@ const businessQuestions = {
                     "Trade agreement",
                     "Business model"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Global",
@@ -4246,7 +4246,7 @@ const businessQuestions = {
                     "Acquisition",
                     "Partnership with local company"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Export",
@@ -4279,7 +4279,7 @@ const businessQuestions = {
                     "License business model",
                     "Export only"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Global",
@@ -4290,7 +4290,7 @@ const businessQuestions = {
                     "Send abroad",
                     "Return employee to home country"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Language",
@@ -4327,7 +4327,7 @@ const businessQuestions = {
                     "~60%",
                     "10%"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Currency",
@@ -4339,7 +4339,7 @@ const businessQuestions = {
                     "Interest rate",
                     "Compare currencies by buying power"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Culture",
@@ -4351,7 +4351,7 @@ const businessQuestions = {
                     "Indirect vs direct communication",
                     "Rich vs poor"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Global",
@@ -4363,7 +4363,7 @@ const businessQuestions = {
                     "Foreign Direct Investment",
                     "Federal Department Index"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Export",
@@ -4399,7 +4399,7 @@ const businessQuestions = {
                     "Physical distance",
                     "Perceived cultural difference"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Global",
@@ -4411,7 +4411,7 @@ const businessQuestions = {
                     "Adjustment difficulty abroad",
                     "Happy experience"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Language",
@@ -4423,7 +4423,7 @@ const businessQuestions = {
                     "5%",
                     "100%"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "extreme": [
@@ -4509,7 +4509,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Property",
@@ -4529,7 +4529,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Law",
@@ -4539,7 +4539,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Liability",
@@ -4559,7 +4559,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Consumer",
@@ -4569,7 +4569,7 @@ const businessQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Law",
@@ -4589,7 +4589,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -4601,7 +4601,7 @@ const businessQuestions = {
                     "Criminal law",
                     "Law governing business"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Contract",
@@ -4621,7 +4621,7 @@ const businessQuestions = {
                     "Building ownership",
                     "Brand protection"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Employment",
@@ -4651,7 +4651,7 @@ const businessQuestions = {
                     "Unlimited responsibility",
                     "Personal assets protected"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Tax",
@@ -4681,7 +4681,7 @@ const businessQuestions = {
                     "Court trial",
                     "Alternative dispute resolution"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Compliance",
@@ -4691,7 +4691,7 @@ const businessQuestions = {
                     "Investigation before transaction",
                     "Random check"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -4704,7 +4704,7 @@ const businessQuestions = {
                     "Uniform Commercial Code",
                     "United Consumer Council"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Contract",
@@ -4715,7 +4715,7 @@ const businessQuestions = {
                     "Negotiate terms",
                     "Sign contract"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Property",
@@ -4737,7 +4737,7 @@ const businessQuestions = {
                     "Retirement",
                     "Illegal firing"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Law",
@@ -4748,7 +4748,7 @@ const businessQuestions = {
                     "No liability",
                     "Personal only"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Liability",
@@ -4770,7 +4770,7 @@ const businessQuestions = {
                     "Pay twice",
                     "No tax"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Consumer",
@@ -4781,7 +4781,7 @@ const businessQuestions = {
                     "Seller beware",
                     "Buyer beware"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Law",
@@ -4792,7 +4792,7 @@ const businessQuestions = {
                     "Government suit",
                     "Group sues together"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Compliance",
@@ -4803,7 +4803,7 @@ const businessQuestions = {
                     "Standard Employment Contract",
                     "Securities Exchange Commission"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -4817,7 +4817,7 @@ const businessQuestions = {
                     "No consequences",
                     "Tax benefit"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Contract",
@@ -4829,7 +4829,7 @@ const businessQuestions = {
                     "No requirements",
                     "All oral"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Property",
@@ -4853,7 +4853,7 @@ const businessQuestions = {
                     "Equal Employment Opportunity Commission",
                     "Employee Expense Oversight Committee"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Law",
@@ -4865,7 +4865,7 @@ const businessQuestions = {
                     "No excuse",
                     "Breach allowed"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Liability",
@@ -4877,7 +4877,7 @@ const businessQuestions = {
                     "Need proof of negligence",
                     "Conditional"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Tax",
@@ -4889,7 +4889,7 @@ const businessQuestions = {
                     "Retail price",
                     "No pricing"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Consumer",
@@ -4901,7 +4901,7 @@ const businessQuestions = {
                     "Defective product remedies",
                     "No protection"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Law",
@@ -4913,7 +4913,7 @@ const businessQuestions = {
                     "Time limit to file lawsuit",
                     "No limit"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Compliance",
@@ -4925,7 +4925,7 @@ const businessQuestions = {
                     "Legal trading",
                     "Day trading"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "extreme": [
@@ -5001,7 +5001,7 @@ const businessQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Planning",
@@ -5021,7 +5021,7 @@ const businessQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Budget",
@@ -5031,7 +5031,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Schedule",
@@ -5041,7 +5041,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Goals",
@@ -5081,7 +5081,7 @@ const businessQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Completion",
@@ -5103,7 +5103,7 @@ const businessQuestions = {
                     "Ongoing operations",
                     "Temporary endeavor with unique goal"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Planning",
@@ -5113,7 +5113,7 @@ const businessQuestions = {
                     "Work included in project",
                     "Project cost"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Team",
@@ -5123,7 +5123,7 @@ const businessQuestions = {
                     "Just observe",
                     "Lead and coordinate project"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Budget",
@@ -5133,7 +5133,7 @@ const businessQuestions = {
                     "Predict project expenses",
                     "Final invoice"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Schedule",
@@ -5153,7 +5153,7 @@ const businessQuestions = {
                     "Input resources",
                     "Project outputs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Risk",
@@ -5163,7 +5163,7 @@ const businessQuestions = {
                     "Identify and mitigate risks",
                     "Ignore problems"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Quality",
@@ -5183,7 +5183,7 @@ const businessQuestions = {
                     "Team member only",
                     "Person affected by project"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Completion",
@@ -5193,7 +5193,7 @@ const businessQuestions = {
                     "Formal project end",
                     "Abandon project"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -5206,7 +5206,7 @@ const businessQuestions = {
                     "Three projects",
                     "Scope, time, cost balance"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Planning",
@@ -5217,7 +5217,7 @@ const businessQuestions = {
                     "Weekly Business Summary",
                     "Work Breakdown Structure"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Team",
@@ -5227,7 +5227,7 @@ const businessQuestions = {
                     "Resource Allocation Chart",
                     "Responsible, Accountable, Consulted, Informed"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Budget",
@@ -5238,7 +5238,7 @@ const businessQuestions = {
                     "Salary calculation",
                     "Revenue tracking"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Schedule",
@@ -5271,7 +5271,7 @@ const businessQuestions = {
                     "Employee list",
                     "Budget sheet"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Quality",
@@ -5282,7 +5282,7 @@ const businessQuestions = {
                     "No checking",
                     "Monitor specific results"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Communication",
@@ -5293,7 +5293,7 @@ const businessQuestions = {
                     "Budget request",
                     "Project progress update"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Completion",
@@ -5304,7 +5304,7 @@ const businessQuestions = {
                     "Failure report",
                     "Document for future projects"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -5318,7 +5318,7 @@ const businessQuestions = {
                     "Primary Management Indicator",
                     "Project Management Institute"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Planning",
@@ -5330,7 +5330,7 @@ const businessQuestions = {
                     "No planning",
                     "All detailed upfront"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Team",
@@ -5366,7 +5366,7 @@ const businessQuestions = {
                     "Reduce scope",
                     "Extend timeline"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Goals",
@@ -5378,7 +5378,7 @@ const businessQuestions = {
                     "Fast completion",
                     "No changes"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Risk",
@@ -5390,7 +5390,7 @@ const businessQuestions = {
                     "Gambling method",
                     "Simple guess"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Quality",
@@ -5402,7 +5402,7 @@ const businessQuestions = {
                     "Quality improvement methodology",
                     "Time management"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Communication",
@@ -5414,7 +5414,7 @@ const businessQuestions = {
                     "0%",
                     "10%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Completion",
@@ -5426,7 +5426,7 @@ const businessQuestions = {
                     "100%",
                     "90%"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "extreme": [
@@ -5512,7 +5512,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Prospecting",
@@ -5552,7 +5552,7 @@ const businessQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Product",
@@ -5562,7 +5562,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Follow-up",
@@ -5604,7 +5604,7 @@ const businessQuestions = {
                     "One meeting",
                     "Steps from prospect to close"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Customer",
@@ -5624,7 +5624,7 @@ const businessQuestions = {
                     "Warm introduction",
                     "Contact without prior relationship"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Negotiation",
@@ -5654,7 +5654,7 @@ const businessQuestions = {
                     "Open accounts",
                     "Maintain customer relationships"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Product",
@@ -5664,7 +5664,7 @@ const businessQuestions = {
                     "Benefits offered to customer",
                     "Price only"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Follow-up",
@@ -5694,7 +5694,7 @@ const businessQuestions = {
                     "Stages from awareness to purchase",
                     "Marketing only"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -5719,7 +5719,7 @@ const businessQuestions = {
                     "Price, Product, Place",
                     "Budget, Authority, Need, Timeline"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Prospecting",
@@ -5730,7 +5730,7 @@ const businessQuestions = {
                     "In-person only",
                     "Use social media for sales"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Negotiation",
@@ -5741,7 +5741,7 @@ const businessQuestions = {
                     "Basic Tactics",
                     "Beginning Approach"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sales",
@@ -5752,7 +5752,7 @@ const businessQuestions = {
                     "Sales volume",
                     "Price point"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Relationship",
@@ -5763,7 +5763,7 @@ const businessQuestions = {
                     "Total revenue from customer",
                     "First purchase"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Product",
@@ -5774,7 +5774,7 @@ const businessQuestions = {
                     "Price-based",
                     "Product features only"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Follow-up",
@@ -5807,7 +5807,7 @@ const businessQuestions = {
                     "Conversion rate",
                     "Pipeline value vs quota"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -5845,7 +5845,7 @@ const businessQuestions = {
                     "No difference",
                     "Same thing"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Negotiation",
@@ -5869,7 +5869,7 @@ const businessQuestions = {
                     "5-15%",
                     "1%"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Relationship",
@@ -5881,7 +5881,7 @@ const businessQuestions = {
                     "Next Phase Strategy",
                     "New Product Sales"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Product",
@@ -5917,7 +5917,7 @@ const businessQuestions = {
                     "~50-60%",
                     "0%"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Pipeline",
@@ -5929,7 +5929,7 @@ const businessQuestions = {
                     "20x",
                     "3-5x quota"
                 ],
-                "correct": 3
+                "correct": 1
             }
         ],
         "extreme": [
@@ -6015,7 +6015,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Satisfaction",
@@ -6065,7 +6065,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Loyalty",
@@ -6075,7 +6075,7 @@ const businessQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Service",
@@ -6085,7 +6085,7 @@ const businessQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Feedback",
@@ -6117,7 +6117,7 @@ const businessQuestions = {
                     "Track customer issues",
                     "Payment system"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Satisfaction",
@@ -6127,7 +6127,7 @@ const businessQuestions = {
                     "Complete Sales Tracking",
                     "Customer Satisfaction Score"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Communication",
@@ -6137,7 +6137,7 @@ const businessQuestions = {
                     "Multiple integrated channels",
                     "One channel only"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Service",
@@ -6147,7 +6147,7 @@ const businessQuestions = {
                     "Fully focus on customer",
                     "Waiting to speak"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Response",
@@ -6157,7 +6157,7 @@ const businessQuestions = {
                     "Resolution time",
                     "Time to initial reply"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Complaint",
@@ -6197,7 +6197,7 @@ const businessQuestions = {
                     "Customer loyalty metric",
                     "Sales metric"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -6221,7 +6221,7 @@ const businessQuestions = {
                     "No support",
                     "Agent required"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Satisfaction",
@@ -6243,7 +6243,7 @@ const businessQuestions = {
                     "Indifference",
                     "No emotion"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Service",
@@ -6276,7 +6276,7 @@ const businessQuestions = {
                     "Close ticket",
                     "Ignore problem"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Loyalty",
@@ -6298,7 +6298,7 @@ const businessQuestions = {
                     "Repository of answers",
                     "Employee list"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Feedback",
@@ -6309,7 +6309,7 @@ const businessQuestions = {
                     "Value Of Communication",
                     "Voice of Customer"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -6323,7 +6323,7 @@ const businessQuestions = {
                     "$1",
                     "$100"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Support",
@@ -6335,7 +6335,7 @@ const businessQuestions = {
                     "70-80%",
                     "5%"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Satisfaction",
@@ -6347,7 +6347,7 @@ const businessQuestions = {
                     "100%",
                     "50%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Communication",
@@ -6359,7 +6359,7 @@ const businessQuestions = {
                     "100%",
                     "10%"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Service",
@@ -6383,7 +6383,7 @@ const businessQuestions = {
                     "24 hours",
                     "1 month"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Complaint",
@@ -6395,7 +6395,7 @@ const businessQuestions = {
                     "100%",
                     "~5%"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Loyalty",
@@ -6419,7 +6419,7 @@ const businessQuestions = {
                     "60-80%",
                     "0%"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Feedback",
@@ -6431,7 +6431,7 @@ const businessQuestions = {
                     "10",
                     "70+"
                 ],
-                "correct": 3
+                "correct": 1
             }
         ],
         "extreme": [
@@ -6507,7 +6507,7 @@ const businessQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Research",
@@ -6517,7 +6517,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Development",
@@ -6527,7 +6527,7 @@ const businessQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Creativity",
@@ -6537,7 +6537,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Innovation",
@@ -6547,7 +6547,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Technology",
@@ -6557,7 +6557,7 @@ const businessQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Patents",
@@ -6587,7 +6587,7 @@ const businessQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Improvement",
@@ -6619,7 +6619,7 @@ const businessQuestions = {
                     "Research and Development",
                     "Revenue and Data"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Development",
@@ -6629,7 +6629,7 @@ const businessQuestions = {
                     "One step",
                     "Stages from idea to launch"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Creativity",
@@ -6659,7 +6659,7 @@ const businessQuestions = {
                     "Keep secret",
                     "Share tech between entities"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Patents",
@@ -6689,7 +6689,7 @@ const businessQuestions = {
                     "One project",
                     "Flow of ideas to market"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Improvement",
@@ -6712,7 +6712,7 @@ const businessQuestions = {
                     "Collaborate with external partners",
                     "Internal only"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Research",
@@ -6723,7 +6723,7 @@ const businessQuestions = {
                     "Same thing",
                     "Theory vs practical application"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Development",
@@ -6734,7 +6734,7 @@ const businessQuestions = {
                     "Phased product development",
                     "Random approach"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Creativity",
@@ -6745,7 +6745,7 @@ const businessQuestions = {
                     "Art design",
                     "User-centered problem solving"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Innovation",
@@ -6756,7 +6756,7 @@ const businessQuestions = {
                     "No scale",
                     "Price level"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Technology",
@@ -6778,7 +6778,7 @@ const businessQuestions = {
                     "No relevance",
                     "New invention"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Testing",
@@ -6789,7 +6789,7 @@ const businessQuestions = {
                     "No testing",
                     "Compare two versions"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Innovation",
@@ -6825,7 +6825,7 @@ const businessQuestions = {
                     "10%",
                     "0%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Research",
@@ -6837,7 +6837,7 @@ const businessQuestions = {
                     "3-15%",
                     "1%"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Development",
@@ -6849,7 +6849,7 @@ const businessQuestions = {
                     "Market hours",
                     "Random"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Creativity",
@@ -6861,7 +6861,7 @@ const businessQuestions = {
                     "No thinking",
                     "Solve problems indirectly"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Innovation",
@@ -6873,7 +6873,7 @@ const businessQuestions = {
                     "Innovators, Early adopters, Majority, Laggards",
                     "Random adoption"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Technology",
@@ -6885,7 +6885,7 @@ const businessQuestions = {
                     "Performance improvement over time",
                     "Linear growth"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Patents",
@@ -6921,7 +6921,7 @@ const businessQuestions = {
                     "Measure innovation progress",
                     "Random"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Improvement",
@@ -7019,7 +7019,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Metrics",
@@ -7039,7 +7039,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Data",
@@ -7059,7 +7059,7 @@ const businessQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Trends",
@@ -7099,7 +7099,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -7121,7 +7121,7 @@ const businessQuestions = {
                     "What happened",
                     "What will happen"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Metrics",
@@ -7141,7 +7141,7 @@ const businessQuestions = {
                     "Visual data display",
                     "Steering wheel"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Data",
@@ -7181,7 +7181,7 @@ const businessQuestions = {
                     "Interesting fact",
                     "Finding that drives decision"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Data",
@@ -7191,7 +7191,7 @@ const businessQuestions = {
                     "Physical storage",
                     "Central data repository"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Analysis",
@@ -7214,7 +7214,7 @@ const businessQuestions = {
                     "Five charts",
                     "Volume, Velocity, Variety, Veracity, Value"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Analytics",
@@ -7236,7 +7236,7 @@ const businessQuestions = {
                     "All metrics",
                     "Single key success measure"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Reports",
@@ -7247,7 +7247,7 @@ const businessQuestions = {
                     "No updates",
                     "Live data updates"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Data",
@@ -7269,7 +7269,7 @@ const businessQuestions = {
                     "Temperature chart",
                     "Color-coded data matrix"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Trends",
@@ -7280,7 +7280,7 @@ const businessQuestions = {
                     "No pattern",
                     "Recurring patterns by time"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Insights",
@@ -7291,7 +7291,7 @@ const businessQuestions = {
                     "Describe past",
                     "Recommend actions"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Data",
@@ -7302,7 +7302,7 @@ const businessQuestions = {
                     "Structured only",
                     "Raw data repository"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Analysis",
@@ -7313,7 +7313,7 @@ const businessQuestions = {
                     "Single group",
                     "No comparison"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -7327,7 +7327,7 @@ const businessQuestions = {
                     "50%",
                     "95%+"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Analytics",
@@ -7339,7 +7339,7 @@ const businessQuestions = {
                     "Customer Relations System",
                     "Cross Industry Standard Process for Data Mining"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Metrics",
@@ -7351,7 +7351,7 @@ const businessQuestions = {
                     "Looks good but not actionable",
                     "Revenue metric"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Reports",
@@ -7387,7 +7387,7 @@ const businessQuestions = {
                     "Chart size",
                     "Random ratio"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Trends",
@@ -7399,7 +7399,7 @@ const businessQuestions = {
                     "Random",
                     "Relationships between variables"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Insights",
@@ -7411,7 +7411,7 @@ const businessQuestions = {
                     "95% confidence",
                     "10%"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Data",
@@ -7423,7 +7423,7 @@ const businessQuestions = {
                     "Storage only",
                     "Management of data assets"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Analysis",
@@ -7511,7 +7511,7 @@ const businessQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Cloud",
@@ -7531,7 +7531,7 @@ const businessQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mobile",
@@ -7541,7 +7541,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Digital",
@@ -7551,7 +7551,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "AI",
@@ -7571,7 +7571,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Integration",
@@ -7601,7 +7601,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -7613,7 +7613,7 @@ const businessQuestions = {
                     "Buy computers",
                     "Integrate digital in all areas"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Cloud",
@@ -7623,7 +7623,7 @@ const businessQuestions = {
                     "Software as a Service",
                     "Storage and Secure"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Automation",
@@ -7633,7 +7633,7 @@ const businessQuestions = {
                     "Random Process Activity",
                     "Robotic Process Automation"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mobile",
@@ -7643,7 +7643,7 @@ const businessQuestions = {
                     "Prioritize mobile experience",
                     "Desktop only"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Digital",
@@ -7653,7 +7653,7 @@ const businessQuestions = {
                     "Level of digital adoption",
                     "Age of company"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "AI",
@@ -7663,7 +7663,7 @@ const businessQuestions = {
                     "Human intelligence",
                     "Machine intelligence"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Data",
@@ -7683,7 +7683,7 @@ const businessQuestions = {
                     "Advanced Program Integration",
                     "Application Programming Interface"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Digital",
@@ -7693,7 +7693,7 @@ const businessQuestions = {
                     "One channel",
                     "Seamless multi-channel experience"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Change",
@@ -7716,7 +7716,7 @@ const businessQuestions = {
                     "No difference",
                     "Gap in technology access"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Cloud",
@@ -7727,7 +7727,7 @@ const businessQuestions = {
                     "Weather system",
                     "No cloud"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Automation",
@@ -7738,7 +7738,7 @@ const businessQuestions = {
                     "AI plus automation",
                     "Simple scripts"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mobile",
@@ -7749,7 +7749,7 @@ const businessQuestions = {
                     "Private Work Area",
                     "Progressive Web App"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Digital",
@@ -7760,7 +7760,7 @@ const businessQuestions = {
                     "Small change",
                     "No impact"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "AI",
@@ -7815,7 +7815,7 @@ const businessQuestions = {
                     "Waterfall only",
                     "Adopt agile methodologies"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -7829,7 +7829,7 @@ const businessQuestions = {
                     "90%",
                     "~30%"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Cloud",
@@ -7841,7 +7841,7 @@ const businessQuestions = {
                     "15-30%",
                     "0%"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Automation",
@@ -7853,7 +7853,7 @@ const businessQuestions = {
                     "~30-50%",
                     "0%"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Mobile",
@@ -7865,7 +7865,7 @@ const businessQuestions = {
                     "0%",
                     "5%"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Digital",
@@ -7877,7 +7877,7 @@ const businessQuestions = {
                     "1 million",
                     "~50 billion"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "AI",
@@ -7889,7 +7889,7 @@ const businessQuestions = {
                     "5%",
                     "0%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Data",
@@ -7913,7 +7913,7 @@ const businessQuestions = {
                     "UI first",
                     "Build APIs before interfaces"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Digital",
@@ -7925,7 +7925,7 @@ const businessQuestions = {
                     "Separate front and backend",
                     "Random"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Change",
@@ -7937,7 +7937,7 @@ const businessQuestions = {
                     "Dance move",
                     "Random steps"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "extreme": [
@@ -8023,7 +8023,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Motivation",
@@ -8033,7 +8033,7 @@ const businessQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Communication",
@@ -8043,7 +8043,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Leadership",
@@ -8053,7 +8053,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Trust",
@@ -8073,7 +8073,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Delegation",
@@ -8083,7 +8083,7 @@ const businessQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Leadership",
@@ -8103,7 +8103,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -8115,7 +8115,7 @@ const businessQuestions = {
                     "Just title",
                     "Influence and guide others"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Vision",
@@ -8135,7 +8135,7 @@ const businessQuestions = {
                     "External rewards",
                     "Internal drive"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Communication",
@@ -8155,7 +8155,7 @@ const businessQuestions = {
                     "Understand and manage emotions",
                     "IQ only"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Trust",
@@ -8165,7 +8165,7 @@ const businessQuestions = {
                     "Empty promises",
                     "Consistency and honesty"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Decision",
@@ -8195,7 +8195,7 @@ const businessQuestions = {
                     "Maintain status quo",
                     "Inspire and develop followers"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Example",
@@ -8218,7 +8218,7 @@ const businessQuestions = {
                     "Adapt style to situation",
                     "No flexibility"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Vision",
@@ -8229,7 +8229,7 @@ const businessQuestions = {
                     "Basic Goal",
                     "Big Hairy Audacious Goal"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Motivation",
@@ -8262,7 +8262,7 @@ const businessQuestions = {
                     "Random traits",
                     "Self-awareness, Self-regulation, Motivation, Empathy, Social skills"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Trust",
@@ -8273,7 +8273,7 @@ const businessQuestions = {
                     "Physical safety",
                     "Feel safe to take risks"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Decision",
@@ -8295,7 +8295,7 @@ const businessQuestions = {
                     "Excessive control",
                     "No oversight"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Leadership",
@@ -8306,7 +8306,7 @@ const businessQuestions = {
                     "Genuine and true to values",
                     "No authenticity"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Example",
@@ -8331,7 +8331,7 @@ const businessQuestions = {
                     "0% learned",
                     "~70-80% learned"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Vision",
@@ -8343,7 +8343,7 @@ const businessQuestions = {
                     "No levels",
                     "Just confidence"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Motivation",
@@ -8355,7 +8355,7 @@ const businessQuestions = {
                     "Hygiene and motivators",
                     "No theory"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Communication",
@@ -8367,7 +8367,7 @@ const businessQuestions = {
                     "~55%",
                     "100%"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Leadership",
@@ -8391,7 +8391,7 @@ const businessQuestions = {
                     "Trust = time",
                     "Credibility+Reliability+Intimacy/Self-orientation"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Decision",
@@ -8415,7 +8415,7 @@ const businessQuestions = {
                     "Climbing tool",
                     "No levels"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Leadership",
@@ -8427,7 +8427,7 @@ const businessQuestions = {
                     "Develop leaders at all levels",
                     "No development"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Example",
@@ -8439,7 +8439,7 @@ const businessQuestions = {
                     "~50%",
                     "5%"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "extreme": [
@@ -8545,7 +8545,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Change",
@@ -8565,7 +8565,7 @@ const businessQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Leadership",
@@ -8627,7 +8627,7 @@ const businessQuestions = {
                     "Fear and uncertainty",
                     "Excitement"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Planning",
@@ -8647,7 +8647,7 @@ const businessQuestions = {
                     "Story explaining why change",
                     "Silent approach"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Change",
@@ -8657,7 +8657,7 @@ const businessQuestions = {
                     "Small gradual changes",
                     "Radical shift"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Training",
@@ -8667,7 +8667,7 @@ const businessQuestions = {
                     "Resistance",
                     "Ability to adapt"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Leadership",
@@ -8677,7 +8677,7 @@ const businessQuestions = {
                     "Leader promoting change",
                     "Opponent"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Culture",
@@ -8697,7 +8697,7 @@ const businessQuestions = {
                     "Instant change",
                     "Time to adjust"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Support",
@@ -8707,7 +8707,7 @@ const businessQuestions = {
                     "Exhaustion from too much change",
                     "Excitement"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -8720,7 +8720,7 @@ const businessQuestions = {
                     "No model",
                     "8 steps from urgency to sustain"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Resistance",
@@ -8753,7 +8753,7 @@ const businessQuestions = {
                     "No communication",
                     "Listen and respond"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Change",
@@ -8764,7 +8764,7 @@ const businessQuestions = {
                     "Minor tweak",
                     "Fundamental organizational shift"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Training",
@@ -8775,7 +8775,7 @@ const businessQuestions = {
                     "No development",
                     "Develop skills for new state"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Leadership",
@@ -8786,7 +8786,7 @@ const businessQuestions = {
                     "Work alone",
                     "No team"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Culture",
@@ -8797,7 +8797,7 @@ const businessQuestions = {
                     "No shift",
                     "Shift values and behaviors"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Change",
@@ -8808,7 +8808,7 @@ const businessQuestions = {
                     "Perfect amount",
                     "Too many changes at once"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Support",
@@ -8819,7 +8819,7 @@ const businessQuestions = {
                     "Force change",
                     "Ignore feelings"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -8881,7 +8881,7 @@ const businessQuestions = {
                     "End point",
                     "Critical mass of adoption"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Training",
@@ -8893,7 +8893,7 @@ const businessQuestions = {
                     "All classroom",
                     "70% experience, 20% others, 10% formal"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Leadership",
@@ -8905,7 +8905,7 @@ const businessQuestions = {
                     "Active visible executive support",
                     "Random"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Culture",
@@ -8917,7 +8917,7 @@ const businessQuestions = {
                     "Random",
                     "No model"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Change",
@@ -8929,7 +8929,7 @@ const businessQuestions = {
                     "1 week",
                     "1 day"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Support",
@@ -8941,7 +8941,7 @@ const businessQuestions = {
                     "No analysis",
                     "Ignore resistance"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "extreme": [
@@ -9047,7 +9047,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Email",
@@ -9067,7 +9067,7 @@ const businessQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Meeting",
@@ -9077,7 +9077,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Feedback",
@@ -9107,7 +9107,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -9119,7 +9119,7 @@ const businessQuestions = {
                     "Personal chat",
                     "Information sharing in organizations"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Writing",
@@ -9129,7 +9129,7 @@ const businessQuestions = {
                     "Clear, concise, professional",
                     "Casual informal"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Speaking",
@@ -9159,7 +9159,7 @@ const businessQuestions = {
                     "Professional email practices",
                     "No rules"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Presentation",
@@ -9169,7 +9169,7 @@ const businessQuestions = {
                     "Long speech",
                     "Brief compelling message"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Meeting",
@@ -9189,7 +9189,7 @@ const businessQuestions = {
                     "Criticism only",
                     "Helpful developmental input"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Communication",
@@ -9209,7 +9209,7 @@ const businessQuestions = {
                     "Appropriate for business context",
                     "Informal"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -9222,7 +9222,7 @@ const businessQuestions = {
                     "Sender, Message, Channel, Receiver, Feedback",
                     "One-way only"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Writing",
@@ -9233,7 +9233,7 @@ const businessQuestions = {
                     "Random order",
                     "Bury the lead"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Speaking",
@@ -9255,7 +9255,7 @@ const businessQuestions = {
                     "No barriers",
                     "Perfect hearing"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Email",
@@ -9266,7 +9266,7 @@ const businessQuestions = {
                     "Perfect amount",
                     "Too many emails to manage"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Presentation",
@@ -9277,7 +9277,7 @@ const businessQuestions = {
                     "20 slides x 20 seconds",
                     "Any format"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Meeting",
@@ -9299,7 +9299,7 @@ const businessQuestions = {
                     "No model",
                     "Situation, Behavior, Impact"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Communication",
@@ -9310,7 +9310,7 @@ const businessQuestions = {
                     "Simple text",
                     "High information channel"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Professionalism",
@@ -9347,7 +9347,7 @@ const businessQuestions = {
                     "50-125 words",
                     "1 word"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Speaking",
@@ -9383,7 +9383,7 @@ const businessQuestions = {
                     "1 minute",
                     "24 hours"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Presentation",
@@ -9395,7 +9395,7 @@ const businessQuestions = {
                     "No slides",
                     "1 slide"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Meeting",
@@ -9407,7 +9407,7 @@ const businessQuestions = {
                     "0%",
                     "~50%"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Feedback",
@@ -9419,7 +9419,7 @@ const businessQuestions = {
                     "5:1 (Losada)",
                     "1:1"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Communication",
@@ -9431,7 +9431,7 @@ const businessQuestions = {
                     "Words, Tone, Body language",
                     "Random numbers"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Professionalism",
@@ -9443,7 +9443,7 @@ const businessQuestions = {
                     "Direct explicit",
                     "Indirect, implicit"
                 ],
-                "correct": 3
+                "correct": 1
             }
         ],
         "extreme": [
@@ -9519,7 +9519,7 @@ const businessQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Capital",
@@ -9559,7 +9559,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Value",
@@ -9589,7 +9589,7 @@ const businessQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Finance",
@@ -9609,7 +9609,7 @@ const businessQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -9631,7 +9631,7 @@ const businessQuestions = {
                     "Mix of debt and equity",
                     "Building design"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Investment",
@@ -9651,7 +9651,7 @@ const businessQuestions = {
                     "Identify and mitigate risks",
                     "Ignore risks"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Finance",
@@ -9691,7 +9691,7 @@ const businessQuestions = {
                     "Operating cost",
                     "Cost of financing"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Finance",
@@ -9711,7 +9711,7 @@ const businessQuestions = {
                     "Return on Investment",
                     "Revenue Only Index"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -9735,7 +9735,7 @@ const businessQuestions = {
                     "All debt",
                     "All equity"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Investment",
@@ -9746,7 +9746,7 @@ const businessQuestions = {
                     "Net Present Value",
                     "New Product Value"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Risk",
@@ -9768,7 +9768,7 @@ const businessQuestions = {
                     "Any cash",
                     "No cost"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Value",
@@ -9790,7 +9790,7 @@ const businessQuestions = {
                     "Total profit",
                     "Revenue"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Cost",
@@ -9801,7 +9801,7 @@ const businessQuestions = {
                     "Value of next best alternative",
                     "Actual cost"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Finance",
@@ -9812,7 +9812,7 @@ const businessQuestions = {
                     "Total debt / Total equity",
                     "Assets / Liabilities"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Return",
@@ -9823,7 +9823,7 @@ const businessQuestions = {
                     "International Risk Rating",
                     "Internal Rate of Return"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -9837,7 +9837,7 @@ const businessQuestions = {
                     "21-25%",
                     "0%"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Capital",
@@ -9885,7 +9885,7 @@ const businessQuestions = {
                     "10",
                     "0.1"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Value",
@@ -9897,7 +9897,7 @@ const businessQuestions = {
                     "1",
                     "15-25"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Profit",
@@ -9909,7 +9909,7 @@ const businessQuestions = {
                     "Accounting profit minus opportunity cost",
                     "Same as accounting profit"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Cost",
@@ -9921,7 +9921,7 @@ const businessQuestions = {
                     "Same value",
                     "Future worth more"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Finance",
@@ -9945,7 +9945,7 @@ const businessQuestions = {
                     "Inverse",
                     "Higher risk, higher potential return"
                 ],
-                "correct": 3
+                "correct": 1
             }
         ],
         "extreme": [

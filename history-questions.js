@@ -29,7 +29,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ancient",
@@ -69,7 +69,7 @@ const historyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Renaissance",
@@ -151,7 +151,7 @@ const historyQuestions = {
                     "Inca",
                     "Maya"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Modern",
@@ -171,7 +171,7 @@ const historyQuestions = {
                     "Michelangelo",
                     "Leonardo da Vinci"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ancient",
@@ -181,7 +181,7 @@ const historyQuestions = {
                     "Macedonian",
                     "Persian"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Modern",
@@ -224,7 +224,7 @@ const historyQuestions = {
                     "476 AD",
                     "410 AD"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Modern",
@@ -235,7 +235,7 @@ const historyQuestions = {
                     "1918",
                     "1939"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Medieval",
@@ -246,7 +246,7 @@ const historyQuestions = {
                     "Famine",
                     "Plague pandemic"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Renaissance",
@@ -257,7 +257,7 @@ const historyQuestions = {
                     "15th century",
                     "16th century"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ancient",
@@ -290,7 +290,7 @@ const historyQuestions = {
                     "Explorations",
                     "Trade routes"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ancient",
@@ -312,7 +312,7 @@ const historyQuestions = {
                     "1660s",
                     "1760s"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Renaissance",
@@ -337,7 +337,7 @@ const historyQuestions = {
                     "323 BC",
                     "300 BC"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Modern",
@@ -349,7 +349,7 @@ const historyQuestions = {
                     "14th",
                     "13th"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Medieval",
@@ -373,7 +373,7 @@ const historyQuestions = {
                     "Petrarch",
                     "Boccaccio"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ancient",
@@ -385,7 +385,7 @@ const historyQuestions = {
                     "Trade",
                     "Decoding hieroglyphs"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Modern",
@@ -397,7 +397,7 @@ const historyQuestions = {
                     "Versailles",
                     "Vienna"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Medieval",
@@ -409,7 +409,7 @@ const historyQuestions = {
                     "1340s",
                     "1440s"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Ancient",
@@ -421,7 +421,7 @@ const historyQuestions = {
                     "Qin Shi Huang",
                     "Tang Taizong"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Modern",
@@ -433,7 +433,7 @@ const historyQuestions = {
                     "1971",
                     "1969"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Renaissance",
@@ -445,7 +445,7 @@ const historyQuestions = {
                     "Milan",
                     "Venice"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "extreme": [
@@ -531,7 +531,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ancient Egypt",
@@ -541,7 +541,7 @@ const historyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ancient Egypt",
@@ -561,7 +561,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ancient Egypt",
@@ -581,7 +581,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ancient Egypt",
@@ -611,7 +611,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -653,7 +653,7 @@ const historyQuestions = {
                     "Deposited fertile soil",
                     "Provided water only"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ancient Egypt",
@@ -673,7 +673,7 @@ const historyQuestions = {
                     "Religious ritual only",
                     "Preserve for afterlife"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ancient Egypt",
@@ -693,7 +693,7 @@ const historyQuestions = {
                     "Sun god",
                     "Royal power"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ancient Egypt",
@@ -703,7 +703,7 @@ const historyQuestions = {
                     "Alexander",
                     "Julius Caesar"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ancient Egypt",
@@ -713,7 +713,7 @@ const historyQuestions = {
                     "Sarcophagus",
                     "Temple"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -737,7 +737,7 @@ const historyQuestions = {
                     "4",
                     "5"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ancient Egypt",
@@ -748,7 +748,7 @@ const historyQuestions = {
                     "1699",
                     "1799"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Ancient Egypt",
@@ -759,7 +759,7 @@ const historyQuestions = {
                     "5,000 km",
                     "7,000 km"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ancient Egypt",
@@ -781,7 +781,7 @@ const historyQuestions = {
                     "100 days",
                     "70 days"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Ancient Egypt",
@@ -792,7 +792,7 @@ const historyQuestions = {
                     "Law code",
                     "History book"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ancient Egypt",
@@ -814,7 +814,7 @@ const historyQuestions = {
                     "Battle",
                     "Snake bite"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Ancient Egypt",
@@ -839,7 +839,7 @@ const historyQuestions = {
                     "Architect/physician",
                     "Pharaoh"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Ancient Egypt",
@@ -875,7 +875,7 @@ const historyQuestions = {
                     "Peret",
                     "Shemu"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ancient Egypt",
@@ -887,7 +887,7 @@ const historyQuestions = {
                     "Champollion",
                     "Petrie"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ancient Egypt",
@@ -899,7 +899,7 @@ const historyQuestions = {
                     "Clay",
                     "Natron"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Ancient Egypt",
@@ -911,7 +911,7 @@ const historyQuestions = {
                     "Wisdom god",
                     "War god"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ancient Egypt",
@@ -923,7 +923,7 @@ const historyQuestions = {
                     "Harmakhis",
                     "Horus"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ancient Egypt",
@@ -935,7 +935,7 @@ const historyQuestions = {
                     "20th",
                     "Ptolemaic"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Ancient Egypt",
@@ -1033,7 +1033,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ancient Greece",
@@ -1043,7 +1043,7 @@ const historyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ancient Greece",
@@ -1083,7 +1083,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ancient Greece",
@@ -1113,7 +1113,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -1185,7 +1185,7 @@ const historyQuestions = {
                     "Homer",
                     "Hesiod"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ancient Greece",
@@ -1215,7 +1215,7 @@ const historyQuestions = {
                     "Sophocles",
                     "Aristophanes"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -1250,7 +1250,7 @@ const historyQuestions = {
                     "Every 4 years",
                     "Every 2 years"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ancient Greece",
@@ -1261,7 +1261,7 @@ const historyQuestions = {
                     "10",
                     "12"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Ancient Greece",
@@ -1272,7 +1272,7 @@ const historyQuestions = {
                     "Athena",
                     "Aphrodite"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ancient Greece",
@@ -1283,7 +1283,7 @@ const historyQuestions = {
                     "Dialectic",
                     "Socratic method"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Ancient Greece",
@@ -1294,7 +1294,7 @@ const historyQuestions = {
                     "5 years",
                     "20 years"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ancient Greece",
@@ -1316,7 +1316,7 @@ const historyQuestions = {
                     "313 BC",
                     "323 BC"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Ancient Greece",
@@ -1327,7 +1327,7 @@ const historyQuestions = {
                     "Colosseum",
                     "Stadium"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -1341,7 +1341,7 @@ const historyQuestions = {
                     "Solon",
                     "Themistocles"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Ancient Greece",
@@ -1353,7 +1353,7 @@ const historyQuestions = {
                     "Varied",
                     "1000"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Ancient Greece",
@@ -1365,7 +1365,7 @@ const historyQuestions = {
                     "Trophy",
                     "Olive wreath"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Ancient Greece",
@@ -1389,7 +1389,7 @@ const historyQuestions = {
                     "Priestess",
                     "Temple"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Ancient Greece",
@@ -1401,7 +1401,7 @@ const historyQuestions = {
                     "Socrates",
                     "Aristotle"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ancient Greece",
@@ -1413,7 +1413,7 @@ const historyQuestions = {
                     "Achilles",
                     "Hector"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ancient Greece",
@@ -1425,7 +1425,7 @@ const historyQuestions = {
                     "Agora",
                     "Polis"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Ancient Greece",
@@ -1449,7 +1449,7 @@ const historyQuestions = {
                     "Euripides",
                     "Aristophanes"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "extreme": [
@@ -1555,7 +1555,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ancient Rome",
@@ -1565,7 +1565,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ancient Rome",
@@ -1575,7 +1575,7 @@ const historyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ancient Rome",
@@ -1585,7 +1585,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ancient Rome",
@@ -1595,7 +1595,7 @@ const historyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ancient Rome",
@@ -1647,7 +1647,7 @@ const historyQuestions = {
                     "Only animals",
                     "Each other"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ancient Rome",
@@ -1657,7 +1657,7 @@ const historyQuestions = {
                     "5000-6000",
                     "10000"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ancient Rome",
@@ -1697,7 +1697,7 @@ const historyQuestions = {
                     "Marcus",
                     "Octavian"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ancient Rome",
@@ -1707,7 +1707,7 @@ const historyQuestions = {
                     "Ten Commandments",
                     "Twelve Tables"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ancient Rome",
@@ -1717,7 +1717,7 @@ const historyQuestions = {
                     "Germanic tribes",
                     "Persians"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -1730,7 +1730,7 @@ const historyQuestions = {
                     "10",
                     "7"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Ancient Rome",
@@ -1752,7 +1752,7 @@ const historyQuestions = {
                     "80 AD",
                     "70 AD"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ancient Rome",
@@ -1774,7 +1774,7 @@ const historyQuestions = {
                     "500 BC",
                     "510 BC"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ancient Rome",
@@ -1785,7 +1785,7 @@ const historyQuestions = {
                     "3",
                     "2"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Ancient Rome",
@@ -1796,7 +1796,7 @@ const historyQuestions = {
                     "Via Roma",
                     "Via Regia"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ancient Rome",
@@ -1807,7 +1807,7 @@ const historyQuestions = {
                     "Princeps",
                     "Dictator"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ancient Rome",
@@ -1818,7 +1818,7 @@ const historyQuestions = {
                     "Victory is mine",
                     "I came, saw, conquered"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Ancient Rome",
@@ -1843,7 +1843,7 @@ const historyQuestions = {
                     "Farmer-dictator",
                     "Senator"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Ancient Rome",
@@ -1867,7 +1867,7 @@ const historyQuestions = {
                     "Titus",
                     "Vespasian"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Ancient Rome",
@@ -1879,7 +1879,7 @@ const historyQuestions = {
                     "Marc Antony",
                     "Pompey"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ancient Rome",
@@ -1915,7 +1915,7 @@ const historyQuestions = {
                     "Building",
                     "Road"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ancient Rome",
@@ -1927,7 +1927,7 @@ const historyQuestions = {
                     "General",
                     "Senator"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ancient Rome",
@@ -1951,7 +1951,7 @@ const historyQuestions = {
                     "Ostrogoths",
                     "Huns"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "extreme": [
@@ -2057,7 +2057,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Medieval",
@@ -2107,7 +2107,7 @@ const historyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Medieval",
@@ -2117,7 +2117,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -2129,7 +2129,7 @@ const historyQuestions = {
                     "Honor",
                     "Chivalry"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Medieval",
@@ -2139,7 +2139,7 @@ const historyQuestions = {
                     "Pope",
                     "Bishop"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Medieval",
@@ -2169,7 +2169,7 @@ const historyQuestions = {
                     "Dubbing",
                     "Coronation"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Medieval",
@@ -2179,7 +2179,7 @@ const historyQuestions = {
                     "Churches",
                     "Monasteries"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Medieval",
@@ -2189,7 +2189,7 @@ const historyQuestions = {
                     "Queen",
                     "Princess"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Medieval",
@@ -2199,7 +2199,7 @@ const historyQuestions = {
                     "Germany",
                     "Scandinavia"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Medieval",
@@ -2209,7 +2209,7 @@ const historyQuestions = {
                     "Rounded arches",
                     "Pointed arches"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Medieval",
@@ -2219,7 +2219,7 @@ const historyQuestions = {
                     "1215",
                     "1315"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -2232,7 +2232,7 @@ const historyQuestions = {
                     "4th century",
                     "5th century"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Medieval",
@@ -2254,7 +2254,7 @@ const historyQuestions = {
                     "1006",
                     "1096"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Medieval",
@@ -2276,7 +2276,7 @@ const historyQuestions = {
                     "5",
                     "10"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Medieval",
@@ -2309,7 +2309,7 @@ const historyQuestions = {
                     "10th century",
                     "11th century"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Medieval",
@@ -2320,7 +2320,7 @@ const historyQuestions = {
                     "Monastery",
                     "Gothic cathedral"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Medieval",
@@ -2331,7 +2331,7 @@ const historyQuestions = {
                     "Pope",
                     "Barons"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -2345,7 +2345,7 @@ const historyQuestions = {
                     "Trade",
                     "English-French throne"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Medieval",
@@ -2357,7 +2357,7 @@ const historyQuestions = {
                     "Ottoman",
                     "Byzantine"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Medieval",
@@ -2369,7 +2369,7 @@ const historyQuestions = {
                     "Emperor",
                     "Pope Urban II"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Medieval",
@@ -2381,7 +2381,7 @@ const historyQuestions = {
                     "Crop rotation",
                     "Feudal law"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Medieval",
@@ -2393,7 +2393,7 @@ const historyQuestions = {
                     "Race",
                     "Festival"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Medieval",
@@ -2405,7 +2405,7 @@ const historyQuestions = {
                     "Latin",
                     "English"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Medieval",
@@ -2417,7 +2417,7 @@ const historyQuestions = {
                     "France and Germany",
                     "France and England"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Medieval",
@@ -2429,7 +2429,7 @@ const historyQuestions = {
                     "Trader",
                     "Viking explorer"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Medieval",
@@ -2453,7 +2453,7 @@ const historyQuestions = {
                     "50",
                     "63"
                 ],
-                "correct": 3
+                "correct": 1
             }
         ],
         "extreme": [
@@ -2529,7 +2529,7 @@ const historyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Renaissance",
@@ -2599,7 +2599,7 @@ const historyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Renaissance",
@@ -2631,7 +2631,7 @@ const historyQuestions = {
                     "Rome",
                     "Florence"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Renaissance",
@@ -2651,7 +2651,7 @@ const historyQuestions = {
                     "Moses",
                     "David"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Renaissance",
@@ -2661,7 +2661,7 @@ const historyQuestions = {
                     "Gutenberg",
                     "Caxton"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Renaissance",
@@ -2691,7 +2691,7 @@ const historyQuestions = {
                     "School of Athens",
                     "Last Supper"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Renaissance",
@@ -2701,7 +2701,7 @@ const historyQuestions = {
                     "10 Commandments",
                     "95 Theses"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Renaissance",
@@ -2711,7 +2711,7 @@ const historyQuestions = {
                     "Novels",
                     "Plays"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Renaissance",
@@ -2745,7 +2745,7 @@ const historyQuestions = {
                     "Just science",
                     "Just art"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Renaissance",
@@ -2756,7 +2756,7 @@ const historyQuestions = {
                     "6 years",
                     "4 years"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Renaissance",
@@ -2789,7 +2789,7 @@ const historyQuestions = {
                     "Machiavelli",
                     "Dante"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Renaissance",
@@ -2822,7 +2822,7 @@ const historyQuestions = {
                     "1500-1550",
                     "1564-1616"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Renaissance",
@@ -2847,7 +2847,7 @@ const historyQuestions = {
                     "Leo X",
                     "Paul III"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Renaissance",
@@ -2859,7 +2859,7 @@ const historyQuestions = {
                     "Annunciation",
                     "Last Supper"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Renaissance",
@@ -2871,7 +2871,7 @@ const historyQuestions = {
                     "Medici Chapel",
                     "St. Peter's"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Renaissance",
@@ -2895,7 +2895,7 @@ const historyQuestions = {
                     "Fresco",
                     "Chiaroscuro"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Renaissance",
@@ -2919,7 +2919,7 @@ const historyQuestions = {
                     "Few",
                     "One"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Renaissance",
@@ -2943,7 +2943,7 @@ const historyQuestions = {
                     "37",
                     "50"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Renaissance",
@@ -2955,7 +2955,7 @@ const historyQuestions = {
                     "Galileo",
                     "Copernicus"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "extreme": [
@@ -3041,7 +3041,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Exploration",
@@ -3051,7 +3051,7 @@ const historyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Exploration",
@@ -3061,7 +3061,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Exploration",
@@ -3071,7 +3071,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Exploration",
@@ -3081,7 +3081,7 @@ const historyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Exploration",
@@ -3091,7 +3091,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Exploration",
@@ -3101,7 +3101,7 @@ const historyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Exploration",
@@ -3121,7 +3121,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -3133,7 +3133,7 @@ const historyQuestions = {
                     "America",
                     "Asia/Indies"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Exploration",
@@ -3153,7 +3153,7 @@ const historyQuestions = {
                     "Yes",
                     "No, died"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Exploration",
@@ -3183,7 +3183,7 @@ const historyQuestions = {
                     "King John",
                     "Prince Henry"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Exploration",
@@ -3193,7 +3193,7 @@ const historyQuestions = {
                     "Isabella and Ferdinand",
                     "Charles V"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Exploration",
@@ -3203,7 +3203,7 @@ const historyQuestions = {
                     "Size",
                     "Speed and maneuverability"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Exploration",
@@ -3213,7 +3213,7 @@ const historyQuestions = {
                     "Land only",
                     "Gold"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Exploration",
@@ -3236,7 +3236,7 @@ const historyQuestions = {
                     "4",
                     "3"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Exploration",
@@ -3258,7 +3258,7 @@ const historyQuestions = {
                     "1519",
                     "1521"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Exploration",
@@ -3269,7 +3269,7 @@ const historyQuestions = {
                     "Philippines",
                     "Moluccas"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Exploration",
@@ -3280,7 +3280,7 @@ const historyQuestions = {
                     "1488",
                     "1498"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Exploration",
@@ -3291,7 +3291,7 @@ const historyQuestions = {
                     "Good Hope",
                     "Agulhas"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Exploration",
@@ -3302,7 +3302,7 @@ const historyQuestions = {
                     "Raleigh",
                     "Drake"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Exploration",
@@ -3313,7 +3313,7 @@ const historyQuestions = {
                     "1",
                     "2-3"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Exploration",
@@ -3324,7 +3324,7 @@ const historyQuestions = {
                     "Balboa",
                     "Cortés"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Exploration",
@@ -3335,7 +3335,7 @@ const historyQuestions = {
                     "Navigation",
                     "Measuring stars"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -3349,7 +3349,7 @@ const historyQuestions = {
                     "Niña, Pinta, Santa María",
                     "Matthew, Gabriel, Michael"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Exploration",
@@ -3385,7 +3385,7 @@ const historyQuestions = {
                     "Trade route",
                     "Sea route"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Exploration",
@@ -3421,7 +3421,7 @@ const historyQuestions = {
                     "Tordesillas",
                     "Westphalia"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Exploration",
@@ -3445,7 +3445,7 @@ const historyQuestions = {
                     "Coronado",
                     "Balboa"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Exploration",
@@ -3533,7 +3533,7 @@ const historyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "American Revolution",
@@ -3563,7 +3563,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "American Revolution",
@@ -3593,7 +3593,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "American Revolution",
@@ -3603,7 +3603,7 @@ const historyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "American Revolution",
@@ -3623,7 +3623,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -3645,7 +3645,7 @@ const historyQuestions = {
                     "Valley Forge",
                     "Philadelphia"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "American Revolution",
@@ -3655,7 +3655,7 @@ const historyQuestions = {
                     "War",
                     "Independence"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "American Revolution",
@@ -3675,7 +3675,7 @@ const historyQuestions = {
                     "George III",
                     "George II"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "American Revolution",
@@ -3685,7 +3685,7 @@ const historyQuestions = {
                     "To arms",
                     "British are coming"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "American Revolution",
@@ -3705,7 +3705,7 @@ const historyQuestions = {
                     "Napoleon",
                     "Lafayette"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "American Revolution",
@@ -3715,7 +3715,7 @@ const historyQuestions = {
                     "1777",
                     "1787"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "American Revolution",
@@ -3725,7 +3725,7 @@ const historyQuestions = {
                     "Cornwallis",
                     "Burgoyne"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -3771,7 +3771,7 @@ const historyQuestions = {
                     "1772",
                     "1773"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "American Revolution",
@@ -3782,7 +3782,7 @@ const historyQuestions = {
                     "Bluecoats",
                     "Redcoats"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "American Revolution",
@@ -3815,7 +3815,7 @@ const historyQuestions = {
                     "1779",
                     "1778"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "American Revolution",
@@ -3837,7 +3837,7 @@ const historyQuestions = {
                     "1782",
                     "1781"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -3851,7 +3851,7 @@ const historyQuestions = {
                     "Last battles",
                     "Peace talks"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "American Revolution",
@@ -3863,7 +3863,7 @@ const historyQuestions = {
                     "Thomas Paine",
                     "Jefferson"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "American Revolution",
@@ -3875,7 +3875,7 @@ const historyQuestions = {
                     "English law",
                     "Roman law"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "American Revolution",
@@ -3899,7 +3899,7 @@ const historyQuestions = {
                     "German mercenaries",
                     "Loyalists"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "American Revolution",
@@ -3911,7 +3911,7 @@ const historyQuestions = {
                     "Messenger",
                     "Militia ready quickly"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "American Revolution",
@@ -3935,7 +3935,7 @@ const historyQuestions = {
                     "Trade deal",
                     "French-American pact"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "American Revolution",
@@ -3947,7 +3947,7 @@ const historyQuestions = {
                     "Jefferson",
                     "Franklin"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "American Revolution",
@@ -3959,7 +3959,7 @@ const historyQuestions = {
                     "Treaty of Paris",
                     "Surrender"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "extreme": [
@@ -4055,7 +4055,7 @@ const historyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "French Revolution",
@@ -4065,7 +4065,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "French Revolution",
@@ -4075,7 +4075,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "French Revolution",
@@ -4085,7 +4085,7 @@ const historyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "French Revolution",
@@ -4115,7 +4115,7 @@ const historyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "French Revolution",
@@ -4137,7 +4137,7 @@ const historyQuestions = {
                     "Freedom or Death",
                     "Liberty, Equality, Fraternity"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "French Revolution",
@@ -4157,7 +4157,7 @@ const historyQuestions = {
                     "July 4, 1789",
                     "July 14, 1789"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "French Revolution",
@@ -4187,7 +4187,7 @@ const historyQuestions = {
                     "Queen of Hearts",
                     "Madame Deficit"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "French Revolution",
@@ -4197,7 +4197,7 @@ const historyQuestions = {
                     "Emperor",
                     "King"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "French Revolution",
@@ -4207,7 +4207,7 @@ const historyQuestions = {
                     "Robespierre",
                     "Dr. Guillotin"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "French Revolution",
@@ -4217,7 +4217,7 @@ const historyQuestions = {
                     "Republic",
                     "Rights of Man"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "French Revolution",
@@ -4227,7 +4227,7 @@ const historyQuestions = {
                     "Liberty, Equality, Fraternity",
                     "Past, Present, Future"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -4240,7 +4240,7 @@ const historyQuestions = {
                     "1804",
                     "1799"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "French Revolution",
@@ -4273,7 +4273,7 @@ const historyQuestions = {
                     "Second",
                     "First"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "French Revolution",
@@ -4284,7 +4284,7 @@ const historyQuestions = {
                     "1792-1793",
                     "1793-1794"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "French Revolution",
@@ -4295,7 +4295,7 @@ const historyQuestions = {
                     "October 1793",
                     "January 1793"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "French Revolution",
@@ -4306,7 +4306,7 @@ const historyQuestions = {
                     "1800",
                     "1808"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "French Revolution",
@@ -4328,7 +4328,7 @@ const historyQuestions = {
                     "Sieyès",
                     "Voltaire"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "French Revolution",
@@ -4339,7 +4339,7 @@ const historyQuestions = {
                     "1793",
                     "1789"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -4353,7 +4353,7 @@ const historyQuestions = {
                     "Financial crisis, inequality",
                     "Religious conflict"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "French Revolution",
@@ -4377,7 +4377,7 @@ const historyQuestions = {
                     "Royal tyranny",
                     "Power"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "French Revolution",
@@ -4389,7 +4389,7 @@ const historyQuestions = {
                     "Council",
                     "Parliament"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "French Revolution",
@@ -4413,7 +4413,7 @@ const historyQuestions = {
                     "Italy",
                     "Austria"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "French Revolution",
@@ -4449,7 +4449,7 @@ const historyQuestions = {
                     "Rousseau",
                     "Diderot"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "French Revolution",
@@ -4461,7 +4461,7 @@ const historyQuestions = {
                     "Clergy",
                     "Soldiers"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "extreme": [
@@ -4537,7 +4537,7 @@ const historyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Industrial Revolution",
@@ -4577,7 +4577,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Industrial Revolution",
@@ -4597,7 +4597,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Industrial Revolution",
@@ -4607,7 +4607,7 @@ const historyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Industrial Revolution",
@@ -4627,7 +4627,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -4639,7 +4639,7 @@ const historyQuestions = {
                     "1860s",
                     "1760s"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Industrial Revolution",
@@ -4649,7 +4649,7 @@ const historyQuestions = {
                     "James Watt",
                     "George Stephenson"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Industrial Revolution",
@@ -4669,7 +4669,7 @@ const historyQuestions = {
                     "Water/steam",
                     "Electricity"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Industrial Revolution",
@@ -4679,7 +4679,7 @@ const historyQuestions = {
                     "Cities",
                     "Countryside"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Industrial Revolution",
@@ -4699,7 +4699,7 @@ const historyQuestions = {
                     "Edison",
                     "Tesla"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Industrial Revolution",
@@ -4719,7 +4719,7 @@ const historyQuestions = {
                     "Feudalism",
                     "Capitalism"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Industrial Revolution",
@@ -4729,7 +4729,7 @@ const historyQuestions = {
                     "Coal burning",
                     "Cars"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -4742,7 +4742,7 @@ const historyQuestions = {
                     "Steel",
                     "Textiles"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Industrial Revolution",
@@ -4764,7 +4764,7 @@ const historyQuestions = {
                     "6-8 hours",
                     "12-16 hours"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Industrial Revolution",
@@ -4786,7 +4786,7 @@ const historyQuestions = {
                     "Farming",
                     "Trade"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Industrial Revolution",
@@ -4797,7 +4797,7 @@ const historyQuestions = {
                     "As young as 5-6",
                     "15-16"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Industrial Revolution",
@@ -4808,7 +4808,7 @@ const historyQuestions = {
                     "1869",
                     "1879"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Industrial Revolution",
@@ -4841,7 +4841,7 @@ const historyQuestions = {
                     "Smallpox",
                     "Cholera"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -4855,7 +4855,7 @@ const historyQuestions = {
                     "Crompton",
                     "Arkwright"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Industrial Revolution",
@@ -4867,7 +4867,7 @@ const historyQuestions = {
                     "Stephenson",
                     "Trevithick"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Industrial Revolution",
@@ -4879,7 +4879,7 @@ const historyQuestions = {
                     "Worker organizations",
                     "Government bodies"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Industrial Revolution",
@@ -4903,7 +4903,7 @@ const historyQuestions = {
                     "Markets",
                     "Schools"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Industrial Revolution",
@@ -4915,7 +4915,7 @@ const historyQuestions = {
                     "Factory Acts",
                     "Child Acts"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Industrial Revolution",
@@ -4927,7 +4927,7 @@ const historyQuestions = {
                     "Current types",
                     "Battery types"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Industrial Revolution",
@@ -4939,7 +4939,7 @@ const historyQuestions = {
                     "Erie",
                     "Suez"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Industrial Revolution",
@@ -5049,7 +5049,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "World War I",
@@ -5059,7 +5059,7 @@ const historyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "World War I",
@@ -5089,7 +5089,7 @@ const historyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "World War I",
@@ -5119,7 +5119,7 @@ const historyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "World War I",
@@ -5141,7 +5141,7 @@ const historyQuestions = {
                     "1915",
                     "1914"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "World War I",
@@ -5151,7 +5151,7 @@ const historyQuestions = {
                     "Assassination of Franz Ferdinand",
                     "German invasion"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "World War I",
@@ -5161,7 +5161,7 @@ const historyQuestions = {
                     "Germany, Austria",
                     "Britain, France, Russia"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "World War I",
@@ -5171,7 +5171,7 @@ const historyQuestions = {
                     "Germany, Austria-Hungary",
                     "Britain, France"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "World War I",
@@ -5181,7 +5181,7 @@ const historyQuestions = {
                     "17 million",
                     "5 million"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "World War I",
@@ -5231,7 +5231,7 @@ const historyQuestions = {
                     "1919",
                     "1918"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -5244,7 +5244,7 @@ const historyQuestions = {
                     "November 11, 1918",
                     "December 25, 1918"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "World War I",
@@ -5255,7 +5255,7 @@ const historyQuestions = {
                     "Berlin",
                     "Vienna"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "World War I",
@@ -5277,7 +5277,7 @@ const historyQuestions = {
                     "Barbarossa",
                     "Blitzkrieg"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "World War I",
@@ -5288,7 +5288,7 @@ const historyQuestions = {
                     "1918 battle",
                     "Major 1916 battle"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "World War I",
@@ -5299,7 +5299,7 @@ const historyQuestions = {
                     "1915",
                     "1917"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "World War I",
@@ -5332,7 +5332,7 @@ const historyQuestions = {
                     "Gas masks",
                     "Helmets"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "World War I",
@@ -5357,7 +5357,7 @@ const historyQuestions = {
                     "NATO vs Warsaw",
                     "Axis vs Allies"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "World War I",
@@ -5381,7 +5381,7 @@ const historyQuestions = {
                     "Doughboys",
                     "Diggers"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "World War I",
@@ -5393,7 +5393,7 @@ const historyQuestions = {
                     "Attacking all ships",
                     "Naval blockade"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "World War I",
@@ -5405,7 +5405,7 @@ const historyQuestions = {
                     "Battle area",
                     "Ground between trenches"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "World War I",
@@ -5417,7 +5417,7 @@ const historyQuestions = {
                     "800",
                     "1,198"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "World War I",
@@ -5441,7 +5441,7 @@ const historyQuestions = {
                     "Hermann Göring",
                     "Oswald Boelcke"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "World War I",
@@ -5453,7 +5453,7 @@ const historyQuestions = {
                     "1917",
                     "1916"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "World War I",
@@ -5551,7 +5551,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "World War II",
@@ -5581,7 +5581,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "World War II",
@@ -5611,7 +5611,7 @@ const historyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "World War II",
@@ -5631,7 +5631,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -5643,7 +5643,7 @@ const historyQuestions = {
                     "Pearl Harbor",
                     "Germany invaded Poland"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "World War II",
@@ -5663,7 +5663,7 @@ const historyQuestions = {
                     "December 7, 1942",
                     "December 7, 1941"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "World War II",
@@ -5683,7 +5683,7 @@ const historyQuestions = {
                     "USA, Britain, USSR",
                     "Germany, Italy"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "World War II",
@@ -5746,7 +5746,7 @@ const historyQuestions = {
                     "September 1, 1939",
                     "December 7, 1941"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "World War II",
@@ -5779,7 +5779,7 @@ const historyQuestions = {
                     "3 million",
                     "6 million"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "World War II",
@@ -5790,7 +5790,7 @@ const historyQuestions = {
                     "Attlee",
                     "Chamberlain"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "World War II",
@@ -5801,7 +5801,7 @@ const historyQuestions = {
                     "August 6, 1945",
                     "August 9, 1945"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "World War II",
@@ -5812,7 +5812,7 @@ const historyQuestions = {
                     "Dunkirk",
                     "Calais"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "World War II",
@@ -5834,7 +5834,7 @@ const historyQuestions = {
                     "1940-1941",
                     "1939-1940"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "World War II",
@@ -5845,7 +5845,7 @@ const historyQuestions = {
                     "Victory Event",
                     "Victory End"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -5859,7 +5859,7 @@ const historyQuestions = {
                     "Lightning warfare",
                     "Air warfare"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "World War II",
@@ -5871,7 +5871,7 @@ const historyQuestions = {
                     "North Africa",
                     "Invasion of USSR"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "World War II",
@@ -5895,7 +5895,7 @@ const historyQuestions = {
                     "Death/labor camps",
                     "POW camps"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "World War II",
@@ -5907,7 +5907,7 @@ const historyQuestions = {
                     "Montgomery",
                     "Bradley"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "World War II",
@@ -5931,7 +5931,7 @@ const historyQuestions = {
                     "Operation Neptune",
                     "Market Garden"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "World War II",
@@ -5943,7 +5943,7 @@ const historyQuestions = {
                     "Rokossovsky",
                     "Stalin"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "World War II",
@@ -5955,7 +5955,7 @@ const historyQuestions = {
                     "Land invasion",
                     "Air campaign"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "World War II",
@@ -6053,7 +6053,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Cold War",
@@ -6083,7 +6083,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Cold War",
@@ -6113,7 +6113,7 @@ const historyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Cold War",
@@ -6133,7 +6133,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -6145,7 +6145,7 @@ const historyQuestions = {
                     "Before WWII",
                     "After WWII"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Cold War",
@@ -6185,7 +6185,7 @@ const historyQuestions = {
                     "1950-1953",
                     "1960-1963"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Cold War",
@@ -6225,7 +6225,7 @@ const historyQuestions = {
                     "Warsaw Pact",
                     "NATO"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Cold War",
@@ -6248,7 +6248,7 @@ const historyQuestions = {
                     "Truman 1947",
                     "Churchill 1946"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Cold War",
@@ -6259,7 +6259,7 @@ const historyQuestions = {
                     "1991",
                     "1989"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Cold War",
@@ -6270,7 +6270,7 @@ const historyQuestions = {
                     "Nuclear buildup",
                     "Space competition"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Cold War",
@@ -6281,7 +6281,7 @@ const historyQuestions = {
                     "John Glenn",
                     "Yuri Gagarin"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Cold War",
@@ -6292,7 +6292,7 @@ const historyQuestions = {
                     "49th",
                     "38th"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Cold War",
@@ -6303,7 +6303,7 @@ const historyQuestions = {
                     "1970",
                     "1973"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Cold War",
@@ -6314,7 +6314,7 @@ const historyQuestions = {
                     "US intelligence",
                     "Soviet intelligence"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Cold War",
@@ -6325,7 +6325,7 @@ const historyQuestions = {
                     "Stalin",
                     "Khrushchev"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Cold War",
@@ -6361,7 +6361,7 @@ const historyQuestions = {
                     "Nuclear deterrence",
                     "Contain communism"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Cold War",
@@ -6373,7 +6373,7 @@ const historyQuestions = {
                     "Supply blockaded Berlin",
                     "Spy operation"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Cold War",
@@ -6409,7 +6409,7 @@ const historyQuestions = {
                     "Stalin",
                     "Ho Chi Minh"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Cold War",
@@ -6421,7 +6421,7 @@ const historyQuestions = {
                     "Peace treaty",
                     "US invasion"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Cold War",
@@ -6433,7 +6433,7 @@ const historyQuestions = {
                     "Espionage",
                     "Treason"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Cold War",
@@ -6445,7 +6445,7 @@ const historyQuestions = {
                     "1 month",
                     "13 days"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Cold War",
@@ -6457,7 +6457,7 @@ const historyQuestions = {
                     "Communism would spread",
                     "Economic collapse"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Cold War",
@@ -6469,7 +6469,7 @@ const historyQuestions = {
                     "Great Leap",
                     "Glasnost/Perestroika"
                 ],
-                "correct": 3
+                "correct": 1
             }
         ],
         "extreme": [
@@ -6575,7 +6575,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Civil Rights",
@@ -6585,7 +6585,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Civil Rights",
@@ -6595,7 +6595,7 @@ const historyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Civil Rights",
@@ -6605,7 +6605,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Civil Rights",
@@ -6615,7 +6615,7 @@ const historyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Civil Rights",
@@ -6625,7 +6625,7 @@ const historyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Civil Rights",
@@ -6647,7 +6647,7 @@ const historyQuestions = {
                     "Armed struggle",
                     "Nonviolent resistance"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Civil Rights",
@@ -6657,7 +6657,7 @@ const historyQuestions = {
                     "Montgomery",
                     "Atlanta"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Civil Rights",
@@ -6687,7 +6687,7 @@ const historyQuestions = {
                     "Brown v. Board",
                     "Plessy v. Ferguson"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Civil Rights",
@@ -6697,7 +6697,7 @@ const historyQuestions = {
                     "Free at Last",
                     "I Have a Dream"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Civil Rights",
@@ -6727,7 +6727,7 @@ const historyQuestions = {
                     "Malcolm X",
                     "Gandhi"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Civil Rights",
@@ -6750,7 +6750,7 @@ const historyQuestions = {
                     "1968",
                     "1965"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Civil Rights",
@@ -6772,7 +6772,7 @@ const historyQuestions = {
                     "Discrimination",
                     "Segregation only"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Civil Rights",
@@ -6805,7 +6805,7 @@ const historyQuestions = {
                     "Washington DC",
                     "Montgomery"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Civil Rights",
@@ -6816,7 +6816,7 @@ const historyQuestions = {
                     "Korematsu",
                     "Plessy v. Ferguson"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Civil Rights",
@@ -6827,7 +6827,7 @@ const historyQuestions = {
                     "1965",
                     "1968"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Civil Rights",
@@ -6849,7 +6849,7 @@ const historyQuestions = {
                     "Clarence Thomas",
                     "Robert Jackson"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -6887,7 +6887,7 @@ const historyQuestions = {
                     "Voting",
                     "Employment discrimination"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Civil Rights",
@@ -6899,7 +6899,7 @@ const historyQuestions = {
                     "Literacy tests",
                     "Poll taxes"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Civil Rights",
@@ -6911,7 +6911,7 @@ const historyQuestions = {
                     "Court case",
                     "Students integrating school"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Civil Rights",
@@ -6923,7 +6923,7 @@ const historyQuestions = {
                     "September 1963",
                     "August 1963"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Civil Rights",
@@ -6935,7 +6935,7 @@ const historyQuestions = {
                     "Civil rights law",
                     "Integration policy"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Civil Rights",
@@ -6947,7 +6947,7 @@ const historyQuestions = {
                     "Bombing",
                     "Police attacked marchers"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Civil Rights",
@@ -6959,7 +6959,7 @@ const historyQuestions = {
                     "Interstate bus protesters",
                     "Marchers"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Civil Rights",
@@ -6971,7 +6971,7 @@ const historyQuestions = {
                     "Remedy for discrimination",
                     "School policy"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "extreme": [
@@ -7077,7 +7077,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Modern China",
@@ -7097,7 +7097,7 @@ const historyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Modern China",
@@ -7117,7 +7117,7 @@ const historyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Modern China",
@@ -7127,7 +7127,7 @@ const historyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Modern China",
@@ -7149,7 +7149,7 @@ const historyQuestions = {
                     "1945",
                     "1949"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Modern China",
@@ -7189,7 +7189,7 @@ const historyQuestions = {
                     "Political upheaval",
                     "Economic reform"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Modern China",
@@ -7199,7 +7199,7 @@ const historyQuestions = {
                     "Celebration",
                     "Protests crushed"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Modern China",
@@ -7209,7 +7209,7 @@ const historyQuestions = {
                     "Shanghai",
                     "Beijing"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Modern China",
@@ -7252,7 +7252,7 @@ const historyQuestions = {
                     "Colony",
                     "Republic of China"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Modern China",
@@ -7263,7 +7263,7 @@ const historyQuestions = {
                     "1970",
                     "1976"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Modern China",
@@ -7285,7 +7285,7 @@ const historyQuestions = {
                     "5-10 million",
                     "1-5 million"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Modern China",
@@ -7296,7 +7296,7 @@ const historyQuestions = {
                     "1958-1962",
                     "1949-1959"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Modern China",
@@ -7307,7 +7307,7 @@ const historyQuestions = {
                     "1989",
                     "1990"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Modern China",
@@ -7318,7 +7318,7 @@ const historyQuestions = {
                     "Trade ports",
                     "Industrial cities"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Modern China",
@@ -7329,7 +7329,7 @@ const historyQuestions = {
                     "1975",
                     "1979"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Modern China",
@@ -7351,7 +7351,7 @@ const historyQuestions = {
                     "Parliament",
                     "National People's Congress"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -7365,7 +7365,7 @@ const historyQuestions = {
                     "Military campaign",
                     "Communist retreat/survival"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Modern China",
@@ -7377,7 +7377,7 @@ const historyQuestions = {
                     "Art of War",
                     "Quotations"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Modern China",
@@ -7389,7 +7389,7 @@ const historyQuestions = {
                     "Capitalism",
                     "Market socialism"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Modern China",
@@ -7413,7 +7413,7 @@ const historyQuestions = {
                     "Workers",
                     "Police"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Modern China",
@@ -7425,7 +7425,7 @@ const historyQuestions = {
                     "Democracy/reform",
                     "Independence"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Modern China",
@@ -7449,7 +7449,7 @@ const historyQuestions = {
                     "2020",
                     "2010"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Modern China",
@@ -7461,7 +7461,7 @@ const historyQuestions = {
                     "Infrastructure project",
                     "Trade deal"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Modern China",
@@ -7473,7 +7473,7 @@ const historyQuestions = {
                     "50 million",
                     "30 million"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "extreme": [
@@ -7579,7 +7579,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Decolonization",
@@ -7589,7 +7589,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Decolonization",
@@ -7609,7 +7609,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Decolonization",
@@ -7661,7 +7661,7 @@ const historyQuestions = {
                     "1947",
                     "1950"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Decolonization",
@@ -7671,7 +7671,7 @@ const historyQuestions = {
                     "Union",
                     "Commonwealth"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Decolonization",
@@ -7701,7 +7701,7 @@ const historyQuestions = {
                     "Revolution",
                     "Satyagraha"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Decolonization",
@@ -7721,7 +7721,7 @@ const historyQuestions = {
                     "Independence",
                     "Racial segregation"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Decolonization",
@@ -7741,7 +7741,7 @@ const historyQuestions = {
                     "Mau Mau",
                     "Zulu War"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -7776,7 +7776,7 @@ const historyQuestions = {
                     "British PM on decolonization",
                     "Churchill speech"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Decolonization",
@@ -7787,7 +7787,7 @@ const historyQuestions = {
                     "10 years",
                     "5 years"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Decolonization",
@@ -7798,7 +7798,7 @@ const historyQuestions = {
                     "1965",
                     "1960"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Decolonization",
@@ -7809,7 +7809,7 @@ const historyQuestions = {
                     "1948",
                     "1947"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Decolonization",
@@ -7820,7 +7820,7 @@ const historyQuestions = {
                     "1945 separation",
                     "1947 division"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Decolonization",
@@ -7831,7 +7831,7 @@ const historyQuestions = {
                     "1991-1994",
                     "1980-1985"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Decolonization",
@@ -7853,7 +7853,7 @@ const historyQuestions = {
                     "1960",
                     "1965"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -7867,7 +7867,7 @@ const historyQuestions = {
                     "Economic crisis",
                     "WWII weakened empires"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Decolonization",
@@ -7879,7 +7879,7 @@ const historyQuestions = {
                     "Civil disobedience",
                     "Partition"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Decolonization",
@@ -7891,7 +7891,7 @@ const historyQuestions = {
                     "Attlee",
                     "Macmillan"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Decolonization",
@@ -7927,7 +7927,7 @@ const historyQuestions = {
                     "Partition protest",
                     "1930 protest against tax"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Decolonization",
@@ -7939,7 +7939,7 @@ const historyQuestions = {
                     "India-Pakistan border",
                     "Vietnam border"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Decolonization",
@@ -7951,7 +7951,7 @@ const historyQuestions = {
                     "Nelson Mandela",
                     "Desmond Tutu"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Decolonization",
@@ -7975,7 +7975,7 @@ const historyQuestions = {
                     "Tom Mboya",
                     "Jomo Kenyatta"
                 ],
-                "correct": 3
+                "correct": 1
             }
         ],
         "extreme": [
@@ -8081,7 +8081,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Space Race",
@@ -8091,7 +8091,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Space Race",
@@ -8141,7 +8141,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -8203,7 +8203,7 @@ const historyQuestions = {
                     "Satellite",
                     "Moon rocket"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Space Race",
@@ -8223,7 +8223,7 @@ const historyQuestions = {
                     "ESA",
                     "NASA"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Space Race",
@@ -8243,7 +8243,7 @@ const historyQuestions = {
                     "Moon missions",
                     "Space station"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -8256,7 +8256,7 @@ const historyQuestions = {
                     "Apollo 11",
                     "Apollo 12"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Space Race",
@@ -8267,7 +8267,7 @@ const historyQuestions = {
                     "1960",
                     "1958"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Space Race",
@@ -8278,7 +8278,7 @@ const historyQuestions = {
                     "Went to moon",
                     "Orbited Earth"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Space Race",
@@ -8311,7 +8311,7 @@ const historyQuestions = {
                     "2",
                     "3"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Space Race",
@@ -8322,7 +8322,7 @@ const historyQuestions = {
                     "Pete Conrad",
                     "Michael Collins"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Space Race",
@@ -8333,7 +8333,7 @@ const historyQuestions = {
                     "1960",
                     "1958"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Space Race",
@@ -8344,7 +8344,7 @@ const historyQuestions = {
                     "July 21, 1969",
                     "July 20, 1969"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Space Race",
@@ -8369,7 +8369,7 @@ const historyQuestions = {
                     "Columbia",
                     "Eagle"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Space Race",
@@ -8381,7 +8381,7 @@ const historyQuestions = {
                     "Soyuz",
                     "Vostok"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Space Race",
@@ -8393,7 +8393,7 @@ const historyQuestions = {
                     "Explorer 1",
                     "Vanguard"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Space Race",
@@ -8405,7 +8405,7 @@ const historyQuestions = {
                     "Gemini",
                     "Skylab"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Space Race",
@@ -8453,7 +8453,7 @@ const historyQuestions = {
                     "Collision",
                     "Oxygen tank explosion"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Space Race",
@@ -8465,7 +8465,7 @@ const historyQuestions = {
                     "One small step for man, giant leap for mankind",
                     "Small step, big achievement"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Space Race",
@@ -8477,7 +8477,7 @@ const historyQuestions = {
                     "Shuttle program",
                     "Moon landing"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "extreme": [
@@ -8553,7 +8553,7 @@ const historyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Middle East",
@@ -8573,7 +8573,7 @@ const historyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Middle East",
@@ -8583,7 +8583,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Middle East",
@@ -8603,7 +8603,7 @@ const historyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Middle East",
@@ -8643,7 +8643,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -8655,7 +8655,7 @@ const historyQuestions = {
                     "Trade group",
                     "Oil organization"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Middle East",
@@ -8685,7 +8685,7 @@ const historyQuestions = {
                     "Sunni and Shia",
                     "Orthodox and Reform"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Middle East",
@@ -8735,7 +8735,7 @@ const historyQuestions = {
                     "1980",
                     "1979"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Middle East",
@@ -8745,7 +8745,7 @@ const historyQuestions = {
                     "Peace agreement",
                     "Trade deal"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -8758,7 +8758,7 @@ const historyQuestions = {
                     "1970",
                     "1960"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Middle East",
@@ -8769,7 +8769,7 @@ const historyQuestions = {
                     "Yom Kippur War",
                     "War of Independence"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Middle East",
@@ -8780,7 +8780,7 @@ const historyQuestions = {
                     "1991",
                     "2003"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Middle East",
@@ -8791,7 +8791,7 @@ const historyQuestions = {
                     "Medina",
                     "Mecca"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Middle East",
@@ -8802,7 +8802,7 @@ const historyQuestions = {
                     "1967",
                     "1979"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Middle East",
@@ -8813,7 +8813,7 @@ const historyQuestions = {
                     "Desert area",
                     "Historic agricultural region"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Middle East",
@@ -8824,7 +8824,7 @@ const historyQuestions = {
                     "Faisal",
                     "Abdullah"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Middle East",
@@ -8835,7 +8835,7 @@ const historyQuestions = {
                     "Egypt",
                     "Tunisia"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Middle East",
@@ -8857,7 +8857,7 @@ const historyQuestions = {
                     "1990",
                     "1995"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -8871,7 +8871,7 @@ const historyQuestions = {
                     "Organization of Petroleum Exporting Countries",
                     "Oriental Petroleum Export Consortium"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Middle East",
@@ -8883,7 +8883,7 @@ const historyQuestions = {
                     "British support for Jewish homeland",
                     "Independence document"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Middle East",
@@ -8895,7 +8895,7 @@ const historyQuestions = {
                     "1991 Iraq liberation",
                     "Israeli operation"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Middle East",
@@ -8907,7 +8907,7 @@ const historyQuestions = {
                     "Religious leader",
                     "Pilgrimage to Mecca"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Middle East",
@@ -8919,7 +8919,7 @@ const historyQuestions = {
                     "Revolution",
                     "Trade war"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Middle East",
@@ -8943,7 +8943,7 @@ const historyQuestions = {
                     "Political party",
                     "Conservative Islamic movement"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Middle East",
@@ -8979,7 +8979,7 @@ const historyQuestions = {
                     "Netanyahu and Abbas",
                     "Begin and Sadat"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "extreme": [
@@ -9055,7 +9055,7 @@ const historyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Fall of Communism",
@@ -9065,7 +9065,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Fall of Communism",
@@ -9075,7 +9075,7 @@ const historyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Fall of Communism",
@@ -9085,7 +9085,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Fall of Communism",
@@ -9157,7 +9157,7 @@ const historyQuestions = {
                     "1990",
                     "1989"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Fall of Communism",
@@ -9167,7 +9167,7 @@ const historyQuestions = {
                     "1991",
                     "1989"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Fall of Communism",
@@ -9237,7 +9237,7 @@ const historyQuestions = {
                     "NATO",
                     "Warsaw Pact"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Fall of Communism",
@@ -9260,7 +9260,7 @@ const historyQuestions = {
                     "November 10, 1989",
                     "November 9, 1989"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Fall of Communism",
@@ -9271,7 +9271,7 @@ const historyQuestions = {
                     "20",
                     "10"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Fall of Communism",
@@ -9282,7 +9282,7 @@ const historyQuestions = {
                     "Vaclav Havel",
                     "Yeltsin"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Fall of Communism",
@@ -9293,7 +9293,7 @@ const historyQuestions = {
                     "Political change",
                     "Social program"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Fall of Communism",
@@ -9304,7 +9304,7 @@ const historyQuestions = {
                     "1989",
                     "1980"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Fall of Communism",
@@ -9315,7 +9315,7 @@ const historyQuestions = {
                     "Willy Brandt",
                     "Helmut Kohl"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Fall of Communism",
@@ -9326,7 +9326,7 @@ const historyQuestions = {
                     "Civil war",
                     "Hardliners vs Gorbachev"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Fall of Communism",
@@ -9337,7 +9337,7 @@ const historyQuestions = {
                     "1989",
                     "1985"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Fall of Communism",
@@ -9373,7 +9373,7 @@ const historyQuestions = {
                     "Revolution",
                     "Government plan"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Fall of Communism",
@@ -9397,7 +9397,7 @@ const historyQuestions = {
                     "1968 reform movement",
                     "Independence"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Fall of Communism",
@@ -9409,7 +9409,7 @@ const historyQuestions = {
                     "Parliament",
                     "Political party"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Fall of Communism",
@@ -9421,7 +9421,7 @@ const historyQuestions = {
                     "Trade union",
                     "Army"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Fall of Communism",
@@ -9433,7 +9433,7 @@ const historyQuestions = {
                     "High economic burden",
                     "Small cost"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Fall of Communism",
@@ -9469,7 +9469,7 @@ const historyQuestions = {
                     "Soviet meeting",
                     "Polish negotiations"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Fall of Communism",
@@ -9587,7 +9587,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Contemporary",
@@ -9597,7 +9597,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Contemporary",
@@ -9607,7 +9607,7 @@ const historyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Contemporary",
@@ -9617,7 +9617,7 @@ const historyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Contemporary",
@@ -9637,7 +9637,7 @@ const historyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Contemporary",
@@ -9659,7 +9659,7 @@ const historyQuestions = {
                     "1995",
                     "1989"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Contemporary",
@@ -9679,7 +9679,7 @@ const historyQuestions = {
                     "Trade",
                     "Climate change"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Contemporary",
@@ -9689,7 +9689,7 @@ const historyQuestions = {
                     "2019-2020",
                     "2018"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Contemporary",
@@ -9719,7 +9719,7 @@ const historyQuestions = {
                     "Batteries",
                     "Solar"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Contemporary",
@@ -9729,7 +9729,7 @@ const historyQuestions = {
                     "Advanced Internet",
                     "Artificial Intelligence"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Contemporary",
@@ -9762,7 +9762,7 @@ const historyQuestions = {
                     "Bill Gates",
                     "Tim Berners-Lee"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Contemporary",
@@ -9784,7 +9784,7 @@ const historyQuestions = {
                     "2016",
                     "2015"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Contemporary",
@@ -9795,7 +9795,7 @@ const historyQuestions = {
                     "Italy",
                     "USA"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Contemporary",
@@ -9806,7 +9806,7 @@ const historyQuestions = {
                     "2002",
                     "2006"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Contemporary",
@@ -9817,7 +9817,7 @@ const historyQuestions = {
                     "2020",
                     "2019"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Contemporary",
@@ -9839,7 +9839,7 @@ const historyQuestions = {
                     "Social media",
                     "AI chatbot"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Contemporary",
@@ -9850,7 +9850,7 @@ const historyQuestions = {
                     "Trade war",
                     "Global recession"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Contemporary",
@@ -9861,7 +9861,7 @@ const historyQuestions = {
                     "Trade bloc",
                     "Currency"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -9875,7 +9875,7 @@ const historyQuestions = {
                     "Tech boom",
                     "Late 1990s tech speculation"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Contemporary",
@@ -9887,7 +9887,7 @@ const historyQuestions = {
                     "Social media",
                     "Mobile computing era"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Contemporary",
@@ -9899,7 +9899,7 @@ const historyQuestions = {
                     "Net zero emissions",
                     "Clean air"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Contemporary",
@@ -9911,7 +9911,7 @@ const historyQuestions = {
                     "Protein",
                     "mRNA"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Contemporary",
@@ -9947,7 +9947,7 @@ const historyQuestions = {
                     "Oil independence",
                     "Shift to renewables"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Contemporary",
@@ -9959,7 +9959,7 @@ const historyQuestions = {
                     "Robot",
                     "Computer program"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Contemporary",

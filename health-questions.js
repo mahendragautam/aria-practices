@@ -19,7 +19,7 @@ const healthQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Exercise",
@@ -29,7 +29,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Nutrition",
@@ -39,7 +39,7 @@ const healthQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Yoga",
@@ -59,7 +59,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Nutrition",
@@ -69,7 +69,7 @@ const healthQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Exercise",
@@ -89,7 +89,7 @@ const healthQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Yoga",
@@ -121,7 +121,7 @@ const healthQuestions = {
                     "2",
                     "5"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Exercise",
@@ -141,7 +141,7 @@ const healthQuestions = {
                     "3 glasses",
                     "8 glasses"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Yoga",
@@ -161,7 +161,7 @@ const healthQuestions = {
                     "Heart health",
                     "Flexibility"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Nutrition",
@@ -171,7 +171,7 @@ const healthQuestions = {
                     "Vitamin C",
                     "Vitamin A"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Exercise",
@@ -191,7 +191,7 @@ const healthQuestions = {
                     "Iron",
                     "Calcium"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Yoga",
@@ -211,7 +211,7 @@ const healthQuestions = {
                     "With oxygen",
                     "Without oxygen"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -224,7 +224,7 @@ const healthQuestions = {
                     "Bone Mineral Index",
                     "Body Mass Index"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Exercise",
@@ -235,7 +235,7 @@ const healthQuestions = {
                     "Heavy Indoor Impact",
                     "High Intensity Interval"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Nutrition",
@@ -257,7 +257,7 @@ const healthQuestions = {
                     "12",
                     "8"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Cardio",
@@ -268,7 +268,7 @@ const healthQuestions = {
                     "90-100% max",
                     "30-50% max"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Nutrition",
@@ -279,7 +279,7 @@ const healthQuestions = {
                     "Low water intake",
                     "High protein"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Exercise",
@@ -290,7 +290,7 @@ const healthQuestions = {
                     "Decreasing reps",
                     "Increasing weight gradually"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Nutrition",
@@ -301,7 +301,7 @@ const healthQuestions = {
                     "Cannot digest milk sugar",
                     "Vitamin deficiency"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Yoga",
@@ -312,7 +312,7 @@ const healthQuestions = {
                     "Series of poses",
                     "Breathing technique"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Cardio",
@@ -323,7 +323,7 @@ const healthQuestions = {
                     "Lung volume",
                     "Heart rate"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -337,7 +337,7 @@ const healthQuestions = {
                     "0.8-1g",
                     "0.1-0.3g"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Exercise",
@@ -361,7 +361,7 @@ const healthQuestions = {
                     "Made by body",
                     "Not needed"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Yoga",
@@ -373,7 +373,7 @@ const healthQuestions = {
                     "Philosophy",
                     "Physical yoga"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Cardio",
@@ -385,7 +385,7 @@ const healthQuestions = {
                     "200 - age",
                     "180 - age"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Nutrition",
@@ -397,7 +397,7 @@ const healthQuestions = {
                     "10 liters",
                     "1-2 liters"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Exercise",
@@ -409,7 +409,7 @@ const healthQuestions = {
                     "Muscle shortens",
                     "Muscle lengthens"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Nutrition",
@@ -433,7 +433,7 @@ const healthQuestions = {
                     "Warrior",
                     "Savasana"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Cardio",
@@ -445,7 +445,7 @@ const healthQuestions = {
                     "Oxygen excess",
                     "Heart stops"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "extreme": [
@@ -521,7 +521,7 @@ const healthQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Diseases",
@@ -531,7 +531,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Diseases",
@@ -551,7 +551,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Diseases",
@@ -561,7 +561,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Diseases",
@@ -581,7 +581,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Diseases",
@@ -611,7 +611,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -647,7 +647,7 @@ const healthQuestions = {
                     "Stomach",
                     "Lungs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Diseases",
@@ -659,7 +659,7 @@ const healthQuestions = {
                     "Saturated",
                     "Omega-3"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Diseases",
@@ -683,7 +683,7 @@ const healthQuestions = {
                     "10-12 hours",
                     "3-4 hours"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Diseases",
@@ -695,7 +695,7 @@ const healthQuestions = {
                     "Carbohydrates",
                     "Minerals"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Diseases",
@@ -707,7 +707,7 @@ const healthQuestions = {
                     "Calcium",
                     "Sodium"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Diseases",
@@ -719,7 +719,7 @@ const healthQuestions = {
                     "Stretching",
                     "Balance training"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Diseases",
@@ -731,7 +731,7 @@ const healthQuestions = {
                     "0.5-1 liter",
                     "10 liters"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -756,7 +756,7 @@ const healthQuestions = {
                     "Vitamin C",
                     "Vitamin D"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Diseases",
@@ -768,7 +768,7 @@ const healthQuestions = {
                     "39°C",
                     "40°C"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Diseases",
@@ -804,7 +804,7 @@ const healthQuestions = {
                     "Four",
                     "Five"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Diseases",
@@ -816,7 +816,7 @@ const healthQuestions = {
                     "60-70%",
                     "80-90%"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Diseases",
@@ -828,7 +828,7 @@ const healthQuestions = {
                     "VLDL",
                     "Triglycerides"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Diseases",
@@ -840,7 +840,7 @@ const healthQuestions = {
                     "110-130 bpm",
                     "140-160 bpm"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Diseases",
@@ -852,7 +852,7 @@ const healthQuestions = {
                     "Cortisol",
                     "Melatonin"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -866,7 +866,7 @@ const healthQuestions = {
                     "A",
                     "B"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Diseases",
@@ -890,7 +890,7 @@ const healthQuestions = {
                     "Pituitary",
                     "Pineal"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Diseases",
@@ -914,7 +914,7 @@ const healthQuestions = {
                     "AB",
                     "O"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Diseases",
@@ -926,7 +926,7 @@ const healthQuestions = {
                     "Trachea",
                     "Esophagus"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Diseases",
@@ -938,7 +938,7 @@ const healthQuestions = {
                     "Vitamin C",
                     "Vitamin D"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Diseases",
@@ -950,7 +950,7 @@ const healthQuestions = {
                     "Immunity",
                     "Respiration"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Diseases",
@@ -962,7 +962,7 @@ const healthQuestions = {
                     "Pancreas",
                     "Thyroid"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Diseases",
@@ -1050,7 +1050,7 @@ const healthQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mental",
@@ -1060,7 +1060,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Mental",
@@ -1080,7 +1080,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Mental",
@@ -1090,7 +1090,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Mental",
@@ -1110,7 +1110,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Mental",
@@ -1140,7 +1140,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -1152,7 +1152,7 @@ const healthQuestions = {
                     "Option B",
                     "Option A"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mental",
@@ -1176,7 +1176,7 @@ const healthQuestions = {
                     "Stomach",
                     "Lungs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mental",
@@ -1188,7 +1188,7 @@ const healthQuestions = {
                     "Saturated",
                     "Omega-3"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Mental",
@@ -1212,7 +1212,7 @@ const healthQuestions = {
                     "10-12 hours",
                     "3-4 hours"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mental",
@@ -1224,7 +1224,7 @@ const healthQuestions = {
                     "Carbohydrates",
                     "Minerals"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Mental",
@@ -1236,7 +1236,7 @@ const healthQuestions = {
                     "Calcium",
                     "Sodium"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Mental",
@@ -1248,7 +1248,7 @@ const healthQuestions = {
                     "Stretching",
                     "Balance training"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mental",
@@ -1260,7 +1260,7 @@ const healthQuestions = {
                     "0.5-1 liter",
                     "10 liters"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -1273,7 +1273,7 @@ const healthQuestions = {
                     "C",
                     "A"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Mental",
@@ -1285,7 +1285,7 @@ const healthQuestions = {
                     "Vitamin C",
                     "Vitamin D"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Mental",
@@ -1297,7 +1297,7 @@ const healthQuestions = {
                     "39°C",
                     "40°C"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mental",
@@ -1333,7 +1333,7 @@ const healthQuestions = {
                     "Four",
                     "Five"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Mental",
@@ -1345,7 +1345,7 @@ const healthQuestions = {
                     "60-70%",
                     "80-90%"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Mental",
@@ -1357,7 +1357,7 @@ const healthQuestions = {
                     "VLDL",
                     "Triglycerides"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mental",
@@ -1369,7 +1369,7 @@ const healthQuestions = {
                     "110-130 bpm",
                     "140-160 bpm"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mental",
@@ -1381,7 +1381,7 @@ const healthQuestions = {
                     "Cortisol",
                     "Melatonin"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -1395,7 +1395,7 @@ const healthQuestions = {
                     "D",
                     "B"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mental",
@@ -1419,7 +1419,7 @@ const healthQuestions = {
                     "Pituitary",
                     "Pineal"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Mental",
@@ -1443,7 +1443,7 @@ const healthQuestions = {
                     "AB",
                     "O"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Mental",
@@ -1455,7 +1455,7 @@ const healthQuestions = {
                     "Trachea",
                     "Esophagus"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mental",
@@ -1467,7 +1467,7 @@ const healthQuestions = {
                     "Vitamin C",
                     "Vitamin D"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Mental",
@@ -1479,7 +1479,7 @@ const healthQuestions = {
                     "Immunity",
                     "Respiration"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Mental",
@@ -1491,7 +1491,7 @@ const healthQuestions = {
                     "Pancreas",
                     "Thyroid"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Mental",
@@ -1579,7 +1579,7 @@ const healthQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sleep",
@@ -1589,7 +1589,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sleep",
@@ -1609,7 +1609,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sleep",
@@ -1619,7 +1619,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sleep",
@@ -1639,7 +1639,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sleep",
@@ -1669,7 +1669,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -1705,7 +1705,7 @@ const healthQuestions = {
                     "Stomach",
                     "Lungs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sleep",
@@ -1717,7 +1717,7 @@ const healthQuestions = {
                     "Saturated",
                     "Omega-3"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Sleep",
@@ -1741,7 +1741,7 @@ const healthQuestions = {
                     "10-12 hours",
                     "3-4 hours"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sleep",
@@ -1753,7 +1753,7 @@ const healthQuestions = {
                     "Carbohydrates",
                     "Minerals"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Sleep",
@@ -1765,7 +1765,7 @@ const healthQuestions = {
                     "Calcium",
                     "Sodium"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Sleep",
@@ -1777,7 +1777,7 @@ const healthQuestions = {
                     "Stretching",
                     "Balance training"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sleep",
@@ -1789,7 +1789,7 @@ const healthQuestions = {
                     "0.5-1 liter",
                     "10 liters"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -1802,7 +1802,7 @@ const healthQuestions = {
                     "C",
                     "A"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Sleep",
@@ -1814,7 +1814,7 @@ const healthQuestions = {
                     "Vitamin C",
                     "Vitamin D"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sleep",
@@ -1826,7 +1826,7 @@ const healthQuestions = {
                     "39°C",
                     "40°C"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sleep",
@@ -1862,7 +1862,7 @@ const healthQuestions = {
                     "Four",
                     "Five"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Sleep",
@@ -1874,7 +1874,7 @@ const healthQuestions = {
                     "60-70%",
                     "80-90%"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Sleep",
@@ -1886,7 +1886,7 @@ const healthQuestions = {
                     "VLDL",
                     "Triglycerides"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sleep",
@@ -1898,7 +1898,7 @@ const healthQuestions = {
                     "110-130 bpm",
                     "140-160 bpm"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sleep",
@@ -1910,7 +1910,7 @@ const healthQuestions = {
                     "Cortisol",
                     "Melatonin"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -1924,7 +1924,7 @@ const healthQuestions = {
                     "B",
                     "D"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sleep",
@@ -1948,7 +1948,7 @@ const healthQuestions = {
                     "Pituitary",
                     "Pineal"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Sleep",
@@ -1972,7 +1972,7 @@ const healthQuestions = {
                     "AB",
                     "O"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Sleep",
@@ -1984,7 +1984,7 @@ const healthQuestions = {
                     "Trachea",
                     "Esophagus"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sleep",
@@ -1996,7 +1996,7 @@ const healthQuestions = {
                     "Vitamin C",
                     "Vitamin D"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Sleep",
@@ -2008,7 +2008,7 @@ const healthQuestions = {
                     "Immunity",
                     "Respiration"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Sleep",
@@ -2020,7 +2020,7 @@ const healthQuestions = {
                     "Pancreas",
                     "Thyroid"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Sleep",
@@ -2108,7 +2108,7 @@ const healthQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Personal",
@@ -2118,7 +2118,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Personal",
@@ -2138,7 +2138,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Personal",
@@ -2148,7 +2148,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Personal",
@@ -2168,7 +2168,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Personal",
@@ -2198,7 +2198,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -2210,7 +2210,7 @@ const healthQuestions = {
                     "Option B",
                     "Option A"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Personal",
@@ -2234,7 +2234,7 @@ const healthQuestions = {
                     "Stomach",
                     "Lungs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Personal",
@@ -2246,7 +2246,7 @@ const healthQuestions = {
                     "Saturated",
                     "Omega-3"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Personal",
@@ -2270,7 +2270,7 @@ const healthQuestions = {
                     "10-12 hours",
                     "3-4 hours"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Personal",
@@ -2282,7 +2282,7 @@ const healthQuestions = {
                     "Carbohydrates",
                     "Minerals"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Personal",
@@ -2294,7 +2294,7 @@ const healthQuestions = {
                     "Calcium",
                     "Sodium"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Personal",
@@ -2306,7 +2306,7 @@ const healthQuestions = {
                     "Stretching",
                     "Balance training"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Personal",
@@ -2318,7 +2318,7 @@ const healthQuestions = {
                     "0.5-1 liter",
                     "10 liters"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -2331,7 +2331,7 @@ const healthQuestions = {
                     "B",
                     "A"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Personal",
@@ -2343,7 +2343,7 @@ const healthQuestions = {
                     "Vitamin C",
                     "Vitamin D"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Personal",
@@ -2355,7 +2355,7 @@ const healthQuestions = {
                     "39°C",
                     "40°C"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Personal",
@@ -2391,7 +2391,7 @@ const healthQuestions = {
                     "Four",
                     "Five"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Personal",
@@ -2403,7 +2403,7 @@ const healthQuestions = {
                     "60-70%",
                     "80-90%"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Personal",
@@ -2415,7 +2415,7 @@ const healthQuestions = {
                     "VLDL",
                     "Triglycerides"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Personal",
@@ -2427,7 +2427,7 @@ const healthQuestions = {
                     "110-130 bpm",
                     "140-160 bpm"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Personal",
@@ -2439,7 +2439,7 @@ const healthQuestions = {
                     "Cortisol",
                     "Melatonin"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -2477,7 +2477,7 @@ const healthQuestions = {
                     "Pituitary",
                     "Pineal"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Personal",
@@ -2501,7 +2501,7 @@ const healthQuestions = {
                     "AB",
                     "O"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Personal",
@@ -2513,7 +2513,7 @@ const healthQuestions = {
                     "Trachea",
                     "Esophagus"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Personal",
@@ -2525,7 +2525,7 @@ const healthQuestions = {
                     "Vitamin C",
                     "Vitamin D"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Personal",
@@ -2537,7 +2537,7 @@ const healthQuestions = {
                     "Immunity",
                     "Respiration"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Personal",
@@ -2549,7 +2549,7 @@ const healthQuestions = {
                     "Pancreas",
                     "Thyroid"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Personal",
@@ -2637,7 +2637,7 @@ const healthQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Nutrition",
@@ -2647,7 +2647,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Nutrition",
@@ -2667,7 +2667,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Nutrition",
@@ -2677,7 +2677,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Nutrition",
@@ -2697,7 +2697,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Nutrition",
@@ -2727,7 +2727,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -2739,7 +2739,7 @@ const healthQuestions = {
                     "Option B",
                     "Option A"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Nutrition",
@@ -2763,7 +2763,7 @@ const healthQuestions = {
                     "Stomach",
                     "Lungs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Nutrition",
@@ -2775,7 +2775,7 @@ const healthQuestions = {
                     "Saturated",
                     "Omega-3"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Nutrition",
@@ -2799,7 +2799,7 @@ const healthQuestions = {
                     "10-12 hours",
                     "3-4 hours"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Nutrition",
@@ -2811,7 +2811,7 @@ const healthQuestions = {
                     "Carbohydrates",
                     "Minerals"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Nutrition",
@@ -2823,7 +2823,7 @@ const healthQuestions = {
                     "Calcium",
                     "Sodium"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Nutrition",
@@ -2835,7 +2835,7 @@ const healthQuestions = {
                     "Stretching",
                     "Balance training"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Nutrition",
@@ -2847,7 +2847,7 @@ const healthQuestions = {
                     "0.5-1 liter",
                     "10 liters"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -2860,7 +2860,7 @@ const healthQuestions = {
                     "A",
                     "B"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Nutrition",
@@ -2872,7 +2872,7 @@ const healthQuestions = {
                     "Vitamin C",
                     "Vitamin D"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Nutrition",
@@ -2884,7 +2884,7 @@ const healthQuestions = {
                     "39°C",
                     "40°C"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Nutrition",
@@ -2920,7 +2920,7 @@ const healthQuestions = {
                     "Four",
                     "Five"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Nutrition",
@@ -2932,7 +2932,7 @@ const healthQuestions = {
                     "60-70%",
                     "80-90%"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Nutrition",
@@ -2944,7 +2944,7 @@ const healthQuestions = {
                     "VLDL",
                     "Triglycerides"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Nutrition",
@@ -2956,7 +2956,7 @@ const healthQuestions = {
                     "110-130 bpm",
                     "140-160 bpm"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Nutrition",
@@ -2968,7 +2968,7 @@ const healthQuestions = {
                     "Cortisol",
                     "Melatonin"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -2982,7 +2982,7 @@ const healthQuestions = {
                     "B",
                     "A"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Nutrition",
@@ -3006,7 +3006,7 @@ const healthQuestions = {
                     "Pituitary",
                     "Pineal"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Nutrition",
@@ -3030,7 +3030,7 @@ const healthQuestions = {
                     "AB",
                     "O"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Nutrition",
@@ -3042,7 +3042,7 @@ const healthQuestions = {
                     "Trachea",
                     "Esophagus"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Nutrition",
@@ -3054,7 +3054,7 @@ const healthQuestions = {
                     "Vitamin C",
                     "Vitamin D"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Nutrition",
@@ -3066,7 +3066,7 @@ const healthQuestions = {
                     "Immunity",
                     "Respiration"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Nutrition",
@@ -3078,7 +3078,7 @@ const healthQuestions = {
                     "Pancreas",
                     "Thyroid"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Nutrition",
@@ -3176,7 +3176,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Physical",
@@ -3196,7 +3196,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Physical",
@@ -3206,7 +3206,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Physical",
@@ -3226,7 +3226,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Physical",
@@ -3256,7 +3256,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -3292,7 +3292,7 @@ const healthQuestions = {
                     "Stomach",
                     "Lungs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Physical",
@@ -3304,7 +3304,7 @@ const healthQuestions = {
                     "Saturated",
                     "Omega-3"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Physical",
@@ -3328,7 +3328,7 @@ const healthQuestions = {
                     "10-12 hours",
                     "3-4 hours"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Physical",
@@ -3340,7 +3340,7 @@ const healthQuestions = {
                     "Carbohydrates",
                     "Minerals"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Physical",
@@ -3352,7 +3352,7 @@ const healthQuestions = {
                     "Calcium",
                     "Sodium"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Physical",
@@ -3364,7 +3364,7 @@ const healthQuestions = {
                     "Stretching",
                     "Balance training"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Physical",
@@ -3376,7 +3376,7 @@ const healthQuestions = {
                     "0.5-1 liter",
                     "10 liters"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -3389,7 +3389,7 @@ const healthQuestions = {
                     "A",
                     "C"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Physical",
@@ -3401,7 +3401,7 @@ const healthQuestions = {
                     "Vitamin C",
                     "Vitamin D"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Physical",
@@ -3413,7 +3413,7 @@ const healthQuestions = {
                     "39°C",
                     "40°C"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Physical",
@@ -3449,7 +3449,7 @@ const healthQuestions = {
                     "Four",
                     "Five"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Physical",
@@ -3461,7 +3461,7 @@ const healthQuestions = {
                     "60-70%",
                     "80-90%"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Physical",
@@ -3473,7 +3473,7 @@ const healthQuestions = {
                     "VLDL",
                     "Triglycerides"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Physical",
@@ -3485,7 +3485,7 @@ const healthQuestions = {
                     "110-130 bpm",
                     "140-160 bpm"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Physical",
@@ -3497,7 +3497,7 @@ const healthQuestions = {
                     "Cortisol",
                     "Melatonin"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -3511,7 +3511,7 @@ const healthQuestions = {
                     "C",
                     "D"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Physical",
@@ -3535,7 +3535,7 @@ const healthQuestions = {
                     "Pituitary",
                     "Pineal"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Physical",
@@ -3559,7 +3559,7 @@ const healthQuestions = {
                     "AB",
                     "O"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Physical",
@@ -3571,7 +3571,7 @@ const healthQuestions = {
                     "Trachea",
                     "Esophagus"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Physical",
@@ -3583,7 +3583,7 @@ const healthQuestions = {
                     "Vitamin C",
                     "Vitamin D"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Physical",
@@ -3595,7 +3595,7 @@ const healthQuestions = {
                     "Immunity",
                     "Respiration"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Physical",
@@ -3607,7 +3607,7 @@ const healthQuestions = {
                     "Pancreas",
                     "Thyroid"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Physical",
@@ -3695,7 +3695,7 @@ const healthQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "First",
@@ -3705,7 +3705,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "First",
@@ -3725,7 +3725,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "First",
@@ -3735,7 +3735,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "First",
@@ -3755,7 +3755,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "First",
@@ -3785,7 +3785,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -3797,7 +3797,7 @@ const healthQuestions = {
                     "Option B",
                     "Option A"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "First",
@@ -3821,7 +3821,7 @@ const healthQuestions = {
                     "Stomach",
                     "Lungs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "First",
@@ -3833,7 +3833,7 @@ const healthQuestions = {
                     "Saturated",
                     "Omega-3"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "First",
@@ -3857,7 +3857,7 @@ const healthQuestions = {
                     "10-12 hours",
                     "3-4 hours"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "First",
@@ -3869,7 +3869,7 @@ const healthQuestions = {
                     "Carbohydrates",
                     "Minerals"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "First",
@@ -3881,7 +3881,7 @@ const healthQuestions = {
                     "Calcium",
                     "Sodium"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "First",
@@ -3893,7 +3893,7 @@ const healthQuestions = {
                     "Stretching",
                     "Balance training"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "First",
@@ -3905,7 +3905,7 @@ const healthQuestions = {
                     "0.5-1 liter",
                     "10 liters"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -3930,7 +3930,7 @@ const healthQuestions = {
                     "Vitamin C",
                     "Vitamin D"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "First",
@@ -3942,7 +3942,7 @@ const healthQuestions = {
                     "39°C",
                     "40°C"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "First",
@@ -3978,7 +3978,7 @@ const healthQuestions = {
                     "Four",
                     "Five"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "First",
@@ -3990,7 +3990,7 @@ const healthQuestions = {
                     "60-70%",
                     "80-90%"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "First",
@@ -4002,7 +4002,7 @@ const healthQuestions = {
                     "VLDL",
                     "Triglycerides"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "First",
@@ -4014,7 +4014,7 @@ const healthQuestions = {
                     "110-130 bpm",
                     "140-160 bpm"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "First",
@@ -4026,7 +4026,7 @@ const healthQuestions = {
                     "Cortisol",
                     "Melatonin"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -4064,7 +4064,7 @@ const healthQuestions = {
                     "Pituitary",
                     "Pineal"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "First",
@@ -4088,7 +4088,7 @@ const healthQuestions = {
                     "AB",
                     "O"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "First",
@@ -4100,7 +4100,7 @@ const healthQuestions = {
                     "Trachea",
                     "Esophagus"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "First",
@@ -4112,7 +4112,7 @@ const healthQuestions = {
                     "Vitamin C",
                     "Vitamin D"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "First",
@@ -4124,7 +4124,7 @@ const healthQuestions = {
                     "Immunity",
                     "Respiration"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "First",
@@ -4136,7 +4136,7 @@ const healthQuestions = {
                     "Pancreas",
                     "Thyroid"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "First",
@@ -4224,7 +4224,7 @@ const healthQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Body",
@@ -4234,7 +4234,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Body",
@@ -4254,7 +4254,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Body",
@@ -4264,7 +4264,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Body",
@@ -4284,7 +4284,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Body",
@@ -4314,7 +4314,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -4350,7 +4350,7 @@ const healthQuestions = {
                     "Stomach",
                     "Lungs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Body",
@@ -4362,7 +4362,7 @@ const healthQuestions = {
                     "Saturated",
                     "Omega-3"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Body",
@@ -4386,7 +4386,7 @@ const healthQuestions = {
                     "10-12 hours",
                     "3-4 hours"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Body",
@@ -4398,7 +4398,7 @@ const healthQuestions = {
                     "Carbohydrates",
                     "Minerals"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Body",
@@ -4410,7 +4410,7 @@ const healthQuestions = {
                     "Calcium",
                     "Sodium"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Body",
@@ -4422,7 +4422,7 @@ const healthQuestions = {
                     "Stretching",
                     "Balance training"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Body",
@@ -4434,7 +4434,7 @@ const healthQuestions = {
                     "0.5-1 liter",
                     "10 liters"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -4447,7 +4447,7 @@ const healthQuestions = {
                     "A",
                     "C"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Body",
@@ -4459,7 +4459,7 @@ const healthQuestions = {
                     "Vitamin C",
                     "Vitamin D"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Body",
@@ -4471,7 +4471,7 @@ const healthQuestions = {
                     "39°C",
                     "40°C"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Body",
@@ -4507,7 +4507,7 @@ const healthQuestions = {
                     "Four",
                     "Five"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Body",
@@ -4519,7 +4519,7 @@ const healthQuestions = {
                     "60-70%",
                     "80-90%"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Body",
@@ -4531,7 +4531,7 @@ const healthQuestions = {
                     "VLDL",
                     "Triglycerides"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Body",
@@ -4543,7 +4543,7 @@ const healthQuestions = {
                     "110-130 bpm",
                     "140-160 bpm"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Body",
@@ -4555,7 +4555,7 @@ const healthQuestions = {
                     "Cortisol",
                     "Melatonin"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -4569,7 +4569,7 @@ const healthQuestions = {
                     "B",
                     "A"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Body",
@@ -4593,7 +4593,7 @@ const healthQuestions = {
                     "Pituitary",
                     "Pineal"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Body",
@@ -4617,7 +4617,7 @@ const healthQuestions = {
                     "AB",
                     "O"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Body",
@@ -4629,7 +4629,7 @@ const healthQuestions = {
                     "Trachea",
                     "Esophagus"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Body",
@@ -4641,7 +4641,7 @@ const healthQuestions = {
                     "Vitamin C",
                     "Vitamin D"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Body",
@@ -4653,7 +4653,7 @@ const healthQuestions = {
                     "Immunity",
                     "Respiration"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Body",
@@ -4665,7 +4665,7 @@ const healthQuestions = {
                     "Pancreas",
                     "Thyroid"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Body",
@@ -4763,7 +4763,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Healthy",
@@ -4783,7 +4783,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Healthy",
@@ -4793,7 +4793,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Healthy",
@@ -4813,7 +4813,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Healthy",
@@ -4843,7 +4843,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -4879,7 +4879,7 @@ const healthQuestions = {
                     "Stomach",
                     "Lungs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Healthy",
@@ -4891,7 +4891,7 @@ const healthQuestions = {
                     "Saturated",
                     "Omega-3"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Healthy",
@@ -4915,7 +4915,7 @@ const healthQuestions = {
                     "10-12 hours",
                     "3-4 hours"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Healthy",
@@ -4927,7 +4927,7 @@ const healthQuestions = {
                     "Carbohydrates",
                     "Minerals"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Healthy",
@@ -4939,7 +4939,7 @@ const healthQuestions = {
                     "Calcium",
                     "Sodium"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Healthy",
@@ -4951,7 +4951,7 @@ const healthQuestions = {
                     "Stretching",
                     "Balance training"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Healthy",
@@ -4963,7 +4963,7 @@ const healthQuestions = {
                     "0.5-1 liter",
                     "10 liters"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -4976,7 +4976,7 @@ const healthQuestions = {
                     "C",
                     "A"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Healthy",
@@ -4988,7 +4988,7 @@ const healthQuestions = {
                     "Vitamin C",
                     "Vitamin D"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Healthy",
@@ -5000,7 +5000,7 @@ const healthQuestions = {
                     "39°C",
                     "40°C"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Healthy",
@@ -5036,7 +5036,7 @@ const healthQuestions = {
                     "Four",
                     "Five"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Healthy",
@@ -5048,7 +5048,7 @@ const healthQuestions = {
                     "60-70%",
                     "80-90%"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Healthy",
@@ -5060,7 +5060,7 @@ const healthQuestions = {
                     "VLDL",
                     "Triglycerides"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Healthy",
@@ -5072,7 +5072,7 @@ const healthQuestions = {
                     "110-130 bpm",
                     "140-160 bpm"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Healthy",
@@ -5084,7 +5084,7 @@ const healthQuestions = {
                     "Cortisol",
                     "Melatonin"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -5122,7 +5122,7 @@ const healthQuestions = {
                     "Pituitary",
                     "Pineal"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Healthy",
@@ -5146,7 +5146,7 @@ const healthQuestions = {
                     "AB",
                     "O"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Healthy",
@@ -5158,7 +5158,7 @@ const healthQuestions = {
                     "Trachea",
                     "Esophagus"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Healthy",
@@ -5170,7 +5170,7 @@ const healthQuestions = {
                     "Vitamin C",
                     "Vitamin D"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Healthy",
@@ -5182,7 +5182,7 @@ const healthQuestions = {
                     "Immunity",
                     "Respiration"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Healthy",
@@ -5194,7 +5194,7 @@ const healthQuestions = {
                     "Pancreas",
                     "Thyroid"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Healthy",
@@ -5282,7 +5282,7 @@ const healthQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Stress",
@@ -5292,7 +5292,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Stress",
@@ -5312,7 +5312,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Stress",
@@ -5322,7 +5322,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Stress",
@@ -5342,7 +5342,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Stress",
@@ -5372,7 +5372,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -5408,7 +5408,7 @@ const healthQuestions = {
                     "Stomach",
                     "Lungs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Stress",
@@ -5420,7 +5420,7 @@ const healthQuestions = {
                     "Saturated",
                     "Omega-3"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Stress",
@@ -5444,7 +5444,7 @@ const healthQuestions = {
                     "10-12 hours",
                     "3-4 hours"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Stress",
@@ -5456,7 +5456,7 @@ const healthQuestions = {
                     "Carbohydrates",
                     "Minerals"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Stress",
@@ -5468,7 +5468,7 @@ const healthQuestions = {
                     "Calcium",
                     "Sodium"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Stress",
@@ -5480,7 +5480,7 @@ const healthQuestions = {
                     "Stretching",
                     "Balance training"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Stress",
@@ -5492,7 +5492,7 @@ const healthQuestions = {
                     "0.5-1 liter",
                     "10 liters"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -5505,7 +5505,7 @@ const healthQuestions = {
                     "C",
                     "A"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Stress",
@@ -5517,7 +5517,7 @@ const healthQuestions = {
                     "Vitamin C",
                     "Vitamin D"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Stress",
@@ -5529,7 +5529,7 @@ const healthQuestions = {
                     "39°C",
                     "40°C"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Stress",
@@ -5565,7 +5565,7 @@ const healthQuestions = {
                     "Four",
                     "Five"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Stress",
@@ -5577,7 +5577,7 @@ const healthQuestions = {
                     "60-70%",
                     "80-90%"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Stress",
@@ -5589,7 +5589,7 @@ const healthQuestions = {
                     "VLDL",
                     "Triglycerides"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Stress",
@@ -5601,7 +5601,7 @@ const healthQuestions = {
                     "110-130 bpm",
                     "140-160 bpm"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Stress",
@@ -5613,7 +5613,7 @@ const healthQuestions = {
                     "Cortisol",
                     "Melatonin"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -5651,7 +5651,7 @@ const healthQuestions = {
                     "Pituitary",
                     "Pineal"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Stress",
@@ -5675,7 +5675,7 @@ const healthQuestions = {
                     "AB",
                     "O"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Stress",
@@ -5687,7 +5687,7 @@ const healthQuestions = {
                     "Trachea",
                     "Esophagus"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Stress",
@@ -5699,7 +5699,7 @@ const healthQuestions = {
                     "Vitamin C",
                     "Vitamin D"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Stress",
@@ -5711,7 +5711,7 @@ const healthQuestions = {
                     "Immunity",
                     "Respiration"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Stress",
@@ -5723,7 +5723,7 @@ const healthQuestions = {
                     "Pancreas",
                     "Thyroid"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Stress",
@@ -5821,7 +5821,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Preventive",
@@ -5841,7 +5841,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Preventive",
@@ -5851,7 +5851,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Preventive",
@@ -5871,7 +5871,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Preventive",
@@ -5901,7 +5901,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -5937,7 +5937,7 @@ const healthQuestions = {
                     "Stomach",
                     "Lungs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Preventive",
@@ -5949,7 +5949,7 @@ const healthQuestions = {
                     "Saturated",
                     "Omega-3"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Preventive",
@@ -5973,7 +5973,7 @@ const healthQuestions = {
                     "10-12 hours",
                     "3-4 hours"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Preventive",
@@ -5985,7 +5985,7 @@ const healthQuestions = {
                     "Carbohydrates",
                     "Minerals"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Preventive",
@@ -5997,7 +5997,7 @@ const healthQuestions = {
                     "Calcium",
                     "Sodium"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Preventive",
@@ -6009,7 +6009,7 @@ const healthQuestions = {
                     "Stretching",
                     "Balance training"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Preventive",
@@ -6021,7 +6021,7 @@ const healthQuestions = {
                     "0.5-1 liter",
                     "10 liters"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -6046,7 +6046,7 @@ const healthQuestions = {
                     "Vitamin C",
                     "Vitamin D"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Preventive",
@@ -6058,7 +6058,7 @@ const healthQuestions = {
                     "39°C",
                     "40°C"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Preventive",
@@ -6094,7 +6094,7 @@ const healthQuestions = {
                     "Four",
                     "Five"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Preventive",
@@ -6106,7 +6106,7 @@ const healthQuestions = {
                     "60-70%",
                     "80-90%"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Preventive",
@@ -6118,7 +6118,7 @@ const healthQuestions = {
                     "VLDL",
                     "Triglycerides"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Preventive",
@@ -6130,7 +6130,7 @@ const healthQuestions = {
                     "110-130 bpm",
                     "140-160 bpm"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Preventive",
@@ -6142,7 +6142,7 @@ const healthQuestions = {
                     "Cortisol",
                     "Melatonin"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -6180,7 +6180,7 @@ const healthQuestions = {
                     "Pituitary",
                     "Pineal"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Preventive",
@@ -6204,7 +6204,7 @@ const healthQuestions = {
                     "AB",
                     "O"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Preventive",
@@ -6216,7 +6216,7 @@ const healthQuestions = {
                     "Trachea",
                     "Esophagus"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Preventive",
@@ -6228,7 +6228,7 @@ const healthQuestions = {
                     "Vitamin C",
                     "Vitamin D"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Preventive",
@@ -6240,7 +6240,7 @@ const healthQuestions = {
                     "Immunity",
                     "Respiration"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Preventive",
@@ -6252,7 +6252,7 @@ const healthQuestions = {
                     "Pancreas",
                     "Thyroid"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Preventive",
@@ -6350,7 +6350,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Substance",
@@ -6370,7 +6370,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Substance",
@@ -6380,7 +6380,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Substance",
@@ -6400,7 +6400,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Substance",
@@ -6430,7 +6430,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -6444,7 +6444,7 @@ const healthQuestions = {
                     "Vitamin C",
                     "Vitamin B12"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "General",
@@ -6468,7 +6468,7 @@ const healthQuestions = {
                     "Stomach",
                     "Lungs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "General",
@@ -6480,7 +6480,7 @@ const healthQuestions = {
                     "Saturated",
                     "Omega-3"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "General",
@@ -6504,7 +6504,7 @@ const healthQuestions = {
                     "10-12 hours",
                     "3-4 hours"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "General",
@@ -6516,7 +6516,7 @@ const healthQuestions = {
                     "Carbohydrates",
                     "Minerals"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "General",
@@ -6528,7 +6528,7 @@ const healthQuestions = {
                     "Calcium",
                     "Sodium"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "General",
@@ -6540,7 +6540,7 @@ const healthQuestions = {
                     "Stretching",
                     "Balance training"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "General",
@@ -6552,7 +6552,7 @@ const healthQuestions = {
                     "0.5-1 liter",
                     "10 liters"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -6577,7 +6577,7 @@ const healthQuestions = {
                     "Vitamin C",
                     "Vitamin D"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Substance",
@@ -6589,7 +6589,7 @@ const healthQuestions = {
                     "39°C",
                     "40°C"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Substance",
@@ -6625,7 +6625,7 @@ const healthQuestions = {
                     "Four",
                     "Five"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Substance",
@@ -6637,7 +6637,7 @@ const healthQuestions = {
                     "60-70%",
                     "80-90%"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Substance",
@@ -6649,7 +6649,7 @@ const healthQuestions = {
                     "VLDL",
                     "Triglycerides"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Substance",
@@ -6661,7 +6661,7 @@ const healthQuestions = {
                     "110-130 bpm",
                     "140-160 bpm"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Substance",
@@ -6673,7 +6673,7 @@ const healthQuestions = {
                     "Cortisol",
                     "Melatonin"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -6699,7 +6699,7 @@ const healthQuestions = {
                     "D",
                     "C"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Substance",
@@ -6711,7 +6711,7 @@ const healthQuestions = {
                     "Pituitary",
                     "Pineal"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Substance",
@@ -6735,7 +6735,7 @@ const healthQuestions = {
                     "AB",
                     "O"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Substance",
@@ -6747,7 +6747,7 @@ const healthQuestions = {
                     "Trachea",
                     "Esophagus"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Substance",
@@ -6759,7 +6759,7 @@ const healthQuestions = {
                     "Vitamin C",
                     "Vitamin D"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Substance",
@@ -6771,7 +6771,7 @@ const healthQuestions = {
                     "Immunity",
                     "Respiration"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Substance",
@@ -6783,7 +6783,7 @@ const healthQuestions = {
                     "Pancreas",
                     "Thyroid"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Substance",
@@ -6881,7 +6881,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Environmental",
@@ -6901,7 +6901,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Environmental",
@@ -6911,7 +6911,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Environmental",
@@ -6931,7 +6931,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Environmental",
@@ -6961,7 +6961,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -6973,7 +6973,7 @@ const healthQuestions = {
                     "Option B",
                     "Option A"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Environmental",
@@ -6997,7 +6997,7 @@ const healthQuestions = {
                     "Stomach",
                     "Lungs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Environmental",
@@ -7009,7 +7009,7 @@ const healthQuestions = {
                     "Saturated",
                     "Omega-3"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Environmental",
@@ -7033,7 +7033,7 @@ const healthQuestions = {
                     "10-12 hours",
                     "3-4 hours"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Environmental",
@@ -7045,7 +7045,7 @@ const healthQuestions = {
                     "Carbohydrates",
                     "Minerals"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Environmental",
@@ -7057,7 +7057,7 @@ const healthQuestions = {
                     "Calcium",
                     "Sodium"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Environmental",
@@ -7069,7 +7069,7 @@ const healthQuestions = {
                     "Stretching",
                     "Balance training"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Environmental",
@@ -7081,7 +7081,7 @@ const healthQuestions = {
                     "0.5-1 liter",
                     "10 liters"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -7106,7 +7106,7 @@ const healthQuestions = {
                     "Vitamin C",
                     "Vitamin D"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Environmental",
@@ -7118,7 +7118,7 @@ const healthQuestions = {
                     "39°C",
                     "40°C"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Environmental",
@@ -7154,7 +7154,7 @@ const healthQuestions = {
                     "Four",
                     "Five"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Environmental",
@@ -7166,7 +7166,7 @@ const healthQuestions = {
                     "60-70%",
                     "80-90%"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Environmental",
@@ -7178,7 +7178,7 @@ const healthQuestions = {
                     "VLDL",
                     "Triglycerides"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Environmental",
@@ -7190,7 +7190,7 @@ const healthQuestions = {
                     "110-130 bpm",
                     "140-160 bpm"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Environmental",
@@ -7202,7 +7202,7 @@ const healthQuestions = {
                     "Cortisol",
                     "Melatonin"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -7216,7 +7216,7 @@ const healthQuestions = {
                     "D",
                     "A"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Environmental",
@@ -7240,7 +7240,7 @@ const healthQuestions = {
                     "Pituitary",
                     "Pineal"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Environmental",
@@ -7264,7 +7264,7 @@ const healthQuestions = {
                     "AB",
                     "O"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Environmental",
@@ -7276,7 +7276,7 @@ const healthQuestions = {
                     "Trachea",
                     "Esophagus"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Environmental",
@@ -7288,7 +7288,7 @@ const healthQuestions = {
                     "Vitamin C",
                     "Vitamin D"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Environmental",
@@ -7300,7 +7300,7 @@ const healthQuestions = {
                     "Immunity",
                     "Respiration"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Environmental",
@@ -7312,7 +7312,7 @@ const healthQuestions = {
                     "Pancreas",
                     "Thyroid"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Environmental",
@@ -7400,7 +7400,7 @@ const healthQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sexual",
@@ -7410,7 +7410,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sexual",
@@ -7430,7 +7430,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sexual",
@@ -7440,7 +7440,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sexual",
@@ -7460,7 +7460,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sexual",
@@ -7490,7 +7490,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -7504,7 +7504,7 @@ const healthQuestions = {
                     "Vitamin C",
                     "Vitamin B12"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "General",
@@ -7528,7 +7528,7 @@ const healthQuestions = {
                     "Stomach",
                     "Lungs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "General",
@@ -7540,7 +7540,7 @@ const healthQuestions = {
                     "Saturated",
                     "Omega-3"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "General",
@@ -7564,7 +7564,7 @@ const healthQuestions = {
                     "10-12 hours",
                     "3-4 hours"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "General",
@@ -7576,7 +7576,7 @@ const healthQuestions = {
                     "Carbohydrates",
                     "Minerals"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "General",
@@ -7588,7 +7588,7 @@ const healthQuestions = {
                     "Calcium",
                     "Sodium"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "General",
@@ -7600,7 +7600,7 @@ const healthQuestions = {
                     "Stretching",
                     "Balance training"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "General",
@@ -7612,7 +7612,7 @@ const healthQuestions = {
                     "0.5-1 liter",
                     "10 liters"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -7637,7 +7637,7 @@ const healthQuestions = {
                     "Vitamin C",
                     "Vitamin D"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sexual",
@@ -7649,7 +7649,7 @@ const healthQuestions = {
                     "39°C",
                     "40°C"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sexual",
@@ -7685,7 +7685,7 @@ const healthQuestions = {
                     "Four",
                     "Five"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Sexual",
@@ -7697,7 +7697,7 @@ const healthQuestions = {
                     "60-70%",
                     "80-90%"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Sexual",
@@ -7709,7 +7709,7 @@ const healthQuestions = {
                     "VLDL",
                     "Triglycerides"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sexual",
@@ -7721,7 +7721,7 @@ const healthQuestions = {
                     "110-130 bpm",
                     "140-160 bpm"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sexual",
@@ -7733,7 +7733,7 @@ const healthQuestions = {
                     "Cortisol",
                     "Melatonin"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -7747,7 +7747,7 @@ const healthQuestions = {
                     "D",
                     "B"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sexual",
@@ -7759,7 +7759,7 @@ const healthQuestions = {
                     "A",
                     "D"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Sexual",
@@ -7771,7 +7771,7 @@ const healthQuestions = {
                     "Pituitary",
                     "Pineal"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Sexual",
@@ -7795,7 +7795,7 @@ const healthQuestions = {
                     "AB",
                     "O"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Sexual",
@@ -7807,7 +7807,7 @@ const healthQuestions = {
                     "Trachea",
                     "Esophagus"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sexual",
@@ -7819,7 +7819,7 @@ const healthQuestions = {
                     "Vitamin C",
                     "Vitamin D"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Sexual",
@@ -7831,7 +7831,7 @@ const healthQuestions = {
                     "Immunity",
                     "Respiration"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Sexual",
@@ -7843,7 +7843,7 @@ const healthQuestions = {
                     "Pancreas",
                     "Thyroid"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Sexual",
@@ -7941,7 +7941,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Chronic",
@@ -7961,7 +7961,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Chronic",
@@ -7971,7 +7971,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Chronic",
@@ -7991,7 +7991,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Chronic",
@@ -8021,7 +8021,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -8033,7 +8033,7 @@ const healthQuestions = {
                     "Option B",
                     "Option A"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Chronic",
@@ -8057,7 +8057,7 @@ const healthQuestions = {
                     "Stomach",
                     "Lungs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Chronic",
@@ -8069,7 +8069,7 @@ const healthQuestions = {
                     "Saturated",
                     "Omega-3"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Chronic",
@@ -8093,7 +8093,7 @@ const healthQuestions = {
                     "10-12 hours",
                     "3-4 hours"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Chronic",
@@ -8105,7 +8105,7 @@ const healthQuestions = {
                     "Carbohydrates",
                     "Minerals"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Chronic",
@@ -8117,7 +8117,7 @@ const healthQuestions = {
                     "Calcium",
                     "Sodium"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Chronic",
@@ -8129,7 +8129,7 @@ const healthQuestions = {
                     "Stretching",
                     "Balance training"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Chronic",
@@ -8141,7 +8141,7 @@ const healthQuestions = {
                     "0.5-1 liter",
                     "10 liters"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -8154,7 +8154,7 @@ const healthQuestions = {
                     "C",
                     "A"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Chronic",
@@ -8166,7 +8166,7 @@ const healthQuestions = {
                     "Vitamin C",
                     "Vitamin D"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Chronic",
@@ -8178,7 +8178,7 @@ const healthQuestions = {
                     "39°C",
                     "40°C"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Chronic",
@@ -8214,7 +8214,7 @@ const healthQuestions = {
                     "Four",
                     "Five"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Chronic",
@@ -8226,7 +8226,7 @@ const healthQuestions = {
                     "60-70%",
                     "80-90%"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Chronic",
@@ -8238,7 +8238,7 @@ const healthQuestions = {
                     "VLDL",
                     "Triglycerides"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Chronic",
@@ -8250,7 +8250,7 @@ const healthQuestions = {
                     "110-130 bpm",
                     "140-160 bpm"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Chronic",
@@ -8262,7 +8262,7 @@ const healthQuestions = {
                     "Cortisol",
                     "Melatonin"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -8276,7 +8276,7 @@ const healthQuestions = {
                     "D",
                     "A"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Chronic",
@@ -8300,7 +8300,7 @@ const healthQuestions = {
                     "Pituitary",
                     "Pineal"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Chronic",
@@ -8324,7 +8324,7 @@ const healthQuestions = {
                     "AB",
                     "O"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Chronic",
@@ -8336,7 +8336,7 @@ const healthQuestions = {
                     "Trachea",
                     "Esophagus"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Chronic",
@@ -8348,7 +8348,7 @@ const healthQuestions = {
                     "Vitamin C",
                     "Vitamin D"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Chronic",
@@ -8360,7 +8360,7 @@ const healthQuestions = {
                     "Immunity",
                     "Respiration"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Chronic",
@@ -8372,7 +8372,7 @@ const healthQuestions = {
                     "Pancreas",
                     "Thyroid"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Chronic",
@@ -8460,7 +8460,7 @@ const healthQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Infectious",
@@ -8470,7 +8470,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Infectious",
@@ -8490,7 +8490,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Infectious",
@@ -8500,7 +8500,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Infectious",
@@ -8520,7 +8520,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Infectious",
@@ -8550,7 +8550,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -8586,7 +8586,7 @@ const healthQuestions = {
                     "Stomach",
                     "Lungs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Infectious",
@@ -8598,7 +8598,7 @@ const healthQuestions = {
                     "Saturated",
                     "Omega-3"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Infectious",
@@ -8622,7 +8622,7 @@ const healthQuestions = {
                     "10-12 hours",
                     "3-4 hours"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Infectious",
@@ -8634,7 +8634,7 @@ const healthQuestions = {
                     "Carbohydrates",
                     "Minerals"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Infectious",
@@ -8646,7 +8646,7 @@ const healthQuestions = {
                     "Calcium",
                     "Sodium"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Infectious",
@@ -8658,7 +8658,7 @@ const healthQuestions = {
                     "Stretching",
                     "Balance training"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Infectious",
@@ -8670,7 +8670,7 @@ const healthQuestions = {
                     "0.5-1 liter",
                     "10 liters"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -8683,7 +8683,7 @@ const healthQuestions = {
                     "B",
                     "A"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Infectious",
@@ -8695,7 +8695,7 @@ const healthQuestions = {
                     "Vitamin C",
                     "Vitamin D"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Infectious",
@@ -8707,7 +8707,7 @@ const healthQuestions = {
                     "39°C",
                     "40°C"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Infectious",
@@ -8743,7 +8743,7 @@ const healthQuestions = {
                     "Four",
                     "Five"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Infectious",
@@ -8755,7 +8755,7 @@ const healthQuestions = {
                     "60-70%",
                     "80-90%"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Infectious",
@@ -8767,7 +8767,7 @@ const healthQuestions = {
                     "VLDL",
                     "Triglycerides"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Infectious",
@@ -8779,7 +8779,7 @@ const healthQuestions = {
                     "110-130 bpm",
                     "140-160 bpm"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Infectious",
@@ -8791,7 +8791,7 @@ const healthQuestions = {
                     "Cortisol",
                     "Melatonin"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -8829,7 +8829,7 @@ const healthQuestions = {
                     "Pituitary",
                     "Pineal"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Infectious",
@@ -8853,7 +8853,7 @@ const healthQuestions = {
                     "AB",
                     "O"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Infectious",
@@ -8865,7 +8865,7 @@ const healthQuestions = {
                     "Trachea",
                     "Esophagus"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Infectious",
@@ -8877,7 +8877,7 @@ const healthQuestions = {
                     "Vitamin C",
                     "Vitamin D"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Infectious",
@@ -8889,7 +8889,7 @@ const healthQuestions = {
                     "Immunity",
                     "Respiration"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Infectious",
@@ -8901,7 +8901,7 @@ const healthQuestions = {
                     "Pancreas",
                     "Thyroid"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Infectious",
@@ -8989,7 +8989,7 @@ const healthQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Healthcare",
@@ -8999,7 +8999,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Healthcare",
@@ -9019,7 +9019,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Healthcare",
@@ -9029,7 +9029,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Healthcare",
@@ -9049,7 +9049,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Healthcare",
@@ -9079,7 +9079,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -9091,7 +9091,7 @@ const healthQuestions = {
                     "Option B",
                     "Option A"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Healthcare",
@@ -9115,7 +9115,7 @@ const healthQuestions = {
                     "Stomach",
                     "Lungs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Healthcare",
@@ -9127,7 +9127,7 @@ const healthQuestions = {
                     "Saturated",
                     "Omega-3"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Healthcare",
@@ -9151,7 +9151,7 @@ const healthQuestions = {
                     "10-12 hours",
                     "3-4 hours"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Healthcare",
@@ -9163,7 +9163,7 @@ const healthQuestions = {
                     "Carbohydrates",
                     "Minerals"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Healthcare",
@@ -9175,7 +9175,7 @@ const healthQuestions = {
                     "Calcium",
                     "Sodium"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Healthcare",
@@ -9187,7 +9187,7 @@ const healthQuestions = {
                     "Stretching",
                     "Balance training"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Healthcare",
@@ -9199,7 +9199,7 @@ const healthQuestions = {
                     "0.5-1 liter",
                     "10 liters"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -9212,7 +9212,7 @@ const healthQuestions = {
                     "A",
                     "C"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Healthcare",
@@ -9224,7 +9224,7 @@ const healthQuestions = {
                     "Vitamin C",
                     "Vitamin D"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Healthcare",
@@ -9236,7 +9236,7 @@ const healthQuestions = {
                     "39°C",
                     "40°C"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Healthcare",
@@ -9272,7 +9272,7 @@ const healthQuestions = {
                     "Four",
                     "Five"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Healthcare",
@@ -9284,7 +9284,7 @@ const healthQuestions = {
                     "60-70%",
                     "80-90%"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Healthcare",
@@ -9296,7 +9296,7 @@ const healthQuestions = {
                     "VLDL",
                     "Triglycerides"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Healthcare",
@@ -9308,7 +9308,7 @@ const healthQuestions = {
                     "110-130 bpm",
                     "140-160 bpm"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Healthcare",
@@ -9320,7 +9320,7 @@ const healthQuestions = {
                     "Cortisol",
                     "Melatonin"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -9358,7 +9358,7 @@ const healthQuestions = {
                     "Pituitary",
                     "Pineal"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Healthcare",
@@ -9382,7 +9382,7 @@ const healthQuestions = {
                     "AB",
                     "O"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Healthcare",
@@ -9394,7 +9394,7 @@ const healthQuestions = {
                     "Trachea",
                     "Esophagus"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Healthcare",
@@ -9406,7 +9406,7 @@ const healthQuestions = {
                     "Vitamin C",
                     "Vitamin D"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Healthcare",
@@ -9418,7 +9418,7 @@ const healthQuestions = {
                     "Immunity",
                     "Respiration"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Healthcare",
@@ -9430,7 +9430,7 @@ const healthQuestions = {
                     "Pancreas",
                     "Thyroid"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Healthcare",
@@ -9518,7 +9518,7 @@ const healthQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Alternative",
@@ -9528,7 +9528,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Alternative",
@@ -9548,7 +9548,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Alternative",
@@ -9558,7 +9558,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Alternative",
@@ -9578,7 +9578,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Alternative",
@@ -9608,7 +9608,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -9622,7 +9622,7 @@ const healthQuestions = {
                     "Vitamin C",
                     "Vitamin B12"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "General",
@@ -9646,7 +9646,7 @@ const healthQuestions = {
                     "Stomach",
                     "Lungs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "General",
@@ -9658,7 +9658,7 @@ const healthQuestions = {
                     "Saturated",
                     "Omega-3"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "General",
@@ -9682,7 +9682,7 @@ const healthQuestions = {
                     "10-12 hours",
                     "3-4 hours"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "General",
@@ -9694,7 +9694,7 @@ const healthQuestions = {
                     "Carbohydrates",
                     "Minerals"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "General",
@@ -9706,7 +9706,7 @@ const healthQuestions = {
                     "Calcium",
                     "Sodium"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "General",
@@ -9718,7 +9718,7 @@ const healthQuestions = {
                     "Stretching",
                     "Balance training"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "General",
@@ -9730,7 +9730,7 @@ const healthQuestions = {
                     "0.5-1 liter",
                     "10 liters"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -9743,7 +9743,7 @@ const healthQuestions = {
                     "C",
                     "A"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Alternative",
@@ -9755,7 +9755,7 @@ const healthQuestions = {
                     "Vitamin C",
                     "Vitamin D"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Alternative",
@@ -9767,7 +9767,7 @@ const healthQuestions = {
                     "39°C",
                     "40°C"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Alternative",
@@ -9803,7 +9803,7 @@ const healthQuestions = {
                     "Four",
                     "Five"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Alternative",
@@ -9815,7 +9815,7 @@ const healthQuestions = {
                     "60-70%",
                     "80-90%"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Alternative",
@@ -9827,7 +9827,7 @@ const healthQuestions = {
                     "VLDL",
                     "Triglycerides"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Alternative",
@@ -9839,7 +9839,7 @@ const healthQuestions = {
                     "110-130 bpm",
                     "140-160 bpm"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Alternative",
@@ -9851,7 +9851,7 @@ const healthQuestions = {
                     "Cortisol",
                     "Melatonin"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -9889,7 +9889,7 @@ const healthQuestions = {
                     "Pituitary",
                     "Pineal"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Alternative",
@@ -9913,7 +9913,7 @@ const healthQuestions = {
                     "AB",
                     "O"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Alternative",
@@ -9925,7 +9925,7 @@ const healthQuestions = {
                     "Trachea",
                     "Esophagus"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Alternative",
@@ -9937,7 +9937,7 @@ const healthQuestions = {
                     "Vitamin C",
                     "Vitamin D"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Alternative",
@@ -9949,7 +9949,7 @@ const healthQuestions = {
                     "Immunity",
                     "Respiration"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Alternative",
@@ -9961,7 +9961,7 @@ const healthQuestions = {
                     "Pancreas",
                     "Thyroid"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Alternative",
@@ -10049,7 +10049,7 @@ const healthQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Aging",
@@ -10059,7 +10059,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Aging",
@@ -10079,7 +10079,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Aging",
@@ -10089,7 +10089,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Aging",
@@ -10109,7 +10109,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Aging",
@@ -10139,7 +10139,7 @@ const healthQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -10151,7 +10151,7 @@ const healthQuestions = {
                     "Option B",
                     "Option A"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Aging",
@@ -10175,7 +10175,7 @@ const healthQuestions = {
                     "Stomach",
                     "Lungs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Aging",
@@ -10187,7 +10187,7 @@ const healthQuestions = {
                     "Saturated",
                     "Omega-3"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Aging",
@@ -10211,7 +10211,7 @@ const healthQuestions = {
                     "10-12 hours",
                     "3-4 hours"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Aging",
@@ -10223,7 +10223,7 @@ const healthQuestions = {
                     "Carbohydrates",
                     "Minerals"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Aging",
@@ -10235,7 +10235,7 @@ const healthQuestions = {
                     "Calcium",
                     "Sodium"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Aging",
@@ -10247,7 +10247,7 @@ const healthQuestions = {
                     "Stretching",
                     "Balance training"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Aging",
@@ -10259,7 +10259,7 @@ const healthQuestions = {
                     "0.5-1 liter",
                     "10 liters"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -10284,7 +10284,7 @@ const healthQuestions = {
                     "Vitamin C",
                     "Vitamin D"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Aging",
@@ -10296,7 +10296,7 @@ const healthQuestions = {
                     "39°C",
                     "40°C"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Aging",
@@ -10332,7 +10332,7 @@ const healthQuestions = {
                     "Four",
                     "Five"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Aging",
@@ -10344,7 +10344,7 @@ const healthQuestions = {
                     "60-70%",
                     "80-90%"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Aging",
@@ -10356,7 +10356,7 @@ const healthQuestions = {
                     "VLDL",
                     "Triglycerides"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Aging",
@@ -10368,7 +10368,7 @@ const healthQuestions = {
                     "110-130 bpm",
                     "140-160 bpm"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Aging",
@@ -10380,7 +10380,7 @@ const healthQuestions = {
                     "Cortisol",
                     "Melatonin"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -10394,7 +10394,7 @@ const healthQuestions = {
                     "D",
                     "A"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Aging",
@@ -10418,7 +10418,7 @@ const healthQuestions = {
                     "Pituitary",
                     "Pineal"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Aging",
@@ -10442,7 +10442,7 @@ const healthQuestions = {
                     "AB",
                     "O"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Aging",
@@ -10454,7 +10454,7 @@ const healthQuestions = {
                     "Trachea",
                     "Esophagus"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Aging",
@@ -10466,7 +10466,7 @@ const healthQuestions = {
                     "Vitamin C",
                     "Vitamin D"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Aging",
@@ -10478,7 +10478,7 @@ const healthQuestions = {
                     "Immunity",
                     "Respiration"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Aging",
@@ -10490,7 +10490,7 @@ const healthQuestions = {
                     "Pancreas",
                     "Thyroid"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Aging",

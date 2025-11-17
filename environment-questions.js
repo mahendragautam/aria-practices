@@ -19,7 +19,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Wildlife",
@@ -39,7 +39,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Recycling",
@@ -49,7 +49,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ecology",
@@ -69,7 +69,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Pollution",
@@ -89,7 +89,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ecology",
@@ -109,7 +109,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -121,7 +121,7 @@ const environmentQuestions = {
                     "Cooling Earth",
                     "Trapping heat"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Wildlife",
@@ -141,7 +141,7 @@ const environmentQuestions = {
                     "Trees",
                     "Factories and cars"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Recycling",
@@ -151,7 +151,7 @@ const environmentQuestions = {
                     "Paper, glass, plastic",
                     "Only paper"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ecology",
@@ -171,7 +171,7 @@ const environmentQuestions = {
                     "Making honey only",
                     "Pollination"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Pollution",
@@ -191,7 +191,7 @@ const environmentQuestions = {
                     "3 types of trash",
                     "3 Rs of environment"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ecology",
@@ -211,7 +211,7 @@ const environmentQuestions = {
                     "Variety of life",
                     "One species"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -224,7 +224,7 @@ const environmentQuestions = {
                     "Carbon dioxide",
                     "Oxygen"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Wildlife",
@@ -235,7 +235,7 @@ const environmentQuestions = {
                     "One",
                     "Hundreds"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Pollution",
@@ -257,7 +257,7 @@ const environmentQuestions = {
                     "1 year",
                     "Hundreds of years"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Ecology",
@@ -268,7 +268,7 @@ const environmentQuestions = {
                     "90-100%",
                     "50-80%"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Wildlife",
@@ -279,7 +279,7 @@ const environmentQuestions = {
                     "Critical to ecosystem",
                     "Most common"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Pollution",
@@ -290,7 +290,7 @@ const environmentQuestions = {
                     "Island",
                     "Reef"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Recycling",
@@ -301,7 +301,7 @@ const environmentQuestions = {
                     "Organic waste decomposition",
                     "Plastic recycling"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ecology",
@@ -312,7 +312,7 @@ const environmentQuestions = {
                     "Climate treaty",
                     "Trade deal"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Wildlife",
@@ -323,7 +323,7 @@ const environmentQuestions = {
                     "Population growth",
                     "Animal migration"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -361,7 +361,7 @@ const environmentQuestions = {
                     "Metal",
                     "Plastic type"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Recycling",
@@ -373,7 +373,7 @@ const environmentQuestions = {
                     "9%",
                     "1%"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Ecology",
@@ -397,7 +397,7 @@ const environmentQuestions = {
                     "Reproduction cycle",
                     "Migration pattern"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Pollution",
@@ -409,7 +409,7 @@ const environmentQuestions = {
                     "8-12 million",
                     "1 million"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Recycling",
@@ -421,7 +421,7 @@ const environmentQuestions = {
                     "Export waste",
                     "Reuse resources"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Ecology",
@@ -433,7 +433,7 @@ const environmentQuestions = {
                     "CO2 emissions",
                     "Tree count"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Wildlife",
@@ -551,7 +551,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Climate",
@@ -601,7 +601,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Climate",
@@ -611,7 +611,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -623,7 +623,7 @@ const environmentQuestions = {
                     "Daily weather",
                     "Long-term weather shifts"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Climate",
@@ -633,7 +633,7 @@ const environmentQuestions = {
                     "Greenhouse gases",
                     "Natural cycles only"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Climate",
@@ -653,7 +653,7 @@ const environmentQuestions = {
                     "8-9 inches since 1880",
                     "1 inch"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Climate",
@@ -663,7 +663,7 @@ const environmentQuestions = {
                     "Severe storms, floods",
                     "Normal rain"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Climate",
@@ -673,7 +673,7 @@ const environmentQuestions = {
                     "Only for tourism",
                     "Store freshwater"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Climate",
@@ -683,7 +683,7 @@ const environmentQuestions = {
                     "Hotter, drier conditions",
                     "No effect"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Climate",
@@ -693,7 +693,7 @@ const environmentQuestions = {
                     "Tourist",
                     "Displaced by climate"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Climate",
@@ -737,7 +737,7 @@ const environmentQuestions = {
                     "Helium",
                     "Carbon dioxide"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Climate",
@@ -748,7 +748,7 @@ const environmentQuestions = {
                     "Ice reflects sunlight",
                     "Ice absorbs heat"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Climate",
@@ -759,7 +759,7 @@ const environmentQuestions = {
                     "100 feet",
                     "1 inch"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Climate",
@@ -803,7 +803,7 @@ const environmentQuestions = {
                     "Accepting fate",
                     "Reducing causes"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Climate",
@@ -814,7 +814,7 @@ const environmentQuestions = {
                     "No emissions",
                     "Balance emissions absorbed"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Climate",
@@ -851,7 +851,7 @@ const environmentQuestions = {
                     "Seasonal change",
                     "Temperature response to CO2"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Climate",
@@ -863,7 +863,7 @@ const environmentQuestions = {
                     "Frozen ground",
                     "Ice sheet"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Climate",
@@ -875,7 +875,7 @@ const environmentQuestions = {
                     "Water expands when warm",
                     "Cooling"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Climate",
@@ -887,7 +887,7 @@ const environmentQuestions = {
                     "Storm type",
                     "Wind pattern"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Climate",
@@ -899,7 +899,7 @@ const environmentQuestions = {
                     "30%",
                     "10%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Climate",
@@ -911,7 +911,7 @@ const environmentQuestions = {
                     "Wildfire risk measure",
                     "Rainfall amount"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Climate",
@@ -923,7 +923,7 @@ const environmentQuestions = {
                     "Disease resistance",
                     "Adapt to climate stress"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Climate",
@@ -935,7 +935,7 @@ const environmentQuestions = {
                     "Low, medium, high",
                     "Past, present, future"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Climate",
@@ -1033,7 +1033,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Water",
@@ -1053,7 +1053,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Water",
@@ -1063,7 +1063,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Water",
@@ -1073,7 +1073,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Water",
@@ -1125,7 +1125,7 @@ const environmentQuestions = {
                     "50%",
                     "2.5%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Water",
@@ -1135,7 +1135,7 @@ const environmentQuestions = {
                     "Short showers, fix leaks",
                     "Leave taps running"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Water",
@@ -1145,7 +1145,7 @@ const environmentQuestions = {
                     "Too much water",
                     "Lack of clean water"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Water",
@@ -1195,7 +1195,7 @@ const environmentQuestions = {
                     "Water abundance",
                     "Demand exceeds supply"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Water",
@@ -1228,7 +1228,7 @@ const environmentQuestions = {
                     "50%",
                     "Less than 1%"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Water",
@@ -1250,7 +1250,7 @@ const environmentQuestions = {
                     "Video game water",
                     "Water to make products"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Water",
@@ -1261,7 +1261,7 @@ const environmentQuestions = {
                     "River overflow",
                     "Surface flooding"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Water",
@@ -1294,7 +1294,7 @@ const environmentQuestions = {
                     "Water purification",
                     "Desalination"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Water",
@@ -1305,7 +1305,7 @@ const environmentQuestions = {
                     "10,000",
                     "2 billion people"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Water",
@@ -1316,7 +1316,7 @@ const environmentQuestions = {
                     "Foot size",
                     "Total water usage"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Water",
@@ -1327,7 +1327,7 @@ const environmentQuestions = {
                     "Melting ice",
                     "Treating wastewater"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -1341,7 +1341,7 @@ const environmentQuestions = {
                     "~60%",
                     "10%"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Water",
@@ -1353,7 +1353,7 @@ const environmentQuestions = {
                     "Water waste",
                     "Output per water used"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Water",
@@ -1365,7 +1365,7 @@ const environmentQuestions = {
                     "Power plant",
                     "Type of dam"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Water",
@@ -1377,7 +1377,7 @@ const environmentQuestions = {
                     "Ocean",
                     "Lake"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Water",
@@ -1389,7 +1389,7 @@ const environmentQuestions = {
                     "~990mm per year",
                     "5000mm"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Water",
@@ -1413,7 +1413,7 @@ const environmentQuestions = {
                     "Biological oxygen demand",
                     "Body of debris"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Water",
@@ -1425,7 +1425,7 @@ const environmentQuestions = {
                     "~70%",
                     "30%"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Water",
@@ -1437,7 +1437,7 @@ const environmentQuestions = {
                     "Rain measurement",
                     "Charging for water use"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Water",
@@ -1449,7 +1449,7 @@ const environmentQuestions = {
                     "Single use",
                     "Random distribution"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "extreme": [
@@ -1545,7 +1545,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Energy",
@@ -1555,7 +1555,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Energy",
@@ -1565,7 +1565,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Energy",
@@ -1575,7 +1575,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Energy",
@@ -1585,7 +1585,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Energy",
@@ -1615,7 +1615,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -1627,7 +1627,7 @@ const environmentQuestions = {
                     "Power from moon",
                     "Electricity from sunlight"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Energy",
@@ -1657,7 +1657,7 @@ const environmentQuestions = {
                     "Naturally replenished",
                     "Runs out quickly"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Energy",
@@ -1667,7 +1667,7 @@ const environmentQuestions = {
                     "Coal, oil, gas",
                     "Sun, wind"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Energy",
@@ -1677,7 +1677,7 @@ const environmentQuestions = {
                     "Heat water only",
                     "Convert sunlight to electricity"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Energy",
@@ -1707,7 +1707,7 @@ const environmentQuestions = {
                     "Fossil fuel",
                     "Organic matter fuel"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Energy",
@@ -1717,7 +1717,7 @@ const environmentQuestions = {
                     "Less energy, same output",
                     "More waste"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -1730,7 +1730,7 @@ const environmentQuestions = {
                     "Solar cells",
                     "Wind power"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Energy",
@@ -1741,7 +1741,7 @@ const environmentQuestions = {
                     "90%",
                     "25-45%"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Energy",
@@ -1774,7 +1774,7 @@ const environmentQuestions = {
                     "Stop all power",
                     "Shift to renewables"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Energy",
@@ -1785,7 +1785,7 @@ const environmentQuestions = {
                     "Sell excess solar power",
                     "Buy only"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Energy",
@@ -1796,7 +1796,7 @@ const environmentQuestions = {
                     "Only for islands",
                     "None"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Energy",
@@ -1818,7 +1818,7 @@ const environmentQuestions = {
                     "Fossil fuel",
                     "Fuel from biomass"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Energy",
@@ -1829,7 +1829,7 @@ const environmentQuestions = {
                     "No change",
                     "Efficiency leads to more use"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -1843,7 +1843,7 @@ const environmentQuestions = {
                     "15-22%",
                     "90%"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Energy",
@@ -1855,7 +1855,7 @@ const environmentQuestions = {
                     "25%",
                     "10%"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Energy",
@@ -1867,7 +1867,7 @@ const environmentQuestions = {
                     "USA",
                     "China"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Energy",
@@ -1879,7 +1879,7 @@ const environmentQuestions = {
                     "Low carbon output",
                     "Levelized cost of energy"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Energy",
@@ -1903,7 +1903,7 @@ const environmentQuestions = {
                     "No grid",
                     "Large power plant"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Energy",
@@ -1915,7 +1915,7 @@ const environmentQuestions = {
                     "Device capturing wave power",
                     "Surfboard"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Energy",
@@ -1927,7 +1927,7 @@ const environmentQuestions = {
                     "1-3 km typically",
                     "10 meters"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Energy",
@@ -1939,7 +1939,7 @@ const environmentQuestions = {
                     "Coal mining",
                     "Breakdown organic matter"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Energy",
@@ -1951,7 +1951,7 @@ const environmentQuestions = {
                     "Adjust consumption to supply",
                     "Waste energy"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "extreme": [
@@ -2027,7 +2027,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ecosystem",
@@ -2037,7 +2037,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ecosystem",
@@ -2077,7 +2077,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ecosystem",
@@ -2107,7 +2107,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ecosystem",
@@ -2129,7 +2129,7 @@ const environmentQuestions = {
                     "Only plants",
                     "Living and non-living interact"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ecosystem",
@@ -2149,7 +2149,7 @@ const environmentQuestions = {
                     "Eats plants",
                     "Eats meat"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ecosystem",
@@ -2179,7 +2179,7 @@ const environmentQuestions = {
                     "Plant growth",
                     "Transfer pollen"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ecosystem",
@@ -2199,7 +2199,7 @@ const environmentQuestions = {
                     "Water-based",
                     "Land-based"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ecosystem",
@@ -2209,7 +2209,7 @@ const environmentQuestions = {
                     "Eats plants",
                     "Hunts other animals"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ecosystem",
@@ -2254,7 +2254,7 @@ const environmentQuestions = {
                     "Altitude",
                     "Feeding position"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Ecosystem",
@@ -2265,7 +2265,7 @@ const environmentQuestions = {
                     "One-way flow",
                     "Matter reuse in ecosystem"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Ecosystem",
@@ -2276,7 +2276,7 @@ const environmentQuestions = {
                     "Internet",
                     "Single chain"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ecosystem",
@@ -2287,7 +2287,7 @@ const environmentQuestions = {
                     "10%",
                     "75%"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Ecosystem",
@@ -2298,7 +2298,7 @@ const environmentQuestions = {
                     "Forest",
                     "Desert"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ecosystem",
@@ -2309,7 +2309,7 @@ const environmentQuestions = {
                     "Instant death",
                     "Ecosystem change over time"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Ecosystem",
@@ -2320,7 +2320,7 @@ const environmentQuestions = {
                     "Discount",
                     "Energy transfer between levels"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Ecosystem",
@@ -2345,7 +2345,7 @@ const environmentQuestions = {
                     "Benefits to humans",
                     "Service industry"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Ecosystem",
@@ -2357,7 +2357,7 @@ const environmentQuestions = {
                     "Factory output",
                     "Energy stored by plants"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Ecosystem",
@@ -2369,7 +2369,7 @@ const environmentQuestions = {
                     "Top of food chain",
                     "Decomposer"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Ecosystem",
@@ -2393,7 +2393,7 @@ const environmentQuestions = {
                     "Toxin buildup in organisms",
                     "Energy storage"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Ecosystem",
@@ -2405,7 +2405,7 @@ const environmentQuestions = {
                     "No interaction",
                     "Both species benefit"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Ecosystem",
@@ -2417,7 +2417,7 @@ const environmentQuestions = {
                     "Shore area",
                     "Deep ocean"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ecosystem",
@@ -2441,7 +2441,7 @@ const environmentQuestions = {
                     "Time period",
                     "Species' role in ecosystem"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Ecosystem",
@@ -2529,7 +2529,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Waste",
@@ -2549,7 +2549,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Waste",
@@ -2569,7 +2569,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Waste",
@@ -2579,7 +2579,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Waste",
@@ -2589,7 +2589,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Waste",
@@ -2599,7 +2599,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Waste",
@@ -2619,7 +2619,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -2641,7 +2641,7 @@ const environmentQuestions = {
                     "Biodegradable matter",
                     "Plastic"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Waste",
@@ -2651,7 +2651,7 @@ const environmentQuestions = {
                     "Home trash",
                     "Factory byproducts"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Waste",
@@ -2691,7 +2691,7 @@ const environmentQuestions = {
                     "Household trash",
                     "Factory waste"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Waste",
@@ -2701,7 +2701,7 @@ const environmentQuestions = {
                     "Fish",
                     "Trash in oceans"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Waste",
@@ -2711,7 +2711,7 @@ const environmentQuestions = {
                     "Contents only",
                     "Containers and wrapping"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Waste",
@@ -2721,7 +2721,7 @@ const environmentQuestions = {
                     "Sorting at origin",
                     "Mixed trash"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -2745,7 +2745,7 @@ const environmentQuestions = {
                     "75%",
                     "~30%"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Waste",
@@ -2811,7 +2811,7 @@ const environmentQuestions = {
                     "Tiny plastic particles",
                     "No plastic"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Waste",
@@ -2833,7 +2833,7 @@ const environmentQuestions = {
                     "Bury everything",
                     "Export waste"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -2847,7 +2847,7 @@ const environmentQuestions = {
                     "1 lb",
                     "~4.5 lbs"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Waste",
@@ -2859,7 +2859,7 @@ const environmentQuestions = {
                     "Breakdown without oxygen",
                     "Recycling"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Waste",
@@ -2871,7 +2871,7 @@ const environmentQuestions = {
                     "Climate treaty",
                     "Control hazardous waste movement"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Waste",
@@ -2883,7 +2883,7 @@ const environmentQuestions = {
                     "Eliminate waste concept",
                     "Export trash"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Waste",
@@ -2895,7 +2895,7 @@ const environmentQuestions = {
                     "100%",
                     "~20%"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Waste",
@@ -2907,7 +2907,7 @@ const environmentQuestions = {
                     "1 month",
                     "200+ years"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Waste",
@@ -2919,7 +2919,7 @@ const environmentQuestions = {
                     "Storage",
                     "Landfill"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Waste",
@@ -2931,7 +2931,7 @@ const environmentQuestions = {
                     "1",
                     "5 major ones"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Waste",
@@ -2943,7 +2943,7 @@ const environmentQuestions = {
                     "Recycle to lower quality",
                     "Upgrade material"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Waste",
@@ -2955,7 +2955,7 @@ const environmentQuestions = {
                     "Separate everything",
                     "All recyclables together"
                 ],
-                "correct": 3
+                "correct": 1
             }
         ],
         "extreme": [
@@ -3031,7 +3031,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Agriculture",
@@ -3051,7 +3051,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Agriculture",
@@ -3071,7 +3071,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Agriculture",
@@ -3091,7 +3091,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Agriculture",
@@ -3101,7 +3101,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Agriculture",
@@ -3133,7 +3133,7 @@ const environmentQuestions = {
                     "Harmful practices",
                     "Eco-friendly farming"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Agriculture",
@@ -3143,7 +3143,7 @@ const environmentQuestions = {
                     "No synthetic chemicals",
                     "Any farming"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Agriculture",
@@ -3153,7 +3153,7 @@ const environmentQuestions = {
                     "Spray everywhere",
                     "Water directly to roots"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Agriculture",
@@ -3173,7 +3173,7 @@ const environmentQuestions = {
                     "Restore soil health",
                     "Deplete soil"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Agriculture",
@@ -3247,7 +3247,7 @@ const environmentQuestions = {
                     "50%",
                     "~1-2%"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Agriculture",
@@ -3258,7 +3258,7 @@ const environmentQuestions = {
                     "Technology-based farming",
                     "Random planting"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Agriculture",
@@ -3269,7 +3269,7 @@ const environmentQuestions = {
                     "Too healthy",
                     "No issues"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Agriculture",
@@ -3324,7 +3324,7 @@ const environmentQuestions = {
                     "Dry conditions",
                     "Excess nutrients in water"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Agriculture",
@@ -3335,7 +3335,7 @@ const environmentQuestions = {
                     "Imports",
                     "Supermarkets"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -3349,7 +3349,7 @@ const environmentQuestions = {
                     "1%",
                     "5%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Agriculture",
@@ -3361,7 +3361,7 @@ const environmentQuestions = {
                     "Natural predators",
                     "Fire"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Agriculture",
@@ -3385,7 +3385,7 @@ const environmentQuestions = {
                     "2x",
                     "~20x more"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Agriculture",
@@ -3397,7 +3397,7 @@ const environmentQuestions = {
                     "Carbon-rich material",
                     "Rocks"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Agriculture",
@@ -3409,7 +3409,7 @@ const environmentQuestions = {
                     "10%",
                     "~75%"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Agriculture",
@@ -3421,7 +3421,7 @@ const environmentQuestions = {
                     "1 billion tons",
                     "24 billion tons"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Agriculture",
@@ -3433,7 +3433,7 @@ const environmentQuestions = {
                     "Plants between main crops",
                     "Only main crop"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Agriculture",
@@ -3445,7 +3445,7 @@ const environmentQuestions = {
                     "Combined control strategies",
                     "No management"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Agriculture",
@@ -3457,7 +3457,7 @@ const environmentQuestions = {
                     "Indoor stacked growing",
                     "No farming"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "extreme": [
@@ -3543,7 +3543,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Biodiversity",
@@ -3553,7 +3553,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Biodiversity",
@@ -3573,7 +3573,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Biodiversity",
@@ -3583,7 +3583,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Biodiversity",
@@ -3613,7 +3613,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Biodiversity",
@@ -3623,7 +3623,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -3645,7 +3645,7 @@ const environmentQuestions = {
                     "Where species lives",
                     "Food type"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Biodiversity",
@@ -3655,7 +3655,7 @@ const environmentQuestions = {
                     "No importance",
                     "Ecosystem stability"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Biodiversity",
@@ -3675,7 +3675,7 @@ const environmentQuestions = {
                     "Ocean life variety",
                     "Land animals"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Biodiversity",
@@ -3705,7 +3705,7 @@ const environmentQuestions = {
                     "Eats plants",
                     "Helps plant reproduction"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Biodiversity",
@@ -3715,7 +3715,7 @@ const environmentQuestions = {
                     "Shopping mall",
                     "Conservation zone"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Biodiversity",
@@ -3782,7 +3782,7 @@ const environmentQuestions = {
                     "1%",
                     "100%"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Biodiversity",
@@ -3804,7 +3804,7 @@ const environmentQuestions = {
                     "Too many animals",
                     "Too much rain"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Biodiversity",
@@ -3826,7 +3826,7 @@ const environmentQuestions = {
                     "Zoo only",
                     "Protect in natural habitat"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Biodiversity",
@@ -3851,7 +3851,7 @@ const environmentQuestions = {
                     "10x",
                     "2x"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Biodiversity",
@@ -3863,7 +3863,7 @@ const environmentQuestions = {
                     "Center areas",
                     "Habitat boundary impacts"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Biodiversity",
@@ -3911,7 +3911,7 @@ const environmentQuestions = {
                     "One group",
                     "No groups"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Biodiversity",
@@ -3923,7 +3923,7 @@ const environmentQuestions = {
                     "No theory",
                     "Vacation spots"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Biodiversity",
@@ -3935,7 +3935,7 @@ const environmentQuestions = {
                     "Ant problem",
                     "Bee hive die-off"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Biodiversity",
@@ -3947,7 +3947,7 @@ const environmentQuestions = {
                     "~15%",
                     "1%"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Biodiversity",
@@ -3959,7 +3959,7 @@ const environmentQuestions = {
                     "Book",
                     "Company"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "extreme": [
@@ -4055,7 +4055,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Air",
@@ -4065,7 +4065,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Air",
@@ -4125,7 +4125,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -4147,7 +4147,7 @@ const environmentQuestions = {
                     "Pollutants from factories",
                     "Natural air"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Air",
@@ -4157,7 +4157,7 @@ const environmentQuestions = {
                     "Clean air",
                     "Exhaust from vehicles"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Air",
@@ -4187,7 +4187,7 @@ const environmentQuestions = {
                     "Perfect health",
                     "Respiratory, heart disease"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Air",
@@ -4197,7 +4197,7 @@ const environmentQuestions = {
                     "Air movement patterns",
                     "Stationary air"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Air",
@@ -4207,7 +4207,7 @@ const environmentQuestions = {
                     "Outside only",
                     "Contaminants inside buildings"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Air",
@@ -4217,7 +4217,7 @@ const environmentQuestions = {
                     "No burning",
                     "Wood, crop burning"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Air",
@@ -4227,7 +4227,7 @@ const environmentQuestions = {
                     "US air quality law",
                     "Car brand"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -4240,7 +4240,7 @@ const environmentQuestions = {
                     "Pollution level measure",
                     "Temperature"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Air",
@@ -4251,7 +4251,7 @@ const environmentQuestions = {
                     "Temperature",
                     "Time"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Air",
@@ -4262,7 +4262,7 @@ const environmentQuestions = {
                     "Water",
                     "Nitrogen oxides"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Air",
@@ -4273,7 +4273,7 @@ const environmentQuestions = {
                     "No difference",
                     "Cooler cities"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Air",
@@ -4284,7 +4284,7 @@ const environmentQuestions = {
                     "Rain",
                     "Sunlight on pollutants"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Air",
@@ -4295,7 +4295,7 @@ const environmentQuestions = {
                     "1000",
                     "~7 million"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Air",
@@ -4306,7 +4306,7 @@ const environmentQuestions = {
                     "Stays local",
                     "Crosses borders"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Air",
@@ -4339,7 +4339,7 @@ const environmentQuestions = {
                     "Infinite",
                     "No limit"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -4353,7 +4353,7 @@ const environmentQuestions = {
                     "0-50",
                     "500+"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Air",
@@ -4365,7 +4365,7 @@ const environmentQuestions = {
                     "Pollution control device",
                     "Worker"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Air",
@@ -4377,7 +4377,7 @@ const environmentQuestions = {
                     "Radio",
                     "Fuel tank"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Air",
@@ -4401,7 +4401,7 @@ const environmentQuestions = {
                     "Weather",
                     "Modern issue"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Air",
@@ -4413,7 +4413,7 @@ const environmentQuestions = {
                     "PM2.5 exposure",
                     "Light"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Air",
@@ -4425,7 +4425,7 @@ const environmentQuestions = {
                     "Wind",
                     "Warm air traps cool air"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Air",
@@ -4437,7 +4437,7 @@ const environmentQuestions = {
                     "Paint color",
                     "Old building"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Air",
@@ -4461,7 +4461,7 @@ const environmentQuestions = {
                     "Food rule",
                     "US EPA air limits"
                 ],
-                "correct": 3
+                "correct": 1
             }
         ],
         "extreme": [
@@ -4537,7 +4537,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Carbon",
@@ -4547,7 +4547,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Carbon",
@@ -4557,7 +4557,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Carbon",
@@ -4587,7 +4587,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Carbon",
@@ -4617,7 +4617,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Carbon",
@@ -4639,7 +4639,7 @@ const environmentQuestions = {
                     "Shoe size",
                     "Total CO2 emissions"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Carbon",
@@ -4659,7 +4659,7 @@ const environmentQuestions = {
                     "TV",
                     "Heating and cooling"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Carbon",
@@ -4669,7 +4669,7 @@ const environmentQuestions = {
                     "~0.4 kg",
                     "0.01 kg"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Carbon",
@@ -4679,7 +4679,7 @@ const environmentQuestions = {
                     "Methane from cows",
                     "Low emissions"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Carbon",
@@ -4709,7 +4709,7 @@ const environmentQuestions = {
                     "10%",
                     "75% vs incandescent"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Carbon",
@@ -4752,7 +4752,7 @@ const environmentQuestions = {
                     "Direct, indirect, supply chain",
                     "Past, present, future"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Carbon",
@@ -4763,7 +4763,7 @@ const environmentQuestions = {
                     "Emissions to make product",
                     "No emissions"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Carbon",
@@ -4774,7 +4774,7 @@ const environmentQuestions = {
                     "No effect",
                     "Cooling effect"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Carbon",
@@ -4785,7 +4785,7 @@ const environmentQuestions = {
                     "Less",
                     "~20x more"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Carbon",
@@ -4807,7 +4807,7 @@ const environmentQuestions = {
                     "10 kg",
                     "~1 ton"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Carbon",
@@ -4829,7 +4829,7 @@ const environmentQuestions = {
                     "Change transport mode",
                     "No change"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Carbon",
@@ -4840,7 +4840,7 @@ const environmentQuestions = {
                     "Lifting",
                     "Personal footprint goal"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -4854,7 +4854,7 @@ const environmentQuestions = {
                     "Age measurement",
                     "Health check"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Carbon",
@@ -4866,7 +4866,7 @@ const environmentQuestions = {
                     "0.1 kg",
                     "1 kg"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Carbon",
@@ -4878,7 +4878,7 @@ const environmentQuestions = {
                     "Normal house",
                     "Factory"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Carbon",
@@ -4890,7 +4890,7 @@ const environmentQuestions = {
                     "~2-3%",
                     "0.1%"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Carbon",
@@ -4902,7 +4902,7 @@ const environmentQuestions = {
                     "1 kg",
                     "0.1 kg"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Carbon",
@@ -4914,7 +4914,7 @@ const environmentQuestions = {
                     "Competition",
                     "Waste = resource"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Carbon",
@@ -4926,7 +4926,7 @@ const environmentQuestions = {
                     "Ice",
                     "Sky color"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Carbon",
@@ -4938,7 +4938,7 @@ const environmentQuestions = {
                     "Maximum use",
                     "Optimize energy consumption"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Carbon",
@@ -4950,7 +4950,7 @@ const environmentQuestions = {
                     "Integrated transport options",
                     "One mode only"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Carbon",
@@ -4962,7 +4962,7 @@ const environmentQuestions = {
                     "Marketing",
                     "Emission goal aligned with climate"
                 ],
-                "correct": 3
+                "correct": 1
             }
         ],
         "extreme": [
@@ -5058,7 +5058,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ocean",
@@ -5068,7 +5068,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ocean",
@@ -5078,7 +5078,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ocean",
@@ -5088,7 +5088,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ocean",
@@ -5098,7 +5098,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ocean",
@@ -5128,7 +5128,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -5150,7 +5150,7 @@ const environmentQuestions = {
                     "Variety of ocean life",
                     "One species"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ocean",
@@ -5160,7 +5160,7 @@ const environmentQuestions = {
                     "Natural seaweed",
                     "Trash in oceans"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ocean",
@@ -5180,7 +5180,7 @@ const environmentQuestions = {
                     "Underwater ecosystems",
                     "Rocks only"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ocean",
@@ -5190,7 +5190,7 @@ const environmentQuestions = {
                     "Natural only",
                     "Climate change"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ocean",
@@ -5200,7 +5200,7 @@ const environmentQuestions = {
                     "Taking too many fish",
                     "Not enough fishing"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ocean",
@@ -5210,7 +5210,7 @@ const environmentQuestions = {
                     "Fishing zone",
                     "Conservation zone"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ocean",
@@ -5220,7 +5220,7 @@ const environmentQuestions = {
                     "No reason",
                     "Endangered, ecosystem role"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ocean",
@@ -5276,7 +5276,7 @@ const environmentQuestions = {
                     "5 units",
                     "No change"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ocean",
@@ -5287,7 +5287,7 @@ const environmentQuestions = {
                     "10%",
                     "~75%"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Ocean",
@@ -5298,7 +5298,7 @@ const environmentQuestions = {
                     "~90% of warming",
                     "10%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ocean",
@@ -5331,7 +5331,7 @@ const environmentQuestions = {
                     "Unintended catch",
                     "Target fish"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ocean",
@@ -5380,7 +5380,7 @@ const environmentQuestions = {
                     "<5mm",
                     "<10cm"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Ocean",
@@ -5392,7 +5392,7 @@ const environmentQuestions = {
                     "0%",
                     "90%"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ocean",
@@ -5404,7 +5404,7 @@ const environmentQuestions = {
                     "Coral grows",
                     "Coral loses algae"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Ocean",
@@ -5428,7 +5428,7 @@ const environmentQuestions = {
                     "Sustainable method",
                     "Illegal, unreported, unregulated"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Ocean",
@@ -5440,7 +5440,7 @@ const environmentQuestions = {
                     "Sustainable ocean use",
                     "All extraction"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Ocean",
@@ -5464,7 +5464,7 @@ const environmentQuestions = {
                     "Pacific warming pattern",
                     "River flow"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "extreme": [
@@ -5580,7 +5580,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Technology",
@@ -5590,7 +5590,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Technology",
@@ -5600,7 +5600,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Technology",
@@ -5620,7 +5620,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Technology",
@@ -5672,7 +5672,7 @@ const environmentQuestions = {
                     "Automated efficiency",
                     "Regular home"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Technology",
@@ -5692,7 +5692,7 @@ const environmentQuestions = {
                     "Car rating",
                     "Green building standard"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Technology",
@@ -5722,7 +5722,7 @@ const environmentQuestions = {
                     "Cleaning tools",
                     "Clean technology sector"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Technology",
@@ -5732,7 +5732,7 @@ const environmentQuestions = {
                     "Eco-friendly computing",
                     "Any computer"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -5745,7 +5745,7 @@ const environmentQuestions = {
                     "Circular product lifecycle",
                     "One-time use"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Technology",
@@ -5767,7 +5767,7 @@ const environmentQuestions = {
                     "No braking",
                     "Recovers energy"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Technology",
@@ -5778,7 +5778,7 @@ const environmentQuestions = {
                     "Regular internet",
                     "No connection"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Technology",
@@ -5789,7 +5789,7 @@ const environmentQuestions = {
                     "90%",
                     "100%"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Technology",
@@ -5800,7 +5800,7 @@ const environmentQuestions = {
                     "Natural heating/cooling",
                     "Active systems only"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Technology",
@@ -5811,7 +5811,7 @@ const environmentQuestions = {
                     "Land turbines",
                     "No power"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Technology",
@@ -5822,7 +5822,7 @@ const environmentQuestions = {
                     "No battery",
                     "Rechargeable battery type"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Technology",
@@ -5833,7 +5833,7 @@ const environmentQuestions = {
                     "No effect",
                     "Removes CO2"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Technology",
@@ -5844,7 +5844,7 @@ const environmentQuestions = {
                     "No computing",
                     "Energy-efficient IT"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -5858,7 +5858,7 @@ const environmentQuestions = {
                     "Nature-inspired design",
                     "Synthetic only"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Technology",
@@ -5870,7 +5870,7 @@ const environmentQuestions = {
                     "Old method",
                     "Not solar"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Technology",
@@ -5894,7 +5894,7 @@ const environmentQuestions = {
                     "Intelligent power distribution",
                     "Manual only"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Technology",
@@ -5906,7 +5906,7 @@ const environmentQuestions = {
                     "Recovering metals from e-waste",
                     "Coal mining"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Technology",
@@ -5918,7 +5918,7 @@ const environmentQuestions = {
                     "Uses more",
                     "Wastes energy"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Technology",
@@ -5930,7 +5930,7 @@ const environmentQuestions = {
                     "100%",
                     "90%"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Technology",
@@ -5966,7 +5966,7 @@ const environmentQuestions = {
                     "Processing speed",
                     "Storage size"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "extreme": [
@@ -6052,7 +6052,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Policy",
@@ -6062,7 +6062,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Policy",
@@ -6072,7 +6072,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Policy",
@@ -6092,7 +6092,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Policy",
@@ -6112,7 +6112,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Policy",
@@ -6144,7 +6144,7 @@ const environmentQuestions = {
                     "Any rule",
                     "Rules to protect nature"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Policy",
@@ -6234,7 +6234,7 @@ const environmentQuestions = {
                     "Required clean energy",
                     "Optional only"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -6258,7 +6258,7 @@ const environmentQuestions = {
                     "Water law",
                     "US air pollution law"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Policy",
@@ -6269,7 +6269,7 @@ const environmentQuestions = {
                     "Climate treaty",
                     "Trade agreement"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Policy",
@@ -6280,7 +6280,7 @@ const environmentQuestions = {
                     "Penalty",
                     "Tax increase"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Policy",
@@ -6302,7 +6302,7 @@ const environmentQuestions = {
                     "Wildlife trade treaty",
                     "Ocean law"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Policy",
@@ -6313,7 +6313,7 @@ const environmentQuestions = {
                     "No law",
                     "Require plastic"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Policy",
@@ -6324,7 +6324,7 @@ const environmentQuestions = {
                     "Court system",
                     "Fair distribution of impacts"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Policy",
@@ -6335,7 +6335,7 @@ const environmentQuestions = {
                     "Polluter covers costs",
                     "Public pays"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Policy",
@@ -6360,7 +6360,7 @@ const environmentQuestions = {
                     "Ozone layer protection",
                     "Ocean protection"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Policy",
@@ -6372,7 +6372,7 @@ const environmentQuestions = {
                     "State law",
                     "US environmental review law"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Policy",
@@ -6384,7 +6384,7 @@ const environmentQuestions = {
                     "50",
                     "~195"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Policy",
@@ -6396,7 +6396,7 @@ const environmentQuestions = {
                     "Cost on emissions",
                     "Free emissions"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Policy",
@@ -6444,7 +6444,7 @@ const environmentQuestions = {
                     "Trade deal",
                     "Climate treaty"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Policy",
@@ -6456,7 +6456,7 @@ const environmentQuestions = {
                     "Financial audit",
                     "No assessment"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Policy",
@@ -6468,7 +6468,7 @@ const environmentQuestions = {
                     "Optional target",
                     "Fossil fuel quota"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "extreme": [
@@ -6554,7 +6554,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Living",
@@ -6584,7 +6584,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Living",
@@ -6594,7 +6594,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Living",
@@ -6646,7 +6646,7 @@ const environmentQuestions = {
                     "Any lifestyle",
                     "Minimize environmental impact"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Living",
@@ -6666,7 +6666,7 @@ const environmentQuestions = {
                     "Create more waste",
                     "Minimize landfill waste"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Living",
@@ -6736,7 +6736,7 @@ const environmentQuestions = {
                     "Designed to fail",
                     "Long-lasting"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -6749,7 +6749,7 @@ const environmentQuestions = {
                     "No emissions",
                     "Balance emissions"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Living",
@@ -6760,7 +6760,7 @@ const environmentQuestions = {
                     "50 kg",
                     "~5 kg"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Living",
@@ -6771,7 +6771,7 @@ const environmentQuestions = {
                     "Environmental and social",
                     "No cost"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Living",
@@ -6804,7 +6804,7 @@ const environmentQuestions = {
                     "~10-25 gallons",
                     "1 gallon"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Living",
@@ -6815,7 +6815,7 @@ const environmentQuestions = {
                     "90%",
                     "~30%"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Living",
@@ -6826,7 +6826,7 @@ const environmentQuestions = {
                     "90%",
                     "~15%"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Living",
@@ -6848,7 +6848,7 @@ const environmentQuestions = {
                     "Always buy new",
                     "Fix not replace"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -6862,7 +6862,7 @@ const environmentQuestions = {
                     "Resource use measure",
                     "Walking distance"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Living",
@@ -6886,7 +6886,7 @@ const environmentQuestions = {
                     "Buy only",
                     "Cradle to grave impact"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Living",
@@ -6922,7 +6922,7 @@ const environmentQuestions = {
                     "Waste all",
                     "No system"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Living",
@@ -6934,7 +6934,7 @@ const environmentQuestions = {
                     "Regular compost",
                     "Fermentation method"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Living",
@@ -6946,7 +6946,7 @@ const environmentQuestions = {
                     "1",
                     "Never"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Living",
@@ -6970,7 +6970,7 @@ const environmentQuestions = {
                     "Replaceable parts",
                     "Disposable"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "extreme": [
@@ -7046,7 +7046,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Urban",
@@ -7056,7 +7056,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Urban",
@@ -7066,7 +7066,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Urban",
@@ -7076,7 +7076,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Urban",
@@ -7116,7 +7116,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Urban",
@@ -7148,7 +7148,7 @@ const environmentQuestions = {
                     "Grey concrete",
                     "Natural systems in cities"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Urban",
@@ -7158,7 +7158,7 @@ const environmentQuestions = {
                     "Managing city trees",
                     "Rural forests"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Urban",
@@ -7168,7 +7168,7 @@ const environmentQuestions = {
                     "Car-dependent",
                     "Build near transit"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Urban",
@@ -7178,7 +7178,7 @@ const environmentQuestions = {
                     "Sustainable construction",
                     "Green paint"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Urban",
@@ -7188,7 +7188,7 @@ const environmentQuestions = {
                     "Cities warmer than surroundings",
                     "Cold cities"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Urban",
@@ -7238,7 +7238,7 @@ const environmentQuestions = {
                     "Population shift to cities",
                     "Rural growth"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -7262,7 +7262,7 @@ const environmentQuestions = {
                     "100%",
                     "~40% coverage"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Urban",
@@ -7273,7 +7273,7 @@ const environmentQuestions = {
                     "~50-70%",
                     "10%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Urban",
@@ -7306,7 +7306,7 @@ const environmentQuestions = {
                     "Painted only",
                     "Physically separated"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Urban",
@@ -7328,7 +7328,7 @@ const environmentQuestions = {
                     "Absorb stormwater",
                     "No benefit"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Urban",
@@ -7350,7 +7350,7 @@ const environmentQuestions = {
                     "100%",
                     "10%"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -7364,7 +7364,7 @@ const environmentQuestions = {
                     "Dry city",
                     "No water"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Urban",
@@ -7376,7 +7376,7 @@ const environmentQuestions = {
                     "Urban forest evaluation",
                     "Tree height"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Urban",
@@ -7388,7 +7388,7 @@ const environmentQuestions = {
                     "High-capacity bus system",
                     "Regular bus"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Urban",
@@ -7400,7 +7400,7 @@ const environmentQuestions = {
                     "Zero net energy",
                     "High energy"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Urban",
@@ -7412,7 +7412,7 @@ const environmentQuestions = {
                     "Regular asphalt",
                     "Reflects heat"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Urban",
@@ -7424,7 +7424,7 @@ const environmentQuestions = {
                     "No data",
                     "Transportation mode percentage"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Urban",
@@ -7436,7 +7436,7 @@ const environmentQuestions = {
                     "Elevated park conversion",
                     "No park"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Urban",
@@ -7448,7 +7448,7 @@ const environmentQuestions = {
                     "Regular garden",
                     "No garden"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Urban",
@@ -7472,7 +7472,7 @@ const environmentQuestions = {
                     "High density mixed-use",
                     "No strategy"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "extreme": [
@@ -7568,7 +7568,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Conservation",
@@ -7578,7 +7578,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Conservation",
@@ -7608,7 +7608,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Conservation",
@@ -7638,7 +7638,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -7660,7 +7660,7 @@ const environmentQuestions = {
                     "Critical to ecosystem",
                     "Common animal"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Conservation",
@@ -7690,7 +7690,7 @@ const environmentQuestions = {
                     "Extinction risk assessment",
                     "Count animals"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Conservation",
@@ -7700,7 +7700,7 @@ const environmentQuestions = {
                     "Destroy habitat",
                     "Rebuild damaged areas"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Conservation",
@@ -7720,7 +7720,7 @@ const environmentQuestions = {
                     "Wild only",
                     "Breed in facilities"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Conservation",
@@ -7753,7 +7753,7 @@ const environmentQuestions = {
                     "Any number",
                     "Lowest for survival"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Conservation",
@@ -7764,7 +7764,7 @@ const environmentQuestions = {
                     "Bottom only",
                     "Top predator effects"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Conservation",
@@ -7775,7 +7775,7 @@ const environmentQuestions = {
                     "~30% goal",
                     "100%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Conservation",
@@ -7786,7 +7786,7 @@ const environmentQuestions = {
                     "No system",
                     "Color chart"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Conservation",
@@ -7797,7 +7797,7 @@ const environmentQuestions = {
                     "Increase diversity",
                     "No change"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Conservation",
@@ -7808,7 +7808,7 @@ const environmentQuestions = {
                     "Modifies habitat",
                     "Destroys only"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Conservation",
@@ -7819,7 +7819,7 @@ const environmentQuestions = {
                     "Natural only",
                     "Help species relocate"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Conservation",
@@ -7830,7 +7830,7 @@ const environmentQuestions = {
                     "Add genetic diversity",
                     "No action"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Conservation",
@@ -7841,7 +7841,7 @@ const environmentQuestions = {
                     "No fishing allowed",
                     "Fishing encouraged"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Conservation",
@@ -7852,7 +7852,7 @@ const environmentQuestions = {
                     "No knowledge",
                     "Modern only"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -7866,7 +7866,7 @@ const environmentQuestions = {
                     "Age rule",
                     "No rule"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Conservation",
@@ -7878,7 +7878,7 @@ const environmentQuestions = {
                     "One species only",
                     "Random selection"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Conservation",
@@ -7902,7 +7902,7 @@ const environmentQuestions = {
                     "Positive feedback to extinction",
                     "No effect"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Conservation",
@@ -7914,7 +7914,7 @@ const environmentQuestions = {
                     "Breeding individuals",
                     "Zero"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Conservation",
@@ -7938,7 +7938,7 @@ const environmentQuestions = {
                     "No effect",
                     "Core area"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Conservation",
@@ -7950,7 +7950,7 @@ const environmentQuestions = {
                     "Keep all",
                     "Raise young, release adults"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Conservation",
@@ -8050,7 +8050,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Education",
@@ -8070,7 +8070,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Education",
@@ -8090,7 +8090,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Education",
@@ -8100,7 +8100,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Education",
@@ -8110,7 +8110,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Education",
@@ -8120,7 +8120,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Education",
@@ -8130,7 +8130,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Education",
@@ -8140,7 +8140,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -8162,7 +8162,7 @@ const environmentQuestions = {
                     "Learning in nature",
                     "Classroom only"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Education",
@@ -8212,7 +8212,7 @@ const environmentQuestions = {
                     "Eco-friendly operations",
                     "Green paint"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Education",
@@ -8222,7 +8222,7 @@ const environmentQuestions = {
                     "Any art",
                     "Art about environment"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Education",
@@ -8265,7 +8265,7 @@ const environmentQuestions = {
                     "Learn from local environment",
                     "Generic curriculum"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Education",
@@ -8296,7 +8296,7 @@ const environmentQuestions = {
                     "Outdoor learning program",
                     "Traditional school"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Education",
@@ -8306,7 +8306,7 @@ const environmentQuestions = {
                     "No communication",
                     "Explain climate science"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Education",
@@ -8316,7 +8316,7 @@ const environmentQuestions = {
                     "Green building certification",
                     "Test score"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Education",
@@ -8360,7 +8360,7 @@ const environmentQuestions = {
                     "1977 environmental education goals",
                     "No declaration"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Education",
@@ -8372,7 +8372,7 @@ const environmentQuestions = {
                     "No questions",
                     "Student-driven exploration"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Education",
@@ -8384,7 +8384,7 @@ const environmentQuestions = {
                     "Weather",
                     "Study seasonal patterns"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Education",
@@ -8396,7 +8396,7 @@ const environmentQuestions = {
                     "Rote memory",
                     "Surface learning"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Education",
@@ -8408,7 +8408,7 @@ const environmentQuestions = {
                     "Book on nature deficit",
                     "Movie"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Education",
@@ -8420,7 +8420,7 @@ const environmentQuestions = {
                     "Math skills",
                     "Reading only"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Education",
@@ -8444,7 +8444,7 @@ const environmentQuestions = {
                     "No aesthetics",
                     "Beauty in nature connection"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Education",
@@ -8456,7 +8456,7 @@ const environmentQuestions = {
                     "Solo work",
                     "Community-driven study"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Education",
@@ -8468,7 +8468,7 @@ const environmentQuestions = {
                     "Regular decade",
                     "Trade decade"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "extreme": [
@@ -8564,7 +8564,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Circular",
@@ -8574,7 +8574,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Circular",
@@ -8594,7 +8594,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Circular",
@@ -8604,7 +8604,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Circular",
@@ -8624,7 +8624,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Circular",
@@ -8634,7 +8634,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -8666,7 +8666,7 @@ const environmentQuestions = {
                     "Single use",
                     "Multiple use containers"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Circular",
@@ -8686,7 +8686,7 @@ const environmentQuestions = {
                     "More output per input",
                     "Waste resources"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Circular",
@@ -8706,7 +8706,7 @@ const environmentQuestions = {
                     "Easy to take apart",
                     "Permanent assembly"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Circular",
@@ -8716,7 +8716,7 @@ const environmentQuestions = {
                     "Synthetic only",
                     "Return to nature"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Circular",
@@ -8726,7 +8726,7 @@ const environmentQuestions = {
                     "Ownership only",
                     "Lease not buy"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Circular",
@@ -8749,7 +8749,7 @@ const environmentQuestions = {
                     "Eliminate waste, circulate, regenerate",
                     "Single use"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Circular",
@@ -8760,7 +8760,7 @@ const environmentQuestions = {
                     "No economy",
                     "Sell products"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Circular",
@@ -8771,7 +8771,7 @@ const environmentQuestions = {
                     "One-way shipping",
                     "Return and reuse system"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Circular",
@@ -8782,7 +8782,7 @@ const environmentQuestions = {
                     "Fixed design",
                     "Replaceable components"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Circular",
@@ -8793,7 +8793,7 @@ const environmentQuestions = {
                     "No data",
                     "Travel document"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Circular",
@@ -8804,7 +8804,7 @@ const environmentQuestions = {
                     "Increase value",
                     "No change"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Circular",
@@ -8815,7 +8815,7 @@ const environmentQuestions = {
                     "Cradle-to-grave",
                     "Continuous reuse cycle"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Circular",
@@ -8826,7 +8826,7 @@ const environmentQuestions = {
                     "Extract only",
                     "Restore systems"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Circular",
@@ -8848,7 +8848,7 @@ const environmentQuestions = {
                     "Direct link",
                     "No change"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -8862,7 +8862,7 @@ const environmentQuestions = {
                     "Trading company",
                     "Linear economy"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Circular",
@@ -8874,7 +8874,7 @@ const environmentQuestions = {
                     "Parallel only",
                     "Sequential material use"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Circular",
@@ -8886,7 +8886,7 @@ const environmentQuestions = {
                     "Government only",
                     "Consumer responsible"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Circular",
@@ -8898,7 +8898,7 @@ const environmentQuestions = {
                     "Ease of repair score",
                     "Speed"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Circular",
@@ -8910,7 +8910,7 @@ const environmentQuestions = {
                     "No tracking",
                     "Financial only"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Circular",
@@ -8946,7 +8946,7 @@ const environmentQuestions = {
                     "Waste disposal",
                     "Biological material return"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Circular",
@@ -8958,7 +8958,7 @@ const environmentQuestions = {
                     "Product only",
                     "Shift to service model"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Circular",
@@ -8970,7 +8970,7 @@ const environmentQuestions = {
                     "Linear model",
                     "Eliminate waste in operations"
                 ],
-                "correct": 3
+                "correct": 1
             }
         ],
         "extreme": [
@@ -9056,7 +9056,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Indigenous",
@@ -9066,7 +9066,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Indigenous",
@@ -9086,7 +9086,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Indigenous",
@@ -9096,7 +9096,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Indigenous",
@@ -9116,7 +9116,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Indigenous",
@@ -9136,7 +9136,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -9148,7 +9148,7 @@ const environmentQuestions = {
                     "Modern science only",
                     "Indigenous environmental wisdom"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Indigenous",
@@ -9178,7 +9178,7 @@ const environmentQuestions = {
                     "Traditional fire management",
                     "Wildfire"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Indigenous",
@@ -9188,7 +9188,7 @@ const environmentQuestions = {
                     "Shared resource governance",
                     "Exclude indigenous"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Indigenous",
@@ -9198,7 +9198,7 @@ const environmentQuestions = {
                     "Government only",
                     "Lands managed by indigenous peoples"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Indigenous",
@@ -9208,7 +9208,7 @@ const environmentQuestions = {
                     "Take only what is needed",
                     "Commercial exploitation"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Indigenous",
@@ -9218,7 +9218,7 @@ const environmentQuestions = {
                     "Single crop",
                     "Corn, beans, squash together"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Indigenous",
@@ -9228,7 +9228,7 @@ const environmentQuestions = {
                     "Trade agreement",
                     "Indigenous rights declaration"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Indigenous",
@@ -9251,7 +9251,7 @@ const environmentQuestions = {
                     "~80%",
                     "10%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Indigenous",
@@ -9271,7 +9271,7 @@ const environmentQuestions = {
                     "Present only",
                     "Consider future impact"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Indigenous",
@@ -9311,7 +9311,7 @@ const environmentQuestions = {
                     "Take respectfully",
                     "Take everything"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Indigenous",
@@ -9341,7 +9341,7 @@ const environmentQuestions = {
                     "Link between culture and nature",
                     "Separate concepts"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -9355,7 +9355,7 @@ const environmentQuestions = {
                     "~370-500 million",
                     "10 million"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Indigenous",
@@ -9385,7 +9385,7 @@ const environmentQuestions = {
                     "Australian Aboriginal burning",
                     "Regular farming"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Indigenous",
@@ -9417,7 +9417,7 @@ const environmentQuestions = {
                     "Annual resource use cycle",
                     "No pattern"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Indigenous",
@@ -9437,7 +9437,7 @@ const environmentQuestions = {
                     "Labor law",
                     "Indigenous peoples rights"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Indigenous",
@@ -9573,7 +9573,7 @@ const environmentQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Future",
@@ -9583,7 +9583,7 @@ const environmentQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Future",
@@ -9665,7 +9665,7 @@ const environmentQuestions = {
                     "Community resilience initiatives",
                     "No change"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Future",
@@ -9675,7 +9675,7 @@ const environmentQuestions = {
                     "Stay with fossil fuels",
                     "Shift to renewables"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Future",
@@ -9695,7 +9695,7 @@ const environmentQuestions = {
                     "No movement",
                     "Young activists for climate"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Future",
@@ -9715,7 +9715,7 @@ const environmentQuestions = {
                     "Human and Earth wellbeing",
                     "Humans only"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -9758,7 +9758,7 @@ const environmentQuestions = {
                     "Reduce consumption",
                     "Infinite growth"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Future",
@@ -9809,7 +9809,7 @@ const environmentQuestions = {
                     "No emotion",
                     "Mourning environmental loss"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Future",
@@ -9819,7 +9819,7 @@ const environmentQuestions = {
                     "Human-dominated era",
                     "Past era"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -9833,7 +9833,7 @@ const environmentQuestions = {
                     "100",
                     "17"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Future",
@@ -9843,7 +9843,7 @@ const environmentQuestions = {
                     "Goal-directed research",
                     "Random discovery"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Future",
@@ -9853,7 +9853,7 @@ const environmentQuestions = {
                     "Private property",
                     "Shared resources"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Future",
@@ -9894,7 +9894,7 @@ const environmentQuestions = {
                     "0",
                     "1 Mt"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Future",
@@ -9914,7 +9914,7 @@ const environmentQuestions = {
                     "Passive waiting",
                     "Engage despite uncertainty"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Future",
@@ -9924,7 +9924,7 @@ const environmentQuestions = {
                     "Sustainability transformation",
                     "No change"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "extreme": [

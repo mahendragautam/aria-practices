@@ -19,7 +19,7 @@ const scienceQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
@@ -29,7 +29,7 @@ const scienceQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Chemistry",
@@ -49,21 +49,21 @@ const scienceQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Biology",
-                emoji: "🫀❤️",
+                emoji: "🫀💓",
                 question: "The human heart has four chambers.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Physics",
-                emoji: "🌡️🔥",
+                emoji: "🌡️❄️",
                 question: "Heat always flows from hot to cold.",
                 options: [
                     "True",
@@ -73,7 +73,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "💎💍",
+                emoji: "💎✨",
                 question: "Diamond is made of carbon.",
                 options: [
                     "False",
@@ -83,17 +83,17 @@ const scienceQuestions = {
             },
             {
                 topic: "Astronomy",
-                emoji: "☀️⭐",
+                emoji: "☀️🌟",
                 question: "The Sun is a star.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Biology",
-                emoji: "🦴🦷",
+                emoji: "🦴🩻",
                 question: "Bones are stronger than steel by weight.",
                 options: [
                     "True",
@@ -103,7 +103,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🔊🎵",
+                emoji: "🔊📢",
                 question: "Sound cannot travel through a vacuum.",
                 options: [
                     "False",
@@ -115,17 +115,17 @@ const scienceQuestions = {
         medium: [
             {
                 topic: "Biology",
-                emoji: "🧬🔬",
+                emoji: "🧲🔗",
                 question: "What is the powerhouse of the cell?",
                 options: [
                     "Nucleus",
                     "Mitochondria"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "🍎🌍",
+                emoji: "🌈🎨",
                 question: "What force keeps us on the ground?",
                 options: [
                     "Magnetism",
@@ -135,7 +135,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "🧂💧",
+                emoji: "🔬🧫",
                 question: "What is the chemical formula for table salt?",
                 options: [
                     "NaCl",
@@ -145,7 +145,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Astronomy",
-                emoji: "🌕🌙",
+                emoji: "🪐🌌",
                 question: "What causes tides on Earth?",
                 options: [
                     "Sun's heat",
@@ -155,7 +155,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "🌿🍃",
+                emoji: "🌿🌱",
                 question: "What process do plants use to make food?",
                 options: [
                     "Respiration",
@@ -165,7 +165,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🌈☀️",
+                emoji: "💧💦",
                 question: "What splits white light into colors?",
                 options: [
                     "Prism",
@@ -175,7 +175,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "💨🌬️",
+                emoji: "🔥🌋",
                 question: "What gas do plants absorb from air?",
                 options: [
                     "Nitrogen",
@@ -185,13 +185,13 @@ const scienceQuestions = {
             },
             {
                 topic: "Astronomy",
-                emoji: "🪐💍",
+                emoji: "🌊🌀",
                 question: "Which planet has rings?",
                 options: [
                     "Mars",
                     "Saturn"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Biology",
@@ -201,11 +201,11 @@ const scienceQuestions = {
                     "Heart",
                     "Brain"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "⚡💡",
+                emoji: "🫁🫀",
                 question: "What is the unit of electrical resistance?",
                 options: [
                     "Volt",
@@ -217,29 +217,29 @@ const scienceQuestions = {
         hard: [
             {
                 topic: "Biology",
-                emoji: "🧬🔬",
+                emoji: "🦷🦴",
                 question: "What is the process of cell division called?",
                 options: [
                     "Meiosis",
                     "Mitosis",
                     "Osmosis"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "⚡🔋",
+                emoji: "👁️👀",
                 question: "What is the unit of force?",
                 options: [
                     "Newton",
                     "Watt",
                     "Joule"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Chemistry",
-                emoji: "⚗️🧪",
+                emoji: "🌤️⛅",
                 question: "What is the pH of pure water?",
                 options: [
                     "7",
@@ -250,18 +250,18 @@ const scienceQuestions = {
             },
             {
                 topic: "Astronomy",
-                emoji: "🌍🌙",
+                emoji: "❄️🌨️",
                 question: "How many planets are in our solar system?",
                 options: [
                     "8",
                     "9",
                     "7"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Biology",
-                emoji: "🫀❤️",
+                emoji: "🌪️💨",
                 question: "Which blood type is the universal donor?",
                 options: [
                     "AB positive",
@@ -272,40 +272,40 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🌡️🔥",
+                emoji: "⚛️🔬",
                 question: "At what temperature does water boil (Celsius)?",
                 options: [
                     "0°C",
                     "100°C",
                     "50°C"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Chemistry",
-                emoji: "💎💍",
+                emoji: "🧪⚗️",
                 question: "What is the chemical symbol for gold?",
                 options: [
                     "Ag",
                     "Fe",
                     "Au"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Astronomy",
-                emoji: "☀️⭐",
+                emoji: "💊💉",
                 question: "What is the closest star to Earth?",
                 options: [
                     "Sirius",
                     "Proxima Centauri",
                     "The Sun"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Biology",
-                emoji: "🦴🦷",
+                emoji: "🔭🌠",
                 question: "How many bones are in the adult human body?",
                 options: [
                     "206",
@@ -316,7 +316,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🔊🎵",
+                emoji: "🌏🗺️",
                 question: "What is the speed of sound in air (approximately)?",
                 options: [
                     "300 m/s",
@@ -349,7 +349,7 @@ const scienceQuestions = {
                     "E=mc²",
                     "F=ma"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Chemistry",
@@ -361,7 +361,7 @@ const scienceQuestions = {
                     "14",
                     "12"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Astronomy",
@@ -373,7 +373,7 @@ const scienceQuestions = {
                     "366 days",
                     "365.25 days"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Biology",
@@ -385,7 +385,7 @@ const scienceQuestions = {
                     "Heart",
                     "Skin"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Physics",
@@ -397,7 +397,7 @@ const scienceQuestions = {
                     "-273.15°C",
                     "-200°C"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Chemistry",
@@ -409,7 +409,7 @@ const scienceQuestions = {
                     "Oxygen",
                     "Helium"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Astronomy",
@@ -433,7 +433,7 @@ const scienceQuestions = {
                     "Botany",
                     "Ecology"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Physics",
@@ -445,7 +445,7 @@ const scienceQuestions = {
                     "Heat",
                     "Light"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         extreme: [
@@ -515,17 +515,17 @@ const scienceQuestions = {
         easy: [
             {
                 topic: "Biology",
-                emoji: "🌱🌿",
+                emoji: "🧬💉",
                 question: "Photosynthesis occurs in the chloroplasts.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "🌊💧",
+                emoji: "⚡🔋",
                 question: "Water boils at 100 degrees Celsius at sea level.",
                 options: [
                     "False",
@@ -535,17 +535,17 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "🧊❄️",
+                emoji: "⚗️🧪",
                 question: "Ice is less dense than liquid water.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Astronomy",
-                emoji: "🌌✨",
+                emoji: "🌍🌙",
                 question: "There are billions of galaxies in the universe.",
                 options: [
                     "False",
@@ -555,37 +555,37 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "🐝🌺",
+                emoji: "🫀💓",
                 question: "Bees help in pollination.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Physics",
-                emoji: "🔦💡",
+                emoji: "🌡️❄️",
                 question: "Light is a form of energy.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Chemistry",
-                emoji: "🔥💨",
+                emoji: "💎✨",
                 question: "Fire needs oxygen to burn.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Astronomy",
-                emoji: "🌟💫",
+                emoji: "☀️🌟",
                 question: "Stars produce their own light.",
                 options: [
                     "True",
@@ -595,59 +595,59 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "🦎🦖",
+                emoji: "🦴🩻",
                 question: "Reptiles are cold-blooded animals.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "🧲⚙️",
+                emoji: "🔊📢",
                 question: "Magnets have north and south poles.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         medium: [
             {
                 topic: "Biology",
-                emoji: "🫁💨",
+                emoji: "🧲🔗",
                 question: "What organ is responsible for breathing?",
                 options: [
                     "Liver",
                     "Lungs"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "⚖️📏",
+                emoji: "🌈🎨",
                 question: "What is the basic unit of mass?",
                 options: [
                     "Kilogram",
                     "Meter"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Chemistry",
-                emoji: "⚛️🔬",
+                emoji: "🔬🧫",
                 question: "What is the smallest unit of an element?",
                 options: [
                     "Molecule",
                     "Atom"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Astronomy",
-                emoji: "🌑🌚",
+                emoji: "🪐🌌",
                 question: "What phase is when the moon is not visible?",
                 options: [
                     "Full Moon",
@@ -657,57 +657,57 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "🦴💪",
+                emoji: "🌿🌱",
                 question: "What connects muscles to bones?",
                 options: [
                     "Tendons",
                     "Ligaments"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Physics",
-                emoji: "🌡️❄️",
+                emoji: "💧💦",
                 question: "What is the freezing point of water in Celsius?",
                 options: [
                     "32°C",
                     "0°C"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Chemistry",
-                emoji: "💧🌊",
+                emoji: "🔥🌋",
                 question: "What is the chemical formula for water?",
                 options: [
                     "H₂O",
                     "CO₂"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Astronomy",
-                emoji: "🔴⭕",
+                emoji: "🌊🌀",
                 question: "What is Mars known as?",
                 options: [
                     "Blue Planet",
                     "Red Planet"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Biology",
-                emoji: "👁️👀",
+                emoji: "🧠💭",
                 question: "What part of the eye gives it color?",
                 options: [
                     "Pupil",
                     "Iris"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "🔌⚡",
+                emoji: "🫁🫀",
                 question: "What is the flow of electrons called?",
                 options: [
                     "Voltage",
@@ -719,62 +719,62 @@ const scienceQuestions = {
         hard: [
             {
                 topic: "Biology",
-                emoji: "🩸💉",
+                emoji: "🦷🦴",
                 question: "What protein carries oxygen in blood?",
                 options: [
                     "Insulin",
                     "Hemoglobin",
                     "Collagen"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "🌈🔆",
+                emoji: "👁️👀",
                 question: "How many colors are in a rainbow?",
                 options: [
                     "7",
                     "5",
                     "6"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Chemistry",
-                emoji: "🧂⚗️",
+                emoji: "🌤️⛅",
                 question: "What is the pH of a neutral solution?",
                 options: [
                     "14",
                     "0",
                     "7"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Astronomy",
-                emoji: "🪐💍",
+                emoji: "❄️🌨️",
                 question: "How many moons does Earth have?",
                 options: [
                     "2",
                     "0",
                     "1"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Biology",
-                emoji: "🧬🔬",
+                emoji: "🌪️💨",
                 question: "How many chromosomes do humans have?",
                 options: [
                     "46",
                     "92",
                     "23"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Physics",
-                emoji: "🏃💨",
+                emoji: "⚛️🔬",
                 question: "What is the SI unit of velocity?",
                 options: [
                     "m/s",
@@ -785,40 +785,40 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "💎🔷",
+                emoji: "🧪⚗️",
                 question: "What is the hardest natural substance?",
                 options: [
                     "Quartz",
                     "Steel",
                     "Diamond"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Astronomy",
-                emoji: "🌍🌎",
+                emoji: "💊💉",
                 question: "What layer protects Earth from UV rays?",
                 options: [
                     "Ionosphere",
                     "Ozone layer",
                     "Atmosphere"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Biology",
-                emoji: "🦷😁",
+                emoji: "🔭🌠",
                 question: "How many teeth does an adult human have?",
                 options: [
                     "28",
                     "32",
                     "30"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "🎵🔊",
+                emoji: "🌏🗺️",
                 question: "What is the unit of frequency?",
                 options: [
                     "Decibel",
@@ -839,7 +839,7 @@ const scienceQuestions = {
                     "Meiosis",
                     "Budding"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Physics",
@@ -875,7 +875,7 @@ const scienceQuestions = {
                     "365 days",
                     "27.3 days"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Biology",
@@ -887,7 +887,7 @@ const scienceQuestions = {
                     "100-120",
                     "40-60"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Physics",
@@ -899,7 +899,7 @@ const scienceQuestions = {
                     "Electromagnetic",
                     "Sound"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Chemistry",
@@ -911,7 +911,7 @@ const scienceQuestions = {
                     "Condensation",
                     "Sublimation"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Astronomy",
@@ -923,7 +923,7 @@ const scienceQuestions = {
                     "Helium",
                     "Carbon"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Biology",
@@ -935,7 +935,7 @@ const scienceQuestions = {
                     "Nephron",
                     "Tissue"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
@@ -947,7 +947,7 @@ const scienceQuestions = {
                     "15 km/s",
                     "7.9 km/s"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         extreme: [
@@ -1017,7 +1017,7 @@ const scienceQuestions = {
         easy: [
             {
                 topic: "Biology",
-                emoji: "🌳🍂",
+                emoji: "🧬💉",
                 question: "Trees produce oxygen during photosynthesis.",
                 options: [
                     "True",
@@ -1027,27 +1027,27 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🎾⚽",
+                emoji: "⚡🔋",
                 question: "Objects in motion tend to stay in motion.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Chemistry",
-                emoji: "🥤💧",
+                emoji: "⚗️🧪",
                 question: "Carbon dioxide makes soda fizzy.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Astronomy",
-                emoji: "☄️💥",
+                emoji: "🌍🌙",
                 question: "Meteors are also called shooting stars.",
                 options: [
                     "False",
@@ -1057,37 +1057,37 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "🐍🦎",
+                emoji: "🫀💓",
                 question: "Snakes are vertebrates.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Physics",
-                emoji: "🔨⚙️",
+                emoji: "🌡️❄️",
                 question: "A lever is a simple machine.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Chemistry",
-                emoji: "🍋🍊",
+                emoji: "💎✨",
                 question: "Citrus fruits contain citric acid.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Astronomy",
-                emoji: "🌕🌖",
+                emoji: "☀️🌟",
                 question: "The Moon goes through phases.",
                 options: [
                     "True",
@@ -1097,7 +1097,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "🐸🦗",
+                emoji: "🦴🩻",
                 question: "Frogs are amphibians.",
                 options: [
                     "True",
@@ -1107,19 +1107,19 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "⏱️⏰",
+                emoji: "🔊📢",
                 question: "Time is measured in seconds.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         medium: [
             {
                 topic: "Biology",
-                emoji: "🧫🔬",
+                emoji: "🧲🔗",
                 question: "What is the study of cells called?",
                 options: [
                     "Cytology",
@@ -1129,27 +1129,27 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🎸🎵",
+                emoji: "🌈🎨",
                 question: "What determines the pitch of sound?",
                 options: [
                     "Frequency",
                     "Amplitude"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Chemistry",
-                emoji: "🔴🔵",
+                emoji: "🔬🧫",
                 question: "What color does litmus paper turn in acid?",
                 options: [
                     "Blue",
                     "Red"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Astronomy",
-                emoji: "🛸🌌",
+                emoji: "🪐🌌",
                 question: "What is the study of space called?",
                 options: [
                     "Astrology",
@@ -1159,7 +1159,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "🌸🌺",
+                emoji: "🌿🌱",
                 question: "What part of the flower produces pollen?",
                 options: [
                     "Pistil",
@@ -1169,7 +1169,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🏔️⛰️",
+                emoji: "💧💦",
                 question: "What type of energy does a rock at a cliff have?",
                 options: [
                     "Potential",
@@ -1179,7 +1179,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "🧊🔥",
+                emoji: "🔥🌋",
                 question: "Is melting ice a physical or chemical change?",
                 options: [
                     "Chemical",
@@ -1189,17 +1189,17 @@ const scienceQuestions = {
             },
             {
                 topic: "Astronomy",
-                emoji: "🌍🌞",
+                emoji: "🌊🌀",
                 question: "What causes day and night on Earth?",
                 options: [
                     "Revolution",
                     "Rotation"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Biology",
-                emoji: "🦋🐛",
+                emoji: "🧠💭",
                 question: "What is the transformation of a caterpillar called?",
                 options: [
                     "Metamorphosis",
@@ -1209,7 +1209,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🎢🎪",
+                emoji: "🫁🫀",
                 question: "What force acts against motion?",
                 options: [
                     "Momentum",
@@ -1221,29 +1221,29 @@ const scienceQuestions = {
         hard: [
             {
                 topic: "Biology",
-                emoji: "🧬🧫",
+                emoji: "🦷🦴",
                 question: "What is the genetic material in cells?",
                 options: [
                     "Protein",
                     "Lipid",
                     "DNA"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "🌊⚡",
+                emoji: "👁️👀",
                 question: "What is the SI unit of energy?",
                 options: [
                     "Newton",
                     "Watt",
                     "Joule"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Chemistry",
-                emoji: "⚛️🔬",
+                emoji: "🌤️⛅",
                 question: "How many electrons does carbon have?",
                 options: [
                     "6",
@@ -1254,18 +1254,18 @@ const scienceQuestions = {
             },
             {
                 topic: "Astronomy",
-                emoji: "🌕🌑",
+                emoji: "❄️🌨️",
                 question: "How long is a lunar cycle?",
                 options: [
                     "29.5 days",
                     "28 days",
                     "30 days"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Biology",
-                emoji: "🫀❤️",
+                emoji: "🌪️💨",
                 question: "Which chamber pumps blood to the body?",
                 options: [
                     "Right atrium",
@@ -1276,58 +1276,58 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🌈💡",
+                emoji: "⚛️🔬",
                 question: "What is the refraction of light?",
                 options: [
                     "Bouncing of light",
                     "Bending of light",
                     "Absorption of light"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Chemistry",
-                emoji: "🧂⚗️",
+                emoji: "🧪⚗️",
                 question: "What is formed when acid reacts with base?",
                 options: [
                     "Gas",
                     "Heat only",
                     "Salt and water"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Astronomy",
-                emoji: "🪐✨",
+                emoji: "💊💉",
                 question: "How many planets have rings?",
                 options: [
                     "2",
                     "4",
                     "1"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Biology",
-                emoji: "🧠🦴",
+                emoji: "🔭🌠",
                 question: "What protects the brain?",
                 options: [
                     "Ribs",
                     "Spine",
                     "Skull"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "🔊🎶",
+                emoji: "🌏🗺️",
                 question: "What is the loudness of sound measured in?",
                 options: [
                     "Decibels",
                     "Hertz",
                     "Watts"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         expert: [
@@ -1341,7 +1341,7 @@ const scienceQuestions = {
                     "Prokaryote",
                     "Virus"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Physics",
@@ -1353,7 +1353,7 @@ const scienceQuestions = {
                     "Ampere",
                     "Joule"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Chemistry",
@@ -1365,7 +1365,7 @@ const scienceQuestions = {
                     "Hydrogen",
                     "Carbon dioxide"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Astronomy",
@@ -1377,7 +1377,7 @@ const scienceQuestions = {
                     "Polaris",
                     "Betelgeuse"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Biology",
@@ -1389,7 +1389,7 @@ const scienceQuestions = {
                     "Genetics",
                     "Ecology"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Physics",
@@ -1401,7 +1401,7 @@ const scienceQuestions = {
                     "Law of Acceleration",
                     "Law of Action"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Chemistry",
@@ -1413,7 +1413,7 @@ const scienceQuestions = {
                     "Nitrogen",
                     "Fluorine"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Astronomy",
@@ -1449,7 +1449,7 @@ const scienceQuestions = {
                     "4.18 J/g°C",
                     "3.14 J/g°C"
                 ],
-                correct: 2
+                correct: 1
             }
         ],
         extreme: [
@@ -1519,37 +1519,37 @@ const scienceQuestions = {
         easy: [
             {
                 topic: "Biology",
-                emoji: "🦴🏥",
+                emoji: "🧬💉",
                 question: "The human skeleton has over 200 bones.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "🌍📍",
+                emoji: "⚡🔋",
                 question: "Gravity pulls objects toward Earth's center.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Chemistry",
-                emoji: "💨🌬️",
+                emoji: "⚗️🧪",
                 question: "Air is a mixture of gases.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Astronomy",
-                emoji: "🌟💫",
+                emoji: "🌍🌙",
                 question: "Stars twinkle because of Earth's atmosphere.",
                 options: [
                     "False",
@@ -1559,17 +1559,17 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "🦷😬",
+                emoji: "🫀💓",
                 question: "Enamel is the hardest substance in the human body.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Physics",
-                emoji: "🔦🌙",
+                emoji: "🌡️❄️",
                 question: "The Moon reflects light from the Sun.",
                 options: [
                     "True",
@@ -1579,17 +1579,17 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "🧪💧",
+                emoji: "💎✨",
                 question: "Pure water is a good conductor of electricity.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Astronomy",
-                emoji: "🌎🌍",
+                emoji: "☀️🌟",
                 question: "Earth is the third planet from the Sun.",
                 options: [
                     "True",
@@ -1599,29 +1599,29 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "🌺🐝",
+                emoji: "🦴🩻",
                 question: "Flowers attract pollinators with colors and scents.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "🏃💨",
+                emoji: "🔊📢",
                 question: "Speed is the rate of change of distance.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         medium: [
             {
                 topic: "Biology",
-                emoji: "🧬🧫",
+                emoji: "🧲🔗",
                 question: "What is the basic building block of life?",
                 options: [
                     "Cell",
@@ -1631,17 +1631,17 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "⚖️📊",
+                emoji: "🌈🎨",
                 question: "What measures the amount of matter in an object?",
                 options: [
                     "Mass",
                     "Weight"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Chemistry",
-                emoji: "🔬⚛️",
+                emoji: "🔬🧫",
                 question: "What determines an element's identity?",
                 options: [
                     "Protons",
@@ -1651,17 +1651,17 @@ const scienceQuestions = {
             },
             {
                 topic: "Astronomy",
-                emoji: "🌓🌔",
+                emoji: "🪐🌌",
                 question: "What causes solar eclipses?",
                 options: [
                     "Moon blocks Sun",
                     "Earth blocks Sun"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Biology",
-                emoji: "🌿☀️",
+                emoji: "🌿🌱",
                 question: "What do plants need for photosynthesis besides light?",
                 options: [
                     "Oxygen and water",
@@ -1671,17 +1671,17 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🎭🔊",
+                emoji: "💧💦",
                 question: "What is an echo?",
                 options: [
                     "Original sound",
                     "Reflected sound"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Chemistry",
-                emoji: "🧂💎",
+                emoji: "🔥🌋",
                 question: "What type of bond is in table salt?",
                 options: [
                     "Covalent",
@@ -1691,17 +1691,17 @@ const scienceQuestions = {
             },
             {
                 topic: "Astronomy",
-                emoji: "🌌🔭",
+                emoji: "🌊🌀",
                 question: "What is a group of stars forming a pattern called?",
                 options: [
                     "Galaxy",
                     "Constellation"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Biology",
-                emoji: "🩸💉",
+                emoji: "🧠💭",
                 question: "What carries blood away from the heart?",
                 options: [
                     "Arteries",
@@ -1711,7 +1711,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🌡️📐",
+                emoji: "🫁🫀",
                 question: "What is the SI unit of length?",
                 options: [
                     "Centimeter",
@@ -1723,7 +1723,7 @@ const scienceQuestions = {
         hard: [
             {
                 topic: "Biology",
-                emoji: "🧠💭",
+                emoji: "🦷🦴",
                 question: "How many neurons are in the human brain (approximately)?",
                 options: [
                     "86 billion",
@@ -1734,7 +1734,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🚀🌌",
+                emoji: "👁️👀",
                 question: "What is Newton's third law?",
                 options: [
                     "Inertia",
@@ -1745,40 +1745,40 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "⚛️🔬",
+                emoji: "🌤️⛅",
                 question: "What is the atomic number of oxygen?",
                 options: [
                     "6",
                     "8",
                     "16"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Astronomy",
-                emoji: "🌞⭐",
+                emoji: "❄️🌨️",
                 question: "What powers the Sun?",
                 options: [
                     "Nuclear fusion",
                     "Combustion",
                     "Nuclear fission"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Biology",
-                emoji: "👂🦻",
+                emoji: "🌪️💨",
                 question: "How many bones are in the human ear?",
                 options: [
                     "5",
                     "2",
                     "3"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Physics",
-                emoji: "🔊📢",
+                emoji: "⚛️🔬",
                 question: "What is the speed of sound in air at 20°C?",
                 options: [
                     "343 m/s",
@@ -1789,18 +1789,18 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "💧🌊",
+                emoji: "🧪⚗️",
                 question: "What is the boiling point of water at high altitude?",
                 options: [
                     "Exactly 100°C",
                     "More than 100°C",
                     "Less than 100°C"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Astronomy",
-                emoji: "🌍🌕",
+                emoji: "💊💉",
                 question: "What is the distance from Earth to Moon?",
                 options: [
                     "384,400 km",
@@ -1811,25 +1811,25 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "🫀💓",
+                emoji: "🔭🌠",
                 question: "How many times does the heart beat per day?",
                 options: [
                     "200,000",
                     "100,000",
                     "50,000"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "⚡🔋",
+                emoji: "🌏🗺️",
                 question: "What is the SI unit of voltage?",
                 options: [
                     "Volt",
                     "Ohm",
                     "Ampere"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         expert: [
@@ -1843,7 +1843,7 @@ const scienceQuestions = {
                     "Thymine",
                     "Cytosine"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Physics",
@@ -1855,7 +1855,7 @@ const scienceQuestions = {
                     "200-600 nm",
                     "100-400 nm"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Chemistry",
@@ -1867,7 +1867,7 @@ const scienceQuestions = {
                     "Covalent",
                     "Hydrogen"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Astronomy",
@@ -1891,7 +1891,7 @@ const scienceQuestions = {
                     "Mitochondria",
                     "Nucleus"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Physics",
@@ -1903,7 +1903,7 @@ const scienceQuestions = {
                     "1.6 × 10⁻¹⁹",
                     "9.8 × 10⁻¹⁰"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Chemistry",
@@ -1927,7 +1927,7 @@ const scienceQuestions = {
                     "25",
                     "50"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Biology",
@@ -1939,7 +1939,7 @@ const scienceQuestions = {
                     "Cuticle",
                     "Epidermis"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Physics",
@@ -1951,7 +1951,7 @@ const scienceQuestions = {
                     "1.38 × 10⁻²³",
                     "6.63 × 10⁻³⁴"
                 ],
-                correct: 3
+                correct: 1
             }
         ],
         extreme: [
@@ -2021,7 +2021,7 @@ const scienceQuestions = {
         easy: [
             {
                 topic: "Biology",
-                emoji: "🌊🐠",
+                emoji: "🧬💉",
                 question: "Fish breathe through gills.",
                 options: [
                     "True",
@@ -2031,7 +2031,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🌡️🧊",
+                emoji: "⚡🔋",
                 question: "Temperature measures how hot or cold something is.",
                 options: [
                     "False",
@@ -2041,7 +2041,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "🧪🔬",
+                emoji: "⚗️🧪",
                 question: "Acids taste sour.",
                 options: [
                     "True",
@@ -2051,17 +2051,17 @@ const scienceQuestions = {
             },
             {
                 topic: "Astronomy",
-                emoji: "☄️💥",
+                emoji: "🌍🌙",
                 question: "Comets have tails made of ice and dust.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Biology",
-                emoji: "🦅🐦",
+                emoji: "🫀💓",
                 question: "Birds have hollow bones.",
                 options: [
                     "False",
@@ -2071,7 +2071,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🌊💧",
+                emoji: "🌡️❄️",
                 question: "Density is mass divided by volume.",
                 options: [
                     "True",
@@ -2081,7 +2081,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "🧂⚗️",
+                emoji: "💎✨",
                 question: "Salt dissolves in water.",
                 options: [
                     "False",
@@ -2091,27 +2091,27 @@ const scienceQuestions = {
             },
             {
                 topic: "Astronomy",
-                emoji: "🌍🌞",
+                emoji: "☀️🌟",
                 question: "Earth orbits the Sun in an ellipse.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Biology",
-                emoji: "🍎🌳",
+                emoji: "🦴🩻",
                 question: "Fruits contain seeds.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "🔌💡",
+                emoji: "🔊📢",
                 question: "Conductors allow electricity to flow easily.",
                 options: [
                     "False",
@@ -2123,17 +2123,17 @@ const scienceQuestions = {
         medium: [
             {
                 topic: "Biology",
-                emoji: "🦴🔬",
+                emoji: "🧲🔗",
                 question: "What type of joint is the shoulder?",
                 options: [
                     "Hinge",
                     "Ball and socket"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "🌈🔆",
+                emoji: "🌈🎨",
                 question: "What happens to light when it passes through a prism?",
                 options: [
                     "Reflects",
@@ -2143,27 +2143,27 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "⚛️💎",
+                emoji: "🔬🧫",
                 question: "What is the lightest element?",
                 options: [
                     "Helium",
                     "Hydrogen"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Astronomy",
-                emoji: "🌑🌚",
+                emoji: "🪐🌌",
                 question: "What is the dark part of the Moon called?",
                 options: [
                     "Maria",
                     "Highlands"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Biology",
-                emoji: "🫁💨",
+                emoji: "🌿🌱",
                 question: "What gas do we exhale?",
                 options: [
                     "Oxygen",
@@ -2173,7 +2173,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🎢⚡",
+                emoji: "💧💦",
                 question: "What type of energy does a moving car have?",
                 options: [
                     "Kinetic",
@@ -2183,17 +2183,17 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "🔥💧",
+                emoji: "🔥🌋",
                 question: "What happens when you add water to acid?",
                 options: [
                     "Exothermic reaction",
                     "Endothermic reaction"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Astronomy",
-                emoji: "🌌✨",
+                emoji: "🌊🌀",
                 question: "What holds galaxies together?",
                 options: [
                     "Gravity",
@@ -2203,7 +2203,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "🌱🌿",
+                emoji: "🧠💭",
                 question: "What is the male part of a flower called?",
                 options: [
                     "Stamen",
@@ -2213,30 +2213,30 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🔊🎵",
+                emoji: "🫁🫀",
                 question: "What is amplitude in sound waves?",
                 options: [
                     "Loudness",
                     "Pitch"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         hard: [
             {
                 topic: "Biology",
-                emoji: "🩸💉",
+                emoji: "🦷🦴",
                 question: "What blood type is the universal recipient?",
                 options: [
                     "A positive",
                     "AB positive",
                     "O negative"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "⚡🔋",
+                emoji: "👁️👀",
                 question: "What is the relationship between voltage, current, and resistance?",
                 options: [
                     "V=I/R",
@@ -2247,29 +2247,29 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "⚛️🔬",
+                emoji: "🌤️⛅",
                 question: "What is the valency of nitrogen?",
                 options: [
                     "2",
                     "3",
                     "5"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Astronomy",
-                emoji: "🌍🛰️",
+                emoji: "❄️🌨️",
                 question: "What is the orbital period of Earth?",
                 options: [
                     "365.25 days",
                     "366 days",
                     "360 days"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Biology",
-                emoji: "👁️🔬",
+                emoji: "🌪️💨",
                 question: "What is the colored part of the eye?",
                 options: [
                     "Retina",
@@ -2280,14 +2280,14 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🌊💧",
+                emoji: "⚛️🔬",
                 question: "What is the SI unit of pressure?",
                 options: [
                     "Atmosphere",
                     "Pascal",
                     "Bar"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Chemistry",
@@ -2298,22 +2298,22 @@ const scienceQuestions = {
                     "Washing soda",
                     "Caustic soda"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Astronomy",
-                emoji: "🌟💫",
+                emoji: "💊💉",
                 question: "What is the final stage of a massive star?",
                 options: [
                     "Red giant",
                     "White dwarf",
                     "Black hole"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Biology",
-                emoji: "🧬🔬",
+                emoji: "🔭🌠",
                 question: "What organelle makes proteins?",
                 options: [
                     "Ribosome",
@@ -2324,14 +2324,14 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🌡️🔥",
+                emoji: "🌏🗺️",
                 question: "What is absolute zero in Kelvin?",
                 options: [
                     "-273 K",
                     "273 K",
                     "0 K"
                 ],
-                correct: 2
+                correct: 1
             }
         ],
         expert: [
@@ -2345,7 +2345,7 @@ const scienceQuestions = {
                     "Fungi",
                     "Bacteria"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Physics",
@@ -2357,7 +2357,7 @@ const scienceQuestions = {
                     "Work = Power",
                     "Work = Force"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Chemistry",
@@ -2369,7 +2369,7 @@ const scienceQuestions = {
                     "Evaporation",
                     "Deposition"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Astronomy",
@@ -2381,7 +2381,7 @@ const scienceQuestions = {
                     "Alpha Centauri",
                     "Proxima Centauri"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Biology",
@@ -2393,7 +2393,7 @@ const scienceQuestions = {
                     "Energy production",
                     "Protein synthesis"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Physics",
@@ -2405,7 +2405,7 @@ const scienceQuestions = {
                     "1.00",
                     "1.33"
                 ],
-                correct: 3
+                correct: 0
             },
             {
                 topic: "Chemistry",
@@ -2417,7 +2417,7 @@ const scienceQuestions = {
                     "1s² 2s² 2p²",
                     "1s² 2s² 2p⁴"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Astronomy",
@@ -2429,7 +2429,7 @@ const scienceQuestions = {
                     "Asteroid belt",
                     "Ring around Saturn"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Biology",
@@ -2441,7 +2441,7 @@ const scienceQuestions = {
                     "Cuticle",
                     "Stomata"
                 ],
-                correct: 3
+                correct: 0
             },
             {
                 topic: "Physics",
@@ -2453,7 +2453,7 @@ const scienceQuestions = {
                     "Change in wave frequency",
                     "Change in wavelength"
                 ],
-                correct: 2
+                correct: 1
             }
         ],
         extreme: [
@@ -2523,7 +2523,7 @@ const scienceQuestions = {
         easy: [
             {
                 topic: "Biology",
-                emoji: "🌾🌽",
+                emoji: "🧬💉",
                 question: "Plants make their own food.",
                 options: [
                     "True",
@@ -2533,7 +2533,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🧲🔩",
+                emoji: "⚡🔋",
                 question: "Opposite magnetic poles attract.",
                 options: [
                     "False",
@@ -2543,27 +2543,27 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "🍬🧂",
+                emoji: "⚗️🧪",
                 question: "Sugar is a type of carbohydrate.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Astronomy",
-                emoji: "🌠✨",
+                emoji: "🌍🌙",
                 question: "The Milky Way is our galaxy.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Biology",
-                emoji: "🦵💪",
+                emoji: "🫀💓",
                 question: "Muscles work in pairs.",
                 options: [
                     "False",
@@ -2573,7 +2573,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "📱🔋",
+                emoji: "🌡️❄️",
                 question: "Batteries store chemical energy.",
                 options: [
                     "True",
@@ -2583,37 +2583,37 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "🌫️💨",
+                emoji: "💎✨",
                 question: "Fog is water vapor.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Astronomy",
-                emoji: "🌗🌘",
+                emoji: "☀️🌟",
                 question: "Moon phases repeat every month.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Biology",
-                emoji: "🐢🥚",
+                emoji: "🦴🩻",
                 question: "Turtles lay eggs.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "🎈☁️",
+                emoji: "🔊📢",
                 question: "Hot air rises.",
                 options: [
                     "False",
@@ -2625,7 +2625,7 @@ const scienceQuestions = {
         medium: [
             {
                 topic: "Biology",
-                emoji: "🧬🧪",
+                emoji: "🧲🔗",
                 question: "What carries genetic information?",
                 options: [
                     "DNA",
@@ -2635,27 +2635,27 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🔭👁️",
+                emoji: "🌈🎨",
                 question: "What bends light in a telescope?",
                 options: [
                     "Lens",
                     "Mirror"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Chemistry",
-                emoji: "🧊💎",
+                emoji: "🔬🧫",
                 question: "What is dry ice made of?",
                 options: [
                     "Solid H₂O",
                     "Solid CO₂"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Astronomy",
-                emoji: "🌅🌄",
+                emoji: "🪐🌌",
                 question: "What causes sunrise colors?",
                 options: [
                     "Cloud reflection",
@@ -2665,7 +2665,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "🍄🌿",
+                emoji: "🌿🌱",
                 question: "What type of organism is yeast?",
                 options: [
                     "Bacteria",
@@ -2675,7 +2675,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🎯🎪",
+                emoji: "💧💦",
                 question: "What keeps planets in orbit?",
                 options: [
                     "Gravity",
@@ -2685,7 +2685,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "🧴🧼",
+                emoji: "🔥🌋",
                 question: "What makes soap clean?",
                 options: [
                     "Alcohol",
@@ -2695,7 +2695,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Astronomy",
-                emoji: "🌎🔄",
+                emoji: "🌊🌀",
                 question: "What causes seasons on Earth?",
                 options: [
                     "Axial tilt",
@@ -2705,7 +2705,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "🐌🐚",
+                emoji: "🧠💭",
                 question: "What is a snail's shell made of?",
                 options: [
                     "Calcium carbonate",
@@ -2715,7 +2715,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🪂⬇️",
+                emoji: "🫁🫀",
                 question: "What opposes falling objects?",
                 options: [
                     "Buoyancy",
@@ -2727,7 +2727,7 @@ const scienceQuestions = {
         hard: [
             {
                 topic: "Biology",
-                emoji: "🧬🔬",
+                emoji: "🦷🦴",
                 question: "What is the shape of DNA?",
                 options: [
                     "Double helix",
@@ -2738,62 +2738,62 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "⚡💡",
+                emoji: "👁️👀",
                 question: "What is the SI unit of capacitance?",
                 options: [
                     "Farad",
                     "Henry",
                     "Coulomb"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Chemistry",
-                emoji: "⚛️🔬",
+                emoji: "🌤️⛅",
                 question: "What is the atomic number of sodium?",
                 options: [
                     "12",
                     "23",
                     "11"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Astronomy",
-                emoji: "🌌💫",
+                emoji: "❄️🌨️",
                 question: "What is the age of the universe (approximately)?",
                 options: [
                     "20 billion years",
                     "10 billion years",
                     "13.8 billion years"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Biology",
-                emoji: "🫀💉",
+                emoji: "🌪️💨",
                 question: "What is the resting heart rate average?",
                 options: [
                     "50 bpm",
                     "100 bpm",
                     "70 bpm"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Physics",
-                emoji: "🌊🔊",
+                emoji: "⚛️🔬",
                 question: "What type of wave is sound?",
                 options: [
                     "Transverse",
                     "Standing",
                     "Longitudinal"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Chemistry",
-                emoji: "💧⚗️",
+                emoji: "🧪⚗️",
                 question: "What is the solvent in a saltwater solution?",
                 options: [
                     "Both",
@@ -2804,36 +2804,36 @@ const scienceQuestions = {
             },
             {
                 topic: "Astronomy",
-                emoji: "🪐🌟",
+                emoji: "💊💉",
                 question: "What is the second largest planet?",
                 options: [
                     "Uranus",
                     "Saturn",
                     "Neptune"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Biology",
-                emoji: "🌿🍃",
+                emoji: "🔭🌠",
                 question: "What gas do plants release at night?",
                 options: [
                     "O₂",
                     "N₂",
                     "CO₂"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "🎢📐",
+                emoji: "🌏🗺️",
                 question: "What is the formula for kinetic energy?",
                 options: [
                     "mc²",
                     "mgh",
                     "½mv²"
                 ],
-                correct: 2
+                correct: 1
             }
         ],
         expert: [
@@ -2847,7 +2847,7 @@ const scienceQuestions = {
                     "Exocytosis",
                     "Phagocytosis"
                 ],
-                correct: 3
+                correct: 0
             },
             {
                 topic: "Physics",
@@ -2859,7 +2859,7 @@ const scienceQuestions = {
                     "Henry",
                     "Farad"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Chemistry",
@@ -2871,7 +2871,7 @@ const scienceQuestions = {
                     "sp³",
                     "sp"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Astronomy",
@@ -2883,7 +2883,7 @@ const scienceQuestions = {
                     "Star radius",
                     "Galaxy radius"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Biology",
@@ -2895,7 +2895,7 @@ const scienceQuestions = {
                     "UAG",
                     "UGA"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Physics",
@@ -2943,7 +2943,7 @@ const scienceQuestions = {
                     "Nitrogen cycle",
                     "Dark reaction of photosynthesis"
                 ],
-                correct: 3
+                correct: 0
             },
             {
                 topic: "Physics",
@@ -2955,7 +2955,7 @@ const scienceQuestions = {
                     "Frequency/Wavelength",
                     "Speed/Sound speed"
                 ],
-                correct: 3
+                correct: 1
             }
         ],
         extreme: [
@@ -3025,17 +3025,17 @@ const scienceQuestions = {
         easy: [
             {
                 topic: "Biology",
-                emoji: "🐕🐈",
+                emoji: "🧬💉",
                 question: "Mammals give birth to live young.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "🎨🌈",
+                emoji: "⚡🔋",
                 question: "White light contains all colors.",
                 options: [
                     "False",
@@ -3045,7 +3045,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "🧂💧",
+                emoji: "⚗️🧪",
                 question: "Salt increases water's boiling point.",
                 options: [
                     "True",
@@ -3055,7 +3055,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Astronomy",
-                emoji: "🌛🌜",
+                emoji: "🌍🌙",
                 question: "We see only one side of the Moon.",
                 options: [
                     "False",
@@ -3065,7 +3065,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "🦟🩸",
+                emoji: "🫀💓",
                 question: "Mosquitoes can transmit diseases.",
                 options: [
                     "False",
@@ -3075,27 +3075,27 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "⚖️📊",
+                emoji: "🌡️❄️",
                 question: "Weight changes with location.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Chemistry",
-                emoji: "🔴🟦",
+                emoji: "💎✨",
                 question: "Indicators change color in acids and bases.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Astronomy",
-                emoji: "💫⭐",
+                emoji: "☀️🌟",
                 question: "Stars are born in nebulae.",
                 options: [
                     "True",
@@ -3105,39 +3105,39 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "🌵🏜️",
+                emoji: "🦴🩻",
                 question: "Cacti store water in their stems.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "🏋️💪",
+                emoji: "🔊📢",
                 question: "Work requires force and displacement.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         medium: [
             {
                 topic: "Biology",
-                emoji: "🔬🧬",
+                emoji: "🧲🔗",
                 question: "What is the study of genes called?",
                 options: [
                     "Genomics",
                     "Genetics"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "🚗⚡",
+                emoji: "🌈🎨",
                 question: "What converts kinetic to electrical energy?",
                 options: [
                     "Motor",
@@ -3147,7 +3147,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "🧊🔥",
+                emoji: "🔬🧫",
                 question: "What is a reaction that absorbs heat called?",
                 options: [
                     "Endothermic",
@@ -3157,37 +3157,37 @@ const scienceQuestions = {
             },
             {
                 topic: "Astronomy",
-                emoji: "🌍⚡",
+                emoji: "🪐🌌",
                 question: "What protects Earth from solar wind?",
                 options: [
                     "Magnetic field",
                     "Atmosphere"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Biology",
-                emoji: "🍄🦠",
+                emoji: "🌿🌱",
                 question: "What breaks down dead organisms?",
                 options: [
                     "Decomposers",
                     "Producers"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Physics",
-                emoji: "🔊🎶",
+                emoji: "💧💦",
                 question: "What is the speed of sound affected by?",
                 options: [
                     "Source",
                     "Medium"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Chemistry",
-                emoji: "⚗️🧪",
+                emoji: "🔥🌋",
                 question: "What is a substance that speeds up reactions?",
                 options: [
                     "Inhibitor",
@@ -3197,27 +3197,27 @@ const scienceQuestions = {
             },
             {
                 topic: "Astronomy",
-                emoji: "🛰️🌍",
+                emoji: "🌊🌀",
                 question: "What is an artificial satellite?",
                 options: [
                     "Natural moon",
                     "Man-made orbiter"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Biology",
-                emoji: "🦴🩻",
+                emoji: "🧠💭",
                 question: "What is the study of bones called?",
                 options: [
                     "Cardiology",
                     "Osteology"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "📐🔺",
+                emoji: "🫁🫀",
                 question: "What is the sum of angles in a triangle?",
                 options: [
                     "360 degrees",
@@ -3229,18 +3229,18 @@ const scienceQuestions = {
         hard: [
             {
                 topic: "Biology",
-                emoji: "🧬🔬",
+                emoji: "🦷🦴",
                 question: "How many pairs of chromosomes in humans?",
                 options: [
                     "22",
                     "46",
                     "23"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "⚡🔋",
+                emoji: "👁️👀",
                 question: "What is the power formula?",
                 options: [
                     "P=W+t",
@@ -3251,18 +3251,18 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "⚛️🔬",
+                emoji: "🌤️⛅",
                 question: "What is the mass number?",
                 options: [
                     "Protons only",
                     "Protons + Neutrons",
                     "Electrons + Protons"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Astronomy",
-                emoji: "🌌💫",
+                emoji: "❄️🌨️",
                 question: "What holds the solar system together?",
                 options: [
                     "Dark matter",
@@ -3273,7 +3273,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "🫀💓",
+                emoji: "🌪️💨",
                 question: "Which side of the heart has oxygenated blood?",
                 options: [
                     "Both",
@@ -3284,58 +3284,58 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🌡️🔥",
+                emoji: "⚛️🔬",
                 question: "What is the SI unit of heat?",
                 options: [
                     "BTU",
                     "Joule",
                     "Calorie"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Chemistry",
-                emoji: "💧⚗️",
+                emoji: "🧪⚗️",
                 question: "What is the molarity unit?",
                 options: [
                     "mol/L",
                     "mol/kg",
                     "g/L"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Astronomy",
-                emoji: "☀️⭐",
+                emoji: "💊💉",
                 question: "What is the Sun's surface layer called?",
                 options: [
                     "Chromosphere",
                     "Corona",
                     "Photosphere"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Biology",
-                emoji: "👁️🔬",
+                emoji: "🔭🌠",
                 question: "What detects color in the eye?",
                 options: [
                     "Lens",
                     "Rods",
                     "Cones"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "🔊📢",
+                emoji: "🌏🗺️",
                 question: "What is ultrasound frequency?",
                 options: [
                     "Above 20 kHz",
                     "20-20,000 Hz",
                     "Below 20 Hz"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         expert: [
@@ -3349,7 +3349,7 @@ const scienceQuestions = {
                     "Vacuole",
                     "Nucleus"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
@@ -3361,7 +3361,7 @@ const scienceQuestions = {
                     "A·m",
                     "V·m"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Chemistry",
@@ -3385,7 +3385,7 @@ const scienceQuestions = {
                     "1 light-year",
                     "100 light-years"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Biology",
@@ -3397,7 +3397,7 @@ const scienceQuestions = {
                     "Polymerase",
                     "Helicase"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Physics",
@@ -3409,7 +3409,7 @@ const scienceQuestions = {
                     "Light absorbed",
                     "Light passes through"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Chemistry",
@@ -3421,7 +3421,7 @@ const scienceQuestions = {
                     "Tetrahedral",
                     "Linear"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Astronomy",
@@ -3433,7 +3433,7 @@ const scienceQuestions = {
                     "Callisto",
                     "Titan"
                 ],
-                correct: 3
+                correct: 0
             },
             {
                 topic: "Biology",
@@ -3445,7 +3445,7 @@ const scienceQuestions = {
                     "Adrenaline",
                     "Insulin"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
@@ -3457,7 +3457,7 @@ const scienceQuestions = {
                     "Amplitude increase",
                     "Wave interference"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         extreme: [
@@ -3527,7 +3527,7 @@ const scienceQuestions = {
         easy: [
             {
                 topic: "Biology",
-                emoji: "🐛🦋",
+                emoji: "🧬💉",
                 question: "Insects have six legs.",
                 options: [
                     "True",
@@ -3537,17 +3537,17 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🛷❄️",
+                emoji: "⚡🔋",
                 question: "Friction can be reduced by lubricants.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Chemistry",
-                emoji: "🍷🍇",
+                emoji: "⚗️🧪",
                 question: "Fermentation produces alcohol.",
                 options: [
                     "True",
@@ -3557,17 +3557,17 @@ const scienceQuestions = {
             },
             {
                 topic: "Astronomy",
-                emoji: "🌍🌕",
+                emoji: "🌍🌙",
                 question: "The Moon causes ocean tides.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Biology",
-                emoji: "🌺🌸",
+                emoji: "🫀💓",
                 question: "Pollination is necessary for fruit formation.",
                 options: [
                     "False",
@@ -3577,7 +3577,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🔴🔵",
+                emoji: "🌡️❄️",
                 question: "Red light has lower frequency than blue.",
                 options: [
                     "True",
@@ -3587,17 +3587,17 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "🧽🧼",
+                emoji: "💎✨",
                 question: "Soap works by forming micelles.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Astronomy",
-                emoji: "⭐💫",
+                emoji: "☀️🌟",
                 question: "Stars eventually run out of fuel.",
                 options: [
                     "True",
@@ -3607,7 +3607,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "🦈🐬",
+                emoji: "🦴🩻",
                 question: "Dolphins are mammals, not fish.",
                 options: [
                     "True",
@@ -3617,59 +3617,59 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "⚡💡",
+                emoji: "🔊📢",
                 question: "LED bulbs are more efficient than incandescent.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         medium: [
             {
                 topic: "Biology",
-                emoji: "🧬🔬",
+                emoji: "🧲🔗",
                 question: "What determines biological sex?",
                 options: [
                     "Hormones",
                     "Sex chromosomes"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "🌊💧",
+                emoji: "🌈🎨",
                 question: "What property makes water rise in capillaries?",
                 options: [
                     "Surface tension",
                     "Viscosity"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Chemistry",
-                emoji: "⚛️🔬",
+                emoji: "🔬🧫",
                 question: "What is an isotope?",
                 options: [
                     "Different protons",
                     "Same protons, different neutrons"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Astronomy",
-                emoji: "🌌✨",
+                emoji: "🪐🌌",
                 question: "What is a supernova?",
                 options: [
                     "Exploding star",
                     "New star"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Biology",
-                emoji: "🦴💪",
+                emoji: "🌿🌱",
                 question: "What mineral strengthens bones?",
                 options: [
                     "Iron",
@@ -3679,7 +3679,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🔊🎵",
+                emoji: "💧💦",
                 question: "What makes sound louder?",
                 options: [
                     "Greater amplitude",
@@ -3689,17 +3689,17 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "💧⚗️",
+                emoji: "🔥🌋",
                 question: "What is hard water?",
                 options: [
                     "High mineral content",
                     "Frozen water"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Astronomy",
-                emoji: "🌍🔄",
+                emoji: "🌊🌀",
                 question: "What is Earth's rotation period?",
                 options: [
                     "24 hours",
@@ -3709,17 +3709,17 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "🍃🌿",
+                emoji: "🧠💭",
                 question: "What is transpiration?",
                 options: [
                     "Photosynthesis",
                     "Water loss from leaves"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "🎯⚖️",
+                emoji: "🫁🫀",
                 question: "What is the center of gravity?",
                 options: [
                     "Heaviest point",
@@ -3731,40 +3731,40 @@ const scienceQuestions = {
         hard: [
             {
                 topic: "Biology",
-                emoji: "🧬🔬",
+                emoji: "🦷🦴",
                 question: "What are the building blocks of proteins?",
                 options: [
                     "Nucleotides",
                     "Amino acids",
                     "Fatty acids"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "⚡🔋",
+                emoji: "👁️👀",
                 question: "What is the SI unit of magnetic field?",
                 options: [
                     "Tesla",
                     "Gauss",
                     "Weber"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Chemistry",
-                emoji: "⚛️🔬",
+                emoji: "🌤️⛅",
                 question: "What is the noble gas configuration of sodium ion?",
                 options: [
                     "Like Helium",
                     "Like Argon",
                     "Like Neon"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Astronomy",
-                emoji: "🌌💫",
+                emoji: "❄️🌨️",
                 question: "What type of galaxy is the Milky Way?",
                 options: [
                     "Irregular",
@@ -3775,7 +3775,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "🫀💓",
+                emoji: "🌪️💨",
                 question: "What is the largest artery?",
                 options: [
                     "Carotid",
@@ -3786,29 +3786,29 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🌡️🔥",
+                emoji: "⚛️🔬",
                 question: "What is latent heat?",
                 options: [
                     "Heat with temperature change",
                     "Heat without temperature change",
                     "Heat loss"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Chemistry",
-                emoji: "💧⚗️",
+                emoji: "🧪⚗️",
                 question: "What is the common name for H₂O₂?",
                 options: [
                     "Hydrogen peroxide",
                     "Heavy water",
                     "Water"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Astronomy",
-                emoji: "☀️⭐",
+                emoji: "💊💉",
                 question: "What color is the hottest star?",
                 options: [
                     "Blue",
@@ -3819,7 +3819,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "👁️🔬",
+                emoji: "🔭🌠",
                 question: "What is the blind spot in the eye?",
                 options: [
                     "Where optic nerve exits",
@@ -3830,14 +3830,14 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🔊📢",
+                emoji: "🌏🗺️",
                 question: "What is infrasound?",
                 options: [
                     "Above 20 kHz",
                     "20-20,000 Hz",
                     "Below 20 Hz"
                 ],
-                correct: 2
+                correct: 1
             }
         ],
         expert: [
@@ -3851,7 +3851,7 @@ const scienceQuestions = {
                     "Package and modify proteins",
                     "Protein synthesis"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Physics",
@@ -3875,7 +3875,7 @@ const scienceQuestions = {
                     "Strong base",
                     "Neutral solution"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Astronomy",
@@ -3899,7 +3899,7 @@ const scienceQuestions = {
                     "Gene expression",
                     "Exchange of chromosome segments"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Physics",
@@ -3911,7 +3911,7 @@ const scienceQuestions = {
                     "Light bending",
                     "Light waves in one plane"
                 ],
-                correct: 3
+                correct: 0
             },
             {
                 topic: "Chemistry",
@@ -3923,7 +3923,7 @@ const scienceQuestions = {
                     "-1",
                     "+2"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Astronomy",
@@ -3935,7 +3935,7 @@ const scienceQuestions = {
                     "Crater",
                     "Giant storm"
                 ],
-                correct: 3
+                correct: 0
             },
             {
                 topic: "Biology",
@@ -3959,7 +3959,7 @@ const scienceQuestions = {
                     "Difference of two frequencies",
                     "Product of frequencies"
                 ],
-                correct: 2
+                correct: 1
             }
         ],
         extreme: [
@@ -4029,88 +4029,48 @@ const scienceQuestions = {
         easy: [
             {
                 topic: "Biology",
-                emoji: "🌳🍁",
+                emoji: "🧬💉",
                 question: "Trees lose leaves in autumn.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "🎾🏀",
+                emoji: "⚡🔋",
                 question: "Heavier objects fall faster than lighter ones.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Chemistry",
-                emoji: "🧪💧",
+                emoji: "⚗️🧪",
                 question: "Water expands when it freezes.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Astronomy",
-                emoji: "🌍☀️",
+                emoji: "🌍🌙",
                 question: "Earth is closest to Sun in January.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
-            },
-            {
-                topic: "Biology",
-                emoji: "🦴🦷",
-                question: "Teeth are part of the skeletal system.",
-                options: [
-                    "False",
-                    "True"
-                ],
-                correct: 0
-            },
-            {
-                topic: "Physics",
-                emoji: "🔌⚡",
-                question: "Insulators prevent flow of electricity.",
-                options: [
-                    "True",
-                    "False"
-                ],
-                correct: 0
-            },
-            {
-                topic: "Chemistry",
-                emoji: "🔥💨",
-                question: "Combustion requires oxygen.",
-                options: [
-                    "False",
-                    "True"
-                ],
                 correct: 1
             },
             {
-                topic: "Astronomy",
-                emoji: "🌙✨",
-                question: "Moonlight is reflected sunlight.",
-                options: [
-                    "True",
-                    "False"
-                ],
-                correct: 0
-            },
-            {
                 topic: "Biology",
-                emoji: "🐘🦏",
-                question: "Elephants are the largest land mammals.",
+                emoji: "🫀💓",
+                question: "Teeth are part of the skeletal system.",
                 options: [
                     "False",
                     "True"
@@ -4120,18 +4080,58 @@ const scienceQuestions = {
             {
                 topic: "Physics",
                 emoji: "🌡️❄️",
-                question: "Temperature measures average kinetic energy.",
+                question: "Insulators prevent flow of electricity.",
                 options: [
                     "True",
                     "False"
                 ],
                 correct: 0
+            },
+            {
+                topic: "Chemistry",
+                emoji: "💎✨",
+                question: "Combustion requires oxygen.",
+                options: [
+                    "False",
+                    "True"
+                ],
+                correct: 1
+            },
+            {
+                topic: "Astronomy",
+                emoji: "☀️🌟",
+                question: "Moonlight is reflected sunlight.",
+                options: [
+                    "True",
+                    "False"
+                ],
+                correct: 0
+            },
+            {
+                topic: "Biology",
+                emoji: "🦴🩻",
+                question: "Elephants are the largest land mammals.",
+                options: [
+                    "False",
+                    "True"
+                ],
+                correct: 0
+            },
+            {
+                topic: "Physics",
+                emoji: "🔊📢",
+                question: "Temperature measures average kinetic energy.",
+                options: [
+                    "True",
+                    "False"
+                ],
+                correct: 1
             }
         ],
         medium: [
             {
                 topic: "Biology",
-                emoji: "🧬🔬",
+                emoji: "🧲🔗",
                 question: "What is the process of making RNA from DNA?",
                 options: [
                     "Transcription",
@@ -4141,7 +4141,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "⚡💡",
+                emoji: "🌈🎨",
                 question: "What measures electric current?",
                 options: [
                     "Voltmeter",
@@ -4151,7 +4151,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "⚛️🔬",
+                emoji: "🔬🧫",
                 question: "What is the charge of a proton?",
                 options: [
                     "Positive",
@@ -4161,27 +4161,27 @@ const scienceQuestions = {
             },
             {
                 topic: "Astronomy",
-                emoji: "🌌✨",
+                emoji: "🪐🌌",
                 question: "Is a light-year a measure of distance or time?",
                 options: [
                     "Distance",
                     "Time"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Biology",
-                emoji: "🫀💓",
+                emoji: "🌿🌱",
                 question: "Which blood cells fight infection?",
                 options: [
                     "White",
                     "Red"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Physics",
-                emoji: "🎵🔊",
+                emoji: "💧💦",
                 question: "What determines pitch of sound?",
                 options: [
                     "Frequency",
@@ -4191,7 +4191,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "💧⚗️",
+                emoji: "🔥🌋",
                 question: "What makes water a universal solvent?",
                 options: [
                     "Size",
@@ -4201,27 +4201,27 @@ const scienceQuestions = {
             },
             {
                 topic: "Astronomy",
-                emoji: "☀️⭐",
+                emoji: "🌊🌀",
                 question: "What is our Sun classified as?",
                 options: [
                     "Planet",
                     "Star"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Biology",
-                emoji: "🌿🍃",
+                emoji: "🧠💭",
                 question: "What is the female part of flower?",
                 options: [
                     "Stamen",
                     "Pistil"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "🏔️⛰️",
+                emoji: "🫁🫀",
                 question: "What type of energy does height give?",
                 options: [
                     "Kinetic",
@@ -4233,7 +4233,7 @@ const scienceQuestions = {
         hard: [
             {
                 topic: "Biology",
-                emoji: "🧬🔬",
+                emoji: "🦷🦴",
                 question: "What are the three types of RNA?",
                 options: [
                     "mRNA, tRNA, rRNA",
@@ -4244,18 +4244,18 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "⚡🔋",
+                emoji: "👁️👀",
                 question: "What is EMF?",
                 options: [
                     "Electromotive force",
                     "Electric motor force",
                     "Electromagnetic field"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Chemistry",
-                emoji: "⚛️🔬",
+                emoji: "🌤️⛅",
                 question: "What is an allotrope?",
                 options: [
                     "Different forms of same element",
@@ -4266,7 +4266,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Astronomy",
-                emoji: "🌌💫",
+                emoji: "❄️🌨️",
                 question: "What is dark matter?",
                 options: [
                     "Black holes",
@@ -4277,51 +4277,51 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "👁️🔬",
+                emoji: "🌪️💨",
                 question: "What controls pupil size?",
                 options: [
                     "Cornea",
                     "Lens",
                     "Iris muscles"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Physics",
-                emoji: "🌊💧",
+                emoji: "⚛️🔬",
                 question: "What is Archimedes principle?",
                 options: [
                     "Objects float",
                     "Buoyant force equals displaced fluid weight",
                     "Density measure"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Chemistry",
-                emoji: "💧⚗️",
+                emoji: "🧪⚗️",
                 question: "What is Le Chatelier's principle?",
                 options: [
                     "System adjusts to oppose change",
                     "Equilibrium is static",
                     "Reactions go forward"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Astronomy",
-                emoji: "☀️⭐",
+                emoji: "💊💉",
                 question: "What streams from the Sun continuously?",
                 options: [
                     "Heat from Sun",
                     "Solar radiation",
                     "Stream of charged particles"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Biology",
-                emoji: "🦴💪",
+                emoji: "🔭🌠",
                 question: "What is cartilage?",
                 options: [
                     "Flexible connective tissue",
@@ -4332,14 +4332,14 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🌡️🔥",
+                emoji: "🌏🗺️",
                 question: "What is thermal equilibrium?",
                 options: [
                     "No heat transfer",
                     "Maximum heat",
                     "Same temperature"
                 ],
-                correct: 2
+                correct: 1
             }
         ],
         expert: [
@@ -4353,7 +4353,7 @@ const scienceQuestions = {
                     "Cell division",
                     "Programmed cell death"
                 ],
-                correct: 3
+                correct: 0
             },
             {
                 topic: "Physics",
@@ -4365,7 +4365,7 @@ const scienceQuestions = {
                     "Resistance decreases",
                     "Voltage increases"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Chemistry",
@@ -4389,7 +4389,7 @@ const scienceQuestions = {
                     "Galaxy classification",
                     "Series of measurement methods"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Biology",
@@ -4413,7 +4413,7 @@ const scienceQuestions = {
                     "Reflection angle",
                     "Angle of perfect polarization"
                 ],
-                correct: 3
+                correct: 0
             },
             {
                 topic: "Chemistry",
@@ -4425,7 +4425,7 @@ const scienceQuestions = {
                     "Both bases",
                     "Same pH"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Astronomy",
@@ -4437,7 +4437,7 @@ const scienceQuestions = {
                     "Cloud formation",
                     "Reflected light"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Biology",
@@ -4449,7 +4449,7 @@ const scienceQuestions = {
                     "Respiration",
                     "Photosynthesis"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
@@ -4461,7 +4461,7 @@ const scienceQuestions = {
                     "Sound frequency",
                     "Resistance to sound wave"
                 ],
-                correct: 3
+                correct: 1
             }
         ],
         extreme: [
@@ -4531,7 +4531,7 @@ const scienceQuestions = {
         easy: [
             {
                 topic: "Biology",
-                emoji: "🐜🐝",
+                emoji: "🧬💉",
                 question: "Insects have three body parts.",
                 options: [
                     "True",
@@ -4541,18 +4541,28 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🌈🔆",
+                emoji: "⚡🔋",
                 question: "A rainbow forms when light refracts in water droplets.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Chemistry",
-                emoji: "💎💍",
+                emoji: "⚗️🧪",
                 question: "Graphite and diamond are both made of carbon.",
+                options: [
+                    "False",
+                    "True"
+                ],
+                correct: 0
+            },
+            {
+                topic: "Astronomy",
+                emoji: "🌍🌙",
+                question: "All stars eventually become black holes.",
                 options: [
                     "False",
                     "True"
@@ -4560,28 +4570,18 @@ const scienceQuestions = {
                 correct: 1
             },
             {
-                topic: "Astronomy",
-                emoji: "🌌⭐",
-                question: "All stars eventually become black holes.",
-                options: [
-                    "False",
-                    "True"
-                ],
-                correct: 0
-            },
-            {
                 topic: "Biology",
-                emoji: "🍄🌲",
+                emoji: "🫀💓",
                 question: "Mushrooms are decomposers in ecosystems.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Physics",
-                emoji: "⚡🔋",
+                emoji: "🌡️❄️",
                 question: "Series circuits have one path for current.",
                 options: [
                     "True",
@@ -4591,7 +4591,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "🧪⚗️",
+                emoji: "💎✨",
                 question: "Catalysts are consumed in reactions.",
                 options: [
                     "True",
@@ -4601,7 +4601,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Astronomy",
-                emoji: "🌍🌕",
+                emoji: "☀️🌟",
                 question: "A lunar eclipse occurs when Earth blocks sunlight to Moon.",
                 options: [
                     "True",
@@ -4611,17 +4611,17 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "🦷😁",
+                emoji: "🦴🩻",
                 question: "Humans have two sets of teeth in life.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "🌡️🔥",
+                emoji: "🔊📢",
                 question: "Heat flows from cold to hot naturally.",
                 options: [
                     "True",
@@ -4633,17 +4633,17 @@ const scienceQuestions = {
         medium: [
             {
                 topic: "Biology",
-                emoji: "🧬🔬",
+                emoji: "🧲🔗",
                 question: "What is a mutation?",
                 options: [
                     "Cell division",
                     "Change in DNA"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "⚖️📊",
+                emoji: "🌈🎨",
                 question: "What is the difference between mass and weight?",
                 options: [
                     "No difference",
@@ -4653,7 +4653,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "⚛️🔬",
+                emoji: "🔬🧫",
                 question: "What determines chemical properties?",
                 options: [
                     "Electrons",
@@ -4663,17 +4663,17 @@ const scienceQuestions = {
             },
             {
                 topic: "Astronomy",
-                emoji: "🌌✨",
+                emoji: "🪐🌌",
                 question: "What is a nebula?",
                 options: [
                     "Cloud of gas and dust",
                     "Dead star"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Biology",
-                emoji: "🫀💓",
+                emoji: "🌿🌱",
                 question: "What is the function of valves in heart?",
                 options: [
                     "Pump blood",
@@ -4683,27 +4683,27 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🔊🎵",
+                emoji: "💧💦",
                 question: "What is resonant frequency?",
                 options: [
                     "Loudest frequency",
                     "Natural vibration frequency"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Chemistry",
-                emoji: "💧⚗️",
+                emoji: "🔥🌋",
                 question: "What is a saturated solution?",
                 options: [
                     "Maximum dissolved solute",
                     "Dilute solution"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Astronomy",
-                emoji: "☀️⭐",
+                emoji: "🌊🌀",
                 question: "What are sunspots?",
                 options: [
                     "Cool areas on Sun",
@@ -4713,7 +4713,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "🌿🍃",
+                emoji: "🧠💭",
                 question: "What are guard cells?",
                 options: [
                     "Control stomata",
@@ -4723,19 +4723,19 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🏃💨",
+                emoji: "🫁🫀",
                 question: "What is acceleration?",
                 options: [
                     "Change in velocity",
                     "Constant speed"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         hard: [
             {
                 topic: "Biology",
-                emoji: "🧬🔬",
+                emoji: "🦷🦴",
                 question: "What is the human diploid number?",
                 options: [
                     "46",
@@ -4746,18 +4746,18 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "⚡🔋",
+                emoji: "👁️👀",
                 question: "What is Ohm's law?",
                 options: [
                     "P=VI",
                     "Q=It",
                     "V=IR"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Chemistry",
-                emoji: "⚛️🔬",
+                emoji: "🌤️⛅",
                 question: "What is the electron configuration notation?",
                 options: [
                     "1s² 2s² 2p⁶...",
@@ -4768,7 +4768,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Astronomy",
-                emoji: "🌌💫",
+                emoji: "❄️🌨️",
                 question: "What is gravitational lensing?",
                 options: [
                     "Star formation",
@@ -4779,18 +4779,18 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "👁️🔬",
+                emoji: "🌪️💨",
                 question: "What is accommodation in the eye?",
                 options: [
                     "Lens shape change",
                     "Pupil dilation",
                     "Color perception"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Physics",
-                emoji: "🌊💧",
+                emoji: "⚛️🔬",
                 question: "What effect causes siren pitch change?",
                 options: [
                     "Frequency change with motion",
@@ -4801,18 +4801,18 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "💧⚗️",
+                emoji: "🧪⚗️",
                 question: "What is a colligative property?",
                 options: [
                     "Depends on particle number",
                     "Depends on particle type",
                     "Constant property"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Astronomy",
-                emoji: "☀️⭐",
+                emoji: "💊💉",
                 question: "What is stellar parallax?",
                 options: [
                     "Apparent star shift",
@@ -4823,25 +4823,25 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "🦴💪",
+                emoji: "🔭🌠",
                 question: "What is ossification?",
                 options: [
                     "Joint movement",
                     "Bone formation",
                     "Bone breaking"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "🌡️🔥",
+                emoji: "🌏🗺️",
                 question: "What is the zeroth law of thermodynamics?",
                 options: [
                     "Thermal equilibrium is transitive",
                     "Entropy increases",
                     "Energy conserved"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         expert: [
@@ -4855,7 +4855,7 @@ const scienceQuestions = {
                     "Protein synthesis theory",
                     "Organelles from symbiotic bacteria"
                 ],
-                correct: 3
+                correct: 0
             },
             {
                 topic: "Physics",
@@ -4867,7 +4867,7 @@ const scienceQuestions = {
                     "Force on charged particle in fields",
                     "Friction force"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Chemistry",
@@ -4879,7 +4879,7 @@ const scienceQuestions = {
                     "Ion/molecule that binds to metal",
                     "Catalyst"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Astronomy",
@@ -4891,7 +4891,7 @@ const scienceQuestions = {
                     "Star formation rate",
                     "Galaxy age"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Biology",
@@ -4903,7 +4903,7 @@ const scienceQuestions = {
                     "Cuts DNA at specific sequences",
                     "Reads DNA"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Physics",
@@ -4915,7 +4915,7 @@ const scienceQuestions = {
                     "n₁sinθ₁ = n₂sinθ₂",
                     "n₁θ₁ = n₂θ₂"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Chemistry",
@@ -4927,7 +4927,7 @@ const scienceQuestions = {
                     "Electrons fill lowest energy first",
                     "Electrons spread out"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Astronomy",
@@ -4939,7 +4939,7 @@ const scienceQuestions = {
                     "Orbital distance",
                     "Tidal disruption distance"
                 ],
-                correct: 3
+                correct: 0
             },
             {
                 topic: "Biology",
@@ -4951,7 +4951,7 @@ const scienceQuestions = {
                     "Diffusion",
                     "ATP synthesis via proton gradient"
                 ],
-                correct: 3
+                correct: 0
             },
             {
                 topic: "Physics",
@@ -4963,7 +4963,7 @@ const scienceQuestions = {
                     "Filter noise",
                     "Amplify signal"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         extreme: [
@@ -5033,17 +5033,17 @@ const scienceQuestions = {
         easy: [
             {
                 topic: "Biology",
-                emoji: "🦠🧬",
+                emoji: "🧬💉",
                 question: "Viruses need host cells to reproduce.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "🔦💡",
+                emoji: "⚡🔋",
                 question: "Mirrors reflect light.",
                 options: [
                     "False",
@@ -5053,17 +5053,17 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "🥛🦴",
+                emoji: "⚗️🧪",
                 question: "Milk contains calcium.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Astronomy",
-                emoji: "🌓🌔",
+                emoji: "🌍🌙",
                 question: "The Moon orbits Earth.",
                 options: [
                     "False",
@@ -5073,7 +5073,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "🥕👁️",
+                emoji: "🫀💓",
                 question: "Carrots are good for eyesight.",
                 options: [
                     "False",
@@ -5083,7 +5083,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🎸🔊",
+                emoji: "🌡️❄️",
                 question: "Guitars produce sound through vibrating strings.",
                 options: [
                     "True",
@@ -5093,27 +5093,27 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "🍞🧪",
+                emoji: "💎✨",
                 question: "Yeast is used in baking bread.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Astronomy",
-                emoji: "☄️🌍",
+                emoji: "☀️🌟",
                 question: "Most meteorites burn up in atmosphere.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Biology",
-                emoji: "🐝🍯",
+                emoji: "🦴🩻",
                 question: "Bees produce honey.",
                 options: [
                     "True",
@@ -5123,19 +5123,19 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "❄️🧊",
+                emoji: "🔊📢",
                 question: "Ice is slippery due to thin water layer.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         medium: [
             {
                 topic: "Biology",
-                emoji: "🧬🔬",
+                emoji: "🧲🔗",
                 question: "What is the basic unit of heredity?",
                 options: [
                     "Gene",
@@ -5145,7 +5145,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🔋⚡",
+                emoji: "🌈🎨",
                 question: "What type of current do batteries provide?",
                 options: [
                     "Alternating current",
@@ -5155,17 +5155,17 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "⚛️🔬",
+                emoji: "🔬🧫",
                 question: "What is a covalent bond?",
                 options: [
                     "Transferring electrons",
                     "Sharing electrons"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Astronomy",
-                emoji: "🌌🔭",
+                emoji: "🪐🌌",
                 question: "What is the closest galaxy to Milky Way?",
                 options: [
                     "Triangulum",
@@ -5175,7 +5175,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "🦴💪",
+                emoji: "🌿🌱",
                 question: "What is the largest muscle in body?",
                 options: [
                     "Biceps",
@@ -5185,7 +5185,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🌊💧",
+                emoji: "💧💦",
                 question: "What is the bending of waves called?",
                 options: [
                     "Refraction",
@@ -5195,7 +5195,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "💧⚗️",
+                emoji: "🔥🌋",
                 question: "What is the universal solvent?",
                 options: [
                     "Alcohol",
@@ -5205,17 +5205,17 @@ const scienceQuestions = {
             },
             {
                 topic: "Astronomy",
-                emoji: "🌍🌞",
+                emoji: "🌊🌀",
                 question: "What keeps Earth in orbit around Sun?",
                 options: [
                     "Magnetism",
                     "Gravity"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Biology",
-                emoji: "🌿🍃",
+                emoji: "🧠💭",
                 question: "What pigment makes leaves green?",
                 options: [
                     "Chlorophyll",
@@ -5225,19 +5225,19 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🎯⚡",
+                emoji: "🫁🫀",
                 question: "What is resistance measured in?",
                 options: [
                     "Ohms",
                     "Volts"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         hard: [
             {
                 topic: "Biology",
-                emoji: "🧬🔬",
+                emoji: "🦷🦴",
                 question: "What are chromosomes made of?",
                 options: [
                     "DNA and proteins",
@@ -5248,7 +5248,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "⚡🔋",
+                emoji: "👁️👀",
                 question: "What is the SI unit of work?",
                 options: [
                     "Newton",
@@ -5259,51 +5259,51 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "⚛️🔬",
+                emoji: "🌤️⛅",
                 question: "What is the atomic number of iron?",
                 options: [
                     "56",
                     "28",
                     "26"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Astronomy",
-                emoji: "🌌💫",
+                emoji: "❄️🌨️",
                 question: "What is the Milky Way's shape?",
                 options: [
                     "Spiral",
                     "Irregular",
                     "Elliptical"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Biology",
-                emoji: "👃🦠",
+                emoji: "🌪️💨",
                 question: "How many smell receptors do humans have?",
                 options: [
                     "400 types",
                     "100 types",
                     "1000 types"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Physics",
-                emoji: "🌊💧",
+                emoji: "⚛️🔬",
                 question: "What is Pascal's principle about?",
                 options: [
                     "Flow rate",
                     "Pressure in fluids",
                     "Buoyancy"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Chemistry",
-                emoji: "💧⚗️",
+                emoji: "🧪⚗️",
                 question: "What is the pH of lemon juice?",
                 options: [
                     "10-11",
@@ -5314,18 +5314,18 @@ const scienceQuestions = {
             },
             {
                 topic: "Astronomy",
-                emoji: "☀️⭐",
+                emoji: "💊💉",
                 question: "How old is the Sun?",
                 options: [
                     "1 billion years",
                     "10 billion years",
                     "4.6 billion years"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Biology",
-                emoji: "🦴💪",
+                emoji: "🔭🌠",
                 question: "What is the smallest muscle in body?",
                 options: [
                     "Stapedius",
@@ -5336,14 +5336,14 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🌡️🔥",
+                emoji: "🌏🗺️",
                 question: "What is the Kelvin scale based on?",
                 options: [
                     "Water freezing",
                     "Human body temp",
                     "Absolute zero"
                 ],
-                correct: 2
+                correct: 1
             }
         ],
         expert: [
@@ -5357,7 +5357,7 @@ const scienceQuestions = {
                     "Size limit",
                     "Growth limit"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
@@ -5369,7 +5369,7 @@ const scienceQuestions = {
                     "Energy flux",
                     "Magnetic field"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Chemistry",
@@ -5381,7 +5381,7 @@ const scienceQuestions = {
                     "Acid neutralization",
                     "Metal corrosion"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Astronomy",
@@ -5393,7 +5393,7 @@ const scienceQuestions = {
                     "Dark matter mystery",
                     "Universe age"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Biology",
@@ -5417,7 +5417,7 @@ const scienceQuestions = {
                     "Wave collapse",
                     "Correlated particle states"
                 ],
-                correct: 3
+                correct: 0
             },
             {
                 topic: "Chemistry",
@@ -5441,7 +5441,7 @@ const scienceQuestions = {
                     "Belt asteroid",
                     "Shares planet's orbit"
                 ],
-                correct: 3
+                correct: 0
             },
             {
                 topic: "Biology",
@@ -5465,7 +5465,7 @@ const scienceQuestions = {
                     "Frequency range",
                     "Resolution limit"
                 ],
-                correct: 3
+                correct: 1
             }
         ],
         extreme: [
@@ -5535,7 +5535,7 @@ const scienceQuestions = {
         easy: [
             {
                 topic: "Biology",
-                emoji: "🐾🦴",
+                emoji: "🧬💉",
                 question: "Vertebrates have a backbone.",
                 options: [
                     "True",
@@ -5545,7 +5545,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🎭🔊",
+                emoji: "⚡🔋",
                 question: "Sound travels faster in solids than air.",
                 options: [
                     "False",
@@ -5555,7 +5555,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "🧂🧪",
+                emoji: "⚗️🧪",
                 question: "Table salt is sodium chloride.",
                 options: [
                     "True",
@@ -5565,7 +5565,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Astronomy",
-                emoji: "🌟✨",
+                emoji: "🌍🌙",
                 question: "Stars are made mostly of hydrogen.",
                 options: [
                     "False",
@@ -5575,27 +5575,27 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "🦢🦆",
+                emoji: "🫀💓",
                 question: "Birds are warm-blooded.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Physics",
-                emoji: "🎈💨",
+                emoji: "🌡️❄️",
                 question: "Helium is lighter than air.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Chemistry",
-                emoji: "🔥💧",
+                emoji: "💎✨",
                 question: "Water can put out most fires.",
                 options: [
                     "False",
@@ -5605,7 +5605,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Astronomy",
-                emoji: "🌕🌑",
+                emoji: "☀️🌟",
                 question: "Moon phases depend on its position.",
                 options: [
                     "True",
@@ -5615,39 +5615,39 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "🍀🌿",
+                emoji: "🦴🩻",
                 question: "Plants need sunlight to grow.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "🔌💡",
+                emoji: "🔊📢",
                 question: "Rubber is an insulator.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         medium: [
             {
                 topic: "Biology",
-                emoji: "🧬🔬",
+                emoji: "🧲🔗",
                 question: "What stores energy in cells?",
                 options: [
                     "DNA",
                     "ATP"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "⚡💡",
+                emoji: "🌈🎨",
                 question: "What is the path of electric current called?",
                 options: [
                     "Wire",
@@ -5657,17 +5657,17 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "⚛️🔬",
+                emoji: "🔬🧫",
                 question: "What is rust chemically?",
                 options: [
                     "Iron sulfate",
                     "Iron oxide"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Astronomy",
-                emoji: "🌌✨",
+                emoji: "🪐🌌",
                 question: "What is a pulsar?",
                 options: [
                     "Black hole",
@@ -5677,17 +5677,17 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "🫀💓",
+                emoji: "🌿🌱",
                 question: "What is the largest vein?",
                 options: [
                     "Vena cava",
                     "Pulmonary"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Physics",
-                emoji: "🌊💧",
+                emoji: "💧💦",
                 question: "What makes objects float?",
                 options: [
                     "Buoyancy",
@@ -5697,7 +5697,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "💧⚗️",
+                emoji: "🔥🌋",
                 question: "What is the hardness of water due to?",
                 options: [
                     "Iron",
@@ -5707,7 +5707,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Astronomy",
-                emoji: "☀️⭐",
+                emoji: "🌊🌀",
                 question: "What is a solar flare?",
                 options: [
                     "Magnetic energy release",
@@ -5717,29 +5717,29 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "👂🦻",
+                emoji: "🧠💭",
                 question: "What is the eardrum also called?",
                 options: [
                     "Cochlea",
                     "Tympanic membrane"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "🎢⚡",
+                emoji: "🫁🫀",
                 question: "What increases with speed?",
                 options: [
                     "Kinetic energy",
                     "Potential energy"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         hard: [
             {
                 topic: "Biology",
-                emoji: "🧬🔬",
+                emoji: "🦷🦴",
                 question: "What is an autosome?",
                 options: [
                     "Non-sex chromosome",
@@ -5750,7 +5750,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "⚡🔋",
+                emoji: "👁️👀",
                 question: "What is impedance?",
                 options: [
                     "DC resistance",
@@ -5761,18 +5761,18 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "⚛️🔬",
+                emoji: "🌤️⛅",
                 question: "What is the coordination number?",
                 options: [
                     "Bonds in compound",
                     "Atoms in molecule",
                     "Ligands around metal"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Astronomy",
-                emoji: "🌌💫",
+                emoji: "❄️🌨️",
                 question: "What is cosmic inflation?",
                 options: [
                     "Galaxy merger",
@@ -5783,7 +5783,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "👁️🔬",
+                emoji: "🌪️💨",
                 question: "What are rods and cones?",
                 options: [
                     "Nerves",
@@ -5794,40 +5794,40 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🌊💧",
+                emoji: "⚛️🔬",
                 question: "What is critical angle?",
                 options: [
                     "Refraction angle",
                     "Incident angle",
                     "Total internal reflection angle"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Chemistry",
-                emoji: "💧⚗️",
+                emoji: "🧪⚗️",
                 question: "What is molality?",
                 options: [
                     "Moles per kg solvent",
                     "Mass per volume",
                     "Moles per liter"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Astronomy",
-                emoji: "☀️⭐",
+                emoji: "💊💉",
                 question: "What is the solar cycle?",
                 options: [
                     "22 years",
                     "11 years",
                     "5 years"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Biology",
-                emoji: "🦴💪",
+                emoji: "🔭🌠",
                 question: "What is synovial fluid?",
                 options: [
                     "Joint lubricant",
@@ -5838,14 +5838,14 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🌡️🔥",
+                emoji: "🌏🗺️",
                 question: "What is entropy?",
                 options: [
                     "Heat energy",
                     "Temperature",
                     "Measure of disorder"
                 ],
-                correct: 2
+                correct: 1
             }
         ],
         expert: [
@@ -5871,7 +5871,7 @@ const scienceQuestions = {
                     "Light scattering",
                     "Energy level splitting in field"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Chemistry",
@@ -5883,7 +5883,7 @@ const scienceQuestions = {
                     "Elimination",
                     "Addition"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Astronomy",
@@ -5895,7 +5895,7 @@ const scienceQuestions = {
                     "Planet size-orbit",
                     "Galaxy luminosity-rotation"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Biology",
@@ -5907,7 +5907,7 @@ const scienceQuestions = {
                     "Cell signaling",
                     "Gene silencing mechanism"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Physics",
@@ -5919,7 +5919,7 @@ const scienceQuestions = {
                     "Particle collision",
                     "Light as wave and particle"
                 ],
-                correct: 3
+                correct: 0
             },
             {
                 topic: "Chemistry",
@@ -5931,7 +5931,7 @@ const scienceQuestions = {
                     "Energy spacing",
                     "Maximum unpaired electrons"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Astronomy",
@@ -5955,7 +5955,7 @@ const scienceQuestions = {
                     "Root absorption",
                     "CO₂ concentration mechanism"
                 ],
-                correct: 3
+                correct: 0
             },
             {
                 topic: "Physics",
@@ -5967,7 +5967,7 @@ const scienceQuestions = {
                     "Waves cancel",
                     "Waves refract"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         extreme: [
@@ -6037,27 +6037,27 @@ const scienceQuestions = {
         easy: [
             {
                 topic: "Biology",
-                emoji: "🌸🐝",
+                emoji: "🧬💉",
                 question: "Flowers attract pollinators with nectar.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "🎪🎢",
+                emoji: "⚡🔋",
                 question: "Inertia is the resistance to motion change.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Chemistry",
-                emoji: "🧪⚗️",
+                emoji: "⚗️🧪",
                 question: "Vinegar is acetic acid.",
                 options: [
                     "True",
@@ -6067,57 +6067,57 @@ const scienceQuestions = {
             },
             {
                 topic: "Astronomy",
-                emoji: "🌌⭐",
+                emoji: "🌍🌙",
                 question: "Light from distant stars takes years to reach us.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Biology",
-                emoji: "🐠🌊",
+                emoji: "🫀💓",
                 question: "Fish use gills to breathe underwater.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Physics",
-                emoji: "🧲📌",
+                emoji: "🌡️❄️",
                 question: "Iron is magnetic.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Chemistry",
-                emoji: "💎⚗️",
+                emoji: "💎✨",
                 question: "Graphite conducts electricity.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Astronomy",
-                emoji: "🌍🌞",
+                emoji: "☀️🌟",
                 question: "Earth receives energy from the Sun.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Biology",
-                emoji: "🦴🏥",
+                emoji: "🦴🩻",
                 question: "Calcium is important for bones.",
                 options: [
                     "True",
@@ -6127,7 +6127,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🌡️📊",
+                emoji: "🔊📢",
                 question: "Mercury expands when heated.",
                 options: [
                     "False",
@@ -6139,7 +6139,7 @@ const scienceQuestions = {
         medium: [
             {
                 topic: "Biology",
-                emoji: "🧬🔬",
+                emoji: "🧲🔗",
                 question: "What carries oxygen in blood?",
                 options: [
                     "Red blood cells",
@@ -6149,37 +6149,37 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "⚡💡",
+                emoji: "🌈🎨",
                 question: "What is parallel circuit?",
                 options: [
                     "Multiple paths",
                     "Single path"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Chemistry",
-                emoji: "⚛️🔬",
+                emoji: "🔬🧫",
                 question: "What is oxidation?",
                 options: [
                     "Gain of electrons",
                     "Loss of electrons"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Astronomy",
-                emoji: "🌌✨",
+                emoji: "🪐🌌",
                 question: "What is a quasar?",
                 options: [
                     "Bright galactic core",
                     "Dying star"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Biology",
-                emoji: "🌿🍃",
+                emoji: "🌿🌱",
                 question: "What is the waxy coating on leaves?",
                 options: [
                     "Epidermis",
@@ -6189,7 +6189,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🌊💧",
+                emoji: "💧💦",
                 question: "What causes tides besides Moon?",
                 options: [
                     "Sun",
@@ -6199,49 +6199,49 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "💧⚗️",
+                emoji: "🔥🌋",
                 question: "What is distillation?",
                 options: [
                     "Separating by boiling",
                     "Mixing"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Astronomy",
-                emoji: "☀️⭐",
+                emoji: "🌊🌀",
                 question: "What is the heliosphere?",
                 options: [
                     "Sun's atmosphere",
                     "Sun's magnetic bubble"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Biology",
-                emoji: "👃🔬",
+                emoji: "🧠💭",
                 question: "What detects smell?",
                 options: [
                     "Taste buds",
                     "Olfactory receptors"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "🎯⚡",
+                emoji: "🫁🫀",
                 question: "What is voltage?",
                 options: [
                     "Electric potential difference",
                     "Current flow"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         hard: [
             {
                 topic: "Biology",
-                emoji: "🧬🔬",
+                emoji: "🦷🦴",
                 question: "What is pleiotropy?",
                 options: [
                     "One gene, multiple traits",
@@ -6252,7 +6252,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "⚡🔋",
+                emoji: "👁️👀",
                 question: "What is mutual inductance?",
                 options: [
                     "Resistance",
@@ -6263,7 +6263,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "⚛️🔬",
+                emoji: "🌤️⛅",
                 question: "What is electronegativity?",
                 options: [
                     "Attract electrons ability",
@@ -6274,29 +6274,29 @@ const scienceQuestions = {
             },
             {
                 topic: "Astronomy",
-                emoji: "🌌💫",
+                emoji: "❄️🌨️",
                 question: "What is parallax used for?",
                 options: [
                     "Measuring brightness",
                     "Measuring size",
                     "Measuring distance"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Biology",
-                emoji: "🫀💓",
+                emoji: "🌪️💨",
                 question: "What is systole?",
                 options: [
                     "Heart contraction",
                     "Blood flow",
                     "Heart relaxation"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Physics",
-                emoji: "🌊💧",
+                emoji: "⚛️🔬",
                 question: "What is surface tension?",
                 options: [
                     "Cohesive force at surface",
@@ -6307,40 +6307,40 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "💧⚗️",
+                emoji: "🧪⚗️",
                 question: "What is a redox reaction?",
                 options: [
                     "Precipitation",
                     "Acid-base",
                     "Oxidation-reduction"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Astronomy",
-                emoji: "☀️⭐",
+                emoji: "💊💉",
                 question: "What is the corona?",
                 options: [
                     "Sun's surface",
                     "Sun's outer atmosphere",
                     "Sun's core"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Biology",
-                emoji: "👁️🔬",
+                emoji: "🔭🌠",
                 question: "What is astigmatism?",
                 options: [
                     "Retina damage",
                     "Lens cloudiness",
                     "Irregular cornea curvature"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "🌡️🔥",
+                emoji: "🌏🗺️",
                 question: "What is conduction?",
                 options: [
                     "Heat radiation",
@@ -6361,7 +6361,7 @@ const scienceQuestions = {
                     "Growth phase",
                     "Spore formation"
                 ],
-                correct: 3
+                correct: 0
             },
             {
                 topic: "Physics",
@@ -6373,7 +6373,7 @@ const scienceQuestions = {
                     "Light absorption",
                     "Spectral line splitting in B field"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Chemistry",
@@ -6385,7 +6385,7 @@ const scienceQuestions = {
                     "Equal enantiomers",
                     "Pure compound"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Astronomy",
@@ -6397,7 +6397,7 @@ const scienceQuestions = {
                     "Time dilation",
                     "Relates kinetic to potential energy"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Biology",
@@ -6409,7 +6409,7 @@ const scienceQuestions = {
                     "Gene expression changes without DNA change",
                     "Protein folding"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Physics",
@@ -6421,7 +6421,7 @@ const scienceQuestions = {
                     "Light bends",
                     "Light ejects electrons"
                 ],
-                correct: 3
+                correct: 0
             },
             {
                 topic: "Chemistry",
@@ -6433,7 +6433,7 @@ const scienceQuestions = {
                     "Electron transfer",
                     "Ion formation"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Astronomy",
@@ -6445,7 +6445,7 @@ const scienceQuestions = {
                     "Magnetic field",
                     "Rotation speed"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Biology",
@@ -6469,7 +6469,7 @@ const scienceQuestions = {
                     "Waves reflect",
                     "Waves cancel out"
                 ],
-                correct: 3
+                correct: 1
             }
         ],
         extreme: [
@@ -6539,17 +6539,17 @@ const scienceQuestions = {
         easy: [
             {
                 topic: "Biology",
-                emoji: "🦎🌞",
+                emoji: "🧬💉",
                 question: "Reptiles are cold-blooded.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "🎈⬆️",
+                emoji: "⚡🔋",
                 question: "Hot air balloons rise because hot air is less dense.",
                 options: [
                     "False",
@@ -6559,27 +6559,27 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "🥤💧",
+                emoji: "⚗️🧪",
                 question: "Carbon dioxide is a gas at room temperature.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Astronomy",
-                emoji: "🌠💫",
+                emoji: "🌍🌙",
                 question: "Shooting stars are actually meteors.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Biology",
-                emoji: "🐚🦀",
+                emoji: "🫀💓",
                 question: "Crabs have an exoskeleton.",
                 options: [
                     "False",
@@ -6589,18 +6589,8 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🔦🌙",
+                emoji: "🌡️❄️",
                 question: "Lunar phases are caused by Moon's shadow.",
-                options: [
-                    "True",
-                    "False"
-                ],
-                correct: 1
-            },
-            {
-                topic: "Chemistry",
-                emoji: "🧊💧",
-                question: "Ice melting is a physical change.",
                 options: [
                     "True",
                     "False"
@@ -6608,8 +6598,18 @@ const scienceQuestions = {
                 correct: 0
             },
             {
+                topic: "Chemistry",
+                emoji: "💎✨",
+                question: "Ice melting is a physical change.",
+                options: [
+                    "True",
+                    "False"
+                ],
+                correct: 1
+            },
+            {
                 topic: "Astronomy",
-                emoji: "🌍🌎",
+                emoji: "☀️🌟",
                 question: "Earth rotates from west to east.",
                 options: [
                     "True",
@@ -6619,29 +6619,29 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "🐛🦋",
+                emoji: "🦴🩻",
                 question: "Caterpillars undergo metamorphosis.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "⚖️📏",
+                emoji: "🔊📢",
                 question: "Mass remains constant everywhere.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         medium: [
             {
                 topic: "Biology",
-                emoji: "🧬🔬",
+                emoji: "🧲🔗",
                 question: "What is a zygote?",
                 options: [
                     "Fertilized egg",
@@ -6651,17 +6651,17 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "⚡💡",
+                emoji: "🌈🎨",
                 question: "What measures cycles per second?",
                 options: [
                     "Hertz",
                     "Decibel"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Chemistry",
-                emoji: "⚛️🔬",
+                emoji: "🔬🧫",
                 question: "What is reduction?",
                 options: [
                     "Gain of electrons",
@@ -6671,7 +6671,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Astronomy",
-                emoji: "🌌✨",
+                emoji: "🪐🌌",
                 question: "What is the asteroid belt?",
                 options: [
                     "Around Saturn",
@@ -6681,7 +6681,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "🌿🍃",
+                emoji: "🌿🌱",
                 question: "What is xylem?",
                 options: [
                     "Food-conducting tissue",
@@ -6691,7 +6691,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🌊💧",
+                emoji: "💧💦",
                 question: "What is viscosity?",
                 options: [
                     "Fluid thickness",
@@ -6701,17 +6701,17 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "💧⚗️",
+                emoji: "🔥🌋",
                 question: "What is filtration?",
                 options: [
                     "Separating solid from liquid",
                     "Mixing"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Astronomy",
-                emoji: "☀️⭐",
+                emoji: "🌊🌀",
                 question: "What are solar prominences?",
                 options: [
                     "Plasma loops",
@@ -6721,7 +6721,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "🦴💪",
+                emoji: "🧠💭",
                 question: "What is the strongest bone?",
                 options: [
                     "Femur",
@@ -6731,7 +6731,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🎯⚡",
+                emoji: "🫁🫀",
                 question: "What is capacitance?",
                 options: [
                     "Current flow",
@@ -6743,18 +6743,18 @@ const scienceQuestions = {
         hard: [
             {
                 topic: "Biology",
-                emoji: "🧬🔬",
+                emoji: "🦷🦴",
                 question: "What is codominance?",
                 options: [
                     "One dominant",
                     "Both alleles expressed",
                     "Incomplete dominance"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "⚡🔋",
+                emoji: "👁️👀",
                 question: "What is Faraday's law?",
                 options: [
                     "Current-resistance relation",
@@ -6765,84 +6765,84 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "⚛️🔬",
+                emoji: "🌤️⛅",
                 question: "What is the octet rule?",
                 options: [
                     "8 neutrons",
                     "8 protons",
                     "8 valence electrons stable"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Astronomy",
-                emoji: "🌌💫",
+                emoji: "❄️🌨️",
                 question: "What is Hubble's law?",
                 options: [
                     "Galaxies recede proportional to distance",
                     "Planet orbits",
                     "Star formation"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Biology",
-                emoji: "🫀💓",
+                emoji: "🌪️💨",
                 question: "What is diastole?",
                 options: [
                     "Blood clotting",
                     "Heart contraction",
                     "Heart relaxation"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Physics",
-                emoji: "🌊💧",
+                emoji: "⚛️🔬",
                 question: "What is Bernoulli's principle?",
                 options: [
                     "Buoyancy",
                     "Fast fluid, low pressure",
                     "Surface tension"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Chemistry",
-                emoji: "💧⚗️",
+                emoji: "🧪⚗️",
                 question: "What is a saturated hydrocarbon?",
                 options: [
                     "Has double bonds",
                     "Has triple bonds",
                     "Only single bonds"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Astronomy",
-                emoji: "☀️⭐",
+                emoji: "💊💉",
                 question: "What is solar neutrino problem?",
                 options: [
                     "Too many neutrinos",
                     "No neutrinos",
                     "Fewer neutrinos detected"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Biology",
-                emoji: "👁️🔬",
+                emoji: "🔭🌠",
                 question: "What is presbyopia?",
                 options: [
                     "Color blindness",
                     "Age-related farsightedness",
                     "Nearsightedness"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "🌡️🔥",
+                emoji: "🌏🗺️",
                 question: "What is convection?",
                 options: [
                     "Heat conduction",
@@ -6887,7 +6887,7 @@ const scienceQuestions = {
                     "Same formula, different 3D arrangement",
                     "Different formula"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Astronomy",
@@ -6899,7 +6899,7 @@ const scienceQuestions = {
                     "Doppler shift",
                     "Scattering"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Biology",
@@ -6911,7 +6911,7 @@ const scienceQuestions = {
                     "Mutation",
                     "Transfer of alleles between populations"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Physics",
@@ -6923,7 +6923,7 @@ const scienceQuestions = {
                     "Diffraction",
                     "Blue sky from light scattering"
                 ],
-                correct: 3
+                correct: 0
             },
             {
                 topic: "Chemistry",
@@ -6959,7 +6959,7 @@ const scienceQuestions = {
                     "Respiration",
                     "Transpiration"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
@@ -7041,7 +7041,7 @@ const scienceQuestions = {
         easy: [
             {
                 topic: "Biology",
-                emoji: "🌳🌲",
+                emoji: "🧬💉",
                 question: "Trees absorb carbon dioxide.",
                 options: [
                     "True",
@@ -7051,17 +7051,17 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🏃💨",
+                emoji: "⚡🔋",
                 question: "Velocity has direction.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Chemistry",
-                emoji: "🧪⚗️",
+                emoji: "⚗️🧪",
                 question: "Bases taste bitter.",
                 options: [
                     "True",
@@ -7071,17 +7071,17 @@ const scienceQuestions = {
             },
             {
                 topic: "Astronomy",
-                emoji: "🌌⭐",
+                emoji: "🌍🌙",
                 question: "Stars are powered by nuclear fusion.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Biology",
-                emoji: "🐙🦑",
+                emoji: "🫀💓",
                 question: "Octopuses have three hearts.",
                 options: [
                     "False",
@@ -7091,7 +7091,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🔌⚡",
+                emoji: "🌡️❄️",
                 question: "Copper is a good conductor.",
                 options: [
                     "True",
@@ -7101,27 +7101,27 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "🔥💨",
+                emoji: "💎✨",
                 question: "Fire needs fuel, oxygen, and heat.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Astronomy",
-                emoji: "🌍🌕",
+                emoji: "☀️🌟",
                 question: "The Moon has no atmosphere.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Biology",
-                emoji: "🦴🦷",
+                emoji: "🦴🩻",
                 question: "Baby teeth are also called milk teeth.",
                 options: [
                     "True",
@@ -7131,7 +7131,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🌡️❄️",
+                emoji: "🔊📢",
                 question: "Absolute zero is the coldest temperature.",
                 options: [
                     "False",
@@ -7143,7 +7143,7 @@ const scienceQuestions = {
         medium: [
             {
                 topic: "Biology",
-                emoji: "🧬🔬",
+                emoji: "🧲🔗",
                 question: "What is a diploid cell?",
                 options: [
                     "Two sets of chromosomes",
@@ -7153,7 +7153,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "⚡💡",
+                emoji: "🌈🎨",
                 question: "What is electromagnetic radiation?",
                 options: [
                     "Particle energy",
@@ -7163,7 +7163,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "⚛️🔬",
+                emoji: "🔬🧫",
                 question: "What is a catalyst?",
                 options: [
                     "Speeds reaction",
@@ -7173,7 +7173,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Astronomy",
-                emoji: "🌌✨",
+                emoji: "🪐🌌",
                 question: "What is the Oort cloud?",
                 options: [
                     "Asteroid belt",
@@ -7183,17 +7183,17 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "🌿🍃",
+                emoji: "🌿🌱",
                 question: "What is phloem?",
                 options: [
                     "Sugar-conducting tissue",
                     "Water-conducting tissue"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Physics",
-                emoji: "🌊💧",
+                emoji: "💧💦",
                 question: "What causes apparent frequency shift in sound?",
                 options: [
                     "Frequency change with motion",
@@ -7203,49 +7203,49 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "💧⚗️",
+                emoji: "🔥🌋",
                 question: "What is chromatography?",
                 options: [
                     "Separation technique",
                     "Mixing technique"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Astronomy",
-                emoji: "☀️⭐",
+                emoji: "🌊🌀",
                 question: "What is a coronal mass ejection?",
                 options: [
                     "Solar flare",
                     "Solar plasma release"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Biology",
-                emoji: "🦴💪",
+                emoji: "🧠💭",
                 question: "What connects bone to bone?",
                 options: [
                     "Tendons",
                     "Ligaments"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "🎯⚡",
+                emoji: "🫁🫀",
                 question: "What is inductance?",
                 options: [
                     "Opposition to current change",
                     "Current resistance"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         hard: [
             {
                 topic: "Biology",
-                emoji: "🧬🔬",
+                emoji: "🦷🦴",
                 question: "What is epistasis?",
                 options: [
                     "Gene masking another",
@@ -7256,18 +7256,18 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "⚡🔋",
+                emoji: "👁️👀",
                 question: "What is the right-hand rule for?",
                 options: [
                     "Magnetic force direction",
                     "Voltage polarity",
                     "Current direction"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Chemistry",
-                emoji: "⚛️🔬",
+                emoji: "🌤️⛅",
                 question: "What is VSEPR theory?",
                 options: [
                     "Predicts molecular shape",
@@ -7278,7 +7278,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Astronomy",
-                emoji: "🌌💫",
+                emoji: "❄️🌨️",
                 question: "What is dark energy?",
                 options: [
                     "Dark matter",
@@ -7289,7 +7289,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "🫀💓",
+                emoji: "🌪️💨",
                 question: "What is the pacemaker of heart?",
                 options: [
                     "AV node",
@@ -7300,7 +7300,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🌊💧",
+                emoji: "⚛️🔬",
                 question: "What is laminar flow?",
                 options: [
                     "Smooth fluid layers",
@@ -7311,47 +7311,47 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "💧⚗️",
+                emoji: "🧪⚗️",
                 question: "What is an aromatic compound?",
                 options: [
                     "Has odor",
                     "Aliphatic",
                     "Contains benzene ring"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Astronomy",
-                emoji: "☀️⭐",
+                emoji: "💊💉",
                 question: "What is the CNO cycle?",
                 options: [
                     "Planet formation",
                     "Stellar fusion pathway",
                     "Star death"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Biology",
-                emoji: "👁️🔬",
+                emoji: "🔭🌠",
                 question: "What is the fovea?",
                 options: [
                     "Blind spot",
                     "Central retina for sharp vision",
                     "Iris"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "🌡️🔥",
+                emoji: "🌏🗺️",
                 question: "What is radiation heat transfer?",
                 options: [
                     "Heat by electromagnetic waves",
                     "Heat by fluid",
                     "Heat by contact"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         expert: [
@@ -7365,7 +7365,7 @@ const scienceQuestions = {
                     "Mutation",
                     "Reproduction"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
@@ -7377,7 +7377,7 @@ const scienceQuestions = {
                     "Energy quantization",
                     "No identical fermions in same state"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Chemistry",
@@ -7389,7 +7389,7 @@ const scienceQuestions = {
                     "C-O",
                     "C=O"
                 ],
-                correct: 3
+                correct: 0
             },
             {
                 topic: "Astronomy",
@@ -7401,7 +7401,7 @@ const scienceQuestions = {
                     "Solar radiation",
                     "Relic radiation from Big Bang"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Biology",
@@ -7437,7 +7437,7 @@ const scienceQuestions = {
                     "Addition to more substituted carbon",
                     "Electron transfer"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Astronomy",
@@ -7449,7 +7449,7 @@ const scienceQuestions = {
                     "Tidal force",
                     "Orbital radius"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Biology",
@@ -7461,7 +7461,7 @@ const scienceQuestions = {
                     "Germination",
                     "Photosynthesis"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
@@ -7473,7 +7473,7 @@ const scienceQuestions = {
                     "Absorbed wave",
                     "Wave pattern from interference"
                 ],
-                correct: 3
+                correct: 1
             }
         ],
         extreme: [
@@ -7543,7 +7543,7 @@ const scienceQuestions = {
         easy: [
             {
                 topic: "Biology",
-                emoji: "🐛🦗",
+                emoji: "🧬💉",
                 question: "Insects are invertebrates.",
                 options: [
                     "True",
@@ -7553,57 +7553,57 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🎾⚽",
+                emoji: "⚡🔋",
                 question: "Momentum depends on mass and velocity.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Chemistry",
-                emoji: "🧪⚗️",
+                emoji: "⚗️🧪",
                 question: "Noble gases are unreactive.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Astronomy",
-                emoji: "🌌⭐",
+                emoji: "🌍🌙",
                 question: "The universe is expanding.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Biology",
-                emoji: "🦋🌺",
+                emoji: "🫀💓",
                 question: "Butterflies taste with their feet.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Physics",
-                emoji: "🔌⚡",
+                emoji: "🌡️❄️",
                 question: "Plastic is an insulator.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Chemistry",
-                emoji: "🔥💨",
+                emoji: "💎✨",
                 question: "Hydrogen is flammable.",
                 options: [
                     "False",
@@ -7613,7 +7613,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Astronomy",
-                emoji: "🌍🌕",
+                emoji: "☀️🌟",
                 question: "The Moon affects ocean tides.",
                 options: [
                     "True",
@@ -7623,7 +7623,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "🦴🦷",
+                emoji: "🦴🩻",
                 question: "Wisdom teeth are the last to grow.",
                 options: [
                     "True",
@@ -7633,79 +7633,79 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🌡️❄️",
+                emoji: "🔊📢",
                 question: "Water freezes at 0°C.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         medium: [
             {
                 topic: "Biology",
-                emoji: "🧬🔬",
+                emoji: "🧲🔗",
                 question: "What is a haploid cell?",
                 options: [
                     "Two sets",
                     "One set of chromosomes"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "⚡💡",
+                emoji: "🌈🎨",
                 question: "What is the speed of light?",
                 options: [
                     "3×10⁸ m/s",
                     "3×10⁶ m/s"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Chemistry",
-                emoji: "⚛️🔬",
+                emoji: "🔬🧫",
                 question: "What is a compound?",
                 options: [
                     "Single element",
                     "Two or more elements bonded"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Astronomy",
-                emoji: "🌌✨",
+                emoji: "🪐🌌",
                 question: "What is a supergiant star?",
                 options: [
                     "Very large bright star",
                     "Dying star"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Biology",
-                emoji: "🌿🍃",
+                emoji: "🌿🌱",
                 question: "What is water loss through leaves called?",
                 options: [
                     "Water vapor loss",
                     "Photosynthesis"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Physics",
-                emoji: "🌊💧",
+                emoji: "💧💦",
                 question: "What is wavelength?",
                 options: [
                     "Wave height",
                     "Distance between wave peaks"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Chemistry",
-                emoji: "💧⚗️",
+                emoji: "🔥🌋",
                 question: "What is titration?",
                 options: [
                     "Mixing",
@@ -7715,7 +7715,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Astronomy",
-                emoji: "☀️⭐",
+                emoji: "🌊🌀",
                 question: "What is the chromosphere?",
                 options: [
                     "Layer above photosphere",
@@ -7725,7 +7725,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "🦴💪",
+                emoji: "🧠💭",
                 question: "What is the Achilles tendon?",
                 options: [
                     "Heel tendon",
@@ -7735,7 +7735,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🎯⚡",
+                emoji: "🫁🫀",
                 question: "What is reactance?",
                 options: [
                     "DC resistance",
@@ -7747,51 +7747,51 @@ const scienceQuestions = {
         hard: [
             {
                 topic: "Biology",
-                emoji: "🧬🔬",
+                emoji: "🦷🦴",
                 question: "What is linkage in genetics?",
                 options: [
                     "Mutation",
                     "Independent assortment",
                     "Genes on same chromosome"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "⚡🔋",
+                emoji: "👁️👀",
                 question: "What is Maxwell's equations describe?",
                 options: [
                     "Electromagnetism",
                     "Thermodynamics",
                     "Gravity"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Chemistry",
-                emoji: "⚛️🔬",
+                emoji: "🌤️⛅",
                 question: "What is the transition state?",
                 options: [
                     "Reactant",
                     "Product",
                     "Highest energy point in reaction"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Astronomy",
-                emoji: "🌌💫",
+                emoji: "❄️🌨️",
                 question: "What is gravitational waves?",
                 options: [
                     "Light waves",
                     "Sound waves",
                     "Spacetime ripples"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Biology",
-                emoji: "🫀💓",
+                emoji: "🌪️💨",
                 question: "What is the bundle of His?",
                 options: [
                     "Nerve bundle",
@@ -7802,29 +7802,29 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🌊💧",
+                emoji: "⚛️🔬",
                 question: "What is Reynolds number?",
                 options: [
                     "Measures pressure",
                     "Predicts flow type",
                     "Calculates velocity"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Chemistry",
-                emoji: "💧⚗️",
+                emoji: "🧪⚗️",
                 question: "What is a functional group?",
                 options: [
                     "Reactive part of molecule",
                     "Inert part",
                     "Entire molecule"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Astronomy",
-                emoji: "☀️⭐",
+                emoji: "💊💉",
                 question: "What is the pp chain?",
                 options: [
                     "Proton-proton fusion",
@@ -7835,18 +7835,18 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "👁️🔬",
+                emoji: "🔭🌠",
                 question: "What is the optic nerve?",
                 options: [
                     "Focuses light",
                     "Transmits visual signals",
                     "Detects color"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "🌡️🔥",
+                emoji: "🌏🗺️",
                 question: "What is the second law of thermodynamics?",
                 options: [
                     "Heat flows down",
@@ -7867,7 +7867,7 @@ const scienceQuestions = {
                     "Virus-mediated DNA transfer",
                     "Mutation"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Physics",
@@ -7915,7 +7915,7 @@ const scienceQuestions = {
                     "Natural selection",
                     "Random allele frequency change"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Physics",
@@ -7927,7 +7927,7 @@ const scienceQuestions = {
                     "Wave absorption",
                     "Wave superposition"
                 ],
-                correct: 3
+                correct: 0
             },
             {
                 topic: "Chemistry",
@@ -7939,7 +7939,7 @@ const scienceQuestions = {
                     "No preference",
                     "Less substituted"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Astronomy",
@@ -7951,7 +7951,7 @@ const scienceQuestions = {
                     "Ice formation boundary",
                     "Asteroid belt"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Biology",
@@ -7975,7 +7975,7 @@ const scienceQuestions = {
                     "Zero amplitude in standing wave",
                     "Wave speed"
                 ],
-                correct: 2
+                correct: 1
             }
         ],
         extreme: [
@@ -8045,7 +8045,7 @@ const scienceQuestions = {
         easy: [
             {
                 topic: "Biology",
-                emoji: "🐠🦈",
+                emoji: "🧬💉",
                 question: "Sharks are fish.",
                 options: [
                     "True",
@@ -8055,7 +8055,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🎾⚽",
+                emoji: "⚡🔋",
                 question: "Elastic collisions conserve kinetic energy.",
                 options: [
                     "False",
@@ -8065,7 +8065,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "🧪⚗️",
+                emoji: "⚗️🧪",
                 question: "Oxygen is required for rusting.",
                 options: [
                     "True",
@@ -8075,27 +8075,27 @@ const scienceQuestions = {
             },
             {
                 topic: "Astronomy",
-                emoji: "🌌⭐",
+                emoji: "🌍🌙",
                 question: "Stars are different colors due to temperature.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Biology",
-                emoji: "🦎🦋",
+                emoji: "🫀💓",
                 question: "Lizards can regrow their tails.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Physics",
-                emoji: "🔌⚡",
+                emoji: "🌡️❄️",
                 question: "Gold is a good conductor.",
                 options: [
                     "True",
@@ -8105,37 +8105,37 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "🔥💨",
+                emoji: "💎✨",
                 question: "Chlorophyll is green pigment.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Astronomy",
-                emoji: "🌍🌕",
+                emoji: "☀️🌟",
                 question: "The Moon is Earth's natural satellite.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Biology",
-                emoji: "🦴🦷",
+                emoji: "🦴🩻",
                 question: "Teeth have nerves and blood vessels.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "🌡️❄️",
+                emoji: "🔊📢",
                 question: "Evaporation causes cooling.",
                 options: [
                     "False",
@@ -8147,7 +8147,7 @@ const scienceQuestions = {
         medium: [
             {
                 topic: "Biology",
-                emoji: "🧬🔬",
+                emoji: "🧲🔗",
                 question: "What is a gamete?",
                 options: [
                     "Sex cell",
@@ -8157,7 +8157,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "⚡💡",
+                emoji: "🌈🎨",
                 question: "What is power?",
                 options: [
                     "Force per time",
@@ -8167,7 +8167,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "⚛️🔬",
+                emoji: "🔬🧫",
                 question: "What is a mixture?",
                 options: [
                     "Components not bonded",
@@ -8177,27 +8177,27 @@ const scienceQuestions = {
             },
             {
                 topic: "Astronomy",
-                emoji: "🌌✨",
+                emoji: "🪐🌌",
                 question: "What is a planetary nebula?",
                 options: [
                     "Dying star shell",
                     "Star birth"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Biology",
-                emoji: "🌿🍃",
+                emoji: "🌿🌱",
                 question: "What is a stomata?",
                 options: [
                     "Leaf pore",
                     "Root hair"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Physics",
-                emoji: "🌊💧",
+                emoji: "💧💦",
                 question: "What is amplitude?",
                 options: [
                     "Wave height",
@@ -8207,7 +8207,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "💧⚗️",
+                emoji: "🔥🌋",
                 question: "What is crystallization?",
                 options: [
                     "Dissolving",
@@ -8217,7 +8217,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Astronomy",
-                emoji: "☀️⭐",
+                emoji: "🌊🌀",
                 question: "What is a sunspot cycle?",
                 options: [
                     "11-year pattern",
@@ -8227,7 +8227,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "🦴💪",
+                emoji: "🧠💭",
                 question: "What is cardiac muscle?",
                 options: [
                     "Heart muscle",
@@ -8237,7 +8237,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🎯⚡",
+                emoji: "🫁🫀",
                 question: "What is impedance in AC?",
                 options: [
                     "Resistance only",
@@ -8249,29 +8249,29 @@ const scienceQuestions = {
         hard: [
             {
                 topic: "Biology",
-                emoji: "🧬🔬",
+                emoji: "🦷🦴",
                 question: "What is incomplete dominance?",
                 options: [
                     "Both expressed",
                     "Complete dominance",
                     "Blended phenotype"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "⚡🔋",
+                emoji: "👁️👀",
                 question: "What is Kirchhoff's voltage law?",
                 options: [
                     "Voltage sum is zero in loop",
                     "Current sum is zero",
                     "Power is constant"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Chemistry",
-                emoji: "⚛️🔬",
+                emoji: "🌤️⛅",
                 question: "What is activation energy?",
                 options: [
                     "Minimum energy for reaction",
@@ -8282,18 +8282,18 @@ const scienceQuestions = {
             },
             {
                 topic: "Astronomy",
-                emoji: "🌌💫",
+                emoji: "❄️🌨️",
                 question: "What is a binary star system?",
                 options: [
                     "Two stars orbiting",
                     "Three stars",
                     "One star"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Biology",
-                emoji: "🫀💓",
+                emoji: "🌪️💨",
                 question: "What is an ECG?",
                 options: [
                     "Heart sound",
@@ -8304,58 +8304,58 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🌊💧",
+                emoji: "⚛️🔬",
                 question: "What is turbulent flow?",
                 options: [
                     "Smooth flow",
                     "No flow",
                     "Chaotic fluid motion"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Chemistry",
-                emoji: "💧⚗️",
+                emoji: "🧪⚗️",
                 question: "What is an alkane?",
                 options: [
                     "Saturated hydrocarbon",
                     "Unsaturated",
                     "Aromatic"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Astronomy",
-                emoji: "☀️⭐",
+                emoji: "💊💉",
                 question: "What is stellar nucleosynthesis?",
                 options: [
                     "Star birth",
                     "Element formation in stars",
                     "Star death"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Biology",
-                emoji: "👁️🔬",
+                emoji: "🔭🌠",
                 question: "What is the vitreous humor?",
                 options: [
                     "Cornea",
                     "Eye gel",
                     "Tear fluid"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "🌡️🔥",
+                emoji: "🌏🗺️",
                 question: "What is isothermal process?",
                 options: [
                     "Constant temperature",
                     "Constant pressure",
                     "Constant volume"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         expert: [
@@ -8369,7 +8369,7 @@ const scienceQuestions = {
                     "Viral DNA integration",
                     "Lytic cycle"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Physics",
@@ -8393,7 +8393,7 @@ const scienceQuestions = {
                     "ROH",
                     "RCOOR'"
                 ],
-                correct: 3
+                correct: 0
             },
             {
                 topic: "Astronomy",
@@ -8405,7 +8405,7 @@ const scienceQuestions = {
                     "Speed of light",
                     "Planck constant"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Biology",
@@ -8417,7 +8417,7 @@ const scienceQuestions = {
                     "Reduced variation in new population",
                     "No change"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Physics",
@@ -8429,7 +8429,7 @@ const scienceQuestions = {
                     "Wave bending around obstacles",
                     "Wave absorption"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Chemistry",
@@ -8465,7 +8465,7 @@ const scienceQuestions = {
                     "Flower formation",
                     "Root dominance"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
@@ -8477,7 +8477,7 @@ const scienceQuestions = {
                     "Wave end",
                     "Maximum amplitude point"
                 ],
-                correct: 3
+                correct: 1
             }
         ],
         extreme: [
@@ -8547,27 +8547,27 @@ const scienceQuestions = {
         easy: [
             {
                 topic: "Biology",
-                emoji: "🐼🐻",
+                emoji: "🧬💉",
                 question: "Pandas eat mostly bamboo.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "🎾⚽",
+                emoji: "⚡🔋",
                 question: "Acceleration is change in velocity.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Chemistry",
-                emoji: "🧪⚗️",
+                emoji: "⚗️🧪",
                 question: "Distilled water is pure H₂O.",
                 options: [
                     "True",
@@ -8577,7 +8577,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Astronomy",
-                emoji: "🌌⭐",
+                emoji: "🌍🌙",
                 question: "Some stars are bigger than our Sun.",
                 options: [
                     "False",
@@ -8587,27 +8587,27 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "🦜🦚",
+                emoji: "🫀💓",
                 question: "Parrots can mimic human speech.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Physics",
-                emoji: "🔌⚡",
+                emoji: "🌡️❄️",
                 question: "Aluminum conducts electricity.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Chemistry",
-                emoji: "🔥💨",
+                emoji: "💎✨",
                 question: "Nitrogen makes up most of air.",
                 options: [
                     "False",
@@ -8617,27 +8617,27 @@ const scienceQuestions = {
             },
             {
                 topic: "Astronomy",
-                emoji: "🌍🌕",
+                emoji: "☀️🌟",
                 question: "We always see the same side of Moon.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Biology",
-                emoji: "🦴🦷",
+                emoji: "🦴🩻",
                 question: "Fluoride strengthens teeth.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "🌡️❄️",
+                emoji: "🔊📢",
                 question: "Condensation releases heat.",
                 options: [
                     "False",
@@ -8649,17 +8649,17 @@ const scienceQuestions = {
         medium: [
             {
                 topic: "Biology",
-                emoji: "🧬🔬",
+                emoji: "🧲🔗",
                 question: "What is meiosis?",
                 options: [
                     "Body cell division",
                     "Sex cell division"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "⚡💡",
+                emoji: "🌈🎨",
                 question: "What is impulse?",
                 options: [
                     "Mass times velocity",
@@ -8669,7 +8669,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "⚛️🔬",
+                emoji: "🔬🧫",
                 question: "What is a solution?",
                 options: [
                     "Homogeneous mixture",
@@ -8679,47 +8679,47 @@ const scienceQuestions = {
             },
             {
                 topic: "Astronomy",
-                emoji: "🌌✨",
+                emoji: "🪐🌌",
                 question: "What is a white dwarf?",
                 options: [
                     "Dense stellar remnant",
                     "Giant star"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Biology",
-                emoji: "🌿🍃",
+                emoji: "🌿🌱",
                 question: "What is chloroplast?",
                 options: [
                     "Photosynthesis organelle",
                     "Energy organelle"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Physics",
-                emoji: "🌊💧",
+                emoji: "💧💦",
                 question: "What is period of wave?",
                 options: [
                     "Cycles per time",
                     "Time per cycle"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Chemistry",
-                emoji: "💧⚗️",
+                emoji: "🔥🌋",
                 question: "What is sublimation?",
                 options: [
                     "Solid to gas",
                     "Liquid to gas"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Astronomy",
-                emoji: "☀️⭐",
+                emoji: "🌊🌀",
                 question: "What particles stream from the Sun?",
                 options: [
                     "Charged particles",
@@ -8729,7 +8729,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "🦴💪",
+                emoji: "🧠💭",
                 question: "What is smooth muscle?",
                 options: [
                     "Involuntary muscle",
@@ -8739,7 +8739,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🎯⚡",
+                emoji: "🫁🫀",
                 question: "What is resonance frequency?",
                 options: [
                     "Applied frequency",
@@ -8751,62 +8751,62 @@ const scienceQuestions = {
         hard: [
             {
                 topic: "Biology",
-                emoji: "🧬🔬",
+                emoji: "🦷🦴",
                 question: "What is a test cross?",
                 options: [
                     "Cause mutation",
                     "Produce offspring",
                     "Determine genotype"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "⚡🔋",
+                emoji: "👁️👀",
                 question: "What is Kirchhoff's current law?",
                 options: [
                     "Current sum zero at node",
                     "Voltage sum zero",
                     "Power constant"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Chemistry",
-                emoji: "⚛️🔬",
+                emoji: "🌤️⛅",
                 question: "What is enthalpy?",
                 options: [
                     "Free energy",
                     "Disorder",
                     "Heat content"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Astronomy",
-                emoji: "🌌💫",
+                emoji: "❄️🌨️",
                 question: "What is a cepheid variable?",
                 options: [
                     "Pulsating star",
                     "Binary star",
                     "Exploding star"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Biology",
-                emoji: "🫀💓",
+                emoji: "🌪️💨",
                 question: "What is blood pressure?",
                 options: [
                     "Blood volume",
                     "Heart rate",
                     "Force on artery walls"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Physics",
-                emoji: "🌊💧",
+                emoji: "⚛️🔬",
                 question: "What is Stokes' law?",
                 options: [
                     "Drag force on sphere",
@@ -8817,40 +8817,40 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "💧⚗️",
+                emoji: "🧪⚗️",
                 question: "What is an alkene?",
                 options: [
                     "All single bonds",
                     "Has triple bond",
                     "Has C=C bond"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Astronomy",
-                emoji: "☀️⭐",
+                emoji: "💊💉",
                 question: "What is the heliopause?",
                 options: [
                     "Planet boundary",
                     "Sun's surface",
                     "Solar system boundary"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Biology",
-                emoji: "👁️🔬",
+                emoji: "🔭🌠",
                 question: "What is aqueous humor?",
                 options: [
                     "Vitreous gel",
                     "Eye fluid",
                     "Tear"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "🌡️🔥",
+                emoji: "🌏🗺️",
                 question: "What is adiabatic process?",
                 options: [
                     "No work done",
@@ -8883,7 +8883,7 @@ const scienceQuestions = {
                     "Energy quantization",
                     "Wave-particle duality"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Chemistry",
@@ -8919,7 +8919,7 @@ const scienceQuestions = {
                     "No change",
                     "Increases variation"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Physics",
@@ -8931,7 +8931,7 @@ const scienceQuestions = {
                     "Focus blur from lens curve",
                     "Diffraction"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Chemistry",
@@ -8943,7 +8943,7 @@ const scienceQuestions = {
                     "Structural isomers in equilibrium",
                     "Conformers"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Astronomy",
@@ -8967,7 +8967,7 @@ const scienceQuestions = {
                     "Light response",
                     "Gravity response"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
@@ -8979,7 +8979,7 @@ const scienceQuestions = {
                     "Standing wave pattern",
                     "Wave speed"
                 ],
-                correct: 2
+                correct: 1
             }
         ],
         extreme: [
@@ -9049,7 +9049,7 @@ const scienceQuestions = {
         easy: [
             {
                 topic: "Biology",
-                emoji: "🦎🐊",
+                emoji: "🧬💉",
                 question: "Crocodiles are reptiles.",
                 options: [
                     "True",
@@ -9059,7 +9059,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🎾⚽",
+                emoji: "⚡🔋",
                 question: "Friction always opposes motion.",
                 options: [
                     "False",
@@ -9069,7 +9069,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "🧪⚗️",
+                emoji: "⚗️🧪",
                 question: "Litmus paper tests pH.",
                 options: [
                     "True",
@@ -9079,7 +9079,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Astronomy",
-                emoji: "🌌⭐",
+                emoji: "🌍🌙",
                 question: "Light travels in straight lines.",
                 options: [
                     "False",
@@ -9089,37 +9089,37 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "🐙🦑",
+                emoji: "🫀💓",
                 question: "Squids have beaks.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Physics",
-                emoji: "🔌⚡",
+                emoji: "🌡️❄️",
                 question: "Silver is the best conductor.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Chemistry",
-                emoji: "🔥💨",
+                emoji: "💎✨",
                 question: "Oxygen supports combustion.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Astronomy",
-                emoji: "🌍🌕",
+                emoji: "☀️🌟",
                 question: "Lunar eclipses are rarer than solar.",
                 options: [
                     "False",
@@ -9129,7 +9129,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "🦴🦷",
+                emoji: "🦴🩻",
                 question: "Adult humans have 32 permanent teeth.",
                 options: [
                     "True",
@@ -9139,7 +9139,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🌡️❄️",
+                emoji: "🔊📢",
                 question: "Boiling point decreases with altitude.",
                 options: [
                     "False",
@@ -9151,17 +9151,17 @@ const scienceQuestions = {
         medium: [
             {
                 topic: "Biology",
-                emoji: "🧬🔬",
+                emoji: "🧲🔗",
                 question: "What is mitosis?",
                 options: [
                     "Sex cell division",
                     "Body cell division"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "⚡💡",
+                emoji: "🌈🎨",
                 question: "What is angular momentum?",
                 options: [
                     "Linear momentum",
@@ -9171,17 +9171,17 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "⚛️🔬",
+                emoji: "🔬🧫",
                 question: "What is a colloid?",
                 options: [
                     "Dissolved particles",
                     "Particles suspended"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Astronomy",
-                emoji: "🌌✨",
+                emoji: "🪐🌌",
                 question: "What is a neutron star?",
                 options: [
                     "Black hole",
@@ -9191,17 +9191,17 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "🌿🍃",
+                emoji: "🌿🌱",
                 question: "What is mitochondria?",
                 options: [
                     "Energy powerhouse",
                     "Protein factory"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Physics",
-                emoji: "🌊💧",
+                emoji: "💧💦",
                 question: "What is frequency?",
                 options: [
                     "Cycles per second",
@@ -9211,17 +9211,17 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "💧⚗️",
+                emoji: "🔥🌋",
                 question: "What is deposition?",
                 options: [
                     "Gas to solid",
                     "Solid to gas"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Astronomy",
-                emoji: "☀️⭐",
+                emoji: "🌊🌀",
                 question: "What are solar prominences made of?",
                 options: [
                     "Plasma",
@@ -9231,29 +9231,29 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "🦴💪",
+                emoji: "🧠💭",
                 question: "What is skeletal muscle?",
                 options: [
                     "Involuntary muscle",
                     "Voluntary muscle"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "🎯⚡",
+                emoji: "🫁🫀",
                 question: "What is Q factor?",
                 options: [
                     "Quality factor",
                     "Charge"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         hard: [
             {
                 topic: "Biology",
-                emoji: "🧬🔬",
+                emoji: "🦷🦴",
                 question: "What is a Punnett square for?",
                 options: [
                     "Predict offspring genotypes",
@@ -9264,29 +9264,29 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "⚡🔋",
+                emoji: "👁️👀",
                 question: "What is Ampere's law?",
                 options: [
                     "Force law",
                     "E-field from charge",
                     "B-field from current"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Chemistry",
-                emoji: "⚛️🔬",
+                emoji: "🌤️⛅",
                 question: "What is Gibbs free energy?",
                 options: [
                     "Heat energy",
                     "Total energy",
                     "Energy available for work"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Astronomy",
-                emoji: "🌌💫",
+                emoji: "❄️🌨️",
                 question: "What is cosmological redshift?",
                 options: [
                     "Doppler effect",
@@ -9297,7 +9297,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "🫀💓",
+                emoji: "🌪️💨",
                 question: "What is the cardiac cycle?",
                 options: [
                     "Blood circulation",
@@ -9308,29 +9308,29 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🌊💧",
+                emoji: "⚛️🔬",
                 question: "How is pressure distributed in confined fluids?",
                 options: [
                     "Buoyancy",
                     "Pressure transmitted equally",
                     "Flow rate"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Chemistry",
-                emoji: "💧⚗️",
+                emoji: "🧪⚗️",
                 question: "What is an alkyne?",
                 options: [
                     "All single bonds",
                     "Has C=C bond",
                     "Has C≡C bond"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Astronomy",
-                emoji: "☀️⭐",
+                emoji: "💊💉",
                 question: "What is the termination shock?",
                 options: [
                     "Solar wind slows",
@@ -9341,7 +9341,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "👁️🔬",
+                emoji: "🔭🌠",
                 question: "What is the sclera?",
                 options: [
                     "White of eye",
@@ -9352,14 +9352,14 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🌡️🔥",
+                emoji: "🌏🗺️",
                 question: "What is isobaric process?",
                 options: [
                     "Constant temperature",
                     "Constant volume",
                     "Constant pressure"
                 ],
-                correct: 2
+                correct: 1
             }
         ],
         expert: [
@@ -9373,7 +9373,7 @@ const scienceQuestions = {
                     "Bacterial reproduction",
                     "Virus replication"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Physics",
@@ -9385,7 +9385,7 @@ const scienceQuestions = {
                     "Particle through barrier",
                     "Light through medium"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Chemistry",
@@ -9397,7 +9397,7 @@ const scienceQuestions = {
                     "RCHO",
                     "RCOOR'"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Astronomy",
@@ -9421,7 +9421,7 @@ const scienceQuestions = {
                     "Rapid evolution bursts",
                     "Gradual evolution"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Physics",
@@ -9433,7 +9433,7 @@ const scienceQuestions = {
                     "Far-field diffraction",
                     "Near-field"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Chemistry",
@@ -9445,7 +9445,7 @@ const scienceQuestions = {
                     "Free radical",
                     "Positively charged carbon"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Astronomy",
@@ -9457,7 +9457,7 @@ const scienceQuestions = {
                     "Moon's orbit",
                     "Earth's orbital plane"
                 ],
-                correct: 3
+                correct: 0
             },
             {
                 topic: "Biology",
@@ -9469,7 +9469,7 @@ const scienceQuestions = {
                     "Gravity response growth",
                     "Light response"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Physics",
@@ -9481,7 +9481,7 @@ const scienceQuestions = {
                     "Random frequency",
                     "Beat frequency"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         extreme: [
@@ -9551,7 +9551,7 @@ const scienceQuestions = {
         easy: [
             {
                 topic: "Biology",
-                emoji: "🦘🐨",
+                emoji: "🧬💉",
                 question: "Kangaroos are marsupials.",
                 options: [
                     "True",
@@ -9561,27 +9561,27 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🎾⚽",
+                emoji: "⚡🔋",
                 question: "Centripetal force points toward center.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Chemistry",
-                emoji: "🧪⚗️",
+                emoji: "⚗️🧪",
                 question: "pH 7 is neutral.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Astronomy",
-                emoji: "🌌⭐",
+                emoji: "🌍🌙",
                 question: "The universe started with Big Bang.",
                 options: [
                     "False",
@@ -9591,37 +9591,37 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "🐝🍯",
+                emoji: "🫀💓",
                 question: "Honeybees make hexagonal cells.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Physics",
-                emoji: "🔌⚡",
+                emoji: "🌡️❄️",
                 question: "Electricity flows from positive to negative.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Chemistry",
-                emoji: "🔥💨",
+                emoji: "💎✨",
                 question: "Carbon dioxide is heavier than air.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Astronomy",
-                emoji: "🌍🌕",
+                emoji: "☀️🌟",
                 question: "A solar eclipse occurs when Moon blocks Sun.",
                 options: [
                     "True",
@@ -9631,7 +9631,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "🦴🦷",
+                emoji: "🦴🩻",
                 question: "Bone is living tissue.",
                 options: [
                     "True",
@@ -9641,49 +9641,49 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🌡️❄️",
+                emoji: "🔊📢",
                 question: "Water has maximum density at 4°C.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         medium: [
             {
                 topic: "Biology",
-                emoji: "🧬🔬",
+                emoji: "🧲🔗",
                 question: "What is cytokinesis?",
                 options: [
                     "DNA replication",
                     "Cell division"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "⚡💡",
+                emoji: "🌈🎨",
                 question: "What is torque?",
                 options: [
                     "Rotational force",
                     "Linear force"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Chemistry",
-                emoji: "⚛️🔬",
+                emoji: "🔬🧫",
                 question: "What is an emulsion?",
                 options: [
                     "Gas-liquid",
                     "Liquid-liquid colloid"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Astronomy",
-                emoji: "🌌✨",
+                emoji: "🪐🌌",
                 question: "What is a magnetar?",
                 options: [
                     "Black hole",
@@ -9693,47 +9693,47 @@ const scienceQuestions = {
             },
             {
                 topic: "Biology",
-                emoji: "🌿🍃",
+                emoji: "🌿🌱",
                 question: "What is the Golgi apparatus?",
                 options: [
                     "Packaging organelle",
                     "Energy producer"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Physics",
-                emoji: "🌊💧",
+                emoji: "💧💦",
                 question: "What wave property changes with relative motion?",
                 options: [
                     "Amplitude change",
                     "Frequency change"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Chemistry",
-                emoji: "💧⚗️",
+                emoji: "🔥🌋",
                 question: "What is condensation?",
                 options: [
                     "Gas to liquid",
                     "Liquid to gas"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Astronomy",
-                emoji: "☀️⭐",
+                emoji: "🌊🌀",
                 question: "What is coronal heating problem?",
                 options: [
                     "Sunspot mystery",
                     "Why corona hotter than surface"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Biology",
-                emoji: "🦴💪",
+                emoji: "🧠💭",
                 question: "What is an antagonistic pair?",
                 options: [
                     "Opposing muscles",
@@ -9743,74 +9743,74 @@ const scienceQuestions = {
             },
             {
                 topic: "Physics",
-                emoji: "🎯⚡",
+                emoji: "🫁🫀",
                 question: "What is self-inductance?",
                 options: [
                     "Induced EMF in same coil",
                     "Between coils"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         hard: [
             {
                 topic: "Biology",
-                emoji: "🧬🔬",
+                emoji: "🦷🦴",
                 question: "What is the central dogma?",
                 options: [
                     "Protein→RNA→DNA",
                     "DNA→RNA→Protein",
                     "RNA→DNA→Protein"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "⚡🔋",
+                emoji: "👁️👀",
                 question: "What is Gauss's law?",
                 options: [
                     "B-field from current",
                     "Force between charges",
                     "E-field flux from charge"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Chemistry",
-                emoji: "⚛️🔬",
+                emoji: "🌤️⛅",
                 question: "What is the rate-determining step?",
                 options: [
                     "First step",
                     "Slowest reaction step",
                     "Fastest step"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Astronomy",
-                emoji: "🌌💫",
+                emoji: "❄️🌨️",
                 question: "What is a brown dwarf?",
                 options: [
                     "Dead star",
                     "Planet",
                     "Failed star"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Biology",
-                emoji: "🫀💓",
+                emoji: "🌪️💨",
                 question: "What is cardiac output?",
                 options: [
                     "Heart rate",
                     "Blood pressure",
                     "Blood per minute"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Physics",
-                emoji: "🌊💧",
+                emoji: "⚛️🔬",
                 question: "What is the continuity equation?",
                 options: [
                     "Mass conservation in fluids",
@@ -9821,7 +9821,7 @@ const scienceQuestions = {
             },
             {
                 topic: "Chemistry",
-                emoji: "💧⚗️",
+                emoji: "🧪⚗️",
                 question: "What is benzene?",
                 options: [
                     "Alkene",
@@ -9832,36 +9832,36 @@ const scienceQuestions = {
             },
             {
                 topic: "Astronomy",
-                emoji: "☀️⭐",
+                emoji: "💊💉",
                 question: "What is the bow shock?",
                 options: [
                     "Planetary boundary",
                     "Star collision",
                     "Where solar wind meets ISM"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Biology",
-                emoji: "👁️🔬",
+                emoji: "🔭🌠",
                 question: "What is the choroid?",
                 options: [
                     "Lens",
                     "Vascular eye layer",
                     "Retina"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
-                emoji: "🌡️🔥",
+                emoji: "🌏🗺️",
                 question: "What is isochoric process?",
                 options: [
                     "Constant volume",
                     "Constant temperature",
                     "Constant pressure"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         expert: [
@@ -9875,7 +9875,7 @@ const scienceQuestions = {
                     "Vertical inheritance",
                     "Mutation"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Physics",
@@ -9887,7 +9887,7 @@ const scienceQuestions = {
                     "Relativistic wave equation",
                     "Schrödinger equation"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Chemistry",
@@ -9899,7 +9899,7 @@ const scienceQuestions = {
                     "RCOR'",
                     "RCOOH"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Astronomy",
@@ -9911,7 +9911,7 @@ const scienceQuestions = {
                     "Why expansion",
                     "Why universe geometry flat"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Biology",
@@ -9923,7 +9923,7 @@ const scienceQuestions = {
                     "Homologous chromosomes",
                     "Sister chromatids"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Physics",
@@ -9935,7 +9935,7 @@ const scienceQuestions = {
                     "Reflection",
                     "Near-field diffraction"
                 ],
-                correct: 3
+                correct: 0
             },
             {
                 topic: "Chemistry",
@@ -9947,7 +9947,7 @@ const scienceQuestions = {
                     "Neutral carbon",
                     "Free radical"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Astronomy",
@@ -9959,7 +9959,7 @@ const scienceQuestions = {
                     "Equatorial plane",
                     "Galactic plane"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Biology",
@@ -9983,7 +9983,7 @@ const scienceQuestions = {
                     "Beat frequency",
                     "Higher harmonic"
                 ],
-                correct: 3
+                correct: 1
             }
         ],
         extreme: [

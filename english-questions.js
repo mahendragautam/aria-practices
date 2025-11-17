@@ -39,7 +39,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Grammar",
@@ -49,7 +49,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Literature",
@@ -59,7 +59,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -79,7 +79,7 @@ const englishQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Composition",
@@ -99,7 +99,7 @@ const englishQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Literature",
@@ -121,7 +121,7 @@ const englishQuestions = {
                     "Action word",
                     "Replaces a noun"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Vocabulary",
@@ -131,7 +131,7 @@ const englishQuestions = {
                     "Joyful",
                     "Sad"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -141,7 +141,7 @@ const englishQuestions = {
                     "Period",
                     "Question mark"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Literature",
@@ -181,7 +181,7 @@ const englishQuestions = {
                     "Cold",
                     "Warm"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Literature",
@@ -201,7 +201,7 @@ const englishQuestions = {
                     "Adjective",
                     "Conjunction"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Composition",
@@ -211,7 +211,7 @@ const englishQuestions = {
                     "Introduction",
                     "Body"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -246,7 +246,7 @@ const englishQuestions = {
                     "Hidden",
                     "Everywhere"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Grammar",
@@ -279,7 +279,7 @@ const englishQuestions = {
                     "Biography",
                     "Symbolic story"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Grammar",
@@ -312,7 +312,7 @@ const englishQuestions = {
                     "Opposing view",
                     "Conclusion"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Literature",
@@ -323,7 +323,7 @@ const englishQuestions = {
                     "Ray Bradbury",
                     "Aldous Huxley"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -337,7 +337,7 @@ const englishQuestions = {
                     "Affect=verb, Effect=noun",
                     "Both are nouns"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Literature",
@@ -349,7 +349,7 @@ const englishQuestions = {
                     "12th-13th",
                     "16th-17th"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Vocabulary",
@@ -361,7 +361,7 @@ const englishQuestions = {
                     "Book writing",
                     "Life story"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Grammar",
@@ -385,7 +385,7 @@ const englishQuestions = {
                     "Logic",
                     "Credibility"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Literature",
@@ -397,7 +397,7 @@ const englishQuestions = {
                     "5 syllables per line",
                     "10 syllables per line"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Grammar",
@@ -409,7 +409,7 @@ const englishQuestions = {
                     "Fragment",
                     "Run-on sentence"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Vocabulary",
@@ -421,7 +421,7 @@ const englishQuestions = {
                     "Understatement",
                     "Appearance of truth"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Composition",
@@ -433,7 +433,7 @@ const englishQuestions = {
                     "Comma before \"and\" in list",
                     "Comma with name"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Literature",
@@ -445,7 +445,7 @@ const englishQuestions = {
                     "Historical fiction",
                     "Science fiction"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "extreme": [
@@ -531,7 +531,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -541,7 +541,7 @@ const englishQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Grammar",
@@ -551,7 +551,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -561,7 +561,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -591,7 +591,7 @@ const englishQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Grammar",
@@ -601,7 +601,7 @@ const englishQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Grammar",
@@ -611,7 +611,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -653,7 +653,7 @@ const englishQuestions = {
                     "Verb",
                     "Noun"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -663,7 +663,7 @@ const englishQuestions = {
                     "Reflexive pronoun",
                     "Personal pronoun"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -683,7 +683,7 @@ const englishQuestions = {
                     "Object",
                     "Subject"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -713,7 +713,7 @@ const englishQuestions = {
                     "Article",
                     "Pronoun"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -726,7 +726,7 @@ const englishQuestions = {
                     "Abstract concept",
                     "Group as single unit"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Grammar",
@@ -737,7 +737,7 @@ const englishQuestions = {
                     "State verbs",
                     "Action verbs"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -748,7 +748,7 @@ const englishQuestions = {
                     "After linking verb",
                     "Modifying verb"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Grammar",
@@ -759,7 +759,7 @@ const englishQuestions = {
                     "Modifies verb",
                     "Connects sentences"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -770,7 +770,7 @@ const englishQuestions = {
                     "Show possession",
                     "Emphasize noun"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -792,7 +792,7 @@ const englishQuestions = {
                     "Two prepositions",
                     "Verb phrase"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -814,7 +814,7 @@ const englishQuestions = {
                     "No article used",
                     "A/An article"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Grammar",
@@ -825,7 +825,7 @@ const englishQuestions = {
                     "Adverb",
                     "Preposition"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -839,7 +839,7 @@ const englishQuestions = {
                     "Object position",
                     "Indirect object"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Grammar",
@@ -851,7 +851,7 @@ const englishQuestions = {
                     "Same form transitive/intransitive",
                     "Only intransitive"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -863,7 +863,7 @@ const englishQuestions = {
                     "After noun",
                     "Before noun"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Grammar",
@@ -875,7 +875,7 @@ const englishQuestions = {
                     "No -ly ending",
                     "Comparative form"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -887,7 +887,7 @@ const englishQuestions = {
                     "Possessive",
                     "Non-specific reference"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -899,7 +899,7 @@ const englishQuestions = {
                     "Starts question",
                     "Ends sentence"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Grammar",
@@ -911,7 +911,7 @@ const englishQuestions = {
                     "Yes, in modern English",
                     "Only informal"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -923,7 +923,7 @@ const englishQuestions = {
                     "Comma after it",
                     "Question mark"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Grammar",
@@ -947,7 +947,7 @@ const englishQuestions = {
                     "Introduces noun phrase",
                     "Type of verb"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "extreme": [
@@ -1023,7 +1023,7 @@ const englishQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Grammar",
@@ -1043,7 +1043,7 @@ const englishQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Grammar",
@@ -1053,7 +1053,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -1063,7 +1063,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -1113,7 +1113,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -1135,7 +1135,7 @@ const englishQuestions = {
                     "Who/what does action",
                     "The action"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -1165,7 +1165,7 @@ const englishQuestions = {
                     "You",
                     "I"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -1185,7 +1185,7 @@ const englishQuestions = {
                     "Period",
                     "Question mark"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -1217,7 +1217,7 @@ const englishQuestions = {
                     "Adjective",
                     "Adverb"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "hard": [
@@ -1230,7 +1230,7 @@ const englishQuestions = {
                     "Independent + dependent clause",
                     "Two independent clauses"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Grammar",
@@ -1241,7 +1241,7 @@ const englishQuestions = {
                     "Three independent",
                     "Two independent + one dependent"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -1252,7 +1252,7 @@ const englishQuestions = {
                     "Subject with modifiers",
                     "Subject only"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Grammar",
@@ -1263,7 +1263,7 @@ const englishQuestions = {
                     "Verb only",
                     "Subject phrase"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -1274,7 +1274,7 @@ const englishQuestions = {
                     "Multiple choice",
                     "Yes/no question"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -1285,7 +1285,7 @@ const englishQuestions = {
                     "Only plural",
                     "Yes, for emphasis"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Grammar",
@@ -1296,7 +1296,7 @@ const englishQuestions = {
                     "Yes, always",
                     "No, can be fragments"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -1343,7 +1343,7 @@ const englishQuestions = {
                     "Main idea at end",
                     "No main idea"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Grammar",
@@ -1355,7 +1355,7 @@ const englishQuestions = {
                     "Adding conjunctions",
                     "Complex structure"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -1367,7 +1367,7 @@ const englishQuestions = {
                     "Question",
                     "It is/There is structure"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Grammar",
@@ -1403,7 +1403,7 @@ const englishQuestions = {
                     "Exhortation or encouragement",
                     "Question"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Grammar",
@@ -1427,7 +1427,7 @@ const englishQuestions = {
                     "Subject acts",
                     "Question form"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Grammar",
@@ -1439,7 +1439,7 @@ const englishQuestions = {
                     "No, always errors",
                     "Only in poetry"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Grammar",
@@ -1451,7 +1451,7 @@ const englishQuestions = {
                     "Complex sentence",
                     "Run-on with no punctuation"
                 ],
-                "correct": 3
+                "correct": 1
             }
         ],
         "extreme": [
@@ -1537,7 +1537,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Punctuation",
@@ -1547,7 +1547,7 @@ const englishQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Punctuation",
@@ -1557,7 +1557,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Punctuation",
@@ -1577,7 +1577,7 @@ const englishQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Punctuation",
@@ -1587,7 +1587,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Punctuation",
@@ -1607,7 +1607,7 @@ const englishQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mechanics",
@@ -1629,7 +1629,7 @@ const englishQuestions = {
                     "Between clauses",
                     "Before list or explanation"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Punctuation",
@@ -1639,7 +1639,7 @@ const englishQuestions = {
                     "End of sentence",
                     "Beginning"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Punctuation",
@@ -1649,7 +1649,7 @@ const englishQuestions = {
                     "Yes, always",
                     "Yes, informal only"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Punctuation",
@@ -1659,7 +1659,7 @@ const englishQuestions = {
                     "Inside quotes",
                     "Outside quotes"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Punctuation",
@@ -1679,7 +1679,7 @@ const englishQuestions = {
                     "Add 's",
                     "Add apostrophe after s"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Punctuation",
@@ -1689,7 +1689,7 @@ const englishQuestions = {
                     "Semicolon",
                     "Period"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Punctuation",
@@ -1709,7 +1709,7 @@ const englishQuestions = {
                     "All words",
                     "First, last, major words"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mechanics",
@@ -1719,7 +1719,7 @@ const englishQuestions = {
                     "No",
                     "Yes"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -1732,7 +1732,7 @@ const englishQuestions = {
                     "Interruption or emphasis",
                     "List items"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Punctuation",
@@ -1743,7 +1743,7 @@ const englishQuestions = {
                     "No, only at end",
                     "Yes, anywhere"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Punctuation",
@@ -1765,7 +1765,7 @@ const englishQuestions = {
                     "Same quotes",
                     "Single quotes inside double"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Punctuation",
@@ -1776,7 +1776,7 @@ const englishQuestions = {
                     "Series comma",
                     "Oxford comma"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Punctuation",
@@ -1787,7 +1787,7 @@ const englishQuestions = {
                     "Just apostrophe",
                     "Apostrophe + s"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Punctuation",
@@ -1809,7 +1809,7 @@ const englishQuestions = {
                     "Between numbers/ranges",
                     "Same as em dash"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mechanics",
@@ -1845,7 +1845,7 @@ const englishQuestions = {
                     "Omitted words or pause",
                     "Excitement"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Punctuation",
@@ -1857,7 +1857,7 @@ const englishQuestions = {
                     "Exclamation",
                     "Only question mark"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Punctuation",
@@ -1869,7 +1869,7 @@ const englishQuestions = {
                     "Multiple in paragraph",
                     "Two total"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Punctuation",
@@ -1881,7 +1881,7 @@ const englishQuestions = {
                     "UK inside, US outside",
                     "UK outside, US inside"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Punctuation",
@@ -1893,7 +1893,7 @@ const englishQuestions = {
                     "First comma",
                     "Any comma"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Punctuation",
@@ -1905,7 +1905,7 @@ const englishQuestions = {
                     "Apostrophe on last name",
                     "First name only"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Punctuation",
@@ -1917,7 +1917,7 @@ const englishQuestions = {
                     "Yes, with transitional phrase",
                     "No, never"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Punctuation",
@@ -1929,7 +1929,7 @@ const englishQuestions = {
                     "No hyphen",
                     "Hyphen with omitted word"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Mechanics",
@@ -1953,7 +1953,7 @@ const englishQuestions = {
                     "1990s or 90s",
                     "1990"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "extreme": [
@@ -2029,7 +2029,7 @@ const englishQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Grammar",
@@ -2049,7 +2049,7 @@ const englishQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Grammar",
@@ -2069,7 +2069,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -2089,7 +2089,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -2119,7 +2119,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -2141,7 +2141,7 @@ const englishQuestions = {
                     "Completed past action",
                     "Ongoing past"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -2171,7 +2171,7 @@ const englishQuestions = {
                     "Walked",
                     "Walk"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -2201,7 +2201,7 @@ const englishQuestions = {
                     "Statements",
                     "Wishes, if clauses"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Grammar",
@@ -2211,7 +2211,7 @@ const englishQuestions = {
                     "Commands",
                     "Statements and questions"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Grammar",
@@ -2223,7 +2223,7 @@ const englishQuestions = {
                     "Adjective",
                     "Adverb"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "hard": [
@@ -2236,7 +2236,7 @@ const englishQuestions = {
                     "Had + past participle",
                     "Was + -ing"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Grammar",
@@ -2247,7 +2247,7 @@ const englishQuestions = {
                     "Will be + -ing",
                     "Will + base"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -2269,7 +2269,7 @@ const englishQuestions = {
                     "Recent past",
                     "Future"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -2291,7 +2291,7 @@ const englishQuestions = {
                     "Swum",
                     "Swam"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Grammar",
@@ -2302,7 +2302,7 @@ const englishQuestions = {
                     "Wishes",
                     "Would/could/should situations"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -2324,7 +2324,7 @@ const englishQuestions = {
                     "No, implied \"you\"",
                     "Sometimes"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Grammar",
@@ -2336,7 +2336,7 @@ const englishQuestions = {
                     "Dog runs",
                     "Dogs is running"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -2350,7 +2350,7 @@ const englishQuestions = {
                     "Progressive",
                     "Used to/would for past habits"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Grammar",
@@ -2374,7 +2374,7 @@ const englishQuestions = {
                     "Going to be + -ing",
                     "Will have been + -ing"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Grammar",
@@ -2386,7 +2386,7 @@ const englishQuestions = {
                     "Voice",
                     "Time flow of action"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -2398,7 +2398,7 @@ const englishQuestions = {
                     "Ongoing action",
                     "Habitual"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -2410,7 +2410,7 @@ const englishQuestions = {
                     "Irregular verb",
                     "Missing forms"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Grammar",
@@ -2422,7 +2422,7 @@ const englishQuestions = {
                     "Double consonant",
                     "Vowel change in irregular verbs"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -2434,7 +2434,7 @@ const englishQuestions = {
                     "Question",
                     "First person command"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Grammar",
@@ -2458,7 +2458,7 @@ const englishQuestions = {
                     "Only negative",
                     "Yes, for inclusive commands"
                 ],
-                "correct": 3
+                "correct": 1
             }
         ],
         "extreme": [
@@ -2534,7 +2534,7 @@ const englishQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Vocabulary",
@@ -2544,7 +2544,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Vocabulary",
@@ -2564,7 +2564,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Vocabulary",
@@ -2574,7 +2574,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Vocabulary",
@@ -2594,7 +2594,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Vocabulary",
@@ -2624,7 +2624,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -2660,7 +2660,7 @@ const englishQuestions = {
                     "I went home",
                     "i Went home"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Vocabulary",
@@ -2684,7 +2684,7 @@ const englishQuestions = {
                     "Cold",
                     "Tepid"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Vocabulary",
@@ -2696,7 +2696,7 @@ const englishQuestions = {
                     "Running",
                     "Runs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Vocabulary",
@@ -2720,7 +2720,7 @@ const englishQuestions = {
                     "Childes",
                     "Childrens"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Vocabulary",
@@ -2732,7 +2732,7 @@ const englishQuestions = {
                     "She doesn't go",
                     "She not go"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Vocabulary",
@@ -2744,7 +2744,7 @@ const englishQuestions = {
                     "Adjective",
                     "Adverb"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "hard": [
@@ -2757,7 +2757,7 @@ const englishQuestions = {
                     "A",
                     "C"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Vocabulary",
@@ -2781,7 +2781,7 @@ const englishQuestions = {
                     "Subordinate",
                     "Relative"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Vocabulary",
@@ -2793,7 +2793,7 @@ const englishQuestions = {
                     "Game",
                     "Ball"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Vocabulary",
@@ -2805,7 +2805,7 @@ const englishQuestions = {
                     "Best",
                     "Better"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Vocabulary",
@@ -2817,7 +2817,7 @@ const englishQuestions = {
                     "Cat is chasing",
                     "Mouse runs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Vocabulary",
@@ -2829,7 +2829,7 @@ const englishQuestions = {
                     "Reflexive",
                     "Demonstrative"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Vocabulary",
@@ -2841,7 +2841,7 @@ const englishQuestions = {
                     "Numerous",
                     "Ample"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Vocabulary",
@@ -2853,7 +2853,7 @@ const englishQuestions = {
                     "Personification",
                     "Alliteration"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Vocabulary",
@@ -2865,7 +2865,7 @@ const englishQuestions = {
                     "Dog runs",
                     "Dogs is running"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -2879,7 +2879,7 @@ const englishQuestions = {
                     "C",
                     "A"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Vocabulary",
@@ -2891,7 +2891,7 @@ const englishQuestions = {
                     "Mood",
                     "Setting"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Vocabulary",
@@ -2903,7 +2903,7 @@ const englishQuestions = {
                     "Time flies",
                     "Happy clam"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Vocabulary",
@@ -2939,7 +2939,7 @@ const englishQuestions = {
                     "Exaggeration",
                     "Sound repetition"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Vocabulary",
@@ -2951,7 +2951,7 @@ const englishQuestions = {
                     "Personification",
                     "Hyperbole"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Vocabulary",
@@ -2963,7 +2963,7 @@ const englishQuestions = {
                     "Adjective",
                     "Adverb"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Vocabulary",
@@ -2975,7 +2975,7 @@ const englishQuestions = {
                     "Homonyms",
                     "Acronyms"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Vocabulary",
@@ -3073,7 +3073,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Reading",
@@ -3093,7 +3093,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Reading",
@@ -3103,7 +3103,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Reading",
@@ -3123,7 +3123,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Reading",
@@ -3153,7 +3153,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -3189,7 +3189,7 @@ const englishQuestions = {
                     "I went home",
                     "i Went home"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Reading",
@@ -3213,7 +3213,7 @@ const englishQuestions = {
                     "Cold",
                     "Tepid"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Reading",
@@ -3225,7 +3225,7 @@ const englishQuestions = {
                     "Running",
                     "Runs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Reading",
@@ -3249,7 +3249,7 @@ const englishQuestions = {
                     "Childes",
                     "Childrens"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Reading",
@@ -3261,7 +3261,7 @@ const englishQuestions = {
                     "She doesn't go",
                     "She not go"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Reading",
@@ -3273,7 +3273,7 @@ const englishQuestions = {
                     "Adjective",
                     "Adverb"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "hard": [
@@ -3310,7 +3310,7 @@ const englishQuestions = {
                     "Subordinate",
                     "Relative"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Reading",
@@ -3322,7 +3322,7 @@ const englishQuestions = {
                     "Game",
                     "Ball"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Reading",
@@ -3334,7 +3334,7 @@ const englishQuestions = {
                     "Best",
                     "Better"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Reading",
@@ -3346,7 +3346,7 @@ const englishQuestions = {
                     "Cat is chasing",
                     "Mouse runs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Reading",
@@ -3358,7 +3358,7 @@ const englishQuestions = {
                     "Reflexive",
                     "Demonstrative"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Reading",
@@ -3370,7 +3370,7 @@ const englishQuestions = {
                     "Numerous",
                     "Ample"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Reading",
@@ -3382,7 +3382,7 @@ const englishQuestions = {
                     "Personification",
                     "Alliteration"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Reading",
@@ -3394,7 +3394,7 @@ const englishQuestions = {
                     "Dog runs",
                     "Dogs is running"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -3408,7 +3408,7 @@ const englishQuestions = {
                     "D",
                     "A"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Reading",
@@ -3420,7 +3420,7 @@ const englishQuestions = {
                     "Mood",
                     "Setting"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Reading",
@@ -3432,7 +3432,7 @@ const englishQuestions = {
                     "Time flies",
                     "Happy clam"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Reading",
@@ -3468,7 +3468,7 @@ const englishQuestions = {
                     "Exaggeration",
                     "Sound repetition"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Reading",
@@ -3480,7 +3480,7 @@ const englishQuestions = {
                     "Personification",
                     "Hyperbole"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Reading",
@@ -3492,7 +3492,7 @@ const englishQuestions = {
                     "Adjective",
                     "Adverb"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Reading",
@@ -3504,7 +3504,7 @@ const englishQuestions = {
                     "Homonyms",
                     "Acronyms"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Reading",
@@ -3592,7 +3592,7 @@ const englishQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Poetry",
@@ -3602,7 +3602,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Poetry",
@@ -3622,7 +3622,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Poetry",
@@ -3632,7 +3632,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Poetry",
@@ -3652,7 +3652,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Poetry",
@@ -3682,7 +3682,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -3696,7 +3696,7 @@ const englishQuestions = {
                     "Angry",
                     "Tired"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "General",
@@ -3720,7 +3720,7 @@ const englishQuestions = {
                     "I went home",
                     "i Went home"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "General",
@@ -3744,7 +3744,7 @@ const englishQuestions = {
                     "Cold",
                     "Tepid"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "General",
@@ -3756,7 +3756,7 @@ const englishQuestions = {
                     "Running",
                     "Runs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "General",
@@ -3780,7 +3780,7 @@ const englishQuestions = {
                     "Childes",
                     "Childrens"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "General",
@@ -3792,7 +3792,7 @@ const englishQuestions = {
                     "She doesn't go",
                     "She not go"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "General",
@@ -3804,7 +3804,7 @@ const englishQuestions = {
                     "Adjective",
                     "Adverb"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "hard": [
@@ -3817,7 +3817,7 @@ const englishQuestions = {
                     "A",
                     "C"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Poetry",
@@ -3841,7 +3841,7 @@ const englishQuestions = {
                     "Subordinate",
                     "Relative"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Poetry",
@@ -3853,7 +3853,7 @@ const englishQuestions = {
                     "Game",
                     "Ball"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Poetry",
@@ -3865,7 +3865,7 @@ const englishQuestions = {
                     "Best",
                     "Better"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Poetry",
@@ -3877,7 +3877,7 @@ const englishQuestions = {
                     "Cat is chasing",
                     "Mouse runs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Poetry",
@@ -3889,7 +3889,7 @@ const englishQuestions = {
                     "Reflexive",
                     "Demonstrative"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Poetry",
@@ -3901,7 +3901,7 @@ const englishQuestions = {
                     "Numerous",
                     "Ample"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Poetry",
@@ -3913,7 +3913,7 @@ const englishQuestions = {
                     "Personification",
                     "Alliteration"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Poetry",
@@ -3925,7 +3925,7 @@ const englishQuestions = {
                     "Dog runs",
                     "Dogs is running"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -3939,7 +3939,7 @@ const englishQuestions = {
                     "D",
                     "B"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Poetry",
@@ -3951,7 +3951,7 @@ const englishQuestions = {
                     "C",
                     "A"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Poetry",
@@ -3963,7 +3963,7 @@ const englishQuestions = {
                     "Time flies",
                     "Happy clam"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Poetry",
@@ -3999,7 +3999,7 @@ const englishQuestions = {
                     "Exaggeration",
                     "Sound repetition"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Poetry",
@@ -4011,7 +4011,7 @@ const englishQuestions = {
                     "Personification",
                     "Hyperbole"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Poetry",
@@ -4023,7 +4023,7 @@ const englishQuestions = {
                     "Adjective",
                     "Adverb"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Poetry",
@@ -4035,7 +4035,7 @@ const englishQuestions = {
                     "Homonyms",
                     "Acronyms"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Poetry",
@@ -4133,7 +4133,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Writing",
@@ -4153,7 +4153,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Writing",
@@ -4163,7 +4163,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Writing",
@@ -4183,7 +4183,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Writing",
@@ -4213,7 +4213,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -4225,7 +4225,7 @@ const englishQuestions = {
                     "Option B",
                     "Option A"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Writing",
@@ -4249,7 +4249,7 @@ const englishQuestions = {
                     "I went home",
                     "i Went home"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Writing",
@@ -4273,7 +4273,7 @@ const englishQuestions = {
                     "Cold",
                     "Tepid"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Writing",
@@ -4285,7 +4285,7 @@ const englishQuestions = {
                     "Running",
                     "Runs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Writing",
@@ -4309,7 +4309,7 @@ const englishQuestions = {
                     "Childes",
                     "Childrens"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Writing",
@@ -4321,7 +4321,7 @@ const englishQuestions = {
                     "She doesn't go",
                     "She not go"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Writing",
@@ -4333,7 +4333,7 @@ const englishQuestions = {
                     "Adjective",
                     "Adverb"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "hard": [
@@ -4346,7 +4346,7 @@ const englishQuestions = {
                     "A",
                     "B"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Writing",
@@ -4370,7 +4370,7 @@ const englishQuestions = {
                     "Subordinate",
                     "Relative"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Writing",
@@ -4382,7 +4382,7 @@ const englishQuestions = {
                     "Game",
                     "Ball"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Writing",
@@ -4394,7 +4394,7 @@ const englishQuestions = {
                     "Best",
                     "Better"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Writing",
@@ -4406,7 +4406,7 @@ const englishQuestions = {
                     "Cat is chasing",
                     "Mouse runs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Writing",
@@ -4418,7 +4418,7 @@ const englishQuestions = {
                     "Reflexive",
                     "Demonstrative"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Writing",
@@ -4430,7 +4430,7 @@ const englishQuestions = {
                     "Numerous",
                     "Ample"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Writing",
@@ -4442,7 +4442,7 @@ const englishQuestions = {
                     "Personification",
                     "Alliteration"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Writing",
@@ -4454,7 +4454,7 @@ const englishQuestions = {
                     "Dog runs",
                     "Dogs is running"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -4468,7 +4468,7 @@ const englishQuestions = {
                     "C",
                     "D"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Writing",
@@ -4480,7 +4480,7 @@ const englishQuestions = {
                     "Mood",
                     "Setting"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Writing",
@@ -4492,7 +4492,7 @@ const englishQuestions = {
                     "Time flies",
                     "Happy clam"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Writing",
@@ -4528,7 +4528,7 @@ const englishQuestions = {
                     "Exaggeration",
                     "Sound repetition"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Writing",
@@ -4540,7 +4540,7 @@ const englishQuestions = {
                     "Personification",
                     "Hyperbole"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Writing",
@@ -4552,7 +4552,7 @@ const englishQuestions = {
                     "Adjective",
                     "Adverb"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Writing",
@@ -4564,7 +4564,7 @@ const englishQuestions = {
                     "Homonyms",
                     "Acronyms"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Writing",
@@ -4652,7 +4652,7 @@ const englishQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Literature",
@@ -4662,7 +4662,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Literature",
@@ -4682,7 +4682,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Literature",
@@ -4692,7 +4692,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Literature",
@@ -4712,7 +4712,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Literature",
@@ -4742,7 +4742,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -4778,7 +4778,7 @@ const englishQuestions = {
                     "I went home",
                     "i Went home"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Literature",
@@ -4802,7 +4802,7 @@ const englishQuestions = {
                     "Cold",
                     "Tepid"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Literature",
@@ -4814,7 +4814,7 @@ const englishQuestions = {
                     "Running",
                     "Runs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Literature",
@@ -4838,7 +4838,7 @@ const englishQuestions = {
                     "Childes",
                     "Childrens"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Literature",
@@ -4850,7 +4850,7 @@ const englishQuestions = {
                     "She doesn't go",
                     "She not go"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Literature",
@@ -4862,7 +4862,7 @@ const englishQuestions = {
                     "Adjective",
                     "Adverb"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "hard": [
@@ -4875,7 +4875,7 @@ const englishQuestions = {
                     "A",
                     "C"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Literature",
@@ -4899,7 +4899,7 @@ const englishQuestions = {
                     "Subordinate",
                     "Relative"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Literature",
@@ -4911,7 +4911,7 @@ const englishQuestions = {
                     "Game",
                     "Ball"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Literature",
@@ -4923,7 +4923,7 @@ const englishQuestions = {
                     "Best",
                     "Better"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Literature",
@@ -4935,7 +4935,7 @@ const englishQuestions = {
                     "Cat is chasing",
                     "Mouse runs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Literature",
@@ -4947,7 +4947,7 @@ const englishQuestions = {
                     "Reflexive",
                     "Demonstrative"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Literature",
@@ -4959,7 +4959,7 @@ const englishQuestions = {
                     "Numerous",
                     "Ample"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Literature",
@@ -4971,7 +4971,7 @@ const englishQuestions = {
                     "Personification",
                     "Alliteration"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Literature",
@@ -4983,7 +4983,7 @@ const englishQuestions = {
                     "Dog runs",
                     "Dogs is running"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -4997,7 +4997,7 @@ const englishQuestions = {
                     "A",
                     "C"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Literature",
@@ -5009,7 +5009,7 @@ const englishQuestions = {
                     "Mood",
                     "Setting"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Literature",
@@ -5021,7 +5021,7 @@ const englishQuestions = {
                     "Time flies",
                     "Happy clam"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Literature",
@@ -5057,7 +5057,7 @@ const englishQuestions = {
                     "Exaggeration",
                     "Sound repetition"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Literature",
@@ -5069,7 +5069,7 @@ const englishQuestions = {
                     "Personification",
                     "Hyperbole"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Literature",
@@ -5081,7 +5081,7 @@ const englishQuestions = {
                     "Adjective",
                     "Adverb"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Literature",
@@ -5093,7 +5093,7 @@ const englishQuestions = {
                     "Homonyms",
                     "Acronyms"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Literature",
@@ -5191,7 +5191,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Classic",
@@ -5211,7 +5211,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Classic",
@@ -5221,7 +5221,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Classic",
@@ -5241,7 +5241,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Classic",
@@ -5271,7 +5271,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -5283,7 +5283,7 @@ const englishQuestions = {
                     "Option B",
                     "Option A"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Classic",
@@ -5307,7 +5307,7 @@ const englishQuestions = {
                     "I went home",
                     "i Went home"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Classic",
@@ -5331,7 +5331,7 @@ const englishQuestions = {
                     "Cold",
                     "Tepid"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Classic",
@@ -5343,7 +5343,7 @@ const englishQuestions = {
                     "Running",
                     "Runs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Classic",
@@ -5367,7 +5367,7 @@ const englishQuestions = {
                     "Childes",
                     "Childrens"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Classic",
@@ -5379,7 +5379,7 @@ const englishQuestions = {
                     "She doesn't go",
                     "She not go"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Classic",
@@ -5391,7 +5391,7 @@ const englishQuestions = {
                     "Adjective",
                     "Adverb"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "hard": [
@@ -5428,7 +5428,7 @@ const englishQuestions = {
                     "Subordinate",
                     "Relative"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Classic",
@@ -5440,7 +5440,7 @@ const englishQuestions = {
                     "Game",
                     "Ball"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Classic",
@@ -5452,7 +5452,7 @@ const englishQuestions = {
                     "Best",
                     "Better"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Classic",
@@ -5464,7 +5464,7 @@ const englishQuestions = {
                     "Cat is chasing",
                     "Mouse runs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Classic",
@@ -5476,7 +5476,7 @@ const englishQuestions = {
                     "Reflexive",
                     "Demonstrative"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Classic",
@@ -5488,7 +5488,7 @@ const englishQuestions = {
                     "Numerous",
                     "Ample"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Classic",
@@ -5500,7 +5500,7 @@ const englishQuestions = {
                     "Personification",
                     "Alliteration"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Classic",
@@ -5512,7 +5512,7 @@ const englishQuestions = {
                     "Dog runs",
                     "Dogs is running"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -5526,7 +5526,7 @@ const englishQuestions = {
                     "D",
                     "C"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Classic",
@@ -5538,7 +5538,7 @@ const englishQuestions = {
                     "Mood",
                     "Setting"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Classic",
@@ -5550,7 +5550,7 @@ const englishQuestions = {
                     "Time flies",
                     "Happy clam"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Classic",
@@ -5586,7 +5586,7 @@ const englishQuestions = {
                     "Exaggeration",
                     "Sound repetition"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Classic",
@@ -5598,7 +5598,7 @@ const englishQuestions = {
                     "Personification",
                     "Hyperbole"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Classic",
@@ -5610,7 +5610,7 @@ const englishQuestions = {
                     "Adjective",
                     "Adverb"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Classic",
@@ -5622,7 +5622,7 @@ const englishQuestions = {
                     "Homonyms",
                     "Acronyms"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Classic",
@@ -5710,7 +5710,7 @@ const englishQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Modern",
@@ -5720,7 +5720,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Modern",
@@ -5740,7 +5740,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Modern",
@@ -5750,7 +5750,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Modern",
@@ -5770,7 +5770,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Modern",
@@ -5800,7 +5800,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -5812,7 +5812,7 @@ const englishQuestions = {
                     "Option B",
                     "Option A"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Modern",
@@ -5836,7 +5836,7 @@ const englishQuestions = {
                     "I went home",
                     "i Went home"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Modern",
@@ -5860,7 +5860,7 @@ const englishQuestions = {
                     "Cold",
                     "Tepid"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Modern",
@@ -5872,7 +5872,7 @@ const englishQuestions = {
                     "Running",
                     "Runs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Modern",
@@ -5896,7 +5896,7 @@ const englishQuestions = {
                     "Childes",
                     "Childrens"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Modern",
@@ -5908,7 +5908,7 @@ const englishQuestions = {
                     "She doesn't go",
                     "She not go"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Modern",
@@ -5920,7 +5920,7 @@ const englishQuestions = {
                     "Adjective",
                     "Adverb"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "hard": [
@@ -5934,7 +5934,7 @@ const englishQuestions = {
                     "Going",
                     "Goes"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "General",
@@ -5958,7 +5958,7 @@ const englishQuestions = {
                     "Subordinate",
                     "Relative"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "General",
@@ -5970,7 +5970,7 @@ const englishQuestions = {
                     "Game",
                     "Ball"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "General",
@@ -5982,7 +5982,7 @@ const englishQuestions = {
                     "Best",
                     "Better"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "General",
@@ -5994,7 +5994,7 @@ const englishQuestions = {
                     "Cat is chasing",
                     "Mouse runs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "General",
@@ -6006,7 +6006,7 @@ const englishQuestions = {
                     "Reflexive",
                     "Demonstrative"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "General",
@@ -6018,7 +6018,7 @@ const englishQuestions = {
                     "Numerous",
                     "Ample"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "General",
@@ -6030,7 +6030,7 @@ const englishQuestions = {
                     "Personification",
                     "Alliteration"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "General",
@@ -6042,7 +6042,7 @@ const englishQuestions = {
                     "Dog runs",
                     "Dogs is running"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -6056,7 +6056,7 @@ const englishQuestions = {
                     "B",
                     "A"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Modern",
@@ -6068,7 +6068,7 @@ const englishQuestions = {
                     "Mood",
                     "Setting"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Modern",
@@ -6080,7 +6080,7 @@ const englishQuestions = {
                     "Time flies",
                     "Happy clam"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Modern",
@@ -6116,7 +6116,7 @@ const englishQuestions = {
                     "Exaggeration",
                     "Sound repetition"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Modern",
@@ -6128,7 +6128,7 @@ const englishQuestions = {
                     "Personification",
                     "Hyperbole"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Modern",
@@ -6140,7 +6140,7 @@ const englishQuestions = {
                     "Adjective",
                     "Adverb"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Modern",
@@ -6152,7 +6152,7 @@ const englishQuestions = {
                     "Homonyms",
                     "Acronyms"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Modern",
@@ -6250,7 +6250,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Shakespeare",
@@ -6270,7 +6270,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Shakespeare",
@@ -6280,7 +6280,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Shakespeare",
@@ -6300,7 +6300,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Shakespeare",
@@ -6330,7 +6330,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -6366,7 +6366,7 @@ const englishQuestions = {
                     "I went home",
                     "i Went home"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Shakespeare",
@@ -6390,7 +6390,7 @@ const englishQuestions = {
                     "Cold",
                     "Tepid"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Shakespeare",
@@ -6402,7 +6402,7 @@ const englishQuestions = {
                     "Running",
                     "Runs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Shakespeare",
@@ -6426,7 +6426,7 @@ const englishQuestions = {
                     "Childes",
                     "Childrens"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Shakespeare",
@@ -6438,7 +6438,7 @@ const englishQuestions = {
                     "She doesn't go",
                     "She not go"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Shakespeare",
@@ -6450,7 +6450,7 @@ const englishQuestions = {
                     "Adjective",
                     "Adverb"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "hard": [
@@ -6487,7 +6487,7 @@ const englishQuestions = {
                     "Subordinate",
                     "Relative"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Shakespeare",
@@ -6499,7 +6499,7 @@ const englishQuestions = {
                     "Game",
                     "Ball"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Shakespeare",
@@ -6511,7 +6511,7 @@ const englishQuestions = {
                     "Best",
                     "Better"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Shakespeare",
@@ -6523,7 +6523,7 @@ const englishQuestions = {
                     "Cat is chasing",
                     "Mouse runs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Shakespeare",
@@ -6535,7 +6535,7 @@ const englishQuestions = {
                     "Reflexive",
                     "Demonstrative"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Shakespeare",
@@ -6547,7 +6547,7 @@ const englishQuestions = {
                     "Numerous",
                     "Ample"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Shakespeare",
@@ -6559,7 +6559,7 @@ const englishQuestions = {
                     "Personification",
                     "Alliteration"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Shakespeare",
@@ -6571,7 +6571,7 @@ const englishQuestions = {
                     "Dog runs",
                     "Dogs is running"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -6585,7 +6585,7 @@ const englishQuestions = {
                     "D",
                     "C"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Shakespeare",
@@ -6597,7 +6597,7 @@ const englishQuestions = {
                     "Mood",
                     "Setting"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Shakespeare",
@@ -6609,7 +6609,7 @@ const englishQuestions = {
                     "Time flies",
                     "Happy clam"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Shakespeare",
@@ -6645,7 +6645,7 @@ const englishQuestions = {
                     "Exaggeration",
                     "Sound repetition"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Shakespeare",
@@ -6657,7 +6657,7 @@ const englishQuestions = {
                     "Personification",
                     "Hyperbole"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Shakespeare",
@@ -6669,7 +6669,7 @@ const englishQuestions = {
                     "Adjective",
                     "Adverb"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Shakespeare",
@@ -6681,7 +6681,7 @@ const englishQuestions = {
                     "Homonyms",
                     "Acronyms"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Shakespeare",
@@ -6779,7 +6779,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "American",
@@ -6799,7 +6799,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "American",
@@ -6809,7 +6809,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "American",
@@ -6829,7 +6829,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "American",
@@ -6859,7 +6859,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -6871,7 +6871,7 @@ const englishQuestions = {
                     "Option B",
                     "Option A"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "American",
@@ -6895,7 +6895,7 @@ const englishQuestions = {
                     "I went home",
                     "i Went home"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "American",
@@ -6919,7 +6919,7 @@ const englishQuestions = {
                     "Cold",
                     "Tepid"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "American",
@@ -6931,7 +6931,7 @@ const englishQuestions = {
                     "Running",
                     "Runs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "American",
@@ -6955,7 +6955,7 @@ const englishQuestions = {
                     "Childes",
                     "Childrens"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "American",
@@ -6967,7 +6967,7 @@ const englishQuestions = {
                     "She doesn't go",
                     "She not go"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "American",
@@ -6979,7 +6979,7 @@ const englishQuestions = {
                     "Adjective",
                     "Adverb"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "hard": [
@@ -6992,7 +6992,7 @@ const englishQuestions = {
                     "A",
                     "C"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "American",
@@ -7003,7 +7003,7 @@ const englishQuestions = {
                     "B",
                     "A"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "American",
@@ -7015,7 +7015,7 @@ const englishQuestions = {
                     "Subordinate",
                     "Relative"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "American",
@@ -7027,7 +7027,7 @@ const englishQuestions = {
                     "Game",
                     "Ball"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "American",
@@ -7039,7 +7039,7 @@ const englishQuestions = {
                     "Best",
                     "Better"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "American",
@@ -7051,7 +7051,7 @@ const englishQuestions = {
                     "Cat is chasing",
                     "Mouse runs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "American",
@@ -7063,7 +7063,7 @@ const englishQuestions = {
                     "Reflexive",
                     "Demonstrative"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "American",
@@ -7075,7 +7075,7 @@ const englishQuestions = {
                     "Numerous",
                     "Ample"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "American",
@@ -7087,7 +7087,7 @@ const englishQuestions = {
                     "Personification",
                     "Alliteration"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "American",
@@ -7099,7 +7099,7 @@ const englishQuestions = {
                     "Dog runs",
                     "Dogs is running"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -7113,7 +7113,7 @@ const englishQuestions = {
                     "A",
                     "C"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "American",
@@ -7125,7 +7125,7 @@ const englishQuestions = {
                     "Mood",
                     "Setting"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "American",
@@ -7137,7 +7137,7 @@ const englishQuestions = {
                     "Time flies",
                     "Happy clam"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "American",
@@ -7173,7 +7173,7 @@ const englishQuestions = {
                     "Exaggeration",
                     "Sound repetition"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "American",
@@ -7185,7 +7185,7 @@ const englishQuestions = {
                     "Personification",
                     "Hyperbole"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "American",
@@ -7197,7 +7197,7 @@ const englishQuestions = {
                     "Adjective",
                     "Adverb"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "American",
@@ -7209,7 +7209,7 @@ const englishQuestions = {
                     "Homonyms",
                     "Acronyms"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "American",
@@ -7297,7 +7297,7 @@ const englishQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "British",
@@ -7307,7 +7307,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "British",
@@ -7327,7 +7327,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "British",
@@ -7337,7 +7337,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "British",
@@ -7357,7 +7357,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "British",
@@ -7387,7 +7387,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -7399,7 +7399,7 @@ const englishQuestions = {
                     "Option B",
                     "Option A"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "British",
@@ -7423,7 +7423,7 @@ const englishQuestions = {
                     "I went home",
                     "i Went home"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "British",
@@ -7447,7 +7447,7 @@ const englishQuestions = {
                     "Cold",
                     "Tepid"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "British",
@@ -7459,7 +7459,7 @@ const englishQuestions = {
                     "Running",
                     "Runs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "British",
@@ -7483,7 +7483,7 @@ const englishQuestions = {
                     "Childes",
                     "Childrens"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "British",
@@ -7495,7 +7495,7 @@ const englishQuestions = {
                     "She doesn't go",
                     "She not go"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "British",
@@ -7507,7 +7507,7 @@ const englishQuestions = {
                     "Adjective",
                     "Adverb"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "hard": [
@@ -7520,7 +7520,7 @@ const englishQuestions = {
                     "A",
                     "C"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "British",
@@ -7544,7 +7544,7 @@ const englishQuestions = {
                     "Subordinate",
                     "Relative"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "British",
@@ -7556,7 +7556,7 @@ const englishQuestions = {
                     "Game",
                     "Ball"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "British",
@@ -7568,7 +7568,7 @@ const englishQuestions = {
                     "Best",
                     "Better"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "British",
@@ -7580,7 +7580,7 @@ const englishQuestions = {
                     "Cat is chasing",
                     "Mouse runs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "British",
@@ -7592,7 +7592,7 @@ const englishQuestions = {
                     "Reflexive",
                     "Demonstrative"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "British",
@@ -7604,7 +7604,7 @@ const englishQuestions = {
                     "Numerous",
                     "Ample"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "British",
@@ -7616,7 +7616,7 @@ const englishQuestions = {
                     "Personification",
                     "Alliteration"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "British",
@@ -7628,7 +7628,7 @@ const englishQuestions = {
                     "Dog runs",
                     "Dogs is running"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -7642,7 +7642,7 @@ const englishQuestions = {
                     "C",
                     "B"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "British",
@@ -7654,7 +7654,7 @@ const englishQuestions = {
                     "Mood",
                     "Setting"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "British",
@@ -7666,7 +7666,7 @@ const englishQuestions = {
                     "Time flies",
                     "Happy clam"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "British",
@@ -7702,7 +7702,7 @@ const englishQuestions = {
                     "Exaggeration",
                     "Sound repetition"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "British",
@@ -7714,7 +7714,7 @@ const englishQuestions = {
                     "Personification",
                     "Hyperbole"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "British",
@@ -7726,7 +7726,7 @@ const englishQuestions = {
                     "Adjective",
                     "Adverb"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "British",
@@ -7738,7 +7738,7 @@ const englishQuestions = {
                     "Homonyms",
                     "Acronyms"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "British",
@@ -7826,7 +7826,7 @@ const englishQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "World",
@@ -7836,7 +7836,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "World",
@@ -7856,7 +7856,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "World",
@@ -7866,7 +7866,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "World",
@@ -7886,7 +7886,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "World",
@@ -7916,7 +7916,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -7928,7 +7928,7 @@ const englishQuestions = {
                     "Option B",
                     "Option A"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "World",
@@ -7952,7 +7952,7 @@ const englishQuestions = {
                     "I went home",
                     "i Went home"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "World",
@@ -7976,7 +7976,7 @@ const englishQuestions = {
                     "Cold",
                     "Tepid"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "World",
@@ -7988,7 +7988,7 @@ const englishQuestions = {
                     "Running",
                     "Runs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "World",
@@ -8012,7 +8012,7 @@ const englishQuestions = {
                     "Childes",
                     "Childrens"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "World",
@@ -8024,7 +8024,7 @@ const englishQuestions = {
                     "She doesn't go",
                     "She not go"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "World",
@@ -8036,7 +8036,7 @@ const englishQuestions = {
                     "Adjective",
                     "Adverb"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "hard": [
@@ -8049,7 +8049,7 @@ const englishQuestions = {
                     "A",
                     "C"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "World",
@@ -8073,7 +8073,7 @@ const englishQuestions = {
                     "Subordinate",
                     "Relative"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "World",
@@ -8085,7 +8085,7 @@ const englishQuestions = {
                     "Game",
                     "Ball"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "World",
@@ -8097,7 +8097,7 @@ const englishQuestions = {
                     "Best",
                     "Better"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "World",
@@ -8109,7 +8109,7 @@ const englishQuestions = {
                     "Cat is chasing",
                     "Mouse runs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "World",
@@ -8121,7 +8121,7 @@ const englishQuestions = {
                     "Reflexive",
                     "Demonstrative"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "World",
@@ -8133,7 +8133,7 @@ const englishQuestions = {
                     "Numerous",
                     "Ample"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "World",
@@ -8145,7 +8145,7 @@ const englishQuestions = {
                     "Personification",
                     "Alliteration"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "World",
@@ -8157,7 +8157,7 @@ const englishQuestions = {
                     "Dog runs",
                     "Dogs is running"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -8183,7 +8183,7 @@ const englishQuestions = {
                     "Mood",
                     "Setting"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "World",
@@ -8195,7 +8195,7 @@ const englishQuestions = {
                     "Time flies",
                     "Happy clam"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "World",
@@ -8231,7 +8231,7 @@ const englishQuestions = {
                     "Exaggeration",
                     "Sound repetition"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "World",
@@ -8243,7 +8243,7 @@ const englishQuestions = {
                     "Personification",
                     "Hyperbole"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "World",
@@ -8255,7 +8255,7 @@ const englishQuestions = {
                     "Adjective",
                     "Adverb"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "World",
@@ -8267,7 +8267,7 @@ const englishQuestions = {
                     "Homonyms",
                     "Acronyms"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "World",
@@ -8355,7 +8355,7 @@ const englishQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Literary",
@@ -8365,7 +8365,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Literary",
@@ -8385,7 +8385,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Literary",
@@ -8395,7 +8395,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Literary",
@@ -8415,7 +8415,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Literary",
@@ -8445,7 +8445,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -8457,7 +8457,7 @@ const englishQuestions = {
                     "Option B",
                     "Option A"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Literary",
@@ -8481,7 +8481,7 @@ const englishQuestions = {
                     "I went home",
                     "i Went home"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Literary",
@@ -8505,7 +8505,7 @@ const englishQuestions = {
                     "Cold",
                     "Tepid"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Literary",
@@ -8517,7 +8517,7 @@ const englishQuestions = {
                     "Running",
                     "Runs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Literary",
@@ -8541,7 +8541,7 @@ const englishQuestions = {
                     "Childes",
                     "Childrens"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Literary",
@@ -8553,7 +8553,7 @@ const englishQuestions = {
                     "She doesn't go",
                     "She not go"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Literary",
@@ -8565,7 +8565,7 @@ const englishQuestions = {
                     "Adjective",
                     "Adverb"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "hard": [
@@ -8602,7 +8602,7 @@ const englishQuestions = {
                     "Subordinate",
                     "Relative"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Literary",
@@ -8614,7 +8614,7 @@ const englishQuestions = {
                     "Game",
                     "Ball"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Literary",
@@ -8626,7 +8626,7 @@ const englishQuestions = {
                     "Best",
                     "Better"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Literary",
@@ -8638,7 +8638,7 @@ const englishQuestions = {
                     "Cat is chasing",
                     "Mouse runs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Literary",
@@ -8650,7 +8650,7 @@ const englishQuestions = {
                     "Reflexive",
                     "Demonstrative"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Literary",
@@ -8662,7 +8662,7 @@ const englishQuestions = {
                     "Numerous",
                     "Ample"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Literary",
@@ -8674,7 +8674,7 @@ const englishQuestions = {
                     "Personification",
                     "Alliteration"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Literary",
@@ -8686,7 +8686,7 @@ const englishQuestions = {
                     "Dog runs",
                     "Dogs is running"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -8712,7 +8712,7 @@ const englishQuestions = {
                     "Mood",
                     "Setting"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Literary",
@@ -8724,7 +8724,7 @@ const englishQuestions = {
                     "Time flies",
                     "Happy clam"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Literary",
@@ -8760,7 +8760,7 @@ const englishQuestions = {
                     "Exaggeration",
                     "Sound repetition"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Literary",
@@ -8772,7 +8772,7 @@ const englishQuestions = {
                     "Personification",
                     "Hyperbole"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Literary",
@@ -8784,7 +8784,7 @@ const englishQuestions = {
                     "Adjective",
                     "Adverb"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Literary",
@@ -8796,7 +8796,7 @@ const englishQuestions = {
                     "Homonyms",
                     "Acronyms"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Literary",
@@ -8884,7 +8884,7 @@ const englishQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Essay",
@@ -8894,7 +8894,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Essay",
@@ -8914,7 +8914,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Essay",
@@ -8924,7 +8924,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Essay",
@@ -8944,7 +8944,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Essay",
@@ -8974,7 +8974,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -8986,7 +8986,7 @@ const englishQuestions = {
                     "Option B",
                     "Option A"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Essay",
@@ -9010,7 +9010,7 @@ const englishQuestions = {
                     "I went home",
                     "i Went home"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Essay",
@@ -9034,7 +9034,7 @@ const englishQuestions = {
                     "Cold",
                     "Tepid"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Essay",
@@ -9046,7 +9046,7 @@ const englishQuestions = {
                     "Running",
                     "Runs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Essay",
@@ -9070,7 +9070,7 @@ const englishQuestions = {
                     "Childes",
                     "Childrens"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Essay",
@@ -9082,7 +9082,7 @@ const englishQuestions = {
                     "She doesn't go",
                     "She not go"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Essay",
@@ -9094,7 +9094,7 @@ const englishQuestions = {
                     "Adjective",
                     "Adverb"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "hard": [
@@ -9107,7 +9107,7 @@ const englishQuestions = {
                     "B",
                     "A"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Essay",
@@ -9131,7 +9131,7 @@ const englishQuestions = {
                     "Subordinate",
                     "Relative"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Essay",
@@ -9143,7 +9143,7 @@ const englishQuestions = {
                     "Game",
                     "Ball"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Essay",
@@ -9155,7 +9155,7 @@ const englishQuestions = {
                     "Best",
                     "Better"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Essay",
@@ -9167,7 +9167,7 @@ const englishQuestions = {
                     "Cat is chasing",
                     "Mouse runs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Essay",
@@ -9179,7 +9179,7 @@ const englishQuestions = {
                     "Reflexive",
                     "Demonstrative"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Essay",
@@ -9191,7 +9191,7 @@ const englishQuestions = {
                     "Numerous",
                     "Ample"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Essay",
@@ -9203,7 +9203,7 @@ const englishQuestions = {
                     "Personification",
                     "Alliteration"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Essay",
@@ -9215,7 +9215,7 @@ const englishQuestions = {
                     "Dog runs",
                     "Dogs is running"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -9229,7 +9229,7 @@ const englishQuestions = {
                     "C",
                     "A"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Essay",
@@ -9241,7 +9241,7 @@ const englishQuestions = {
                     "Mood",
                     "Setting"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Essay",
@@ -9253,7 +9253,7 @@ const englishQuestions = {
                     "Time flies",
                     "Happy clam"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Essay",
@@ -9289,7 +9289,7 @@ const englishQuestions = {
                     "Exaggeration",
                     "Sound repetition"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Essay",
@@ -9301,7 +9301,7 @@ const englishQuestions = {
                     "Personification",
                     "Hyperbole"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Essay",
@@ -9313,7 +9313,7 @@ const englishQuestions = {
                     "Adjective",
                     "Adverb"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Essay",
@@ -9325,7 +9325,7 @@ const englishQuestions = {
                     "Homonyms",
                     "Acronyms"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Essay",
@@ -9413,7 +9413,7 @@ const englishQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Rhetoric",
@@ -9423,7 +9423,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Rhetoric",
@@ -9443,7 +9443,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Rhetoric",
@@ -9453,7 +9453,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Rhetoric",
@@ -9473,7 +9473,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Rhetoric",
@@ -9503,7 +9503,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -9515,7 +9515,7 @@ const englishQuestions = {
                     "Option B",
                     "Option A"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Rhetoric",
@@ -9539,7 +9539,7 @@ const englishQuestions = {
                     "I went home",
                     "i Went home"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Rhetoric",
@@ -9563,7 +9563,7 @@ const englishQuestions = {
                     "Cold",
                     "Tepid"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Rhetoric",
@@ -9575,7 +9575,7 @@ const englishQuestions = {
                     "Running",
                     "Runs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Rhetoric",
@@ -9599,7 +9599,7 @@ const englishQuestions = {
                     "Childes",
                     "Childrens"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Rhetoric",
@@ -9611,7 +9611,7 @@ const englishQuestions = {
                     "She doesn't go",
                     "She not go"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Rhetoric",
@@ -9623,7 +9623,7 @@ const englishQuestions = {
                     "Adjective",
                     "Adverb"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "hard": [
@@ -9636,7 +9636,7 @@ const englishQuestions = {
                     "C",
                     "A"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Rhetoric",
@@ -9660,7 +9660,7 @@ const englishQuestions = {
                     "Subordinate",
                     "Relative"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Rhetoric",
@@ -9672,7 +9672,7 @@ const englishQuestions = {
                     "Game",
                     "Ball"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Rhetoric",
@@ -9684,7 +9684,7 @@ const englishQuestions = {
                     "Best",
                     "Better"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Rhetoric",
@@ -9696,7 +9696,7 @@ const englishQuestions = {
                     "Cat is chasing",
                     "Mouse runs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Rhetoric",
@@ -9708,7 +9708,7 @@ const englishQuestions = {
                     "Reflexive",
                     "Demonstrative"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Rhetoric",
@@ -9720,7 +9720,7 @@ const englishQuestions = {
                     "Numerous",
                     "Ample"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Rhetoric",
@@ -9732,7 +9732,7 @@ const englishQuestions = {
                     "Personification",
                     "Alliteration"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Rhetoric",
@@ -9744,7 +9744,7 @@ const englishQuestions = {
                     "Dog runs",
                     "Dogs is running"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -9770,7 +9770,7 @@ const englishQuestions = {
                     "Mood",
                     "Setting"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Rhetoric",
@@ -9782,7 +9782,7 @@ const englishQuestions = {
                     "Time flies",
                     "Happy clam"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Rhetoric",
@@ -9818,7 +9818,7 @@ const englishQuestions = {
                     "Exaggeration",
                     "Sound repetition"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Rhetoric",
@@ -9830,7 +9830,7 @@ const englishQuestions = {
                     "Personification",
                     "Hyperbole"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Rhetoric",
@@ -9842,7 +9842,7 @@ const englishQuestions = {
                     "Adjective",
                     "Adverb"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Rhetoric",
@@ -9854,7 +9854,7 @@ const englishQuestions = {
                     "Homonyms",
                     "Acronyms"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Rhetoric",
@@ -9942,7 +9942,7 @@ const englishQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Language",
@@ -9952,7 +9952,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Language",
@@ -9972,7 +9972,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Language",
@@ -9982,7 +9982,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Language",
@@ -10002,7 +10002,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Language",
@@ -10032,7 +10032,7 @@ const englishQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -10046,7 +10046,7 @@ const englishQuestions = {
                     "Angry",
                     "Tired"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "General",
@@ -10070,7 +10070,7 @@ const englishQuestions = {
                     "I went home",
                     "i Went home"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "General",
@@ -10094,7 +10094,7 @@ const englishQuestions = {
                     "Cold",
                     "Tepid"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "General",
@@ -10106,7 +10106,7 @@ const englishQuestions = {
                     "Running",
                     "Runs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "General",
@@ -10130,7 +10130,7 @@ const englishQuestions = {
                     "Childes",
                     "Childrens"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "General",
@@ -10142,7 +10142,7 @@ const englishQuestions = {
                     "She doesn't go",
                     "She not go"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "General",
@@ -10154,7 +10154,7 @@ const englishQuestions = {
                     "Adjective",
                     "Adverb"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "hard": [
@@ -10191,7 +10191,7 @@ const englishQuestions = {
                     "Subordinate",
                     "Relative"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Language",
@@ -10203,7 +10203,7 @@ const englishQuestions = {
                     "Game",
                     "Ball"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Language",
@@ -10215,7 +10215,7 @@ const englishQuestions = {
                     "Best",
                     "Better"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Language",
@@ -10227,7 +10227,7 @@ const englishQuestions = {
                     "Cat is chasing",
                     "Mouse runs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Language",
@@ -10239,7 +10239,7 @@ const englishQuestions = {
                     "Reflexive",
                     "Demonstrative"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Language",
@@ -10251,7 +10251,7 @@ const englishQuestions = {
                     "Numerous",
                     "Ample"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Language",
@@ -10263,7 +10263,7 @@ const englishQuestions = {
                     "Personification",
                     "Alliteration"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Language",
@@ -10275,7 +10275,7 @@ const englishQuestions = {
                     "Dog runs",
                     "Dogs is running"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -10289,7 +10289,7 @@ const englishQuestions = {
                     "B",
                     "A"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Language",
@@ -10301,7 +10301,7 @@ const englishQuestions = {
                     "A",
                     "D"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Language",
@@ -10313,7 +10313,7 @@ const englishQuestions = {
                     "Time flies",
                     "Happy clam"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Language",
@@ -10349,7 +10349,7 @@ const englishQuestions = {
                     "Exaggeration",
                     "Sound repetition"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Language",
@@ -10361,7 +10361,7 @@ const englishQuestions = {
                     "Personification",
                     "Hyperbole"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Language",
@@ -10373,7 +10373,7 @@ const englishQuestions = {
                     "Adjective",
                     "Adverb"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Language",
@@ -10385,7 +10385,7 @@ const englishQuestions = {
                     "Homonyms",
                     "Acronyms"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Language",

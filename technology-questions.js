@@ -29,7 +29,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Software",
@@ -39,7 +39,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Networking",
@@ -79,7 +79,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Networking",
@@ -171,7 +171,7 @@ const technologyQuestions = {
                     "Random Operating Memory",
                     "Read-Only Memory"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Software",
@@ -181,7 +181,7 @@ const technologyQuestions = {
                     "Remote servers",
                     "Local storage"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Networking",
@@ -191,7 +191,7 @@ const technologyQuestions = {
                     "Internet speed",
                     "Security barrier"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Programming",
@@ -201,7 +201,7 @@ const technologyQuestions = {
                     "Writing code",
                     "Fixing errors"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Hardware",
@@ -235,7 +235,7 @@ const technologyQuestions = {
                     "Storage halves cost",
                     "Internet speed doubles"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Software",
@@ -246,7 +246,7 @@ const technologyQuestions = {
                     "AI that learns from data",
                     "Manual programming"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Networking",
@@ -257,7 +257,7 @@ const technologyQuestions = {
                     "Programming language",
                     "Internet protocol"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Programming",
@@ -268,7 +268,7 @@ const technologyQuestions = {
                     "Loop",
                     "Function calling itself"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Hardware",
@@ -312,7 +312,7 @@ const technologyQuestions = {
                     "Database query language",
                     "Operating system"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Hardware",
@@ -323,7 +323,7 @@ const technologyQuestions = {
                     "5 gigabytes",
                     "5th generation mobile"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -337,7 +337,7 @@ const technologyQuestions = {
                     "Algorithm complexity",
                     "Loop structure"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Hardware",
@@ -361,7 +361,7 @@ const technologyQuestions = {
                     "Web browser",
                     "Containerization platform"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Networking",
@@ -373,7 +373,7 @@ const technologyQuestions = {
                     "Physical (Layer 1)",
                     "Network (Layer 3)"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Programming",
@@ -409,7 +409,7 @@ const technologyQuestions = {
                     "Single database",
                     "Small independent services"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Networking",
@@ -421,7 +421,7 @@ const technologyQuestions = {
                     "443",
                     "21"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Programming",
@@ -433,7 +433,7 @@ const technologyQuestions = {
                     "Database protocol",
                     "Stateless web service"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Hardware",
@@ -445,7 +445,7 @@ const technologyQuestions = {
                     "Cloud storage",
                     "Permanent storage"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "extreme": [
@@ -521,7 +521,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Styling",
@@ -531,7 +531,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Frontend",
@@ -541,7 +541,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Backend",
@@ -551,7 +551,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Frontend",
@@ -571,7 +571,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Frontend",
@@ -581,7 +581,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Backend",
@@ -591,7 +591,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Frontend",
@@ -611,7 +611,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -653,7 +653,7 @@ const technologyQuestions = {
                     "JavaScript runtime",
                     "Database"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Frontend",
@@ -683,7 +683,7 @@ const technologyQuestions = {
                     "Lightweight copy of DOM",
                     "Physical memory"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Backend",
@@ -726,7 +726,7 @@ const technologyQuestions = {
                     "Binary instruction format",
                     "HTML version"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Styling",
@@ -737,7 +737,7 @@ const technologyQuestions = {
                     "1D layout",
                     "Color system"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Frontend",
@@ -748,7 +748,7 @@ const technologyQuestions = {
                     "Module bundler",
                     "Web server"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Backend",
@@ -759,7 +759,7 @@ const technologyQuestions = {
                     "Frontend library",
                     "Database"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Frontend",
@@ -770,7 +770,7 @@ const technologyQuestions = {
                     "Client only",
                     "Render on server"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Styling",
@@ -781,7 +781,7 @@ const technologyQuestions = {
                     "Separate CSS files",
                     "Styles in JavaScript"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Frontend",
@@ -803,7 +803,7 @@ const technologyQuestions = {
                     "Query language for APIs",
                     "Framework"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Frontend",
@@ -825,7 +825,7 @@ const technologyQuestions = {
                     "No testing",
                     "Test complete user flow"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -839,7 +839,7 @@ const technologyQuestions = {
                     "Database query",
                     "File upload"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Styling",
@@ -875,7 +875,7 @@ const technologyQuestions = {
                     "Functions between request/response",
                     "CSS framework"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Frontend",
@@ -887,7 +887,7 @@ const technologyQuestions = {
                     "Make static HTML interactive",
                     "Cache data"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Styling",
@@ -911,7 +911,7 @@ const technologyQuestions = {
                     "Functions for state in components",
                     "API endpoints"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Backend",
@@ -923,7 +923,7 @@ const technologyQuestions = {
                     "JSON Web Token",
                     "JSON Widget Type"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Frontend",
@@ -935,7 +935,7 @@ const technologyQuestions = {
                     "Delete code",
                     "Combine all code"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Testing",
@@ -947,7 +947,7 @@ const technologyQuestions = {
                     "Percentage of code tested",
                     "Test location"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "extreme": [
@@ -1043,7 +1043,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mobile",
@@ -1063,7 +1063,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "iOS",
@@ -1083,7 +1083,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Mobile",
@@ -1103,7 +1103,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mobile",
@@ -1113,7 +1113,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -1145,7 +1145,7 @@ const technologyQuestions = {
                     "Design tool",
                     "Android development IDE"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mobile",
@@ -1155,7 +1155,7 @@ const technologyQuestions = {
                     "Android package file",
                     "Apple package"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Design",
@@ -1185,7 +1185,7 @@ const technologyQuestions = {
                     "Android UI toolkit",
                     "iOS framework"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Mobile",
@@ -1205,7 +1205,7 @@ const technologyQuestions = {
                     "Database",
                     "Cross-platform framework"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mobile",
@@ -1228,7 +1228,7 @@ const technologyQuestions = {
                     "Private Web Access",
                     "Progressive Web App"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "iOS",
@@ -1250,7 +1250,7 @@ const technologyQuestions = {
                     "Android database library",
                     "Network tool"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mobile",
@@ -1305,7 +1305,7 @@ const technologyQuestions = {
                     "Link to specific app content",
                     "Website link"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Cross-platform",
@@ -1316,7 +1316,7 @@ const technologyQuestions = {
                     "Microsoft cross-platform framework",
                     "Database"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mobile",
@@ -1327,7 +1327,7 @@ const technologyQuestions = {
                     "No notification",
                     "Background data update"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -1341,7 +1341,7 @@ const technologyQuestions = {
                     "5%",
                     "90%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "iOS",
@@ -1353,7 +1353,7 @@ const technologyQuestions = {
                     "Automatic Reference Counting",
                     "App Review Center"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Android",
@@ -1365,7 +1365,7 @@ const technologyQuestions = {
                     "Init, Show, Exit",
                     "Start, Run, End"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mobile",
@@ -1377,7 +1377,7 @@ const technologyQuestions = {
                     "No limit",
                     "100-150 MB for initial download"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Design",
@@ -1389,7 +1389,7 @@ const technologyQuestions = {
                     "44x44 points (iOS) / 48x48 dp (Android)",
                     "Any size"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "iOS",
@@ -1425,7 +1425,7 @@ const technologyQuestions = {
                     "5%",
                     "~25%"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Cross-platform",
@@ -1437,7 +1437,7 @@ const technologyQuestions = {
                     "~70-90% shared code",
                     "100%"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Mobile",
@@ -1449,7 +1449,7 @@ const technologyQuestions = {
                     "~5-10%",
                     "0%"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "extreme": [
@@ -1535,7 +1535,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Cloud",
@@ -1595,7 +1595,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Cloud",
@@ -1615,7 +1615,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -1647,7 +1647,7 @@ const technologyQuestions = {
                     "Product as a Service",
                     "Platform as a Service"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Storage",
@@ -1667,7 +1667,7 @@ const technologyQuestions = {
                     "Amazon virtual servers",
                     "Database service"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Cloud",
@@ -1677,7 +1677,7 @@ const technologyQuestions = {
                     "Single provider",
                     "Using multiple cloud providers"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Computing",
@@ -1697,7 +1697,7 @@ const technologyQuestions = {
                     "Database",
                     "Amazon object storage"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Cloud",
@@ -1707,7 +1707,7 @@ const technologyQuestions = {
                     "Virtual Public Connection",
                     "Virtual Private Cloud"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Backup",
@@ -1717,7 +1717,7 @@ const technologyQuestions = {
                     "Data stored remotely",
                     "Local backup"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -1741,7 +1741,7 @@ const technologyQuestions = {
                     "Database",
                     "Serverless compute service"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Cloud",
@@ -1752,7 +1752,7 @@ const technologyQuestions = {
                     "Built specifically for cloud",
                     "Migrated to cloud"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Storage",
@@ -1763,7 +1763,7 @@ const technologyQuestions = {
                     "Hierarchical files",
                     "No storage"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Services",
@@ -1774,7 +1774,7 @@ const technologyQuestions = {
                     "Programming language",
                     "Database"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Cloud",
@@ -1785,7 +1785,7 @@ const technologyQuestions = {
                     "Content Delivery Network",
                     "Cloud Database Network"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Computing",
@@ -1796,7 +1796,7 @@ const technologyQuestions = {
                     "Fixed capacity",
                     "Automatic resource adjustment"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Services",
@@ -1807,7 +1807,7 @@ const technologyQuestions = {
                     "Real-time Data System",
                     "Relational Database Service"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Cloud",
@@ -1829,7 +1829,7 @@ const technologyQuestions = {
                     "Regular backup",
                     "Restore after failure"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -1855,7 +1855,7 @@ const technologyQuestions = {
                     "Central Administration Panel",
                     "Consistency, Availability, Partition tolerance"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Cloud",
@@ -1867,7 +1867,7 @@ const technologyQuestions = {
                     "No consistency",
                     "Data becomes consistent over time"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Storage",
@@ -1891,7 +1891,7 @@ const technologyQuestions = {
                     "Infrastructure layer for microservices",
                     "Database type"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Cloud",
@@ -1903,7 +1903,7 @@ const technologyQuestions = {
                     "Scale to public cloud when needed",
                     "Cloud failure"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Computing",
@@ -1915,7 +1915,7 @@ const technologyQuestions = {
                     "Reserved capacity",
                     "Unused cloud capacity at discount"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Services",
@@ -1927,7 +1927,7 @@ const technologyQuestions = {
                     "NoSQL database service",
                     "Compute service"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Cloud",
@@ -1939,7 +1939,7 @@ const technologyQuestions = {
                     "Never trust, always verify",
                     "No security"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Backup",
@@ -1951,7 +1951,7 @@ const technologyQuestions = {
                     "Remote Process Orchestration",
                     "Resource Planning Options"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "extreme": [
@@ -2047,7 +2047,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Threats",
@@ -2057,7 +2057,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Network",
@@ -2067,7 +2067,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Security",
@@ -2077,7 +2077,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Threats",
@@ -2087,7 +2087,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Security",
@@ -2097,7 +2097,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Privacy",
@@ -2107,7 +2107,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Network",
@@ -2129,7 +2129,7 @@ const technologyQuestions = {
                     "Building websites",
                     "Protecting systems from threats"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Threats",
@@ -2149,7 +2149,7 @@ const technologyQuestions = {
                     "Programming language",
                     "Encryption protocol"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Threats",
@@ -2159,7 +2159,7 @@ const technologyQuestions = {
                     "Manipulate people for information",
                     "Network engineering"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Network",
@@ -2189,7 +2189,7 @@ const technologyQuestions = {
                     "Unknown security flaw",
                     "Old bug"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Security",
@@ -2199,7 +2199,7 @@ const technologyQuestions = {
                     "Hardware testing",
                     "Testing security defenses"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Privacy",
@@ -2209,7 +2209,7 @@ const technologyQuestions = {
                     "Graphics software",
                     "Data protection regulation"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Network",
@@ -2254,7 +2254,7 @@ const technologyQuestions = {
                     "Only sender and receiver can read",
                     "No encryption"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Threats",
@@ -2265,7 +2265,7 @@ const technologyQuestions = {
                     "Generic email",
                     "Fishing sport"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Network",
@@ -2276,7 +2276,7 @@ const technologyQuestions = {
                     "Network routing",
                     "Firewall rule"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Security",
@@ -2287,7 +2287,7 @@ const technologyQuestions = {
                     "Password only",
                     "Use physical characteristics"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Threats",
@@ -2309,7 +2309,7 @@ const technologyQuestions = {
                     "System Integration Engine",
                     "Security Information and Event Management"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Privacy",
@@ -2331,7 +2331,7 @@ const technologyQuestions = {
                     "Combine networks",
                     "No division"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -2393,7 +2393,7 @@ const technologyQuestions = {
                     "Cloud services",
                     "Critical web security risks"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Security",
@@ -2417,7 +2417,7 @@ const technologyQuestions = {
                     "Stealing cryptocurrency",
                     "Blockchain hacking"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Security",
@@ -2453,7 +2453,7 @@ const technologyQuestions = {
                     "Decoy system to attract attackers",
                     "Database backup"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "extreme": [
@@ -2529,7 +2529,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Analysis",
@@ -2549,7 +2549,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Data",
@@ -2589,7 +2589,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Data",
@@ -2599,7 +2599,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Visualization",
@@ -2619,7 +2619,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -2651,7 +2651,7 @@ const technologyQuestions = {
                     "No labels",
                     "Learning with labeled data"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Data",
@@ -2661,7 +2661,7 @@ const technologyQuestions = {
                     "Clean and transform data",
                     "Store data"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Visualization",
@@ -2671,7 +2671,7 @@ const technologyQuestions = {
                     "Data visualization tool",
                     "Programming language"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Analysis",
@@ -2681,7 +2681,7 @@ const technologyQuestions = {
                     "Animal",
                     "Python data library"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "ML",
@@ -2691,7 +2691,7 @@ const technologyQuestions = {
                     "AI model inspired by brain",
                     "Computer network"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Data",
@@ -2701,7 +2701,7 @@ const technologyQuestions = {
                     "Small files",
                     "Large complex datasets"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Visualization",
@@ -2711,7 +2711,7 @@ const technologyQuestions = {
                     "Programming language",
                     "Microsoft analytics tool"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Analysis",
@@ -2734,7 +2734,7 @@ const technologyQuestions = {
                     "Create meaningful features",
                     "Delete data"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Analysis",
@@ -2745,7 +2745,7 @@ const technologyQuestions = {
                     "No testing",
                     "Statistical validation"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "ML",
@@ -2756,7 +2756,7 @@ const technologyQuestions = {
                     "No learning",
                     "Neural networks with many layers"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Data",
@@ -2789,7 +2789,7 @@ const technologyQuestions = {
                     "Python ML library",
                     "Database"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "ML",
@@ -2800,7 +2800,7 @@ const technologyQuestions = {
                     "Perfect model",
                     "No fitting"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Data",
@@ -2811,7 +2811,7 @@ const technologyQuestions = {
                     "Raw data repository",
                     "Water storage"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Visualization",
@@ -2833,7 +2833,7 @@ const technologyQuestions = {
                     "No analysis",
                     "Data collection"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -2847,7 +2847,7 @@ const technologyQuestions = {
                     "10%",
                     "5%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Analysis",
@@ -2871,7 +2871,7 @@ const technologyQuestions = {
                     "Perfect dimensions",
                     "Problems with high-dimensional data"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Data",
@@ -2883,7 +2883,7 @@ const technologyQuestions = {
                     "50%",
                     "10%"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Visualization",
@@ -2907,7 +2907,7 @@ const technologyQuestions = {
                     "Random split",
                     "No validation"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "ML",
@@ -2943,7 +2943,7 @@ const technologyQuestions = {
                     "How humans perceive visual elements",
                     "Color scheme"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Analysis",
@@ -2955,7 +2955,7 @@ const technologyQuestions = {
                     "Delete records",
                     "Sort data"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "extreme": [
@@ -3041,7 +3041,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Applications",
@@ -3071,7 +3071,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Language",
@@ -3101,7 +3101,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Learning",
@@ -3173,7 +3173,7 @@ const technologyQuestions = {
                     "AI interpreting visual data",
                     "Screen resolution"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Language",
@@ -3193,7 +3193,7 @@ const technologyQuestions = {
                     "Self-driving car",
                     "Manual car"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "AI",
@@ -3213,7 +3213,7 @@ const technologyQuestions = {
                     "Start from scratch",
                     "Apply learned knowledge to new tasks"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Applications",
@@ -3223,7 +3223,7 @@ const technologyQuestions = {
                     "AI for healthcare",
                     "Medical device"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -3236,7 +3236,7 @@ const technologyQuestions = {
                     "Artificial General Intelligence",
                     "Advanced Graphics Interface"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Learning",
@@ -3247,7 +3247,7 @@ const technologyQuestions = {
                     "Traditional RNN",
                     "Attention-based neural network"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Applications",
@@ -3258,7 +3258,7 @@ const technologyQuestions = {
                     "Determine emotional tone",
                     "Translation"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "AI",
@@ -3269,7 +3269,7 @@ const technologyQuestions = {
                     "Classifies data",
                     "Creates new content"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Vision",
@@ -3291,7 +3291,7 @@ const technologyQuestions = {
                     "Bidirectional language model",
                     "Database"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Applications",
@@ -3302,7 +3302,7 @@ const technologyQuestions = {
                     "GPS system",
                     "Camera"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "AI",
@@ -3313,7 +3313,7 @@ const technologyQuestions = {
                     "Game AI algorithm",
                     "Save system"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Learning",
@@ -3324,7 +3324,7 @@ const technologyQuestions = {
                     "No learning",
                     "Combine multiple models"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Applications",
@@ -3335,7 +3335,7 @@ const technologyQuestions = {
                     "Lab tests",
                     "Analyze medical images"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -3361,7 +3361,7 @@ const technologyQuestions = {
                     "Gradients become too small in backpropagation",
                     "No problem"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Applications",
@@ -3373,7 +3373,7 @@ const technologyQuestions = {
                     "General Purpose Text",
                     "Global Pattern Training"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "AI",
@@ -3385,7 +3385,7 @@ const technologyQuestions = {
                     "No problem",
                     "Payment system"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Vision",
@@ -3397,7 +3397,7 @@ const technologyQuestions = {
                     "You Only Look Once (object detection)",
                     "Image filter"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Language",
@@ -3409,7 +3409,7 @@ const technologyQuestions = {
                     "No examples",
                     "Learn from few examples"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Applications",
@@ -3421,7 +3421,7 @@ const technologyQuestions = {
                     "Level 10",
                     "Level 0"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "AI",
@@ -3445,7 +3445,7 @@ const technologyQuestions = {
                     "Perfect memory",
                     "Remembers everything"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Applications",
@@ -3457,7 +3457,7 @@ const technologyQuestions = {
                     "10%",
                     "~90-95% for specific tasks"
                 ],
-                "correct": 3
+                "correct": 1
             }
         ],
         "extreme": [
@@ -3533,7 +3533,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Crypto",
@@ -3543,7 +3543,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Blockchain",
@@ -3553,7 +3553,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Crypto",
@@ -3583,7 +3583,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Crypto",
@@ -3613,7 +3613,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Crypto",
@@ -3623,7 +3623,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -3635,7 +3635,7 @@ const technologyQuestions = {
                     "Single database",
                     "Distributed ledger technology"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Crypto",
@@ -3685,7 +3685,7 @@ const technologyQuestions = {
                     "Single control",
                     "No central authority"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Crypto",
@@ -3695,7 +3695,7 @@ const technologyQuestions = {
                     "Digital asset on blockchain",
                     "Physical coin"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Mining",
@@ -3715,7 +3715,7 @@ const technologyQuestions = {
                     "Random number",
                     "Cryptographic fingerprint"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Crypto",
@@ -3738,7 +3738,7 @@ const technologyQuestions = {
                     "Agreement protocol for validation",
                     "Single approval"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Crypto",
@@ -3749,7 +3749,7 @@ const technologyQuestions = {
                     "Proof of identity",
                     "Mining-based consensus"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Blockchain",
@@ -3760,7 +3760,7 @@ const technologyQuestions = {
                     "Hash tree of transactions",
                     "Plant species"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Crypto",
@@ -3782,7 +3782,7 @@ const technologyQuestions = {
                     "Database",
                     "Smart contract programming language"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Blockchain",
@@ -3793,7 +3793,7 @@ const technologyQuestions = {
                     "Computer maintaining blockchain",
                     "Network cable"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Crypto",
@@ -3804,7 +3804,7 @@ const technologyQuestions = {
                     "Defined Finance",
                     "Decentralized Finance"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Mining",
@@ -3815,7 +3815,7 @@ const technologyQuestions = {
                     "Validation by holding coins",
                     "No validation"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Blockchain",
@@ -3826,7 +3826,7 @@ const technologyQuestions = {
                     "Open to everyone",
                     "Private access"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Crypto",
@@ -3837,7 +3837,7 @@ const technologyQuestions = {
                     "No security",
                     "Public information"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -3851,7 +3851,7 @@ const technologyQuestions = {
                     "Decentralization, Security, Scalability trade-off",
                     "Three blockchains"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Crypto",
@@ -3863,7 +3863,7 @@ const technologyQuestions = {
                     "~10 minutes",
                     "1 second"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Blockchain",
@@ -3875,7 +3875,7 @@ const technologyQuestions = {
                     "Small attack",
                     "Majority control of network"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Crypto",
@@ -3887,7 +3887,7 @@ const technologyQuestions = {
                     "$1B",
                     "$100M"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Smart Contracts",
@@ -3899,7 +3899,7 @@ const technologyQuestions = {
                     "Fixed price",
                     "Fuel type"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Blockchain",
@@ -3911,7 +3911,7 @@ const technologyQuestions = {
                     "Partition blockchain for scalability",
                     "No scaling"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Crypto",
@@ -3923,7 +3923,7 @@ const technologyQuestions = {
                     "Network File Transfer",
                     "No Fixed Type"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Mining",
@@ -3935,7 +3935,7 @@ const technologyQuestions = {
                     "Storage size",
                     "Mining power per second"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Blockchain",
@@ -3947,7 +3947,7 @@ const technologyQuestions = {
                     "Single failure",
                     "Perfect nodes"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Crypto",
@@ -3959,7 +3959,7 @@ const technologyQuestions = {
                     "Offline wallet storage",
                     "Online wallet"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "extreme": [
@@ -4035,7 +4035,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Devices",
@@ -4055,7 +4055,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sensors",
@@ -4075,7 +4075,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "IoT",
@@ -4157,7 +4157,7 @@ const technologyQuestions = {
                     "Programming language",
                     "IoT messaging protocol"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sensors",
@@ -4167,7 +4167,7 @@ const technologyQuestions = {
                     "Measures temperature",
                     "Displays time"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Devices",
@@ -4187,7 +4187,7 @@ const technologyQuestions = {
                     "Manual control",
                     "Automated home control"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Applications",
@@ -4197,7 +4197,7 @@ const technologyQuestions = {
                     "Vehicle with internet connectivity",
                     "Regular car"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "IoT",
@@ -4207,7 +4207,7 @@ const technologyQuestions = {
                     "Cloud only",
                     "Process data near source"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Devices",
@@ -4217,7 +4217,7 @@ const technologyQuestions = {
                     "Speaker brand",
                     "Amazon voice assistant"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "IoT",
@@ -4227,7 +4227,7 @@ const technologyQuestions = {
                     "Vulnerable devices can be hacked",
                     "No risks"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -4240,7 +4240,7 @@ const technologyQuestions = {
                     "Machine to Machine",
                     "Mobile to Mobile"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Devices",
@@ -4251,7 +4251,7 @@ const technologyQuestions = {
                     "Device brand",
                     "Low-power wireless protocol"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "IoT",
@@ -4262,7 +4262,7 @@ const technologyQuestions = {
                     "Constrained Application Protocol",
                     "Computer Application Program"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sensors",
@@ -4284,7 +4284,7 @@ const technologyQuestions = {
                     "Timer",
                     "Wearable monitoring activity"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "IoT",
@@ -4295,7 +4295,7 @@ const technologyQuestions = {
                     "Connected temperature controller",
                     "Regular thermostat"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Applications",
@@ -4317,7 +4317,7 @@ const technologyQuestions = {
                     "Cloud computing",
                     "Distributed edge computing"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Devices",
@@ -4328,7 +4328,7 @@ const technologyQuestions = {
                     "Connected power outlet",
                     "USB port"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "IoT",
@@ -4339,7 +4339,7 @@ const technologyQuestions = {
                     "Power on",
                     "Configure and register device"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -4353,7 +4353,7 @@ const technologyQuestions = {
                     "~30-40 billion",
                     "100 billion"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Devices",
@@ -4365,7 +4365,7 @@ const technologyQuestions = {
                     "20 years",
                     "3-5 years"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "IoT",
@@ -4377,7 +4377,7 @@ const technologyQuestions = {
                     "Long Range Wide Area Network",
                     "Low Rate Wireless Application"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Sensors",
@@ -4389,7 +4389,7 @@ const technologyQuestions = {
                     "1-1000 Hz depending on application",
                     "No sampling"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Devices",
@@ -4401,7 +4401,7 @@ const technologyQuestions = {
                     "Battery Life Extension",
                     "Binary Logic Engine"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "IoT",
@@ -4413,7 +4413,7 @@ const technologyQuestions = {
                     "Light wave",
                     "Sound wave"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Applications",
@@ -4425,7 +4425,7 @@ const technologyQuestions = {
                     "On-Board Diagnostics interface",
                     "Online Database"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "IoT",
@@ -4437,7 +4437,7 @@ const technologyQuestions = {
                     "Virtual replica of physical device",
                     "Two devices"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Devices",
@@ -4449,7 +4449,7 @@ const technologyQuestions = {
                     "No activation",
                     "Manual button"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "IoT",
@@ -4461,7 +4461,7 @@ const technologyQuestions = {
                     "100%",
                     "~70-80%"
                 ],
-                "correct": 3
+                "correct": 1
             }
         ],
         "extreme": [
@@ -4547,7 +4547,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "DevOps",
@@ -4557,7 +4557,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Tools",
@@ -4567,7 +4567,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Containers",
@@ -4587,7 +4587,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Monitoring",
@@ -4597,7 +4597,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "DevOps",
@@ -4607,7 +4607,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Infrastructure",
@@ -4669,7 +4669,7 @@ const technologyQuestions = {
                     "Automation server",
                     "Database"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Containers",
@@ -4689,7 +4689,7 @@ const technologyQuestions = {
                     "Manual release",
                     "Automated release process"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Monitoring",
@@ -4699,7 +4699,7 @@ const technologyQuestions = {
                     "Understanding system internal state",
                     "Basic monitoring"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "DevOps",
@@ -4709,7 +4709,7 @@ const technologyQuestions = {
                     "Git tutorials",
                     "Git as source of truth"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Infrastructure",
@@ -4730,7 +4730,7 @@ const technologyQuestions = {
                     "Move right",
                     "Test earlier in development"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "hard": [
@@ -4754,7 +4754,7 @@ const technologyQuestions = {
                     "One environment",
                     "Two identical production environments"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "DevOps",
@@ -4787,7 +4787,7 @@ const technologyQuestions = {
                     "Web server",
                     "Database"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "DevOps",
@@ -4798,7 +4798,7 @@ const technologyQuestions = {
                     "No changes",
                     "Replace rather than modify"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Monitoring",
@@ -4809,7 +4809,7 @@ const technologyQuestions = {
                     "Web framework",
                     "Database"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "DevOps",
@@ -4880,7 +4880,7 @@ const technologyQuestions = {
                     "Maximum Total Test Rate",
                     "Mean Time To Recovery"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Tools",
@@ -4892,7 +4892,7 @@ const technologyQuestions = {
                     "Database",
                     "Integrated DevOps platform"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Containers",
@@ -4904,7 +4904,7 @@ const technologyQuestions = {
                     "Smallest deployable unit",
                     "Server"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "DevOps",
@@ -4916,7 +4916,7 @@ const technologyQuestions = {
                     "Test system resilience by breaking things",
                     "Random coding"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Monitoring",
@@ -4940,7 +4940,7 @@ const technologyQuestions = {
                     "Delete features",
                     "No control"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Infrastructure",
@@ -4952,7 +4952,7 @@ const technologyQuestions = {
                     "One-time only",
                     "Same result regardless of repetition"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "DevOps",
@@ -5040,7 +5040,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "SQL",
@@ -5070,7 +5070,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Databases",
@@ -5100,7 +5100,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "NoSQL",
@@ -5120,7 +5120,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "SQL",
@@ -5142,7 +5142,7 @@ const technologyQuestions = {
                     "Random files",
                     "Organized collection of data"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "SQL",
@@ -5162,7 +5162,7 @@ const technologyQuestions = {
                     "Any column",
                     "Unique identifier for row"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "NoSQL",
@@ -5232,7 +5232,7 @@ const technologyQuestions = {
                     "Reference to another table",
                     "Primary key"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -5245,7 +5245,7 @@ const technologyQuestions = {
                     "Database type",
                     "Atomicity, Consistency, Isolation, Durability"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "SQL",
@@ -5256,7 +5256,7 @@ const technologyQuestions = {
                     "Main query",
                     "No nesting"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Databases",
@@ -5300,7 +5300,7 @@ const technologyQuestions = {
                     "Precompiled SQL code",
                     "Backup file"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Databases",
@@ -5311,7 +5311,7 @@ const technologyQuestions = {
                     "Delete queries",
                     "No optimization"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "NoSQL",
@@ -5322,7 +5322,7 @@ const technologyQuestions = {
                     "Backup",
                     "Partition data across servers"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Databases",
@@ -5358,7 +5358,7 @@ const technologyQuestions = {
                     "Cached Application Performance",
                     "Common Access Protocol"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "SQL",
@@ -5370,7 +5370,7 @@ const technologyQuestions = {
                     "Single query",
                     "Multiple queries instead of one join"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Databases",
@@ -5382,7 +5382,7 @@ const technologyQuestions = {
                     "No transitive dependencies",
                     "First normal form"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "NoSQL",
@@ -5394,7 +5394,7 @@ const technologyQuestions = {
                     "ACID alternative",
                     "Database type"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Databases",
@@ -5406,7 +5406,7 @@ const technologyQuestions = {
                     "Access control per row",
                     "Database-level"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "SQL",
@@ -5418,7 +5418,7 @@ const technologyQuestions = {
                     "Multi-Version Concurrency Control",
                     "Manual Version Change Control"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Databases",
@@ -5454,7 +5454,7 @@ const technologyQuestions = {
                     "Transfer transaction logs for replication",
                     "No transfer"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "SQL",
@@ -5542,7 +5542,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Development",
@@ -5552,7 +5552,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Software",
@@ -5582,7 +5582,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Software",
@@ -5602,7 +5602,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Development",
@@ -5612,7 +5612,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Software",
@@ -5644,7 +5644,7 @@ const technologyQuestions = {
                     "Random coding",
                     "Systematic development of software"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Development",
@@ -5694,7 +5694,7 @@ const technologyQuestions = {
                     "Rewrite everything",
                     "Improve code without changing behavior"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Quality",
@@ -5704,7 +5704,7 @@ const technologyQuestions = {
                     "Quality Assurance",
                     "Quick Action"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Development",
@@ -5714,7 +5714,7 @@ const technologyQuestions = {
                     "Financial debt",
                     "Future cost of shortcuts"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Software",
@@ -5747,7 +5747,7 @@ const technologyQuestions = {
                     "No structure",
                     "High-level structure of system"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Development",
@@ -5758,7 +5758,7 @@ const technologyQuestions = {
                     "No testing",
                     "Write tests before code"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Software",
@@ -5780,7 +5780,7 @@ const technologyQuestions = {
                     "Single service",
                     "Small independent services"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Development",
@@ -5791,7 +5791,7 @@ const technologyQuestions = {
                     "Run code",
                     "Delete code"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Software",
@@ -5802,7 +5802,7 @@ const technologyQuestions = {
                     "One-time change",
                     "Ongoing code improvement"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Quality",
@@ -5860,7 +5860,7 @@ const technologyQuestions = {
                     "System design mirrors org structure",
                     "No law"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Development",
@@ -5896,7 +5896,7 @@ const technologyQuestions = {
                     "State of matter",
                     "5 OOP design principles"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Development",
@@ -5920,7 +5920,7 @@ const technologyQuestions = {
                     "Make it worse",
                     "Leave code cleaner than you found it"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Quality",
@@ -5944,7 +5944,7 @@ const technologyQuestions = {
                     "No principle",
                     "Dry Weather"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Software",
@@ -5956,7 +5956,7 @@ const technologyQuestions = {
                     "Running speed",
                     "No measure"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Design",
@@ -5968,7 +5968,7 @@ const technologyQuestions = {
                     "Delete code",
                     "Pass dependencies from outside"
                 ],
-                "correct": 3
+                "correct": 1
             }
         ],
         "extreme": [
@@ -6044,7 +6044,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Internet",
@@ -6074,7 +6074,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Internet",
@@ -6084,7 +6084,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Networks",
@@ -6114,7 +6114,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Networks",
@@ -6206,7 +6206,7 @@ const technologyQuestions = {
                     "Secure HTTP",
                     "Hypertext Protocol"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Internet",
@@ -6236,7 +6236,7 @@ const technologyQuestions = {
                     "Virtual Private Network",
                     "Video Protocol Network"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -6249,7 +6249,7 @@ const technologyQuestions = {
                     "7-layer network model",
                     "3-layer model"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Internet",
@@ -6260,7 +6260,7 @@ const technologyQuestions = {
                     "Old IP version",
                     "New IP address version"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Networks",
@@ -6271,7 +6271,7 @@ const technologyQuestions = {
                     "Data size",
                     "Time delay in transmission"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Protocols",
@@ -6282,7 +6282,7 @@ const technologyQuestions = {
                     "Unified Download Process",
                     "User Datagram Protocol"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Internet",
@@ -6315,7 +6315,7 @@ const technologyQuestions = {
                     "Web page",
                     "Database"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Internet",
@@ -6337,7 +6337,7 @@ const technologyQuestions = {
                     "Network Access Tool",
                     "Network Address Translation"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Security",
@@ -6348,7 +6348,7 @@ const technologyQuestions = {
                     "No security",
                     "Routing protocol"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -6374,7 +6374,7 @@ const technologyQuestions = {
                     "1 million",
                     "340 undecillion (2^128)"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Networks",
@@ -6386,7 +6386,7 @@ const technologyQuestions = {
                     "1 Tbps",
                     "10 Mbps"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Protocols",
@@ -6398,7 +6398,7 @@ const technologyQuestions = {
                     "22",
                     "443"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Internet",
@@ -6410,7 +6410,7 @@ const technologyQuestions = {
                     "1000 servers",
                     "13 root server systems"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Networks",
@@ -6434,7 +6434,7 @@ const technologyQuestions = {
                     "UDP process",
                     "TCP connection establishment"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Internet",
@@ -6446,7 +6446,7 @@ const technologyQuestions = {
                     "1 KB",
                     "25 MB"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Networks",
@@ -6458,7 +6458,7 @@ const technologyQuestions = {
                     "Border Gateway Protocol",
                     "Basic Gateway Process"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Security",
@@ -6470,7 +6470,7 @@ const technologyQuestions = {
                     "No purpose",
                     "Compression"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "extreme": [
@@ -6546,7 +6546,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Windows",
@@ -6566,7 +6566,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Linux",
@@ -6576,7 +6576,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "OS",
@@ -6586,7 +6586,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "macOS",
@@ -6616,7 +6616,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "OS",
@@ -6626,7 +6626,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mobile",
@@ -6728,7 +6728,7 @@ const technologyQuestions = {
                     "Run programs",
                     "Verify user identity"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mobile",
@@ -6738,7 +6738,7 @@ const technologyQuestions = {
                     "XNU (Darwin)",
                     "Linux"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -6762,7 +6762,7 @@ const technologyQuestions = {
                     "Network protocol",
                     "Windows file system"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "OS",
@@ -6784,7 +6784,7 @@ const technologyQuestions = {
                     "Application",
                     "OS built on Linux kernel"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "OS",
@@ -6795,7 +6795,7 @@ const technologyQuestions = {
                     "No technique",
                     "Web browsing"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "macOS",
@@ -6817,7 +6817,7 @@ const technologyQuestions = {
                     "Change settings",
                     "No switching"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Mobile",
@@ -6876,7 +6876,7 @@ const technologyQuestions = {
                     "No HAL",
                     "Hardware Abstraction Layer"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "OS",
@@ -6888,7 +6888,7 @@ const technologyQuestions = {
                     "Delete files",
                     "No tracking"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Linux",
@@ -6912,7 +6912,7 @@ const technologyQuestions = {
                     "Excessive paging reduces performance",
                     "Fast performance"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "macOS",
@@ -6924,7 +6924,7 @@ const technologyQuestions = {
                     "System-wide search",
                     "Screen brightness"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "OS",
@@ -6936,7 +6936,7 @@ const technologyQuestions = {
                     "Random order",
                     "Determines process execution order"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Mobile",
@@ -6948,7 +6948,7 @@ const technologyQuestions = {
                     "App process spawner",
                     "File manager"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "OS",
@@ -6960,7 +6960,7 @@ const technologyQuestions = {
                     "Security-Enhanced Linux",
                     "Simple Enhanced Linux"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Mobile",
@@ -6972,7 +6972,7 @@ const technologyQuestions = {
                     "Unlimited",
                     "Varies by device, ~1-2 GB limit"
                 ],
-                "correct": 3
+                "correct": 1
             }
         ],
         "extreme": [
@@ -7068,7 +7068,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Complexity",
@@ -7128,7 +7128,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sorting",
@@ -7150,7 +7150,7 @@ const technologyQuestions = {
                     "Random steps",
                     "Step-by-step problem solution"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sorting",
@@ -7160,7 +7160,7 @@ const technologyQuestions = {
                     "Divide and conquer sorting",
                     "Simple swap sorting"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Algorithms",
@@ -7220,7 +7220,7 @@ const technologyQuestions = {
                     "Time measure",
                     "Memory usage measure"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Algorithms",
@@ -7240,7 +7240,7 @@ const technologyQuestions = {
                     "Partition-based sorting",
                     "Slow sorting"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -7253,7 +7253,7 @@ const technologyQuestions = {
                     "Random approach",
                     "Solve by breaking into subproblems"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Sorting",
@@ -7275,7 +7275,7 @@ const technologyQuestions = {
                     "Explore branch fully before backtrack",
                     "Breadth search"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Complexity",
@@ -7286,7 +7286,7 @@ const technologyQuestions = {
                     "Linear time",
                     "Constant time"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sorting",
@@ -7341,7 +7341,7 @@ const technologyQuestions = {
                     "No caching",
                     "Cache results to avoid recomputation"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Sorting",
@@ -7352,7 +7352,7 @@ const technologyQuestions = {
                     "O(n²)",
                     "O(n)"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -7366,7 +7366,7 @@ const technologyQuestions = {
                     "Major unsolved computer science problem",
                     "Solved problem"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Sorting",
@@ -7378,7 +7378,7 @@ const technologyQuestions = {
                     "O(n log n)",
                     "O(1)"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Algorithms",
@@ -7402,7 +7402,7 @@ const technologyQuestions = {
                     "Simple",
                     "No classification"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sorting",
@@ -7414,7 +7414,7 @@ const technologyQuestions = {
                     "No",
                     "Sometimes"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Algorithms",
@@ -7426,7 +7426,7 @@ const technologyQuestions = {
                     "Easy solution",
                     "Find shortest route visiting all cities"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Search",
@@ -7450,7 +7450,7 @@ const technologyQuestions = {
                     "Analyze divide-and-conquer algorithms",
                     "No purpose"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Algorithms",
@@ -7570,7 +7570,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "3D",
@@ -7580,7 +7580,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Graphics",
@@ -7590,7 +7590,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Rendering",
@@ -7600,7 +7600,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Graphics",
@@ -7610,7 +7610,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "3D",
@@ -7620,7 +7620,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Graphics",
@@ -7630,7 +7630,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Rendering",
@@ -7640,7 +7640,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -7652,7 +7652,7 @@ const technologyQuestions = {
                     "Text only",
                     "Create and manipulate visual content"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "2D",
@@ -7662,7 +7662,7 @@ const technologyQuestions = {
                     "Smallest image unit",
                     "Large image"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Graphics",
@@ -7682,7 +7682,7 @@ const technologyQuestions = {
                     "Basic 3D shape building block",
                     "2D circle"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Graphics",
@@ -7692,7 +7692,7 @@ const technologyQuestions = {
                     "Use mathematical equations",
                     "Use pixels"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Rendering",
@@ -7722,7 +7722,7 @@ const technologyQuestions = {
                     "Fishing net",
                     "3D object made of polygons"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Graphics",
@@ -7777,7 +7777,7 @@ const technologyQuestions = {
                     "No program",
                     "Program for rendering effects"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "3D",
@@ -7788,7 +7788,7 @@ const technologyQuestions = {
                     "No transformation",
                     "Move, rotate, scale 3D objects"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Graphics",
@@ -7810,7 +7810,7 @@ const technologyQuestions = {
                     "Manage depth for visibility",
                     "No buffer"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Graphics",
@@ -7832,7 +7832,7 @@ const technologyQuestions = {
                     "Simulate surface detail without geometry",
                     "Delete detail"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Graphics",
@@ -7843,7 +7843,7 @@ const technologyQuestions = {
                     "No shadow",
                     "Shadow effect where surfaces meet"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Rendering",
@@ -7880,7 +7880,7 @@ const technologyQuestions = {
                     "No MSAA",
                     "Multi-Sample Anti-Aliasing"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Graphics",
@@ -7892,7 +7892,7 @@ const technologyQuestions = {
                     "Game engine",
                     "Parallel computing platform by NVIDIA"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "3D",
@@ -7904,7 +7904,7 @@ const technologyQuestions = {
                     "10",
                     "10 million"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Graphics",
@@ -7928,7 +7928,7 @@ const technologyQuestions = {
                     "Separate geometry and lighting passes",
                     "Single pass"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Graphics",
@@ -7940,7 +7940,7 @@ const technologyQuestions = {
                     "Simulate camera movement blur",
                     "No blur"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "3D",
@@ -7952,7 +7952,7 @@ const technologyQuestions = {
                     "No change",
                     "Subdivide polygons for detail"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Graphics",
@@ -7964,7 +7964,7 @@ const technologyQuestions = {
                     "Ambient only",
                     "Single component"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Rendering",
@@ -7976,7 +7976,7 @@ const technologyQuestions = {
                     "Ray tracing extension for realism",
                     "Simple rendering"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "extreme": [
@@ -8052,7 +8052,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Applications",
@@ -8062,7 +8062,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Robots",
@@ -8072,7 +8072,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "AI",
@@ -8082,7 +8082,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Applications",
@@ -8102,7 +8102,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Programming",
@@ -8122,7 +8122,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Robots",
@@ -8132,7 +8132,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Future",
@@ -8142,7 +8142,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -8164,7 +8164,7 @@ const technologyQuestions = {
                     "Robots in manufacturing",
                     "Home robots"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Robots",
@@ -8194,7 +8194,7 @@ const technologyQuestions = {
                     "Assists in precise surgery",
                     "Replaces doctors"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Robots",
@@ -8204,7 +8204,7 @@ const technologyQuestions = {
                     "Human arm",
                     "Manipulator for tasks"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Programming",
@@ -8224,7 +8224,7 @@ const technologyQuestions = {
                     "Ground robot",
                     "Unmanned aerial vehicle"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Robots",
@@ -8234,7 +8234,7 @@ const technologyQuestions = {
                     "Camera",
                     "Light detection and ranging"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Future",
@@ -8244,7 +8244,7 @@ const technologyQuestions = {
                     "Human-like appearance",
                     "Animal-like"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -8257,7 +8257,7 @@ const technologyQuestions = {
                     "Study of robot motion",
                     "Sensor type"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Applications",
@@ -8268,7 +8268,7 @@ const technologyQuestions = {
                     "Isolated operation",
                     "No collaboration"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Robots",
@@ -8279,7 +8279,7 @@ const technologyQuestions = {
                     "Temperature range",
                     "Independent motion directions"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "AI",
@@ -8290,7 +8290,7 @@ const technologyQuestions = {
                     "No SLAM",
                     "Simultaneous Localization and Mapping"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Applications",
@@ -8406,7 +8406,7 @@ const technologyQuestions = {
                     "No learning",
                     "Supervised learning"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Applications",
@@ -8418,7 +8418,7 @@ const technologyQuestions = {
                     "Sub-millimeter accuracy",
                     "1 cm"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Robots",
@@ -8430,7 +8430,7 @@ const technologyQuestions = {
                     "10 tons",
                     "10 kg - 1000 kg range"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Programming",
@@ -8454,7 +8454,7 @@ const technologyQuestions = {
                     "Speed test",
                     "No test"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Robots",
@@ -8478,7 +8478,7 @@ const technologyQuestions = {
                     "No valley",
                     "Physical valley"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "extreme": [
@@ -8554,7 +8554,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Hardware",
@@ -8564,7 +8564,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "VR",
@@ -8574,7 +8574,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "AR",
@@ -8584,7 +8584,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "VR",
@@ -8594,7 +8594,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Applications",
@@ -8624,7 +8624,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "VR",
@@ -8634,7 +8634,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Applications",
@@ -8644,7 +8644,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -8656,7 +8656,7 @@ const technologyQuestions = {
                     "Real world",
                     "Computer-generated immersive environment"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Hardware",
@@ -8666,7 +8666,7 @@ const technologyQuestions = {
                     "Head-mounted display",
                     "Regular screen"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "VR",
@@ -8686,7 +8686,7 @@ const technologyQuestions = {
                     "Overlay digital on physical",
                     "Pure virtual"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "VR",
@@ -8696,7 +8696,7 @@ const technologyQuestions = {
                     "Blend of VR and AR",
                     "VR only"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Applications",
@@ -8716,7 +8716,7 @@ const technologyQuestions = {
                     "Feeling of being there",
                     "No feeling"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Hardware",
@@ -8736,7 +8736,7 @@ const technologyQuestions = {
                     "Seated only",
                     "Move in physical space"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Applications",
@@ -8792,7 +8792,7 @@ const technologyQuestions = {
                     "No markers",
                     "Use visual markers for positioning"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "VR",
@@ -8803,7 +8803,7 @@ const technologyQuestions = {
                     "Virtual only",
                     "No view"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Applications",
@@ -8814,7 +8814,7 @@ const technologyQuestions = {
                     "Regular therapy",
                     "Treat conditions with VR"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "VR",
@@ -8825,7 +8825,7 @@ const technologyQuestions = {
                     "Standing still",
                     "Movement in virtual space"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Hardware",
@@ -8836,7 +8836,7 @@ const technologyQuestions = {
                     "Speed",
                     "Delay between action and display"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "VR",
@@ -8847,7 +8847,7 @@ const technologyQuestions = {
                     "Interact with others in VR",
                     "No interaction"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Applications",
@@ -8908,7 +8908,7 @@ const technologyQuestions = {
                     "Simple Linear Algorithm",
                     "No SLAM"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "VR",
@@ -8920,7 +8920,7 @@ const technologyQuestions = {
                     "Shared virtual world",
                     "Website"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Applications",
@@ -8932,7 +8932,7 @@ const technologyQuestions = {
                     "Improves skills by 30-50%",
                     "100% mastery"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "VR",
@@ -8944,7 +8944,7 @@ const technologyQuestions = {
                     "Render high quality where user looks",
                     "No rendering"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Hardware",
@@ -8980,7 +8980,7 @@ const technologyQuestions = {
                     "$1 billion",
                     "$50-70 billion"
                 ],
-                "correct": 3
+                "correct": 1
             }
         ],
         "extreme": [
@@ -9056,7 +9056,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Qubits",
@@ -9066,7 +9066,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Quantum",
@@ -9086,7 +9086,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Quantum",
@@ -9126,7 +9126,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Quantum",
@@ -9158,7 +9158,7 @@ const technologyQuestions = {
                     "Regular computing",
                     "Computing using quantum mechanics"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Qubits",
@@ -9188,7 +9188,7 @@ const technologyQuestions = {
                     "Exist in multiple states",
                     "Single state"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Quantum",
@@ -9218,7 +9218,7 @@ const technologyQuestions = {
                     "Find optimal solutions",
                     "Regular computation"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Qubits",
@@ -9238,7 +9238,7 @@ const technologyQuestions = {
                     "Regular computer",
                     "IBM quantum computer"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Future",
@@ -9283,7 +9283,7 @@ const technologyQuestions = {
                     "No algorithm",
                     "Quantum search algorithm"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Science",
@@ -9305,7 +9305,7 @@ const technologyQuestions = {
                     "Regular fridge",
                     "Cools quantum computers"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Applications",
@@ -9316,7 +9316,7 @@ const technologyQuestions = {
                     "Factor numbers efficiently",
                     "No algorithm"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Quantum",
@@ -9327,7 +9327,7 @@ const technologyQuestions = {
                     "No design",
                     "Regular qubit"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Qubits",
@@ -9349,7 +9349,7 @@ const technologyQuestions = {
                     "Classical computer",
                     "Quantum annealing company"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Future",
@@ -9374,7 +9374,7 @@ const technologyQuestions = {
                     "Seconds",
                     "Years"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Qubits",
@@ -9386,7 +9386,7 @@ const technologyQuestions = {
                     "Cannot copy unknown quantum state",
                     "Can copy everything"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Quantum",
@@ -9398,7 +9398,7 @@ const technologyQuestions = {
                     "Exponential",
                     "Quadratic (square root)"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Science",
@@ -9422,7 +9422,7 @@ const technologyQuestions = {
                     "~15 millikelvin",
                     "100°C"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Applications",
@@ -9446,7 +9446,7 @@ const technologyQuestions = {
                     "Gate-based computing",
                     "Classical method"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Qubits",
@@ -9458,7 +9458,7 @@ const technologyQuestions = {
                     "Physical volume",
                     "Measure quantum computer capability"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Quantum",
@@ -9470,7 +9470,7 @@ const technologyQuestions = {
                     "53",
                     "1000"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Future",
@@ -9482,7 +9482,7 @@ const technologyQuestions = {
                     "Classical fallback",
                     "No errors possible"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "extreme": [
@@ -9568,7 +9568,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ethics",
@@ -9588,7 +9588,7 @@ const technologyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ethics",
@@ -9628,7 +9628,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ethics",
@@ -9638,7 +9638,7 @@ const technologyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Security",
@@ -9670,7 +9670,7 @@ const technologyQuestions = {
                     "Control over personal information",
                     "No control"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ethics",
@@ -9700,7 +9700,7 @@ const technologyQuestions = {
                     "Responsible technology use",
                     "No responsibility"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Bias",
@@ -9710,7 +9710,7 @@ const technologyQuestions = {
                     "Perfect accuracy",
                     "Inaccuracy across demographics"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ethics",
@@ -9730,7 +9730,7 @@ const technologyQuestions = {
                     "Regular trash",
                     "Discarded electronics"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ethics",
@@ -9740,7 +9740,7 @@ const technologyQuestions = {
                     "No gap",
                     "Gap in technology access"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Security",
@@ -9750,7 +9750,7 @@ const technologyQuestions = {
                     "Authorized security testing",
                     "Illegal hacking"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -9763,7 +9763,7 @@ const technologyQuestions = {
                     "Ethical decision in autonomous systems",
                     "No problem"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Privacy",
@@ -9774,7 +9774,7 @@ const technologyQuestions = {
                     "No privacy",
                     "Perfect privacy"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ethics",
@@ -9785,7 +9785,7 @@ const technologyQuestions = {
                     "AI that can explain decisions",
                     "No explanation"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Data",
@@ -9796,7 +9796,7 @@ const technologyQuestions = {
                     "Keep forever",
                     "Delete personal data from internet"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Ethics",
@@ -9818,7 +9818,7 @@ const technologyQuestions = {
                     "Perfect data",
                     "Biased data leads to biased AI"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Ethics",
@@ -9829,7 +9829,7 @@ const technologyQuestions = {
                     "No pattern",
                     "Manipulative UI design"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Environment",
@@ -9851,7 +9851,7 @@ const technologyQuestions = {
                     "No accountability",
                     "Responsibility for automated decisions"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Security",
@@ -9862,7 +9862,7 @@ const technologyQuestions = {
                     "Publish immediately",
                     "Hide forever"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -9876,7 +9876,7 @@ const technologyQuestions = {
                     "Informal rules",
                     "Professional conduct guidelines"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Privacy",
@@ -9888,7 +9888,7 @@ const technologyQuestions = {
                     "50%",
                     "~1-9%"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Ethics",
@@ -9900,7 +9900,7 @@ const technologyQuestions = {
                     "US law",
                     "Regulate AI based on risk level"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Data",
@@ -9912,7 +9912,7 @@ const technologyQuestions = {
                     "Unlimited",
                     "€100"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ethics",
@@ -9924,7 +9924,7 @@ const technologyQuestions = {
                     "1%",
                     "~40% lack internet access"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Bias",
@@ -9936,7 +9936,7 @@ const technologyQuestions = {
                     "Perfect system",
                     "No bias"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ethics",
@@ -9948,7 +9948,7 @@ const technologyQuestions = {
                     "~7 hours",
                     "1 hour"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Environment",
@@ -9960,7 +9960,7 @@ const technologyQuestions = {
                     "50%",
                     "0.01%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ethics",
@@ -9972,7 +9972,7 @@ const technologyQuestions = {
                     "No discrimination",
                     "Discriminatory access to services"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Security",

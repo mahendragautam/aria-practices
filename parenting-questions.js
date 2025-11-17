@@ -29,7 +29,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Preschool",
@@ -39,7 +39,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "School Age",
@@ -79,7 +79,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "School Age",
@@ -99,7 +99,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Toddler",
@@ -109,7 +109,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -121,7 +121,7 @@ const parentingQuestions = {
                     "8 hours",
                     "16-17 hours"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Toddler",
@@ -131,7 +131,7 @@ const parentingQuestions = {
                     "12-15 months",
                     "6 months"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Preschool",
@@ -161,7 +161,7 @@ const parentingQuestions = {
                     "Baby on stomach",
                     "Feeding time"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Toddler",
@@ -191,7 +191,7 @@ const parentingQuestions = {
                     "No reason",
                     "Provides structure"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Newborn",
@@ -201,7 +201,7 @@ const parentingQuestions = {
                     "Once daily",
                     "Every 2-3 hours"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Toddler",
@@ -211,7 +211,7 @@ const parentingQuestions = {
                     "Emotional outbursts",
                     "Happy moments"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -224,7 +224,7 @@ const parentingQuestions = {
                     "Startle reflex",
                     "Sleeping pattern"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Toddler",
@@ -246,7 +246,7 @@ const parentingQuestions = {
                     "Understanding others' thoughts",
                     "Physical growth"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "School Age",
@@ -268,7 +268,7 @@ const parentingQuestions = {
                     "Growth issue",
                     "Sudden Infant Death"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Toddler",
@@ -279,7 +279,7 @@ const parentingQuestions = {
                     "Two-word phrases",
                     "Baby babbling"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Preschool",
@@ -301,7 +301,7 @@ const parentingQuestions = {
                     "Belief in improvement",
                     "Fixed abilities"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Newborn",
@@ -323,7 +323,7 @@ const parentingQuestions = {
                     "Fear of toys",
                     "Fear of food"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -337,7 +337,7 @@ const parentingQuestions = {
                     "3 months",
                     "5-6 months"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Toddler",
@@ -349,7 +349,7 @@ const parentingQuestions = {
                     "Sensorimotor",
                     "Formal operational"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Preschool",
@@ -361,7 +361,7 @@ const parentingQuestions = {
                     "Punishment",
                     "Reward system"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "School Age",
@@ -373,7 +373,7 @@ const parentingQuestions = {
                     "Planning and self-control",
                     "Social skill"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Newborn",
@@ -385,7 +385,7 @@ const parentingQuestions = {
                     "1",
                     "2 (REM & Non-REM)"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Toddler",
@@ -397,7 +397,7 @@ const parentingQuestions = {
                     "3 years",
                     "18-24 months"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Preschool",
@@ -409,7 +409,7 @@ const parentingQuestions = {
                     "Selfishness",
                     "Seeing only own perspective"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "School Age",
@@ -421,7 +421,7 @@ const parentingQuestions = {
                     "Memory loss",
                     "Thinking about thinking"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Newborn",
@@ -433,7 +433,7 @@ const parentingQuestions = {
                     "Turning head to find nipple",
                     "Walking"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Toddler",
@@ -521,7 +521,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Behavior",
@@ -531,7 +531,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Discipline",
@@ -541,7 +541,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Behavior",
@@ -571,7 +571,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Discipline",
@@ -581,7 +581,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Behavior",
@@ -601,7 +601,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Behavior",
@@ -611,7 +611,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -623,7 +623,7 @@ const parentingQuestions = {
                     "Only punishment",
                     "Teaching rather than punishing"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Behavior",
@@ -673,7 +673,7 @@ const parentingQuestions = {
                     "Generic good job",
                     "Describing exact behavior"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Discipline",
@@ -683,7 +683,7 @@ const parentingQuestions = {
                     "Related to misbehavior",
                     "Unrelated punishment"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Behavior",
@@ -703,7 +703,7 @@ const parentingQuestions = {
                     "Half listening",
                     "Fully focusing on child"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Behavior",
@@ -726,7 +726,7 @@ const parentingQuestions = {
                     "Count to 3 before consequence",
                     "Three punishments"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Behavior",
@@ -737,7 +737,7 @@ const parentingQuestions = {
                     "Punish all behavior",
                     "Reinforce alternative behavior"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Discipline",
@@ -748,7 +748,7 @@ const parentingQuestions = {
                     "High warmth, high structure",
                     "No boundaries"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Behavior",
@@ -770,7 +770,7 @@ const parentingQuestions = {
                     "Ignore all behavior",
                     "Ignore attention-seeking behavior"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Behavior",
@@ -781,7 +781,7 @@ const parentingQuestions = {
                     "Fear-based",
                     "Internal drive to behave"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Discipline",
@@ -792,7 +792,7 @@ const parentingQuestions = {
                     "Only punishment",
                     "No consequences"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Behavior",
@@ -803,7 +803,7 @@ const parentingQuestions = {
                     "Earn tokens for rewards",
                     "No system"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Discipline",
@@ -839,7 +839,7 @@ const parentingQuestions = {
                     "100%",
                     "20%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Behavior",
@@ -863,7 +863,7 @@ const parentingQuestions = {
                     "Two types",
                     "Three parenting styles"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Behavior",
@@ -875,7 +875,7 @@ const parentingQuestions = {
                     "2-3 years",
                     "10 years"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Discipline",
@@ -899,7 +899,7 @@ const parentingQuestions = {
                     "Increase motivation",
                     "External rewards reduce intrinsic motivation"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Discipline",
@@ -911,7 +911,7 @@ const parentingQuestions = {
                     "~65 countries",
                     "All countries"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Behavior",
@@ -923,7 +923,7 @@ const parentingQuestions = {
                     "Fixed schedule",
                     "Rewards at unpredictable intervals"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Discipline",
@@ -947,7 +947,7 @@ const parentingQuestions = {
                     "Random rewards",
                     "All behaviors equal"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "extreme": [
@@ -1023,7 +1023,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Health",
@@ -1033,7 +1033,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Nutrition",
@@ -1063,7 +1063,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Health",
@@ -1073,7 +1073,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Nutrition",
@@ -1083,7 +1083,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Health",
@@ -1103,7 +1103,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Health",
@@ -1125,7 +1125,7 @@ const parentingQuestions = {
                     "1 serving",
                     "5 servings"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Health",
@@ -1135,7 +1135,7 @@ const parentingQuestions = {
                     "CDC immunization schedule",
                     "No schedule"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Nutrition",
@@ -1185,7 +1185,7 @@ const parentingQuestions = {
                     "6-8 glasses daily",
                     "1 glass"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Health",
@@ -1195,7 +1195,7 @@ const parentingQuestions = {
                     "Once weekly",
                     "Twice daily"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Nutrition",
@@ -1205,7 +1205,7 @@ const parentingQuestions = {
                     "Simple sugars",
                     "Whole grains, fiber"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Health",
@@ -1228,7 +1228,7 @@ const parentingQuestions = {
                     "No vegetables",
                     "Half plate fruits/vegetables"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Health",
@@ -1239,7 +1239,7 @@ const parentingQuestions = {
                     "No immunity",
                     "Individual immunity"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Nutrition",
@@ -1261,7 +1261,7 @@ const parentingQuestions = {
                     "50th percentile",
                     "10th percentile"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Nutrition",
@@ -1272,7 +1272,7 @@ const parentingQuestions = {
                     "Unlimited",
                     "Less than 25g (6 teaspoons)"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Health",
@@ -1283,7 +1283,7 @@ const parentingQuestions = {
                     "20 seconds",
                     "5 minutes"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Nutrition",
@@ -1294,7 +1294,7 @@ const parentingQuestions = {
                     "Cold weather",
                     "Only exercise"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Health",
@@ -1305,7 +1305,7 @@ const parentingQuestions = {
                     "First tooth or age 1",
                     "Age 5"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Nutrition",
@@ -1316,7 +1316,7 @@ const parentingQuestions = {
                     "Trans fats",
                     "Omega-3 and Omega-6"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Health",
@@ -1327,7 +1327,7 @@ const parentingQuestions = {
                     "Only from food",
                     "Not needed"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -1341,7 +1341,7 @@ const parentingQuestions = {
                     "100%",
                     "Less than 10%"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Health",
@@ -1365,7 +1365,7 @@ const parentingQuestions = {
                     "None",
                     "1000 mg daily"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Health",
@@ -1377,7 +1377,7 @@ const parentingQuestions = {
                     "90%",
                     "5%"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Nutrition",
@@ -1389,7 +1389,7 @@ const parentingQuestions = {
                     "None",
                     "~17 teaspoons daily"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Health",
@@ -1401,7 +1401,7 @@ const parentingQuestions = {
                     "0%",
                     "~50%"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Nutrition",
@@ -1425,7 +1425,7 @@ const parentingQuestions = {
                     "0%",
                     "~20% by age 5"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Nutrition",
@@ -1437,7 +1437,7 @@ const parentingQuestions = {
                     "Harmful bacteria",
                     "No bacteria"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Health",
@@ -1545,7 +1545,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Milestones",
@@ -1585,7 +1585,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Milestones",
@@ -1605,7 +1605,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Milestones",
@@ -1627,7 +1627,7 @@ const parentingQuestions = {
                     "Only physical",
                     "Physical, cognitive, social, emotional"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Milestones",
@@ -1637,7 +1637,7 @@ const parentingQuestions = {
                     "12-15 months",
                     "3 months"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Development",
@@ -1647,7 +1647,7 @@ const parentingQuestions = {
                     "Physical growth",
                     "Thinking and learning skills"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Milestones",
@@ -1657,7 +1657,7 @@ const parentingQuestions = {
                     "10-14 months",
                     "6 months"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Development",
@@ -1707,7 +1707,7 @@ const parentingQuestions = {
                     "Plant growth",
                     "Genetics vs environment"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Milestones",
@@ -1730,7 +1730,7 @@ const parentingQuestions = {
                     "Age range",
                     "Gap between what child can do alone vs with help"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Milestones",
@@ -1741,7 +1741,7 @@ const parentingQuestions = {
                     "Fine hand movements",
                     "Thinking skills"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Development",
@@ -1774,7 +1774,7 @@ const parentingQuestions = {
                     "Bone growth",
                     "Muscle flexibility"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Milestones",
@@ -1785,7 +1785,7 @@ const parentingQuestions = {
                     "Running",
                     "Small precise movements"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Development",
@@ -1807,7 +1807,7 @@ const parentingQuestions = {
                     "Solitary play",
                     "Shared focus on object"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Development",
@@ -1829,7 +1829,7 @@ const parentingQuestions = {
                     "Only age",
                     "No signs"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -1855,7 +1855,7 @@ const parentingQuestions = {
                     "2 years",
                     "6-10 months"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Development",
@@ -1867,7 +1867,7 @@ const parentingQuestions = {
                     "Jean Piaget",
                     "Sigmund Freud"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Milestones",
@@ -1879,7 +1879,7 @@ const parentingQuestions = {
                     "~50-200 words",
                     "10 words"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Development",
@@ -1915,7 +1915,7 @@ const parentingQuestions = {
                     "Teen years",
                     "Birth to age 7"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Milestones",
@@ -1927,7 +1927,7 @@ const parentingQuestions = {
                     "6-12 months",
                     "5 years"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Development",
@@ -1951,7 +1951,7 @@ const parentingQuestions = {
                     "2.5-3 years",
                     "1 year"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "extreme": [
@@ -2027,7 +2027,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Learning",
@@ -2037,7 +2037,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Education",
@@ -2047,7 +2047,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Learning",
@@ -2077,7 +2077,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Education",
@@ -2117,7 +2117,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -2129,7 +2129,7 @@ const parentingQuestions = {
                     "Letter names",
                     "Understanding sounds in words"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Learning",
@@ -2149,7 +2149,7 @@ const parentingQuestions = {
                     "Age only",
                     "Skills needed for kindergarten"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Learning",
@@ -2189,7 +2189,7 @@ const parentingQuestions = {
                     "Child-led, hands-on learning",
                     "Teacher-directed only"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Learning",
@@ -2199,7 +2199,7 @@ const parentingQuestions = {
                     "Memorization",
                     "Learning through questions"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Education",
@@ -2232,7 +2232,7 @@ const parentingQuestions = {
                     "Evidence-based literacy instruction",
                     "Guessing words"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Learning",
@@ -2243,7 +2243,7 @@ const parentingQuestions = {
                     "Genetic only",
                     "Isolated learning"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Education",
@@ -2254,7 +2254,7 @@ const parentingQuestions = {
                     "Initial Education Period",
                     "Individualized Education Plan"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Learning",
@@ -2309,7 +2309,7 @@ const parentingQuestions = {
                     "Thinking about one's thinking",
                     "No awareness"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Education",
@@ -2357,7 +2357,7 @@ const parentingQuestions = {
                     "Jean Piaget",
                     "Erik Erikson"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Education",
@@ -2369,7 +2369,7 @@ const parentingQuestions = {
                     "25%",
                     "~68%"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Learning",
@@ -2381,7 +2381,7 @@ const parentingQuestions = {
                     "Student type",
                     "Levels of learning objectives"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Education",
@@ -2393,7 +2393,7 @@ const parentingQuestions = {
                     "100:1",
                     "1:1"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Learning",
@@ -2405,7 +2405,7 @@ const parentingQuestions = {
                     "10 years",
                     "3-4 years"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Education",
@@ -2417,7 +2417,7 @@ const parentingQuestions = {
                     "Preschool level",
                     "Reading at grade level"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Learning",
@@ -2429,7 +2429,7 @@ const parentingQuestions = {
                     "Random review",
                     "Constant repetition"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Education",
@@ -2441,7 +2441,7 @@ const parentingQuestions = {
                     "Compare to standard, not peers",
                     "Random"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Learning",
@@ -2453,7 +2453,7 @@ const parentingQuestions = {
                     "Multiple intelligences theory",
                     "No theory"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "extreme": [
@@ -2549,7 +2549,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "First Aid",
@@ -2559,7 +2559,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Safety",
@@ -2569,7 +2569,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "First Aid",
@@ -2589,7 +2589,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "First Aid",
@@ -2609,7 +2609,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "First Aid",
@@ -2631,7 +2631,7 @@ const parentingQuestions = {
                     "Only locks",
                     "Making home safe for children"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "First Aid",
@@ -2641,7 +2641,7 @@ const parentingQuestions = {
                     "Bandages, antiseptic, gauze",
                     "Only bandaids"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Safety",
@@ -2671,7 +2671,7 @@ const parentingQuestions = {
                     "Never leave children unattended",
                     "Can leave briefly"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "First Aid",
@@ -2734,7 +2734,7 @@ const parentingQuestions = {
                     "Only falls",
                     "Falls, drowning, burns, poisoning"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "First Aid",
@@ -2745,7 +2745,7 @@ const parentingQuestions = {
                     "Chest compressions",
                     "Back blows only"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Safety",
@@ -2767,7 +2767,7 @@ const parentingQuestions = {
                     "Full thickness",
                     "Blisters, deeper skin damage"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Safety",
@@ -2811,7 +2811,7 @@ const parentingQuestions = {
                     "30 compressions, 2 breaths",
                     "5:1"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Safety",
@@ -2833,7 +2833,7 @@ const parentingQuestions = {
                     "Normal",
                     "Seizure from high fever"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -2859,7 +2859,7 @@ const parentingQuestions = {
                     "10 inches",
                     "5 inches"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Safety",
@@ -2871,7 +2871,7 @@ const parentingQuestions = {
                     "5 years",
                     "Birth only"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "First Aid",
@@ -2883,7 +2883,7 @@ const parentingQuestions = {
                     "No rule",
                     "Estimate body surface area burned"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Safety",
@@ -2895,7 +2895,7 @@ const parentingQuestions = {
                     "10",
                     "5000"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "First Aid",
@@ -2907,7 +2907,7 @@ const parentingQuestions = {
                     "No significance",
                     "Second hour"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Safety",
@@ -2919,7 +2919,7 @@ const parentingQuestions = {
                     "1000 mA",
                     "Not dangerous"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "First Aid",
@@ -2931,7 +2931,7 @@ const parentingQuestions = {
                     "0.5 inches",
                     "Full depth"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Safety",
@@ -2943,7 +2943,7 @@ const parentingQuestions = {
                     "~85%",
                     "5%"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "First Aid",
@@ -3041,7 +3041,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Emotions",
@@ -3061,7 +3061,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Emotions",
@@ -3111,7 +3111,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "EQ",
@@ -3121,7 +3121,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -3133,7 +3133,7 @@ const parentingQuestions = {
                     "Ignoring emotions",
                     "Naming feelings"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "EQ",
@@ -3143,7 +3143,7 @@ const parentingQuestions = {
                     "Understanding and managing emotions",
                     "Only IQ"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Emotions",
@@ -3163,7 +3163,7 @@ const parentingQuestions = {
                     "Managing own emotions and behavior",
                     "Always happy"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Emotions",
@@ -3183,7 +3183,7 @@ const parentingQuestions = {
                     "Only sympathy",
                     "Understanding others' feelings"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Emotions",
@@ -3203,7 +3203,7 @@ const parentingQuestions = {
                     "Half paying attention",
                     "Fully focusing and understanding"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Emotions",
@@ -3213,7 +3213,7 @@ const parentingQuestions = {
                     "Regular words",
                     "Words to describe feelings"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "EQ",
@@ -3236,7 +3236,7 @@ const parentingQuestions = {
                     "Optimal arousal zone",
                     "Anger threshold"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "EQ",
@@ -3247,7 +3247,7 @@ const parentingQuestions = {
                     "Two components",
                     "Self-awareness, regulation, motivation, empathy, social skills"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Emotions",
@@ -3258,7 +3258,7 @@ const parentingQuestions = {
                     "Punishing feelings",
                     "Teaching emotional awareness and regulation"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "EQ",
@@ -3269,7 +3269,7 @@ const parentingQuestions = {
                     "Child alone",
                     "Adult helps child regulate"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Emotions",
@@ -3280,7 +3280,7 @@ const parentingQuestions = {
                     "No reaction",
                     "Emotional override of rational brain"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "EQ",
@@ -3291,7 +3291,7 @@ const parentingQuestions = {
                     "Seeing from another's viewpoint",
                     "Own view only"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Emotions",
@@ -3302,7 +3302,7 @@ const parentingQuestions = {
                     "Normal separation",
                     "No anxiety"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "EQ",
@@ -3324,7 +3324,7 @@ const parentingQuestions = {
                     "Focus on strengths and wellbeing",
                     "Ignore challenges"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "EQ",
@@ -3335,7 +3335,7 @@ const parentingQuestions = {
                     "No growth",
                     "Belief abilities can develop"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -3349,7 +3349,7 @@ const parentingQuestions = {
                     "10 years",
                     "2-3 years"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "EQ",
@@ -3373,7 +3373,7 @@ const parentingQuestions = {
                     "10:1",
                     "3:1 or higher"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "EQ",
@@ -3385,7 +3385,7 @@ const parentingQuestions = {
                     "Age 10",
                     "Mid-20s"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Emotions",
@@ -3397,7 +3397,7 @@ const parentingQuestions = {
                     "1%",
                     "~7-10%"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "EQ",
@@ -3409,7 +3409,7 @@ const parentingQuestions = {
                     "18-24 months",
                     "5 years"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Emotions",
@@ -3433,7 +3433,7 @@ const parentingQuestions = {
                     "Reduces intensity and duration of emotions",
                     "Makes worse"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Emotions",
@@ -3445,7 +3445,7 @@ const parentingQuestions = {
                     "2",
                     "1"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "EQ",
@@ -3573,7 +3573,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Technology",
@@ -3583,7 +3583,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Screen Time",
@@ -3593,7 +3593,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Technology",
@@ -3603,7 +3603,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Screen Time",
@@ -3635,7 +3635,7 @@ const parentingQuestions = {
                     "Unlimited",
                     "1 hour quality programming"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Technology",
@@ -3655,7 +3655,7 @@ const parentingQuestions = {
                     "Regular light",
                     "High-energy visible light from screens"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Technology",
@@ -3665,7 +3665,7 @@ const parentingQuestions = {
                     "Video game age rating",
                     "Movie rating"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Screen Time",
@@ -3695,7 +3695,7 @@ const parentingQuestions = {
                     "Watching together and discussing",
                     "Alone viewing"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Technology",
@@ -3705,7 +3705,7 @@ const parentingQuestions = {
                     "Any content",
                     "Age-appropriate, interactive, engaging"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Screen Time",
@@ -3725,7 +3725,7 @@ const parentingQuestions = {
                     "Tired eyes from screens",
                     "No effect"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -3749,7 +3749,7 @@ const parentingQuestions = {
                     "No law",
                     "Computer Program"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Screen Time",
@@ -3760,7 +3760,7 @@ const parentingQuestions = {
                     "No effect",
                     "Suppresses production, delays sleep"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Technology",
@@ -3771,7 +3771,7 @@ const parentingQuestions = {
                     "No issues",
                     "Any gaming"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Screen Time",
@@ -3782,7 +3782,7 @@ const parentingQuestions = {
                     "Only screens",
                     "No media"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Technology",
@@ -3793,7 +3793,7 @@ const parentingQuestions = {
                     "Physical steps",
                     "Online data trail"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Screen Time",
@@ -3815,7 +3815,7 @@ const parentingQuestions = {
                     "No gap",
                     "Quality difference in educational apps"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Screen Time",
@@ -3837,7 +3837,7 @@ const parentingQuestions = {
                     "Random rule",
                     "Every 20 min, look 20 ft away for 20 sec"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -3851,7 +3851,7 @@ const parentingQuestions = {
                     "~90%",
                     "0%"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Technology",
@@ -3863,7 +3863,7 @@ const parentingQuestions = {
                     "Age 10",
                     "As soon as they use devices"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Screen Time",
@@ -3875,7 +3875,7 @@ const parentingQuestions = {
                     "No displacement",
                     "~1:1 ratio"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Technology",
@@ -3887,7 +3887,7 @@ const parentingQuestions = {
                     "Impaired control causing significant impairment 12+ months",
                     "1 hour"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Screen Time",
@@ -3899,7 +3899,7 @@ const parentingQuestions = {
                     "5%",
                     "~60-70%"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Technology",
@@ -3935,7 +3935,7 @@ const parentingQuestions = {
                     "0%",
                     "100%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Screen Time",
@@ -3947,7 +3947,7 @@ const parentingQuestions = {
                     "30 minutes",
                     "~7-9 hours"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Technology",
@@ -3959,7 +3959,7 @@ const parentingQuestions = {
                     "50 nm",
                     "380-500 nanometers"
                 ],
-                "correct": 3
+                "correct": 1
             }
         ],
         "extreme": [
@@ -4035,7 +4035,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Bedtime",
@@ -4045,7 +4045,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sleep",
@@ -4055,7 +4055,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Bedtime",
@@ -4085,7 +4085,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sleep",
@@ -4115,7 +4115,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Bedtime",
@@ -4157,7 +4157,7 @@ const parentingQuestions = {
                     "Random sleep",
                     "Internal body clock"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Bedtime",
@@ -4167,7 +4167,7 @@ const parentingQuestions = {
                     "Practices promoting good sleep",
                     "Bathing"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sleep",
@@ -4187,7 +4187,7 @@ const parentingQuestions = {
                     "Music",
                     "Consistent sound masking others"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sleep",
@@ -4197,7 +4197,7 @@ const parentingQuestions = {
                     "Hormone released during sleep",
                     "Energy drink"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Bedtime",
@@ -4207,7 +4207,7 @@ const parentingQuestions = {
                     "90°F",
                     "60-67°F (15-19°C)"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sleep",
@@ -4251,7 +4251,7 @@ const parentingQuestions = {
                     "No association",
                     "Any sleep"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sleep",
@@ -4262,7 +4262,7 @@ const parentingQuestions = {
                     "Wake hormone",
                     "Sleep-regulating hormone"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Bedtime",
@@ -4284,7 +4284,7 @@ const parentingQuestions = {
                     "No cycle",
                     "Progression through sleep stages"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Bedtime",
@@ -4295,7 +4295,7 @@ const parentingQuestions = {
                     "No change",
                     "Temporary sleep disruption"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Sleep",
@@ -4328,7 +4328,7 @@ const parentingQuestions = {
                     "Ongoing insufficient sleep",
                     "One bad night"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Bedtime",
@@ -4365,7 +4365,7 @@ const parentingQuestions = {
                     "~20-30%",
                     "100%"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Sleep",
@@ -4377,7 +4377,7 @@ const parentingQuestions = {
                     "6 AM",
                     "9-11 PM"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Bedtime",
@@ -4389,7 +4389,7 @@ const parentingQuestions = {
                     "10 seconds",
                     "20-30 minutes"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Sleep",
@@ -4413,7 +4413,7 @@ const parentingQuestions = {
                     "Never",
                     "4, 8, 12, 18 months, 2 years"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Sleep",
@@ -4425,7 +4425,7 @@ const parentingQuestions = {
                     "Never",
                     "During deep sleep"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Bedtime",
@@ -4437,7 +4437,7 @@ const parentingQuestions = {
                     "5%",
                     "~25-40%"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Sleep",
@@ -4577,7 +4577,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Friendship",
@@ -4597,7 +4597,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Friendship",
@@ -4607,7 +4607,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Social Skills",
@@ -4639,7 +4639,7 @@ const parentingQuestions = {
                     "Only talking",
                     "Abilities to interact effectively"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Friendship",
@@ -4669,7 +4669,7 @@ const parentingQuestions = {
                     "Give and take in relationships",
                     "Only taking"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Social Skills",
@@ -4742,7 +4742,7 @@ const parentingQuestions = {
                     "Understanding social situations",
                     "No understanding"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Friendship",
@@ -4764,7 +4764,7 @@ const parentingQuestions = {
                     "Using language in social contexts",
                     "No language"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Friendship",
@@ -4786,7 +4786,7 @@ const parentingQuestions = {
                     "Acting immediately",
                     "Ability to wait and think first"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Friendship",
@@ -4808,7 +4808,7 @@ const parentingQuestions = {
                     "Random actions",
                     "No rules"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Friendship",
@@ -4855,7 +4855,7 @@ const parentingQuestions = {
                     "1 year",
                     "15 years"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Friendship",
@@ -4879,7 +4879,7 @@ const parentingQuestions = {
                     "100%",
                     "~70-93%"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Friendship",
@@ -4891,7 +4891,7 @@ const parentingQuestions = {
                     "1 month",
                     "Birth"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Social Skills",
@@ -4915,7 +4915,7 @@ const parentingQuestions = {
                     "20 children",
                     "2-4 children"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Social Skills",
@@ -4927,7 +4927,7 @@ const parentingQuestions = {
                     "15 years",
                     "2-3 years"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Friendship",
@@ -4939,7 +4939,7 @@ const parentingQuestions = {
                     "Age 5 complete",
                     "Continues into adulthood"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Social Skills",
@@ -4951,7 +4951,7 @@ const parentingQuestions = {
                     "Birth",
                     "4-6 years"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Friendship",
@@ -4963,7 +4963,7 @@ const parentingQuestions = {
                     "90%",
                     "0%"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "extreme": [
@@ -5039,7 +5039,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Teens",
@@ -5049,7 +5049,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Adolescence",
@@ -5059,7 +5059,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Teens",
@@ -5069,7 +5069,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Adolescence",
@@ -5141,7 +5141,7 @@ const parentingQuestions = {
                     "1-5 years",
                     "10-19 years"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Teens",
@@ -5151,7 +5151,7 @@ const parentingQuestions = {
                     "Self-governance and independence",
                     "Total dependence"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Adolescence",
@@ -5191,7 +5191,7 @@ const parentingQuestions = {
                     "Total freedom",
                     "Balance between trust and safety"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Adolescence",
@@ -5231,7 +5231,7 @@ const parentingQuestions = {
                     "Results of teen's choices",
                     "Parent punishment"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -5244,7 +5244,7 @@ const parentingQuestions = {
                     "Continues until mid-20s",
                     "Complete at 10"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Teens",
@@ -5255,7 +5255,7 @@ const parentingQuestions = {
                     "Complete dependence",
                     "No change"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Adolescence",
@@ -5266,7 +5266,7 @@ const parentingQuestions = {
                     "Hypothalamic-Pituitary-Gonadal hormonal system",
                     "No system"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Teens",
@@ -5299,7 +5299,7 @@ const parentingQuestions = {
                     "No freedom",
                     "Freedom with oversight"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Adolescence",
@@ -5310,7 +5310,7 @@ const parentingQuestions = {
                     "No stage",
                     "Trust vs Mistrust"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Teens",
@@ -5321,7 +5321,7 @@ const parentingQuestions = {
                     "Lecturing",
                     "Collaborative conversation style"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Adolescence",
@@ -5332,7 +5332,7 @@ const parentingQuestions = {
                     "No development",
                     "Uneven physical/emotional development"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Teens",
@@ -5343,7 +5343,7 @@ const parentingQuestions = {
                     "No solutions",
                     "Parent decides"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -5357,7 +5357,7 @@ const parentingQuestions = {
                     "Age 30",
                     "Age 10"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Teens",
@@ -5369,7 +5369,7 @@ const parentingQuestions = {
                     "~85%",
                     "10%"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Adolescence",
@@ -5463,7 +5463,7 @@ const parentingQuestions = {
                     "Uninvolved",
                     "Authoritarian"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "extreme": [
@@ -5549,7 +5549,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Special Needs",
@@ -5569,7 +5569,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Special Needs",
@@ -5579,7 +5579,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Support",
@@ -5609,7 +5609,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Special Needs",
@@ -5619,7 +5619,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Support",
@@ -5641,7 +5641,7 @@ const parentingQuestions = {
                     "No support needed",
                     "Require additional support"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Support",
@@ -5651,7 +5651,7 @@ const parentingQuestions = {
                     "Services for young children with delays",
                     "School-age only"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Special Needs",
@@ -5661,7 +5661,7 @@ const parentingQuestions = {
                     "Internet Protocol",
                     "Individualized Education Program"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Support",
@@ -5681,7 +5681,7 @@ const parentingQuestions = {
                     "Natural variation in brain function",
                     "Disorder only"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Support",
@@ -5691,7 +5691,7 @@ const parentingQuestions = {
                     "Job training",
                     "Help with daily living skills"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Special Needs",
@@ -5701,7 +5701,7 @@ const parentingQuestions = {
                     "Focus on abilities",
                     "Focus on deficits"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Support",
@@ -5711,7 +5711,7 @@ const parentingQuestions = {
                     "Permanent care",
                     "Temporary relief for caregivers"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Special Needs",
@@ -5731,7 +5731,7 @@ const parentingQuestions = {
                     "Full participation in regular settings",
                     "Separation"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -5744,7 +5744,7 @@ const parentingQuestions = {
                     "IEP is special ed, 504 is accommodations",
                     "Same thing"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Support",
@@ -5755,7 +5755,7 @@ const parentingQuestions = {
                     "Teens only",
                     "5-10 years"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Special Needs",
@@ -5766,7 +5766,7 @@ const parentingQuestions = {
                     "Free Appropriate Public Education",
                     "No acronym"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Support",
@@ -5810,7 +5810,7 @@ const parentingQuestions = {
                     "Normal processing",
                     "Difficulty processing sensory information"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Support",
@@ -5832,7 +5832,7 @@ const parentingQuestions = {
                     "No planning",
                     "Plan for post-school life"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Support",
@@ -5857,7 +5857,7 @@ const parentingQuestions = {
                     "0%",
                     "~15-20%"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Support",
@@ -5869,7 +5869,7 @@ const parentingQuestions = {
                     "0 hours",
                     "1 hour/year"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Special Needs",
@@ -5881,7 +5881,7 @@ const parentingQuestions = {
                     "Age 16 (or earlier)",
                     "Age 5"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Support",
@@ -5905,7 +5905,7 @@ const parentingQuestions = {
                     "1 in 36 children",
                     "1 in 1000"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Support",
@@ -5929,7 +5929,7 @@ const parentingQuestions = {
                     "~9-10%",
                     "0%"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Support",
@@ -5941,7 +5941,7 @@ const parentingQuestions = {
                     "5%",
                     "100%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Special Needs",
@@ -5965,7 +5965,7 @@ const parentingQuestions = {
                     "100%",
                     "~65%"
                 ],
-                "correct": 3
+                "correct": 1
             }
         ],
         "extreme": [
@@ -6071,7 +6071,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Family",
@@ -6101,7 +6101,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Siblings",
@@ -6121,7 +6121,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Siblings",
@@ -6131,7 +6131,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -6163,7 +6163,7 @@ const parentingQuestions = {
                     "Random schedules",
                     "Regular predictable activities"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Siblings",
@@ -6173,7 +6173,7 @@ const parentingQuestions = {
                     "Competition, jealousy, differences",
                     "Nothing"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Family",
@@ -6193,7 +6193,7 @@ const parentingQuestions = {
                     "Always fighting",
                     "Close emotional connection"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Family",
@@ -6203,7 +6203,7 @@ const parentingQuestions = {
                     "Discuss issues together",
                     "No discussion"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Siblings",
@@ -6213,7 +6213,7 @@ const parentingQuestions = {
                     "No preparation",
                     "Helping child adjust to new baby"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Family",
@@ -6233,7 +6233,7 @@ const parentingQuestions = {
                     "Equal is same, fair is what each needs",
                     "Same thing"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -6246,7 +6246,7 @@ const parentingQuestions = {
                     "Remarriage combining children",
                     "Original family"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Siblings",
@@ -6257,7 +6257,7 @@ const parentingQuestions = {
                     "Exactly equal",
                     "Treating siblings differently"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Family",
@@ -6268,7 +6268,7 @@ const parentingQuestions = {
                     "Independent individuals",
                     "Family as interconnected system"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Siblings",
@@ -6279,7 +6279,7 @@ const parentingQuestions = {
                     "Being identical",
                     "No identity"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Family",
@@ -6290,7 +6290,7 @@ const parentingQuestions = {
                     "Once a month",
                     "5-7 times per week"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Siblings",
@@ -6301,7 +6301,7 @@ const parentingQuestions = {
                     "Affection and support between siblings",
                     "No warmth"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Family",
@@ -6335,7 +6335,7 @@ const parentingQuestions = {
                     "Random",
                     "Passing values across generations"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Siblings",
@@ -6346,7 +6346,7 @@ const parentingQuestions = {
                     "Random",
                     "No effect"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -6360,7 +6360,7 @@ const parentingQuestions = {
                     "0%",
                     "~70%"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Siblings",
@@ -6372,7 +6372,7 @@ const parentingQuestions = {
                     "Constant",
                     "Never"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Family",
@@ -6408,7 +6408,7 @@ const parentingQuestions = {
                     "No impact",
                     "Lower grades"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Siblings",
@@ -6432,7 +6432,7 @@ const parentingQuestions = {
                     "Daily",
                     "Weekly"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Siblings",
@@ -6444,7 +6444,7 @@ const parentingQuestions = {
                     "2-4 years",
                     "1 month"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Family",
@@ -6456,7 +6456,7 @@ const parentingQuestions = {
                     "~75%",
                     "0%"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Siblings",
@@ -6544,7 +6544,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Talking",
@@ -6584,7 +6584,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Talking",
@@ -6594,7 +6594,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Communication",
@@ -6624,7 +6624,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Talking",
@@ -6634,7 +6634,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -6676,7 +6676,7 @@ const parentingQuestions = {
                     "Interactive back-and-forth reading",
                     "Silent reading"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Communication",
@@ -6686,7 +6686,7 @@ const parentingQuestions = {
                     "Body language, facial expressions",
                     "Only words"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Talking",
@@ -6706,7 +6706,7 @@ const parentingQuestions = {
                     "Helpful, specific suggestions",
                     "Harsh criticism"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Talking",
@@ -6716,7 +6716,7 @@ const parentingQuestions = {
                     "Ignoring",
                     "Mirroring back what heard"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Communication",
@@ -6736,7 +6736,7 @@ const parentingQuestions = {
                     "Say what to do",
                     "Focus on negatives"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -6750,7 +6750,7 @@ const parentingQuestions = {
                     "50-50",
                     "80% listen, 20% talk"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Talking",
@@ -6761,7 +6761,7 @@ const parentingQuestions = {
                     "Separate activities",
                     "Shared focus with child"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Communication",
@@ -6783,7 +6783,7 @@ const parentingQuestions = {
                     "No gap",
                     "Difference in words heard by income"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Communication",
@@ -6795,7 +6795,7 @@ const parentingQuestions = {
                     "0%",
                     "10%"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Talking",
@@ -6806,7 +6806,7 @@ const parentingQuestions = {
                     "Support that builds skills",
                     "Random"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Communication",
@@ -6829,7 +6829,7 @@ const parentingQuestions = {
                     "Same thing",
                     "Understand feelings vs agree with behavior"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Communication",
@@ -6851,7 +6851,7 @@ const parentingQuestions = {
                     "Same thing",
                     "No difference"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -6877,7 +6877,7 @@ const parentingQuestions = {
                     "~21,000",
                     "1,000"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Communication",
@@ -6889,7 +6889,7 @@ const parentingQuestions = {
                     "No ratio",
                     "1:5"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Talking",
@@ -6901,7 +6901,7 @@ const parentingQuestions = {
                     "Difference by age 3 based on income",
                     "Random"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Communication",
@@ -6913,7 +6913,7 @@ const parentingQuestions = {
                     "10%",
                     "~38%"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Talking",
@@ -6925,7 +6925,7 @@ const parentingQuestions = {
                     "1000",
                     "~300"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Communication",
@@ -6961,7 +6961,7 @@ const parentingQuestions = {
                     "When calm, not in moment",
                     "Never"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Talking",
@@ -6973,7 +6973,7 @@ const parentingQuestions = {
                     "Generic only",
                     "Random"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "extreme": [
@@ -7109,7 +7109,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Wellness",
@@ -7119,7 +7119,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Self-Care",
@@ -7129,7 +7129,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Wellness",
@@ -7139,7 +7139,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -7181,7 +7181,7 @@ const parentingQuestions = {
                     "7-9 hours",
                     "3 hours"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Self-Care",
@@ -7221,7 +7221,7 @@ const parentingQuestions = {
                     "Normal energy",
                     "Exhaustion from parenting stress"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Self-Care",
@@ -7241,7 +7241,7 @@ const parentingQuestions = {
                     "Managing multiple roles",
                     "Work only"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -7264,7 +7264,7 @@ const parentingQuestions = {
                     "Eating in response to emotions",
                     "Hunger-based eating"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Self-Care",
@@ -7285,7 +7285,7 @@ const parentingQuestions = {
                     "Cumulative sleep deprivation",
                     "Surplus sleep"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Self-Care",
@@ -7325,7 +7325,7 @@ const parentingQuestions = {
                     "Normal emotions",
                     "Depression after childbirth"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Self-Care",
@@ -7335,7 +7335,7 @@ const parentingQuestions = {
                     "No wheel",
                     "Six dimensions of wellness"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Wellness",
@@ -7359,7 +7359,7 @@ const parentingQuestions = {
                     "100%",
                     "~66%"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Wellness",
@@ -7371,7 +7371,7 @@ const parentingQuestions = {
                     "None",
                     "8-12 cups daily"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Self-Care",
@@ -7383,7 +7383,7 @@ const parentingQuestions = {
                     "Reduces stress and anxiety",
                     "Increases stress"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Wellness",
@@ -7395,7 +7395,7 @@ const parentingQuestions = {
                     "5%",
                     "~60-70%"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Self-Care",
@@ -7407,7 +7407,7 @@ const parentingQuestions = {
                     "~80% feel isolated",
                     "10%"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Wellness",
@@ -7419,7 +7419,7 @@ const parentingQuestions = {
                     "5%",
                     "~20-30% reduction"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Self-Care",
@@ -7443,7 +7443,7 @@ const parentingQuestions = {
                     "100%",
                     "~15-20%"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Self-Care",
@@ -7455,7 +7455,7 @@ const parentingQuestions = {
                     "No benefit",
                     "Random"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Wellness",
@@ -7467,7 +7467,7 @@ const parentingQuestions = {
                     "100%",
                     "~75%"
                 ],
-                "correct": 3
+                "correct": 1
             }
         ],
         "extreme": [
@@ -7543,7 +7543,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Milestones",
@@ -7553,7 +7553,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Potty Training",
@@ -7563,7 +7563,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Milestones",
@@ -7573,7 +7573,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Potty Training",
@@ -7583,7 +7583,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Milestones",
@@ -7603,7 +7603,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Milestones",
@@ -7613,7 +7613,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Potty Training",
@@ -7633,7 +7633,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -7655,7 +7655,7 @@ const parentingQuestions = {
                     "Skills most children achieve by certain age",
                     "Random skills"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Potty Training",
@@ -7675,7 +7675,7 @@ const parentingQuestions = {
                     "Missing multiple milestones",
                     "One variation"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Potty Training",
@@ -7695,7 +7695,7 @@ const parentingQuestions = {
                     "6 months",
                     "18-24 months"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Potty Training",
@@ -7715,7 +7715,7 @@ const parentingQuestions = {
                     "3 months",
                     "12-15 months"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Potty Training",
@@ -7735,7 +7735,7 @@ const parentingQuestions = {
                     "15-18 months",
                     "5 years"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -7747,7 +7747,7 @@ const parentingQuestions = {
                     "Force training",
                     "Follow child's cues"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Milestones",
@@ -7757,7 +7757,7 @@ const parentingQuestions = {
                     "Ongoing monitoring of development",
                     "One-time check"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Potty Training",
@@ -7767,7 +7767,7 @@ const parentingQuestions = {
                     "Traditional training",
                     "Diaper-free from infancy"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Milestones",
@@ -7777,7 +7777,7 @@ const parentingQuestions = {
                     "Standardized assessment tool",
                     "Informal check"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Potty Training",
@@ -7797,7 +7797,7 @@ const parentingQuestions = {
                     "Same thing",
                     "Speaking vs understanding"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Potty Training",
@@ -7837,7 +7837,7 @@ const parentingQuestions = {
                     "Thumb and finger grasp",
                     "Whole hand"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -7850,7 +7850,7 @@ const parentingQuestions = {
                     "2.5-3 years",
                     "1 year"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Milestones",
@@ -7861,7 +7861,7 @@ const parentingQuestions = {
                     "10%",
                     "100%"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Potty Training",
@@ -7872,7 +7872,7 @@ const parentingQuestions = {
                     "10%",
                     "~85%"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Milestones",
@@ -7894,7 +7894,7 @@ const parentingQuestions = {
                     "Constant",
                     "Several daily in early stages"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Milestones",
@@ -7905,7 +7905,7 @@ const parentingQuestions = {
                     "~10-20 words",
                     "1 word"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Potty Training",
@@ -7916,7 +7916,7 @@ const parentingQuestions = {
                     "10 years",
                     "4-5 years"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Milestones",
@@ -7927,7 +7927,7 @@ const parentingQuestions = {
                     "6-10 months",
                     "1 year"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Potty Training",
@@ -7938,7 +7938,7 @@ const parentingQuestions = {
                     "1 week",
                     "3-6 months"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Milestones",
@@ -8025,7 +8025,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Allowance",
@@ -8035,7 +8035,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Money",
@@ -8055,7 +8055,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Money",
@@ -8065,7 +8065,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Allowance",
@@ -8095,7 +8095,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Money",
@@ -8137,7 +8137,7 @@ const parentingQuestions = {
                     "Regular money given to child",
                     "One-time payment"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Money",
@@ -8147,7 +8147,7 @@ const parentingQuestions = {
                     "Only spend",
                     "Save, Spend, Give"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Allowance",
@@ -8157,7 +8157,7 @@ const parentingQuestions = {
                     "Money for completing tasks",
                     "Free money"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Money",
@@ -8187,7 +8187,7 @@ const parentingQuestions = {
                     "Plan for spending and saving",
                     "Unlimited spending"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Allowance",
@@ -8197,7 +8197,7 @@ const parentingQuestions = {
                     "Always rescue",
                     "Let them experience consequence"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Money",
@@ -8241,7 +8241,7 @@ const parentingQuestions = {
                     "Same thing",
                     "Earned vs given"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Money",
@@ -8263,7 +8263,7 @@ const parentingQuestions = {
                     "Random",
                     "All spend"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Money",
@@ -8274,7 +8274,7 @@ const parentingQuestions = {
                     "Planned shopping",
                     "Saving"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Allowance",
@@ -8285,7 +8285,7 @@ const parentingQuestions = {
                     "Unpaid chores for household",
                     "No chores"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Money",
@@ -8296,7 +8296,7 @@ const parentingQuestions = {
                     "No difference",
                     "Essential vs desirable"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Allowance",
@@ -8307,7 +8307,7 @@ const parentingQuestions = {
                     "No management",
                     "Managing own money responsibly"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Money",
@@ -8318,7 +8318,7 @@ const parentingQuestions = {
                     "10% often recommended",
                     "100%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Allowance",
@@ -8343,7 +8343,7 @@ const parentingQuestions = {
                     "15 years",
                     "18 years"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Allowance",
@@ -8355,7 +8355,7 @@ const parentingQuestions = {
                     "0%",
                     "~60%"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Money",
@@ -8367,7 +8367,7 @@ const parentingQuestions = {
                     "$10,000",
                     "$0"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Allowance",
@@ -8379,7 +8379,7 @@ const parentingQuestions = {
                     "$10-15",
                     "$1"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Money",
@@ -8391,7 +8391,7 @@ const parentingQuestions = {
                     "100%",
                     "5%"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Allowance",
@@ -8403,7 +8403,7 @@ const parentingQuestions = {
                     "Always pay",
                     "No debate"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Money",
@@ -8439,7 +8439,7 @@ const parentingQuestions = {
                     "10% commonly suggested",
                     "0%"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Allowance",
@@ -8537,7 +8537,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Divorce",
@@ -8547,7 +8547,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Co-Parenting",
@@ -8597,7 +8597,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Divorce",
@@ -8617,7 +8617,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -8629,7 +8629,7 @@ const parentingQuestions = {
                     "5%",
                     "~40-50%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Co-Parenting",
@@ -8639,7 +8639,7 @@ const parentingQuestions = {
                     "Sharing parenting responsibilities",
                     "Solo parenting"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Divorce",
@@ -8649,7 +8649,7 @@ const parentingQuestions = {
                     "Only happy",
                     "Sadness, anger, confusion, relief"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Co-Parenting",
@@ -8669,7 +8669,7 @@ const parentingQuestions = {
                     "It's not your fault, we still love you",
                     "It's your fault"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Co-Parenting",
@@ -8679,7 +8679,7 @@ const parentingQuestions = {
                     "No plan",
                     "Agreement on custody and decisions"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Divorce",
@@ -8699,7 +8699,7 @@ const parentingQuestions = {
                     "Own needs first",
                     "Prioritizing child's needs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Divorce",
@@ -8709,7 +8709,7 @@ const parentingQuestions = {
                     "Immediate acceptance",
                     "Time to adapt to changes"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Co-Parenting",
@@ -8719,7 +8719,7 @@ const parentingQuestions = {
                     "Time division between parents",
                     "Random visits"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -8754,7 +8754,7 @@ const parentingQuestions = {
                     "One parent turns child against other",
                     "No alienation"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Co-Parenting",
@@ -8775,7 +8775,7 @@ const parentingQuestions = {
                     "No change",
                     "Child takes adult role"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Co-Parenting",
@@ -8797,7 +8797,7 @@ const parentingQuestions = {
                     "Immediate only",
                     "No effect"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Co-Parenting",
@@ -8808,7 +8808,7 @@ const parentingQuestions = {
                     "Professional co-parent interaction",
                     "Personal relationship"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Divorce",
@@ -8819,7 +8819,7 @@ const parentingQuestions = {
                     "1-2 years",
                     "1 week"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Co-Parenting",
@@ -8844,7 +8844,7 @@ const parentingQuestions = {
                     "5%",
                     "~40%"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Co-Parenting",
@@ -8856,7 +8856,7 @@ const parentingQuestions = {
                     "Respectful, child-focused, business-like",
                     "Hostile"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Divorce",
@@ -8880,7 +8880,7 @@ const parentingQuestions = {
                     "100%",
                     "90%"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Divorce",
@@ -8892,7 +8892,7 @@ const parentingQuestions = {
                     "~30-40%",
                     "5%"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Co-Parenting",
@@ -8904,7 +8904,7 @@ const parentingQuestions = {
                     "Worse outcomes",
                     "No difference"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Divorce",
@@ -8916,7 +8916,7 @@ const parentingQuestions = {
                     "Never",
                     "By one parent"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Co-Parenting",
@@ -8928,7 +8928,7 @@ const parentingQuestions = {
                     "Always helpful",
                     "More harmful than divorce itself"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Divorce",
@@ -8952,7 +8952,7 @@ const parentingQuestions = {
                     "10%",
                     "100%"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "extreme": [
@@ -9028,7 +9028,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Peer Pressure",
@@ -9048,7 +9048,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Peer Pressure",
@@ -9058,7 +9058,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Bullying",
@@ -9068,7 +9068,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Peer Pressure",
@@ -9078,7 +9078,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Bullying",
@@ -9088,7 +9088,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Peer Pressure",
@@ -9108,7 +9108,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Peer Pressure",
@@ -9160,7 +9160,7 @@ const parentingQuestions = {
                     "Confidence, values, skills",
                     "Nothing"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Bullying",
@@ -9170,7 +9170,7 @@ const parentingQuestions = {
                     "Reporting is for safety",
                     "Same thing"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Peer Pressure",
@@ -9200,7 +9200,7 @@ const parentingQuestions = {
                     "No strategy",
                     "Way to leave uncomfortable situation"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Bullying",
@@ -9244,7 +9244,7 @@ const parentingQuestions = {
                     "No audience",
                     "Real watchers"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Bullying",
@@ -9277,7 +9277,7 @@ const parentingQuestions = {
                     "Bully",
                     "Bystander"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Peer Pressure",
@@ -9288,7 +9288,7 @@ const parentingQuestions = {
                     "Money",
                     "Resources from relationships"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Bullying",
@@ -9321,7 +9321,7 @@ const parentingQuestions = {
                     "Less likely to help in group",
                     "Always help"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Peer Pressure",
@@ -9332,7 +9332,7 @@ const parentingQuestions = {
                     "Physical aggression",
                     "No aggression"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -9358,7 +9358,7 @@ const parentingQuestions = {
                     "25 years",
                     "12-14 years"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Bullying",
@@ -9382,7 +9382,7 @@ const parentingQuestions = {
                     "100%",
                     "10%"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Bullying",
@@ -9394,7 +9394,7 @@ const parentingQuestions = {
                     "90%",
                     "~20-30%"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Peer Pressure",
@@ -9406,7 +9406,7 @@ const parentingQuestions = {
                     "5%",
                     "Can be ~40-60%"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Bullying",
@@ -9430,7 +9430,7 @@ const parentingQuestions = {
                     "5%",
                     "0%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Bullying",
@@ -9442,7 +9442,7 @@ const parentingQuestions = {
                     "10%",
                     "0%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Peer Pressure",
@@ -9454,7 +9454,7 @@ const parentingQuestions = {
                     "Negative",
                     "Significant protection"
                 ],
-                "correct": 3
+                "correct": 1
             }
         ],
         "extreme": [
@@ -9540,7 +9540,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Values",
@@ -9550,7 +9550,7 @@ const parentingQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Character",
@@ -9590,7 +9590,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Character",
@@ -9620,7 +9620,7 @@ const parentingQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -9632,7 +9632,7 @@ const parentingQuestions = {
                     "Random ideas",
                     "Beliefs guiding behavior"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Character",
@@ -9652,7 +9652,7 @@ const parentingQuestions = {
                     "No feeling",
                     "Understanding others' feelings"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Character",
@@ -9682,7 +9682,7 @@ const parentingQuestions = {
                     "Blaming others",
                     "Taking responsibility for actions"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Values",
@@ -9702,7 +9702,7 @@ const parentingQuestions = {
                     "Giving up",
                     "Passion and perseverance"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Values",
@@ -9712,7 +9712,7 @@ const parentingQuestions = {
                     "Complaining",
                     "Regularly expressing thankfulness"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Character",
@@ -9722,7 +9722,7 @@ const parentingQuestions = {
                     "Fairness and moral rightness",
                     "Unfairness"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -9757,7 +9757,7 @@ const parentingQuestions = {
                     "No theory",
                     "Stages of ethical reasoning (Kohlberg)"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Character",
@@ -9768,7 +9768,7 @@ const parentingQuestions = {
                     "No courage",
                     "Standing up for values despite risk"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Values",
@@ -9779,7 +9779,7 @@ const parentingQuestions = {
                     "Universal only",
                     "No variation"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Character",
@@ -9790,7 +9790,7 @@ const parentingQuestions = {
                     "Internal values vs external rewards",
                     "No difference"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Values",
@@ -9812,7 +9812,7 @@ const parentingQuestions = {
                     "Immediate satisfaction",
                     "Resisting immediate reward for better"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Values",
@@ -9823,7 +9823,7 @@ const parentingQuestions = {
                     "Gratitude increases wellbeing",
                     "Decreases"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Character",
@@ -9834,7 +9834,7 @@ const parentingQuestions = {
                     "Random",
                     "No thinking"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -9848,7 +9848,7 @@ const parentingQuestions = {
                     "~5-7 years",
                     "18 years"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Character",
@@ -9860,7 +9860,7 @@ const parentingQuestions = {
                     "~70%",
                     "100%"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Values",
@@ -9872,7 +9872,7 @@ const parentingQuestions = {
                     "Continues through adolescence",
                     "Never"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Character",
@@ -9884,7 +9884,7 @@ const parentingQuestions = {
                     "Decreases",
                     "Static"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Values",
@@ -9896,7 +9896,7 @@ const parentingQuestions = {
                     "100%",
                     "~70-80% primary influence"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Character",
@@ -9908,7 +9908,7 @@ const parentingQuestions = {
                     "Strong positive correlation",
                     "Negative"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Values",
@@ -9920,7 +9920,7 @@ const parentingQuestions = {
                     "Actions more powerful than words",
                     "No impact"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Character",
@@ -9932,7 +9932,7 @@ const parentingQuestions = {
                     "No research",
                     "Grit predicts success"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Values",
@@ -9944,7 +9944,7 @@ const parentingQuestions = {
                     "No change",
                     "Decrease"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Character",
@@ -9956,7 +9956,7 @@ const parentingQuestions = {
                     "2 stages",
                     "6 stages of moral development"
                 ],
-                "correct": 3
+                "correct": 1
             }
         ],
         "extreme": [

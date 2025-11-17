@@ -29,7 +29,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Mountains",
@@ -39,7 +39,7 @@ const geographyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Rivers",
@@ -69,7 +69,7 @@ const geographyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mountains",
@@ -79,7 +79,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Rivers",
@@ -99,7 +99,7 @@ const geographyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Oceans",
@@ -121,7 +121,7 @@ const geographyQuestions = {
                     "Antarctica",
                     "Australia"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Oceans",
@@ -131,7 +131,7 @@ const geographyQuestions = {
                     "Pacific",
                     "Atlantic"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Mountains",
@@ -141,7 +141,7 @@ const geographyQuestions = {
                     "Africa",
                     "Asia"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Rivers",
@@ -161,7 +161,7 @@ const geographyQuestions = {
                     "Antarctica",
                     "Australia"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Oceans",
@@ -181,7 +181,7 @@ const geographyQuestions = {
                     "K2",
                     "Kilimanjaro"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Rivers",
@@ -191,7 +191,7 @@ const geographyQuestions = {
                     "Mississippi",
                     "Amazon"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Continents",
@@ -201,7 +201,7 @@ const geographyQuestions = {
                     "Asia",
                     "Africa"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Oceans",
@@ -211,7 +211,7 @@ const geographyQuestions = {
                     "Indian Ocean",
                     "Pacific Ocean"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -224,7 +224,7 @@ const geographyQuestions = {
                     "54",
                     "48"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Oceans",
@@ -235,7 +235,7 @@ const geographyQuestions = {
                     "Java Trench",
                     "Mariana Trench"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Mountains",
@@ -246,7 +246,7 @@ const geographyQuestions = {
                     "8,849m",
                     "9,000m"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Rivers",
@@ -279,7 +279,7 @@ const geographyQuestions = {
                     "65%",
                     "71%"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Mountains",
@@ -290,7 +290,7 @@ const geographyQuestions = {
                     "Rockies",
                     "Andes"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Rivers",
@@ -312,7 +312,7 @@ const geographyQuestions = {
                     "Canberra",
                     "Melbourne"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Oceans",
@@ -323,7 +323,7 @@ const geographyQuestions = {
                     "Indian Ocean",
                     "Pacific Ocean"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -337,7 +337,7 @@ const geographyQuestions = {
                     "44.5 million km²",
                     "40 million km²"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Oceans",
@@ -349,7 +349,7 @@ const geographyQuestions = {
                     "12,000m",
                     "10,000m"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Mountains",
@@ -361,7 +361,7 @@ const geographyQuestions = {
                     "Alps",
                     "Pyrenees"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Rivers",
@@ -385,7 +385,7 @@ const geographyQuestions = {
                     "China",
                     "India"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Oceans",
@@ -397,7 +397,7 @@ const geographyQuestions = {
                     "4,000m",
                     "3,000m"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Mountains",
@@ -421,7 +421,7 @@ const geographyQuestions = {
                     "13",
                     "7"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Continents",
@@ -445,7 +445,7 @@ const geographyQuestions = {
                     "Arctic",
                     "Atlantic"
                 ],
-                "correct": 3
+                "correct": 1
             }
         ],
         "extreme": [
@@ -541,7 +541,7 @@ const geographyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Borders",
@@ -581,7 +581,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Borders",
@@ -601,7 +601,7 @@ const geographyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Borders",
@@ -611,7 +611,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -653,7 +653,7 @@ const geographyQuestions = {
                     "Rio Grande",
                     "Colorado"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Countries",
@@ -663,7 +663,7 @@ const geographyQuestions = {
                     "India",
                     "Pakistan"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Borders",
@@ -673,7 +673,7 @@ const geographyQuestions = {
                     "Alps",
                     "Urals"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Countries",
@@ -683,7 +683,7 @@ const geographyQuestions = {
                     "9",
                     "6"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Borders",
@@ -705,7 +705,7 @@ const geographyQuestions = {
                     "South America",
                     "Australia"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Borders",
@@ -730,7 +730,7 @@ const geographyQuestions = {
                     "48",
                     "50"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Borders",
@@ -741,7 +741,7 @@ const geographyQuestions = {
                     "17th parallel",
                     "38th parallel"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Countries",
@@ -752,7 +752,7 @@ const geographyQuestions = {
                     "17 million km²",
                     "20 million km²"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Borders",
@@ -763,7 +763,7 @@ const geographyQuestions = {
                     "6,891 km",
                     "8,891 km"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Countries",
@@ -774,7 +774,7 @@ const geographyQuestions = {
                     "57%",
                     "47%"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Borders",
@@ -796,7 +796,7 @@ const geographyQuestions = {
                     "1.6 billion",
                     "1.4 billion"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Borders",
@@ -818,7 +818,7 @@ const geographyQuestions = {
                     "1989",
                     "1990"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Borders",
@@ -829,7 +829,7 @@ const geographyQuestions = {
                     "12",
                     "14"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -843,7 +843,7 @@ const geographyQuestions = {
                     "California",
                     "Alaska"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Borders",
@@ -903,7 +903,7 @@ const geographyQuestions = {
                     "Defense Monitoring Zone",
                     "Dutch Maritime Zone"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Countries",
@@ -915,7 +915,7 @@ const geographyQuestions = {
                     "30",
                     "29"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Borders",
@@ -927,7 +927,7 @@ const geographyQuestions = {
                     "France-Belgium-Germany-Luxembourg",
                     "US states not countries"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Countries",
@@ -939,7 +939,7 @@ const geographyQuestions = {
                     "German Democratic Republic",
                     "Federal Republic of Germany"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Countries",
@@ -1027,7 +1027,7 @@ const geographyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Capitals",
@@ -1037,7 +1037,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Capitals",
@@ -1047,7 +1047,7 @@ const geographyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Capitals",
@@ -1057,7 +1057,7 @@ const geographyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Capitals",
@@ -1067,7 +1067,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Capitals",
@@ -1077,7 +1077,7 @@ const geographyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Capitals",
@@ -1087,7 +1087,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Capitals",
@@ -1107,7 +1107,7 @@ const geographyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Capitals",
@@ -1117,7 +1117,7 @@ const geographyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -1139,7 +1139,7 @@ const geographyQuestions = {
                     "Ottawa",
                     "Toronto"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Capitals",
@@ -1181,7 +1181,7 @@ const geographyQuestions = {
                     "Yangtze",
                     "Mississippi"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Capitals",
@@ -1193,7 +1193,7 @@ const geographyQuestions = {
                     "Australia",
                     "South America"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Capitals",
@@ -1205,7 +1205,7 @@ const geographyQuestions = {
                     "China",
                     "Indonesia"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Capitals",
@@ -1217,7 +1217,7 @@ const geographyQuestions = {
                     "South America",
                     "Australia"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Capitals",
@@ -1242,7 +1242,7 @@ const geographyQuestions = {
                     "Astana",
                     "Almaty"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Capitals",
@@ -1253,7 +1253,7 @@ const geographyQuestions = {
                     "Yangon",
                     "Naypyidaw"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Capitals",
@@ -1275,7 +1275,7 @@ const geographyQuestions = {
                     "1901",
                     "1913"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Capitals",
@@ -1297,7 +1297,7 @@ const geographyQuestions = {
                     "Pretoria",
                     "Johannesburg"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Capitals",
@@ -1308,7 +1308,7 @@ const geographyQuestions = {
                     "Ho Chi Minh City",
                     "Hanoi"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Capitals",
@@ -1319,7 +1319,7 @@ const geographyQuestions = {
                     "Sri Jayawardenepura Kotte",
                     "Kandy"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Capitals",
@@ -1330,7 +1330,7 @@ const geographyQuestions = {
                     "1970",
                     "1960"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Capitals",
@@ -1342,7 +1342,7 @@ const geographyQuestions = {
                     "Amazon",
                     "São Francisco"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -1356,7 +1356,7 @@ const geographyQuestions = {
                     "Quito",
                     "La Paz"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Capitals",
@@ -1380,7 +1380,7 @@ const geographyQuestions = {
                     "Vatican City",
                     "Monaco"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Capitals",
@@ -1392,7 +1392,7 @@ const geographyQuestions = {
                     "Central location",
                     "Compromise between Sydney/Melbourne"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Capitals",
@@ -1404,7 +1404,7 @@ const geographyQuestions = {
                     "Ajman",
                     "Abu Dhabi"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Capitals",
@@ -1416,7 +1416,7 @@ const geographyQuestions = {
                     "Moscow",
                     "Istanbul"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Capitals",
@@ -1428,7 +1428,7 @@ const geographyQuestions = {
                     "Damascus",
                     "Athens"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Capitals",
@@ -1440,7 +1440,7 @@ const geographyQuestions = {
                     "Surabaya",
                     "Jakarta"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Capitals",
@@ -1452,7 +1452,7 @@ const geographyQuestions = {
                     "Naypyidaw",
                     "Canberra"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Capitals",
@@ -1540,7 +1540,7 @@ const geographyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Climate",
@@ -1570,7 +1570,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Climate",
@@ -1580,7 +1580,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Climate",
@@ -1590,7 +1590,7 @@ const geographyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Climate",
@@ -1600,7 +1600,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Climate",
@@ -1620,7 +1620,7 @@ const geographyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Climate",
@@ -1630,7 +1630,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -1652,7 +1652,7 @@ const geographyQuestions = {
                     "-89°C",
                     "-70°C"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Climate",
@@ -1682,7 +1682,7 @@ const geographyQuestions = {
                     "Between tropics and poles",
                     "Near equator"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Climate",
@@ -1692,7 +1692,7 @@ const geographyQuestions = {
                     "Lots of trees",
                     "Warm year-round"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Climate",
@@ -1702,7 +1702,7 @@ const geographyQuestions = {
                     "66.5°N latitude",
                     "90°N latitude"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Climate",
@@ -1756,7 +1756,7 @@ const geographyQuestions = {
                     "5%",
                     "15%"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Climate",
@@ -1767,7 +1767,7 @@ const geographyQuestions = {
                     "2000mm+",
                     "500mm+"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Climate",
@@ -1800,7 +1800,7 @@ const geographyQuestions = {
                     "30°N to 30°S",
                     "23.5°N to 23.5°S"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Climate",
@@ -1822,7 +1822,7 @@ const geographyQuestions = {
                     "June-September",
                     "Year-round"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Climate",
@@ -1833,7 +1833,7 @@ const geographyQuestions = {
                     "Every 2-7 years",
                     "Every year"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Climate",
@@ -1858,7 +1858,7 @@ const geographyQuestions = {
                     "System of climate zones",
                     "Temperature scale"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Climate",
@@ -1870,7 +1870,7 @@ const geographyQuestions = {
                     "Polar expansion",
                     "Long period of cold climate"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Climate",
@@ -1882,7 +1882,7 @@ const geographyQuestions = {
                     "Ocean rain",
                     "Mountain-induced rain"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Climate",
@@ -1894,7 +1894,7 @@ const geographyQuestions = {
                     "Elevation",
                     "Mountains block moisture"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Climate",
@@ -1906,7 +1906,7 @@ const geographyQuestions = {
                     "Polar cold",
                     "Large temp variations"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Climate",
@@ -1918,7 +1918,7 @@ const geographyQuestions = {
                     "Polar winds",
                     "Easterly tropical winds"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Climate",
@@ -1930,7 +1930,7 @@ const geographyQuestions = {
                     "Elevation limit for trees",
                     "Desert edge"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Climate",
@@ -1942,7 +1942,7 @@ const geographyQuestions = {
                     "Local climate variation",
                     "Indoor climate"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Climate",
@@ -1954,7 +1954,7 @@ const geographyQuestions = {
                     "Indian monsoon",
                     "Pacific cooling pattern"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Climate",
@@ -1966,7 +1966,7 @@ const geographyQuestions = {
                     "Ocean warming",
                     "Atmospheric heat retention"
                 ],
-                "correct": 3
+                "correct": 1
             }
         ],
         "extreme": [
@@ -2052,7 +2052,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Landforms",
@@ -2072,7 +2072,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Landforms",
@@ -2092,7 +2092,7 @@ const geographyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Landforms",
@@ -2102,7 +2102,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Landforms",
@@ -2132,7 +2132,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -2144,7 +2144,7 @@ const geographyQuestions = {
                     "Volcanic mountain",
                     "Fold mountain"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Landforms",
@@ -2164,7 +2164,7 @@ const geographyQuestions = {
                     "River valley",
                     "Valley formed by tectonic plates"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Landforms",
@@ -2214,7 +2214,7 @@ const geographyQuestions = {
                     "African rift",
                     "Pacific volcanic belt"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Landforms",
@@ -2247,7 +2247,7 @@ const geographyQuestions = {
                     "Erosion",
                     "Plate collision"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Landforms",
@@ -2258,7 +2258,7 @@ const geographyQuestions = {
                     "Wave type",
                     "Coastal sediment movement"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Landforms",
@@ -2269,7 +2269,7 @@ const geographyQuestions = {
                     "American valley",
                     "African tectonic valley"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Landforms",
@@ -2280,7 +2280,7 @@ const geographyQuestions = {
                     "6,000m average",
                     "3,000m average"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Landforms",
@@ -2291,7 +2291,7 @@ const geographyQuestions = {
                     "Volcanic crater",
                     "Glacial valley filled by sea"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Landforms",
@@ -2302,7 +2302,7 @@ const geographyQuestions = {
                     "1,000m",
                     "1,800m"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Landforms",
@@ -2324,7 +2324,7 @@ const geographyQuestions = {
                     "75%",
                     "50%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Landforms",
@@ -2335,7 +2335,7 @@ const geographyQuestions = {
                     "400km",
                     "500km"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Landforms",
@@ -2346,7 +2346,7 @@ const geographyQuestions = {
                     "Asian steppes",
                     "South American grasslands"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -2360,7 +2360,7 @@ const geographyQuestions = {
                     "Plate movement",
                     "Mountain formation"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Landforms",
@@ -2384,7 +2384,7 @@ const geographyQuestions = {
                     "Coastal valley",
                     "Tributary valley above main valley"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Landforms",
@@ -2396,7 +2396,7 @@ const geographyQuestions = {
                     "Canyon formations",
                     "Desert climate"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Landforms",
@@ -2408,7 +2408,7 @@ const geographyQuestions = {
                     "Isolated rock pillar in sea",
                     "Beach feature"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Landforms",
@@ -2420,7 +2420,7 @@ const geographyQuestions = {
                     "Colorado River erosion",
                     "Volcanic activity"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Landforms",
@@ -2432,7 +2432,7 @@ const geographyQuestions = {
                     "Coral island",
                     "Volcanic island"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Landforms",
@@ -2444,7 +2444,7 @@ const geographyQuestions = {
                     "Large volcanic crater",
                     "Lava flow"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Landforms",
@@ -2468,7 +2468,7 @@ const geographyQuestions = {
                     "Eroded flat surface",
                     "New plain"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "extreme": [
@@ -2554,7 +2554,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Cities",
@@ -2564,7 +2564,7 @@ const geographyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Demographics",
@@ -2574,7 +2574,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Population",
@@ -2584,7 +2584,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Cities",
@@ -2594,7 +2594,7 @@ const geographyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Demographics",
@@ -2614,7 +2614,7 @@ const geographyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Cities",
@@ -2624,7 +2624,7 @@ const geographyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Demographics",
@@ -2634,7 +2634,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -2666,7 +2666,7 @@ const geographyQuestions = {
                     "Total population",
                     "People per area"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Population",
@@ -2676,7 +2676,7 @@ const geographyQuestions = {
                     "Antarctica",
                     "Australia"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Cities",
@@ -2696,7 +2696,7 @@ const geographyQuestions = {
                     "Total births",
                     "Births per 1000"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Population",
@@ -2706,7 +2706,7 @@ const geographyQuestions = {
                     "Monaco",
                     "Singapore"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Cities",
@@ -2762,7 +2762,7 @@ const geographyQuestions = {
                     "2020",
                     "2022"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Cities",
@@ -2773,7 +2773,7 @@ const geographyQuestions = {
                     "40",
                     "33+"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Demographics",
@@ -2784,7 +2784,7 @@ const geographyQuestions = {
                     "2.5",
                     "1.8"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Population",
@@ -2795,7 +2795,7 @@ const geographyQuestions = {
                     "50%",
                     "70%"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Cities",
@@ -2806,7 +2806,7 @@ const geographyQuestions = {
                     "Migration",
                     "Increasing city population"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Demographics",
@@ -2817,7 +2817,7 @@ const geographyQuestions = {
                     "Somalia",
                     "Mali"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Population",
@@ -2828,7 +2828,7 @@ const geographyQuestions = {
                     "6,000/km²",
                     "8,000/km²"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Cities",
@@ -2839,7 +2839,7 @@ const geographyQuestions = {
                     "New York",
                     "Tokyo"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Demographics",
@@ -2864,7 +2864,7 @@ const geographyQuestions = {
                     "Population development stages",
                     "Migration pattern"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Population",
@@ -2888,7 +2888,7 @@ const geographyQuestions = {
                     "Ancient city",
                     "Port city"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Demographics",
@@ -2900,7 +2900,7 @@ const geographyQuestions = {
                     "Non-working to working population",
                     "Birth to death ratio"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Population",
@@ -2912,7 +2912,7 @@ const geographyQuestions = {
                     "Current population",
                     "Maximum sustainable population"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Cities",
@@ -2960,7 +2960,7 @@ const geographyQuestions = {
                     "Neighborhood renovation and displacement",
                     "Population growth"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Demographics",
@@ -2972,7 +2972,7 @@ const geographyQuestions = {
                     "Internal migration",
                     "Leaving one's country"
                 ],
-                "correct": 3
+                "correct": 1
             }
         ],
         "extreme": [
@@ -3068,7 +3068,7 @@ const geographyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Resources",
@@ -3108,7 +3108,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Resources",
@@ -3128,7 +3128,7 @@ const geographyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Resources",
@@ -3138,7 +3138,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -3150,7 +3150,7 @@ const geographyQuestions = {
                     "Saudi Arabia",
                     "Venezuela"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Resources",
@@ -3200,7 +3200,7 @@ const geographyQuestions = {
                     "Wind power",
                     "Solar to electricity"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Resources",
@@ -3220,7 +3220,7 @@ const geographyQuestions = {
                     "Digging holes",
                     "Extracting minerals"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Resources",
@@ -3240,7 +3240,7 @@ const geographyQuestions = {
                     "Organic matter fuel",
                     "Chemical fuel"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -3253,7 +3253,7 @@ const geographyQuestions = {
                     "400 billion",
                     "300+ billion barrels"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Resources",
@@ -3264,7 +3264,7 @@ const geographyQuestions = {
                     "15 million",
                     "10 million hectares"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Resources",
@@ -3308,7 +3308,7 @@ const geographyQuestions = {
                     "3%",
                     "10%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Resources",
@@ -3319,7 +3319,7 @@ const geographyQuestions = {
                     "50%",
                     "20%"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Resources",
@@ -3330,7 +3330,7 @@ const geographyQuestions = {
                     "Australia",
                     "China"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Resources",
@@ -3341,7 +3341,7 @@ const geographyQuestions = {
                     "Germany",
                     "China"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Resources",
@@ -3352,7 +3352,7 @@ const geographyQuestions = {
                     "60%",
                     "40%"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -3366,7 +3366,7 @@ const geographyQuestions = {
                     "Production decline",
                     "Maximum extraction rate reached"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Resources",
@@ -3378,7 +3378,7 @@ const geographyQuestions = {
                     "Harvesting that maintains forest",
                     "Tree planting"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Resources",
@@ -3402,7 +3402,7 @@ const geographyQuestions = {
                     "Storing CO2 emissions",
                     "Reducing emissions"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Resources",
@@ -3414,7 +3414,7 @@ const geographyQuestions = {
                     "Deposition",
                     "Loss of topsoil"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Resources",
@@ -3426,7 +3426,7 @@ const geographyQuestions = {
                     "Cost",
                     "Sunlight amount"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Resources",
@@ -3438,7 +3438,7 @@ const geographyQuestions = {
                     "Coral growing",
                     "Ocean study"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Resources",
@@ -3450,7 +3450,7 @@ const geographyQuestions = {
                     "Cave mining",
                     "Underground mining"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Resources",
@@ -3550,7 +3550,7 @@ const geographyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Biomes",
@@ -3570,7 +3570,7 @@ const geographyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Biomes",
@@ -3580,7 +3580,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Biomes",
@@ -3590,7 +3590,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Biomes",
@@ -3600,7 +3600,7 @@ const geographyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Biomes",
@@ -3620,7 +3620,7 @@ const geographyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Biomes",
@@ -3702,7 +3702,7 @@ const geographyQuestions = {
                     "Temperature zones",
                     "Depth layers"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Biomes",
@@ -3712,7 +3712,7 @@ const geographyQuestions = {
                     "Grasslands",
                     "Wetlands"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Biomes",
@@ -3722,7 +3722,7 @@ const geographyQuestions = {
                     "Pine forest",
                     "Boreal forest"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Biomes",
@@ -3766,7 +3766,7 @@ const geographyQuestions = {
                     "1500-2500mm",
                     "250-500mm"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Biomes",
@@ -3777,7 +3777,7 @@ const geographyQuestions = {
                     "30 days",
                     "50-60 days"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Biomes",
@@ -3788,7 +3788,7 @@ const geographyQuestions = {
                     "45%",
                     "20%"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Biomes",
@@ -3799,7 +3799,7 @@ const geographyQuestions = {
                     "200-300",
                     "50-100"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Biomes",
@@ -3832,7 +3832,7 @@ const geographyQuestions = {
                     "29%",
                     "20%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Biomes",
@@ -3843,7 +3843,7 @@ const geographyQuestions = {
                     "25%",
                     "40%"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Biomes",
@@ -3854,7 +3854,7 @@ const geographyQuestions = {
                     "3",
                     "4"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -3880,7 +3880,7 @@ const geographyQuestions = {
                     "Kills animals",
                     "Causes drought"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Biomes",
@@ -3892,7 +3892,7 @@ const geographyQuestions = {
                     "Cold desert",
                     "Arctic region"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Biomes",
@@ -3904,7 +3904,7 @@ const geographyQuestions = {
                     "Land becoming desert",
                     "Desert expansion"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Biomes",
@@ -3940,7 +3940,7 @@ const geographyQuestions = {
                     "Grazing",
                     "Drought"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Biomes",
@@ -3964,7 +3964,7 @@ const geographyQuestions = {
                     "Food only",
                     "Recreation"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Biomes",
@@ -3976,7 +3976,7 @@ const geographyQuestions = {
                     "Ecological change over time",
                     "Seasonal change"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "extreme": [
@@ -4122,7 +4122,7 @@ const geographyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Weather",
@@ -4132,7 +4132,7 @@ const geographyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Weather",
@@ -4154,7 +4154,7 @@ const geographyQuestions = {
                     "Earth rotation",
                     "Atmospheric conditions"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Weather",
@@ -4184,7 +4184,7 @@ const geographyQuestions = {
                     "Below 0°C",
                     "Below 5°C"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Weather",
@@ -4194,7 +4194,7 @@ const geographyQuestions = {
                     "Tornado Alley USA",
                     "Everywhere"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Weather",
@@ -4204,7 +4204,7 @@ const geographyQuestions = {
                     "Cyclone",
                     "Typhoon"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Weather",
@@ -4234,7 +4234,7 @@ const geographyQuestions = {
                     "Rain evaporates",
                     "Air cools to dew point"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Weather",
@@ -4244,7 +4244,7 @@ const geographyQuestions = {
                     "Light refraction",
                     "Cloud colors"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -4257,7 +4257,7 @@ const geographyQuestions = {
                     "Same thing",
                     "Short-term vs long-term"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Weather",
@@ -4279,7 +4279,7 @@ const geographyQuestions = {
                     "50,000°C",
                     "30,000°C"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Weather",
@@ -4301,7 +4301,7 @@ const geographyQuestions = {
                     "300 km/h",
                     "600 km/h"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Weather",
@@ -4345,7 +4345,7 @@ const geographyQuestions = {
                     "Cloud type",
                     "Smoke and fog pollution"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Weather",
@@ -4356,7 +4356,7 @@ const geographyQuestions = {
                     "Only in tropics",
                     "Yes with two reflections"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -4370,7 +4370,7 @@ const geographyQuestions = {
                     "Cloud type",
                     "Wind pattern"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Weather",
@@ -4394,7 +4394,7 @@ const geographyQuestions = {
                     "Lightning sound",
                     "Sound from lightning"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Weather",
@@ -4406,7 +4406,7 @@ const geographyQuestions = {
                     "Snow",
                     "Ice"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Weather",
@@ -4418,7 +4418,7 @@ const geographyQuestions = {
                     "Tornado intensity rating",
                     "Wind scale"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Weather",
@@ -4430,7 +4430,7 @@ const geographyQuestions = {
                     "Wind maximum",
                     "Cloud ring"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Weather",
@@ -4442,7 +4442,7 @@ const geographyQuestions = {
                     "Average temp",
                     "Maximum temp"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Weather",
@@ -4454,7 +4454,7 @@ const geographyQuestions = {
                     "Tropical easterly winds",
                     "Storm winds"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Weather",
@@ -4466,7 +4466,7 @@ const geographyQuestions = {
                     "Warm air over cold surface",
                     "Radiation fog"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Weather",
@@ -4554,7 +4554,7 @@ const geographyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Deserts",
@@ -4564,7 +4564,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Deserts",
@@ -4574,7 +4574,7 @@ const geographyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Deserts",
@@ -4604,7 +4604,7 @@ const geographyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Deserts",
@@ -4686,7 +4686,7 @@ const geographyQuestions = {
                     "Wind-formed sand hills",
                     "Rock formations"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Deserts",
@@ -4696,7 +4696,7 @@ const geographyQuestions = {
                     "No cloud insulation",
                     "Wind"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Deserts",
@@ -4716,7 +4716,7 @@ const geographyQuestions = {
                     "Nile in Sahara",
                     "Arabian desert"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Deserts",
@@ -4726,7 +4726,7 @@ const geographyQuestions = {
                     "Cactus flowers",
                     "Flowers after rain"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Deserts",
@@ -4738,7 +4738,7 @@ const geographyQuestions = {
                     "South America",
                     "Australia"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Deserts",
@@ -4763,7 +4763,7 @@ const geographyQuestions = {
                     "9 million km²",
                     "11 million km²"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Deserts",
@@ -4774,7 +4774,7 @@ const geographyQuestions = {
                     "35%",
                     "25%"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Deserts",
@@ -4807,7 +4807,7 @@ const geographyQuestions = {
                     "Gazelle",
                     "Addax antelope"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Deserts",
@@ -4840,7 +4840,7 @@ const geographyQuestions = {
                     "90+",
                     "50"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Deserts",
@@ -4851,7 +4851,7 @@ const geographyQuestions = {
                     "Maya",
                     "Inca"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Deserts",
@@ -4888,7 +4888,7 @@ const geographyQuestions = {
                     "Fat storage not water",
                     "Water storage"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Deserts",
@@ -4900,7 +4900,7 @@ const geographyQuestions = {
                     "Surface reflectivity",
                     "Evaporation"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Deserts",
@@ -4912,7 +4912,7 @@ const geographyQuestions = {
                     "Cactus type",
                     "Water-saving plant process"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Deserts",
@@ -4936,7 +4936,7 @@ const geographyQuestions = {
                     "Wind erosion and deposition",
                     "Desert creation"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Deserts",
@@ -4948,7 +4948,7 @@ const geographyQuestions = {
                     "Seasonal change",
                     "Day-night temperature difference"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Deserts",
@@ -4984,7 +4984,7 @@ const geographyQuestions = {
                     "Season",
                     "Temperature"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "extreme": [
@@ -5060,7 +5060,7 @@ const geographyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Islands",
@@ -5090,7 +5090,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Islands",
@@ -5100,7 +5100,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Archipelagos",
@@ -5110,7 +5110,7 @@ const geographyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Islands",
@@ -5140,7 +5140,7 @@ const geographyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Islands",
@@ -5150,7 +5150,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -5162,7 +5162,7 @@ const geographyQuestions = {
                     "Borneo",
                     "New Guinea"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Islands",
@@ -5172,7 +5172,7 @@ const geographyQuestions = {
                     "4",
                     "5"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Archipelagos",
@@ -5192,7 +5192,7 @@ const geographyQuestions = {
                     "Volcanic hotspot",
                     "Coral"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Islands",
@@ -5252,7 +5252,7 @@ const geographyQuestions = {
                     "Found only in one place",
                     "Common everywhere"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -5276,7 +5276,7 @@ const geographyQuestions = {
                     "Kyushu",
                     "Hokkaido"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Archipelagos",
@@ -5309,7 +5309,7 @@ const geographyQuestions = {
                     "Maldives",
                     "Great Chagos"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Archipelagos",
@@ -5331,7 +5331,7 @@ const geographyQuestions = {
                     "90%",
                     "60%"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Islands",
@@ -5353,7 +5353,7 @@ const geographyQuestions = {
                     "145 million",
                     "100 million"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Islands",
@@ -5378,7 +5378,7 @@ const geographyQuestions = {
                     "Climate",
                     "Species richness on islands"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Islands",
@@ -5390,7 +5390,7 @@ const geographyQuestions = {
                     "Mid-ocean ridge",
                     "Rift valley"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Archipelagos",
@@ -5402,7 +5402,7 @@ const geographyQuestions = {
                     "Coastal islands",
                     "Volcanic chain from subduction"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Islands",
@@ -5414,7 +5414,7 @@ const geographyQuestions = {
                     "Broad gentle-sloped volcano",
                     "Explosive volcano"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Islands",
@@ -5426,7 +5426,7 @@ const geographyQuestions = {
                     "Volcano subsides, reef remains",
                     "Sand accumulates"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Archipelagos",
@@ -5450,7 +5450,7 @@ const geographyQuestions = {
                     "Ice-covered",
                     "On continental shelf"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Islands",
@@ -5462,7 +5462,7 @@ const geographyQuestions = {
                     "Sea level rise, subsidence",
                     "Storms only"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Archipelagos",
@@ -5486,7 +5486,7 @@ const geographyQuestions = {
                     "Endemic species",
                     "Species becoming smaller"
                 ],
-                "correct": 3
+                "correct": 1
             }
         ],
         "extreme": [
@@ -5572,7 +5572,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Lakes",
@@ -5592,7 +5592,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Lakes",
@@ -5602,7 +5602,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Lakes",
@@ -5622,7 +5622,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Lakes",
@@ -5652,7 +5652,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -5676,7 +5676,7 @@ const geographyQuestions = {
                     "Dead Sea",
                     "Black Sea"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Lakes",
@@ -5688,7 +5688,7 @@ const geographyQuestions = {
                     "USA",
                     "Russia"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Lakes",
@@ -5700,7 +5700,7 @@ const geographyQuestions = {
                     "Andes",
                     "Alps"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Lakes",
@@ -5712,7 +5712,7 @@ const geographyQuestions = {
                     "Tokyo",
                     "Bangkok"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Lakes",
@@ -5724,7 +5724,7 @@ const geographyQuestions = {
                     "Yangtze",
                     "Mississippi"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Lakes",
@@ -5736,7 +5736,7 @@ const geographyQuestions = {
                     "Australia",
                     "South America"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Lakes",
@@ -5748,7 +5748,7 @@ const geographyQuestions = {
                     "China",
                     "Indonesia"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Lakes",
@@ -5760,7 +5760,7 @@ const geographyQuestions = {
                     "South America",
                     "Australia"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Lakes",
@@ -5797,7 +5797,7 @@ const geographyQuestions = {
                     "Angel Falls",
                     "Yosemite"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Lakes",
@@ -5809,7 +5809,7 @@ const geographyQuestions = {
                     "Philippines",
                     "Iceland"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Lakes",
@@ -5821,7 +5821,7 @@ const geographyQuestions = {
                     "Greenland",
                     "New Guinea"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Lakes",
@@ -5833,7 +5833,7 @@ const geographyQuestions = {
                     "Angel Falls",
                     "Iguazu"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Lakes",
@@ -5845,7 +5845,7 @@ const geographyQuestions = {
                     "Death Valley",
                     "Antarctica"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Lakes",
@@ -5869,7 +5869,7 @@ const geographyQuestions = {
                     "Mariana Trench",
                     "Tonga Trench"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Lakes",
@@ -5881,7 +5881,7 @@ const geographyQuestions = {
                     "France",
                     "Canada"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Lakes",
@@ -5893,7 +5893,7 @@ const geographyQuestions = {
                     "Amazon",
                     "São Francisco"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -5907,7 +5907,7 @@ const geographyQuestions = {
                     "D",
                     "A"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Lakes",
@@ -5931,7 +5931,7 @@ const geographyQuestions = {
                     "Sweden",
                     "Finland"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Lakes",
@@ -5955,7 +5955,7 @@ const geographyQuestions = {
                     "Danube",
                     "Rhine"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Lakes",
@@ -5967,7 +5967,7 @@ const geographyQuestions = {
                     "Aral",
                     "Dead Sea"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Lakes",
@@ -5979,7 +5979,7 @@ const geographyQuestions = {
                     "Ethiopia",
                     "Sudan"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Lakes",
@@ -5991,7 +5991,7 @@ const geographyQuestions = {
                     "La Paz",
                     "Addis Ababa"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Lakes",
@@ -6003,7 +6003,7 @@ const geographyQuestions = {
                     "Hormuz",
                     "Bosporus"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Lakes",
@@ -6101,7 +6101,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Forests",
@@ -6121,7 +6121,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Forests",
@@ -6131,7 +6131,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Forests",
@@ -6151,7 +6151,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Forests",
@@ -6181,7 +6181,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -6193,7 +6193,7 @@ const geographyQuestions = {
                     "Option B",
                     "Option A"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Forests",
@@ -6205,7 +6205,7 @@ const geographyQuestions = {
                     "Dead Sea",
                     "Black Sea"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Forests",
@@ -6217,7 +6217,7 @@ const geographyQuestions = {
                     "USA",
                     "Russia"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Forests",
@@ -6229,7 +6229,7 @@ const geographyQuestions = {
                     "Andes",
                     "Alps"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Forests",
@@ -6241,7 +6241,7 @@ const geographyQuestions = {
                     "Tokyo",
                     "Bangkok"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Forests",
@@ -6253,7 +6253,7 @@ const geographyQuestions = {
                     "Yangtze",
                     "Mississippi"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Forests",
@@ -6265,7 +6265,7 @@ const geographyQuestions = {
                     "Australia",
                     "South America"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Forests",
@@ -6277,7 +6277,7 @@ const geographyQuestions = {
                     "China",
                     "Indonesia"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Forests",
@@ -6289,7 +6289,7 @@ const geographyQuestions = {
                     "South America",
                     "Australia"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Forests",
@@ -6314,7 +6314,7 @@ const geographyQuestions = {
                     "B",
                     "A"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Forests",
@@ -6326,7 +6326,7 @@ const geographyQuestions = {
                     "Angel Falls",
                     "Yosemite"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Forests",
@@ -6338,7 +6338,7 @@ const geographyQuestions = {
                     "Philippines",
                     "Iceland"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Forests",
@@ -6350,7 +6350,7 @@ const geographyQuestions = {
                     "Greenland",
                     "New Guinea"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Forests",
@@ -6362,7 +6362,7 @@ const geographyQuestions = {
                     "Angel Falls",
                     "Iguazu"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Forests",
@@ -6374,7 +6374,7 @@ const geographyQuestions = {
                     "Death Valley",
                     "Antarctica"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Forests",
@@ -6398,7 +6398,7 @@ const geographyQuestions = {
                     "Mariana Trench",
                     "Tonga Trench"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Forests",
@@ -6410,7 +6410,7 @@ const geographyQuestions = {
                     "France",
                     "Canada"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Forests",
@@ -6422,7 +6422,7 @@ const geographyQuestions = {
                     "Amazon",
                     "São Francisco"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -6436,7 +6436,7 @@ const geographyQuestions = {
                     "C",
                     "D"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Forests",
@@ -6460,7 +6460,7 @@ const geographyQuestions = {
                     "Sweden",
                     "Finland"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Forests",
@@ -6484,7 +6484,7 @@ const geographyQuestions = {
                     "Danube",
                     "Rhine"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Forests",
@@ -6496,7 +6496,7 @@ const geographyQuestions = {
                     "Aral",
                     "Dead Sea"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Forests",
@@ -6508,7 +6508,7 @@ const geographyQuestions = {
                     "Ethiopia",
                     "Sudan"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Forests",
@@ -6520,7 +6520,7 @@ const geographyQuestions = {
                     "La Paz",
                     "Addis Ababa"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Forests",
@@ -6532,7 +6532,7 @@ const geographyQuestions = {
                     "Hormuz",
                     "Bosporus"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Forests",
@@ -6630,7 +6630,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Agriculture",
@@ -6650,7 +6650,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Agriculture",
@@ -6660,7 +6660,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Agriculture",
@@ -6680,7 +6680,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Agriculture",
@@ -6710,7 +6710,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -6734,7 +6734,7 @@ const geographyQuestions = {
                     "Dead Sea",
                     "Black Sea"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Agriculture",
@@ -6746,7 +6746,7 @@ const geographyQuestions = {
                     "USA",
                     "Russia"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Agriculture",
@@ -6758,7 +6758,7 @@ const geographyQuestions = {
                     "Andes",
                     "Alps"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Agriculture",
@@ -6770,7 +6770,7 @@ const geographyQuestions = {
                     "Tokyo",
                     "Bangkok"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Agriculture",
@@ -6782,7 +6782,7 @@ const geographyQuestions = {
                     "Yangtze",
                     "Mississippi"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Agriculture",
@@ -6794,7 +6794,7 @@ const geographyQuestions = {
                     "Australia",
                     "South America"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Agriculture",
@@ -6806,7 +6806,7 @@ const geographyQuestions = {
                     "China",
                     "Indonesia"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Agriculture",
@@ -6818,7 +6818,7 @@ const geographyQuestions = {
                     "South America",
                     "Australia"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Agriculture",
@@ -6843,7 +6843,7 @@ const geographyQuestions = {
                     "B",
                     "A"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Agriculture",
@@ -6855,7 +6855,7 @@ const geographyQuestions = {
                     "Angel Falls",
                     "Yosemite"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Agriculture",
@@ -6867,7 +6867,7 @@ const geographyQuestions = {
                     "Philippines",
                     "Iceland"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Agriculture",
@@ -6879,7 +6879,7 @@ const geographyQuestions = {
                     "Greenland",
                     "New Guinea"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Agriculture",
@@ -6891,7 +6891,7 @@ const geographyQuestions = {
                     "Angel Falls",
                     "Iguazu"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Agriculture",
@@ -6903,7 +6903,7 @@ const geographyQuestions = {
                     "Death Valley",
                     "Antarctica"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Agriculture",
@@ -6927,7 +6927,7 @@ const geographyQuestions = {
                     "Mariana Trench",
                     "Tonga Trench"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Agriculture",
@@ -6939,7 +6939,7 @@ const geographyQuestions = {
                     "France",
                     "Canada"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Agriculture",
@@ -6951,7 +6951,7 @@ const geographyQuestions = {
                     "Amazon",
                     "São Francisco"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -6965,7 +6965,7 @@ const geographyQuestions = {
                     "C",
                     "D"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Agriculture",
@@ -6989,7 +6989,7 @@ const geographyQuestions = {
                     "Sweden",
                     "Finland"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Agriculture",
@@ -7013,7 +7013,7 @@ const geographyQuestions = {
                     "Danube",
                     "Rhine"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Agriculture",
@@ -7025,7 +7025,7 @@ const geographyQuestions = {
                     "Aral",
                     "Dead Sea"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Agriculture",
@@ -7037,7 +7037,7 @@ const geographyQuestions = {
                     "Ethiopia",
                     "Sudan"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Agriculture",
@@ -7049,7 +7049,7 @@ const geographyQuestions = {
                     "La Paz",
                     "Addis Ababa"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Agriculture",
@@ -7061,7 +7061,7 @@ const geographyQuestions = {
                     "Hormuz",
                     "Bosporus"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Agriculture",
@@ -7159,7 +7159,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Urban",
@@ -7179,7 +7179,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Urban",
@@ -7189,7 +7189,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Urban",
@@ -7209,7 +7209,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Urban",
@@ -7239,7 +7239,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -7251,7 +7251,7 @@ const geographyQuestions = {
                     "Option B",
                     "Option A"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Urban",
@@ -7263,7 +7263,7 @@ const geographyQuestions = {
                     "Dead Sea",
                     "Black Sea"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Urban",
@@ -7275,7 +7275,7 @@ const geographyQuestions = {
                     "USA",
                     "Russia"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Urban",
@@ -7287,7 +7287,7 @@ const geographyQuestions = {
                     "Andes",
                     "Alps"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Urban",
@@ -7299,7 +7299,7 @@ const geographyQuestions = {
                     "Tokyo",
                     "Bangkok"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Urban",
@@ -7311,7 +7311,7 @@ const geographyQuestions = {
                     "Yangtze",
                     "Mississippi"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Urban",
@@ -7323,7 +7323,7 @@ const geographyQuestions = {
                     "Australia",
                     "South America"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Urban",
@@ -7335,7 +7335,7 @@ const geographyQuestions = {
                     "China",
                     "Indonesia"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Urban",
@@ -7347,7 +7347,7 @@ const geographyQuestions = {
                     "South America",
                     "Australia"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Urban",
@@ -7384,7 +7384,7 @@ const geographyQuestions = {
                     "Angel Falls",
                     "Yosemite"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Urban",
@@ -7396,7 +7396,7 @@ const geographyQuestions = {
                     "Philippines",
                     "Iceland"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Urban",
@@ -7408,7 +7408,7 @@ const geographyQuestions = {
                     "Greenland",
                     "New Guinea"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Urban",
@@ -7420,7 +7420,7 @@ const geographyQuestions = {
                     "Angel Falls",
                     "Iguazu"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Urban",
@@ -7432,7 +7432,7 @@ const geographyQuestions = {
                     "Death Valley",
                     "Antarctica"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Urban",
@@ -7456,7 +7456,7 @@ const geographyQuestions = {
                     "Mariana Trench",
                     "Tonga Trench"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Urban",
@@ -7468,7 +7468,7 @@ const geographyQuestions = {
                     "France",
                     "Canada"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Urban",
@@ -7480,7 +7480,7 @@ const geographyQuestions = {
                     "Amazon",
                     "São Francisco"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -7494,7 +7494,7 @@ const geographyQuestions = {
                     "A",
                     "D"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Urban",
@@ -7518,7 +7518,7 @@ const geographyQuestions = {
                     "Sweden",
                     "Finland"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Urban",
@@ -7542,7 +7542,7 @@ const geographyQuestions = {
                     "Danube",
                     "Rhine"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Urban",
@@ -7554,7 +7554,7 @@ const geographyQuestions = {
                     "Aral",
                     "Dead Sea"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Urban",
@@ -7566,7 +7566,7 @@ const geographyQuestions = {
                     "Ethiopia",
                     "Sudan"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Urban",
@@ -7578,7 +7578,7 @@ const geographyQuestions = {
                     "La Paz",
                     "Addis Ababa"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Urban",
@@ -7590,7 +7590,7 @@ const geographyQuestions = {
                     "Hormuz",
                     "Bosporus"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Urban",
@@ -7688,7 +7688,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Coastal",
@@ -7708,7 +7708,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Coastal",
@@ -7718,7 +7718,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Coastal",
@@ -7738,7 +7738,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Coastal",
@@ -7768,7 +7768,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -7792,7 +7792,7 @@ const geographyQuestions = {
                     "Dead Sea",
                     "Black Sea"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Coastal",
@@ -7804,7 +7804,7 @@ const geographyQuestions = {
                     "USA",
                     "Russia"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Coastal",
@@ -7816,7 +7816,7 @@ const geographyQuestions = {
                     "Andes",
                     "Alps"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Coastal",
@@ -7828,7 +7828,7 @@ const geographyQuestions = {
                     "Tokyo",
                     "Bangkok"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Coastal",
@@ -7840,7 +7840,7 @@ const geographyQuestions = {
                     "Yangtze",
                     "Mississippi"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Coastal",
@@ -7852,7 +7852,7 @@ const geographyQuestions = {
                     "Australia",
                     "South America"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Coastal",
@@ -7864,7 +7864,7 @@ const geographyQuestions = {
                     "China",
                     "Indonesia"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Coastal",
@@ -7876,7 +7876,7 @@ const geographyQuestions = {
                     "South America",
                     "Australia"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Coastal",
@@ -7901,7 +7901,7 @@ const geographyQuestions = {
                     "A",
                     "C"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Coastal",
@@ -7913,7 +7913,7 @@ const geographyQuestions = {
                     "Angel Falls",
                     "Yosemite"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Coastal",
@@ -7925,7 +7925,7 @@ const geographyQuestions = {
                     "Philippines",
                     "Iceland"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Coastal",
@@ -7937,7 +7937,7 @@ const geographyQuestions = {
                     "Greenland",
                     "New Guinea"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Coastal",
@@ -7949,7 +7949,7 @@ const geographyQuestions = {
                     "Angel Falls",
                     "Iguazu"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Coastal",
@@ -7961,7 +7961,7 @@ const geographyQuestions = {
                     "Death Valley",
                     "Antarctica"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Coastal",
@@ -7985,7 +7985,7 @@ const geographyQuestions = {
                     "Mariana Trench",
                     "Tonga Trench"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Coastal",
@@ -7997,7 +7997,7 @@ const geographyQuestions = {
                     "France",
                     "Canada"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Coastal",
@@ -8009,7 +8009,7 @@ const geographyQuestions = {
                     "Amazon",
                     "São Francisco"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -8047,7 +8047,7 @@ const geographyQuestions = {
                     "Sweden",
                     "Finland"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Coastal",
@@ -8071,7 +8071,7 @@ const geographyQuestions = {
                     "Danube",
                     "Rhine"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Coastal",
@@ -8083,7 +8083,7 @@ const geographyQuestions = {
                     "Aral",
                     "Dead Sea"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Coastal",
@@ -8095,7 +8095,7 @@ const geographyQuestions = {
                     "Ethiopia",
                     "Sudan"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Coastal",
@@ -8107,7 +8107,7 @@ const geographyQuestions = {
                     "La Paz",
                     "Addis Ababa"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Coastal",
@@ -8119,7 +8119,7 @@ const geographyQuestions = {
                     "Hormuz",
                     "Bosporus"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Coastal",
@@ -8217,7 +8217,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Volcanoes",
@@ -8237,7 +8237,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Volcanoes",
@@ -8247,7 +8247,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Volcanoes",
@@ -8267,7 +8267,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Volcanoes",
@@ -8297,7 +8297,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -8309,7 +8309,7 @@ const geographyQuestions = {
                     "Option B",
                     "Option A"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Volcanoes",
@@ -8321,7 +8321,7 @@ const geographyQuestions = {
                     "Dead Sea",
                     "Black Sea"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Volcanoes",
@@ -8333,7 +8333,7 @@ const geographyQuestions = {
                     "USA",
                     "Russia"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Volcanoes",
@@ -8345,7 +8345,7 @@ const geographyQuestions = {
                     "Andes",
                     "Alps"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Volcanoes",
@@ -8357,7 +8357,7 @@ const geographyQuestions = {
                     "Tokyo",
                     "Bangkok"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Volcanoes",
@@ -8369,7 +8369,7 @@ const geographyQuestions = {
                     "Yangtze",
                     "Mississippi"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Volcanoes",
@@ -8381,7 +8381,7 @@ const geographyQuestions = {
                     "Australia",
                     "South America"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Volcanoes",
@@ -8393,7 +8393,7 @@ const geographyQuestions = {
                     "China",
                     "Indonesia"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Volcanoes",
@@ -8405,7 +8405,7 @@ const geographyQuestions = {
                     "South America",
                     "Australia"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Volcanoes",
@@ -8430,7 +8430,7 @@ const geographyQuestions = {
                     "A",
                     "B"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Volcanoes",
@@ -8442,7 +8442,7 @@ const geographyQuestions = {
                     "Angel Falls",
                     "Yosemite"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Volcanoes",
@@ -8454,7 +8454,7 @@ const geographyQuestions = {
                     "Philippines",
                     "Iceland"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Volcanoes",
@@ -8466,7 +8466,7 @@ const geographyQuestions = {
                     "Greenland",
                     "New Guinea"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Volcanoes",
@@ -8478,7 +8478,7 @@ const geographyQuestions = {
                     "Angel Falls",
                     "Iguazu"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Volcanoes",
@@ -8490,7 +8490,7 @@ const geographyQuestions = {
                     "Death Valley",
                     "Antarctica"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Volcanoes",
@@ -8514,7 +8514,7 @@ const geographyQuestions = {
                     "Mariana Trench",
                     "Tonga Trench"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Volcanoes",
@@ -8526,7 +8526,7 @@ const geographyQuestions = {
                     "France",
                     "Canada"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Volcanoes",
@@ -8538,7 +8538,7 @@ const geographyQuestions = {
                     "Amazon",
                     "São Francisco"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -8552,7 +8552,7 @@ const geographyQuestions = {
                     "A",
                     "C"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Volcanoes",
@@ -8576,7 +8576,7 @@ const geographyQuestions = {
                     "Sweden",
                     "Finland"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Volcanoes",
@@ -8600,7 +8600,7 @@ const geographyQuestions = {
                     "Danube",
                     "Rhine"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Volcanoes",
@@ -8612,7 +8612,7 @@ const geographyQuestions = {
                     "Aral",
                     "Dead Sea"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Volcanoes",
@@ -8624,7 +8624,7 @@ const geographyQuestions = {
                     "Ethiopia",
                     "Sudan"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Volcanoes",
@@ -8636,7 +8636,7 @@ const geographyQuestions = {
                     "La Paz",
                     "Addis Ababa"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Volcanoes",
@@ -8648,7 +8648,7 @@ const geographyQuestions = {
                     "Hormuz",
                     "Bosporus"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Volcanoes",
@@ -8746,7 +8746,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Earthquakes",
@@ -8766,7 +8766,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Earthquakes",
@@ -8776,7 +8776,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Earthquakes",
@@ -8796,7 +8796,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Earthquakes",
@@ -8826,7 +8826,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -8850,7 +8850,7 @@ const geographyQuestions = {
                     "Dead Sea",
                     "Black Sea"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Earthquakes",
@@ -8862,7 +8862,7 @@ const geographyQuestions = {
                     "USA",
                     "Russia"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Earthquakes",
@@ -8874,7 +8874,7 @@ const geographyQuestions = {
                     "Andes",
                     "Alps"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Earthquakes",
@@ -8886,7 +8886,7 @@ const geographyQuestions = {
                     "Tokyo",
                     "Bangkok"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Earthquakes",
@@ -8898,7 +8898,7 @@ const geographyQuestions = {
                     "Yangtze",
                     "Mississippi"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Earthquakes",
@@ -8910,7 +8910,7 @@ const geographyQuestions = {
                     "Australia",
                     "South America"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Earthquakes",
@@ -8922,7 +8922,7 @@ const geographyQuestions = {
                     "China",
                     "Indonesia"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Earthquakes",
@@ -8934,7 +8934,7 @@ const geographyQuestions = {
                     "South America",
                     "Australia"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Earthquakes",
@@ -8971,7 +8971,7 @@ const geographyQuestions = {
                     "Angel Falls",
                     "Yosemite"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Earthquakes",
@@ -8983,7 +8983,7 @@ const geographyQuestions = {
                     "Philippines",
                     "Iceland"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Earthquakes",
@@ -8995,7 +8995,7 @@ const geographyQuestions = {
                     "Greenland",
                     "New Guinea"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Earthquakes",
@@ -9007,7 +9007,7 @@ const geographyQuestions = {
                     "Angel Falls",
                     "Iguazu"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Earthquakes",
@@ -9019,7 +9019,7 @@ const geographyQuestions = {
                     "Death Valley",
                     "Antarctica"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Earthquakes",
@@ -9043,7 +9043,7 @@ const geographyQuestions = {
                     "Mariana Trench",
                     "Tonga Trench"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Earthquakes",
@@ -9055,7 +9055,7 @@ const geographyQuestions = {
                     "France",
                     "Canada"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Earthquakes",
@@ -9067,7 +9067,7 @@ const geographyQuestions = {
                     "Amazon",
                     "São Francisco"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -9081,7 +9081,7 @@ const geographyQuestions = {
                     "D",
                     "A"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Earthquakes",
@@ -9105,7 +9105,7 @@ const geographyQuestions = {
                     "Sweden",
                     "Finland"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Earthquakes",
@@ -9129,7 +9129,7 @@ const geographyQuestions = {
                     "Danube",
                     "Rhine"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Earthquakes",
@@ -9141,7 +9141,7 @@ const geographyQuestions = {
                     "Aral",
                     "Dead Sea"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Earthquakes",
@@ -9153,7 +9153,7 @@ const geographyQuestions = {
                     "Ethiopia",
                     "Sudan"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Earthquakes",
@@ -9165,7 +9165,7 @@ const geographyQuestions = {
                     "La Paz",
                     "Addis Ababa"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Earthquakes",
@@ -9177,7 +9177,7 @@ const geographyQuestions = {
                     "Hormuz",
                     "Bosporus"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Earthquakes",
@@ -9265,7 +9265,7 @@ const geographyQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Natural",
@@ -9275,7 +9275,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Natural",
@@ -9295,7 +9295,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Natural",
@@ -9305,7 +9305,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Natural",
@@ -9325,7 +9325,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Natural",
@@ -9355,7 +9355,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -9379,7 +9379,7 @@ const geographyQuestions = {
                     "Dead Sea",
                     "Black Sea"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Natural",
@@ -9391,7 +9391,7 @@ const geographyQuestions = {
                     "USA",
                     "Russia"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Natural",
@@ -9403,7 +9403,7 @@ const geographyQuestions = {
                     "Andes",
                     "Alps"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Natural",
@@ -9415,7 +9415,7 @@ const geographyQuestions = {
                     "Tokyo",
                     "Bangkok"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Natural",
@@ -9427,7 +9427,7 @@ const geographyQuestions = {
                     "Yangtze",
                     "Mississippi"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Natural",
@@ -9439,7 +9439,7 @@ const geographyQuestions = {
                     "Australia",
                     "South America"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Natural",
@@ -9451,7 +9451,7 @@ const geographyQuestions = {
                     "China",
                     "Indonesia"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Natural",
@@ -9463,7 +9463,7 @@ const geographyQuestions = {
                     "South America",
                     "Australia"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Natural",
@@ -9488,7 +9488,7 @@ const geographyQuestions = {
                     "B",
                     "A"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Natural",
@@ -9500,7 +9500,7 @@ const geographyQuestions = {
                     "Angel Falls",
                     "Yosemite"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Natural",
@@ -9512,7 +9512,7 @@ const geographyQuestions = {
                     "Philippines",
                     "Iceland"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Natural",
@@ -9524,7 +9524,7 @@ const geographyQuestions = {
                     "Greenland",
                     "New Guinea"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Natural",
@@ -9536,7 +9536,7 @@ const geographyQuestions = {
                     "Angel Falls",
                     "Iguazu"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Natural",
@@ -9548,7 +9548,7 @@ const geographyQuestions = {
                     "Death Valley",
                     "Antarctica"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Natural",
@@ -9572,7 +9572,7 @@ const geographyQuestions = {
                     "Mariana Trench",
                     "Tonga Trench"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Natural",
@@ -9584,7 +9584,7 @@ const geographyQuestions = {
                     "France",
                     "Canada"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Natural",
@@ -9596,7 +9596,7 @@ const geographyQuestions = {
                     "Amazon",
                     "São Francisco"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -9610,7 +9610,7 @@ const geographyQuestions = {
                     "D",
                     "A"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Natural",
@@ -9634,7 +9634,7 @@ const geographyQuestions = {
                     "Sweden",
                     "Finland"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Natural",
@@ -9658,7 +9658,7 @@ const geographyQuestions = {
                     "Danube",
                     "Rhine"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Natural",
@@ -9670,7 +9670,7 @@ const geographyQuestions = {
                     "Aral",
                     "Dead Sea"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Natural",
@@ -9682,7 +9682,7 @@ const geographyQuestions = {
                     "Ethiopia",
                     "Sudan"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Natural",
@@ -9694,7 +9694,7 @@ const geographyQuestions = {
                     "La Paz",
                     "Addis Ababa"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Natural",
@@ -9706,7 +9706,7 @@ const geographyQuestions = {
                     "Hormuz",
                     "Bosporus"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Natural",
@@ -9804,7 +9804,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Environment",
@@ -9824,7 +9824,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Environment",
@@ -9834,7 +9834,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Environment",
@@ -9854,7 +9854,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Environment",
@@ -9884,7 +9884,7 @@ const geographyQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -9898,7 +9898,7 @@ const geographyQuestions = {
                     "Berlin",
                     "Madrid"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "General",
@@ -9910,7 +9910,7 @@ const geographyQuestions = {
                     "Dead Sea",
                     "Black Sea"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "General",
@@ -9922,7 +9922,7 @@ const geographyQuestions = {
                     "USA",
                     "Russia"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "General",
@@ -9934,7 +9934,7 @@ const geographyQuestions = {
                     "Andes",
                     "Alps"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "General",
@@ -9946,7 +9946,7 @@ const geographyQuestions = {
                     "Tokyo",
                     "Bangkok"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "General",
@@ -9958,7 +9958,7 @@ const geographyQuestions = {
                     "Yangtze",
                     "Mississippi"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "General",
@@ -9970,7 +9970,7 @@ const geographyQuestions = {
                     "Australia",
                     "South America"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "General",
@@ -9982,7 +9982,7 @@ const geographyQuestions = {
                     "China",
                     "Indonesia"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "General",
@@ -9994,7 +9994,7 @@ const geographyQuestions = {
                     "South America",
                     "Australia"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "General",
@@ -10031,7 +10031,7 @@ const geographyQuestions = {
                     "Angel Falls",
                     "Yosemite"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Environment",
@@ -10043,7 +10043,7 @@ const geographyQuestions = {
                     "Philippines",
                     "Iceland"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Environment",
@@ -10055,7 +10055,7 @@ const geographyQuestions = {
                     "Greenland",
                     "New Guinea"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Environment",
@@ -10067,7 +10067,7 @@ const geographyQuestions = {
                     "Angel Falls",
                     "Iguazu"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Environment",
@@ -10079,7 +10079,7 @@ const geographyQuestions = {
                     "Death Valley",
                     "Antarctica"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Environment",
@@ -10103,7 +10103,7 @@ const geographyQuestions = {
                     "Mariana Trench",
                     "Tonga Trench"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Environment",
@@ -10115,7 +10115,7 @@ const geographyQuestions = {
                     "France",
                     "Canada"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Environment",
@@ -10127,7 +10127,7 @@ const geographyQuestions = {
                     "Amazon",
                     "São Francisco"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -10141,7 +10141,7 @@ const geographyQuestions = {
                     "D",
                     "C"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Environment",
@@ -10153,7 +10153,7 @@ const geographyQuestions = {
                     "B",
                     "D"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Environment",
@@ -10165,7 +10165,7 @@ const geographyQuestions = {
                     "Sweden",
                     "Finland"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Environment",
@@ -10189,7 +10189,7 @@ const geographyQuestions = {
                     "Danube",
                     "Rhine"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Environment",
@@ -10201,7 +10201,7 @@ const geographyQuestions = {
                     "Aral",
                     "Dead Sea"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Environment",
@@ -10213,7 +10213,7 @@ const geographyQuestions = {
                     "Ethiopia",
                     "Sudan"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Environment",
@@ -10225,7 +10225,7 @@ const geographyQuestions = {
                     "La Paz",
                     "Addis Ababa"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Environment",
@@ -10237,7 +10237,7 @@ const geographyQuestions = {
                     "Hormuz",
                     "Bosporus"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Environment",

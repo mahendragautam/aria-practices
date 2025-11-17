@@ -19,7 +19,7 @@ const mathQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Arithmetic",
@@ -29,7 +29,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Geometry",
@@ -39,7 +39,7 @@ const mathQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Arithmetic",
@@ -49,7 +49,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Geometry",
@@ -79,7 +79,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Geometry",
@@ -99,7 +99,7 @@ const mathQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Geometry",
@@ -109,7 +109,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -191,7 +191,7 @@ const mathQuestions = {
                     "6",
                     "5"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Algebra",
@@ -211,7 +211,7 @@ const mathQuestions = {
                     "81",
                     "72"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -224,7 +224,7 @@ const mathQuestions = {
                     "35",
                     "30"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Geometry",
@@ -257,7 +257,7 @@ const mathQuestions = {
                     "10",
                     "12"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Geometry",
@@ -268,7 +268,7 @@ const mathQuestions = {
                     "πd",
                     "πr²"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Algebra",
@@ -290,7 +290,7 @@ const mathQuestions = {
                     "643",
                     "653"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Geometry",
@@ -301,7 +301,7 @@ const mathQuestions = {
                     "Length × Width",
                     "Length + Width"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Algebra",
@@ -323,7 +323,7 @@ const mathQuestions = {
                     "110",
                     "100"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -337,7 +337,7 @@ const mathQuestions = {
                     "90",
                     "100"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Geometry",
@@ -349,7 +349,7 @@ const mathQuestions = {
                     "a² + b² = c²",
                     "abc = 180"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Algebra",
@@ -361,7 +361,7 @@ const mathQuestions = {
                     "x = 7",
                     "x = 10"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Arithmetic",
@@ -373,7 +373,7 @@ const mathQuestions = {
                     "12",
                     "15"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Geometry",
@@ -385,7 +385,7 @@ const mathQuestions = {
                     "r²",
                     "πr²"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Algebra",
@@ -397,7 +397,7 @@ const mathQuestions = {
                     "16",
                     "25"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Arithmetic",
@@ -409,7 +409,7 @@ const mathQuestions = {
                     "0.50",
                     "0.80"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Geometry",
@@ -421,7 +421,7 @@ const mathQuestions = {
                     "180°",
                     "540°"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Algebra",
@@ -433,7 +433,7 @@ const mathQuestions = {
                     "50",
                     "100"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Arithmetic",
@@ -445,7 +445,7 @@ const mathQuestions = {
                     "154",
                     "134"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "extreme": [
@@ -531,7 +531,7 @@ const mathQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Fractions",
@@ -551,7 +551,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Fractions",
@@ -561,7 +561,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Fractions",
@@ -591,7 +591,7 @@ const mathQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Fractions",
@@ -624,7 +624,7 @@ const mathQuestions = {
                     "5/6",
                     "2/5"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Fractions",
@@ -646,7 +646,7 @@ const mathQuestions = {
                     "5/7",
                     "1/2"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Fractions",
@@ -668,7 +668,7 @@ const mathQuestions = {
                     "2/4",
                     "1/2"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Fractions",
@@ -679,7 +679,7 @@ const mathQuestions = {
                     "3/5",
                     "1/2"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Fractions",
@@ -701,7 +701,7 @@ const mathQuestions = {
                     "2/3",
                     "1/6"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Fractions",
@@ -712,7 +712,7 @@ const mathQuestions = {
                     "3/4",
                     "2/3"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Fractions",
@@ -723,7 +723,7 @@ const mathQuestions = {
                     "1/2",
                     "6/4"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -747,7 +747,7 @@ const mathQuestions = {
                     "1/3",
                     "3/9"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Fractions",
@@ -758,7 +758,7 @@ const mathQuestions = {
                     "1/2",
                     "8/11"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Fractions",
@@ -791,7 +791,7 @@ const mathQuestions = {
                     "1",
                     "17/15"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Fractions",
@@ -802,7 +802,7 @@ const mathQuestions = {
                     "1/4",
                     "1/8"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Fractions",
@@ -813,7 +813,7 @@ const mathQuestions = {
                     "3/5",
                     "11/13"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Fractions",
@@ -824,7 +824,7 @@ const mathQuestions = {
                     "5/10",
                     "3/4"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Fractions",
@@ -835,7 +835,7 @@ const mathQuestions = {
                     "1/2",
                     "2"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -849,7 +849,7 @@ const mathQuestions = {
                     "1",
                     "41/24"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Fractions",
@@ -873,7 +873,7 @@ const mathQuestions = {
                     "1/2",
                     "3/4"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Fractions",
@@ -885,7 +885,7 @@ const mathQuestions = {
                     "3/2",
                     "2/3"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Fractions",
@@ -897,7 +897,7 @@ const mathQuestions = {
                     "1/2",
                     "3/4"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Fractions",
@@ -921,7 +921,7 @@ const mathQuestions = {
                     "7/15",
                     "11/20"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Fractions",
@@ -933,7 +933,7 @@ const mathQuestions = {
                     "1/4",
                     "2/7"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Fractions",
@@ -945,7 +945,7 @@ const mathQuestions = {
                     "6/8",
                     "3/4"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Fractions",
@@ -957,7 +957,7 @@ const mathQuestions = {
                     "2/3",
                     "98/150"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "extreme": [
@@ -1033,7 +1033,7 @@ const mathQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Decimals",
@@ -1053,7 +1053,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Decimals",
@@ -1063,7 +1063,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Decimals",
@@ -1083,7 +1083,7 @@ const mathQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Decimals",
@@ -1093,7 +1093,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Decimals",
@@ -1123,7 +1123,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -1135,7 +1135,7 @@ const mathQuestions = {
                     "0.7",
                     "0.8"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Decimals",
@@ -1165,7 +1165,7 @@ const mathQuestions = {
                     "0.5",
                     "0.4"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Decimals",
@@ -1175,7 +1175,7 @@ const mathQuestions = {
                     "4",
                     "3"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Decimals",
@@ -1185,7 +1185,7 @@ const mathQuestions = {
                     "1.4",
                     "1.5"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Decimals",
@@ -1215,7 +1215,7 @@ const mathQuestions = {
                     "0.9",
                     "1.0"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Decimals",
@@ -1225,7 +1225,7 @@ const mathQuestions = {
                     "5",
                     "6"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -1238,7 +1238,7 @@ const mathQuestions = {
                     "6.12",
                     "6.22"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Decimals",
@@ -1249,7 +1249,7 @@ const mathQuestions = {
                     "3.65",
                     "3.85"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Decimals",
@@ -1260,7 +1260,7 @@ const mathQuestions = {
                     "3.0",
                     "2.5"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Decimals",
@@ -1271,7 +1271,7 @@ const mathQuestions = {
                     "20",
                     "21"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Decimals",
@@ -1282,7 +1282,7 @@ const mathQuestions = {
                     "12.66",
                     "12.64"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Decimals",
@@ -1315,7 +1315,7 @@ const mathQuestions = {
                     "0.4",
                     "0.5"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Decimals",
@@ -1326,7 +1326,7 @@ const mathQuestions = {
                     "100",
                     "101"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Decimals",
@@ -1337,7 +1337,7 @@ const mathQuestions = {
                     "2.2",
                     "1.8"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -1351,7 +1351,7 @@ const mathQuestions = {
                     "39.43",
                     "39.53"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Decimals",
@@ -1363,7 +1363,7 @@ const mathQuestions = {
                     "22.75",
                     "22.55"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Decimals",
@@ -1375,7 +1375,7 @@ const mathQuestions = {
                     "5.5",
                     "6.5"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Decimals",
@@ -1387,7 +1387,7 @@ const mathQuestions = {
                     "38",
                     "44"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Decimals",
@@ -1399,7 +1399,7 @@ const mathQuestions = {
                     "45.765",
                     "45.764"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Decimals",
@@ -1411,7 +1411,7 @@ const mathQuestions = {
                     "4.5",
                     "5.5"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Decimals",
@@ -1423,7 +1423,7 @@ const mathQuestions = {
                     "19",
                     "21"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Decimals",
@@ -1435,7 +1435,7 @@ const mathQuestions = {
                     "6.0",
                     "6.5"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Decimals",
@@ -1459,7 +1459,7 @@ const mathQuestions = {
                     "0.4",
                     "0.04"
                 ],
-                "correct": 3
+                "correct": 1
             }
         ],
         "extreme": [
@@ -1565,7 +1565,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Percentages",
@@ -1575,7 +1575,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Percentages",
@@ -1595,7 +1595,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Percentages",
@@ -1637,7 +1637,7 @@ const mathQuestions = {
                     "40",
                     "50"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Percentages",
@@ -1647,7 +1647,7 @@ const mathQuestions = {
                     "50",
                     "60"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Percentages",
@@ -1657,7 +1657,7 @@ const mathQuestions = {
                     "28",
                     "30"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Percentages",
@@ -1667,7 +1667,7 @@ const mathQuestions = {
                     "30",
                     "25"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Percentages",
@@ -1677,7 +1677,7 @@ const mathQuestions = {
                     "40",
                     "45"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Percentages",
@@ -1697,7 +1697,7 @@ const mathQuestions = {
                     "10",
                     "5"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Percentages",
@@ -1751,7 +1751,7 @@ const mathQuestions = {
                     "110",
                     "90"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Percentages",
@@ -1762,7 +1762,7 @@ const mathQuestions = {
                     "65",
                     "60"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Percentages",
@@ -1773,7 +1773,7 @@ const mathQuestions = {
                     "95",
                     "90"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Percentages",
@@ -1784,7 +1784,7 @@ const mathQuestions = {
                     "85",
                     "75"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Percentages",
@@ -1795,7 +1795,7 @@ const mathQuestions = {
                     "15%",
                     "20%"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Percentages",
@@ -1806,7 +1806,7 @@ const mathQuestions = {
                     "75",
                     "70"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Percentages",
@@ -1853,7 +1853,7 @@ const mathQuestions = {
                     "175",
                     "190"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Percentages",
@@ -1877,7 +1877,7 @@ const mathQuestions = {
                     "285",
                     "275"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Percentages",
@@ -1913,7 +1913,7 @@ const mathQuestions = {
                     "10%",
                     "13%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Percentages",
@@ -1925,7 +1925,7 @@ const mathQuestions = {
                     "195",
                     "210"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Percentages",
@@ -1949,7 +1949,7 @@ const mathQuestions = {
                     "425",
                     "430"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Percentages",
@@ -1961,7 +1961,7 @@ const mathQuestions = {
                     "25%",
                     "30%"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "extreme": [
@@ -2047,7 +2047,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ratios",
@@ -2077,7 +2077,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ratios",
@@ -2087,7 +2087,7 @@ const mathQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ratios",
@@ -2097,7 +2097,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ratios",
@@ -2127,7 +2127,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -2139,7 +2139,7 @@ const mathQuestions = {
                     "3:2",
                     "2:3"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ratios",
@@ -2189,7 +2189,7 @@ const mathQuestions = {
                     "0.35",
                     "0.29"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ratios",
@@ -2199,7 +2199,7 @@ const mathQuestions = {
                     "3:4",
                     "4:5"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ratios",
@@ -2219,7 +2219,7 @@ const mathQuestions = {
                     "3:2",
                     "2:3"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ratios",
@@ -2229,7 +2229,7 @@ const mathQuestions = {
                     "4/1",
                     "1/4"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -2264,7 +2264,7 @@ const mathQuestions = {
                     "3:4:5",
                     "4:5:6"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ratios",
@@ -2308,7 +2308,7 @@ const mathQuestions = {
                     "6:8:10",
                     "9:12:15"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ratios",
@@ -2319,7 +2319,7 @@ const mathQuestions = {
                     "50",
                     "45"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Ratios",
@@ -2341,7 +2341,7 @@ const mathQuestions = {
                     "5",
                     "4"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -2355,7 +2355,7 @@ const mathQuestions = {
                     "80, 140, 260",
                     "90, 150, 240"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Ratios",
@@ -2367,7 +2367,7 @@ const mathQuestions = {
                     "8:21",
                     "4:15"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ratios",
@@ -2391,7 +2391,7 @@ const mathQuestions = {
                     "2:4:5",
                     "2:3:5"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Ratios",
@@ -2403,7 +2403,7 @@ const mathQuestions = {
                     "7",
                     "8"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Ratios",
@@ -2415,7 +2415,7 @@ const mathQuestions = {
                     "45, 75, 95, 145",
                     "48, 72, 96, 144"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Ratios",
@@ -2427,7 +2427,7 @@ const mathQuestions = {
                     "25",
                     "20"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Ratios",
@@ -2439,7 +2439,7 @@ const mathQuestions = {
                     "4:3:2",
                     "3:2:1"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ratios",
@@ -2451,7 +2451,7 @@ const mathQuestions = {
                     "12",
                     "15"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ratios",
@@ -2463,7 +2463,7 @@ const mathQuestions = {
                     "20",
                     "25"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "extreme": [
@@ -2549,7 +2549,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Algebra",
@@ -2559,7 +2559,7 @@ const mathQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Algebra",
@@ -2589,7 +2589,7 @@ const mathQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Algebra",
@@ -2619,7 +2619,7 @@ const mathQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Algebra",
@@ -2651,7 +2651,7 @@ const mathQuestions = {
                     "x = 7",
                     "x = 6"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Algebra",
@@ -2661,7 +2661,7 @@ const mathQuestions = {
                     "12x",
                     "7x"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Algebra",
@@ -2711,7 +2711,7 @@ const mathQuestions = {
                     "3x + 2",
                     "3x + 6"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Algebra",
@@ -2721,7 +2721,7 @@ const mathQuestions = {
                     "x = 8",
                     "x = 7"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Algebra",
@@ -2766,7 +2766,7 @@ const mathQuestions = {
                     "4x + 12",
                     "6x + 12"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Algebra",
@@ -2788,7 +2788,7 @@ const mathQuestions = {
                     "x = 5",
                     "x = 6"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Algebra",
@@ -2799,7 +2799,7 @@ const mathQuestions = {
                     "x² + 5x + 6",
                     "x² + 6"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Algebra",
@@ -2810,7 +2810,7 @@ const mathQuestions = {
                     "x = 4",
                     "x = 2"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Algebra",
@@ -2857,7 +2857,7 @@ const mathQuestions = {
                     "x = 6",
                     "x = 4"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Algebra",
@@ -2869,7 +2869,7 @@ const mathQuestions = {
                     "(x + 2)(x + 6)",
                     "(x + 3)(x + 5)"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Algebra",
@@ -2893,7 +2893,7 @@ const mathQuestions = {
                     "3x - 14",
                     "3x - 2"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Algebra",
@@ -2905,7 +2905,7 @@ const mathQuestions = {
                     "x² + 2x - 15",
                     "x² - 2x - 15"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Algebra",
@@ -2917,7 +2917,7 @@ const mathQuestions = {
                     "x = 6",
                     "x = 5"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Algebra",
@@ -2929,7 +2929,7 @@ const mathQuestions = {
                     "(2x + 1)(x + 3)",
                     "(x + 3)(2x + 1)"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Algebra",
@@ -2941,7 +2941,7 @@ const mathQuestions = {
                     "x = 14",
                     "x = 12"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Algebra",
@@ -2953,7 +2953,7 @@ const mathQuestions = {
                     "8x",
                     "4"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Algebra",
@@ -2965,7 +2965,7 @@ const mathQuestions = {
                     "x = 2",
                     "x = 3"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "extreme": [
@@ -3051,7 +3051,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Linear Equations",
@@ -3071,7 +3071,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Linear Equations",
@@ -3081,7 +3081,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Linear Equations",
@@ -3091,7 +3091,7 @@ const mathQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Linear Equations",
@@ -3111,7 +3111,7 @@ const mathQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Linear Equations",
@@ -3121,7 +3121,7 @@ const mathQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Linear Equations",
@@ -3143,7 +3143,7 @@ const mathQuestions = {
                     "2",
                     "3"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Linear Equations",
@@ -3153,7 +3153,7 @@ const mathQuestions = {
                     "-5",
                     "4"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Linear Equations",
@@ -3183,7 +3183,7 @@ const mathQuestions = {
                     "-3",
                     "1"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Linear Equations",
@@ -3233,7 +3233,7 @@ const mathQuestions = {
                     "Undefined",
                     "0"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -3246,7 +3246,7 @@ const mathQuestions = {
                     "y = 2x + 3",
                     "y = 2x - 3"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Linear Equations",
@@ -3257,7 +3257,7 @@ const mathQuestions = {
                     "1",
                     "2"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Linear Equations",
@@ -3279,7 +3279,7 @@ const mathQuestions = {
                     "y = 2x + 5",
                     "y = 5x - 2"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Linear Equations",
@@ -3290,7 +3290,7 @@ const mathQuestions = {
                     "Perpendicular",
                     "Parallel"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Linear Equations",
@@ -3312,7 +3312,7 @@ const mathQuestions = {
                     "1",
                     "3"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Linear Equations",
@@ -3323,7 +3323,7 @@ const mathQuestions = {
                     "3",
                     "2"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Linear Equations",
@@ -3345,7 +3345,7 @@ const mathQuestions = {
                     "y = -2x + 8",
                     "y = x/2 - 4"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -3359,7 +3359,7 @@ const mathQuestions = {
                     "y = 3x - 3",
                     "y = 2x - 1"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Linear Equations",
@@ -3371,7 +3371,7 @@ const mathQuestions = {
                     "y = -3x + 2",
                     "y = 3x + 2"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Linear Equations",
@@ -3383,7 +3383,7 @@ const mathQuestions = {
                     "12",
                     "-6"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Linear Equations",
@@ -3395,7 +3395,7 @@ const mathQuestions = {
                     "6",
                     "5"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Linear Equations",
@@ -3443,7 +3443,7 @@ const mathQuestions = {
                     "-1/4",
                     "-4"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Linear Equations",
@@ -3455,7 +3455,7 @@ const mathQuestions = {
                     "y = 2x - 10",
                     "y = x - 5"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Linear Equations",
@@ -3553,7 +3553,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Quadratics",
@@ -3593,7 +3593,7 @@ const mathQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Quadratics",
@@ -3633,7 +3633,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -3645,7 +3645,7 @@ const mathQuestions = {
                     "x = 5",
                     "x = ±5"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Quadratics",
@@ -3665,7 +3665,7 @@ const mathQuestions = {
                     "x = 4",
                     "x = ±2"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Quadratics",
@@ -3675,7 +3675,7 @@ const mathQuestions = {
                     "(x+3)(x-3)",
                     "(x-9)(x+1)"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Quadratics",
@@ -3685,7 +3685,7 @@ const mathQuestions = {
                     "x² + 8x + 16",
                     "x² + 16"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Quadratics",
@@ -3695,7 +3695,7 @@ const mathQuestions = {
                     "x = 0",
                     "x = 3"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Quadratics",
@@ -3705,7 +3705,7 @@ const mathQuestions = {
                     "(x-3)²",
                     "(x-9)(x+1)"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Quadratics",
@@ -3735,7 +3735,7 @@ const mathQuestions = {
                     "x² - 10x + 25",
                     "x² + 25"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -3748,7 +3748,7 @@ const mathQuestions = {
                     "x = -2, -4",
                     "x = 2, 4"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Quadratics",
@@ -3759,7 +3759,7 @@ const mathQuestions = {
                     "x = 1, 6",
                     "x = 2, 3"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Quadratics",
@@ -3770,7 +3770,7 @@ const mathQuestions = {
                     "16",
                     "8"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Quadratics",
@@ -3781,7 +3781,7 @@ const mathQuestions = {
                     "(4, 3)",
                     "(-2, 1)"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Quadratics",
@@ -3792,7 +3792,7 @@ const mathQuestions = {
                     "(x+2)(x-6)",
                     "(x+3)(x-4)"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Quadratics",
@@ -3814,7 +3814,7 @@ const mathQuestions = {
                     "4",
                     "0"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Quadratics",
@@ -3825,7 +3825,7 @@ const mathQuestions = {
                     "x = -5, 3",
                     "x = 5, -3"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Quadratics",
@@ -3836,7 +3836,7 @@ const mathQuestions = {
                     "x = -3",
                     "x = 3"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Quadratics",
@@ -3847,7 +3847,7 @@ const mathQuestions = {
                     "(x-2)(x-12)",
                     "(x-3)(x-8)"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -3861,7 +3861,7 @@ const mathQuestions = {
                     "x = -2, -3/2",
                     "x = -1/2, -3"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Quadratics",
@@ -3873,7 +3873,7 @@ const mathQuestions = {
                     "y = (x-3)² + 2",
                     "y = (x-3)² - 2"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Quadratics",
@@ -3897,7 +3897,7 @@ const mathQuestions = {
                     "3",
                     "4"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Quadratics",
@@ -3909,7 +3909,7 @@ const mathQuestions = {
                     "(x+3)(4x-3)",
                     "(2x+3)(2x-3)"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Quadratics",
@@ -3921,7 +3921,7 @@ const mathQuestions = {
                     "7",
                     "-10"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Quadratics",
@@ -3933,7 +3933,7 @@ const mathQuestions = {
                     "x = -2±√3",
                     "x = 2±√3"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Quadratics",
@@ -3945,7 +3945,7 @@ const mathQuestions = {
                     "-3/2",
                     "3/2"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Quadratics",
@@ -3969,7 +3969,7 @@ const mathQuestions = {
                     "(2, 5)",
                     "(1, 5)"
                 ],
-                "correct": 3
+                "correct": 1
             }
         ],
         "extreme": [
@@ -4075,7 +4075,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Angles",
@@ -4085,7 +4085,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Angles",
@@ -4105,7 +4105,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Angles",
@@ -4115,7 +4115,7 @@ const mathQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Angles",
@@ -4135,7 +4135,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -4147,7 +4147,7 @@ const mathQuestions = {
                     "150°",
                     "60°"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Angles",
@@ -4157,7 +4157,7 @@ const mathQuestions = {
                     "60°",
                     "30°"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Angles",
@@ -4177,7 +4177,7 @@ const mathQuestions = {
                     "Equal",
                     "Supplementary"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Angles",
@@ -4187,7 +4187,7 @@ const mathQuestions = {
                     "Supplementary",
                     "Complementary"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Angles",
@@ -4197,7 +4197,7 @@ const mathQuestions = {
                     "Complementary",
                     "Equal"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Angles",
@@ -4207,7 +4207,7 @@ const mathQuestions = {
                     "360°",
                     "180°"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Angles",
@@ -4261,7 +4261,7 @@ const mathQuestions = {
                     "40°",
                     "30°"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Angles",
@@ -4283,7 +4283,7 @@ const mathQuestions = {
                     "360°",
                     "540°"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Angles",
@@ -4294,7 +4294,7 @@ const mathQuestions = {
                     "45°",
                     "30°"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Angles",
@@ -4316,7 +4316,7 @@ const mathQuestions = {
                     "540°",
                     "360°"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Angles",
@@ -4327,7 +4327,7 @@ const mathQuestions = {
                     "45°",
                     "40°"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Angles",
@@ -4338,7 +4338,7 @@ const mathQuestions = {
                     "45°",
                     "50°"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Angles",
@@ -4349,7 +4349,7 @@ const mathQuestions = {
                     "50°, 30°",
                     "40°, 40°"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -4399,7 +4399,7 @@ const mathQuestions = {
                     "8",
                     "10"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Angles",
@@ -4411,7 +4411,7 @@ const mathQuestions = {
                     "100°",
                     "108°"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Angles",
@@ -4423,7 +4423,7 @@ const mathQuestions = {
                     "20°",
                     "18°"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Angles",
@@ -4435,7 +4435,7 @@ const mathQuestions = {
                     "80°",
                     "100°"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Angles",
@@ -4447,7 +4447,7 @@ const mathQuestions = {
                     "8",
                     "10"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Angles",
@@ -4471,7 +4471,7 @@ const mathQuestions = {
                     "50°",
                     "40°"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "extreme": [
@@ -4547,7 +4547,7 @@ const mathQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Triangles",
@@ -4557,7 +4557,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Triangles",
@@ -4567,7 +4567,7 @@ const mathQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Triangles",
@@ -4577,7 +4577,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Triangles",
@@ -4587,7 +4587,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Triangles",
@@ -4597,7 +4597,7 @@ const mathQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Triangles",
@@ -4617,7 +4617,7 @@ const mathQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Triangles",
@@ -4627,7 +4627,7 @@ const mathQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Triangles",
@@ -4659,7 +4659,7 @@ const mathQuestions = {
                     "5",
                     "7"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Triangles",
@@ -4669,7 +4669,7 @@ const mathQuestions = {
                     "60",
                     "30"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Triangles",
@@ -4689,7 +4689,7 @@ const mathQuestions = {
                     "Yes",
                     "No"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Triangles",
@@ -4739,7 +4739,7 @@ const mathQuestions = {
                     "90°",
                     "180°"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -4752,7 +4752,7 @@ const mathQuestions = {
                     "80",
                     "84"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Triangles",
@@ -4774,7 +4774,7 @@ const mathQuestions = {
                     "Areas",
                     "Perimeters"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Triangles",
@@ -4785,7 +4785,7 @@ const mathQuestions = {
                     "3",
                     "2.5"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Triangles",
@@ -4818,7 +4818,7 @@ const mathQuestions = {
                     "12√3",
                     "18"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Triangles",
@@ -4829,7 +4829,7 @@ const mathQuestions = {
                     "7",
                     "6"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Triangles",
@@ -4851,7 +4851,7 @@ const mathQuestions = {
                     "1.5",
                     "2"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -4865,7 +4865,7 @@ const mathQuestions = {
                     "12",
                     "14"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Triangles",
@@ -4877,7 +4877,7 @@ const mathQuestions = {
                     "13",
                     "12"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Triangles",
@@ -4901,7 +4901,7 @@ const mathQuestions = {
                     "6√6",
                     "7√5"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Triangles",
@@ -4913,7 +4913,7 @@ const mathQuestions = {
                     "8√2",
                     "16"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Triangles",
@@ -4925,7 +4925,7 @@ const mathQuestions = {
                     "5",
                     "10"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Triangles",
@@ -4961,7 +4961,7 @@ const mathQuestions = {
                     "2",
                     "3"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Triangles",
@@ -4973,7 +4973,7 @@ const mathQuestions = {
                     "12",
                     "16"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "extreme": [
@@ -5049,7 +5049,7 @@ const mathQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Circles",
@@ -5069,7 +5069,7 @@ const mathQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Circles",
@@ -5079,7 +5079,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Circles",
@@ -5099,7 +5099,7 @@ const mathQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Circles",
@@ -5129,7 +5129,7 @@ const mathQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Circles",
@@ -5171,7 +5171,7 @@ const mathQuestions = {
                     "8",
                     "16"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Circles",
@@ -5181,7 +5181,7 @@ const mathQuestions = {
                     "10",
                     "40"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Circles",
@@ -5211,7 +5211,7 @@ const mathQuestions = {
                     "5",
                     "10"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Circles",
@@ -5221,7 +5221,7 @@ const mathQuestions = {
                     "3",
                     "6"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Circles",
@@ -5254,7 +5254,7 @@ const mathQuestions = {
                     "3π",
                     "6π"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Circles",
@@ -5265,7 +5265,7 @@ const mathQuestions = {
                     "2π",
                     "4π"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Circles",
@@ -5276,7 +5276,7 @@ const mathQuestions = {
                     "16π",
                     "20π"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Circles",
@@ -5287,7 +5287,7 @@ const mathQuestions = {
                     "6",
                     "10"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Circles",
@@ -5298,7 +5298,7 @@ const mathQuestions = {
                     "45°",
                     "180°"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Circles",
@@ -5331,7 +5331,7 @@ const mathQuestions = {
                     "6π + 24",
                     "3π + 12"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Circles",
@@ -5353,7 +5353,7 @@ const mathQuestions = {
                     "8",
                     "12"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -5367,7 +5367,7 @@ const mathQuestions = {
                     "12π - 9√3",
                     "18π"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Circles",
@@ -5379,7 +5379,7 @@ const mathQuestions = {
                     "8",
                     "6"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Circles",
@@ -5403,7 +5403,7 @@ const mathQuestions = {
                     "1",
                     "4"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Circles",
@@ -5415,7 +5415,7 @@ const mathQuestions = {
                     "16",
                     "64"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Circles",
@@ -5427,7 +5427,7 @@ const mathQuestions = {
                     "2.25π",
                     "4π"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Circles",
@@ -5439,7 +5439,7 @@ const mathQuestions = {
                     "16",
                     "8"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Circles",
@@ -5475,7 +5475,7 @@ const mathQuestions = {
                     "5√3",
                     "10√3"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "extreme": [
@@ -5561,7 +5561,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "3D Shapes",
@@ -5581,7 +5581,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "3D Shapes",
@@ -5591,7 +5591,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "3D Shapes",
@@ -5631,7 +5631,7 @@ const mathQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "3D Shapes",
@@ -5641,7 +5641,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -5653,7 +5653,7 @@ const mathQuestions = {
                     "25",
                     "125"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "3D Shapes",
@@ -5663,7 +5663,7 @@ const mathQuestions = {
                     "96",
                     "64"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "3D Shapes",
@@ -5673,7 +5673,7 @@ const mathQuestions = {
                     "47",
                     "60"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "3D Shapes",
@@ -5733,7 +5733,7 @@ const mathQuestions = {
                     "324",
                     "108"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "3D Shapes",
@@ -5756,7 +5756,7 @@ const mathQuestions = {
                     "216π",
                     "36π"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "3D Shapes",
@@ -5767,7 +5767,7 @@ const mathQuestions = {
                     "140π",
                     "238π"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "3D Shapes",
@@ -5778,7 +5778,7 @@ const mathQuestions = {
                     "288π",
                     "144π"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "3D Shapes",
@@ -5800,7 +5800,7 @@ const mathQuestions = {
                     "175π",
                     "49π"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "3D Shapes",
@@ -5811,7 +5811,7 @@ const mathQuestions = {
                     "240",
                     "180"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "3D Shapes",
@@ -5833,7 +5833,7 @@ const mathQuestions = {
                     "376",
                     "480"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "3D Shapes",
@@ -5844,7 +5844,7 @@ const mathQuestions = {
                     "300",
                     "150"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "3D Shapes",
@@ -5855,7 +5855,7 @@ const mathQuestions = {
                     "52π",
                     "64π"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -5869,7 +5869,7 @@ const mathQuestions = {
                     "432π",
                     "144π"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "3D Shapes",
@@ -5893,7 +5893,7 @@ const mathQuestions = {
                     "360π",
                     "180π"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "3D Shapes",
@@ -5917,7 +5917,7 @@ const mathQuestions = {
                     "25π",
                     "130π"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "3D Shapes",
@@ -5941,7 +5941,7 @@ const mathQuestions = {
                     "108√3",
                     "36√3"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "3D Shapes",
@@ -5953,7 +5953,7 @@ const mathQuestions = {
                     "960π",
                     "160π"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "3D Shapes",
@@ -5965,7 +5965,7 @@ const mathQuestions = {
                     "252π",
                     "196π"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "3D Shapes",
@@ -6063,7 +6063,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Exponents",
@@ -6093,7 +6093,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Exponents",
@@ -6103,7 +6103,7 @@ const mathQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Exponents",
@@ -6185,7 +6185,7 @@ const mathQuestions = {
                     "2⁵",
                     "2⁶"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Exponents",
@@ -6195,7 +6195,7 @@ const mathQuestions = {
                     "49",
                     "14"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Exponents",
@@ -6205,7 +6205,7 @@ const mathQuestions = {
                     "10⁶",
                     "10²"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Exponents",
@@ -6215,7 +6215,7 @@ const mathQuestions = {
                     "0.5",
                     "2"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Exponents",
@@ -6225,7 +6225,7 @@ const mathQuestions = {
                     "3⁸",
                     "3⁴"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Exponents",
@@ -6280,7 +6280,7 @@ const mathQuestions = {
                     "x⁴y⁶",
                     "x⁴y⁵"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Exponents",
@@ -6291,7 +6291,7 @@ const mathQuestions = {
                     "16",
                     "4"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Exponents",
@@ -6302,7 +6302,7 @@ const mathQuestions = {
                     "3¹⁰",
                     "3⁷"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Exponents",
@@ -6313,7 +6313,7 @@ const mathQuestions = {
                     "5⁵",
                     "5⁶"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Exponents",
@@ -6335,7 +6335,7 @@ const mathQuestions = {
                     "2",
                     "4"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Exponents",
@@ -6357,7 +6357,7 @@ const mathQuestions = {
                     "6",
                     "3"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -6383,7 +6383,7 @@ const mathQuestions = {
                     "2",
                     "8"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Exponents",
@@ -6395,7 +6395,7 @@ const mathQuestions = {
                     "x⁶y⁹",
                     "x⁻⁶/y⁹"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Exponents",
@@ -6419,7 +6419,7 @@ const mathQuestions = {
                     "6",
                     "24"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Exponents",
@@ -6431,7 +6431,7 @@ const mathQuestions = {
                     "16",
                     "4"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Exponents",
@@ -6443,7 +6443,7 @@ const mathQuestions = {
                     "x²y³",
                     "x²y²"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Exponents",
@@ -6455,7 +6455,7 @@ const mathQuestions = {
                     "1/4",
                     "8"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Exponents",
@@ -6467,7 +6467,7 @@ const mathQuestions = {
                     "a/b⁵",
                     "a³/b"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Exponents",
@@ -6479,7 +6479,7 @@ const mathQuestions = {
                     "50",
                     "5"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "extreme": [
@@ -6555,7 +6555,7 @@ const mathQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Square Roots",
@@ -6565,7 +6565,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Square Roots",
@@ -6585,7 +6585,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Square Roots",
@@ -6595,7 +6595,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Square Roots",
@@ -6625,7 +6625,7 @@ const mathQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Square Roots",
@@ -6645,7 +6645,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -6657,7 +6657,7 @@ const mathQuestions = {
                     "12",
                     "11"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Square Roots",
@@ -6667,7 +6667,7 @@ const mathQuestions = {
                     "12",
                     "14"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Square Roots",
@@ -6727,7 +6727,7 @@ const mathQuestions = {
                     "2√3",
                     "3√2"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Square Roots",
@@ -6737,7 +6737,7 @@ const mathQuestions = {
                     "15",
                     "16"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Square Roots",
@@ -6747,7 +6747,7 @@ const mathQuestions = {
                     "5√3",
                     "3√5"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -6760,7 +6760,7 @@ const mathQuestions = {
                     "4√3",
                     "2√12"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Square Roots",
@@ -6826,7 +6826,7 @@ const mathQuestions = {
                     "2√36",
                     "6√2"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Square Roots",
@@ -6837,7 +6837,7 @@ const mathQuestions = {
                     "√5/2",
                     "2√5/5"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Square Roots",
@@ -6848,7 +6848,7 @@ const mathQuestions = {
                     "5√3",
                     "3√3 + 2√3"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Square Roots",
@@ -6859,7 +6859,7 @@ const mathQuestions = {
                     "√25",
                     "5"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -6873,7 +6873,7 @@ const mathQuestions = {
                     "1",
                     "√6"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Square Roots",
@@ -6885,7 +6885,7 @@ const mathQuestions = {
                     "xy³",
                     "x²y³"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Square Roots",
@@ -6909,7 +6909,7 @@ const mathQuestions = {
                     "4",
                     "1"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Square Roots",
@@ -6921,7 +6921,7 @@ const mathQuestions = {
                     "-3√5",
                     "-6 - 3√5"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Square Roots",
@@ -6933,7 +6933,7 @@ const mathQuestions = {
                     "16",
                     "4"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Square Roots",
@@ -6945,7 +6945,7 @@ const mathQuestions = {
                     "7a²b⁴√2",
                     "7ab²√2"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Square Roots",
@@ -6957,7 +6957,7 @@ const mathQuestions = {
                     "4",
                     "1"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Square Roots",
@@ -6969,7 +6969,7 @@ const mathQuestions = {
                     "√6/2",
                     "(√6 + √2)/2"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Square Roots",
@@ -7067,7 +7067,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Probability",
@@ -7077,7 +7077,7 @@ const mathQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Probability",
@@ -7087,7 +7087,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Probability",
@@ -7107,7 +7107,7 @@ const mathQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Probability",
@@ -7127,7 +7127,7 @@ const mathQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Probability",
@@ -7137,7 +7137,7 @@ const mathQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Probability",
@@ -7169,7 +7169,7 @@ const mathQuestions = {
                     "1/4",
                     "1/13"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Probability",
@@ -7199,7 +7199,7 @@ const mathQuestions = {
                     "1/3",
                     "1/2"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Probability",
@@ -7209,7 +7209,7 @@ const mathQuestions = {
                     "0.3",
                     "0.7"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Probability",
@@ -7229,7 +7229,7 @@ const mathQuestions = {
                     "1/4",
                     "3/13"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Probability",
@@ -7239,7 +7239,7 @@ const mathQuestions = {
                     "1/2",
                     "1/4"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Probability",
@@ -7273,7 +7273,7 @@ const mathQuestions = {
                     "1/169",
                     "1/221"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Probability",
@@ -7284,7 +7284,7 @@ const mathQuestions = {
                     "3/4",
                     "7/8"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Probability",
@@ -7306,7 +7306,7 @@ const mathQuestions = {
                     "0.9",
                     "0.2"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Probability",
@@ -7317,7 +7317,7 @@ const mathQuestions = {
                     "1/36",
                     "1/12"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Probability",
@@ -7328,7 +7328,7 @@ const mathQuestions = {
                     "1/2",
                     "1/4"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Probability",
@@ -7375,7 +7375,7 @@ const mathQuestions = {
                     "3/5",
                     "5/16"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Probability",
@@ -7387,7 +7387,7 @@ const mathQuestions = {
                     "6/4165",
                     "9/4165"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Probability",
@@ -7411,7 +7411,7 @@ const mathQuestions = {
                     "0.3",
                     "0.4"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Probability",
@@ -7423,7 +7423,7 @@ const mathQuestions = {
                     "5/6",
                     "671/1296"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Probability",
@@ -7435,7 +7435,7 @@ const mathQuestions = {
                     "1/1000",
                     "33/16660"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Probability",
@@ -7447,7 +7447,7 @@ const mathQuestions = {
                     "5/9",
                     "1/2"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Probability",
@@ -7459,7 +7459,7 @@ const mathQuestions = {
                     "0.6",
                     "1.3"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Probability",
@@ -7559,7 +7559,7 @@ const mathQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Statistics",
@@ -7569,7 +7569,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Statistics",
@@ -7579,7 +7579,7 @@ const mathQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Statistics",
@@ -7619,7 +7619,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Statistics",
@@ -7661,7 +7661,7 @@ const mathQuestions = {
                     "11",
                     "9"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Statistics",
@@ -7681,7 +7681,7 @@ const mathQuestions = {
                     "7",
                     "5"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Statistics",
@@ -7691,7 +7691,7 @@ const mathQuestions = {
                     "15",
                     "20"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Statistics",
@@ -7711,7 +7711,7 @@ const mathQuestions = {
                     "15",
                     "12.5"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Statistics",
@@ -7721,7 +7721,7 @@ const mathQuestions = {
                     "2 and 4",
                     "3"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Statistics",
@@ -7741,7 +7741,7 @@ const mathQuestions = {
                     "5",
                     "8"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Statistics",
@@ -7764,7 +7764,7 @@ const mathQuestions = {
                     "8",
                     "7"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Statistics",
@@ -7819,7 +7819,7 @@ const mathQuestions = {
                     "8",
                     "9"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Statistics",
@@ -7863,7 +7863,7 @@ const mathQuestions = {
                     "1",
                     "2"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -7877,7 +7877,7 @@ const mathQuestions = {
                     "68%",
                     "95%"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Statistics",
@@ -7889,7 +7889,7 @@ const mathQuestions = {
                     "Weak",
                     "No correlation"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Statistics",
@@ -7901,7 +7901,7 @@ const mathQuestions = {
                     "3",
                     "2"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Statistics",
@@ -7913,7 +7913,7 @@ const mathQuestions = {
                     "20%",
                     "0.2"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Statistics",
@@ -7949,7 +7949,7 @@ const mathQuestions = {
                     "Left skew",
                     "Right skew"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Statistics",
@@ -7973,7 +7973,7 @@ const mathQuestions = {
                     "100",
                     "4"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Statistics",
@@ -8091,7 +8091,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sequences",
@@ -8101,7 +8101,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sequences",
@@ -8121,7 +8121,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sequences",
@@ -8131,7 +8131,7 @@ const mathQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sequences",
@@ -8141,7 +8141,7 @@ const mathQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sequences",
@@ -8151,7 +8151,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -8183,7 +8183,7 @@ const mathQuestions = {
                     "10",
                     "5"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sequences",
@@ -8193,7 +8193,7 @@ const mathQuestions = {
                     "3",
                     "4"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sequences",
@@ -8203,7 +8203,7 @@ const mathQuestions = {
                     "30",
                     "33"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sequences",
@@ -8223,7 +8223,7 @@ const mathQuestions = {
                     "32",
                     "64"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sequences",
@@ -8253,7 +8253,7 @@ const mathQuestions = {
                     "25",
                     "20"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -8266,7 +8266,7 @@ const mathQuestions = {
                     "32",
                     "30"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sequences",
@@ -8277,7 +8277,7 @@ const mathQuestions = {
                     "45",
                     "50"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sequences",
@@ -8288,7 +8288,7 @@ const mathQuestions = {
                     "48",
                     "96"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sequences",
@@ -8299,7 +8299,7 @@ const mathQuestions = {
                     "50",
                     "44"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sequences",
@@ -8310,7 +8310,7 @@ const mathQuestions = {
                     "120",
                     "80"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Sequences",
@@ -8332,7 +8332,7 @@ const mathQuestions = {
                     "14th",
                     "12th"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sequences",
@@ -8343,7 +8343,7 @@ const mathQuestions = {
                     "275",
                     "300"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sequences",
@@ -8379,7 +8379,7 @@ const mathQuestions = {
                     "16",
                     "8"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Sequences",
@@ -8391,7 +8391,7 @@ const mathQuestions = {
                     "102",
                     "101"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Sequences",
@@ -8403,7 +8403,7 @@ const mathQuestions = {
                     "3",
                     "2"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Sequences",
@@ -8427,7 +8427,7 @@ const mathQuestions = {
                     "8",
                     "3"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sequences",
@@ -8439,7 +8439,7 @@ const mathQuestions = {
                     "14",
                     "17"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sequences",
@@ -8451,7 +8451,7 @@ const mathQuestions = {
                     "900",
                     "800"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sequences",
@@ -8463,7 +8463,7 @@ const mathQuestions = {
                     "n²",
                     "2n"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Sequences",
@@ -8613,7 +8613,7 @@ const mathQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Functions",
@@ -8623,7 +8623,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Functions",
@@ -8633,7 +8633,7 @@ const mathQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Functions",
@@ -8643,7 +8643,7 @@ const mathQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Functions",
@@ -8685,7 +8685,7 @@ const mathQuestions = {
                     "1",
                     "-1"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Functions",
@@ -8715,7 +8715,7 @@ const mathQuestions = {
                     "All reals",
                     "y ≥ 0"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Functions",
@@ -8725,7 +8725,7 @@ const mathQuestions = {
                     "2",
                     "8"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Functions",
@@ -8735,7 +8735,7 @@ const mathQuestions = {
                     "6",
                     "8"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Functions",
@@ -8745,7 +8745,7 @@ const mathQuestions = {
                     "All reals",
                     "x ≠ 0"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Functions",
@@ -8755,7 +8755,7 @@ const mathQuestions = {
                     "5",
                     "-5"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -8801,7 +8801,7 @@ const mathQuestions = {
                     "x = 3",
                     "x = 9"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Functions",
@@ -8812,7 +8812,7 @@ const mathQuestions = {
                     "x/2 - 4",
                     "2x - 4"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Functions",
@@ -8834,7 +8834,7 @@ const mathQuestions = {
                     "x ≥ 5",
                     "x ≠ 5"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Functions",
@@ -8845,7 +8845,7 @@ const mathQuestions = {
                     "x = ±2",
                     "x = 4"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Functions",
@@ -8856,7 +8856,7 @@ const mathQuestions = {
                     "y ≥ 4",
                     "y ≤ 4"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Functions",
@@ -8867,7 +8867,7 @@ const mathQuestions = {
                     "19",
                     "3"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -8881,7 +8881,7 @@ const mathQuestions = {
                     "Reciprocal",
                     "Inverse of f"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Functions",
@@ -8893,7 +8893,7 @@ const mathQuestions = {
                     "x ≥ 0",
                     "|x| ≥ 3"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Functions",
@@ -8905,7 +8905,7 @@ const mathQuestions = {
                     "13",
                     "11"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Functions",
@@ -8917,7 +8917,7 @@ const mathQuestions = {
                     "3x - 2",
                     "3x + 2"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Functions",
@@ -8929,7 +8929,7 @@ const mathQuestions = {
                     "x",
                     "f(x)"
                 ],
-                "correct": 3
+                "correct": 1
             },
             {
                 "topic": "Functions",
@@ -8941,7 +8941,7 @@ const mathQuestions = {
                     "x > 5",
                     "x < 5"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Functions",
@@ -8977,7 +8977,7 @@ const mathQuestions = {
                     "64",
                     "16"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Functions",
@@ -8989,7 +8989,7 @@ const mathQuestions = {
                     "x² + 1",
                     "√(x+1)"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "extreme": [
@@ -9065,7 +9065,7 @@ const mathQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Coordinates",
@@ -9085,7 +9085,7 @@ const mathQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Coordinates",
@@ -9095,7 +9095,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Coordinates",
@@ -9115,7 +9115,7 @@ const mathQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Coordinates",
@@ -9125,7 +9125,7 @@ const mathQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Coordinates",
@@ -9167,7 +9167,7 @@ const mathQuestions = {
                     "7",
                     "5"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Coordinates",
@@ -9197,7 +9197,7 @@ const mathQuestions = {
                     "5",
                     "3"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Coordinates",
@@ -9207,7 +9207,7 @@ const mathQuestions = {
                     "III",
                     "II"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Coordinates",
@@ -9247,7 +9247,7 @@ const mathQuestions = {
                     "I",
                     "IV"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Coordinates",
@@ -9270,7 +9270,7 @@ const mathQuestions = {
                     "8",
                     "10"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Coordinates",
@@ -9281,7 +9281,7 @@ const mathQuestions = {
                     "4/3",
                     "-4/3"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Coordinates",
@@ -9292,7 +9292,7 @@ const mathQuestions = {
                     "y = 2x + 5",
                     "y = 2x - 5"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Coordinates",
@@ -9303,7 +9303,7 @@ const mathQuestions = {
                     "7",
                     "0"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Coordinates",
@@ -9314,7 +9314,7 @@ const mathQuestions = {
                     "(5, 6)",
                     "(4, 5)"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Coordinates",
@@ -9325,7 +9325,7 @@ const mathQuestions = {
                     "5",
                     "7"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Coordinates",
@@ -9336,7 +9336,7 @@ const mathQuestions = {
                     "-3",
                     "3"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Coordinates",
@@ -9347,7 +9347,7 @@ const mathQuestions = {
                     "y = x",
                     "y = 0"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Coordinates",
@@ -9358,7 +9358,7 @@ const mathQuestions = {
                     "(2, 2)",
                     "(4, 4)"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Coordinates",
@@ -9369,7 +9369,7 @@ const mathQuestions = {
                     "4/3",
                     "-3/4"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "expert": [
@@ -9383,7 +9383,7 @@ const mathQuestions = {
                     "2",
                     "1"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Coordinates",
@@ -9395,7 +9395,7 @@ const mathQuestions = {
                     "y = x/2",
                     "y = -2x + 5"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Coordinates",
@@ -9407,7 +9407,7 @@ const mathQuestions = {
                     "24",
                     "12"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Coordinates",
@@ -9419,7 +9419,7 @@ const mathQuestions = {
                     "(3, -5)",
                     "(-3, -5)"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Coordinates",
@@ -9431,7 +9431,7 @@ const mathQuestions = {
                     "(3, -2)",
                     "(6, -4)"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Coordinates",
@@ -9443,7 +9443,7 @@ const mathQuestions = {
                     "(x-3)²+(y-4)²=5",
                     "x²+y²=25"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Coordinates",
@@ -9455,7 +9455,7 @@ const mathQuestions = {
                     "(5, 6)",
                     "(3, 4)"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Coordinates",
@@ -9491,7 +9491,7 @@ const mathQuestions = {
                     "x + y = 7",
                     "y = x + 1"
                 ],
-                "correct": 2
+                "correct": 1
             }
         ],
         "extreme": [
@@ -9567,7 +9567,7 @@ const mathQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mensuration",
@@ -9647,7 +9647,7 @@ const mathQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mensuration",
@@ -9679,7 +9679,7 @@ const mathQuestions = {
                     "49",
                     "28"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Mensuration",
@@ -9689,7 +9689,7 @@ const mathQuestions = {
                     "49π",
                     "14π"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mensuration",
@@ -9709,7 +9709,7 @@ const mathQuestions = {
                     "64",
                     "16"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Mensuration",
@@ -9749,7 +9749,7 @@ const mathQuestions = {
                     "21π",
                     "63π"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mensuration",
@@ -9759,7 +9759,7 @@ const mathQuestions = {
                     "150",
                     "125"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "hard": [
@@ -9772,7 +9772,7 @@ const mathQuestions = {
                     "60",
                     "50"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Mensuration",
@@ -9794,7 +9794,7 @@ const mathQuestions = {
                     "96π",
                     "288π"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mensuration",
@@ -9805,7 +9805,7 @@ const mathQuestions = {
                     "26",
                     "80"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Mensuration",
@@ -9816,7 +9816,7 @@ const mathQuestions = {
                     "169π",
                     "65π"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Mensuration",
@@ -9838,7 +9838,7 @@ const mathQuestions = {
                     "46",
                     "120"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Mensuration",
@@ -9849,7 +9849,7 @@ const mathQuestions = {
                     "180",
                     "240"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Mensuration",
@@ -9860,7 +9860,7 @@ const mathQuestions = {
                     "196π",
                     "49π"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mensuration",
@@ -9871,7 +9871,7 @@ const mathQuestions = {
                     "108√3",
                     "36√3"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "expert": [
@@ -9885,7 +9885,7 @@ const mathQuestions = {
                     "52π",
                     "64π"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mensuration",
@@ -9897,7 +9897,7 @@ const mathQuestions = {
                     "24π",
                     "12π"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Mensuration",
@@ -9921,7 +9921,7 @@ const mathQuestions = {
                     "392π",
                     "588π"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Mensuration",
@@ -9933,7 +9933,7 @@ const mathQuestions = {
                     "12π - 9√3",
                     "12π"
                 ],
-                "correct": 2
+                "correct": 1
             },
             {
                 "topic": "Mensuration",
@@ -9945,7 +9945,7 @@ const mathQuestions = {
                     "288",
                     "144"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mensuration",
@@ -9957,7 +9957,7 @@ const mathQuestions = {
                     "30π",
                     "149π"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Mensuration",
@@ -9969,7 +9969,7 @@ const mathQuestions = {
                     "360",
                     "720"
                 ],
-                "correct": 2
+                "correct": 0
             },
             {
                 "topic": "Mensuration",
@@ -9981,7 +9981,7 @@ const mathQuestions = {
                     "14",
                     "17"
                 ],
-                "correct": 3
+                "correct": 0
             },
             {
                 "topic": "Mensuration",
@@ -9993,7 +9993,7 @@ const mathQuestions = {
                     "25√3",
                     "50√3"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "extreme": [

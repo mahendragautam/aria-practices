@@ -12,7 +12,7 @@ const sportsQuestions = {
         "easy": [
             {
                 "topic": "Football Basics",
-                "emoji": "⚽🥅",
+                "emoji": "⚽🏀",
                 "question": "Does a football match have two halves?",
                 "options": [
                     "True",
@@ -22,7 +22,7 @@ const sportsQuestions = {
             },
             {
                 "topic": "Players",
-                "emoji": "⚽👥",
+                "emoji": "🏈🏐",
                 "question": "Are there 11 players on each football team?",
                 "options": [
                     "False",
@@ -32,7 +32,7 @@ const sportsQuestions = {
             },
             {
                 "topic": "Scoring",
-                "emoji": "⚽🎯",
+                "emoji": "🎾🏓",
                 "question": "Is a goal worth one point in football?",
                 "options": [
                     "True",
@@ -42,7 +42,7 @@ const sportsQuestions = {
             },
             {
                 "topic": "Rules",
-                "emoji": "⚽🙅",
+                "emoji": "🏸🥅",
                 "question": "Can goalkeepers use their hands inside the penalty box?",
                 "options": [
                     "False",
@@ -52,47 +52,47 @@ const sportsQuestions = {
             },
             {
                 "topic": "Equipment",
-                "emoji": "⚽👟",
+                "emoji": "🏑🏒",
                 "question": "Do football players wear boots with studs?",
                 "options": [
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Field",
-                "emoji": "⚽🏟️",
+                "emoji": "🥊🥋",
                 "question": "Is the playing area called a pitch in football?",
                 "options": [
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Officials",
-                "emoji": "⚽👨‍⚖️",
+                "emoji": "⛳🏌️",
                 "question": "Does a referee control the football match?",
                 "options": [
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Cards",
-                "emoji": "⚽🟨",
+                "emoji": "🎿⛷️",
                 "question": "Is a yellow card a warning in football?",
                 "options": [
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Tournament",
-                "emoji": "⚽🏆",
+                "emoji": "🏂🛷",
                 "question": "Does the World Cup happen every four years?",
                 "options": [
                     "True",
@@ -102,7 +102,7 @@ const sportsQuestions = {
             },
             {
                 "topic": "Positions",
-                "emoji": "⚽🧤",
+                "emoji": "🏇🏇",
                 "question": "Is the goalkeeper the only player who can use hands?",
                 "options": [
                     "False",
@@ -114,7 +114,7 @@ const sportsQuestions = {
         "medium": [
             {
                 "topic": "Duration",
-                "emoji": "⚽⏱️",
+                "emoji": "🚴🚵",
                 "question": "How long is a standard football match?",
                 "options": [
                     "90 minutes",
@@ -124,7 +124,7 @@ const sportsQuestions = {
             },
             {
                 "topic": "Offside",
-                "emoji": "⚽🚫",
+                "emoji": "🏊🤽",
                 "question": "Can you be offside in your own half?",
                 "options": [
                     "Yes",
@@ -134,7 +134,7 @@ const sportsQuestions = {
             },
             {
                 "topic": "Substitutions",
-                "emoji": "⚽🔄",
+                "emoji": "🤾🤺",
                 "question": "How many substitutes are typically allowed in a match?",
                 "options": [
                     "3 to 5 depending on competition",
@@ -144,7 +144,7 @@ const sportsQuestions = {
             },
             {
                 "topic": "Penalty",
-                "emoji": "⚽🎯",
+                "emoji": "🏋️🤸",
                 "question": "What distance is a penalty kick taken from?",
                 "options": [
                     "10 yards",
@@ -154,7 +154,7 @@ const sportsQuestions = {
             },
             {
                 "topic": "Red Card",
-                "emoji": "⚽🟥",
+                "emoji": "🧘🧗",
                 "question": "What happens when a player gets a red card?",
                 "options": [
                     "Sent off immediately",
@@ -164,7 +164,7 @@ const sportsQuestions = {
             },
             {
                 "topic": "Corner Kick",
-                "emoji": "⚽📐",
+                "emoji": "🚣🛶",
                 "question": "When is a corner kick awarded?",
                 "options": [
                     "Any time",
@@ -174,7 +174,7 @@ const sportsQuestions = {
             },
             {
                 "topic": "Free Kick",
-                "emoji": "⚽🦶",
+                "emoji": "🏄🏄",
                 "question": "Can you score directly from a free kick?",
                 "options": [
                     "Yes",
@@ -184,7 +184,7 @@ const sportsQuestions = {
             },
             {
                 "topic": "Throw-in",
-                "emoji": "⚽🙌",
+                "emoji": "⛹️🤾",
                 "question": "Must both feet be on ground during a throw-in?",
                 "options": [
                     "Not necessary",
@@ -194,7 +194,7 @@ const sportsQuestions = {
             },
             {
                 "topic": "Extra Time",
-                "emoji": "⚽➕",
+                "emoji": "🥇🥈",
                 "question": "How long is extra time if a match is tied?",
                 "options": [
                     "30 minutes (two 15-minute halves)",
@@ -204,7 +204,7 @@ const sportsQuestions = {
             },
             {
                 "topic": "Goal Line",
-                "emoji": "⚽📏",
+                "emoji": "🥉🏆",
                 "question": "Must the whole ball cross the line for a goal?",
                 "options": [
                     "Half is enough",
@@ -216,7 +216,7 @@ const sportsQuestions = {
         "hard": [
             {
                 "topic": "VAR",
-                "emoji": "⚽📹",
+                "emoji": "🏅🎖️",
                 "question": "What does VAR stand for?",
                 "options": [
                     "Video Assistant Referee",
@@ -227,7 +227,7 @@ const sportsQuestions = {
             },
             {
                 "topic": "Offside Rule",
-                "emoji": "⚽⚖️",
+                "emoji": "🥎⚾",
                 "question": "Can you be offside from a throw-in?",
                 "options": [
                     "Yes, always",
@@ -238,7 +238,7 @@ const sportsQuestions = {
             },
             {
                 "topic": "Handball",
-                "emoji": "⚽✋",
+                "emoji": "🏉🏐",
                 "question": "Is every hand contact with the ball a handball?",
                 "options": [
                     "No, depends on intent and position",
@@ -249,7 +249,7 @@ const sportsQuestions = {
             },
             {
                 "topic": "Kickoff",
-                "emoji": "⚽🏁",
+                "emoji": "🎯🎱",
                 "question": "Can you score directly from kickoff?",
                 "options": [
                     "Only after half time",
@@ -260,7 +260,7 @@ const sportsQuestions = {
             },
             {
                 "topic": "Back Pass",
-                "emoji": "⚽🔙",
+                "emoji": "🎳🏏",
                 "question": "Can a goalkeeper handle a deliberate back pass?",
                 "options": [
                     "Yes, always",
@@ -271,7 +271,7 @@ const sportsQuestions = {
             },
             {
                 "topic": "Advantage Rule",
-                "emoji": "⚽👍",
+                "emoji": "🥍🏑",
                 "question": "What is the advantage rule?",
                 "options": [
                     "Extra player allowed",
@@ -282,7 +282,7 @@ const sportsQuestions = {
             },
             {
                 "topic": "Goal Kick",
-                "emoji": "⚽🥅",
+                "emoji": "🛹🛼",
                 "question": "Where must opponents be during a goal kick?",
                 "options": [
                     "Outside penalty area",
@@ -293,7 +293,7 @@ const sportsQuestions = {
             },
             {
                 "topic": "Indirect Free Kick",
-                "emoji": "⚽🔀",
+                "emoji": "🏹🎣",
                 "question": "Can you score directly from an indirect free kick?",
                 "options": [
                     "Yes",
@@ -304,7 +304,7 @@ const sportsQuestions = {
             },
             {
                 "topic": "Penalty Shootout",
-                "emoji": "⚽🎲",
+                "emoji": "🤿🏊",
                 "question": "How many penalties in initial shootout round?",
                 "options": [
                     "5 each team",
@@ -315,7 +315,7 @@ const sportsQuestions = {
             },
             {
                 "topic": "Injury Time",
-                "emoji": "⚽🕐",
+                "emoji": "⛸️🛼",
                 "question": "Who decides how much stoppage time is added?",
                 "options": [
                     "Team captains",
@@ -520,7 +520,7 @@ const sportsQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Teams",
@@ -530,7 +530,7 @@ const sportsQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Scoring",
@@ -540,7 +540,7 @@ const sportsQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Dribbling",
@@ -550,7 +550,7 @@ const sportsQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Equipment",
@@ -600,7 +600,7 @@ const sportsQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ball Handling",
@@ -610,7 +610,7 @@ const sportsQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -1062,7 +1062,7 @@ const sportsQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Boundaries",
@@ -1072,7 +1072,7 @@ const sportsQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Dismissals",
@@ -1082,7 +1082,7 @@ const sportsQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Equipment",
@@ -1092,7 +1092,7 @@ const sportsQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Bowling",
@@ -1524,7 +1524,7 @@ const sportsQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Players",
@@ -1534,7 +1534,7 @@ const sportsQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Equipment",
@@ -1544,7 +1544,7 @@ const sportsQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Net",
@@ -1554,7 +1554,7 @@ const sportsQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Scoring",
@@ -1604,7 +1604,7 @@ const sportsQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sets",
@@ -1614,7 +1614,7 @@ const sportsQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -2066,7 +2066,7 @@ const sportsQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Olympics",
@@ -2076,7 +2076,7 @@ const sportsQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Turns",
@@ -2086,7 +2086,7 @@ const sportsQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Caps",
@@ -2096,7 +2096,7 @@ const sportsQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Start",
@@ -2564,7 +2564,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Equipment",
@@ -2574,7 +2574,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Scoring",
@@ -2584,7 +2584,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ball",
@@ -2594,7 +2594,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Tee",
@@ -2644,7 +2644,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Caddie",
@@ -2654,7 +2654,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -3106,7 +3106,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Tackling",
@@ -3116,7 +3116,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Scrum",
@@ -3126,7 +3126,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Kicking",
@@ -3136,7 +3136,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Referee",
@@ -3608,7 +3608,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Rotation",
@@ -3618,7 +3618,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Beach Volleyball",
@@ -3628,7 +3628,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Touches",
@@ -3638,7 +3638,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Olympics",
@@ -4110,7 +4110,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Pitcher",
@@ -4120,7 +4120,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Gloves",
@@ -4130,7 +4130,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Umpire",
@@ -4140,7 +4140,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "World Series",
@@ -4612,7 +4612,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Periods",
@@ -4622,7 +4622,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Goalie",
@@ -4632,7 +4632,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Penalties",
@@ -4642,7 +4642,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Stanley Cup",
@@ -5114,7 +5114,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Referee",
@@ -5124,7 +5124,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Weight Classes",
@@ -5134,7 +5134,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Bell",
@@ -5144,7 +5144,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Punching",
@@ -5616,7 +5616,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Lanes",
@@ -5626,7 +5626,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Olympics",
@@ -5636,7 +5636,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Hurdles",
@@ -5646,7 +5646,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Photo Finish",
@@ -6118,7 +6118,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Tour de France",
@@ -6128,7 +6128,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Wheels",
@@ -6138,7 +6138,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Track Cycling",
@@ -6148,7 +6148,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mountain Biking",
@@ -6620,7 +6620,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Vault",
@@ -6630,7 +6630,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Uneven Bars",
@@ -6640,7 +6640,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Olympics",
@@ -6650,7 +6650,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Tumbling",
@@ -7122,7 +7122,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ski Lift",
@@ -7132,7 +7132,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Helmet",
@@ -7142,7 +7142,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Winter Olympics",
@@ -7152,7 +7152,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Goggles",
@@ -7624,7 +7624,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Uniform",
@@ -7634,7 +7634,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Self-Defense",
@@ -7644,7 +7644,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Forms",
@@ -7654,7 +7654,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Olympics",
@@ -8126,7 +8126,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Wetsuit",
@@ -8136,7 +8136,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Paddling",
@@ -8146,7 +8146,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Balance",
@@ -8156,7 +8156,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Olympics",
@@ -8628,7 +8628,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Singles and Doubles",
@@ -8638,7 +8638,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Serve",
@@ -8648,7 +8648,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Olympics",
@@ -8658,7 +8658,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Fast Sport",
@@ -9130,7 +9130,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Helmet",
@@ -9140,7 +9140,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Checkered Flag",
@@ -9150,7 +9150,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Pit Stop",
@@ -9160,7 +9160,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Qualifying",
@@ -9632,7 +9632,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Chalk",
@@ -9642,7 +9642,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Holds",
@@ -9652,7 +9652,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Belaying",
@@ -9662,7 +9662,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Olympics",

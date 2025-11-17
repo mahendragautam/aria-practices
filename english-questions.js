@@ -13,7 +13,7 @@ const englishQuestions = {
         "easy": [
             {
                 "topic": "Grammar",
-                "emoji": "📝✍️",
+                "emoji": "📖📚",
                 "question": "Is a noun a person, place, or thing?",
                 "options": [
                     "True",
@@ -23,7 +23,7 @@ const englishQuestions = {
             },
             {
                 "topic": "Grammar",
-                "emoji": "📖📚",
+                "emoji": "✍️📝",
                 "question": "Is a verb an action word?",
                 "options": [
                     "False",
@@ -33,7 +33,7 @@ const englishQuestions = {
             },
             {
                 "topic": "Vocabulary",
-                "emoji": "📝🔤",
+                "emoji": "📜📄",
                 "question": "Does synonym mean opposite meaning?",
                 "options": [
                     "True",
@@ -43,7 +43,7 @@ const englishQuestions = {
             },
             {
                 "topic": "Grammar",
-                "emoji": "✍️📄",
+                "emoji": "🖊️✒️",
                 "question": "Is an adjective describes a noun?",
                 "options": [
                     "True",
@@ -53,7 +53,7 @@ const englishQuestions = {
             },
             {
                 "topic": "Literature",
-                "emoji": "📚📖",
+                "emoji": "💬💭",
                 "question": "Is shakespeare wrote plays?",
                 "options": [
                     "True",
@@ -63,7 +63,7 @@ const englishQuestions = {
             },
             {
                 "topic": "Grammar",
-                "emoji": "📝✏️",
+                "emoji": "📰🗞️",
                 "question": "Does a sentence must have a subject and verb?",
                 "options": [
                     "True",
@@ -73,7 +73,7 @@ const englishQuestions = {
             },
             {
                 "topic": "Vocabulary",
-                "emoji": "🔤📖",
+                "emoji": "📚📕",
                 "question": "Does antonym mean similar meaning?",
                 "options": [
                     "False",
@@ -83,7 +83,7 @@ const englishQuestions = {
             },
             {
                 "topic": "Composition",
-                "emoji": "✍️📄",
+                "emoji": "📔📓",
                 "question": "Does a paragraph should have a topic sentence?",
                 "options": [
                     "True",
@@ -93,7 +93,7 @@ const englishQuestions = {
             },
             {
                 "topic": "Grammar",
-                "emoji": "📚✍️",
+                "emoji": "🔤🔡",
                 "question": "Is an adverb modifies a verb?",
                 "options": [
                     "False",
@@ -103,7 +103,7 @@ const englishQuestions = {
             },
             {
                 "topic": "Literature",
-                "emoji": "📖🎭",
+                "emoji": "📗📘",
                 "question": "Is a novel a long fictional story?",
                 "options": [
                     "False",
@@ -115,7 +115,7 @@ const englishQuestions = {
         "medium": [
             {
                 "topic": "Grammar",
-                "emoji": "📝✍️",
+                "emoji": "📙📖",
                 "question": "What is a pronoun?",
                 "options": [
                     "Action word",
@@ -125,7 +125,7 @@ const englishQuestions = {
             },
             {
                 "topic": "Vocabulary",
-                "emoji": "🔤📖",
+                "emoji": "📝✏️",
                 "question": "What is a synonym for \"happy\"?",
                 "options": [
                     "Joyful",
@@ -135,7 +135,7 @@ const englishQuestions = {
             },
             {
                 "topic": "Grammar",
-                "emoji": "✍️📄",
+                "emoji": "🖋️🖊️",
                 "question": "What punctuation ends a question?",
                 "options": [
                     "Period",
@@ -145,7 +145,7 @@ const englishQuestions = {
             },
             {
                 "topic": "Literature",
-                "emoji": "📚📖",
+                "emoji": "💌📧",
                 "question": "Who wrote Romeo and Juliet?",
                 "options": [
                     "Dickens",
@@ -155,7 +155,7 @@ const englishQuestions = {
             },
             {
                 "topic": "Composition",
-                "emoji": "📝✏️",
+                "emoji": "📬📭",
                 "question": "What is the main idea called?",
                 "options": [
                     "Conclusion",
@@ -165,7 +165,7 @@ const englishQuestions = {
             },
             {
                 "topic": "Grammar",
-                "emoji": "📖✍️",
+                "emoji": "🗒️📋",
                 "question": "What is the past tense of \"run\"?",
                 "options": [
                     "Ran",
@@ -175,7 +175,7 @@ const englishQuestions = {
             },
             {
                 "topic": "Vocabulary",
-                "emoji": "🔤📚",
+                "emoji": "📄📃",
                 "question": "What is an antonym for \"hot\"?",
                 "options": [
                     "Cold",
@@ -185,7 +185,7 @@ const englishQuestions = {
             },
             {
                 "topic": "Literature",
-                "emoji": "📖🎭",
+                "emoji": "🏷️🔖",
                 "question": "What is a haiku?",
                 "options": [
                     "Japanese poem",
@@ -195,7 +195,7 @@ const englishQuestions = {
             },
             {
                 "topic": "Grammar",
-                "emoji": "✍️📝",
+                "emoji": "🎭📖",
                 "question": "What connects two sentences?",
                 "options": [
                     "Adjective",
@@ -205,7 +205,7 @@ const englishQuestions = {
             },
             {
                 "topic": "Composition",
-                "emoji": "📄✏️",
+                "emoji": "🗣️💬",
                 "question": "What introduces an essay?",
                 "options": [
                     "Introduction",
@@ -217,7 +217,7 @@ const englishQuestions = {
         "hard": [
             {
                 "topic": "Grammar",
-                "emoji": "📝✍️",
+                "emoji": "✉️📨",
                 "question": "What is a gerund?",
                 "options": [
                     "Verb ending in -ing",
@@ -228,7 +228,7 @@ const englishQuestions = {
             },
             {
                 "topic": "Literature",
-                "emoji": "📚📖",
+                "emoji": "📢📣",
                 "question": "Who wrote \"Pride and Prejudice\"?",
                 "options": [
                     "Emily Bronte",
@@ -239,7 +239,7 @@ const englishQuestions = {
             },
             {
                 "topic": "Vocabulary",
-                "emoji": "🔤📖",
+                "emoji": "🎤🎧",
                 "question": "What does \"ubiquitous\" mean?",
                 "options": [
                     "Rare",
@@ -250,7 +250,7 @@ const englishQuestions = {
             },
             {
                 "topic": "Grammar",
-                "emoji": "✍️📄",
+                "emoji": "📻📺",
                 "question": "What is the subjunctive mood?",
                 "options": [
                     "Questions",
@@ -261,7 +261,7 @@ const englishQuestions = {
             },
             {
                 "topic": "Composition",
-                "emoji": "📝✏️",
+                "emoji": "🎬🎞️",
                 "question": "What is a thesis statement?",
                 "options": [
                     "Example",
@@ -272,7 +272,7 @@ const englishQuestions = {
             },
             {
                 "topic": "Literature",
-                "emoji": "📖🎭",
+                "emoji": "📸📷",
                 "question": "What is an allegory?",
                 "options": [
                     "Short poem",
@@ -283,7 +283,7 @@ const englishQuestions = {
             },
             {
                 "topic": "Grammar",
-                "emoji": "📚✍️",
+                "emoji": "🖼️🎨",
                 "question": "What is a participle?",
                 "options": [
                     "Noun phrase",
@@ -294,7 +294,7 @@ const englishQuestions = {
             },
             {
                 "topic": "Vocabulary",
-                "emoji": "🔤📝",
+                "emoji": "🎵🎶",
                 "question": "What does the acronym onomatopoeia stand for?",
                 "options": [
                     "Sound words",
@@ -305,7 +305,7 @@ const englishQuestions = {
             },
             {
                 "topic": "Composition",
-                "emoji": "✍️📄",
+                "emoji": "🎼🎹",
                 "question": "What is a counterargument?",
                 "options": [
                     "Evidence",
@@ -316,7 +316,7 @@ const englishQuestions = {
             },
             {
                 "topic": "Literature",
-                "emoji": "📖📚",
+                "emoji": "📱💻",
                 "question": "Who wrote \"1984\"?",
                 "options": [
                     "George Orwell",

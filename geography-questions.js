@@ -13,7 +13,7 @@ const geographyQuestions = {
         "easy": [
             {
                 "topic": "Continents",
-                "emoji": "🌍🗺️",
+                "emoji": "🌍🌎",
                 "question": "Are there 7 continents on Earth?",
                 "options": [
                     "True",
@@ -23,7 +23,7 @@ const geographyQuestions = {
             },
             {
                 "topic": "Oceans",
-                "emoji": "🌊💧",
+                "emoji": "🏔️⛰️",
                 "question": "Is the Pacific Ocean the largest ocean?",
                 "options": [
                     "True",
@@ -33,7 +33,7 @@ const geographyQuestions = {
             },
             {
                 "topic": "Mountains",
-                "emoji": "⛰️🏔️",
+                "emoji": "🌊🏖️",
                 "question": "Is mount Everest the tallest mountain?",
                 "options": [
                     "False",
@@ -43,7 +43,7 @@ const geographyQuestions = {
             },
             {
                 "topic": "Rivers",
-                "emoji": "🏞️💧",
+                "emoji": "🏜️🏝️",
                 "question": "Is the Nile the longest river?",
                 "options": [
                     "False",
@@ -53,7 +53,7 @@ const geographyQuestions = {
             },
             {
                 "topic": "Continents",
-                "emoji": "🌍🗺️",
+                "emoji": "🌲🌳",
                 "question": "Is Africa a continent?",
                 "options": [
                     "False",
@@ -63,7 +63,7 @@ const geographyQuestions = {
             },
             {
                 "topic": "Oceans",
-                "emoji": "🌊🌍",
+                "emoji": "🗻🏔️",
                 "question": "Is the Atlantic Ocean between Europe and America?",
                 "options": [
                     "False",
@@ -73,7 +73,7 @@ const geographyQuestions = {
             },
             {
                 "topic": "Mountains",
-                "emoji": "⛰️🏔️",
+                "emoji": "🏞️🌄",
                 "question": "Are mountains formed by plate tectonics?",
                 "options": [
                     "True",
@@ -83,7 +83,7 @@ const geographyQuestions = {
             },
             {
                 "topic": "Rivers",
-                "emoji": "🏞️🌊",
+                "emoji": "🗾🗺️",
                 "question": "Is rivers flow from high to low elevation?",
                 "options": [
                     "True",
@@ -93,7 +93,7 @@ const geographyQuestions = {
             },
             {
                 "topic": "Continents",
-                "emoji": "🗺️🌏",
+                "emoji": "🧭🗺️",
                 "question": "Is Asia the largest continent?",
                 "options": [
                     "False",
@@ -103,7 +103,7 @@ const geographyQuestions = {
             },
             {
                 "topic": "Oceans",
-                "emoji": "🌊❄️",
+                "emoji": "🌐🗺️",
                 "question": "Is the Arctic Ocean the smallest ocean?",
                 "options": [
                     "False",
@@ -115,7 +115,7 @@ const geographyQuestions = {
         "medium": [
             {
                 "topic": "Continents",
-                "emoji": "🌍🗺️",
+                "emoji": "🏙️🌆",
                 "question": "What is the smallest continent?",
                 "options": [
                     "Antarctica",
@@ -125,7 +125,7 @@ const geographyQuestions = {
             },
             {
                 "topic": "Oceans",
-                "emoji": "🌊💧",
+                "emoji": "🏘️🏡",
                 "question": "Which ocean is the deepest?",
                 "options": [
                     "Pacific",
@@ -135,7 +135,7 @@ const geographyQuestions = {
             },
             {
                 "topic": "Mountains",
-                "emoji": "⛰️🏔️",
+                "emoji": "🌃🌉",
                 "question": "Is on which continent Mount Everest?",
                 "options": [
                     "Africa",
@@ -145,7 +145,7 @@ const geographyQuestions = {
             },
             {
                 "topic": "Rivers",
-                "emoji": "🏞️💧",
+                "emoji": "🌅🌄",
                 "question": "Which river flows through Egypt?",
                 "options": [
                     "Amazon",
@@ -155,7 +155,7 @@ const geographyQuestions = {
             },
             {
                 "topic": "Continents",
-                "emoji": "🗺️🌍",
+                "emoji": "🌋🗻",
                 "question": "Which continent has no permanent residents?",
                 "options": [
                     "Antarctica",
@@ -165,7 +165,7 @@ const geographyQuestions = {
             },
             {
                 "topic": "Oceans",
-                "emoji": "🌊🌏",
+                "emoji": "💧🌊",
                 "question": "Which ocean borders Asia and America?",
                 "options": [
                     "Pacific",
@@ -175,7 +175,7 @@ const geographyQuestions = {
             },
             {
                 "topic": "Mountains",
-                "emoji": "⛰️📏",
+                "emoji": "🏖️🏝️",
                 "question": "What is the second tallest mountain?",
                 "options": [
                     "K2",
@@ -185,7 +185,7 @@ const geographyQuestions = {
             },
             {
                 "topic": "Rivers",
-                "emoji": "🏞️🌊",
+                "emoji": "🏕️⛺",
                 "question": "Which river is in South America?",
                 "options": [
                     "Mississippi",
@@ -195,7 +195,7 @@ const geographyQuestions = {
             },
             {
                 "topic": "Continents",
-                "emoji": "🌍🗺️",
+                "emoji": "🎿🏂",
                 "question": "Which continent has the most countries?",
                 "options": [
                     "Asia",
@@ -205,7 +205,7 @@ const geographyQuestions = {
             },
             {
                 "topic": "Oceans",
-                "emoji": "🌊💧",
+                "emoji": "🚣🛶",
                 "question": "What ocean is south of India?",
                 "options": [
                     "Indian Ocean",
@@ -217,7 +217,7 @@ const geographyQuestions = {
         "hard": [
             {
                 "topic": "Continents",
-                "emoji": "🌍🗺️",
+                "emoji": "🏞️🏔️",
                 "question": "How many countries are in Africa?",
                 "options": [
                     "60",
@@ -228,7 +228,7 @@ const geographyQuestions = {
             },
             {
                 "topic": "Oceans",
-                "emoji": "🌊💧",
+                "emoji": "🗼🏯",
                 "question": "What is the deepest ocean trench?",
                 "options": [
                     "Puerto Rico Trench",
@@ -239,7 +239,7 @@ const geographyQuestions = {
             },
             {
                 "topic": "Mountains",
-                "emoji": "⛰️🏔️",
+                "emoji": "🌁🌫️",
                 "question": "How tall is Mount Everest?",
                 "options": [
                     "8,611m",
@@ -250,7 +250,7 @@ const geographyQuestions = {
             },
             {
                 "topic": "Rivers",
-                "emoji": "🏞️💧",
+                "emoji": "🌤️⛅",
                 "question": "What is the longest river in Europe?",
                 "options": [
                     "Danube",
@@ -261,7 +261,7 @@ const geographyQuestions = {
             },
             {
                 "topic": "Continents",
-                "emoji": "🗺️🌏",
+                "emoji": "🌦️🌧️",
                 "question": "Which continent spans all time zones?",
                 "options": [
                     "Asia",
@@ -272,7 +272,7 @@ const geographyQuestions = {
             },
             {
                 "topic": "Oceans",
-                "emoji": "🌊🌍",
+                "emoji": "⚡🌩️",
                 "question": "What percentage of Earth is ocean?",
                 "options": [
                     "80%",
@@ -283,7 +283,7 @@ const geographyQuestions = {
             },
             {
                 "topic": "Mountains",
-                "emoji": "⛰️🏔️",
+                "emoji": "🌈☀️",
                 "question": "Which mountain range is longest?",
                 "options": [
                     "Himalayas",
@@ -294,7 +294,7 @@ const geographyQuestions = {
             },
             {
                 "topic": "Rivers",
-                "emoji": "🏞️🌊",
+                "emoji": "❄️⛄",
                 "question": "Which river flows through most countries?",
                 "options": [
                     "Danube",
@@ -305,7 +305,7 @@ const geographyQuestions = {
             },
             {
                 "topic": "Continents",
-                "emoji": "🌍🗺️",
+                "emoji": "🌸🌺",
                 "question": "What is the capital of Australia?",
                 "options": [
                     "Sydney",
@@ -316,7 +316,7 @@ const geographyQuestions = {
             },
             {
                 "topic": "Oceans",
-                "emoji": "🌊💧",
+                "emoji": "🍂🍁",
                 "question": "Where is the Bermuda Triangle?",
                 "options": [
                     "Atlantic Ocean",

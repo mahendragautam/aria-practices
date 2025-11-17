@@ -13,7 +13,7 @@ const healthQuestions = {
         "easy": [
             {
                 "topic": "Nutrition",
-                "emoji": "🥗🍎",
+                "emoji": "💪🏋️",
                 "question": "Are fruits and vegetables healthy?",
                 "options": [
                     "False",
@@ -23,7 +23,7 @@ const healthQuestions = {
             },
             {
                 "topic": "Exercise",
-                "emoji": "💪🏃",
+                "emoji": "🏃🚴",
                 "question": "Is exercise good for your health?",
                 "options": [
                     "True",
@@ -33,7 +33,7 @@ const healthQuestions = {
             },
             {
                 "topic": "Nutrition",
-                "emoji": "💧🚰",
+                "emoji": "🥗🥙",
                 "question": "Is drinking water important?",
                 "options": [
                     "False",
@@ -43,7 +43,7 @@ const healthQuestions = {
             },
             {
                 "topic": "Yoga",
-                "emoji": "🧘‍♀️🕉️",
+                "emoji": "💊💉",
                 "question": "Does yoga help with flexibility?",
                 "options": [
                     "False",
@@ -53,7 +53,7 @@ const healthQuestions = {
             },
             {
                 "topic": "Cardio",
-                "emoji": "❤️🏃",
+                "emoji": "🫀❤️",
                 "question": "Is running a cardio exercise?",
                 "options": [
                     "True",
@@ -63,7 +63,7 @@ const healthQuestions = {
             },
             {
                 "topic": "Nutrition",
-                "emoji": "🥦🥕",
+                "emoji": "🧘🤸",
                 "question": "Does vegetables have vitamins?",
                 "options": [
                     "False",
@@ -73,7 +73,7 @@ const healthQuestions = {
             },
             {
                 "topic": "Exercise",
-                "emoji": "🏋️💪",
+                "emoji": "😴💤",
                 "question": "Is lifting weights builds muscle?",
                 "options": [
                     "False",
@@ -83,7 +83,7 @@ const healthQuestions = {
             },
             {
                 "topic": "Nutrition",
-                "emoji": "🍬🚫",
+                "emoji": "🚴🏃",
                 "question": "Is too much sugar bad for health?",
                 "options": [
                     "False",
@@ -93,7 +93,7 @@ const healthQuestions = {
             },
             {
                 "topic": "Yoga",
-                "emoji": "🧘🌅",
+                "emoji": "🥤🧃",
                 "question": "Is yoga reduces stress?",
                 "options": [
                     "True",
@@ -103,7 +103,7 @@ const healthQuestions = {
             },
             {
                 "topic": "Cardio",
-                "emoji": "🚴‍♂️❤️",
+                "emoji": "🥛🍼",
                 "question": "Is cycling good for your heart?",
                 "options": [
                     "False",
@@ -115,7 +115,7 @@ const healthQuestions = {
         "medium": [
             {
                 "topic": "Nutrition",
-                "emoji": "🥗🍎",
+                "emoji": "🍎🍏",
                 "question": "How many servings of fruit per day?",
                 "options": [
                     "2",
@@ -125,7 +125,7 @@ const healthQuestions = {
             },
             {
                 "topic": "Exercise",
-                "emoji": "💪🏃",
+                "emoji": "🥦🥬",
                 "question": "How many minutes of exercise per day?",
                 "options": [
                     "10 minutes",
@@ -135,7 +135,7 @@ const healthQuestions = {
             },
             {
                 "topic": "Nutrition",
-                "emoji": "💧🚰",
+                "emoji": "🧠🧘",
                 "question": "How many glasses of water per day?",
                 "options": [
                     "3 glasses",
@@ -145,7 +145,7 @@ const healthQuestions = {
             },
             {
                 "topic": "Yoga",
-                "emoji": "🧘‍♀️🕉️",
+                "emoji": "🏥🩺",
                 "question": "Which yoga pose is for relaxation?",
                 "options": [
                     "Warrior",
@@ -155,7 +155,7 @@ const healthQuestions = {
             },
             {
                 "topic": "Cardio",
-                "emoji": "❤️🏃",
+                "emoji": "💆🛀",
                 "question": "What does cardio improve?",
                 "options": [
                     "Heart health",
@@ -165,7 +165,7 @@ const healthQuestions = {
             },
             {
                 "topic": "Nutrition",
-                "emoji": "🥦🥕",
+                "emoji": "🧖🏊",
                 "question": "Which vitamin is in carrots?",
                 "options": [
                     "Vitamin C",
@@ -175,7 +175,7 @@ const healthQuestions = {
             },
             {
                 "topic": "Exercise",
-                "emoji": "🏋️💪",
+                "emoji": "🤾⛹️",
                 "question": "What builds stronger bones?",
                 "options": [
                     "Stretching",
@@ -185,7 +185,7 @@ const healthQuestions = {
             },
             {
                 "topic": "Nutrition",
-                "emoji": "🥛🦴",
+                "emoji": "🏐⚽",
                 "question": "Which nutrient is in milk?",
                 "options": [
                     "Iron",
@@ -195,7 +195,7 @@ const healthQuestions = {
             },
             {
                 "topic": "Yoga",
-                "emoji": "🧘🌅",
+                "emoji": "🎾🏓",
                 "question": "What does the acronym pranayama stand for?",
                 "options": [
                     "Breathing exercise",
@@ -205,7 +205,7 @@ const healthQuestions = {
             },
             {
                 "topic": "Cardio",
-                "emoji": "🚴‍♂️❤️",
+                "emoji": "🧗🏂",
                 "question": "What is aerobic exercise?",
                 "options": [
                     "With oxygen",
@@ -217,7 +217,7 @@ const healthQuestions = {
         "hard": [
             {
                 "topic": "Nutrition",
-                "emoji": "🥗🍎",
+                "emoji": "🩹🩺",
                 "question": "What does the acronym BMI stand for?",
                 "options": [
                     "Basic Meal Intake",
@@ -228,7 +228,7 @@ const healthQuestions = {
             },
             {
                 "topic": "Exercise",
-                "emoji": "💪🏃",
+                "emoji": "🦷😁",
                 "question": "What does the acronym HIIT stand for?",
                 "options": [
                     "Healthy Intensity Integration",
@@ -239,7 +239,7 @@ const healthQuestions = {
             },
             {
                 "topic": "Nutrition",
-                "emoji": "🥦🥕",
+                "emoji": "👓👁️",
                 "question": "What are macronutrients?",
                 "options": [
                     "Carbs, Protein, Fat",
@@ -250,7 +250,7 @@ const healthQuestions = {
             },
             {
                 "topic": "Yoga",
-                "emoji": "🧘‍♀️🕉️",
+                "emoji": "👂🦻",
                 "question": "How many limbs in Ashtanga yoga?",
                 "options": [
                     "4",
@@ -261,7 +261,7 @@ const healthQuestions = {
             },
             {
                 "topic": "Cardio",
-                "emoji": "❤️🏃",
+                "emoji": "🫁🫀",
                 "question": "What is target heart rate zone?",
                 "options": [
                     "50-85% max",
@@ -272,7 +272,7 @@ const healthQuestions = {
             },
             {
                 "topic": "Nutrition",
-                "emoji": "💧🚰",
+                "emoji": "💪🦾",
                 "question": "What causes dehydration?",
                 "options": [
                     "Low fat",
@@ -283,7 +283,7 @@ const healthQuestions = {
             },
             {
                 "topic": "Exercise",
-                "emoji": "🏋️💪",
+                "emoji": "🦵🦿",
                 "question": "What is progressive overload?",
                 "options": [
                     "Same routine",
@@ -294,7 +294,7 @@ const healthQuestions = {
             },
             {
                 "topic": "Nutrition",
-                "emoji": "🥛🦴",
+                "emoji": "🧬🔬",
                 "question": "What is lactose intolerance?",
                 "options": [
                     "Allergy to protein",
@@ -305,7 +305,7 @@ const healthQuestions = {
             },
             {
                 "topic": "Yoga",
-                "emoji": "🧘🌅",
+                "emoji": "💉🩸",
                 "question": "What is the sun salutation?",
                 "options": [
                     "Meditation style",
@@ -316,7 +316,7 @@ const healthQuestions = {
             },
             {
                 "topic": "Cardio",
-                "emoji": "🚴‍♂️❤️",
+                "emoji": "🧪⚗️",
                 "question": "What is VO2 max?",
                 "options": [
                     "Oxygen capacity",

@@ -24,21 +24,21 @@ const animalsQuestions = {
             },
             {
                 topic: "Reptiles",
-                emoji: "🐊🦎",
+                emoji: "🦁🐯",
                 question: "Alligators and crocodiles are the same.",
                 options: ["False", "True"],
                 correct: 1
             },
             {
                 topic: "Insects",
-                emoji: "🐝🦋",
+                emoji: "🐼🐨",
                 question: "Bees die after stinging once.",
                 options: ["True", "False"],
                 correct: 1
             },
             {
                 topic: "Mammals",
-                emoji: "🦁🐯",
+                emoji: "🦒🦓",
                 question: "Lions live in jungles.",
                 options: ["False", "True"],
                 correct: 0
@@ -52,21 +52,21 @@ const animalsQuestions = {
             },
             {
                 topic: "Marine Life",
-                emoji: "🦈🐡",
+                emoji: "🦋🐛",
                 question: "Sharks have bones.",
                 options: ["False", "True"],
                 correct: 0
             },
             {
                 topic: "Reptiles",
-                emoji: "🐍🐢",
+                emoji: "🐝🐜",
                 question: "All snakes are venomous.",
                 options: ["False", "True"],
                 correct: 0
             },
             {
                 topic: "Mammals",
-                emoji: "🐻🐼",
+                emoji: "🦈🐙",
                 question: "Bears hibernate in winter.",
                 options: ["True", "False"],
                 correct: 1
@@ -75,70 +75,70 @@ const animalsQuestions = {
         medium: [
             {
                 topic: "Mammals",
-                emoji: "🦒🦓",
+                emoji: "🐢🐊",
                 question: "What is an elephant's trunk used for?",
                 options: ["Breathing only", "Multiple purposes"],
                 correct: 1
             },
             {
                 topic: "Birds",
-                emoji: "🦉🦇",
+                emoji: "🦎🐍",
                 question: "How far can eagles see?",
                 options: ["1 mile", "2-3 miles"],
                 correct: 1
             },
             {
                 topic: "Marine Life",
-                emoji: "🐙🦑",
+                emoji: "🦉🦇",
                 question: "Are dolphins intelligent?",
                 options: ["Yes, very", "No"],
                 correct: 0
             },
             {
                 topic: "Reptiles",
-                emoji: "🦘🦌",
+                emoji: "🐺🦊",
                 question: "Can alligators live in saltwater?",
                 options: ["Mostly freshwater", "Yes"],
                 correct: 0
             },
             {
                 topic: "Insects",
-                emoji: "🐺🦊",
+                emoji: "🐻🐨",
                 question: "What do bees make?",
                 options: ["Honey", "Wax only"],
                 correct: 0
             },
             {
                 topic: "Mammals",
-                emoji: "🐵🦍",
+                emoji: "🐰🐹",
                 question: "Who hunts in a lion pride?",
                 options: ["Males", "Females"],
                 correct: 1
             },
             {
                 topic: "Birds",
-                emoji: "🦩🦚",
+                emoji: "🐭🐀",
                 question: "Where do penguins live?",
                 options: ["North Pole", "Antarctica"],
                 correct: 1
             },
             {
                 topic: "Marine Life",
-                emoji: "🐠🐟",
+                emoji: "🐴🦄",
                 question: "What is a shark's best sense?",
                 options: ["Sight", "Smell"],
                 correct: 1
             },
             {
                 topic: "Amphibians",
-                emoji: "🦂🕷️",
+                emoji: "🐮🐷",
                 question: "How do frogs drink water?",
                 options: ["Through mouth", "Through skin"],
                 correct: 1
             },
             {
                 topic: "Mammals",
-                emoji: "🐨🦥",
+                emoji: "🐔🐓",
                 question: "What do bears love to eat?",
                 options: ["Meat only", "Omnivorous diet"],
                 correct: 1
@@ -147,70 +147,70 @@ const animalsQuestions = {
         hard: [
             {
                 topic: "Mammals",
-                emoji: "🦭🦦",
+                emoji: "🦃🦚",
                 question: "How many teeth do elephants have for chewing?",
                 options: ["8", "4", "16"],
                 correct: 1
             },
             {
                 topic: "Birds",
-                emoji: "🐆🐅",
+                emoji: "🦢🦩",
                 question: "How much weight can an eagle carry?",
                 options: ["Equal to body weight", "Half body weight", "Twice body weight"],
                 correct: 1
             },
             {
                 topic: "Marine Life",
-                emoji: "🦎🐉",
+                emoji: "🐸🦎",
                 question: "How do dolphins communicate?",
                 options: ["Body language", "Clicks and whistles", "Silent"],
                 correct: 1
             },
             {
                 topic: "Reptiles",
-                emoji: "🐋🐚",
+                emoji: "🦗🦟",
                 question: "How many teeth can a crocodile have?",
                 options: ["40", "60-80", "100"],
                 correct: 1
             },
             {
                 topic: "Insects",
-                emoji: "🦜🦢",
+                emoji: "🕷️🕸️",
                 question: "How do bees communicate flower locations?",
                 options: ["Dancing", "Buzzing", "Pheromones only"],
                 correct: 0
             },
             {
                 topic: "Mammals",
-                emoji: "🐃🐄",
+                emoji: "🐌🦗",
                 question: "How long can a lion's roar be heard?",
                 options: ["1 mile", "5 miles", "10 miles"],
                 correct: 1
             },
             {
                 topic: "Birds",
-                emoji: "🐑🐐",
+                emoji: "🦞🦀",
                 question: "How fast can penguins swim?",
                 options: ["5 mph", "15 mph", "25 mph"],
                 correct: 1
             },
             {
                 topic: "Marine Life",
-                emoji: "🐪🦙",
+                emoji: "🐠🐟",
                 question: "How are baby sharks born?",
                 options: ["Eggs only", "Live birth or eggs", "Live birth only"],
                 correct: 1
             },
             {
                 topic: "Amphibians",
-                emoji: "🦡🦫",
+                emoji: "🐡🦈",
                 question: "How high can frogs jump?",
                 options: ["5x body length", "20x body length", "50x body length"],
                 correct: 2
             },
             {
                 topic: "Mammals",
-                emoji: "🦨🦔",
+                emoji: "🐙🦑",
                 question: "How long do bears hibernate?",
                 options: ["2 months", "5-7 months", "1 year"],
                 correct: 1
@@ -6123,7 +6123,7 @@ const animalsChapters11to20 = {
                 emoji: "🐑🐐",
                 question: "What digestive system do pandas have?",
                 options: ["Herbivore", "Carnivore", "Omnivore", "None"],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Birds",
@@ -6137,14 +6137,14 @@ const animalsChapters11to20 = {
                 emoji: "🦡🦫",
                 question: "How far can blue whale calls travel?",
                 options: ["10 miles", "100 miles", "1,000 miles", "5,000 miles"],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Reptiles",
                 emoji: "🦨🦔",
                 question: "Can chameleons see in two directions?",
                 options: ["No", "Yes, independently", "Only forward", "Only backward"],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Insects",
@@ -6165,14 +6165,14 @@ const animalsChapters11to20 = {
                 emoji: "🐬🐳",
                 question: "What is an eagle's grip strength?",
                 options: ["50 PSI", "200 PSI", "400 PSI", "800 PSI"],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Marine Life",
                 emoji: "🐊🦎",
                 question: "How many hearts does a squid have?",
                 options: ["1", "2", "3", "4"],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Amphibians",
@@ -6186,7 +6186,7 @@ const animalsChapters11to20 = {
                 emoji: "🦁🐯",
                 question: "How long can beavers hold breath?",
                 options: ["2 min", "5 min", "15 min", "30 min"],
-                correct: 2
+                correct: 1
             }
         ],
         extreme: [

@@ -13,7 +13,7 @@ const technologyQuestions = {
         "easy": [
             {
                 "topic": "Programming",
-                "emoji": "💻👨‍💻",
+                "emoji": "💻🖥️",
                 "question": "Is Python a programming language?",
                 "options": [
                     "True",
@@ -23,7 +23,7 @@ const technologyQuestions = {
             },
             {
                 "topic": "Hardware",
-                "emoji": "🖥️⌨️",
+                "emoji": "📱📲",
                 "question": "Is RAM computer memory?",
                 "options": [
                     "True",
@@ -33,7 +33,7 @@ const technologyQuestions = {
             },
             {
                 "topic": "Software",
-                "emoji": "📱💾",
+                "emoji": "⌨️🖱️",
                 "question": "Are apps software programs?",
                 "options": [
                     "False",
@@ -43,7 +43,7 @@ const technologyQuestions = {
             },
             {
                 "topic": "Networking",
-                "emoji": "🌐📡",
+                "emoji": "🖨️📠",
                 "question": "Is WiFi wireless internet?",
                 "options": [
                     "False",
@@ -53,7 +53,7 @@ const technologyQuestions = {
             },
             {
                 "topic": "Programming",
-                "emoji": "💻🔢",
+                "emoji": "💾💿",
                 "question": "Is HTML used for web pages?",
                 "options": [
                     "False",
@@ -63,7 +63,7 @@ const technologyQuestions = {
             },
             {
                 "topic": "Hardware",
-                "emoji": "🖥️💽",
+                "emoji": "📡🛰️",
                 "question": "Is SSD faster than HDD?",
                 "options": [
                     "True",
@@ -73,7 +73,7 @@ const technologyQuestions = {
             },
             {
                 "topic": "Software",
-                "emoji": "📱🖥️",
+                "emoji": "🔌🔋",
                 "question": "Is operating systems manage computers?",
                 "options": [
                     "True",
@@ -83,7 +83,7 @@ const technologyQuestions = {
             },
             {
                 "topic": "Networking",
-                "emoji": "🌐🔒",
+                "emoji": "💡🔦",
                 "question": "Is HTTPS secure browsing?",
                 "options": [
                     "True",
@@ -93,7 +93,7 @@ const technologyQuestions = {
             },
             {
                 "topic": "Programming",
-                "emoji": "💻📊",
+                "emoji": "🤖🦾",
                 "question": "Does javaScript run in web browsers?",
                 "options": [
                     "True",
@@ -103,7 +103,7 @@ const technologyQuestions = {
             },
             {
                 "topic": "Hardware",
-                "emoji": "🖥️🎮",
+                "emoji": "🚀🛸",
                 "question": "Is GPU for graphics processing?",
                 "options": [
                     "False",
@@ -115,7 +115,7 @@ const technologyQuestions = {
         "medium": [
             {
                 "topic": "Programming",
-                "emoji": "💻👨‍💻",
+                "emoji": "🔬🧬",
                 "question": "What does the acronym API stand for?",
                 "options": [
                     "Application Programming Interface",
@@ -125,7 +125,7 @@ const technologyQuestions = {
             },
             {
                 "topic": "Hardware",
-                "emoji": "🖥️⌨️",
+                "emoji": "⚙️🔧",
                 "question": "What does the acronym CPU stand for?",
                 "options": [
                     "Computer Power Unit",
@@ -135,7 +135,7 @@ const technologyQuestions = {
             },
             {
                 "topic": "Software",
-                "emoji": "📱💾",
+                "emoji": "🛠️🔨",
                 "question": "What is open source software?",
                 "options": [
                     "Free and modifiable",
@@ -145,7 +145,7 @@ const technologyQuestions = {
             },
             {
                 "topic": "Networking",
-                "emoji": "🌐📡",
+                "emoji": "📊📈",
                 "question": "What does IP address identify?",
                 "options": [
                     "User name",
@@ -155,7 +155,7 @@ const technologyQuestions = {
             },
             {
                 "topic": "Programming",
-                "emoji": "💻🔢",
+                "emoji": "🌐💻",
                 "question": "What is a variable?",
                 "options": [
                     "Deletes files",
@@ -165,7 +165,7 @@ const technologyQuestions = {
             },
             {
                 "topic": "Hardware",
-                "emoji": "🖥️💽",
+                "emoji": "🔒🔐",
                 "question": "What does the acronym ROM stand for?",
                 "options": [
                     "Random Operating Memory",
@@ -175,7 +175,7 @@ const technologyQuestions = {
             },
             {
                 "topic": "Software",
-                "emoji": "📱🖥️",
+                "emoji": "🔑🗝️",
                 "question": "What is cloud computing?",
                 "options": [
                     "Remote servers",
@@ -185,7 +185,7 @@ const technologyQuestions = {
             },
             {
                 "topic": "Networking",
-                "emoji": "🌐🔒",
+                "emoji": "📧💌",
                 "question": "What is a firewall?",
                 "options": [
                     "Internet speed",
@@ -195,7 +195,7 @@ const technologyQuestions = {
             },
             {
                 "topic": "Programming",
-                "emoji": "💻📊",
+                "emoji": "☁️💾",
                 "question": "What does the acronym debugging stand for?",
                 "options": [
                     "Writing code",
@@ -205,7 +205,7 @@ const technologyQuestions = {
             },
             {
                 "topic": "Hardware",
-                "emoji": "🖥️🎮",
+                "emoji": "🖼️📸",
                 "question": "What does the acronym bandwidth stand for?",
                 "options": [
                     "Storage space",
@@ -217,7 +217,7 @@ const technologyQuestions = {
         "hard": [
             {
                 "topic": "Programming",
-                "emoji": "💻👨‍💻",
+                "emoji": "🎮🕹️",
                 "question": "What is object-oriented programming?",
                 "options": [
                     "Using objects and classes",
@@ -228,7 +228,7 @@ const technologyQuestions = {
             },
             {
                 "topic": "Hardware",
-                "emoji": "🖥️⌨️",
+                "emoji": "🎧🎤",
                 "question": "What is Moore's Law?",
                 "options": [
                     "Transistors double every 2 years",
@@ -239,7 +239,7 @@ const technologyQuestions = {
             },
             {
                 "topic": "Software",
-                "emoji": "📱💾",
+                "emoji": "📹📷",
                 "question": "What is machine learning?",
                 "options": [
                     "Hardware upgrade",
@@ -250,7 +250,7 @@ const technologyQuestions = {
             },
             {
                 "topic": "Networking",
-                "emoji": "🌐📡",
+                "emoji": "🎬🎞️",
                 "question": "What is TCP/IP?",
                 "options": [
                     "Storage system",
@@ -261,7 +261,7 @@ const technologyQuestions = {
             },
             {
                 "topic": "Programming",
-                "emoji": "💻🔢",
+                "emoji": "📺📻",
                 "question": "What does the acronym recursion stand for?",
                 "options": [
                     "Variable",
@@ -272,7 +272,7 @@ const technologyQuestions = {
             },
             {
                 "topic": "Hardware",
-                "emoji": "🖥️💽",
+                "emoji": "⚡💡",
                 "question": "What is quantum computing?",
                 "options": [
                     "Uses quantum mechanics",
@@ -283,7 +283,7 @@ const technologyQuestions = {
             },
             {
                 "topic": "Software",
-                "emoji": "📱🖥️",
+                "emoji": "🧪⚗️",
                 "question": "What does the acronym blockchain stand for?",
                 "options": [
                     "Database",
@@ -294,7 +294,7 @@ const technologyQuestions = {
             },
             {
                 "topic": "Networking",
-                "emoji": "🌐🔒",
+                "emoji": "🔭🌌",
                 "question": "What does the acronym VPN stand for?",
                 "options": [
                     "Virtual Private Network",
@@ -305,7 +305,7 @@ const technologyQuestions = {
             },
             {
                 "topic": "Programming",
-                "emoji": "💻📊",
+                "emoji": "🗂️📋",
                 "question": "What does the acronym SQL stand for?",
                 "options": [
                     "Web language",
@@ -316,7 +316,7 @@ const technologyQuestions = {
             },
             {
                 "topic": "Hardware",
-                "emoji": "🖥️🎮",
+                "emoji": "💳💰",
                 "question": "What is 5G?",
                 "options": [
                     "5 gigahertz",

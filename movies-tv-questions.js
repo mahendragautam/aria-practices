@@ -23,7 +23,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Friends",
-                emoji: "🏆🌟",
+                emoji: "🍿🥤",
                 question: "Friends is set in New York City.",
                 options: [
                     "True",
@@ -33,7 +33,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Jurassic Park",
-                emoji: "👑💍",
+                emoji: "🎞️📽️",
                 question: "Jurassic Park has real dinosaurs.",
                 options: [
                     "True",
@@ -43,7 +43,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Breaking Bad",
-                emoji: "🦸🦹",
+                emoji: "📺📻",
                 question: "Walter White is a chemistry teacher.",
                 options: [
                     "False",
@@ -53,7 +53,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Finding Nemo",
-                emoji: "🚀🌌",
+                emoji: "🎤🎧",
                 question: "Nemo is a clownfish.",
                 options: [
                     "True",
@@ -63,7 +63,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "The Walking Dead",
-                emoji: "🧙🔮",
+                emoji: "🎵🎶",
                 question: "The Walking Dead features zombies.",
                 options: [
                     "True",
@@ -73,7 +73,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Batman",
-                emoji: "🦖🦕",
+                emoji: "🏆🥇",
                 question: "Batman lives in Gotham City.",
                 options: [
                     "False",
@@ -83,7 +83,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Game of Thrones",
-                emoji: "🕷️🕸️",
+                emoji: "⭐🌟",
                 question: "Game of Thrones has dragons.",
                 options: [
                     "True",
@@ -93,7 +93,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Toy Story",
-                emoji: "⚔️🛡️",
+                emoji: "🎨🖼️",
                 question: "Woody is a cowboy toy.",
                 options: [
                     "False",
@@ -105,7 +105,7 @@ const moviesTVQuestions = {
         medium: [
             {
                 topic: "Inception",
-                emoji: "💎🏝️",
+                emoji: "📸📷",
                 question: "What does Dom Cobb do?",
                 options: [
                     "Steals from dreams",
@@ -115,7 +115,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "The Office",
-                emoji: "🐉⚡",
+                emoji: "🎟️🎫",
                 question: "What company do they work for?",
                 options: [
                     "Dunder Mifflin",
@@ -125,7 +125,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "The Matrix",
-                emoji: "🤖🔧",
+                emoji: "🎪🎡",
                 question: "What color pill does Neo take?",
                 options: [
                     "Red",
@@ -135,7 +135,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Stranger Things",
-                emoji: "🏴‍☠️⚓",
+                emoji: "🎢🎠",
                 question: "What is the alternate dimension called?",
                 options: [
                     "The Upside Down",
@@ -145,7 +145,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Pulp Fiction",
-                emoji: "👻👽",
+                emoji: "🎰🃏",
                 question: "Who directed Pulp Fiction?",
                 options: [
                     "Quentin Tarantino",
@@ -155,7 +155,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "How I Met Your Mother",
-                emoji: "🔫💥",
+                emoji: "👑💎",
                 question: "What is Barney's catchphrase?",
                 options: [
                     "Legendary",
@@ -165,7 +165,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Fight Club",
-                emoji: "🎩🎪",
+                emoji: "🗡️⚔️",
                 question: "What does Tyler Durden sell?",
                 options: [
                     "Soap",
@@ -175,7 +175,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "The Big Bang Theory",
-                emoji: "🌹💔",
+                emoji: "🚀🛸",
                 question: "What is Sheldon's profession?",
                 options: [
                     "Physicist",
@@ -185,7 +185,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Forrest Gump",
-                emoji: "🎸🎤",
+                emoji: "👽🤖",
                 question: "What does Forrest say life is like?",
                 options: [
                     "Box of chocolates",
@@ -195,7 +195,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Parks and Recreation",
-                emoji: "🏃💨",
+                emoji: "🦸🦹",
                 question: "What is Leslie's dream project?",
                 options: [
                     "Park",
@@ -207,7 +207,7 @@ const moviesTVQuestions = {
         hard: [
             {
                 topic: "The Godfather",
-                emoji: "🎯🎲",
+                emoji: "🧙🧚",
                 question: "Who directed The Godfather?",
                 options: [
                     "Francis Ford Coppola",
@@ -218,7 +218,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "The Wire",
-                emoji: "🎰🃏",
+                emoji: "🧛🧟",
                 question: "What city is The Wire set in?",
                 options: [
                     "Baltimore",
@@ -229,7 +229,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "The Shawshank Redemption",
-                emoji: "🏎️💨",
+                emoji: "👻💀",
                 question: "How many years was Andy imprisoned?",
                 options: [
                     "19",
@@ -240,7 +240,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Mad Men",
-                emoji: "🚁✈️",
+                emoji: "🐉🦖",
                 question: "What decade is Mad Men primarily set in?",
                 options: [
                     "1960s",
@@ -251,7 +251,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "The Dark Knight",
-                emoji: "🦇🌃",
+                emoji: "🦄🐴",
                 question: "Who played the Joker?",
                 options: [
                     "Heath Ledger",
@@ -262,7 +262,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Lost",
-                emoji: "👮🔍",
+                emoji: "🏰🏛️",
                 question: "How many main seasons does Lost have?",
                 options: [
                     "6",
@@ -273,7 +273,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Goodfellas",
-                emoji: "💰💵",
+                emoji: "🗼🌉",
                 question: "Who plays Henry Hill?",
                 options: [
                     "Ray Liotta",
@@ -284,7 +284,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "The West Wing",
-                emoji: "🎭😂",
+                emoji: "🌃🌆",
                 question: "Who is the President in The West Wing?",
                 options: [
                     "Josiah Bartlet",
@@ -295,7 +295,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Schindler's List",
-                emoji: "🎪🤡",
+                emoji: "💥⚡",
                 question: "What war is Schindler's List set during?",
                 options: [
                     "World War II",
@@ -306,7 +306,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Twin Peaks",
-                emoji: "🎬📹",
+                emoji: "🔥💫",
                 question: "Who killed Laura Palmer?",
                 options: [
                     "Leland Palmer",

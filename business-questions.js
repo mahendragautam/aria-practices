@@ -13,7 +13,7 @@ const businessQuestions = {
         "easy": [
             {
                 "topic": "Marketing",
-                "emoji": "📢📊",
+                "emoji": "💼👔",
                 "question": "Does marketing help sell products?",
                 "options": [
                     "False",
@@ -33,7 +33,7 @@ const businessQuestions = {
             },
             {
                 "topic": "Management",
-                "emoji": "👔📊",
+                "emoji": "📊📈",
                 "question": "Is managers lead teams?",
                 "options": [
                     "False",
@@ -43,7 +43,7 @@ const businessQuestions = {
             },
             {
                 "topic": "Accounting",
-                "emoji": "📊💼",
+                "emoji": "🏢🏦",
                 "question": "Is accounting tracks money?",
                 "options": [
                     "True",
@@ -53,7 +53,7 @@ const businessQuestions = {
             },
             {
                 "topic": "Marketing",
-                "emoji": "📢🎯",
+                "emoji": "💳💸",
                 "question": "Is advertising part of marketing?",
                 "options": [
                     "False",
@@ -63,7 +63,7 @@ const businessQuestions = {
             },
             {
                 "topic": "Finance",
-                "emoji": "💰📈",
+                "emoji": "📈📉",
                 "question": "Is revenue money earned?",
                 "options": [
                     "False",
@@ -73,7 +73,7 @@ const businessQuestions = {
             },
             {
                 "topic": "Management",
-                "emoji": "👔📋",
+                "emoji": "🤝💼",
                 "question": "Is planning important for business?",
                 "options": [
                     "False",
@@ -83,7 +83,7 @@ const businessQuestions = {
             },
             {
                 "topic": "Accounting",
-                "emoji": "📊💵",
+                "emoji": "💡🔦",
                 "question": "Is budgets help control spending?",
                 "options": [
                     "True",
@@ -93,7 +93,7 @@ const businessQuestions = {
             },
             {
                 "topic": "Marketing",
-                "emoji": "📢📱",
+                "emoji": "📱💻",
                 "question": "Is social media used for marketing?",
                 "options": [
                     "True",
@@ -103,7 +103,7 @@ const businessQuestions = {
             },
             {
                 "topic": "Finance",
-                "emoji": "💰🏦",
+                "emoji": "🖥️⌨️",
                 "question": "Is banks provide business loans?",
                 "options": [
                     "True",
@@ -115,7 +115,7 @@ const businessQuestions = {
         "medium": [
             {
                 "topic": "Marketing",
-                "emoji": "📢📊",
+                "emoji": "📞☎️",
                 "question": "What are the 4 Ps of marketing?",
                 "options": [
                     "Profit, People, Plan, Price",
@@ -125,7 +125,7 @@ const businessQuestions = {
             },
             {
                 "topic": "Finance",
-                "emoji": "💰💵",
+                "emoji": "📧💌",
                 "question": "What does the acronym ROI stand for?",
                 "options": [
                     "Rate of Income",
@@ -135,7 +135,7 @@ const businessQuestions = {
             },
             {
                 "topic": "Management",
-                "emoji": "👔📊",
+                "emoji": "🗂️📋",
                 "question": "What does the acronym delegation stand for?",
                 "options": [
                     "Doing everything",
@@ -145,7 +145,7 @@ const businessQuestions = {
             },
             {
                 "topic": "Accounting",
-                "emoji": "📊💼",
+                "emoji": "📝✍️",
                 "question": "What is a balance sheet?",
                 "options": [
                     "Financial statement",
@@ -155,7 +155,7 @@ const businessQuestions = {
             },
             {
                 "topic": "Marketing",
-                "emoji": "📢🎯",
+                "emoji": "🎯🎲",
                 "question": "What is a target market?",
                 "options": [
                     "All customers",
@@ -165,7 +165,7 @@ const businessQuestions = {
             },
             {
                 "topic": "Finance",
-                "emoji": "💰📈",
+                "emoji": "📅🗓️",
                 "question": "What is cash flow?",
                 "options": [
                     "Money in and out",
@@ -175,7 +175,7 @@ const businessQuestions = {
             },
             {
                 "topic": "Management",
-                "emoji": "👔📋",
+                "emoji": "⏰⏱️",
                 "question": "What is SWOT analysis?",
                 "options": [
                     "Strengths, Weaknesses, Opportunities, Threats",
@@ -185,7 +185,7 @@ const businessQuestions = {
             },
             {
                 "topic": "Accounting",
-                "emoji": "📊💵",
+                "emoji": "🏆🥇",
                 "question": "What are assets?",
                 "options": [
                     "Things owned",
@@ -195,7 +195,7 @@ const businessQuestions = {
             },
             {
                 "topic": "Marketing",
-                "emoji": "📢📱",
+                "emoji": "🎖️🏅",
                 "question": "What does the acronym branding stand for?",
                 "options": [
                     "Creating identity",
@@ -205,7 +205,7 @@ const businessQuestions = {
             },
             {
                 "topic": "Finance",
-                "emoji": "💰🏦",
+                "emoji": "📢📣",
                 "question": "What does the acronym equity stand for?",
                 "options": [
                     "Debt",
@@ -217,7 +217,7 @@ const businessQuestions = {
         "hard": [
             {
                 "topic": "Marketing",
-                "emoji": "📢📊",
+                "emoji": "🔔📯",
                 "question": "What is market segmentation?",
                 "options": [
                     "Increasing prices",
@@ -228,7 +228,7 @@ const businessQuestions = {
             },
             {
                 "topic": "Finance",
-                "emoji": "💰💵",
+                "emoji": "🚀🛸",
                 "question": "What is the break-even point?",
                 "options": [
                     "Minimum loss",
@@ -239,7 +239,7 @@ const businessQuestions = {
             },
             {
                 "topic": "Management",
-                "emoji": "👔📊",
+                "emoji": "💹📊",
                 "question": "What is Six Sigma?",
                 "options": [
                     "Quality improvement method",
@@ -250,7 +250,7 @@ const businessQuestions = {
             },
             {
                 "topic": "Accounting",
-                "emoji": "📊💼",
+                "emoji": "🏪🛍️",
                 "question": "What does the acronym depreciation stand for?",
                 "options": [
                     "Debt payment",
@@ -261,7 +261,7 @@ const businessQuestions = {
             },
             {
                 "topic": "Marketing",
-                "emoji": "📢🎯",
+                "emoji": "🛒🏬",
                 "question": "What is customer lifetime value?",
                 "options": [
                     "Total customer spending",
@@ -272,7 +272,7 @@ const businessQuestions = {
             },
             {
                 "topic": "Finance",
-                "emoji": "💰📈",
+                "emoji": "📦📫",
                 "question": "What is working capital?",
                 "options": [
                     "Current assets minus liabilities",
@@ -283,7 +283,7 @@ const businessQuestions = {
             },
             {
                 "topic": "Management",
-                "emoji": "👔📋",
+                "emoji": "🚚🚛",
                 "question": "What does the acronym KPI stand for?",
                 "options": [
                     "Key Performance Indicator",
@@ -294,7 +294,7 @@ const businessQuestions = {
             },
             {
                 "topic": "Accounting",
-                "emoji": "📊💵",
+                "emoji": "✈️🌐",
                 "question": "What does the acronym GAAP stand for?",
                 "options": [
                     "Tax code",
@@ -305,7 +305,7 @@ const businessQuestions = {
             },
             {
                 "topic": "Marketing",
-                "emoji": "📢📱",
+                "emoji": "🗺️🧭",
                 "question": "What is B2B marketing?",
                 "options": [
                     "Brand to Buyer",
@@ -316,7 +316,7 @@ const businessQuestions = {
             },
             {
                 "topic": "Finance",
-                "emoji": "💰🏦",
+                "emoji": "💎💍",
                 "question": "What is venture capital?",
                 "options": [
                     "Bank loan",

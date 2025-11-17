@@ -23,7 +23,7 @@ const parentingQuestions = {
             },
             {
                 "topic": "Toddler",
-                "emoji": "👧🧒",
+                "emoji": "🧸🎀",
                 "question": "Are toddlers learning to walk?",
                 "options": [
                     "True",
@@ -33,7 +33,7 @@ const parentingQuestions = {
             },
             {
                 "topic": "Preschool",
-                "emoji": "🎨📚",
+                "emoji": "🎈🎂",
                 "question": "Is play important for learning?",
                 "options": [
                     "False",
@@ -43,7 +43,7 @@ const parentingQuestions = {
             },
             {
                 "topic": "School Age",
-                "emoji": "📖🎒",
+                "emoji": "📚📖",
                 "question": "Does reading help child development?",
                 "options": [
                     "False",
@@ -53,7 +53,7 @@ const parentingQuestions = {
             },
             {
                 "topic": "Newborn",
-                "emoji": "👶😴",
+                "emoji": "✏️🖍️",
                 "question": "Is babies sleep a lot?",
                 "options": [
                     "False",
@@ -63,7 +63,7 @@ const parentingQuestions = {
             },
             {
                 "topic": "Toddler",
-                "emoji": "👧🗣️",
+                "emoji": "🎨🖌️",
                 "question": "Is toddlers start speaking words?",
                 "options": [
                     "True",
@@ -73,7 +73,7 @@ const parentingQuestions = {
             },
             {
                 "topic": "Preschool",
-                "emoji": "🎨👫",
+                "emoji": "🧩🎲",
                 "question": "Is preschoolers learn social skills?",
                 "options": [
                     "True",
@@ -83,7 +83,7 @@ const parentingQuestions = {
             },
             {
                 "topic": "School Age",
-                "emoji": "📖✏️",
+                "emoji": "⚽🏀",
                 "question": "Is homework teaches responsibility?",
                 "options": [
                     "True",
@@ -93,7 +93,7 @@ const parentingQuestions = {
             },
             {
                 "topic": "Newborn",
-                "emoji": "👶🤱",
+                "emoji": "🏐🎾",
                 "question": "Is breastfeeding provides nutrition?",
                 "options": [
                     "False",
@@ -103,7 +103,7 @@ const parentingQuestions = {
             },
             {
                 "topic": "Toddler",
-                "emoji": "👧🧸",
+                "emoji": "🚲🛴",
                 "question": "Is toddlers like routines?",
                 "options": [
                     "True",
@@ -115,7 +115,7 @@ const parentingQuestions = {
         "medium": [
             {
                 "topic": "Newborn",
-                "emoji": "👶🍼",
+                "emoji": "🎮🕹️",
                 "question": "How many hours do newborns sleep?",
                 "options": [
                     "8 hours",
@@ -125,7 +125,7 @@ const parentingQuestions = {
             },
             {
                 "topic": "Toddler",
-                "emoji": "👧🧒",
+                "emoji": "📱💻",
                 "question": "At what age do toddlers typically walk?",
                 "options": [
                     "12-15 months",
@@ -135,7 +135,7 @@ const parentingQuestions = {
             },
             {
                 "topic": "Preschool",
-                "emoji": "🎨📚",
+                "emoji": "🏫🎒",
                 "question": "What age is preschool?",
                 "options": [
                     "3-5 years",
@@ -145,7 +145,7 @@ const parentingQuestions = {
             },
             {
                 "topic": "School Age",
-                "emoji": "📖🎒",
+                "emoji": "🍎🥤",
                 "question": "When does elementary school typically start?",
                 "options": [
                     "Age 3",
@@ -155,7 +155,7 @@ const parentingQuestions = {
             },
             {
                 "topic": "Newborn",
-                "emoji": "👶😴",
+                "emoji": "🥗🍱",
                 "question": "What is tummy time?",
                 "options": [
                     "Baby on stomach",
@@ -165,7 +165,7 @@ const parentingQuestions = {
             },
             {
                 "topic": "Toddler",
-                "emoji": "👧🗣️",
+                "emoji": "😴🛌",
                 "question": "What is parallel play?",
                 "options": [
                     "Playing alongside others",
@@ -175,7 +175,7 @@ const parentingQuestions = {
             },
             {
                 "topic": "Preschool",
-                "emoji": "🎨👫",
+                "emoji": "🛁🧼",
                 "question": "What skills do preschoolers develop?",
                 "options": [
                     "Only reading",
@@ -185,7 +185,7 @@ const parentingQuestions = {
             },
             {
                 "topic": "School Age",
-                "emoji": "📖✏️",
+                "emoji": "👕👗",
                 "question": "Why is routine important?",
                 "options": [
                     "No reason",
@@ -195,7 +195,7 @@ const parentingQuestions = {
             },
             {
                 "topic": "Newborn",
-                "emoji": "👶🤱",
+                "emoji": "👞🥿",
                 "question": "How often should newborns eat?",
                 "options": [
                     "Once daily",
@@ -205,7 +205,7 @@ const parentingQuestions = {
             },
             {
                 "topic": "Toddler",
-                "emoji": "👧🧸",
+                "emoji": "🧦🧤",
                 "question": "What are tantrums?",
                 "options": [
                     "Emotional outbursts",
@@ -217,7 +217,7 @@ const parentingQuestions = {
         "hard": [
             {
                 "topic": "Newborn",
-                "emoji": "👶🍼",
+                "emoji": "🎵🎶",
                 "question": "What is the Moro reflex?",
                 "options": [
                     "Crying reflex",
@@ -228,7 +228,7 @@ const parentingQuestions = {
             },
             {
                 "topic": "Toddler",
-                "emoji": "👧🧒",
+                "emoji": "🎤🎧",
                 "question": "What is object permanence?",
                 "options": [
                     "Sharing toys",
@@ -239,7 +239,7 @@ const parentingQuestions = {
             },
             {
                 "topic": "Preschool",
-                "emoji": "🎨📚",
+                "emoji": "📺📻",
                 "question": "What is theory of mind?",
                 "options": [
                     "Math skills",
@@ -250,7 +250,7 @@ const parentingQuestions = {
             },
             {
                 "topic": "School Age",
-                "emoji": "📖🎒",
+                "emoji": "🎬🍿",
                 "question": "What is concrete operational stage?",
                 "options": [
                     "Teen stage",
@@ -261,7 +261,7 @@ const parentingQuestions = {
             },
             {
                 "topic": "Newborn",
-                "emoji": "👶😴",
+                "emoji": "🏃🤸",
                 "question": "What does the acronym SIDS stand for?",
                 "options": [
                     "Sleep disorder",
@@ -272,7 +272,7 @@ const parentingQuestions = {
             },
             {
                 "topic": "Toddler",
-                "emoji": "👧🗣️",
+                "emoji": "🧘🏊",
                 "question": "What is telegraphic speech?",
                 "options": [
                     "Full sentences",
@@ -283,7 +283,7 @@ const parentingQuestions = {
             },
             {
                 "topic": "Preschool",
-                "emoji": "🎨👫",
+                "emoji": "🏕️⛺",
                 "question": "What are gross motor skills?",
                 "options": [
                     "Thinking skills",
@@ -294,7 +294,7 @@ const parentingQuestions = {
             },
             {
                 "topic": "School Age",
-                "emoji": "📖✏️",
+                "emoji": "🏖️🏝️",
                 "question": "What is growth mindset?",
                 "options": [
                     "IQ level",
@@ -305,7 +305,7 @@ const parentingQuestions = {
             },
             {
                 "topic": "Newborn",
-                "emoji": "👶🤱",
+                "emoji": "🎡🎢",
                 "question": "What does the acronym colostrum stand for?",
                 "options": [
                     "First breast milk",
@@ -316,7 +316,7 @@ const parentingQuestions = {
             },
             {
                 "topic": "Toddler",
-                "emoji": "👧🧸",
+                "emoji": "🎪🎭",
                 "question": "What is separation anxiety?",
                 "options": [
                     "Fear of parent leaving",

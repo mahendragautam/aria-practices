@@ -13,7 +13,7 @@ const historyQuestions = {
         "easy": [
             {
                 "topic": "Ancient",
-                "emoji": "🏛️👑",
+                "emoji": "👑🏰",
                 "question": "Are the pyramids in Egypt?",
                 "options": [
                     "True",
@@ -23,7 +23,7 @@ const historyQuestions = {
             },
             {
                 "topic": "Modern",
-                "emoji": "🌍🗺️",
+                "emoji": "⚔️🛡️",
                 "question": "Is world War II ended in 1945?",
                 "options": [
                     "True",
@@ -33,7 +33,7 @@ const historyQuestions = {
             },
             {
                 "topic": "Ancient",
-                "emoji": "⚔️🛡️",
+                "emoji": "📜🖋️",
                 "question": "Is romans built the Colosseum?",
                 "options": [
                     "True",
@@ -43,7 +43,7 @@ const historyQuestions = {
             },
             {
                 "topic": "Medieval",
-                "emoji": "🏰👑",
+                "emoji": "🏛️🏺",
                 "question": "Is knights lived in castles?",
                 "options": [
                     "False",
@@ -53,7 +53,7 @@ const historyQuestions = {
             },
             {
                 "topic": "Modern",
-                "emoji": "🚀🌕",
+                "emoji": "🗿🗽",
                 "question": "Is humans landed on the moon in 1969?",
                 "options": [
                     "False",
@@ -63,7 +63,7 @@ const historyQuestions = {
             },
             {
                 "topic": "Ancient",
-                "emoji": "📜🏛️",
+                "emoji": "🎖️🏅",
                 "question": "Is ancient Greeks invented democracy?",
                 "options": [
                     "False",
@@ -73,7 +73,7 @@ const historyQuestions = {
             },
             {
                 "topic": "Renaissance",
-                "emoji": "🎨🖼️",
+                "emoji": "🕰️⌛",
                 "question": "Was leonardo da Vinci a Renaissance artist?",
                 "options": [
                     "False",
@@ -83,7 +83,7 @@ const historyQuestions = {
             },
             {
                 "topic": "Modern",
-                "emoji": "🗽🇺🇸",
+                "emoji": "🗺️🧭",
                 "question": "Is uSA declared independence in 1776?",
                 "options": [
                     "True",
@@ -93,7 +93,7 @@ const historyQuestions = {
             },
             {
                 "topic": "Medieval",
-                "emoji": "⚔️🏰",
+                "emoji": "📖📚",
                 "question": "Is the Middle Ages lasted about 1000 years?",
                 "options": [
                     "True",
@@ -103,7 +103,7 @@ const historyQuestions = {
             },
             {
                 "topic": "Ancient",
-                "emoji": "🐉👑",
+                "emoji": "🏺⚱️",
                 "question": "Was the Great Wall of China built in ancient times?",
                 "options": [
                     "False",
@@ -115,7 +115,7 @@ const historyQuestions = {
         "medium": [
             {
                 "topic": "Ancient",
-                "emoji": "🏛️📜",
+                "emoji": "🎭🎪",
                 "question": "Who was the first Roman Emperor?",
                 "options": [
                     "Augustus",
@@ -125,7 +125,7 @@ const historyQuestions = {
             },
             {
                 "topic": "Modern",
-                "emoji": "🗽📜",
+                "emoji": "🚂🚢",
                 "question": "Who wrote the Declaration of Independence?",
                 "options": [
                     "George Washington",
@@ -135,7 +135,7 @@ const historyQuestions = {
             },
             {
                 "topic": "Medieval",
-                "emoji": "⚔️👑",
+                "emoji": "⚓🚢",
                 "question": "What were medieval soldiers called?",
                 "options": [
                     "Knights",
@@ -145,7 +145,7 @@ const historyQuestions = {
             },
             {
                 "topic": "Ancient",
-                "emoji": "🏺🏛️",
+                "emoji": "🏴🏳️",
                 "question": "Which civilization built Machu Picchu?",
                 "options": [
                     "Inca",
@@ -155,7 +155,7 @@ const historyQuestions = {
             },
             {
                 "topic": "Modern",
-                "emoji": "🌍⚔️",
+                "emoji": "🗝️🔐",
                 "question": "Who led India to independence?",
                 "options": [
                     "Nehru",
@@ -165,7 +165,7 @@ const historyQuestions = {
             },
             {
                 "topic": "Renaissance",
-                "emoji": "🎨🖼️",
+                "emoji": "👨‍🌾🌾",
                 "question": "Who painted the Mona Lisa?",
                 "options": [
                     "Michelangelo",
@@ -175,7 +175,7 @@ const historyQuestions = {
             },
             {
                 "topic": "Ancient",
-                "emoji": "⚔️🏛️",
+                "emoji": "🏹🎯",
                 "question": "Which empire was led by Alexander?",
                 "options": [
                     "Macedonian",
@@ -185,7 +185,7 @@ const historyQuestions = {
             },
             {
                 "topic": "Modern",
-                "emoji": "✈️⚔️",
+                "emoji": "📯🎺",
                 "question": "What triggered World War I?",
                 "options": [
                     "Assassination",
@@ -195,7 +195,7 @@ const historyQuestions = {
             },
             {
                 "topic": "Medieval",
-                "emoji": "📜👑",
+                "emoji": "🎨🖼️",
                 "question": "What was the Magna Carta?",
                 "options": [
                     "Charter of rights",
@@ -205,7 +205,7 @@ const historyQuestions = {
             },
             {
                 "topic": "Ancient",
-                "emoji": "📜🏛️",
+                "emoji": "🏗️🏛️",
                 "question": "Who was the Egyptian sun god?",
                 "options": [
                     "Osiris",
@@ -217,7 +217,7 @@ const historyQuestions = {
         "hard": [
             {
                 "topic": "Ancient",
-                "emoji": "🏛️👑",
+                "emoji": "📿⛪",
                 "question": "In which year did Rome fall?",
                 "options": [
                     "500 AD",
@@ -228,7 +228,7 @@ const historyQuestions = {
             },
             {
                 "topic": "Modern",
-                "emoji": "⚔️🌍",
+                "emoji": "🕌🛕",
                 "question": "When did World War I start?",
                 "options": [
                     "1914",
@@ -239,7 +239,7 @@ const historyQuestions = {
             },
             {
                 "topic": "Medieval",
-                "emoji": "⚔️🏰",
+                "emoji": "🏯🏰",
                 "question": "What was the Black Death?",
                 "options": [
                     "War",
@@ -250,7 +250,7 @@ const historyQuestions = {
             },
             {
                 "topic": "Renaissance",
-                "emoji": "🎨📚",
+                "emoji": "⚒️🔨",
                 "question": "When did the Renaissance begin?",
                 "options": [
                     "14th century",
@@ -261,7 +261,7 @@ const historyQuestions = {
             },
             {
                 "topic": "Ancient",
-                "emoji": "🏺📜",
+                "emoji": "📜📄",
                 "question": "Who was Cleopatra?",
                 "options": [
                     "Greek goddess",
@@ -272,7 +272,7 @@ const historyQuestions = {
             },
             {
                 "topic": "Modern",
-                "emoji": "🗽📜",
+                "emoji": "🖊️✒️",
                 "question": "When was the US Constitution signed?",
                 "options": [
                     "1787",
@@ -283,7 +283,7 @@ const historyQuestions = {
             },
             {
                 "topic": "Medieval",
-                "emoji": "🏰👑",
+                "emoji": "🗞️📰",
                 "question": "What were the Crusades?",
                 "options": [
                     "Religious wars",
@@ -294,7 +294,7 @@ const historyQuestions = {
             },
             {
                 "topic": "Ancient",
-                "emoji": "⚔️🛡️",
+                "emoji": "🎖️🏆",
                 "question": "Who led Carthage against Rome?",
                 "options": [
                     "Hannibal",
@@ -305,7 +305,7 @@ const historyQuestions = {
             },
             {
                 "topic": "Modern",
-                "emoji": "🚂⚙️",
+                "emoji": "👔🎩",
                 "question": "When did the Industrial Revolution begin?",
                 "options": [
                     "1860s",
@@ -316,7 +316,7 @@ const historyQuestions = {
             },
             {
                 "topic": "Renaissance",
-                "emoji": "🖼️🎨",
+                "emoji": "🚀🛸",
                 "question": "Who sculpted David?",
                 "options": [
                     "Leonardo",

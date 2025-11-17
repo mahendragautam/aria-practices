@@ -3,7 +3,7 @@ const foodDrinksQuestions = {
         "easy": [
             {
                 "topic": "Fruits",
-                "emoji": "🍎🍌",
+                "emoji": "🍕🍔",
                 "question": "Are bananas yellow when ripe?",
                 "options": [
                     "True",
@@ -13,7 +13,7 @@ const foodDrinksQuestions = {
             },
             {
                 "topic": "Beverages",
-                "emoji": "☕🔥",
+                "emoji": "🍟🌭",
                 "question": "Is coffee a hot beverage?",
                 "options": [
                     "False",
@@ -23,7 +23,7 @@ const foodDrinksQuestions = {
             },
             {
                 "topic": "Pizza",
-                "emoji": "🍕🇮🇹",
+                "emoji": "🍿🥨",
                 "question": "Does pizza originate from Italy?",
                 "options": [
                     "True",
@@ -33,7 +33,7 @@ const foodDrinksQuestions = {
             },
             {
                 "topic": "Water",
-                "emoji": "💧🌊",
+                "emoji": "🍩🍪",
                 "question": "Is water essential for survival?",
                 "options": [
                     "False",
@@ -43,7 +43,7 @@ const foodDrinksQuestions = {
             },
             {
                 "topic": "Chocolate",
-                "emoji": "🍫😋",
+                "emoji": "🍰🎂",
                 "question": "Is chocolate made from cocoa beans?",
                 "options": [
                     "False",
@@ -53,7 +53,7 @@ const foodDrinksQuestions = {
             },
             {
                 "topic": "Tea",
-                "emoji": "🍵🌿",
+                "emoji": "🧁🍮",
                 "question": "Does tea come from tea leaves?",
                 "options": [
                     "True",
@@ -63,27 +63,27 @@ const foodDrinksQuestions = {
             },
             {
                 "topic": "Bread",
-                "emoji": "🍞🥖",
+                "emoji": "🍫🍬",
                 "question": "Is bread a baked food?",
                 "options": [
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Juice",
-                "emoji": "🧃🍊",
+                "emoji": "🍭🍡",
                 "question": "Can juice be made from oranges?",
                 "options": [
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Eggs",
-                "emoji": "🥚🍳",
+                "emoji": "🍦🍨",
                 "question": "Are eggs a breakfast food?",
                 "options": [
                     "True",
@@ -93,7 +93,7 @@ const foodDrinksQuestions = {
             },
             {
                 "topic": "Milk",
-                "emoji": "🥛🐄",
+                "emoji": "🥤🧃",
                 "question": "Does milk come from cows?",
                 "options": [
                     "False",
@@ -105,7 +105,7 @@ const foodDrinksQuestions = {
         "medium": [
             {
                 "topic": "Pasta",
-                "emoji": "🍝🇮🇹",
+                "emoji": "☕🍵",
                 "question": "Is spaghetti a type of pasta?",
                 "options": [
                     "False",
@@ -115,7 +115,7 @@ const foodDrinksQuestions = {
             },
             {
                 "topic": "Smoothies",
-                "emoji": "🥤🍓",
+                "emoji": "🥛🍼",
                 "question": "Are smoothies blended drinks?",
                 "options": [
                     "True",
@@ -125,7 +125,7 @@ const foodDrinksQuestions = {
             },
             {
                 "topic": "Sushi",
-                "emoji": "🍣🇯🇵",
+                "emoji": "🍺🍻",
                 "question": "Is sushi always made with raw fish?",
                 "options": [
                     "False",
@@ -135,7 +135,7 @@ const foodDrinksQuestions = {
             },
             {
                 "topic": "Lemonade",
-                "emoji": "🍋🥤",
+                "emoji": "🍷🍾",
                 "question": "Is lemonade made with lemons?",
                 "options": [
                     "True",
@@ -145,7 +145,7 @@ const foodDrinksQuestions = {
             },
             {
                 "topic": "Cheese",
-                "emoji": "🧀🥛",
+                "emoji": "🍹🍸",
                 "question": "Is cheese made from milk?",
                 "options": [
                     "False",
@@ -155,7 +155,7 @@ const foodDrinksQuestions = {
             },
             {
                 "topic": "Soda",
-                "emoji": "🥤💥",
+                "emoji": "🥗🥙",
                 "question": "Does soda contain carbonation?",
                 "options": [
                     "True",
@@ -165,7 +165,7 @@ const foodDrinksQuestions = {
             },
             {
                 "topic": "Tacos",
-                "emoji": "🌮🇲🇽",
+                "emoji": "🌮🌯",
                 "question": "Are tacos from Mexico?",
                 "options": [
                     "True",
@@ -175,7 +175,7 @@ const foodDrinksQuestions = {
             },
             {
                 "topic": "Hot Chocolate",
-                "emoji": "☕🍫",
+                "emoji": "🍝🍝",
                 "question": "Is hot chocolate served cold?",
                 "options": [
                     "False",
@@ -185,7 +185,7 @@ const foodDrinksQuestions = {
             },
             {
                 "topic": "Rice",
-                "emoji": "🍚🌾",
+                "emoji": "🍜🍲",
                 "question": "Is rice a grain?",
                 "options": [
                     "True",
@@ -195,7 +195,7 @@ const foodDrinksQuestions = {
             },
             {
                 "topic": "Coconut Water",
-                "emoji": "🥥💧",
+                "emoji": "🍱🍛",
                 "question": "Does coconut water come from coconuts?",
                 "options": [
                     "False",
@@ -207,7 +207,7 @@ const foodDrinksQuestions = {
         "hard": [
             {
                 "topic": "Truffles",
-                "emoji": "🍄💎",
+                "emoji": "🍣🍤",
                 "question": "Are truffles expensive fungi?",
                 "options": [
                     "True",
@@ -217,7 +217,7 @@ const foodDrinksQuestions = {
             },
             {
                 "topic": "Espresso",
-                "emoji": "☕⚡",
+                "emoji": "🥟🥠",
                 "question": "Is espresso more concentrated than regular coffee?",
                 "options": [
                     "False",
@@ -227,7 +227,7 @@ const foodDrinksQuestions = {
             },
             {
                 "topic": "Quinoa",
-                "emoji": "🌾🥗",
+                "emoji": "🍞🥖",
                 "question": "Is quinoa a complete protein?",
                 "options": [
                     "True",
@@ -237,7 +237,7 @@ const foodDrinksQuestions = {
             },
             {
                 "topic": "Kombucha",
-                "emoji": "🍵🫧",
+                "emoji": "🥐🥯",
                 "question": "Is kombucha a fermented tea drink?",
                 "options": [
                     "True",
@@ -247,7 +247,7 @@ const foodDrinksQuestions = {
             },
             {
                 "topic": "Caviar",
-                "emoji": "🐟💎",
+                "emoji": "🧀🥚",
                 "question": "Is caviar fish eggs?",
                 "options": [
                     "False",
@@ -257,7 +257,7 @@ const foodDrinksQuestions = {
             },
             {
                 "topic": "Matcha",
-                "emoji": "🍵💚",
+                "emoji": "🥓🍳",
                 "question": "Is matcha powdered green tea?",
                 "options": [
                     "True",
@@ -267,7 +267,7 @@ const foodDrinksQuestions = {
             },
             {
                 "topic": "Foie Gras",
-                "emoji": "🦆🍴",
+                "emoji": "🥞🧇",
                 "question": "Is foie gras made from duck liver?",
                 "options": [
                     "False",
@@ -277,7 +277,7 @@ const foodDrinksQuestions = {
             },
             {
                 "topic": "Sake",
-                "emoji": "🍶🇯🇵",
+                "emoji": "🍎🍏",
                 "question": "Is sake made from rice?",
                 "options": [
                     "True",
@@ -287,7 +287,7 @@ const foodDrinksQuestions = {
             },
             {
                 "topic": "Prosciutto",
-                "emoji": "🥓🇮🇹",
+                "emoji": "🍊🍋",
                 "question": "Is prosciutto cured ham?",
                 "options": [
                     "True",
@@ -297,7 +297,7 @@ const foodDrinksQuestions = {
             },
             {
                 "topic": "Kefir",
-                "emoji": "🥛🫧",
+                "emoji": "🥑🥥",
                 "question": "Is kefir a fermented milk drink?",
                 "options": [
                     "False",
@@ -501,7 +501,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Orange Juice",
@@ -511,7 +511,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Hamburger",
@@ -541,7 +541,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Apple Juice",
@@ -551,7 +551,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Chicken",
@@ -561,7 +561,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Mineral Water",
@@ -581,7 +581,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Iced Tea",
@@ -591,7 +591,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -1023,7 +1023,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Cake",
@@ -1485,7 +1485,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Hot Tea",
@@ -1495,7 +1495,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Hot Dog",
@@ -1525,7 +1525,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Coconut Water",
@@ -1565,7 +1565,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sparkling Water",
@@ -1575,7 +1575,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -2017,7 +2017,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Fruit Punch",
@@ -2469,7 +2469,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Black Coffee",
@@ -2479,7 +2479,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sandwich",
@@ -2509,7 +2509,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Peach Juice",
@@ -2549,7 +2549,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Root Beer",
@@ -2559,7 +2559,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -2990,7 +2990,7 @@ const foodDrinksQuestions = {
                 "options": [
                     "True",
                     "False"
-                ],"correct": 0
+                ],"correct": 1
             },
             {
                 "topic": "Cupcake",
@@ -3452,7 +3452,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Iced Water",
@@ -3462,7 +3462,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Pasta",
@@ -3492,7 +3492,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Honey Water",
@@ -3502,7 +3502,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Onion",
@@ -3512,7 +3512,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sprite",
@@ -3532,7 +3532,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Watermelon Juice",
@@ -3542,7 +3542,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -3984,7 +3984,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Candy",
@@ -4456,7 +4456,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Cold Water",
@@ -4466,7 +4466,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Turkey",
@@ -4496,7 +4496,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Jasmine Tea",
@@ -4536,7 +4536,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Banana Shake",
@@ -4546,7 +4546,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -4990,7 +4990,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Jelly",
@@ -5462,7 +5462,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Filtered Water",
@@ -5472,7 +5472,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Lamb",
@@ -5502,7 +5502,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Oolong Tea",
@@ -5542,7 +5542,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Berry Smoothie",
@@ -5552,7 +5552,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -5994,7 +5994,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Popsicle",
@@ -6466,7 +6466,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Tap Water",
@@ -6476,7 +6476,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Venison",
@@ -6506,7 +6506,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Rooibos Tea",
@@ -6546,7 +6546,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Chocolate Shake",
@@ -6556,7 +6556,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -6998,7 +6998,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Toffee",
@@ -7470,7 +7470,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Seltzer Water",
@@ -7480,7 +7480,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Quail",
@@ -7510,7 +7510,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Chamomile Tea",
@@ -7550,7 +7550,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Strawberry Lemonade",
@@ -7560,7 +7560,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [
@@ -8002,7 +8002,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Marshmallow",
@@ -8474,7 +8474,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Purified Water",
@@ -8484,7 +8484,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Bison",
@@ -8514,7 +8514,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Lemon Tea",
@@ -9006,7 +9006,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Licorice",
@@ -9478,7 +9478,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Vitamin Water",
@@ -9488,7 +9488,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Wild Boar",
@@ -9518,7 +9518,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sage Tea",
@@ -9558,7 +9558,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Tropical Smoothie",
@@ -9568,7 +9568,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             }
         ],
         "medium": [

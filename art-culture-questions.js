@@ -22,7 +22,7 @@ const artCultureQuestions = {
             },
             {
                 topic: "Music",
-                emoji: "🎭🎪",
+                emoji: "🖼️🖍️",
                 question: "A piano has 88 keys.",
                 options: [
                     "True",
@@ -42,7 +42,7 @@ const artCultureQuestions = {
             },
             {
                 topic: "Literature",
-                emoji: "🎬🎥",
+                emoji: "✍️📝",
                 question: "Shakespeare wrote only comedies.",
                 options: [
                     "False",
@@ -52,7 +52,7 @@ const artCultureQuestions = {
             },
             {
                 topic: "Dance",
-                emoji: "🎵🎶",
+                emoji: "📜🖋️",
                 question: "What is Mexico's folkloric dance?",
                 options: [
                     "Jarabe Tapatío",
@@ -62,7 +62,7 @@ const artCultureQuestions = {
             },
             {
                 topic: "Sculpture",
-                emoji: "🖼️🏛️",
+                emoji: "🎭🎪",
                 question: "What artist created 'The Gates of Hell'?",
                 options: [
                     "Auguste Rodin",
@@ -72,7 +72,7 @@ const artCultureQuestions = {
             },
             {
                 topic: "Cinema",
-                emoji: "📝✍️",
+                emoji: "🎬🎞️",
                 question: "What is the highest-grossing film of all time?",
                 options: [
                     "Avatar",
@@ -82,7 +82,7 @@ const artCultureQuestions = {
             },
             {
                 topic: "Theater",
-                emoji: "🎸🎹",
+                emoji: "🎵🎶",
                 question: "What musical features 'Don't Cry for Me Argentina'?",
                 options: [
                     "Evita",
@@ -92,7 +92,7 @@ const artCultureQuestions = {
             },
             {
                 topic: "Festivals",
-                emoji: "💃🕺",
+                emoji: "🎼🎹",
                 question: "What is the New Orleans jazz festival called?",
                 options: [
                     "Jazz Fest",
@@ -102,7 +102,7 @@ const artCultureQuestions = {
             },
             {
                 topic: "Museums",
-                emoji: "🎤🎧",
+                emoji: "🎸🎺",
                 question: "Where is the Palace Museum?",
                 options: [
                     "Shanghai",
@@ -114,7 +114,7 @@ const artCultureQuestions = {
         hard: [
             {
                 topic: "Painting",
-                emoji: "📷📸",
+                emoji: "🥁🎷",
                 question: "Which artist painted 'The Water Lily Pond'?",
                 options: [
                     "Claude Monet",
@@ -125,7 +125,7 @@ const artCultureQuestions = {
             },
             {
                 topic: "Music",
-                emoji: "🎻🎺",
+                emoji: "🎻🪕",
                 question: "Which composer wrote 'Carmen'?",
                 options: [
                     "Georges Bizet",
@@ -136,7 +136,7 @@ const artCultureQuestions = {
             },
             {
                 topic: "Architecture",
-                emoji: "🗿🏺",
+                emoji: "📸📷",
                 question: "Who designed the Marina Bay Sands?",
                 options: [
                     "Moshe Safdie",
@@ -147,7 +147,7 @@ const artCultureQuestions = {
             },
             {
                 topic: "Literature",
-                emoji: "🖊️📜",
+                emoji: "🗿🏛️",
                 question: "Who wrote 'Weep Not, Child'?",
                 options: [
                     "Ngũgĩ wa Thiong'o",
@@ -158,7 +158,7 @@ const artCultureQuestions = {
             },
             {
                 topic: "Dance",
-                emoji: "🎪🎡",
+                emoji: "🏺⚱️",
                 question: "How many dancers traditionally perform Bharatanatyam?",
                 options: [
                     "Solo",
@@ -169,7 +169,7 @@ const artCultureQuestions = {
             },
             {
                 topic: "Sculpture",
-                emoji: "🌟✨",
+                emoji: "💎💍",
                 question: "What is the tallest statue in the world?",
                 options: [
                     "Statue of Unity",
@@ -180,7 +180,7 @@ const artCultureQuestions = {
             },
             {
                 topic: "Cinema",
-                emoji: "💎🏆",
+                emoji: "👑👗",
                 question: "Who directed '2001: A Space Odyssey'?",
                 options: [
                     "Stanley Kubrick",
@@ -191,7 +191,7 @@ const artCultureQuestions = {
             },
             {
                 topic: "Theater",
-                emoji: "🎯🎲",
+                emoji: "🎨🌈",
                 question: "What is the Spanish flamenco theater form?",
                 options: [
                     "Tablao",
@@ -202,7 +202,7 @@ const artCultureQuestions = {
             },
             {
                 topic: "World Heritage",
-                emoji: "🃏🎴",
+                emoji: "✨💫",
                 question: "What Portuguese tiles are decorative?",
                 options: [
                     "Azulejos",
@@ -213,7 +213,7 @@ const artCultureQuestions = {
             },
             {
                 topic: "Crafts",
-                emoji: "🧩🎨",
+                emoji: "🌟⭐",
                 question: "What is Chinese blue and white porcelain?",
                 options: [
                     "Ming porcelain",
@@ -226,7 +226,7 @@ const artCultureQuestions = {
         expert: [
             {
                 topic: "Painting",
-                emoji: "🎼🎤",
+                emoji: "📖📕",
                 question: "Which movement did Kazimir Malevich found?",
                 options: [
                     "Suprematism",
@@ -238,7 +238,7 @@ const artCultureQuestions = {
             },
             {
                 topic: "Music",
-                emoji: "🖋️📃",
+                emoji: "📗📘",
                 question: "How many string quartets did Beethoven write?",
                 options: [
                     "16",
@@ -250,7 +250,7 @@ const artCultureQuestions = {
             },
             {
                 topic: "Architecture",
-                emoji: "🏺🗿",
+                emoji: "📙📔",
                 question: "Who designed Brasília's buildings?",
                 options: [
                     "Oscar Niemeyer",
@@ -262,7 +262,7 @@ const artCultureQuestions = {
             },
             {
                 topic: "Literature",
-                emoji: "🎭✨",
+                emoji: "📓📒",
                 question: "Who wrote 'Disgrace'?",
                 options: [
                     "J.M. Coetzee",
@@ -274,7 +274,7 @@ const artCultureQuestions = {
             },
             {
                 topic: "Dance",
-                emoji: "📖🖊️",
+                emoji: "🖊️✒️",
                 question: "Who founded the Joffrey Ballet?",
                 options: [
                     "Robert Joffrey",
@@ -286,7 +286,7 @@ const artCultureQuestions = {
             },
             {
                 topic: "Sculpture",
-                emoji: "🎨🌈",
+                emoji: "🖍️🖌️",
                 question: "Who created the 'Unique Forms of Continuity in Space'?",
                 options: [
                     "Umberto Boccioni",
@@ -298,7 +298,7 @@ const artCultureQuestions = {
             },
             {
                 topic: "Cinema",
-                emoji: "🎪🎠",
+                emoji: "🎭🩰",
                 question: "What is the Danish film movement of 1995?",
                 options: [
                     "Dogme 95",
@@ -310,7 +310,7 @@ const artCultureQuestions = {
             },
             {
                 topic: "Theater",
-                emoji: "🎬📽️",
+                emoji: "🎪🎡",
                 question: "Who wrote 'Death of a Salesman'?",
                 options: [
                     "Arthur Miller",
@@ -322,7 +322,7 @@ const artCultureQuestions = {
             },
             {
                 topic: "World Heritage",
-                emoji: "🎸🥁",
+                emoji: "🎨🖼️",
                 question: "What is the Armenian monastery complex?",
                 options: [
                     "Geghard",
@@ -334,7 +334,7 @@ const artCultureQuestions = {
             },
             {
                 topic: "Museums",
-                emoji: "📸🎞️",
+                emoji: "📚📑",
                 question: "What museum houses Monet's Water Lilies?",
                 options: [
                     "Orangerie",

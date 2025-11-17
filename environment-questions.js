@@ -13,7 +13,7 @@ const environmentQuestions = {
         "easy": [
             {
                 "topic": "Ecology",
-                "emoji": "🌍🌱",
+                "emoji": "🌱🌿",
                 "question": "Does recycling help the environment?",
                 "options": [
                     "False",
@@ -23,7 +23,7 @@ const environmentQuestions = {
             },
             {
                 "topic": "Wildlife",
-                "emoji": "🦁🐘",
+                "emoji": "♻️🔄",
                 "question": "Are many animals endangered?",
                 "options": [
                     "False",
@@ -33,7 +33,7 @@ const environmentQuestions = {
             },
             {
                 "topic": "Pollution",
-                "emoji": "🏭💨",
+                "emoji": "🌍🌏",
                 "question": "Is air pollution harms health?",
                 "options": [
                     "False",
@@ -43,7 +43,7 @@ const environmentQuestions = {
             },
             {
                 "topic": "Recycling",
-                "emoji": "♻️🗑️",
+                "emoji": "🌳🌲",
                 "question": "Plastic can be recycled?",
                 "options": [
                     "True",
@@ -53,7 +53,7 @@ const environmentQuestions = {
             },
             {
                 "topic": "Ecology",
-                "emoji": "🌳🌲",
+                "emoji": "🐝🦋",
                 "question": "Is trees produce oxygen?",
                 "options": [
                     "False",
@@ -63,7 +63,7 @@ const environmentQuestions = {
             },
             {
                 "topic": "Wildlife",
-                "emoji": "🐼🦋",
+                "emoji": "🌸🌺",
                 "question": "Is bees help pollinate flowers?",
                 "options": [
                     "False",
@@ -73,7 +73,7 @@ const environmentQuestions = {
             },
             {
                 "topic": "Pollution",
-                "emoji": "🌊🗑️",
+                "emoji": "💧🌊",
                 "question": "Is ocean pollution affects marine life?",
                 "options": [
                     "False",
@@ -83,7 +83,7 @@ const environmentQuestions = {
             },
             {
                 "topic": "Recycling",
-                "emoji": "♻️📄",
+                "emoji": "☀️🌤️",
                 "question": "Does paper come from trees?",
                 "options": [
                     "False",
@@ -93,7 +93,7 @@ const environmentQuestions = {
             },
             {
                 "topic": "Ecology",
-                "emoji": "🌍💚",
+                "emoji": "🌾🌿",
                 "question": "Is climate change real?",
                 "options": [
                     "True",
@@ -103,7 +103,7 @@ const environmentQuestions = {
             },
             {
                 "topic": "Wildlife",
-                "emoji": "🦅🌳",
+                "emoji": "🏞️🌄",
                 "question": "Are forests home to many animals?",
                 "options": [
                     "True",
@@ -115,7 +115,7 @@ const environmentQuestions = {
         "medium": [
             {
                 "topic": "Ecology",
-                "emoji": "🌍🌱",
+                "emoji": "🗻🏔️",
                 "question": "What is the greenhouse effect?",
                 "options": [
                     "Cooling Earth",
@@ -125,7 +125,7 @@ const environmentQuestions = {
             },
             {
                 "topic": "Wildlife",
-                "emoji": "🦁🐘",
+                "emoji": "🌊🏖️",
                 "question": "What does endangered mean?",
                 "options": [
                     "Common species",
@@ -135,7 +135,7 @@ const environmentQuestions = {
             },
             {
                 "topic": "Pollution",
-                "emoji": "🏭💨",
+                "emoji": "🐠🐟",
                 "question": "What causes air pollution?",
                 "options": [
                     "Trees",
@@ -145,7 +145,7 @@ const environmentQuestions = {
             },
             {
                 "topic": "Recycling",
-                "emoji": "♻️🗑️",
+                "emoji": "🐢🐙",
                 "question": "What materials can be recycled?",
                 "options": [
                     "Paper, glass, plastic",
@@ -155,7 +155,7 @@ const environmentQuestions = {
             },
             {
                 "topic": "Ecology",
-                "emoji": "🌳🌲",
+                "emoji": "🦜🦚",
                 "question": "What does the acronym deforestation stand for?",
                 "options": [
                     "Planting trees",
@@ -165,7 +165,7 @@ const environmentQuestions = {
             },
             {
                 "topic": "Wildlife",
-                "emoji": "🐼🦋",
+                "emoji": "🐘🦏",
                 "question": "Why are bees important?",
                 "options": [
                     "Making honey only",
@@ -175,7 +175,7 @@ const environmentQuestions = {
             },
             {
                 "topic": "Pollution",
-                "emoji": "🌊🗑️",
+                "emoji": "🦁🐯",
                 "question": "What is ocean acidification?",
                 "options": [
                     "Ocean cooling",
@@ -185,7 +185,7 @@ const environmentQuestions = {
             },
             {
                 "topic": "Recycling",
-                "emoji": "♻️📄",
+                "emoji": "🐼🐨",
                 "question": "What does reduce, reuse, recycle mean?",
                 "options": [
                     "3 types of trash",
@@ -195,7 +195,7 @@ const environmentQuestions = {
             },
             {
                 "topic": "Ecology",
-                "emoji": "🌍💚",
+                "emoji": "🌵🌴",
                 "question": "What is renewable energy?",
                 "options": [
                     "Solar, wind power",
@@ -205,7 +205,7 @@ const environmentQuestions = {
             },
             {
                 "topic": "Wildlife",
-                "emoji": "🦅🌳",
+                "emoji": "🍃🌿",
                 "question": "What does the acronym biodiversity stand for?",
                 "options": [
                     "Variety of life",
@@ -217,7 +217,7 @@ const environmentQuestions = {
         "hard": [
             {
                 "topic": "Ecology",
-                "emoji": "🌍🌱",
+                "emoji": "🌬️💨",
                 "question": "What is the main greenhouse gas?",
                 "options": [
                     "Nitrogen",
@@ -228,7 +228,7 @@ const environmentQuestions = {
             },
             {
                 "topic": "Wildlife",
-                "emoji": "🦁🐘",
+                "emoji": "⛰️🏔️",
                 "question": "How many species go extinct daily?",
                 "options": [
                     "Dozens",
@@ -239,7 +239,7 @@ const environmentQuestions = {
             },
             {
                 "topic": "Pollution",
-                "emoji": "🏭💨",
+                "emoji": "🔥🌡️",
                 "question": "What is the ozone layer?",
                 "options": [
                     "Protects from UV",
@@ -250,7 +250,7 @@ const environmentQuestions = {
             },
             {
                 "topic": "Recycling",
-                "emoji": "♻️🗑️",
+                "emoji": "❄️🧊",
                 "question": "How long does plastic take to decompose?",
                 "options": [
                     "10 years",
@@ -261,7 +261,7 @@ const environmentQuestions = {
             },
             {
                 "topic": "Ecology",
-                "emoji": "🌳🌲",
+                "emoji": "🌧️☔",
                 "question": "What percentage of oxygen comes from oceans?",
                 "options": [
                     "10-20%",
@@ -272,7 +272,7 @@ const environmentQuestions = {
             },
             {
                 "topic": "Wildlife",
-                "emoji": "🐼🦋",
+                "emoji": "⚡🌩️",
                 "question": "What is a keystone species?",
                 "options": [
                     "Largest animal",
@@ -283,7 +283,7 @@ const environmentQuestions = {
             },
             {
                 "topic": "Pollution",
-                "emoji": "🌊🗑️",
+                "emoji": "🌈🌦️",
                 "question": "What is the Great Pacific Garbage Patch?",
                 "options": [
                     "Ocean plastic accumulation",
@@ -294,7 +294,7 @@ const environmentQuestions = {
             },
             {
                 "topic": "Recycling",
-                "emoji": "♻️📄",
+                "emoji": "🌅🌄",
                 "question": "What does the acronym composting stand for?",
                 "options": [
                     "Burning trash",
@@ -305,7 +305,7 @@ const environmentQuestions = {
             },
             {
                 "topic": "Ecology",
-                "emoji": "🌍💚",
+                "emoji": "🌃🌆",
                 "question": "What is the Paris Agreement?",
                 "options": [
                     "Space program",
@@ -316,7 +316,7 @@ const environmentQuestions = {
             },
             {
                 "topic": "Wildlife",
-                "emoji": "🦅🌳",
+                "emoji": "🏭🏗️",
                 "question": "What is habitat loss?",
                 "options": [
                     "Destruction of homes",

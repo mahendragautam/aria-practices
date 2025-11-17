@@ -103,7 +103,7 @@ const mathQuestions = {
             },
             {
                 "topic": "Geometry",
-                "emoji": "📐📏",
+                "emoji": "⏰🕐",
                 "question": "Does a rectangle have four sides?",
                 "options": [
                     "True",
@@ -115,7 +115,7 @@ const mathQuestions = {
         "medium": [
             {
                 "topic": "Arithmetic",
-                "emoji": "➕✖️",
+                "emoji": "📏📐",
                 "question": "What is 12 + 8?",
                 "options": [
                     "20",
@@ -125,7 +125,7 @@ const mathQuestions = {
             },
             {
                 "topic": "Geometry",
-                "emoji": "🔺📐",
+                "emoji": "🎯🎲",
                 "question": "How many degrees in a triangle?",
                 "options": [
                     "360°",
@@ -135,7 +135,7 @@ const mathQuestions = {
             },
             {
                 "topic": "Arithmetic",
-                "emoji": "✖️🔢",
+                "emoji": "🧮💹",
                 "question": "What is 7 × 8?",
                 "options": [
                     "56",
@@ -145,7 +145,7 @@ const mathQuestions = {
             },
             {
                 "topic": "Algebra",
-                "emoji": "📊🔢",
+                "emoji": "📉📊",
                 "question": "Is if x = 3, what 2x?",
                 "options": [
                     "5",
@@ -155,7 +155,7 @@ const mathQuestions = {
             },
             {
                 "topic": "Geometry",
-                "emoji": "⭕📏",
+                "emoji": "∞➰",
                 "question": "How many degrees in a circle?",
                 "options": [
                     "180°",
@@ -165,7 +165,7 @@ const mathQuestions = {
             },
             {
                 "topic": "Arithmetic",
-                "emoji": "➗💯",
+                "emoji": "🔶🔷",
                 "question": "What is 100 ÷ 4?",
                 "options": [
                     "25",
@@ -175,7 +175,7 @@ const mathQuestions = {
             },
             {
                 "topic": "Arithmetic",
-                "emoji": "➖🔢",
+                "emoji": "⚖️⚗️",
                 "question": "What is 50 - 17?",
                 "options": [
                     "37",
@@ -185,7 +185,7 @@ const mathQuestions = {
             },
             {
                 "topic": "Geometry",
-                "emoji": "🟦📐",
+                "emoji": "🎰🃏",
                 "question": "How many sides does a pentagon have?",
                 "options": [
                     "6",
@@ -195,7 +195,7 @@ const mathQuestions = {
             },
             {
                 "topic": "Algebra",
-                "emoji": "📈💯",
+                "emoji": "📐🔺",
                 "question": "What is 10% of 100?",
                 "options": [
                     "10",
@@ -205,7 +205,7 @@ const mathQuestions = {
             },
             {
                 "topic": "Arithmetic",
-                "emoji": "✖️➕",
+                "emoji": "💱💲",
                 "question": "What is 9 × 9?",
                 "options": [
                     "81",
@@ -217,7 +217,7 @@ const mathQuestions = {
         "hard": [
             {
                 "topic": "Arithmetic",
-                "emoji": "➕✖️",
+                "emoji": "🔀🔁",
                 "question": "What is 15% of 200?",
                 "options": [
                     "25",
@@ -228,7 +228,7 @@ const mathQuestions = {
             },
             {
                 "topic": "Geometry",
-                "emoji": "🔺📐",
+                "emoji": "🎲🎯",
                 "question": "What is the sum of angles in a triangle?",
                 "options": [
                     "90°",
@@ -239,7 +239,7 @@ const mathQuestions = {
             },
             {
                 "topic": "Algebra",
-                "emoji": "📊🔢",
+                "emoji": "📈📊",
                 "question": "Is solve: 3x + 9 = 24?",
                 "options": [
                     "x = 5",
@@ -250,7 +250,7 @@ const mathQuestions = {
             },
             {
                 "topic": "Arithmetic",
-                "emoji": "➗💯",
+                "emoji": "🧩🔢",
                 "question": "What is 144 ÷ 12?",
                 "options": [
                     "14",
@@ -261,7 +261,7 @@ const mathQuestions = {
             },
             {
                 "topic": "Geometry",
-                "emoji": "⭕📏",
+                "emoji": "🔤🔡",
                 "question": "What is the area formula for a circle?",
                 "options": [
                     "2πr",
@@ -272,7 +272,7 @@ const mathQuestions = {
             },
             {
                 "topic": "Algebra",
-                "emoji": "📈🔢",
+                "emoji": "🎓📚",
                 "question": "What is 2³ (2 cubed)?",
                 "options": [
                     "8",
@@ -283,7 +283,7 @@ const mathQuestions = {
             },
             {
                 "topic": "Arithmetic",
-                "emoji": "➖💰",
+                "emoji": "✏️📝",
                 "question": "What is 1000 - 347?",
                 "options": [
                     "663",
@@ -294,7 +294,7 @@ const mathQuestions = {
             },
             {
                 "topic": "Geometry",
-                "emoji": "🟦📐",
+                "emoji": "📌📍",
                 "question": "Area of rectangle =?",
                 "options": [
                     "Length ÷ Width",
@@ -305,7 +305,7 @@ const mathQuestions = {
             },
             {
                 "topic": "Algebra",
-                "emoji": "📊💯",
+                "emoji": "🗂️📋",
                 "question": "What is √64?",
                 "options": [
                     "8",
@@ -316,7 +316,7 @@ const mathQuestions = {
             },
             {
                 "topic": "Arithmetic",
-                "emoji": "✖️➕",
+                "emoji": "🧮🔢",
                 "question": "What is 25 × 4?",
                 "options": [
                     "90",

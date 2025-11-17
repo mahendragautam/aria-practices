@@ -3,7 +3,7 @@ const moviesTVQuestions = {
         easy: [
             {
                 topic: "The Lion King",
-                emoji: "🦁👑",
+                emoji: "🎬🎥",
                 question: "Simba is a lion cub.",
                 options: [
                     "True",
@@ -13,7 +13,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Spider-Man",
-                emoji: "🕷️🕸️",
+                emoji: "🎭🎪",
                 question: "Peter Parker gets bitten by a radioactive spider.",
                 options: [
                     "False",
@@ -23,7 +23,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Friends",
-                emoji: "☕👫",
+                emoji: "🏆🌟",
                 question: "Friends is set in New York City.",
                 options: [
                     "True",
@@ -33,17 +33,17 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Jurassic Park",
-                emoji: "🦖🏞️",
+                emoji: "👑💍",
                 question: "Jurassic Park has real dinosaurs.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Breaking Bad",
-                emoji: "🧪💊",
+                emoji: "🦸🦹",
                 question: "Walter White is a chemistry teacher.",
                 options: [
                     "False",
@@ -53,7 +53,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Finding Nemo",
-                emoji: "🐠🌊",
+                emoji: "🚀🌌",
                 question: "Nemo is a clownfish.",
                 options: [
                     "True",
@@ -63,27 +63,27 @@ const moviesTVQuestions = {
             },
             {
                 topic: "The Walking Dead",
-                emoji: "🧟‍♂️🔫",
+                emoji: "🧙🔮",
                 question: "The Walking Dead features zombies.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Batman",
-                emoji: "🦇🌃",
+                emoji: "🦖🦕",
                 question: "Batman lives in Gotham City.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Game of Thrones",
-                emoji: "🐉⚔️",
+                emoji: "🕷️🕸️",
                 question: "Game of Thrones has dragons.",
                 options: [
                     "True",
@@ -93,7 +93,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Toy Story",
-                emoji: "🤠🚀",
+                emoji: "⚔️🛡️",
                 question: "Woody is a cowboy toy.",
                 options: [
                     "False",
@@ -105,7 +105,7 @@ const moviesTVQuestions = {
         medium: [
             {
                 topic: "Inception",
-                emoji: "💭🌀",
+                emoji: "💎🏝️",
                 question: "What does Dom Cobb do?",
                 options: [
                     "Steals from dreams",
@@ -115,7 +115,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "The Office",
-                emoji: "📄🏢",
+                emoji: "🐉⚡",
                 question: "What company do they work for?",
                 options: [
                     "Dunder Mifflin",
@@ -125,7 +125,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "The Matrix",
-                emoji: "💊🕶️",
+                emoji: "🤖🔧",
                 question: "What color pill does Neo take?",
                 options: [
                     "Red",
@@ -135,7 +135,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Stranger Things",
-                emoji: "🔦👾",
+                emoji: "🏴‍☠️⚓",
                 question: "What is the alternate dimension called?",
                 options: [
                     "The Upside Down",
@@ -145,7 +145,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Pulp Fiction",
-                emoji: "💼🔫",
+                emoji: "👻👽",
                 question: "Who directed Pulp Fiction?",
                 options: [
                     "Quentin Tarantino",
@@ -155,7 +155,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "How I Met Your Mother",
-                emoji: "🎺🍺",
+                emoji: "🔫💥",
                 question: "What is Barney's catchphrase?",
                 options: [
                     "Legendary",
@@ -165,7 +165,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Fight Club",
-                emoji: "👊🧼",
+                emoji: "🎩🎪",
                 question: "What does Tyler Durden sell?",
                 options: [
                     "Soap",
@@ -175,7 +175,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "The Big Bang Theory",
-                emoji: "🔬😂",
+                emoji: "🌹💔",
                 question: "What is Sheldon's profession?",
                 options: [
                     "Physicist",
@@ -185,7 +185,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Forrest Gump",
-                emoji: "🏃🍫",
+                emoji: "🎸🎤",
                 question: "What does Forrest say life is like?",
                 options: [
                     "Box of chocolates",
@@ -195,7 +195,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Parks and Recreation",
-                emoji: "🏞️😊",
+                emoji: "🏃💨",
                 question: "What is Leslie's dream project?",
                 options: [
                     "Park",
@@ -207,7 +207,7 @@ const moviesTVQuestions = {
         hard: [
             {
                 topic: "The Godfather",
-                emoji: "🤵🔫",
+                emoji: "🎯🎲",
                 question: "Who directed The Godfather?",
                 options: [
                     "Francis Ford Coppola",
@@ -218,7 +218,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "The Wire",
-                emoji: "🚔📞",
+                emoji: "🎰🃏",
                 question: "What city is The Wire set in?",
                 options: [
                     "Baltimore",
@@ -229,7 +229,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "The Shawshank Redemption",
-                emoji: "⛓️🕊️",
+                emoji: "🏎️💨",
                 question: "How many years was Andy imprisoned?",
                 options: [
                     "19",
@@ -240,7 +240,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Mad Men",
-                emoji: "🍸💼",
+                emoji: "🚁✈️",
                 question: "What decade is Mad Men primarily set in?",
                 options: [
                     "1960s",
@@ -251,7 +251,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "The Dark Knight",
-                emoji: "🦇🃏",
+                emoji: "🦇🌃",
                 question: "Who played the Joker?",
                 options: [
                     "Heath Ledger",
@@ -262,7 +262,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Lost",
-                emoji: "✈️🏝️",
+                emoji: "👮🔍",
                 question: "How many main seasons does Lost have?",
                 options: [
                     "6",
@@ -273,7 +273,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Goodfellas",
-                emoji: "💰🔫",
+                emoji: "💰💵",
                 question: "Who plays Henry Hill?",
                 options: [
                     "Ray Liotta",
@@ -284,7 +284,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "The West Wing",
-                emoji: "🏛️🇺🇸",
+                emoji: "🎭😂",
                 question: "Who is the President in The West Wing?",
                 options: [
                     "Josiah Bartlet",
@@ -295,7 +295,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Schindler's List",
-                emoji: "📝🕯️",
+                emoji: "🎪🤡",
                 question: "What war is Schindler's List set during?",
                 options: [
                     "World War II",
@@ -306,7 +306,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Twin Peaks",
-                emoji: "🍩☕",
+                emoji: "🎬📹",
                 question: "Who killed Laura Palmer?",
                 options: [
                     "Leland Palmer",
@@ -319,7 +319,7 @@ const moviesTVQuestions = {
         expert: [
             {
                 topic: "The Godfather",
-                emoji: "🤵🔫",
+                emoji: "🎬🎥",
                 question: "What year was The Godfather released?",
                 options: [
                     "1972",
@@ -331,7 +331,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Breaking Bad",
-                emoji: "🧪💊",
+                emoji: "🎭🎪",
                 question: "What is Walter White's alias?",
                 options: [
                     "Heisenberg",
@@ -343,7 +343,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Citizen Kane",
-                emoji: "🎬🏰",
+                emoji: "🏆🌟",
                 question: "What is Kane's dying word?",
                 options: [
                     "Rosebud",
@@ -355,7 +355,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "The Sopranos",
-                emoji: "🤵💰",
+                emoji: "👑💍",
                 question: "What state is The Sopranos set in?",
                 options: [
                     "New Jersey",
@@ -367,7 +367,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Casablanca",
-                emoji: "✈️💕",
+                emoji: "🦸🦹",
                 question: "What is Rick's nightclub called?",
                 options: [
                     "Rick's Café Américain",
@@ -379,7 +379,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "The Twilight Zone",
-                emoji: "🌀👁️",
+                emoji: "🚀🌌",
                 question: "Who created The Twilight Zone?",
                 options: [
                     "Rod Serling",
@@ -391,7 +391,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Seven Samurai",
-                emoji: "⚔️👺",
+                emoji: "🧙🔮",
                 question: "Who directed Seven Samurai?",
                 options: [
                     "Akira Kurosawa",
@@ -403,7 +403,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "The X-Files",
-                emoji: "👽🔦",
+                emoji: "🦖🦕",
                 question: "What is Mulder's first name?",
                 options: [
                     "Fox",
@@ -415,7 +415,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "2001: A Space Odyssey",
-                emoji: "🚀🎵",
+                emoji: "🕷️🕸️",
                 question: "Who directed 2001: A Space Odyssey?",
                 options: [
                     "Stanley Kubrick",
@@ -427,7 +427,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Seinfeld",
-                emoji: "🍜😄",
+                emoji: "⚔️🛡️",
                 question: "What network aired Seinfeld?",
                 options: [
                     "NBC",
@@ -441,61 +441,61 @@ const moviesTVQuestions = {
         extreme: [
             {
                 topic: "The Godfather",
-                emoji: "🤵🔫",
+                emoji: "💎🏝️",
                 question: "What is the name of the Corleone family's hometown in Sicily?",
                 answer: "Corleone"
             },
             {
                 topic: "The Sopranos",
-                emoji: "🤵💰",
+                emoji: "🐉⚡",
                 question: "What is the name of Tony's boat?",
                 answer: "Stugots"
             },
             {
                 topic: "Vertigo",
-                emoji: "🌀💚",
+                emoji: "🤖🔧",
                 question: "Who directed Vertigo?",
                 answer: "Alfred Hitchcock"
             },
             {
                 topic: "The Wire",
-                emoji: "🚔📞",
+                emoji: "🏴‍☠️⚓",
                 question: "What is Omar Little's signature whistle?",
                 answer: "The Farmer in the Dell"
             },
             {
                 topic: "Apocalypse Now",
-                emoji: "🚁🌴",
+                emoji: "👻👽",
                 question: "What novella is Apocalypse Now based on?",
                 answer: "Heart of Darkness"
             },
             {
                 topic: "The Prisoner",
-                emoji: "🏝️❓",
+                emoji: "🔫💥",
                 question: "What is the protagonist's number?",
                 answer: "6 or Number 6"
             },
             {
                 topic: "8½",
-                emoji: "🎬🎪",
+                emoji: "🎩🎪",
                 question: "Who directed 8½?",
                 answer: "Federico Fellini"
             },
             {
                 topic: "Breaking Bad",
-                emoji: "🧪💊",
+                emoji: "🌹💔",
                 question: "What is the name of Saul Goodman's real identity?",
                 answer: "Jimmy McGill"
             },
             {
                 topic: "The Third Man",
-                emoji: "🎻🇦🇹",
+                emoji: "🎸🎤",
                 question: "What city is The Third Man set in?",
                 answer: "Vienna"
             },
             {
                 topic: "Mad Men",
-                emoji: "🍸💼",
+                emoji: "🏃💨",
                 question: "What is Don Draper's real name?",
                 answer: "Dick Whitman"
             }
@@ -505,27 +505,27 @@ const moviesTVQuestions = {
         easy: [
             {
                 topic: "Frozen",
-                emoji: "❄️👸",
+                emoji: "🎯🎲",
                 question: "Elsa has ice powers.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Iron Man",
-                emoji: "🦾💡",
+                emoji: "🎰🃏",
                 question: "Tony Stark builds a suit of armor.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "The Simpsons",
-                emoji: "🍩📺",
+                emoji: "🏎️💨",
                 question: "Homer Simpson works at a nuclear plant.",
                 options: [
                     "True",
@@ -535,7 +535,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Star Wars",
-                emoji: "⚔️🌌",
+                emoji: "🚁✈️",
                 question: "Luke Skywalker becomes a Jedi.",
                 options: [
                     "False",
@@ -545,17 +545,17 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Stranger Things",
-                emoji: "🔦👾",
+                emoji: "🦇🌃",
                 question: "Eleven has telekinetic powers.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "The Avengers",
-                emoji: "🦸‍♂️💥",
+                emoji: "👮🔍",
                 question: "The Avengers is a superhero team.",
                 options: [
                     "True",
@@ -565,7 +565,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Grey's Anatomy",
-                emoji: "🏥💉",
+                emoji: "💰💵",
                 question: "Grey's Anatomy is set in a hospital.",
                 options: [
                     "False",
@@ -575,7 +575,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Harry Potter",
-                emoji: "⚡🧙",
+                emoji: "🎭😂",
                 question: "Harry Potter attends Hogwarts.",
                 options: [
                     "True",
@@ -585,29 +585,29 @@ const moviesTVQuestions = {
             },
             {
                 topic: "The Office",
-                emoji: "📄🏢",
+                emoji: "🎪🤡",
                 question: "Michael Scott is the regional manager.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Shrek",
-                emoji: "👹🏰",
+                emoji: "🎬📹",
                 question: "Shrek lives in a swamp.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         medium: [
             {
                 topic: "The Shawshank Redemption",
-                emoji: "⛓️🕊️",
+                emoji: "🎬🎥",
                 question: "What does Andy carve through?",
                 options: [
                     "Wall",
@@ -617,7 +617,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Community",
-                emoji: "🎓😂",
+                emoji: "🎭🎪",
                 question: "What type of school is Greendale?",
                 options: [
                     "Community college",
@@ -627,7 +627,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "The Silence of the Lambs",
-                emoji: "🦋🔪",
+                emoji: "🏆🌟",
                 question: "What is Hannibal Lecter?",
                 options: [
                     "Psychiatrist",
@@ -637,7 +637,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Arrested Development",
-                emoji: "🍌😄",
+                emoji: "👑💍",
                 question: "What is the family name?",
                 options: [
                     "Bluth",
@@ -647,7 +647,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Gladiator",
-                emoji: "⚔️🏛️",
+                emoji: "🦸🦹",
                 question: "What was Maximus before becoming a gladiator?",
                 options: [
                     "General",
@@ -657,7 +657,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Brooklyn Nine-Nine",
-                emoji: "👮🍩",
+                emoji: "🚀🌌",
                 question: "Who is the captain?",
                 options: [
                     "Holt",
@@ -667,7 +667,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "The Departed",
-                emoji: "🐀👮",
+                emoji: "🧙🔮",
                 question: "Who directed The Departed?",
                 options: [
                     "Martin Scorsese",
@@ -677,7 +677,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Modern Family",
-                emoji: "👨‍👩‍👧‍👦📺",
+                emoji: "🦖🦕",
                 question: "What is Phil's profession?",
                 options: [
                     "Realtor",
@@ -687,7 +687,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "The Usual Suspects",
-                emoji: "🔫❓",
+                emoji: "🕷️🕸️",
                 question: "Who is Keyser Söze?",
                 options: [
                     "Verbal Kint",
@@ -697,7 +697,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "It's Always Sunny",
-                emoji: "🍺😂",
+                emoji: "⚔️🛡️",
                 question: "What is their bar called?",
                 options: [
                     "Paddy's Pub",
@@ -709,7 +709,7 @@ const moviesTVQuestions = {
         hard: [
             {
                 topic: "There Will Be Blood",
-                emoji: "🛢️🔥",
+                emoji: "💎🏝️",
                 question: "Who directed There Will Be Blood?",
                 options: [
                     "Paul Thomas Anderson",
@@ -720,7 +720,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "The Leftovers",
-                emoji: "❓🕊️",
+                emoji: "🐉⚡",
                 question: "What percentage of people disappeared?",
                 options: [
                     "2%",
@@ -731,7 +731,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "No Country for Old Men",
-                emoji: "💰🔫",
+                emoji: "🤖🔧",
                 question: "Who plays Anton Chigurh?",
                 options: [
                     "Javier Bardem",
@@ -742,7 +742,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Deadwood",
-                emoji: "🤠🏜️",
+                emoji: "🏴‍☠️⚓",
                 question: "What is the setting time period?",
                 options: [
                     "1870s",
@@ -753,7 +753,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "The Social Network",
-                emoji: "💻🎓",
+                emoji: "👻👽",
                 question: "Who directed The Social Network?",
                 options: [
                     "David Fincher",
@@ -764,7 +764,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Louie",
-                emoji: "🎤😔",
+                emoji: "🔫💥",
                 question: "Where is Louie set?",
                 options: [
                     "New York",
@@ -775,7 +775,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Inglourious Basterds",
-                emoji: "🎬🔫",
+                emoji: "🎩🎪",
                 question: "Who plays Hans Landa?",
                 options: [
                     "Christoph Waltz",
@@ -786,7 +786,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Boardwalk Empire",
-                emoji: "🎰🥃",
+                emoji: "🌹💔",
                 question: "Who is the main character?",
                 options: [
                     "Nucky Thompson",
@@ -797,7 +797,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "The Master",
-                emoji: "⛵🎭",
+                emoji: "🎸🎤",
                 question: "Who plays Freddie Quell?",
                 options: [
                     "Joaquin Phoenix",
@@ -808,7 +808,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Justified",
-                emoji: "🤠⚖️",
+                emoji: "🏃💨",
                 question: "What is Boyd Crowder to Raylan?",
                 options: [
                     "Childhood friend",
@@ -821,7 +821,7 @@ const moviesTVQuestions = {
         expert: [
             {
                 topic: "Vertigo",
-                emoji: "🌀💚",
+                emoji: "🎯🎲",
                 question: "What is Scottie's phobia?",
                 options: [
                     "Acrophobia",
@@ -833,7 +833,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "The Wire",
-                emoji: "🚔📞",
+                emoji: "🎰🃏",
                 question: "How many seasons does The Wire have?",
                 options: [
                     "5",
@@ -845,7 +845,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Mulholland Drive",
-                emoji: "🌃💔",
+                emoji: "🏎️💨",
                 question: "Who directed Mulholland Drive?",
                 options: [
                     "David Lynch",
@@ -857,7 +857,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Deadwood",
-                emoji: "🤠🏜️",
+                emoji: "🚁✈️",
                 question: "How many seasons did Deadwood originally have?",
                 options: [
                     "3",
@@ -869,7 +869,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "The Apartment",
-                emoji: "🏢🎩",
+                emoji: "🦇🌃",
                 question: "Who directed The Apartment?",
                 options: [
                     "Billy Wilder",
@@ -881,7 +881,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "Freaks and Geeks",
-                emoji: "🎸🏫",
+                emoji: "👮🔍",
                 question: "What year is Freaks and Geeks set in?",
                 options: [
                     "1980",
@@ -893,7 +893,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "The Double Life of Véronique",
-                emoji: "👯‍♀️🎵",
+                emoji: "💰💵",
                 question: "Who directed this film?",
                 options: [
                     "Krzysztof Kieślowski",
@@ -905,7 +905,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "The Shield",
-                emoji: "👮💰",
+                emoji: "🎭😂",
                 question: "How many seasons does The Shield have?",
                 options: [
                     "7",
@@ -917,7 +917,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "The Conformist",
-                emoji: "🕴️🇮🇹",
+                emoji: "🎪🤡",
                 question: "Who directed The Conformist?",
                 options: [
                     "Bernardo Bertolucci",
@@ -929,7 +929,7 @@ const moviesTVQuestions = {
             },
             {
                 topic: "The Larry Sanders Show",
-                emoji: "📺🎙️",
+                emoji: "🎬📹",
                 question: "Who created The Larry Sanders Show?",
                 options: [
                     "Garry Shandling",
@@ -943,61 +943,61 @@ const moviesTVQuestions = {
         extreme: [
             {
                 topic: "Vertigo",
-                emoji: "🌀💚",
+                emoji: "🎬🎥",
                 question: "What tower does the climactic scene take place in?",
                 answer: "Mission San Juan Bautista"
             },
             {
                 topic: "The Wire",
-                emoji: "🚔📞",
+                emoji: "🎭🎪",
                 question: "What is Stringer Bell's real first name?",
                 answer: "Russell"
             },
             {
                 topic: "La Jetée",
-                emoji: "✈️⏰",
+                emoji: "🏆🌟",
                 question: "Who directed La Jetée?",
                 answer: "Chris Marker"
             },
             {
                 topic: "Deadwood",
-                emoji: "🤠🏜️",
+                emoji: "👑💍",
                 question: "What is Al Swearengen's saloon called?",
                 answer: "The Gem"
             },
             {
                 topic: "The Searchers",
-                emoji: "🏜️🤠",
+                emoji: "🦸🦹",
                 question: "Who directed The Searchers?",
                 answer: "John Ford"
             },
             {
                 topic: "The Sopranos",
-                emoji: "🤵💰",
+                emoji: "🚀🌌",
                 question: "What is the name of the strip club Tony owns?",
                 answer: "Bada Bing"
             },
             {
                 topic: "Au Revoir Les Enfants",
-                emoji: "🏫😢",
+                emoji: "🧙🔮",
                 question: "Who directed Au Revoir Les Enfants?",
                 answer: "Louis Malle"
             },
             {
                 topic: "Freaks and Geeks",
-                emoji: "🎸🏫",
+                emoji: "🦖🦕",
                 question: "What is Lindsay's last name?",
                 answer: "Weir"
             },
             {
                 topic: "The Battle of Algiers",
-                emoji: "💣🇩🇿",
+                emoji: "🕷️🕸️",
                 question: "Who directed The Battle of Algiers?",
                 answer: "Gillo Pontecorvo"
             },
             {
                 topic: "The Shield",
-                emoji: "👮💰",
+                emoji: "⚔️🛡️",
                 question: "What is the name of Vic Mackey's unit?",
                 answer: "Strike Team"
             }
@@ -1008,7 +1008,7 @@ const chapter3 = {
     easy: [
         {
             topic: "Titanic",
-            emoji: "🚢💔",
+            emoji: "💎🏝️",
             question: "Titanic is about a ship that sinks.",
             options: [
                 "True",
@@ -1018,7 +1018,7 @@ const chapter3 = {
         },
         {
             topic: "Black Panther",
-            emoji: "🐆👑",
+            emoji: "🐉⚡",
             question: "Black Panther is the king of Wakanda.",
             options: [
                 "False",
@@ -1028,7 +1028,7 @@ const chapter3 = {
         },
         {
             topic: "Downton Abbey",
-            emoji: "🏰☕",
+            emoji: "🤖🔧",
             question: "Downton Abbey is set in England.",
             options: [
                 "True",
@@ -1038,7 +1038,7 @@ const chapter3 = {
         },
         {
             topic: "E.T.",
-            emoji: "👽🚲",
+            emoji: "🏴‍☠️⚓",
             question: "E.T. wants to go home.",
             options: [
                 "False",
@@ -1048,37 +1048,37 @@ const chapter3 = {
         },
         {
             topic: "Supernatural",
-            emoji: "😈🔫",
+            emoji: "👻👽",
             question: "Sam and Dean hunt monsters.",
             options: [
                 "True",
                 "False"
             ],
-            correct: 0
+            correct: 1
         },
         {
             topic: "The Incredibles",
-            emoji: "🦸‍♀️👨‍👩‍👧‍👦",
+            emoji: "🔫💥",
             question: "The Incredibles is a superhero family.",
             options: [
                 "False",
                 "True"
             ],
-            correct: 1
+            correct: 0
         },
         {
             topic: "Doctor Who",
-            emoji: "🚀📞",
+            emoji: "🎩🎪",
             question: "The Doctor travels through time.",
             options: [
                 "True",
                 "False"
             ],
-            correct: 0
+            correct: 1
         },
         {
             topic: "Captain America",
-            emoji: "🛡️⭐",
+            emoji: "🌹💔",
             question: "Steve Rogers becomes Captain America.",
             options: [
                 "True",
@@ -1088,29 +1088,29 @@ const chapter3 = {
         },
         {
             topic: "Glee",
-            emoji: "🎤🎭",
+            emoji: "🎸🎤",
             question: "Glee is about a high school choir.",
             options: [
                 "False",
                 "True"
             ],
-            correct: 1
+            correct: 0
         },
         {
             topic: "Up",
-            emoji: "🎈🏠",
+            emoji: "🏃💨",
             question: "Carl uses balloons to fly his house.",
             options: [
                 "True",
                 "False"
             ],
-            correct: 0
+            correct: 1
         }
     ],
     medium: [
         {
             topic: "The Departed",
-            emoji: "🐀👮",
+            emoji: "🎯🎲",
             question: "What city is The Departed set in?",
             options: [
                 "Boston",
@@ -1120,7 +1120,7 @@ const chapter3 = {
         },
         {
             topic: "Scrubs",
-            emoji: "🏥😂",
+            emoji: "🎰🃏",
             question: "What is JD's profession?",
             options: [
                 "Doctor",
@@ -1130,7 +1130,7 @@ const chapter3 = {
         },
         {
             topic: "Interstellar",
-            emoji: "🌌🚀",
+            emoji: "🏎️💨",
             question: "Who directed Interstellar?",
             options: [
                 "Christopher Nolan",
@@ -1140,7 +1140,7 @@ const chapter3 = {
         },
         {
             topic: "The Good Place",
-            emoji: "😇🌺",
+            emoji: "🚁✈️",
             question: "Who is the architect of The Good Place?",
             options: [
                 "Michael",
@@ -1150,7 +1150,7 @@ const chapter3 = {
         },
         {
             topic: "Saving Private Ryan",
-            emoji: "🎖️🌊",
+            emoji: "🦇🌃",
             question: "What war is depicted in Saving Private Ryan?",
             options: [
                 "World War II",
@@ -1160,7 +1160,7 @@ const chapter3 = {
         },
         {
             topic: "The Witcher",
-            emoji: "🗡️🐺",
+            emoji: "👮🔍",
             question: "What is Geralt's profession?",
             options: [
                 "Witcher",
@@ -1170,7 +1170,7 @@ const chapter3 = {
         },
         {
             topic: "The Notebook",
-            emoji: "💌🦢",
+            emoji: "💰💵",
             question: "Where does The Notebook take place?",
             options: [
                 "South Carolina",
@@ -1180,7 +1180,7 @@ const chapter3 = {
         },
         {
             topic: "Silicon Valley",
-            emoji: "💻🚀",
+            emoji: "🎭😂",
             question: "What is the main company called?",
             options: [
                 "Pied Piper",
@@ -1190,7 +1190,7 @@ const chapter3 = {
         },
         {
             topic: "La La Land",
-            emoji: "🎹💃",
+            emoji: "🎪🤡",
             question: "What city is La La Land set in?",
             options: [
                 "Los Angeles",
@@ -1200,7 +1200,7 @@ const chapter3 = {
         },
         {
             topic: "Arrested Development",
-            emoji: "🍌😄",
+            emoji: "🎬📹",
             question: "What is the family business?",
             options: [
                 "Real estate development",
@@ -1212,7 +1212,7 @@ const chapter3 = {
     hard: [
         {
             topic: "Se7en",
-            emoji: "📦🔪",
+            emoji: "🎬🎥",
             question: "How many deadly sins are there?",
             options: [
                 "5",
@@ -1223,7 +1223,7 @@ const chapter3 = {
         },
         {
             topic: "Chernobyl",
-            emoji: "☢️🏭",
+            emoji: "🎭🎪",
             question: "What year did the Chernobyl disaster occur?",
             options: [
                 "1984",
@@ -1234,7 +1234,7 @@ const chapter3 = {
         },
         {
             topic: "Oldboy",
-            emoji: "🔨😡",
+            emoji: "🏆🌟",
             question: "How many years was the protagonist imprisoned?",
             options: [
                 "10",
@@ -1245,7 +1245,7 @@ const chapter3 = {
         },
         {
             topic: "Atlanta",
-            emoji: "🎤🍕",
+            emoji: "👑💍",
             question: "Who created Atlanta?",
             options: [
                 "Donald Glover",
@@ -1256,7 +1256,7 @@ const chapter3 = {
         },
         {
             topic: "Memento",
-            emoji: "📸🔄",
+            emoji: "🦸🦹",
             question: "What condition does Leonard have?",
             options: [
                 "Amnesia",
@@ -1267,7 +1267,7 @@ const chapter3 = {
         },
         {
             topic: "Fargo",
-            emoji: "❄️🔫",
+            emoji: "🚀🌌",
             question: "What state is the TV series Fargo set in?",
             options: [
                 "North Dakota",
@@ -1278,7 +1278,7 @@ const chapter3 = {
         },
         {
             topic: "Eternal Sunshine",
-            emoji: "💔🧠",
+            emoji: "🧙🔮",
             question: "What gets erased in Eternal Sunshine?",
             options: [
                 "Memories",
@@ -1289,7 +1289,7 @@ const chapter3 = {
         },
         {
             topic: "True Detective",
-            emoji: "🔍🌾",
+            emoji: "🦖🦕",
             question: "How many detectives are in Season 1?",
             options: [
                 "1",
@@ -1300,7 +1300,7 @@ const chapter3 = {
         },
         {
             topic: "Pan's Labyrinth",
-            emoji: "🧚‍♀️🌙",
+            emoji: "🕷️🕸️",
             question: "What country is Pan's Labyrinth from?",
             options: [
                 "Mexico",
@@ -1311,7 +1311,7 @@ const chapter3 = {
         },
         {
             topic: "The Expanse",
-            emoji: "🚀🌍",
+            emoji: "⚔️🛡️",
             question: "What is the main spaceship called?",
             options: [
                 "Rocinante",
@@ -1324,7 +1324,7 @@ const chapter3 = {
     expert: [
         {
             topic: "Barry Lyndon",
-            emoji: "🕯️🎨",
+            emoji: "💎🏝️",
             question: "What type of lighting did Kubrick use?",
             options: [
                 "Natural light",
@@ -1336,7 +1336,7 @@ const chapter3 = {
         },
         {
             topic: "The Shield",
-            emoji: "👮💰",
+            emoji: "🐉⚡",
             question: "What is the Strike Team's leader's name?",
             options: [
                 "Vic Mackey",
@@ -1348,7 +1348,7 @@ const chapter3 = {
         },
         {
             topic: "Persona",
-            emoji: "🎭🇸🇪",
+            emoji: "🤖🔧",
             question: "Who directed Persona?",
             options: [
                 "Ingmar Bergman",
@@ -1360,7 +1360,7 @@ const chapter3 = {
         },
         {
             topic: "The Larry Sanders Show",
-            emoji: "📺🎙️",
+            emoji: "🏴‍☠️⚓",
             question: "What type of show is Larry Sanders Show?",
             options: [
                 "News show",
@@ -1372,7 +1372,7 @@ const chapter3 = {
         },
         {
             topic: "Rashomon",
-            emoji: "🌳⚔️",
+            emoji: "👻👽",
             question: "How many versions of the story are told?",
             options: [
                 "2",
@@ -1384,7 +1384,7 @@ const chapter3 = {
         },
         {
             topic: "Boardwalk Empire",
-            emoji: "🎰🥃",
+            emoji: "🔫💥",
             question: "What decade is Boardwalk Empire set in?",
             options: [
                 "1910s",
@@ -1396,7 +1396,7 @@ const chapter3 = {
         },
         {
             topic: "Tokyo Story",
-            emoji: "🏯👴",
+            emoji: "🎩🎪",
             question: "Who directed Tokyo Story?",
             options: [
                 "Akira Kurosawa",
@@ -1408,7 +1408,7 @@ const chapter3 = {
         },
         {
             topic: "Rectify",
-            emoji: "⚖️🏠",
+            emoji: "🌹💔",
             question: "How many years was Daniel on death row?",
             options: [
                 "15",
@@ -1420,7 +1420,7 @@ const chapter3 = {
         },
         {
             topic: "Wings of Desire",
-            emoji: "👼🏙️",
+            emoji: "🎸🎤",
             question: "What city is Wings of Desire set in?",
             options: [
                 "Paris",
@@ -1432,7 +1432,7 @@ const chapter3 = {
         },
         {
             topic: "Justified",
-            emoji: "🤠⚖️",
+            emoji: "🏃💨",
             question: "What is Raylan Givens' occupation?",
             options: [
                 "Sheriff",
@@ -1446,61 +1446,61 @@ const chapter3 = {
     extreme: [
         {
             topic: "La Dolce Vita",
-            emoji: "📸🇮🇹",
+            emoji: "🎯🎲",
             question: "What fountain appears in the famous scene?",
             answer: "Trevi Fountain"
         },
         {
             topic: "Freaks and Geeks",
-            emoji: "🎸🏫",
+            emoji: "🎰🃏",
             question: "How many episodes did Freaks and Geeks have?",
             answer: "18"
         },
         {
             topic: "M",
-            emoji: "🎈🔪",
+            emoji: "🏎️💨",
             question: "Who directed the German film M?",
             answer: "Fritz Lang"
         },
         {
             topic: "Firefly",
-            emoji: "🚀🤠",
+            emoji: "🚁✈️",
             question: "What is the ship's name in Firefly?",
             answer: "Serenity"
         },
         {
             topic: "The 400 Blows",
-            emoji: "👦🏃",
+            emoji: "🦇🌃",
             question: "Who directed The 400 Blows?",
             answer: "François Truffaut"
         },
         {
             topic: "Hill Street Blues",
-            emoji: "👮📞",
+            emoji: "👮🔍",
             question: "What phrase ends the morning briefing?",
             answer: "Let's be careful out there"
         },
         {
             topic: "Andrei Rublev",
-            emoji: "🎨⛪",
+            emoji: "💰💵",
             question: "Who directed Andrei Rublev?",
             answer: "Andrei Tarkovsky"
         },
         {
             topic: "My So-Called Life",
-            emoji: "📓💔",
+            emoji: "🎭😂",
             question: "What is the protagonist's name?",
             answer: "Angela Chase"
         },
         {
             topic: "The Red Shoes",
-            emoji: "👠💃",
+            emoji: "🎪🤡",
             question: "What color are the iconic shoes?",
             answer: "Red"
         },
         {
             topic: "Homicide: Life on the Street",
-            emoji: "🔍🏙️",
+            emoji: "🎬📹",
             question: "What city is the show set in?",
             answer: "Baltimore"
         }
@@ -1511,7 +1511,7 @@ const chapter3 = {
         easy: [
             {
                 topic: "Shrek",
-                emoji: "👹🐴",
+                emoji: "🎬🎥",
                 question: "Shrek is an ogre.",
                 options: [
                     "True",
@@ -1521,7 +1521,7 @@ const chapter3 = {
             },
             {
                 topic: "Guardians of the Galaxy",
-                emoji: "🎵🚀",
+                emoji: "🎭🎪",
                 question: "Groot can only say 'I am Groot'.",
                 options: [
                     "False",
@@ -1531,7 +1531,7 @@ const chapter3 = {
             },
             {
                 topic: "The Fresh Prince",
-                emoji: "🏀😎",
+                emoji: "🏆🌟",
                 question: "Will Smith moves to Bel-Air in the show.",
                 options: [
                     "True",
@@ -1541,7 +1541,7 @@ const chapter3 = {
             },
             {
                 topic: "Ghostbusters",
-                emoji: "👻🚫",
+                emoji: "👑💍",
                 question: "Ghostbusters catch ghosts.",
                 options: [
                     "False",
@@ -1551,17 +1551,17 @@ const chapter3 = {
             },
             {
                 topic: "Suits",
-                emoji: "💼👔",
+                emoji: "🦸🦹",
                 question: "Mike Ross is a lawyer in Suits.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Aladdin",
-                emoji: "🧞‍♂️🏺",
+                emoji: "🚀🌌",
                 question: "Aladdin finds a magic lamp.",
                 options: [
                     "True",
@@ -1571,7 +1571,7 @@ const chapter3 = {
             },
             {
                 topic: "Vikings",
-                emoji: "⚔️🛡️",
+                emoji: "🧙🔮",
                 question: "Ragnar Lothbrok is the main character.",
                 options: [
                     "False",
@@ -1581,7 +1581,7 @@ const chapter3 = {
             },
             {
                 topic: "Wonder Woman",
-                emoji: "⚔️👸",
+                emoji: "🦖🦕",
                 question: "Wonder Woman is an Amazon warrior.",
                 options: [
                     "True",
@@ -1591,7 +1591,7 @@ const chapter3 = {
             },
             {
                 topic: "The Crown",
-                emoji: "👑💎",
+                emoji: "🕷️🕸️",
                 question: "The Crown is about British royalty.",
                 options: [
                     "True",
@@ -1601,7 +1601,7 @@ const chapter3 = {
             },
             {
                 topic: "Moana",
-                emoji: "🌊⛵",
+                emoji: "⚔️🛡️",
                 question: "Moana sails across the ocean.",
                 options: [
                     "False",
@@ -1613,7 +1613,7 @@ const chapter3 = {
         medium: [
             {
                 topic: "The Prestige",
-                emoji: "🎩🎭",
+                emoji: "💎🏝️",
                 question: "What are the two magicians' professions?",
                 options: [
                     "Rivals",
@@ -1623,7 +1623,7 @@ const chapter3 = {
             },
             {
                 topic: "30 Rock",
-                emoji: "📺😂",
+                emoji: "🐉⚡",
                 question: "Who is the head writer?",
                 options: [
                     "Liz Lemon",
@@ -1633,7 +1633,7 @@ const chapter3 = {
             },
             {
                 topic: "Django Unchained",
-                emoji: "🔫🤠",
+                emoji: "🤖🔧",
                 question: "What genre is Django Unchained?",
                 options: [
                     "Western",
@@ -1643,7 +1643,7 @@ const chapter3 = {
             },
             {
                 topic: "Veep",
-                emoji: "🏛️😂",
+                emoji: "🏴‍☠️⚓",
                 question: "What is Selina Meyer's position?",
                 options: [
                     "Senator",
@@ -1653,7 +1653,7 @@ const chapter3 = {
             },
             {
                 topic: "Braveheart",
-                emoji: "⚔️🏴󐁧󐁢󐁳󐁣󐁴󐁿",
+                emoji: "👻👽",
                 question: "Who does Mel Gibson play?",
                 options: [
                     "William Wallace",
@@ -1663,7 +1663,7 @@ const chapter3 = {
             },
             {
                 topic: "The Boys",
-                emoji: "🦸‍♂️💉",
+                emoji: "🔫💥",
                 question: "What are superheroes called in The Boys?",
                 options: [
                     "Supes",
@@ -1673,7 +1673,7 @@ const chapter3 = {
             },
             {
                 topic: "Birdman",
-                emoji: "🦅🎭",
+                emoji: "🎩🎪",
                 question: "What is the movie shot to look like?",
                 options: [
                     "One continuous take",
@@ -1683,7 +1683,7 @@ const chapter3 = {
             },
             {
                 topic: "The Mandalorian",
-                emoji: "🛡️👶",
+                emoji: "🌹💔",
                 question: "What is the Mandalorian's code?",
                 options: [
                     "This is the way",
@@ -1693,7 +1693,7 @@ const chapter3 = {
             },
             {
                 topic: "Up",
-                emoji: "🎈🏠",
+                emoji: "🎸🎤",
                 question: "What lifts the house in Up?",
                 options: [
                     "Balloons",
@@ -1703,7 +1703,7 @@ const chapter3 = {
             },
             {
                 topic: "Money Heist",
-                emoji: "💰🎭",
+                emoji: "🏃💨",
                 question: "What do they plan to rob?",
                 options: [
                     "Bank",
@@ -1715,7 +1715,7 @@ const chapter3 = {
         hard: [
             {
                 topic: "Birdman",
-                emoji: "🦅🎬",
+                emoji: "🎯🎲",
                 question: "Who directed Birdman?",
                 options: [
                     "Alfonso Cuarón",
@@ -1726,7 +1726,7 @@ const chapter3 = {
             },
             {
                 topic: "Hannibal",
-                emoji: "🍽️🔪",
+                emoji: "🎰🃏",
                 question: "What is Hannibal Lecter's profession in the show?",
                 options: [
                     "Psychiatrist",
@@ -1737,7 +1737,7 @@ const chapter3 = {
             },
             {
                 topic: "Drive",
-                emoji: "🚗😐",
+                emoji: "🏎️💨",
                 question: "What is the Driver's main job?",
                 options: [
                     "Mechanic",
@@ -1748,7 +1748,7 @@ const chapter3 = {
             },
             {
                 topic: "Band of Brothers",
-                emoji: "🎖️✈️",
+                emoji: "🚁✈️",
                 question: "What company is the show about?",
                 options: [
                     "Easy Company",
@@ -1759,7 +1759,7 @@ const chapter3 = {
             },
             {
                 topic: "Whiplash",
-                emoji: "🥁😤",
+                emoji: "🦇🌃",
                 question: "What instrument does Andrew play?",
                 options: [
                     "Piano",
@@ -1770,7 +1770,7 @@ const chapter3 = {
             },
             {
                 topic: "Mindhunter",
-                emoji: "🔍🧠",
+                emoji: "👮🔍",
                 question: "What do the agents study?",
                 options: [
                     "Cold cases",
@@ -1781,7 +1781,7 @@ const chapter3 = {
             },
             {
                 topic: "Her",
-                emoji: "💻💕",
+                emoji: "💰💵",
                 question: "What does the protagonist fall in love with?",
                 options: [
                     "A robot",
@@ -1792,7 +1792,7 @@ const chapter3 = {
             },
             {
                 topic: "The Leftovers",
-                emoji: "❓👨‍👩‍👧",
+                emoji: "🎭😂",
                 question: "Where is the show primarily set?",
                 options: [
                     "New York",
@@ -1803,7 +1803,7 @@ const chapter3 = {
             },
             {
                 topic: "Moonlight",
-                emoji: "🌊🌙",
+                emoji: "🎪🤡",
                 question: "How many actors play the protagonist?",
                 options: [
                     "2",
@@ -1814,7 +1814,7 @@ const chapter3 = {
             },
             {
                 topic: "The Terror",
-                emoji: "🚢❄️",
+                emoji: "🎬📹",
                 question: "What are the ships searching for?",
                 options: [
                     "Northwest Passage",
@@ -1827,7 +1827,7 @@ const chapter3 = {
         expert: [
             {
                 topic: "The Tree of Life",
-                emoji: "🌳✨",
+                emoji: "🎬🎥",
                 question: "Who directed The Tree of Life?",
                 options: [
                     "Terrence Malick",
@@ -1839,7 +1839,7 @@ const chapter3 = {
             },
             {
                 topic: "The Prisoner",
-                emoji: "🏝️❓",
+                emoji: "🎭🎪",
                 question: "What is the protagonist known as?",
                 options: [
                     "Number 5",
@@ -1851,7 +1851,7 @@ const chapter3 = {
             },
             {
                 topic: "A Separation",
-                emoji: "⚖️🇮🇷",
+                emoji: "🏆🌟",
                 question: "What country is A Separation from?",
                 options: [
                     "Iraq",
@@ -1863,7 +1863,7 @@ const chapter3 = {
             },
             {
                 topic: "The Knick",
-                emoji: "🏥🩺",
+                emoji: "👑💍",
                 question: "What century is The Knick set in?",
                 options: [
                     "19th",
@@ -1875,7 +1875,7 @@ const chapter3 = {
             },
             {
                 topic: "The Master",
-                emoji: "⛵🎭",
+                emoji: "🦸🦹",
                 question: "What is the cult-like organization called?",
                 options: [
                     "The Cause",
@@ -1887,7 +1887,7 @@ const chapter3 = {
             },
             {
                 topic: "Carnivàle",
-                emoji: "🎪🔮",
+                emoji: "🚀🌌",
                 question: "What decade is Carnivàle set in?",
                 options: [
                     "1920s",
@@ -1899,7 +1899,7 @@ const chapter3 = {
             },
             {
                 topic: "Synecdoche, New York",
-                emoji: "🎭🏙️",
+                emoji: "🧙🔮",
                 question: "Who directed this film?",
                 options: [
                     "Charlie Kaufman",
@@ -1911,7 +1911,7 @@ const chapter3 = {
             },
             {
                 topic: "Utopia",
-                emoji: "🎨🔫",
+                emoji: "🦖🦕",
                 question: "What country produced the original Utopia?",
                 options: [
                     "USA",
@@ -1923,7 +1923,7 @@ const chapter3 = {
             },
             {
                 topic: "Harakiri",
-                emoji: "⚔️🇯🇵",
+                emoji: "🕷️🕸️",
                 question: "What is the central theme?",
                 options: [
                     "Honor",
@@ -1935,7 +1935,7 @@ const chapter3 = {
             },
             {
                 topic: "Terriers",
-                emoji: "🔍🐕",
+                emoji: "⚔️🛡️",
                 question: "How many seasons did Terriers have?",
                 options: [
                     "1",
@@ -1949,61 +1949,61 @@ const chapter3 = {
         extreme: [
             {
                 topic: "Au Hasard Balthazar",
-                emoji: "🐴😢",
+                emoji: "💎🏝️",
                 question: "Who directed Au Hasard Balthazar?",
                 answer: "Robert Bresson"
             },
             {
                 topic: "The Singing Detective",
-                emoji: "🎵🔍",
+                emoji: "🐉⚡",
                 question: "Who wrote The Singing Detective?",
                 answer: "Dennis Potter"
             },
             {
                 topic: "Aguirre, the Wrath of God",
-                emoji: "⛵🌴",
+                emoji: "🤖🔧",
                 question: "Who directed Aguirre?",
                 answer: "Werner Herzog"
             },
             {
                 topic: "The Honeymooners",
-                emoji: "🚌😂",
+                emoji: "🏴‍☠️⚓",
                 question: "What is Ralph Kramden's job?",
                 answer: "Bus driver"
             },
             {
                 topic: "L'Atalante",
-                emoji: "🚢💑",
+                emoji: "👻👽",
                 question: "Who directed L'Atalante?",
                 answer: "Jean Vigo"
             },
             {
                 topic: "The Avengers (1960s)",
-                emoji: "☂️🎩",
+                emoji: "🔫💥",
                 question: "What is Emma Peel's signature outfit?",
                 answer: "Leather catsuit or jumpsuit"
             },
             {
                 topic: "Ikiru",
-                emoji: "👴🏛️",
+                emoji: "🎩🎪",
                 question: "What does 'Ikiru' mean in English?",
                 answer: "To Live"
             },
             {
                 topic: "Edge of Darkness",
-                emoji: "☢️🔫",
+                emoji: "🌹💔",
                 question: "What year was the original Edge of Darkness series?",
                 answer: "1985"
             },
             {
                 topic: "The Earrings of Madame de...",
-                emoji: "💎👂",
+                emoji: "🎸🎤",
                 question: "Who directed this film?",
                 answer: "Max Ophüls"
             },
             {
                 topic: "Brideshead Revisited",
-                emoji: "🏰🍷",
+                emoji: "🏃💨",
                 question: "Who wrote the novel Brideshead Revisited?",
                 answer: "Evelyn Waugh"
             }
@@ -2013,27 +2013,27 @@ const chapter3 = {
         easy: [
             {
                 topic: "Coco",
-                emoji: "🎸💀",
+                emoji: "🎯🎲",
                 question: "Coco is about the Day of the Dead.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Doctor Strange",
-                emoji: "🔮⏰",
+                emoji: "🎰🃏",
                 question: "Doctor Strange is a neurosurgeon.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "That '70s Show",
-                emoji: "🚗😎",
+                emoji: "🏎️💨",
                 question: "That '70s Show is set in Wisconsin.",
                 options: [
                     "True",
@@ -2043,7 +2043,7 @@ const chapter3 = {
             },
             {
                 topic: "The Terminator",
-                emoji: "🤖🔫",
+                emoji: "🚁✈️",
                 question: "The Terminator is a cyborg.",
                 options: [
                     "False",
@@ -2053,17 +2053,17 @@ const chapter3 = {
             },
             {
                 topic: "Gilmore Girls",
-                emoji: "☕📚",
+                emoji: "🦇🌃",
                 question: "Lorelai and Rory are mother and daughter.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Beauty and the Beast",
-                emoji: "🌹📚",
+                emoji: "👮🔍",
                 question: "Belle loves reading books.",
                 options: [
                     "True",
@@ -2073,7 +2073,7 @@ const chapter3 = {
             },
             {
                 topic: "The Vampire Diaries",
-                emoji: "🧛‍♂️💔",
+                emoji: "💰💵",
                 question: "The show is set in Mystic Falls.",
                 options: [
                     "False",
@@ -2083,7 +2083,7 @@ const chapter3 = {
             },
             {
                 topic: "Aquaman",
-                emoji: "🔱🌊",
+                emoji: "🎭😂",
                 question: "Aquaman can communicate with sea creatures.",
                 options: [
                     "True",
@@ -2093,29 +2093,29 @@ const chapter3 = {
             },
             {
                 topic: "The Handmaid's Tale",
-                emoji: "🔴👁️",
+                emoji: "🎪🤡",
                 question: "Handmaids wear red robes.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Zootopia",
-                emoji: "🐰🦊",
+                emoji: "🎬📹",
                 question: "Judy Hopps is a rabbit police officer.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         medium: [
             {
                 topic: "Spotlight",
-                emoji: "📰🔍",
+                emoji: "🎬🎥",
                 question: "What does the Spotlight team investigate?",
                 options: [
                     "Catholic Church scandal",
@@ -2125,7 +2125,7 @@ const chapter3 = {
             },
             {
                 topic: "It's Always Sunny",
-                emoji: "🍺😂",
+                emoji: "🎭🎪",
                 question: "What city is the show set in?",
                 options: [
                     "Philadelphia",
@@ -2135,7 +2135,7 @@ const chapter3 = {
             },
             {
                 topic: "Logan",
-                emoji: "🗡️👴",
+                emoji: "🏆🌟",
                 question: "What year is Logan set in?",
                 options: [
                     "2029",
@@ -2145,7 +2145,7 @@ const chapter3 = {
             },
             {
                 topic: "Curb Your Enthusiasm",
-                emoji: "😒🎬",
+                emoji: "👑💍",
                 question: "Who created Curb Your Enthusiasm?",
                 options: [
                     "Larry David",
@@ -2155,7 +2155,7 @@ const chapter3 = {
             },
             {
                 topic: "Arrival",
-                emoji: "🛸🗣️",
+                emoji: "🦸🦹",
                 question: "What does the linguist try to understand?",
                 options: [
                     "Alien language",
@@ -2165,7 +2165,7 @@ const chapter3 = {
             },
             {
                 topic: "Battlestar Galactica",
-                emoji: "🚀🤖",
+                emoji: "🚀🌌",
                 question: "What are the enemy robots called?",
                 options: [
                     "Terminators",
@@ -2175,7 +2175,7 @@ const chapter3 = {
             },
             {
                 topic: "Room",
-                emoji: "🚪👦",
+                emoji: "🧙🔮",
                 question: "Where do they escape from?",
                 options: [
                     "A room",
@@ -2185,7 +2185,7 @@ const chapter3 = {
             },
             {
                 topic: "Rick and Morty",
-                emoji: "🔬🛸",
+                emoji: "🦖🦕",
                 question: "What is Rick's profession?",
                 options: [
                     "Scientist",
@@ -2195,7 +2195,7 @@ const chapter3 = {
             },
             {
                 topic: "12 Years a Slave",
-                emoji: "⛓️😢",
+                emoji: "🕷️🕸️",
                 question: "How long was Solomon enslaved?",
                 options: [
                     "12 years",
@@ -2205,7 +2205,7 @@ const chapter3 = {
             },
             {
                 topic: "BoJack Horseman",
-                emoji: "🐴📺",
+                emoji: "⚔️🛡️",
                 question: "What is BoJack's species?",
                 options: [
                     "Horse",
@@ -2215,7 +2215,7 @@ const chapter3 = {
             },
             {
                 topic: "Mad Max: Fury Road",
-                emoji: "🚗🔥",
+                emoji: "💎🏝️",
                 question: "Who is the main female character?",
                 options: [
                     "Furiosa",
@@ -2227,7 +2227,7 @@ const chapter3 = {
         hard: [
             {
                 topic: "Children of Men",
-                emoji: "👶🌍",
+                emoji: "🐉⚡",
                 question: "What is the main crisis in the film?",
                 options: [
                     "War",
@@ -2238,7 +2238,7 @@ const chapter3 = {
             },
             {
                 topic: "The Leftovers",
-                emoji: "❓🕊️",
+                emoji: "🤖🔧",
                 question: "Who created The Leftovers?",
                 options: [
                     "Damon Lindelof",
@@ -2249,7 +2249,7 @@ const chapter3 = {
             },
             {
                 topic: "Amour",
-                emoji: "💑👴",
+                emoji: "🏴‍☠️⚓",
                 question: "What language is Amour in?",
                 options: [
                     "German",
@@ -2260,7 +2260,7 @@ const chapter3 = {
             },
             {
                 topic: "Patriot",
-                emoji: "🕵️🎵",
+                emoji: "👻👽",
                 question: "What is the protagonist's cover job?",
                 options: [
                     "Industrial engineer",
@@ -2271,7 +2271,7 @@ const chapter3 = {
             },
             {
                 topic: "The Hunt",
-                emoji: "🎯😢",
+                emoji: "🔫💥",
                 question: "What is the main character falsely accused of?",
                 options: [
                     "Murder",
@@ -2282,7 +2282,7 @@ const chapter3 = {
             },
             {
                 topic: "Rectify",
-                emoji: "⚖️🏠",
+                emoji: "🎩🎪",
                 question: "What state is Rectify set in?",
                 options: [
                     "Georgia",
@@ -2293,7 +2293,7 @@ const chapter3 = {
             },
             {
                 topic: "The Grand Budapest Hotel",
-                emoji: "🏨🎨",
+                emoji: "🌹💔",
                 question: "Who directed this film?",
                 options: [
                     "Wes Anderson",
@@ -2304,7 +2304,7 @@ const chapter3 = {
             },
             {
                 topic: "Halt and Catch Fire",
-                emoji: "💻📼",
+                emoji: "🎸🎤",
                 question: "What decade does the show start in?",
                 options: [
                     "1970s",
@@ -2315,7 +2315,7 @@ const chapter3 = {
             },
             {
                 topic: "Inside Llewyn Davis",
-                emoji: "🎸🐈",
+                emoji: "🏃💨",
                 question: "What music genre is featured?",
                 options: [
                     "Folk",
@@ -2326,7 +2326,7 @@ const chapter3 = {
             },
             {
                 topic: "The Americans",
-                emoji: "🕵️🇷🇺",
+                emoji: "🎯🎲",
                 question: "What are the protagonists disguised as?",
                 options: [
                     "Diplomats",
@@ -2339,7 +2339,7 @@ const chapter3 = {
         expert: [
             {
                 topic: "Spring, Summer, Fall, Winter",
-                emoji: "🍂⛩️",
+                emoji: "🎰🃏",
                 question: "Who directed this Korean film?",
                 options: [
                     "Park Chan-wook",
@@ -2351,7 +2351,7 @@ const chapter3 = {
             },
             {
                 topic: "The Singing Detective",
-                emoji: "🎵🔍",
+                emoji: "🏎️💨",
                 question: "What illness does the protagonist have?",
                 options: [
                     "Cancer",
@@ -2363,7 +2363,7 @@ const chapter3 = {
             },
             {
                 topic: "In the Mood for Love",
-                emoji: "💔🌃",
+                emoji: "🚁✈️",
                 question: "Who directed In the Mood for Love?",
                 options: [
                     "Wong Kar-wai",
@@ -2375,7 +2375,7 @@ const chapter3 = {
             },
             {
                 topic: "The Young Pope",
-                emoji: "⛪🚬",
+                emoji: "🦇🌃",
                 question: "Who plays Pope Pius XIII?",
                 options: [
                     "Jude Law",
@@ -2387,7 +2387,7 @@ const chapter3 = {
             },
             {
                 topic: "Yi Yi",
-                emoji: "👨‍👩‍👧‍👦🇹🇼",
+                emoji: "👮🔍",
                 question: "What does Yi Yi mean?",
                 options: [
                     "One One",
@@ -2399,7 +2399,7 @@ const chapter3 = {
             },
             {
                 topic: "The Night Of",
-                emoji: "⚖️🌃",
+                emoji: "💰💵",
                 question: "How many episodes is The Night Of?",
                 options: [
                     "6",
@@ -2411,7 +2411,7 @@ const chapter3 = {
             },
             {
                 topic: "Cache",
-                emoji: "📹🇫🇷",
+                emoji: "🎭😂",
                 question: "Who directed Cache (Hidden)?",
                 options: [
                     "Michael Haneke",
@@ -2423,7 +2423,7 @@ const chapter3 = {
             },
             {
                 topic: "Top of the Lake",
-                emoji: "🏔️🔍",
+                emoji: "🎪🤡",
                 question: "Who created Top of the Lake?",
                 options: [
                     "Jane Campion",
@@ -2435,7 +2435,7 @@ const chapter3 = {
             },
             {
                 topic: "Once Upon a Time in Anatolia",
-                emoji: "🚗🌙",
+                emoji: "🎬📹",
                 question: "What country is this film from?",
                 options: [
                     "Greece",
@@ -2447,7 +2447,7 @@ const chapter3 = {
             },
             {
                 topic: "Treme",
-                emoji: "🎺🌊",
+                emoji: "🎬🎥",
                 question: "What city is Treme set in post-disaster?",
                 options: [
                     "Houston",
@@ -2461,61 +2461,61 @@ const chapter3 = {
         extreme: [
             {
                 topic: "L'Avventura",
-                emoji: "🏝️🔍",
+                emoji: "🎭🎪",
                 question: "Who directed L'Avventura?",
                 answer: "Michelangelo Antonioni"
             },
             {
                 topic: "The Prisoner",
-                emoji: "🏝️❓",
+                emoji: "🏆🌟",
                 question: "What village is the protagonist trapped in?",
                 answer: "The Village"
             },
             {
                 topic: "Pickpocket",
-                emoji: "👋💼",
+                emoji: "👑💍",
                 question: "Who directed Pickpocket?",
                 answer: "Robert Bresson"
             },
             {
                 topic: "The Singing Detective",
-                emoji: "🎵🔍",
+                emoji: "🦸🦹",
                 question: "What is the protagonist's name?",
                 answer: "Philip Marlow"
             },
             {
                 topic: "Sansho the Bailiff",
-                emoji: "⛰️😢",
+                emoji: "🚀🌌",
                 question: "Who directed Sansho the Bailiff?",
                 answer: "Kenji Mizoguchi"
             },
             {
                 topic: "Prime Suspect",
-                emoji: "👮‍♀️🔍",
+                emoji: "🧙🔮",
                 question: "What is DCI Tennison's first name?",
                 answer: "Jane"
             },
             {
                 topic: "Diary of a Country Priest",
-                emoji: "📖⛪",
+                emoji: "🦖🦕",
                 question: "Who directed this film?",
                 answer: "Robert Bresson"
             },
             {
                 topic: "The Prisoner",
-                emoji: "❓6️⃣",
+                emoji: "🕷️🕸️",
                 question: "Who is Number 1?",
                 answer: "Number 6 or The Prisoner himself"
             },
             {
                 topic: "Pather Panchali",
-                emoji: "🌾🇮🇳",
+                emoji: "⚔️🛡️",
                 question: "Who directed the Apu Trilogy?",
                 answer: "Satyajit Ray"
             },
             {
                 topic: "Brideshead Revisited",
-                emoji: "🏰🍷",
+                emoji: "💎🏝️",
                 question: "What is the estate called?",
                 answer: "Brideshead"
             }
@@ -2525,7 +2525,7 @@ const chapter3 = {
         easy: [
             {
                 topic: "Inside Out",
-                emoji: "😊😢",
+                emoji: "🐉⚡",
                 question: "Inside Out takes place inside a girl's mind.",
                 options: [
                     "True",
@@ -2535,7 +2535,7 @@ const chapter3 = {
             },
             {
                 topic: "Ant-Man",
-                emoji: "🐜👨",
+                emoji: "🤖🔧",
                 question: "Ant-Man can shrink to the size of an ant.",
                 options: [
                     "False",
@@ -2545,7 +2545,7 @@ const chapter3 = {
             },
             {
                 topic: "Two and a Half Men",
-                emoji: "🏠😂",
+                emoji: "🏴‍☠️⚓",
                 question: "Charlie Sheen was in Two and a Half Men.",
                 options: [
                     "True",
@@ -2555,17 +2555,17 @@ const chapter3 = {
             },
             {
                 topic: "Aliens",
-                emoji: "👽🔫",
+                emoji: "👻👽",
                 question: "Ripley fights xenomorphs in Aliens.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Lost",
-                emoji: "✈️🏝️",
+                emoji: "🔫💥",
                 question: "The survivors crash on an island.",
                 options: [
                     "False",
@@ -2575,7 +2575,7 @@ const chapter3 = {
             },
             {
                 topic: "Mulan",
-                emoji: "⚔️🐉",
+                emoji: "🎩🎪",
                 question: "Mulan disguises herself as a man.",
                 options: [
                     "True",
@@ -2585,7 +2585,7 @@ const chapter3 = {
             },
             {
                 topic: "Dexter",
-                emoji: "🔪🩸",
+                emoji: "🌹💔",
                 question: "Dexter is a serial killer.",
                 options: [
                     "False",
@@ -2595,7 +2595,7 @@ const chapter3 = {
             },
             {
                 topic: "Captain Marvel",
-                emoji: "⭐✈️",
+                emoji: "🎸🎤",
                 question: "Captain Marvel is a pilot.",
                 options: [
                     "True",
@@ -2605,7 +2605,7 @@ const chapter3 = {
             },
             {
                 topic: "Sherlock",
-                emoji: "🔍🎻",
+                emoji: "🏃💨",
                 question: "Sherlock lives at 221B Baker Street.",
                 options: [
                     "True",
@@ -2615,7 +2615,7 @@ const chapter3 = {
             },
             {
                 topic: "Ratatouille",
-                emoji: "🐀👨‍🍳",
+                emoji: "🎯🎲",
                 question: "A rat wants to be a chef.",
                 options: [
                     "False",
@@ -2627,7 +2627,7 @@ const chapter3 = {
         medium: [
             {
                 topic: "The Grand Budapest Hotel",
-                emoji: "🏨🎨",
+                emoji: "🎰🃏",
                 question: "What is the concierge's name?",
                 options: [
                     "Gustave H.",
@@ -2637,7 +2637,7 @@ const chapter3 = {
             },
             {
                 topic: "The IT Crowd",
-                emoji: "💻😂",
+                emoji: "🏎️💨",
                 question: "What floor is IT on?",
                 options: [
                     "Basement",
@@ -2647,7 +2647,7 @@ const chapter3 = {
             },
             {
                 topic: "Sicario",
-                emoji: "🔫🌵",
+                emoji: "🚁✈️",
                 question: "What does Sicario mean?",
                 options: [
                     "Hitman",
@@ -2657,7 +2657,7 @@ const chapter3 = {
             },
             {
                 topic: "Lovecraft Country",
-                emoji: "👻📚",
+                emoji: "🦇🌃",
                 question: "What decade is it set in?",
                 options: [
                     "1950s",
@@ -2667,7 +2667,7 @@ const chapter3 = {
             },
             {
                 topic: "The Revenant",
-                emoji: "🐻❄️",
+                emoji: "👮🔍",
                 question: "Who directed The Revenant?",
                 options: [
                     "Alejandro G. Iñárritu",
@@ -2677,7 +2677,7 @@ const chapter3 = {
             },
             {
                 topic: "Killing Eve",
-                emoji: "🔪💄",
+                emoji: "💰💵",
                 question: "Who is the assassin?",
                 options: [
                     "Eve",
@@ -2687,7 +2687,7 @@ const chapter3 = {
             },
             {
                 topic: "The Shape of Water",
-                emoji: "🐟💚",
+                emoji: "🎭😂",
                 question: "What does the protagonist fall in love with?",
                 options: [
                     "Sea creature",
@@ -2697,7 +2697,7 @@ const chapter3 = {
             },
             {
                 topic: "Russian Doll",
-                emoji: "🎂🔄",
+                emoji: "🎪🤡",
                 question: "What keeps happening to Nadia?",
                 options: [
                     "She dies repeatedly",
@@ -2707,7 +2707,7 @@ const chapter3 = {
             },
             {
                 topic: "Three Billboards",
-                emoji: "🪧😡",
+                emoji: "🎬📹",
                 question: "Where is the film set?",
                 options: [
                     "Missouri",
@@ -2717,7 +2717,7 @@ const chapter3 = {
             },
             {
                 topic: "Dark",
-                emoji: "⏰🌲",
+                emoji: "🎬🎥",
                 question: "What country is Dark from?",
                 options: [
                     "Austria",
@@ -2729,7 +2729,7 @@ const chapter3 = {
         hard: [
             {
                 topic: "The Lighthouse",
-                emoji: "🗼🌊",
+                emoji: "🎭🎪",
                 question: "How many main characters are there?",
                 options: [
                     "1",
@@ -2740,7 +2740,7 @@ const chapter3 = {
             },
             {
                 topic: "Counterpart",
-                emoji: "🚪🔄",
+                emoji: "🏆🌟",
                 question: "What is the main concept?",
                 options: [
                     "Time travel",
@@ -2751,7 +2751,7 @@ const chapter3 = {
             },
             {
                 topic: "The Lives of Others",
-                emoji: "🎧🇩🇪",
+                emoji: "👑💍",
                 question: "What agency does the protagonist work for?",
                 options: [
                     "Stasi",
@@ -2762,7 +2762,7 @@ const chapter3 = {
             },
             {
                 topic: "Maniac",
-                emoji: "💊🧠",
+                emoji: "🦸🦹",
                 question: "What are the protagonists part of?",
                 options: [
                     "Support group",
@@ -2773,7 +2773,7 @@ const chapter3 = {
             },
             {
                 topic: "Incendies",
-                emoji: "📮💔",
+                emoji: "🚀🌌",
                 question: "What country is Incendies from?",
                 options: [
                     "France",
@@ -2784,7 +2784,7 @@ const chapter3 = {
             },
             {
                 topic: "The OA",
-                emoji: "👁️🌌",
+                emoji: "🧙🔮",
                 question: "What ability does Prairie have?",
                 options: [
                     "Telekinesis",
@@ -2795,7 +2795,7 @@ const chapter3 = {
             },
             {
                 topic: "A Prophet",
-                emoji: "⛓️🔪",
+                emoji: "🦖🦕",
                 question: "Where does most of the film take place?",
                 options: [
                     "Prison",
@@ -2806,7 +2806,7 @@ const chapter3 = {
             },
             {
                 topic: "Patriot",
-                emoji: "🕵️🎵",
+                emoji: "🕷️🕸️",
                 question: "What does John express through?",
                 options: [
                     "Paintings",
@@ -2817,7 +2817,7 @@ const chapter3 = {
             },
             {
                 topic: "Poetry",
-                emoji: "📝🇰🇷",
+                emoji: "⚔️🛡️",
                 question: "What country is the film Poetry from?",
                 options: [
                     "Japan",
@@ -2828,7 +2828,7 @@ const chapter3 = {
             },
             {
                 topic: "Station Eleven",
-                emoji: "🎭🦠",
+                emoji: "💎🏝️",
                 question: "What does the troupe perform?",
                 options: [
                     "Music",
@@ -2841,7 +2841,7 @@ const chapter3 = {
         expert: [
             {
                 topic: "The Master",
-                emoji: "⛵🎭",
+                emoji: "🐉⚡",
                 question: "Who plays Lancaster Dodd?",
                 options: [
                     "Philip Seymour Hoffman",
@@ -2853,7 +2853,7 @@ const chapter3 = {
             },
             {
                 topic: "I May Destroy You",
-                emoji: "💊💔",
+                emoji: "🤖🔧",
                 question: "Who created I May Destroy You?",
                 options: [
                     "Phoebe Waller-Bridge",
@@ -2865,7 +2865,7 @@ const chapter3 = {
             },
             {
                 topic: "Stalker",
-                emoji: "🏚️🌫️",
+                emoji: "🏴‍☠️⚓",
                 question: "Who directed Stalker?",
                 options: [
                     "Andrei Tarkovsky",
@@ -2877,7 +2877,7 @@ const chapter3 = {
             },
             {
                 topic: "Gomorrah",
-                emoji: "🔫🇮🇹",
+                emoji: "👻👽",
                 question: "What criminal organization is depicted?",
                 options: [
                     "Mafia",
@@ -2889,7 +2889,7 @@ const chapter3 = {
             },
             {
                 topic: "The Celebration",
-                emoji: "🎂😱",
+                emoji: "🔫💥",
                 question: "What filmmaking movement is it part of?",
                 options: [
                     "Dogme 95",
@@ -2901,7 +2901,7 @@ const chapter3 = {
             },
             {
                 topic: "Enlightened",
-                emoji: "🧘‍♀️💼",
+                emoji: "🎩🎪",
                 question: "Who created Enlightened?",
                 options: [
                     "Laura Dern",
@@ -2913,7 +2913,7 @@ const chapter3 = {
             },
             {
                 topic: "Uncle Boonmee",
-                emoji: "🐵👻",
+                emoji: "🌹💔",
                 question: "Who directed this Palme d'Or winner?",
                 options: [
                     "Apichatpong Weerasethakul",
@@ -2925,7 +2925,7 @@ const chapter3 = {
             },
             {
                 topic: "The Bureau",
-                emoji: "🕵️🇫🇷",
+                emoji: "🎸🎤",
                 question: "What agency is The Bureau about?",
                 options: [
                     "MI6",
@@ -2937,7 +2937,7 @@ const chapter3 = {
             },
             {
                 topic: "Winter Sleep",
-                emoji: "❄️🏨",
+                emoji: "🏃💨",
                 question: "How long is Winter Sleep?",
                 options: [
                     "2 hours",
@@ -2949,7 +2949,7 @@ const chapter3 = {
             },
             {
                 topic: "Engrenages",
-                emoji: "⚖️🇫🇷",
+                emoji: "🎯🎲",
                 question: "What is Engrenages called in English?",
                 options: [
                     "Spiral",
@@ -2963,61 +2963,61 @@ const chapter3 = {
         extreme: [
             {
                 topic: "Late Spring",
-                emoji: "🌸👴",
+                emoji: "🎰🃏",
                 question: "Who directed Late Spring?",
                 answer: "Yasujirō Ozu"
             },
             {
                 topic: "State of Play",
-                emoji: "📰🔍",
+                emoji: "🏎️💨",
                 question: "What is the main character's profession?",
                 answer: "Journalist or Reporter"
             },
             {
                 topic: "Contempt",
-                emoji: "🎬💔",
+                emoji: "🚁✈️",
                 question: "Who directed Contempt (Le Mépris)?",
                 answer: "Jean-Luc Godard"
             },
             {
                 topic: "The Thick of It",
-                emoji: "🏛️🤬",
+                emoji: "🦇🌃",
                 question: "What is Malcolm Tucker's job title?",
                 answer: "Director of Communications"
             },
             {
                 topic: "Ugetsu",
-                emoji: "👻🏺",
+                emoji: "👮🔍",
                 question: "Who directed Ugetsu?",
                 answer: "Kenji Mizoguchi"
             },
             {
                 topic: "Traffik",
-                emoji: "💊🌍",
+                emoji: "💰💵",
                 question: "What year was the original Traffik series?",
                 answer: "1989"
             },
             {
                 topic: "The Night of the Hunter",
-                emoji: "👐🔪",
+                emoji: "🎭😂",
                 question: "What words are tattooed on the preacher's knuckles?",
                 answer: "LOVE and HATE"
             },
             {
                 topic: "Our Friends in the North",
-                emoji: "🏙️👥",
+                emoji: "🎪🤡",
                 question: "How many decades does the series span?",
                 answer: "3 or Three"
             },
             {
                 topic: "Chimes at Midnight",
-                emoji: "🍺⚔️",
+                emoji: "🎬📹",
                 question: "Who directed Chimes at Midnight?",
                 answer: "Orson Welles"
             },
             {
                 topic: "Cracker",
-                emoji: "🧠🔍",
+                emoji: "🎬🎥",
                 question: "What is Fitz's profession?",
                 answer: "Criminal psychologist or Forensic psychologist"
             }
@@ -3027,7 +3027,7 @@ const chapter3 = {
         easy: [
             {
                 topic: "Painting",
-                emoji: "🎨🇫🇷",
+                emoji: "🎭🎪",
                 question: "Claude Monet was an Impressionist painter.",
                 options: [
                     "True",
@@ -3037,37 +3037,37 @@ const chapter3 = {
             },
             {
                 topic: "Music",
-                emoji: "🎵🎸",
+                emoji: "🏆🌟",
                 question: "Electric guitars need amplifiers.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Architecture",
-                emoji: "🏛️🇬🇧",
+                emoji: "👑💍",
                 question: "Westminster Abbey is in London.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Literature",
-                emoji: "📖🕷️",
+                emoji: "🦸🦹",
                 question: "'Charlotte's Web' is about a spider.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Dance",
-                emoji: "💃🎶",
+                emoji: "🚀🌌",
                 question: "Breakdancing is part of hip-hop culture.",
                 options: [
                     "False",
@@ -3077,7 +3077,7 @@ const chapter3 = {
             },
             {
                 topic: "Sculpture",
-                emoji: "🗿🦅",
+                emoji: "🧙🔮",
                 question: "The Liberty Bell is in Philadelphia.",
                 options: [
                     "True",
@@ -3087,27 +3087,27 @@ const chapter3 = {
             },
             {
                 topic: "Cinema",
-                emoji: "🎬🧙",
+                emoji: "🦖🦕",
                 question: "'Harry Potter' films are based on books.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Theater",
-                emoji: "🎭🎪",
+                emoji: "🕷️🕸️",
                 question: "Comedy makes people laugh.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Monuments",
-                emoji: "🗼🇦🇺",
+                emoji: "⚔️🛡️",
                 question: "The Sydney Harbour Bridge is steel.",
                 options: [
                     "True",
@@ -3117,7 +3117,7 @@ const chapter3 = {
             },
             {
                 topic: "Music",
-                emoji: "🎸🎤",
+                emoji: "💎🏝️",
                 question: "David Bowie was a British rock star.",
                 options: [
                     "False",
@@ -3129,7 +3129,7 @@ const chapter3 = {
         medium: [
             {
                 topic: "Painting",
-                emoji: "🎨🌙",
+                emoji: "🐉⚡",
                 question: "Who painted 'Starry Night'?",
                 options: [
                     "Vincent van Gogh",
@@ -3139,7 +3139,7 @@ const chapter3 = {
             },
             {
                 topic: "Music",
-                emoji: "🎼🎻",
+                emoji: "🤖🔧",
                 question: "What is the highest male singing voice?",
                 options: [
                     "Tenor",
@@ -3149,7 +3149,7 @@ const chapter3 = {
             },
             {
                 topic: "Architecture",
-                emoji: "🏛️🇺🇸",
+                emoji: "🏴‍☠️⚓",
                 question: "What is the tallest building in New York?",
                 options: [
                     "One World Trade",
@@ -3159,7 +3159,7 @@ const chapter3 = {
             },
             {
                 topic: "Literature",
-                emoji: "📚🦆",
+                emoji: "👻👽",
                 question: "Who wrote 'The Ugly Duckling'?",
                 options: [
                     "Hans Christian Andersen",
@@ -3169,7 +3169,7 @@ const chapter3 = {
             },
             {
                 topic: "Dance",
-                emoji: "💃🩰",
+                emoji: "🔫💥",
                 question: "Ballet originated in Italy during the Renaissance.",
                 options: [
                     "True",
@@ -3179,7 +3179,7 @@ const chapter3 = {
             },
             {
                 topic: "Sculpture",
-                emoji: "🗽🎭",
+                emoji: "🎩🎪",
                 question: "Michelangelo sculpted the statue of David.",
                 options: [
                     "False",
@@ -3189,7 +3189,7 @@ const chapter3 = {
             },
             {
                 topic: "Cinema",
-                emoji: "🎬🎥",
+                emoji: "🌹💔",
                 question: "The first film ever made was in color.",
                 options: [
                     "True",
@@ -3199,7 +3199,7 @@ const chapter3 = {
             },
             {
                 topic: "Theater",
-                emoji: "🎭🎪",
+                emoji: "🎸🎤",
                 question: "Ancient Greek theater used masks in performances.",
                 options: [
                     "True",
@@ -3209,7 +3209,7 @@ const chapter3 = {
             },
             {
                 topic: "Monuments",
-                emoji: "🗼🌍",
+                emoji: "🏃💨",
                 question: "The Eiffel Tower is made entirely of wood.",
                 options: [
                     "False",
@@ -3219,7 +3219,7 @@ const chapter3 = {
             },
             {
                 topic: "Music",
-                emoji: "🎸🎤",
+                emoji: "🎯🎲",
                 question: "The Beatles were from Liverpool, England.",
                 options: [
                     "False",
@@ -3231,7 +3231,7 @@ const chapter3 = {
         hard: [
             {
                 topic: "Painting",
-                emoji: "🎨🌻",
+                emoji: "🎰🃏",
                 question: "Which artist is famous for painting sunflowers?",
                 options: [
                     "Claude Monet",
@@ -3242,7 +3242,7 @@ const chapter3 = {
             },
             {
                 topic: "Music",
-                emoji: "🎼🎹",
+                emoji: "🏎️💨",
                 question: "How many symphonies did Beethoven compose?",
                 options: [
                     "9",
@@ -3253,7 +3253,7 @@ const chapter3 = {
             },
             {
                 topic: "Architecture",
-                emoji: "🕌✨",
+                emoji: "🚁✈️",
                 question: "What is the architectural style of the Taj Mahal?",
                 options: [
                     "Mughal",
@@ -3264,7 +3264,7 @@ const chapter3 = {
             },
             {
                 topic: "Literature",
-                emoji: "📚🇬🇧",
+                emoji: "🦇🌃",
                 question: "Who wrote 'Pride and Prejudice'?",
                 options: [
                     "Charlotte Brontë",
@@ -3275,7 +3275,7 @@ const chapter3 = {
             },
             {
                 topic: "Dance",
-                emoji: "🩰🎭",
+                emoji: "👮🔍",
                 question: "How many positions are there in classical ballet?",
                 options: [
                     "5",
@@ -3286,7 +3286,7 @@ const chapter3 = {
             },
             {
                 topic: "Sculpture",
-                emoji: "🗽🇺🇸",
+                emoji: "💰💵",
                 question: "Which country gifted the Statue of Liberty to the USA?",
                 options: [
                     "France",
@@ -3297,7 +3297,7 @@ const chapter3 = {
             },
             {
                 topic: "Cinema",
-                emoji: "🎬🏆",
+                emoji: "🎭😂",
                 question: "Who directed 'The Godfather'?",
                 options: [
                     "Martin Scorsese",
@@ -3308,7 +3308,7 @@ const chapter3 = {
             },
             {
                 topic: "Theater",
-                emoji: "🎭🇬🇷",
+                emoji: "🎪🤡",
                 question: "Who is considered the father of tragedy?",
                 options: [
                     "Sophocles",
@@ -3319,7 +3319,7 @@ const chapter3 = {
             },
             {
                 topic: "World Heritage",
-                emoji: "🏛️🌍",
+                emoji: "🎬📹",
                 question: "How many wonders are in the Ancient World?",
                 options: [
                     "7",
@@ -3330,7 +3330,7 @@ const chapter3 = {
             },
             {
                 topic: "Crafts",
-                emoji: "🧶🎨",
+                emoji: "🎬🎥",
                 question: "What technique uses wax to create patterns on fabric?",
                 options: [
                     "Tie-dye",
@@ -3343,7 +3343,7 @@ const chapter3 = {
         expert: [
             {
                 topic: "Painting",
-                emoji: "🎨🖼️",
+                emoji: "🎭🎪",
                 question: "In which year was 'The Starry Night' painted?",
                 options: [
                     "1885",
@@ -3355,7 +3355,7 @@ const chapter3 = {
             },
             {
                 topic: "Music",
-                emoji: "🎵🎼",
+                emoji: "🏆🌟",
                 question: "What is the musical term for 'very fast'?",
                 options: [
                     "Presto",
@@ -3367,7 +3367,7 @@ const chapter3 = {
             },
             {
                 topic: "Architecture",
-                emoji: "🏰🏛️",
+                emoji: "👑💍",
                 question: "Who designed the Sydney Opera House?",
                 options: [
                     "Frank Lloyd Wright",
@@ -3379,7 +3379,7 @@ const chapter3 = {
             },
             {
                 topic: "Literature",
-                emoji: "📖🏆",
+                emoji: "🦸🦹",
                 question: "Who won the first Nobel Prize in Literature?",
                 options: [
                     "Sully Prudhomme",
@@ -3391,7 +3391,7 @@ const chapter3 = {
             },
             {
                 topic: "Dance",
-                emoji: "💃🌍",
+                emoji: "🚀🌌",
                 question: "Which dance form originated in Cuba?",
                 options: [
                     "Samba",
@@ -3403,7 +3403,7 @@ const chapter3 = {
             },
             {
                 topic: "Sculpture",
-                emoji: "🗿🎨",
+                emoji: "🧙🔮",
                 question: "What artistic period is 'The Thinker' from?",
                 options: [
                     "Renaissance",
@@ -3415,7 +3415,7 @@ const chapter3 = {
             },
             {
                 topic: "Cinema",
-                emoji: "🎬📽️",
+                emoji: "🦖🦕",
                 question: "Which film won the first Academy Award for Best Picture?",
                 options: [
                     "Wings",
@@ -3427,7 +3427,7 @@ const chapter3 = {
             },
             {
                 topic: "Theater",
-                emoji: "🎭📜",
+                emoji: "🕷️🕸️",
                 question: "What is the oldest surviving play?",
                 options: [
                     "Oedipus Rex",
@@ -3439,7 +3439,7 @@ const chapter3 = {
             },
             {
                 topic: "World Heritage",
-                emoji: "🏛️🇮🇹",
+                emoji: "⚔️🛡️",
                 question: "How many years did it take to build the Colosseum?",
                 options: [
                     "8 years",
@@ -3451,7 +3451,7 @@ const chapter3 = {
             },
             {
                 topic: "Museums",
-                emoji: "🖼️🏛️",
+                emoji: "💎🏝️",
                 question: "What year was the British Museum founded?",
                 options: [
                     "1753",
@@ -3465,61 +3465,61 @@ const chapter3 = {
         extreme: [
             {
                 topic: "Painting",
-                emoji: "🎨🖌️",
+                emoji: "🐉⚡",
                 question: "Name the painting technique where pigments are mixed with egg yolk",
                 answer: "Tempera or Egg tempera"
             },
             {
                 topic: "Music",
-                emoji: "🎼🎹",
+                emoji: "🤖🔧",
                 question: "What is the Italian term for a piece played with smooth, connected notes?",
                 answer: "Legato"
             },
             {
                 topic: "Architecture",
-                emoji: "🏛️⚖️",
+                emoji: "🏴‍☠️⚓",
                 question: "What is the classical Greek architectural order with scroll-like ornaments?",
                 answer: "Ionic or Ionic order"
             },
             {
                 topic: "Literature",
-                emoji: "📚✍️",
+                emoji: "👻👽",
                 question: "What poetic form has 14 lines and follows specific rhyme schemes?",
                 answer: "Sonnet"
             },
             {
                 topic: "Dance",
-                emoji: "🩰👑",
+                emoji: "🔫💥",
                 question: "What is the lead female dancer in a ballet company called?",
                 answer: "Prima ballerina"
             },
             {
                 topic: "Sculpture",
-                emoji: "🗿🔨",
+                emoji: "🎩🎪",
                 question: "What sculpting technique involves carving away material?",
                 answer: "Subtractive or Carving"
             },
             {
                 topic: "Cinema",
-                emoji: "🎥🎬",
+                emoji: "🌹💔",
                 question: "What is the term for a single uninterrupted shot in filmmaking?",
                 answer: "Long take or Sequence shot"
             },
             {
                 topic: "Theater",
-                emoji: "🎭🎪",
+                emoji: "🎸🎤",
                 question: "What is the Japanese traditional theater form featuring masks and dance?",
                 answer: "Noh or Noh theater"
             },
             {
                 topic: "Festivals",
-                emoji: "🎉🎭",
+                emoji: "🏃💨",
                 question: "What is the name of the masquerade festival in Venice?",
                 answer: "Carnevale or Carnival of Venice"
             },
             {
                 topic: "Crafts",
-                emoji: "🧵✨",
+                emoji: "🎯🎲",
                 question: "What is the Japanese art of paper folding called?",
                 answer: "Origami"
             }
@@ -3531,7 +3531,7 @@ const chapter3 = {
         easy: [
             {
                 topic: "Big Hero 6",
-                emoji: "🤖❤️",
+                emoji: "🎰🃏",
                 question: "Baymax is a healthcare robot.",
                 options: [
                     "True",
@@ -3541,7 +3541,7 @@ const chapter3 = {
             },
             {
                 topic: "Daredevil",
-                emoji: "😈⚖️",
+                emoji: "🏎️💨",
                 question: "Daredevil is blind.",
                 options: [
                     "False",
@@ -3551,7 +3551,7 @@ const chapter3 = {
             },
             {
                 topic: "The Office",
-                emoji: "📄🏢",
+                emoji: "🚁✈️",
                 question: "Dwight Schrute is a salesman.",
                 options: [
                     "True",
@@ -3561,17 +3561,17 @@ const chapter3 = {
             },
             {
                 topic: "Predator",
-                emoji: "👽🔫",
+                emoji: "🦇🌃",
                 question: "Predator is an alien hunter.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Narcos",
-                emoji: "💰🔫",
+                emoji: "👮🔍",
                 question: "Narcos is about drug cartels.",
                 options: [
                     "False",
@@ -3581,7 +3581,7 @@ const chapter3 = {
             },
             {
                 topic: "Tangled",
-                emoji: "💇‍♀️🏰",
+                emoji: "💰💵",
                 question: "Rapunzel has magical hair.",
                 options: [
                     "True",
@@ -3591,7 +3591,7 @@ const chapter3 = {
             },
             {
                 topic: "Smallville",
-                emoji: "🦸‍♂️🌾",
+                emoji: "🎭😂",
                 question: "Smallville is about young Superman.",
                 options: [
                     "False",
@@ -3601,7 +3601,7 @@ const chapter3 = {
             },
             {
                 topic: "Venom",
-                emoji: "👽😈",
+                emoji: "🎪🤡",
                 question: "Venom is a symbiote.",
                 options: [
                     "True",
@@ -3611,7 +3611,7 @@ const chapter3 = {
             },
             {
                 topic: "Outlander",
-                emoji: "⏰💕",
+                emoji: "🎬📹",
                 question: "Claire time travels in Outlander.",
                 options: [
                     "True",
@@ -3621,7 +3621,7 @@ const chapter3 = {
             },
             {
                 topic: "Wreck-It Ralph",
-                emoji: "🎮👾",
+                emoji: "🎬🎥",
                 question: "Ralph is a video game villain.",
                 options: [
                     "False",
@@ -3633,7 +3633,7 @@ const chapter3 = {
         medium: [
             {
                 topic: "Moonlight",
-                emoji: "🌊🌙",
+                emoji: "🎭🎪",
                 question: "How many acts is the film divided into?",
                 options: [
                     "Three",
@@ -3643,7 +3643,7 @@ const chapter3 = {
             },
             {
                 topic: "Better Call Saul",
-                emoji: "⚖️📞",
+                emoji: "🏆🌟",
                 question: "What was Jimmy's brother's name?",
                 options: [
                     "Chuck",
@@ -3653,7 +3653,7 @@ const chapter3 = {
             },
             {
                 topic: "Wind River",
-                emoji: "❄️🔫",
+                emoji: "👑💍",
                 question: "Where is Wind River set?",
                 options: [
                     "Wyoming",
@@ -3663,7 +3663,7 @@ const chapter3 = {
             },
             {
                 topic: "Peaky Blinders",
-                emoji: "🎩🔫",
+                emoji: "🦸🦹",
                 question: "What is Tommy Shelby's gang?",
                 options: [
                     "Peaky Blinders",
@@ -3673,7 +3673,7 @@ const chapter3 = {
             },
             {
                 topic: "Lady Bird",
-                emoji: "🎓💕",
+                emoji: "🚀🌌",
                 question: "What city does Lady Bird want to leave?",
                 options: [
                     "Sacramento",
@@ -3683,7 +3683,7 @@ const chapter3 = {
             },
             {
                 topic: "Barry",
-                emoji: "🎭🔫",
+                emoji: "🧙🔮",
                 question: "What does Barry want to become?",
                 options: [
                     "Actor",
@@ -3693,7 +3693,7 @@ const chapter3 = {
             },
             {
                 topic: "Roma",
-                emoji: "🏠🇲🇽",
+                emoji: "🦖🦕",
                 question: "What decade is Roma set in?",
                 options: [
                     "1970s",
@@ -3703,7 +3703,7 @@ const chapter3 = {
             },
             {
                 topic: "The Handmaid's Tale",
-                emoji: "🔴👁️",
+                emoji: "🕷️🕸️",
                 question: "What is Offred's real name?",
                 options: [
                     "June",
@@ -3713,7 +3713,7 @@ const chapter3 = {
             },
             {
                 topic: "Ford v Ferrari",
-                emoji: "🏎️🏁",
+                emoji: "⚔️🛡️",
                 question: "What race are they competing in?",
                 options: [
                     "Le Mans",
@@ -3723,7 +3723,7 @@ const chapter3 = {
             },
             {
                 topic: "Succession",
-                emoji: "💼👔",
+                emoji: "💎🏝️",
                 question: "What is the company called?",
                 options: [
                     "Waystar Royco",
@@ -3735,7 +3735,7 @@ const chapter3 = {
         hard: [
             {
                 topic: "The Act of Killing",
-                emoji: "🎬💀",
+                emoji: "🐉⚡",
                 question: "What country is The Act of Killing about?",
                 options: [
                     "Cambodia",
@@ -3746,7 +3746,7 @@ const chapter3 = {
             },
             {
                 topic: "The Young Pope",
-                emoji: "⛪🚬",
+                emoji: "🤖🔧",
                 question: "What is the Pope's name?",
                 options: [
                     "Pius XIII",
@@ -3757,7 +3757,7 @@ const chapter3 = {
             },
             {
                 topic: "The Florida Project",
-                emoji: "🏨🍦",
+                emoji: "🏴‍☠️⚓",
                 question: "Where is the film set?",
                 options: [
                     "Near Disney World",
@@ -3768,7 +3768,7 @@ const chapter3 = {
             },
             {
                 topic: "The Deuce",
-                emoji: "🌃💋",
+                emoji: "👻👽",
                 question: "What era does The Deuce depict?",
                 options: [
                     "1970s-80s",
@@ -3779,7 +3779,7 @@ const chapter3 = {
             },
             {
                 topic: "First Reformed",
-                emoji: "⛪😢",
+                emoji: "🔫💥",
                 question: "What is the priest's crisis about?",
                 options: [
                     "Faith",
@@ -3790,7 +3790,7 @@ const chapter3 = {
             },
             {
                 topic: "Mindhunter",
-                emoji: "🔍🧠",
+                emoji: "🎩🎪",
                 question: "What decade is Season 1 set in?",
                 options: [
                     "1970s",
@@ -3801,7 +3801,7 @@ const chapter3 = {
             },
             {
                 topic: "The Square",
-                emoji: "🎨🤝",
+                emoji: "🌹💔",
                 question: "What country is The Square from?",
                 options: [
                     "Denmark",
@@ -3812,7 +3812,7 @@ const chapter3 = {
             },
             {
                 topic: "Big Little Lies",
-                emoji: "🏖️🔍",
+                emoji: "🎸🎤",
                 question: "Where is Big Little Lies set?",
                 options: [
                     "Monterey",
@@ -3823,7 +3823,7 @@ const chapter3 = {
             },
             {
                 topic: "Shoplifters",
-                emoji: "👨‍👩‍👧‍👦🏪",
+                emoji: "🏃💨",
                 question: "What country is Shoplifters from?",
                 options: [
                     "South Korea",
@@ -3834,7 +3834,7 @@ const chapter3 = {
             },
             {
                 topic: "Succession S1",
-                emoji: "💼👔",
+                emoji: "🎯🎲",
                 question: "What happens to Logan in episode 1?",
                 options: [
                     "Heart attack",
@@ -3847,7 +3847,7 @@ const chapter3 = {
         expert: [
             {
                 topic: "Close-Up",
-                emoji: "🎬🇮🇷",
+                emoji: "🎰🃏",
                 question: "Who directed Close-Up?",
                 options: [
                     "Abbas Kiarostami",
@@ -3859,7 +3859,7 @@ const chapter3 = {
             },
             {
                 topic: "Olive Kitteridge",
-                emoji: "🌊👵",
+                emoji: "🏎️💨",
                 question: "Who plays Olive Kitteridge?",
                 options: [
                     "Frances McDormand",
@@ -3871,7 +3871,7 @@ const chapter3 = {
             },
             {
                 topic: "The Assassin",
-                emoji: "⚔️🌸",
+                emoji: "🚁✈️",
                 question: "Who directed The Assassin?",
                 options: [
                     "Hou Hsiao-hsien",
@@ -3883,7 +3883,7 @@ const chapter3 = {
             },
             {
                 topic: "This Is England",
-                emoji: "🇬🇧✊",
+                emoji: "🦇🌃",
                 question: "What decade is This Is England set in?",
                 options: [
                     "1970s",
@@ -3895,7 +3895,7 @@ const chapter3 = {
             },
             {
                 topic: "Secret Sunshine",
-                emoji: "😢⛪",
+                emoji: "👮🔍",
                 question: "Who directed Secret Sunshine?",
                 options: [
                     "Lee Chang-dong",
@@ -3907,7 +3907,7 @@ const chapter3 = {
             },
             {
                 topic: "The Shadow Line",
-                emoji: "🔫🌃",
+                emoji: "💰💵",
                 question: "How many episodes is The Shadow Line?",
                 options: [
                     "5",
@@ -3919,7 +3919,7 @@ const chapter3 = {
             },
             {
                 topic: "Silent Light",
-                emoji: "☀️🌾",
+                emoji: "🎭😂",
                 question: "What country is Silent Light from?",
                 options: [
                     "Argentina",
@@ -3931,7 +3931,7 @@ const chapter3 = {
             },
             {
                 topic: "Southcliffe",
-                emoji: "🔫🏘️",
+                emoji: "🎪🤡",
                 question: "How many episodes is Southcliffe?",
                 options: [
                     "3",
@@ -3943,7 +3943,7 @@ const chapter3 = {
             },
             {
                 topic: "4 Months, 3 Weeks and 2 Days",
-                emoji: "😢🇷🇴",
+                emoji: "🎬📹",
                 question: "What country is this film from?",
                 options: [
                     "Romania",
@@ -3955,7 +3955,7 @@ const chapter3 = {
             },
             {
                 topic: "The Bureau S1",
-                emoji: "🕵️🇫🇷",
+                emoji: "🎬🎥",
                 question: "What is the main character's codename?",
                 options: [
                     "Malotru",
@@ -3969,61 +3969,61 @@ const chapter3 = {
         extreme: [
             {
                 topic: "The Rules of the Game",
-                emoji: "🎭🏰",
+                emoji: "🎭🎪",
                 question: "Who directed The Rules of the Game?",
                 answer: "Jean Renoir"
             },
             {
                 topic: "Our Mutual Friend",
-                emoji: "💰📚",
+                emoji: "🏆🌟",
                 question: "Who wrote Our Mutual Friend?",
                 answer: "Charles Dickens"
             },
             {
                 topic: "The Ascent",
-                emoji: "❄️⚔️",
+                emoji: "👑💍",
                 question: "Who directed The Ascent?",
                 answer: "Larisa Shepitko"
             },
             {
                 topic: "Jewel in the Crown",
-                emoji: "👑🇮🇳",
+                emoji: "🦸🦹",
                 question: "How many episodes is The Jewel in the Crown?",
                 answer: "14"
             },
             {
                 topic: "Ordet",
-                emoji: "⛪✨",
+                emoji: "🚀🌌",
                 question: "Who directed Ordet (The Word)?",
                 answer: "Carl Theodor Dreyer"
             },
             {
                 topic: "Heimat",
-                emoji: "🏡🇩🇪",
+                emoji: "🧙🔮",
                 question: "Who directed the Heimat trilogy?",
                 answer: "Edgar Reitz"
             },
             {
                 topic: "Closely Watched Trains",
-                emoji: "🚂💣",
+                emoji: "🦖🦕",
                 question: "What country is this film from?",
                 answer: "Czechoslovakia or Czech Republic"
             },
             {
                 topic: "The Singing Detective",
-                emoji: "🎵🔍",
+                emoji: "🕷️🕸️",
                 question: "How many episodes is The Singing Detective?",
                 answer: "6"
             },
             {
                 topic: "Trouble in Paradise",
-                emoji: "💎😏",
+                emoji: "⚔️🛡️",
                 question: "Who directed Trouble in Paradise?",
                 answer: "Ernst Lubitsch"
             },
             {
                 topic: "The Forsyte Saga",
-                emoji: "🏰📖",
+                emoji: "💎🏝️",
                 question: "What year was the original BBC adaptation?",
                 answer: "1967"
             }
@@ -4033,27 +4033,27 @@ const chapter3 = {
         easy: [
             {
                 topic: "Zootopia",
-                emoji: "🐰🦊",
+                emoji: "🐉⚡",
                 question: "Judy Hopps wants to be a police officer.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Luke Cage",
-                emoji: "💪🛡️",
+                emoji: "🤖🔧",
                 question: "Luke Cage has unbreakable skin.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Frasier",
-                emoji: "☕🎙️",
+                emoji: "🏴‍☠️⚓",
                 question: "Frasier Crane is a psychiatrist.",
                 options: [
                     "True",
@@ -4063,7 +4063,7 @@ const chapter3 = {
             },
             {
                 topic: "RoboCop",
-                emoji: "🤖👮",
+                emoji: "👻👽",
                 question: "RoboCop is part human.",
                 options: [
                     "False",
@@ -4073,17 +4073,17 @@ const chapter3 = {
             },
             {
                 topic: "The Crown",
-                emoji: "👑💎",
+                emoji: "🔫💥",
                 question: "The Crown follows Queen Elizabeth II's reign.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Hercules",
-                emoji: "💪⚡",
+                emoji: "🎩🎪",
                 question: "Hercules is a Greek demigod.",
                 options: [
                     "True",
@@ -4093,7 +4093,7 @@ const chapter3 = {
             },
             {
                 topic: "The 100",
-                emoji: "🚀🌍",
+                emoji: "🌹💔",
                 question: "The 100 is set in a post-apocalyptic world.",
                 options: [
                     "False",
@@ -4103,7 +4103,7 @@ const chapter3 = {
             },
             {
                 topic: "Joker",
-                emoji: "🃏😈",
+                emoji: "🎸🎤",
                 question: "The Joker becomes a villain.",
                 options: [
                     "True",
@@ -4113,29 +4113,29 @@ const chapter3 = {
             },
             {
                 topic: "Westworld",
-                emoji: "🤠🤖",
+                emoji: "🏃💨",
                 question: "Westworld features android hosts.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Big Hero 6",
-                emoji: "🤖❤️",
+                emoji: "🎯🎲",
                 question: "Hiro builds Baymax.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         medium: [
             {
                 topic: "Spotlight",
-                emoji: "📰🔍",
+                emoji: "🎰🃏",
                 question: "What newspaper is featured?",
                 options: [
                     "Boston Globe",
@@ -4145,7 +4145,7 @@ const chapter3 = {
             },
             {
                 topic: "Deadwood",
-                emoji: "🤠🏜️",
+                emoji: "🏎️💨",
                 question: "What is Al Swearengen's business?",
                 options: [
                     "Saloon",
@@ -4155,7 +4155,7 @@ const chapter3 = {
             },
             {
                 topic: "Hell or High Water",
-                emoji: "🏦🔫",
+                emoji: "🚁✈️",
                 question: "What are the brothers robbing?",
                 options: [
                     "Banks",
@@ -4165,7 +4165,7 @@ const chapter3 = {
             },
             {
                 topic: "The Leftovers",
-                emoji: "❓🕊️",
+                emoji: "🦇🌃",
                 question: "What percentage of people vanished?",
                 options: [
                     "2%",
@@ -4175,7 +4175,7 @@ const chapter3 = {
             },
             {
                 topic: "Nightcrawler",
-                emoji: "📹🌃",
+                emoji: "👮🔍",
                 question: "What does Lou film?",
                 options: [
                     "Crime scenes",
@@ -4185,7 +4185,7 @@ const chapter3 = {
             },
             {
                 topic: "Fargo",
-                emoji: "❄️🔫",
+                emoji: "💰💵",
                 question: "Is each season connected?",
                 options: [
                     "No, anthology",
@@ -4195,7 +4195,7 @@ const chapter3 = {
             },
             {
                 topic: "Ex Machina",
-                emoji: "🤖🧠",
+                emoji: "🎭😂",
                 question: "What test is performed?",
                 options: [
                     "Turing test",
@@ -4205,7 +4205,7 @@ const chapter3 = {
             },
             {
                 topic: "Penny Dreadful",
-                emoji: "🧛‍♂️👻",
+                emoji: "🎪🤡",
                 question: "What era is it set in?",
                 options: [
                     "Victorian",
@@ -4215,7 +4215,7 @@ const chapter3 = {
             },
             {
                 topic: "Whiplash",
-                emoji: "🥁😤",
+                emoji: "🎬📹",
                 question: "What does Andrew want to be?",
                 options: [
                     "Great drummer",
@@ -4225,7 +4225,7 @@ const chapter3 = {
             },
             {
                 topic: "Mindhunter",
-                emoji: "🔍🧠",
+                emoji: "🎬🎥",
                 question: "What unit do they work for?",
                 options: [
                     "FBI",
@@ -4237,7 +4237,7 @@ const chapter3 = {
         hard: [
             {
                 topic: "Holy Motors",
-                emoji: "🚗🎭",
+                emoji: "🎭🎪",
                 question: "Who directed Holy Motors?",
                 options: [
                     "Leos Carax",
@@ -4248,7 +4248,7 @@ const chapter3 = {
             },
             {
                 topic: "Rectify",
-                emoji: "⚖️🏠",
+                emoji: "🏆🌟",
                 question: "What is Daniel Holden's situation?",
                 options: [
                     "Released from death row",
@@ -4259,7 +4259,7 @@ const chapter3 = {
             },
             {
                 topic: "Under the Skin",
-                emoji: "👽🚗",
+                emoji: "👑💍",
                 question: "Who directed Under the Skin?",
                 options: [
                     "Jonathan Glazer",
@@ -4270,7 +4270,7 @@ const chapter3 = {
             },
             {
                 topic: "The Knick",
-                emoji: "🏥🩺",
+                emoji: "🦸🦹",
                 question: "Who directed The Knick?",
                 options: [
                     "David Fincher",
@@ -4281,7 +4281,7 @@ const chapter3 = {
             },
             {
                 topic: "A Girl Walks Home Alone at Night",
-                emoji: "🧛‍♀️🇮🇷",
+                emoji: "🚀🌌",
                 question: "What language is the film in?",
                 options: [
                     "Arabic",
@@ -4292,7 +4292,7 @@ const chapter3 = {
             },
             {
                 topic: "Top of the Lake",
-                emoji: "🏔️🔍",
+                emoji: "🧙🔮",
                 question: "Where is Season 1 set?",
                 options: [
                     "Australia",
@@ -4303,7 +4303,7 @@ const chapter3 = {
             },
             {
                 topic: "It Follows",
-                emoji: "👻🚶",
+                emoji: "🦖🦕",
                 question: "What is following the protagonist?",
                 options: [
                     "Demon",
@@ -4314,7 +4314,7 @@ const chapter3 = {
             },
             {
                 topic: "The Americans S1",
-                emoji: "🕵️🇷🇺",
+                emoji: "🕷️🕸️",
                 question: "What decade is Season 1 set?",
                 options: [
                     "1970s",
@@ -4325,7 +4325,7 @@ const chapter3 = {
             },
             {
                 topic: "The Lobster",
-                emoji: "🦞💔",
+                emoji: "⚔️🛡️",
                 question: "What happens if you don't find a partner?",
                 options: [
                     "Turned into animal",
@@ -4336,7 +4336,7 @@ const chapter3 = {
             },
             {
                 topic: "Halt and Catch Fire S1",
-                emoji: "💻📼",
+                emoji: "💎🏝️",
                 question: "What are they trying to build?",
                 options: [
                     "Computer",
@@ -4349,7 +4349,7 @@ const chapter3 = {
         expert: [
             {
                 topic: "Marketa Lazarová",
-                emoji: "⚔️🇨🇿",
+                emoji: "🐉⚡",
                 question: "Who directed Marketa Lazarová?",
                 options: [
                     "František Vláčil",
@@ -4361,7 +4361,7 @@ const chapter3 = {
             },
             {
                 topic: "Carlos",
-                emoji: "🔫🌍",
+                emoji: "🤖🔧",
                 question: "How long is the full Carlos?",
                 options: [
                     "4.5 hours",
@@ -4373,7 +4373,7 @@ const chapter3 = {
             },
             {
                 topic: "Werckmeister Harmonies",
-                emoji: "🐋🌃",
+                emoji: "🏴‍☠️⚓",
                 question: "Who directed Werckmeister Harmonies?",
                 options: [
                     "Béla Tarr",
@@ -4385,7 +4385,7 @@ const chapter3 = {
             },
             {
                 topic: "Fortitude",
-                emoji: "❄️🔍",
+                emoji: "👻👽",
                 question: "Where is Fortitude set?",
                 options: [
                     "Arctic Norway",
@@ -4397,7 +4397,7 @@ const chapter3 = {
             },
             {
                 topic: "Tropical Malady",
-                emoji: "🐅🌴",
+                emoji: "🔫💥",
                 question: "Who directed Tropical Malady?",
                 options: [
                     "Apichatpong Weerasethakul",
@@ -4409,7 +4409,7 @@ const chapter3 = {
             },
             {
                 topic: "The Affair",
-                emoji: "💔🌊",
+                emoji: "🎩🎪",
                 question: "How is The Affair's narrative told?",
                 options: [
                     "Linear",
@@ -4421,7 +4421,7 @@ const chapter3 = {
             },
             {
                 topic: "The Turin Horse",
-                emoji: "🐴⚫",
+                emoji: "🌹💔",
                 question: "Who directed The Turin Horse?",
                 options: [
                     "Béla Tarr",
@@ -4433,7 +4433,7 @@ const chapter3 = {
             },
             {
                 topic: "Broadchurch",
-                emoji: "🔍🏖️",
+                emoji: "🎸🎤",
                 question: "What country is Broadchurch from?",
                 options: [
                     "UK",
@@ -4445,7 +4445,7 @@ const chapter3 = {
             },
             {
                 topic: "The Great Beauty",
-                emoji: "🎭🇮🇹",
+                emoji: "🏃💨",
                 question: "Who directed The Great Beauty?",
                 options: [
                     "Paolo Sorrentino",
@@ -4457,7 +4457,7 @@ const chapter3 = {
             },
             {
                 topic: "Utopia",
-                emoji: "🎨🔫",
+                emoji: "🎯🎲",
                 question: "What are they searching for in Utopia?",
                 options: [
                     "Manuscript",
@@ -4471,61 +4471,61 @@ const chapter3 = {
         extreme: [
             {
                 topic: "Jeanne Dielman",
-                emoji: "🏠🕰️",
+                emoji: "🎰🃏",
                 question: "Who directed Jeanne Dielman, 23 quai du Commerce, 1080 Bruxelles?",
                 answer: "Chantal Akerman"
             },
             {
                 topic: "Fortunes of War",
-                emoji: "⚔️📚",
+                emoji: "🏎️💨",
                 question: "Who wrote the novels Fortunes of War is based on?",
                 answer: "Olivia Manning"
             },
             {
                 topic: "Germany Year Zero",
-                emoji: "💣🇩🇪",
+                emoji: "🚁✈️",
                 question: "Who directed Germany Year Zero?",
                 answer: "Roberto Rossellini"
             },
             {
                 topic: "The Singing Detective",
-                emoji: "🎵🔍",
+                emoji: "🦇🌃",
                 question: "What decade is The Singing Detective set in?",
                 answer: "1940s or 1945"
             },
             {
                 topic: "Vampyr",
-                emoji: "🧛‍♂️🌫️",
+                emoji: "👮🔍",
                 question: "Who directed Vampyr?",
                 answer: "Carl Theodor Dreyer"
             },
             {
                 topic: "House of Cards UK",
-                emoji: "🏛️🇬🇧",
+                emoji: "💰💵",
                 question: "What is Francis Urquhart's catchphrase?",
                 answer: "You might very well think that; I couldn't possibly comment"
             },
             {
                 topic: "Man with a Movie Camera",
-                emoji: "🎥🏙️",
+                emoji: "🎭😂",
                 question: "Who directed Man with a Movie Camera?",
                 answer: "Dziga Vertov"
             },
             {
                 topic: "Smiley's People",
-                emoji: "🕵️📖",
+                emoji: "🎪🤡",
                 question: "Who plays George Smiley in Smiley's People?",
                 answer: "Alec Guinness"
             },
             {
                 topic: "Playtime",
-                emoji: "🏢🎭",
+                emoji: "🎬📹",
                 question: "Who directed Playtime?",
                 answer: "Jacques Tati"
             },
             {
                 topic: "Pennies from Heaven",
-                emoji: "🎵💰",
+                emoji: "🎬🎥",
                 question: "Who wrote Pennies from Heaven?",
                 answer: "Dennis Potter"
             }
@@ -4536,27 +4536,27 @@ const artCultureChapter10 = {
         easy: [
             {
                 topic: "Painting",
-                emoji: "🎨🇮🇹",
+                emoji: "🎭🎪",
                 question: "Leonardo da Vinci was a Renaissance artist.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Music",
-                emoji: "🎵🎹",
+                emoji: "🏆🌟",
                 question: "Beethoven continued composing after becoming deaf.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Architecture",
-                emoji: "🏛️🇻🇦",
+                emoji: "👑💍",
                 question: "The Sistine Chapel is in Vatican City.",
                 options: [
                     "True",
@@ -4566,7 +4566,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Literature",
-                emoji: "📖🧟",
+                emoji: "🦸🦹",
                 question: "Mary Shelley wrote 'Frankenstein'.",
                 options: [
                     "False",
@@ -4576,47 +4576,47 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Dance",
-                emoji: "💃🇦🇺",
+                emoji: "🚀🌌",
                 question: "Australia has indigenous dance traditions.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Sculpture",
-                emoji: "🗿🏛️",
+                emoji: "🧙🔮",
                 question: "The Parthenon Marbles are in the British Museum.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Cinema",
-                emoji: "🎬🤠",
+                emoji: "🦖🦕",
                 question: "Westerns are set in the American Old West.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Theater",
-                emoji: "🎭🎪",
+                emoji: "🕷️🕸️",
                 question: "An understudy replaces the main actor when needed.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Monuments",
-                emoji: "🗼🇧🇷",
+                emoji: "⚔️🛡️",
                 question: "Christ the Redeemer is in Rio de Janeiro.",
                 options: [
                     "True",
@@ -4626,19 +4626,19 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Music",
-                emoji: "🎸🎤",
+                emoji: "💎🏝️",
                 question: "Elvis Presley was called the King of Rock and Roll.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         medium: [
             {
                 topic: "Painting",
-                emoji: "🎨🍎",
+                emoji: "🐉⚡",
                 question: "Who painted 'The Son of Man' with an apple?",
                 options: [
                     "René Magritte",
@@ -4648,7 +4648,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Music",
-                emoji: "🎼🎻",
+                emoji: "🤖🔧",
                 question: "What is a musical composition for two performers?",
                 options: [
                     "Duet",
@@ -4658,7 +4658,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Architecture",
-                emoji: "🏛️🇷🇺",
+                emoji: "🏴‍☠️⚓",
                 question: "What is the famous Russian palace outside St. Petersburg?",
                 options: [
                     "Winter Palace",
@@ -4668,7 +4668,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Literature",
-                emoji: "📚🦎",
+                emoji: "👻👽",
                 question: "Who wrote 'The Metamorphosis'?",
                 options: [
                     "Franz Kafka",
@@ -4678,7 +4678,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Dance",
-                emoji: "💃🇧🇷",
+                emoji: "🔫💥",
                 question: "What is Brazil's national dance?",
                 options: [
                     "Salsa",
@@ -4688,7 +4688,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Sculpture",
-                emoji: "🗿⚒️",
+                emoji: "🎩🎪",
                 question: "What is clay sculpture that is fired in a kiln?",
                 options: [
                     "Ceramic",
@@ -4698,7 +4698,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Cinema",
-                emoji: "🎥🏆",
+                emoji: "🌹💔",
                 question: "What is India's top film award?",
                 options: [
                     "National Film Award",
@@ -4708,7 +4708,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Theater",
-                emoji: "🎭🎵",
+                emoji: "🎸🎤",
                 question: "What musical features 'Tomorrow'?",
                 options: [
                     "Annie",
@@ -4718,7 +4718,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Festivals",
-                emoji: "🎉🎭",
+                emoji: "🏃💨",
                 question: "What is the famous Brazilian carnival city?",
                 options: [
                     "Salvador",
@@ -4728,7 +4728,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Museums",
-                emoji: "🏛️🇦🇹",
+                emoji: "🎯🎲",
                 question: "Where is the Kunsthistorisches Museum?",
                 options: [
                     "Vienna",
@@ -4740,7 +4740,7 @@ const artCultureChapter10 = {
         hard: [
             {
                 topic: "Painting",
-                emoji: "🎨🎪",
+                emoji: "🎰🃏",
                 question: "Which artist painted 'The Card Players'?",
                 options: [
                     "Paul Cézanne",
@@ -4751,7 +4751,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Music",
-                emoji: "🎼🎹",
+                emoji: "🏎️💨",
                 question: "Which composer wrote 'The Rite of Spring'?",
                 options: [
                     "Igor Stravinsky",
@@ -4762,7 +4762,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Architecture",
-                emoji: "🏛️🇪🇸",
+                emoji: "🚁✈️",
                 question: "What is Gaudí's unfinished church in Barcelona?",
                 options: [
                     "Sagrada Família",
@@ -4773,7 +4773,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Literature",
-                emoji: "📖🇨🇴",
+                emoji: "🦇🌃",
                 question: "Who wrote 'One Hundred Years of Solitude'?",
                 options: [
                     "Gabriel García Márquez",
@@ -4784,7 +4784,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Dance",
-                emoji: "💃🎭",
+                emoji: "👮🔍",
                 question: "What is the Spanish flamenco hand movement called?",
                 options: [
                     "Palmas",
@@ -4795,7 +4795,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Sculpture",
-                emoji: "🗿🎨",
+                emoji: "💰💵",
                 question: "What artist created 'Cloud Gate' in Chicago?",
                 options: [
                     "Anish Kapoor",
@@ -4806,7 +4806,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Cinema",
-                emoji: "🎬🎭",
+                emoji: "🎭😂",
                 question: "Who directed 'Rashomon'?",
                 options: [
                     "Akira Kurosawa",
@@ -4817,7 +4817,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Theater",
-                emoji: "🎭🎪",
+                emoji: "🎪🤡",
                 question: "What is Chinese traditional opera?",
                 options: [
                     "Peking Opera",
@@ -4828,7 +4828,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "World Heritage",
-                emoji: "🏛️🇵🇪",
+                emoji: "🎬📹",
                 question: "What ancient Incan city is in Peru?",
                 options: [
                     "Machu Picchu",
@@ -4839,7 +4839,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Crafts",
-                emoji: "🧵🎨",
+                emoji: "🎬🎥",
                 question: "What is Japanese decorative metal inlay?",
                 options: [
                     "Zogan",
@@ -4852,7 +4852,7 @@ const artCultureChapter10 = {
         expert: [
             {
                 topic: "Painting",
-                emoji: "🎨🖼️",
+                emoji: "🎭🎪",
                 question: "Which artist founded the Precisionism movement?",
                 options: [
                     "Charles Demuth",
@@ -4864,7 +4864,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Music",
-                emoji: "🎼🎵",
+                emoji: "🏆🌟",
                 question: "How many Brandenburg Concertos did Bach compose?",
                 options: [
                     "6",
@@ -4876,7 +4876,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Architecture",
-                emoji: "🏛️🇯🇴",
+                emoji: "👑💍",
                 question: "Who carved the ancient city of Petra?",
                 options: [
                     "Nabataeans",
@@ -4888,7 +4888,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Literature",
-                emoji: "📚🇮🇪",
+                emoji: "🦸🦹",
                 question: "Who wrote 'Ulysses'?",
                 options: [
                     "James Joyce",
@@ -4900,7 +4900,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Dance",
-                emoji: "💃🎭",
+                emoji: "🚀🌌",
                 question: "Who choreographed 'West Side Story'?",
                 options: [
                     "Jerome Robbins",
@@ -4912,7 +4912,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Sculpture",
-                emoji: "🗿⚒️",
+                emoji: "🧙🔮",
                 question: "Who created 'The Kiss' sculpture?",
                 options: [
                     "Auguste Rodin",
@@ -4924,7 +4924,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Cinema",
-                emoji: "🎥🇰🇷",
+                emoji: "🦖🦕",
                 question: "Who directed 'Oldboy'?",
                 options: [
                     "Park Chan-wook",
@@ -4936,7 +4936,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Theater",
-                emoji: "🎭📜",
+                emoji: "🕷️🕸️",
                 question: "Who wrote 'A Streetcar Named Desire'?",
                 options: [
                     "Tennessee Williams",
@@ -4948,7 +4948,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "World Heritage",
-                emoji: "🏛️🇯🇵",
+                emoji: "⚔️🛡️",
                 question: "What is Japan's ancient wooden temple?",
                 options: [
                     "Hōryū-ji",
@@ -4960,7 +4960,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Museums",
-                emoji: "🖼️🇮🇹",
+                emoji: "💎🏝️",
                 question: "What museum houses Botticelli's 'Birth of Venus'?",
                 options: [
                     "Uffizi Gallery",
@@ -4974,61 +4974,61 @@ const artCultureChapter10 = {
         extreme: [
             {
                 topic: "Painting",
-                emoji: "🎨🖌️",
+                emoji: "🐉⚡",
                 question: "What is painting technique using small dots of color?",
                 answer: "Pointillism or Divisionism"
             },
             {
                 topic: "Music",
-                emoji: "🎼🎵",
+                emoji: "🤖🔧",
                 question: "What is the term for a sudden loud accent?",
                 answer: "Sforzando"
             },
             {
                 topic: "Architecture",
-                emoji: "🏛️🏗️",
+                emoji: "🏴‍☠️⚓",
                 question: "What is a circular window in Gothic architecture?",
                 answer: "Rose window or Rosette"
             },
             {
                 topic: "Literature",
-                emoji: "📚✍️",
+                emoji: "👻👽",
                 question: "What is repetition at the beginning of successive clauses?",
                 answer: "Anaphora"
             },
             {
                 topic: "Dance",
-                emoji: "💃🎶",
+                emoji: "🔫💥",
                 question: "What is a spinning jump in ballet?",
                 answer: "Tour en l'air"
             },
             {
                 topic: "Sculpture",
-                emoji: "🗿⚒️",
+                emoji: "🎩🎪",
                 question: "What is sculpture technique using molten metal?",
                 answer: "Casting or Lost-wax casting"
             },
             {
                 topic: "Cinema",
-                emoji: "🎬🎥",
+                emoji: "🌹💔",
                 question: "What is a shot following a moving subject?",
                 answer: "Tracking shot or Dolly shot"
             },
             {
                 topic: "Theater",
-                emoji: "🎭🎪",
+                emoji: "🎸🎤",
                 question: "What is traditional Cambodian dance drama?",
                 answer: "Lkhon or Khmer dance"
             },
             {
                 topic: "Festivals",
-                emoji: "🎉🎭",
+                emoji: "🏃💨",
                 question: "What is Mexico's Day of the Dead?",
                 answer: "Día de Muertos"
             },
             {
                 topic: "Crafts",
-                emoji: "🧵🪡",
+                emoji: "🎯🎲",
                 question: "What is counted thread embroidery?",
                 answer: "Cross-stitch or Counted work"
             }
@@ -5039,7 +5039,7 @@ const artCultureChapter10 = {
         easy: [
             {
                 topic: "The Little Mermaid",
-                emoji: "🧜‍♀️🎵",
+                emoji: "🎰🃏",
                 question: "Ariel trades her voice for legs.",
                 options: [
                     "True",
@@ -5049,7 +5049,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Iron Fist",
-                emoji: "👊🔥",
+                emoji: "🏎️💨",
                 question: "Danny Rand has a powerful fist.",
                 options: [
                     "False",
@@ -5059,7 +5059,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "M*A*S*H",
-                emoji: "🏥⛑️",
+                emoji: "🚁✈️",
                 question: "M*A*S*H is set during the Korean War.",
                 options: [
                     "True",
@@ -5069,17 +5069,17 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Blade",
-                emoji: "🧛‍♂️⚔️",
+                emoji: "🦇🌃",
                 question: "Blade is a vampire hunter.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Homeland",
-                emoji: "🕵️‍♀️🏛️",
+                emoji: "👮🔍",
                 question: "Carrie Mathison is a CIA officer.",
                 options: [
                     "False",
@@ -5089,7 +5089,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Tarzan",
-                emoji: "🦍🌴",
+                emoji: "💰💵",
                 question: "Tarzan was raised by gorillas.",
                 options: [
                     "True",
@@ -5099,7 +5099,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Gotham",
-                emoji: "🦇🏙️",
+                emoji: "🎭😂",
                 question: "Gotham is about young Bruce Wayne.",
                 options: [
                     "False",
@@ -5109,7 +5109,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Suicide Squad",
-                emoji: "🃏💣",
+                emoji: "🎪🤡",
                 question: "Suicide Squad is a team of villains.",
                 options: [
                     "True",
@@ -5119,7 +5119,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "The Umbrella Academy",
-                emoji: "☂️🦸",
+                emoji: "🎬📹",
                 question: "The siblings have superpowers.",
                 options: [
                     "True",
@@ -5129,7 +5129,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "How to Train Your Dragon",
-                emoji: "🐉👦",
+                emoji: "🎬🎥",
                 question: "Hiccup befriends a dragon.",
                 options: [
                     "False",
@@ -5141,7 +5141,7 @@ const artCultureChapter10 = {
         medium: [
             {
                 topic: "The Lobster",
-                emoji: "🦞💔",
+                emoji: "🎭🎪",
                 question: "Who directed The Lobster?",
                 options: [
                     "Yorgos Lanthimos",
@@ -5151,7 +5151,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Justified",
-                emoji: "🤠⚖️",
+                emoji: "🏆🌟",
                 question: "What is Raylan's hometown?",
                 options: [
                     "Harlan",
@@ -5161,7 +5161,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Sicario",
-                emoji: "🔫🌵",
+                emoji: "👑💍",
                 question: "Who directed Sicario?",
                 options: [
                     "Denis Villeneuve",
@@ -5171,7 +5171,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Black Mirror",
-                emoji: "📱👁️",
+                emoji: "🦸🦹",
                 question: "What type of series is Black Mirror?",
                 options: [
                     "Anthology",
@@ -5181,7 +5181,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Brooklyn Nine-Nine",
-                emoji: "👮🍩",
+                emoji: "🚀🌌",
                 question: "What precinct do they work at?",
                 options: [
                     "99th",
@@ -5191,7 +5191,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Killing Eve",
-                emoji: "🔪💄",
+                emoji: "🧙🔮",
                 question: "What is Villanelle's profession?",
                 options: [
                     "Spy",
@@ -5201,7 +5201,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Nightcrawler",
-                emoji: "📹🌃",
+                emoji: "🦖🦕",
                 question: "What city is it set in?",
                 options: [
                     "Los Angeles",
@@ -5211,7 +5211,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Ozark",
-                emoji: "💰🏞️",
+                emoji: "🕷️🕸️",
                 question: "What is Marty's profession?",
                 options: [
                     "Financial advisor",
@@ -5221,7 +5221,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "A Quiet Place",
-                emoji: "🤫👂",
+                emoji: "⚔️🛡️",
                 question: "What attracts the creatures?",
                 options: [
                     "Sound",
@@ -5231,7 +5231,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Better Call Saul",
-                emoji: "⚖️📞",
+                emoji: "💎🏝️",
                 question: "What is Kim's profession?",
                 options: [
                     "Lawyer",
@@ -5243,7 +5243,7 @@ const artCultureChapter10 = {
         hard: [
             {
                 topic: "Mysteries of Lisbon",
-                emoji: "🎭🇵🇹",
+                emoji: "🐉⚡",
                 question: "How long is Mysteries of Lisbon?",
                 options: [
                     "3.5 hours",
@@ -5254,7 +5254,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Peaky Blinders",
-                emoji: "🎩🔫",
+                emoji: "🤖🔧",
                 question: "What year does Season 1 start?",
                 options: [
                     "1919",
@@ -5265,7 +5265,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Certified Copy",
-                emoji: "🎨🇮🇹",
+                emoji: "🏴‍☠️⚓",
                 question: "What is the film's central theme?",
                 options: [
                     "Identity",
@@ -5276,7 +5276,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Line of Duty",
-                emoji: "👮‍♂️🔍",
+                emoji: "👻👽",
                 question: "What unit investigates corrupt officers?",
                 options: [
                     "AC-12",
@@ -5287,7 +5287,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Essential Killing",
-                emoji: "🏃❄️",
+                emoji: "🔫💥",
                 question: "How much dialogue is in the film?",
                 options: [
                     "Very little",
@@ -5298,7 +5298,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Bloodline",
-                emoji: "🏖️🔍",
+                emoji: "🎩🎪",
                 question: "Where is Bloodline set?",
                 options: [
                     "Florida Keys",
@@ -5309,7 +5309,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Post Tenebras Lux",
-                emoji: "🌅🇲🇽",
+                emoji: "🌹💔",
                 question: "Who directed Post Tenebras Lux?",
                 options: [
                     "Amat Escalante",
@@ -5320,7 +5320,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Quarry",
-                emoji: "🔫🎖️",
+                emoji: "🎸🎤",
                 question: "What decade is Quarry set in?",
                 options: [
                     "1960s",
@@ -5331,7 +5331,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Knight of Cups",
-                emoji: "🎬🌆",
+                emoji: "🏃💨",
                 question: "Who directed Knight of Cups?",
                 options: [
                     "Paul Thomas Anderson",
@@ -5342,7 +5342,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Banshee",
-                emoji: "🔫👮",
+                emoji: "🎯🎲",
                 question: "What does Lucas Hood steal?",
                 options: [
                     "Money",
@@ -5355,7 +5355,7 @@ const artCultureChapter10 = {
         expert: [
             {
                 topic: "Shoah",
-                emoji: "🎥😢",
+                emoji: "🎰🃏",
                 question: "How long is Shoah?",
                 options: [
                     "7 hours",
@@ -5367,7 +5367,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Wallander",
-                emoji: "🔍🇸🇪",
+                emoji: "🏎️💨",
                 question: "What country is Kurt Wallander from?",
                 options: [
                     "Norway",
@@ -5379,7 +5379,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Inland Empire",
-                emoji: "🐰😱",
+                emoji: "🚁✈️",
                 question: "Who directed Inland Empire?",
                 options: [
                     "David Lynch",
@@ -5391,7 +5391,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Occupied",
-                emoji: "🇳🇴⛽",
+                emoji: "🦇🌃",
                 question: "What country occupies Norway in the series?",
                 options: [
                     "Russia",
@@ -5403,7 +5403,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Uncle Boonmee",
-                emoji: "🐵👻",
+                emoji: "👮🔍",
                 question: "What award did Uncle Boonmee win?",
                 options: [
                     "Golden Lion",
@@ -5415,7 +5415,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "The Tunnel",
-                emoji: "🚇🔍",
+                emoji: "💰💵",
                 question: "Which countries does the tunnel connect?",
                 options: [
                     "UK-France",
@@ -5427,7 +5427,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "The Color of Pomegranates",
-                emoji: "🎨🇦🇲",
+                emoji: "🎭😂",
                 question: "Who directed The Color of Pomegranates?",
                 options: [
                     "Sergei Parajanov",
@@ -5439,7 +5439,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Engrenages",
-                emoji: "⚖️🇫🇷",
+                emoji: "🎪🤡",
                 question: "What is Laure Berthaud's job?",
                 options: [
                     "Detective",
@@ -5451,7 +5451,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "The Holy Mountain",
-                emoji: "⛰️🎭",
+                emoji: "🎬📹",
                 question: "Who directed The Holy Mountain?",
                 options: [
                     "Alejandro Jodorowsky",
@@ -5463,7 +5463,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Borgen",
-                emoji: "🏛️🇩🇰",
+                emoji: "🎬🎥",
                 question: "How many seasons does Borgen have?",
                 options: [
                     "2",
@@ -5477,61 +5477,61 @@ const artCultureChapter10 = {
         extreme: [
             {
                 topic: "The Magnificent Ambersons",
-                emoji: "🏰🎩",
+                emoji: "🎭🎪",
                 question: "Who directed The Magnificent Ambersons?",
                 answer: "Orson Welles"
             },
             {
                 topic: "State of Play",
-                emoji: "📰🔍",
+                emoji: "🏆🌟",
                 question: "How many episodes is the original State of Play?",
                 answer: "6"
             },
             {
                 topic: "The Passion of Joan of Arc",
-                emoji: "⛪🔥",
+                emoji: "👑💍",
                 question: "Who directed The Passion of Joan of Arc?",
                 answer: "Carl Theodor Dreyer"
             },
             {
                 topic: "Cracker",
-                emoji: "🧠🔍",
+                emoji: "🦸🦹",
                 question: "What is Dr. Fitz's full first name?",
                 answer: "Edward or Eddie"
             },
             {
                 topic: "Sunrise",
-                emoji: "🌅🚂",
+                emoji: "🚀🌌",
                 question: "Who directed Sunrise: A Song of Two Humans?",
                 answer: "F.W. Murnau"
             },
             {
                 topic: "Our Friends in the North",
-                emoji: "🏙️👥",
+                emoji: "🧙🔮",
                 question: "What city are the friends from?",
                 answer: "Newcastle"
             },
             {
                 topic: "The General",
-                emoji: "🚂🎩",
+                emoji: "🦖🦕",
                 question: "Who directed and starred in The General?",
                 answer: "Buster Keaton"
             },
             {
                 topic: "Edge of Darkness",
-                emoji: "☢️🔫",
+                emoji: "🕷️🕸️",
                 question: "What is Craven's daughter involved with?",
                 answer: "Nuclear conspiracy"
             },
             {
                 topic: "City Lights",
-                emoji: "🌃👨‍🦯",
+                emoji: "⚔️🛡️",
                 question: "Who directed City Lights?",
                 answer: "Charlie Chaplin"
             },
             {
                 topic: "The Singing Detective",
-                emoji: "🎵🔍",
+                emoji: "💎🏝️",
                 question: "Who composed the music for The Singing Detective?",
                 answer: "Various 1940s songs or Popular songs from the 1930s-40s"
             }
@@ -5541,27 +5541,27 @@ const artCultureChapter10 = {
         easy: [
             {
                 topic: "Atlantis",
-                emoji: "🌊🏛️",
+                emoji: "🐉⚡",
                 question: "Atlantis is a lost underwater city.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "The Punisher",
-                emoji: "💀🔫",
+                emoji: "🤖🔧",
                 question: "Frank Castle becomes The Punisher.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "All in the Family",
-                emoji: "🏠📺",
+                emoji: "🏴‍☠️⚓",
                 question: "All in the Family addressed social issues.",
                 options: [
                     "True",
@@ -5571,7 +5571,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "The Fifth Element",
-                emoji: "🚕🔫",
+                emoji: "👻👽",
                 question: "The Fifth Element is set in the future.",
                 options: [
                     "False",
@@ -5581,17 +5581,17 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Person of Interest",
-                emoji: "👁️💻",
+                emoji: "🔫💥",
                 question: "The Machine predicts crimes.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Sleeping Beauty",
-                emoji: "👸💤",
+                emoji: "🎩🎪",
                 question: "Aurora falls into a deep sleep.",
                 options: [
                     "True",
@@ -5601,7 +5601,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Agents of S.H.I.E.L.D.",
-                emoji: "🛡️✈️",
+                emoji: "🌹💔",
                 question: "S.H.I.E.L.D. is a spy organization.",
                 options: [
                     "False",
@@ -5611,7 +5611,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Birds of Prey",
-                emoji: "🦅💄",
+                emoji: "🎸🎤",
                 question: "Harley Quinn leads Birds of Prey.",
                 options: [
                     "True",
@@ -5621,29 +5621,29 @@ const artCultureChapter10 = {
             },
             {
                 topic: "The Witcher",
-                emoji: "🗡️🐺",
+                emoji: "🏃💨",
                 question: "Ciri has special powers.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Despicable Me",
-                emoji: "😈🍌",
+                emoji: "🎯🎲",
                 question: "Gru adopts three girls.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         medium: [
             {
                 topic: "Phantom Thread",
-                emoji: "👗🧵",
+                emoji: "🎰🃏",
                 question: "What is Reynolds' profession?",
                 options: [
                     "Couturier",
@@ -5653,7 +5653,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "The Shield",
-                emoji: "👮💰",
+                emoji: "🏎️💨",
                 question: "What is the team called?",
                 options: [
                     "Strike Team",
@@ -5663,7 +5663,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Wind River",
-                emoji: "❄️🔫",
+                emoji: "🚁✈️",
                 question: "What is Cory's profession?",
                 options: [
                     "Tracker",
@@ -5673,7 +5673,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Mare of Easttown",
-                emoji: "🔍🏘️",
+                emoji: "🦇🌃",
                 question: "What is Mare's job?",
                 options: [
                     "Detective",
@@ -5683,7 +5683,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Dunkirk",
-                emoji: "⛵🎖️",
+                emoji: "👮🔍",
                 question: "Who directed Dunkirk?",
                 options: [
                     "Christopher Nolan",
@@ -5693,7 +5693,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Gomorrah",
-                emoji: "🔫🇮🇹",
+                emoji: "💰💵",
                 question: "Where is Gomorrah set?",
                 options: [
                     "Naples",
@@ -5703,7 +5703,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Arrival",
-                emoji: "🛸🗣️",
+                emoji: "🎭😂",
                 question: "Who directed Arrival?",
                 options: [
                     "Denis Villeneuve",
@@ -5713,7 +5713,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Halt and Catch Fire",
-                emoji: "💻📼",
+                emoji: "🎪🤡",
                 question: "What industry is it about?",
                 options: [
                     "Computers",
@@ -5723,7 +5723,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Paterson",
-                emoji: "🚌📝",
+                emoji: "🎬📹",
                 question: "What is Paterson's job?",
                 options: [
                     "Bus driver",
@@ -5733,7 +5733,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "The OA",
-                emoji: "👁️🌌",
+                emoji: "🎬🎥",
                 question: "What is Prairie's ability?",
                 options: [
                     "Dimension jumping",
@@ -5745,7 +5745,7 @@ const artCultureChapter10 = {
         hard: [
             {
                 topic: "The Ascent",
-                emoji: "❄️⚔️",
+                emoji: "🎭🎪",
                 question: "What war is The Ascent set during?",
                 options: [
                     "World War I",
@@ -5756,7 +5756,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "The Young Pope",
-                emoji: "⛪🚬",
+                emoji: "🏆🌟",
                 question: "Who created The Young Pope?",
                 options: [
                     "Paolo Sorrentino",
@@ -5767,7 +5767,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "The Assassin",
-                emoji: "⚔️🌸",
+                emoji: "👑💍",
                 question: "What dynasty is The Assassin set in?",
                 options: [
                     "Ming",
@@ -5778,7 +5778,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Deutschland 83",
-                emoji: "🕵️🇩🇪",
+                emoji: "🦸🦹",
                 question: "Which side is Martin from?",
                 options: [
                     "East Germany",
@@ -5789,7 +5789,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Tales of the Unexpected",
-                emoji: "🎭😮",
+                emoji: "🚀🌌",
                 question: "Who wrote many of the stories?",
                 options: [
                     "Roald Dahl",
@@ -5800,7 +5800,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "The Innocents",
-                emoji: "👶🇳🇴",
+                emoji: "🧙🔮",
                 question: "What is Anna's profession?",
                 options: [
                     "Teacher",
@@ -5811,7 +5811,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "A Ghost Story",
-                emoji: "👻🏠",
+                emoji: "🦖🦕",
                 question: "How is the ghost depicted?",
                 options: [
                     "Sheet with eyeholes",
@@ -5822,7 +5822,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Deadwood",
-                emoji: "🤠🏜️",
+                emoji: "🕷️🕸️",
                 question: "How many seasons does Deadwood have?",
                 options: [
                     "2",
@@ -5833,7 +5833,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Personal Shopper",
-                emoji: "👻👗",
+                emoji: "⚔️🛡️",
                 question: "Who directed Personal Shopper?",
                 options: [
                     "Olivier Assayas",
@@ -5844,7 +5844,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Taboo",
-                emoji: "⛵🎩",
+                emoji: "💎🏝️",
                 question: "What century is Taboo set in?",
                 options: [
                     "18th",
@@ -5857,7 +5857,7 @@ const artCultureChapter10 = {
         expert: [
             {
                 topic: "Out 1",
-                emoji: "🎭🎬",
+                emoji: "🐉⚡",
                 question: "How long is Out 1?",
                 options: [
                     "10 hours",
@@ -5869,7 +5869,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "The Bridge",
-                emoji: "🌉🔍",
+                emoji: "🤖🔧",
                 question: "Which countries does the original bridge connect?",
                 options: [
                     "Denmark-Sweden",
@@ -5881,7 +5881,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Nostalghia",
-                emoji: "🕯️🏛️",
+                emoji: "🏴‍☠️⚓",
                 question: "Who directed Nostalghia?",
                 options: [
                     "Andrei Tarkovsky",
@@ -5893,7 +5893,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "The Bureau",
-                emoji: "🕵️🇫🇷",
+                emoji: "👻👽",
                 question: "How many seasons does The Bureau have?",
                 options: [
                     "3",
@@ -5905,7 +5905,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Mysteries of the Organism",
-                emoji: "🎭🇷🇸",
+                emoji: "🔫💥",
                 question: "Who directed WR: Mysteries of the Organism?",
                 options: [
                     "Dušan Makavejev",
@@ -5917,7 +5917,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Spiral",
-                emoji: "⚖️🇫🇷",
+                emoji: "🎩🎪",
                 question: "What is the French title of Spiral?",
                 options: [
                     "Engrenages",
@@ -5929,7 +5929,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Fanny and Alexander",
-                emoji: "🎄👻",
+                emoji: "🌹💔",
                 question: "How long is the full version of Fanny and Alexander?",
                 options: [
                     "3 hours",
@@ -5941,7 +5941,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Gomorrah",
-                emoji: "🔫🇮🇹",
+                emoji: "🎸🎤",
                 question: "How many seasons does Gomorrah have?",
                 options: [
                     "3",
@@ -5953,7 +5953,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Dekalog",
-                emoji: "🏢📖",
+                emoji: "🏃💨",
                 question: "How many films are in Dekalog?",
                 options: [
                     "8",
@@ -5965,7 +5965,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Montag",
-                emoji: "🌫️🇩🇪",
+                emoji: "🎯🎲",
                 question: "What is Montag (Monday) part of?",
                 options: [
                     "Berlin Alexanderplatz",
@@ -5979,61 +5979,61 @@ const artCultureChapter10 = {
         extreme: [
             {
                 topic: "The Earrings of Madame de...",
-                emoji: "💎👂",
+                emoji: "🎰🃏",
                 question: "What year was The Earrings of Madame de... released?",
                 answer: "1953"
             },
             {
                 topic: "Bleak House",
-                emoji: "📖⚖️",
+                emoji: "🏎️💨",
                 question: "How many episodes is the 2005 Bleak House?",
                 answer: "15"
             },
             {
                 topic: "Gertrud",
-                emoji: "💔🎭",
+                emoji: "🚁✈️",
                 question: "Who directed Gertrud?",
                 answer: "Carl Theodor Dreyer"
             },
             {
                 topic: "The Singing Detective",
-                emoji: "🎵🔍",
+                emoji: "🦇🌃",
                 question: "What hospital is Philip Marlow in?",
                 answer: "Not specified or General hospital"
             },
             {
                 topic: "Intolerance",
-                emoji: "🏛️🎬",
+                emoji: "👮🔍",
                 question: "Who directed Intolerance?",
                 answer: "D.W. Griffith"
             },
             {
                 topic: "I, Claudius",
-                emoji: "👑🏛️",
+                emoji: "💰💵",
                 question: "Who plays Livia Drusilla?",
                 answer: "Siân Phillips"
             },
             {
                 topic: "Le Plaisir",
-                emoji: "🎭💃",
+                emoji: "🎭😂",
                 question: "Who directed Le Plaisir?",
                 answer: "Max Ophüls"
             },
             {
                 topic: "State of Play",
-                emoji: "📰🔍",
+                emoji: "🎪🤡",
                 question: "Who plays Cal McCaffrey in the series?",
                 answer: "John Simm"
             },
             {
                 topic: "Greed",
-                emoji: "💰🎬",
+                emoji: "🎬📹",
                 question: "Who directed Greed?",
                 answer: "Erich von Stroheim"
             },
             {
                 topic: "Our Mutual Friend",
-                emoji: "💰📚",
+                emoji: "🎬🎥",
                 question: "How many episodes is the 1998 adaptation?",
                 answer: "4"
             }
@@ -6043,7 +6043,7 @@ const artCultureChapter10 = {
         easy: [
             {
                 topic: "The Emperor's New Groove",
-                emoji: "🦙👑",
+                emoji: "🎭🎪",
                 question: "Kuzco is turned into a llama.",
                 options: [
                     "True",
@@ -6053,7 +6053,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Cloak & Dagger",
-                emoji: "⚡🗡️",
+                emoji: "🏆🌟",
                 question: "Tandy and Tyrone have superpowers.",
                 options: [
                     "False",
@@ -6063,7 +6063,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "The Golden Girls",
-                emoji: "👵🏠",
+                emoji: "👑💍",
                 question: "The Golden Girls live in Miami.",
                 options: [
                     "True",
@@ -6073,17 +6073,17 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Total Recall",
-                emoji: "🧠🚀",
+                emoji: "🦸🦹",
                 question: "Doug Quaid goes to Mars.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "The Blacklist",
-                emoji: "🕵️📋",
+                emoji: "🚀🌌",
                 question: "Red Reddington is a criminal informant.",
                 options: [
                     "False",
@@ -6093,7 +6093,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Brother Bear",
-                emoji: "🐻🌲",
+                emoji: "🧙🔮",
                 question: "Kenai is transformed into a bear.",
                 options: [
                     "True",
@@ -6103,27 +6103,27 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Legends of Tomorrow",
-                emoji: "⏰🚀",
+                emoji: "🦖🦕",
                 question: "The team travels through time.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "The New Mutants",
-                emoji: "🔥❄️",
+                emoji: "🕷️🕸️",
                 question: "The New Mutants are young mutants.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "The Boys",
-                emoji: "🦸‍♂️💉",
+                emoji: "⚔️🛡️",
                 question: "The Boys fight corrupt superheroes.",
                 options: [
                     "True",
@@ -6138,7 +6138,7 @@ const artCultureChapter10 = {
         easy: [
             {
                 topic: "Encanto",
-                emoji: "🦋🏠",
+                emoji: "💎🏝️",
                 question: "The Madrigal family has magical gifts.",
                 options: [
                     "True",
@@ -6148,7 +6148,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Moon Knight",
-                emoji: "🌙🦸",
+                emoji: "🐉⚡",
                 question: "Moon Knight has multiple personalities.",
                 options: [
                     "False",
@@ -6158,7 +6158,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Taxi",
-                emoji: "🚕😂",
+                emoji: "🤖🔧",
                 question: "Taxi is set in New York.",
                 options: [
                     "True",
@@ -6168,17 +6168,17 @@ const artCultureChapter10 = {
             },
             {
                 topic: "The Matrix",
-                emoji: "💊🕶️",
+                emoji: "🏴‍☠️⚓",
                 question: "Neo can dodge bullets.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Succession",
-                emoji: "💼👔",
+                emoji: "👻👽",
                 question: "Succession is about a powerful family.",
                 options: [
                     "False",
@@ -6188,7 +6188,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Luca",
-                emoji: "🐟🛵",
+                emoji: "🔫💥",
                 question: "Luca is a sea monster.",
                 options: [
                     "True",
@@ -6198,7 +6198,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Hawkeye",
-                emoji: "🏹🎯",
+                emoji: "🎩🎪",
                 question: "Hawkeye uses a bow and arrow.",
                 options: [
                     "False",
@@ -6208,7 +6208,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Eternals",
-                emoji: "⚡🌟",
+                emoji: "🌹💔",
                 question: "The Eternals are immortal beings.",
                 options: [
                     "True",
@@ -6218,7 +6218,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Yellowjackets",
-                emoji: "✈️🌲",
+                emoji: "🎸🎤",
                 question: "Yellowjackets involves a plane crash.",
                 options: [
                     "True",
@@ -6228,7 +6228,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Soul",
-                emoji: "🎹✨",
+                emoji: "🏃💨",
                 question: "Joe Gardner is a music teacher.",
                 options: [
                     "False",
@@ -6240,7 +6240,7 @@ const artCultureChapter10 = {
         medium: [
             {
                 topic: "Parasite",
-                emoji: "🏠🪜",
+                emoji: "🎯🎲",
                 question: "What country is Parasite from?",
                 options: [
                     "South Korea",
@@ -6250,7 +6250,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Ted Lasso",
-                emoji: "⚽😊",
+                emoji: "🎰🃏",
                 question: "What sport does Ted coach?",
                 options: [
                     "Football/Soccer",
@@ -6260,7 +6260,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Knives Out",
-                emoji: "🔪🕵️",
+                emoji: "🏎️💨",
                 question: "Who directed Knives Out?",
                 options: [
                     "Rian Johnson",
@@ -6270,7 +6270,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "The White Lotus",
-                emoji: "🏝️💎",
+                emoji: "🚁✈️",
                 question: "What type of resort is featured?",
                 options: [
                     "Luxury resort",
@@ -6280,7 +6280,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Dune",
-                emoji: "🏜️🪱",
+                emoji: "🦇🌃",
                 question: "What planet is the story set on?",
                 options: [
                     "Arrakis",
@@ -6290,7 +6290,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Squid Game",
-                emoji: "🔺⭕",
+                emoji: "👮🔍",
                 question: "What country is Squid Game from?",
                 options: [
                     "South Korea",
@@ -6300,7 +6300,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "CODA",
-                emoji: "🎤👂",
+                emoji: "💰💵",
                 question: "What does CODA stand for?",
                 options: [
                     "Child of Deaf Adults",
@@ -6310,7 +6310,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Loki",
-                emoji: "⏰🦹",
+                emoji: "🎭😂",
                 question: "What organization does Loki work with?",
                 options: [
                     "TVA",
@@ -6320,7 +6320,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Don't Look Up",
-                emoji: "☄️📺",
+                emoji: "🎪🤡",
                 question: "What threatens Earth in the film?",
                 options: [
                     "Comet",
@@ -6330,7 +6330,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "The Last of Us",
-                emoji: "🍄🎮",
+                emoji: "🎬📹",
                 question: "What causes the apocalypse?",
                 options: [
                     "Fungal infection",
@@ -6342,7 +6342,7 @@ const artCultureChapter10 = {
         hard: [
             {
                 topic: "Drive My Car",
-                emoji: "🚗🎭",
+                emoji: "🎬🎥",
                 question: "What country is Drive My Car from?",
                 options: [
                     "Japan",
@@ -6353,7 +6353,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Succession S3",
-                emoji: "💼👔",
+                emoji: "🎭🎪",
                 question: "Where does the finale take place?",
                 options: [
                     "Italy",
@@ -6364,7 +6364,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "The Power of the Dog",
-                emoji: "🤠🏔️",
+                emoji: "🏆🌟",
                 question: "Who directed The Power of the Dog?",
                 options: [
                     "Jane Campion",
@@ -6375,7 +6375,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Mare of Easttown",
-                emoji: "🔍🏘️",
+                emoji: "👑💍",
                 question: "Who plays Mare?",
                 options: [
                     "Kate Winslet",
@@ -6386,7 +6386,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "The Worst Person in the World",
-                emoji: "💔🇳🇴",
+                emoji: "🦸🦹",
                 question: "What country is this film from?",
                 options: [
                     "Norway",
@@ -6397,7 +6397,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Yellowjackets",
-                emoji: "✈️🌲",
+                emoji: "🚀🌌",
                 question: "How many timelines does the show follow?",
                 options: [
                     "2",
@@ -6408,7 +6408,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "The Green Knight",
-                emoji: "⚔️🟢",
+                emoji: "🧙🔮",
                 question: "Who directed The Green Knight?",
                 options: [
                     "David Lowery",
@@ -6419,7 +6419,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Dopesick",
-                emoji: "💊😢",
+                emoji: "🦖🦕",
                 question: "What drug crisis does Dopesick examine?",
                 options: [
                     "Opioid",
@@ -6430,7 +6430,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Spencer",
-                emoji: "👸💔",
+                emoji: "🕷️🕸️",
                 question: "Who plays Princess Diana?",
                 options: [
                     "Kristen Stewart",
@@ -6441,7 +6441,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Hacks",
-                emoji: "🎤😂",
+                emoji: "⚔️🛡️",
                 question: "What city is Hacks primarily set in?",
                 options: [
                     "Las Vegas",
@@ -6454,7 +6454,7 @@ const artCultureChapter10 = {
         expert: [
             {
                 topic: "Petite Maman",
-                emoji: "🌲🏠",
+                emoji: "💎🏝️",
                 question: "Who directed Petite Maman?",
                 options: [
                     "Céline Sciamma",
@@ -6466,7 +6466,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "The Underground Railroad",
-                emoji: "🚂⛓️",
+                emoji: "🐉⚡",
                 question: "Who directed The Underground Railroad?",
                 options: [
                     "Barry Jenkins",
@@ -6478,7 +6478,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "The Card Counter",
-                emoji: "🎰🃏",
+                emoji: "🤖🔧",
                 question: "Who directed The Card Counter?",
                 options: [
                     "Paul Schrader",
@@ -6490,7 +6490,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "It's a Sin",
-                emoji: "🌈😢",
+                emoji: "🏴‍☠️⚓",
                 question: "What decade is It's a Sin set in?",
                 options: [
                     "1980s",
@@ -6502,7 +6502,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "The French Dispatch",
-                emoji: "📰🇫🇷",
+                emoji: "👻👽",
                 question: "What is the fictional city called?",
                 options: [
                     "Ennui-sur-Blasé",
@@ -6514,7 +6514,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Landscapers",
-                emoji: "🏡🔫",
+                emoji: "🔫💥",
                 question: "Who created Landscapers?",
                 options: [
                     "Ed Sinclair",
@@ -6526,7 +6526,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "The Lost Daughter",
-                emoji: "🏖️🎭",
+                emoji: "🎩🎪",
                 question: "Who directed The Lost Daughter?",
                 options: [
                     "Maggie Gyllenhaal",
@@ -6538,7 +6538,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Wheel of Time",
-                emoji: "⚡🌀",
+                emoji: "🌹💔",
                 question: "How many episodes is Season 1?",
                 options: [
                     "8",
@@ -6550,7 +6550,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Bergman Island",
-                emoji: "🏝️🎬",
+                emoji: "🎸🎤",
                 question: "Who directed Bergman Island?",
                 options: [
                     "Mia Hansen-Løve",
@@ -6562,7 +6562,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Pachinko",
-                emoji: "🎰📚",
+                emoji: "🏃💨",
                 question: "How many generations does Pachinko follow?",
                 options: [
                     "4",
@@ -6576,61 +6576,61 @@ const artCultureChapter10 = {
         extreme: [
             {
                 topic: "The Velvet Underground",
-                emoji: "🎸🍌",
+                emoji: "🎯🎲",
                 question: "Who directed The Velvet Underground documentary?",
                 answer: "Todd Haynes"
             },
             {
                 topic: "Landscapers",
-                emoji: "🏡🔫",
+                emoji: "🎰🃏",
                 question: "Who plays Susan Edwards?",
                 answer: "Olivia Colman"
             },
             {
                 topic: "Annette",
-                emoji: "🎭👶",
+                emoji: "🏎️💨",
                 question: "Who directed Annette?",
                 answer: "Leos Carax"
             },
             {
                 topic: "The Green Knight",
-                emoji: "⚔️🟢",
+                emoji: "🚁✈️",
                 question: "What poem is The Green Knight based on?",
                 answer: "Sir Gawain and the Green Knight"
             },
             {
                 topic: "Titane",
-                emoji: "🚗🔥",
+                emoji: "🦇🌃",
                 question: "Who directed Titane?",
                 answer: "Julia Ducournau"
             },
             {
                 topic: "The Underground Railroad",
-                emoji: "🚂⛓️",
+                emoji: "👮🔍",
                 question: "Who wrote the novel The Underground Railroad?",
                 answer: "Colson Whitehead"
             },
             {
                 topic: "Drive My Car",
-                emoji: "🚗🎭",
+                emoji: "💰💵",
                 question: "What play is being rehearsed in the film?",
                 answer: "Uncle Vanya"
             },
             {
                 topic: "The Tragedy of Macbeth",
-                emoji: "👑🗡️",
+                emoji: "🎭😂",
                 question: "Who directed the 2021 Macbeth?",
                 answer: "Joel Coen"
             },
             {
                 topic: "Wheel of Fortune and Fantasy",
-                emoji: "🎲💭",
+                emoji: "🎪🤡",
                 question: "Who directed Wheel of Fortune and Fantasy?",
                 answer: "Ryusuke Hamaguchi"
             },
             {
                 topic: "The French Dispatch",
-                emoji: "📰🇫🇷",
+                emoji: "🎬📹",
                 question: "What magazine is The French Dispatch inspired by?",
                 answer: "The New Yorker"
             }
@@ -6640,27 +6640,27 @@ const artCultureChapter10 = {
         easy: [
             {
                 topic: "Turning Red",
-                emoji: "🐼😊",
+                emoji: "🎬🎥",
                 question: "Mei turns into a red panda.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Ms. Marvel",
-                emoji: "⚡👧",
+                emoji: "🎭🎪",
                 question: "Kamala Khan has superpowers.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Fawlty Towers",
-                emoji: "🏨😂",
+                emoji: "🏆🌟",
                 question: "Fawlty Towers is a hotel comedy.",
                 options: [
                     "True",
@@ -6670,7 +6670,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Avatar",
-                emoji: "🌊🌳",
+                emoji: "👑💍",
                 question: "Avatar is set on Pandora.",
                 options: [
                     "False",
@@ -6680,13 +6680,13 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Severance",
-                emoji: "💼🧠",
+                emoji: "🦸🦹",
                 question: "Workers have their memories separated.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Lightyear",
@@ -6700,7 +6700,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "She-Hulk",
-                emoji: "💚⚖️",
+                emoji: "🧙🔮",
                 question: "Jennifer Walters is a lawyer.",
                 options: [
                     "False",
@@ -6710,7 +6710,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Thor: Love and Thunder",
-                emoji: "⚡💕",
+                emoji: "🦖🦕",
                 question: "Thor fights with a hammer.",
                 options: [
                     "True",
@@ -6720,29 +6720,29 @@ const artCultureChapter10 = {
             },
             {
                 topic: "House of the Dragon",
-                emoji: "🐉🔥",
+                emoji: "🕷️🕸️",
                 question: "House of the Dragon is a Game of Thrones prequel.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Strange World",
-                emoji: "🌿✨",
+                emoji: "⚔️🛡️",
                 question: "Strange World is about explorers.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         medium: [
             {
                 topic: "Everything Everywhere All at Once",
-                emoji: "🌀🥯",
+                emoji: "💎🏝️",
                 question: "What is the multiverse explored through?",
                 options: [
                     "Laundromat owner",
@@ -6752,7 +6752,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "The Bear",
-                emoji: "🍳😰",
+                emoji: "🐉⚡",
                 question: "What type of restaurant is featured?",
                 options: [
                     "Sandwich shop",
@@ -6762,7 +6762,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Top Gun: Maverick",
-                emoji: "✈️😎",
+                emoji: "🤖🔧",
                 question: "Who returns as Maverick?",
                 options: [
                     "Tom Cruise",
@@ -6772,7 +6772,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Abbott Elementary",
-                emoji: "🏫📚",
+                emoji: "🏴‍☠️⚓",
                 question: "What city is Abbott Elementary set in?",
                 options: [
                     "Philadelphia",
@@ -6782,7 +6782,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "The Batman",
-                emoji: "🦇🔍",
+                emoji: "👻👽",
                 question: "Who plays Batman in 2022?",
                 options: [
                     "Robert Pattinson",
@@ -6792,7 +6792,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Andor",
-                emoji: "⭐🔫",
+                emoji: "🔫💥",
                 question: "What universe is Andor set in?",
                 options: [
                     "Star Wars",
@@ -6802,7 +6802,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "The Banshees of Inisherin",
-                emoji: "🏝️🎻",
+                emoji: "🎩🎪",
                 question: "Where is the film set?",
                 options: [
                     "Ireland",
@@ -6812,7 +6812,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Wednesday",
-                emoji: "🖤🕷️",
+                emoji: "🌹💔",
                 question: "What family is Wednesday from?",
                 options: [
                     "Addams Family",
@@ -6822,7 +6822,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Glass Onion",
-                emoji: "🔪🏝️",
+                emoji: "🎸🎤",
                 question: "Who is the detective?",
                 options: [
                     "Benoit Blanc",
@@ -6832,7 +6832,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "1899",
-                emoji: "🚢🌊",
+                emoji: "🏃💨",
                 question: "What decade is 1899 set in?",
                 options: [
                     "1890s",
@@ -6844,7 +6844,7 @@ const artCultureChapter10 = {
         hard: [
             {
                 topic: "Tár",
-                emoji: "🎼🎻",
+                emoji: "🎯🎲",
                 question: "What is Lydia Tár's profession?",
                 options: [
                     "Conductor",
@@ -6855,7 +6855,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "The Fabelmans",
-                emoji: "🎬👨‍👩‍👦",
+                emoji: "🎰🃏",
                 question: "Who directed The Fabelmans?",
                 options: [
                     "Steven Spielberg",
@@ -6866,7 +6866,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Triangle of Sadness",
-                emoji: "⛵💰",
+                emoji: "🏎️💨",
                 question: "What is the main setting?",
                 options: [
                     "Luxury yacht",
@@ -6877,7 +6877,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "The Rehearsal",
-                emoji: "🎭🔄",
+                emoji: "🚁✈️",
                 question: "Who created The Rehearsal?",
                 options: [
                     "Nathan Fielder",
@@ -6888,7 +6888,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "All Quiet on the Western Front",
-                emoji: "⚔️😢",
+                emoji: "🦇🌃",
                 question: "What country produced the 2022 version?",
                 options: [
                     "Germany",
@@ -6899,7 +6899,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Slow Horses",
-                emoji: "🕵️🐴",
+                emoji: "👮🔍",
                 question: "What is Slough House?",
                 options: [
                     "Failed agents division",
@@ -6910,7 +6910,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "RRR",
-                emoji: "🔥💪",
+                emoji: "💰💵",
                 question: "What country is RRR from?",
                 options: [
                     "India",
@@ -6921,7 +6921,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "The Northman",
-                emoji: "⚔️🌊",
+                emoji: "🎭😂",
                 question: "Who directed The Northman?",
                 options: [
                     "Robert Eggers",
@@ -6932,7 +6932,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "After Yang",
-                emoji: "🤖💔",
+                emoji: "🎪🤡",
                 question: "What is Yang?",
                 options: [
                     "Android",
@@ -6943,7 +6943,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Nope",
-                emoji: "👽☁️",
+                emoji: "🎬📹",
                 question: "Who directed Nope?",
                 options: [
                     "Jordan Peele",
@@ -6956,7 +6956,7 @@ const artCultureChapter10 = {
         expert: [
             {
                 topic: "EO",
-                emoji: "🫏🌍",
+                emoji: "🎬🎥",
                 question: "Who directed EO?",
                 options: [
                     "Jerzy Skolimowski",
@@ -6968,7 +6968,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Aftersun",
-                emoji: "☀️👨‍👧",
+                emoji: "🎭🎪",
                 question: "Who directed Aftersun?",
                 options: [
                     "Charlotte Wells",
@@ -6980,7 +6980,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Decision to Leave",
-                emoji: "💔🔍",
+                emoji: "🏆🌟",
                 question: "Who directed Decision to Leave?",
                 options: [
                     "Park Chan-wook",
@@ -6992,7 +6992,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "The Patient",
-                emoji: "⛓️🧠",
+                emoji: "👑💍",
                 question: "Who plays the therapist?",
                 options: [
                     "Steve Carell",
@@ -7004,7 +7004,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Saint Omer",
-                emoji: "⚖️🇫🇷",
+                emoji: "🦸🦹",
                 question: "Who directed Saint Omer?",
                 options: [
                     "Alice Diop",
@@ -7016,7 +7016,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Argentina, 1985",
-                emoji: "⚖️🇦🇷",
+                emoji: "🚀🌌",
                 question: "What trial is depicted?",
                 options: [
                     "Junta trials",
@@ -7028,7 +7028,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Blonde",
-                emoji: "💋📸",
+                emoji: "🧙🔮",
                 question: "Who directed Blonde?",
                 options: [
                     "Andrew Dominik",
@@ -7040,7 +7040,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "The Menu",
-                emoji: "🍽️🔪",
+                emoji: "🦖🦕",
                 question: "How many courses are served?",
                 options: [
                     "Multiple/Many",
@@ -7052,7 +7052,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "Babylon",
-                emoji: "🎬🎭",
+                emoji: "🕷️🕸️",
                 question: "What era is Babylon set in?",
                 options: [
                     "1920s Hollywood",
@@ -7064,7 +7064,7 @@ const artCultureChapter10 = {
             },
             {
                 topic: "The English",
-                emoji: "🤠🏜️",
+                emoji: "⚔️🛡️",
                 question: "Who plays Cornelia Locke?",
                 options: [
                     "Emily Blunt",
@@ -7078,61 +7078,61 @@ const artCultureChapter10 = {
         extreme: [
             {
                 topic: "EO",
-                emoji: "🫏🌍",
+                emoji: "💎🏝️",
                 question: "What animal is the protagonist of EO?",
                 answer: "Donkey"
             },
             {
                 topic: "The Rehearsal",
-                emoji: "🎭🔄",
+                emoji: "🐉⚡",
                 question: "What is Nathan's experiment called?",
                 answer: "The Rehearsal"
             },
             {
                 topic: "Corsage",
-                emoji: "👑🇦🇹",
+                emoji: "🤖🔧",
                 question: "Who directed Corsage?",
                 answer: "Marie Kreutzer"
             },
             {
                 topic: "Aftersun",
-                emoji: "☀️👨‍👧",
+                emoji: "🏴‍☠️⚓",
                 question: "What song features prominently in Aftersun?",
                 answer: "Under Pressure"
             },
             {
                 topic: "Saint Omer",
-                emoji: "⚖️🇫🇷",
+                emoji: "👻👽",
                 question: "What is Saint Omer based on?",
                 answer: "Real trial or True story"
             },
             {
                 topic: "The Eternal Daughter",
-                emoji: "🏨👻",
+                emoji: "🔫💥",
                 question: "Who directed The Eternal Daughter?",
                 answer: "Joanna Hogg"
             },
             {
                 topic: "Decision to Leave",
-                emoji: "💔🔍",
+                emoji: "🎩🎪",
                 question: "What city is Decision to Leave primarily set in?",
                 answer: "Busan"
             },
             {
                 topic: "The Wonder",
-                emoji: "🇮🇪🍽️",
+                emoji: "🌹💔",
                 question: "Who plays the nurse in The Wonder?",
                 answer: "Florence Pugh"
             },
             {
                 topic: "Return to Seoul",
-                emoji: "🇰🇷🇫🇷",
+                emoji: "🎸🎤",
                 question: "Who directed Return to Seoul?",
                 answer: "Davy Chou"
             },
             {
                 topic: "All the Beauty and the Bloodshed",
-                emoji: "📸💊",
+                emoji: "🏃💨",
                 question: "Who is the subject of this documentary?",
                 answer: "Nan Goldin"
             }
@@ -7148,7 +7148,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
         easy: [
             {
                 topic: "Elemental",
-                emoji: "🔥💧",
+                emoji: "🎯🎲",
                 question: "Elemental is about fire and water elements.",
                 options: [
                     "True",
@@ -7158,7 +7158,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Secret Invasion",
-                emoji: "👽🕵️",
+                emoji: "🎰🃏",
                 question: "Secret Invasion features Skrulls.",
                 options: [
                     "False",
@@ -7168,7 +7168,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Arrested Development",
-                emoji: "🍌😄",
+                emoji: "🏎️💨",
                 question: "The Bluth family is wealthy.",
                 options: [
                     "True",
@@ -7178,17 +7178,17 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Blade Runner",
-                emoji: "🌃🤖",
+                emoji: "🚁✈️",
                 question: "Blade Runner is set in the future.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "The Last of Us",
-                emoji: "🍄🎮",
+                emoji: "🦇🌃",
                 question: "Joel protects Ellie.",
                 options: [
                     "False",
@@ -7198,7 +7198,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Wish",
-                emoji: "⭐✨",
+                emoji: "👮🔍",
                 question: "Wish is a Disney animated film.",
                 options: [
                     "True",
@@ -7208,7 +7208,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Gen V",
-                emoji: "🦸‍♂️🎓",
+                emoji: "💰💵",
                 question: "Gen V is a spin-off of The Boys.",
                 options: [
                     "False",
@@ -7218,7 +7218,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Guardians of the Galaxy Vol. 3",
-                emoji: "🚀🎵",
+                emoji: "🎭😂",
                 question: "The Guardians travel through space.",
                 options: [
                     "True",
@@ -7228,7 +7228,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "The Crowded Room",
-                emoji: "🧠💭",
+                emoji: "🎪🤡",
                 question: "The show explores mental health.",
                 options: [
                     "True",
@@ -7238,7 +7238,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Migration",
-                emoji: "🦆✈️",
+                emoji: "🎬📹",
                 question: "Migration is about traveling ducks.",
                 options: [
                     "False",
@@ -7250,7 +7250,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
         medium: [
             {
                 topic: "Past Lives",
-                emoji: "💕🇰🇷",
+                emoji: "🎬🎥",
                 question: "Who directed Past Lives?",
                 options: [
                     "Celine Song",
@@ -7260,7 +7260,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Beef",
-                emoji: "🚗😡",
+                emoji: "🎭🎪",
                 question: "What starts the conflict in Beef?",
                 options: [
                     "Road rage",
@@ -7270,7 +7270,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Oppenheimer",
-                emoji: "💣⚛️",
+                emoji: "🏆🌟",
                 question: "Who directed Oppenheimer?",
                 options: [
                     "Christopher Nolan",
@@ -7280,7 +7280,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "The Holdovers",
-                emoji: "🎓❄️",
+                emoji: "👑💍",
                 question: "What holiday features in The Holdovers?",
                 options: [
                     "Christmas",
@@ -7290,7 +7290,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Killers of the Flower Moon",
-                emoji: "🌸🔫",
+                emoji: "🦸🦹",
                 question: "Who directed this film?",
                 options: [
                     "Martin Scorsese",
@@ -7300,7 +7300,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "The Fall of the House of Usher",
-                emoji: "🏚️💀",
+                emoji: "🚀🌌",
                 question: "Who created this series?",
                 options: [
                     "Mike Flanagan",
@@ -7310,7 +7310,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Barbie",
-                emoji: "💖👗",
+                emoji: "🧙🔮",
                 question: "Who directed Barbie?",
                 options: [
                     "Greta Gerwig",
@@ -7320,7 +7320,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "The Gilded Age",
-                emoji: "🎩💎",
+                emoji: "🦖🦕",
                 question: "What era is The Gilded Age set in?",
                 options: [
                     "1880s",
@@ -7330,7 +7330,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Spider-Man: Across the Spider-Verse",
-                emoji: "🕷️🌈",
+                emoji: "🕷️🕸️",
                 question: "What style is the animation?",
                 options: [
                     "Multiverse animation",
@@ -7340,7 +7340,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "The Regime",
-                emoji: "👑🏛️",
+                emoji: "⚔️🛡️",
                 question: "What type of government is depicted?",
                 options: [
                     "Authoritarian",
@@ -7352,7 +7352,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
         hard: [
             {
                 topic: "Anatomy of a Fall",
-                emoji: "🏔️⚖️",
+                emoji: "💎🏝️",
                 question: "What country is Anatomy of a Fall from?",
                 options: [
                     "France",
@@ -7363,7 +7363,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "The Zone of Interest",
-                emoji: "🏡😢",
+                emoji: "🐉⚡",
                 question: "Who directed The Zone of Interest?",
                 options: [
                     "Jonathan Glazer",
@@ -7374,7 +7374,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "May December",
-                emoji: "🎬💔",
+                emoji: "🤖🔧",
                 question: "Who directed May December?",
                 options: [
                     "Todd Haynes",
@@ -7385,7 +7385,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Poor Things",
-                emoji: "🧠🎩",
+                emoji: "🏴‍☠️⚓",
                 question: "Who plays Bella Baxter?",
                 options: [
                     "Emma Stone",
@@ -7396,7 +7396,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "The Iron Claw",
-                emoji: "💪🤼",
+                emoji: "👻👽",
                 question: "What sport is featured?",
                 options: [
                     "Wrestling",
@@ -7407,7 +7407,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "A Murder at the End of the World",
-                emoji: "🔍❄️",
+                emoji: "🔫💥",
                 question: "Where is the murder mystery set?",
                 options: [
                     "Iceland resort",
@@ -7418,7 +7418,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Maestro",
-                emoji: "🎼💕",
+                emoji: "🎩🎪",
                 question: "Who does Bradley Cooper play?",
                 options: [
                     "Leonard Bernstein",
@@ -7429,7 +7429,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Ferrari",
-                emoji: "🏎️🇮🇹",
+                emoji: "🌹💔",
                 question: "Who directed Ferrari?",
                 options: [
                     "Michael Mann",
@@ -7440,7 +7440,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Fingernails",
-                emoji: "💅💔",
+                emoji: "🎸🎤",
                 question: "What does the test in Fingernails measure?",
                 options: [
                     "Love compatibility",
@@ -7451,7 +7451,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Fargo S5",
-                emoji: "❄️🔫",
+                emoji: "🏃💨",
                 question: "What decade is Season 5 set in?",
                 options: [
                     "2019",
@@ -7464,7 +7464,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
         expert: [
             {
                 topic: "The Taste of Things",
-                emoji: "🍽️💕",
+                emoji: "🎯🎲",
                 question: "Who directed The Taste of Things?",
                 options: [
                     "Tran Anh Hung",
@@ -7476,7 +7476,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Showing Up",
-                emoji: "🎨🐈",
+                emoji: "🎰🃏",
                 question: "Who directed Showing Up?",
                 options: [
                     "Kelly Reichardt",
@@ -7488,7 +7488,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Fallen Leaves",
-                emoji: "🍂💕",
+                emoji: "🏎️💨",
                 question: "Who directed Fallen Leaves?",
                 options: [
                     "Aki Kaurismäki",
@@ -7500,7 +7500,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "The Boy and the Heron",
-                emoji: "🦢✨",
+                emoji: "🚁✈️",
                 question: "Who directed The Boy and the Heron?",
                 options: [
                     "Hayao Miyazaki",
@@ -7512,7 +7512,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Monster",
-                emoji: "🏫😢",
+                emoji: "🦇🌃",
                 question: "Who directed Monster?",
                 options: [
                     "Hirokazu Kore-eda",
@@ -7524,7 +7524,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "The Teachers' Lounge",
-                emoji: "🏫🔍",
+                emoji: "👮🔍",
                 question: "What country is The Teachers' Lounge from?",
                 options: [
                     "Germany",
@@ -7536,7 +7536,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "All of Us Strangers",
-                emoji: "👻💕",
+                emoji: "💰💵",
                 question: "Who directed All of Us Strangers?",
                 options: [
                     "Andrew Haigh",
@@ -7548,7 +7548,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Society of the Snow",
-                emoji: "✈️❄️",
+                emoji: "🎭😂",
                 question: "What country is Society of the Snow from?",
                 options: [
                     "Spain",
@@ -7560,7 +7560,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "The Sweet East",
-                emoji: "🚗🇺🇸",
+                emoji: "🎪🤡",
                 question: "Who directed The Sweet East?",
                 options: [
                     "Sean Price Williams",
@@ -7572,7 +7572,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Fremont",
-                emoji: "🌉💭",
+                emoji: "🎬📹",
                 question: "What is the protagonist's job in Fremont?",
                 options: [
                     "Fortune cookie writer",
@@ -7586,61 +7586,61 @@ console.log(JSON.stringify(chapters14And15, null, 2));
         extreme: [
             {
                 topic: "Anatomy of a Fall",
-                emoji: "🏔️⚖️",
+                emoji: "🎬🎥",
                 question: "Who directed Anatomy of a Fall?",
                 answer: "Justine Triet"
             },
             {
                 topic: "The Taste of Things",
-                emoji: "🍽️💕",
+                emoji: "🎭🎪",
                 question: "What is the original French title?",
                 answer: "La Passion de Dodin Bouffant"
             },
             {
                 topic: "Beau Is Afraid",
-                emoji: "😰🏠",
+                emoji: "🏆🌟",
                 question: "Who directed Beau Is Afraid?",
                 answer: "Ari Aster"
             },
             {
                 topic: "Past Lives",
-                emoji: "💕🇰🇷",
+                emoji: "👑💍",
                 question: "What is the Korean concept of destined connection called?",
                 answer: "In-yun"
             },
             {
                 topic: "The Zone of Interest",
-                emoji: "🏡😢",
+                emoji: "🦸🦹",
                 question: "What is The Zone of Interest about?",
                 answer: "Auschwitz commandant's family"
             },
             {
                 topic: "Showing Up",
-                emoji: "🎨🐈",
+                emoji: "🚀🌌",
                 question: "What does Lizzy create in Showing Up?",
                 answer: "Ceramic sculptures"
             },
             {
                 topic: "Monster",
-                emoji: "🏫😢",
+                emoji: "🧙🔮",
                 question: "How many perspectives does Monster show?",
                 answer: "3 or Three"
             },
             {
                 topic: "Fallen Leaves",
-                emoji: "🍂💕",
+                emoji: "🦖🦕",
                 question: "What city is Fallen Leaves set in?",
                 answer: "Helsinki"
             },
             {
                 topic: "The Royal Hotel",
-                emoji: "🍺🏜️",
+                emoji: "🕷️🕸️",
                 question: "Who directed The Royal Hotel?",
                 answer: "Kitty Green"
             },
             {
                 topic: "The Boy and the Heron",
-                emoji: "🦢✨",
+                emoji: "⚔️🛡️",
                 question: "What is the Japanese title?",
                 answer: "Kimitachi wa Dō Ikiru ka or How Do You Live?"
             }
@@ -7650,27 +7650,27 @@ console.log(JSON.stringify(chapters14And15, null, 2));
         easy: [
             {
                 topic: "Inside Out 2",
-                emoji: "😊😰",
+                emoji: "💎🏝️",
                 question: "Inside Out 2 introduces new emotions.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Agatha All Along",
-                emoji: "🔮✨",
+                emoji: "🐉⚡",
                 question: "Agatha is a witch.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "The Jeffersons",
-                emoji: "🏢😄",
+                emoji: "🤖🔧",
                 question: "The Jeffersons is a sitcom.",
                 options: [
                     "True",
@@ -7680,7 +7680,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "E.T.",
-                emoji: "👽🚲",
+                emoji: "🏴‍☠️⚓",
                 question: "E.T. is an alien.",
                 options: [
                     "False",
@@ -7690,17 +7690,17 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Shogun",
-                emoji: "⚔️🇯🇵",
+                emoji: "👻👽",
                 question: "Shogun is set in Japan.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Kung Fu Panda 4",
-                emoji: "🐼🥋",
+                emoji: "🔫💥",
                 question: "Po is the Dragon Warrior.",
                 options: [
                     "True",
@@ -7710,7 +7710,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Fallout",
-                emoji: "☢️🎮",
+                emoji: "🎩🎪",
                 question: "Fallout is based on a video game.",
                 options: [
                     "False",
@@ -7720,7 +7720,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Deadpool & Wolverine",
-                emoji: "🔴🐺",
+                emoji: "🌹💔",
                 question: "Deadpool and Wolverine team up.",
                 options: [
                     "True",
@@ -7730,29 +7730,29 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "The Penguin",
-                emoji: "🐧🌃",
+                emoji: "🎸🎤",
                 question: "The Penguin is a Batman villain.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Moana 2",
-                emoji: "🌊⛵",
+                emoji: "🏃💨",
                 question: "Moana sails the ocean.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         medium: [
             {
                 topic: "Dune: Part Two",
-                emoji: "🏜️🪱",
+                emoji: "🎯🎲",
                 question: "What is Paul's Fremen name?",
                 options: [
                     "Muad'Dib",
@@ -7762,7 +7762,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Baby Reindeer",
-                emoji: "🦌💔",
+                emoji: "🎰🃏",
                 question: "What platform released Baby Reindeer?",
                 options: [
                     "Netflix",
@@ -7772,7 +7772,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "The Substance",
-                emoji: "💉✨",
+                emoji: "🏎️💨",
                 question: "What genre is The Substance?",
                 options: [
                     "Body horror",
@@ -7782,7 +7782,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Ripley",
-                emoji: "🇮🇹🎭",
+                emoji: "🚁✈️",
                 question: "What format is the series shot in?",
                 options: [
                     "Black and white",
@@ -7792,7 +7792,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Civil War",
-                emoji: "📸🇺🇸",
+                emoji: "🦇🌃",
                 question: "Who directed Civil War?",
                 options: [
                     "Alex Garland",
@@ -7802,7 +7802,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "3 Body Problem",
-                emoji: "👽🔬",
+                emoji: "👮🔍",
                 question: "Who created the series?",
                 options: [
                     "Game of Thrones creators",
@@ -7812,7 +7812,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "The Brutalist",
-                emoji: "🏗️🎨",
+                emoji: "💰💵",
                 question: "What profession is the protagonist?",
                 options: [
                     "Architect",
@@ -7822,7 +7822,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Anora",
-                emoji: "💍🎭",
+                emoji: "🎭😂",
                 question: "Who directed Anora?",
                 options: [
                     "Sean Baker",
@@ -7832,7 +7832,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Wicked",
-                emoji: "🧙‍♀️💚",
+                emoji: "🎪🤡",
                 question: "What musical is it based on?",
                 options: [
                     "Wicked",
@@ -7842,7 +7842,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "The Wild Robot",
-                emoji: "🤖🌲",
+                emoji: "🎬📹",
                 question: "What is the robot stranded on?",
                 options: [
                     "Island",
@@ -7854,7 +7854,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
         hard: [
             {
                 topic: "The Brutalist",
-                emoji: "🏗️🎨",
+                emoji: "🎬🎥",
                 question: "Who plays the architect?",
                 options: [
                     "Adrien Brody",
@@ -7865,7 +7865,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Conclave",
-                emoji: "⛪👑",
+                emoji: "🎭🎪",
                 question: "What event is depicted in Conclave?",
                 options: [
                     "Papal election",
@@ -7876,7 +7876,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "A Different Man",
-                emoji: "🎭😢",
+                emoji: "🏆🌟",
                 question: "Who directed A Different Man?",
                 options: [
                     "Aaron Schimberg",
@@ -7887,7 +7887,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Nosferatu",
-                emoji: "🧛‍♂️🕯️",
+                emoji: "👑💍",
                 question: "Who directed the 2024 Nosferatu?",
                 options: [
                     "Robert Eggers",
@@ -7898,7 +7898,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Kinds of Kindness",
-                emoji: "🎭💔",
+                emoji: "🦸🦹",
                 question: "How many stories does it contain?",
                 options: [
                     "3",
@@ -7909,7 +7909,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "The Substance",
-                emoji: "💉✨",
+                emoji: "🚀🌌",
                 question: "Who directed The Substance?",
                 options: [
                     "Coralie Fargeat",
@@ -7920,7 +7920,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Nickel Boys",
-                emoji: "📚😢",
+                emoji: "🧙🔮",
                 question: "What novel is it based on?",
                 options: [
                     "Colson Whitehead novel",
@@ -7931,7 +7931,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Emilia Pérez",
-                emoji: "🎵🇲🇽",
+                emoji: "🦖🦕",
                 question: "What genre is Emilia Pérez?",
                 options: [
                     "Musical",
@@ -7942,7 +7942,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "I Saw the TV Glow",
-                emoji: "📺✨",
+                emoji: "🕷️🕸️",
                 question: "Who directed I Saw the TV Glow?",
                 options: [
                     "Jane Schoenbrun",
@@ -7953,7 +7953,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Love Lies Bleeding",
-                emoji: "💪💕",
+                emoji: "⚔️🛡️",
                 question: "Who directed Love Lies Bleeding?",
                 options: [
                     "Rose Glass",
@@ -7966,7 +7966,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
         expert: [
             {
                 topic: "All We Imagine as Light",
-                emoji: "💡🇮🇳",
+                emoji: "💎🏝️",
                 question: "Who directed All We Imagine as Light?",
                 options: [
                     "Payal Kapadia",
@@ -7978,7 +7978,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "The Seed of the Sacred Fig",
-                emoji: "🌱🇮🇷",
+                emoji: "🐉⚡",
                 question: "Who directed The Seed of the Sacred Fig?",
                 options: [
                     "Mohammad Rasoulof",
@@ -7990,7 +7990,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Dying",
-                emoji: "😢🇩🇪",
+                emoji: "🤖🔧",
                 question: "Who directed Dying?",
                 options: [
                     "Matthias Glasner",
@@ -8002,7 +8002,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Grand Tour",
-                emoji: "🚂🇵🇹",
+                emoji: "🏴‍☠️⚓",
                 question: "Who directed Grand Tour?",
                 options: [
                     "Miguel Gomes",
@@ -8014,7 +8014,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Evil Does Not Exist",
-                emoji: "🌲💧",
+                emoji: "👻👽",
                 question: "Who directed Evil Does Not Exist?",
                 options: [
                     "Ryusuke Hamaguchi",
@@ -8026,7 +8026,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Flow",
-                emoji: "🐈🌊",
+                emoji: "🔫💥",
                 question: "What country is Flow from?",
                 options: [
                     "Latvia",
@@ -8038,7 +8038,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "La Chimera",
-                emoji: "🏺💰",
+                emoji: "🎩🎪",
                 question: "Who directed La Chimera?",
                 options: [
                     "Alice Rohrwacher",
@@ -8050,7 +8050,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Green Border",
-                emoji: "🌲🇵🇱",
+                emoji: "🌹💔",
                 question: "Who directed Green Border?",
                 options: [
                     "Agnieszka Holland",
@@ -8062,7 +8062,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "The Beast",
-                emoji: "🦁💔",
+                emoji: "🎸🎤",
                 question: "What is the original French title?",
                 options: [
                     "La Bête",
@@ -8074,7 +8074,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Do Not Expect Too Much from the End of the World",
-                emoji: "🎬🚗",
+                emoji: "🏃💨",
                 question: "What country is this film from?",
                 options: [
                     "Romania",
@@ -8088,61 +8088,61 @@ console.log(JSON.stringify(chapters14And15, null, 2));
         extreme: [
             {
                 topic: "All We Imagine as Light",
-                emoji: "💡🇮🇳",
+                emoji: "🎯🎲",
                 question: "What award did it win at Cannes?",
                 answer: "Grand Prix"
             },
             {
                 topic: "The Seed of the Sacred Fig",
-                emoji: "🌱🇮🇷",
+                emoji: "🎰🃏",
                 question: "Where was the director when the film premiered?",
                 answer: "In exile or Outside Iran"
             },
             {
                 topic: "La Chimera",
-                emoji: "🏺💰",
+                emoji: "🏎️💨",
                 question: "What do the tomb raiders search for?",
                 answer: "Etruscan artifacts"
             },
             {
                 topic: "Flow",
-                emoji: "🐈🌊",
+                emoji: "🚁✈️",
                 question: "What animal is the protagonist in Flow?",
                 answer: "Cat"
             },
             {
                 topic: "Evil Does Not Exist",
-                emoji: "🌲💧",
+                emoji: "🦇🌃",
                 question: "What village is threatened in the film?",
                 answer: "Mountain village or Mizubiki"
             },
             {
                 topic: "Grand Tour",
-                emoji: "🚂🇵🇹",
+                emoji: "👮🔍",
                 question: "What era is Grand Tour set in?",
                 answer: "1910s or Early 20th century"
             },
             {
                 topic: "The Beast",
-                emoji: "🦁💔",
+                emoji: "💰💵",
                 question: "Who directed The Beast?",
                 answer: "Bertrand Bonello"
             },
             {
                 topic: "Green Border",
-                emoji: "🌲🇵🇱",
+                emoji: "🎭😂",
                 question: "What crisis does Green Border depict?",
                 answer: "Migrant crisis or Refugee crisis"
             },
             {
                 topic: "Do Not Expect Too Much",
-                emoji: "🎬🚗",
+                emoji: "🎪🤡",
                 question: "Who directed this Romanian film?",
                 answer: "Radu Jude"
             },
             {
                 topic: "Robot Dreams",
-                emoji: "🤖🗽",
+                emoji: "🎬📹",
                 question: "Where is Robot Dreams set?",
                 answer: "New York City or Manhattan"
             }
@@ -8155,7 +8155,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
         easy: [
             {
                 topic: "The Incredibles 2",
-                emoji: "🦸‍♀️👨‍👩‍👧‍👦",
+                emoji: "🎬🎥",
                 question: "The Incredibles 2 features a superhero family.",
                 options: [
                     "True",
@@ -8165,7 +8165,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "WandaVision",
-                emoji: "📺✨",
+                emoji: "🎭🎪",
                 question: "WandaVision takes place in different TV eras.",
                 options: [
                     "False",
@@ -8175,7 +8175,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Columbo",
-                emoji: "🕵️🚬",
+                emoji: "🏆🌟",
                 question: "Columbo is a detective.",
                 options: [
                     "True",
@@ -8185,17 +8185,17 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Jaws",
-                emoji: "🦈🌊",
+                emoji: "👑💍",
                 question: "Jaws is about a killer shark.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Bridgerton",
-                emoji: "👑💕",
+                emoji: "🦸🦹",
                 question: "Bridgerton is set in Regency England.",
                 options: [
                     "False",
@@ -8205,7 +8205,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Cars",
-                emoji: "🏎️⚡",
+                emoji: "🚀🌌",
                 question: "Lightning McQueen is a race car.",
                 options: [
                     "True",
@@ -8215,7 +8215,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Invincible",
-                emoji: "🦸‍♂️💥",
+                emoji: "🧙🔮",
                 question: "Invincible is an animated superhero show.",
                 options: [
                     "False",
@@ -8225,7 +8225,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Black Widow",
-                emoji: "🕷️💃",
+                emoji: "🦖🦕",
                 question: "Black Widow is a spy.",
                 options: [
                     "True",
@@ -8235,7 +8235,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Only Murders in the Building",
-                emoji: "🏢🔍",
+                emoji: "🕷️🕸️",
                 question: "The show is about solving murders.",
                 options: [
                     "True",
@@ -8245,7 +8245,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Onward",
-                emoji: "🧙‍♂️🗡️",
+                emoji: "⚔️🛡️",
                 question: "Onward features two elf brothers.",
                 options: [
                     "False",
@@ -8257,7 +8257,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
         medium: [
             {
                 topic: "Nomadland",
-                emoji: "🚐🏜️",
+                emoji: "💎🏝️",
                 question: "Who directed Nomadland?",
                 options: [
                     "Chloé Zhao",
@@ -8267,7 +8267,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "The Queen's Gambit",
-                emoji: "♟️👸",
+                emoji: "🐉⚡",
                 question: "What is Beth Harmon's addiction?",
                 options: [
                     "Pills and alcohol",
@@ -8277,7 +8277,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Soul",
-                emoji: "🎹✨",
+                emoji: "🤖🔧",
                 question: "Where does Joe's soul end up?",
                 options: [
                     "The Great Before",
@@ -8287,7 +8287,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "The Mandalorian S2",
-                emoji: "🛡️👶",
+                emoji: "🏴‍☠️⚓",
                 question: "Who does Grogu reunite with?",
                 options: [
                     "Luke Skywalker",
@@ -8297,7 +8297,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Minari",
-                emoji: "🌱👨‍👩‍👧‍👦",
+                emoji: "👻👽",
                 question: "What country does the family move from?",
                 options: [
                     "South Korea",
@@ -8307,7 +8307,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Mare of Easttown",
-                emoji: "🔍🏘️",
+                emoji: "🔫💥",
                 question: "What is Mare investigating?",
                 options: [
                     "Murder",
@@ -8317,7 +8317,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Promising Young Woman",
-                emoji: "💅🎀",
+                emoji: "🎩🎪",
                 question: "Who directed Promising Young Woman?",
                 options: [
                     "Emerald Fennell",
@@ -8327,7 +8327,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Luca",
-                emoji: "🐟🛵",
+                emoji: "🌹💔",
                 question: "Where is Luca set?",
                 options: [
                     "Italian Riviera",
@@ -8337,7 +8337,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "The Father",
-                emoji: "👴🏠",
+                emoji: "🎸🎤",
                 question: "What condition does Anthony have?",
                 options: [
                     "Dementia",
@@ -8347,7 +8347,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Arcane",
-                emoji: "🎮⚡",
+                emoji: "🏃💨",
                 question: "What game is Arcane based on?",
                 options: [
                     "League of Legends",
@@ -8359,7 +8359,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
         hard: [
             {
                 topic: "Sound of Metal",
-                emoji: "🥁👂",
+                emoji: "🎯🎲",
                 question: "What does Ruben lose?",
                 options: [
                     "Hearing",
@@ -8370,7 +8370,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Small Axe",
-                emoji: "🎬🇬🇧",
+                emoji: "🎰🃏",
                 question: "Who directed the Small Axe anthology?",
                 options: [
                     "Steve McQueen",
@@ -8381,7 +8381,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Judas and the Black Messiah",
-                emoji: "✊🐀",
+                emoji: "🏎️💨",
                 question: "Who is the Black Messiah?",
                 options: [
                     "Fred Hampton",
@@ -8392,7 +8392,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "I May Destroy You",
-                emoji: "💊💔",
+                emoji: "🚁✈️",
                 question: "What does Arabella investigate?",
                 options: [
                     "Sexual assault",
@@ -8403,7 +8403,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "The Trial of the Chicago 7",
-                emoji: "⚖️✊",
+                emoji: "🦇🌃",
                 question: "Who directed this film?",
                 options: [
                     "Aaron Sorkin",
@@ -8414,7 +8414,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "The Underground Railroad",
-                emoji: "🚂⛓️",
+                emoji: "👮🔍",
                 question: "How is the Underground Railroad depicted?",
                 options: [
                     "Literal train",
@@ -8425,7 +8425,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Shang-Chi",
-                emoji: "🐉🥋",
+                emoji: "💰💵",
                 question: "What martial arts style is featured?",
                 options: [
                     "Kung Fu",
@@ -8436,7 +8436,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "The Mauritanian",
-                emoji: "⚖️🏛️",
+                emoji: "🎭😂",
                 question: "Where is the protagonist detained?",
                 options: [
                     "Guantanamo Bay",
@@ -8447,7 +8447,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Cruella",
-                emoji: "🐕🎨",
+                emoji: "🎪🤡",
                 question: "What decade is Cruella set in?",
                 options: [
                     "1970s",
@@ -8458,7 +8458,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Demon Slayer: Mugen Train",
-                emoji: "🗡️🔥",
+                emoji: "🎬📹",
                 question: "What is the main setting?",
                 options: [
                     "Train",
@@ -8471,7 +8471,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
         expert: [
             {
                 topic: "Lovers Rock",
-                emoji: "🎵💃",
+                emoji: "🎬🎥",
                 question: "What Small Axe film is Lovers Rock?",
                 options: [
                     "Part of anthology",
@@ -8483,7 +8483,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "First Cow",
-                emoji: "🐄🍪",
+                emoji: "🎭🎪",
                 question: "Who directed First Cow?",
                 options: [
                     "Kelly Reichardt",
@@ -8495,7 +8495,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Another Round",
-                emoji: "🍺🇩🇰",
+                emoji: "🏆🌟",
                 question: "What experiment do the teachers conduct?",
                 options: [
                     "Drinking alcohol daily",
@@ -8507,7 +8507,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "The Dig",
-                emoji: "⛏️🏺",
+                emoji: "👑💍",
                 question: "What historical event is depicted?",
                 options: [
                     "Sutton Hoo excavation",
@@ -8519,7 +8519,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "The Mauritanian",
-                emoji: "⚖️🏛️",
+                emoji: "🦸🦹",
                 question: "Who plays the defense attorney?",
                 options: [
                     "Jodie Foster",
@@ -8531,7 +8531,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Quo Vadis, Aida?",
-                emoji: "😢🇧🇦",
+                emoji: "🚀🌌",
                 question: "What genocide is depicted?",
                 options: [
                     "Srebrenica",
@@ -8543,7 +8543,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "The Disciple",
-                emoji: "🎵🇮🇳",
+                emoji: "🧙🔮",
                 question: "What music tradition is featured?",
                 options: [
                     "Indian classical",
@@ -8555,7 +8555,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Preparations to Be Together",
-                emoji: "💕🇰🇷",
+                emoji: "🦖🦕",
                 question: "Who directed this Hong Sang-soo film?",
                 options: [
                     "Hong Sang-soo",
@@ -8567,7 +8567,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Malmkrog",
-                emoji: "🏰🗣️",
+                emoji: "🕷️🕸️",
                 question: "What country is Malmkrog from?",
                 options: [
                     "Romania",
@@ -8579,7 +8579,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Undine",
-                emoji: "💧💕",
+                emoji: "⚔️🛡️",
                 question: "Who directed Undine?",
                 options: [
                     "Christian Petzold",
@@ -8593,61 +8593,61 @@ console.log(JSON.stringify(chapters14And15, null, 2));
         extreme: [
             {
                 topic: "First Cow",
-                emoji: "🐄🍪",
+                emoji: "💎🏝️",
                 question: "What do Cookie and King-Lu sell?",
                 answer: "Oily cakes or Biscuits"
             },
             {
                 topic: "Lovers Rock",
-                emoji: "🎵💃",
+                emoji: "🐉⚡",
                 question: "What music genre is featured?",
                 answer: "Reggae or Lovers rock"
             },
             {
                 topic: "The Truffle Hunters",
-                emoji: "🐕🍄",
+                emoji: "🤖🔧",
                 question: "What country is The Truffle Hunters set in?",
                 answer: "Italy"
             },
             {
                 topic: "Another Round",
-                emoji: "🍺🇩🇰",
+                emoji: "🏴‍☠️⚓",
                 question: "Who directed Another Round?",
                 answer: "Thomas Vinterberg"
             },
             {
                 topic: "Quo Vadis, Aida?",
-                emoji: "😢🇧🇦",
+                emoji: "👻👽",
                 question: "Who directed Quo Vadis, Aida?",
                 answer: "Jasmila Žbanić"
             },
             {
                 topic: "The Disciple",
-                emoji: "🎵🇮🇳",
+                emoji: "🔫💥",
                 question: "Who directed The Disciple?",
                 answer: "Chaitanya Tamhane"
             },
             {
                 topic: "Collective",
-                emoji: "🔥📰",
+                emoji: "🎩🎪",
                 question: "What tragedy does Collective investigate?",
                 answer: "Nightclub fire or Colectiv fire"
             },
             {
                 topic: "Malmkrog",
-                emoji: "🏰🗣️",
+                emoji: "🌹💔",
                 question: "Who directed Malmkrog?",
                 answer: "Cristi Puiu"
             },
             {
                 topic: "Martin Eden",
-                emoji: "📚⚓",
+                emoji: "🎸🎤",
                 question: "Who wrote the novel Martin Eden?",
                 answer: "Jack London"
             },
             {
                 topic: "Bacurau",
-                emoji: "🏜️🔫",
+                emoji: "🏃💨",
                 question: "What country is Bacurau from?",
                 answer: "Brazil"
             }
@@ -8657,27 +8657,27 @@ console.log(JSON.stringify(chapters14And15, null, 2));
         easy: [
             {
                 topic: "Raya and the Last Dragon",
-                emoji: "🐉⚔️",
+                emoji: "🎯🎲",
                 question: "Raya searches for a dragon.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Falcon and Winter Soldier",
-                emoji: "🦅❄️",
+                emoji: "🎰🃏",
                 question: "Sam and Bucky are partners.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Hill Street Blues",
-                emoji: "👮📞",
+                emoji: "🏎️💨",
                 question: "Hill Street Blues is a police drama.",
                 options: [
                     "True",
@@ -8687,7 +8687,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Close Encounters",
-                emoji: "🛸🎵",
+                emoji: "🚁✈️",
                 question: "Close Encounters features aliens.",
                 options: [
                     "False",
@@ -8697,17 +8697,17 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Squid Game",
-                emoji: "🔺⭕",
+                emoji: "🦇🌃",
                 question: "Players compete in deadly games.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "The Mitchells vs. the Machines",
-                emoji: "🤖👨‍👩‍👧‍👦",
+                emoji: "👮🔍",
                 question: "A family fights robots.",
                 options: [
                     "True",
@@ -8717,7 +8717,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "What If...?",
-                emoji: "🌌❓",
+                emoji: "💰💵",
                 question: "What If explores alternate realities.",
                 options: [
                     "False",
@@ -8727,7 +8727,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Eternals",
-                emoji: "⚡🌟",
+                emoji: "🎭😂",
                 question: "Eternals have existed for thousands of years.",
                 options: [
                     "True",
@@ -8737,29 +8737,29 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Ted Lasso",
-                emoji: "⚽😊",
+                emoji: "🎪🤡",
                 question: "Ted Lasso is an American coach.",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Encanto",
-                emoji: "🦋🏠",
+                emoji: "🎬📹",
                 question: "Mirabel has no magical gift.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         medium: [
             {
                 topic: "Don't Look Up",
-                emoji: "☄️📺",
+                emoji: "🎬🎥",
                 question: "What threatens Earth?",
                 options: [
                     "Comet",
@@ -8769,7 +8769,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "The Harder They Fall",
-                emoji: "🤠🔫",
+                emoji: "🎭🎪",
                 question: "What genre is The Harder They Fall?",
                 options: [
                     "Western",
@@ -8779,7 +8779,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Free Guy",
-                emoji: "🎮😎",
+                emoji: "🏆🌟",
                 question: "Where does Guy live?",
                 options: [
                     "Video game",
@@ -8789,7 +8789,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Hawkeye",
-                emoji: "🏹🎯",
+                emoji: "👑💍",
                 question: "What city is Hawkeye set in?",
                 options: [
                     "New York",
@@ -8799,7 +8799,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "The Suicide Squad",
-                emoji: "🦈🔫",
+                emoji: "🦸🦹",
                 question: "Who directed The Suicide Squad?",
                 options: [
                     "James Gunn",
@@ -8809,7 +8809,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Tick, Tick... Boom!",
-                emoji: "🎭⏰",
+                emoji: "🚀🌌",
                 question: "Who directed this musical?",
                 options: [
                     "Lin-Manuel Miranda",
@@ -8819,7 +8819,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "The Power of the Dog",
-                emoji: "🤠🏔️",
+                emoji: "🧙🔮",
                 question: "Where is the film set?",
                 options: [
                     "Montana",
@@ -8829,7 +8829,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Dopesick",
-                emoji: "💊😢",
+                emoji: "🦖🦕",
                 question: "What company is featured?",
                 options: [
                     "Purdue Pharma",
@@ -8839,7 +8839,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "West Side Story",
-                emoji: "💃🎵",
+                emoji: "🕷️🕸️",
                 question: "Who directed the 2021 version?",
                 options: [
                     "Steven Spielberg",
@@ -8849,7 +8849,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Midnight Mass",
-                emoji: "⛪🧛",
+                emoji: "⚔️🛡️",
                 question: "Who created Midnight Mass?",
                 options: [
                     "Mike Flanagan",
@@ -8861,7 +8861,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
         hard: [
             {
                 topic: "The Power of the Dog",
-                emoji: "🤠🏔️",
+                emoji: "💎🏝️",
                 question: "Who plays Phil Burbank?",
                 options: [
                     "Benedict Cumberbatch",
@@ -8872,7 +8872,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "The Green Knight",
-                emoji: "⚔️🟢",
+                emoji: "🐉⚡",
                 question: "Who plays Gawain?",
                 options: [
                     "Dev Patel",
@@ -8883,7 +8883,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Titane",
-                emoji: "🚗🔥",
+                emoji: "🤖🔧",
                 question: "What award did Titane win at Cannes?",
                 options: [
                     "Palme d'Or",
@@ -8894,7 +8894,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "C'mon C'mon",
-                emoji: "🎙️👦",
+                emoji: "🏴‍☠️⚓",
                 question: "Who directed C'mon C'mon?",
                 options: [
                     "Mike Mills",
@@ -8905,7 +8905,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Pig",
-                emoji: "🐷🔍",
+                emoji: "👻👽",
                 question: "What does Rob search for?",
                 options: [
                     "Truffle pig",
@@ -8916,7 +8916,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Spencer",
-                emoji: "👸💔",
+                emoji: "🔫💥",
                 question: "What time period is depicted?",
                 options: [
                     "Christmas 1991",
@@ -8927,7 +8927,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Nightmare Alley",
-                emoji: "🎪🔮",
+                emoji: "🎩🎪",
                 question: "Who directed Nightmare Alley?",
                 options: [
                     "Guillermo del Toro",
@@ -8938,7 +8938,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "The Card Counter",
-                emoji: "🎰🃏",
+                emoji: "🌹💔",
                 question: "What is William's past?",
                 options: [
                     "Military interrogator",
@@ -8949,7 +8949,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Licorice Pizza",
-                emoji: "🎬🍕",
+                emoji: "🎸🎤",
                 question: "What decade is it set in?",
                 options: [
                     "1970s",
@@ -8960,7 +8960,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Red Rocket",
-                emoji: "🎬🌟",
+                emoji: "🏃💨",
                 question: "Who directed Red Rocket?",
                 options: [
                     "Sean Baker",
@@ -8973,7 +8973,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
         expert: [
             {
                 topic: "Wheel of Fortune and Fantasy",
-                emoji: "🎲💭",
+                emoji: "🎯🎲",
                 question: "How many episodes/stories does it contain?",
                 options: [
                     "3",
@@ -8985,7 +8985,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Bergman Island",
-                emoji: "🏝️🎬",
+                emoji: "🎰🃏",
                 question: "Where is the film set?",
                 options: [
                     "Fårö",
@@ -8997,7 +8997,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "The Souvenir Part II",
-                emoji: "🎬💔",
+                emoji: "🏎️💨",
                 question: "Who directed The Souvenir Part II?",
                 options: [
                     "Joanna Hogg",
@@ -9009,7 +9009,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Petite Maman",
-                emoji: "🌲🏠",
+                emoji: "🚁✈️",
                 question: "How long is Petite Maman?",
                 options: [
                     "72 minutes",
@@ -9021,7 +9021,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Memoria",
-                emoji: "💫🇨🇴",
+                emoji: "🦇🌃",
                 question: "Who directed Memoria?",
                 options: [
                     "Apichatpong Weerasethakul",
@@ -9033,7 +9033,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "The Worst Person in the World",
-                emoji: "💔🇳🇴",
+                emoji: "👮🔍",
                 question: "Who directed this film?",
                 options: [
                     "Joachim Trier",
@@ -9045,7 +9045,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "A Hero",
-                emoji: "⚖️🇮🇷",
+                emoji: "💰💵",
                 question: "Who directed A Hero?",
                 options: [
                     "Asghar Farhadi",
@@ -9057,7 +9057,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Parallel Mothers",
-                emoji: "👶💔",
+                emoji: "🎭😂",
                 question: "Who directed Parallel Mothers?",
                 options: [
                     "Pedro Almodóvar",
@@ -9069,7 +9069,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "Introduction",
-                emoji: "🎬🇰🇷",
+                emoji: "🎪🤡",
                 question: "Who directed Introduction?",
                 options: [
                     "Hong Sang-soo",
@@ -9081,7 +9081,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
             },
             {
                 topic: "The Tsugua Diaries",
-                emoji: "📹🇵🇹",
+                emoji: "🎬📹",
                 question: "What country is The Tsugua Diaries from?",
                 options: [
                     "Portugal",
@@ -9095,61 +9095,61 @@ console.log(JSON.stringify(chapters14And15, null, 2));
         extreme: [
             {
                 topic: "Wheel of Fortune and Fantasy",
-                emoji: "🎲💭",
+                emoji: "🎬🎥",
                 question: "What award did it win at Berlin?",
                 answer: "Silver Bear Grand Jury Prize"
             },
             {
                 topic: "Drive My Car",
-                emoji: "🚗🎭",
+                emoji: "🎭🎪",
                 question: "What is the car in the film?",
                 answer: "Saab 900"
             },
             {
                 topic: "Memoria",
-                emoji: "💫🇨🇴",
+                emoji: "🏆🌟",
                 question: "Who plays Jessica in Memoria?",
                 answer: "Tilda Swinton"
             },
             {
                 topic: "Petite Maman",
-                emoji: "🌲🏠",
+                emoji: "👑💍",
                 question: "Who are the twin actresses in Petite Maman?",
                 answer: "Joséphine and Gabrielle Sanz"
             },
             {
                 topic: "The Worst Person in the World",
-                emoji: "💔🇳🇴",
+                emoji: "🦸🦹",
                 question: "How many chapters does the film have?",
                 answer: "12"
             },
             {
                 topic: "Red Rocket",
-                emoji: "🎬🌟",
+                emoji: "🚀🌌",
                 question: "What Texas city is Red Rocket set in?",
                 answer: "Texas City"
             },
             {
                 topic: "Bergman Island",
-                emoji: "🏝️🎬",
+                emoji: "🧙🔮",
                 question: "Who plays the filmmaker couple?",
                 answer: "Vicky Krieps and Tim Roth"
             },
             {
                 topic: "Introduction",
-                emoji: "🎬🇰🇷",
+                emoji: "🦖🦕",
                 question: "How long is Introduction?",
                 answer: "66 minutes"
             },
             {
                 topic: "A Hero",
-                emoji: "⚖️🇮🇷",
+                emoji: "🕷️🕸️",
                 question: "What city is A Hero set in?",
                 answer: "Shiraz"
             },
             {
                 topic: "The Velvet Underground",
-                emoji: "🎸🍌",
+                emoji: "⚔️🛡️",
                 question: "What artist designed the banana album cover?",
                 answer: "Andy Warhol"
             }
@@ -9162,7 +9162,7 @@ const chapter20 = {
         easy: [
             {
                 topic: "The Jungle Book",
-                emoji: "🐻🌴",
+                emoji: "💎🏝️",
                 question: "Mowgli is raised by wolves.",
                 options: [
                     "True",
@@ -9172,7 +9172,7 @@ const chapter20 = {
             },
             {
                 topic: "Loki",
-                emoji: "⏰🦹",
+                emoji: "🐉⚡",
                 question: "Loki is the god of mischief.",
                 options: [
                     "False",
@@ -9182,7 +9182,7 @@ const chapter20 = {
             },
             {
                 topic: "Taxi Driver",
-                emoji: "🚕🔫",
+                emoji: "🤖🔧",
                 question: "Travis Bickle drives a taxi.",
                 options: [
                     "True",
@@ -9192,17 +9192,17 @@ const chapter20 = {
             },
             {
                 topic: "Back to the Future",
-                emoji: "⚡🚗",
+                emoji: "🏴‍☠️⚓",
                 question: "Marty McFly travels through time.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Yellowstone",
-                emoji: "🤠🏔️",
+                emoji: "👻👽",
                 question: "Yellowstone is about a ranching family.",
                 options: [
                     "False",
@@ -9212,7 +9212,7 @@ const chapter20 = {
             },
             {
                 topic: "Frozen 2",
-                emoji: "❄️🍂",
+                emoji: "🔫💥",
                 question: "Elsa discovers her origin.",
                 options: [
                     "True",
@@ -9222,7 +9222,7 @@ const chapter20 = {
             },
             {
                 topic: "Moon Knight",
-                emoji: "🌙🦸",
+                emoji: "🎩🎪",
                 question: "Marc Spector has dissociative identity disorder.",
                 options: [
                     "False",
@@ -9232,7 +9232,7 @@ const chapter20 = {
             },
             {
                 topic: "Shang-Chi",
-                emoji: "🐉🥋",
+                emoji: "🌹💔",
                 question: "Shang-Chi is a martial artist.",
                 options: [
                     "True",
@@ -9242,7 +9242,7 @@ const chapter20 = {
             },
             {
                 topic: "Foundation",
-                emoji: "🌌📚",
+                emoji: "🎸🎤",
                 question: "Foundation is set in space.",
                 options: [
                     "True",
@@ -9252,7 +9252,7 @@ const chapter20 = {
             },
             {
                 topic: "The Bad Guys",
-                emoji: "🦊🐺",
+                emoji: "🏃💨",
                 question: "The Bad Guys are reformed criminals.",
                 options: [
                     "False",
@@ -9264,7 +9264,7 @@ const chapter20 = {
         medium: [
             {
                 topic: "Dune",
-                emoji: "🏜️🪱",
+                emoji: "🎯🎲",
                 question: "Who directed Dune (2021)?",
                 options: [
                     "Denis Villeneuve",
@@ -9274,7 +9274,7 @@ const chapter20 = {
             },
             {
                 topic: "Arcane",
-                emoji: "🎮⚡",
+                emoji: "🎰🃏",
                 question: "What are the two cities?",
                 options: [
                     "Piltover and Zaun",
@@ -9284,7 +9284,7 @@ const chapter20 = {
             },
             {
                 topic: "No Time to Die",
-                emoji: "🔫💣",
+                emoji: "🏎️💨",
                 question: "Is this Daniel Craig's last Bond film?",
                 options: [
                     "Yes",
@@ -9294,7 +9294,7 @@ const chapter20 = {
             },
             {
                 topic: "The Tragedy of Macbeth",
-                emoji: "👑🗡️",
+                emoji: "🚁✈️",
                 question: "Who plays Macbeth?",
                 options: [
                     "Denzel Washington",
@@ -9304,7 +9304,7 @@ const chapter20 = {
             },
             {
                 topic: "Turning Red",
-                emoji: "🐼😊",
+                emoji: "🦇🌃",
                 question: "Where is Turning Red set?",
                 options: [
                     "Toronto",
@@ -9314,7 +9314,7 @@ const chapter20 = {
             },
             {
                 topic: "The Tender Bar",
-                emoji: "🍸📚",
+                emoji: "👮🔍",
                 question: "Who directed The Tender Bar?",
                 options: [
                     "George Clooney",
@@ -9324,7 +9324,7 @@ const chapter20 = {
             },
             {
                 topic: "Last Night in Soho",
-                emoji: "💃👻",
+                emoji: "💰💵",
                 question: "What decade does Ellie travel to?",
                 options: [
                     "1960s",
@@ -9334,7 +9334,7 @@ const chapter20 = {
             },
             {
                 topic: "Coda",
-                emoji: "🎤👂",
+                emoji: "🎭😂",
                 question: "What does Ruby want to pursue?",
                 options: [
                     "Singing",
@@ -9344,7 +9344,7 @@ const chapter20 = {
             },
             {
                 topic: "Belfast",
-                emoji: "🏴󠁧󠁢󠁮󠁩󠁲󠁿😢",
+                emoji: "🎪🤡",
                 question: "Who directed Belfast?",
                 options: [
                     "Kenneth Branagh",
@@ -9354,7 +9354,7 @@ const chapter20 = {
             },
             {
                 topic: "Being the Ricardos",
-                emoji: "📺💕",
+                emoji: "🎬📹",
                 question: "Who plays Lucille Ball?",
                 options: [
                     "Nicole Kidman",
@@ -9366,7 +9366,7 @@ const chapter20 = {
         hard: [
             {
                 topic: "The Lost Daughter",
-                emoji: "🏖️🎭",
+                emoji: "🎬🎥",
                 question: "What is Leda's profession?",
                 options: [
                     "Professor",
@@ -9377,7 +9377,7 @@ const chapter20 = {
             },
             {
                 topic: "Drive My Car",
-                emoji: "🚗🎭",
+                emoji: "🎭🎪",
                 question: "What play is being rehearsed?",
                 options: [
                     "Uncle Vanya",
@@ -9388,7 +9388,7 @@ const chapter20 = {
             },
             {
                 topic: "The French Dispatch",
-                emoji: "📰🇫🇷",
+                emoji: "🏆🌟",
                 question: "How many stories does it contain?",
                 options: [
                     "3",
@@ -9399,7 +9399,7 @@ const chapter20 = {
             },
             {
                 topic: "Flee",
-                emoji: "🏃🎨",
+                emoji: "👑💍",
                 question: "What technique is primarily used?",
                 options: [
                     "Animation",
@@ -9410,7 +9410,7 @@ const chapter20 = {
             },
             {
                 topic: "The Hand of God",
-                emoji: "⚽🇮🇹",
+                emoji: "🦸🦹",
                 question: "Who directed The Hand of God?",
                 options: [
                     "Paolo Sorrentino",
@@ -9421,7 +9421,7 @@ const chapter20 = {
             },
             {
                 topic: "Passing",
-                emoji: "🎭🖤",
+                emoji: "🚀🌌",
                 question: "What decade is Passing set in?",
                 options: [
                     "1920s",
@@ -9432,7 +9432,7 @@ const chapter20 = {
             },
             {
                 topic: "Mass",
-                emoji: "⛪💔",
+                emoji: "🧙🔮",
                 question: "How many parents meet in Mass?",
                 options: [
                     "4",
@@ -9443,7 +9443,7 @@ const chapter20 = {
             },
             {
                 topic: "Swan Song",
-                emoji: "🦢💇",
+                emoji: "🦖🦕",
                 question: "What is Pat's former profession?",
                 options: [
                     "Hairdresser",
@@ -9454,7 +9454,7 @@ const chapter20 = {
             },
             {
                 topic: "Annette",
-                emoji: "🎭👶",
+                emoji: "🕷️🕸️",
                 question: "What is unique about the baby?",
                 options: [
                     "Puppet",
@@ -9465,7 +9465,7 @@ const chapter20 = {
             },
             {
                 topic: "The Tragedy of Macbeth",
-                emoji: "👑🗡️",
+                emoji: "⚔️🛡️",
                 question: "What format is the film shot in?",
                 options: [
                     "Black and white",
@@ -9478,7 +9478,7 @@ const chapter20 = {
         expert: [
             {
                 topic: "The Power of the Dog",
-                emoji: "🤠🏔️",
+                emoji: "💎🏝️",
                 question: "What is Phil's secret skill?",
                 options: [
                     "Piano playing",
@@ -9490,7 +9490,7 @@ const chapter20 = {
             },
             {
                 topic: "Azor",
-                emoji: "🏦🇦🇷",
+                emoji: "🐉⚡",
                 question: "What decade is Azor set in?",
                 options: [
                     "1980s",
@@ -9502,7 +9502,7 @@ const chapter20 = {
             },
             {
                 topic: "The Souvenir Part II",
-                emoji: "🎬💔",
+                emoji: "🤖🔧",
                 question: "What is Julie making a film about?",
                 options: [
                     "Her relationship",
@@ -9514,7 +9514,7 @@ const chapter20 = {
             },
             {
                 topic: "Prayers for the Stolen",
-                emoji: "😢🇲🇽",
+                emoji: "🏴‍☠️⚓",
                 question: "What country is Prayers for the Stolen from?",
                 options: [
                     "Mexico",
@@ -9526,7 +9526,7 @@ const chapter20 = {
             },
             {
                 topic: "What Do We See When We Look at the Sky?",
-                emoji: "☀️🇬🇪",
+                emoji: "👻👽",
                 question: "What country is this film from?",
                 options: [
                     "Georgia",
@@ -9538,7 +9538,7 @@ const chapter20 = {
             },
             {
                 topic: "Compartment No. 6",
-                emoji: "🚂🇫🇮",
+                emoji: "🔫💥",
                 question: "Where is the train headed?",
                 options: [
                     "Murmansk",
@@ -9550,7 +9550,7 @@ const chapter20 = {
             },
             {
                 topic: "Benediction",
-                emoji: "✍️⚔️",
+                emoji: "🎩🎪",
                 question: "Who is the film's subject?",
                 options: [
                     "Siegfried Sassoon",
@@ -9562,7 +9562,7 @@ const chapter20 = {
             },
             {
                 topic: "Bad Luck Banging",
-                emoji: "📱🇷🇴",
+                emoji: "🌹💔",
                 question: "Who directed this Romanian film?",
                 options: [
                     "Radu Jude",
@@ -9574,7 +9574,7 @@ const chapter20 = {
             },
             {
                 topic: "Nitram",
-                emoji: "🔫🇦🇺",
+                emoji: "🎸🎤",
                 question: "What tragedy is Nitram based on?",
                 options: [
                     "Port Arthur massacre",
@@ -9586,7 +9586,7 @@ const chapter20 = {
             },
             {
                 topic: "A Chiara",
-                emoji: "👧🇮🇹",
+                emoji: "🏃💨",
                 question: "Who directed A Chiara?",
                 options: [
                     "Jonas Carpignano",
@@ -9600,61 +9600,61 @@ const chapter20 = {
         extreme: [
             {
                 topic: "The Power of the Dog",
-                emoji: "🤠🏔️",
+                emoji: "🎯🎲",
                 question: "What animal does Peter dissect?",
                 answer: "Rabbit"
             },
             {
                 topic: "Azor",
-                emoji: "🏦🇦🇷",
+                emoji: "🎰🃏",
                 question: "Who directed Azor?",
                 answer: "Andreas Fontana"
             },
             {
                 topic: "Prayers for the Stolen",
-                emoji: "😢🇲🇽",
+                emoji: "🏎️💨",
                 question: "Who directed Prayers for the Stolen?",
                 answer: "Tatiana Huezo"
             },
             {
                 topic: "What Do We See When We Look at the Sky?",
-                emoji: "☀️🇬🇪",
+                emoji: "🚁✈️",
                 question: "Who directed this Georgian film?",
                 answer: "Alexandre Koberidze"
             },
             {
                 topic: "Compartment No. 6",
-                emoji: "🚂🇫🇮",
+                emoji: "🦇🌃",
                 question: "Who directed Compartment No. 6?",
                 answer: "Juho Kuosmanen"
             },
             {
                 topic: "Benediction",
-                emoji: "✍️⚔️",
+                emoji: "👮🔍",
                 question: "Who directed Benediction?",
                 answer: "Terence Davies"
             },
             {
                 topic: "Bad Luck Banging",
-                emoji: "📱🇷🇴",
+                emoji: "💰💵",
                 question: "What award did it win at Berlin?",
                 answer: "Golden Bear"
             },
             {
                 topic: "The Velvet Underground",
-                emoji: "🎸🍌",
+                emoji: "🎭😂",
                 question: "What is the band's first album called?",
                 answer: "The Velvet Underground & Nico"
             },
             {
                 topic: "Nitram",
-                emoji: "🔫🇦🇺",
+                emoji: "🎪🤡",
                 question: "Who directed Nitram?",
                 answer: "Justin Kurzel"
             },
             {
                 topic: "A Chiara",
-                emoji: "👧🇮🇹",
+                emoji: "🎬📹",
                 question: "What Italian region is A Chiara set in?",
                 answer: "Calabria"
             }

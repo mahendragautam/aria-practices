@@ -1,5 +1,5 @@
 /*
- * Smart Family Picks - Analytics & Click Tracking
+ * ProfitBenefit - Analytics & Click Tracking
  * WPCode: JavaScript Snippet Type
  * Location: Site Wide Footer
  *
@@ -50,8 +50,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Track individual card types
     var cardTypes = {
-        'card-shop': 'Daily Essentials',
-        'card-quiz': 'Fun Quizzes',
+        'card-shop': 'Shopping Deals',
+        'card-quiz': 'Product Matcher',
         'card-health': 'Health & Wellness',
         'card-tools': 'Business Tools'
     };

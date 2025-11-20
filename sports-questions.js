@@ -3541,21 +3541,12 @@ const sportsQuestionsExtended = {
             {
                 "topic": "Tournaments",
                 "emoji": "🏉🏆",
-                "question": "Name three major rugby tournaments?",
-                "answer": "Rugby World Cup, Six Nations, Rugby Championship, British & Irish Lions (any 3)"
-            },
             {
                 "topic": "Skills",
                 "emoji": "🏉💪",
-                "question": "Name three rugby skills?",
-                "answer": "Passing, Tackling, Kicking, Rucking, Scrummaging, Catching (any 3)"
-            },
             {
                 "topic": "Ball Handling",
                 "emoji": "🏉✋",
-                "question": "Name three ball-carrying techniques?",
-                "answer": "Two hands carry, One arm carry, Fend-off, Side-step, Spin pass (any 3)"
-            }
         ]
     },
     "8": {
@@ -3855,14 +3846,6 @@ const sportsQuestionsExtended = {
             {
                 "topic": "Tool",
                 "emoji": "🏐🔧",
-                "question": "What is a 'tool' or 'wipe'?",
-                "options": [
-                    "Attacker using blocker's hands to send ball out",
-                    "Cleaning equipment",
-                    "Serve type"
-                ],
-                "correct": 0
-            },
             {
                 "topic": "Joust",
                 "emoji": "🏐⚔️",
@@ -4739,13 +4722,6 @@ const sportsQuestionsExtended = {
             {
                 "topic": "Assist",
                 "emoji": "🏒🤝",
-                "question": "What is an assist?",
-                "options": [
-                    "Helping player up",
-                    "Pass that leads to goal"
-                ],
-                "correct": 1
-            },
             {
                 "topic": "Breakaway",
                 "emoji": "🏒🏃",
@@ -5261,13 +5237,6 @@ const sportsQuestionsExtended = {
             {
                 "topic": "On the Ropes",
                 "emoji": "🥊🔴",
-                "question": "What does 'on the ropes' mean?",
-                "options": [
-                    "Winning",
-                    "Backed against ropes, in trouble"
-                ],
-                "correct": 1
-            }
         ],
         "hard": [
             {
@@ -5911,27 +5880,9 @@ const sportsQuestionsExtended = {
             {
                 "topic": "Shot Put Weight Men",
                 "emoji": "🏃⚫",
-                "question": "What is men's shot put weight?",
-                "options": [
-                    "7.26 kg (16 lbs)",
-                    "10 kg",
-                    "5 kg",
-                    "12 kg"
-                ],
-                "correct": 0
-            },
             {
                 "topic": "Hurdle Height Men",
                 "emoji": "🏃🚧",
-                "question": "What is men's 110m hurdle height?",
-                "options": [
-                    "1.067 meters (42 inches)",
-                    "1.5 meters",
-                    "0.8 meters",
-                    "2 meters"
-                ],
-                "correct": 0
-            },
             {
                 "topic": "World Record 100m",
                 "emoji": "🏃⚡",
@@ -5947,15 +5898,6 @@ const sportsQuestionsExtended = {
             {
                 "topic": "Javelin Specifications",
                 "emoji": "🏃🗡️",
-                "question": "What is men's javelin length?",
-                "options": [
-                    "2.6-2.7 meters",
-                    "3 meters",
-                    "2 meters",
-                    "4 meters"
-                ],
-                "correct": 0
-            },
             {
                 "topic": "Steeplechase Distance",
                 "emoji": "🏃💧",
@@ -6235,13 +6177,6 @@ const sportsQuestionsExtended = {
             {
                 "topic": "Breakaway",
                 "emoji": "🚴➡️",
-                "question": "What is a breakaway?",
-                "options": [
-                    "Rider(s) ahead of peloton",
-                    "Equipment failure"
-                ],
-                "correct": 0
-            },
             {
                 "topic": "Cadence",
                 "emoji": "🚴🔄",
@@ -6878,14 +6813,6 @@ const sportsQuestionsExtended = {
             {
                 "topic": "Stick the Landing",
                 "emoji": "🤸‍♂️✅",
-                "question": "What does 'stick the landing' mean?",
-                "options": [
-                    "Landing without steps or hops",
-                    "Falling",
-                    "Moving feet"
-                ],
-                "correct": 0
-            }
         ],
         "expert": [
             {
@@ -8603,13 +8530,6 @@ const sportsQuestionsExtended = {
             {
                 "topic": "Net",
                 "emoji": "🏸🕸️",
-                "question": "Is there a net dividing the court?",
-                "options": [
-                    "True",
-                    "False"
-                ],
-                "correct": 0
-            },
             {
                 "topic": "Indoor Sport",
                 "emoji": "🏸🏢",
@@ -8643,13 +8563,6 @@ const sportsQuestionsExtended = {
             {
                 "topic": "Serve",
                 "emoji": "🏸🎾",
-                "question": "Does play start with a serve?",
-                "options": [
-                    "True",
-                    "False"
-                ],
-                "correct": 1
-            },
             {
                 "topic": "Olympics",
                 "emoji": "🏸🥇",
@@ -8715,13 +8628,6 @@ const sportsQuestionsExtended = {
             {
                 "topic": "Drop Shot",
                 "emoji": "🏸💧",
-                "question": "What is a drop shot?",
-                "options": [
-                    "Hard smash",
-                    "Soft shot landing just over net"
-                ],
-                "correct": 1
-            },
             {
                 "topic": "Clear",
                 "emoji": "🏸☁️",
@@ -8923,15 +8829,6 @@ const sportsQuestionsExtended = {
             {
                 "topic": "Net Height",
                 "emoji": "🏸📏",
-                "question": "What is net height at center?",
-                "options": [
-                    "1.524 meters (5 feet)",
-                    "2 meters",
-                    "1 meter",
-                    "3 meters"
-                ],
-                "correct": 0
-            },
             {
                 "topic": "Shuttlecock Weight",
                 "emoji": "🏸⚖️",
@@ -9344,14 +9241,6 @@ const sportsQuestionsExtended = {
             {
                 "topic": "Box Box",
                 "emoji": "🏁📻",
-                "question": "What does 'Box, box' mean?",
-                "options": [
-                    "Radio call to pit",
-                    "Speed up",
-                    "Finish race"
-                ],
-                "correct": 0
-            },
             {
                 "topic": "ERS",
                 "emoji": "🏁🔋",
@@ -9835,14 +9724,6 @@ const sportsQuestionsExtended = {
             {
                 "topic": "Pumped",
                 "emoji": "🧗‍♂️💪",
-                "question": "What does 'getting pumped' mean?",
-                "options": [
-                    "Forearm muscle fatigue from lactic acid buildup",
-                    "Excited",
-                    "Warmed up"
-                ],
-                "correct": 0
-            },
             {
                 "topic": "Mantle",
                 "emoji": "🧗‍♀️⬆️",

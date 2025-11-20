@@ -52,10 +52,6 @@ const riddlesQuestions = {
             {
                 topic: "Lateral Thinking - Medium",
                 emoji: "🧩🌈",
-                question: "What can you hold without touching?",
-                options: ["Your breath", "Air"],
-                correct: 0
-            },
             {
                 topic: "Lateral Thinking - Medium",
                 emoji: "🔮💡",
@@ -66,17 +62,9 @@ const riddlesQuestions = {
             {
                 topic: "Lateral Thinking - Medium",
                 emoji: "🎪🎭",
-                question: "Why can't a man living in New York be buried in Los Angeles?",
-                options: ["Because he's still alive", "Legal restrictions"],
-                correct: 0
-            },
             {
                 topic: "Lateral Thinking - Medium",
                 emoji: "🌈🎯",
-                question: "A farmer has 17 sheep. All but 9 die. How many are left?",
-                options: ["9", "8"],
-                correct: 0
-            },
             {
                 topic: "Lateral Thinking - Medium",
                 emoji: "🧠✨",
@@ -87,10 +75,6 @@ const riddlesQuestions = {
             {
                 topic: "Lateral Thinking - Medium",
                 emoji: "🎯💫",
-                question: "What's wrong with this sentence: 'Paris in the the spring'?",
-                options: ["'the' is repeated", "Nothing"],
-                correct: 0
-            },
             {
                 topic: "Lateral Thinking - Medium",
                 emoji: "🔍🌟",
@@ -143,24 +127,12 @@ const riddlesQuestions = {
             {
                 topic: "Lateral Thinking - Medium",
                 emoji: "🎯✨",
-                question: "What gets wetter as it dries?",
-                options: ["A towel", "A sponge"],
-                correct: 0
-            },
             {
                 topic: "Lateral Thinking - Medium",
                 emoji: "🌈🧩",
-                question: "How many months have 28 days?",
-                options: ["All of them", "One"],
-                correct: 0
-            },
             {
                 topic: "Lateral Thinking - Medium",
                 emoji: "🔮🎭",
-                question: "What can travel around the world while staying in a corner?",
-                options: ["A stamp", "A map"],
-                correct: 0
-            },
             {
                 topic: "Lateral Thinking - Medium",
                 emoji: "🧩💫",
@@ -171,10 +143,6 @@ const riddlesQuestions = {
             {
                 topic: "Lateral Thinking - Medium",
                 emoji: "🎨🌟",
-                question: "What has a head and tail but no body?",
-                options: ["A coin", "A snake"],
-                correct: 0
-            },
             {
                 topic: "Lateral Thinking - Medium",
                 emoji: "🧠🔍",
@@ -236,24 +204,12 @@ const riddlesQuestions = {
             {
                 topic: "Lateral Thinking - Hard",
                 emoji: "🔮🌈",
-                question: "You're in a race. You pass the person in 2nd place. What place are you in?",
-                options: ["2nd place", "1st place", "3rd place"],
-                correct: 0
-            },
             {
                 topic: "Lateral Thinking - Hard",
                 emoji: "🎪💫",
-                question: "A woman has 7 children. Half of them are boys. How is this possible?",
-                options: ["All are boys", "3.5 boys", "Mixed"],
-                correct: 0
-            },
             {
                 topic: "Lateral Thinking - Hard",
                 emoji: "🧠✨",
-                question: "What word becomes shorter when you add two letters to it?",
-                options: ["Short", "Long", "Word"],
-                correct: 0
-            },
             {
                 topic: "Lateral Thinking - Hard",
                 emoji: "🎯🔍",
@@ -306,17 +262,9 @@ const riddlesQuestions = {
             {
                 topic: "Lateral Thinking - Hard",
                 emoji: "🧩💭",
-                question: "What occurs once in every minute, twice in every moment, but never in a thousand years?",
-                options: ["The letter M", "Time", "Breath"],
-                correct: 0
-            },
             {
                 topic: "Lateral Thinking - Hard",
                 emoji: "🔮✨",
-                question: "A man is pushing his car. He stops at a hotel and immediately knows he's bankrupt. What's happening?",
-                options: ["Playing Monopoly", "Car broke", "Lost money"],
-                correct: 0
-            },
             {
                 topic: "Lateral Thinking - Hard",
                 emoji: "🎨🌈",
@@ -334,10 +282,6 @@ const riddlesQuestions = {
             {
                 topic: "Lateral Thinking - Hard",
                 emoji: "🎯🔍",
-                question: "What belongs to you but others use it more than you?",
-                options: ["Your name", "Your time", "Your phone"],
-                correct: 0
-            },
             {
                 topic: "Lateral Thinking - Hard",
                 emoji: "🌟🧩",
@@ -348,17 +292,9 @@ const riddlesQuestions = {
             {
                 topic: "Lateral Thinking - Hard",
                 emoji: "🎪💡",
-                question: "What can fill a room but takes up no space?",
-                options: ["Light", "Air", "Sound"],
-                correct: 0
-            },
             {
                 topic: "Lateral Thinking - Hard",
                 emoji: "🧩🔮",
-                question: "What is at the end of a rainbow?",
-                options: ["The letter W", "Pot of gold", "Nothing"],
-                correct: 0
-            },
             {
                 topic: "Lateral Thinking - Hard",
                 emoji: "🔍💭",
@@ -392,10 +328,6 @@ const riddlesQuestions = {
             {
                 topic: "Lateral Thinking - Expert",
                 emoji: "🌈🧩",
-                question: "You're in a room with 3 switches. In another room are 3 bulbs. You can only enter the bulb room once. How do you determine which switch controls which bulb?",
-                options: ["Turn on switch 1, wait, turn off, turn on switch 2, check hot/on/off bulbs", "Trial and error", "Mark switches", "Use mirror"],
-                correct: 0
-            },
             {
                 topic: "Lateral Thinking - Expert",
                 emoji: "🎯✨",
@@ -525,10 +457,6 @@ const riddlesQuestions = {
             {
                 topic: "Lateral Thinking - Expert",
                 emoji: "🧠🌈",
-                question: "You're running a race and pass the person in 2nd place. What position are you in now?",
-                options: ["2nd place", "1st place", "3rd place", "Tied"],
-                correct: 0
-            },
             {
                 topic: "Lateral Thinking - Expert",
                 emoji: "🔍🔮",
@@ -578,9 +506,6 @@ const riddlesQuestions = {
             {
                 topic: "Lateral Thinking - Extreme",
                 emoji: "🌟🔍",
-                question: "You're in a room with 3 light switches. In another room are 3 bulbs. You can enter bulb room once. How do you determine which switch controls which bulb?",
-                answer: "Turn on switch 1, wait 5 minutes, turn it off, turn on switch 2, enter room and check which is on, which is warm (was on), which is cold (never on)"
-            },
             {
                 topic: "Lateral Thinking - Extreme",
                 emoji: "🧠💡",
@@ -602,9 +527,6 @@ const riddlesQuestions = {
             {
                 topic: "Lateral Thinking - Extreme",
                 emoji: "🧩💭",
-                question: "Five people were eating apples. A finished before B but behind C. D finished before E but behind B. What was the finishing order?",
-                answer: "CABDE or C, A, B, D, E"
-            },
             {
                 topic: "Lateral Thinking - Extreme",
                 emoji: "🌈🔮",
@@ -614,9 +536,6 @@ const riddlesQuestions = {
             {
                 topic: "Lateral Thinking - Extreme",
                 emoji: "🎭💫",
-                question: "You're on an island and have 3 switches. On another island 100km away are 3 light bulbs. You can't see the other island. You can flip switches, then take a boat to check bulbs. How do you determine which switch controls which bulb?",
-                answer: "Turn switch 1 on for 10 minutes, turn off, turn switch 2 on, go check which is on, which is warm, which is cold"
-            },
             {
                 topic: "Lateral Thinking - Extreme",
                 emoji: "🔍✨",
@@ -638,9 +557,6 @@ const riddlesQuestions = {
             {
                 topic: "Lateral Thinking - Extreme",
                 emoji: "🧩🌈",
-                question: "You're blindfolded and given a deck of 52 cards. 13 cards are face up, 39 face down (randomly mixed). How do you split them into two piles with equal face-up cards in each pile?",
-                answer: "Count out 13 cards into pile, flip that entire pile over"
-            },
             {
                 topic: "Lateral Thinking - Extreme",
                 emoji: "🔮🎭",
@@ -668,9 +584,6 @@ const riddlesQuestions = {
             {
                 topic: "Lateral Thinking - Extreme",
                 emoji: "🎯💫",
-                question: "You're in a room with two doors and two guards. One door leads to freedom, one to death. One guard always tells truth, one always lies. You don't know which is which. What ONE question can you ask ONE guard to find the safe door?",
-                answer: "If I asked the other guard which door leads to freedom, what would they say? Then choose opposite door"
-            },
             {
                 topic: "Lateral Thinking - Extreme",
                 emoji: "🧩🌟",

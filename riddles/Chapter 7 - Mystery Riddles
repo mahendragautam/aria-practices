@@ -97,11 +97,6 @@ const riddlesQuestions = {
             {
                 topic: "Mystery Riddles - Easy",
                 emoji: "🔮🌙",
-                question: "What has a ring but no finger?",
-                options: [
-                    "A telephone",
-                    "A planet"
-                ],
                 correct: 0
             },
             {
@@ -219,11 +214,6 @@ const riddlesQuestions = {
             {
                 topic: "Mystery Riddles - Medium",
                 emoji: "🎭🔍",
-                question: "A man describes his daughters: 'They are all blonde, but two; all brunette, but two; and all redheaded, but two.' How many daughters?",
-                options: [
-                    "3",
-                    "6"
-                ],
                 correct: 0
             },
             {
@@ -289,11 +279,6 @@ const riddlesQuestions = {
             {
                 topic: "Mystery Riddles - Medium",
                 emoji: "🔮🔍",
-                question: "A man is pushing his car along a road when he comes to a hotel. He shouts 'I'm bankrupt!' Why?",
-                options: [
-                    "Playing Monopoly",
-                    "Lost money"
-                ],
                 correct: 0
             },
             {
@@ -744,13 +729,6 @@ const riddlesQuestions = {
             {
                 topic: "Mystery Riddles - Expert",
                 emoji: "🔮🌙",
-                question: "Romeo and Juliet are lying dead on the floor surrounded by water and broken glass. How did they die?",
-                options: [
-                    "They're fish, bowl broke",
-                    "Poison",
-                    "Suicide",
-                    "Murder"
-                ],
                 correct: 0
             },
             {

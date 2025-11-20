@@ -17,21 +17,11 @@ const riddlesQuestions = {
             {
                 topic: "Classic Riddles - Easy",
                 emoji: "🎭🌟",
-                question: "What has to be broken before you can use it?",
-                options: [
-                    "An egg",
-                    "A seal"
-                ],
                 correct: 0
             },
             {
                 topic: "Classic Riddles - Easy",
                 emoji: "🎪✨",
-                question: "I'm tall when I'm young, and I'm short when I'm old. What am I?",
-                options: [
-                    "A candle",
-                    "A person"
-                ],
                 correct: 0
             },
             {
@@ -47,11 +37,6 @@ const riddlesQuestions = {
             {
                 topic: "Classic Riddles - Easy",
                 emoji: "🎨💡",
-                question: "What is full of holes but still holds water?",
-                options: [
-                    "A sponge",
-                    "A bucket"
-                ],
                 correct: 0
             },
             {
@@ -67,21 +52,11 @@ const riddlesQuestions = {
             {
                 topic: "Classic Riddles - Easy",
                 emoji: "🎪🎭",
-                question: "What is always in front of you but can't be seen?",
-                options: [
-                    "The future",
-                    "Air"
-                ],
                 correct: 0
             },
             {
                 topic: "Classic Riddles - Easy",
                 emoji: "🌟💫",
-                question: "There's a one-story house in which everything is yellow. What color are the stairs?",
-                options: [
-                    "There aren't any",
-                    "Yellow"
-                ],
                 correct: 0
             },
             {
@@ -97,11 +72,6 @@ const riddlesQuestions = {
             {
                 topic: "Classic Riddles - Easy",
                 emoji: "🧩🌈",
-                question: "What goes up but never comes down?",
-                options: [
-                    "Your age",
-                    "A balloon"
-                ],
                 correct: 0
             },
             {
@@ -119,11 +89,6 @@ const riddlesQuestions = {
             {
                 topic: "Classic Riddles - Medium",
                 emoji: "🎭🧠",
-                question: "A man dies of old age on his 25th birthday. How is this possible?",
-                options: [
-                    "He was born on February 29",
-                    "He time traveled"
-                ],
                 correct: 0
             },
             {
@@ -139,11 +104,6 @@ const riddlesQuestions = {
             {
                 topic: "Classic Riddles - Medium",
                 emoji: "🎪🎯",
-                question: "What can't talk but will reply when spoken to?",
-                options: [
-                    "An echo",
-                    "A parrot"
-                ],
                 correct: 0
             },
             {
@@ -179,41 +139,21 @@ const riddlesQuestions = {
             {
                 topic: "Classic Riddles - Medium",
                 emoji: "🎯🔮",
-                question: "What has many keys but can't open a single lock?",
-                options: [
-                    "A piano",
-                    "A keyboard"
-                ],
                 correct: 0
             },
             {
                 topic: "Classic Riddles - Medium",
                 emoji: "🌟🎪",
-                question: "What can you hold in your left hand but not in your right?",
-                options: [
-                    "Your right elbow",
-                    "A pen"
-                ],
                 correct: 0
             },
             {
                 topic: "Classic Riddles - Medium",
                 emoji: "🎭💫",
-                question: "What is black when it's clean and white when it's dirty?",
-                options: [
-                    "A chalkboard",
-                    "Coal"
-                ],
                 correct: 0
             },
             {
                 topic: "Classic Riddles - Medium",
                 emoji: "🧠🌈",
-                question: "What gets wet while drying?",
-                options: [
-                    "A towel",
-                    "A sponge"
-                ],
                 correct: 0
             },
             {
@@ -229,11 +169,6 @@ const riddlesQuestions = {
             {
                 topic: "Classic Riddles - Medium",
                 emoji: "🔮💭",
-                question: "What kind of band never plays music?",
-                options: [
-                    "A rubber band",
-                    "A marching band"
-                ],
                 correct: 0
             },
             {
@@ -299,11 +234,6 @@ const riddlesQuestions = {
             {
                 topic: "Classic Riddles - Medium",
                 emoji: "🎯🌟",
-                question: "What can travel all around the world without leaving its corner?",
-                options: [
-                    "A stamp",
-                    "A map"
-                ],
                 correct: 0
             },
             {
@@ -319,11 +249,6 @@ const riddlesQuestions = {
             {
                 topic: "Classic Riddles - Medium",
                 emoji: "🌟🎨",
-                question: "What has a head and a tail but no body?",
-                options: [
-                    "A coin",
-                    "A snake"
-                ],
                 correct: 0
             },
             {
@@ -339,11 +264,6 @@ const riddlesQuestions = {
             {
                 topic: "Classic Riddles - Medium",
                 emoji: "🧠💡",
-                question: "What kind of room has no doors or windows?",
-                options: [
-                    "A mushroom",
-                    "A classroom"
-                ],
                 correct: 0
             },
             {
@@ -426,23 +346,11 @@ const riddlesQuestions = {
             {
                 topic: "Classic Riddles - Hard",
                 emoji: "🎨💡",
-                question: "Turn me on my side and I am everything. Cut me in half and I am nothing. What am I?",
-                options: [
-                    "The number 8",
-                    "A circle",
-                    "Infinity"
-                ],
                 correct: 0
             },
             {
                 topic: "Classic Riddles - Hard",
                 emoji: "🌈🎭",
-                question: "What disappears as soon as you say its name?",
-                options: [
-                    "Silence",
-                    "Nothing",
-                    "A secret"
-                ],
                 correct: 0
             },
             {
@@ -459,34 +367,16 @@ const riddlesQuestions = {
             {
                 topic: "Classic Riddles - Hard",
                 emoji: "🧠🌟",
-                question: "What can run but never walks, has a mouth but never talks, has a head but never weeps, has a bed but never sleeps?",
-                options: [
-                    "A river",
-                    "A clock",
-                    "Time"
-                ],
                 correct: 0
             },
             {
                 topic: "Classic Riddles - Hard",
                 emoji: "🎪💫",
-                question: "I'm light as a feather, yet the strongest person can't hold me for five minutes. What am I?",
-                options: [
-                    "Your breath",
-                    "A feather",
-                    "Air"
-                ],
                 correct: 0
             },
             {
                 topic: "Classic Riddles - Hard",
                 emoji: "🌟💭",
-                question: "What is seen in the middle of March and April that can't be seen at the beginning or end of either month?",
-                options: [
-                    "The letter R",
-                    "Spring",
-                    "Rain"
-                ],
                 correct: 0
             },
             {
@@ -580,12 +470,6 @@ const riddlesQuestions = {
             {
                 topic: "Classic Riddles - Hard",
                 emoji: "🌟🧩",
-                question: "First you eat me, then you get eaten. What am I?",
-                options: [
-                    "A fishhook",
-                    "Bait",
-                    "Food"
-                ],
                 correct: 0
             },
             {
@@ -708,13 +592,6 @@ const riddlesQuestions = {
             {
                 topic: "Classic Riddles - Expert",
                 emoji: "🎨🔮",
-                question: "What has roots that nobody sees, is taller than trees, up, up it goes, and yet never grows?",
-                options: [
-                    "A mountain",
-                    "A building",
-                    "A cloud",
-                    "The sky"
-                ],
                 correct: 0
             },
             {
@@ -768,13 +645,6 @@ const riddlesQuestions = {
             {
                 topic: "Classic Riddles - Expert",
                 emoji: "🧠✨",
-                question: "I am always hungry and will die if not fed, but whatever I touch will soon turn red. What am I?",
-                options: [
-                    "Fire",
-                    "Blood",
-                    "Rust",
-                    "A vampire"
-                ],
                 correct: 0
             },
             {
@@ -792,13 +662,6 @@ const riddlesQuestions = {
             {
                 topic: "Classic Riddles - Expert",
                 emoji: "🌟🎯",
-                question: "What can fill a room but takes up no space?",
-                options: [
-                    "Light",
-                    "Air",
-                    "Sound",
-                    "Smell"
-                ],
                 correct: 0
             },
             {
@@ -816,13 +679,6 @@ const riddlesQuestions = {
             {
                 topic: "Classic Riddles - Expert",
                 emoji: "🎭💡",
-                question: "What has a heart that doesn't beat?",
-                options: [
-                    "An artichoke",
-                    "A statue",
-                    "A clock",
-                    "A card"
-                ],
                 correct: 0
             },
             {
@@ -876,13 +732,6 @@ const riddlesQuestions = {
             {
                 topic: "Classic Riddles - Expert",
                 emoji: "🔮💫",
-                question: "I'm found in socks, scarves, and mittens. I'm found in the paws of playful kittens. What am I?",
-                options: [
-                    "Yarn",
-                    "Warmth",
-                    "Wool",
-                    "Thread"
-                ],
                 correct: 0
             },
             {
@@ -912,13 +761,6 @@ const riddlesQuestions = {
             {
                 topic: "Classic Riddles - Expert",
                 emoji: "🧩✨",
-                question: "What is so delicate that saying its name breaks it?",
-                options: [
-                    "Silence",
-                    "Glass",
-                    "A promise",
-                    "Peace"
-                ],
                 correct: 0
             },
             {
@@ -965,16 +807,10 @@ const riddlesQuestions = {
                 topic: "Classic Riddles - Extreme",
                 emoji: "🌟🎯",
                 difficulty: "extreme",
-                question: "I never was but always will be. No one ever saw me but everyone knows I exist. I give people the motivation to better themselves every day. What am I?",
-                answer: "Tomorrow or The future"
-            },
             {
                 topic: "Classic Riddles - Extreme",
                 emoji: "🎪✨",
                 difficulty: "extreme",
-                question: "What English word has three consecutive double letters?",
-                answer: "Bookkeeper or Bookkeeping"
-            },
             {
                 topic: "Classic Riddles - Extreme",
                 emoji: "🔮🧩",
@@ -986,9 +822,6 @@ const riddlesQuestions = {
                 topic: "Classic Riddles - Extreme",
                 emoji: "🎨💡",
                 difficulty: "extreme",
-                question: "What is always coming but never arrives?",
-                answer: "Tomorrow"
-            },
             {
                 topic: "Classic Riddles - Extreme",
                 emoji: "🌈🎭",
@@ -1028,9 +861,6 @@ const riddlesQuestions = {
                 topic: "Classic Riddles - Extreme",
                 emoji: "🌟💭",
                 difficulty: "extreme",
-                question: "I have no life, but I can die. What am I?",
-                answer: "A battery"
-            },
             {
                 topic: "Classic Riddles - Extreme",
                 emoji: "🎨🧠",
@@ -1049,23 +879,14 @@ const riddlesQuestions = {
                 topic: "Classic Riddles - Extreme",
                 emoji: "🧩💡",
                 difficulty: "extreme",
-                question: "What can run but never walks, has a mouth but never talks, has a head but never weeps, has a bed but never sleeps?",
-                answer: "A river"
-            },
             {
                 topic: "Classic Riddles - Extreme",
                 emoji: "🌈🔮",
                 difficulty: "extreme",
-                question: "I am a seed with three letters in my name. Take away the last two and I still sound the same. What am I?",
-                answer: "Pea or A pea"
-            },
             {
                 topic: "Classic Riddles - Extreme",
                 emoji: "🎭✨",
                 difficulty: "extreme",
-                question: "What has four fingers and a thumb but is not living?",
-                answer: "A glove"
-            },
             {
                 topic: "Classic Riddles - Extreme",
                 emoji: "🔮💫",
@@ -1077,9 +898,6 @@ const riddlesQuestions = {
                 topic: "Classic Riddles - Extreme",
                 emoji: "🌟🎯",
                 difficulty: "extreme",
-                question: "What is it that given one, you'll have either two or none?",
-                answer: "A choice"
-            },
             {
                 topic: "Classic Riddles - Extreme",
                 emoji: "🧠🎨",
@@ -1105,16 +923,10 @@ const riddlesQuestions = {
                 topic: "Classic Riddles - Extreme",
                 emoji: "🔮🧩",
                 difficulty: "extreme",
-                question: "What kind of coat is always wet when you put it on?",
-                answer: "A coat of paint"
-            },
             {
                 topic: "Classic Riddles - Extreme",
                 emoji: "🌟💡",
                 difficulty: "extreme",
-                question: "I make two people out of one. What am I?",
-                answer: "A mirror"
-            },
             {
                 topic: "Classic Riddles - Extreme",
                 emoji: "🎨🎭",

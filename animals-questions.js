@@ -1116,10 +1116,6 @@ const animalsQuestions = {
             {
                 topic: "Reptiles",
                 emoji: "🐍🐢",
-                question: "Lizards can regrow their tails.",
-                options: ["False", "True"],
-                correct: 0
-            },
             {
                 topic: "Mammals",
                 emoji: "🐻🐼",
@@ -1642,13 +1638,13 @@ const animalsQuestions = {
             {
                 topic: "Marine Life",
                 emoji: "🦎🐉",
+            {
+                topic: "Reptiles",
+                emoji: "🐋🐚",
                 question: "How much does a blue whale's heart weigh?",
                 options: ["100 lbs", "400 lbs", "1,000 lbs", "2,000 lbs"],
                 correct: 1
             },
-            {
-                topic: "Reptiles",
-                emoji: "🐋🐚",
                 question: "What cells allow color change?",
                 options: ["Melanocytes", "Chromatophores", "Keratinocytes", "Fibroblasts"],
                 correct: 1
@@ -1670,10 +1666,6 @@ const animalsQuestions = {
             {
                 topic: "Birds",
                 emoji: "🐑🐐",
-                question: "How deep can emperor penguins dive?",
-                options: ["500 ft", "1,000 ft", "1,850 ft", "3,000 ft"],
-                correct: 2
-            },
             {
                 topic: "Marine Life",
                 emoji: "🐪🦙",
@@ -1700,12 +1692,12 @@ const animalsQuestions = {
             {
                 topic: "Mammals",
                 emoji: "🐘🦏",
-                question: "What is a tiger's top running speed?",
-                answer: "40 mph or 65 km/h"
-            },
             {
                 topic: "Birds",
                 emoji: "🦅🦜",
+                question: "What is a tiger's top running speed?",
+                answer: "40 mph or 65 km/h"
+            },
                 question: "How long can a peacock's train grow?",
                 answer: "5 feet or 1.5 meters"
             },
@@ -2071,9 +2063,6 @@ const animalsChapters6to20 = {
             {
                 topic: "Birds",
                 emoji: "🐆🐅",
-                question: "What frequency range can owls hear?",
-                answer: "200 Hz to 12 kHz"
-            },
             {
                 topic: "Marine Life",
                 emoji: "🦎🐉",
@@ -2101,9 +2090,6 @@ const animalsChapters6to20 = {
             {
                 topic: "Birds",
                 emoji: "🐑🐐",
-                question: "How deep can emperor penguins dive?",
-                answer: "1,850 feet or 565 meters"
-            },
             {
                 topic: "Marine Life",
                 emoji: "🐪🦙",
@@ -2113,15 +2099,9 @@ const animalsChapters6to20 = {
             {
                 topic: "Amphibians",
                 emoji: "🦡🦫",
-                question: "What is a saltwater crocodile's bite force?",
-                answer: "3,700 PSI"
-            },
             {
                 topic: "Mammals",
                 emoji: "🦨🦔",
-                question: "How many quills does a hedgehog have?",
-                answer: "5,000-7,000"
-            }
         ]
     },
 
@@ -2130,6 +2110,9 @@ const animalsChapters6to20 = {
             {
                 topic: "Mammals",
                 emoji: "🐘🦏",
+                question: "How many quills does a hedgehog have?",
+                answer: "5,000-7,000"
+            }
                 question: "Pandas eat bamboo.",
                 options: ["True", "False"],
                 correct: 0
@@ -2137,10 +2120,6 @@ const animalsChapters6to20 = {
             {
                 topic: "Birds",
                 emoji: "🦅🦜",
-                question: "Ducks can sleep with one eye open.",
-                options: ["True", "False"],
-                correct: 1
-            },
             {
                 topic: "Marine Life",
                 emoji: "🐬🐳",
@@ -2209,24 +2188,12 @@ const animalsChapters6to20 = {
             {
                 topic: "Birds",
                 emoji: "🦉🦇",
-                question: "Why do ducks sleep with one eye open?",
-                options: ["Broken eyelid", "Watch for predators"],
-                correct: 1
-            },
             {
                 topic: "Marine Life",
                 emoji: "🐙🦑",
-                question: "How much does a blue whale's heart weigh?",
-                options: ["100 lbs", "400 lbs"],
-                correct: 1
-            },
             {
                 topic: "Reptiles",
                 emoji: "🦘🦌",
-                question: "How fast can chameleons change color?",
-                options: ["Instantly", "20 seconds"],
-                correct: 1
-            },
             {
                 topic: "Insects",
                 emoji: "🐺🦊",
@@ -2265,10 +2232,6 @@ const animalsChapters6to20 = {
             {
                 topic: "Mammals",
                 emoji: "🐨🦥",
-                question: "Do beaver teeth stop growing?",
-                options: ["No, continuous", "Yes"],
-                correct: 0
-            }
         ],
         hard: [
             {
@@ -2302,10 +2265,6 @@ const animalsChapters6to20 = {
             {
                 topic: "Insects",
                 emoji: "🦜🦢",
-                question: "How much can ants lift?",
-                options: ["5x weight", "20x weight", "50x weight"],
-                correct: 2
-            },
             {
                 topic: "Mammals",
                 emoji: "🐃🐄",
@@ -2323,10 +2282,6 @@ const animalsChapters6to20 = {
             {
                 topic: "Marine Life",
                 emoji: "🐪🦙",
-                question: "How long can lobsters live?",
-                options: ["20 years", "50 years", "100+ years"],
-                correct: 2
-            },
             {
                 topic: "Reptiles",
                 emoji: "🦡🦫",
@@ -2337,10 +2292,6 @@ const animalsChapters6to20 = {
             {
                 topic: "Mammals",
                 emoji: "🦨🦔",
-                question: "What is a fox's top speed?",
-                options: ["20 mph", "30 mph", "45 mph"],
-                correct: 1
-            }
         ],
         expert: [
             {
@@ -2381,10 +2332,6 @@ const animalsChapters6to20 = {
             {
                 topic: "Mammals",
                 emoji: "🦁🐯",
-                question: "What is a wolf's jaw pressure?",
-                options: ["200 PSI", "400 PSI", "800 PSI", "1,200 PSI"],
-                correct: 1
-            },
             {
                 topic: "Birds",
                 emoji: "🐧🦆",
@@ -2430,9 +2377,6 @@ const animalsChapters6to20 = {
             {
                 topic: "Marine Life",
                 emoji: "🐙🦑",
-                question: "How much can an elephant seal weigh?",
-                answer: "8,800 pounds or 4 tons"
-            },
             {
                 topic: "Reptiles",
                 emoji: "🦘🦌",
@@ -2448,9 +2392,6 @@ const animalsChapters6to20 = {
             {
                 topic: "Mammals",
                 emoji: "🐵🦍",
-                question: "How far can a wolf howl be heard?",
-                answer: "6-10 miles or 10-16 km"
-            },
             {
                 topic: "Birds",
                 emoji: "🦩🦚",
@@ -2472,9 +2413,6 @@ const animalsChapters6to20 = {
             {
                 topic: "Mammals",
                 emoji: "🐨🦥",
-                question: "How many teeth does a fox have?",
-                answer: "42"
-            }
         ]
     },
 
@@ -2583,10 +2521,6 @@ const animalsChapters6to20 = {
             {
                 topic: "Insects",
                 emoji: "🐝🦋",
-                question: "What is a butterfly's lifespan?",
-                options: ["2-4 weeks", "1 year"],
-                correct: 0
-            },
             {
                 topic: "Mammals",
                 emoji: "🦁🐯",
@@ -2604,10 +2538,6 @@ const animalsChapters6to20 = {
             {
                 topic: "Marine Life",
                 emoji: "🦈🐡",
-                question: "How often do sharks replace teeth?",
-                options: ["Yearly", "Every 8 days"],
-                correct: 1
-            },
             {
                 topic: "Amphibians",
                 emoji: "🐍🐢",
@@ -2648,17 +2578,9 @@ const animalsChapters6to20 = {
             {
                 topic: "Reptiles",
                 emoji: "🦘🦌",
-                question: "How long does tail regrowth take?",
-                options: ["1 week", "2 months", "1 year"],
-                correct: 1
-            },
             {
                 topic: "Insects",
                 emoji: "🐺🦊",
-                question: "How many butterfly species exist?",
-                options: ["2,000", "20,000", "200,000"],
-                correct: 1
-            },
             {
                 topic: "Mammals",
                 emoji: "🐵🦍",
@@ -2676,10 +2598,6 @@ const animalsChapters6to20 = {
             {
                 topic: "Marine Life",
                 emoji: "🐠🐟",
-                question: "At what dilution can sharks detect blood?",
-                options: ["1 in 1,000", "1 in 1 million", "1 in 1 billion"],
-                correct: 1
-            },
             {
                 topic: "Amphibians",
                 emoji: "🦂🕷️",
@@ -2720,10 +2638,6 @@ const animalsChapters6to20 = {
             {
                 topic: "Reptiles",
                 emoji: "🐋🐚",
-                question: "What cells enable tail regeneration?",
-                options: ["Stem cells", "Blastema cells", "Blood cells", "Nerve cells"],
-                correct: 1
-            },
             {
                 topic: "Insects",
                 emoji: "🦜🦢",
@@ -2741,10 +2655,6 @@ const animalsChapters6to20 = {
             {
                 topic: "Birds",
                 emoji: "🐑🐐",
-                question: "Why can owls rotate heads so far?",
-                options: ["Flexible skull", "No bones", "Extra vertebrae", "Magic"],
-                correct: 2
-            },
             {
                 topic: "Marine Life",
                 emoji: "🐪🦙",
@@ -2807,9 +2717,6 @@ const animalsChapters6to20 = {
             {
                 topic: "Birds",
                 emoji: "🐧🦆",
-                question: "What frequency range can owls hear?",
-                answer: "200 Hz to 12 kHz"
-            },
             {
                 topic: "Marine Life",
                 emoji: "🦈🐡",
@@ -2863,10 +2770,6 @@ const animalsChapters6to20 = {
             {
                 topic: "Insects",
                 emoji: "🐺🦊",
-                question: "Only female mosquitoes bite.",
-                options: ["True", "False"],
-                correct: 1
-            },
             {
                 topic: "Mammals",
                 emoji: "🐵🦍",
@@ -2898,10 +2801,6 @@ const animalsChapters6to20 = {
             {
                 topic: "Mammals",
                 emoji: "🐨🦥",
-                question: "Kangaroos can't walk backwards.",
-                options: ["True", "False"],
-                correct: 1
-            }
         ],
         medium: [
             {
@@ -2914,10 +2813,6 @@ const animalsChapters6to20 = {
             {
                 topic: "Birds",
                 emoji: "🐆🐅",
-                question: "Can parrots understand context?",
-                options: ["No", "Some can"],
-                correct: 1
-            },
             {
                 topic: "Marine Life",
                 emoji: "🦎🐉",
@@ -2935,10 +2830,6 @@ const animalsChapters6to20 = {
             {
                 topic: "Insects",
                 emoji: "🦜🦢",
-                question: "Why do female mosquitoes need blood?",
-                options: ["Food", "Egg production"],
-                correct: 1
-            },
             {
                 topic: "Mammals",
                 emoji: "🐃🐄",
@@ -2993,10 +2884,6 @@ const animalsChapters6to20 = {
             {
                 topic: "Marine Life",
                 emoji: "🐬🐳",
-                question: "How much does a blue whale's heart weigh?",
-                options: ["50 lbs", "400 lbs", "1,000 lbs"],
-                correct: 1
-            },
             {
                 topic: "Reptiles",
                 emoji: "🐊🦎",
@@ -3035,10 +2922,6 @@ const animalsChapters6to20 = {
             {
                 topic: "Amphibians",
                 emoji: "🐍🐢",
-                question: "How long can pythons grow?",
-                options: ["10 feet", "20 feet", "30+ feet"],
-                correct: 2
-            },
             {
                 topic: "Mammals",
                 emoji: "🐻🐼",
@@ -3086,17 +2969,9 @@ const animalsChapters6to20 = {
             {
                 topic: "Mammals",
                 emoji: "🐵🦍",
-                question: "How many hairs per square inch do sea otters have?",
-                options: ["10,000", "100,000", "1 million", "10 million"],
-                correct: 2
-            },
             {
                 topic: "Birds",
                 emoji: "🦩🦚",
-                question: "What is an eagle's grip strength?",
-                options: ["50 PSI", "200 PSI", "400 PSI", "1,000 PSI"],
-                correct: 2
-            },
             {
                 topic: "Marine Life",
                 emoji: "🐠🐟",
@@ -3129,9 +3004,6 @@ const animalsChapters6to20 = {
             {
                 topic: "Birds",
                 emoji: "🐆🐅",
-                question: "What is a parrot's average heart rate?",
-                answer: "300-400 bpm"
-            },
             {
                 topic: "Marine Life",
                 emoji: "🦎🐉",
@@ -3159,9 +3031,6 @@ const animalsChapters6to20 = {
             {
                 topic: "Birds",
                 emoji: "🐑🐐",
-                question: "How many feathers does an eagle have?",
-                answer: "About 7,000"
-            },
             {
                 topic: "Marine Life",
                 emoji: "🐪🦙",
@@ -3394,10 +3263,6 @@ const animalsChapters6to20 = {
             {
                 topic: "Mammals",
                 emoji: "🦨🦔",
-                question: "How long can camels go without water?",
-                options: ["1 week", "2 months", "7 months"],
-                correct: 2
-            }
         ],
         expert: [
             {
@@ -3517,21 +3382,12 @@ const animalsChapters6to20 = {
             {
                 topic: "Marine Life",
                 emoji: "🐠🐟",
-                question: "How many suckers does an octopus have?",
-                answer: "About 2,000"
-            },
             {
                 topic: "Amphibians",
                 emoji: "🦂🕷️",
-                question: "How deep can leatherback turtles dive?",
-                answer: "4,000 feet or 1,200 meters"
-            },
             {
                 topic: "Mammals",
                 emoji: "🐨🦥",
-                question: "How much water can a camel drink at once?",
-                answer: "30 gallons or 113 liters"
-            }
         ]
     }
 };
@@ -3544,10 +3400,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Mammals",
                 emoji: "🦭🦦",
-                question: "Beavers build dams.",
-                options: ["True", "False"],
-                correct: 0
-            },
             {
                 topic: "Birds",
                 emoji: "🐆🐅",
@@ -3616,10 +3468,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Mammals",
                 emoji: "🐘🦏",
-                question: "Why do beavers build dams?",
-                options: ["Exercise", "Create habitat"],
-                correct: 1
-            },
             {
                 topic: "Birds",
                 emoji: "🦅🦜",
@@ -3695,17 +3543,9 @@ const animalsChapters11to20 = {
             {
                 topic: "Birds",
                 emoji: "🦉🦇",
-                question: "How long can macaws live?",
-                options: ["20 years", "50 years", "80 years"],
-                correct: 1
-            },
             {
                 topic: "Marine Life",
                 emoji: "🐙🦑",
-                question: "How long can lobsters live?",
-                options: ["20 years", "50 years", "100+ years"],
-                correct: 2
-            },
             {
                 topic: "Reptiles",
                 emoji: "🦘🦌",
@@ -3730,10 +3570,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Birds",
                 emoji: "🦩🦚",
-                question: "How long can a peacock's tail train grow?",
-                options: ["2 feet", "5 feet", "10 feet"],
-                correct: 1
-            },
             {
                 topic: "Marine Life",
                 emoji: "🐠🐟",
@@ -3767,17 +3603,9 @@ const animalsChapters11to20 = {
             {
                 topic: "Birds",
                 emoji: "🐆🐅",
-                question: "What is a parrot's brain-to-body ratio compared to?",
-                options: ["Rodents", "Primates", "Fish", "Insects"],
-                correct: 1
-            },
             {
                 topic: "Marine Life",
                 emoji: "🦎🐉",
-                question: "What color is lobster blood?",
-                options: ["Red", "Blue", "Green", "Clear"],
-                correct: 1
-            },
             {
                 topic: "Reptiles",
                 emoji: "🐋🐚",
@@ -3809,10 +3637,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Marine Life",
                 emoji: "🐪🦙",
-                question: "How many neurons does an octopus have?",
-                options: ["50 million", "500 million", "5 billion", "50 billion"],
-                correct: 1
-            },
             {
                 topic: "Amphibians",
                 emoji: "🦡🦫",
@@ -3968,10 +3792,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Mammals",
                 emoji: "🦭🦦",
-                question: "What is a wolf pack structure?",
-                options: ["Random", "Family hierarchy"],
-                correct: 1
-            },
             {
                 topic: "Birds",
                 emoji: "🐆🐅",
@@ -4054,10 +3874,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Marine Life",
                 emoji: "🐬🐳",
-                question: "How long can elephant seals hold breath?",
-                options: ["15 minutes", "1 hour", "2 hours"],
-                correct: 2
-            },
             {
                 topic: "Reptiles",
                 emoji: "🐊🦎",
@@ -4075,17 +3891,9 @@ const animalsChapters11to20 = {
             {
                 topic: "Mammals",
                 emoji: "🦁🐯",
-                question: "How long do bears hibernate?",
-                options: ["2 months", "5-7 months", "1 year"],
-                correct: 1
-            },
             {
                 topic: "Birds",
                 emoji: "🐧🦆",
-                question: "How long can flamingos stand on one leg?",
-                options: ["Minutes", "Hours", "Days"],
-                correct: 1
-            },
             {
                 topic: "Marine Life",
                 emoji: "🦈🐡",
@@ -4126,10 +3934,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Marine Life",
                 emoji: "🐙🦑",
-                question: "How deep can elephant seals dive?",
-                options: ["500 feet", "2,000 feet", "5,000 feet", "10,000 feet"],
-                correct: 2
-            },
             {
                 topic: "Reptiles",
                 emoji: "🦘🦌",
@@ -4184,9 +3988,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Mammals",
                 emoji: "🦭🦦",
-                question: "What is a wolf's bite force?",
-                answer: "400 PSI or 1,500 Newtons"
-            },
             {
                 topic: "Birds",
                 emoji: "🐆🐅",
@@ -4196,9 +3997,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Marine Life",
                 emoji: "🦎🐉",
-                question: "How much can an elephant seal weigh?",
-                answer: "8,800 pounds or 4 tons"
-            },
             {
                 topic: "Reptiles",
                 emoji: "🐋🐚",
@@ -4220,9 +4018,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Birds",
                 emoji: "🐑🐐",
-                question: "How tall can flamingos grow?",
-                answer: "5 feet or 1.5 meters"
-            },
             {
                 topic: "Marine Life",
                 emoji: "🐪🦙",
@@ -4238,9 +4033,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Mammals",
                 emoji: "🦨🦔",
-                question: "What is a kangaroo's top hopping speed?",
-                answer: "35 mph or 56 km/h"
-            }
         ]
     },
     13: {
@@ -4383,19 +4175,11 @@ const animalsChapters11to20 = {
             {
                 topic: "Mammals",
                 emoji: "🐨🦥",
-                question: "How long can cheetahs maintain top speed?",
-                options: ["30 seconds", "5 minutes"],
-                correct: 0
-            }
         ],
         hard: [
             {
                 topic: "Mammals",
                 emoji: "🦭🦦",
-                question: "How much water can an elephant drink daily?",
-                options: ["20 gallons", "50 gallons", "200 gallons"],
-                correct: 1
-            },
             {
                 topic: "Birds",
                 emoji: "🐆🐅",
@@ -4427,17 +4211,9 @@ const animalsChapters11to20 = {
             {
                 topic: "Mammals",
                 emoji: "🐃🐄",
-                question: "What is a giraffe's blood pressure?",
-                options: ["Normal", "Twice human", "Half human"],
-                correct: 1
-            },
             {
                 topic: "Birds",
                 emoji: "🐑🐐",
-                question: "What is unique about owl ears?",
-                options: ["Very large", "Asymmetrical", "Internal only"],
-                correct: 1
-            },
             {
                 topic: "Marine Life",
                 emoji: "🐪🦙",
@@ -4455,10 +4231,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Mammals",
                 emoji: "🦨🦔",
-                question: "What is a cheetah's top speed?",
-                options: ["50 mph", "70 mph", "90 mph"],
-                correct: 1
-            }
         ],
         expert: [
             {
@@ -4492,10 +4264,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Insects",
                 emoji: "🐝🦋",
-                question: "How long can a queen bee live?",
-                options: ["1 year", "3 years", "5 years", "7 years"],
-                correct: 2
-            },
             {
                 topic: "Mammals",
                 emoji: "🦁🐯",
@@ -4506,10 +4274,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Birds",
                 emoji: "🐧🦆",
-                question: "Why can owls rotate heads so far?",
-                options: ["Flexible skull", "No bones", "Extra vertebrae", "Loose skin"],
-                correct: 2
-            },
             {
                 topic: "Marine Life",
                 emoji: "🦈🐡",
@@ -4548,15 +4312,9 @@ const animalsChapters11to20 = {
             {
                 topic: "Marine Life",
                 emoji: "🐙🦑",
-                question: "At what dilution can sharks detect blood?",
-                answer: "1 part per million"
-            },
             {
                 topic: "Reptiles",
                 emoji: "🦘🦌",
-                question: "How deep can leatherback turtles dive?",
-                answer: "4,000 feet or 1,200 meters"
-            },
             {
                 topic: "Insects",
                 emoji: "🐺🦊",
@@ -4566,33 +4324,18 @@ const animalsChapters11to20 = {
             {
                 topic: "Mammals",
                 emoji: "🐵🦍",
-                question: "How long is a giraffe's tongue?",
-                answer: "20 inches or 50 cm"
-            },
             {
                 topic: "Birds",
                 emoji: "🦩🦚",
-                question: "What frequency range can owls hear?",
-                answer: "200 Hz to 12 kHz"
-            },
             {
                 topic: "Marine Life",
                 emoji: "🐠🐟",
-                question: "How many neurons does an octopus have?",
-                answer: "500 million"
-            },
             {
                 topic: "Amphibians",
                 emoji: "🦂🕷️",
-                question: "What is a saltwater crocodile's bite force?",
-                answer: "3,700 PSI"
-            },
             {
                 topic: "Mammals",
                 emoji: "🐨🦥",
-                question: "What is a cheetah's top speed?",
-                answer: "70 mph or 112 km/h"
-            }
         ]
     },
 
@@ -4616,10 +4359,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Marine Life",
                 emoji: "🦎🐉",
-                question: "Squids have ink sacs.",
-                options: ["True", "False"],
-                correct: 0
-            },
             {
                 topic: "Reptiles",
                 emoji: "🐋🐚",
@@ -4681,17 +4420,9 @@ const animalsChapters11to20 = {
             {
                 topic: "Birds",
                 emoji: "🦅🦜",
-                question: "Where do Galapagos penguins live?",
-                options: ["Cold regions", "Equator"],
-                correct: 1
-            },
             {
                 topic: "Marine Life",
                 emoji: "🐬🐳",
-                question: "Why do squids release ink?",
-                options: ["Defense", "Communication"],
-                correct: 0
-            },
             {
                 topic: "Reptiles",
                 emoji: "🐊🦎",
@@ -4737,10 +4468,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Mammals",
                 emoji: "🐻🐼",
-                question: "How do bats navigate?",
-                options: ["Sight", "Sound"],
-                correct: 1
-            }
         ],
         hard: [
             {
@@ -4753,10 +4480,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Birds",
                 emoji: "🦉🦇",
-                question: "How fast can penguins swim?",
-                options: ["5 mph", "15 mph", "25 mph"],
-                correct: 1
-            },
             {
                 topic: "Marine Life",
                 emoji: "🐙🦑",
@@ -4774,10 +4497,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Insects",
                 emoji: "🐺🦊",
-                question: "How loud can cricket chirps be?",
-                options: ["30 dB", "60 dB", "90 dB"],
-                correct: 2
-            },
             {
                 topic: "Mammals",
                 emoji: "🐵🦍",
@@ -4788,10 +4507,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Birds",
                 emoji: "🦩🦚",
-                question: "What is a parrot's intelligence compared to?",
-                options: ["Dogs", "5-year-old child", "Fish"],
-                correct: 1
-            },
             {
                 topic: "Marine Life",
                 emoji: "🐠🐟",
@@ -4874,10 +4589,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Amphibians",
                 emoji: "🦡🦫",
-                question: "What percentage of snakes are venomous?",
-                options: ["10%", "20%", "50%", "80%"],
-                correct: 1
-            },
             {
                 topic: "Mammals",
                 emoji: "🦨🦔",
@@ -4890,15 +4601,9 @@ const animalsChapters11to20 = {
             {
                 topic: "Mammals",
                 emoji: "🐘🦏",
-                question: "What is a hippo's bite force?",
-                answer: "1,800 PSI"
-            },
             {
                 topic: "Birds",
                 emoji: "🦅🦜",
-                question: "How deep can emperor penguins dive?",
-                answer: "1,850 feet or 565 meters"
-            },
             {
                 topic: "Marine Life",
                 emoji: "🐬🐳",
@@ -4914,9 +4619,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Insects",
                 emoji: "🐝🦋",
-                question: "How many times per second do cricket wings rub?",
-                answer: "About 4-5 times"
-            },
             {
                 topic: "Mammals",
                 emoji: "🦁🐯",
@@ -4926,9 +4628,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Birds",
                 emoji: "🐧🦆",
-                question: "What is the parrot vocabulary record?",
-                answer: "Over 1,700 words"
-            },
             {
                 topic: "Marine Life",
                 emoji: "🦈🐡",
@@ -4938,9 +4637,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Amphibians",
                 emoji: "🐍🐢",
-                question: "How many snake species exist worldwide?",
-                answer: "3,900 or about 3,900"
-            },
             {
                 topic: "Mammals",
                 emoji: "🐻🐼",
@@ -5003,10 +4699,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Marine Life",
                 emoji: "🐠🐟",
-                question: "Octopuses have three hearts.",
-                options: ["True", "False"],
-                correct: 0
-            },
             {
                 topic: "Reptiles",
                 emoji: "🦂🕷️",
@@ -5047,17 +4739,9 @@ const animalsChapters11to20 = {
             {
                 topic: "Reptiles",
                 emoji: "🐋🐚",
-                question: "Is a turtle's shell part of skeleton?",
-                options: ["Yes", "No"],
-                correct: 0
-            },
             {
                 topic: "Insects",
                 emoji: "🦜🦢",
-                question: "What do butterflies eat?",
-                options: ["Leaves", "Nectar"],
-                correct: 1
-            },
             {
                 topic: "Mammals",
                 emoji: "🐃🐄",
@@ -5075,24 +4759,12 @@ const animalsChapters11to20 = {
             {
                 topic: "Marine Life",
                 emoji: "🐪🦙",
-                question: "What color is octopus blood?",
-                options: ["Red", "Blue"],
-                correct: 1
-            },
             {
                 topic: "Amphibians",
                 emoji: "🦡🦫",
-                question: "Why do chameleons change color?",
-                options: ["Only camouflage", "Mood and communication"],
-                correct: 1
-            },
             {
                 topic: "Mammals",
                 emoji: "🦨🦔",
-                question: "What do most bats eat?",
-                options: ["Blood", "Insects and fruit"],
-                correct: 1
-            }
         ],
         hard: [
             {
@@ -5105,17 +4777,9 @@ const animalsChapters11to20 = {
             {
                 topic: "Birds",
                 emoji: "🦅🦜",
-                question: "How far can eagles see prey?",
-                options: ["1 mile", "2 miles", "5 miles"],
-                correct: 1
-            },
             {
                 topic: "Marine Life",
                 emoji: "🐬🐳",
-                question: "How often do sharks replace teeth?",
-                options: ["Monthly", "Every 8 days", "Yearly"],
-                correct: 1
-            },
             {
                 topic: "Reptiles",
                 emoji: "🐊🦎",
@@ -5154,10 +4818,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Amphibians",
                 emoji: "🐍🐢",
-                question: "How fast can chameleons change color?",
-                options: ["5 seconds", "20 seconds", "1 minute"],
-                correct: 1
-            },
             {
                 topic: "Mammals",
                 emoji: "🐻🐼",
@@ -5184,10 +4844,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Marine Life",
                 emoji: "🐙🦑",
-                question: "How long have sharks existed?",
-                options: ["50 million years", "200 million years", "450 million years", "1 billion years"],
-                correct: 2
-            },
             {
                 topic: "Reptiles",
                 emoji: "🦘🦌",
@@ -5219,10 +4875,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Marine Life",
                 emoji: "🐠🐟",
-                question: "How fast can octopuses change color?",
-                options: ["1 second", "0.3 seconds", "5 seconds", "1 minute"],
-                correct: 1
-            },
             {
                 topic: "Amphibians",
                 emoji: "🦂🕷️",
@@ -5248,45 +4900,24 @@ const animalsChapters11to20 = {
             {
                 topic: "Birds",
                 emoji: "🐆🐅",
-                question: "What is an eagle's visual acuity?",
-                answer: "20/4 or 20/5 vision"
-            },
             {
                 topic: "Marine Life",
                 emoji: "🦎🐉",
-                question: "How many teeth can a shark have in lifetime?",
-                answer: "30,000 or over 30,000"
-            },
             {
                 topic: "Reptiles",
                 emoji: "🐋🐚",
-                question: "What is the oldest turtle age recorded?",
-                answer: "190 years"
-            },
             {
                 topic: "Insects",
                 emoji: "🦜🦢",
-                question: "How many butterfly species exist?",
-                answer: "20,000 or about 20,000"
-            },
             {
                 topic: "Mammals",
                 emoji: "🐃🐄",
-                question: "What is a kangaroo's top speed?",
-                answer: "35 mph or 56 km/h"
-            },
             {
                 topic: "Birds",
                 emoji: "🐑🐐",
-                question: "What is the parrot vocabulary record?",
-                answer: "Over 1,700 words"
-            },
             {
                 topic: "Marine Life",
                 emoji: "🐪🦙",
-                question: "How many neurons does an octopus have?",
-                answer: "500 million"
-            },
             {
                 topic: "Amphibians",
                 emoji: "🦡🦫",
@@ -5296,9 +4927,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Mammals",
                 emoji: "🦨🦔",
-                question: "How many bat species exist?",
-                answer: "1,400 or over 1,400"
-            }
         ]
     },
         16: {
@@ -5378,10 +5006,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Mammals",
                 emoji: "🦒🦓",
-                question: "How strong are gorillas compared to humans?",
-                options: ["Same", "10x stronger"],
-                correct: 1
-            },
             {
                 topic: "Birds",
                 emoji: "🦉🦇",
@@ -5399,17 +5023,9 @@ const animalsChapters11to20 = {
             {
                 topic: "Reptiles",
                 emoji: "🦘🦌",
-                question: "Can alligators live in saltwater?",
-                options: ["Mostly freshwater", "Yes"],
-                correct: 0
-            },
             {
                 topic: "Insects",
                 emoji: "🐺🦊",
-                question: "What do worker ants do?",
-                options: ["Reproduce", "All colony tasks"],
-                correct: 1
-            },
             {
                 topic: "Mammals",
                 emoji: "🐵🦍",
@@ -5420,17 +5036,9 @@ const animalsChapters11to20 = {
             {
                 topic: "Birds",
                 emoji: "🦩🦚",
-                question: "What makes flamingos pink?",
-                options: ["Genetics", "Diet"],
-                correct: 1
-            },
             {
                 topic: "Marine Life",
                 emoji: "🐠🐟",
-                question: "What color are live lobsters?",
-                options: ["Red", "Brown-green"],
-                correct: 1
-            },
             {
                 topic: "Reptiles",
                 emoji: "🦂🕷️",
@@ -5450,207 +5058,97 @@ const animalsChapters11to20 = {
             {
                 topic: "Mammals",
                 emoji: "🦭🦦",
-                question: "How strong are gorillas compared to humans?",
-                options: ["Same", "3x stronger", "10x stronger"],
-                correct: 2
-            },
             {
                 topic: "Birds",
                 emoji: "🐆🐅",
-                question: "How many feathers does a typical bird have?",
-                options: ["100", "1,000", "25,000"],
-                correct: 2
-            },
             {
                 topic: "Marine Life",
                 emoji: "🦎🐉",
-                question: "How long can elephant seals hold breath?",
-                options: ["15 minutes", "1 hour", "2 hours"],
-                correct: 2
-            },
             {
                 topic: "Reptiles",
                 emoji: "🐋🐚",
-                question: "How many teeth can alligators have?",
-                options: ["40", "80", "120"],
-                correct: 1
-            },
             {
                 topic: "Insects",
                 emoji: "🦜🦢",
-                question: "How much can ants lift?",
-                options: ["5x weight", "20x weight", "50x weight"],
-                correct: 2
-            },
             {
                 topic: "Mammals",
                 emoji: "🐃🐄",
-                question: "How powerful is wolf sense of smell?",
-                options: ["10x humans", "100x humans", "1,000x humans"],
-                correct: 1
-            },
             {
                 topic: "Birds",
                 emoji: "🐑🐐",
-                question: "How long can flamingos stand on one leg?",
-                options: ["Minutes", "Hours", "Days"],
-                correct: 1
-            },
             {
                 topic: "Marine Life",
                 emoji: "🐪🦙",
-                question: "How long can lobsters live?",
-                options: ["20 years", "50 years", "100+ years"],
-                correct: 2
-            },
             {
                 topic: "Reptiles",
                 emoji: "🦡🦫",
-                question: "How long can pythons grow?",
-                options: ["10 feet", "20 feet", "30+ feet"],
-                correct: 2
-            },
             {
                 topic: "Mammals",
                 emoji: "🦨🦔",
-                question: "What is a fox's top speed?",
-                options: ["20 mph", "30 mph", "45 mph"],
-                correct: 1
-            }
         ],
         expert: [
             {
                 topic: "Mammals",
                 emoji: "🐘🦏",
-                question: "What DNA percentage do humans share with gorillas?",
-                options: ["85%", "92%", "98.3%", "99.9%"],
-                correct: 2
-            },
             {
                 topic: "Birds",
                 emoji: "🦅🦜",
-                question: "What makes bird bones lightweight?",
-                options: ["Small", "Hollow with air sacs", "Cartilage", "Thin"],
-                correct: 1
-            },
             {
                 topic: "Marine Life",
                 emoji: "🐬🐳",
-                question: "How deep can elephant seals dive?",
-                options: ["500 feet", "2,000 feet", "5,000 feet", "10,000 feet"],
-                correct: 2
-            },
             {
                 topic: "Reptiles",
                 emoji: "🐊🦎",
-                question: "What determines alligator egg gender?",
-                options: ["Genetics", "Temperature", "Location", "Random"],
-                correct: 1
-            },
             {
                 topic: "Insects",
                 emoji: "🐝🦋",
-                question: "What is total ant biomass on Earth?",
-                options: ["Equal to all humans", "Half of humans", "Twice humans", "10x humans"],
-                correct: 0
-            },
             {
                 topic: "Mammals",
                 emoji: "🦁🐯",
-                question: "What is a wolf's jaw pressure?",
-                options: ["200 PSI", "400 PSI", "800 PSI", "1,200 PSI"],
-                correct: 1
-            },
             {
                 topic: "Birds",
                 emoji: "🐧🦆",
-                question: "How long do flamingos mate for?",
-                options: ["Season", "Year", "Life", "Never pair"],
-                correct: 2
-            },
             {
                 topic: "Marine Life",
                 emoji: "🦈🐡",
-                question: "What color is lobster blood?",
-                options: ["Red", "Blue", "Green", "Clear"],
-                correct: 1
-            },
             {
                 topic: "Reptiles",
                 emoji: "🐍🐢",
-                question: "How much pressure can pythons squeeze?",
-                options: ["30 PSI", "60 PSI", "90 PSI", "120 PSI"],
-                correct: 2
-            },
             {
                 topic: "Mammals",
                 emoji: "🐻🐼",
-                question: "Can foxes use Earth's magnetic field?",
-                options: ["No", "For navigation", "For hunting", "Unknown"],
-                correct: 2
-            }
         ],
         extreme: [
             {
                 topic: "Mammals",
                 emoji: "🦒🦓",
-                question: "How much can a silverback gorilla lift?",
-                answer: "1,800 pounds or 815 kg"
-            },
             {
                 topic: "Birds",
                 emoji: "🦉🦇",
-                question: "What is a hummingbird's heart rate?",
-                answer: "1,200 bpm"
-            },
             {
                 topic: "Marine Life",
                 emoji: "🐙🦑",
-                question: "How much can an elephant seal weigh?",
-                answer: "8,800 pounds or 4 tons"
-            },
             {
                 topic: "Reptiles",
                 emoji: "🦘🦌",
-                question: "What is an alligator's bite force?",
-                answer: "2,125 PSI"
-            },
             {
                 topic: "Insects",
                 emoji: "🐺🦊",
-                question: "What is the estimated ant population?",
-                answer: "20 quadrillion"
-            },
             {
                 topic: "Mammals",
                 emoji: "🐵🦍",
-                question: "How far can a wolf howl be heard?",
-                answer: "6-10 miles or 10-16 km"
-            },
             {
                 topic: "Birds",
                 emoji: "🦩🦚",
-                question: "How tall can flamingos grow?",
-                answer: "5 feet or 1.5 meters"
-            },
             {
                 topic: "Marine Life",
                 emoji: "🐠🐟",
-                question: "What is the heaviest lobster caught?",
-                answer: "44 pounds or 20 kg"
-            },
             {
                 topic: "Reptiles",
                 emoji: "🦂🕷️",
-                question: "What is the longest python recorded?",
-                answer: "33 feet or 10 meters"
-            },
             {
                 topic: "Mammals",
                 emoji: "🐨🦥",
-                question: "How many teeth does a fox have?",
-                answer: "42"
-            }
         ]
     },
 
@@ -5701,10 +5199,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Birds",
                 emoji: "🐑🐐",
-                question: "Ducks have waterproof feathers.",
-                options: ["True", "False"],
-                correct: 1
-            },
             {
                 topic: "Marine Life",
                 emoji: "🐪🦙",
@@ -5766,24 +5260,12 @@ const animalsChapters11to20 = {
             {
                 topic: "Mammals",
                 emoji: "🦁🐯",
-                question: "How do squirrels find buried nuts?",
-                options: ["Memory", "Smell"],
-                correct: 1
-            },
             {
                 topic: "Birds",
                 emoji: "🐧🦆",
-                question: "What makes duck feathers waterproof?",
-                options: ["Natural oil", "Preen oil"],
-                correct: 1
-            },
             {
                 topic: "Marine Life",
                 emoji: "🦈🐡",
-                question: "Why do crabs walk sideways?",
-                options: ["Leg structure", "Preference"],
-                correct: 0
-            },
             {
                 topic: "Amphibians",
                 emoji: "🐍🐢",
@@ -5810,10 +5292,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Birds",
                 emoji: "🦉🦇",
-                question: "What is the parrot vocabulary record?",
-                options: ["500 words", "1,000 words", "1,700+ words"],
-                correct: 2
-            },
             {
                 topic: "Marine Life",
                 emoji: "🐙🦑",
@@ -5824,24 +5302,12 @@ const animalsChapters11to20 = {
             {
                 topic: "Reptiles",
                 emoji: "🦘🦌",
-                question: "How much can a Komodo dragon weigh?",
-                options: ["50 lbs", "150 lbs", "300 lbs"],
-                correct: 2
-            },
             {
                 topic: "Insects",
                 emoji: "🐺🦊",
-                question: "How loud can cricket chirps be?",
-                options: ["30 dB", "60 dB", "90 dB"],
-                correct: 2
-            },
             {
                 topic: "Mammals",
                 emoji: "🐵🦍",
-                question: "What percent of nuts do squirrels find?",
-                options: ["50%", "75%", "95%"],
-                correct: 1
-            },
             {
                 topic: "Birds",
                 emoji: "🦩🦚",
@@ -5852,10 +5318,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Marine Life",
                 emoji: "🐠🐟",
-                question: "How many eyes do crabs have?",
-                options: ["2", "6", "8"],
-                correct: 0
-            },
             {
                 topic: "Amphibians",
                 emoji: "🦂🕷️",
@@ -5896,17 +5358,9 @@ const animalsChapters11to20 = {
             {
                 topic: "Reptiles",
                 emoji: "🐋🐚",
-                question: "How do Komodo dragons track prey?",
-                options: ["Sight", "Forked tongue", "Sound", "Heat"],
-                correct: 1
-            },
             {
                 topic: "Insects",
                 emoji: "🦜🦢",
-                question: "How many times per second do cricket wings rub?",
-                options: ["1-2", "4-5", "10-15", "20-30"],
-                correct: 1
-            },
             {
                 topic: "Mammals",
                 emoji: "🐃🐄",
@@ -5924,10 +5378,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Marine Life",
                 emoji: "🐪🦙",
-                question: "How many times do crabs molt in life?",
-                options: ["Once", "5-10", "20+", "Continuously"],
-                correct: 2
-            },
             {
                 topic: "Amphibians",
                 emoji: "🦡🦫",
@@ -5947,15 +5397,9 @@ const animalsChapters11to20 = {
             {
                 topic: "Mammals",
                 emoji: "🐘🦏",
-                question: "What is a mouse's average lifespan?",
-                answer: "1-2 years"
-            },
             {
                 topic: "Birds",
                 emoji: "🦅🦜",
-                question: "What is a parrot's brain weight?",
-                answer: "About 20 grams"
-            },
             {
                 topic: "Marine Life",
                 emoji: "🐬🐳",
@@ -5965,9 +5409,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Reptiles",
                 emoji: "🐊🦎",
-                question: "What is a Komodo dragon's running speed?",
-                answer: "12 mph or 20 km/h"
-            },
             {
                 topic: "Insects",
                 emoji: "🐝🦋",
@@ -5983,9 +5424,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Birds",
                 emoji: "🐧🦆",
-                question: "How many feathers does a duck have?",
-                answer: "About 14,000"
-            },
             {
                 topic: "Marine Life",
                 emoji: "🦈🐡",
@@ -6063,10 +5501,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Marine Life",
                 emoji: "🦂🕷️",
-                question: "How much does a blue whale's tongue weigh?",
-                options: ["1 ton", "3 tons", "6 tons"],
-                correct: 0
-            },
             {
                 topic: "Reptiles",
                 emoji: "🐨🦥",
@@ -6084,10 +5518,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Mammals",
                 emoji: "🐆🐅",
-                question: "What is a kangaroo's kick force?",
-                options: ["300 PSI", "850 PSI", "1,500 PSI"],
-                correct: 0
-            },
             {
                 topic: "Birds",
                 emoji: "🦎🐉",
@@ -6098,17 +5528,9 @@ const animalsChapters11to20 = {
             {
                 topic: "Marine Life",
                 emoji: "🐋🐚",
-                question: "How large is a giant squid's eye?",
-                options: ["5 inches", "10 inches", "15 inches"],
-                correct: 0
-            },
             {
                 topic: "Amphibians",
                 emoji: "🦜🦢",
-                question: "How deep can leatherback turtles dive?",
-                options: ["500 feet", "2,000 feet", "4,000 feet"],
-                correct: 1
-            },
             {
                 topic: "Mammals",
                 emoji: "🐃🐄",
@@ -6163,24 +5585,12 @@ const animalsChapters11to20 = {
             {
                 topic: "Birds",
                 emoji: "🐬🐳",
-                question: "What is an eagle's grip strength?",
-                options: ["50 PSI", "200 PSI", "400 PSI", "800 PSI"],
-                correct: 1
-            },
             {
                 topic: "Marine Life",
                 emoji: "🐊🦎",
-                question: "How many hearts does a squid have?",
-                options: ["1", "2", "3", "4"],
-                correct: 0
-            },
             {
                 topic: "Amphibians",
                 emoji: "🐝🦋",
-                question: "How do sea turtles navigate?",
-                options: ["Stars", "Magnetic fields", "Smell", "Random"],
-                correct: 1
-            },
             {
                 topic: "Mammals",
                 emoji: "🦁🐯",
@@ -6199,9 +5609,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Birds",
                 emoji: "🦈🐡",
-                question: "How many duck species exist?",
-                answer: "120 or about 120"
-            },
             {
                 topic: "Marine Life",
                 emoji: "🐍🐢",
@@ -6223,15 +5630,9 @@ const animalsChapters11to20 = {
             {
                 topic: "Mammals",
                 emoji: "🦉🦇",
-                question: "How high can a kangaroo jump?",
-                answer: "10 feet or 3 meters"
-            },
             {
                 topic: "Birds",
                 emoji: "🐙🦑",
-                question: "How many feathers does an eagle have?",
-                answer: "About 7,000"
-            },
             {
                 topic: "Marine Life",
                 emoji: "🦘🦌",
@@ -6257,351 +5658,161 @@ const animalsChapters11to20 = {
             {
                 topic: "Mammals",
                 emoji: "🦩🦚",
-                question: "Mice have excellent hearing.",
-                options: ["True", "False"],
-                correct: 0
-            },
             {
                 topic: "Birds",
                 emoji: "🐠🐟",
-                question: "Parrots are intelligent birds.",
-                options: ["True", "False"],
-                correct: 1
-            },
             {
                 topic: "Marine Life",
                 emoji: "🦂🕷️",
-                question: "Fish breathe through gills.",
-                options: ["True", "False"],
-                correct: 0
-            },
             {
                 topic: "Reptiles",
                 emoji: "🐨🦥",
-                question: "Komodo dragons are venomous.",
-                options: ["True", "False"],
-                correct: 1
-            },
             {
                 topic: "Insects",
                 emoji: "🦭🦦",
-                question: "Male crickets chirp to attract mates.",
-                options: ["True", "False"],
-                correct: 1
-            },
             {
                 topic: "Mammals",
                 emoji: "🐆🐅",
-                question: "Squirrels bury nuts for winter.",
-                options: ["True", "False"],
-                correct: 0
-            },
             {
                 topic: "Birds",
                 emoji: "🦎🐉",
-                question: "Ducks have waterproof feathers.",
-                options: ["True", "False"],
-                correct: 1
-            },
             {
                 topic: "Marine Life",
                 emoji: "🐋🐚",
-                question: "Crabs can walk forward.",
-                options: ["False", "True"],
-                correct: 0
-            },
             {
                 topic: "Reptiles",
                 emoji: "🦜🦢",
-                question: "Tortoises are slow movers.",
-                options: ["True", "False"],
-                correct: 0
-            },
             {
                 topic: "Mammals",
                 emoji: "🐃🐄",
-                question: "Badgers are nocturnal.",
-                options: ["True", "False"],
-                correct: 1
-            }
         ],
         medium: [
             {
                 topic: "Mammals",
                 emoji: "🐑🐐",
-                question: "What frequency can mice hear?",
-                options: ["Up to 20 kHz", "Up to 90 kHz"],
-                correct: 1
-            },
             {
                 topic: "Birds",
                 emoji: "🐪🦙",
-                question: "Can parrots solve puzzles?",
-                options: ["Yes", "No"],
-                correct: 0
-            },
             {
                 topic: "Marine Life",
                 emoji: "🦡🦫",
-                question: "Do fish drink water?",
-                options: ["Saltwater fish do", "No"],
-                correct: 0
-            },
             {
                 topic: "Reptiles",
                 emoji: "🦨🦔",
-                question: "Where is Komodo dragon venom located?",
-                options: ["Saliva glands", "Lower jaw"],
-                correct: 1
-            },
             {
                 topic: "Insects",
                 emoji: "🐘🦏",
-                question: "What affects cricket chirp rate?",
-                options: ["Mood", "Temperature"],
-                correct: 1
-            },
             {
                 topic: "Mammals",
                 emoji: "🦅🦜",
-                question: "How do squirrels find buried nuts?",
-                options: ["Memory", "Smell"],
-                correct: 1
-            },
             {
                 topic: "Birds",
                 emoji: "🐬🐳",
-                question: "What makes duck feathers waterproof?",
-                options: ["Natural oil", "Preen oil"],
-                correct: 1
-            },
             {
                 topic: "Marine Life",
                 emoji: "🐊🦎",
-                question: "Why do crabs walk sideways?",
-                options: ["Leg structure", "Preference"],
-                correct: 0
-            },
             {
                 topic: "Amphibians",
                 emoji: "🐝🦋",
-                question: "What is a tortoise's top speed?",
-                options: ["0.3 mph", "5 mph"],
-                correct: 0
-            },
             {
                 topic: "Mammals",
                 emoji: "🦁🐯",
-                question: "What are badger homes called?",
-                options: ["Dens", "Setts"],
-                correct: 1
-            }
         ],
         hard: [
             {
                 topic: "Mammals",
                 emoji: "🐧🦆",
-                question: "What is a mouse's heart rate?",
-                options: ["100 bpm", "300 bpm", "600 bpm"],
-                correct: 2
-            },
             {
                 topic: "Birds",
                 emoji: "🦈🐡",
-                question: "What is the parrot vocabulary record?",
-                options: ["500 words", "1,000 words", "1,700+ words"],
-                correct: 2
-            },
             {
                 topic: "Marine Life",
                 emoji: "🐍🐢",
-                question: "Can fish see in color?",
-                options: ["No", "Some can", "All can"],
-                correct: 2
-            },
             {
                 topic: "Reptiles",
                 emoji: "🐻🐼",
-                question: "How much can a Komodo dragon weigh?",
-                options: ["50 lbs", "150 lbs", "300 lbs"],
-                correct: 2
-            },
             {
                 topic: "Insects",
                 emoji: "🦒🦓",
-                question: "How loud can cricket chirps be?",
-                options: ["30 dB", "60 dB", "90 dB"],
-                correct: 2
-            },
             {
                 topic: "Mammals",
                 emoji: "🦉🦇",
-                question: "What percent of nuts do squirrels find?",
-                options: ["50%", "75%", "95%"],
-                correct: 1
-            },
             {
                 topic: "Birds",
                 emoji: "🐙🦑",
-                question: "How fast can ducks swim?",
-                options: ["2 mph", "5 mph", "8 mph"],
-                correct: 1
-            },
             {
                 topic: "Marine Life",
                 emoji: "🦘🦌",
-                question: "How many eyes do crabs have?",
-                options: ["2", "6", "8"],
-                correct: 0
-            },
             {
                 topic: "Amphibians",
                 emoji: "🐺🦊",
-                question: "How long can tortoises live?",
-                options: ["50 years", "100 years", "150+ years"],
-                correct: 2
-            },
             {
                 topic: "Mammals",
                 emoji: "🐵🦍",
-                question: "How strong is a badger's bite?",
-                options: ["100 PSI", "300 PSI", "500 PSI"],
-                correct: 1
-            }
         ],
         expert: [
             {
                 topic: "Mammals",
                 emoji: "🦩🦚",
-                question: "What DNA percentage do humans share with mice?",
-                options: ["50%", "70%", "85%", "98%"],
-                correct: 2
-            },
             {
                 topic: "Birds",
                 emoji: "🐠🐟",
-                question: "What is unique about parrot bonding?",
-                options: ["None", "Mate for life", "Change yearly", "No bonds"],
-                correct: 1
-            },
             {
                 topic: "Marine Life",
                 emoji: "🦂🕷️",
-                question: "Do fish sleep?",
-                options: ["No", "Yes, with eyes open", "Only at night", "Never"],
-                correct: 1
-            },
             {
                 topic: "Reptiles",
                 emoji: "🐨🦥",
-                question: "How do Komodo dragons track prey?",
-                options: ["Sight", "Forked tongue", "Sound", "Heat"],
-                correct: 1
-            },
             {
                 topic: "Insects",
                 emoji: "🦭🦦",
-                question: "How many times per second do cricket wings rub?",
-                options: ["1-2", "4-5", "10-15", "20-30"],
-                correct: 1
-            },
             {
                 topic: "Mammals",
                 emoji: "🐆🐅",
-                question: "How fast do squirrel teeth grow yearly?",
-                options: ["1 inch", "3 inches", "6 inches", "12 inches"],
-                correct: 2
-            },
             {
                 topic: "Birds",
                 emoji: "🦎🐉",
-                question: "What type of sleep do ducks have?",
-                options: ["Normal", "Unihemispheric", "None", "Constant"],
-                correct: 1
-            },
             {
                 topic: "Marine Life",
                 emoji: "🐋🐚",
-                question: "How many times do crabs molt in life?",
-                options: ["Once", "5-10", "20+", "Continuously"],
-                correct: 2
-            },
             {
                 topic: "Amphibians",
                 emoji: "🦜🦢",
-                question: "Do tortoises have good memory?",
-                options: ["No", "Yes, excellent", "Average", "Unknown"],
-                correct: 1
-            },
             {
                 topic: "Mammals",
                 emoji: "🐃🐄",
-                question: "What family do badgers belong to?",
-                options: ["Canidae", "Felidae", "Mustelidae", "Ursidae"],
-                correct: 2
-            }
         ],
         extreme: [
             {
                 topic: "Mammals",
                 emoji: "🐑🐐",
-                question: "What is a mouse's average lifespan?",
-                answer: "1-2 years"
-            },
             {
                 topic: "Birds",
                 emoji: "🐪🦙",
-                question: "What is a parrot's brain weight?",
-                answer: "About 20 grams"
-            },
             {
                 topic: "Marine Life",
                 emoji: "🦡🦫",
-                question: "How many fish species exist?",
-                answer: "35,000 or over 35,000"
-            },
             {
                 topic: "Reptiles",
                 emoji: "🦨🦔",
-                question: "What is a Komodo dragon's running speed?",
-                answer: "12 mph or 20 km/h"
-            },
             {
                 topic: "Insects",
                 emoji: "🐘🦏",
-                question: "How many cricket species exist?",
-                answer: "Over 900"
-            },
             {
                 topic: "Mammals",
                 emoji: "🦅🦜",
-                question: "What is a squirrel's heart rate?",
-                answer: "300-400 bpm"
-            },
             {
                 topic: "Birds",
                 emoji: "🐬🐳",
-                question: "How many feathers does a duck have?",
-                answer: "About 14,000"
-            },
             {
                 topic: "Marine Life",
                 emoji: "🐊🦎",
-                question: "What is the leg span of Japanese spider crab?",
-                answer: "12 feet or 3.7 meters"
-            },
             {
                 topic: "Amphibians",
                 emoji: "🐝🦋",
-                question: "How much can a Galapagos tortoise weigh?",
-                answer: "900 pounds or 410 kg"
-            },
             {
                 topic: "Mammals",
                 emoji: "🦁🐯",
-                question: "How fast can a badger run?",
-                answer: "19 mph or 30 km/h"
-            }
         ]
     },
     18: {
@@ -6609,41 +5820,50 @@ const animalsChapters11to20 = {
             {
                 topic: "Mammals",
                 emoji: "🐧🦆",
+            {
+                topic: "Birds",
+                emoji: "🦈🐡",
+            {
+                topic: "Marine Life",
+                emoji: "🐍🐢",
+            {
+                topic: "Reptiles",
+                emoji: "🐻🐼",
+            {
+                topic: "Insects",
+                emoji: "🦒🦓",
+            {
+                topic: "Mammals",
+                emoji: "🦉🦇",
+                question: "What is the leg span of Japanese spider crab?",
+                answer: "12 feet or 3.7 meters"
+            },
+                question: "How much can a Galapagos tortoise weigh?",
+                answer: "900 pounds or 410 kg"
+            },
+                question: "How fast can a badger run?",
+                answer: "19 mph or 30 km/h"
+            }
                 question: "Deer shed their antlers annually.",
                 options: ["True", "False"],
                 correct: 0
             },
-            {
-                topic: "Birds",
-                emoji: "🦈🐡",
                 question: "Owls are birds of prey.",
                 options: ["True", "False"],
                 correct: 1
             },
-            {
-                topic: "Marine Life",
-                emoji: "🐍🐢",
                 question: "Octopuses can squeeze through small spaces.",
                 options: ["True", "False"],
                 correct: 0
             },
-            {
-                topic: "Reptiles",
-                emoji: "🐻🐼",
                 question: "Geckos can climb glass.",
                 options: ["True", "False"],
                 correct: 1
             },
-            {
-                topic: "Insects",
-                emoji: "🦒🦓",
                 question: "Bees communicate through dance.",
                 options: ["True", "False"],
                 correct: 1
             },
-            {
-                topic: "Mammals",
-                emoji: "🦉🦇",
                 question: "Otters use tools.",
                 options: ["True", "False"],
                 correct: 0
@@ -6688,10 +5908,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Birds",
                 emoji: "🐠🐟",
-                question: "When do owls hunt?",
-                options: ["Day", "Night"],
-                correct: 1
-            },
             {
                 topic: "Marine Life",
                 emoji: "🦂🕷️",
@@ -6702,10 +5918,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Reptiles",
                 emoji: "🐨🦥",
-                question: "How do geckos stick to surfaces?",
-                options: ["Suction", "Van der Waals forces"],
-                correct: 1
-            },
             {
                 topic: "Insects",
                 emoji: "🦭🦦",
@@ -6716,10 +5928,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Mammals",
                 emoji: "🐆🐅",
-                question: "What tools do otters use?",
-                options: ["Sticks", "Rocks"],
-                correct: 1
-            },
             {
                 topic: "Birds",
                 emoji: "🦎🐉",
@@ -6760,24 +5968,12 @@ const animalsChapters11to20 = {
             {
                 topic: "Birds",
                 emoji: "🐪🦙",
-                question: "What is unique about owl ears?",
-                options: ["Very large", "Asymmetrical", "External"],
-                correct: 1
-            },
             {
                 topic: "Marine Life",
                 emoji: "🦡🦫",
-                question: "What percentage of octopus neurons are in arms?",
-                options: ["10%", "33%", "66%"],
-                correct: 2
-            },
             {
                 topic: "Reptiles",
                 emoji: "🦨🦔",
-                question: "How long can tokay geckos grow?",
-                options: ["4 inches", "14 inches", "24 inches"],
-                correct: 1
-            },
             {
                 topic: "Insects",
                 emoji: "🐘🦏",
@@ -6788,24 +5984,12 @@ const animalsChapters11to20 = {
             {
                 topic: "Mammals",
                 emoji: "🦅🦜",
-                question: "How much do sea otters eat daily?",
-                options: ["10% body weight", "25% body weight", "50% body weight"],
-                correct: 1
-            },
             {
                 topic: "Birds",
                 emoji: "🐬🐳",
-                question: "How fast can penguins swim?",
-                options: ["5 mph", "15 mph", "25 mph"],
-                correct: 1
-            },
             {
                 topic: "Marine Life",
                 emoji: "🐊🦎",
-                question: "At what dilution can sharks detect blood?",
-                options: ["1 in 1,000", "1 in 1 million", "1 in 1 billion"],
-                correct: 1
-            },
             {
                 topic: "Amphibians",
                 emoji: "🐝🦋",
@@ -6816,10 +6000,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Mammals",
                 emoji: "🦁🐯",
-                question: "How long do bears hibernate?",
-                options: ["2 months", "5-7 months", "1 year"],
-                correct: 1
-            }
         ],
         expert: [
             {
@@ -6832,10 +6012,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Birds",
                 emoji: "🦈🐡",
-                question: "Why can owls rotate heads so far?",
-                options: ["Flexible skull", "No bones", "Extra vertebrae", "Magic"],
-                correct: 2
-            },
             {
                 topic: "Marine Life",
                 emoji: "🐍🐢",
@@ -6853,10 +6029,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Insects",
                 emoji: "🦒🦓",
-                question: "How long can a queen bee live?",
-                options: ["1 year", "3 years", "5 years", "7 years"],
-                correct: 2
-            },
             {
                 topic: "Mammals",
                 emoji: "🦉🦇",
@@ -6867,24 +6039,12 @@ const animalsChapters11to20 = {
             {
                 topic: "Birds",
                 emoji: "🐙🦑",
-                question: "How long do emperor penguins incubate?",
-                options: ["30 days", "64 days", "90 days", "120 days"],
-                correct: 1
-            },
             {
                 topic: "Marine Life",
                 emoji: "🦘🦌",
-                question: "How often do sharks replace teeth?",
-                options: ["Monthly", "Every 8 days", "Yearly", "Every 6 months"],
-                correct: 1
-            },
             {
                 topic: "Amphibians",
                 emoji: "🐺🦊",
-                question: "How much pressure can pythons squeeze?",
-                options: ["30 PSI", "60 PSI", "90 PSI", "120 PSI"],
-                correct: 2
-            },
             {
                 topic: "Mammals",
                 emoji: "🐵🦍",
@@ -6903,21 +6063,12 @@ const animalsChapters11to20 = {
             {
                 topic: "Birds",
                 emoji: "🐠🐟",
-                question: "What frequency range can owls hear?",
-                answer: "200 Hz to 12 kHz"
-            },
             {
                 topic: "Marine Life",
                 emoji: "🦂🕷️",
-                question: "How many neurons does an octopus have?",
-                answer: "500 million"
-            },
             {
                 topic: "Reptiles",
                 emoji: "🐨🦥",
-                question: "How many setae on each gecko toe?",
-                answer: "Millions or over 1 million"
-            },
             {
                 topic: "Insects",
                 emoji: "🦭🦦",
@@ -6933,21 +6084,12 @@ const animalsChapters11to20 = {
             {
                 topic: "Birds",
                 emoji: "🦎🐉",
-                question: "How deep can emperor penguins dive?",
-                answer: "1,850 feet or 565 meters"
-            },
             {
                 topic: "Marine Life",
                 emoji: "🐋🐚",
-                question: "How many teeth can a shark have in lifetime?",
-                answer: "30,000 or over 30,000"
-            },
             {
                 topic: "Amphibians",
                 emoji: "🦜🦢",
-                question: "What is the longest python recorded?",
-                answer: "33 feet or 10 meters"
-            },
             {
                 topic: "Mammals",
                 emoji: "🐃🐄",
@@ -7105,10 +6247,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Mammals",
                 emoji: "🦩🦚",
-                question: "What is a tiger's bite force?",
-                options: ["500 PSI", "1,000 PSI", "1,500 PSI"],
-                correct: 1
-            },
             {
                 topic: "Birds",
                 emoji: "🐠🐟",
@@ -7126,10 +6264,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Reptiles",
                 emoji: "🐨🦥",
-                question: "What is a saltwater crocodile's bite force?",
-                options: ["1,000 PSI", "2,500 PSI", "3,700 PSI"],
-                correct: 2
-            },
             {
                 topic: "Insects",
                 emoji: "🦭🦦",
@@ -7147,10 +6281,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Birds",
                 emoji: "🦎🐉",
-                question: "What is a parrot's intelligence equivalent to?",
-                options: ["Dog", "5-year-old human", "Cat"],
-                correct: 1
-            },
             {
                 topic: "Marine Life",
                 emoji: "🐋🐚",
@@ -7168,10 +6298,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Mammals",
                 emoji: "🐃🐄",
-                question: "What is a kangaroo's top speed?",
-                options: ["20 mph", "35 mph", "50 mph"],
-                correct: 1
-            }
         ],
         expert: [
             {
@@ -7191,10 +6317,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Marine Life",
                 emoji: "🦡🦫",
-                question: "How much does a blue whale's heart weigh?",
-                options: ["100 lbs", "400 lbs", "1,000 lbs", "2,000 lbs"],
-                correct: 1
-            },
             {
                 topic: "Reptiles",
                 emoji: "🦨🦔",
@@ -7212,10 +6334,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Mammals",
                 emoji: "🦅🦜",
-                question: "What is a lion's bite force?",
-                options: ["400 PSI", "650 PSI", "1,000 PSI", "1,500 PSI"],
-                correct: 1
-            },
             {
                 topic: "Birds",
                 emoji: "🐬🐳",
@@ -7249,9 +6367,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Mammals",
                 emoji: "🐧🦆",
-                question: "What is a tiger's top running speed?",
-                answer: "40 mph or 65 km/h"
-            },
             {
                 topic: "Birds",
                 emoji: "🦈🐡",
@@ -7267,33 +6382,18 @@ const animalsChapters11to20 = {
             {
                 topic: "Reptiles",
                 emoji: "🐻🐼",
-                question: "What is a saltwater crocodile's bite force?",
-                answer: "3,700 PSI"
-            },
             {
                 topic: "Insects",
                 emoji: "🦒🦓",
-                question: "How many deaths do mosquitoes cause annually?",
-                answer: "700,000+"
-            },
             {
                 topic: "Mammals",
                 emoji: "🦉🦇",
-                question: "How many lions are left in the wild?",
-                answer: "20,000 or about 20,000"
-            },
             {
                 topic: "Birds",
                 emoji: "🐙🦑",
-                question: "What is the parrot vocabulary record?",
-                answer: "Over 1,700 words"
-            },
             {
                 topic: "Marine Life",
                 emoji: "🦘🦌",
-                question: "What is a colossal squid's eye diameter?",
-                answer: "11 inches or 28 cm"
-            },
             {
                 topic: "Amphibians",
                 emoji: "🐺🦊",
@@ -7303,9 +6403,6 @@ const animalsChapters11to20 = {
             {
                 topic: "Mammals",
                 emoji: "🐵🦍",
-                question: "How high can a kangaroo jump?",
-                answer: "10 feet or 3 meters"
-            }
         ]
     },
 const chapter20 = {
@@ -7386,10 +6483,6 @@ const chapter20 = {
             {
                 topic: "Mammals",
                 emoji: "🐑🐐",
-                question: "How much bamboo do pandas eat daily?",
-                options: ["10 lbs", "26-84 lbs"],
-                correct: 1
-            },
             {
                 topic: "Birds",
                 emoji: "🐪🦙",
@@ -7442,10 +6535,6 @@ const chapter20 = {
             {
                 topic: "Amphibians",
                 emoji: "🐝🦋",
-                question: "How do sea turtles navigate?",
-                options: ["Stars", "Earth's magnetic field"],
-                correct: 1
-            },
             {
                 topic: "Mammals",
                 emoji: "🦁🐯",
@@ -7465,24 +6554,12 @@ const chapter20 = {
             {
                 topic: "Birds",
                 emoji: "🦈🐡",
-                question: "Why do flamingos stand on one leg?",
-                options: ["Injury", "Conserve body heat", "Balance practice"],
-                correct: 1
-            },
             {
                 topic: "Marine Life",
                 emoji: "🐍🐢",
-                question: "Can clownfish change gender?",
-                options: ["No", "Yes, all males can become female", "Only females change"],
-                correct: 1
-            },
             {
                 topic: "Reptiles",
                 emoji: "🐻🐼",
-                question: "How deep can marine iguanas dive?",
-                options: ["10 feet", "30 feet", "100 feet"],
-                correct: 1
-            },
             {
                 topic: "Insects",
                 emoji: "🦒🦓",
@@ -7521,19 +6598,11 @@ const chapter20 = {
             {
                 topic: "Mammals",
                 emoji: "🐵🦍",
-                question: "How much water can an elephant drink daily?",
-                options: ["20 gallons", "50 gallons", "100 gallons"],
-                correct: 1
-            }
         ],
         expert: [
             {
                 topic: "Mammals",
                 emoji: "🦩🦚",
-                question: "What digestive system do pandas have?",
-                options: ["Herbivore", "Carnivore adapted", "Omnivore", "Specialized"],
-                correct: 1
-            },
             {
                 topic: "Birds",
                 emoji: "🐠🐟",
@@ -7565,10 +6634,6 @@ const chapter20 = {
             {
                 topic: "Mammals",
                 emoji: "🐆🐅",
-                question: "What is a hippo's bite force?",
-                options: ["500 PSI", "1,000 PSI", "1,800 PSI", "3,000 PSI"],
-                correct: 2
-            },
             {
                 topic: "Birds",
                 emoji: "🦎🐉",
@@ -7614,9 +6679,6 @@ const chapter20 = {
             {
                 topic: "Marine Life",
                 emoji: "🦡🦫",
-                question: "How many clownfish species exist?",
-                answer: "30 or about 30"
-            },
             {
                 topic: "Reptiles",
                 emoji: "🦨🦔",
@@ -7644,9 +6706,6 @@ const chapter20 = {
             {
                 topic: "Marine Life",
                 emoji: "🐊🦎",
-                question: "What is the leg span of the Japanese spider crab?",
-                answer: "12 feet or 3.7 meters"
-            },
             {
                 topic: "Amphibians",
                 emoji: "🐝🦋",
@@ -7656,9 +6715,6 @@ const chapter20 = {
             {
                 topic: "Mammals",
                 emoji: "🦁🐯",
-                question: "How many muscles are in an elephant's trunk?",
-                answer: "40,000 or over 40,000"
-            }
         ]
     }
 };

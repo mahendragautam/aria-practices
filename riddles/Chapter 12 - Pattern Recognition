@@ -684,13 +684,6 @@ const riddlesQuestions = {
             {
                 topic: "Pattern Recognition - Expert",
                 emoji: "💫🔢",
-                question: "What's missing: 8, 5, 4, 9, 1, 7, 6, __, 3, 2, 0?",
-                options: [
-                    "10",
-                    "11",
-                    "12",
-                    "9"
-                ],
                 correct: 0
             },
             {
@@ -792,13 +785,6 @@ const riddlesQuestions = {
             {
                 topic: "Pattern Recognition - Expert",
                 emoji: "🔮🎯",
-                question: "What's the pattern: M T W T F S S M T W T F S S M T W T __?",
-                options: [
-                    "F",
-                    "S",
-                    "M",
-                    "T"
-                ],
                 correct: 0
             },
             {
@@ -1021,9 +1007,6 @@ const riddlesQuestions = {
                 topic: "Pattern Recognition - Extreme",
                 emoji: "💫✨",
                 difficulty: "extreme",
-                question: "What comes next: 1, 1, 2, 4, 7, 13, 24, 44, __?",
-                answer: "81"
-            },
             {
                 topic: "Pattern Recognition - Extreme",
                 emoji: "🎨🔢",
@@ -1049,9 +1032,6 @@ const riddlesQuestions = {
                 topic: "Pattern Recognition - Extreme",
                 emoji: "🌈🔢",
                 difficulty: "extreme",
-                question: "What comes next: 2, 6, 12, 20, 30, 42, __?",
-                answer: "56"
-            },
             {
                 topic: "Pattern Recognition - Extreme",
                 emoji: "🔢🌟",
@@ -1070,16 +1050,10 @@ const riddlesQuestions = {
                 topic: "Pattern Recognition - Extreme",
                 emoji: "🎨🔮",
                 difficulty: "extreme",
-                question: "What comes next: 2, 5, 11, 23, 47, __?",
-                answer: "95"
-            },
             {
                 topic: "Pattern Recognition - Extreme",
                 emoji: "💡✨",
                 difficulty: "extreme",
-                question: "What comes next: 1, 4, 10, 22, 46, __?",
-                answer: "94"
-            },
             {
                 topic: "Pattern Recognition - Extreme",
                 emoji: "🌟🎯",
@@ -1105,16 +1079,10 @@ const riddlesQuestions = {
                 topic: "Pattern Recognition - Extreme",
                 emoji: "✨🎪",
                 difficulty: "extreme",
-                question: "What comes next: 0, 4, 18, 48, 100, __?",
-                answer: "180"
-            },
             {
                 topic: "Pattern Recognition - Extreme",
                 emoji: "🎯💡",
                 difficulty: "extreme",
-                question: "What comes next: 4, 7, 11, 18, 29, 47, __?",
-                answer: "76"
-            },
             {
                 topic: "Pattern Recognition - Extreme",
                 emoji: "🌟🔢",

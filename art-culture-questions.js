@@ -263,6 +263,9 @@ const artCultureQuestions = {
             {
                 topic: "Literature",
                 emoji: "📓📒",
+            {
+                topic: "Dance",
+                emoji: "🖊️✒️",
                 question: "Who wrote 'Disgrace'?",
                 options: [
                     "J.M. Coetzee",
@@ -272,9 +275,6 @@ const artCultureQuestions = {
                 ],
                 correct: 0
             },
-            {
-                topic: "Dance",
-                emoji: "🖊️✒️",
                 question: "Who founded the Joffrey Ballet?",
                 options: [
                     "Robert Joffrey",
@@ -311,6 +311,9 @@ const artCultureQuestions = {
             {
                 topic: "Theater",
                 emoji: "🎪🎡",
+            {
+                topic: "World Heritage",
+                emoji: "🎨🖼️",
                 question: "Who wrote 'Death of a Salesman'?",
                 options: [
                     "Arthur Miller",
@@ -320,9 +323,6 @@ const artCultureQuestions = {
                 ],
                 correct: 0
             },
-            {
-                topic: "World Heritage",
-                emoji: "🎨🖼️",
                 question: "What is the Armenian monastery complex?",
                 options: [
                     "Geghard",
@@ -478,6 +478,12 @@ if (typeof subjectQuestionBank !== 'undefined') {
             {
                 topic: "Painting",
                 emoji: "💎🏆",
+            {
+                topic: "Music",
+                emoji: "🎯🎲",
+            {
+                topic: "Architecture",
+                emoji: "🃏🎴",
                 question: "Which artist painted 'Nighthawks'?",
                 options: [
                     "Edward Hopper",
@@ -486,9 +492,6 @@ if (typeof subjectQuestionBank !== 'undefined') {
                 ],
                 correct: 0
             },
-            {
-                topic: "Music",
-                emoji: "🎯🎲",
                 question: "Which composer wrote 'The Magic Flute'?",
                 options: [
                     "Mozart",
@@ -497,9 +500,6 @@ if (typeof subjectQuestionBank !== 'undefined') {
                 ],
                 correct: 0
             },
-            {
-                topic: "Architecture",
-                emoji: "🃏🎴",
                 question: "Who designed the Guggenheim Museum in New York?",
                 options: [
                     "Frank Lloyd Wright",
@@ -511,6 +511,9 @@ if (typeof subjectQuestionBank !== 'undefined') {
             {
                 topic: "Literature",
                 emoji: "🧩🎨",
+            {
+                topic: "Dance",
+                emoji: "🎼🎤",
                 question: "Who wrote 'Norwegian Wood'?",
                 options: [
                     "Haruki Murakami",
@@ -519,9 +522,6 @@ if (typeof subjectQuestionBank !== 'undefined') {
                 ],
                 correct: 0
             },
-            {
-                topic: "Dance",
-                emoji: "🎼🎤",
                 question: "What is the African-American dance style with sharp movements?",
                 options: [
                     "Breakdancing",
@@ -544,6 +544,9 @@ if (typeof subjectQuestionBank !== 'undefined') {
             {
                 topic: "Cinema",
                 emoji: "🏺🗿",
+            {
+                topic: "Theater",
+                emoji: "🎭✨",
                 question: "Who directed 'American Beauty'?",
                 options: [
                     "Sam Mendes",
@@ -552,9 +555,6 @@ if (typeof subjectQuestionBank !== 'undefined') {
                 ],
                 correct: 0
             },
-            {
-                topic: "Theater",
-                emoji: "🎭✨",
                 question: "What is the Yiddish theater tradition called?",
                 options: [
                     "Yiddish Theatre",
@@ -626,6 +626,9 @@ if (typeof subjectQuestionBank !== 'undefined') {
             {
                 topic: "Literature",
                 emoji: "📸🎞️",
+            {
+                topic: "Dance",
+                emoji: "🎨🖌️",
                 question: "Who wrote 'Things Fall Apart'?",
                 options: [
                     "Chinua Achebe",
@@ -635,9 +638,6 @@ if (typeof subjectQuestionBank !== 'undefined') {
                 ],
                 correct: 0
             },
-            {
-                topic: "Dance",
-                emoji: "🎨🖌️",
                 question: "Who founded the Alvin Ailey dance company?",
                 options: [
                     "Alvin Ailey",
@@ -662,6 +662,12 @@ if (typeof subjectQuestionBank !== 'undefined') {
             {
                 topic: "Cinema",
                 emoji: "📚📖",
+            {
+                topic: "Theater",
+                emoji: "🎬🎥",
+            {
+                topic: "World Heritage",
+                emoji: "🎵🎶",
                 question: "Who directed 'Breathless' (À bout de souffle)?",
                 options: [
                     "Jean-Luc Godard",
@@ -671,9 +677,6 @@ if (typeof subjectQuestionBank !== 'undefined') {
                 ],
                 correct: 0
             },
-            {
-                topic: "Theater",
-                emoji: "🎬🎥",
                 question: "Who wrote 'The Importance of Being Earnest'?",
                 options: [
                     "Oscar Wilde",
@@ -683,9 +686,6 @@ if (typeof subjectQuestionBank !== 'undefined') {
                 ],
                 correct: 0
             },
-            {
-                topic: "World Heritage",
-                emoji: "🎵🎶",
                 question: "What is the ancient city in Turkey carved in rock?",
                 options: [
                     "Cappadocia",
@@ -910,13 +910,6 @@ if (typeof subjectQuestionBank !== 'undefined') {
             {
                 topic: "Literature",
                 emoji: "📸🎞️",
-                question: "Who wrote 'Little Women'?",
-                options: [
-                    "Louisa May Alcott",
-                    "Harriet Beecher Stowe"
-                ],
-                correct: 0
-            },
             {
                 topic: "Dance",
                 emoji: "🎨🖌️",
@@ -982,25 +975,9 @@ if (typeof subjectQuestionBank !== 'undefined') {
             {
                 topic: "Painting",
                 emoji: "📝✍️",
-                question: "Which artist painted 'The Circus'?",
-                options: [
-                    "Georges Seurat",
-                    "Henri de Toulouse-Lautrec",
-                    "Edgar Degas"
-                ],
-                correct: 0
-            },
             {
                 topic: "Music",
                 emoji: "🎸🎹",
-                question: "Which composer wrote 'Rhapsody in Blue'?",
-                options: [
-                    "George Gershwin",
-                    "Aaron Copland",
-                    "Leonard Bernstein"
-                ],
-                correct: 0
-            },
             {
                 topic: "Architecture",
                 emoji: "💃🕺",
@@ -1015,14 +992,6 @@ if (typeof subjectQuestionBank !== 'undefined') {
             {
                 topic: "Literature",
                 emoji: "🎤🎧",
-                question: "Who wrote 'Brave New World'?",
-                options: [
-                    "Aldous Huxley",
-                    "George Orwell",
-                    "H.G. Wells"
-                ],
-                correct: 0
-            },
             {
                 topic: "Dance",
                 emoji: "📷📸",
@@ -1048,14 +1017,6 @@ if (typeof subjectQuestionBank !== 'undefined') {
             {
                 topic: "Cinema",
                 emoji: "🗿🏺",
-                question: "Who directed 'Psycho'?",
-                options: [
-                    "Alfred Hitchcock",
-                    "Fritz Lang",
-                    "Billy Wilder"
-                ],
-                correct: 0
-            },
             {
                 topic: "Theater",
                 emoji: "🖊️📜",
@@ -1130,15 +1091,6 @@ if (typeof subjectQuestionBank !== 'undefined') {
             {
                 topic: "Literature",
                 emoji: "🧩🎨",
-                question: "Who wrote 'The Trial'?",
-                options: [
-                    "Franz Kafka",
-                    "Milan Kundera",
-                    "Václav Havel",
-                    "Bohumil Hrabal"
-                ],
-                correct: 0
-            },
             {
                 topic: "Dance",
                 emoji: "🎼🎤",
@@ -1154,15 +1106,6 @@ if (typeof subjectQuestionBank !== 'undefined') {
             {
                 topic: "Sculpture",
                 emoji: "🖋️📃",
-                question: "Who created the 'Endless Column'?",
-                options: [
-                    "Constantin Brâncuși",
-                    "Umberto Boccioni",
-                    "Vladimir Tatlin",
-                    "Naum Gabo"
-                ],
-                correct: 0
-            },
             {
                 topic: "Cinema",
                 emoji: "🏺🗿",
@@ -1178,15 +1121,6 @@ if (typeof subjectQuestionBank !== 'undefined') {
             {
                 topic: "Theater",
                 emoji: "🎭✨",
-                question: "Who wrote 'The Seagull'?",
-                options: [
-                    "Anton Chekhov",
-                    "Maxim Gorky",
-                    "Ivan Turgenev",
-                    "Nikolai Gogol"
-                ],
-                correct: 0
-            },
             {
                 topic: "World Heritage",
                 emoji: "📖🖊️",
@@ -1391,13 +1325,6 @@ const artCultureChapter7 = {
             {
                 topic: "Painting",
                 emoji: "💎🏆",
-                question: "Who painted 'Starry Night'?",
-                options: [
-                    "Vincent van Gogh",
-                    "Paul Gauguin"
-                ],
-                correct: 0
-            },
             {
                 topic: "Music",
                 emoji: "🎯🎲",
@@ -1421,13 +1348,6 @@ const artCultureChapter7 = {
             {
                 topic: "Literature",
                 emoji: "🧩🎨",
-                question: "Who wrote 'The Ugly Duckling'?",
-                options: [
-                    "Hans Christian Andersen",
-                    "Brothers Grimm"
-                ],
-                correct: 0
-            },
             {
                 topic: "Dance",
                 emoji: "🎼🎤",
@@ -1526,14 +1446,6 @@ const artCultureChapter7 = {
             {
                 topic: "Literature",
                 emoji: "📸🎞️",
-                question: "Who wrote 'Pride and Prejudice'?",
-                options: [
-                    "Charlotte Brontë",
-                    "Jane Austen",
-                    "Emily Dickinson"
-                ],
-                correct: 1
-            },
             {
                 topic: "Dance",
                 emoji: "🎨🖌️",
@@ -1559,14 +1471,6 @@ const artCultureChapter7 = {
             {
                 topic: "Cinema",
                 emoji: "📚📖",
-                question: "Who directed 'The Godfather'?",
-                options: [
-                    "Martin Scorsese",
-                    "Francis Ford Coppola",
-                    "Steven Spielberg"
-                ],
-                correct: 1
-            },
             {
                 topic: "Theater",
                 emoji: "🎬🎥",
@@ -1900,13 +1804,6 @@ if (typeof subjectQuestionBank !== 'undefined') {
             {
                 topic: "Painting",
                 emoji: "📝✍️",
-                question: "Who painted 'The Basket of Apples'?",
-                options: [
-                    "Paul Cézanne",
-                    "Paul Gauguin"
-                ],
-                correct: 0
-            },
             {
                 topic: "Music",
                 emoji: "🎸🎹",
@@ -1930,13 +1827,6 @@ if (typeof subjectQuestionBank !== 'undefined') {
             {
                 topic: "Literature",
                 emoji: "🎤🎧",
-                question: "Who wrote 'One Flew Over the Cuckoo's Nest'?",
-                options: [
-                    "Ken Kesey",
-                    "Jack Kerouac"
-                ],
-                correct: 0
-            },
             {
                 topic: "Dance",
                 emoji: "📷📸",
@@ -1970,13 +1860,6 @@ if (typeof subjectQuestionBank !== 'undefined') {
             {
                 topic: "Theater",
                 emoji: "🖊️📜",
-                question: "What musical features 'The Circle of Life'?",
-                options: [
-                    "The Lion King",
-                    "Aladdin"
-                ],
-                correct: 0
-            },
             {
                 topic: "Festivals",
                 emoji: "🎪🎡",
@@ -2002,25 +1885,9 @@ if (typeof subjectQuestionBank !== 'undefined') {
             {
                 topic: "Painting",
                 emoji: "💎🏆",
-                question: "Which artist painted 'American Gothic'?",
-                options: [
-                    "Grant Wood",
-                    "Edward Hopper",
-                    "Thomas Hart Benton"
-                ],
-                correct: 0
-            },
             {
                 topic: "Music",
                 emoji: "🎯🎲",
-                question: "Which composer wrote 'The Planets'?",
-                options: [
-                    "Gustav Holst",
-                    "Ralph Vaughan Williams",
-                    "Edward Elgar"
-                ],
-                correct: 0
-            },
             {
                 topic: "Architecture",
                 emoji: "🃏🎴",
@@ -2035,14 +1902,6 @@ if (typeof subjectQuestionBank !== 'undefined') {
             {
                 topic: "Literature",
                 emoji: "🧩🎨",
-                question: "Who wrote 'Solaris'?",
-                options: [
-                    "Stanisław Lem",
-                    "Czesław Miłosz",
-                    "Wisława Szymborska"
-                ],
-                correct: 0
-            },
             {
                 topic: "Dance",
                 emoji: "🎼🎤",
@@ -2068,14 +1927,6 @@ if (typeof subjectQuestionBank !== 'undefined') {
             {
                 topic: "Cinema",
                 emoji: "🏺🗿",
-                question: "Who directed 'The Third Man'?",
-                options: [
-                    "Carol Reed",
-                    "Alfred Hitchcock",
-                    "David Lean"
-                ],
-                correct: 0
-            },
             {
                 topic: "Theater",
                 emoji: "🎭✨",
@@ -2150,27 +2001,9 @@ if (typeof subjectQuestionBank !== 'undefined') {
             {
                 topic: "Literature",
                 emoji: "📸🎞️",
-                question: "Who wrote 'The Cairo Trilogy'?",
-                options: [
-                    "Naguib Mahfouz",
-                    "Taha Hussein",
-                    "Tawfiq al-Hakim",
-                    "Yusuf Idris"
-                ],
-                correct: 0
-            },
             {
                 topic: "Dance",
                 emoji: "🎨🖌️",
-                question: "Who choreographed 'Revelations'?",
-                options: [
-                    "Alvin Ailey",
-                    "Katherine Dunham",
-                    "Pearl Primus",
-                    "Donald McKayle"
-                ],
-                correct: 0
-            },
             {
                 topic: "Sculpture",
                 emoji: "🎭🎪",
@@ -2186,27 +2019,9 @@ if (typeof subjectQuestionBank !== 'undefined') {
             {
                 topic: "Cinema",
                 emoji: "📚📖",
-                question: "Who directed 'Battleship Potemkin'?",
-                options: [
-                    "Sergei Eisenstein",
-                    "Vsevolod Pudovkin",
-                    "Dziga Vertov",
-                    "Alexander Dovzhenko"
-                ],
-                correct: 0
-            },
             {
                 topic: "Theater",
                 emoji: "🎬🎥",
-                question: "Who wrote 'Long Day's Journey Into Night'?",
-                options: [
-                    "Eugene O'Neill",
-                    "Tennessee Williams",
-                    "Arthur Miller",
-                    "Clifford Odets"
-                ],
-                correct: 0
-            },
             {
                 topic: "World Heritage",
                 emoji: "🎵🎶",
@@ -2402,13 +2217,6 @@ if (typeof subjectQuestionBank !== 'undefined') {
             {
                 topic: "Painting",
                 emoji: "🎪🎠",
-                question: "Who painted 'Impression, Sunrise'?",
-                options: [
-                    "Claude Monet",
-                    "Pierre-Auguste Renoir"
-                ],
-                correct: 0
-            },
             {
                 topic: "Music",
                 emoji: "🎬📽️",
@@ -2432,13 +2240,6 @@ if (typeof subjectQuestionBank !== 'undefined') {
             {
                 topic: "Literature",
                 emoji: "📸🎞️",
-                question: "Who wrote 'Of Mice and Men'?",
-                options: [
-                    "John Steinbeck",
-                    "Ernest Hemingway"
-                ],
-                correct: 0
-            },
             {
                 topic: "Dance",
                 emoji: "🎨🖌️",
@@ -2504,25 +2305,9 @@ if (typeof subjectQuestionBank !== 'undefined') {
             {
                 topic: "Painting",
                 emoji: "📝✍️",
-                question: "Which artist painted 'The Ninth Wave'?",
-                options: [
-                    "Ivan Aivazovsky",
-                    "J.M.W. Turner",
-                    "Winslow Homer"
-                ],
-                correct: 0
-            },
             {
                 topic: "Music",
                 emoji: "🎸🎹",
-                question: "Which composer wrote 'Boléro'?",
-                options: [
-                    "Maurice Ravel",
-                    "Claude Debussy",
-                    "Erik Satie"
-                ],
-                correct: 0
-            },
             {
                 topic: "Architecture",
                 emoji: "💃🕺",
@@ -2537,14 +2322,6 @@ if (typeof subjectQuestionBank !== 'undefined') {
             {
                 topic: "Literature",
                 emoji: "🎤🎧",
-                question: "Who wrote 'Ficciones'?",
-                options: [
-                    "Jorge Luis Borges",
-                    "Julio Cortázar",
-                    "Ernesto Sabato"
-                ],
-                correct: 0
-            },
             {
                 topic: "Dance",
                 emoji: "📷📸",
@@ -2570,14 +2347,6 @@ if (typeof subjectQuestionBank !== 'undefined') {
             {
                 topic: "Cinema",
                 emoji: "🗿🏺",
-                question: "Who directed 'The Cabinet of Dr. Caligari'?",
-                options: [
-                    "Robert Wiene",
-                    "Fritz Lang",
-                    "F.W. Murnau"
-                ],
-                correct: 0
-            },
             {
                 topic: "Theater",
                 emoji: "🖊️📜",
@@ -2664,51 +2433,15 @@ if (typeof subjectQuestionBank !== 'undefined') {
             {
                 topic: "Dance",
                 emoji: "🎼🎤",
-                question: "Who choreographed 'Afternoon of a Faun'?",
-                options: [
-                    "Vaslav Nijinsky",
-                    "Michel Fokine",
-                    "Léonide Massine",
-                    "George Balanchine"
-                ],
-                correct: 0
-            },
             {
                 topic: "Sculpture",
                 emoji: "🖋️📃",
-                question: "Who created the 'Balloon Dog' series?",
-                options: [
-                    "Jeff Koons",
-                    "Damien Hirst",
-                    "Takashi Murakami",
-                    "Yayoi Kusama"
-                ],
-                correct: 0
-            },
             {
                 topic: "Cinema",
                 emoji: "🏺🗿",
-                question: "Who directed 'A Separation'?",
-                options: [
-                    "Asghar Farhadi",
-                    "Abbas Kiarostami",
-                    "Jafar Panahi",
-                    "Mohsen Makhmalbaf"
-                ],
-                correct: 0
-            },
             {
                 topic: "Theater",
                 emoji: "🎭✨",
-                question: "Who wrote 'The Glass Menagerie'?",
-                options: [
-                    "Tennessee Williams",
-                    "Arthur Miller",
-                    "Eugene O'Neill",
-                    "Edward Albee"
-                ],
-                correct: 0
-            },
             {
                 topic: "World Heritage",
                 emoji: "📖🖊️",
@@ -2913,13 +2646,6 @@ const artCultureChapter10 = {
             {
                 topic: "Painting",
                 emoji: "💎🏆",
-                question: "Who painted 'The Son of Man' with an apple?",
-                options: [
-                    "René Magritte",
-                    "Salvador Dalí"
-                ],
-                correct: 0
-            },
             {
                 topic: "Music",
                 emoji: "🎯🎲",
@@ -2943,13 +2669,6 @@ const artCultureChapter10 = {
             {
                 topic: "Literature",
                 emoji: "🧩🎨",
-                question: "Who wrote 'The Metamorphosis'?",
-                options: [
-                    "Franz Kafka",
-                    "Albert Camus"
-                ],
-                correct: 0
-            },
             {
                 topic: "Dance",
                 emoji: "🎼🎤",
@@ -2983,13 +2702,6 @@ const artCultureChapter10 = {
             {
                 topic: "Theater",
                 emoji: "🎭✨",
-                question: "What musical features 'Tomorrow'?",
-                options: [
-                    "Annie",
-                    "Oliver!"
-                ],
-                correct: 0
-            },
             {
                 topic: "Festivals",
                 emoji: "📖🖊️",
@@ -3015,25 +2727,9 @@ const artCultureChapter10 = {
             {
                 topic: "Painting",
                 emoji: "🎪🎠",
-                question: "Which artist painted 'The Card Players'?",
-                options: [
-                    "Paul Cézanne",
-                    "Edgar Degas",
-                    "Henri Matisse"
-                ],
-                correct: 0
-            },
             {
                 topic: "Music",
                 emoji: "🎬📽️",
-                question: "Which composer wrote 'The Rite of Spring'?",
-                options: [
-                    "Igor Stravinsky",
-                    "Sergei Prokofiev",
-                    "Dmitri Shostakovich"
-                ],
-                correct: 0
-            },
             {
                 topic: "Architecture",
                 emoji: "🎸🥁",
@@ -3048,14 +2744,6 @@ const artCultureChapter10 = {
             {
                 topic: "Literature",
                 emoji: "📸🎞️",
-                question: "Who wrote 'One Hundred Years of Solitude'?",
-                options: [
-                    "Gabriel García Márquez",
-                    "Mario Vargas Llosa",
-                    "Isabel Allende"
-                ],
-                correct: 0
-            },
             {
                 topic: "Dance",
                 emoji: "🎨🖌️",
@@ -3070,25 +2758,9 @@ const artCultureChapter10 = {
             {
                 topic: "Sculpture",
                 emoji: "🎭🎪",
-                question: "What artist created 'Cloud Gate' in Chicago?",
-                options: [
-                    "Anish Kapoor",
-                    "Jeff Koons",
-                    "Damien Hirst"
-                ],
-                correct: 0
-            },
             {
                 topic: "Cinema",
                 emoji: "📚📖",
-                question: "Who directed 'Rashomon'?",
-                options: [
-                    "Akira Kurosawa",
-                    "Yasujirō Ozu",
-                    "Kenji Mizoguchi"
-                ],
-                correct: 0
-            },
             {
                 topic: "Theater",
                 emoji: "🎬🎥",
@@ -3163,63 +2835,18 @@ const artCultureChapter10 = {
             {
                 topic: "Literature",
                 emoji: "🎤🎧",
-                question: "Who wrote 'Ulysses'?",
-                options: [
-                    "James Joyce",
-                    "Samuel Beckett",
-                    "W.B. Yeats",
-                    "Oscar Wilde"
-                ],
-                correct: 0
-            },
             {
                 topic: "Dance",
                 emoji: "📷📸",
-                question: "Who choreographed 'West Side Story'?",
-                options: [
-                    "Jerome Robbins",
-                    "Bob Fosse",
-                    "Michael Bennett",
-                    "Twyla Tharp"
-                ],
-                correct: 0
-            },
             {
                 topic: "Sculpture",
                 emoji: "🎻🎺",
-                question: "Who created 'The Kiss' sculpture?",
-                options: [
-                    "Auguste Rodin",
-                    "Constantin Brâncuși",
-                    "Antoine Bourdelle",
-                    "Camille Claudel"
-                ],
-                correct: 0
-            },
             {
                 topic: "Cinema",
                 emoji: "🗿🏺",
-                question: "Who directed 'Oldboy'?",
-                options: [
-                    "Park Chan-wook",
-                    "Bong Joon-ho",
-                    "Kim Ki-duk",
-                    "Lee Chang-dong"
-                ],
-                correct: 0
-            },
             {
                 topic: "Theater",
                 emoji: "🖊️📜",
-                question: "Who wrote 'A Streetcar Named Desire'?",
-                options: [
-                    "Tennessee Williams",
-                    "Arthur Miller",
-                    "Eugene O'Neill",
-                    "Edward Albee"
-                ],
-                correct: 0
-            },
             {
                 topic: "World Heritage",
                 emoji: "🎪🎡",
@@ -3297,9 +2924,6 @@ const artCultureChapter10 = {
             {
                 topic: "Festivals",
                 emoji: "📖🖊️",
-                question: "What is Mexico's Day of the Dead?",
-                answer: "Día de Muertos"
-            },
             {
                 topic: "Crafts",
                 emoji: "🎨🌈",
@@ -3421,13 +3045,6 @@ const artCultureSet3 = {
             {
                 topic: "Painting",
                 emoji: "📝✍️",
-                question: "Who painted 'The Arnolfini Portrait'?",
-                options: [
-                    "Jan van Eyck",
-                    "Rogier van der Weyden"
-                ],
-                correct: 0
-            },
             {
                 topic: "Music",
                 emoji: "🎸🎹",
@@ -3451,13 +3068,6 @@ const artCultureSet3 = {
             {
                 topic: "Literature",
                 emoji: "🎤🎧",
-                question: "Who wrote 'The Secret Life of Bees'?",
-                options: [
-                    "Sue Monk Kidd",
-                    "Alice Walker"
-                ],
-                correct: 0
-            },
             {
                 topic: "Dance",
                 emoji: "📷📸",
@@ -3491,13 +3101,6 @@ const artCultureSet3 = {
             {
                 topic: "Theater",
                 emoji: "🖊️📜",
-                question: "What musical features 'Seasons of Love'?",
-                options: [
-                    "Rent",
-                    "Hair"
-                ],
-                correct: 0
-            },
             {
                 topic: "Festivals",
                 emoji: "🎪🎡",
@@ -3523,25 +3126,9 @@ const artCultureSet3 = {
             {
                 topic: "Painting",
                 emoji: "💎🏆",
-                question: "Which artist painted 'The Acrobat's Family'?",
-                options: [
-                    "Pablo Picasso",
-                    "Henri Matisse",
-                    "Marc Chagall"
-                ],
-                correct: 0
-            },
             {
                 topic: "Music",
                 emoji: "🎯🎲",
-                question: "Which composer wrote 'Pictures at an Exhibition'?",
-                options: [
-                    "Modest Mussorgsky",
-                    "Nikolai Rimsky-Korsakov",
-                    "Alexander Borodin"
-                ],
-                correct: 0
-            },
             {
                 topic: "Architecture",
                 emoji: "🃏🎴",
@@ -3556,14 +3143,6 @@ const artCultureSet3 = {
             {
                 topic: "Literature",
                 emoji: "🧩🎨",
-                question: "Who wrote 'The Handmaid's Tale'?",
-                options: [
-                    "Margaret Atwood",
-                    "Alice Munro",
-                    "Carol Shields"
-                ],
-                correct: 0
-            },
             {
                 topic: "Dance",
                 emoji: "🎼🎤",
@@ -3578,25 +3157,9 @@ const artCultureSet3 = {
             {
                 topic: "Sculpture",
                 emoji: "🖋️📃",
-                question: "What sculptor created 'The Gate of Hell'?",
-                options: [
-                    "Auguste Rodin",
-                    "Antoine Bourdelle",
-                    "Aristide Maillol"
-                ],
-                correct: 0
-            },
             {
                 topic: "Cinema",
                 emoji: "🏺🗿",
-                question: "Who directed 'The Seventh Seal'?",
-                options: [
-                    "Ingmar Bergman",
-                    "Carl Dreyer",
-                    "Andrei Tarkovsky"
-                ],
-                correct: 0
-            },
             {
                 topic: "Theater",
                 emoji: "🎭✨",
@@ -3671,15 +3234,6 @@ const artCultureSet3 = {
             {
                 topic: "Literature",
                 emoji: "📸🎞️",
-                question: "Who wrote 'Please Look After Mom'?",
-                options: [
-                    "Kyung-Sook Shin",
-                    "Han Kang",
-                    "Park Wan-suh",
-                    "Yi Mun-yol"
-                ],
-                correct: 0
-            },
             {
                 topic: "Dance",
                 emoji: "🎨🖌️",
@@ -3695,39 +3249,12 @@ const artCultureSet3 = {
             {
                 topic: "Sculpture",
                 emoji: "🎭🎪",
-                question: "Who created 'Woman Combing Her Hair'?",
-                options: [
-                    "Alexander Archipenko",
-                    "Jacques Lipchitz",
-                    "Ossip Zadkine",
-                    "Henri Laurens"
-                ],
-                correct: 0
-            },
             {
                 topic: "Cinema",
                 emoji: "📚📖",
-                question: "Who directed 'City of God'?",
-                options: [
-                    "Fernando Meirelles",
-                    "Walter Salles",
-                    "Glauber Rocha",
-                    "José Padilha"
-                ],
-                correct: 0
-            },
             {
                 topic: "Theater",
                 emoji: "🎬🎥",
-                question: "Who wrote 'Rosencrantz and Guildenstern Are Dead'?",
-                options: [
-                    "Tom Stoppard",
-                    "Harold Pinter",
-                    "Samuel Beckett",
-                    "Edward Albee"
-                ],
-                correct: 0
-            },
             {
                 topic: "World Heritage",
                 emoji: "🎵🎶",
@@ -3923,13 +3450,6 @@ const artCultureSet3 = {
             {
                 topic: "Painting",
                 emoji: "🎪🎠",
-                question: "Who painted 'Sunflowers' multiple times?",
-                options: [
-                    "Vincent van Gogh",
-                    "Paul Gauguin"
-                ],
-                correct: 0
-            },
             {
                 topic: "Music",
                 emoji: "🎬📽️",
@@ -3953,13 +3473,6 @@ const artCultureSet3 = {
             {
                 topic: "Literature",
                 emoji: "📸🎞️",
-                question: "Who wrote 'The Name of the Rose'?",
-                options: [
-                    "Umberto Eco",
-                    "Italo Calvino"
-                ],
-                correct: 0
-            },
             {
                 topic: "Dance",
                 emoji: "🎨🖌️",
@@ -3983,13 +3496,6 @@ const artCultureSet3 = {
             {
                 topic: "Cinema",
                 emoji: "📚📖",
-                question: "What is Japan's top film award?",
-                options: [
-                    "Blue Ribbon",
-                    "Japan Academy Prize"
-                ],
-                correct: 1
-            },
             {
                 topic: "Theater",
                 emoji: "🎬🎥",
@@ -4025,25 +3531,9 @@ const artCultureSet3 = {
             {
                 topic: "Painting",
                 emoji: "📝✍️",
-                question: "Which artist painted 'The Sleeping Gypsy'?",
-                options: [
-                    "Henri Rousseau",
-                    "Paul Gauguin",
-                    "Odilon Redon"
-                ],
-                correct: 0
-            },
             {
                 topic: "Music",
                 emoji: "🎸🎹",
-                question: "Which composer wrote 'La Mer'?",
-                options: [
-                    "Claude Debussy",
-                    "Maurice Ravel",
-                    "Erik Satie"
-                ],
-                correct: 0
-            },
             {
                 topic: "Architecture",
                 emoji: "💃🕺",
@@ -4058,14 +3548,6 @@ const artCultureSet3 = {
             {
                 topic: "Literature",
                 emoji: "🎤🎧",
-                question: "Who wrote 'The Girl with the Dragon Tattoo'?",
-                options: [
-                    "Stieg Larsson",
-                    "Henning Mankell",
-                    "Jo Nesbø"
-                ],
-                correct: 0
-            },
             {
                 topic: "Dance",
                 emoji: "📷📸",
@@ -4091,14 +3573,6 @@ const artCultureSet3 = {
             {
                 topic: "Cinema",
                 emoji: "🗿🏺",
-                question: "Who directed 'M'?",
-                options: [
-                    "Fritz Lang",
-                    "Robert Wiene",
-                    "F.W. Murnau"
-                ],
-                correct: 0
-            },
             {
                 topic: "Theater",
                 emoji: "🖊️📜",
@@ -4185,51 +3659,15 @@ const artCultureSet3 = {
             {
                 topic: "Dance",
                 emoji: "🎼🎤",
-                question: "Who choreographed 'Fancy Free'?",
-                options: [
-                    "Jerome Robbins",
-                    "George Balanchine",
-                    "Agnes de Mille",
-                    "Bob Fosse"
-                ],
-                correct: 0
-            },
             {
                 topic: "Sculpture",
                 emoji: "🖋️📃",
-                question: "Who created 'The Walking Man'?",
-                options: [
-                    "Alberto Giacometti",
-                    "Auguste Rodin",
-                    "Henry Moore",
-                    "Jean Arp"
-                ],
-                correct: 0
-            },
             {
                 topic: "Cinema",
                 emoji: "🏺🗿",
-                question: "Who directed 'Pan's Labyrinth'?",
-                options: [
-                    "Guillermo del Toro",
-                    "Alfonso Cuarón",
-                    "Alejandro Iñárritu",
-                    "Carlos Reygadas"
-                ],
-                correct: 0
-            },
             {
                 topic: "Theater",
                 emoji: "🎭✨",
-                question: "Who wrote 'Mother Courage'?",
-                options: [
-                    "Bertolt Brecht",
-                    "Friedrich Dürrenmatt",
-                    "Max Frisch",
-                    "Frank Wedekind"
-                ],
-                correct: 0
-            },
             {
                 topic: "World Heritage",
                 emoji: "📖🖊️",
@@ -4517,23 +3955,9 @@ const artCultureChapters14_15 = {
             {
                 topic: "Architecture",
                 emoji: "📖🖊️",
-                question: "Who designed the Sydney Opera House?",
-                options: [
-                    "Jørn Utzon",
-                    "Frank Lloyd Wright"
-                ],
-                correct: 0
-            },
             {
                 topic: "Literature",
                 emoji: "🎨🌈",
-                question: "Who wrote 'The Bell Jar'?",
-                options: [
-                    "Sylvia Plath",
-                    "Anne Sexton"
-                ],
-                correct: 0
-            },
             {
                 topic: "Dance",
                 emoji: "🎪🎠",
@@ -4599,25 +4023,9 @@ const artCultureChapters14_15 = {
             {
                 topic: "Painting",
                 emoji: "📚📖",
-                question: "Which artist painted 'The Great Wave off Kanagawa'?",
-                options: [
-                    "Katsushika Hokusai",
-                    "Utagawa Hiroshige",
-                    "Kitagawa Utamaro"
-                ],
-                correct: 0
-            },
             {
                 topic: "Music",
                 emoji: "🎬🎥",
-                question: "Which composer wrote 'The Four Seasons'?",
-                options: [
-                    "Antonio Vivaldi",
-                    "Johann Sebastian Bach",
-                    "Georg Handel"
-                ],
-                correct: 0
-            },
             {
                 topic: "Architecture",
                 emoji: "🎵🎶",
@@ -4632,14 +4040,6 @@ const artCultureChapters14_15 = {
             {
                 topic: "Literature",
                 emoji: "🖼️🏛️",
-                question: "Who wrote 'War and Peace'?",
-                options: [
-                    "Leo Tolstoy",
-                    "Fyodor Dostoevsky",
-                    "Anton Chekhov"
-                ],
-                correct: 0
-            },
             {
                 topic: "Dance",
                 emoji: "📝✍️",
@@ -4665,14 +4065,6 @@ const artCultureChapters14_15 = {
             {
                 topic: "Cinema",
                 emoji: "💃🕺",
-                question: "Who directed 'Citizen Kane'?",
-                options: [
-                    "Orson Welles",
-                    "Alfred Hitchcock",
-                    "John Ford"
-                ],
-                correct: 0
-            },
             {
                 topic: "Theater",
                 emoji: "🎤🎧",
@@ -4747,15 +4139,6 @@ const artCultureChapters14_15 = {
             {
                 topic: "Literature",
                 emoji: "🌟✨",
-                question: "Who wrote 'The House of the Spirits'?",
-                options: [
-                    "Isabel Allende",
-                    "Pablo Neruda",
-                    "Gabriela Mistral",
-                    "Roberto Bolaño"
-                ],
-                correct: 0
-            },
             {
                 topic: "Dance",
                 emoji: "💎🏆",
@@ -4771,39 +4154,12 @@ const artCultureChapters14_15 = {
             {
                 topic: "Sculpture",
                 emoji: "🎯🎲",
-                question: "Who created 'Bird in Space'?",
-                options: [
-                    "Constantin Brâncuși",
-                    "Jean Arp",
-                    "Barbara Hepworth",
-                    "Henry Moore"
-                ],
-                correct: 0
-            },
             {
                 topic: "Cinema",
                 emoji: "🃏🎴",
-                question: "Who directed 'The Secret in Their Eyes'?",
-                options: [
-                    "Juan José Campanella",
-                    "Damián Szifron",
-                    "Pablo Trapero",
-                    "Lucrecia Martel"
-                ],
-                correct: 0
-            },
             {
                 topic: "Theater",
                 emoji: "🧩🎨",
-                question: "Who wrote 'The Caucasian Chalk Circle'?",
-                options: [
-                    "Bertolt Brecht",
-                    "Max Frisch",
-                    "Friedrich Dürrenmatt",
-                    "Heiner Müller"
-                ],
-                correct: 0
-            },
             {
                 topic: "World Heritage",
                 emoji: "🎼🎤",
@@ -5001,13 +4357,6 @@ const artCultureChapters14_15 = {
             {
                 topic: "Painting",
                 emoji: "🗿🏺",
-                question: "Who painted 'Water Lilies' series?",
-                options: [
-                    "Claude Monet",
-                    "Pierre-Auguste Renoir"
-                ],
-                correct: 0
-            },
             {
                 topic: "Music",
                 emoji: "🖊️📜",
@@ -5031,13 +4380,6 @@ const artCultureChapters14_15 = {
             {
                 topic: "Literature",
                 emoji: "🌟✨",
-                question: "Who wrote 'Romeo and Juliet'?",
-                options: [
-                    "William Shakespeare",
-                    "Christopher Marlowe"
-                ],
-                correct: 0
-            },
             {
                 topic: "Dance",
                 emoji: "💎🏆",
@@ -5071,13 +4413,6 @@ const artCultureChapters14_15 = {
             {
                 topic: "Theater",
                 emoji: "🧩🎨",
-                question: "What musical features 'Defying Gravity'?",
-                options: [
-                    "Wicked",
-                    "Frozen"
-                ],
-                correct: 0
-            },
             {
                 topic: "Festivals",
                 emoji: "🎼🎤",
@@ -5103,25 +4438,9 @@ const artCultureChapters14_15 = {
             {
                 topic: "Painting",
                 emoji: "🏺🗿",
-                question: "Which artist painted 'Las Meninas'?",
-                options: [
-                    "Diego Velázquez",
-                    "Francisco Goya",
-                    "El Greco"
-                ],
-                correct: 0
-            },
             {
                 topic: "Music",
                 emoji: "🎭✨",
-                question: "Which composer wrote 'The Messiah'?",
-                options: [
-                    "George Frideric Handel",
-                    "Johann Sebastian Bach",
-                    "Antonio Vivaldi"
-                ],
-                correct: 0
-            },
             {
                 topic: "Architecture",
                 emoji: "📖🖊️",
@@ -5136,14 +4455,6 @@ const artCultureChapters14_15 = {
             {
                 topic: "Literature",
                 emoji: "🎨🌈",
-                question: "Who wrote 'The Count of Monte Cristo'?",
-                options: [
-                    "Alexandre Dumas",
-                    "Victor Hugo",
-                    "Gustave Flaubert"
-                ],
-                correct: 0
-            },
             {
                 topic: "Dance",
                 emoji: "🎪🎠",
@@ -5158,25 +4469,9 @@ const artCultureChapters14_15 = {
             {
                 topic: "Sculpture",
                 emoji: "🎬📽️",
-                question: "What artist created 'David' (besides Michelangelo)?",
-                options: [
-                    "Donatello",
-                    "Bernini",
-                    "Both"
-                ],
-                correct: 2
-            },
             {
                 topic: "Cinema",
                 emoji: "🎸🥁",
-                question: "Who directed 'The Godfather Part II'?",
-                options: [
-                    "Francis Ford Coppola",
-                    "Martin Scorsese",
-                    "Brian De Palma"
-                ],
-                correct: 0
-            },
             {
                 topic: "Theater",
                 emoji: "📸🎞️",
@@ -5191,14 +4486,6 @@ const artCultureChapters14_15 = {
             {
                 topic: "World Heritage",
                 emoji: "🎨🖌️",
-                question: "What is Japan's sacred mountain?",
-                options: [
-                    "Mount Fuji",
-                    "Mount Koya",
-                    "Mount Hiei"
-                ],
-                correct: 0
-            },
             {
                 topic: "Crafts",
                 emoji: "🎭🎪",
@@ -5251,63 +4538,18 @@ const artCultureChapters14_15 = {
             {
                 topic: "Literature",
                 emoji: "🖼️🏛️",
-                question: "Who wrote 'The Book of Disquiet'?",
-                options: [
-                    "Fernando Pessoa",
-                    "José Saramago",
-                    "Eça de Queirós",
-                    "António Lobo Antunes"
-                ],
-                correct: 0
-            },
             {
                 topic: "Dance",
                 emoji: "📝✍️",
-                question: "Who choreographed 'Appalachian Spring'?",
-                options: [
-                    "Martha Graham",
-                    "Doris Humphrey",
-                    "Agnes de Mille",
-                    "Helen Tamiris"
-                ],
-                correct: 0
-            },
             {
                 topic: "Sculpture",
                 emoji: "🎸🎹",
-                question: "Who created 'Spiral Jetty'?",
-                options: [
-                    "Robert Smithson",
-                    "Michael Heizer",
-                    "Walter De Maria",
-                    "Nancy Holt"
-                ],
-                correct: 0
-            },
             {
                 topic: "Cinema",
                 emoji: "💃🕺",
-                question: "Who directed 'Uncle Boonmee Who Can Recall His Past Lives'?",
-                options: [
-                    "Apichatpong Weerasethakul",
-                    "Pen-Ek Ratanaruang",
-                    "Wisit Sasanatieng",
-                    "Nonzee Nimibutr"
-                ],
-                correct: 0
-            },
             {
                 topic: "Theater",
                 emoji: "🎤🎧",
-                question: "Who wrote 'Waiting for Godot'?",
-                options: [
-                    "Samuel Beckett",
-                    "Harold Pinter",
-                    "Tom Stoppard",
-                    "Eugène Ionesco"
-                ],
-                correct: 0
-            },
             {
                 topic: "World Heritage",
                 emoji: "📷📸",
@@ -5521,13 +4763,6 @@ const artCultureSet4 = {
             {
                 topic: "Painting",
                 emoji: "📚📖",
-                question: "Who painted 'The Kiss' with gold leaf?",
-                options: [
-                    "Gustav Klimt",
-                    "Egon Schiele"
-                ],
-                correct: 0
-            },
             {
                 topic: "Music",
                 emoji: "🎬🎥",
@@ -5551,13 +4786,6 @@ const artCultureSet4 = {
             {
                 topic: "Literature",
                 emoji: "🖼️🏛️",
-                question: "Who wrote 'The Wonderful Wizard of Oz'?",
-                options: [
-                    "L. Frank Baum",
-                    "Lewis Carroll"
-                ],
-                correct: 0
-            },
             {
                 topic: "Dance",
                 emoji: "📝✍️",
@@ -5591,13 +4819,6 @@ const artCultureSet4 = {
             {
                 topic: "Theater",
                 emoji: "🎤🎧",
-                question: "What musical features 'All That Jazz'?",
-                options: [
-                    "Chicago",
-                    "Cabaret"
-                ],
-                correct: 0
-            },
             {
                 topic: "Festivals",
                 emoji: "📷📸",
@@ -5623,25 +4844,9 @@ const artCultureSet4 = {
             {
                 topic: "Painting",
                 emoji: "🗿🏺",
-                question: "Which artist painted 'The Ambassadors'?",
-                options: [
-                    "Hans Holbein the Younger",
-                    "Albrecht Dürer",
-                    "Lucas Cranach"
-                ],
-                correct: 0
-            },
             {
                 topic: "Music",
                 emoji: "🖊️📜",
-                question: "Which composer wrote 'Carmina Burana'?",
-                options: [
-                    "Carl Orff",
-                    "Paul Hindemith",
-                    "Kurt Weill"
-                ],
-                correct: 0
-            },
             {
                 topic: "Architecture",
                 emoji: "🎪🎡",
@@ -5656,14 +4861,6 @@ const artCultureSet4 = {
             {
                 topic: "Literature",
                 emoji: "🌟✨",
-                question: "Who wrote 'The Forest of the Gods'?",
-                options: [
-                    "Balys Sruoga",
-                    "Vincas Mykolaitis-Putinas",
-                    "Antanas Škėma"
-                ],
-                correct: 0
-            },
             {
                 topic: "Dance",
                 emoji: "💎🏆",
@@ -5678,25 +4875,9 @@ const artCultureSet4 = {
             {
                 topic: "Sculpture",
                 emoji: "🎯🎲",
-                question: "What artist created 'Chicago Picasso'?",
-                options: [
-                    "Pablo Picasso",
-                    "Joan Miró",
-                    "Alexander Calder"
-                ],
-                correct: 0
-            },
             {
                 topic: "Cinema",
                 emoji: "🃏🎴",
-                question: "Who directed 'Wild Strawberries'?",
-                options: [
-                    "Ingmar Bergman",
-                    "Carl Theodor Dreyer",
-                    "Victor Sjöström"
-                ],
-                correct: 0
-            },
             {
                 topic: "Theater",
                 emoji: "🧩🎨",
@@ -5771,15 +4952,6 @@ const artCultureSet4 = {
             {
                 topic: "Literature",
                 emoji: "🎨🌈",
-                question: "Who wrote 'The Year of the Hare'?",
-                options: [
-                    "Arto Paasilinna",
-                    "Jānis Ezeriņš",
-                    "Imants Ziedonis",
-                    "Nora Ikstena"
-                ],
-                correct: 0
-            },
             {
                 topic: "Dance",
                 emoji: "🎪🎠",
@@ -5795,39 +4967,12 @@ const artCultureSet4 = {
             {
                 topic: "Sculpture",
                 emoji: "🎬📽️",
-                question: "Who created 'The Knife Ship' series?",
-                options: [
-                    "Claes Oldenburg",
-                    "George Segal",
-                    "Duane Hanson",
-                    "Robert Arneson"
-                ],
-                correct: 0
-            },
             {
                 topic: "Cinema",
                 emoji: "🎸🥁",
-                question: "Who directed 'The Pianist'?",
-                options: [
-                    "Roman Polanski",
-                    "Andrzej Wajda",
-                    "Krzysztof Kieślowski",
-                    "Agnieszka Holland"
-                ],
-                correct: 0
-            },
             {
                 topic: "Theater",
                 emoji: "📸🎞️",
-                question: "Who wrote 'The Homecoming'?",
-                options: [
-                    "Harold Pinter",
-                    "Tom Stoppard",
-                    "David Hare",
-                    "Caryl Churchill"
-                ],
-                correct: 0
-            },
             {
                 topic: "World Heritage",
                 emoji: "🎨🖌️",
@@ -6023,13 +5168,6 @@ const artCultureSet4 = {
             {
                 topic: "Painting",
                 emoji: "🏺🗿",
-                question: "Who painted 'Nighthawks'?",
-                options: [
-                    "Edward Hopper",
-                    "Grant Wood"
-                ],
-                correct: 0
-            },
             {
                 topic: "Music",
                 emoji: "🎭✨",
@@ -6053,13 +5191,6 @@ const artCultureSet4 = {
             {
                 topic: "Literature",
                 emoji: "🎨🌈",
-                question: "Who wrote 'The Little Prince'?",
-                options: [
-                    "Antoine de Saint-Exupéry",
-                    "Jules Verne"
-                ],
-                correct: 0
-            },
             {
                 topic: "Dance",
                 emoji: "🎪🎠",
@@ -6083,23 +5214,9 @@ const artCultureSet4 = {
             {
                 topic: "Cinema",
                 emoji: "🎸🥁",
-                question: "What is Russia's top film award?",
-                options: [
-                    "Nika Award",
-                    "Golden Eagle"
-                ],
-                correct: 0
-            },
             {
                 topic: "Theater",
                 emoji: "📸🎞️",
-                question: "What musical features 'The Music of the Night'?",
-                options: [
-                    "Phantom of the Opera",
-                    "Les Misérables"
-                ],
-                correct: 0
-            },
             {
                 topic: "Festivals",
                 emoji: "🎨🖌️",
@@ -6125,25 +5242,9 @@ const artCultureSet4 = {
             {
                 topic: "Painting",
                 emoji: "📚📖",
-                question: "Which artist painted 'Christina's World'?",
-                options: [
-                    "Andrew Wyeth",
-                    "Edward Hopper",
-                    "Grant Wood"
-                ],
-                correct: 0
-            },
             {
                 topic: "Music",
                 emoji: "🎬🎥",
-                question: "Which composer wrote 'Finlandia'?",
-                options: [
-                    "Jean Sibelius",
-                    "Edvard Grieg",
-                    "Carl Nielsen"
-                ],
-                correct: 0
-            },
             {
                 topic: "Architecture",
                 emoji: "🎵🎶",
@@ -6158,14 +5259,6 @@ const artCultureSet4 = {
             {
                 topic: "Literature",
                 emoji: "🖼️🏛️",
-                question: "Who wrote 'The Man Who Spoke Snakish'?",
-                options: [
-                    "Andrus Kivirähk",
-                    "Jaan Kross",
-                    "Tõnu Õnnepalu"
-                ],
-                correct: 0
-            },
             {
                 topic: "Dance",
                 emoji: "📝✍️",
@@ -6180,25 +5273,9 @@ const artCultureSet4 = {
             {
                 topic: "Sculpture",
                 emoji: "🎸🎹",
-                question: "What artist created 'Flamingo' in Chicago?",
-                options: [
-                    "Alexander Calder",
-                    "Pablo Picasso",
-                    "Joan Miró"
-                ],
-                correct: 0
-            },
             {
                 topic: "Cinema",
                 emoji: "💃🕺",
-                question: "Who directed 'Bicycle Thieves'?",
-                options: [
-                    "Vittorio De Sica",
-                    "Roberto Rossellini",
-                    "Federico Fellini"
-                ],
-                correct: 0
-            },
             {
                 topic: "Theater",
                 emoji: "🎤🎧",
@@ -6273,63 +5350,18 @@ const artCultureSet4 = {
             {
                 topic: "Literature",
                 emoji: "🌟✨",
-                question: "Who wrote 'The Cowards'?",
-                options: [
-                    "Josef Škvorecký",
-                    "Milan Kundera",
-                    "Bohumil Hrabal",
-                    "Ivan Klíma"
-                ],
-                correct: 0
-            },
             {
                 topic: "Dance",
                 emoji: "💎🏆",
-                question: "Who choreographed 'Jewels'?",
-                options: [
-                    "George Balanchine",
-                    "Jerome Robbins",
-                    "Marius Petipa",
-                    "Frederick Ashton"
-                ],
-                correct: 0
-            },
             {
                 topic: "Sculpture",
                 emoji: "🎯🎲",
-                question: "Who created 'Tilted Arc'?",
-                options: [
-                    "Richard Serra",
-                    "Donald Judd",
-                    "Carl Andre",
-                    "Dan Flavin"
-                ],
-                correct: 0
-            },
             {
                 topic: "Cinema",
                 emoji: "🃏🎴",
-                question: "Who directed 'Son of Saul'?",
-                options: [
-                    "László Nemes",
-                    "Béla Tarr",
-                    "István Szabó",
-                    "Miklós Jancsó"
-                ],
-                correct: 0
-            },
             {
                 topic: "Theater",
                 emoji: "🧩🎨",
-                question: "Who wrote 'The Birthday Party'?",
-                options: [
-                    "Harold Pinter",
-                    "Samuel Beckett",
-                    "Tom Stoppard",
-                    "Edward Albee"
-                ],
-                correct: 0
-            },
             {
                 topic: "World Heritage",
                 emoji: "🎼🎤",
@@ -6534,13 +5566,6 @@ const artCultureChapter18 = {
             {
                 topic: "Painting",
                 emoji: "🗿🏺",
-                question: "Who painted 'American Gothic'?",
-                options: [
-                    "Grant Wood",
-                    "Edward Hopper"
-                ],
-                correct: 0
-            },
             {
                 topic: "Music",
                 emoji: "🖊️📜",
@@ -6564,13 +5589,6 @@ const artCultureChapter18 = {
             {
                 topic: "Literature",
                 emoji: "🌟✨",
-                question: "Who wrote 'One Hundred Years of Solitude'?",
-                options: [
-                    "Gabriel García Márquez",
-                    "Isabel Allende"
-                ],
-                correct: 0
-            },
             {
                 topic: "Dance",
                 emoji: "💎🏆",
@@ -6604,13 +5622,6 @@ const artCultureChapter18 = {
             {
                 topic: "Theater",
                 emoji: "🧩🎨",
-                question: "What musical features 'The Sun Will Come Out Tomorrow'?",
-                options: [
-                    "Annie",
-                    "Oliver!"
-                ],
-                correct: 0
-            },
             {
                 topic: "Festivals",
                 emoji: "🎼🎤",
@@ -6636,25 +5647,9 @@ const artCultureChapter18 = {
             {
                 topic: "Painting",
                 emoji: "🏺🗿",
-                question: "Which artist painted 'Whistler's Mother'?",
-                options: [
-                    "James McNeill Whistler",
-                    "John Singer Sargent",
-                    "Winslow Homer"
-                ],
-                correct: 0
-            },
             {
                 topic: "Music",
                 emoji: "🎭✨",
-                question: "Which composer wrote 'Clair de Lune'?",
-                options: [
-                    "Claude Debussy",
-                    "Maurice Ravel",
-                    "Erik Satie"
-                ],
-                correct: 0
-            },
             {
                 topic: "Architecture",
                 emoji: "📖🖊️",
@@ -6669,14 +5664,6 @@ const artCultureChapter18 = {
             {
                 topic: "Literature",
                 emoji: "🎨🌈",
-                question: "Who wrote 'The Thorn Birds'?",
-                options: [
-                    "Colleen McCullough",
-                    "Thomas Keneally",
-                    "Peter Carey"
-                ],
-                correct: 0
-            },
             {
                 topic: "Dance",
                 emoji: "🎪🎠",
@@ -6702,14 +5689,6 @@ const artCultureChapter18 = {
             {
                 topic: "Cinema",
                 emoji: "🎸🥁",
-                question: "Who directed 'The Grand Budapest Hotel'?",
-                options: [
-                    "Wes Anderson",
-                    "Sofia Coppola",
-                    "Charlie Kaufman"
-                ],
-                correct: 0
-            },
             {
                 topic: "Theater",
                 emoji: "📸🎞️",
@@ -6784,63 +5763,18 @@ const artCultureChapter18 = {
             {
                 topic: "Literature",
                 emoji: "🖼️🏛️",
-                question: "Who wrote 'The Bone People'?",
-                options: [
-                    "Keri Hulme",
-                    "Janet Frame",
-                    "Katherine Mansfield",
-                    "Eleanor Catton"
-                ],
-                correct: 0
-            },
             {
                 topic: "Dance",
                 emoji: "📝✍️",
-                question: "Who choreographed 'Apollo'?",
-                options: [
-                    "George Balanchine",
-                    "Jerome Robbins",
-                    "Frederick Ashton",
-                    "Antony Tudor"
-                ],
-                correct: 0
-            },
             {
                 topic: "Sculpture",
                 emoji: "🎸🎹",
-                question: "Who created 'Reclining Figure' series?",
-                options: [
-                    "Henry Moore",
-                    "Barbara Hepworth",
-                    "Jean Arp",
-                    "Alberto Giacometti"
-                ],
-                correct: 0
-            },
             {
                 topic: "Cinema",
                 emoji: "💃🕺",
-                question: "Who directed 'Cairo Station'?",
-                options: [
-                    "Youssef Chahine",
-                    "Salah Abu Seif",
-                    "Shadi Abdel Salam",
-                    "Henry Barakat"
-                ],
-                correct: 0
-            },
             {
                 topic: "Theater",
                 emoji: "🎤🎧",
-                question: "Who wrote 'Fences'?",
-                options: [
-                    "August Wilson",
-                    "Lorraine Hansberry",
-                    "James Baldwin",
-                    "Amiri Baraka"
-                ],
-                correct: 0
-            },
             {
                 topic: "World Heritage",
                 emoji: "📷📸",
@@ -7048,13 +5982,6 @@ const artCultureChapters19_20 = {
             {
                 topic: "Painting",
                 emoji: "📚📖",
-                question: "Who painted 'The Persistence of Memory' with melting clocks?",
-                options: [
-                    "Salvador Dalí",
-                    "René Magritte"
-                ],
-                correct: 0
-            },
             {
                 topic: "Music",
                 emoji: "🎬🎥",
@@ -7078,13 +6005,6 @@ const artCultureChapters19_20 = {
             {
                 topic: "Literature",
                 emoji: "🖼️🏛️",
-                question: "Who wrote 'Animal Farm'?",
-                options: [
-                    "George Orwell",
-                    "Aldous Huxley"
-                ],
-                correct: 0
-            },
             {
                 topic: "Dance",
                 emoji: "📝✍️",
@@ -7118,13 +6038,6 @@ const artCultureChapters19_20 = {
             {
                 topic: "Theater",
                 emoji: "🎤🎧",
-                question: "What musical features 'I Dreamed a Dream'?",
-                options: [
-                    "Les Misérables",
-                    "Miss Saigon"
-                ],
-                correct: 0
-            },
             {
                 topic: "Festivals",
                 emoji: "📷📸",
@@ -7150,25 +6063,9 @@ const artCultureChapters19_20 = {
             {
                 topic: "Painting",
                 emoji: "🗿🏺",
-                question: "Which artist painted 'The Garden of Earthly Delights'?",
-                options: [
-                    "Hieronymus Bosch",
-                    "Pieter Bruegel",
-                    "Jan van Eyck"
-                ],
-                correct: 0
-            },
             {
                 topic: "Music",
                 emoji: "🖊️📜",
-                question: "Which composer wrote 'The Barber of Seville'?",
-                options: [
-                    "Gioachino Rossini",
-                    "Giuseppe Verdi",
-                    "Gaetano Donizetti"
-                ],
-                correct: 0
-            },
             {
                 topic: "Architecture",
                 emoji: "🎪🎡",
@@ -7183,14 +6080,6 @@ const artCultureChapters19_20 = {
             {
                 topic: "Literature",
                 emoji: "🌟✨",
-                question: "Who wrote 'Midnight's Children'?",
-                options: [
-                    "Salman Rushdie",
-                    "Arundhati Roy",
-                    "Vikram Seth"
-                ],
-                correct: 0
-            },
             {
                 topic: "Dance",
                 emoji: "💎🏆",
@@ -7205,25 +6094,9 @@ const artCultureChapters19_20 = {
             {
                 topic: "Sculpture",
                 emoji: "🎯🎲",
-                question: "What artist created 'L.O.V.E.' sculpture in Milan?",
-                options: [
-                    "Maurizio Cattelan",
-                    "Piero Manzoni",
-                    "Lucio Fontana"
-                ],
-                correct: 0
-            },
             {
                 topic: "Cinema",
                 emoji: "🃏🎴",
-                question: "Who directed 'Tokyo Story'?",
-                options: [
-                    "Yasujirō Ozu",
-                    "Akira Kurosawa",
-                    "Kenji Mizoguchi"
-                ],
-                correct: 0
-            },
             {
                 topic: "Theater",
                 emoji: "🧩🎨",
@@ -7298,63 +6171,18 @@ const artCultureChapters19_20 = {
             {
                 topic: "Literature",
                 emoji: "🎨🌈",
-                question: "Who wrote 'A Golden Age'?",
-                options: [
-                    "Tahmima Anam",
-                    "Mohsin Hamid",
-                    "Kamila Shamsie",
-                    "Nadeem Aslam"
-                ],
-                correct: 0
-            },
             {
                 topic: "Dance",
                 emoji: "🎪🎠",
-                question: "Who choreographed 'Parade'?",
-                options: [
-                    "Léonide Massine",
-                    "Michel Fokine",
-                    "Vaslav Nijinsky",
-                    "George Balanchine"
-                ],
-                correct: 0
-            },
             {
                 topic: "Sculpture",
                 emoji: "🎬📽️",
-                question: "Who created 'The Scream' sculpture?",
-                options: [
-                    "Edvard Munch",
-                    "Gustav Vigeland",
-                    "Per Kirkeby",
-                    "Kjell Nupen"
-                ],
-                correct: 0
-            },
             {
                 topic: "Cinema",
                 emoji: "🎸🥁",
-                question: "Who directed 'The Scent of Green Papaya'?",
-                options: [
-                    "Tran Anh Hung",
-                    "Dang Nhat Minh",
-                    "Le Van Kiet",
-                    "Phan Dang Di"
-                ],
-                correct: 0
-            },
             {
                 topic: "Theater",
                 emoji: "📸🎞️",
-                question: "Who wrote 'Angels in America'?",
-                options: [
-                    "Tony Kushner",
-                    "August Wilson",
-                    "David Mamet",
-                    "Sam Shepard"
-                ],
-                correct: 0
-            },
             {
                 topic: "World Heritage",
                 emoji: "🎨🖌️",
@@ -7552,13 +6380,6 @@ const artCultureChapters19_20 = {
             {
                 topic: "Painting",
                 emoji: "🏺🗿",
-                question: "Who painted 'Girl with a Pearl Earring'?",
-                options: [
-                    "Johannes Vermeer",
-                    "Rembrandt"
-                ],
-                correct: 0
-            },
             {
                 topic: "Music",
                 emoji: "🎭✨",
@@ -7582,13 +6403,6 @@ const artCultureChapters19_20 = {
             {
                 topic: "Literature",
                 emoji: "🎨🌈",
-                question: "Who wrote 'Twenty Thousand Leagues Under the Sea'?",
-                options: [
-                    "Jules Verne",
-                    "H.G. Wells"
-                ],
-                correct: 0
-            },
             {
                 topic: "Dance",
                 emoji: "🎪🎠",
@@ -7612,23 +6426,9 @@ const artCultureChapters19_20 = {
             {
                 topic: "Cinema",
                 emoji: "🎸🥁",
-                question: "What is Mexico's top film award?",
-                options: [
-                    "Ariel Award",
-                    "Golden Ariel"
-                ],
-                correct: 0
-            },
             {
                 topic: "Theater",
                 emoji: "📸🎞️",
-                question: "What musical features 'One Day More'?",
-                options: [
-                    "Les Misérables",
-                    "Phantom"
-                ],
-                correct: 0
-            },
             {
                 topic: "Festivals",
                 emoji: "🎨🖌️",
@@ -7654,25 +6454,9 @@ const artCultureChapters19_20 = {
             {
                 topic: "Painting",
                 emoji: "📚📖",
-                question: "Which artist painted 'The Birth of Venus'?",
-                options: [
-                    "Sandro Botticelli",
-                    "Leonardo da Vinci",
-                    "Raphael"
-                ],
-                correct: 0
-            },
             {
                 topic: "Music",
                 emoji: "🎬🎥",
-                question: "Which composer wrote 'Für Elise'?",
-                options: [
-                    "Ludwig van Beethoven",
-                    "Wolfgang Mozart",
-                    "Franz Schubert"
-                ],
-                correct: 0
-            },
             {
                 topic: "Architecture",
                 emoji: "🎵🎶",
@@ -7687,14 +6471,6 @@ const artCultureChapters19_20 = {
             {
                 topic: "Literature",
                 emoji: "🖼️🏛️",
-                question: "Who wrote 'The Sorrow of War'?",
-                options: [
-                    "Bảo Ninh",
-                    "Dương Thu Hương",
-                    "Nguyễn Nhật Ánh"
-                ],
-                correct: 0
-            },
             {
                 topic: "Dance",
                 emoji: "📝✍️",
@@ -7709,25 +6485,9 @@ const artCultureChapters19_20 = {
             {
                 topic: "Sculpture",
                 emoji: "🎸🎹",
-                question: "What artist created 'Chicago Picasso'?",
-                options: [
-                    "Pablo Picasso",
-                    "Joan Miró",
-                    "Henry Moore"
-                ],
-                correct: 0
-            },
             {
                 topic: "Cinema",
                 emoji: "💃🕺",
-                question: "Who directed 'La Dolce Vita'?",
-                options: [
-                    "Federico Fellini",
-                    "Michelangelo Antonioni",
-                    "Luchino Visconti"
-                ],
-                correct: 0
-            },
             {
                 topic: "Theater",
                 emoji: "🎤🎧",
@@ -7802,63 +6562,18 @@ const artCultureChapters19_20 = {
             {
                 topic: "Literature",
                 emoji: "🌟✨",
-                question: "Who wrote 'A Tomb for Boris Davidovich'?",
-                options: [
-                    "Danilo Kiš",
-                    "Ivo Andrić",
-                    "Milorad Pavić",
-                    "Meša Selimović"
-                ],
-                correct: 0
-            },
             {
                 topic: "Dance",
                 emoji: "💎🏆",
-                question: "Who choreographed 'Rite of Spring'?",
-                options: [
-                    "Vaslav Nijinsky",
-                    "Michel Fokine",
-                    "Léonide Massine",
-                    "Bronislava Nijinska"
-                ],
-                correct: 0
-            },
             {
                 topic: "Sculpture",
                 emoji: "🎯🎲",
-                question: "Who created 'The Gates' in Central Park?",
-                options: [
-                    "Christo and Jeanne-Claude",
-                    "Claes Oldenburg",
-                    "Robert Smithson",
-                    "Walter De Maria"
-                ],
-                correct: 0
-            },
             {
                 topic: "Cinema",
                 emoji: "🃏🎴",
-                question: "Who directed 'Manila in the Claws of Light'?",
-                options: [
-                    "Lino Brocka",
-                    "Ishmael Bernal",
-                    "Mike de Leon",
-                    "Brillante Mendoza"
-                ],
-                correct: 0
-            },
             {
                 topic: "Theater",
                 emoji: "🧩🎨",
-                question: "Who wrote 'Top Girls'?",
-                options: [
-                    "Caryl Churchill",
-                    "Pam Gems",
-                    "Sarah Kane",
-                    "Timberlake Wertenbaker"
-                ],
-                correct: 0
-            },
             {
                 topic: "World Heritage",
                 emoji: "🎼🎤",

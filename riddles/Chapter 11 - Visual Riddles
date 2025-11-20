@@ -339,11 +339,6 @@ const riddlesQuestions = {
             {
                 topic: "Visual Riddles - Medium",
                 emoji: "🎨🎯",
-                question: "What has words but never speaks?",
-                options: [
-                    "A book",
-                    "A sign"
-                ],
                 correct: 0
             },
             {
@@ -958,9 +953,6 @@ const riddlesQuestions = {
                 topic: "Visual Riddles - Extreme",
                 emoji: "🎨💡",
                 difficulty: "extreme",
-                question: "What has a face and two hands but no arms or legs?",
-                answer: "A clock or Clock"
-            },
             {
                 topic: "Visual Riddles - Extreme",
                 emoji: "🔍✨",
@@ -972,16 +964,10 @@ const riddlesQuestions = {
                 topic: "Visual Riddles - Extreme",
                 emoji: "👀🌟",
                 difficulty: "extreme",
-                question: "What has 88 keys but can't open any doors?",
-                answer: "A piano or Piano"
-            },
             {
                 topic: "Visual Riddles - Extreme",
                 emoji: "🎯🔮",
                 difficulty: "extreme",
-                question: "What has a neck but no head?",
-                answer: "A bottle or Bottle"
-            },
             {
                 topic: "Visual Riddles - Extreme",
                 emoji: "💫👁️",
@@ -993,9 +979,6 @@ const riddlesQuestions = {
                 topic: "Visual Riddles - Extreme",
                 emoji: "🌈🎨",
                 difficulty: "extreme",
-                question: "What has many teeth but cannot bite?",
-                answer: "A comb or Comb or A saw or Saw"
-            },
             {
                 topic: "Visual Riddles - Extreme",
                 emoji: "🔍💡",
@@ -1014,23 +997,14 @@ const riddlesQuestions = {
                 topic: "Visual Riddles - Extreme",
                 emoji: "👀🔮",
                 difficulty: "extreme",
-                question: "What is full of holes but still holds water?",
-                answer: "A sponge or Sponge"
-            },
             {
                 topic: "Visual Riddles - Extreme",
                 emoji: "🎨🌟",
                 difficulty: "extreme",
-                question: "What has a head and a tail but no body?",
-                answer: "A coin or Coin"
-            },
             {
                 topic: "Visual Riddles - Extreme",
                 emoji: "🔍👁️",
                 difficulty: "extreme",
-                question: "What has hands but cannot clap?",
-                answer: "A clock or Clock"
-            },
             {
                 topic: "Visual Riddles - Extreme",
                 emoji: "💫✨",
@@ -1042,9 +1016,6 @@ const riddlesQuestions = {
                 topic: "Visual Riddles - Extreme",
                 emoji: "🌈🎯",
                 difficulty: "extreme",
-                question: "What has a spine but no bones?",
-                answer: "A book or Book"
-            },
             {
                 topic: "Visual Riddles - Extreme",
                 emoji: "🎨💡",
@@ -1056,23 +1027,14 @@ const riddlesQuestions = {
                 topic: "Visual Riddles - Extreme",
                 emoji: "👁️🔍",
                 difficulty: "extreme",
-                question: "What has a thumb and four fingers but is not alive?",
-                answer: "A glove or Glove"
-            },
             {
                 topic: "Visual Riddles - Extreme",
                 emoji: "🔮🌟",
                 difficulty: "extreme",
-                question: "What has branches but no fruit, trunk or leaves?",
-                answer: "A bank or Bank"
-            },
             {
                 topic: "Visual Riddles - Extreme",
                 emoji: "✨👀",
                 difficulty: "extreme",
-                question: "What goes around the world but stays in a corner?",
-                answer: "A stamp or Stamp"
-            },
             {
                 topic: "Visual Riddles - Extreme",
                 emoji: "🎯🎨",
@@ -1084,16 +1046,10 @@ const riddlesQuestions = {
                 topic: "Visual Riddles - Extreme",
                 emoji: "💡🔍",
                 difficulty: "extreme",
-                question: "What has ears but cannot hear?",
-                answer: "Corn or Cornfield"
-            },
             {
                 topic: "Visual Riddles - Extreme",
                 emoji: "🌈👁️",
                 difficulty: "extreme",
-                question: "What has a tongue but cannot talk?",
-                answer: "A shoe or Shoe or A bell or Bell"
-            },
             {
                 topic: "Visual Riddles - Extreme",
                 emoji: "🔮✨",
@@ -1105,9 +1061,6 @@ const riddlesQuestions = {
                 topic: "Visual Riddles - Extreme",
                 emoji: "🎨🎯",
                 difficulty: "extreme",
-                question: "What building has the most stories?",
-                answer: "A library or Library"
-            },
             {
                 topic: "Visual Riddles - Extreme",
                 emoji: "👀💫",

@@ -44,9 +44,6 @@ const riddlesChapter2 = [
         topic: "Puzzle Stories",
         emoji: "🔮✨",
         difficulty: "extreme",
-        question: "A man walks into a bar and asks the bartender for a glass of water. The bartender pulls out a gun and points it at the man. The man says 'Thank you' and walks out. Why?",
-        answer: "He had hiccups or The man had hiccups"
-    },
     // Question 5 - Medium
     {
         topic: "Puzzle Stories",
@@ -192,10 +189,6 @@ const riddlesChapter2 = [
         topic: "Puzzle Stories",
         emoji: "🎯🎨",
         difficulty: "medium",
-        question: "A man describes his daughters: 'They are all blonde, but two; all brunette but two; all redheaded but two.' How many daughters?",
-        options: ["Three", "Six"],
-        correct: 0
-    },
     // Question 22 - Hard
     {
         topic: "Puzzle Stories",
@@ -306,10 +299,6 @@ const riddlesChapter2 = [
         topic: "Puzzle Stories",
         emoji: "🧠💫",
         difficulty: "hard",
-        question: "A man dies of old age on his 25th birthday. How is this possible?",
-        options: ["Born on February 29", "Time travel", "Cloning"],
-        correct: 0
-    },
     // Question 35 - Expert
     {
         topic: "Puzzle Stories",
@@ -464,18 +453,11 @@ const riddlesChapter2 = [
         topic: "Puzzle Stories",
         emoji: "🎪💡",
         difficulty: "extreme",
-        question: "You're in a cabin and it's pitch black. You have one match. There's a newspaper, a lamp, a candle, and a fireplace. What do you light first?",
-        answer: "The match"
-    },
     // Question 53 - Medium
     {
         topic: "Puzzle Stories",
         emoji: "🌈🧩",
         difficulty: "medium",
-        question: "What disappears as soon as you say its name?",
-        options: ["Silence", "A secret"],
-        correct: 0
-    },
     // Question 54 - Hard
     {
         topic: "Puzzle Stories",
@@ -604,9 +586,6 @@ const riddlesChapter2 = [
         topic: "Puzzle Stories",
         emoji: "🎪🌈",
         difficulty: "extreme",
-        question: "What has 13 hearts but no other organs?",
-        answer: "A deck of cards"
-    },
     // Question 69 - Medium
     {
         topic: "Puzzle Stories",
@@ -787,10 +766,6 @@ const riddlesChapter2 = [
         topic: "Puzzle Stories",
         emoji: "🎭🔍",
         difficulty: "medium",
-        question: "A rooster laid an egg on top of a barn roof. Which way did it roll?",
-        options: ["Roosters don't lay eggs", "Down the slope"],
-        correct: 0
-    },
     // Question 90 - Hard
     {
         topic: "Puzzle Stories",
@@ -857,10 +832,6 @@ const riddlesChapter2 = [
         topic: "Puzzle Stories",
         emoji: "🎭✨",
         difficulty: "medium",
-        question: "What can run but never walks, has a mouth but never talks, has a head but never weeps, has a bed but never sleeps?",
-        options: ["A river", "A clock"],
-        correct: 0
-    },
     // Question 98 - Hard
     {
         topic: "Puzzle Stories",

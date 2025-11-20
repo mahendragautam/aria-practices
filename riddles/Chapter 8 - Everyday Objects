@@ -27,21 +27,11 @@ const riddlesQuestions = {
             {
                 topic: "Everyday Objects - Easy",
                 emoji: "📱💡",
-                question: "I have a face and two hands but no arms or legs. What am I?",
-                options: [
-                    "A clock",
-                    "A watch"
-                ],
                 correct: 0
             },
             {
                 topic: "Everyday Objects - Easy",
                 emoji: "🔍✂️",
-                question: "I have a head and a tail but no body. What am I?",
-                options: [
-                    "A coin",
-                    "A nail"
-                ],
                 correct: 0
             },
             {
@@ -459,12 +449,6 @@ const riddlesQuestions = {
             {
                 topic: "Everyday Objects - Hard",
                 emoji: "🎨🖌️",
-                question: "I have bristles but I'm not a broom. Artists use me but I'm not a canvas. What am I?",
-                options: [
-                    "A paintbrush",
-                    "A palette",
-                    "A sponge"
-                ],
                 correct: 0
             },
             {
@@ -503,23 +487,11 @@ const riddlesQuestions = {
             {
                 topic: "Everyday Objects - Hard",
                 emoji: "🎣🪝",
-                question: "I'm curved and sharp. I catch but I'm not a net. Fishermen use me. What am I?",
-                options: [
-                    "A hook",
-                    "A lure",
-                    "A barb"
-                ],
                 correct: 0
             },
             {
                 topic: "Everyday Objects - Hard",
                 emoji: "🧵🪢",
-                question: "I'm made of thread but I'm not cloth. I'm thin but strong. I'm used for sewing. What am I?",
-                options: [
-                    "Thread",
-                    "String",
-                    "Yarn"
-                ],
                 correct: 0
             },
             {
@@ -591,23 +563,11 @@ const riddlesQuestions = {
             {
                 topic: "Everyday Objects - Hard",
                 emoji: "🔦🕯️",
-                question: "I'm a source of light but I'm not the sun. I need to be lit but I use wax. What am I?",
-                options: [
-                    "A candle",
-                    "A lantern",
-                    "A torch"
-                ],
                 correct: 0
             },
             {
                 topic: "Everyday Objects - Hard",
                 emoji: "🎪🎨",
-                question: "I'm full of colors but I'm not a rainbow. Artists mix me but I'm not paint. What am I?",
-                options: [
-                    "A palette",
-                    "A color wheel",
-                    "Crayons"
-                ],
                 correct: 0
             },
             {
@@ -648,13 +608,6 @@ const riddlesQuestions = {
             {
                 topic: "Everyday Objects - Expert",
                 emoji: "🧠💫",
-                question: "I'm in your pocket but not your wallet. I have buttons but I'm not a shirt. I make calls but I'm not a person. What am I?",
-                options: [
-                    "A phone",
-                    "A calculator",
-                    "A remote",
-                    "Keys"
-                ],
                 correct: 0
             },
             {
@@ -720,13 +673,6 @@ const riddlesQuestions = {
             {
                 topic: "Everyday Objects - Expert",
                 emoji: "🎨💭",
-                question: "I'm filled with feathers but I'm not a bird. I support your head but I'm not your neck. What am I?",
-                options: [
-                    "A pillow",
-                    "A cushion",
-                    "A mattress",
-                    "A blanket"
-                ],
                 correct: 0
             },
             {
@@ -768,13 +714,6 @@ const riddlesQuestions = {
             {
                 topic: "Everyday Objects - Expert",
                 emoji: "🌟💭",
-                question: "I'm transparent but you can see me. I'm fragile but can hold weight. I'm made from sand. What am I?",
-                options: [
-                    "Glass",
-                    "A window",
-                    "A bottle",
-                    "Crystal"
-                ],
                 correct: 0
             },
             {
@@ -852,13 +791,6 @@ const riddlesQuestions = {
             {
                 topic: "Everyday Objects - Expert",
                 emoji: "🌟💫",
-                question: "I'm round and bounce but I'm not alive. I'm pumped with air. Children play with me. What am I?",
-                options: [
-                    "A ball",
-                    "A balloon",
-                    "A tire",
-                    "A bubble"
-                ],
                 correct: 0
             },
             {
@@ -888,13 +820,6 @@ const riddlesQuestions = {
             {
                 topic: "Everyday Objects - Expert",
                 emoji: "🌈💭",
-                question: "I'm worn on feet but I'm not shoes. I'm soft and come in pairs. I keep toes warm. What am I?",
-                options: [
-                    "Socks",
-                    "Slippers",
-                    "Sandals",
-                    "Boots"
-                ],
                 correct: 0
             },
             {
@@ -912,13 +837,6 @@ const riddlesQuestions = {
             {
                 topic: "Everyday Objects - Expert",
                 emoji: "🔮🌟",
-                question: "I'm filled with lead but I'm not heavy. I write but I'm not a pen. I can be erased. What am I?",
-                options: [
-                    "A pencil",
-                    "A marker",
-                    "A crayon",
-                    "Chalk"
-                ],
                 correct: 0
             },
             {
@@ -936,13 +854,6 @@ const riddlesQuestions = {
             {
                 topic: "Everyday Objects - Expert",
                 emoji: "🎨🔍",
-                question: "I'm sharp and pointed. I pop balloons but I'm not a needle. I'm found on cacti and roses. What am I?",
-                options: [
-                    "A thorn",
-                    "A spike",
-                    "A pin",
-                    "A barb"
-                ],
                 correct: 0
             }
         ],
@@ -972,9 +883,6 @@ const riddlesQuestions = {
                 topic: "Everyday Objects - Extreme",
                 emoji: "🔍✨",
                 difficulty: "extreme",
-                question: "I have cities but no houses, forests but no trees, and water but no fish. What am I?",
-                answer: "A map or Map"
-            },
             {
                 topic: "Everyday Objects - Extreme",
                 emoji: "🌟💫",
@@ -1035,16 +943,10 @@ const riddlesQuestions = {
                 topic: "Everyday Objects - Extreme",
                 emoji: "🎪🌟",
                 difficulty: "extreme",
-                question: "I can be cracked, made, told, and played. What am I?",
-                answer: "A joke or Joke"
-            },
             {
                 topic: "Everyday Objects - Extreme",
                 emoji: "🧠💭",
                 difficulty: "extreme",
-                question: "I'm tall when I'm young and short when I'm old. I give light but I'm not electric. What am I?",
-                answer: "A candle or Candle"
-            },
             {
                 topic: "Everyday Objects - Extreme",
                 emoji: "🎯💫",
@@ -1056,9 +958,6 @@ const riddlesQuestions = {
                 topic: "Everyday Objects - Extreme",
                 emoji: "🧠🌈",
                 difficulty: "extreme",
-                question: "I'm lighter than a feather but the strongest person can't hold me for long. What am I?",
-                answer: "Your breath or Breath"
-            },
             {
                 topic: "Everyday Objects - Extreme",
                 emoji: "🎨🔮",
@@ -1077,9 +976,6 @@ const riddlesQuestions = {
                 topic: "Everyday Objects - Extreme",
                 emoji: "🎯🌟",
                 difficulty: "extreme",
-                question: "I'm found in socks, scarves, and mittens. I'm found in the paws of playful kittens. What am I?",
-                answer: "Yarn or Yarn or Wool"
-            },
             {
                 topic: "Everyday Objects - Extreme",
                 emoji: "🧩💫",
@@ -1091,9 +987,6 @@ const riddlesQuestions = {
                 topic: "Everyday Objects - Extreme",
                 emoji: "🎪✨",
                 difficulty: "extreme",
-                question: "I'm made of metal or wood and I have teeth. You use me in the morning to look neat. What am I?",
-                answer: "A comb or Comb"
-            },
             {
                 topic: "Everyday Objects - Extreme",
                 emoji: "🎯🔮",

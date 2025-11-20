@@ -97,11 +97,6 @@ const riddlesQuestions = {
             {
                 topic: "Short & Quick - Easy",
                 emoji: "🎪💡",
-                question: "What has a neck but no head?",
-                options: [
-                    "A bottle",
-                    "A giraffe statue"
-                ],
                 correct: 0
             },
             {
@@ -119,21 +114,11 @@ const riddlesQuestions = {
             {
                 topic: "Short & Quick - Medium",
                 emoji: "⚡🧠",
-                question: "What's full of holes but holds water?",
-                options: [
-                    "A sponge",
-                    "A bucket"
-                ],
                 correct: 0
             },
             {
                 topic: "Short & Quick - Medium",
                 emoji: "🎯💭",
-                question: "What's always coming but never arrives?",
-                options: [
-                    "Tomorrow",
-                    "A bus"
-                ],
                 correct: 0
             },
             {
@@ -179,11 +164,6 @@ const riddlesQuestions = {
             {
                 topic: "Short & Quick - Medium",
                 emoji: "🌈💡",
-                question: "What has words but never speaks?",
-                options: [
-                    "A book",
-                    "A sign"
-                ],
                 correct: 0
             },
             {
@@ -199,21 +179,11 @@ const riddlesQuestions = {
             {
                 topic: "Short & Quick - Medium",
                 emoji: "🔮🌟",
-                question: "What's black when bought, red when used?",
-                options: [
-                    "Charcoal",
-                    "Paint"
-                ],
                 correct: 0
             },
             {
                 topic: "Short & Quick - Medium",
                 emoji: "⚡💭",
-                question: "What has a spine but no bones?",
-                options: [
-                    "A book",
-                    "A cactus"
-                ],
                 correct: 0
             },
             {
@@ -249,21 +219,11 @@ const riddlesQuestions = {
             {
                 topic: "Short & Quick - Medium",
                 emoji: "🎪✨",
-                question: "What's always in front but can't be seen?",
-                options: [
-                    "The future",
-                    "Air"
-                ],
                 correct: 0
             },
             {
                 topic: "Short & Quick - Medium",
                 emoji: "🔮🧠",
-                question: "What has a ring but no finger?",
-                options: [
-                    "A phone",
-                    "A tree"
-                ],
                 correct: 0
             },
             {
@@ -289,11 +249,6 @@ const riddlesQuestions = {
             {
                 topic: "Short & Quick - Medium",
                 emoji: "🧩🎨",
-                question: "What's so fragile that saying its name breaks it?",
-                options: [
-                    "Silence",
-                    "Glass"
-                ],
                 correct: 0
             },
             {
@@ -309,21 +264,11 @@ const riddlesQuestions = {
             {
                 topic: "Short & Quick - Medium",
                 emoji: "🎪💭",
-                question: "What has a bottom at the top?",
-                options: [
-                    "Your legs",
-                    "A bottle"
-                ],
                 correct: 0
             },
             {
                 topic: "Short & Quick - Medium",
                 emoji: "🔮✨",
-                question: "What goes up when rain comes down?",
-                options: [
-                    "An umbrella",
-                    "Prices"
-                ],
                 correct: 0
             },
             {
@@ -339,21 +284,11 @@ const riddlesQuestions = {
             {
                 topic: "Short & Quick - Medium",
                 emoji: "🎯🌟",
-                question: "What's lighter than a feather but hard to hold?",
-                options: [
-                    "Your breath",
-                    "A bubble"
-                ],
                 correct: 0
             },
             {
                 topic: "Short & Quick - Medium",
                 emoji: "🧠💫",
-                question: "What has four eyes but can't see?",
-                options: [
-                    "Mississippi",
-                    "A spider"
-                ],
                 correct: 0
             },
             {
@@ -404,23 +339,11 @@ const riddlesQuestions = {
             {
                 topic: "Short & Quick - Hard",
                 emoji: "🧩✨",
-                question: "What building has the most stories?",
-                options: [
-                    "A library",
-                    "A skyscraper",
-                    "A bookstore"
-                ],
                 correct: 0
             },
             {
                 topic: "Short & Quick - Hard",
                 emoji: "🎨💫",
-                question: "What comes down but never goes up?",
-                options: [
-                    "Rain",
-                    "Age",
-                    "Temperature"
-                ],
                 correct: 0
             },
             {
@@ -448,12 +371,6 @@ const riddlesQuestions = {
             {
                 topic: "Short & Quick - Hard",
                 emoji: "🎪🧠",
-                question: "What can be cracked, made, told, and played?",
-                options: [
-                    "A joke",
-                    "An egg",
-                    "Music"
-                ],
                 correct: 0
             },
             {
@@ -525,34 +442,16 @@ const riddlesQuestions = {
             {
                 topic: "Short & Quick - Hard",
                 emoji: "🔮🧠",
-                question: "What has four wheels and flies?",
-                options: [
-                    "Garbage truck",
-                    "Airplane",
-                    "Car"
-                ],
                 correct: 0
             },
             {
                 topic: "Short & Quick - Hard",
                 emoji: "⚡🌈",
-                question: "What's at the end of everything?",
-                options: [
-                    "The letter G",
-                    "Death",
-                    "Nothing"
-                ],
                 correct: 0
             },
             {
                 topic: "Short & Quick - Hard",
                 emoji: "🎯💡",
-                question: "What's at the end of a rainbow?",
-                options: [
-                    "The letter W",
-                    "Gold",
-                    "Clouds"
-                ],
                 correct: 0
             },
             {
@@ -613,23 +512,11 @@ const riddlesQuestions = {
             {
                 topic: "Short & Quick - Hard",
                 emoji: "🎯🌟",
-                question: "What has a thousand needles but doesn't sew?",
-                options: [
-                    "A porcupine",
-                    "A cactus",
-                    "A tree"
-                ],
                 correct: 0
             },
             {
                 topic: "Short & Quick - Hard",
                 emoji: "🧠💫",
-                question: "What's always found on the ground but never dirty?",
-                options: [
-                    "Your shadow",
-                    "Grass",
-                    "Pavement"
-                ],
                 correct: 0
             },
             {
@@ -672,13 +559,6 @@ const riddlesQuestions = {
             {
                 topic: "Short & Quick - Expert",
                 emoji: "🌟🔮",
-                question: "I'm always hungry, I must be fed. Touch me and you'll die. What am I?",
-                options: [
-                    "Fire",
-                    "Lion",
-                    "Plant",
-                    "Baby"
-                ],
                 correct: 0
             },
             {
@@ -744,13 +624,6 @@ const riddlesQuestions = {
             {
                 topic: "Short & Quick - Expert",
                 emoji: "🔮🌟",
-                question: "What has one head, one foot, and four legs?",
-                options: [
-                    "A bed",
-                    "A table",
-                    "A chair",
-                    "Animal"
-                ],
                 correct: 0
             },
             {
@@ -768,13 +641,6 @@ const riddlesQuestions = {
             {
                 topic: "Short & Quick - Expert",
                 emoji: "🎯🎨",
-                question: "What has a heart that doesn't beat?",
-                options: [
-                    "Artichoke",
-                    "Statue",
-                    "Robot",
-                    "Playing card"
-                ],
                 correct: 0
             },
             {
@@ -864,13 +730,6 @@ const riddlesQuestions = {
             {
                 topic: "Short & Quick - Expert",
                 emoji: "🌟🔥",
-                question: "What's tall when young and short when old?",
-                options: [
-                    "A candle",
-                    "A person",
-                    "Tree",
-                    "Pencil"
-                ],
                 correct: 0
             },
             {
@@ -888,13 +747,6 @@ const riddlesQuestions = {
             {
                 topic: "Short & Quick - Expert",
                 emoji: "🔮✨",
-                question: "What's round on the ends and high in the middle?",
-                options: [
-                    "Ohio",
-                    "Ball",
-                    "Mountain",
-                    "Donut"
-                ],
                 correct: 0
             },
             {
@@ -912,13 +764,6 @@ const riddlesQuestions = {
             {
                 topic: "Short & Quick - Expert",
                 emoji: "🎯🌟",
-                question: "What has many teeth but cannot bite?",
-                options: [
-                    "A comb",
-                    "Saw",
-                    "Zipper",
-                    "Gear"
-                ],
                 correct: 0
             },
             {
@@ -965,9 +810,6 @@ const riddlesQuestions = {
                 topic: "Short & Quick - Extreme",
                 emoji: "🎯💭",
                 difficulty: "extreme",
-                question: "What 5-letter word has one left when two letters are removed?",
-                answer: "Stone or Money or Honey"
-            },
             {
                 topic: "Short & Quick - Extreme",
                 emoji: "🔍✨",
@@ -1014,23 +856,14 @@ const riddlesQuestions = {
                 topic: "Short & Quick - Extreme",
                 emoji: "🎪🎭",
                 difficulty: "extreme",
-                question: "What 4-letter word can be written forward, backward, or upside down and still be read left to right?",
-                answer: "NOON"
-            },
             {
                 topic: "Short & Quick - Extreme",
                 emoji: "🧠🎯",
                 difficulty: "extreme",
-                question: "I'm an odd number. Take away one letter and I become even. What am I?",
-                answer: "Seven"
-            },
             {
                 topic: "Short & Quick - Extreme",
                 emoji: "🔍💡",
                 difficulty: "extreme",
-                question: "What has 88 keys but can't open a single door?",
-                answer: "A piano or Piano"
-            },
             {
                 topic: "Short & Quick - Extreme",
                 emoji: "🎪🌟",
@@ -1042,9 +875,6 @@ const riddlesQuestions = {
                 topic: "Short & Quick - Extreme",
                 emoji: "🧠💭",
                 difficulty: "extreme",
-                question: "What has no beginning, end, or middle?",
-                answer: "A donut or Doughnut or A ring"
-            },
             {
                 topic: "Short & Quick - Extreme",
                 emoji: "🎯💫",
@@ -1070,9 +900,6 @@ const riddlesQuestions = {
                 topic: "Short & Quick - Extreme",
                 emoji: "🎯✨",
                 difficulty: "extreme",
-                question: "What goes through cities and fields but never moves?",
-                answer: "A road or Road"
-            },
             {
                 topic: "Short & Quick - Extreme",
                 emoji: "🌈💫",
@@ -1084,9 +911,6 @@ const riddlesQuestions = {
                 topic: "Short & Quick - Extreme",
                 emoji: "🎪✨",
                 difficulty: "extreme",
-                question: "What has one eye but cannot see?",
-                answer: "A needle or Needle"
-            },
             {
                 topic: "Short & Quick - Extreme",
                 emoji: "⚡🔮",
@@ -1112,9 +936,6 @@ const riddlesQuestions = {
                 topic: "Short & Quick - Extreme",
                 emoji: "🔥💡",
                 difficulty: "extreme",
-                question: "What has a thumb and four fingers but is not alive?",
-                answer: "A glove or Glove"
-            },
             {
                 topic: "Short & Quick - Extreme",
                 emoji: "🎨🧠",

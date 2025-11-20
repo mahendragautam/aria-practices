@@ -613,12 +613,6 @@ const riddlesQuestions = {
             {
                 topic: "Wordplay - Hard",
                 emoji: "✍️🌟",
-                question: "What phrase is an anagram of 'THE MORSE CODE'?",
-                options: [
-                    "Here come dots",
-                    "Dot comes here",
-                    "Code more set"
-                ],
                 correct: 0
             },
             {
@@ -768,13 +762,6 @@ const riddlesQuestions = {
             {
                 topic: "Wordplay - Expert",
                 emoji: "📖🔮",
-                question: "What is the only 15-letter word that can be spelled without repeating a letter?",
-                options: [
-                    "Uncopyrightable",
-                    "Dermatoglyphics",
-                    "Subdermatoglyphic",
-                    "Ambidextrously"
-                ],
                 correct: 0
             },
             {
@@ -864,13 +851,6 @@ const riddlesQuestions = {
             {
                 topic: "Wordplay - Expert",
                 emoji: "📝💫",
-                question: "What phrase is an anagram of 'THE HILTON'?",
-                options: [
-                    "Thin hotel",
-                    "Hotel thin",
-                    "Little hon",
-                    "Hot lentil"
-                ],
                 correct: 0
             },
             {
@@ -888,13 +868,6 @@ const riddlesQuestions = {
             {
                 topic: "Wordplay - Expert",
                 emoji: "📖🔮",
-                question: "What word is an anagram of 'CONVERSATION'?",
-                options: [
-                    "Voices rant on",
-                    "Conversation",
-                    "Nation covers",
-                    "Oration vents"
-                ],
                 correct: 0
             },
             {
@@ -912,13 +885,6 @@ const riddlesQuestions = {
             {
                 topic: "Wordplay - Expert",
                 emoji: "✍️🌟",
-                question: "What is an anagram of 'DESPERATION'?",
-                options: [
-                    "A rope ends it",
-                    "Desperate ion",
-                    "Praise noted",
-                    "Dates proein"
-                ],
                 correct: 0
             },
             {
@@ -965,9 +931,6 @@ const riddlesQuestions = {
                 topic: "Wordplay - Extreme",
                 emoji: "✍️🌟",
                 difficulty: "extreme",
-                question: "What phrase is a perfect anagram of 'DORMITORY'?",
-                answer: "Dirty room"
-            },
             {
                 topic: "Wordplay - Extreme",
                 emoji: "📖🎯",
@@ -979,37 +942,22 @@ const riddlesQuestions = {
                 topic: "Wordplay - Extreme",
                 emoji: "🔠💭",
                 difficulty: "extreme",
-                question: "What is an anagram of 'THE EYES'?",
-                answer: "They see"
-            },
             {
                 topic: "Wordplay - Extreme",
                 emoji: "📚✨",
                 difficulty: "extreme",
-                question: "What word is an anagram of 'ELEVEN PLUS TWO'?",
-                answer: "Twelve plus one"
-            },
             {
                 topic: "Wordplay - Extreme",
                 emoji: "🔤🎨",
                 difficulty: "extreme",
-                question: "What is the longest word you can type using only the top row of a QWERTY keyboard?",
-                answer: "Typewriter or Proprietor"
-            },
             {
                 topic: "Wordplay - Extreme",
                 emoji: "✍️🌈",
                 difficulty: "extreme",
-                question: "What word becomes shorter when you add two letters to it?",
-                answer: "Short or shorter"
-            },
             {
                 topic: "Wordplay - Extreme",
                 emoji: "📝💫",
                 difficulty: "extreme",
-                question: "What English word has three consecutive double letters?",
-                answer: "Bookkeeper or bookkeeping"
-            },
             {
                 topic: "Wordplay - Extreme",
                 emoji: "🔠🎪",
@@ -1021,9 +969,6 @@ const riddlesQuestions = {
                 topic: "Wordplay - Extreme",
                 emoji: "📖🔮",
                 difficulty: "extreme",
-                question: "What is an anagram of 'ASTRONOMERS'?",
-                answer: "Moon starers or No more stars"
-            },
             {
                 topic: "Wordplay - Extreme",
                 emoji: "🔤💡",
@@ -1042,9 +987,6 @@ const riddlesQuestions = {
                 topic: "Wordplay - Extreme",
                 emoji: "📝🎯",
                 difficulty: "extreme",
-                question: "What is an anagram of 'A GENTLEMAN'?",
-                answer: "Elegant man"
-            },
             {
                 topic: "Wordplay - Extreme",
                 emoji: "🔠💭",
@@ -1070,9 +1012,6 @@ const riddlesQuestions = {
                 topic: "Wordplay - Extreme",
                 emoji: "✍️🌈",
                 difficulty: "extreme",
-                question: "What is an anagram of 'SLOT MACHINES'?",
-                answer: "Cash lost in me"
-            },
             {
                 topic: "Wordplay - Extreme",
                 emoji: "📝💫",
@@ -1091,16 +1030,10 @@ const riddlesQuestions = {
                 topic: "Wordplay - Extreme",
                 emoji: "📖🔮",
                 difficulty: "extreme",
-                question: "What is an anagram of 'FUNERAL'?",
-                answer: "Real fun"
-            },
             {
                 topic: "Wordplay - Extreme",
                 emoji: "🔤💡",
                 difficulty: "extreme",
-                question: "What word contains four consecutive letters of the alphabet in order?",
-                answer: "Understudy or Afghanistan"
-            },
             {
                 topic: "Wordplay - Extreme",
                 emoji: "✍️🌟",
@@ -1119,9 +1052,6 @@ const riddlesQuestions = {
                 topic: "Wordplay - Extreme",
                 emoji: "🔠💭",
                 difficulty: "extreme",
-                question: "What is an anagram of 'THE MORSE CODE'?",
-                answer: "Here come dots"
-            },
             {
                 topic: "Wordplay - Extreme",
                 emoji: "📚✨",
@@ -1133,9 +1063,6 @@ const riddlesQuestions = {
                 topic: "Wordplay - Extreme",
                 emoji: "🔤🎨",
                 difficulty: "extreme",
-                question: "What is the longest English word with letters in reverse alphabetical order?",
-                answer: "Spoonfed or Sponged"
-            }
         ]
     }
 };

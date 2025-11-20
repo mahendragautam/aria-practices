@@ -27,11 +27,6 @@ const riddlesQuestions = {
             {
                 topic: "Number Riddles - Easy",
                 emoji: "🔢💡",
-                question: "I am an odd number. Take away one letter and I become even. What number am I?",
-                options: [
-                    "Seven",
-                    "Five"
-                ],
                 correct: 0
             },
             {
@@ -87,11 +82,6 @@ const riddlesQuestions = {
             {
                 topic: "Number Riddles - Easy",
                 emoji: "🔢🌈",
-                question: "How many times can you subtract 5 from 25?",
-                options: [
-                    "Once",
-                    "Five"
-                ],
                 correct: 0
             },
             {
@@ -448,12 +438,6 @@ const riddlesQuestions = {
             {
                 topic: "Number Riddles - Hard",
                 emoji: "🔢✨",
-                question: "Mary's father has 5 daughters: Nana, Nene, Nini, Nono. What is the fifth daughter's name?",
-                options: [
-                    "Mary",
-                    "Nunu",
-                    "Nina"
-                ],
                 correct: 0
             },
             {
@@ -1042,9 +1026,6 @@ const riddlesQuestions = {
                 topic: "Number Riddles - Extreme",
                 emoji: "🔢💭",
                 difficulty: "extreme",
-                question: "You're in a race with 100 people. You pass the person in 50th place. What place are you in now?",
-                answer: "50th place"
-            },
             {
                 topic: "Number Riddles - Extreme",
                 emoji: "🔢🌟",

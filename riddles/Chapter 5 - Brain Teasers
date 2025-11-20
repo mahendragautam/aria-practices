@@ -67,11 +67,6 @@ const riddlesQuestions = {
             {
                 topic: "Brain Teasers - Easy",
                 emoji: "🧠🎯",
-                question: "What goes up but never comes down?",
-                options: [
-                    "Your age",
-                    "A balloon"
-                ],
                 correct: 0
             },
             {
@@ -87,31 +82,16 @@ const riddlesQuestions = {
             {
                 topic: "Brain Teasers - Easy",
                 emoji: "🌈🧩",
-                question: "What is always in front of you but cannot be seen?",
-                options: [
-                    "The future",
-                    "Air"
-                ],
                 correct: 0
             },
             {
                 topic: "Brain Teasers - Easy",
                 emoji: "🔍💡",
-                question: "What begins with T, ends with T, and has T in it?",
-                options: [
-                    "A teapot",
-                    "Text"
-                ],
                 correct: 0
             },
             {
                 topic: "Brain Teasers - Easy",
                 emoji: "🎨🌟",
-                question: "What has many teeth but cannot bite?",
-                options: [
-                    "A comb",
-                    "A gear"
-                ],
                 correct: 0
             }
         ],
@@ -129,21 +109,11 @@ const riddlesQuestions = {
             {
                 topic: "Brain Teasers - Medium",
                 emoji: "🎯💭",
-                question: "What 5-letter word typed in all capital letters can be read the same upside down?",
-                options: [
-                    "SWIMS",
-                    "LEVEL"
-                ],
                 correct: 0
             },
             {
                 topic: "Brain Teasers - Medium",
                 emoji: "🌟✨",
-                question: "If you're running a race and pass the person in second place, what place are you in?",
-                options: [
-                    "Second place",
-                    "First place"
-                ],
                 correct: 0
             },
             {
@@ -169,11 +139,6 @@ const riddlesQuestions = {
             {
                 topic: "Brain Teasers - Medium",
                 emoji: "🧠🎨",
-                question: "What's the smallest number of chairs you need around a table to seat 4 fathers, 2 grandfathers, and 4 sons?",
-                options: [
-                    "4",
-                    "10"
-                ],
                 correct: 0
             },
             {
@@ -219,31 +184,16 @@ const riddlesQuestions = {
             {
                 topic: "Brain Teasers - Medium",
                 emoji: "🎨🔍",
-                question: "How many times can you subtract 5 from 25?",
-                options: [
-                    "Once",
-                    "5 times"
-                ],
                 correct: 0
             },
             {
                 topic: "Brain Teasers - Medium",
                 emoji: "🧠✨",
-                question: "What comes once in a minute, twice in a moment, but never in a thousand years?",
-                options: [
-                    "The letter M",
-                    "Time"
-                ],
                 correct: 0
             },
             {
                 topic: "Brain Teasers - Medium",
                 emoji: "🎯🌟",
-                question: "If two's company and three's a crowd, what are four and five?",
-                options: [
-                    "Nine",
-                    "A party"
-                ],
                 correct: 0
             },
             {
@@ -309,21 +259,11 @@ const riddlesQuestions = {
             {
                 topic: "Brain Teasers - Medium",
                 emoji: "🌟🧩",
-                question: "What is the center of gravity?",
-                options: [
-                    "The letter V",
-                    "The Earth's core"
-                ],
                 correct: 0
             },
             {
                 topic: "Brain Teasers - Medium",
                 emoji: "🔮🎪",
-                question: "What can go through glass without breaking it?",
-                options: [
-                    "Light",
-                    "Nothing"
-                ],
                 correct: 0
             },
             {
@@ -359,11 +299,6 @@ const riddlesQuestions = {
             {
                 topic: "Brain Teasers - Medium",
                 emoji: "🎪💡",
-                question: "What can run but has no legs?",
-                options: [
-                    "Water",
-                    "A clock"
-                ],
                 correct: 0
             }
         ],
@@ -404,12 +339,6 @@ const riddlesQuestions = {
             {
                 topic: "Brain Teasers - Hard",
                 emoji: "🔍💫",
-                question: "What occurs once in every minute, twice in every moment, but never in a thousand years?",
-                options: [
-                    "The letter M",
-                    "Time",
-                    "Nothing"
-                ],
                 correct: 0
             },
             {
@@ -426,12 +355,6 @@ const riddlesQuestions = {
             {
                 topic: "Brain Teasers - Hard",
                 emoji: "🧠🎨",
-                question: "If you overtake the last person in a race, what position are you in?",
-                options: [
-                    "Impossible",
-                    "Last",
-                    "Second to last"
-                ],
                 correct: 0
             },
             {
@@ -525,12 +448,6 @@ const riddlesQuestions = {
             {
                 topic: "Brain Teasers - Hard",
                 emoji: "🌈💫",
-                question: "I am an odd number. Take away one letter and I become even. What number am I?",
-                options: [
-                    "Seven",
-                    "Nine",
-                    "Five"
-                ],
                 correct: 0
             },
             {
@@ -547,23 +464,11 @@ const riddlesQuestions = {
             {
                 topic: "Brain Teasers - Hard",
                 emoji: "🧠🎯",
-                question: "What is always coming but never arrives?",
-                options: [
-                    "Tomorrow",
-                    "A bus",
-                    "The future"
-                ],
                 correct: 0
             },
             {
                 topic: "Brain Teasers - Hard",
                 emoji: "🔍🌟",
-                question: "The more of this there is, the less you see. What is it?",
-                options: [
-                    "Darkness",
-                    "Fog",
-                    "Distance"
-                ],
                 correct: 0
             },
             {
@@ -580,12 +485,6 @@ const riddlesQuestions = {
             {
                 topic: "Brain Teasers - Hard",
                 emoji: "🌟🧩",
-                question: "What word looks the same upside down and backwards?",
-                options: [
-                    "SWIMS",
-                    "NOON",
-                    "LEVEL"
-                ],
                 correct: 0
             },
             {
@@ -602,45 +501,21 @@ const riddlesQuestions = {
             {
                 topic: "Brain Teasers - Hard",
                 emoji: "🧠💫",
-                question: "What can travel around the world while staying in a corner?",
-                options: [
-                    "A stamp",
-                    "A spider",
-                    "Dust"
-                ],
                 correct: 0
             },
             {
                 topic: "Brain Teasers - Hard",
                 emoji: "🎯✨",
-                question: "What begins with T, ends with T, and has T in it?",
-                options: [
-                    "Teapot",
-                    "Test",
-                    "Text"
-                ],
                 correct: 0
             },
             {
                 topic: "Brain Teasers - Hard",
                 emoji: "🌈🔍",
-                question: "What can you hold in your right hand but never in your left?",
-                options: [
-                    "Your left hand",
-                    "A right glove",
-                    "Nothing"
-                ],
                 correct: 0
             },
             {
                 topic: "Brain Teasers - Hard",
                 emoji: "🎪💡",
-                question: "What gets bigger the more you take away from it?",
-                options: [
-                    "A hole",
-                    "A debt",
-                    "Space"
-                ],
                 correct: 0
             }
         ],
@@ -732,13 +607,6 @@ const riddlesQuestions = {
             {
                 topic: "Brain Teasers - Expert",
                 emoji: "🎯🌈",
-                question: "You're in a room with 3 switches. One controls a light bulb in another room. You can flip switches but can only check the room once. How do you determine which switch controls the bulb?",
-                options: [
-                    "Turn on 1st switch for 10 min, turn off, turn on 2nd, check room",
-                    "Flip all three",
-                    "Turn on two",
-                    "Impossible"
-                ],
                 correct: 0
             },
             {
@@ -816,13 +684,6 @@ const riddlesQuestions = {
             {
                 topic: "Brain Teasers - Expert",
                 emoji: "🌈💫",
-                question: "A man describes his daughters: 'All blonde except two, all brunette except two, all redhead except two.' How many daughters?",
-                options: [
-                    "3",
-                    "6",
-                    "4",
-                    "2"
-                ],
                 correct: 0
             },
             {
@@ -840,13 +701,6 @@ const riddlesQuestions = {
             {
                 topic: "Brain Teasers - Expert",
                 emoji: "🧠🎯",
-                question: "What is the sum of all numbers from 1 to 100?",
-                options: [
-                    "5,050",
-                    "5,000",
-                    "10,000",
-                    "4,950"
-                ],
                 correct: 0
             },
             {
@@ -951,9 +805,6 @@ const riddlesQuestions = {
                 topic: "Brain Teasers - Extreme",
                 emoji: "🔮✨",
                 difficulty: "extreme",
-                question: "You're in a room with two doors guarded by two people. One always lies, one always tells truth. You can ask one guard one question to find the door to freedom. What do you ask?",
-                answer: "Which door would the other guard say leads to freedom or What would the other guard tell me"
-            },
             {
                 topic: "Brain Teasers - Extreme",
                 emoji: "🧠🔮",
@@ -1000,16 +851,10 @@ const riddlesQuestions = {
                 topic: "Brain Teasers - Extreme",
                 emoji: "🌟🧠",
                 difficulty: "extreme",
-                question: "A man says: 'I am lying.' Is this statement true or false?",
-                answer: "Paradox or Neither or Both"
-            },
             {
                 topic: "Brain Teasers - Extreme",
                 emoji: "🎪💫",
                 difficulty: "extreme",
-                question: "You're on a game show with 3 doors. Behind one is a car, behind two are goats. You pick door 1. Host opens door 3 showing a goat. What's your probability of winning if you switch to door 2?",
-                answer: "2/3 or 66.7% or Two thirds"
-            },
             {
                 topic: "Brain Teasers - Extreme",
                 emoji: "🌟💫",
@@ -1084,9 +929,6 @@ const riddlesQuestions = {
                 topic: "Brain Teasers - Extreme",
                 emoji: "🧠💡",
                 difficulty: "extreme",
-                question: "You're at a fork with two paths. A native says 'At least one of the following statements is true: Path A leads to paradise. Path B leads to death.' Which path do you take?",
-                answer: "Path A or A"
-            },
             {
                 topic: "Brain Teasers - Extreme",
                 emoji: "🎯💫",
@@ -1105,9 +947,6 @@ const riddlesQuestions = {
                 topic: "Brain Teasers - Extreme",
                 emoji: "🎪✨",
                 difficulty: "extreme",
-                question: "You're in a room with 3 switches controlling a light bulb in another room. You can flip switches but can only enter the room once. How do you determine which switch controls the bulb?",
-                answer: "Turn on switch 1 for 10 minutes, turn off, turn on switch 2, check room"
-            },
             {
                 topic: "Brain Teasers - Extreme",
                 emoji: "🎯🔮",
@@ -1119,9 +958,6 @@ const riddlesQuestions = {
                 topic: "Brain Teasers - Extreme",
                 emoji: "🔮💭",
                 difficulty: "extreme",
-                question: "If you write all numbers from 300 to 400, how many times do you write the digit 3?",
-                answer: "120 or One hundred twenty"
-            }
         ]
     }
 };

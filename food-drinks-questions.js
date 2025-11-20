@@ -5507,13 +5507,6 @@ const foodDrinksQuestions = {
             {
                 "topic": "Oolong Tea",
                 "emoji": "🍵🍂",
-                "question": "Is oolong tea partially oxidized?",
-                "options": [
-                    "True",
-                    "False"
-                ],
-                "correct": 0
-            },
             {
                 "topic": "Lettuce",
                 "emoji": "🥬💚",
@@ -5937,9 +5930,6 @@ const foodDrinksQuestions = {
             {
                 "topic": "Citrus Varieties",
                 "emoji": "🍊🍋",
-                "question": "Name three citrus fruits?",
-                "answer": "Orange, Lemon, Lime, Grapefruit, Mandarin (any 3)"
-            },
             {
                 "topic": "Plating Techniques",
                 "emoji": "🍽️🎨",
@@ -6993,13 +6983,6 @@ const foodDrinksQuestions = {
             {
                 "topic": "Blackberry Juice",
                 "emoji": "🫐🥤",
-                "question": "Is blackberry juice dark purple?",
-                "options": [
-                    "True",
-                    "False"
-                ],
-                "correct": 1
-            },
             {
                 "topic": "Toffee",
                 "emoji": "🍬🟤",
@@ -7085,13 +7068,6 @@ const foodDrinksQuestions = {
             {
                 "topic": "Tortilla",
                 "emoji": "🌮🫓",
-                "question": "Is tortilla a flatbread?",
-                "options": [
-                    "True",
-                    "False"
-                ],
-                "correct": 0
-            },
             {
                 "topic": "Lychee Juice",
                 "emoji": "🥤🍈",
@@ -7407,9 +7383,6 @@ const foodDrinksQuestions = {
             {
                 "topic": "Detox Drinks",
                 "emoji": "🥤🌿",
-                "question": "Name three detox beverages?",
-                "answer": "Lemon water, Green juice, Ginger tea, Cucumber water, Detox tea (any 3)"
-            },
             {
                 "topic": "Legumes",
                 "emoji": "🫘🌱",
@@ -7945,9 +7918,6 @@ const foodDrinksQuestions = {
             {
                 "topic": "Berry Types",
                 "emoji": "🫐🍓",
-                "question": "Name three types of berries?",
-                "answer": "Strawberry, Blueberry, Raspberry, Blackberry, Cranberry (any 3)"
-            },
             {
                 "topic": "Molecular Gastronomy",
                 "emoji": "🔬🍽️",
@@ -8017,13 +7987,6 @@ const foodDrinksQuestions = {
             {
                 "topic": "Hibiscus Tea",
                 "emoji": "🍵🌺",
-                "question": "Is hibiscus tea red?",
-                "options": [
-                    "True",
-                    "False"
-                ],
-                "correct": 0
-            },
             {
                 "topic": "Zucchini",
                 "emoji": "🥒💚",
@@ -8119,13 +8082,6 @@ const foodDrinksQuestions = {
             {
                 "topic": "Dalgona Coffee",
                 "emoji": "☕☁️",
-                "question": "Is dalgona coffee whipped?",
-                "options": [
-                    "Not whipped",
-                    "True"
-                ],
-                "correct": 1
-            },
             {
                 "topic": "Naan Bread",
                 "emoji": "🫓🇮🇳",
@@ -9335,15 +9291,6 @@ const foodDrinksQuestions = {
             {
                 "topic": "Brunoise Cut",
                 "emoji": "🔪🥕",
-                "question": "Is brunoise 1-2mm dice?",
-                "options": [
-                    "True",
-                    "False",
-                    "Large",
-                    "Strips"
-                ],
-                "correct": 0
-            },
             {
                 "topic": "Bancha Tea",
                 "emoji": "🍵🍂",
@@ -9427,9 +9374,6 @@ const foodDrinksQuestions = {
             {
                 "topic": "Probiotic Drinks",
                 "emoji": "🫧🥤",
-                "question": "Name three probiotic beverages?",
-                "answer": "Kombucha, Kefir, Yogurt drink, Kvass, Lassi (any 3)"
-            },
             {
                 "topic": "Candied Foods",
                 "emoji": "🍬✨",
@@ -9503,13 +9447,6 @@ const foodDrinksQuestions = {
             {
                 "topic": "Coconut Juice",
                 "emoji": "🥥🥤",
-                "question": "Does coconut water come from coconuts?",
-                "options": [
-                    "False",
-                    "True"
-                ],
-                "correct": 1
-            },
             {
                 "topic": "Cotton Candy",
                 "emoji": "🍭☁️",

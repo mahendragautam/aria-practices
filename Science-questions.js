@@ -1735,14 +1735,6 @@ const scienceQuestions = {
             {
                 topic: "Physics",
                 emoji: "👁️👀",
-                question: "What is Newton's third law?",
-                options: [
-                    "Inertia",
-                    "Action-reaction",
-                    "F=ma"
-                ],
-                correct: 1
-            },
             {
                 topic: "Chemistry",
                 emoji: "🌤️⛅",
@@ -8763,14 +8755,6 @@ const scienceQuestions = {
             {
                 topic: "Physics",
                 emoji: "👁️👀",
-                question: "What is Kirchhoff's current law?",
-                options: [
-                    "Current sum zero at node",
-                    "Voltage sum zero",
-                    "Power constant"
-                ],
-                correct: 1
-            },
             {
                 topic: "Chemistry",
                 emoji: "🌤️⛅",

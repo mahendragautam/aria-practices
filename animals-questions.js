@@ -1121,7 +1121,7 @@ const animalsQuestions = {
                 emoji: "🐻🐼",
                 question: "Squirrels forget where they bury nuts.",
                 options: ["True", "False"],
-                correct: 1
+                correct: 0
             }
         ],
         medium: [
@@ -2125,14 +2125,14 @@ const animalsChapters6to20 = {
                 emoji: "🐬🐳",
                 question: "Blue whales are the largest animals ever.",
                 options: ["True", "False"],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Reptiles",
                 emoji: "🐊🦎",
                 question: "Chameleons change color instantly.",
                 options: ["False", "True"],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Insects",
@@ -2146,21 +2146,21 @@ const animalsChapters6to20 = {
                 emoji: "🦁🐯",
                 question: "Kangaroos can't walk backwards.",
                 options: ["True", "False"],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Birds",
                 emoji: "🐧🦆",
                 question: "Eagles have excellent eyesight.",
                 options: ["True", "False"],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Marine Life",
                 emoji: "🦈🐡",
                 question: "Squids have beaks.",
                 options: ["True", "False"],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Reptiles",
@@ -2174,7 +2174,7 @@ const animalsChapters6to20 = {
                 emoji: "🐻🐼",
                 question: "Beavers build dams.",
                 options: ["True", "False"],
-                correct: 1
+                correct: 0
             }
         ],
         medium: [
@@ -2775,21 +2775,21 @@ const animalsChapters6to20 = {
                 emoji: "🐵🦍",
                 question: "Sea otters hold hands while sleeping.",
                 options: ["True", "False"],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Birds",
                 emoji: "🦩🦚",
                 question: "Eagles can see fish underwater.",
                 options: ["True", "False"],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Marine Life",
                 emoji: "🐠🐟",
                 question: "Hermit crabs use empty shells.",
                 options: ["True", "False"],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Reptiles",
@@ -3405,21 +3405,21 @@ const animalsChapters11to20 = {
                 emoji: "🐆🐅",
                 question: "Parrots come in many colors.",
                 options: ["True", "False"],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Marine Life",
                 emoji: "🦎🐉",
                 question: "Lobsters can regenerate claws.",
                 options: ["True", "False"],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Reptiles",
                 emoji: "🐋🐚",
                 question: "Iguanas are herbivores.",
                 options: ["True", "False"],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Insects",
@@ -3433,21 +3433,21 @@ const animalsChapters11to20 = {
                 emoji: "🐃🐄",
                 question: "Sloths are slow movers.",
                 options: ["True", "False"],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Birds",
                 emoji: "🐑🐐",
                 question: "Peacocks are male peafowl.",
                 options: ["True", "False"],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Marine Life",
                 emoji: "🐪🦙",
                 question: "Octopuses are invertebrates.",
                 options: ["True", "False"],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Reptiles",
@@ -3461,7 +3461,7 @@ const animalsChapters11to20 = {
                 emoji: "🦨🦔",
                 question: "Skunks spray when threatened.",
                 options: ["True", "False"],
-                correct: 1
+                correct: 0
             }
         ],
         medium: [
@@ -4364,7 +4364,7 @@ const animalsChapters11to20 = {
                 emoji: "🐋🐚",
                 question: "Geckos can climb smooth surfaces.",
                 options: ["True", "False"],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Insects",
@@ -4378,21 +4378,21 @@ const animalsChapters11to20 = {
                 emoji: "🐃🐄",
                 question: "Skunks are omnivores.",
                 options: ["True", "False"],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Birds",
                 emoji: "🐑🐐",
                 question: "Parrots can live 50+ years.",
                 options: ["True", "False"],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Marine Life",
                 emoji: "🐪🦙",
                 question: "Clownfish live in anemones.",
                 options: ["True", "False"],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Reptiles",
@@ -4406,7 +4406,7 @@ const animalsChapters11to20 = {
                 emoji: "🦨🦔",
                 question: "Bats use echolocation.",
                 options: ["True", "False"],
-                correct: 1
+                correct: 0
             }
         ],
         medium: [
@@ -4711,7 +4711,7 @@ const animalsChapters11to20 = {
                 emoji: "🐨🦥",
                 question: "All bats drink blood.",
                 options: ["False", "True"],
-                correct: 1
+                correct: 0
             }
         ],
         medium: [
@@ -5204,7 +5204,7 @@ const animalsChapters11to20 = {
                 emoji: "🐪🦙",
                 question: "Crabs can walk forward.",
                 options: ["False", "True"],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Reptiles",
@@ -5218,7 +5218,7 @@ const animalsChapters11to20 = {
                 emoji: "🦨🦔",
                 question: "Badgers are nocturnal.",
                 options: ["True", "False"],
-                correct: 1
+                correct: 0
             }
         ],
         medium: [
@@ -5513,7 +5513,7 @@ const animalsChapters11to20 = {
                 emoji: "🦭🦦",
                 question: "How many deaths do mosquitoes cause yearly?",
                 options: ["10,000", "100,000", "700,000+"],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Mammals",
@@ -5536,7 +5536,7 @@ const animalsChapters11to20 = {
                 emoji: "🐃🐄",
                 question: "How many trees can a beaver cut yearly?",
                 options: ["50", "200", "500"],
-                correct: 1
+                correct: 0
             }
         ],
         expert: [
@@ -5545,42 +5545,42 @@ const animalsChapters11to20 = {
                 emoji: "🐑🐐",
                 question: "What digestive system do pandas have?",
                 options: ["Herbivore", "Carnivore", "Omnivore", "None"],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Birds",
                 emoji: "🐪🦙",
                 question: "Which hemisphere sleeps in ducks?",
                 options: ["Both", "Alternates", "Left only", "Right only"],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Marine Life",
                 emoji: "🦡🦫",
                 question: "How far can blue whale calls travel?",
                 options: ["10 miles", "100 miles", "1,000 miles", "5,000 miles"],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Reptiles",
                 emoji: "🦨🦔",
                 question: "Can chameleons see in two directions?",
                 options: ["No", "Yes, independently", "Only forward", "Only backward"],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Insects",
                 emoji: "🐘🦏",
                 question: "What disease kills the most via mosquitoes?",
                 options: ["Dengue", "Malaria", "Zika", "Yellow fever"],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Mammals",
                 emoji: "🦅🦜",
                 question: "How big is a newborn joey?",
                 options: ["1 inch", "6 inches", "1 foot", "2 feet"],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Birds",
@@ -5596,7 +5596,7 @@ const animalsChapters11to20 = {
                 emoji: "🦁🐯",
                 question: "How long can beavers hold breath?",
                 options: ["2 min", "5 min", "15 min", "30 min"],
-                correct: 1
+                correct: 0
             }
         ],
         extreme: [

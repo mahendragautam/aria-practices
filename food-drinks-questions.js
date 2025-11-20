@@ -5515,7 +5515,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Grape Soda",
@@ -5525,7 +5525,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Maple Syrup",
@@ -5545,7 +5545,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -7001,7 +7001,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
 {
                 "topic": "Eggplant",
@@ -7011,7 +7011,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Dr Pepper",
@@ -7021,7 +7021,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Peanut Butter",
@@ -7041,7 +7041,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -7995,7 +7995,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Pepsi",
@@ -8005,7 +8005,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Nutella",
@@ -8025,7 +8025,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -9465,7 +9465,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Turnip",
@@ -9475,7 +9475,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Tonic Water",
@@ -9485,7 +9485,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Soy Sauce",
@@ -9505,7 +9505,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [

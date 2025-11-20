@@ -8538,7 +8538,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Scoring",
@@ -8558,7 +8558,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Serve",
@@ -8581,7 +8581,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Court Lines",
@@ -8591,7 +8591,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [

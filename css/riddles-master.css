@@ -1,0 +1,89 @@
+/**
+ * Riddles Master CSS
+ * ===================
+ * Imports all riddles CSS modules
+ *
+ * USAGE:
+ * Include this single file in your HTML:
+ * <link rel="stylesheet" href="css/riddles-master.css">
+ *
+ * This will load all riddles styles:
+ * - riddles-main.css - Core riddles interface
+ * - riddles-progress.css - Progress bar, feedback, badges
+ * - riddles-results.css - Results screen
+ */
+
+/* Import all riddles modules */
+@import 'riddles/riddles-main.css';
+@import 'riddles/riddles-progress.css';
+@import 'riddles/riddles-results.css';
+
+/* Additional Global Styles for Riddles */
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Title & Subtitle */
+.title {
+    text-align: center;
+    font-size: 3em;
+    margin: 30px 0 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 1.3em;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+/* Section Title */
+.section-title {
+    font-size: 1.8em;
+    margin: 40px 0 20px;
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Cursor Effects */
+.riddle-entry-card,
+.level-card,
+.answer-option,
+.submit-answer-btn,
+.show-answer-btn,
+.quiz-back-button,
+.next-button,
+.back-button,
+.retry-btn,
+.home-btn,
+.main-home-btn {
+    cursor: pointer;
+}
+
+.riddle-entry-card:active,
+.level-card:active,
+.answer-option:active,
+button:active {
+    cursor: grabbing;
+    transform: scale(0.98);
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+    .title {
+        font-size: 2em;
+    }
+
+    .subtitle {
+        font-size: 1.1em;
+    }
+
+    .section-title {
+        font-size: 1.5em;
+    }
+}

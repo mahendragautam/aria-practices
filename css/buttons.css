@@ -19,6 +19,16 @@
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
+/* Cursor fist effect on click */
+.back-button:active,
+.restart-button:active,
+.next-button:active,
+.quiz-back-button:active,
+button:active {
+    cursor: grabbing;
+    transform: scale(0.98) !important;
+}
+
 .back-button:hover, .restart-button:hover, .next-button:hover, .quiz-back-button:hover {
     background: #5568d3;
     transform: translateY(-2px);

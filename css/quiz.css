@@ -78,6 +78,12 @@
     transform: translateY(-3px);
 }
 
+/* Cursor fist effect on click */
+.answer-option:active {
+    cursor: grabbing;
+    transform: scale(0.98) !important;
+}
+
 .answer-option.selected {
     border-color: #667eea;
     background: #e8eaf6;

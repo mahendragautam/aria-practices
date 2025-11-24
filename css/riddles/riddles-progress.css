@@ -1,0 +1,142 @@
+/**
+ * Riddles Progress & Feedback CSS
+ * ================================
+ * Progress bar, feedback messages, and topic badges
+ */
+
+/* Progress Info */
+.progress-info {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #666;
+    margin: 20px 0 10px;
+}
+
+/* Progress Bar */
+.progress-bar-container {
+    width: 100%;
+    margin: 0 0 30px;
+}
+
+.progress-bar {
+    background: #f0f0f0;
+    border-radius: 10px;
+    height: 12px;
+    overflow: hidden;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.progress-fill {
+    background: linear-gradient(90deg, #667eea, #764ba2);
+    height: 100%;
+    transition: width 0.5s ease;
+    border-radius: 10px;
+}
+
+/* Topic Badge */
+.topic-badge {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 1em;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+.topic-logic {
+    background: #667eea;
+}
+
+.topic-wordplay {
+    background: #f093fb;
+}
+
+.topic-mystery {
+    background: #4facfe;
+}
+
+.topic-lateral {
+    background: #43e97b;
+}
+
+/* Feedback Message */
+.feedback-message {
+    margin: 25px 0;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3em;
+    display: none;
+}
+
+.feedback-message:not(:empty) {
+    display: block;
+}
+
+.feedback-correct {
+    background: #d4edda;
+    color: #155724;
+    border: 2px solid #c3e6cb;
+}
+
+.feedback-incorrect {
+    background: #f8d7da;
+    color: #721c24;
+    border: 2px solid #f5c6cb;
+}
+
+/* Timer Container */
+.timer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+    background: white;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.timer-container.timer-warning {
+    background: #fff3cd;
+    border: 2px solid #ffc107;
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.02); }
+}
+
+.timer-display {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+.timer-warning .timer-display {
+    color: #d9534f;
+}
+
+.timer-pause-btn {
+    padding: 10px 20px;
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.timer-pause-btn:hover {
+    transform: scale(1.05);
+    background: #5568d3;
+}

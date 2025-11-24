@@ -37,6 +37,15 @@ a.subject-card:active {
     box-shadow: 0 15px 40px rgba(0,0,0,0.3);
 }
 
+/* Cursor fist effect on click */
+.subject-card:active,
+.chapter-card:active,
+.level-card:active,
+.card:active {
+    cursor: grabbing;
+    transform: scale(0.98) !important;
+}
+
 .subject-card:nth-of-type(1) { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
 .subject-card:nth-of-type(2) { background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); }
 .subject-card:nth-of-type(3) { background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); }

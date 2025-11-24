@@ -42,6 +42,15 @@
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
 }
 
+/* Cursor fist effect on click */
+.joke-category-card:active,
+.show-answer-btn:active,
+.next-jokes-btn:active,
+.prev-jokes-btn:active {
+    cursor: grabbing;
+    transform: scale(0.98) !important;
+}
+
 .joke-category-card .category-emoji {
     font-size: 3em;
     margin-bottom: 15px;

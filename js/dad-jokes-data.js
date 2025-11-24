@@ -60,6 +60,18 @@ try {
 
 // Count jokes per category
 function getJokeCount(category) {
+    // Special handling for Random Mix (Category 5)
+    if (category === 5) {
+        // Count all jokes from categories 1-4
+        let total = 0;
+        for (let i = 1; i <= 4; i++) {
+            if (dadJokesData[i]) {
+                total += dadJokesData[i].length;
+            }
+        }
+        return total;
+    }
+
     if (!dadJokesData[category]) return 0;
     return dadJokesData[category].length;
 }

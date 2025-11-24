@@ -76,12 +76,25 @@ function selectJokeCategory(categoryNum) {
 
 // Start joke session - shuffle jokes and show first set
 function startJokeSession() {
-    const jokes = dadJokesData[currentJokeCategory];
+    let jokes = [];
 
-    // Debug: Check if jokes loaded
-    console.log('Category:', currentJokeCategory);
-    console.log('Jokes:', jokes);
-    console.log('All dadJokesData:', dadJokesData);
+    // Special handling for Random Mix (Category 5)
+    if (currentJokeCategory === 5) {
+        // Combine all jokes from categories 1-4
+        console.log('🎲 Random Mix: Combining all categories...');
+        for (let i = 1; i <= 4; i++) {
+            if (dadJokesData[i] && dadJokesData[i].length > 0) {
+                jokes = jokes.concat(dadJokesData[i]);
+                console.log(`  ✅ Added ${dadJokesData[i].length} jokes from Category ${i}`);
+            }
+        }
+        console.log(`🎲 Random Mix: Total ${jokes.length} jokes combined`);
+    } else {
+        // Normal category - use its own jokes
+        jokes = dadJokesData[currentJokeCategory];
+        console.log('Category:', currentJokeCategory);
+        console.log('Jokes:', jokes);
+    }
 
     if (!jokes || jokes.length === 0) {
         alert('❌ No jokes available for this category!\n\nPlease make sure:\n1. All joke snippet files are added to WPCode\n2. Snippets are ACTIVE (not disabled)\n3. Snippets load BEFORE this main file');
@@ -89,7 +102,7 @@ function startJokeSession() {
         return;
     }
 
-    // Shuffle jokes
+    // Shuffle jokes EVERY TIME (random on each session open)
     shuffledJokes = [...jokes].sort(() => Math.random() - 0.5);
     currentJokeSet = 0;
 
@@ -149,11 +162,14 @@ function displayJokeSet() {
         </div>
 
         <div class="jokes-navigation">
+            ${currentJokeSet > 0 ? '<button class="prev-jokes-btn" onclick="previousJokeSet()">← Previous Set</button>' : ''}
             <button class="next-jokes-btn" onclick="nextJokeSet()">Next Set →</button>
         </div>
 
         <button class="back-button" onclick="confirmQuitJokes()">← Quit</button>
     `;
+
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 // Toggle joke answer visibility
@@ -178,6 +194,14 @@ function toggleJokeAnswer(index) {
 function nextJokeSet() {
     currentJokeSet++;
     displayJokeSet();
+}
+
+// Show previous set of jokes
+function previousJokeSet() {
+    if (currentJokeSet > 0) {
+        currentJokeSet--;
+        displayJokeSet();
+    }
 }
 
 // Show jokes complete screen

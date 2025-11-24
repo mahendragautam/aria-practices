@@ -5,7 +5,7 @@
  *
  * USAGE:
  * Include this single file in your HTML after quiz files:
- * <script src="js/riddles-master.js"></script>
+ * <script src="riddles-master.js"></script>
  *
  * This will automatically load all riddles modules:
  * - riddles-state.js - State variables & configuration

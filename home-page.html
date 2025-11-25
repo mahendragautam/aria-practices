@@ -2,7 +2,7 @@
 =============================================================================
 WORDPRESS PAGE BODY CONTENT
 =============================================================================
-File: wordpress-page-body.html
+File: home-page.html
 Purpose: Body content to paste in WordPress page editor (NOT full HTML file)
 
 INSTRUCTIONS:
@@ -14,6 +14,33 @@ INSTRUCTIONS:
 
 NOTE: Do NOT include <!DOCTYPE>, <html>, <head>, or <body> tags
       WordPress theme handles those automatically
+
+=============================================================================
+REQUIRED JAVASCRIPT FILES (Load via WPCode)
+=============================================================================
+
+Load these files in WPCode as separate snippets in this order:
+
+OPTION 1: MODULAR (Separate files - see README files for priorities)
+├── Riddles: 29 files (see riddles-js/README.md for loading order)
+├── Dad Jokes: 6 files (see dad-jokes-js/README.md for loading order)
+└── Quiz: Load quiz-master-app.js
+
+OPTION 2: MONOLITHIC (Master files auto-load everything)
+├── riddles-master.js → Loads all 29 riddles files automatically
+├── dad-jokes-master.js → Loads all 6 dad-jokes files automatically
+└── quiz-master-app.js → Main quiz app
+
+REQUIRED CSS FILES (Load via WPCode or link in theme):
+├── quiz-css/quiz-main.css → Master CSS (imports all quiz styles)
+├── riddles-css/riddles-master.css → Master CSS (imports all riddles styles)
+└── dad-jokes-css/dad-jokes.css → Dad jokes styles
+
+IMPORTANT: Use files from GitHub repository, NOT old local files!
+The paths in new master files are correct: 'riddles-js/riddles-state.js'
+If you see console errors like "Failed to load: riddles-state.js" (without path),
+you are loading OLD code. Update to new files from GitHub!
+
 =============================================================================
 -->
 
@@ -349,16 +376,12 @@ NOTE: Do NOT include <!DOCTYPE>, <html>, <head>, or <body> tags
 
     <!-- Riddles Page -->
     <div class="riddles-page">
-        <h1 class="title">🎭 Riddles 🎭</h1>
-        <div class="coming-soon"><p>Coming Soon...</p></div>
-        <button class="back-button" onclick="showHomePage()">← Back to Home</button>
+        <!-- Riddles content loaded dynamically by riddles-js modules -->
     </div>
 
     <!-- Dad Jokes Page -->
     <div class="dad-jokes-page">
-        <h1 class="title">😂 Dad Jokes 😂</h1>
-        <div class="coming-soon"><p>Coming Soon...</p></div>
-        <button class="back-button" onclick="showHomePage()">← Back to Home</button>
+        <!-- Dad Jokes content loaded dynamically by dad-jokes-js modules -->
     </div>
 
     <!-- Quiz Container -->

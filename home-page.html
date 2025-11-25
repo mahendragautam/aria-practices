@@ -1,9 +1,9 @@
 <!--
 =============================================================================
-WORDPRESS PAGE BODY CONTENT
+WORDPRESS PAGE BODY CONTENT - UPDATED WITH SCRIPT LOADERS
 =============================================================================
 File: home-page.html
-Purpose: Body content to paste in WordPress page editor (NOT full HTML file)
+Purpose: Body content to paste in WordPress page editor
 
 INSTRUCTIONS:
 1. Copy EVERYTHING below this comment block
@@ -12,34 +12,38 @@ INSTRUCTIONS:
 4. Paste this content
 5. Update page
 
-NOTE: Do NOT include <!DOCTYPE>, <html>, <head>, or <body> tags
-      WordPress theme handles those automatically
-
 =============================================================================
-REQUIRED JAVASCRIPT FILES (Load via WPCode)
+REQUIRED FILES IN WPCODE (Upload as separate snippets):
 =============================================================================
 
-Load these files in WPCode as separate snippets in this order:
+MASTER FILES (Auto-load everything):
+├── riddles-master.js (Priority: 10) → Auto-loads 29 riddles files
+├── dad-jokes-master.js (Priority: 10) → Auto-loads 6 dad jokes files
+└── quiz-master-app.js (Priority: 10) → Main quiz app
 
-OPTION 1: MODULAR (Separate files - see README files for priorities)
-├── Riddles: 29 files (see riddles-js/README.md for loading order)
-├── Dad Jokes: 6 files (see dad-jokes-js/README.md for loading order)
-└── Quiz: Load quiz-master-app.js
+RIDDLES CHAPTERS (Priority: 5) - Loaded by riddles-master.js:
+├── riddles-chapters/Chapter-1-Trick-Questions.js
+├── riddles-chapters/Chapter 2 - Puzzle Stories.js
+└── ... (18 more chapter files)
 
-OPTION 2: MONOLITHIC (Master files auto-load everything)
-├── riddles-master.js → Loads all 29 riddles files automatically
-├── dad-jokes-master.js → Loads all 6 dad-jokes files automatically
-└── quiz-master-app.js → Main quiz app
+RIDDLES LOGIC (Priority: 15) - Loaded by riddles-master.js:
+├── riddles-js/riddles-state.js
+├── riddles-js/riddles-timer.js
+└── ... (7 more logic files)
 
-REQUIRED CSS FILES (Load via WPCode or link in theme):
-├── quiz-css/quiz-main.css → Master CSS (imports all quiz styles)
-├── riddles-css/riddles-master.css → Master CSS (imports all riddles styles)
-└── dad-jokes-css/dad-jokes.css → Dad jokes styles
+DAD JOKES CATEGORIES (Priority: 5) - Loaded by dad-jokes-master.js:
+├── dad-jokes-js/dad-jokes-category-1.js
+├── dad-jokes-js/dad-jokes-category-2.js
+├── dad-jokes-js/dad-jokes-category-3.js
+├── dad-jokes-js/dad-jokes-category-4.js
+└── dad-jokes-js/dad-jokes-category-5.js
 
-IMPORTANT: Use files from GitHub repository, NOT old local files!
-The paths in new master files are correct: 'riddles-js/riddles-state.js'
-If you see console errors like "Failed to load: riddles-state.js" (without path),
-you are loading OLD code. Update to new files from GitHub!
+DAD JOKES LOGIC (Priority: 15) - Loaded by dad-jokes-master.js:
+└── dad-jokes-js/dad-jokes-main.js
+
+CSS FILES (Load via WPCode CSS snippets):
+├── features-styles.css → Dad Jokes + Riddles styles
+└── quiz-main.css → Quiz styles
 
 =============================================================================
 -->
@@ -406,3 +410,15 @@ you are loading OLD code. Update to new files from GitHub!
         </div>
     </div>
 </div>
+
+<!-- 
+=============================================================================
+CRITICAL: LOAD MASTER FILES AT END OF PAGE
+=============================================================================
+Add these scripts via WPCode > Snippets > "Auto Insert > Footer"
+OR add directly before </body> tag if editing theme files
+-->
+
+<script src="riddles-master.js"></script>
+<script src="dad-jokes-master.js"></script>
+<script src="quiz-master-app.js"></script>

@@ -32,8 +32,8 @@
 @import 'quiz.css';
 @import 'progress-results.css';
 
-/* 7. Special Features */
-@import '../dad-jokes-css/dad-jokes.css';
+/* 7. Special Features (Dad Jokes & Riddles) */
+@import '../features-styles.css';
 
 /* 8. Animations and Effects */
 @import 'emojis-effects.css';

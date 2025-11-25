@@ -1,5 +1,12 @@
 # Dad Jokes Modular Structure
 
+## Folder Structure
+
+```
+dad-jokes-js/          ← JavaScript files (6 files)
+dad-jokes-css/         ← Style files (1 file)
+```
+
 ## WPCode Loading Order (IMPORTANT!)
 
 Add these files as **separate WPCode snippets** in this exact order:
@@ -22,6 +29,19 @@ Add these files as **separate WPCode snippets** in this exact order:
 ✅ **Modular** - Each file can be edited independently
 ✅ **Separate from Quiz** - No need to touch quiz-master-app.js
 
+## CSS File
+
+Add in WPCode or link in HTML:
+
+```html
+<link rel="stylesheet" href="dad-jokes-css/dad-jokes.css">
+```
+
+Or import in your master CSS:
+```css
+@import '../dad-jokes-css/dad-jokes.css';
+```
+
 ## File Structure
 
 ```
@@ -32,6 +52,9 @@ dad-jokes-js/
 ├── Category-4-Work-Office-Dad-Jokes.js (120 jokes)
 ├── dad-jokes-data.js                   (data loader)
 └── dad-jokes-logic.js                  (display & logic)
+
+dad-jokes-css/
+└── dad-jokes.css                       (styles)
 ```
 
 ## How It Works

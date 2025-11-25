@@ -33,7 +33,7 @@
 @import 'progress-results.css';
 
 /* 7. Special Features */
-@import 'dad-jokes.css';
+@import '../dad-jokes-css/dad-jokes.css';
 
 /* 8. Animations and Effects */
 @import 'emojis-effects.css';

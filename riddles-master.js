@@ -24,7 +24,7 @@
     console.log('🎭 Loading Riddles Master Module...');
 
     // Base path for riddles modules
-    const basePath = 'js/riddles/';
+    const basePath = 'riddles-js/';
 
     // List of modules to load in order
     const modules = [

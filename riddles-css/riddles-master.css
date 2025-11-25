@@ -5,7 +5,7 @@
  *
  * USAGE:
  * Include this single file in your HTML:
- * <link rel="stylesheet" href="css/riddles-master.css">
+ * <link rel="stylesheet" href="riddles-css/riddles-master.css">
  *
  * This will load all riddles styles:
  * - riddles-main.css - Core riddles interface
@@ -14,9 +14,9 @@
  */
 
 /* Import all riddles modules */
-@import 'riddles/riddles-main.css';
-@import 'riddles/riddles-progress.css';
-@import 'riddles/riddles-results.css';
+@import 'riddles-main.css';
+@import 'riddles-progress.css';
+@import 'riddles-results.css';
 
 /* Additional Global Styles for Riddles */
 

@@ -5,7 +5,7 @@
  * Use this single file in your HTML to load all quiz styles.
  *
  * USAGE:
- * <link rel="stylesheet" href="css/quiz-main.css">
+ * <link rel="stylesheet" href="quiz-css/quiz-main.css">
  *
  * OR include individual CSS files if you only need specific components
  */
@@ -32,8 +32,11 @@
 @import 'quiz.css';
 @import 'progress-results.css';
 
-/* 7. Animations and Effects */
+/* 7. Special Features */
+@import 'dad-jokes.css';
+
+/* 8. Animations and Effects */
 @import 'emojis-effects.css';
 
-/* 8. Responsive Styles (load last to override) */
+/* 9. Responsive Styles (load last to override) */
 @import 'mobile-responsive.css';

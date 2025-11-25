@@ -13,6 +13,7 @@
  * - riddles-storage.js - LocalStorage management
  * - riddles-navigation.js - Screen navigation
  * - riddles-display.js - UI rendering
+ * - riddles-data.js - Data loader (CRITICAL!)
  * - riddles-logic.js - Game logic
  * - riddles-results.js - Results display
  * - riddles-animations.js - Animation effects
@@ -33,6 +34,7 @@
         'riddles-storage.js',
         'riddles-navigation.js',
         'riddles-display.js',
+        'riddles-data.js',         // CRITICAL: Loads chapter data
         'riddles-logic.js',
         'riddles-results.js',
         'riddles-animations.js'

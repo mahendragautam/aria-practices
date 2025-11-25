@@ -326,7 +326,14 @@ function showRiddles() {
 }
 
 function showDadJokes() {
-    showScreen('dad-jokes-page');
+    // Call dad-jokes module function (loaded from dad-jokes-master.js)
+    if (typeof showDadJokesHome === 'function') {
+        showDadJokesHome();
+    } else {
+        // Fallback if dad-jokes module not loaded
+        console.error('❌ Dad jokes module not loaded. Make sure dad-jokes-master.js is included.');
+        showScreen('dad-jokes-page');
+    }
 }
 
 function selectTimerSubject(subject) {

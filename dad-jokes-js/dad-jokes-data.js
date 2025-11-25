@@ -1,10 +1,15 @@
 /**
  * Dad Jokes Data Module
  * ==================
- * Loads all dad joke categories (1-5) from separate files
- * Structure similar to riddles data loading
+ * Loads all dad joke categories from window.dadJokesQuestions
  *
- * CATEGORY ORDER: Random Mix first, then others
+ * LOADING ORDER IN WPCODE:
+ * 1. Category-1-Classic-Dad-Jokes.js (Priority: 10)
+ * 2. Category-2-Tech-Geek-Dad-Jokes.js (Priority: 11)
+ * 3. Category-3-Parenting-Dad-Jokes.js (Priority: 12)
+ * 4. Category-4-Work-Office-Dad-Jokes.js (Priority: 13)
+ * 5. THIS FILE - dad-jokes-data.js (Priority: 14)
+ * 6. dad-jokes-logic.js (Priority: 15)
  */
 
 // Dad jokes categories configuration
@@ -51,12 +56,8 @@ try {
     }
 } catch(e) { console.warn('❌ Dad Jokes Category 4 not loaded:', e); }
 
-try {
-    if (typeof window.dadJokesQuestions !== 'undefined' && window.dadJokesQuestions[5]) {
-        dadJokesData[5] = window.dadJokesQuestions[5];
-        console.log('✅ Dad Jokes Category 5 (Random Mix) loaded:', window.dadJokesQuestions[5].length, 'jokes');
-    }
-} catch(e) { console.warn('❌ Dad Jokes Category 5 not loaded:', e); }
+// Note: Category 5 (Random Mix) is NOT loaded from a file
+// It dynamically combines all jokes from categories 1-4 in the logic module
 
 // Count jokes per category
 function getJokeCount(category) {
@@ -84,3 +85,5 @@ function getTotalJokesCount() {
     }
     return total;
 }
+
+console.log('✅ Dad Jokes Data module loaded');

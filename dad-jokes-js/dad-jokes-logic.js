@@ -2,7 +2,17 @@
  * Dad Jokes Logic Module
  * ==================
  * Handles dad joke display - 3 jokes at a time with show answer buttons
- * Updated to load from separate category files (like riddles)
+ *
+ * LOADING ORDER IN WPCODE:
+ * 1-4. Category files (Priority: 10-13)
+ * 5. dad-jokes-data.js (Priority: 14)
+ * 6. THIS FILE - dad-jokes-logic.js (Priority: 15)
+ *
+ * FEATURES:
+ * - Random Mix combines ALL jokes from categories 1-4 (no limit)
+ * - Previous button navigation
+ * - Random shuffle on each session open
+ * - Smooth scrolling
  */
 
 // Dad jokes state variables
@@ -96,6 +106,9 @@ function startJokeSession() {
         console.log('Jokes:', jokes);
     }
 
+    // Debug: Check all data
+    console.log('All dadJokesData:', dadJokesData);
+
     if (!jokes || jokes.length === 0) {
         alert('❌ No jokes available for this category!\n\nPlease make sure:\n1. All joke snippet files are added to WPCode\n2. Snippets are ACTIVE (not disabled)\n3. Snippets load BEFORE this main file');
         showDadJokesHome();
@@ -168,8 +181,6 @@ function displayJokeSet() {
 
         <button class="back-button" onclick="confirmQuitJokes()">← Quit</button>
     `;
-
-    window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 // Toggle joke answer visibility
@@ -193,6 +204,7 @@ function toggleJokeAnswer(index) {
 // Show next set of jokes
 function nextJokeSet() {
     currentJokeSet++;
+    window.scrollTo({ top: 0, behavior: 'smooth' });
     displayJokeSet();
 }
 
@@ -200,6 +212,7 @@ function nextJokeSet() {
 function previousJokeSet() {
     if (currentJokeSet > 0) {
         currentJokeSet--;
+        window.scrollTo({ top: 0, behavior: 'smooth' });
         displayJokeSet();
     }
 }
@@ -238,7 +251,9 @@ function confirmQuitJokes() {
     }
 }
 
-// Update showDadJokes function
+// Update showDadJokes function for quiz-master-app.js
 function showDadJokes() {
     showDadJokesHome();
 }
+
+console.log('✅ Dad Jokes Logic module loaded');

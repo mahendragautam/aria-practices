@@ -68,6 +68,18 @@ try {
 
 // Count jokes per category
 function getJokeCount(category) {
+    // Special handling for Random Mix (Category 5)
+    if (category === 5) {
+        // Count all jokes from categories 1-4
+        let total = 0;
+        for (let i = 1; i <= 4; i++) {
+            if (dadJokesData[i]) {
+                total += dadJokesData[i].length;
+            }
+        }
+        return total;
+    }
+
     if (!dadJokesData[category]) return 0;
     return dadJokesData[category].length;
 }
@@ -154,11 +166,27 @@ function selectJokeCategory(categoryNum) {
 
 // Start joke session - shuffle jokes and show first set
 function startJokeSession() {
-    const jokes = dadJokesData[currentJokeCategory];
+    let jokes = [];
 
-    // Debug: Check if jokes loaded
-    console.log('Category:', currentJokeCategory);
-    console.log('Jokes:', jokes);
+    // Special handling for Random Mix (Category 5)
+    if (currentJokeCategory === 5) {
+        // Combine all jokes from categories 1-4
+        console.log('🎲 Random Mix: Combining all categories...');
+        for (let i = 1; i <= 4; i++) {
+            if (dadJokesData[i] && dadJokesData[i].length > 0) {
+                jokes = jokes.concat(dadJokesData[i]);
+                console.log(`  ✅ Added ${dadJokesData[i].length} jokes from Category ${i}`);
+            }
+        }
+        console.log(`🎲 Random Mix: Total ${jokes.length} jokes combined`);
+    } else {
+        // Normal category - use its own jokes
+        jokes = dadJokesData[currentJokeCategory];
+        console.log('Category:', currentJokeCategory);
+        console.log('Jokes:', jokes);
+    }
+
+    // Debug: Check all data
     console.log('All dadJokesData:', dadJokesData);
 
     if (!jokes || jokes.length === 0) {
@@ -167,7 +195,7 @@ function startJokeSession() {
         return;
     }
 
-    // Shuffle jokes
+    // Shuffle jokes EVERY TIME (random on each session open)
     shuffledJokes = [...jokes].sort(() => Math.random() - 0.5);
     currentJokeSet = 0;
 
@@ -227,6 +255,7 @@ function displayJokeSet() {
         </div>
 
         <div class="jokes-navigation">
+            ${currentJokeSet > 0 ? '<button class="prev-jokes-btn" onclick="previousJokeSet()">← Previous Set</button>' : ''}
             <button class="next-jokes-btn" onclick="nextJokeSet()">Next Set →</button>
         </div>
 
@@ -255,7 +284,17 @@ function toggleJokeAnswer(index) {
 // Show next set of jokes
 function nextJokeSet() {
     currentJokeSet++;
+    window.scrollTo({ top: 0, behavior: 'smooth' });
     displayJokeSet();
+}
+
+// Show previous set of jokes
+function previousJokeSet() {
+    if (currentJokeSet > 0) {
+        currentJokeSet--;
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        displayJokeSet();
+    }
 }
 
 // Show jokes complete screen

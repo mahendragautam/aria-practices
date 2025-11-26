@@ -19,20 +19,20 @@ window.riddlesQuestions[18] = {
                 emoji: "🐕🌟",
                 question: "What has four legs, a tail, and barks?",
                 options: [
-                    "A dog",
-                    "A wolf"
+                    "A wolf",
+                    "A dog"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Animal Riddles - Easy",
                 emoji: "🐱💡",
                 question: "What animal says 'meow' and likes to chase mice?",
                 options: [
-                    "A cat",
-                    "A lion"
+                    "A lion",
+                    "A cat"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Animal Riddles - Easy",
@@ -59,20 +59,20 @@ window.riddlesQuestions[18] = {
                 emoji: "🐸🌈",
                 question: "What green animal hops and says 'ribbit'?",
                 options: [
-                    "A frog",
-                    "A lizard"
+                    "A lizard",
+                    "A frog"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Animal Riddles - Easy",
                 emoji: "🐟💭",
                 question: "What animal lives in water and has fins and gills?",
                 options: [
-                    "A fish",
-                    "A dolphin"
+                    "A dolphin",
+                    "A fish"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Animal Riddles - Easy",
@@ -119,33 +119,33 @@ window.riddlesQuestions[18] = {
                 emoji: "🦒🧠",
                 question: "What animal has the longest neck?",
                 options: [
-                    "A giraffe",
+                    "A camel",
                     "An ostrich",
-                    "A camel"
+                    "A giraffe"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Animal Riddles - Medium",
                 emoji: "🐧✨",
                 question: "What black and white bird can't fly but swims well?",
                 options: [
-                    "A penguin",
+                    "A puffin",
                     "An ostrich",
-                    "A puffin"
+                    "A penguin"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Animal Riddles - Medium",
                 emoji: "🦘🔮",
                 question: "What animal carries its baby in a pouch?",
                 options: [
-                    "A kangaroo",
+                    "An opossum",
                     "A koala",
-                    "An opossum"
+                    "A kangaroo"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Animal Riddles - Medium",
@@ -163,44 +163,44 @@ window.riddlesQuestions[18] = {
                 emoji: "🦅🎯",
                 question: "What bird of prey has excellent eyesight?",
                 options: [
-                    "An eagle",
                     "A hawk",
+                    "An eagle",
                     "An owl"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Animal Riddles - Medium",
                 emoji: "🐻🌈",
                 question: "What large animal hibernates in winter?",
                 options: [
+                    "A deer",
                     "A bear",
-                    "A wolf",
-                    "A deer"
+                    "A wolf"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Animal Riddles - Medium",
                 emoji: "🦎💡",
                 question: "What reptile can change its color to blend in?",
                 options: [
-                    "A chameleon",
                     "A lizard",
+                    "A chameleon",
                     "A gecko"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Animal Riddles - Medium",
                 emoji: "🐪🧩",
                 question: "What animal can go days without water and has humps?",
                 options: [
-                    "A camel",
                     "A llama",
+                    "A camel",
                     "A buffalo"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Animal Riddles - Medium",
@@ -218,55 +218,55 @@ window.riddlesQuestions[18] = {
                 emoji: "🐙🔍",
                 question: "What sea creature has eight arms?",
                 options: [
+                    "A jellyfish",
                     "An octopus",
-                    "A squid",
-                    "A jellyfish"
+                    "A squid"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Animal Riddles - Medium",
                 emoji: "🦇💫",
                 question: "What flying mammal is active at night?",
                 options: [
-                    "A bat",
                     "A bird",
-                    "A flying squirrel"
+                    "A flying squirrel",
+                    "A bat"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Animal Riddles - Medium",
                 emoji: "🐺🎨",
                 question: "What wild dog lives in packs and howls?",
                 options: [
-                    "A wolf",
                     "A coyote",
-                    "A fox"
+                    "A fox",
+                    "A wolf"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Animal Riddles - Medium",
                 emoji: "🦈✨",
                 question: "What ocean predator has rows of sharp teeth?",
                 options: [
+                    "A barracuda",
                     "A shark",
-                    "A whale",
-                    "A barracuda"
+                    "A whale"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Animal Riddles - Medium",
                 emoji: "🐢🧠",
                 question: "What slow-moving reptile carries its house on its back?",
                 options: [
-                    "A turtle",
                     "A snail",
+                    "A turtle",
                     "A hermit crab"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Animal Riddles - Medium",
@@ -296,8 +296,8 @@ window.riddlesQuestions[18] = {
                 question: "What spotted big cat is the fastest land animal?",
                 options: [
                     "A cheetah",
-                    "A leopard",
-                    "A jaguar"
+                    "A jaguar",
+                    "A leopard"
                 ],
                 correct: 0
             },
@@ -306,22 +306,22 @@ window.riddlesQuestions[18] = {
                 emoji: "🦛🎯",
                 question: "What large animal spends most of its time in water?",
                 options: [
-                    "A hippopotamus",
                     "A crocodile",
+                    "A hippopotamus",
                     "A manatee"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Animal Riddles - Medium",
                 emoji: "🐍💡",
                 question: "What legless reptile slithers and some are venomous?",
                 options: [
-                    "A snake",
                     "A worm",
+                    "A snake",
                     "An eel"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Animal Riddles - Medium",
@@ -339,11 +339,11 @@ window.riddlesQuestions[18] = {
                 emoji: "🐿️🧩",
                 question: "What bushy-tailed animal collects and stores nuts?",
                 options: [
-                    "A squirrel",
+                    "A mouse",
                     "A chipmunk",
-                    "A mouse"
+                    "A squirrel"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Animal Riddles - Medium",
@@ -351,8 +351,8 @@ window.riddlesQuestions[18] = {
                 question: "What bird displays beautiful colorful tail feathers?",
                 options: [
                     "A peacock",
-                    "A parrot",
-                    "A flamingo"
+                    "A flamingo",
+                    "A parrot"
                 ],
                 correct: 0
             },
@@ -373,8 +373,8 @@ window.riddlesQuestions[18] = {
                 question: "What cunning animal has a bushy tail and is red?",
                 options: [
                     "A fox",
-                    "A wolf",
-                    "A coyote"
+                    "A coyote",
+                    "A wolf"
                 ],
                 correct: 0
             },
@@ -384,8 +384,8 @@ window.riddlesQuestions[18] = {
                 question: "What Australian animal eats eucalyptus leaves?",
                 options: [
                     "A koala",
-                    "A kangaroo",
-                    "A wombat"
+                    "A wombat",
+                    "A kangaroo"
                 ],
                 correct: 0
             }
@@ -396,36 +396,36 @@ window.riddlesQuestions[18] = {
                 emoji: "🦎🧠",
                 question: "I have a long tongue twice my body length, eyes that move independently, and I can change colors. What am I?",
                 options: [
-                    "A chameleon",
-                    "A lizard",
+                    "A gecko",
                     "An iguana",
-                    "A gecko"
+                    "A lizard",
+                    "A chameleon"
                 ],
-                correct: 0
+                correct: 3
             },
         {
                 topic: "Animal Riddles - Hard",
                 emoji: "🐙💫",
                 question: "I have three hearts, blue blood, and can squeeze through tiny spaces. What am I?",
                 options: [
-                    "An octopus",
-                    "A squid",
                     "A jellyfish",
-                    "A cuttlefish"
+                    "An octopus",
+                    "A cuttlefish",
+                    "A squid"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Animal Riddles - Hard",
                 emoji: "🦘🔮",
                 question: "I can't walk backwards, I carry my baby in a pouch, and I'm a symbol of Australia. What am I?",
                 options: [
+                    "A koala",
                     "A kangaroo",
                     "A wallaby",
-                    "A koala",
                     "An opossum"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Animal Riddles - Hard",
@@ -433,9 +433,9 @@ window.riddlesQuestions[18] = {
                 question: "I can regrow my tail if I lose it, I have no eyelids, and I'm cold-blooded. What am I?",
                 options: [
                     "A lizard",
-                    "A snake",
+                    "A newt",
                     "A salamander",
-                    "A newt"
+                    "A snake"
                 ],
                 correct: 0
             },
@@ -444,84 +444,84 @@ window.riddlesQuestions[18] = {
                 emoji: "🦒🧩",
                 question: "I have the same number of neck bones as humans but mine is much longer. I'm the tallest land animal. What am I?",
                 options: [
-                    "A giraffe",
                     "An elephant",
-                    "A camel",
-                    "An ostrich"
+                    "A giraffe",
+                    "An ostrich",
+                    "A camel"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Animal Riddles - Hard",
                 emoji: "🦅💭",
                 question: "I can see eight times better than humans, I'm a national symbol, and I can dive at 100 mph. What am I?",
                 options: [
-                    "An eagle",
-                    "A hawk",
+                    "An owl",
                     "A falcon",
-                    "An owl"
+                    "An eagle",
+                    "A hawk"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Animal Riddles - Hard",
                 emoji: "🐢🌈",
                 question: "I can live over 100 years, I carry my home, and I move slowly on land but swim gracefully. What am I?",
                 options: [
-                    "A sea turtle",
-                    "A tortoise",
+                    "A hermit crab",
                     "A snail",
-                    "A hermit crab"
+                    "A tortoise",
+                    "A sea turtle"
                 ],
-                correct: 0
+                correct: 3
             },
         {
                 topic: "Animal Riddles - Hard",
                 emoji: "🦜🔮",
                 question: "I can live over 80 years, I can mimic sounds perfectly, and I mate for life. What am I?",
                 options: [
-                    "A parrot",
-                    "A crow",
                     "A peacock",
-                    "A toucan"
+                    "A toucan",
+                    "A parrot",
+                    "A crow"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Animal Riddles - Hard",
                 emoji: "🦏💡",
                 question: "I have thick skin like armor, I'm nearly blind, but my hearing is excellent. I have one or two horns. What am I?",
                 options: [
-                    "A rhinoceros",
                     "An elephant",
-                    "A buffalo",
-                    "A hippo"
+                    "A rhinoceros",
+                    "A hippo",
+                    "A buffalo"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Animal Riddles - Hard",
                 emoji: "🐍🌟",
                 question: "I can unhinge my jaw to swallow prey whole, I have no eyelids, and I smell with my tongue. What am I?",
                 options: [
-                    "A snake",
+                    "A crocodile",
                     "A lizard",
-                    "An eel",
-                    "A crocodile"
+                    "A snake",
+                    "An eel"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Animal Riddles - Hard",
                 emoji: "🦛🧩",
                 question: "Despite my size, I can run 30 mph on land. I'm one of Africa's most dangerous animals. What am I?",
                 options: [
-                    "A hippopotamus",
-                    "An elephant",
+                    "A buffalo",
                     "A rhino",
-                    "A buffalo"
+                    "A hippopotamus",
+                    "An elephant"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Animal Riddles - Hard",
@@ -530,8 +530,8 @@ window.riddlesQuestions[18] = {
                 options: [
                     "A wolf",
                     "A coyote",
-                    "A dog",
-                    "A hyena"
+                    "A hyena",
+                    "A dog"
                 ],
                 correct: 0
             },
@@ -540,12 +540,12 @@ window.riddlesQuestions[18] = {
                 emoji: "🦋💭",
                 question: "I undergo complete metamorphosis, I migrate thousands of miles, and I taste with my feet. What am I?",
                 options: [
-                    "A butterfly",
+                    "A dragonfly",
                     "A moth",
-                    "A bee",
-                    "A dragonfly"
+                    "A butterfly",
+                    "A bee"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Animal Riddles - Hard",
@@ -553,8 +553,8 @@ window.riddlesQuestions[18] = {
                 question: "I can rotate my head 270 degrees, I fly silently, and I hunt at night using asymmetrical ears. What am I?",
                 options: [
                     "An owl",
-                    "A hawk",
                     "An eagle",
+                    "A hawk",
                     "A bat"
                 ],
                 correct: 0
@@ -566,8 +566,8 @@ window.riddlesQuestions[18] = {
                 options: [
                     "A gecko",
                     "A lizard",
-                    "A salamander",
-                    "A frog"
+                    "A frog",
+                    "A salamander"
                 ],
                 correct: 0
             }
@@ -578,24 +578,24 @@ window.riddlesQuestions[18] = {
                 emoji: "🦑🧠",
                 question: "I have the largest brain-to-body ratio of all invertebrates, I can use tools, and I have chromatophores for instant color change. What am I?",
                 options: [
+                    "A nautilus",
                     "An octopus",
                     "A squid",
-                    "A cuttlefish",
-                    "A nautilus"
+                    "A cuttlefish"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Animal Riddles - Expert",
                 emoji: "🐝💫",
                 question: "I communicate through dance, I have five eyes, and I can recognize human faces. What am I?",
                 options: [
-                    "A honeybee",
                     "A wasp",
-                    "A bumblebee",
-                    "A hornet"
+                    "A hornet",
+                    "A honeybee",
+                    "A bumblebee"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Animal Riddles - Expert",
@@ -603,9 +603,9 @@ window.riddlesQuestions[18] = {
                 question: "I can hold my breath for over 2 hours, I have the largest brain of any animal, and I sleep vertically. What am I?",
                 options: [
                     "A sperm whale",
+                    "A dolphin",
                     "A blue whale",
-                    "An orca",
-                    "A dolphin"
+                    "An orca"
                 ],
                 correct: 0
             },
@@ -616,8 +616,8 @@ window.riddlesQuestions[18] = {
                 options: [
                     "A bald eagle",
                     "A golden eagle",
-                    "A hawk",
-                    "An osprey"
+                    "An osprey",
+                    "A hawk"
                 ],
                 correct: 0
             },
@@ -627,9 +627,9 @@ window.riddlesQuestions[18] = {
                 question: "I have the strongest bite force ever measured, I can live up to 100 years, and my gender is determined by temperature. What am I?",
                 options: [
                     "A saltwater crocodile",
-                    "An alligator",
                     "A Nile crocodile",
-                    "A caiman"
+                    "A caiman",
+                    "An alligator"
                 ],
                 correct: 0
             },
@@ -638,24 +638,24 @@ window.riddlesQuestions[18] = {
                 emoji: "🦋🌈",
                 question: "I migrate up to 3,000 miles, I use magnetic fields to navigate, and my migration spans multiple generations. What am I?",
                 options: [
-                    "A monarch butterfly",
-                    "A painted lady",
                     "A swallowtail",
-                    "A morpho butterfly"
+                    "A painted lady",
+                    "A morpho butterfly",
+                    "A monarch butterfly"
                 ],
-                correct: 0
+                correct: 3
             },
         {
                 topic: "Animal Riddles - Expert",
                 emoji: "🦈💭",
                 question: "I never sleep, I must keep swimming to breathe, and I can sense a drop of blood in 100 liters of water. What am I?",
                 options: [
-                    "A great white shark",
                     "A hammerhead",
-                    "A tiger shark",
-                    "A whale shark"
+                    "A great white shark",
+                    "A whale shark",
+                    "A tiger shark"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Animal Riddles - Expert",
@@ -663,8 +663,8 @@ window.riddlesQuestions[18] = {
                 question: "I have rectangular pupils, I can taste with my suckers, and I'm a master of disguise with intelligent problem-solving. What am I?",
                 options: [
                     "An octopus",
-                    "A squid",
                     "A cuttlefish",
+                    "A squid",
                     "A nautilus"
                 ],
                 correct: 0
@@ -674,24 +674,24 @@ window.riddlesQuestions[18] = {
                 emoji: "🦜💫",
                 question: "I have the intelligence of a 5-year-old human, I can live 80+ years, and I form monogamous pair bonds. What am I?",
                 options: [
-                    "An African grey parrot",
-                    "A macaw",
+                    "An Amazon parrot",
                     "A cockatoo",
-                    "An Amazon parrot"
+                    "An African grey parrot",
+                    "A macaw"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Animal Riddles - Expert",
                 emoji: "🐘🔮",
                 question: "I can recognize myself in a mirror, I mourn my dead, and I communicate through infrasound over miles. What am I?",
                 options: [
-                    "An elephant",
-                    "A whale",
+                    "A gorilla",
                     "A dolphin",
-                    "A gorilla"
+                    "A whale",
+                    "An elephant"
                 ],
-                correct: 0
+                correct: 3
             },
         {
                 topic: "Animal Riddles - Expert",
@@ -700,8 +700,8 @@ window.riddlesQuestions[18] = {
                 options: [
                     "An owl",
                     "A bat",
-                    "A nightjar",
-                    "A hawk"
+                    "A hawk",
+                    "A nightjar"
                 ],
                 correct: 0
             },
@@ -710,72 +710,72 @@ window.riddlesQuestions[18] = {
                 emoji: "🦛💡",
                 question: "I secrete a red, oily substance nicknamed 'blood sweat,' I can hold my breath for 5 minutes, and I'm highly territorial. What am I?",
                 options: [
-                    "A hippopotamus",
+                    "A manatee",
                     "A walrus",
                     "A seal",
-                    "A manatee"
+                    "A hippopotamus"
                 ],
-                correct: 0
+                correct: 3
             },
         {
                 topic: "Animal Riddles - Expert",
                 emoji: "🐍🧩",
                 question: "I can sense infrared heat with special organs, I have the longest fangs of any venomous snake, and I'm a pit viper. What am I?",
                 options: [
-                    "A Gaboon viper",
-                    "A rattlesnake",
                     "A python",
-                    "A cobra"
+                    "A cobra",
+                    "A rattlesnake",
+                    "A Gaboon viper"
                 ],
-                correct: 0
+                correct: 3
             },
         {
                 topic: "Animal Riddles - Expert",
                 emoji: "🐬🔍",
                 question: "I sleep with one eye open, I have signature whistles for individual names, and I've been observed using sponges as tools. What am I?",
                 options: [
-                    "A bottlenose dolphin",
                     "An orca",
-                    "A porpoise",
-                    "A pilot whale"
+                    "A pilot whale",
+                    "A bottlenose dolphin",
+                    "A porpoise"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Animal Riddles - Expert",
                 emoji: "🦋💭",
                 question: "I can see ultraviolet light, I smell with my antennae, and I begin life as an egg smaller than a pinhead. What am I?",
                 options: [
-                    "A butterfly",
-                    "A moth",
                     "A bee",
-                    "A beetle"
+                    "A beetle",
+                    "A moth",
+                    "A butterfly"
                 ],
-                correct: 0
+                correct: 3
             },
         {
                 topic: "Animal Riddles - Expert",
                 emoji: "🦎🌈",
                 question: "I can run on water, I store fat in my tail, and I can vocalize using complex chirping sounds. What am I?",
                 options: [
-                    "A basilisk lizard",
+                    "A monitor",
                     "A gecko",
-                    "An iguana",
-                    "A monitor"
+                    "A basilisk lizard",
+                    "An iguana"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Animal Riddles - Expert",
                 emoji: "🐻✨",
                 question: "I have water-repellent fur that appears white but is actually transparent, I can swim 6 mph, and my skin is black. What am I?",
                 options: [
-                    "A polar bear",
-                    "A grizzly bear",
+                    "A seal",
                     "An arctic fox",
-                    "A seal"
+                    "A polar bear",
+                    "A grizzly bear"
                 ],
-                correct: 0
+                correct: 2
             }
     ],
     extreme: [

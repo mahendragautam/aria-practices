@@ -19,20 +19,20 @@ window.riddlesQuestions[13] = {
                 emoji: "⚡💨",
                 question: "What has hands but can't clap?",
                 options: [
-                    "A statue",
-                    "A clock"
+                    "A clock",
+                    "A statue"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Short & Quick - Easy",
                 emoji: "🎯✨",
                 question: "What gets wet while drying?",
                 options: [
-                    "A sponge",
-                    "A towel"
+                    "A towel",
+                    "A sponge"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Short & Quick - Easy",
@@ -49,10 +49,10 @@ window.riddlesQuestions[13] = {
                 emoji: "🌟🎪",
                 question: "What has legs but can't walk?",
                 options: [
-                    "Pants",
-                    "A table"
+                    "A table",
+                    "Pants"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Short & Quick - Easy",
@@ -69,10 +69,10 @@ window.riddlesQuestions[13] = {
                 emoji: "🔮💫",
                 question: "What goes up but never down?",
                 options: [
-                    "A balloon",
-                    "Age"
+                    "Age",
+                    "A balloon"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Short & Quick - Easy",
@@ -89,10 +89,10 @@ window.riddlesQuestions[13] = {
                 emoji: "🌈✨",
                 question: "What runs but never walks?",
                 options: [
-                    "A clock",
-                    "Water"
+                    "Water",
+                    "A clock"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Short & Quick - Easy",
@@ -129,10 +129,10 @@ window.riddlesQuestions[13] = {
                 emoji: "🎨💫",
                 question: "What has keys but no locks?",
                 options: [
-                    "A map",
-                    "A piano"
+                    "A piano",
+                    "A map"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Short & Quick - Medium",
@@ -149,20 +149,20 @@ window.riddlesQuestions[13] = {
                 emoji: "🎪🧠",
                 question: "What belongs to you but others use more?",
                 options: [
-                    "Your car",
-                    "Your name"
+                    "Your name",
+                    "Your car"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Short & Quick - Medium",
                 emoji: "🎯🎨",
                 question: "What has cities but no houses?",
                 options: [
-                    "A game",
-                    "A map"
+                    "A map",
+                    "A game"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Short & Quick - Medium",
@@ -189,10 +189,10 @@ window.riddlesQuestions[13] = {
                 emoji: "⚡🌈",
                 question: "What has branches but no fruit or leaves?",
                 options: [
-                    "A stick",
-                    "A bank"
+                    "A bank",
+                    "A stick"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Short & Quick - Medium",
@@ -209,10 +209,10 @@ window.riddlesQuestions[13] = {
                 emoji: "🌟🔥",
                 question: "What has one head, one foot, four legs?",
                 options: [
-                    "A dog",
-                    "A bed"
+                    "A bed",
+                    "A dog"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Short & Quick - Medium",
@@ -241,55 +241,55 @@ window.riddlesQuestions[13] = {
                 emoji: "⚡🧠",
                 question: "What 5-letter word gets shorter when you add 2 letters?",
                 options: [
+                    "Brief",
                     "Short",
-                    "Small",
-                    "Brief"
+                    "Small"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Short & Quick - Hard",
                 emoji: "🎯🔮",
                 question: "What word is spelled wrong in every dictionary?",
                 options: [
+                    "Wrong",
                     "Incorrectly",
-                    "Misspelled",
-                    "Wrong"
+                    "Misspelled"
                 ],
-                correct: 2
+                correct: 0
             },
         {
                 topic: "Short & Quick - Hard",
                 emoji: "🌟💭",
                 question: "What starts with E, ends with E, has one letter?",
                 options: [
+                    "Eye",
                     "Envelope",
-                    "Edge",
-                    "Eye"
+                    "Edge"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Short & Quick - Hard",
                 emoji: "🔥🎯",
                 question: "What has a face, two hands, but no body?",
                 options: [
-                    "A clock",
+                    "A person",
                     "A statue",
-                    "A person"
+                    "A clock"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Short & Quick - Hard",
                 emoji: "🌈💡",
                 question: "What month has 28 days?",
                 options: [
-                    "None",
                     "February",
-                    "All of them"
+                    "All of them",
+                    "None"
                 ],
-                correct: 2
+                correct: 1
             },
         {
                 topic: "Short & Quick - Hard",
@@ -307,22 +307,22 @@ window.riddlesQuestions[13] = {
                 emoji: "⚡💭",
                 question: "What invention lets you look through walls?",
                 options: [
+                    "X-ray",
                     "Glasses",
-                    "A window",
-                    "X-ray"
+                    "A window"
                 ],
-                correct: 1
+                correct: 2
             },
         {
                 topic: "Short & Quick - Hard",
                 emoji: "🎯🎨",
                 question: "What kind of coat is put on only when wet?",
                 options: [
+                    "Fur",
                     "Raincoat",
-                    "Paint",
-                    "Fur"
+                    "Paint"
                 ],
-                correct: 1
+                correct: 2
             },
         {
                 topic: "Short & Quick - Hard",
@@ -341,8 +341,8 @@ window.riddlesQuestions[13] = {
                 question: "What kind of tree can you carry in hand?",
                 options: [
                     "A palm",
-                    "A sapling",
-                    "A stick"
+                    "A stick",
+                    "A sapling"
                 ],
                 correct: 0
             },
@@ -352,29 +352,29 @@ window.riddlesQuestions[13] = {
                 question: "What kind of band never plays music?",
                 options: [
                     "Rock band",
-                    "Rubber band",
-                    "Band-aid"
+                    "Band-aid",
+                    "Rubber band"
                 ],
-                correct: 1
+                correct: 2
             },
         {
                 topic: "Short & Quick - Hard",
                 emoji: "🧩🎨",
                 question: "What occurs once in June, twice in November?",
                 options: [
-                    "Holidays",
+                    "The letter E",
                     "Full moons",
-                    "The letter E"
+                    "Holidays"
                 ],
-                correct: 2
+                correct: 0
             },
         {
                 topic: "Short & Quick - Hard",
                 emoji: "🌟🔥",
                 question: "What begins with T, ends with T, has T in it?",
                 options: [
-                    "Text",
                     "Tent",
+                    "Text",
                     "Teapot"
                 ],
                 correct: 2
@@ -384,44 +384,44 @@ window.riddlesQuestions[13] = {
                 emoji: "🎪💭",
                 question: "What can run but never walks?",
                 options: [
+                    "A river",
                     "A clock",
-                    "A nose",
-                    "A river"
+                    "A nose"
                 ],
-                correct: 2
+                correct: 0
             },
         {
                 topic: "Short & Quick - Hard",
                 emoji: "🔮✨",
                 question: "What can you hold without touching?",
                 options: [
-                    "Your breath",
+                    "A thought",
                     "A conversation",
-                    "A thought"
+                    "Your breath"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Short & Quick - Hard",
                 emoji: "⚡🧩",
                 question: "What gets bigger the more you take away?",
                 options: [
-                    "Debt",
                     "A hole",
-                    "Distance"
+                    "Distance",
+                    "Debt"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Short & Quick - Hard",
                 emoji: "🎨🔮",
                 question: "What can be stolen, mistaken, or felt?",
                 options: [
-                    "Time",
                     "Money",
-                    "Your heart"
+                    "Your heart",
+                    "Time"
                 ],
-                correct: 2
+                correct: 1
             }
     ],
     expert: [
@@ -430,12 +430,12 @@ window.riddlesQuestions[13] = {
                 emoji: "⚡💫",
                 question: "I'm light as a feather but the strongest can't hold me long. What am I?",
                 options: [
-                    "Feather",
-                    "Thought",
+                    "Air",
                     "Breath",
-                    "Air"
+                    "Feather",
+                    "Thought"
                 ],
-                correct: 2
+                correct: 1
             },
         {
                 topic: "Short & Quick - Expert",
@@ -444,58 +444,58 @@ window.riddlesQuestions[13] = {
                 options: [
                     "Nothing",
                     "Secret",
-                    "Magic",
-                    "Silence"
+                    "Silence",
+                    "Magic"
                 ],
-                correct: 3
+                correct: 2
             },
         {
                 topic: "Short & Quick - Expert",
                 emoji: "🧩✨",
                 question: "The more of me you have, the less you see. What am I?",
                 options: [
-                    "Money",
+                    "Darkness",
                     "Light",
                     "Age",
-                    "Darkness"
+                    "Money"
                 ],
-                correct: 3
+                correct: 0
             },
         {
                 topic: "Short & Quick - Expert",
                 emoji: "🎨💭",
                 question: "What can be measured but has no length, width, or height?",
                 options: [
-                    "Weight",
+                    "Temperature",
                     "Air",
-                    "Nothing",
-                    "Temperature"
+                    "Weight",
+                    "Nothing"
                 ],
-                correct: 3
+                correct: 0
             },
         {
                 topic: "Short & Quick - Expert",
                 emoji: "🔥🎯",
                 question: "I can be long or short, grown or bought, painted or bare. What am I?",
                 options: [
-                    "Wood",
-                    "Hair",
                     "Fingernails",
+                    "Hair",
+                    "Wood",
                     "Rope"
                 ],
-                correct: 2
+                correct: 0
             },
         {
                 topic: "Short & Quick - Expert",
                 emoji: "🌈💡",
                 question: "What comes in many colors, melts in heat, and hardens in cold?",
                 options: [
-                    "Wax",
                     "Ice",
                     "Plastic",
-                    "Chocolate"
+                    "Chocolate",
+                    "Wax"
                 ],
-                correct: 0
+                correct: 3
             },
         {
                 topic: "Short & Quick - Expert",
@@ -503,11 +503,11 @@ window.riddlesQuestions[13] = {
                 question: "I have rivers but no water, forests but no trees. What am I?",
                 options: [
                     "Painting",
-                    "Desert",
                     "Earth",
-                    "A map"
+                    "A map",
+                    "Desert"
                 ],
-                correct: 3
+                correct: 2
             },
         {
                 topic: "Short & Quick - Expert",
@@ -515,55 +515,55 @@ window.riddlesQuestions[13] = {
                 question: "What can fly without wings and cry without eyes?",
                 options: [
                     "Airplane",
-                    "Clouds",
                     "Ghost",
+                    "Clouds",
                     "Time"
                 ],
-                correct: 1
+                correct: 2
             },
         {
                 topic: "Short & Quick - Expert",
                 emoji: "🧩🔥",
                 question: "What is easy to get into but hard to get out of?",
                 options: [
-                    "Trouble",
-                    "Relationship",
                     "Maze",
-                    "Debt"
+                    "Relationship",
+                    "Debt",
+                    "Trouble"
                 ],
-                correct: 0
+                correct: 3
             },
         {
                 topic: "Short & Quick - Expert",
                 emoji: "🌟💫",
                 question: "What is seen in the middle of March and April?",
                 options: [
+                    "The letter R",
                     "Rain",
                     "Flowers",
-                    "The letter R",
                     "Spring"
                 ],
-                correct: 2
+                correct: 0
             },
         {
                 topic: "Short & Quick - Expert",
                 emoji: "🎪✨",
                 question: "What flies when it's born, lies when alive, runs when dead?",
                 options: [
-                    "Water",
                     "A snowflake",
                     "A bird",
+                    "Water",
                     "Leaf"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Short & Quick - Expert",
                 emoji: "🔮🧠",
                 question: "What is taken before you get it?",
                 options: [
-                    "Advice",
                     "Food",
+                    "Advice",
                     "Your picture",
                     "Medicine"
                 ],
@@ -574,72 +574,72 @@ window.riddlesQuestions[13] = {
                 emoji: "⚡🌈",
                 question: "What loses its head in the morning but gets it back at night?",
                 options: [
-                    "Sun",
                     "A pillow",
+                    "Sun",
                     "Person",
                     "Flower"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Short & Quick - Expert",
                 emoji: "🎯💡",
                 question: "What can be heard but not seen, and only speaks when spoken to?",
                 options: [
+                    "An echo",
                     "Phone",
-                    "Radio",
                     "Spirit",
-                    "An echo"
+                    "Radio"
                 ],
-                correct: 3
+                correct: 0
             },
         {
                 topic: "Short & Quick - Expert",
                 emoji: "🧩🎨",
                 question: "What falls but never breaks, and breaks but never falls?",
                 options: [
+                    "Glass",
                     "Night and day",
                     "Heart",
-                    "Water",
-                    "Glass"
+                    "Water"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Short & Quick - Expert",
                 emoji: "🎪💭",
                 question: "What has a mouth but never eats, a bed but never sleeps?",
                 options: [
-                    "Road",
-                    "Bottle",
                     "A river",
-                    "Cave"
+                    "Bottle",
+                    "Cave",
+                    "Road"
                 ],
-                correct: 2
+                correct: 0
             },
         {
                 topic: "Short & Quick - Expert",
                 emoji: "⚡🧩",
                 question: "What can go up a chimney down but not down a chimney up?",
                 options: [
-                    "Rain",
-                    "Smoke",
                     "An umbrella",
-                    "Santa"
+                    "Smoke",
+                    "Santa",
+                    "Rain"
                 ],
-                correct: 2
+                correct: 0
             },
         {
                 topic: "Short & Quick - Expert",
                 emoji: "🧠💫",
                 question: "What has a head, a tail, but no body?",
                 options: [
-                    "Sperm",
-                    "Arrow",
                     "A coin",
+                    "Arrow",
+                    "Sperm",
                     "Snake"
                 ],
-                correct: 2
+                correct: 0
             },
         {
                 topic: "Short & Quick - Expert",

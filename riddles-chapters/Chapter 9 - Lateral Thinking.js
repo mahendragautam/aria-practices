@@ -19,20 +19,20 @@ window.riddlesQuestions[9] = {
                 emoji: "🧠💡",
                 question: "A man walks into a restaurant, orders albatross, takes one bite, and leaves. Why?",
                 options: [
-                    "He remembered something tragic",
-                    "He realized it wasn't real albatross"
+                    "He realized it wasn't real albatross",
+                    "He remembered something tragic"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Lateral Thinking - Medium",
                 emoji: "🎯🔮",
                 question: "A woman shoots her husband, dunks him in water for 5 minutes, then hangs him. Later they have dinner. How?",
                 options: [
-                    "He has superpowers",
-                    "She's a photographer"
+                    "She's a photographer",
+                    "He has superpowers"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Lateral Thinking - Medium",
@@ -69,10 +69,10 @@ window.riddlesQuestions[9] = {
                 emoji: "🧩🌈",
                 question: "A man dies and goes to heaven. He sees two doors. One says 'Heaven' and the other says 'Lecture about Heaven.' Which does he choose?",
                 options: [
-                    "Heaven",
-                    "Lecture about Heaven"
+                    "Lecture about Heaven",
+                    "Heaven"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Lateral Thinking - Medium",
@@ -89,20 +89,20 @@ window.riddlesQuestions[9] = {
                 emoji: "🎯💫",
                 question: "A man has a fox, a chicken, and a bag of grain. He must cross a river with a boat that can only carry him and one item. How does he do it?",
                 options: [
-                    "Take grain first",
-                    "Take chicken first, return, take fox, bring chicken back, take grain, return for chicken"
+                    "Take chicken first, return, take fox, bring chicken back, take grain, return for chicken",
+                    "Take grain first"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Lateral Thinking - Medium",
                 emoji: "🎨🧩",
                 question: "Why are 1990 dollar bills worth more than 1989 dollar bills?",
                 options: [
-                    "Inflation",
-                    "1990 is one more than 1989"
+                    "1990 is one more than 1989",
+                    "Inflation"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Lateral Thinking - Medium",
@@ -119,20 +119,20 @@ window.riddlesQuestions[9] = {
                 emoji: "🌟🔮",
                 question: "What happens once in a minute, twice in a moment, but never in a thousand years?",
                 options: [
-                    "Time",
-                    "The letter M"
+                    "The letter M",
+                    "Time"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Lateral Thinking - Medium",
                 emoji: "🎪💡",
                 question: "If you overtake the person in 2nd place, what position are you in?",
                 options: [
-                    "1st place",
-                    "2nd place"
+                    "2nd place",
+                    "1st place"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Lateral Thinking - Medium",
@@ -159,20 +159,20 @@ window.riddlesQuestions[9] = {
                 emoji: "🎯✨",
                 question: "A man walks into a bar and asks for water. The bartender points a gun at him. The man says thank you and leaves. Why?",
                 options: [
-                    "Wrong bar",
-                    "He had hiccups"
+                    "He had hiccups",
+                    "Wrong bar"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Lateral Thinking - Medium",
                 emoji: "🎨🌟",
                 question: "Before Mt. Everest was discovered, what was the tallest mountain?",
                 options: [
-                    "K2",
-                    "Mt. Everest"
+                    "Mt. Everest",
+                    "K2"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Lateral Thinking - Medium",
@@ -191,44 +191,44 @@ window.riddlesQuestions[9] = {
                 emoji: "🧠🔮",
                 question: "A man is found dead in a locked room with a puddle of water and sawdust. How did he die?",
                 options: [
+                    "Poisoned",
                     "Drowned",
-                    "Stood on ice that melted",
-                    "Poisoned"
+                    "Stood on ice that melted"
                 ],
-                correct: 1
+                correct: 2
             },
         {
                 topic: "Lateral Thinking - Hard",
                 emoji: "🎭💭",
                 question: "Romeo and Juliet are dead on the floor surrounded by water and broken glass. How did they die?",
                 options: [
+                    "They're fish whose bowl broke",
                     "Poison",
-                    "Murder",
-                    "They're fish whose bowl broke"
+                    "Murder"
                 ],
-                correct: 2
+                correct: 0
             },
         {
                 topic: "Lateral Thinking - Hard",
                 emoji: "🔍✨",
                 question: "A man is looking at a photograph. 'Brothers and sisters I have none, but that man's father is my father's son.' Who is in the photo?",
                 options: [
-                    "His father",
                     "His son",
+                    "His father",
                     "Himself"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Lateral Thinking - Hard",
                 emoji: "🌟🧩",
                 question: "A man lives in a building. Every morning he takes the elevator from the 15th floor to ground. In evening he goes to 10th floor and walks up. On rainy days he goes directly to 15th. Why?",
                 options: [
-                    "Elevator maintenance",
+                    "He's short, uses umbrella to reach higher button",
                     "Exercise routine",
-                    "He's short, uses umbrella to reach higher button"
+                    "Elevator maintenance"
                 ],
-                correct: 2
+                correct: 0
             },
         {
                 topic: "Lateral Thinking - Hard",
@@ -236,32 +236,32 @@ window.riddlesQuestions[9] = {
                 question: "A man dies of old age on his 25th birthday. How?",
                 options: [
                     "Time travel",
-                    "Calculation error",
-                    "Born on February 29"
+                    "Born on February 29",
+                    "Calculation error"
                 ],
-                correct: 2
+                correct: 1
             },
         {
                 topic: "Lateral Thinking - Hard",
                 emoji: "🧩💡",
                 question: "Acting on an anonymous phone call, police raid a house. They arrest the owner on suspicion of murder. They don't know who was killed, where, or when. How can they arrest him?",
                 options: [
+                    "Confession",
                     "Evidence found",
-                    "He made the call himself",
-                    "Confession"
+                    "He made the call himself"
                 ],
-                correct: 1
+                correct: 2
             },
         {
                 topic: "Lateral Thinking - Hard",
                 emoji: "🔮🌈",
                 question: "A man is found hanging in a barn. The nearest ladder is 20 feet away. There's a puddle beneath him. How did he die?",
                 options: [
-                    "Murder",
+                    "Stood on ice",
                     "Jumped from ladder",
-                    "Stood on ice"
+                    "Murder"
                 ],
-                correct: 2
+                correct: 0
             },
         {
                 topic: "Lateral Thinking - Hard",
@@ -279,30 +279,30 @@ window.riddlesQuestions[9] = {
                 emoji: "🧩🔮",
                 question: "A man goes to a party, drinks punch, leaves early. Everyone else who drank punch dies of poisoning. Why didn't he die?",
                 options: [
+                    "Antidote",
                     "Poison was in ice cubes that hadn't melted",
-                    "Didn't drink much",
-                    "Antidote"
+                    "Didn't drink much"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Lateral Thinking - Hard",
                 emoji: "🎭💡",
                 question: "Five people are in a room. One person shoots one of the others. The other three don't do anything. Why?",
                 options: [
-                    "Taking photos",
                     "They're playing a game",
+                    "Taking photos",
                     "Actors"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Lateral Thinking - Hard",
                 emoji: "🔍🌟",
                 question: "A boy was rushed to hospital emergency. The surgeon said 'I can't operate on this boy, he's my son!' But the surgeon wasn't his father. How?",
                 options: [
-                    "Adopted",
                     "Stepfather",
+                    "Adopted",
                     "The surgeon is his mother"
                 ],
                 correct: 2
@@ -323,11 +323,11 @@ window.riddlesQuestions[9] = {
                 emoji: "🎪🎯",
                 question: "A man is found dead in his car. All windows are closed and locked. No damage to car. How did he die?",
                 options: [
-                    "Heat",
+                    "Carbon monoxide poisoning",
                     "Heart attack",
-                    "Carbon monoxide poisoning"
+                    "Heat"
                 ],
-                correct: 2
+                correct: 0
             },
         {
                 topic: "Lateral Thinking - Hard",
@@ -345,11 +345,11 @@ window.riddlesQuestions[9] = {
                 emoji: "🧠💫",
                 question: "A man dies and goes up. Another man dies and goes down. They both had the same occupation. What were they?",
                 options: [
-                    "Pilots",
                     "Elevator operators",
+                    "Pilots",
                     "Divers"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Lateral Thinking - Hard",
@@ -368,10 +368,10 @@ window.riddlesQuestions[9] = {
                 question: "How can a man go 8 days without sleep?",
                 options: [
                     "Caffeine",
-                    "He sleeps at night",
-                    "Meditation"
+                    "Meditation",
+                    "He sleeps at night"
                 ],
-                correct: 1
+                correct: 2
             }
     ],
     expert: [
@@ -382,34 +382,34 @@ window.riddlesQuestions[9] = {
                 options: [
                     "Wrong bar",
                     "Robbery attempt",
-                    "Testing security",
-                    "He had hiccups and got scared"
+                    "He had hiccups and got scared",
+                    "Testing security"
                 ],
-                correct: 3
+                correct: 2
             },
         {
                 topic: "Lateral Thinking - Expert",
                 emoji: "🎭🔮",
                 question: "A man is found hanging in an empty locked room 10 feet from the ground. There's a puddle of water under him. How did he hang himself?",
                 options: [
-                    "Stood on block of ice",
                     "Levitation",
-                    "Someone helped",
-                    "Jumped"
+                    "Jumped",
+                    "Stood on block of ice",
+                    "Someone helped"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Lateral Thinking - Expert",
                 emoji: "🔍💡",
                 question: "A woman shoots her husband, holds him underwater for 5 minutes, then hangs him up to dry. Later they have dinner together. How is this possible?",
                 options: [
-                    "She's a photographer developing photos",
-                    "Dream",
                     "He's immortal",
+                    "Dream",
+                    "She's a photographer developing photos",
                     "She's a witch"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Lateral Thinking - Expert",
@@ -418,10 +418,10 @@ window.riddlesQuestions[9] = {
                 options: [
                     "Exercise",
                     "Visits friend",
-                    "Broken elevator",
-                    "He's short, can't reach button 10 unless he has umbrella"
+                    "He's short, can't reach button 10 unless he has umbrella",
+                    "Broken elevator"
                 ],
-                correct: 3
+                correct: 2
             },
         {
                 topic: "Lateral Thinking - Expert",
@@ -429,8 +429,8 @@ window.riddlesQuestions[9] = {
                 question: "Two men are in a desert. Both have backpacks on. One is alive, one is dead. The dead man's backpack is open, the alive man's is closed. What happened?",
                 options: [
                     "Dead man's parachute didn't open",
-                    "Fight",
                     "Dehydration",
+                    "Fight",
                     "Heatstroke"
                 ],
                 correct: 0
@@ -440,48 +440,48 @@ window.riddlesQuestions[9] = {
                 emoji: "🎪🌟",
                 question: "A man walks into a restaurant, orders albatross, takes one bite, pays and leaves, then goes home and kills himself. Why?",
                 options: [
-                    "Food poisoning",
-                    "Depression",
+                    "Bad taste",
                     "He realized he ate human flesh when shipwrecked",
-                    "Bad taste"
+                    "Depression",
+                    "Food poisoning"
                 ],
-                correct: 2
+                correct: 1
             },
         {
                 topic: "Lateral Thinking - Expert",
                 emoji: "🔮🎨",
                 question: "Acting on anonymous tip, police raid house to arrest a man for murder. They don't know victim's name, where killed, or when. Why can they arrest him?",
                 options: [
-                    "Witness",
                     "DNA evidence",
-                    "Confession",
-                    "The man called in tip on himself"
+                    "The man called in tip on himself",
+                    "Witness",
+                    "Confession"
                 ],
-                correct: 3
+                correct: 1
             },
         {
                 topic: "Lateral Thinking - Expert",
                 emoji: "🧩💭",
                 question: "A man is pushing his car along road. He comes to hotel and shouts 'I'm bankrupt!' What happened?",
                 options: [
-                    "Hotel expensive",
-                    "Playing Monopoly game",
+                    "Lost wallet",
                     "Car repairs costly",
-                    "Lost wallet"
+                    "Playing Monopoly game",
+                    "Hotel expensive"
                 ],
-                correct: 1
+                correct: 2
             },
         {
                 topic: "Lateral Thinking - Expert",
                 emoji: "🌟🔍",
                 question: "A girl has as many brothers as sisters, but each brother has only half as many brothers as sisters. How many children in family?",
                 options: [
-                    "3 and 3",
-                    "4 sisters and 3 brothers",
                     "5 and 2",
-                    "6 and 1"
+                    "3 and 3",
+                    "6 and 1",
+                    "4 sisters and 3 brothers"
                 ],
-                correct: 1
+                correct: 3
             },
         {
                 topic: "Lateral Thinking - Expert",
@@ -490,8 +490,8 @@ window.riddlesQuestions[9] = {
                 options: [
                     "Freeze one jug first",
                     "Temperature",
-                    "Taste",
-                    "Color one"
+                    "Color one",
+                    "Taste"
                 ],
                 correct: 0
             },
@@ -500,12 +500,12 @@ window.riddlesQuestions[9] = {
                 emoji: "🧠🌈",
                 question: "A man is found dead in locked room with 53 bicycles around him. How did he die?",
                 options: [
-                    "Caught cheating at cards, 'bicycle' is card brand",
-                    "Bicycle accident",
+                    "Suffocation",
                     "Heart attack",
-                    "Suffocation"
+                    "Bicycle accident",
+                    "Caught cheating at cards, 'bicycle' is card brand"
                 ],
-                correct: 0
+                correct: 3
             },
         {
                 topic: "Lateral Thinking - Expert",
@@ -524,12 +524,12 @@ window.riddlesQuestions[9] = {
                 emoji: "🎯🔮",
                 question: "A man dies of old age on his twenty-fifth birthday. How is this possible?",
                 options: [
-                    "Different calendar",
                     "Calculation error",
-                    "Time zones",
-                    "Born on February 29, leap year"
+                    "Born on February 29, leap year",
+                    "Different calendar",
+                    "Time zones"
                 ],
-                correct: 3
+                correct: 1
             },
         {
                 topic: "Lateral Thinking - Expert",
@@ -550,22 +550,22 @@ window.riddlesQuestions[9] = {
                 options: [
                     "Visits friend",
                     "Elevator broken",
-                    "He's short, uses umbrella to reach higher buttons",
-                    "Exercise"
+                    "Exercise",
+                    "He's short, uses umbrella to reach higher buttons"
                 ],
-                correct: 2
+                correct: 3
             },
         {
                 topic: "Lateral Thinking - Expert",
                 emoji: "🌈🧠",
                 question: "A murderer is condemned to death and must choose between 3 rooms. First has raging fires, second has assassins with loaded guns, third has lions that haven't eaten in 3 years. Which is safest?",
                 options: [
-                    "Second room",
-                    "Third room - lions are dead from starvation",
                     "First room",
-                    "All equal"
+                    "All equal",
+                    "Second room",
+                    "Third room - lions are dead from starvation"
                 ],
-                correct: 1
+                correct: 3
             },
         {
                 topic: "Lateral Thinking - Expert",
@@ -584,56 +584,56 @@ window.riddlesQuestions[9] = {
                 emoji: "🎨🔍",
                 question: "What 5-letter word becomes shorter when you add 2 letters to it?",
                 options: [
-                    "Tiny",
-                    "Brief",
                     "Short (becomes 'shorter')",
+                    "Brief",
+                    "Tiny",
                     "Small"
                 ],
-                correct: 2
+                correct: 0
             },
         {
                 topic: "Lateral Thinking - Expert",
                 emoji: "🧩💡",
                 question: "A man married 20 women in a small town. All are still alive and he never divorced. He's not a bigamist. How?",
                 options: [
-                    "Time travel",
                     "Different countries",
                     "Illegal marriages",
-                    "He's a priest/minister performing ceremonies"
+                    "He's a priest/minister performing ceremonies",
+                    "Time travel"
                 ],
-                correct: 3
+                correct: 2
             },
         {
                 topic: "Lateral Thinking - Expert",
                 emoji: "🌟🎯",
                 question: "Two fathers and two sons go fishing. Each catches one fish. They bring home 3 fish total. How?",
                 options: [
-                    "Lost fish",
-                    "Shared fish",
                     "Grandfather, father, and son (3 people)",
+                    "Shared fish",
+                    "Lost fish",
                     "One lied"
                 ],
-                correct: 2
+                correct: 0
             },
         {
                 topic: "Lateral Thinking - Expert",
                 emoji: "🎭✨",
                 question: "A woman gave birth to two sons on the same day, same hour, same year, but they're not twins. How?",
                 options: [
+                    "Different years",
                     "They're triplets (or more)",
-                    "Surrogate",
                     "Adopted one",
-                    "Different years"
+                    "Surrogate"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Lateral Thinking - Expert",
                 emoji: "🧠🌈",
                 question: "How can you throw a ball as hard as you can and have it come back without hitting anything or having anything attached to it?",
                 options: [
-                    "Elastic",
                     "Boomerang",
+                    "Elastic",
                     "Throw it straight up",
                     "Impossible"
                 ],
@@ -645,11 +645,11 @@ window.riddlesQuestions[9] = {
                 question: "A man was born in 1945 and died in 1953 at age 84. How is this possible?",
                 options: [
                     "Different calendar",
-                    "These are hospital room numbers",
+                    "Typo",
                     "B.C. dates",
-                    "Typo"
+                    "These are hospital room numbers"
                 ],
-                correct: 1
+                correct: 3
             }
     ],
     extreme: [

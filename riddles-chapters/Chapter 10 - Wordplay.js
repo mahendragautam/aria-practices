@@ -19,40 +19,40 @@ window.riddlesQuestions[10] = {
                 emoji: "📝✨",
                 question: "What starts with E, ends with E, but only has one letter?",
                 options: [
-                    "Eye",
-                    "Envelope"
+                    "Envelope",
+                    "Eye"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Wordplay - Easy",
                 emoji: "🔤💡",
                 question: "What word becomes shorter when you add two letters to it?",
                 options: [
-                    "Long",
-                    "Short"
+                    "Short",
+                    "Long"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Wordplay - Easy",
                 emoji: "✍️🌟",
                 question: "What 5-letter word typed in all capital letters can be read the same upside down?",
                 options: [
-                    "LEVEL",
-                    "SWIMS"
+                    "SWIMS",
+                    "LEVEL"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Wordplay - Easy",
                 emoji: "📖🎯",
                 question: "What begins with T, ends with T, and has T in it?",
                 options: [
-                    "Text",
-                    "Teapot"
+                    "Teapot",
+                    "Text"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Wordplay - Easy",
@@ -79,20 +79,20 @@ window.riddlesQuestions[10] = {
                 emoji: "🔤🎨",
                 question: "What comes once in a minute, twice in a moment, but never in a thousand years?",
                 options: [
-                    "Time",
-                    "The letter M"
+                    "The letter M",
+                    "Time"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Wordplay - Easy",
                 emoji: "✍️🌈",
                 question: "What word of five letters has one left when two are removed?",
                 options: [
-                    "Money",
-                    "Stone"
+                    "Stone",
+                    "Money"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Wordplay - Easy",
@@ -149,10 +149,10 @@ window.riddlesQuestions[10] = {
                 emoji: "📖🎯",
                 question: "Forward I am heavy, backward I am not. What am I?",
                 options: [
-                    "Weight",
-                    "Ton"
+                    "Ton",
+                    "Weight"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Wordplay - Medium",
@@ -169,10 +169,10 @@ window.riddlesQuestions[10] = {
                 emoji: "📚✨",
                 question: "What 4-letter word can be written forward, backward, or upside down and still be read left to right?",
                 options: [
-                    "DEED",
-                    "NOON"
+                    "NOON",
+                    "DEED"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Wordplay - Medium",
@@ -199,10 +199,10 @@ window.riddlesQuestions[10] = {
                 emoji: "📝💫",
                 question: "What word starts and ends with E but only has one letter in it?",
                 options: [
-                    "Eye",
-                    "Envelope"
+                    "Envelope",
+                    "Eye"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Wordplay - Medium",
@@ -219,10 +219,10 @@ window.riddlesQuestions[10] = {
                 emoji: "📖🔮",
                 question: "What word starts with IS, ends with AND, and has LA in the middle?",
                 options: [
-                    "Iceland",
-                    "Island"
+                    "Island",
+                    "Iceland"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Wordplay - Medium",
@@ -249,10 +249,10 @@ window.riddlesQuestions[10] = {
                 emoji: "📝🎯",
                 question: "What English word can have 4 of its 5 letters removed and still retain its original pronunciation?",
                 options: [
-                    "Phone",
-                    "Queue"
+                    "Queue",
+                    "Phone"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Wordplay - Medium",
@@ -279,10 +279,10 @@ window.riddlesQuestions[10] = {
                 emoji: "🔤🎨",
                 question: "What is the longest word in the dictionary?",
                 options: [
-                    "Dictionary",
-                    "Smiles (mile between s's)"
+                    "Smiles (mile between s's)",
+                    "Dictionary"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Wordplay - Medium",
@@ -299,30 +299,30 @@ window.riddlesQuestions[10] = {
                 emoji: "📝💫",
                 question: "What word becomes a palindrome when viewed upside down and backwards?",
                 options: [
-                    "NOON",
-                    "SWIMS"
+                    "SWIMS",
+                    "NOON"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Wordplay - Medium",
                 emoji: "🔠🎪",
                 question: "What five-letter word becomes shorter when you add two letters to it?",
                 options: [
-                    "Wider",
-                    "Short"
+                    "Short",
+                    "Wider"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Wordplay - Medium",
                 emoji: "📖🔮",
                 question: "What word in the English language uses all five vowels plus Y in alphabetical order?",
                 options: [
-                    "Abstentiously",
-                    "Facetiously"
+                    "Facetiously",
+                    "Abstentiously"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Wordplay - Medium",
@@ -371,11 +371,11 @@ window.riddlesQuestions[10] = {
                 emoji: "📝🔮",
                 question: "What word can be formed from the letters O, W, N, D, E, R, O, and N, using each letter only once?",
                 options: [
-                    "Two words",
                     "One word",
+                    "Two words",
                     "No word"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Wordplay - Hard",
@@ -393,63 +393,63 @@ window.riddlesQuestions[10] = {
                 emoji: "✍️🌟",
                 question: "What common English word has 9 letters, but remains a word at each step as you remove one letter at a time, all the way down to a single letter?",
                 options: [
+                    "Wrestling",
                     "Shrinking",
-                    "Startling",
-                    "Wrestling"
+                    "Startling"
                 ],
-                correct: 1
+                correct: 2
             },
         {
                 topic: "Wordplay - Hard",
                 emoji: "📖🎯",
                 question: "What word contains all the vowels (AEIOU) in reverse alphabetical order?",
                 options: [
-                    "Uncomplimentary",
+                    "Subcontinental",
                     "Unintentional",
-                    "Subcontinental"
+                    "Uncomplimentary"
                 ],
-                correct: 2
+                correct: 0
             },
         {
                 topic: "Wordplay - Hard",
                 emoji: "🔠💭",
                 question: "What is the only 15-letter word that can be spelled without repeating a letter?",
                 options: [
-                    "Ambidextrously",
                     "Uncopyrightable",
-                    "Dermatoglyphics"
+                    "Dermatoglyphics",
+                    "Ambidextrously"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Wordplay - Hard",
                 emoji: "📚✨",
                 question: "What word can be rearranged to spell 'BEST IN PRAYER'?",
                 options: [
-                    "Benedictine",
                     "Presbyterian",
-                    "Baptist"
+                    "Baptist",
+                    "Benedictine"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Wordplay - Hard",
                 emoji: "🔤🎨",
                 question: "What English word has all five vowels in alphabetical order?",
                 options: [
-                    "Educational",
                     "Facetious",
-                    "Abstemious"
+                    "Abstemious",
+                    "Educational"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Wordplay - Hard",
                 emoji: "✍️🌈",
                 question: "What word is spelled the same forwards, backwards, and upside down?",
                 options: [
-                    "SWIMS",
                     "TOOT",
+                    "SWIMS",
                     "NOON"
                 ],
                 correct: 2
@@ -459,19 +459,19 @@ window.riddlesQuestions[10] = {
                 emoji: "📝💫",
                 question: "What's the only word in the English language that has three consecutive pairs of double letters?",
                 options: [
+                    "Mississippi",
                     "Beekeepers",
-                    "Bookkeeper",
-                    "Mississippi"
+                    "Bookkeeper"
                 ],
-                correct: 1
+                correct: 2
             },
         {
                 topic: "Wordplay - Hard",
                 emoji: "🔠🎪",
                 question: "What word can be created by rearranging the letters of 'THE EYES'?",
                 options: [
-                    "Eye test",
                     "See they",
+                    "Eye test",
                     "They see"
                 ],
                 correct: 2
@@ -481,22 +481,22 @@ window.riddlesQuestions[10] = {
                 emoji: "📖🔮",
                 question: "What word becomes its own antonym when capitalized?",
                 options: [
-                    "Polish (polish)",
                     "Desert",
+                    "Polish (polish)",
                     "Content"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Wordplay - Hard",
                 emoji: "🔤💡",
                 question: "What is the only common English word that has five consecutive vowels?",
                 options: [
-                    "Sequoia",
+                    "Queueing",
                     "Beautiful",
-                    "Queueing"
+                    "Sequoia"
                 ],
-                correct: 2
+                correct: 0
             },
         {
                 topic: "Wordplay - Hard",
@@ -514,22 +514,22 @@ window.riddlesQuestions[10] = {
                 emoji: "📝🎯",
                 question: "What English word contains the letters XYZ in consecutive order?",
                 options: [
-                    "Hydroxyzine",
                     "Analyze",
+                    "Hydroxyzine",
                     "Oxygenize"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Wordplay - Hard",
                 emoji: "🔠💭",
                 question: "What word can you make from the letters in 'CHRISTMAS' using each letter once?",
                 options: [
-                    "Mischarts",
+                    "Harmonics",
                     "Charisma",
-                    "Harmonics"
+                    "Mischarts"
                 ],
-                correct: 2
+                correct: 0
             },
         {
                 topic: "Wordplay - Hard",
@@ -547,11 +547,11 @@ window.riddlesQuestions[10] = {
                 emoji: "🔤🎨",
                 question: "What common word has letters that occur in alphabetical order?",
                 options: [
+                    "Chimps",
                     "Begins",
-                    "Almost",
-                    "Chimps"
+                    "Almost"
                 ],
-                correct: 1
+                correct: 2
             },
         {
                 topic: "Wordplay - Hard",
@@ -569,22 +569,22 @@ window.riddlesQuestions[10] = {
                 emoji: "📝💫",
                 question: "What word is formed by removing one letter from 'STARTLING' to make another valid word, repeatedly?",
                 options: [
-                    "Starting, staring, string",
+                    "Starting, staring, string, sting, sing, sin, in, I",
                     "Cannot be done",
-                    "Starting, staring, string, sting, sing, sin, in, I"
+                    "Starting, staring, string"
                 ],
-                correct: 2
+                correct: 0
             },
         {
                 topic: "Wordplay - Hard",
                 emoji: "🔠🎪",
                 question: "What English word is an anagram of 'FUNERAL'?",
                 options: [
-                    "Run flea",
                     "Full ear",
-                    "Real fun"
+                    "Real fun",
+                    "Run flea"
                 ],
-                correct: 2
+                correct: 1
             },
         {
                 topic: "Wordplay - Hard",
@@ -592,32 +592,32 @@ window.riddlesQuestions[10] = {
                 question: "What is the shortest complete sentence in English that uses all 26 letters?",
                 options: [
                     "Sphinx of black quartz judge my vow",
-                    "Pack my box with five dozen liquor jugs",
-                    "The quick brown fox jumps over the lazy dog"
+                    "The quick brown fox jumps over the lazy dog",
+                    "Pack my box with five dozen liquor jugs"
                 ],
-                correct: 2
+                correct: 1
             },
         {
                 topic: "Wordplay - Hard",
                 emoji: "🔤💡",
                 question: "What word contains four consecutive letters of the alphabet in order?",
                 options: [
-                    "Afghanistan",
                     "Background",
-                    "Understudy"
+                    "Understudy",
+                    "Afghanistan"
                 ],
-                correct: 2
+                correct: 1
             },
         {
                 topic: "Wordplay - Hard",
                 emoji: "📝🎯",
                 question: "What word has the most meanings in the English language?",
                 options: [
-                    "Get",
                     "Set",
+                    "Get",
                     "Run"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Wordplay - Hard",
@@ -625,10 +625,10 @@ window.riddlesQuestions[10] = {
                 question: "What is the longest English word with alternating consonants and vowels?",
                 options: [
                     "Supercalifragilistic",
-                    "Honorificabilitudinitatibus",
-                    "Unimaginatively"
+                    "Unimaginatively",
+                    "Honorificabilitudinitatibus"
                 ],
-                correct: 1
+                correct: 2
             }
     ],
     expert: [
@@ -637,46 +637,46 @@ window.riddlesQuestions[10] = {
                 emoji: "📝🔮",
                 question: "What word can be spelled by rearranging the letters of 'DORMITORY'?",
                 options: [
+                    "Room tidy",
                     "Tidy room",
                     "Dirty room",
-                    "Room tidy",
                     "Dorm riot"
                 ],
-                correct: 1
+                correct: 2
             },
         {
                 topic: "Wordplay - Expert",
                 emoji: "🔤💡",
                 question: "What phrase is a perfect anagram of 'THE EARTHQUAKES'?",
                 options: [
+                    "Quake the earth",
                     "Earth shakes",
-                    "That queer shake",
                     "Shake the area",
-                    "Quake the earth"
+                    "That queer shake"
                 ],
-                correct: 1
+                correct: 3
             },
         {
                 topic: "Wordplay - Expert",
                 emoji: "✍️🌟",
                 question: "What word contains all five vowels exactly once in alphabetical order?",
                 options: [
-                    "Abstemiously",
-                    "Facetiously",
                     "Precautioned",
-                    "Educational"
+                    "Abstemiously",
+                    "Educational",
+                    "Facetiously"
                 ],
-                correct: 1
+                correct: 3
             },
         {
                 topic: "Wordplay - Expert",
                 emoji: "📖🎯",
                 question: "What is an anagram of 'A GENTLEMAN'?",
                 options: [
+                    "Late manage",
                     "Man elegant",
-                    "Mental age",
                     "Elegant man",
-                    "Late manage"
+                    "Mental age"
                 ],
                 correct: 2
             },
@@ -687,8 +687,8 @@ window.riddlesQuestions[10] = {
                 options: [
                     "Facetiously",
                     "Adventurously",
-                    "Abstemiously",
-                    "Abstentiously"
+                    "Abstentiously",
+                    "Abstemiously"
                 ],
                 correct: 0
             },
@@ -709,12 +709,12 @@ window.riddlesQuestions[10] = {
                 emoji: "🔤🎨",
                 question: "What is the longest word you can type using only the top row of a QWERTY keyboard?",
                 options: [
+                    "Proprietary",
                     "Perpetuity",
                     "Repertoire",
-                    "Typewriter",
-                    "Proprietary"
+                    "Typewriter"
                 ],
-                correct: 2
+                correct: 3
             },
         {
                 topic: "Wordplay - Expert",
@@ -722,9 +722,9 @@ window.riddlesQuestions[10] = {
                 question: "What word becomes an anagram of itself when you remove spaces? 'THE EYES'",
                 options: [
                     "These ye",
-                    "Eye test",
+                    "Yes thee",
                     "They see",
-                    "Yes thee"
+                    "Eye test"
                 ],
                 correct: 2
             },
@@ -733,10 +733,10 @@ window.riddlesQuestions[10] = {
                 emoji: "📝💫",
                 question: "What is the longest common English word that is typed with only the left hand on a QWERTY keyboard?",
                 options: [
-                    "Desegregated",
-                    "Stewardesses",
                     "Sweater",
-                    "Reverberated"
+                    "Stewardesses",
+                    "Reverberated",
+                    "Desegregated"
                 ],
                 correct: 1
             },
@@ -745,10 +745,10 @@ window.riddlesQuestions[10] = {
                 emoji: "🔠🎪",
                 question: "What word is spelled by rearranging 'SLOT MACHINES'?",
                 options: [
-                    "Chains to slim",
+                    "Machine slots",
                     "Cash lost in me",
                     "Lost in chimes",
-                    "Machine slots"
+                    "Chains to slim"
                 ],
                 correct: 1
             },
@@ -757,9 +757,9 @@ window.riddlesQuestions[10] = {
                 emoji: "🔤💡",
                 question: "What word becomes shorter when you add 'er' to it?",
                 options: [
+                    "Long",
                     "Wide",
                     "Tall",
-                    "Long",
                     "Short"
                 ],
                 correct: 3
@@ -769,22 +769,22 @@ window.riddlesQuestions[10] = {
                 emoji: "✍️🌟",
                 question: "What is the anagram of 'ELEVEN PLUS TWO'?",
                 options: [
+                    "Twelve plus one",
                     "Thirteen total",
-                    "Ten plus three",
                     "Two plus eleven",
-                    "Twelve plus one"
+                    "Ten plus three"
                 ],
-                correct: 3
+                correct: 0
             },
         {
                 topic: "Wordplay - Expert",
                 emoji: "📝🎯",
                 question: "What word has three consecutive double letters?",
                 options: [
-                    "Roommate",
+                    "Beekeeper",
                     "Bookkeeper",
-                    "Mississippi",
-                    "Beekeeper"
+                    "Roommate",
+                    "Mississippi"
                 ],
                 correct: 1
             },
@@ -793,36 +793,36 @@ window.riddlesQuestions[10] = {
                 emoji: "🔠💭",
                 question: "What common English word has 15 letters and can be spelled without repeating any letter?",
                 options: [
-                    "None of these",
-                    "Dermatoglyphics",
+                    "Ambidextrously",
                     "Uncopyrightable",
-                    "Ambidextrously"
+                    "None of these",
+                    "Dermatoglyphics"
                 ],
-                correct: 2
+                correct: 1
             },
         {
                 topic: "Wordplay - Expert",
                 emoji: "📚✨",
                 question: "What word is an anagram of 'SNOOZE ALARMS'?",
                 options: [
-                    "Alas no more Zs",
+                    "Nap zones alarm",
                     "Alarm zones",
                     "Zones alarm",
-                    "Nap zones alarm"
+                    "Alas no more Zs"
                 ],
-                correct: 0
+                correct: 3
             },
         {
                 topic: "Wordplay - Expert",
                 emoji: "🔤🎨",
                 question: "What is the longest English word with letters in reverse alphabetical order?",
                 options: [
-                    "Trollied",
                     "Sponged",
-                    "Spoonfed",
-                    "Wronged"
+                    "Trollied",
+                    "Wronged",
+                    "Spoonfed"
                 ],
-                correct: 2
+                correct: 3
             },
         {
                 topic: "Wordplay - Expert",
@@ -830,23 +830,23 @@ window.riddlesQuestions[10] = {
                 question: "What word becomes a palindrome when you view it upside down?",
                 options: [
                     "MOM",
-                    "NOON",
                     "SWIMS",
-                    "TOOT"
+                    "TOOT",
+                    "NOON"
                 ],
-                correct: 2
+                correct: 1
             },
         {
                 topic: "Wordplay - Expert",
                 emoji: "🔠🎪",
                 question: "What English word ends in 'dous'?",
                 options: [
-                    "All of these",
                     "Hazardous",
                     "Tremendous",
-                    "Stupendous"
+                    "Stupendous",
+                    "All of these"
                 ],
-                correct: 0
+                correct: 3
             },
         {
                 topic: "Wordplay - Expert",
@@ -854,35 +854,35 @@ window.riddlesQuestions[10] = {
                 question: "What word contains the consecutive letters 'RSTU' in order?",
                 options: [
                     "Undisturbed",
-                    "Overstuffed",
                     "All of these",
-                    "Understudied"
+                    "Understudied",
+                    "Overstuffed"
                 ],
-                correct: 2
+                correct: 1
             },
         {
                 topic: "Wordplay - Expert",
                 emoji: "📝🎯",
                 question: "What word has all letters in alphabetical order?",
                 options: [
-                    "Begins",
+                    "All of these",
                     "Biopsy",
-                    "Almost",
-                    "All of these"
+                    "Begins",
+                    "Almost"
                 ],
-                correct: 3
+                correct: 0
             },
         {
                 topic: "Wordplay - Expert",
                 emoji: "🔠💭",
                 question: "What is the longest word with no repeated letters?",
                 options: [
-                    "Ambidextrously",
-                    "Hydropneumatics",
                     "Uncopyrightable",
-                    "Dermatoglyphics"
+                    "Dermatoglyphics",
+                    "Hydropneumatics",
+                    "Ambidextrously"
                 ],
-                correct: 2
+                correct: 0
             }
     ],
     extreme: [

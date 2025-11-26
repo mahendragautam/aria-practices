@@ -33,8 +33,8 @@ window.riddlesQuestions[1] = {
             emoji: "🎯🧩",
             question: "What month of the year has 28 days?",
             options: [
-                    "February",
                     "None",
+                    "February",
                     "All of them"
                 ],
             correct: 2
@@ -44,11 +44,11 @@ window.riddlesQuestions[1] = {
             emoji: "🔍💡",
             question: "What goes up but never comes down?",
             options: [
-                    "A balloon",
                     "Your age",
-                    "Smoke"
+                    "Smoke",
+                    "A balloon"
                 ],
-            correct: 1
+            correct: 0
         },
         {
             topic: "Trick Questions",
@@ -56,21 +56,21 @@ window.riddlesQuestions[1] = {
             question: "What can you catch but not throw?",
             options: [
                     "Water",
-                    "A ball",
-                    "A cold"
+                    "A cold",
+                    "A ball"
                 ],
-            correct: 2
+            correct: 1
         },
         {
             topic: "Trick Questions",
             emoji: "🌟✨",
             question: "What gets wetter the more it dries?",
             options: [
-                    "A towel",
                     "A sponge",
-                    "Rain"
+                    "Rain",
+                    "A towel"
                 ],
-            correct: 0
+            correct: 2
         },
         {
             topic: "Trick Questions",
@@ -78,54 +78,54 @@ window.riddlesQuestions[1] = {
             question: "What has a head and a tail but no body?",
             options: [
                     "A fish",
-                    "A coin",
-                    "A snake"
+                    "A snake",
+                    "A coin"
                 ],
-            correct: 1
+            correct: 2
         },
         {
             topic: "Trick Questions",
             emoji: "🔑🗝️",
             question: "What has many keys but can't open locks?",
             options: [
-                    "A map",
                     "A keychain",
-                    "A piano"
+                    "A piano",
+                    "A map"
                 ],
-            correct: 2
+            correct: 1
         },
         {
             topic: "Trick Questions",
             emoji: "🎯🎲",
             question: "What can you break without touching it?",
             options: [
-                    "Ice",
                     "Glass",
-                    "A promise"
+                    "A promise",
+                    "Ice"
                 ],
-            correct: 2
+            correct: 1
         },
         {
             topic: "Trick Questions",
             emoji: "🌈🎨",
             question: "What has a neck but no head?",
             options: [
+                    "A bottle",
                     "A shirt",
-                    "A giraffe",
-                    "A bottle"
+                    "A giraffe"
                 ],
-            correct: 2
+            correct: 0
         },
         {
             topic: "Trick Questions",
             emoji: "🎪🎯",
             question: "What gets bigger the more you take away?",
             options: [
-                    "A balloon",
                     "A hole",
-                    "Debt"
+                    "Debt",
+                    "A balloon"
                 ],
-            correct: 1
+            correct: 0
         }
     ],
     hard: [
@@ -134,44 +134,44 @@ window.riddlesQuestions[1] = {
             emoji: "🧠🔮",
             question: "What can you put in a bucket to make it weigh less?",
             options: [
+                    "Air",
                     "Helium",
-                    "A hole",
-                    "Air"
+                    "A hole"
                 ],
-            correct: 1
+            correct: 2
         },
         {
             topic: "Trick Questions",
             emoji: "🎯💭",
             question: "If you drop me, I'm sure to crack, but smile at me and I'll smile back. What am I?",
             options: [
-                    "A mirror",
                     "An egg",
-                    "A joke"
+                    "A joke",
+                    "A mirror"
                 ],
-            correct: 0
+            correct: 2
         },
         {
             topic: "Trick Questions",
             emoji: "🔍✨",
             question: "What is seen in the middle of March and April but can't be seen at the beginning or end?",
             options: [
-                    "Spring",
                     "Rain",
-                    "The letter R"
+                    "The letter R",
+                    "Spring"
                 ],
-            correct: 2
+            correct: 1
         },
         {
             topic: "Trick Questions",
             emoji: "🎪🎭",
             question: "If two's company and three's a crowd, what are four and five?",
             options: [
-                    "A party",
                     "Too many",
-                    "Nine"
+                    "Nine",
+                    "A party"
                 ],
-            correct: 2
+            correct: 1
         },
         {
             topic: "Trick Questions",
@@ -179,10 +179,10 @@ window.riddlesQuestions[1] = {
             question: "If you have me, you want to share me. If you share me, you don't have me. What am I?",
             options: [
                     "Time",
-                    "A secret",
-                    "Money"
+                    "Money",
+                    "A secret"
                 ],
-            correct: 1
+            correct: 2
         },
         {
             topic: "Trick Questions",
@@ -190,41 +190,41 @@ window.riddlesQuestions[1] = {
             question: "What occurs once in a minute, twice in a moment, but never in a thousand years?",
             options: [
                     "A heartbeat",
-                    "The letter M",
-                    "Time"
+                    "Time",
+                    "The letter M"
                 ],
-            correct: 1
+            correct: 2
         },
         {
             topic: "Trick Questions",
             emoji: "🔮💡",
             question: "A rooster lays an egg on the roof. Which way does it roll?",
             options: [
+                    "Right",
                     "Roosters don't lay eggs",
-                    "Left",
-                    "Right"
+                    "Left"
                 ],
-            correct: 0
+            correct: 1
         },
         {
             topic: "Trick Questions",
             emoji: "🎯🌈",
             question: "A man dies of old age on his 25th birthday. How is this possible?",
             options: [
-                    "He aged fast",
                     "He was born on Feb 29",
+                    "He aged fast",
                     "Time travel"
                 ],
-            correct: 1
+            correct: 0
         },
         {
             topic: "Trick Questions",
             emoji: "🧠🎪",
             question: "A doctor gives you 3 pills to take every half hour. How long will they last?",
             options: [
-                    "90 minutes",
+                    "1.5 hours",
                     "1 hour",
-                    "1.5 hours"
+                    "90 minutes"
                 ],
             correct: 1
         },
@@ -244,11 +244,11 @@ window.riddlesQuestions[1] = {
             emoji: "🎯🔮",
             question: "What can travel the world while staying in a corner?",
             options: [
-                    "A map",
                     "A stamp",
+                    "A map",
                     "A globe"
                 ],
-            correct: 1
+            correct: 0
         },
         {
             topic: "Trick Questions",
@@ -267,8 +267,8 @@ window.riddlesQuestions[1] = {
             question: "What tastes better than it smells?",
             options: [
                     "Your tongue",
-                    "Perfume",
-                    "Coffee"
+                    "Coffee",
+                    "Perfume"
                 ],
             correct: 0
         },
@@ -277,11 +277,11 @@ window.riddlesQuestions[1] = {
             emoji: "🌟🧩",
             question: "What invention lets people walk through walls?",
             options: [
+                    "A door",
                     "Teleportation",
-                    "X-ray vision",
-                    "A door"
+                    "X-ray vision"
                 ],
-            correct: 2
+            correct: 0
         },
         {
             topic: "Trick Questions",
@@ -289,106 +289,106 @@ window.riddlesQuestions[1] = {
             question: "What gets broken without being held?",
             options: [
                     "Glass",
-                    "A promise",
-                    "A record"
+                    "A record",
+                    "A promise"
                 ],
-            correct: 1
+            correct: 2
         },
         {
             topic: "Trick Questions",
             emoji: "🌟🔮",
             question: "What is always found on the ground but never gets dirty?",
             options: [
-                    "Grass",
+                    "A shadow",
                     "Concrete",
-                    "A shadow"
+                    "Grass"
                 ],
-            correct: 2
+            correct: 0
         },
         {
             topic: "Trick Questions",
             emoji: "🎯🧩",
             question: "What can point in every direction but can't reach the destination?",
             options: [
+                    "An arrow",
                     "A compass",
-                    "Your finger",
-                    "An arrow"
+                    "Your finger"
                 ],
-            correct: 1
+            correct: 2
         },
         {
             topic: "Trick Questions",
             emoji: "🔍🌟",
             question: "What do you throw out when you want to use it but take in when you don't?",
             options: [
-                    "Garbage",
+                    "An anchor",
                     "A fishing line",
-                    "An anchor"
+                    "Garbage"
                 ],
-            correct: 2
+            correct: 0
         },
         {
             topic: "Trick Questions",
             emoji: "🔮💭",
             question: "What kind of coat can only be put on when wet?",
             options: [
-                    "A raincoat",
                     "A fur coat",
-                    "A coat of paint"
+                    "A coat of paint",
+                    "A raincoat"
                 ],
-            correct: 2
+            correct: 1
         },
         {
             topic: "Trick Questions",
             emoji: "🎪💡",
             question: "What has cities but no houses, forests but no trees, water but no fish?",
             options: [
-                    "A dream",
                     "A map",
+                    "A dream",
                     "A painting"
                 ],
-            correct: 1
+            correct: 0
         },
         {
             topic: "Trick Questions",
             emoji: "🌟🎯",
             question: "The more it dries, the wetter it gets. What is it?",
             options: [
-                    "A towel",
+                    "Rain",
                     "A sponge",
-                    "Rain"
+                    "A towel"
                 ],
-            correct: 0
+            correct: 2
         },
         {
             topic: "Trick Questions",
             emoji: "🔍💫",
             question: "What loses its head in the morning and gets it back at night?",
             options: [
+                    "A pillow",
                     "A vampire",
-                    "Your shadow",
-                    "A pillow"
+                    "Your shadow"
                 ],
-            correct: 2
+            correct: 0
         },
         {
             topic: "Trick Questions",
             emoji: "🎨🧩",
             question: "What has four wheels and flies?",
             options: [
-                    "A car",
                     "A garbage truck",
+                    "A car",
                     "A plane"
                 ],
-            correct: 1
+            correct: 0
         },
         {
             topic: "Trick Questions",
             emoji: "🌈🧩",
             question: "What's black when you get it, red when you use it, and white when you're done?",
             options: [
-                    "Coal",
                     "A tire",
+                    "Coal",
                     "Charcoal"
                 ],
             correct: 2
@@ -399,8 +399,8 @@ window.riddlesQuestions[1] = {
             question: "How many months have 28 days?",
             options: [
                     "All of them",
-                    "One",
-                    "None"
+                    "None",
+                    "One"
                 ],
             correct: 0
         }
@@ -411,8 +411,8 @@ window.riddlesQuestions[1] = {
             emoji: "🧠💫",
             question: "A woman shoots her husband, holds him underwater for 5 minutes, then hangs him. Later they enjoy dinner. How?",
             options: [
-                    "She's a ghost hunter",
                     "It's a dream",
+                    "She's a ghost hunter",
                     "She's a photographer",
                     "She's a magician"
                 ],
@@ -423,12 +423,12 @@ window.riddlesQuestions[1] = {
             emoji: "🎯🔮",
             question: "A man walks into a bar and asks for water. The bartender pulls out a gun. The man says thanks and leaves. Why?",
             options: [
-                    "He was scared",
-                    "He was thirsty",
+                    "Wrong bar",
                     "He had hiccups",
-                    "Wrong bar"
+                    "He was scared",
+                    "He was thirsty"
                 ],
-            correct: 2
+            correct: 1
         },
         {
             topic: "Trick Questions",
@@ -436,9 +436,9 @@ window.riddlesQuestions[1] = {
             question: "You see a boat filled with people. It hasn't sunk, but when you look again you don't see a single person. Why?",
             options: [
                     "All married",
-                    "They jumped",
                     "It disappeared",
-                    "They hid"
+                    "They hid",
+                    "They jumped"
                 ],
             correct: 0
         },
@@ -447,9 +447,9 @@ window.riddlesQuestions[1] = {
             emoji: "🎪🎭",
             question: "What word in the English language has three consecutive double letters?",
             options: [
+                    "Mississippi",
                     "Succeed",
                     "Committee",
-                    "Mississippi",
                     "Bookkeeper"
                 ],
             correct: 3
@@ -459,8 +459,8 @@ window.riddlesQuestions[1] = {
             emoji: "🔍💡",
             question: "What English word retains the same pronunciation even after you take away four of its five letters?",
             options: [
-                    "Quiet",
                     "Quote",
+                    "Quiet",
                     "Queue",
                     "Quick"
                 ],
@@ -471,21 +471,21 @@ window.riddlesQuestions[1] = {
             emoji: "🧩🌈",
             question: "What can run but never walks, has a mouth but never talks?",
             options: [
+                    "A clock",
                     "A river",
                     "A shadow",
-                    "A clock",
                     "Wind"
                 ],
-            correct: 0
+            correct: 1
         },
         {
             topic: "Trick Questions",
             emoji: "🎨💭",
             question: "I am taken from a mine and shut in a wooden case. I'm never released but used by everyone. What am I?",
             options: [
-                    "Diamond",
                     "Gold",
                     "Coal",
+                    "Diamond",
                     "Pencil lead"
                 ],
             correct: 3
@@ -495,12 +495,12 @@ window.riddlesQuestions[1] = {
             emoji: "🔮🎯",
             question: "What 5-letter word becomes shorter when you add two letters to it?",
             options: [
+                    "Small",
                     "Tiny",
                     "Brief",
-                    "Short",
-                    "Small"
+                    "Short"
                 ],
-            correct: 2
+            correct: 3
         },
         {
             topic: "Trick Questions",
@@ -508,9 +508,9 @@ window.riddlesQuestions[1] = {
             question: "What word is spelled incorrectly in every dictionary?",
             options: [
                     "Mistake",
-                    "Dictionary",
+                    "Wrong",
                     "Incorrectly",
-                    "Wrong"
+                    "Dictionary"
                 ],
             correct: 2
         },
@@ -521,10 +521,10 @@ window.riddlesQuestions[1] = {
             options: [
                     "Encyclopedia",
                     "Antidisestablishmentarianism",
-                    "Pneumon...",
-                    "Smiles"
+                    "Smiles",
+                    "Pneumon..."
                 ],
-            correct: 3
+            correct: 2
         },
         {
             topic: "Trick Questions",
@@ -532,83 +532,83 @@ window.riddlesQuestions[1] = {
             question: "Forward I am heavy, backward I am not. What am I?",
             options: [
                     "Heavy",
-                    "Load",
                     "Ton",
-                    "Weight"
+                    "Weight",
+                    "Load"
                 ],
-            correct: 2
+            correct: 1
         },
         {
             topic: "Trick Questions",
             emoji: "🎪🔮",
             question: "What can you add to one to make it disappear?",
             options: [
-                    "Subtract",
-                    "Nothing",
                     "The letter G",
-                    "Zero"
+                    "Zero",
+                    "Subtract",
+                    "Nothing"
                 ],
-            correct: 2
+            correct: 0
         },
         {
             topic: "Trick Questions",
             emoji: "🧠💫",
             question: "I have keys but no locks, space but no room, you can enter but can't go inside. What am I?",
             options: [
-                    "A map",
                     "A safe",
-                    "A piano",
-                    "A keyboard"
+                    "A map",
+                    "A keyboard",
+                    "A piano"
                 ],
-            correct: 3
+            correct: 2
         },
         {
             topic: "Trick Questions",
             emoji: "🎯🔮",
             question: "What is at the end of a rainbow?",
             options: [
-                    "Gold",
                     "Nothing",
-                    "The letter W",
-                    "A pot"
+                    "A pot",
+                    "Gold",
+                    "The letter W"
                 ],
-            correct: 2
+            correct: 3
         },
         {
             topic: "Trick Questions",
             emoji: "🌈🎪",
             question: "I am always hungry and must be fed. Touch me and I'll die. What am I?",
             options: [
-                    "Fire",
                     "A battery",
-                    "A baby",
-                    "A plant"
+                    "Fire",
+                    "A plant",
+                    "A baby"
                 ],
-            correct: 0
+            correct: 1
         },
         {
             topic: "Trick Questions",
             emoji: "🎪💡",
             question: "What can you make that no one—not even you—can see?",
             options: [
-                    "Darkness",
-                    "Time",
                     "Noise",
-                    "Wind"
+                    "Darkness",
+                    "Wind",
+                    "Time"
                 ],
-            correct: 2
+            correct: 0
         },
         {
             topic: "Trick Questions",
             emoji: "🌟💭",
             question: "What begins with an E and ends with an E but only has one letter?",
             options: [
-                    "Email",
+                    "An envelope",
                     "Eagle",
                     "The letter E",
-                    "An envelope"
+                    "Email"
                 ],
-            correct: 3
+            correct: 0
         },
         {
             topic: "Trick Questions",
@@ -616,71 +616,71 @@ window.riddlesQuestions[1] = {
             question: "The more you have of it, the less you see. What is it?",
             options: [
                     "Light",
-                    "Time",
                     "Darkness",
-                    "Money"
+                    "Money",
+                    "Time"
                 ],
-            correct: 2
+            correct: 1
         },
         {
             topic: "Trick Questions",
             emoji: "🧠✨",
             question: "What flies without wings?",
             options: [
-                    "A bird",
+                    "A plane",
                     "An insect",
-                    "Time",
-                    "A plane"
+                    "A bird",
+                    "Time"
                 ],
-            correct: 2
+            correct: 3
         },
         {
             topic: "Trick Questions",
             emoji: "🔍🌈",
             question: "What comes down but never goes up?",
             options: [
-                    "Rain",
+                    "Your age",
                     "A ball",
-                    "Gravity",
-                    "Your age"
+                    "Rain",
+                    "Gravity"
                 ],
-            correct: 0
+            correct: 2
         },
         {
             topic: "Trick Questions",
             emoji: "🔮🧠",
             question: "What is full of holes but still holds a lot of weight?",
             options: [
-                    "A sponge",
+                    "A net",
                     "A colander",
-                    "Swiss cheese",
-                    "A net"
+                    "A sponge",
+                    "Swiss cheese"
                 ],
-            correct: 3
+            correct: 0
         },
         {
             topic: "Trick Questions",
             emoji: "🌈🎪",
             question: "What has a heart that doesn't beat?",
             options: [
-                    "A statue",
                     "An artichoke",
+                    "A statue",
                     "A painting",
                     "A robot"
                 ],
-            correct: 1
+            correct: 0
         },
         {
             topic: "Trick Questions",
             emoji: "🧠🌟",
             question: "What can be cracked, made, told, and played?",
             options: [
-                    "An egg",
-                    "A code",
                     "A song",
-                    "A joke"
+                    "A joke",
+                    "A code",
+                    "An egg"
                 ],
-            correct: 3
+            correct: 1
         },
         {
             topic: "Trick Questions",
@@ -689,8 +689,8 @@ window.riddlesQuestions[1] = {
             options: [
                     "A palm",
                     "A stick",
-                    "A small tree",
-                    "A bonsai"
+                    "A bonsai",
+                    "A small tree"
                 ],
             correct: 0
         },
@@ -699,12 +699,12 @@ window.riddlesQuestions[1] = {
             emoji: "🎪🌈",
             question: "I shave every day but my beard stays the same. Who am I?",
             options: [
+                    "A barber",
                     "No one",
-                    "A man with fast growth",
                     "A liar",
-                    "A barber"
+                    "A man with fast growth"
                 ],
-            correct: 3
+            correct: 0
         }
     ],
     extreme: [

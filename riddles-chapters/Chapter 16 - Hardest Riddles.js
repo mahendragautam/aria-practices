@@ -39,76 +39,76 @@ window.riddlesQuestions[16] = {
                 emoji: "🧠✨",
                 question: "What goes up but never comes down?",
                 options: [
-                    "Your age",
-                    "A balloon"
+                    "A balloon",
+                    "Your age"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Hardest Riddles - Medium",
                 emoji: "🧠🔮",
                 question: "I am always hungry and must always be fed. The finger I touch will soon turn red. What am I?",
                 options: [
-                    "Fire",
                     "A vampire",
-                    "Hunger"
+                    "Hunger",
+                    "Fire"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Hardest Riddles - Medium",
                 emoji: "💭✨",
                 question: "What has cities but no houses, forests but no trees, and water but no fish?",
                 options: [
-                    "A map",
                     "A painting",
-                    "A dream"
+                    "A dream",
+                    "A map"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Hardest Riddles - Medium",
                 emoji: "🔍🌟",
                 question: "The person who makes it doesn't need it. The person who buys it doesn't use it. The person who uses it doesn't know it. What is it?",
                 options: [
-                    "A coffin",
                     "A gift",
+                    "A coffin",
                     "Medicine"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Hardest Riddles - Medium",
                 emoji: "💡🔮",
                 question: "I am not alive, but I grow. I don't have lungs, but I need air. I don't have a mouth, but water kills me. What am I?",
                 options: [
-                    "Fire",
                     "A plant",
-                    "A crystal"
+                    "A crystal",
+                    "Fire"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Hardest Riddles - Medium",
                 emoji: "🎯🌟",
                 question: "I have no life, but I can die. What am I?",
                 options: [
-                    "A battery",
                     "A robot",
+                    "A battery",
                     "Hope"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Hardest Riddles - Medium",
                 emoji: "💡🌈",
                 question: "I am taken from a mine and shut up in a wooden case, from which I am never released. Yet I am used by almost everybody. What am I?",
                 options: [
-                    "Pencil lead",
+                    "Diamond",
                     "Coal",
-                    "Diamond"
+                    "Pencil lead"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Hardest Riddles - Medium",
@@ -126,33 +126,33 @@ window.riddlesQuestions[16] = {
                 emoji: "🔮🧠",
                 question: "I am lighter than air but a million men cannot lift me. What am I?",
                 options: [
+                    "A thought",
                     "A bubble",
-                    "A feather",
-                    "A thought"
+                    "A feather"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Hardest Riddles - Medium",
                 emoji: "💭✨",
                 question: "What has four fingers and a thumb but is not alive?",
                 options: [
-                    "A glove",
                     "A robot hand",
+                    "A glove",
                     "A statue"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Hardest Riddles - Medium",
                 emoji: "🌈💡",
                 question: "What kind of coat is always wet when you put it on?",
                 options: [
+                    "A wetsuit",
                     "A coat of paint",
-                    "A raincoat",
-                    "A wetsuit"
+                    "A raincoat"
                 ],
-                correct: 0
+                correct: 1
             }
     ],
     hard: [
@@ -163,8 +163,8 @@ window.riddlesQuestions[16] = {
                 options: [
                     "A joke",
                     "An egg",
-                    "A code",
-                    "Music"
+                    "Music",
+                    "A code"
                 ],
                 correct: 0
             },
@@ -173,48 +173,48 @@ window.riddlesQuestions[16] = {
                 emoji: "🔮🎯",
                 question: "What is seen in the middle of March and April that can't be seen at the beginning or end of either month?",
                 options: [
+                    "Easter",
                     "The letter R",
                     "Spring",
-                    "Rain",
-                    "Easter"
+                    "Rain"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Hardest Riddles - Hard",
                 emoji: "💡✨",
                 question: "A mother had five boys: Marco, Tucker, Webster, and Thomas. Was the fifth boy named Frank, Evan, or Alex?",
                 options: [
-                    "Andy (Mother's name was Andy)",
                     "Frank",
                     "Evan",
+                    "Andy (Mother's name was Andy)",
                     "Alex"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Hardest Riddles - Hard",
                 emoji: "🌟💭",
                 question: "I have keys but no locks. I have space but no room. You can enter but can't go outside. What am I?",
                 options: [
-                    "A keyboard",
-                    "A piano",
                     "A house",
-                    "A prison"
+                    "A prison",
+                    "A keyboard",
+                    "A piano"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Hardest Riddles - Hard",
                 emoji: "🎪🔮",
                 question: "What occurs once in every minute, twice in every moment, yet never in a thousand years?",
                 options: [
+                    "Time",
                     "The letter M",
                     "A breath",
-                    "A heartbeat",
-                    "Time"
+                    "A heartbeat"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Hardest Riddles - Hard",
@@ -233,12 +233,12 @@ window.riddlesQuestions[16] = {
                 emoji: "🎯✨",
                 question: "A woman shoots her husband, then holds him underwater for five minutes. Next, she hangs him. Right after, they enjoy dinner. Explain.",
                 options: [
-                    "She's a photographer",
                     "It's a dream",
-                    "He survived",
-                    "They're playing"
+                    "She's a photographer",
+                    "They're playing",
+                    "He survived"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Hardest Riddles - Hard",
@@ -257,60 +257,60 @@ window.riddlesQuestions[16] = {
                 emoji: "🎨🔍",
                 question: "What has a bottom at its top?",
                 options: [
-                    "Your legs",
-                    "A well",
+                    "A bottle",
                     "A mountain",
-                    "A bottle"
+                    "Your legs",
+                    "A well"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Hardest Riddles - Hard",
                 emoji: "💡🎪",
                 question: "I am the beginning of the end, the end of every place. I am the beginning of eternity, the end of time and space. What am I?",
                 options: [
-                    "The letter E",
                     "Death",
+                    "Nothing",
                     "A period",
-                    "Nothing"
+                    "The letter E"
                 ],
-                correct: 0
+                correct: 3
             },
         {
                 topic: "Hardest Riddles - Hard",
                 emoji: "🧠🌈",
                 question: "What is it that given one, you'll have either two or none?",
                 options: [
-                    "A choice",
+                    "An option",
                     "A mirror",
-                    "A twin",
-                    "An option"
+                    "A choice",
+                    "A twin"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Hardest Riddles - Hard",
                 emoji: "🔮💫",
                 question: "Two fathers and two sons are in a car, yet there are only three people in the car. How is this possible?",
                 options: [
-                    "Grandfather, father, and son",
                     "Two are stepfathers",
-                    "One is adopted",
-                    "They're twins"
+                    "Grandfather, father, and son",
+                    "They're twins",
+                    "One is adopted"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Hardest Riddles - Hard",
                 emoji: "🎯🧩",
                 question: "What word in the English language does the following: the first two letters signify a male, the first three letters signify a female, the first four letters signify a great, while the entire word signifies a great woman?",
                 options: [
-                    "Heroine",
-                    "History",
+                    "Herself",
                     "Heroism",
-                    "Herself"
+                    "History",
+                    "Heroine"
                 ],
-                correct: 0
+                correct: 3
             },
         {
                 topic: "Hardest Riddles - Hard",
@@ -318,9 +318,9 @@ window.riddlesQuestions[16] = {
                 question: "I am something that is always coming but never arrives. What am I?",
                 options: [
                     "Tomorrow",
-                    "The future",
                     "Death",
-                    "Rain"
+                    "Rain",
+                    "The future"
                 ],
                 correct: 0
             },
@@ -341,12 +341,12 @@ window.riddlesQuestions[16] = {
                 emoji: "🧠🎪",
                 question: "I never was but always will be. No one ever saw me but everyone knows I exist. I give people the motivation to better themselves every day. What am I?",
                 options: [
-                    "Tomorrow",
-                    "Hope",
                     "The future",
+                    "Hope",
+                    "Tomorrow",
                     "Dreams"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Hardest Riddles - Hard",
@@ -365,12 +365,12 @@ window.riddlesQuestions[16] = {
                 emoji: "💫🧩",
                 question: "I make two people out of one. What am I?",
                 options: [
-                    "A mirror",
-                    "Marriage",
+                    "A camera",
                     "Birth",
-                    "A camera"
+                    "A mirror",
+                    "Marriage"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Hardest Riddles - Hard",
@@ -378,9 +378,9 @@ window.riddlesQuestions[16] = {
                 question: "What word is pronounced the same if you take away four of its five letters?",
                 options: [
                     "Queue",
-                    "Empty",
+                    "Right",
                     "Write",
-                    "Right"
+                    "Empty"
                 ],
                 correct: 0
             }
@@ -391,84 +391,84 @@ window.riddlesQuestions[16] = {
                 emoji: "🧠🔮",
                 question: "I am the beginning of sorrow and the end of sickness. You cannot express happiness without me yet I am in the midst of crosses. I am always in risk yet never in danger. You may find me in the sun, but I am never out of darkness.",
                 options: [
-                    "The letter S",
-                    "Pain",
                     "Shadow",
-                    "Sadness"
+                    "The letter S",
+                    "Sadness",
+                    "Pain"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Hardest Riddles - Expert",
                 emoji: "💫✨",
                 question: "What walks on four legs in the morning, two legs in the afternoon, and three legs in the evening?",
                 options: [
-                    "A human (Sphinx riddle)",
-                    "A dog",
                     "Time",
+                    "A dog",
+                    "A human (Sphinx riddle)",
                     "Evolution"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Hardest Riddles - Expert",
                 emoji: "🎯💭",
                 question: "I have billions of eyes yet I live in darkness. I have millions of ears yet only four lobes. I have no muscle yet I rule two hemispheres. What am I?",
                 options: [
-                    "The human brain",
-                    "The internet",
                     "The universe",
-                    "A computer"
+                    "The internet",
+                    "A computer",
+                    "The human brain"
                 ],
-                correct: 0
+                correct: 3
             },
         {
                 topic: "Hardest Riddles - Expert",
                 emoji: "🔮🧩",
                 question: "Take one out and scratch my head, I am now black but once was red. What am I?",
                 options: [
+                    "Blood",
                     "A match",
                     "A volcano",
-                    "Coal",
-                    "Blood"
+                    "Coal"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Hardest Riddles - Expert",
                 emoji: "🌟🧠",
                 question: "First you eat me, then you get eaten. What am I?",
                 options: [
-                    "A fishhook",
-                    "Bait",
+                    "Poison",
                     "Food",
-                    "Poison"
+                    "A fishhook",
+                    "Bait"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Hardest Riddles - Expert",
                 emoji: "🎨💡",
                 question: "I can be written, I can be spoken, I can be exposed, I can be broken. What am I?",
                 options: [
+                    "A story",
                     "News",
-                    "A promise",
                     "A secret",
-                    "A story"
+                    "A promise"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Hardest Riddles - Expert",
                 emoji: "🎪✨",
                 question: "I am always hungry, I must always be fed. The finger I touch, will soon turn red. What am I?",
                 options: [
-                    "Fire",
                     "A vampire",
+                    "Fire",
                     "Hunger",
                     "A red pen"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Hardest Riddles - Expert",
@@ -476,9 +476,9 @@ window.riddlesQuestions[16] = {
                 question: "What has roots that nobody sees, is taller than trees, up, up it goes, and yet never grows?",
                 options: [
                     "A mountain",
-                    "A building",
                     "A tower",
-                    "The sky"
+                    "The sky",
+                    "A building"
                 ],
                 correct: 0
             },
@@ -487,48 +487,48 @@ window.riddlesQuestions[16] = {
                 emoji: "🌟🧩",
                 question: "Alive without breath, as cold as death. Never thirsty, ever drinking, all in mail never clinking. What am I?",
                 options: [
-                    "A fish",
                     "Ice",
+                    "A fish",
                     "A robot",
                     "A stone"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Hardest Riddles - Expert",
                 emoji: "🎯🔮",
                 question: "What is it that no man wants, but no man wants to lose?",
                 options: [
-                    "A lawsuit",
-                    "A job",
                     "Money",
-                    "Life"
+                    "A job",
+                    "Life",
+                    "A lawsuit"
                 ],
-                correct: 0
+                correct: 3
             },
         {
                 topic: "Hardest Riddles - Expert",
                 emoji: "💡🧠",
                 question: "I build up castles, I tear down mountains, I make some blind and help others to see. What am I?",
                 options: [
-                    "Sand",
-                    "Time",
+                    "Power",
                     "Water",
-                    "Power"
+                    "Sand",
+                    "Time"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Hardest Riddles - Expert",
                 emoji: "🌈💫",
                 question: "What is it that you can keep after giving to someone?",
                 options: [
-                    "Your word",
                     "Love",
-                    "A gift",
-                    "Advice"
+                    "Your word",
+                    "Advice",
+                    "A gift"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Hardest Riddles - Expert",
@@ -536,9 +536,9 @@ window.riddlesQuestions[16] = {
                 question: "I am taken from a mine and shut in a wooden case from which I am never released, and yet I am used by almost everyone. What am I?",
                 options: [
                     "Pencil lead (graphite)",
-                    "Coal",
                     "Diamond",
-                    "Metal"
+                    "Metal",
+                    "Coal"
                 ],
                 correct: 0
             },
@@ -547,48 +547,48 @@ window.riddlesQuestions[16] = {
                 emoji: "🔮🎯",
                 question: "What is in seasons, seconds, centuries, and minutes but not in decades, years, or days?",
                 options: [
-                    "The letter N",
-                    "Time",
+                    "Change",
                     "Numbers",
-                    "Change"
+                    "The letter N",
+                    "Time"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Hardest Riddles - Expert",
                 emoji: "🎪💡",
                 question: "What can fill an entire room without taking up any space?",
                 options: [
-                    "Light",
+                    "Smell",
                     "Air",
                     "Sound",
-                    "Smell"
+                    "Light"
                 ],
-                correct: 0
+                correct: 3
             },
         {
                 topic: "Hardest Riddles - Expert",
                 emoji: "🎯✨",
                 question: "What gets wetter and wetter the more it dries?",
                 options: [
-                    "A towel",
                     "Sand",
                     "A sponge",
+                    "A towel",
                     "Time"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Hardest Riddles - Expert",
                 emoji: "🔍🧩",
                 question: "I am weightless but you can see me. Put me in a bucket and I make it lighter. What am I?",
                 options: [
-                    "A hole",
-                    "Air",
                     "Light",
-                    "Nothing"
+                    "Air",
+                    "Nothing",
+                    "A hole"
                 ],
-                correct: 0
+                correct: 3
             }
     ],
     extreme: [

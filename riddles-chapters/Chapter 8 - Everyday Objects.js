@@ -19,50 +19,50 @@ window.riddlesQuestions[8] = {
                 emoji: "🔑🚪",
                 question: "I have teeth but cannot eat. What am I?",
                 options: [
-                    "A fork",
-                    "A comb"
+                    "A comb",
+                    "A fork"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Everyday Objects - Easy",
                 emoji: "🎨🖊️",
                 question: "The more you take away from me, the bigger I get. What am I?",
                 options: [
-                    "A pencil",
-                    "A hole"
+                    "A hole",
+                    "A pencil"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Everyday Objects - Easy",
                 emoji: "🏠🔑",
                 question: "I have keys but no locks. I have space but no room. What am I?",
                 options: [
-                    "A piano",
-                    "A keyboard"
+                    "A keyboard",
+                    "A piano"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Everyday Objects - Easy",
                 emoji: "🧼💧",
                 question: "I get wetter the more I dry. What am I?",
                 options: [
-                    "A sponge",
-                    "A towel"
+                    "A towel",
+                    "A sponge"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Everyday Objects - Easy",
                 emoji: "📚✏️",
                 question: "I have a spine but no bones. What am I?",
                 options: [
-                    "A chair",
-                    "A book"
+                    "A book",
+                    "A chair"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Everyday Objects - Easy",
@@ -79,10 +79,10 @@ window.riddlesQuestions[8] = {
                 emoji: "🍴🥄",
                 question: "I have a neck but no head. What am I?",
                 options: [
-                    "A vase",
-                    "A bottle"
+                    "A bottle",
+                    "A vase"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Everyday Objects - Easy",
@@ -99,30 +99,30 @@ window.riddlesQuestions[8] = {
                 emoji: "🔨🔧",
                 question: "I have a bed but never sleep. I have a mouth but never eat. What am I?",
                 options: [
-                    "A cave",
-                    "A river"
+                    "A river",
+                    "A cave"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Everyday Objects - Medium",
                 emoji: "🎸🎹",
                 question: "I have strings but I'm not a puppet. I make music but I'm not alive. What am I?",
                 options: [
-                    "A violin",
-                    "A guitar"
+                    "A guitar",
+                    "A violin"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Everyday Objects - Medium",
                 emoji: "🪜📏",
                 question: "I go up and down but never move. What am I?",
                 options: [
-                    "An elevator",
-                    "A staircase"
+                    "A staircase",
+                    "An elevator"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Everyday Objects - Medium",
@@ -149,10 +149,10 @@ window.riddlesQuestions[8] = {
                 emoji: "🧹🧺",
                 question: "I have bristles but I'm not a brush. I sweep but I'm not wind. What am I?",
                 options: [
-                    "A mop",
-                    "A broom"
+                    "A broom",
+                    "A mop"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Everyday Objects - Medium",
@@ -169,10 +169,10 @@ window.riddlesQuestions[8] = {
                 emoji: "🔌💻",
                 question: "I have a screen but I'm not a window. I have buttons but I'm not a shirt. What am I?",
                 options: [
-                    "A phone",
-                    "A computer"
+                    "A computer",
+                    "A phone"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Everyday Objects - Medium",
@@ -189,10 +189,10 @@ window.riddlesQuestions[8] = {
                 emoji: "🪟🏠",
                 question: "I let you see outside but I'm not a door. I'm made of glass but I'm not a cup. What am I?",
                 options: [
-                    "Glasses",
-                    "A window"
+                    "A window",
+                    "Glasses"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Everyday Objects - Medium",
@@ -239,30 +239,30 @@ window.riddlesQuestions[8] = {
                 emoji: "🪣🚰",
                 question: "I hold water but I'm full of holes. What am I?",
                 options: [
-                    "A colander",
-                    "A sponge"
+                    "A sponge",
+                    "A colander"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Everyday Objects - Medium",
                 emoji: "📞☎️",
                 question: "I have a dial but I don't tell time. I ring but I'm not a bell. What am I?",
                 options: [
-                    "An alarm",
-                    "A telephone"
+                    "A telephone",
+                    "An alarm"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Everyday Objects - Medium",
                 emoji: "🎒📚",
                 question: "I have pockets but I'm not pants. Students carry me but I'm not a pencil. What am I?",
                 options: [
-                    "A folder",
-                    "A backpack"
+                    "A backpack",
+                    "A folder"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Everyday Objects - Medium",
@@ -279,20 +279,20 @@ window.riddlesQuestions[8] = {
                 emoji: "🧴🧼",
                 question: "I make bubbles but I'm not a toy. I clean but I'm not a broom. What am I?",
                 options: [
-                    "Shampoo",
-                    "Soap"
+                    "Soap",
+                    "Shampoo"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Everyday Objects - Medium",
                 emoji: "🪑🛋️",
                 question: "I have arms but cannot hug. I have a back but no spine. What am I?",
                 options: [
-                    "A couch",
-                    "A chair"
+                    "A chair",
+                    "A couch"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Everyday Objects - Medium",
@@ -309,10 +309,10 @@ window.riddlesQuestions[8] = {
                 emoji: "📏✏️",
                 question: "I measure but I'm not a scale. I'm straight and have numbers. What am I?",
                 options: [
-                    "A tape measure",
-                    "A ruler"
+                    "A ruler",
+                    "A tape measure"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Everyday Objects - Medium",
@@ -339,10 +339,10 @@ window.riddlesQuestions[8] = {
                 emoji: "🪞🔍",
                 question: "I show you yourself but I'm not a photo. I reflect but I'm not water. What am I?",
                 options: [
-                    "Glass",
-                    "A mirror"
+                    "A mirror",
+                    "Glass"
                 ],
-                correct: 1
+                correct: 0
             }
     ],
     hard: [
@@ -362,9 +362,9 @@ window.riddlesQuestions[8] = {
                 emoji: "🎪🔔",
                 question: "I ring but I'm not a phone. I'm found in churches and schools. What am I?",
                 options: [
-                    "An alarm",
+                    "A doorbell",
                     "A bell",
-                    "A doorbell"
+                    "An alarm"
                 ],
                 correct: 1
             },
@@ -374,10 +374,10 @@ window.riddlesQuestions[8] = {
                 question: "I drive but have no wheels. I'm found in toolboxes. What am I?",
                 options: [
                     "A hammer",
-                    "A drill",
-                    "A screwdriver"
+                    "A screwdriver",
+                    "A drill"
                 ],
-                correct: 2
+                correct: 1
             },
         {
                 topic: "Everyday Objects - Hard",
@@ -395,31 +395,31 @@ window.riddlesQuestions[8] = {
                 emoji: "🎯🎲",
                 question: "I have six faces but wear no makeup. I have 21 eyes but cannot see. What am I?",
                 options: [
-                    "A box",
                     "A die",
-                    "A cube"
+                    "A cube",
+                    "A box"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Everyday Objects - Hard",
                 emoji: "🔐🗝️",
                 question: "I have wards but I'm not a hospital. I have teeth but cannot bite. What am I?",
                 options: [
+                    "A lock",
                     "A zipper",
-                    "A key",
-                    "A lock"
+                    "A key"
                 ],
-                correct: 1
+                correct: 2
             },
         {
                 topic: "Everyday Objects - Hard",
                 emoji: "📎🔗",
                 question: "I hold papers together but I'm not glue. I'm metal and can be bent. What am I?",
                 options: [
-                    "A staple",
+                    "A binder clip",
                     "A paper clip",
-                    "A binder clip"
+                    "A staple"
                 ],
                 correct: 1
             },
@@ -428,8 +428,8 @@ window.riddlesQuestions[8] = {
                 emoji: "🕰️⏰",
                 question: "I have hands but cannot clap. I have a face but cannot smile. I tick but I'm not alive. What am I?",
                 options: [
-                    "A timer",
                     "A watch",
+                    "A timer",
                     "A clock"
                 ],
                 correct: 2
@@ -439,42 +439,42 @@ window.riddlesQuestions[8] = {
                 emoji: "🔬🧪",
                 question: "I magnify but I'm not a magnifying glass. Scientists use me to see tiny things. What am I?",
                 options: [
-                    "A microscope",
                     "A lens",
-                    "A telescope"
+                    "A telescope",
+                    "A microscope"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Everyday Objects - Hard",
                 emoji: "🎵🎼",
                 question: "I have keys that open no locks. I have space but no rooms. I have a bar but serve no drinks. What am I?",
                 options: [
-                    "A musical score",
                     "A keyboard",
-                    "A piano"
+                    "A piano",
+                    "A musical score"
                 ],
-                correct: 2
+                correct: 1
             },
         {
                 topic: "Everyday Objects - Hard",
                 emoji: "🧰🔧",
                 question: "I have jaws but don't eat. I grip but have no hands. Mechanics use me. What am I?",
                 options: [
-                    "Pliers",
                     "A vise",
+                    "Pliers",
                     "A wrench"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Everyday Objects - Hard",
                 emoji: "🔍🔎",
                 question: "I make small things look bigger. I'm made of curved glass. Detectives use me. What am I?",
                 options: [
-                    "A microscope",
+                    "Binoculars",
                     "A magnifying glass",
-                    "Binoculars"
+                    "A microscope"
                 ],
                 correct: 1
             },
@@ -483,11 +483,11 @@ window.riddlesQuestions[8] = {
                 emoji: "⚖️📊",
                 question: "I measure weight but I'm not alive. I have a platform but I'm not a stage. What am I?",
                 options: [
-                    "A balance",
                     "A scale",
+                    "A balance",
                     "A ruler"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Everyday Objects - Hard",
@@ -495,10 +495,10 @@ window.riddlesQuestions[8] = {
                 question: "I store energy but I'm not food. I have positive and negative sides. What am I?",
                 options: [
                     "A capacitor",
-                    "A charger",
-                    "A battery"
+                    "A battery",
+                    "A charger"
                 ],
-                correct: 2
+                correct: 1
             },
         {
                 topic: "Everyday Objects - Hard",
@@ -516,11 +516,11 @@ window.riddlesQuestions[8] = {
                 emoji: "🧲📌",
                 question: "I stick to boards but I'm not glue. I have a point but I'm not a pencil. What am I?",
                 options: [
-                    "A thumbtack",
                     "A pushpin",
+                    "A thumbtack",
                     "A magnet"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Everyday Objects - Hard",
@@ -528,21 +528,21 @@ window.riddlesQuestions[8] = {
                 question: "I fly but have no wings. I'm held by a string but I'm not a puppet. Children play with me. What am I?",
                 options: [
                     "A balloon",
-                    "A kite",
-                    "A drone"
+                    "A drone",
+                    "A kite"
                 ],
-                correct: 1
+                correct: 2
             },
         {
                 topic: "Everyday Objects - Hard",
                 emoji: "🔧🪛",
                 question: "I turn but I'm not a wheel. I tighten and loosen but I'm not hands. What am I?",
                 options: [
-                    "A bolt",
+                    "A wrench",
                     "A screwdriver",
-                    "A wrench"
+                    "A bolt"
                 ],
-                correct: 2
+                correct: 0
             },
         {
                 topic: "Everyday Objects - Hard",
@@ -560,11 +560,11 @@ window.riddlesQuestions[8] = {
                 emoji: "🎯🎪",
                 question: "I have a point but cause no pain when used correctly. I'm found in offices. What am I?",
                 options: [
-                    "A compass",
                     "A pencil",
-                    "A pen"
+                    "A pen",
+                    "A compass"
                 ],
-                correct: 2
+                correct: 1
             }
     ],
     expert: [
@@ -574,45 +574,45 @@ window.riddlesQuestions[8] = {
                 question: "I have a tongue but cannot taste. I have a sole but cannot walk. People wear me. What am I?",
                 options: [
                     "A glove",
-                    "A boot",
                     "A shoe",
+                    "A boot",
                     "A sock"
                 ],
-                correct: 2
+                correct: 1
             },
         {
                 topic: "Everyday Objects - Expert",
                 emoji: "🌟✨",
                 question: "I have teeth on my edge. I cut wood but I'm not an axe. I have a handle and a blade. What am I?",
                 options: [
-                    "A chisel",
                     "A saw",
                     "Scissors",
-                    "A knife"
+                    "A knife",
+                    "A chisel"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Everyday Objects - Expert",
                 emoji: "🎪🎭",
                 question: "I have a crown but I'm not royalty. I'm in your mouth but I'm not your tongue. Dentists work on me. What am I?",
                 options: [
-                    "A tooth",
                     "A filling",
                     "Braces",
+                    "A tooth",
                     "Gums"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Everyday Objects - Expert",
                 emoji: "🔍💡",
                 question: "I have a wick but I'm not a candle. I produce light by burning liquid. I'm often made of glass. What am I?",
                 options: [
+                    "A lighter",
                     "A lantern",
-                    "A torch",
                     "An oil lamp",
-                    "A lighter"
+                    "A torch"
                 ],
                 correct: 2
             },
@@ -621,34 +621,34 @@ window.riddlesQuestions[8] = {
                 emoji: "🧩🌈",
                 question: "I have no start or end but I loop continuously. I measure zero but go forever. What everyday object am I?",
                 options: [
-                    "A ring",
                     "A hoop",
-                    "A circle",
-                    "A rubber band"
+                    "A rubber band",
+                    "A ring",
+                    "A circle"
                 ],
-                correct: 3
+                correct: 1
             },
         {
                 topic: "Everyday Objects - Expert",
                 emoji: "🔮🎯",
                 question: "I have a blade but cut nothing. I spin but go nowhere. I cool but have no ice. What am I?",
                 options: [
-                    "A turbine",
                     "A windmill",
                     "A propeller",
-                    "A fan"
+                    "A fan",
+                    "A turbine"
                 ],
-                correct: 3
+                correct: 2
             },
         {
                 topic: "Everyday Objects - Expert",
                 emoji: "🌟🧠",
                 question: "I have legs but stand on a head. I'm driven but have no motor. Carpenters use me. What am I?",
                 options: [
-                    "A bolt",
                     "A screw",
+                    "A tack",
                     "A nail",
-                    "A tack"
+                    "A bolt"
                 ],
                 correct: 2
             },
@@ -657,34 +657,34 @@ window.riddlesQuestions[8] = {
                 emoji: "🎪💫",
                 question: "I have a spine but no back. I have pages but I'm not a calendar. I tell stories but cannot speak. What am I?",
                 options: [
-                    "A newspaper",
-                    "A magazine",
                     "A journal",
-                    "A book"
+                    "A magazine",
+                    "A book",
+                    "A newspaper"
                 ],
-                correct: 3
+                correct: 2
             },
         {
                 topic: "Everyday Objects - Expert",
                 emoji: "🎪🎯",
                 question: "I have a face with numbers. I have hands that point. I tick away time but never move from my spot. What am I?",
                 options: [
-                    "A timer",
-                    "A watch",
                     "An alarm",
-                    "A wall clock"
+                    "A timer",
+                    "A wall clock",
+                    "A watch"
                 ],
-                correct: 3
+                correct: 2
             },
         {
                 topic: "Everyday Objects - Expert",
                 emoji: "🧠✨",
                 question: "I capture moments but I'm not a memory. I have a lens but I'm not glasses. I flash but I'm not lightning. What am I?",
                 options: [
-                    "A telescope",
+                    "A phone",
                     "A camera",
-                    "A projector",
-                    "A phone"
+                    "A telescope",
+                    "A projector"
                 ],
                 correct: 1
             },
@@ -693,48 +693,48 @@ window.riddlesQuestions[8] = {
                 emoji: "🔍🌈",
                 question: "I have a handle and bristles. I clean your teeth but I'm not floss. You use me twice daily. What am I?",
                 options: [
-                    "A toothbrush",
+                    "A scrub brush",
                     "A paintbrush",
-                    "A hairbrush",
-                    "A scrub brush"
+                    "A toothbrush",
+                    "A hairbrush"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Everyday Objects - Expert",
                 emoji: "🔮🧠",
                 question: "I bind but I'm not rope. I have rings but I'm not jewelry. I hold paper but I'm not a clip. What am I?",
                 options: [
-                    "A binder",
-                    "A folder",
                     "A notebook",
-                    "A stapler"
+                    "A stapler",
+                    "A folder",
+                    "A binder"
                 ],
-                correct: 0
+                correct: 3
             },
         {
                 topic: "Everyday Objects - Expert",
                 emoji: "🌈🎪",
                 question: "I mark but leave no permanent trace. I come in many colors. Teachers use me on boards. What am I?",
                 options: [
-                    "Chalk",
-                    "A crayon",
+                    "Paint",
                     "A marker",
-                    "Paint"
+                    "A crayon",
+                    "Chalk"
                 ],
-                correct: 0
+                correct: 3
             },
         {
                 topic: "Everyday Objects - Expert",
                 emoji: "🎪💡",
                 question: "I have coils but I'm not a snake. I heat but have no fire. I toast your bread. What am I?",
                 options: [
-                    "A stove",
-                    "A toaster",
                     "An oven",
-                    "A microwave"
+                    "A microwave",
+                    "A toaster",
+                    "A stove"
                 ],
-                correct: 1
+                correct: 2
             },
         {
                 topic: "Everyday Objects - Expert",
@@ -742,47 +742,47 @@ window.riddlesQuestions[8] = {
                 question: "I have a seat but I'm not a chair. I flush but I'm not embarrassed. I'm found in bathrooms. What am I?",
                 options: [
                     "A bidet",
-                    "A toilet",
                     "A sink",
-                    "A bathtub"
+                    "A bathtub",
+                    "A toilet"
                 ],
-                correct: 1
+                correct: 3
             },
         {
                 topic: "Everyday Objects - Expert",
                 emoji: "🧠✨",
                 question: "I stick things together but I'm not glue. I'm transparent and comes on a roll. Offices need me. What am I?",
                 options: [
-                    "Plastic wrap",
                     "Stickers",
-                    "Tape",
-                    "Labels"
+                    "Plastic wrap",
+                    "Labels",
+                    "Tape"
                 ],
-                correct: 2
+                correct: 3
             },
         {
                 topic: "Everyday Objects - Expert",
                 emoji: "🎯💫",
                 question: "I have pages that turn but I'm not a book. I show dates and months. I hang on walls. What am I?",
                 options: [
-                    "A calendar",
                     "A magazine",
-                    "A planner",
-                    "A poster"
+                    "A poster",
+                    "A calendar",
+                    "A planner"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Everyday Objects - Expert",
                 emoji: "🧩💡",
                 question: "I have a dial and knobs. I heat food but I'm not a stove. I spin food inside me. What am I?",
                 options: [
+                    "A microwave",
                     "An oven",
-                    "A blender",
                     "A toaster",
-                    "A microwave"
+                    "A blender"
                 ],
-                correct: 3
+                correct: 0
             }
     ],
     extreme: [

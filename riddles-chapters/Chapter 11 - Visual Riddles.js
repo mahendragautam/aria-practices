@@ -29,20 +29,20 @@ window.riddlesQuestions[11] = {
                 emoji: "🔍✨",
                 question: "What has a neck but no head?",
                 options: [
-                    "A giraffe",
-                    "A bottle"
+                    "A bottle",
+                    "A giraffe"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Visual Riddles - Easy",
                 emoji: "👀💡",
                 question: "What has an eye but cannot see?",
                 options: [
-                    "A blind person",
-                    "A needle"
+                    "A needle",
+                    "A blind person"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Visual Riddles - Easy",
@@ -59,10 +59,10 @@ window.riddlesQuestions[11] = {
                 emoji: "🔮👁️",
                 question: "What has a head and a tail but no body?",
                 options: [
-                    "A snake",
-                    "A coin"
+                    "A coin",
+                    "A snake"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Visual Riddles - Easy",
@@ -79,10 +79,10 @@ window.riddlesQuestions[11] = {
                 emoji: "✨👀",
                 question: "What has hands but cannot clap?",
                 options: [
-                    "A glove",
-                    "A clock"
+                    "A clock",
+                    "A glove"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Visual Riddles - Easy",
@@ -99,10 +99,10 @@ window.riddlesQuestions[11] = {
                 emoji: "🌈👁️",
                 question: "What has teeth but cannot bite?",
                 options: [
-                    "Dentures",
-                    "A comb"
+                    "A comb",
+                    "Dentures"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Visual Riddles - Easy",
@@ -129,10 +129,10 @@ window.riddlesQuestions[11] = {
                 emoji: "🎨💡",
                 question: "What can you see in the middle of March and April but never in any other month?",
                 options: [
-                    "Spring",
-                    "The letter R"
+                    "The letter R",
+                    "Spring"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Visual Riddles - Medium",
@@ -149,10 +149,10 @@ window.riddlesQuestions[11] = {
                 emoji: "👀🌟",
                 question: "What appears once in a minute, twice in a moment, but never in a thousand years?",
                 options: [
-                    "Time",
-                    "The letter M"
+                    "The letter M",
+                    "Time"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Visual Riddles - Medium",
@@ -169,10 +169,10 @@ window.riddlesQuestions[11] = {
                 emoji: "💫👁️",
                 question: "What can be seen in water but never gets wet?",
                 options: [
-                    "A fish",
-                    "A reflection"
+                    "A reflection",
+                    "A fish"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Visual Riddles - Medium",
@@ -189,20 +189,20 @@ window.riddlesQuestions[11] = {
                 emoji: "🔍💡",
                 question: "What can run but never walks, has a mouth but never talks, has a head but never weeps, has a bed but never sleeps?",
                 options: [
-                    "A clock",
-                    "A river"
+                    "A river",
+                    "A clock"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Visual Riddles - Medium",
                 emoji: "✨🎯",
                 question: "What has branches but no fruit, trunk or leaves?",
                 options: [
-                    "A dead tree",
-                    "A bank"
+                    "A bank",
+                    "A dead tree"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Visual Riddles - Medium",
@@ -239,10 +239,10 @@ window.riddlesQuestions[11] = {
                 emoji: "💫✨",
                 question: "What has many keys but can't open any doors?",
                 options: [
-                    "A locksmith",
-                    "A piano or keyboard"
+                    "A piano or keyboard",
+                    "A locksmith"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Visual Riddles - Medium",
@@ -289,10 +289,10 @@ window.riddlesQuestions[11] = {
                 emoji: "✨👀",
                 question: "What can be cracked, made, told, and played?",
                 options: [
-                    "An egg",
-                    "A joke"
+                    "A joke",
+                    "An egg"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Visual Riddles - Medium",
@@ -319,20 +319,20 @@ window.riddlesQuestions[11] = {
                 emoji: "🌈👁️",
                 question: "What has 13 hearts but no other organs?",
                 options: [
-                    "A valentine",
-                    "A deck of cards"
+                    "A deck of cards",
+                    "A valentine"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Visual Riddles - Medium",
                 emoji: "🔮✨",
                 question: "What can travel around the world while staying in a corner?",
                 options: [
-                    "A spider",
-                    "A stamp"
+                    "A stamp",
+                    "A spider"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Visual Riddles - Medium",
@@ -349,10 +349,10 @@ window.riddlesQuestions[11] = {
                 emoji: "🔍🌟",
                 question: "What gets sharper the more you use it?",
                 options: [
-                    "A pencil",
-                    "Your brain"
+                    "Your brain",
+                    "A pencil"
                 ],
-                correct: 1
+                correct: 0
             }
     ],
     hard: [
@@ -361,22 +361,22 @@ window.riddlesQuestions[11] = {
                 emoji: "👁️🔮",
                 question: "I have lakes with no water, mountains with no stone, and cities with no buildings. What am I?",
                 options: [
-                    "A globe",
                     "A map",
-                    "A picture"
+                    "A picture",
+                    "A globe"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Visual Riddles - Hard",
                 emoji: "🎨💡",
                 question: "What comes down but never goes up?",
                 options: [
-                    "Stairs",
                     "Age",
-                    "Rain"
+                    "Rain",
+                    "Stairs"
                 ],
-                correct: 2
+                correct: 1
             },
         {
                 topic: "Visual Riddles - Hard",
@@ -394,19 +394,19 @@ window.riddlesQuestions[11] = {
                 emoji: "👀🌟",
                 question: "What can you hold in your left hand but not in your right?",
                 options: [
+                    "Your right elbow",
                     "A left glove",
-                    "Nothing",
-                    "Your right elbow"
+                    "Nothing"
                 ],
-                correct: 2
+                correct: 0
             },
         {
                 topic: "Visual Riddles - Hard",
                 emoji: "🎯🔮",
                 question: "What is full of holes but still holds water?",
                 options: [
-                    "A net",
                     "A strainer",
+                    "A net",
                     "A sponge"
                 ],
                 correct: 2
@@ -416,30 +416,30 @@ window.riddlesQuestions[11] = {
                 emoji: "💫👁️",
                 question: "What has many teeth but cannot bite?",
                 options: [
-                    "A saw",
                     "A comb",
+                    "A saw",
                     "A zipper"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Visual Riddles - Hard",
                 emoji: "🌈🎨",
                 question: "What has a head, a tail, is brown, and has no legs?",
                 options: [
-                    "A worm",
                     "A snake",
-                    "A penny"
+                    "A penny",
+                    "A worm"
                 ],
-                correct: 2
+                correct: 1
             },
         {
                 topic: "Visual Riddles - Hard",
                 emoji: "🔍💡",
                 question: "What has no beginning, end, or middle?",
                 options: [
-                    "Time",
                     "Eternity",
+                    "Time",
                     "A circle"
                 ],
                 correct: 2
@@ -449,11 +449,11 @@ window.riddlesQuestions[11] = {
                 emoji: "✨🎯",
                 question: "What building has the most stories?",
                 options: [
-                    "A newspaper office",
+                    "A library",
                     "A skyscraper",
-                    "A library"
+                    "A newspaper office"
                 ],
-                correct: 2
+                correct: 0
             },
         {
                 topic: "Visual Riddles - Hard",
@@ -461,21 +461,21 @@ window.riddlesQuestions[11] = {
                 question: "What has four fingers and a thumb but is not living?",
                 options: [
                     "A robot hand",
-                    "A statue",
-                    "A glove"
+                    "A glove",
+                    "A statue"
                 ],
-                correct: 2
+                correct: 1
             },
         {
                 topic: "Visual Riddles - Hard",
                 emoji: "🎨🌟",
                 question: "What is always in front of you but can't be seen?",
                 options: [
+                    "Your nose",
                     "Air",
-                    "The future",
-                    "Your nose"
+                    "The future"
                 ],
-                correct: 1
+                correct: 2
             },
         {
                 topic: "Visual Riddles - Hard",
@@ -483,8 +483,8 @@ window.riddlesQuestions[11] = {
                 question: "What is broken before you use it?",
                 options: [
                     "An egg",
-                    "Seal",
-                    "A glow stick"
+                    "A glow stick",
+                    "Seal"
                 ],
                 correct: 0
             },
@@ -493,11 +493,11 @@ window.riddlesQuestions[11] = {
                 emoji: "💫✨",
                 question: "What goes up when rain comes down?",
                 options: [
+                    "An umbrella",
                     "Humidity",
-                    "Water level",
-                    "An umbrella"
+                    "Water level"
                 ],
-                correct: 2
+                correct: 0
             },
         {
                 topic: "Visual Riddles - Hard",
@@ -515,22 +515,22 @@ window.riddlesQuestions[11] = {
                 emoji: "🎨💡",
                 question: "What invention lets you look right through a wall?",
                 options: [
+                    "A window",
                     "X-ray",
-                    "A mirror",
-                    "A window"
+                    "A mirror"
                 ],
-                correct: 2
+                correct: 0
             },
         {
                 topic: "Visual Riddles - Hard",
                 emoji: "👁️🔍",
                 question: "What goes around the world but stays in a corner?",
                 options: [
-                    "A globe",
                     "A map",
-                    "A stamp"
+                    "A stamp",
+                    "A globe"
                 ],
-                correct: 2
+                correct: 1
             },
         {
                 topic: "Visual Riddles - Hard",
@@ -538,43 +538,43 @@ window.riddlesQuestions[11] = {
                 question: "What has many rings but no fingers?",
                 options: [
                     "A phone",
-                    "A circus",
-                    "A tree"
+                    "A tree",
+                    "A circus"
                 ],
-                correct: 2
+                correct: 1
             },
         {
                 topic: "Visual Riddles - Hard",
                 emoji: "✨👀",
                 question: "What can be opened but never closed?",
                 options: [
-                    "A conversation",
                     "An egg",
+                    "A conversation",
                     "A book"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Visual Riddles - Hard",
                 emoji: "🎯🎨",
                 question: "What has scales but doesn't weigh anything?",
                 options: [
-                    "A map",
                     "Music",
-                    "A fish"
+                    "A fish",
+                    "A map"
                 ],
-                correct: 2
+                correct: 1
             },
         {
                 topic: "Visual Riddles - Hard",
                 emoji: "💡🔍",
                 question: "What has a tongue but cannot talk?",
                 options: [
-                    "A wagon",
                     "A bell",
-                    "A shoe"
+                    "A shoe",
+                    "A wagon"
                 ],
-                correct: 2
+                correct: 1
             },
         {
                 topic: "Visual Riddles - Hard",
@@ -592,44 +592,44 @@ window.riddlesQuestions[11] = {
                 emoji: "🔮✨",
                 question: "What can be caught but never thrown?",
                 options: [
-                    "A fish",
                     "A cold",
+                    "A fish",
                     "A ball"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Visual Riddles - Hard",
                 emoji: "🎨🎯",
                 question: "What has a heart that doesn't beat?",
                 options: [
-                    "A playing card",
+                    "An artichoke",
                     "A statue",
-                    "An artichoke"
+                    "A playing card"
                 ],
-                correct: 2
+                correct: 0
             },
         {
                 topic: "Visual Riddles - Hard",
                 emoji: "👀💫",
                 question: "What goes through cities and fields but never moves?",
                 options: [
-                    "A river",
                     "A road",
+                    "A river",
                     "Wind"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Visual Riddles - Hard",
                 emoji: "🔍🌟",
                 question: "What has roots that nobody sees, is taller than trees, yet never grows?",
                 options: [
-                    "A mountain",
+                    "A cloud",
                     "A building",
-                    "A cloud"
+                    "A mountain"
                 ],
-                correct: 0
+                correct: 2
             }
     ],
     expert: [
@@ -639,23 +639,23 @@ window.riddlesQuestions[11] = {
                 question: "I can be long or short. I can be grown or bought. I can be painted or left bare. I can be round or square. What am I?",
                 options: [
                     "Wood",
+                    "Hair",
                     "Fence",
-                    "Nails",
-                    "Hair"
+                    "Nails"
                 ],
-                correct: 2
+                correct: 3
             },
         {
                 topic: "Visual Riddles - Expert",
                 emoji: "🎨💡",
                 question: "What has a golden head, a golden tail, but no body?",
                 options: [
+                    "A gold coin",
                     "A comet",
                     "A snake",
-                    "A shooting star",
-                    "A gold coin"
+                    "A shooting star"
                 ],
-                correct: 3
+                correct: 0
             },
         {
                 topic: "Visual Riddles - Expert",
@@ -663,43 +663,43 @@ window.riddlesQuestions[11] = {
                 question: "I have a straight back and sharp teeth to cut objects. What am I?",
                 options: [
                     "A rake",
-                    "A zipper",
+                    "A saw",
                     "A comb",
-                    "A saw"
+                    "A zipper"
                 ],
-                correct: 3
+                correct: 1
             },
         {
                 topic: "Visual Riddles - Expert",
                 emoji: "👀🌟",
                 question: "What has legs but walks not, a strong back but works not, two arms but pushes not?",
                 options: [
-                    "A scarecrow",
-                    "A statue",
                     "A table",
-                    "A chair"
+                    "A statue",
+                    "A chair",
+                    "A scarecrow"
                 ],
-                correct: 3
+                correct: 2
             },
         {
                 topic: "Visual Riddles - Expert",
                 emoji: "🎯🔮",
                 question: "What has a hundred limbs but cannot walk?",
                 options: [
+                    "A centipede",
                     "A coral",
                     "A tree",
-                    "A spider web",
-                    "A centipede"
+                    "A spider web"
                 ],
-                correct: 1
+                correct: 2
             },
         {
                 topic: "Visual Riddles - Expert",
                 emoji: "💫👁️",
                 question: "I have two bodies joined together as one. When standing still, I run and run. What am I?",
                 options: [
-                    "Conjoined twins",
                     "A clock",
+                    "Conjoined twins",
                     "Scissors",
                     "An hourglass"
                 ],
@@ -710,24 +710,24 @@ window.riddlesQuestions[11] = {
                 emoji: "🌈🎨",
                 question: "What has wings but cannot fly, builds castles but has no home, spans oceans but has no feet?",
                 options: [
-                    "Imagination",
-                    "A bird statue",
                     "Wind",
-                    "Time"
+                    "Imagination",
+                    "Time",
+                    "A bird statue"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Visual Riddles - Expert",
                 emoji: "🔍💡",
                 question: "What is round on both ends and high in the middle?",
                 options: [
-                    "A bridge",
                     "A mountain",
-                    "Ohio",
-                    "A ball"
+                    "A bridge",
+                    "A ball",
+                    "Ohio"
                 ],
-                correct: 2
+                correct: 3
             },
         {
                 topic: "Visual Riddles - Expert",
@@ -735,81 +735,81 @@ window.riddlesQuestions[11] = {
                 question: "What runs around the whole yard without moving?",
                 options: [
                     "A path",
+                    "A dog",
                     "A fence",
-                    "A shadow",
-                    "A dog"
+                    "A shadow"
                 ],
-                correct: 1
+                correct: 2
             },
         {
                 topic: "Visual Riddles - Expert",
                 emoji: "👀🔮",
                 question: "I have holes in my top and bottom, my left and right, and in the middle. Yet I still hold water. What am I?",
                 options: [
-                    "A sponge",
                     "A strainer",
-                    "A net",
-                    "Swiss cheese"
+                    "A sponge",
+                    "Swiss cheese",
+                    "A net"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Visual Riddles - Expert",
                 emoji: "🎨🌟",
                 question: "What has a bank but no money, can run but has no legs, has a mouth but never speaks?",
                 options: [
-                    "A school",
                     "A clock",
-                    "A business",
-                    "A river"
+                    "A river",
+                    "A school",
+                    "A business"
                 ],
-                correct: 3
+                correct: 1
             },
         {
                 topic: "Visual Riddles - Expert",
                 emoji: "🔍👁️",
                 question: "What flies without wings, cries without eyes, and moves without legs?",
                 options: [
-                    "Clouds",
                     "Time",
-                    "Tears",
-                    "Wind"
+                    "Clouds",
+                    "Wind",
+                    "Tears"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Visual Riddles - Expert",
                 emoji: "💫✨",
                 question: "What has 12 faces and 42 eyes but cannot see?",
                 options: [
-                    "A calendar",
-                    "A spider",
                     "A clock",
-                    "Two dice"
+                    "A spider",
+                    "Two dice",
+                    "A calendar"
                 ],
-                correct: 3
+                correct: 2
             },
         {
                 topic: "Visual Riddles - Expert",
                 emoji: "🌈🎯",
                 question: "What can point in every direction but can't reach the destination by itself?",
                 options: [
-                    "A signpost",
                     "Your finger",
                     "An arrow",
+                    "A signpost",
                     "A compass"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Visual Riddles - Expert",
                 emoji: "🎨💡",
                 question: "What has a thousand needles but doesn't sew?",
                 options: [
+                    "A hedgehog",
                     "A pin cushion",
-                    "A cactus",
                     "A porcupine",
-                    "A hedgehog"
+                    "A cactus"
                 ],
                 correct: 2
             },
@@ -818,24 +818,24 @@ window.riddlesQuestions[11] = {
                 emoji: "👁️🔍",
                 question: "What runs but never walks, has a bed but never sleeps, has a mouth but never eats?",
                 options: [
-                    "A river",
-                    "Wind",
+                    "A road",
                     "A clock",
-                    "A road"
+                    "Wind",
+                    "A river"
                 ],
-                correct: 0
+                correct: 3
             },
         {
                 topic: "Visual Riddles - Expert",
                 emoji: "🔮🌟",
                 question: "What has cities without houses, rivers without water, and forests without trees?",
                 options: [
-                    "A painting",
-                    "A map",
                     "A model",
-                    "A dream"
+                    "A painting",
+                    "A dream",
+                    "A map"
                 ],
-                correct: 1
+                correct: 3
             },
         {
                 topic: "Visual Riddles - Expert",
@@ -843,47 +843,47 @@ window.riddlesQuestions[11] = {
                 question: "What is always coming but never arrives?",
                 options: [
                     "A bus",
-                    "Rain",
                     "Tomorrow",
-                    "The future"
+                    "The future",
+                    "Rain"
                 ],
-                correct: 2
+                correct: 1
             },
         {
                 topic: "Visual Riddles - Expert",
                 emoji: "🎯🎨",
                 question: "What has a crown but is not a king, has roots but is not a tree?",
                 options: [
-                    "A tooth",
-                    "A plant",
+                    "A mountain",
                     "A chess piece",
-                    "A mountain"
+                    "A tooth",
+                    "A plant"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Visual Riddles - Expert",
                 emoji: "💡🔍",
                 question: "What has four eyes but can't see?",
                 options: [
-                    "Mississippi",
-                    "A button",
+                    "A spider",
                     "Eyeglasses",
-                    "A spider"
+                    "Mississippi",
+                    "A button"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Visual Riddles - Expert",
                 emoji: "🌈👁️",
                 question: "What goes up and down stairs without moving?",
                 options: [
+                    "A shadow",
                     "An elevator",
                     "Paint",
-                    "Carpet or railing",
-                    "A shadow"
+                    "Carpet or railing"
                 ],
-                correct: 2
+                correct: 3
             },
         {
                 topic: "Visual Riddles - Expert",
@@ -891,11 +891,11 @@ window.riddlesQuestions[11] = {
                 question: "What can be swallowed but can also swallow you?",
                 options: [
                     "Air",
-                    "Pride",
+                    "Fire",
                     "Water",
-                    "Fire"
+                    "Pride"
                 ],
-                correct: 1
+                correct: 3
             },
         {
                 topic: "Visual Riddles - Expert",
@@ -903,11 +903,11 @@ window.riddlesQuestions[11] = {
                 question: "What has veins but no blood, leaves but isn't a tree?",
                 options: [
                     "Paper",
-                    "A hand",
                     "A rock",
-                    "A book"
+                    "A book",
+                    "A hand"
                 ],
-                correct: 3
+                correct: 2
             },
         {
                 topic: "Visual Riddles - Expert",
@@ -915,9 +915,9 @@ window.riddlesQuestions[11] = {
                 question: "What wears a coat in the winter and pants in the summer?",
                 options: [
                     "A house",
-                    "A person",
+                    "A tree",
                     "A dog",
-                    "A tree"
+                    "A person"
                 ],
                 correct: 2
             },
@@ -927,11 +927,11 @@ window.riddlesQuestions[11] = {
                 question: "What has a soul but isn't alive, a tongue but cannot taste?",
                 options: [
                     "A bell",
-                    "A wagon",
                     "A shoe",
-                    "A guitar"
+                    "A guitar",
+                    "A wagon"
                 ],
-                correct: 2
+                correct: 1
             }
     ],
     extreme: [

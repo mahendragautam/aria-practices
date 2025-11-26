@@ -19,10 +19,10 @@ window.riddlesQuestions[5] = {
                 emoji: "🧠💡",
                 question: "If you take 3 apples from 10 apples, how many do you have?",
                 options: [
-                    "7",
-                    "3"
+                    "3",
+                    "7"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Brain Teasers - Easy",
@@ -49,20 +49,20 @@ window.riddlesQuestions[5] = {
                 emoji: "🎨💭",
                 question: "What can you keep after giving it to someone?",
                 options: [
-                    "A gift",
-                    "Your word"
+                    "Your word",
+                    "A gift"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Brain Teasers - Easy",
                 emoji: "🔮✨",
                 question: "If there are 3 oranges and you take away 2, how many do you have?",
                 options: [
-                    "1",
-                    "2"
+                    "2",
+                    "1"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Brain Teasers - Easy",
@@ -139,20 +139,20 @@ window.riddlesQuestions[5] = {
                 emoji: "🧩💭",
                 question: "What number do you get when you multiply all numbers on a telephone keypad?",
                 options: [
-                    "362,880",
-                    "0"
+                    "0",
+                    "362,880"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Brain Teasers - Medium",
                 emoji: "🔮🧩",
                 question: "What is the next letter in this sequence: J F M A M J J A ?",
                 options: [
-                    "N",
-                    "S (months)"
+                    "S (months)",
+                    "N"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Brain Teasers - Medium",
@@ -179,20 +179,20 @@ window.riddlesQuestions[5] = {
                 emoji: "🧠🎯",
                 question: "A clerk in a butcher shop is 5'10\" tall. What does he weigh?",
                 options: [
-                    "About 180 lbs",
-                    "Meat"
+                    "Meat",
+                    "About 180 lbs"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Brain Teasers - Medium",
                 emoji: "🔍🌟",
                 question: "What goes up and down without moving?",
                 options: [
-                    "An elevator",
-                    "Temperature"
+                    "Temperature",
+                    "An elevator"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Brain Teasers - Medium",
@@ -229,10 +229,10 @@ window.riddlesQuestions[5] = {
                 emoji: "🌈🔍",
                 question: "You have a 3-gallon jug and a 5-gallon jug. How do you measure exactly 4 gallons?",
                 options: [
-                    "Guess",
-                    "Fill 5, pour into 3, empty 3, pour remaining 2 into 3, fill 5 again, fill 3 (leaving 4)"
+                    "Fill 5, pour into 3, empty 3, pour remaining 2 into 3, fill 5 again, fill 3 (leaving 4)",
+                    "Guess"
                 ],
-                correct: 1
+                correct: 0
             }
     ],
     hard: [
@@ -242,18 +242,18 @@ window.riddlesQuestions[5] = {
                 question: "A man has 30 chocolates. He eats all but 10. How many does he have left?",
                 options: [
                     "20",
-                    "10",
-                    "0"
+                    "0",
+                    "10"
                 ],
-                correct: 1
+                correct: 2
             },
         {
                 topic: "Brain Teasers - Hard",
                 emoji: "🎯💭",
                 question: "You have 10 fish in a tank. 2 drown, 4 swim away, and 3 die. How many are left?",
                 options: [
-                    "1",
                     "6",
+                    "1",
                     "10 (fish can't drown or swim away from tank)"
                 ],
                 correct: 2
@@ -263,9 +263,9 @@ window.riddlesQuestions[5] = {
                 emoji: "🌟✨",
                 question: "A doctor gives you 3 pills and tells you to take one every half hour. How long do they last?",
                 options: [
-                    "1.5 hours",
+                    "90 minutes",
                     "1 hour",
-                    "90 minutes"
+                    "1.5 hours"
                 ],
                 correct: 1
             },
@@ -285,11 +285,11 @@ window.riddlesQuestions[5] = {
                 emoji: "🔮💡",
                 question: "What 8-letter word has one letter in it?",
                 options: [
-                    "Alphabet",
                     "Standard",
-                    "Envelope"
+                    "Envelope",
+                    "Alphabet"
                 ],
-                correct: 2
+                correct: 1
             },
         {
                 topic: "Brain Teasers - Hard",
@@ -319,62 +319,62 @@ window.riddlesQuestions[5] = {
                 question: "What can be right but never wrong?",
                 options: [
                     "The truth",
-                    "A direction",
-                    "An angle"
+                    "An angle",
+                    "A direction"
                 ],
-                correct: 2
+                correct: 1
             },
         {
                 topic: "Brain Teasers - Hard",
                 emoji: "🎨🔍",
                 question: "If there are 5 apples and you take away 3, how many apples do you have?",
                 options: [
-                    "3",
+                    "2",
                     "5",
-                    "2"
+                    "3"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Brain Teasers - Hard",
                 emoji: "🧠✨",
                 question: "What word of 5 letters has one left when two are removed?",
                 options: [
-                    "Alone",
+                    "Stone",
                     "Phone",
-                    "Stone"
+                    "Alone"
                 ],
-                correct: 2
+                correct: 0
             },
         {
                 topic: "Brain Teasers - Hard",
                 emoji: "🎯🌟",
                 question: "How many sides does a circle have?",
                 options: [
-                    "0",
                     "2 (inside and outside)",
+                    "0",
                     "Infinite"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Brain Teasers - Hard",
                 emoji: "🔮🧩",
                 question: "What starts with 'e' and ends with 'e' but only has one letter?",
                 options: [
-                    "Edge",
                     "Eye",
-                    "Envelope"
+                    "Envelope",
+                    "Edge"
                 ],
-                correct: 2
+                correct: 1
             },
         {
                 topic: "Brain Teasers - Hard",
                 emoji: "🎪💡",
                 question: "What has 6 faces but does not wear makeup, and 21 eyes but cannot see?",
                 options: [
-                    "A cube",
                     "A spider",
+                    "A cube",
                     "A die"
                 ],
                 correct: 2
@@ -384,9 +384,9 @@ window.riddlesQuestions[5] = {
                 emoji: "🎨💭",
                 question: "What is at the end of the rainbow?",
                 options: [
-                    "Nothing",
+                    "Gold",
                     "The letter W",
-                    "Gold"
+                    "Nothing"
                 ],
                 correct: 1
             },
@@ -395,11 +395,11 @@ window.riddlesQuestions[5] = {
                 emoji: "🔮🎪",
                 question: "If you have a bowl with 6 apples and take away 4, how many do you have?",
                 options: [
-                    "6",
                     "4",
+                    "6",
                     "2"
                 ],
-                correct: 1
+                correct: 0
             }
     ],
     expert: [
@@ -409,33 +409,33 @@ window.riddlesQuestions[5] = {
                 question: "A bat and ball cost $1.10. The bat costs $1 more than the ball. How much does the ball cost?",
                 options: [
                     "$0.55",
-                    "$0.05",
                     "$0.10",
-                    "$1.00"
+                    "$1.00",
+                    "$0.05"
                 ],
-                correct: 1
+                correct: 3
             },
         {
                 topic: "Brain Teasers - Expert",
                 emoji: "🎯💭",
                 question: "If 5 machines make 5 widgets in 5 minutes, how long does it take 100 machines to make 100 widgets?",
                 options: [
-                    "5 minutes",
                     "100 minutes",
-                    "1 minute",
-                    "20 minutes"
+                    "20 minutes",
+                    "5 minutes",
+                    "1 minute"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Brain Teasers - Expert",
                 emoji: "🌟✨",
                 question: "A lily pad patch doubles in size every day. If it takes 48 days to cover a pond, when is it half covered?",
                 options: [
-                    "Day 46",
+                    "Day 24",
                     "Day 47",
-                    "Day 40",
-                    "Day 24"
+                    "Day 46",
+                    "Day 40"
                 ],
                 correct: 1
             },
@@ -444,108 +444,108 @@ window.riddlesQuestions[5] = {
                 emoji: "🔍💫",
                 question: "How many cubic feet of dirt are in a hole that's 3 feet deep, 3 feet wide, and 3 feet long?",
                 options: [
-                    "0 (it's a hole)",
                     "9",
-                    "6",
-                    "27"
+                    "27",
+                    "0 (it's a hole)",
+                    "6"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Brain Teasers - Expert",
                 emoji: "🎪🧩",
                 question: "Three people check into a hotel room that costs $30. They each pay $10. Later, the clerk realizes the room is only $25 and gives the bellboy $5 to return. He keeps $2 and gives each person $1 back. They paid $9 each ($27) plus the bellboy's $2 = $29. Where's the missing dollar?",
                 options: [
-                    "The clerk has it",
-                    "The bellboy has it",
                     "There is no missing dollar",
-                    "Math error in problem"
+                    "Math error in problem",
+                    "The clerk has it",
+                    "The bellboy has it"
                 ],
-                correct: 2
+                correct: 0
             },
         {
                 topic: "Brain Teasers - Expert",
                 emoji: "🧠🎨",
                 question: "You have two hourglasses: one 7-minute and one 11-minute. How do you measure exactly 15 minutes?",
                 options: [
-                    "Start both, when 7 ends flip it, when 11 ends flip 7 again",
+                    "Use both twice",
                     "Impossible",
                     "Start 11, then start 7",
-                    "Use both twice"
+                    "Start both, when 7 ends flip it, when 11 ends flip 7 again"
                 ],
-                correct: 0
+                correct: 3
             },
         {
                 topic: "Brain Teasers - Expert",
                 emoji: "🔮💡",
                 question: "What is the next number: 1, 11, 21, 1211, 111221, 312211, ?",
                 options: [
-                    "411221",
-                    "13112221",
+                    "212211",
                     "131221",
-                    "212211"
+                    "13112221",
+                    "411221"
                 ],
-                correct: 1
+                correct: 2
             },
         {
                 topic: "Brain Teasers - Expert",
                 emoji: "🌟💫",
                 question: "A man buys a horse for $60, sells it for $70, buys it back for $80, and sells it for $90. What's his profit?",
                 options: [
-                    "$10",
-                    "$20",
+                    "$0",
                     "$30",
-                    "$0"
+                    "$10",
+                    "$20"
                 ],
-                correct: 1
+                correct: 3
             },
         {
                 topic: "Brain Teasers - Expert",
                 emoji: "🧩💭",
                 question: "In a lake, there's a patch of lily pads. Every day, the patch doubles in size. It takes 48 days to cover the entire lake. How long does it take to cover half?",
                 options: [
-                    "40 days",
                     "47 days",
-                    "24 days",
-                    "46 days"
+                    "40 days",
+                    "46 days",
+                    "24 days"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Brain Teasers - Expert",
                 emoji: "🎨🔍",
                 question: "A farmer has 100 meters of fence. He wants to maximize the rectangular area. What dimensions should he use?",
                 options: [
-                    "35m x 15m",
-                    "40m x 10m",
                     "30m x 20m",
-                    "25m x 25m"
+                    "25m x 25m",
+                    "35m x 15m",
+                    "40m x 10m"
                 ],
-                correct: 3
+                correct: 1
             },
         {
                 topic: "Brain Teasers - Expert",
                 emoji: "🧠✨",
                 question: "What comes next: 2, 3, 5, 9, 17, 33, ?",
                 options: [
-                    "64",
                     "65",
+                    "67",
                     "66",
-                    "67"
+                    "64"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Brain Teasers - Expert",
                 emoji: "🎯🌟",
                 question: "A snail climbs 3 feet up a 30-foot wall each day and slides down 2 feet each night. How many days to reach the top?",
                 options: [
+                    "29 days",
                     "28 days",
                     "27 days",
-                    "30 days",
-                    "29 days"
+                    "30 days"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Brain Teasers - Expert",
@@ -554,46 +554,46 @@ window.riddlesQuestions[5] = {
                 options: [
                     "Keep all 100",
                     "Split evenly",
-                    "Give away 99",
-                    "98 for himself, 1 to one other, 1 to another"
+                    "98 for himself, 1 to one other, 1 to another",
+                    "Give away 99"
                 ],
-                correct: 3
+                correct: 2
             },
         {
                 topic: "Brain Teasers - Expert",
                 emoji: "🎪💡",
                 question: "You have 9 coins, one is counterfeit and lighter. Using a balance scale only twice, how do you find it?",
                 options: [
-                    "Impossible",
                     "Divide in half",
                     "Divide into 3 groups of 3",
+                    "Impossible",
                     "Weigh all against each other"
                 ],
-                correct: 2
+                correct: 1
             },
         {
                 topic: "Brain Teasers - Expert",
                 emoji: "🔍🌟",
                 question: "A clock strikes six times in 5 seconds. How long does it take to strike twelve?",
                 options: [
-                    "10 seconds",
-                    "12 seconds",
                     "6 seconds",
-                    "11 seconds"
+                    "10 seconds",
+                    "11 seconds",
+                    "12 seconds"
                 ],
-                correct: 3
+                correct: 2
             },
         {
                 topic: "Brain Teasers - Expert",
                 emoji: "🎨💭",
                 question: "You have 12 balls, one is different weight. Using a balance scale 3 times, how do you find it and tell if heavier or lighter?",
                 options: [
-                    "Weigh pairs",
-                    "Weigh 6 vs 6",
+                    "Divide into groups of 4",
                     "Cannot determine both",
-                    "Divide into groups of 4"
+                    "Weigh pairs",
+                    "Weigh 6 vs 6"
                 ],
-                correct: 3
+                correct: 0
             },
         {
                 topic: "Brain Teasers - Expert",
@@ -601,11 +601,11 @@ window.riddlesQuestions[5] = {
                 question: "A rope burns unevenly but takes exactly 1 hour to burn completely. How do you measure 45 minutes?",
                 options: [
                     "Cut the rope",
-                    "Light both ends and one end of another",
                     "Burn 3/4 of it",
+                    "Light both ends and one end of another",
                     "Impossible"
                 ],
-                correct: 1
+                correct: 2
             },
         {
                 topic: "Brain Teasers - Expert",
@@ -613,23 +613,23 @@ window.riddlesQuestions[5] = {
                 question: "What comes next: 1, 1, 2, 3, 5, 8, 13, ?",
                 options: [
                     "20",
-                    "21",
                     "15",
-                    "18"
+                    "18",
+                    "21"
                 ],
-                correct: 1
+                correct: 3
             },
         {
                 topic: "Brain Teasers - Expert",
                 emoji: "🧠💫",
                 question: "Three boxes: gold, silver, bronze. One has a car, two have goats. You pick one. Host opens another with a goat. Should you switch?",
                 options: [
-                    "No",
                     "Yes",
-                    "Depends",
-                    "Doesn't matter"
+                    "No",
+                    "Doesn't matter",
+                    "Depends"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Brain Teasers - Expert",
@@ -637,35 +637,35 @@ window.riddlesQuestions[5] = {
                 question: "How many triangles are in a 5-pointed star?",
                 options: [
                     "15",
-                    "35",
+                    "10",
                     "20",
-                    "10"
+                    "35"
                 ],
-                correct: 1
+                correct: 3
             },
         {
                 topic: "Brain Teasers - Expert",
                 emoji: "🌈🔍",
                 question: "A man drives from town A to town B at 40 mph, then back at 60 mph. What's his average speed?",
                 options: [
-                    "45 mph",
-                    "50 mph",
                     "52 mph",
-                    "48 mph"
+                    "45 mph",
+                    "48 mph",
+                    "50 mph"
                 ],
-                correct: 3
+                correct: 2
             },
         {
                 topic: "Brain Teasers - Expert",
                 emoji: "🎪💡",
                 question: "If you write down all numbers from 1 to 100, how many times do you write the digit 1?",
                 options: [
-                    "19",
                     "21",
                     "20",
+                    "19",
                     "11"
                 ],
-                correct: 1
+                correct: 0
             }
     ],
     extreme: [

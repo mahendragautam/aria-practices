@@ -19,71 +19,71 @@ window.riddlesQuestions[17] = {
                 emoji: "🎯💭",
                 question: "What is always behind you but can't be seen?",
                 options: [
-                    "The past",
                     "Your shadow",
+                    "The past",
                     "Your back"
                 ],
-                correct: 0},
+                correct: 1},
         {
                 topic: "Mixed Bag - Medium",
                 emoji: "🌈✨",
                 question: "What type of dress can never be worn?",
                 options: [
-                    "An address",
                     "A wedding dress",
-                    "A sundress"
+                    "A sundress",
+                    "An address"
                 ],
-                correct: 0},
+                correct: 2},
         {
                 topic: "Mixed Bag - Medium",
                 emoji: "🎯🧠",
                 question: "What begins with an E but only has one letter?",
                 options: [
-                    "An envelope",
+                    "Entry",
                     "Email",
-                    "Entry"
+                    "An envelope"
                 ],
-                correct: 0},
+                correct: 2},
         {
                 topic: "Mixed Bag - Medium",
                 emoji: "🧩🔮",
                 question: "What has cities but no people, forests but no trees?",
                 options: [
-                    "A map",
+                    "A game",
                     "A book",
-                    "A game"
+                    "A map"
                 ],
-                correct: 0},
+                correct: 2},
         {
                 topic: "Mixed Bag - Medium",
                 emoji: "🎪🌈",
                 question: "What can run but has no legs?",
                 options: [
+                    "A machine",
                     "A river",
-                    "Time",
-                    "A machine"
+                    "Time"
                 ],
-                correct: 0},
+                correct: 1},
         {
                 topic: "Mixed Bag - Medium",
                 emoji: "🧠✨",
                 question: "What gets bigger when more is taken away?",
                 options: [
-                    "A hole",
+                    "Space",
                     "Debt",
-                    "Space"
+                    "A hole"
                 ],
-                correct: 0},
+                correct: 2},
         {
                 topic: "Mixed Bag - Medium",
                 emoji: "🔮💡",
                 question: "What do you call a bear with no teeth?",
                 options: [
-                    "A gummy bear",
+                    "A toothless bear",
                     "A baby bear",
-                    "A toothless bear"
+                    "A gummy bear"
                 ],
-                correct: 0
+                correct: 2
             }
     ],
     hard: [
@@ -92,67 +92,67 @@ window.riddlesQuestions[17] = {
                 emoji: "🌈🔍",
                 question: "What can you hold in your right hand but never in your left hand?",
                 options: [
+                    "Water",
                     "Your left hand",
                     "A pencil",
-                    "A ball",
-                    "Water"
+                    "A ball"
                 ],
-                correct: 0},
+                correct: 1},
         {
                 topic: "Mixed Bag - Hard",
                 emoji: "💭🎪",
                 question: "I am always in front of you but you can never see me. What am I?",
                 options: [
-                    "The future",
+                    "Tomorrow",
                     "Air",
-                    "Your nose",
-                    "Tomorrow"
+                    "The future",
+                    "Your nose"
                 ],
-                correct: 0},
+                correct: 2},
         {
                 topic: "Mixed Bag - Hard",
                 emoji: "💭✨",
                 question: "I shave every day but my beard stays the same. Who am I?",
                 options: [
-                    "A barber",
+                    "A razor",
                     "An actor",
                     "A man",
-                    "A razor"
+                    "A barber"
                 ],
-                correct: 0},
+                correct: 3},
         {
                 topic: "Mixed Bag - Hard",
                 emoji: "🧩🔍",
                 question: "What can travel all around the world without leaving its corner?",
                 options: [
-                    "A stamp",
-                    "A spider",
                     "News",
-                    "Light"
+                    "Light",
+                    "A spider",
+                    "A stamp"
                 ],
-                correct: 0},
+                correct: 3},
         {
                 topic: "Mixed Bag - Hard",
                 emoji: "🧩💡",
                 question: "What goes up and never comes down?",
                 options: [
-                    "Your age",
-                    "A balloon",
                     "Smoke",
-                    "Time"
+                    "Time",
+                    "A balloon",
+                    "Your age"
                 ],
-                correct: 0},
+                correct: 3},
         {
                 topic: "Mixed Bag - Hard",
                 emoji: "🔍🌈",
                 question: "What has four fingers and a thumb but isn't living?",
                 options: [
-                    "A glove",
-                    "A robot",
+                    "A drawing",
                     "A statue",
-                    "A drawing"
+                    "A glove",
+                    "A robot"
                 ],
-                correct: 0}
+                correct: 2}
     ],
     expert: [
         {
@@ -160,34 +160,34 @@ window.riddlesQuestions[17] = {
                 emoji: "🧠🎨",
                 question: "What is it that you can keep after giving it to someone?",
                 options: [
-                    "Your word",
                     "Love",
                     "Advice",
-                    "A gift"
+                    "A gift",
+                    "Your word"
                 ],
-                correct: 0},
+                correct: 3},
         {
                 topic: "Mixed Bag - Expert",
                 emoji: "🎯🔮",
                 question: "I am weightless but you can see me. Put me in a bucket and I'll make it lighter. What am I?",
                 options: [
-                    "A hole",
-                    "Light",
+                    "Nothing",
                     "Air",
-                    "Nothing"
+                    "Light",
+                    "A hole"
                 ],
-                correct: 0},
+                correct: 3},
         {
                 topic: "Mixed Bag - Expert",
                 emoji: "🧠🎪",
                 question: "I never was but always will be. No one ever saw me but everyone knows I exist. What am I?",
                 options: [
-                    "Tomorrow",
+                    "Death",
                     "The future",
                     "Hope",
-                    "Death"
+                    "Tomorrow"
                 ],
-                correct: 0}
+                correct: 3}
     ],
     extreme: [
     ]

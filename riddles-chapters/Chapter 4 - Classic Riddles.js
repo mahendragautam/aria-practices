@@ -23,30 +23,30 @@ window.riddlesQuestions[4] = {
                 emoji: "🌈🎯",
                 question: "What month of the year has 28 days?",
                 options: [
-                    "February",
-                    "All of them"
+                    "All of them",
+                    "February"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Classic Riddles - Easy",
                 emoji: "🔮🌟",
                 question: "What question can you never answer yes to?",
                 options: [
-                    "Are you awake?",
-                    "Are you asleep?"
+                    "Are you asleep?",
+                    "Are you awake?"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Classic Riddles - Easy",
                 emoji: "🎯✨",
                 question: "What can you break, even if you never pick it up or touch it?",
                 options: [
-                    "Glass",
-                    "A promise"
+                    "A promise",
+                    "Glass"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Classic Riddles - Easy",
@@ -63,20 +63,20 @@ window.riddlesQuestions[4] = {
                 emoji: "🌟💭",
                 question: "I have branches, but no fruit, trunk or leaves. What am I?",
                 options: [
-                    "A dead tree",
-                    "A bank"
+                    "A bank",
+                    "A dead tree"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Classic Riddles - Medium",
                 emoji: "🔮✨",
                 question: "The more of this there is, the less you see. What is it?",
                 options: [
-                    "Fog",
-                    "Darkness"
+                    "Darkness",
+                    "Fog"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Classic Riddles - Medium",
@@ -103,10 +103,10 @@ window.riddlesQuestions[4] = {
                 emoji: "🎨🎯",
                 question: "What can you catch, but not throw?",
                 options: [
-                    "A ball",
-                    "A cold"
+                    "A cold",
+                    "A ball"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Classic Riddles - Medium",
@@ -143,70 +143,70 @@ window.riddlesQuestions[4] = {
                 emoji: "🌈🔮",
                 question: "What has one eye, but can't see?",
                 options: [
-                    "A potato",
-                    "A needle"
+                    "A needle",
+                    "A potato"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Classic Riddles - Medium",
                 emoji: "🎨🎭",
                 question: "What has words, but never speaks?",
                 options: [
-                    "A dictionary",
-                    "A book"
+                    "A book",
+                    "A dictionary"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Classic Riddles - Medium",
                 emoji: "🧩💫",
                 question: "What runs all around a backyard, yet never moves?",
                 options: [
-                    "A dog",
-                    "A fence"
+                    "A fence",
+                    "A dog"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Classic Riddles - Medium",
                 emoji: "🔮🎪",
                 question: "What has a thumb and four fingers, but is not a hand?",
                 options: [
-                    "A mannequin",
-                    "A glove"
+                    "A glove",
+                    "A mannequin"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Classic Riddles - Medium",
                 emoji: "🎭✨",
                 question: "Where does today come before yesterday?",
                 options: [
-                    "Tomorrow",
-                    "The dictionary"
+                    "The dictionary",
+                    "Tomorrow"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Classic Riddles - Medium",
                 emoji: "🎯🌈",
                 question: "What is cut on a table, but is never eaten?",
                 options: [
-                    "Paper",
-                    "A deck of cards"
+                    "A deck of cards",
+                    "Paper"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Classic Riddles - Medium",
                 emoji: "🔮🎯",
                 question: "What has cities, but no houses; forests, but no trees; and water, but no fish?",
                 options: [
-                    "A painting",
-                    "A map"
+                    "A map",
+                    "A painting"
                 ],
-                correct: 1
+                correct: 0
             }
     ],
     hard: [
@@ -237,22 +237,22 @@ window.riddlesQuestions[4] = {
                 emoji: "🌟🎯",
                 question: "What word in the English language does the following: The first two letters signify a male, the first three letters signify a female, the first four letters signify a great, while the entire word signifies a great woman?",
                 options: [
-                    "Heroine",
                     "Woman",
+                    "Heroine",
                     "Heroine"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Classic Riddles - Hard",
                 emoji: "🎪✨",
                 question: "A woman shoots her husband, then holds him underwater for five minutes. Next, she hangs him. Right after, they enjoy a lovely dinner. How?",
                 options: [
+                    "She's a photographer",
                     "He's a ghost",
-                    "It's a dream",
-                    "She's a photographer"
+                    "It's a dream"
                 ],
-                correct: 2
+                correct: 0
             },
         {
                 topic: "Classic Riddles - Hard",
@@ -270,11 +270,11 @@ window.riddlesQuestions[4] = {
                 emoji: "🎯🔮",
                 question: "I have cities, but no houses. I have mountains, but no trees. I have water, but no fish. What am I?",
                 options: [
-                    "A globe",
                     "A map",
-                    "A painting"
+                    "A painting",
+                    "A globe"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Classic Riddles - Hard",
@@ -292,8 +292,8 @@ window.riddlesQuestions[4] = {
                 emoji: "🎨🧩",
                 question: "A man looks at a painting in a museum and says, 'Brothers and sisters I have none, but that man's father is my father's son.' Who is in the painting?",
                 options: [
-                    "His father",
                     "Himself",
+                    "His father",
                     "His son"
                 ],
                 correct: 2
@@ -303,8 +303,8 @@ window.riddlesQuestions[4] = {
                 emoji: "🎯🎭",
                 question: "With pointed fangs I sit and wait; with piercing force I crunch out fate; grabbing victims, proclaiming might; physically joining with a single bite. What am I?",
                 options: [
-                    "A vampire",
                     "A trap",
+                    "A vampire",
                     "A stapler"
                 ],
                 correct: 2
@@ -315,62 +315,62 @@ window.riddlesQuestions[4] = {
                 question: "They come out at night without being called, and are lost in the day without being stolen. What are they?",
                 options: [
                     "Dreams",
-                    "Stars",
-                    "Fireflies"
+                    "Fireflies",
+                    "Stars"
                 ],
-                correct: 1
+                correct: 2
             },
         {
                 topic: "Classic Riddles - Hard",
                 emoji: "🧠🔮",
                 question: "What has 13 hearts, but no other organs?",
                 options: [
-                    "A hospital",
                     "A deck of cards",
+                    "A hospital",
                     "A garden"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Classic Riddles - Hard",
                 emoji: "🎪🌟",
                 question: "It cannot be seen, cannot be felt, cannot be heard, cannot be smelt. It lies behind stars and under hills, and empty holes it fills. What is it?",
                 options: [
+                    "Air",
                     "Darkness",
-                    "Nothing",
-                    "Air"
+                    "Nothing"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Classic Riddles - Hard",
                 emoji: "🎨💫",
                 question: "Alive without breath, as cold as death; never thirsty, ever drinking, all in mail never clinking. What is it?",
                 options: [
+                    "A fish",
                     "A robot",
-                    "Ice",
-                    "A fish"
+                    "Ice"
                 ],
-                correct: 2
+                correct: 0
             },
         {
                 topic: "Classic Riddles - Hard",
                 emoji: "🔮🎯",
                 question: "What always runs but never walks, often murmurs, never talks, has a bed but never sleeps, has a mouth but never eats?",
                 options: [
+                    "A river",
                     "A clock",
-                    "Time",
-                    "A river"
+                    "Time"
                 ],
-                correct: 2
+                correct: 0
             },
         {
                 topic: "Classic Riddles - Hard",
                 emoji: "🎭✨",
                 question: "What can bring back the dead; make you cry, make you laugh, make you young; born in an instant yet lasts a lifetime?",
                 options: [
-                    "Time",
                     "Magic",
+                    "Time",
                     "A memory"
                 ],
                 correct: 2
@@ -380,11 +380,11 @@ window.riddlesQuestions[4] = {
                 emoji: "🧠💭",
                 question: "I build up castles. I tear down mountains. I make some men blind, I help others to see. What am I?",
                 options: [
-                    "Time",
                     "Sand",
+                    "Time",
                     "Water"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Classic Riddles - Hard",
@@ -403,8 +403,8 @@ window.riddlesQuestions[4] = {
                 question: "I am taken from a mine, and shut up in a wooden case, from which I am never released, and yet I am used by almost everybody. What am I?",
                 options: [
                     "Pencil lead",
-                    "Diamond",
-                    "Coal"
+                    "Coal",
+                    "Diamond"
                 ],
                 correct: 0
             },
@@ -414,10 +414,10 @@ window.riddlesQuestions[4] = {
                 question: "What is greater than God, more evil than the devil, the poor have it, the rich need it, and if you eat it, you'll die?",
                 options: [
                     "Power",
-                    "Death",
-                    "Nothing"
+                    "Nothing",
+                    "Death"
                 ],
-                correct: 2
+                correct: 1
             }
     ],
     expert: [
@@ -426,12 +426,12 @@ window.riddlesQuestions[4] = {
                 emoji: "🎭🧠",
                 question: "Voiceless it cries, wingless flutters, toothless bites, mouthless mutters. What is it?",
                 options: [
-                    "Time",
                     "The wind",
                     "An echo",
-                    "A ghost"
+                    "A ghost",
+                    "Time"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Classic Riddles - Expert",
@@ -439,11 +439,11 @@ window.riddlesQuestions[4] = {
                 question: "This thing all things devours: Birds, beasts, trees, flowers; Gnaws iron, bites steel; Grinds hard stones to meal. What is it?",
                 options: [
                     "Death",
+                    "Fire",
                     "Time",
-                    "Water",
-                    "Fire"
+                    "Water"
                 ],
-                correct: 1
+                correct: 2
             },
         {
                 topic: "Classic Riddles - Expert",
@@ -451,23 +451,23 @@ window.riddlesQuestions[4] = {
                 question: "What walks on four feet in the morning, two in the afternoon, and three at night?",
                 options: [
                     "A dog",
-                    "Evolution",
                     "A human",
-                    "Time"
+                    "Time",
+                    "Evolution"
                 ],
-                correct: 2
+                correct: 1
             },
         {
                 topic: "Classic Riddles - Expert",
                 emoji: "🎪✨",
                 question: "A box without hinges, key, or lid, yet golden treasure inside is hid. What is it?",
                 options: [
-                    "A safe",
-                    "A coconut",
+                    "A chest",
                     "An egg",
-                    "A chest"
+                    "A safe",
+                    "A coconut"
                 ],
-                correct: 2
+                correct: 1
             },
         {
                 topic: "Classic Riddles - Expert",
@@ -475,8 +475,8 @@ window.riddlesQuestions[4] = {
                 question: "Thirty white horses on a red hill. First they champ, then they stamp, then they stand still. What are they?",
                 options: [
                     "Horses",
-                    "Waves",
                     "Chess pieces",
+                    "Waves",
                     "Teeth"
                 ],
                 correct: 3
@@ -486,22 +486,22 @@ window.riddlesQuestions[4] = {
                 emoji: "🌈🎭",
                 question: "An eye in a blue face saw an eye in a green face. 'That eye is like this eye' said the first eye, 'but in low place not in high place.' What are they?",
                 options: [
-                    "Sun and daisy",
-                    "Eyes",
                     "Lights",
-                    "Stars"
+                    "Stars",
+                    "Sun and daisy",
+                    "Eyes"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Classic Riddles - Expert",
                 emoji: "🎯🧠",
                 question: "What can you put in a barrel to make it lighter?",
                 options: [
-                    "Air",
+                    "Nothing",
                     "A hole",
                     "Light",
-                    "Nothing"
+                    "Air"
                 ],
                 correct: 1
             },
@@ -510,12 +510,12 @@ window.riddlesQuestions[4] = {
                 emoji: "🔮🌟",
                 question: "I have a little house in which I live all alone. It has no doors or windows, and if I want to go out I must break through the wall. What am I?",
                 options: [
-                    "A hermit",
                     "A chick in an egg",
+                    "A hermit",
                     "A prisoner",
                     "A turtle"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Classic Riddles - Expert",
@@ -524,56 +524,56 @@ window.riddlesQuestions[4] = {
                 options: [
                     "Time",
                     "Water",
-                    "Love",
-                    "A key"
+                    "A key",
+                    "Love"
                 ],
-                correct: 3
+                correct: 2
             },
         {
                 topic: "Classic Riddles - Expert",
                 emoji: "🎨💭",
                 question: "At night they come without being fetched. By day they are lost without being stolen. What are they?",
                 options: [
-                    "Shadows",
                     "Thieves",
+                    "Stars",
                     "Dreams",
-                    "Stars"
+                    "Shadows"
                 ],
-                correct: 3
+                correct: 1
             },
         {
                 topic: "Classic Riddles - Expert",
                 emoji: "🔮🧩",
                 question: "I go around all the places, cities, towns, and villages, but never come inside. What am I?",
                 options: [
-                    "A bird",
                     "A car",
-                    "The wind",
-                    "A street"
+                    "A bird",
+                    "A street",
+                    "The wind"
                 ],
-                correct: 3
+                correct: 2
             },
         {
                 topic: "Classic Riddles - Expert",
                 emoji: "🌈🔮",
                 question: "I am the beginning of the end, and the end of time and space. I am essential to creation, and I surround every place. What am I?",
                 options: [
-                    "Death",
-                    "Nothing",
                     "The letter E",
+                    "Nothing",
+                    "Death",
                     "God"
                 ],
-                correct: 2
+                correct: 0
             },
         {
                 topic: "Classic Riddles - Expert",
                 emoji: "🎯✨",
                 question: "What belongs to you, but other people use it more than you?",
                 options: [
+                    "Your time",
                     "Your property",
-                    "Your body",
                     "Your name",
-                    "Your time"
+                    "Your body"
                 ],
                 correct: 2
             },
@@ -582,12 +582,12 @@ window.riddlesQuestions[4] = {
                 emoji: "🧠🎪",
                 question: "I can be long or can be short, I can be black, white, brown, or purple. You can find me the world over and I am often the main event. What am I?",
                 options: [
-                    "Rice",
-                    "A snake",
                     "A road",
-                    "Hair"
+                    "A snake",
+                    "Hair",
+                    "Rice"
                 ],
-                correct: 0
+                correct: 3
             },
         {
                 topic: "Classic Riddles - Expert",
@@ -595,59 +595,59 @@ window.riddlesQuestions[4] = {
                 question: "What runs, but never walks. Murmurs, but never talks. Has a bed, but never sleeps. And has a mouth, but never eats?",
                 options: [
                     "A clock",
-                    "A baby",
                     "A river",
+                    "A baby",
                     "Time"
                 ],
-                correct: 2
+                correct: 1
             },
         {
                 topic: "Classic Riddles - Expert",
                 emoji: "🌟🎭",
                 question: "Two in a corner, one in a room, zero in a house, but one in a shelter. What am I?",
                 options: [
-                    "The letter R",
+                    "Walls",
                     "Safety",
-                    "A person",
-                    "Walls"
+                    "The letter R",
+                    "A person"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Classic Riddles - Expert",
                 emoji: "🎯💭",
                 question: "I can fly but have no wings. I can cry but I have no eyes. Wherever I go, darkness follows me. What am I?",
                 options: [
-                    "A shadow",
                     "Clouds",
+                    "Night",
                     "A ghost",
-                    "Night"
+                    "A shadow"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Classic Riddles - Expert",
                 emoji: "🎪🔮",
                 question: "I have keys, but no locks and space, and no rooms. You can enter, but you can't go outside. What am I?",
                 options: [
-                    "A house",
                     "A keyboard",
-                    "A piano",
-                    "A prison"
+                    "A house",
+                    "A prison",
+                    "A piano"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Classic Riddles - Expert",
                 emoji: "🌈💡",
                 question: "The person who makes it has no need for it. The person who purchases it does not use it. The person who does use it does not know they are. What is it?",
                 options: [
-                    "A gift",
-                    "Medicine",
                     "A wheelchair",
-                    "A coffin"
+                    "Medicine",
+                    "A coffin",
+                    "A gift"
                 ],
-                correct: 3
+                correct: 2
             }
     ],
     extreme: [

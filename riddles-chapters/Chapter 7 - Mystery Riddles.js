@@ -19,10 +19,10 @@ window.riddlesQuestions[7] = {
                 emoji: "🔍🕵️",
                 question: "A man was found dead in his study. He was alone and all doors were locked from the inside. There's a puddle of water near him. How did he die?",
                 options: [
-                    "He drowned",
-                    "He stood on ice that melted"
+                    "He stood on ice that melted",
+                    "He drowned"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Mystery Riddles - Easy",
@@ -69,10 +69,10 @@ window.riddlesQuestions[7] = {
                 emoji: "🎪🔍",
                 question: "A detective finds a dead body in the desert with a pack on its back. What happened?",
                 options: [
-                    "Died of thirst",
-                    "Parachute didn't open"
+                    "Parachute didn't open",
+                    "Died of thirst"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Mystery Riddles - Easy",
@@ -89,20 +89,20 @@ window.riddlesQuestions[7] = {
                 emoji: "🎭💡",
                 question: "A man dies of thirst in his own home. Why?",
                 options: [
-                    "No water",
-                    "Lost at sea on a boat"
+                    "Lost at sea on a boat",
+                    "No water"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Mystery Riddles - Easy",
                 emoji: "🎯🔍",
                 question: "A man leaves home, makes three left turns, and returns home to find two masked men. Who are they?",
                 options: [
-                    "Robbers",
-                    "Catcher and umpire (baseball)"
+                    "Catcher and umpire (baseball)",
+                    "Robbers"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Mystery Riddles - Medium",
@@ -129,20 +129,20 @@ window.riddlesQuestions[7] = {
                 emoji: "🎭🔮",
                 question: "A man walks into a bar and asks for a glass of water. The bartender pulls out a gun. The man says 'thank you' and leaves. Why?",
                 options: [
-                    "Scared him",
-                    "Cured his hiccups"
+                    "Cured his hiccups",
+                    "Scared him"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Mystery Riddles - Medium",
                 emoji: "🔪💡",
                 question: "Romeo and Juliet are found dead on the floor with water around them. The window is open. What happened?",
                 options: [
-                    "Suicide pact",
-                    "They're fish, cat knocked over bowl"
+                    "They're fish, cat knocked over bowl",
+                    "Suicide pact"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Mystery Riddles - Medium",
@@ -159,50 +159,50 @@ window.riddlesQuestions[7] = {
                 emoji: "🏚️👻",
                 question: "A man is lying dead in a field with an unopened package beside him. There's no other creature around. How did he die?",
                 options: [
-                    "Heart attack",
-                    "Parachute failed to open"
+                    "Parachute failed to open",
+                    "Heart attack"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Mystery Riddles - Medium",
                 emoji: "🎪🔍",
                 question: "A woman enters a room and presses a button. Within seconds, she's instantly killed. What happened?",
                 options: [
-                    "Electric shock",
-                    "She's in an elevator that fell"
+                    "She's in an elevator that fell",
+                    "Electric shock"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Mystery Riddles - Medium",
                 emoji: "🎯💀",
                 question: "A man calls his wife and tells her he'll be home at 8. He arrives on time, but his wife is furious. Why?",
                 options: [
-                    "Forgot anniversary",
-                    "It's 8 AM, not PM"
+                    "It's 8 AM, not PM",
+                    "Forgot anniversary"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Mystery Riddles - Medium",
                 emoji: "🔮🌙",
                 question: "A man is found dead with 53 bicycles around him. What happened?",
                 options: [
-                    "Accident",
-                    "Caught cheating at cards"
+                    "Caught cheating at cards",
+                    "Accident"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Mystery Riddles - Medium",
                 emoji: "🕵️💡",
                 question: "A man goes out in heavy rain with nothing to protect him from it. His hair doesn't get wet. Why?",
                 options: [
-                    "Under cover",
-                    "He's bald"
+                    "He's bald",
+                    "Under cover"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Mystery Riddles - Medium",
@@ -259,40 +259,40 @@ window.riddlesQuestions[7] = {
                 emoji: "🎯💡",
                 question: "A man stands on one side of a river, his dog on the other. The man calls his dog, who crosses the river without getting wet. How?",
                 options: [
-                    "Walked on bridge",
-                    "The river was frozen"
+                    "The river was frozen",
+                    "Walked on bridge"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Mystery Riddles - Medium",
                 emoji: "🎭👻",
                 question: "A man rode into town on Friday, stayed three days, and left on Friday. How?",
                 options: [
-                    "Time travel",
-                    "His horse was named Friday"
+                    "His horse was named Friday",
+                    "Time travel"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Mystery Riddles - Medium",
                 emoji: "🌟💀",
                 question: "A man is found dead in his car in the middle of the desert. The windows are up and the doors are locked. How did he die?",
                 options: [
-                    "Murder before locked",
-                    "Heat/suffocation"
+                    "Heat/suffocation",
+                    "Murder before locked"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Mystery Riddles - Medium",
                 emoji: "🔪🏚️",
                 question: "A detective walks into a room and sees a dead body. He knows immediately the death happened 8 hours ago. How?",
                 options: [
-                    "Clock stopped",
-                    "Body temperature"
+                    "Body temperature",
+                    "Clock stopped"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Mystery Riddles - Medium",
@@ -319,10 +319,10 @@ window.riddlesQuestions[7] = {
                 emoji: "🌙💡",
                 question: "Three men rent a hotel room for $30. They each pay $10. The manager realizes the room is only $25, so he gives the bellboy $5 to return. The bellboy keeps $2 and gives each man $1 back. Where's the missing dollar?",
                 options: [
-                    "Bellboy took it",
-                    "There is no missing dollar"
+                    "There is no missing dollar",
+                    "Bellboy took it"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Mystery Riddles - Medium",
@@ -341,22 +341,22 @@ window.riddlesQuestions[7] = {
                 emoji: "🔍💀",
                 question: "A man is found dead in a locked room hanging from the ceiling. There's a puddle of water below and nothing else. The room is 20 feet tall. How?",
                 options: [
+                    "Someone helped",
                     "Stood on ice block that melted",
-                    "Ladder removed",
-                    "Someone helped"
+                    "Ladder removed"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Mystery Riddles - Hard",
                 emoji: "🕵️🌙",
                 question: "A man walks into a gallery and stares at a portrait. 'Brothers and sisters I have none, but that man's father is my father's son.' Who is in the portrait?",
                 options: [
-                    "Himself",
                     "His son",
+                    "Himself",
                     "His father"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Mystery Riddles - Hard",
@@ -364,8 +364,8 @@ window.riddlesQuestions[7] = {
                 question: "A man in a wheelchair is found dead at the bottom of a building's stairs. The detective immediately knows it was murder. How?",
                 options: [
                     "He couldn't have gone up to fall down",
-                    "Witness testimony",
-                    "Wheelchair damaged"
+                    "Wheelchair damaged",
+                    "Witness testimony"
                 ],
                 correct: 0
             },
@@ -374,9 +374,9 @@ window.riddlesQuestions[7] = {
                 emoji: "🔪💡",
                 question: "A man orders albatross soup in a restaurant. After one taste, he goes outside and shoots himself. Why?",
                 options: [
-                    "Allergic reaction",
+                    "Bad taste",
                     "He realized he ate his wife (shipwreck survivor)",
-                    "Bad taste"
+                    "Allergic reaction"
                 ],
                 correct: 1
             },
@@ -385,8 +385,8 @@ window.riddlesQuestions[7] = {
                 emoji: "🌟🕵️",
                 question: "A woman buys a new pair of shoes, goes to work, and dies. Why?",
                 options: [
-                    "Wrong size",
                     "Car accident",
+                    "Wrong size",
                     "She's a tightrope walker"
                 ],
                 correct: 2
@@ -407,9 +407,9 @@ window.riddlesQuestions[7] = {
                 emoji: "🎪🔍",
                 question: "An elderly man died peacefully in his sleep. His wife woke up screaming. Why?",
                 options: [
-                    "Saw the body",
+                    "Heart attack",
                     "She was having a nightmare",
-                    "Heart attack"
+                    "Saw the body"
                 ],
                 correct: 1
             },
@@ -418,11 +418,11 @@ window.riddlesQuestions[7] = {
                 emoji: "🎯💀",
                 question: "A man gets a phone call telling him his brother is dead. He hangs up, drives to a remote location, and finds his brother dead. How did he know where to go?",
                 options: [
-                    "Told on call",
                     "Caller ID showed brother's location",
+                    "Told on call",
                     "Guessed"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Mystery Riddles - Hard",
@@ -451,33 +451,33 @@ window.riddlesQuestions[7] = {
                 emoji: "🎭🔍",
                 question: "Two girls were born to the same mother, at the same time, on the same day, in the same month and in the same year but they're not twins. How?",
                 options: [
+                    "Adopted",
                     "Different hours",
-                    "They're triplets",
-                    "Adopted"
+                    "They're triplets"
                 ],
-                correct: 1
+                correct: 2
             },
         {
                 topic: "Mystery Riddles - Hard",
                 emoji: "🌟👻",
                 question: "A man goes to sleep in his cabin and wakes up to find thousands of people dead. What happened?",
                 options: [
-                    "Massacre",
+                    "He's a lighthouse keeper",
                     "Disease outbreak",
-                    "He's a lighthouse keeper"
+                    "Massacre"
                 ],
-                correct: 2
+                correct: 0
             },
         {
                 topic: "Mystery Riddles - Hard",
                 emoji: "🔪🎯",
                 question: "A man tells the truth on Mondays, Tuesdays, and Wednesdays but lies every other day. A woman tells the truth on Thursdays, Fridays, and Saturdays but lies every other day. What day is it if they both say 'Tomorrow I will lie'?",
                 options: [
-                    "Monday",
                     "Thursday",
+                    "Monday",
                     "Wednesday"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Mystery Riddles - Hard",
@@ -495,42 +495,42 @@ window.riddlesQuestions[7] = {
                 emoji: "🎪💀",
                 question: "A man wearing black clothes, black shoes and a black hat is walking down a street at night. There are no streetlights. A black car with no headlights drives toward him but stops in time. How did the driver see him?",
                 options: [
-                    "Car sensors",
                     "Moon light",
-                    "It was daytime"
+                    "It was daytime",
+                    "Car sensors"
                 ],
-                correct: 2
+                correct: 1
             },
         {
                 topic: "Mystery Riddles - Hard",
                 emoji: "🕵️🌙",
                 question: "A man is lying dead with a backpack on, face down in the desert. He's nude. What happened?",
                 options: [
-                    "Parachute failed",
                     "Murder",
-                    "Dehydration"
+                    "Dehydration",
+                    "Parachute failed"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Mystery Riddles - Hard",
                 emoji: "🎯💡",
                 question: "A woman gives a beggar 50 cents. The woman is the beggar's sister, but the beggar is not the woman's brother. How?",
                 options: [
-                    "Half-sibling",
                     "The beggar is her sister",
-                    "Adopted"
+                    "Adopted",
+                    "Half-sibling"
                 ],
-                correct: 1
+                correct: 0
             },
         {
                 topic: "Mystery Riddles - Hard",
                 emoji: "🔮🔍",
                 question: "A man is looking at a photograph. Someone asks who it is. He replies: 'Brothers and sisters I have none, but this man's father is my father's son.' Who is in the photo?",
                 options: [
-                    "His nephew",
+                    "Himself",
                     "His son",
-                    "Himself"
+                    "His nephew"
                 ],
                 correct: 1
             },
@@ -539,11 +539,11 @@ window.riddlesQuestions[7] = {
                 emoji: "🎭👻",
                 question: "A man enters an elevator in a tall building. He goes up to the 12th floor. On the way down, the elevator stops at the 6th floor and a woman enters. She screams and the man confesses to murder. Why?",
                 options: [
-                    "She saw blood on his hands in mirror",
+                    "Recognized him",
                     "Dead body",
-                    "Recognized him"
+                    "She saw blood on his hands in mirror"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Mystery Riddles - Hard",
@@ -551,10 +551,10 @@ window.riddlesQuestions[7] = {
                 question: "A man is found dead on a Sunday morning. His wife calls the police immediately. The police question the wife and staff. The cook says he was making breakfast. The maid says she was dusting corners. The butler says he was getting the mail. Who did it?",
                 options: [
                     "The wife",
-                    "The butler (no mail on Sunday)",
-                    "The cook"
+                    "The cook",
+                    "The butler (no mail on Sunday)"
                 ],
-                correct: 1
+                correct: 2
             },
         {
                 topic: "Mystery Riddles - Hard",
@@ -572,11 +572,11 @@ window.riddlesQuestions[7] = {
                 emoji: "🎪🔮",
                 question: "A man lives on the 100th floor of an apartment building. On rainy days he rides the elevator all the way up. On sunny days he rides to the 70th floor and walks the rest. Why?",
                 options: [
-                    "He's short, uses umbrella to reach button",
                     "Elevator broken",
-                    "Exercise"
+                    "Exercise",
+                    "He's short, uses umbrella to reach button"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Mystery Riddles - Hard",
@@ -594,9 +594,9 @@ window.riddlesQuestions[7] = {
                 emoji: "🌙💡",
                 question: "A man is found dead in a cabin in the mountains. There are 52 bicycles nearby and a note reading 'I'm sorry.' What happened?",
                 options: [
-                    "Accident",
+                    "Murder",
                     "Caught cheating at cards, killed himself",
-                    "Murder"
+                    "Accident"
                 ],
                 correct: 1
             },
@@ -606,10 +606,10 @@ window.riddlesQuestions[7] = {
                 question: "A man enters his bathroom and shoots himself. Weeks later, dozens of people die because of his actions. What happened?",
                 options: [
                     "Disease spread",
-                    "Bomb",
-                    "He was a submarine captain"
+                    "He was a submarine captain",
+                    "Bomb"
                 ],
-                correct: 2
+                correct: 1
             }
     ],
     expert: [
@@ -619,35 +619,35 @@ window.riddlesQuestions[7] = {
                 question: "A man is found dead in the middle of a field with only a match in his hand. There are no footprints anywhere. How did he die?",
                 options: [
                     "Fell from sky",
-                    "Murder",
+                    "Hot air balloon crash, drew short straw",
                     "Lightning strike",
-                    "Hot air balloon crash, drew short straw"
+                    "Murder"
                 ],
-                correct: 3
+                correct: 1
             },
         {
                 topic: "Mystery Riddles - Expert",
                 emoji: "🕵️🌙",
                 question: "A man lies dead in a room. There's a chandelier, a piano, and a calendar showing March. The police find a suicide note saying 'Goodbye cruel world.' A detective immediately knows it's murder. How?",
                 options: [
-                    "Wrong handwriting",
-                    "Calendar wrong",
                     "Note says 'April Fools' on back",
-                    "Piano evidence"
+                    "Piano evidence",
+                    "Calendar wrong",
+                    "Wrong handwriting"
                 ],
-                correct: 2
+                correct: 0
             },
         {
                 topic: "Mystery Riddles - Expert",
                 emoji: "🎭🔮",
                 question: "A man orders a dish called 'albatross' at a restaurant, takes one bite, goes home and kills himself. Why?",
                 options: [
-                    "Poisoned",
+                    "Bad memories",
                     "Allergic",
-                    "Realized he ate his wife on deserted island",
-                    "Bad memories"
+                    "Poisoned",
+                    "Realized he ate his wife on deserted island"
                 ],
-                correct: 2
+                correct: 3
             },
         {
                 topic: "Mystery Riddles - Expert",
@@ -655,8 +655,8 @@ window.riddlesQuestions[7] = {
                 question: "A woman has seven children, half of them are boys. How is this possible?",
                 options: [
                     "Adopted",
-                    "Rounding error",
                     "3.5 are boys",
+                    "Rounding error",
                     "All seven are boys"
                 ],
                 correct: 3
@@ -666,12 +666,12 @@ window.riddlesQuestions[7] = {
                 emoji: "🌟🕵️",
                 question: "A man walks into a bar and asks for a glass of water. The bartender points a gun at him. The man says 'thank you' and walks out. Why?",
                 options: [
-                    "Robbery practice",
-                    "He had hiccups, gun scared them away",
+                    "Wrong person",
                     "Joke",
-                    "Wrong person"
+                    "He had hiccups, gun scared them away",
+                    "Robbery practice"
                 ],
-                correct: 1
+                correct: 2
             },
         {
                 topic: "Mystery Riddles - Expert",
@@ -679,32 +679,32 @@ window.riddlesQuestions[7] = {
                 question: "Three people check into a hotel room that costs $30. They each pay $10. Later, the clerk realizes the room is only $25. He gives the bellboy $5 to return. The bellboy keeps $2 and gives each person $1 back. They paid $9 each ($27 total), plus $2 the bellboy kept = $29. Where's the missing dollar?",
                 options: [
                     "Clerk has it",
-                    "There is no missing dollar, bad math",
                     "Bellboy stole it",
+                    "There is no missing dollar, bad math",
                     "Hotel error"
                 ],
-                correct: 1
+                correct: 2
             },
         {
                 topic: "Mystery Riddles - Expert",
                 emoji: "🎪🔍",
                 question: "A man is pushing his car. He stops at a hotel and immediately knows he's bankrupt. How?",
                 options: [
+                    "Car broke",
                     "Business failed",
                     "He's playing Monopoly",
-                    "Expensive hotel",
-                    "Car broke"
+                    "Expensive hotel"
                 ],
-                correct: 1
+                correct: 2
             },
         {
                 topic: "Mystery Riddles - Expert",
                 emoji: "🎯💀",
                 question: "A man and his son are driving and get in an accident. The father dies. The son is rushed to the hospital for surgery. The surgeon says 'I can't operate on this boy, he's my son!' How?",
                 options: [
-                    "Adoptive father",
-                    "The surgeon is his mother",
                     "Two fathers",
+                    "The surgeon is his mother",
+                    "Adoptive father",
                     "Stepfather"
                 ],
                 correct: 1
@@ -714,34 +714,34 @@ window.riddlesQuestions[7] = {
                 emoji: "🕵️💡",
                 question: "A man enters an art gallery and stares at a portrait. The guard asks 'Why are you looking at that painting?' The man replies: 'Brothers and sisters have I none, but that man's father is my father's son.' Who is in the painting?",
                 options: [
-                    "His son",
-                    "A stranger",
                     "His father",
+                    "A stranger",
+                    "His son",
                     "Himself"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Mystery Riddles - Expert",
                 emoji: "🎭🔍",
                 question: "A wealthy man dies. In his will, he leaves: $1 million to his wife, $750,000 to his daughter, $250,000 to his son, and $1 to the butler. Why such an amount to the butler?",
                 options: [
-                    "Symbolic",
-                    "Mistake",
                     "Disliked butler",
-                    "The butler was his son"
+                    "Symbolic",
+                    "The butler was his son",
+                    "Mistake"
                 ],
-                correct: 3
+                correct: 2
             },
         {
                 topic: "Mystery Riddles - Expert",
                 emoji: "🌟👻",
                 question: "A man walks into a restaurant, the waiter says 'Good day, Admiral.' How did the waiter know?",
                 options: [
-                    "Name tag",
+                    "Regular customer",
                     "He was wearing his uniform",
                     "Famous person",
-                    "Regular customer"
+                    "Name tag"
                 ],
                 correct: 1
             },
@@ -763,9 +763,9 @@ window.riddlesQuestions[7] = {
                 question: "A detective knows a man committed murder by looking at a calendar. The calendar shows months from January to December with 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31. What's wrong?",
                 options: [
                     "February should have 29 in leap year or wrong day",
-                    "Days scrambled",
+                    "Nothing wrong",
                     "Months wrong",
-                    "Nothing wrong"
+                    "Days scrambled"
                 ],
                 correct: 0
             },
@@ -775,19 +775,19 @@ window.riddlesQuestions[7] = {
                 question: "A man is found dead in a locked room with 53 bicycles. What happened?",
                 options: [
                     "Heart attack",
-                    "Cheating at cards (bicycle brand), murdered",
+                    "Bicycle accident",
                     "Suffocation",
-                    "Bicycle accident"
+                    "Cheating at cards (bicycle brand), murdered"
                 ],
-                correct: 1
+                correct: 3
             },
         {
                 topic: "Mystery Riddles - Expert",
                 emoji: "🕵️🌙",
                 question: "A man hijacks an airplane and demands $200,000 and parachutes. He jumps from the plane and is never seen again. Years later, a boy finds some of the money. Where?",
                 options: [
-                    "Mountain",
                     "Ocean",
+                    "Mountain",
                     "Near a river (D.B. Cooper case)",
                     "In the forest"
                 ],
@@ -798,21 +798,21 @@ window.riddlesQuestions[7] = {
                 emoji: "🎯💡",
                 question: "Five people were eating apples. One person finished first. Everyone died of poisoning. Why did the first person finish first?",
                 options: [
-                    "Lucky",
+                    "Didn't eat the poisoned core",
                     "Smaller apple",
                     "Ate faster",
-                    "Didn't eat the poisoned core"
+                    "Lucky"
                 ],
-                correct: 3
+                correct: 0
             },
         {
                 topic: "Mystery Riddles - Expert",
                 emoji: "🔮🔍",
                 question: "A man is found dead clutching a match in a field. No footprints lead to him. How did he get there?",
                 options: [
+                    "Dropped from plane",
                     "Covered tracks",
                     "Teleported",
-                    "Dropped from plane",
                     "Fell from hot air balloon"
                 ],
                 correct: 3
@@ -822,12 +822,12 @@ window.riddlesQuestions[7] = {
                 emoji: "🎭👻",
                 question: "A cabin is found with two bodies. Both died from suffocation. The cabin is undamaged. What happened?",
                 options: [
-                    "Gas leak",
-                    "Sealed room",
+                    "Airplane cabin crashed",
                     "Fire",
-                    "Airplane cabin crashed"
+                    "Gas leak",
+                    "Sealed room"
                 ],
-                correct: 3
+                correct: 0
             },
         {
                 topic: "Mystery Riddles - Expert",
@@ -835,23 +835,23 @@ window.riddlesQuestions[7] = {
                 question: "A man lives on the 10th floor. On rainy days he rides the elevator to the 10th floor. On sunny days he only rides to the 7th and walks up. Why?",
                 options: [
                     "Broken elevator",
+                    "Exercise",
                     "He's short, uses umbrella to reach 10",
-                    "Saves energy",
-                    "Exercise"
+                    "Saves energy"
                 ],
-                correct: 1
+                correct: 2
             },
         {
                 topic: "Mystery Riddles - Expert",
                 emoji: "🔪🏚️",
                 question: "A detective arrives at a crime scene. The victim is holding a gun. There's a cassette recorder nearby. The detective plays it and hears 'I can't go on, goodbye.' Then a gunshot. He immediately knows it's murder. How?",
                 options: [
-                    "Time stamp",
-                    "Someone had to rewind the tape",
+                    "Wrong voice",
                     "Gun position",
-                    "Wrong voice"
+                    "Someone had to rewind the tape",
+                    "Time stamp"
                 ],
-                correct: 1
+                correct: 2
             },
         {
                 topic: "Mystery Riddles - Expert",
@@ -859,19 +859,19 @@ window.riddlesQuestions[7] = {
                 question: "A woman is trapped in a room with only two doors. Behind one door is a raging fire. Behind the other is a room full of deadly poisonous gas. How does she escape?",
                 options: [
                     "Break a window",
-                    "Call for help",
+                    "Wait for fire to die, go through that door",
                     "Hold breath through gas",
-                    "Wait for fire to die, go through that door"
+                    "Call for help"
                 ],
-                correct: 3
+                correct: 1
             },
         {
                 topic: "Mystery Riddles - Expert",
                 emoji: "🕵️🎯",
                 question: "A man is found murdered on a Sunday morning. His wife calls the police. The police question everyone. The wife says she was sleeping. The cook says he was making breakfast. The gardener says he was picking vegetables. The maid says she was getting mail. The butler says he was cleaning. Who did it?",
                 options: [
-                    "The wife",
                     "The butler",
+                    "The wife",
                     "The maid (no mail on Sunday)",
                     "The cook"
                 ],
@@ -882,36 +882,36 @@ window.riddlesQuestions[7] = {
                 emoji: "🌙💡",
                 question: "A man wakes up from a coma. He sees his wife and two doctors. He immediately knows one doctor is lying. How?",
                 options: [
+                    "Recognized liar",
                     "Wife told him",
                     "Medical details wrong",
-                    "Both said 'I'm glad you're awake' but can't both be glad at same time",
-                    "Recognized liar"
+                    "Both said 'I'm glad you're awake' but can't both be glad at same time"
                 ],
-                correct: 2
+                correct: 3
             },
         {
                 topic: "Mystery Riddles - Expert",
                 emoji: "🔍👻",
                 question: "A man lives on the 15th floor of an apartment. Every morning he takes the elevator down to the lobby. When he returns in the evening, he only takes it to the 10th floor and walks up the remaining 5 floors (unless someone else is in the elevator). Why?",
                 options: [
+                    "He's short, can't reach button 15 alone",
                     "Exercise routine",
                     "Elevator malfunction",
-                    "Superstition",
-                    "He's short, can't reach button 15 alone"
+                    "Superstition"
                 ],
-                correct: 3
+                correct: 0
             },
         {
                 topic: "Mystery Riddles - Expert",
                 emoji: "🎨🌟",
                 question: "A man is found dead in a circular mansion. Detective questions: Chef says 'I was making breakfast.' Maid says 'I was dusting the corners.' Butler says 'I was organizing the wine cellar.' Who's the killer?",
                 options: [
-                    "All lying",
                     "The maid (circular mansion has no corners)",
-                    "The butler",
-                    "The chef"
+                    "All lying",
+                    "The chef",
+                    "The butler"
                 ],
-                correct: 1
+                correct: 0
             }
     ],
     extreme: [

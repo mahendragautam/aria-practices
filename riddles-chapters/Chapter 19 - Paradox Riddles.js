@@ -4,17 +4,17 @@
  * Type: JavaScript
  * Location: Auto Insert > Footer
  * Priority: 10
- * 
- * 100 Questions Organized by Difficulty Level
- * Easy (10) → Medium (25) → Hard (25) → Expert (25) → Extreme (15)
+ *
+ * Questions Organized by Difficulty Level
+ * Easy (combined) → Hard → Expert → Extreme
  *
  * COPY ALL CODE BELOW
  */
 
-const riddlesQuestions = {
-    19: {
-        easy: [
-            {
+window.riddlesQuestions = window.riddlesQuestions || {};
+window.riddlesQuestions[19] = {
+    easy: [
+        {
                 topic: "Paradox Riddles - Easy",
                 emoji: "🔄💡",
                 question: "What came first, the chicken or the egg?",
@@ -24,7 +24,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Easy",
                 emoji: "🎭✨",
                 question: "If you try to fail and succeed, which have you done?",
@@ -34,7 +34,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Easy",
                 emoji: "🧠🔮",
                 question: "Can you answer 'no' to this question?",
@@ -44,7 +44,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Easy",
                 emoji: "🌟💭",
                 question: "If Pinocchio says 'My nose will grow now,' what happens?",
@@ -54,7 +54,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Easy",
                 emoji: "🎯🌈",
                 question: "Is the answer to this question 'no'?",
@@ -64,7 +64,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Easy",
                 emoji: "🔍✨",
                 question: "What happens when an unstoppable force meets an immovable object?",
@@ -74,7 +74,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Easy",
                 emoji: "🎪💡",
                 question: "If everything I say is a lie, am I telling the truth?",
@@ -84,7 +84,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Easy",
                 emoji: "🧩🔮",
                 question: "Can an all-powerful being create a stone so heavy they can't lift it?",
@@ -94,7 +94,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Easy",
                 emoji: "🌟🧠",
                 question: "This sentence is false. Is it true or false?",
@@ -104,7 +104,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Easy",
                 emoji: "💭✨",
                 question: "If you travel back in time and prevent your own birth, do you exist?",
@@ -113,10 +113,8 @@ const riddlesQuestions = {
                     "No"
                 ],
                 correct: 0
-            }
-        ],
-        medium: [
-            {
+            },
+        {
                 topic: "Paradox Riddles - Medium",
                 emoji: "🔄🧠",
                 question: "A barber shaves all and only those men who do not shave themselves. Does the barber shave himself?",
@@ -127,7 +125,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Medium",
                 emoji: "🎭💫",
                 question: "If a time traveler kills their grandfather before their parent is born, how do they exist to travel back?",
@@ -138,7 +136,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Medium",
                 emoji: "🌟🔮",
                 question: "You must obey this rule: Never follow this rule. What do you do?",
@@ -149,7 +147,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Medium",
                 emoji: "🧩💡",
                 question: "A crocodile steals a child and promises to return them if the parent correctly guesses what the crocodile will do. The parent says: 'You will not return my child.' What happens?",
@@ -160,7 +158,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Medium",
                 emoji: "🎯✨",
                 question: "If you replace every plank of a ship over time, is it still the same ship?",
@@ -171,7 +169,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Medium",
                 emoji: "🔍🌈",
                 question: "The next sentence is true. The previous sentence is false. Which is correct?",
@@ -182,7 +180,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Medium",
                 emoji: "🎪🧠",
                 question: "You can never reach your destination because you must first cover half the distance, then half the remaining distance, and so on infinitely. Why is this wrong?",
@@ -193,7 +191,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Medium",
                 emoji: "💭🔮",
                 question: "A judge tells a prisoner: 'You will be hanged at noon on one weekday next week, but you won't know which day until it happens.' Can this happen?",
@@ -204,7 +202,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Medium",
                 emoji: "🌟💫",
                 question: "If God is all-powerful, can He create a rock so heavy that He cannot lift it?",
@@ -215,7 +213,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Medium",
                 emoji: "🧩✨",
                 question: "A card says 'The sentence on the other side is true.' You flip it. It says 'The sentence on the other side is false.' What's the truth?",
@@ -226,7 +224,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Medium",
                 emoji: "🎭🧠",
                 question: "Does the set of all sets that don't contain themselves contain itself?",
@@ -237,7 +235,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Medium",
                 emoji: "🔄💡",
                 question: "You're told: 'Don't think about elephants.' What happens?",
@@ -248,7 +246,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Medium",
                 emoji: "🌈🔮",
                 question: "Achilles races a tortoise with a head start. He must reach where the tortoise was, but by then it moved forward. Can he ever catch it?",
@@ -259,7 +257,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Medium",
                 emoji: "🎯💭",
                 question: "If I say 'I always lie,' am I telling the truth?",
@@ -270,7 +268,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Medium",
                 emoji: "🔍✨",
                 question: "A man says: 'What I am telling you now is a lie.' Is he lying?",
@@ -281,7 +279,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Medium",
                 emoji: "🧠🌟",
                 question: "Why does a mirror reverse left and right but not up and down?",
@@ -292,7 +290,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Medium",
                 emoji: "🎪💫",
                 question: "If everyone should tolerate all beliefs, should we tolerate intolerance?",
@@ -303,7 +301,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Medium",
                 emoji: "💡🔮",
                 question: "A man is both a bachelor and married. Is this possible?",
@@ -314,12 +312,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
-                topic: "Paradox Riddles - Medium",
-                emoji: "🌈🧩",
-                correct: 0
-            },
-            {
+        {
                 topic: "Paradox Riddles - Medium",
                 emoji: "🎭✨",
                 question: "If you save money by not spending, are you making money or losing opportunity?",
@@ -330,7 +323,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Medium",
                 emoji: "🔄🧠",
                 question: "Is it possible to have an infinite hotel that's full but can still accommodate more guests?",
@@ -341,7 +334,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Medium",
                 emoji: "🌟💭",
                 question: "If Schrödinger's cat is both alive and dead until observed, what is it before observation?",
@@ -352,7 +345,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Medium",
                 emoji: "🧩💡",
                 question: "The more holes you have, the less holes you have. When is this true?",
@@ -363,7 +356,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Medium",
                 emoji: "🎯🔮",
                 question: "Can you have a set of all truths if every statement about the set is also a truth?",
@@ -373,15 +366,10 @@ const riddlesQuestions = {
                     "No"
                 ],
                 correct: 0
-            },
-            {
-                topic: "Paradox Riddles - Medium",
-                emoji: "🔍🌈",
-                correct: 0
             }
-        ],
-        hard: [
-            {
+    ],
+    hard: [
+        {
                 topic: "Paradox Riddles - Hard",
                 emoji: "🔄🧠",
                 question: "In a village, the barber shaves all men who don't shave themselves and only those men. Who shaves the barber?",
@@ -393,7 +381,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Hard",
                 emoji: "🎭💫",
                 question: "If a time machine sends information back in time to prevent its own creation, what happens?",
@@ -405,7 +393,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Hard",
                 emoji: "🌟🔮",
                 question: "A library contains all possible 410-page books. Does it contain a catalog of all books in itself?",
@@ -417,7 +405,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Hard",
                 emoji: "🧩✨",
                 question: "Zeno says you can never leave a room because first you must reach the halfway point, then half of what remains, ad infinitum. How is motion possible?",
@@ -429,7 +417,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Hard",
                 emoji: "🎯💡",
                 question: "If you replace every cell in your body over 7 years, are you still the same person?",
@@ -441,7 +429,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Hard",
                 emoji: "🔍🌈",
                 question: "An omniscient being knows the future. Can humans have free will?",
@@ -453,7 +441,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Hard",
                 emoji: "💭🔮",
                 question: "If every statement can be proven or disproven, can we prove this statement itself?",
@@ -465,7 +453,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Hard",
                 emoji: "🎪🧠",
                 question: "A prisoner will be executed at noon on an unexpected day next week. Can he deduce which day?",
@@ -477,7 +465,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Hard",
                 emoji: "🌟💫",
                 question: "If the universe is infinite and matter is finite, why isn't the night sky infinitely bright?",
@@ -489,7 +477,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Hard",
                 emoji: "🧩💡",
                 question: "Does the set of all sets that do not contain themselves contain itself?",
@@ -501,7 +489,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Hard",
                 emoji: "🎭✨",
                 question: "If you go back in time and give Shakespeare his own plays, who wrote them?",
@@ -513,7 +501,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Hard",
                 emoji: "🔄🔮",
                 question: "Can an omnipotent being make a burrito so hot they can't eat it?",
@@ -525,7 +513,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Hard",
                 emoji: "🌈🧠",
                 question: "If tolerance requires accepting all views, must it accept intolerance?",
@@ -537,7 +525,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Hard",
                 emoji: "🎯💭",
                 question: "A person has a brain transplant. Is the person who wakes up the donor or recipient?",
@@ -549,7 +537,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Hard",
                 emoji: "🔍✨",
                 question: "If you know you know nothing, do you know something?",
@@ -561,7 +549,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Hard",
                 emoji: "🧩🌟",
                 question: "Quantum mechanics says particles exist in all states until observed. Who is the observer?",
@@ -573,7 +561,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Hard",
                 emoji: "💫🔮",
                 question: "If there are infinite parallel universes, is everything that can happen happening somewhere?",
@@ -585,7 +573,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Hard",
                 emoji: "🎪💡",
                 question: "An arrow in flight is motionless at every instant. How does it move?",
@@ -597,7 +585,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Hard",
                 emoji: "🌟🧠",
                 question: "If everyone acts in self-interest, can cooperation emerge?",
@@ -609,7 +597,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Hard",
                 emoji: "🔄🌈",
                 question: "Can an infinite past exist, or must there be a beginning?",
@@ -621,7 +609,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Hard",
                 emoji: "🎭💭",
                 question: "If reality is a simulation, does the simulator exist in base reality or another simulation?",
@@ -633,7 +621,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Hard",
                 emoji: "🧩✨",
                 question: "Can you step in the same river twice if the water is always flowing?",
@@ -645,7 +633,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Hard",
                 emoji: "🔮💫",
                 question: "If pleasure is good, is more pleasure always better?",
@@ -657,7 +645,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Hard",
                 emoji: "🎯🔍",
                 question: "Can a statement be neither true nor false?",
@@ -669,7 +657,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Hard",
                 emoji: "🌈💡",
                 question: "If all generalizations are false, what about that generalization?",
@@ -681,9 +669,9 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             }
-        ],
-        expert: [
-            {
+    ],
+    expert: [
+        {
                 topic: "Paradox Riddles - Expert",
                 emoji: "🔄🧠",
                 question: "In Newcomb's Paradox, an omniscient predictor offers you two boxes. Box A has $1,000, Box B has either $1M or nothing. You can take both or just B. The predictor put $1M in B only if they predicted you'd take just B. What do you do?",
@@ -695,7 +683,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Expert",
                 emoji: "🎭💫",
                 question: "The Sorites Paradox: If you remove one grain from a heap of sand, it's still a heap. Repeat. At what point does it stop being a heap?",
@@ -707,7 +695,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Expert",
                 emoji: "🌟🔮",
                 question: "Buridan's Ass: A donkey equidistant from two identical hay bales starves because it can't decide. What's the rational choice?",
@@ -719,7 +707,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Expert",
                 emoji: "🧩✨",
                 question: "The Banach-Tarski Paradox states you can divide a sphere into pieces and reassemble them into two identical spheres. How?",
@@ -731,7 +719,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Expert",
                 emoji: "🎯💡",
                 question: "Curry's Paradox: 'If this sentence is true, then Santa exists.' What can we conclude?",
@@ -743,7 +731,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Expert",
                 emoji: "🔍🌈",
                 question: "The Raven Paradox: Observing a green apple confirms 'All ravens are black.' How?",
@@ -755,7 +743,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Expert",
                 emoji: "💭🔮",
                 question: "Goodman's Grue Paradox: 'Grue' means green before 2030, blue after. All emeralds observed are grue. What color after 2030?",
@@ -767,7 +755,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Expert",
                 emoji: "🎪🧠",
                 question: "The Doomsday Argument: If humans are random among all who will exist, we're likely near the end. Are we?",
@@ -779,7 +767,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Expert",
                 emoji: "🌟💫",
                 question: "Fitch's Paradox of Knowability: If all truths are knowable, then all truths are known. Is this valid?",
@@ -791,7 +779,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Expert",
                 emoji: "🧩💡",
                 question: "The Sleeping Beauty Problem: After being woken with no memory of previous wakings, what's the probability today is Monday?",
@@ -803,7 +791,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Expert",
                 emoji: "🎭✨",
                 question: "McGee's Paradox challenges modus ponens. If 'If Reagan doesn't win, Anderson will' and 'If Anderson doesn't win, Reagan will,' what follows?",
@@ -815,7 +803,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Expert",
                 emoji: "🔄🔮",
                 question: "The Lottery Paradox: Each ticket will likely lose. But it's certain one wins. Can all justified beliefs be false?",
@@ -827,7 +815,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Expert",
                 emoji: "🌈🧠",
                 question: "Yablo's Paradox: Each sentence in an infinite list says all following sentences are false. Is any sentence true?",
@@ -839,7 +827,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Expert",
                 emoji: "🎯💭",
                 question: "The Monty Hall Problem: After choosing door 1 of 3, host reveals a goat behind door 3. Should you switch to door 2?",
@@ -851,7 +839,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Expert",
                 emoji: "🔍✨",
                 question: "The Surprise Examination Paradox: A student proves an exam can't be a surprise, so it is. How?",
@@ -863,7 +851,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Expert",
                 emoji: "🧩🌟",
                 question: "Grelling's Paradox: Is 'heterological' (words not describing themselves) heterological?",
@@ -875,7 +863,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Expert",
                 emoji: "💫🔮",
                 question: "The Fermi Paradox: Given billions of stars, where are all the aliens?",
@@ -887,7 +875,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Expert",
                 emoji: "🎪💡",
                 question: "The Dichotomy Paradox: To travel 1 mile, you must first go 1/2 mile, then 1/4, then 1/8... How do you arrive?",
@@ -899,7 +887,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Expert",
                 emoji: "🌟🧠",
                 question: "The Preface Paradox: An author believes each statement in their book but admits some are likely wrong. Rational?",
@@ -911,7 +899,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Expert",
                 emoji: "🔄🌈",
                 question: "Braess's Paradox: Adding roads to a network can increase travel time. How?",
@@ -923,7 +911,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Expert",
                 emoji: "🎭💭",
                 question: "The Arrow Information Paradox: You need info about something to value it, but buying info reveals it. What do you do?",
@@ -935,7 +923,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Expert",
                 emoji: "🧩✨",
                 question: "Gibbs' Paradox: Mixing identical gases increases entropy. But if they're identical, what changed?",
@@ -947,7 +935,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Expert",
                 emoji: "🔮💫",
                 question: "The Jevons Paradox: Improving efficiency of resource use increases total consumption. Why?",
@@ -959,7 +947,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Expert",
                 emoji: "🎯🔍",
                 question: "Hempel's Raven Paradox: Seeing a white shoe confirms 'all non-black things are non-ravens' thus 'all ravens are black.' Valid?",
@@ -971,7 +959,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Paradox Riddles - Expert",
                 emoji: "🌈💡",
                 question: "The Dartboard Paradox: The probability of hitting any specific point is zero, yet you always hit a point. How?",
@@ -983,118 +971,111 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             }
-        ],
-        extreme: [
-            {
+    ],
+    extreme: [
+        {
                 topic: "Paradox Riddles - Extreme",
                 emoji: "🔄💫",
                 difficulty: "extreme",
                 question: "Explain Gödel's Incompleteness Theorem as a paradox: Can a complete and consistent mathematical system prove all truths about itself?",
                 answer: "No or No complete consistent system can prove its own consistency"
             },
-            {
+        {
                 topic: "Paradox Riddles - Extreme",
                 emoji: "🧠🔮",
                 difficulty: "extreme",
                 question: "In the Teletransportation Paradox, if you're destroyed and rebuilt atom-by-atom elsewhere, are you the same person or a copy?",
                 answer: "Philosophical debate or No clear answer or Depends on theory of identity"
             },
-            {
+        {
                 topic: "Paradox Riddles - Extreme",
                 emoji: "🌟✨",
                 difficulty: "extreme",
                 question: "The Liar's Paradox states 'This sentence is false.' What truth value can it have and why?",
                 answer: "Neither true nor false or Creates logical paradox or Undefined truth value"
             },
-            {
+        {
                 topic: "Paradox Riddles - Extreme",
                 emoji: "🎭💡",
                 difficulty: "extreme",
                 question: "Explain why Hilbert's Grand Hotel (with infinite rooms, all full) can accommodate infinite new guests.",
                 answer: "Move each guest to room 2n or Infinite sets have same cardinality"
             },
-            {
+        {
                 topic: "Paradox Riddles - Extreme",
                 emoji: "🧩🌈",
                 difficulty: "extreme",
                 question: "In quantum mechanics, does observation create reality or reveal pre-existing states? What does the double-slit experiment suggest?",
                 answer: "Observation affects outcome or Wave function collapse or Superposition until measured"
             },
-            {
+        {
                 topic: "Paradox Riddles - Extreme",
                 emoji: "🔮💭",
                 difficulty: "extreme",
                 question: "The Coastline Paradox: As measurement precision increases, measured coastline length increases without limit. Why?",
                 answer: "Fractal nature or Infinite detail at smaller scales or Depends on measurement unit"
             },
-            {
+        {
                 topic: "Paradox Riddles - Extreme",
                 emoji: "🎯🧠",
                 difficulty: "extreme",
                 question: "Explain the Information Paradox: If black holes destroy information but quantum mechanics says information is conserved, what happens?",
                 answer: "Information encoded in radiation or Holographic principle or Still unsolved"
             },
-            {
+        {
                 topic: "Paradox Riddles - Extreme",
                 emoji: "💫✨",
                 difficulty: "extreme",
                 question: "Berry's Paradox: 'The smallest positive integer not definable in under eleven words' is defined in ten words. Resolve this.",
                 answer: "Self-reference creates paradox or Definability is not well-defined or Vague predicates"
             },
-            {
+        {
                 topic: "Paradox Riddles - Extreme",
                 emoji: "🌟🔍",
                 difficulty: "extreme",
                 question: "The Twin Paradox: Traveling twin ages slower, but motion is relative. Why isn't the Earth twin younger instead?",
                 answer: "Acceleration breaks symmetry or Non-inertial reference frames or General relativity resolves it"
             },
-            {
+        {
                 topic: "Paradox Riddles - Extreme",
                 emoji: "🎪💫",
-                difficulty: "extreme",
-            {
-                topic: "Paradox Riddles - Extreme",
-                emoji: "🧠🌈",
                 difficulty: "extreme",
                 question: "The Simulation Argument: If advanced civilizations run ancestor simulations, what's the probability we're in one?",
                 answer: "Very high or Almost certain or Depends on assumptions or Statistical argument"
             },
-            {
+        {
                 topic: "Paradox Riddles - Extreme",
                 emoji: "🔄🔮",
                 difficulty: "extreme",
                 question: "Kavka's Toxin Puzzle: You win $1M for intending to drink toxin tomorrow (causing illness but no lasting harm). Can you form the intention?",
                 answer: "No or Paradox of intention or Rational to intend but not drink"
             },
-            {
+        {
                 topic: "Paradox Riddles - Extreme",
                 emoji: "🎭💡",
                 difficulty: "extreme",
                 question: "The EPR Paradox claims quantum entanglement allows faster-than-light communication. Why does it actually not violate relativity?",
                 answer: "No information transmitted or Correlation not causation or Bell's theorem or Measurement reveals nothing useful"
             },
-            {
+        {
                 topic: "Paradox Riddles - Extreme",
                 emoji: "🌟🧩",
                 difficulty: "extreme",
                 question: "In Parfit's Fission Case, your brain hemispheres are transplanted into two bodies. Which one is you, and why?",
                 answer: "Both or Neither or Identity doesn't survive or Psychological continuity"
             },
-            {
+        {
                 topic: "Paradox Riddles - Extreme",
                 emoji: "💫🔍",
                 difficulty: "extreme",
                 question: "The Lowenheim-Skolem Paradox: Set theory can describe uncountable sets, but has countable models. How is this possible?",
                 answer: "Internal vs external perspective or Relative countability or Model theory distinction"
             }
-        ]
-    }
+    ]
 };
 
-// Register in global question bank
-if (typeof subjectQuestionBank !== 'undefined') {
-    if (!subjectQuestionBank['riddles']) {
-        subjectQuestionBank['riddles'] = {};
-    }
-    subjectQuestionBank['riddles'][19] = riddlesQuestions[19];
-}
+console.log('✅ Riddles Chapter 19 loaded:',
+    (window.riddlesQuestions[19].easy.length +
+     window.riddlesQuestions[19].hard.length +
+     window.riddlesQuestions[19].expert.length +
+     window.riddlesQuestions[19].extreme.length) + ' total riddles');

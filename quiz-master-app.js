@@ -596,23 +596,34 @@ function displayQuestion() {
     const question = shuffledQuestions[currentQuestionIndex];
 
     let html = '';
+    
+    html += `<div class="question-container">`;
+    
+    // 3-column header: Topic | Timer | Empty
+    html += `<div class="topic-header-grid">`;
     html += `<div class="topic-badge topic-${question.topic.toLowerCase()}">${question.topic}</div>`;
-
+    
+    // Timer in CENTER column (only if timed mode)
     if (isTimedMode) {
         const minutes = Math.floor(timeRemaining / 60);
         const seconds = timeRemaining % 60;
         const timeDisplay = `${minutes}:${seconds.toString().padStart(2, '0')}`;
         const timeClass = timeRemaining <= 30 ? 'timer-warning' : '';
 
-        html += `<div class="timer-container ${timeClass}">`;
-        html += `<div class="timer-display">⏱️ <span id="timerDisplay">${timeDisplay}</span></div>`;
+        html += `<div class="timer-center ${timeClass}">`;
+        html += `<span class="timer-display">⏱️ <span id="timerDisplay">${timeDisplay}</span></span>`;
         if (canPause) {
-            html += `<button class="timer-pause-btn" id="pauseBtn" onclick="togglePause()">${isPaused ? '▶️ Resume' : '⏸️ Pause'}</button>`;
+            html += `<button class="timer-pause-btn" id="pauseBtn" onclick="togglePause()">${isPaused ? '▶️' : '⏸️'}</button>`;
         }
         html += `</div>`;
+    } else {
+        html += `<div></div>`; // Empty middle column
     }
-
-    html += `<div class="question-container">`;
+    
+    html += `<div></div>`; // Empty right column
+    html += `</div>`; // Close topic-header-grid
+    
+    // Emoji below header
     html += `<div class="question-emoji">${question.emoji}</div>`;
     html += `<div class="question-text">${question.question}</div>`;
     html += `</div>`;

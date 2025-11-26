@@ -746,27 +746,34 @@
 
             let html = '';
 
-            // Timer display
+            // Question card
+            html += `<div class="riddle-card">`;
+            
+            // 3-column header: Topic | Timer | Empty
+            html += `<div class="topic-header-grid">`;
+            html += `<div class="topic-badge ${topicClass}">${chapterName}</div>`;
+            
+            // Timer in CENTER column (only if timer mode)
             if (window.riddleTimerMode) {
                 const minutes = Math.floor(window.riddleTimeRemaining / 60);
                 const seconds = window.riddleTimeRemaining % 60;
                 const timeDisplay = `${minutes}:${seconds.toString().padStart(2, '0')}`;
                 const timeClass = window.riddleTimeRemaining <= 30 ? 'timer-warning' : '';
-
-                html += `<div class="timer-container ${timeClass}">`;
-                html += `<div class="timer-display">⏱️ <span id="riddleTimerDisplay">${timeDisplay}</span></div>`;
+                
+                html += `<div class="timer-center ${timeClass}">`;
+                html += `<span class="timer-display">⏱️ <span id="riddleTimerDisplay">${timeDisplay}</span></span>`;
                 if (window.riddleCanPause) {
-                    html += `<button class="timer-pause-btn" id="riddlePauseBtn" onclick="toggleRiddlePause()">${window.riddlePaused ? '▶️ Resume' : '⏸️ Pause'}</button>`;
+                    html += `<button class="timer-pause-btn" id="riddlePauseBtn" onclick="toggleRiddlePause()">${window.riddlePaused ? '▶️' : '⏸️'}</button>`;
                 }
                 html += `</div>`;
+            } else {
+                html += `<div></div>`; // Empty middle column
             }
-
-            // Question card
-            html += `<div class="riddle-card">`;
             
-            // Topic badge (shows chapter name)
-            html += `<div class="topic-badge ${topicClass}">${chapterName}</div>`;
+            html += `<div></div>`; // Empty right column
+            html += `</div>`; // Close topic-header-grid
             
+            // Emoji BELOW header grid
             html += `<div class="riddle-emoji">${riddle.emoji || '🤔'}</div>`;
             html += `<div class="riddle-question">${riddle.question}</div>`;
             
@@ -793,14 +800,14 @@
 
             html += `<div id="riddleFeedback" class="riddle-feedback"></div>`;
             
-            html += `</div>`;
-
-            // Navigation
+            // Navigation INSIDE card (after feedback)
             html += `<div class="riddle-nav">`;
             html += `<button class="back-button" onclick="goBackFromRiddle()">← Back</button>`;
             html += `<div class="riddle-score">Score: <span id="riddleScoreDisplay">${window.riddleScore}</span></div>`;
             html += `<button class="next-button" id="riddleNextBtn" onclick="nextRiddle()" disabled>Next →</button>`;
             html += `</div>`;
+            
+            html += `</div>`; // Close riddle-card
 
             riddlesPage.innerHTML = html;
             
@@ -1141,11 +1148,20 @@ window.goToQuizHome = function() {
         window.stopRiddleTimer();
     }
     
-    // Navigate to home page
-    if (typeof showHomePage === 'function') {
-        showHomePage();
-    } else {
-        console.warn('showHomePage not found, reloading page');
-        window.location.reload();
+    // Clear riddles state completely
+    sessionStorage.removeItem('riddleState');
+    
+    // Hide ALL pages first
+    document.querySelectorAll('.home-page, .chapter-selection, .level-selection, .quiz-container, .result-container, .timer-challenges-page, .timer-subject-level-selection, .practice-mode-page, .riddles-page, .dad-jokes-page').forEach(page => {
+        page.classList.remove('active');
+    });
+    
+    // Show ONLY home page
+    const homePage = document.querySelector('.home-page');
+    if (homePage) {
+        homePage.classList.add('active');
     }
+    
+    // Update browser history
+    history.pushState({ screen: 'home' }, '', '#home');
 };

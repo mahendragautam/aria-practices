@@ -4,114 +4,17 @@
  * Type: JavaScript
  * Location: Auto Insert > Footer
  * Priority: 10
- * 
- * 100 Questions Organized by Difficulty Level
- * Easy (10) → Medium (25) → Hard (25) → Expert (25) → Extreme (15)
+ *
+ * Questions Organized by Difficulty Level
+ * Easy (combined) → Hard → Expert → Extreme
  *
  * COPY ALL CODE BELOW
  */
 
-const riddlesQuestions = {
-    17: {
-        easy: [
-            {
-                topic: "Mixed Bag - Easy",
-                emoji: "🎲🌟",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Easy",
-                emoji: "🎪💡",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Easy",
-                emoji: "🔮✨",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Easy",
-                emoji: "🧠🎯",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Easy",
-                emoji: "🌈🔍",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Easy",
-                emoji: "🎨💭",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Easy",
-                emoji: "🌟🧩",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Easy",
-                emoji: "🎪🔮",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Easy",
-                emoji: "💡🌈",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Easy",
-                emoji: "🧠✨",
-                correct: 0
-            }
-        ],
-        medium: [
-            {
-                topic: "Mixed Bag - Medium",
-                emoji: "🎲🧠",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Medium",
-                emoji: "🔮💡",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Medium",
-                emoji: "🌟🎯",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Medium",
-                emoji: "🎨🔍",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Medium",
-                emoji: "🧩💭",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Medium",
-                emoji: "🎪✨",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Medium",
-                emoji: "🌈🧠",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Medium",
-                emoji: "💡🎲",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Medium",
-                emoji: "🔮🌟",
-                correct: 0
-            },
-            {
+window.riddlesQuestions = window.riddlesQuestions || {};
+window.riddlesQuestions[17] = {
+    easy: [
+        {
                 topic: "Mixed Bag - Medium",
                 emoji: "🎯💭",
                 question: "What is always behind you but can't be seen?",
@@ -120,29 +23,8 @@ const riddlesQuestions = {
                     "Your shadow",
                     "Your back"
                 ],
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Medium",
-                emoji: "🧠🎨",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Medium",
-                emoji: "🌟🔍",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Medium",
-                emoji: "🎪💡",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Medium",
-                emoji: "🔮🧩",
-                correct: 0
-            },
-            {
+                correct: 0},
+        {
                 topic: "Mixed Bag - Medium",
                 emoji: "🌈✨",
                 question: "What type of dress can never be worn?",
@@ -151,9 +33,8 @@ const riddlesQuestions = {
                     "A wedding dress",
                     "A sundress"
                 ],
-                correct: 0
-            },
-            {
+                correct: 0},
+        {
                 topic: "Mixed Bag - Medium",
                 emoji: "🎯🧠",
                 question: "What begins with an E but only has one letter?",
@@ -162,24 +43,8 @@ const riddlesQuestions = {
                     "Email",
                     "Entry"
                 ],
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Medium",
-                emoji: "💭🎲",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Medium",
-                emoji: "🎨🌟",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Medium",
-                emoji: "🔍💡",
-                correct: 0
-            },
-            {
+                correct: 0},
+        {
                 topic: "Mixed Bag - Medium",
                 emoji: "🧩🔮",
                 question: "What has cities but no people, forests but no trees?",
@@ -188,9 +53,8 @@ const riddlesQuestions = {
                     "A book",
                     "A game"
                 ],
-                correct: 0
-            },
-            {
+                correct: 0},
+        {
                 topic: "Mixed Bag - Medium",
                 emoji: "🎪🌈",
                 question: "What can run but has no legs?",
@@ -199,14 +63,8 @@ const riddlesQuestions = {
                     "Time",
                     "A machine"
                 ],
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Medium",
-                emoji: "🌟💭",
-                correct: 0
-            },
-            {
+                correct: 0},
+        {
                 topic: "Mixed Bag - Medium",
                 emoji: "🧠✨",
                 question: "What gets bigger when more is taken away?",
@@ -215,14 +73,8 @@ const riddlesQuestions = {
                     "Debt",
                     "Space"
                 ],
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Medium",
-                emoji: "🎯🎨",
-                correct: 0
-            },
-            {
+                correct: 0},
+        {
                 topic: "Mixed Bag - Medium",
                 emoji: "🔮💡",
                 question: "What do you call a bear with no teeth?",
@@ -233,34 +85,9 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             }
-        ],
-        hard: [
-            {
-                topic: "Mixed Bag - Hard",
-                emoji: "🎲🧠",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Hard",
-                emoji: "🔮💫",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Hard",
-                emoji: "🌟🎯",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Hard",
-                emoji: "🧩💡",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Hard",
-                emoji: "🎨✨",
-                correct: 0
-            },
-            {
+    ],
+    hard: [
+        {
                 topic: "Mixed Bag - Hard",
                 emoji: "🌈🔍",
                 question: "What can you hold in your right hand but never in your left hand?",
@@ -270,9 +97,8 @@ const riddlesQuestions = {
                     "A ball",
                     "Water"
                 ],
-                correct: 0
-            },
-            {
+                correct: 0},
+        {
                 topic: "Mixed Bag - Hard",
                 emoji: "💭🎪",
                 question: "I am always in front of you but you can never see me. What am I?",
@@ -282,34 +108,8 @@ const riddlesQuestions = {
                     "Your nose",
                     "Tomorrow"
                 ],
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Hard",
-                emoji: "🧠🔮",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Hard",
-                emoji: "🎯💫",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Hard",
-                emoji: "🌟🧩",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Hard",
-                emoji: "🔮💡",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Hard",
-                emoji: "🎨🧠",
-                correct: 0
-            },
-            {
+                correct: 0},
+        {
                 topic: "Mixed Bag - Hard",
                 emoji: "💭✨",
                 question: "I shave every day but my beard stays the same. Who am I?",
@@ -319,14 +119,8 @@ const riddlesQuestions = {
                     "A man",
                     "A razor"
                 ],
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Hard",
-                emoji: "🌈🎯",
-                correct: 0
-            },
-            {
+                correct: 0},
+        {
                 topic: "Mixed Bag - Hard",
                 emoji: "🧩🔍",
                 question: "What can travel all around the world without leaving its corner?",
@@ -336,44 +130,8 @@ const riddlesQuestions = {
                     "News",
                     "Light"
                 ],
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Hard",
-                emoji: "🎪💫",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Hard",
-                emoji: "🌟💡",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Hard",
-                emoji: "🔮🎨",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Hard",
-                emoji: "🧠🌈",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Hard",
-                emoji: "💭🎯",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Hard",
-                emoji: "🎪✨",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Hard",
-                emoji: "🌟🔮",
-                correct: 0
-            },
-            {
+                correct: 0},
+        {
                 topic: "Mixed Bag - Hard",
                 emoji: "🧩💡",
                 question: "What goes up and never comes down?",
@@ -383,9 +141,8 @@ const riddlesQuestions = {
                     "Smoke",
                     "Time"
                 ],
-                correct: 0
-            },
-            {
+                correct: 0},
+        {
                 topic: "Mixed Bag - Hard",
                 emoji: "🔍🌈",
                 question: "What has four fingers and a thumb but isn't living?",
@@ -395,76 +152,10 @@ const riddlesQuestions = {
                     "A statue",
                     "A drawing"
                 ],
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Hard",
-                emoji: "🎨💫",
-                correct: 0
-            }
-        ],
-        expert: [
-            {
-                topic: "Mixed Bag - Expert",
-                emoji: "🎲🧠",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Expert",
-                emoji: "🔮💭",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Expert",
-                emoji: "🌟✨",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Expert",
-                emoji: "🧩🎯",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Expert",
-                emoji: "💡🌈",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Expert",
-                emoji: "🎨🔮",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Expert",
-                emoji: "🧠💫",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Expert",
-                emoji: "🌟🔍",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Expert",
-                emoji: "💭🎪",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Expert",
-                emoji: "🔮✨",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Expert",
-                emoji: "🎯💡",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Expert",
-                emoji: "🌈🧩",
-                correct: 0
-            },
-            {
+                correct: 0}
+    ],
+    expert: [
+        {
                 topic: "Mixed Bag - Expert",
                 emoji: "🧠🎨",
                 question: "What is it that you can keep after giving it to someone?",
@@ -474,39 +165,8 @@ const riddlesQuestions = {
                     "Advice",
                     "A gift"
                 ],
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Expert",
-                emoji: "💫🔍",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Expert",
-                emoji: "🎪🌟",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Expert",
-                emoji: "🔮💭",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Expert",
-                emoji: "🌟🧠",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Expert",
-                emoji: "🧩✨",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Expert",
-                emoji: "💡🌈",
-                correct: 0
-            },
-            {
+                correct: 0},
+        {
                 topic: "Mixed Bag - Expert",
                 emoji: "🎯🔮",
                 question: "I am weightless but you can see me. Put me in a bucket and I'll make it lighter. What am I?",
@@ -516,14 +176,8 @@ const riddlesQuestions = {
                     "Air",
                     "Nothing"
                 ],
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Expert",
-                emoji: "🎨💫",
-                correct: 0
-            },
-            {
+                correct: 0},
+        {
                 topic: "Mixed Bag - Expert",
                 emoji: "🧠🎪",
                 question: "I never was but always will be. No one ever saw me but everyone knows I exist. What am I?",
@@ -533,46 +187,15 @@ const riddlesQuestions = {
                     "Hope",
                     "Death"
                 ],
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Expert",
-                emoji: "🔍💭",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Expert",
-                emoji: "🌟✨",
-                correct: 0
-            },
-            {
-                topic: "Mixed Bag - Expert",
-                emoji: "🔮🧩",
-                correct: 0
-            }
-        ],
-        extreme: [
-            {
-                topic: "Mixed Bag - Extreme",
-                emoji: "🎲💫",
-                difficulty: "extreme",
-            {
-                topic: "Mixed Bag - Extreme",
-                emoji: "🧠🔮",
-                difficulty: "extreme",
-            {
-                topic: "Mixed Bag - Extreme",
-                emoji: "🌟✨",
-                difficulty: "extreme",
-            {
-                topic: "Mixed Bag - Extreme",
-                emoji: "💡💭",
-                difficulty: "extreme",
-            {
-                topic: "Mixed Bag - Extreme",
-                emoji: "🎯🧩",
-                difficulty: "extreme",
-            {
-                topic: "Mixed Bag - Extreme",
-                emoji: "🔮🌈",
-                difficulty: "
+                correct: 0}
+    ],
+    extreme: [
+    ]
+};
+
+console.log('✅ Riddles Chapter 17 loaded:',
+    (window.riddlesQuestions[17].easy.length +
+     window.riddlesQuestions[17].hard.length +
+     window.riddlesQuestions[17].expert.length +
+     window.riddlesQuestions[17].extreme.length) + ' total riddles');
+

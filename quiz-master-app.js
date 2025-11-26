@@ -1,12 +1,12 @@
 /**
- * WPCode Snippet #11: Master Quiz App
- * ====================================
+ * WPCode Snippet: Master Quiz App (Clean - Quiz Only)
+ * ====================================================
  * Type: JavaScript
  * Location: Auto Insert > Footer
  * Priority: 20
  *
- * ⚠️ IMPORTANT: This must load AFTER all question snippets!
- * Make sure Priority is 20 (higher than all question snippets 10-19)
+ * ⚠️ This file handles ONLY quiz logic
+ * Riddles and Dad Jokes are in separate files
  *
  * COPY ALL CODE BELOW
  */
@@ -64,7 +64,7 @@ function saveQuizState() {
         returnPage: returnPage,
         shuffledQuestions: shuffledQuestions,
         answered: answered,
-        scrollPosition: window.scrollY // Save scroll position
+        scrollPosition: window.scrollY
     };
 
     try {
@@ -80,8 +80,7 @@ function getCurrentScreen() {
     const screens = [
         'home-page', 'chapter-selection', 'level-selection',
         'quiz-container', 'result-container', 'timer-challenges-page',
-        'timer-subject-level-selection', 'practice-mode-page',
-        'riddles-page', 'dad-jokes-page'
+        'timer-subject-level-selection', 'practice-mode-page'
     ];
 
     for (let screen of screens) {
@@ -90,7 +89,7 @@ function getCurrentScreen() {
             return screen;
         }
     }
-    return 'home-page'; // Default
+    return 'home-page';
 }
 
 // Restore quiz state from sessionStorage
@@ -105,7 +104,6 @@ function restoreQuizState() {
         const state = JSON.parse(savedState);
         console.log('🔄 Restoring saved state:', state.screen);
 
-        // Restore variables
         currentSubject = state.subject || 'science';
         currentChapter = state.chapter || 1;
         currentLevel = state.level || 'easy';
@@ -119,16 +117,14 @@ function restoreQuizState() {
         shuffledQuestions = state.shuffledQuestions || [];
         answered = state.answered || false;
 
-        // Restore the correct screen
         switch(state.screen) {
             case 'quiz-container':
                 if (shuffledQuestions.length > 0) {
-                    // Resume quiz
                     if (isTimedMode && timeRemaining > 0) {
-                        startTimer(); // Resume timer
+                        startTimer();
                     }
                     displayQuestion();
-                    showScreen('quiz-container', false); // Don't scroll on restore
+                    showScreen('quiz-container', false);
                 } else {
                     showHomePage();
                 }
@@ -140,17 +136,17 @@ function restoreQuizState() {
                     document.getElementById('subjectTitle').innerHTML = `${subjectData.emoji} ${subjectData.name} ${subjectData.emoji}`;
                 }
                 initializeChapters();
-                showScreen('chapter-selection', false); // Don't scroll on restore
+                showScreen('chapter-selection', false);
                 break;
 
             case 'level-selection':
                 document.getElementById('levelTitle').textContent = `Chapter ${currentChapter} - Select Difficulty Level`;
-                showScreen('level-selection', false); // Don't scroll on restore
+                showScreen('level-selection', false);
                 break;
 
             case 'timer-challenges-page':
                 initializeTimerSubjects();
-                showScreen('timer-challenges-page', false); // Don't scroll on restore
+                showScreen('timer-challenges-page', false);
                 break;
 
             case 'timer-subject-level-selection':
@@ -158,22 +154,21 @@ function restoreQuizState() {
                 if (timerSubjectData) {
                     document.getElementById('timerSubjectTitle').innerHTML = `${timerSubjectData.emoji} ${timerSubjectData.name} - Select Level`;
                 }
-                showScreen('timer-subject-level-selection', false); // Don't scroll on restore
+                showScreen('timer-subject-level-selection', false);
                 break;
 
             case 'practice-mode-page':
-                showScreen('practice-mode-page', false); // Don't scroll on restore
+                showScreen('practice-mode-page', false);
                 break;
 
             case 'result-container':
-                showScreen('result-container', false); // Don't scroll on restore
+                showScreen('result-container', false);
                 break;
 
             default:
                 showHomePage();
         }
 
-        // Restore scroll position after a short delay
         if (state.scrollPosition) {
             setTimeout(() => {
                 window.scrollTo(0, state.scrollPosition);
@@ -187,7 +182,7 @@ function restoreQuizState() {
     }
 }
 
-// Clear quiz state (when user explicitly goes home)
+// Clear quiz state
 function clearQuizState() {
     try {
         sessionStorage.removeItem('quizState');
@@ -219,12 +214,9 @@ const chapterColors = [
     '#FF1493', '#00CED1', '#FF4500', '#6A5ACD', '#FFB347'
 ];
 
-
-// RESILIENT SUBJECT LOADING - Won't break if one file has error!
+// RESILIENT SUBJECT LOADING
 const subjectQuestionBank = {};
 
-// Try to load each subject individually
-// If one fails, others still work!
 try { if (typeof scienceQuestions !== 'undefined') subjectQuestionBank.science = scienceQuestions; } catch(e) { console.warn('Science questions not loaded:', e); }
 try { if (typeof mathQuestions !== 'undefined') subjectQuestionBank.math = mathQuestions; } catch(e) { console.warn('Math questions not loaded:', e); }
 try { if (typeof historyQuestions !== 'undefined') subjectQuestionBank.history = historyQuestions; } catch(e) { console.warn('History questions not loaded:', e); }
@@ -236,20 +228,13 @@ try { if (typeof businessQuestions !== 'undefined') subjectQuestionBank.business
 try { if (typeof technologyQuestions !== 'undefined') subjectQuestionBank.technology = technologyQuestions; } catch(e) { console.warn('Technology questions not loaded:', e); }
 try { if (typeof parentingQuestions !== 'undefined') subjectQuestionBank.parenting = parentingQuestions; } catch(e) { console.warn('Parenting questions not loaded:', e); }
 
-// Log loaded subjects
 console.log('✅ Loaded subjects:', Object.keys(subjectQuestionBank).length + '/10');
-if (Object.keys(subjectQuestionBank).length < 10) {
-    console.warn('⚠️ Some subjects failed to load. Check browser console for details.');
-}
 
-// ===================================================
-// APPLICATION FUNCTIONS START BELOW
-// ===================================================
 // Navigation functions
 function showHomePage() {
-    clearFallingEmojis(true); // Instant removal for button clicks
+    clearFallingEmojis(true);
     stopTimer();
-    clearQuizState(); // Clear saved state when going home
+    clearQuizState();
     showScreen('home-page');
 }
 
@@ -262,12 +247,12 @@ function toggleSubjects() {
         grid.classList.remove('expanded');
         icon.classList.add('collapsed');
         icon.textContent = '▶';
-        if (header) header.style.marginBottom = '0'; // No gap when collapsed
+        if (header) header.style.marginBottom = '0';
     } else {
         grid.classList.add('expanded');
         icon.classList.remove('collapsed');
         icon.textContent = '▼';
-        if (header) header.style.marginBottom = '10px'; // Add gap when expanded
+        if (header) header.style.marginBottom = '10px';
     }
 }
 
@@ -287,7 +272,6 @@ function toggleSection(sectionId) {
 }
 
 function selectSubject(subject) {
-    // CHECK IF SUBJECT IS LOADED!
     if (!subjectQuestionBank[subject]) {
         alert(`Sorry! ${subjects[subject].name} questions are not loaded yet.\n\n` +
               `Please check:\n` +
@@ -296,15 +280,12 @@ function selectSubject(subject) {
               `3. Check browser console (F12) for errors`);
         console.error(`❌ Subject "${subject}" not found in question bank!`);
         console.log('Available subjects:', Object.keys(subjectQuestionBank));
-        return; // Don't navigate if subject not loaded
+        return;
     }
 
     currentSubject = subject;
     quizMode = 'normal';
     returnPage = 'home';
-
-    // Keep subjects expanded - don't auto-collapse
-    // User can manually collapse if needed
 
     const subjectData = subjects[subject];
     document.getElementById('subjectTitle').innerHTML = `${subjectData.emoji} ${subjectData.name} ${subjectData.emoji}`;
@@ -321,20 +302,7 @@ function showPracticeMode() {
     showScreen('practice-mode-page');
 }
 
-function showRiddles() {
-    showScreen('riddles-page');
-}
-
-function showDadJokes() {
-    // Call dad-jokes module function (loaded from dad-jokes-master.js)
-    if (typeof showDadJokesHome === 'function') {
-        showDadJokesHome();
-    } else {
-        // Fallback if dad-jokes module not loaded
-        console.error('❌ Dad jokes module not loaded. Make sure dad-jokes-master.js is included.');
-        showScreen('dad-jokes-page');
-    }
-}
+// NOTE: showRiddles() and showDadJokes() are now in their respective separate files
 
 function selectTimerSubject(subject) {
     currentSubject = subject;
@@ -346,11 +314,9 @@ function selectTimerSubject(subject) {
 }
 
 function startSubjectTimer(level) {
-    // Combine all 20 chapters for this subject at this level
-    clearFallingEmojis(true); // Instant removal for button clicks
+    clearFallingEmojis(true);
     stopTimer();
 
-    // Check if subject is loaded
     if (!subjectQuestionBank[currentSubject]) {
         alert(`Subject "${currentSubject}" is not loaded. Please check if the question file is uploaded.`);
         return;
@@ -361,17 +327,11 @@ function startSubjectTimer(level) {
     score = 0;
     startTime = Date.now();
     isTimedMode = true;
-    canPause = false; // No pause for timer challenges
+    canPause = false;
     isPaused = false;
     quizMode = 'subject-timer';
-    returnPage = 'timer-challenges'; // Ensure returnPage is set
+    returnPage = 'timer-challenges';
 
-    console.log('=== startSubjectTimer DEBUG ===');
-    console.log('Set returnPage to:', returnPage);
-    console.log('Set quizMode to:', quizMode);
-    console.log('================================');
-
-    // Collect all questions from all 20 chapters for this subject and level
     let allQuestions = [];
     for (let ch = 1; ch <= 20; ch++) {
         if (subjectQuestionBank[currentSubject][ch] && subjectQuestionBank[currentSubject][ch][level]) {
@@ -384,10 +344,7 @@ function startSubjectTimer(level) {
         return;
     }
 
-    // Shuffle questions
     shuffledQuestions = allQuestions.sort(() => Math.random() - 0.5).slice(0, 10);
-
-    // Setup timer
     timeRemaining = timeLimits[level];
     startTimer();
 
@@ -396,7 +353,7 @@ function startSubjectTimer(level) {
 }
 
 function startMixedQuiz(level, mixType, timedMode) {
-    clearFallingEmojis(true); // Instant removal for button clicks
+    clearFallingEmojis(true);
     stopTimer();
 
     currentLevel = level;
@@ -404,7 +361,7 @@ function startMixedQuiz(level, mixType, timedMode) {
     score = 0;
     startTime = Date.now();
     isTimedMode = timedMode;
-    canPause = !timedMode; // Can only pause in practice mode
+    canPause = !timedMode;
     isPaused = false;
     quizMode = mixType === 'levelwise' ? 'mixed-levelwise' : 'mixed-complete';
     returnPage = timedMode ? 'timer-challenges' : 'practice-mode';
@@ -412,11 +369,8 @@ function startMixedQuiz(level, mixType, timedMode) {
     let allQuestions = [];
 
     if (mixType === 'levelwise') {
-        // Collect questions from all subjects at the same level
         Object.keys(subjects).forEach(subject => {
-            // Check if subject is loaded
             if (!subjectQuestionBank[subject]) return;
-
             for (let ch = 1; ch <= 20; ch++) {
                 if (subjectQuestionBank[subject][ch] && subjectQuestionBank[subject][ch][level]) {
                     allQuestions = allQuestions.concat(subjectQuestionBank[subject][ch][level]);
@@ -424,11 +378,8 @@ function startMixedQuiz(level, mixType, timedMode) {
             }
         });
     } else {
-        // Complete mix - all subjects, all chapters, all levels
         Object.keys(subjects).forEach(subject => {
-            // Check if subject is loaded
             if (!subjectQuestionBank[subject]) return;
-
             for (let ch = 1; ch <= 20; ch++) {
                 ['easy', 'medium', 'hard', 'expert', 'extreme'].forEach(lvl => {
                     if (subjectQuestionBank[subject][ch] && subjectQuestionBank[subject][ch][lvl]) {
@@ -444,10 +395,8 @@ function startMixedQuiz(level, mixType, timedMode) {
         return;
     }
 
-    // Shuffle and select 10 questions
     shuffledQuestions = allQuestions.sort(() => Math.random() - 0.5).slice(0, 10);
 
-    // Setup timer if timed mode
     if (isTimedMode) {
         timeRemaining = mixType === 'complete' ? timeLimits.complete : timeLimits[level];
         startTimer();
@@ -458,11 +407,6 @@ function startMixedQuiz(level, mixType, timedMode) {
 }
 
 function goBackFromResult() {
-    console.log('=== goBackFromResult DEBUG ===');
-    console.log('returnPage:', returnPage);
-    console.log('quizMode:', quizMode);
-    console.log('==============================');
-
     if (returnPage === 'home') {
         if (quizMode === 'normal') {
             showLevelSelection();
@@ -470,12 +414,8 @@ function goBackFromResult() {
             showHomePage();
         }
     } else if (returnPage === 'timer-challenges') {
-        // Always go back to Timer Challenges page
-        console.log('Going back to Timer Challenges page');
         showTimerChallenges();
     } else if (returnPage === 'practice-mode') {
-        // Always go back to Practice Mode page
-        console.log('Going back to Practice Mode page');
         showPracticeMode();
     } else {
         showHomePage();
@@ -483,22 +423,12 @@ function goBackFromResult() {
 }
 
 function goBackFromQuiz() {
-    // Handle back button during quiz (not from result)
-    console.log('=== goBackFromQuiz DEBUG ===');
-    console.log('returnPage:', returnPage);
-    console.log('quizMode:', quizMode);
-    console.log('currentQuestionIndex:', currentQuestionIndex);
-    console.log('============================');
-
-    // If not on first question, go to previous question
     if (currentQuestionIndex > 0) {
-        console.log('Going to previous question');
         previousQuestion();
         return;
     }
 
-    // If on first question (index 0), exit quiz
-    clearFallingEmojis(true); // Instant removal for button clicks
+    clearFallingEmojis(true);
     stopTimer();
 
     if (returnPage === 'home') {
@@ -508,61 +438,48 @@ function goBackFromQuiz() {
             showHomePage();
         }
     } else if (returnPage === 'timer-challenges') {
-        // Go back to Timer Challenges page
-        console.log('Going back to Timer Challenges from quiz');
         showTimerChallenges();
     } else if (returnPage === 'practice-mode') {
-        // Go back to Practice Mode page
-        console.log('Going back to Practice Mode from quiz');
         showPracticeMode();
     } else {
         showHomePage();
     }
 }
 
-// Get available chapters for current subject
 function getAvailableChapters(subject) {
     const chapters = [];
     const subjectData = subjectQuestionBank[subject];
 
     if (!subjectData) {
         console.warn(`Subject "${subject}" not found in question bank`);
-        return chapters; // Return empty array
+        return chapters;
     }
 
-    // Get all chapter numbers that exist in the question bank
     for (let chapterNum in subjectData) {
         if (subjectData.hasOwnProperty(chapterNum)) {
             chapters.push(parseInt(chapterNum));
         }
     }
 
-    // Sort chapters numerically
     chapters.sort((a, b) => a - b);
     return chapters;
 }
 
-// Initialize chapters - DYNAMIC based on question bank
 function initializeChapters() {
     const grid = document.getElementById('chapterGrid');
-    if (!grid) return; // Exit if element doesn't exist (not on quiz page)
+    if (!grid) return;
 
-    grid.innerHTML = ''; // Clear existing
-
-    // Get only chapters that have questions
+    grid.innerHTML = '';
     const availableChapters = getAvailableChapters(currentSubject);
 
     if (availableChapters.length === 0) {
-        // No chapters available for this subject
         grid.innerHTML = '<div style="grid-column: 1/-1; text-align: center; padding: 40px; color: #999;">No chapters available yet. Check back soon!</div>';
         return;
     }
 
-    // Display only available chapters
     availableChapters.forEach((chapterNum, index) => {
         const card = document.createElement('div');
         card.className = 'chapter-card';
-        // Use color based on chapter number (not index)
         card.style.background = chapterColors[(chapterNum - 1) % chapterColors.length];
         card.textContent = `Chapter ${chapterNum}`;
         card.onclick = () => selectChapter(chapterNum);
@@ -570,10 +487,9 @@ function initializeChapters() {
     });
 }
 
-// Initialize timer subjects
 function initializeTimerSubjects() {
     const grid = document.getElementById('timerSubjectGrid');
-    grid.innerHTML = ''; // Clear existing
+    grid.innerHTML = '';
     Object.keys(subjects).forEach(subjectKey => {
         const subjectData = subjects[subjectKey];
         const card = document.createElement('div');
@@ -591,35 +507,34 @@ function selectChapter(chapter) {
     currentChapter = chapter;
     document.getElementById('levelTitle').textContent = `Chapter ${chapter} - Select Difficulty Level`;
     showScreen('level-selection');
-    saveQuizState(); // Save state after chapter selection
+    saveQuizState();
 }
 
 function showChapterSelection() {
-    clearFallingEmojis(true); // Instant removal for button clicks
+    clearFallingEmojis(true);
     stopTimer();
     showScreen('chapter-selection');
 }
 
 function showLevelSelection() {
-    clearFallingEmojis(true); // Instant removal for button clicks
+    clearFallingEmojis(true);
     stopTimer();
     showScreen('level-selection');
 }
 
 function showScreen(screenClass, scrollToTop = true) {
-    document.querySelectorAll('.home-page, .chapter-selection, .level-selection, .quiz-container, .result-container, .timer-challenges-page, .timer-subject-level-selection, .practice-mode-page, .riddles-page, .dad-jokes-page').forEach(el => {
+    document.querySelectorAll('.home-page, .chapter-selection, .level-selection, .quiz-container, .result-container, .timer-challenges-page, .timer-subject-level-selection, .practice-mode-page').forEach(el => {
         el.classList.remove('active');
     });
 
     const targetScreen = document.querySelector(`.${screenClass}`);
     if (!targetScreen) {
-        console.warn(`⚠️ Screen element .${screenClass} not found. Are you on the quiz page?`);
-        return; // Exit if element doesn't exist
+        console.warn(`⚠️ Screen element .${screenClass} not found.`);
+        return;
     }
 
     targetScreen.classList.add('active');
 
-    // Smart scroll: Only scroll to top on forward navigation, not on back/restore
     if (scrollToTop) {
         window.scrollTo({
             top: 0,
@@ -627,7 +542,6 @@ function showScreen(screenClass, scrollToTop = true) {
         });
     }
 
-    // Push to browser history ONLY if not restoring from history
     if (!isNavigatingHistory) {
         const state = {
             screen: screenClass,
@@ -635,25 +549,23 @@ function showScreen(screenClass, scrollToTop = true) {
             chapter: currentChapter,
             mode: quizMode,
             returnPage: returnPage,
-            scrollPosition: window.scrollY // Save current scroll position
+            scrollPosition: window.scrollY
         };
         history.pushState(state, '', `#${screenClass}`);
     }
 
-    // Save state after screen change
     saveQuizState();
 }
 
 function startQuiz(level, timedMode = false) {
-    clearFallingEmojis(true); // Instant removal for button clicks
-    stopTimer(); // Clear any existing timer
+    clearFallingEmojis(true);
+    stopTimer();
 
-    // Validate chapter and level exist AND have questions
     if (!subjectQuestionBank[currentSubject] ||
         !subjectQuestionBank[currentSubject][currentChapter] ||
         !subjectQuestionBank[currentSubject][currentChapter][level] ||
         subjectQuestionBank[currentSubject][currentChapter][level].length === 0) {
-        alert(`Sorry! Questions for ${subjects[currentSubject].name} - Chapter ${currentChapter} - ${level.toUpperCase()} level are not available yet. Please try another chapter or level.`);
+        alert(`Sorry! Questions for ${subjects[currentSubject].name} - Chapter ${currentChapter} - ${level.toUpperCase()} level are not available yet.`);
         return;
     }
 
@@ -662,18 +574,16 @@ function startQuiz(level, timedMode = false) {
     score = 0;
     startTime = Date.now();
     isTimedMode = timedMode;
-    canPause = !timedMode; // Quick Pick (timed mode) cannot pause, normal mode can
+    canPause = !timedMode;
     isPaused = false;
     quizMode = 'normal';
     returnPage = 'home';
 
-    // Setup timer for Quick Pick mode
     if (isTimedMode) {
         timeRemaining = timeLimits[level];
         startTimer();
     }
 
-    // Shuffle questions
     const questions = [...subjectQuestionBank[currentSubject][currentChapter][level]];
     shuffledQuestions = questions.sort(() => Math.random() - 0.5);
 
@@ -685,18 +595,9 @@ function displayQuestion() {
     answered = false;
     const question = shuffledQuestions[currentQuestionIndex];
 
-    console.log('=== DISPLAY QUESTION DEBUG ===');
-    console.log('Current Subject:', currentSubject);
-    console.log('Question Topic:', question.topic);
-    console.log('Question:', question.question);
-    console.log('==============================');
-
     let html = '';
-
-    // Topic badge on left - at the top with color class
     html += `<div class="topic-badge topic-${question.topic.toLowerCase()}">${question.topic}</div>`;
 
-    // Timer display for Quick Pick mode
     if (isTimedMode) {
         const minutes = Math.floor(timeRemaining / 60);
         const seconds = timeRemaining % 60;
@@ -706,45 +607,32 @@ function displayQuestion() {
         html += `<div class="timer-container ${timeClass}">`;
         html += `<div class="timer-display">⏱️ <span id="timerDisplay">${timeDisplay}</span></div>`;
         if (canPause) {
-            html += `<button class="timer-pause-btn" id="pauseBtn" onclick="togglePause()">
-                        ${isPaused ? '▶️ Resume' : '⏸️ Pause'}
-                     </button>`;
+            html += `<button class="timer-pause-btn" id="pauseBtn" onclick="togglePause()">${isPaused ? '▶️ Resume' : '⏸️ Pause'}</button>`;
         }
         html += `</div>`;
     }
 
-    // Question container - centered
     html += `<div class="question-container">`;
     html += `<div class="question-emoji">${question.emoji}</div>`;
     html += `<div class="question-text">${question.question}</div>`;
     html += `</div>`;
 
-    // Progress info above progress bar
     html += `<div class="progress-info">${currentQuestionIndex + 1}/10</div>`;
-
-    // Progress bar
     html += `<div class="progress-bar-container">`;
     html += `<div class="progress-bar">`;
     html += `<div class="progress-fill" style="width: ${((currentQuestionIndex + 1) / 10) * 100}%"></div>`;
-    html += `</div>`;
-    html += `</div>`;
+    html += `</div></div>`;
 
-    // Feedback message
     html += `<div class="feedback-message" id="feedbackMessage"></div>`;
 
     if (currentLevel === 'extreme') {
-        // Text input for extreme level
         html += `<input type="text" class="extreme-input" id="extremeInput" placeholder="Type your answer here..." onkeypress="if(event.key==='Enter') submitExtremeAnswer()">`;
-
-        // Button group for Submit and Show Answer
         html += `<div class="extreme-buttons">`;
         html += `<button class="submit-answer-btn" id="submitBtn" onclick="submitExtremeAnswer()">✓ Submit Answer</button>`;
         html += `<button class="show-answer-btn" id="showBtn" onclick="showExtremeAnswer()">👁️ Show Answer</button>`;
         html += `</div>`;
-
         html += `<div class="extreme-answer" id="extremeAnswer" style="display: none;"><strong>Correct Answer:</strong> ${question.answer}</div>`;
     } else {
-        // Multiple choice answers
         html += `<div class="answers-container">`;
         question.options.forEach((option, index) => {
             html += `<div class="answer-option" onclick="selectAnswer(${index})">${option}</div>`;
@@ -752,15 +640,12 @@ function displayQuestion() {
         html += `</div>`;
     }
 
-    // Button container with Back and Next (outside if/else - used for both question types)
     html += `<div class="button-container">`;
     html += `<button class="quiz-back-button" onclick="goBackFromQuiz()">← Back</button>`;
     html += `<button class="next-button" id="nextBtn" onclick="nextQuestion()" disabled>Next →</button>`;
     html += `</div>`;
 
     document.getElementById('quizContent').innerHTML = html;
-
-    // Add floating background emojis
     addFloatingEmojis(question.emoji);
 }
 
@@ -780,9 +665,7 @@ function selectAnswer(selectedIndex) {
         feedback.textContent = ['Excellent! 🌟', 'Perfect! ✨', 'Outstanding! 🎯', 'Brilliant! 💡', 'Superb! 🏆'][Math.floor(Math.random() * 5)];
         feedback.className = 'feedback-message feedback-correct';
         score++;
-        // Correct answer bubble foam
         createFallingEmojis('correct');
-        // Celebration emoji from left corner
         const celebrationEmojis = ['🎉', '🎊', '⭐', '✨', '🌟'];
         for (let i = 0; i < 3; i++) {
             setTimeout(() => {
@@ -795,9 +678,7 @@ function selectAnswer(selectedIndex) {
         options[question.correct].classList.add('correct');
         feedback.textContent = ['Try next 📚', 'Keep learning 📖', 'Review this topic 🔍', 'Study more 💪', 'Not quite ❌'][Math.floor(Math.random() * 5)];
         feedback.className = 'feedback-message feedback-incorrect';
-        // Wrong answer bubble foam - colorful emojis
         createFallingEmojis('incorrect');
-        // Celebration emoji from left corner (sad face for wrong answer)
         const sadEmojis = ['😢', '😞', '😔', '💭'];
         for (let i = 0; i < 2; i++) {
             setTimeout(() => {
@@ -816,7 +697,6 @@ function submitExtremeAnswer() {
     const input = document.getElementById('extremeInput');
     const userAnswer = input.value.trim();
 
-    // Don't submit if empty
     if (!userAnswer) {
         alert('Please type your answer first!');
         return;
@@ -829,26 +709,20 @@ function submitExtremeAnswer() {
     const submitBtn = document.getElementById('submitBtn');
     const answerDiv = document.getElementById('extremeAnswer');
 
-    // Disable input and submit button
     input.disabled = true;
     submitBtn.disabled = true;
     submitBtn.style.opacity = '0.5';
 
-    // Check answer (case-insensitive, trim spaces)
     const correctAnswer = question.answer.toLowerCase().trim();
     const isCorrect = userAnswer.toLowerCase() === correctAnswer;
 
     if (isCorrect) {
-        // Correct answer
         input.style.borderColor = '#2ecc71';
         input.style.background = '#d4edda';
         feedback.textContent = ['Excellent! 🌟', 'Perfect! ✨', 'Outstanding! 🎯', 'Brilliant! 💡', 'Superb! 🏆'][Math.floor(Math.random() * 5)];
         feedback.className = 'feedback-message feedback-correct';
         score++;
-
-        // Correct answer bubble foam
         createFallingEmojis('correct');
-        // Celebration emoji from left corner
         const celebrationEmojis = ['🎉', '🎊', '⭐', '✨', '🌟'];
         for (let i = 0; i < 3; i++) {
             setTimeout(() => {
@@ -857,15 +731,11 @@ function submitExtremeAnswer() {
             }, i * 200);
         }
     } else {
-        // Wrong answer
         input.style.borderColor = '#e74c3c';
         input.style.background = '#f8d7da';
         feedback.textContent = ['Not quite! 🤔', 'Try again next time! 💪', 'Keep learning! 📚', 'Close! 📝'][Math.floor(Math.random() * 4)];
         feedback.className = 'feedback-message feedback-incorrect';
-
-        // Wrong answer bubble foam - colorful emojis
         createFallingEmojis('incorrect');
-        // Celebration emoji from left corner (sad face for wrong answer)
         const sadEmojis = ['😢', '😞', '😔', '💭'];
         for (let i = 0; i < 2; i++) {
             setTimeout(() => {
@@ -873,12 +743,9 @@ function submitExtremeAnswer() {
                 createCelebrationEmoji(emoji);
             }, i * 300);
         }
-
-        // Show correct answer
         answerDiv.style.display = 'block';
     }
 
-    // Enable Next button
     nextBtn.disabled = false;
 }
 
@@ -888,38 +755,31 @@ function showExtremeAnswer() {
     const input = document.getElementById('extremeInput');
     const submitBtn = document.getElementById('submitBtn');
 
-    // Show the answer
     answerDiv.style.display = 'block';
-
-    // Disable input and buttons (answer revealed, no more submission)
     if (input) input.disabled = true;
     if (submitBtn) {
         submitBtn.disabled = true;
         submitBtn.style.opacity = '0.5';
     }
 
-    // Wrong answer bubble foam effect - colorful emojis
     createFallingEmojis('incorrect');
-
-    // Enable Next button
     nextBtn.disabled = false;
 }
 
 function nextQuestion() {
-    clearFallingEmojis(true); // Instant removal for button clicks
+    clearFallingEmojis(true);
     currentQuestionIndex++;
 
     if (currentQuestionIndex < 10) {
         displayQuestion();
-        saveQuizState(); // Save state after moving to next question
+        saveQuizState();
     } else {
         showResults();
     }
 }
 
 function previousQuestion() {
-    // Go back to previous question
-    clearFallingEmojis(true); // Instant removal for button clicks
+    clearFallingEmojis(true);
     currentQuestionIndex--;
 
     if (currentQuestionIndex >= 0) {
@@ -928,7 +788,7 @@ function previousQuestion() {
 }
 
 function showResults() {
-    clearFallingEmojis(true); // Instant removal for button clicks
+    clearFallingEmojis(true);
     stopTimer();
 
     const endTime = Date.now();
@@ -961,7 +821,6 @@ function showResults() {
 
     showScreen('result-container');
 
-    // Celebration emojis
     for (let i = 0; i < 30; i++) {
         setTimeout(() => {
             const emoji = badgeEmoji[Math.floor(Math.random() * badgeEmoji.length)];
@@ -971,7 +830,6 @@ function showResults() {
 }
 
 function retakeQuiz() {
-    // Retake quiz based on current mode
     if (quizMode === 'normal') {
         startQuiz(currentLevel, isTimedMode);
     } else if (quizMode === 'subject-timer') {
@@ -983,18 +841,13 @@ function retakeQuiz() {
     }
 }
 
-// Timer functions for Quick Pick mode
+// Timer functions
 function startTimer() {
-    stopTimer(); // Clear any existing timer
-
+    stopTimer();
     timerInterval = setInterval(() => {
         if (!isPaused) {
             timeRemaining--;
-
-            // Update timer display
             updateTimerDisplay();
-
-            // Check if time is up
             if (timeRemaining <= 0) {
                 handleTimeUp();
             }
@@ -1016,7 +869,6 @@ function updateTimerDisplay() {
         const seconds = timeRemaining % 60;
         timerElement.textContent = `${minutes}:${seconds.toString().padStart(2, '0')}`;
 
-        // Add warning class when time is low
         const timerContainer = document.querySelector('.timer-container');
         if (timerContainer) {
             if (timeRemaining <= 30) {
@@ -1030,25 +882,20 @@ function updateTimerDisplay() {
 
 function togglePause() {
     isPaused = !isPaused;
-
-    // Update pause button text
     const pauseBtn = document.getElementById('pauseBtn');
     if (pauseBtn) {
         pauseBtn.textContent = isPaused ? '▶️ Resume' : '⏸️ Pause';
     }
 
-    // Disable/enable answer selection when paused
     const answerOptions = document.querySelectorAll('.answer-option');
     const extremeInput = document.getElementById('extremeInput');
     const nextBtn = document.getElementById('nextBtn');
 
     if (isPaused) {
-        // Disable interactions when paused
         answerOptions.forEach(option => option.style.pointerEvents = 'none');
         if (extremeInput) extremeInput.disabled = true;
         if (nextBtn) nextBtn.disabled = true;
     } else {
-        // Re-enable interactions when resumed
         answerOptions.forEach(option => option.style.pointerEvents = 'auto');
         if (extremeInput) extremeInput.disabled = false;
         if (nextBtn && answered) nextBtn.disabled = false;
@@ -1057,38 +904,31 @@ function togglePause() {
 
 function handleTimeUp() {
     stopTimer();
-
-    // Show time up message
     const feedbackMessage = document.getElementById('feedbackMessage');
     if (feedbackMessage) {
         feedbackMessage.textContent = '⏰ TIME UP!';
         feedbackMessage.className = 'feedback-message feedback-incorrect';
     }
 
-    // Disable all interactions
     const answerOptions = document.querySelectorAll('.answer-option');
     answerOptions.forEach(option => option.style.pointerEvents = 'none');
 
     const extremeInput = document.getElementById('extremeInput');
     if (extremeInput) extremeInput.disabled = true;
 
-    // Auto-show results after 2 seconds
     setTimeout(() => {
         showResults();
     }, 2000);
 }
 
 function createFallingEmojis(type) {
-    // Working emojis - these display properly!
     const workingEmojis = {
         correct: ['⭐', '✨', '⚡', '❤️', '💙', '💚', '💛', '💜', '✅', '✔️', '☀️', '🌟', '💫', '🎉', '🎊', '🎈'],
         incorrect: ['💭', '🤔', '📚', '🔍', '💡', '🧠', '❓', '🤷', '📝', '📖']
     };
 
-    // Get emojis based on answer type
     const emojisToUse = type === 'correct' ? workingEmojis.correct : workingEmojis.incorrect;
 
-    // Fisher-Yates shuffle for true randomization
     function shuffleArray(array) {
         const shuffled = [...array];
         for (let i = shuffled.length - 1; i > 0; i--) {
@@ -1098,52 +938,44 @@ function createFallingEmojis(type) {
         return shuffled;
     }
 
-    // Create a pool of emojis with better distribution
     let emojis = shuffleArray(emojisToUse);
 
     const interval = setInterval(() => {
-        if (answered && fallingEmojis.length < 45) {  // HEAVY foam: 45 emojis at once!
+        if (answered && fallingEmojis.length < 45) {
             const emoji = document.createElement('span');
             emoji.className = 'falling-emoji';
 
-            // ✅ DIRECT TEXT ASSIGNMENT - KEY FIX!
             const selectedEmoji = emojis[Math.floor(Math.random() * emojis.length)];
-            emoji.textContent = selectedEmoji;  // No HTML entities, no conversions!
+            emoji.textContent = selectedEmoji;
             emoji.setAttribute('role', 'img');
             emoji.setAttribute('aria-label', 'celebration emoji');
 
-            // Reshuffle frequently for maximum variety
             if (Math.random() > 0.5) {
                 emojis = shuffleArray(emojis);
             }
 
-            // Position outside quiz container on left, from back button to topic area
-            emoji.style.left = (0.3 + Math.random() * 2) + '%';  // More horizontal spread
-            emoji.style.top = (5 + Math.random() * 75) + '%';  // 5% to 80% vertical coverage
-            emoji.style.animationDuration = (Math.random() * 1.2 + 1.3) + 's';  // 1.3-2.5s variation
-            emoji.style.fontSize = (1 + Math.random() * 0.8) + 'em';  // 1-1.8em size variation
-            emoji.style.display = 'inline-block';  // Ensure proper rendering
+            emoji.style.left = (0.3 + Math.random() * 2) + '%';
+            emoji.style.top = (5 + Math.random() * 75) + '%';
+            emoji.style.animationDuration = (Math.random() * 1.2 + 1.3) + 's';
+            emoji.style.fontSize = (1 + Math.random() * 0.8) + 'em';
+            emoji.style.display = 'inline-block';
             document.body.appendChild(emoji);
             fallingEmojis.push(emoji);
 
             setTimeout(() => {
                 emoji.remove();
                 fallingEmojis = fallingEmojis.filter(e => e !== emoji);
-            }, 2500);  // Match animation duration
+            }, 2500);
         }
-    }, 100);  // VERY fast interval - HEAVY FOAM EFFECT!
+    }, 100);
 
-    // Store interval to clear later
     window.fallingInterval = interval;
 }
 
 function clearFallingEmojis(instant = true) {
     clearInterval(window.fallingInterval);
-
-    const emojisToRemove = [...fallingEmojis]; // Copy array
-    fallingEmojis = []; // Clear reference immediately
-
-    // Instant removal - sudden disappearance like original backup
+    const emojisToRemove = [...fallingEmojis];
+    fallingEmojis = [];
     emojisToRemove.forEach(emoji => {
         if (emoji && emoji.parentNode) {
             emoji.remove();
@@ -1155,19 +987,14 @@ function createCelebrationEmoji(emoji) {
     const elem = document.createElement('div');
     elem.className = 'celebration-emoji';
     elem.textContent = emoji;
-    // Start from left corner (0-15% from left)
     elem.style.left = Math.random() * 15 + '%';
     elem.style.bottom = '0';
     document.body.appendChild(elem);
-
     setTimeout(() => elem.remove(), 3000);
 }
 
 function addFloatingEmojis(emoji) {
-    // Remove old floating emojis
     document.querySelectorAll('.floating-bg-emoji').forEach(e => e.remove());
-
-    // Add new floating emojis
     const emojis = emoji.split('');
     for (let i = 0; i < 5; i++) {
         const elem = document.createElement('div');
@@ -1183,146 +1010,111 @@ function addFloatingEmojis(emoji) {
 // Initialize on load
 window.onload = function() {
     console.log('🚀 Quiz app initializing...');
-
-    // Check if we're on a quiz page (has .main-container element)
     const isQuizPage = document.querySelector('.main-container') !== null;
-
     if (!isQuizPage) {
         console.log('ℹ️ Not a quiz page, skipping quiz initialization');
-        return; // Exit early if not on quiz page
+        return;
     }
 
-    // Try to restore previous state
     const restored = restoreQuizState();
-
     if (!restored) {
-        // Fresh start - no saved state
         history.replaceState({screen: 'home-page'}, '', '#home-page');
         showHomePage();
     }
-
-    // Always initialize chapters for home page
     initializeChapters();
 };
 
 // Handle browser back/forward buttons
 window.addEventListener('popstate', function(event) {
-    // Only handle popstate on quiz pages
     const isQuizPage = document.querySelector('.main-container') !== null;
     if (!isQuizPage) return;
 
-    // Set flag to prevent recursive pushState
     isNavigatingHistory = true;
 
     if (event.state && event.state.screen) {
-        // Restore state from history
         if (event.state.subject) currentSubject = event.state.subject;
         if (event.state.chapter) currentChapter = event.state.chapter;
         if (event.state.mode) quizMode = event.state.mode;
         if (event.state.returnPage) returnPage = event.state.returnPage;
 
-        // Save scroll position to restore after screen change
         const savedScrollPosition = event.state.scrollPosition || 0;
 
-        // Navigate to the appropriate screen using proper functions
         switch(event.state.screen) {
             case 'home-page':
-                clearFallingEmojis(true); // Instant removal for browser back button
+                clearFallingEmojis(true);
                 stopTimer();
-                showScreen('home-page', false); // Don't scroll - stay at back button position
-                // Restore scroll position after a short delay
+                showScreen('home-page', false);
                 setTimeout(() => window.scrollTo(0, savedScrollPosition), 100);
                 break;
 
             case 'chapter-selection':
-                clearFallingEmojis(true); // Instant removal for browser back button
+                clearFallingEmojis(true);
                 stopTimer();
                 const subjectData = subjects[currentSubject];
                 if (subjectData) {
                     document.getElementById('subjectTitle').innerHTML = `${subjectData.emoji} ${subjectData.name} ${subjectData.emoji}`;
                 }
                 initializeChapters();
-                showScreen('chapter-selection', false); // Don't scroll - stay at back button position
+                showScreen('chapter-selection', false);
                 setTimeout(() => window.scrollTo(0, savedScrollPosition), 100);
                 break;
 
             case 'level-selection':
-                clearFallingEmojis(true); // Instant removal for browser back button
+                clearFallingEmojis(true);
                 stopTimer();
-                showScreen('level-selection', false); // Don't scroll - stay at back button position
+                showScreen('level-selection', false);
                 setTimeout(() => window.scrollTo(0, savedScrollPosition), 100);
                 break;
 
             case 'timer-challenges-page':
-                clearFallingEmojis(true); // Instant removal for browser back button
+                clearFallingEmojis(true);
                 stopTimer();
                 initializeTimerSubjects();
-                showScreen('timer-challenges-page', false); // Don't scroll - stay at back button position
+                showScreen('timer-challenges-page', false);
                 setTimeout(() => window.scrollTo(0, savedScrollPosition), 100);
                 break;
 
             case 'timer-subject-level-selection':
-                clearFallingEmojis(true); // Instant removal for browser back button
+                clearFallingEmojis(true);
                 stopTimer();
                 const timerSubjectData = subjects[currentSubject];
                 if (timerSubjectData) {
                     document.getElementById('timerSubjectTitle').innerHTML = `${timerSubjectData.emoji} ${timerSubjectData.name} - Select Level`;
                 }
-                showScreen('timer-subject-level-selection', false); // Don't scroll - stay at back button position
+                showScreen('timer-subject-level-selection', false);
                 setTimeout(() => window.scrollTo(0, savedScrollPosition), 100);
                 break;
 
             case 'practice-mode-page':
-                clearFallingEmojis(true); // Instant removal for browser back button
+                clearFallingEmojis(true);
                 stopTimer();
-                showScreen('practice-mode-page', false); // Don't scroll - stay at back button position
-                setTimeout(() => window.scrollTo(0, savedScrollPosition), 100);
-                break;
-
-            case 'riddles-page':
-                clearFallingEmojis(true); // Instant removal for browser back button
-                stopTimer();
-                showScreen('riddles-page', false); // Don't scroll - stay at back button position
-                setTimeout(() => window.scrollTo(0, savedScrollPosition), 100);
-                break;
-
-            case 'dad-jokes-page':
-                clearFallingEmojis(true); // Instant removal for browser back button
-                stopTimer();
-                showScreen('dad-jokes-page', false); // Don't scroll - stay at back button position
+                showScreen('practice-mode-page', false);
                 setTimeout(() => window.scrollTo(0, savedScrollPosition), 100);
                 break;
 
             default:
-                // For quiz-container, result-container, etc.
-                clearFallingEmojis(true); // Instant removal for browser back button
+                clearFallingEmojis(true);
                 stopTimer();
-                showScreen(event.state.screen, false); // Don't scroll - stay at back button position
+                showScreen(event.state.screen, false);
                 setTimeout(() => window.scrollTo(0, savedScrollPosition), 100);
         }
     } else {
-        // If no state, go to home page
-        clearFallingEmojis(true); // Instant removal for browser back button
+        clearFallingEmojis(true);
         stopTimer();
-        showScreen('home-page', false); // Don't scroll - stay at back button position
+        showScreen('home-page', false);
     }
 
-    // Reset flag after navigation
     isNavigatingHistory = false;
 });
 
-// VISUAL INDICATOR for loaded/missing subjects
 function updateSubjectCardStatus() {
     Object.keys(subjects).forEach(subjectKey => {
         const card = document.querySelector(`.subject-card[onclick*="${subjectKey}"]`);
         if (card) {
             if (!subjectQuestionBank[subjectKey]) {
-                // Mark as unavailable
                 card.style.opacity = '0.5';
                 card.style.cursor = 'not-allowed';
                 card.style.filter = 'grayscale(80%)';
-
-                // Add badge
                 if (!card.querySelector('.unavailable-badge')) {
                     const badge = document.createElement('div');
                     badge.className = 'unavailable-badge';
@@ -1332,7 +1124,6 @@ function updateSubjectCardStatus() {
                     card.appendChild(badge);
                 }
             } else {
-                // Mark as available
                 card.style.opacity = '1';
                 card.style.cursor = 'pointer';
                 card.style.filter = 'none';
@@ -1341,26 +1132,18 @@ function updateSubjectCardStatus() {
     });
 }
 
-// Call this after page loads
 window.addEventListener('DOMContentLoaded', function() {
-    // Only run on quiz pages
     const isQuizPage = document.querySelector('.main-container') !== null;
     if (!isQuizPage) return;
 
     setTimeout(updateSubjectCardStatus, 100);
 
-    // Intercept header AND footer home links to prevent page reload
-    const homeLinks = document.querySelectorAll('.quiz-header a[href*="quiz.smartfamilypicks.com"], .quiz-footer a[href*="quiz.smartfamilypicks.com"]');
+    const homeLinks = document.querySelectorAll('.quiz-header a[href*="quiz.profitbenefit.com"], .quiz-footer a[href*="quiz.profitbenefit.com"]');
     homeLinks.forEach(link => {
         link.addEventListener('click', function(e) {
-            e.preventDefault(); // Prevent default link behavior
-            showHomePage(); // Use JavaScript navigation
+            e.preventDefault();
+            showHomePage();
             return false;
         });
     });
 });
-
-// ===================================================
-// LOADING PROGRESS BAR - DISABLED
-// ===================================================
-// Loading screen removed per user request

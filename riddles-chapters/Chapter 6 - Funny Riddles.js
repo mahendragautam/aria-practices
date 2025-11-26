@@ -4,22 +4,17 @@
  * Type: JavaScript
  * Location: Auto Insert > Footer
  * Priority: 10
- * 
- * 100 Questions Organized by Difficulty Level
- * Easy (10) → Medium (25) → Hard (25) → Expert (25) → Extreme (25)
+ *
+ * Questions Organized by Difficulty Level
+ * Easy (combined) → Hard → Expert → Extreme
  *
  * COPY ALL CODE BELOW
  */
 
-const riddlesQuestions = {
-    6: {
-        easy: [
-            {
-                topic: "Funny Riddles - Easy",
-                emoji: "😂🎈",
-                correct: 0
-            },
-            {
+window.riddlesQuestions = window.riddlesQuestions || {};
+window.riddlesQuestions[6] = {
+    easy: [
+        {
                 topic: "Funny Riddles - Easy",
                 emoji: "🤣🐔",
                 question: "Why did the chicken cross the playground?",
@@ -29,7 +24,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Easy",
                 emoji: "😄🍌",
                 question: "Why did the banana go to the doctor?",
@@ -39,7 +34,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Easy",
                 emoji: "😂🎸",
                 question: "What kind of music do mummies listen to?",
@@ -49,7 +44,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Easy",
                 emoji: "🤣🥕",
                 question: "What do you call a fake noodle?",
@@ -59,7 +54,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Easy",
                 emoji: "😆🐝",
                 question: "What do you call a bee that can't make up its mind?",
@@ -69,7 +64,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Easy",
                 emoji: "😂🧀",
                 question: "What do you call cheese that isn't yours?",
@@ -79,7 +74,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Easy",
                 emoji: "🤣🦆",
                 question: "What time does a duck wake up?",
@@ -89,7 +84,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Easy",
                 emoji: "😄🍪",
                 question: "Why did the cookie go to the hospital?",
@@ -99,7 +94,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Easy",
                 emoji: "😂🌊",
                 question: "What did the ocean say to the beach?",
@@ -108,10 +103,8 @@ const riddlesQuestions = {
                     "Hello"
                 ],
                 correct: 0
-            }
-        ],
-        medium: [
-            {
+            },
+        {
                 topic: "Funny Riddles - Medium",
                 emoji: "😂🎭",
                 question: "What do you call a dog magician?",
@@ -121,7 +114,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Medium",
                 emoji: "🤣🍔",
                 question: "Why don't scientists trust atoms?",
@@ -131,7 +124,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Medium",
                 emoji: "😆🎨",
                 question: "What do you call a singing laptop?",
@@ -141,7 +134,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Medium",
                 emoji: "😂🌳",
                 question: "Why did the scarecrow win an award?",
@@ -151,7 +144,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Medium",
                 emoji: "🤣🦈",
                 question: "What do you call a fish wearing a bowtie?",
@@ -161,7 +154,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Medium",
                 emoji: "😄🎪",
                 question: "What do you call a parade of rabbits hopping backwards?",
@@ -171,7 +164,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Medium",
                 emoji: "😂🍕",
                 question: "Why can't you give Elsa a balloon?",
@@ -181,7 +174,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Medium",
                 emoji: "🤣🐘",
                 question: "What do you call an elephant that doesn't matter?",
@@ -191,7 +184,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Medium",
                 emoji: "😆📚",
                 question: "Why did the math book look sad?",
@@ -201,17 +194,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
-                topic: "Funny Riddles - Medium",
-                emoji: "😂🎸",
-                correct: 0
-            },
-            {
-                topic: "Funny Riddles - Medium",
-                emoji: "🤣🏃",
-                correct: 0
-            },
-            {
+        {
                 topic: "Funny Riddles - Medium",
                 emoji: "😄🌙",
                 question: "What did the pirate say on his 80th birthday?",
@@ -221,7 +204,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Medium",
                 emoji: "😂🎯",
                 question: "What do you call a belt made of watches?",
@@ -231,12 +214,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
-                topic: "Funny Riddles - Medium",
-                emoji: "🤣🐍",
-                correct: 0
-            },
-            {
+        {
                 topic: "Funny Riddles - Medium",
                 emoji: "😆🎭",
                 question: "Why did the tomato turn red?",
@@ -246,7 +224,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Medium",
                 emoji: "😂🦉",
                 question: "What do you call a sleeping bull?",
@@ -256,7 +234,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Medium",
                 emoji: "🤣🎸",
                 question: "Why did the bicycle fall over?",
@@ -266,7 +244,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Medium",
                 emoji: "😄🌟",
                 question: "What do you call a cow with no legs?",
@@ -276,12 +254,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
-                topic: "Funny Riddles - Medium",
-                emoji: "😂🎨",
-                correct: 0
-            },
-            {
+        {
                 topic: "Funny Riddles - Medium",
                 emoji: "🤣🍦",
                 question: "What do you call a snowman with a six-pack?",
@@ -291,7 +264,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Medium",
                 emoji: "😆🎪",
                 question: "Why did the golfer bring two pairs of pants?",
@@ -301,7 +274,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Medium",
                 emoji: "😂🌊",
                 question: "What do you call a dinosaur that crashes his car?",
@@ -311,7 +284,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Medium",
                 emoji: "🤣🎯",
                 question: "Why did the stadium get hot?",
@@ -321,7 +294,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Medium",
                 emoji: "😄🎭",
                 question: "What do you call a can opener that doesn't work?",
@@ -330,15 +303,10 @@ const riddlesQuestions = {
                     "Broken opener"
                 ],
                 correct: 0
-            },
-            {
-                topic: "Funny Riddles - Medium",
-                emoji: "😂🎸",
-                correct: 0
             }
-        ],
-        hard: [
-            {
+    ],
+    hard: [
+        {
                 topic: "Funny Riddles - Hard",
                 emoji: "😂🎭",
                 question: "What do you call a priest who becomes a lawyer?",
@@ -349,7 +317,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Hard",
                 emoji: "🤣🔬",
                 question: "Why did the invisible man turn down the job offer?",
@@ -360,7 +328,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Hard",
                 emoji: "😆🎪",
                 question: "What do you call a group of disorganized cats?",
@@ -371,7 +339,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Hard",
                 emoji: "😂🌟",
                 question: "Why did the coffee file a police report?",
@@ -382,7 +350,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Hard",
                 emoji: "🤣🎯",
                 question: "What do you call a factory that makes okay products?",
@@ -393,7 +361,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Hard",
                 emoji: "😄🎨",
                 question: "Why did the hipster burn his mouth?",
@@ -404,7 +372,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Hard",
                 emoji: "😂🦁",
                 question: "What do you call a bear caught in the rain?",
@@ -415,7 +383,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Hard",
                 emoji: "🤣📚",
                 question: "What did the grape say when it got stepped on?",
@@ -426,12 +394,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
-                topic: "Funny Riddles - Hard",
-                emoji: "😆🎭",
-                correct: 0
-            },
-            {
+        {
                 topic: "Funny Riddles - Hard",
                 emoji: "😂🌈",
                 question: "What do you call a pig that does karate?",
@@ -442,7 +405,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Hard",
                 emoji: "🤣🎸",
                 question: "Why did the gym close down?",
@@ -453,7 +416,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Hard",
                 emoji: "😄🔮",
                 question: "What do you call a psychic little person who escaped from jail?",
@@ -464,7 +427,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Hard",
                 emoji: "😂🎪",
                 question: "Why did the smartphone need glasses?",
@@ -475,7 +438,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Hard",
                 emoji: "🤣🌟",
                 question: "What do you call a nervous javelin thrower?",
@@ -486,7 +449,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Hard",
                 emoji: "😆🎯",
                 question: "Why did the calendar go to therapy?",
@@ -497,7 +460,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Hard",
                 emoji: "😂🧩",
                 question: "What do you call a sketchy Italian neighborhood?",
@@ -508,7 +471,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Hard",
                 emoji: "🤣🎨",
                 question: "Why was the broom late?",
@@ -519,7 +482,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Hard",
                 emoji: "😄🌊",
                 question: "What do you call a boomerang that won't come back?",
@@ -530,7 +493,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Hard",
                 emoji: "😂🎭",
                 question: "Why did the dentist become a baseball coach?",
@@ -541,7 +504,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Hard",
                 emoji: "🤣🔍",
                 question: "What do you call a sleeping dinosaur?",
@@ -552,7 +515,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Hard",
                 emoji: "😆🎪",
                 question: "Why did the mushroom get invited to all the parties?",
@@ -563,7 +526,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Hard",
                 emoji: "😂🌟",
                 question: "What do you call a fish that needs help with their vocals?",
@@ -574,12 +537,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
-                topic: "Funny Riddles - Hard",
-                emoji: "🤣🎯",
-                correct: 0
-            },
-            {
+        {
                 topic: "Funny Riddles - Hard",
                 emoji: "😄🧩",
                 question: "What do you call a dinosaur with an extensive vocabulary?",
@@ -590,7 +548,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Hard",
                 emoji: "😂🎨",
                 question: "Why did the cookie cry?",
@@ -601,14 +559,9 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             }
-        ],
-        expert: [
-            {
-                topic: "Funny Riddles - Expert",
-                emoji: "😂🎭",
-                correct: 0
-            },
-            {
+    ],
+    expert: [
+        {
                 topic: "Funny Riddles - Expert",
                 emoji: "🤣🔬",
                 question: "What do you call a belt made out of watches that costs $1000?",
@@ -620,7 +573,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Expert",
                 emoji: "😆🎪",
                 question: "Why did the obtuse angle go to the beach?",
@@ -632,7 +585,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Expert",
                 emoji: "😂🌟",
                 question: "What do you call a bee that lives in America?",
@@ -644,7 +597,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Expert",
                 emoji: "🤣🎯",
                 question: "Why did Beethoven get rid of his chickens?",
@@ -656,17 +609,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
-                topic: "Funny Riddles - Expert",
-                emoji: "😄🎨",
-                correct: 0
-            },
-            {
-                topic: "Funny Riddles - Expert",
-                emoji: "😂🦁",
-                correct: 0
-            },
-            {
+        {
                 topic: "Funny Riddles - Expert",
                 emoji: "🤣📚",
                 question: "What do you call a parade of rabbits walking backwards?",
@@ -678,7 +621,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Expert",
                 emoji: "😆🎭",
                 question: "Why did the scarecrow become a successful motivational speaker?",
@@ -690,7 +633,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Expert",
                 emoji: "😂🌈",
                 question: "What do you call a fish wearing a tuxedo?",
@@ -702,12 +645,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
-                topic: "Funny Riddles - Expert",
-                emoji: "🤣🎸",
-                correct: 0
-            },
-            {
+        {
                 topic: "Funny Riddles - Expert",
                 emoji: "😄🔮",
                 question: "What do you call a medieval soldier who survives only on dairy?",
@@ -719,7 +657,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Expert",
                 emoji: "😂🎪",
                 question: "Why was the equal sign so humble?",
@@ -731,7 +669,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Expert",
                 emoji: "🤣🌟",
                 question: "What do you call a snowman in July?",
@@ -743,7 +681,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Expert",
                 emoji: "😆🎯",
                 question: "Why did the Oreo go to the dentist?",
@@ -755,7 +693,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Expert",
                 emoji: "😂🧩",
                 question: "What do you call a dinosaur that's a noisy sleeper?",
@@ -767,7 +705,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Expert",
                 emoji: "🤣🎨",
                 question: "Why did the physics teacher break up with the biology teacher?",
@@ -779,17 +717,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
-                topic: "Funny Riddles - Expert",
-                emoji: "😄🌊",
-                correct: 0
-            },
-            {
-                topic: "Funny Riddles - Expert",
-                emoji: "😂🎭",
-                correct: 0
-            },
-            {
+        {
                 topic: "Funny Riddles - Expert",
                 emoji: "🤣🔍",
                 question: "What do you call a lazy kangaroo?",
@@ -801,7 +729,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Expert",
                 emoji: "😆🎪",
                 question: "Why did the computer go to art school?",
@@ -813,7 +741,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Expert",
                 emoji: "😂🌟",
                 question: "What do you call a sheep with no legs?",
@@ -825,7 +753,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Expert",
                 emoji: "🤣🎯",
                 question: "Why did the balloon go near the needle?",
@@ -837,7 +765,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Expert",
                 emoji: "😄🧩",
                 question: "What do you call a knight who's afraid to fight?",
@@ -849,7 +777,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             },
-            {
+        {
                 topic: "Funny Riddles - Expert",
                 emoji: "😂🎨",
                 question: "Why did the math book look so sad?",
@@ -861,129 +789,34 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             }
-        ],
-        extreme: [
-            {
+    ],
+    extreme: [
+        {
                 topic: "Funny Riddles - Extreme",
                 emoji: "😂🎭",
-                difficulty: "extreme",
-            {
-                topic: "Funny Riddles - Extreme",
-                emoji: "🤣🔬",
-                difficulty: "extreme",
-            {
-                topic: "Funny Riddles - Extreme",
-                emoji: "😆🎪",
-                difficulty: "extreme",
-            {
-                topic: "Funny Riddles - Extreme",
-                emoji: "😂🌟",
-                difficulty: "extreme",
-            {
-                topic: "Funny Riddles - Extreme",
-                emoji: "🤣🎯",
                 difficulty: "extreme",
                 question: "What 5-letter word becomes shorter when you add two letters to it?",
                 answer: "Short"
             },
-            {
+        {
                 topic: "Funny Riddles - Extreme",
                 emoji: "😄🎨",
-                difficulty: "extreme",
-            {
-                topic: "Funny Riddles - Extreme",
-                emoji: "😂🦁",
-                difficulty: "extreme",
-            {
-                topic: "Funny Riddles - Extreme",
-                emoji: "🤣📚",
-                difficulty: "extreme",
-            {
-                topic: "Funny Riddles - Extreme",
-                emoji: "😆🎭",
-                difficulty: "extreme",
-            {
-                topic: "Funny Riddles - Extreme",
-                emoji: "😂🌈",
-                difficulty: "extreme",
-            {
-                topic: "Funny Riddles - Extreme",
-                emoji: "🤣🎸",
-                difficulty: "extreme",
-            {
-                topic: "Funny Riddles - Extreme",
-                emoji: "😄🔮",
-                difficulty: "extreme",
-            {
-                topic: "Funny Riddles - Extreme",
-                emoji: "😂🎪",
-                difficulty: "extreme",
-            {
-                topic: "Funny Riddles - Extreme",
-                emoji: "🤣🌟",
-                difficulty: "extreme",
-            {
-                topic: "Funny Riddles - Extreme",
-                emoji: "😆🎯",
-                difficulty: "extreme",
-            {
-                topic: "Funny Riddles - Extreme",
-                emoji: "😂🧩",
-                difficulty: "extreme",
-            {
-                topic: "Funny Riddles - Extreme",
-                emoji: "🤣🎨",
-                difficulty: "extreme",
-            {
-                topic: "Funny Riddles - Extreme",
-                emoji: "😄🌊",
                 difficulty: "extreme",
                 question: "What has four legs in the morning, two legs in the afternoon, and three legs in the evening?",
                 answer: "Human or A person or Man"
             },
-            {
+        {
                 topic: "Funny Riddles - Extreme",
                 emoji: "😂🎭",
                 difficulty: "extreme",
-            {
-                topic: "Funny Riddles - Extreme",
-                emoji: "🤣🔍",
-                difficulty: "extreme",
-            {
-                topic: "Funny Riddles - Extreme",
-                emoji: "😆🎪",
-                difficulty: "extreme",
                 question: "What has many keys but cannot open a single lock?",
                 answer: "Piano or A piano or Keyboard"
-            },
-            {
-                topic: "Funny Riddles - Extreme",
-                emoji: "😂🌟",
-                difficulty: "extreme",
-            {
-                topic: "Funny Riddles - Extreme",
-                emoji: "🤣🎯",
-                difficulty: "extreme",
-            {
-                topic: "Funny Riddles - Extreme",
-                emoji: "😄🧩",
-                difficulty: "extreme",
-            {
-                topic: "Funny Riddles - Extreme",
-                emoji: "😂🎨",
-                difficulty: "extreme",
-            {
-                topic: "Funny Riddles - Extreme",
-                emoji: "🤣🌊",
-                difficulty: "extreme",
-        ]
-    }
+            }
+    ]
 };
 
-// Register in global question bank
-if (typeof subjectQuestionBank !== 'undefined') {
-    if (!subjectQuestionBank['riddles']) {
-        subjectQuestionBank['riddles'] = {};
-    }
-    subjectQuestionBank['riddles'][6] = riddlesQuestions[6];
-}
+console.log('✅ Riddles Chapter 6 loaded:',
+    (window.riddlesQuestions[6].easy.length +
+     window.riddlesQuestions[6].hard.length +
+     window.riddlesQuestions[6].expert.length +
+     window.riddlesQuestions[6].extreme.length) + ' total riddles');

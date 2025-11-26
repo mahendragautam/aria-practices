@@ -349,6 +349,104 @@
     50% { opacity: 0.7; }
 }
 
+/* Topic header 3-column grid: Topic | Timer (center) | Empty */
+.topic-header-grid {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 15px;
+}
+
+/* Timer in CENTER column */
+.timer-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.timer-center .timer-display {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #667eea;
+}
+
+.timer-center.timer-warning .timer-display {
+    color: #e74c3c;
+    animation: timerPulse 1s infinite;
+}
+
+@keyframes timerPulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+
+.timer-center .timer-pause-btn {
+    padding: 6px 15px;
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 0.85em;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.timer-center .timer-pause-btn:hover {
+    background: #5568d3;
+}
+
+/* OLD topic-header and timer-inline styles (keep for backwards compatibility) */
+.topic-header {
+    display: none; /* Not used anymore */
+}
+
+/* Inline timer (next to topic badge) */
+.timer-inline {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.timer-inline .timer-display {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #667eea;
+}
+
+.timer-inline.timer-warning .timer-display {
+    color: #e74c3c;
+    animation: timerPulse 1s infinite;
+}
+
+@keyframes timerPulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+
+.timer-inline .timer-pause-btn {
+    padding: 6px 15px;
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 0.85em;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.timer-inline .timer-pause-btn:hover {
+    background: #5568d3;
+}
+
+/* Old timer container styles (keep for backwards compatibility) */
+.timer-container {
+    display: none; /* Hidden - using inline timer now */
+}
+
 .timer-display {
     font-size: 1.5em;
     font-weight: bold;
@@ -479,7 +577,7 @@
 
 .riddle-feedback {
     margin-top: 20px;
-    padding: 15px 20px;
+    padding: 0px 0px;
     border-radius: 12px;
     text-align: center;
     font-weight: bold;
@@ -502,10 +600,10 @@
     display: grid;
     grid-template-columns: 1fr auto 1fr;
     align-items: center;
-    margin-top: 30px;
-    padding: 20px;
-    background: #f8f9fa;
-    border-radius: 12px;
+    margin-top: 0px;
+    padding: 0px;
+    background: transparent;
+    border-radius: 0px;
     gap: 15px;
 }
 
@@ -887,6 +985,25 @@
 
     .riddle-question {
         font-size: 1.2em;
+    }
+    
+    /* Mobile 3-column grid */
+    .topic-header-grid {
+        gap: 8px;
+    }
+    
+    .topic-badge {
+        font-size: 0.8em;
+        padding: 6px 12px;
+    }
+    
+    .timer-center .timer-display {
+        font-size: 1em;
+    }
+    
+    .timer-center .timer-pause-btn {
+        padding: 4px 10px;
+        font-size: 0.75em;
     }
 
     .riddle-option {

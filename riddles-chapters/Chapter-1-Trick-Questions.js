@@ -1,20 +1,20 @@
 /**
- * WPCode Snippet #2: Riddles Chapter 1 - Trick Questions (FIXED)
- * ==================================================
+ * WPCode Snippet: Riddles Chapter 1 - Trick Questions (4 LEVELS)
+ * ===============================================================
  * Type: JavaScript
  * Location: Auto Insert > Footer
- * Priority: 10
+ * Priority: 5
  * 
- * 100 COMPLETE Questions Organized by Difficulty Level
- * Easy (10) → Medium (25) → Hard (25) → Expert (25) → Extreme (25)
- *
- * COPY ALL CODE BELOW
+ * 85 Questions - 4 Difficulty Levels Only
+ * Easy (10) → Hard (25) → Expert (25) → Extreme (25)
+ * MEDIUM REMOVED
  */
 
-// Initialize or use existing riddlesQuestions object
-window.riddlesQuestions = window.riddlesQuestions || {};
+// Initialize ONCE
+if (!window.riddlesQuestions) {
+    window.riddlesQuestions = {};
+}
 
-// Add Chapter 1 riddles
 window.riddlesQuestions[1] = {
     easy: [
         {
@@ -85,183 +85,6 @@ window.riddlesQuestions[1] = {
             emoji: "🎪🎯",
             question: "What gets bigger the more you take away?",
             options: ["A hole", "A balloon", "Debt"],
-            correct: 0
-        }
-    ],
-    medium: [
-        {
-            topic: "Trick Questions",
-            emoji: "🧠💭",
-            question: "What has words but never speaks?",
-            options: ["A book", "A parrot", "A sign"],
-            correct: 0
-        },
-        {
-            topic: "Trick Questions",
-            emoji: "🎭🎪",
-            question: "What can fill a room but takes no space?",
-            options: ["Light", "Air", "Sound"],
-            correct: 0
-        },
-        {
-            topic: "Trick Questions",
-            emoji: "🔮✨",
-            question: "What building has the most stories?",
-            options: ["A library", "A skyscraper", "A museum"],
-            correct: 0
-        },
-        {
-            topic: "Trick Questions",
-            emoji: "🎯🧩",
-            question: "What has legs but doesn't walk?",
-            options: ["A table", "A spider", "Pants"],
-            correct: 0
-        },
-        {
-            topic: "Trick Questions",
-            emoji: "🌟💫",
-            question: "What runs but has no legs?",
-            options: ["Water", "A car", "Time"],
-            correct: 0
-        },
-        {
-            topic: "Trick Questions",
-            emoji: "🎨🖌️",
-            question: "What comes once in a minute, twice in a moment, but never in a thousand years?",
-            options: ["The letter M", "Time", "A heartbeat"],
-            correct: 0
-        },
-        {
-            topic: "Trick Questions",
-            emoji: "🔍🔎",
-            question: "What can you keep after giving it to someone?",
-            options: ["Your word", "Money", "A gift"],
-            correct: 0
-        },
-        {
-            topic: "Trick Questions",
-            emoji: "🎪🎭",
-            question: "What gets shorter as it gets older?",
-            options: ["A candle", "A pencil", "Your hair"],
-            correct: 0
-        },
-        {
-            topic: "Trick Questions",
-            emoji: "🌈🎯",
-            question: "What belongs to you but others use it more?",
-            options: ["Your name", "Your time", "Your phone"],
-            correct: 0
-        },
-        {
-            topic: "Trick Questions",
-            emoji: "🎨💡",
-            question: "What goes through cities but doesn't move?",
-            options: ["A road", "A car", "People"],
-            correct: 0
-        },
-        {
-            topic: "Trick Questions",
-            emoji: "🧠💡",
-            question: "What has an eye but cannot see?",
-            options: ["A needle", "A potato", "A storm"],
-            correct: 0
-        },
-        {
-            topic: "Trick Questions",
-            emoji: "🔮💭",
-            question: "What is always coming but never arrives?",
-            options: ["Tomorrow", "Death", "Success"],
-            correct: 0
-        },
-        {
-            topic: "Trick Questions",
-            emoji: "🌈✨",
-            question: "What has teeth but cannot bite?",
-            options: ["A comb", "A saw", "A zipper"],
-            correct: 0
-        },
-        {
-            topic: "Trick Questions",
-            emoji: "🔮🎨",
-            question: "What can travel around the world while staying in a corner?",
-            options: ["A stamp", "A map", "An email"],
-            correct: 0
-        },
-        {
-            topic: "Trick Questions",
-            emoji: "🎨💡",
-            question: "What is full of holes but still holds water?",
-            options: ["A sponge", "A bucket", "A net"],
-            correct: 0
-        },
-        {
-            topic: "Trick Questions",
-            emoji: "🧩💭",
-            question: "What begins with T, ends with T, and has T in it?",
-            options: ["A teapot", "Text", "Toast"],
-            correct: 0
-        },
-        {
-            topic: "Trick Questions",
-            emoji: "🔮✨",
-            question: "What has hands and a face but no arms or legs?",
-            options: ["A clock", "A statue", "A doll"],
-            correct: 0
-        },
-        {
-            topic: "Trick Questions",
-            emoji: "🧠💡",
-            question: "What kind of band never plays music?",
-            options: ["A rubber band", "A marching band", "A wedding band"],
-            correct: 0
-        },
-        {
-            topic: "Trick Questions",
-            emoji: "🎨🧩",
-            question: "What has a bottom at the top?",
-            options: ["Your legs", "A mountain", "A bottle"],
-            correct: 0
-        },
-        {
-            topic: "Trick Questions",
-            emoji: "🌟🔮",
-            question: "What has one head, one foot, and four legs?",
-            options: ["A bed", "A table", "A chair"],
-            correct: 0
-        },
-        {
-            topic: "Trick Questions",
-            emoji: "🎨💭",
-            question: "What can you hold in your right hand but never in your left?",
-            options: ["Your left elbow", "Your right hand", "A pen"],
-            correct: 0
-        },
-        {
-            topic: "Trick Questions",
-            emoji: "🧠🎨",
-            question: "What has a thumb and four fingers but is not alive?",
-            options: ["A glove", "A hand", "A puppet"],
-            correct: 0
-        },
-        {
-            topic: "Trick Questions",
-            emoji: "🌟💡",
-            question: "What room do ghosts avoid?",
-            options: ["The living room", "The bedroom", "The bathroom"],
-            correct: 0
-        },
-        {
-            topic: "Trick Questions",
-            emoji: "🎪💫",
-            question: "What is always in front of you but can't be seen?",
-            options: ["The future", "Air", "Your nose"],
-            correct: 0
-        },
-        {
-            topic: "Trick Questions",
-            emoji: "🔍🎨",
-            question: "What is so fragile that saying its name breaks it?",
-            options: ["Silence", "Glass", "A promise"],
             correct: 0
         }
     ],
@@ -510,7 +333,7 @@ window.riddlesQuestions[1] = {
             topic: "Trick Questions",
             emoji: "🎪💫",
             question: "What is the longest word in the dictionary?",
-            options: ["Smiles", "Encyclopedia", "Antidisestablishmentarianism", "Pneumonoultramicroscopicsilicovolcanoconiosis"],
+            options: ["Smiles", "Encyclopedia", "Antidisestablishmentarianism", "Pneumon..."],
             correct: 0
         },
         {
@@ -615,7 +438,7 @@ window.riddlesQuestions[1] = {
             topic: "Trick Questions",
             emoji: "🎪🌈",
             question: "I shave every day but my beard stays the same. Who am I?",
-            options: ["A barber", "A man with fast hair growth", "A liar", "No one"],
+            options: ["A barber", "A man with fast growth", "A liar", "No one"],
             correct: 0
         }
     ],
@@ -623,20 +446,14 @@ window.riddlesQuestions[1] = {
         {
             topic: "Trick Questions",
             emoji: "🔮✨",
-            question: "A man describes his daughters saying 'They are all blonde but two, all brunette but two, and all redheaded but two.' How many daughters does he have?",
+            question: "A man describes his daughters: 'They are all blonde but two, all brunette but two, and all redheaded but two.' How many daughters?",
             answer: "3"
         },
         {
             topic: "Trick Questions",
             emoji: "🧠🔮",
-            question: "A man is trapped in a room with two doors. One leads to certain death, one to freedom. Two guards: one always tells truth, one always lies. You can ask one guard one question. What do you ask?",
+            question: "A man is trapped in a room with two doors. One leads to death, one to freedom. Two guards: one tells truth, one lies. You can ask ONE guard ONE question. What do you ask?",
             answer: "Which door would the other guard say leads to freedom"
-        },
-        {
-            topic: "Trick Questions",
-            emoji: "🎯💭",
-            question: "You have 12 balls, identical in appearance. One weighs slightly different. Using a balance scale only 3 times, how do you find it and determine if it's heavier or lighter?",
-            answer: "Divide into 3 groups of 4, weigh two groups, then subdivide based on results"
         },
         {
             topic: "Trick Questions",
@@ -647,7 +464,7 @@ window.riddlesQuestions[1] = {
         {
             topic: "Trick Questions",
             emoji: "🌟💫",
-            question: "A surgeon says 'I can't operate on this boy, he's my son!' But the surgeon is not the boy's father. How is this possible?",
+            question: "A surgeon says 'I can't operate on this boy, he's my son!' But the surgeon is not the boy's father. How?",
             answer: "The surgeon is his mother"
         },
         {
@@ -665,7 +482,7 @@ window.riddlesQuestions[1] = {
         {
             topic: "Trick Questions",
             emoji: "🌟🧠",
-            question: "A girl has as many brothers as sisters, but each brother has only half as many brothers as sisters. How many brothers and sisters are there?",
+            question: "A girl has as many brothers as sisters, but each brother has only half as many brothers as sisters. How many brothers and sisters?",
             answer: "4 sisters and 3 brothers"
         },
         {
@@ -673,12 +490,6 @@ window.riddlesQuestions[1] = {
             emoji: "🎪💫",
             question: "What goes all around the world but stays in a corner?",
             answer: "A stamp"
-        },
-        {
-            topic: "Trick Questions",
-            emoji: "🎪🎭",
-            question: "A father and son get in a car crash at different hospitals. The surgeon says 'I can't operate, that's my son!' How if the father is at another hospital?",
-            answer: "The surgeon is his other father or The surgeon is the grandfather"
         },
         {
             topic: "Trick Questions",
@@ -695,31 +506,31 @@ window.riddlesQuestions[1] = {
         {
             topic: "Trick Questions",
             emoji: "🎪🌟",
-            question: "What 8-letter word can have a letter taken away and still make a word? Take another letter away and it still makes a word. Keep doing that until only one letter is left. What word is it?",
+            question: "What 8-letter word can have letters removed one by one and still make words until only one letter remains?",
             answer: "Starting"
         },
         {
             topic: "Trick Questions",
             emoji: "🧠💭",
-            question: "A truck driver is going down a one-way street the wrong way and passes 10 cops. Why wasn't he arrested?",
+            question: "A truck driver goes down a one-way street the wrong way and passes 10 cops. Why wasn't he arrested?",
             answer: "He was walking"
         },
         {
             topic: "Trick Questions",
             emoji: "🎯💫",
-            question: "A man was born in 1946 and died in 1947, yet he was 86 years old. How is this possible?",
+            question: "A man was born in 1946 and died in 1947, yet he was 86 years old. How?",
             answer: "Hospital room numbers"
         },
         {
             topic: "Trick Questions",
             emoji: "🧠🌈",
-            question: "A murderer is condemned to death. He has to choose between three rooms. First has raging fires, second has assassins with loaded guns, third has lions that haven't eaten in 3 years. Which is safest?",
+            question: "A murderer is condemned to death. He chooses between: raging fires, assassins with guns, or lions that haven't eaten in 3 years. Which is safest?",
             answer: "The lion room, they are dead"
         },
         {
             topic: "Trick Questions",
             emoji: "🎨🔮",
-            question: "If a red house is made of red bricks, a blue house is made of blue bricks, what is a greenhouse made of?",
+            question: "If a red house is made of red bricks, a blue house of blue bricks, what is a greenhouse made of?",
             answer: "Glass"
         },
         {
@@ -731,7 +542,7 @@ window.riddlesQuestions[1] = {
         {
             topic: "Trick Questions",
             emoji: "🎯🌟",
-            question: "A man pushes his car. He stops when he reaches a hotel at which point he knows he's bankrupt. What's happening?",
+            question: "A man pushes his car. He stops at a hotel and knows he's bankrupt. What's happening?",
             answer: "Playing Monopoly"
         },
         {
@@ -769,13 +580,24 @@ window.riddlesQuestions[1] = {
             emoji: "🎯💫",
             question: "What has 13 hearts but no other organs?",
             answer: "A deck of cards"
+        },
+        {
+            topic: "Trick Questions",
+            emoji: "🎯🔮",
+            question: "You have 12 balls, one weighs different. Using a balance scale 3 times, how do you find it?",
+            answer: "Divide into 3 groups of 4, weigh two groups, subdivide based on results"
+        },
+        {
+            topic: "Trick Questions",
+            emoji: "🎪🎭",
+            question: "A father and son crash at different hospitals. The surgeon says 'I can't operate, that's my son!' How if the father is at another hospital?",
+            answer: "The surgeon is the other father or grandfather"
         }
     ]
 };
 
-console.log('✅ Riddles Chapter 1 loaded:', 
+console.log('✅ Chapter 1 (4 levels):', 
     (window.riddlesQuestions[1].easy.length +
-     window.riddlesQuestions[1].medium.length +
      window.riddlesQuestions[1].hard.length +
      window.riddlesQuestions[1].expert.length +
-     window.riddlesQuestions[1].extreme.length) + ' total riddles')
+     window.riddlesQuestions[1].extreme.length) + ' total riddles');

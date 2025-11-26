@@ -1,19 +1,22 @@
 /**
- * WPCode Snippet #3: Riddles Chapter 3 - Number Riddles
+ * WPCode Snippet #12: Riddles Chapter 3 - Number Riddles  
  * ==================================================
  * Type: JavaScript
  * Location: Auto Insert > Footer
- * Priority: 10
+ * Priority: 12
  * 
  * 100 Questions Organized by Difficulty Level
- * Easy (10) → Medium (25) → Hard (25) → Expert (25) → Extreme (25)
- *
+ * Easy (35) → Hard (25) → Expert (25) → Extreme (25)
+ * 
  * COPY ALL CODE BELOW
  */
 
-const riddlesQuestions = {
-    3: {
-        easy: [
+// Initialize or use existing riddlesQuestions object
+window.riddlesQuestions = window.riddlesQuestions || {};
+
+// Add Chapter 3 riddles
+window.riddlesQuestions[3] = {
+    easy: [
             {
                 topic: "Number Riddles - Easy",
                 emoji: "🔢🎯",
@@ -104,8 +107,7 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             }
-        ],
-        medium: [
+,
             {
                 topic: "Number Riddles - Medium",
                 emoji: "🔢🧠",
@@ -356,8 +358,8 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             }
-        ],
-        hard: [
+    ],
+    hard: [
             {
                 topic: "Number Riddles - Hard",
                 emoji: "🔢🧠",
@@ -627,8 +629,8 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             }
-        ],
-        expert: [
+    ],
+    expert: [
             {
                 topic: "Number Riddles - Expert",
                 emoji: "🔢🧠",
@@ -929,8 +931,8 @@ const riddlesQuestions = {
                 ],
                 correct: 0
             }
-        ],
-        extreme: [
+    ],
+    extreme: [
             {
                 topic: "Number Riddles - Extreme",
                 emoji: "🔢🧠",
@@ -1024,10 +1026,6 @@ const riddlesQuestions = {
             },
             {
                 topic: "Number Riddles - Extreme",
-                emoji: "🔢💭",
-                difficulty: "extreme",
-            {
-                topic: "Number Riddles - Extreme",
                 emoji: "🔢🌟",
                 difficulty: "extreme",
                 question: "A bat and ball together cost $1.10. The bat costs $1.00 more than the ball. What's the exact price of the ball in cents?",
@@ -1103,14 +1101,11 @@ const riddlesQuestions = {
                 question: "How many trailing zeros does 100! (100 factorial) have?",
                 answer: "24"
             }
-        ]
-    }
+    ]
 };
 
-// Register in global question bank
-if (typeof subjectQuestionBank !== 'undefined') {
-    if (!subjectQuestionBank['riddles']) {
-        subjectQuestionBank['riddles'] = {};
-    }
-    subjectQuestionBank['riddles'][3] = riddlesQuestions[3];
-}
+console.log('✅ Riddles Chapter 3 loaded:', 
+    (window.riddlesQuestions[3].easy.length +
+     window.riddlesQuestions[3].hard.length +
+     window.riddlesQuestions[3].expert.length +
+     window.riddlesQuestions[3].extreme.length) + ' total riddles');

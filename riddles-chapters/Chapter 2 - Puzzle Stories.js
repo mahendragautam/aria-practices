@@ -22,176 +22,251 @@ window.riddlesQuestions[2] = {
             topic: "Puzzle Stories",
             emoji: "📖🔍",
             question: "A man lives on the 10th floor. Every day he takes the elevator down to the lobby. But when he returns, he only takes it to the 7th floor and walks the rest. Why?",
-            options: ["He's short and can't reach button 10", "He wants exercise"],
-            correct: 0
+            options: [
+                    "He wants exercise",
+                    "He's short and can't reach button 10"
+                ],
+            correct: 1
         },
         {
             topic: "Puzzle Stories",
             emoji: "🎪🔍",
             question: "A man is pushing his car along a road when he comes to a hotel. He shouts 'I'm bankrupt!' Why?",
-            options: ["He's playing Monopoly", "His car broke down"],
-            correct: 0
+            options: [
+                    "His car broke down",
+                    "He's playing Monopoly"
+                ],
+            correct: 1
         },
         {
             topic: "Puzzle Stories",
             emoji: "🎨🎭",
             question: "A man looks at a painting and says: 'Brothers and sisters I have none, but that man's father is my father's son.' Who is in the painting?",
-            options: ["His son", "Himself"],
-            correct: 0
+            options: [
+                    "Himself",
+                    "His son"
+                ],
+            correct: 1
         },
         {
             topic: "Puzzle Stories",
             emoji: "🔍🌈",
             question: "Two girls were born to the same mother, on the same day, at the same time, in the same year. Yet they're not twins. How?",
-            options: ["They're triplets", "They're not related"],
-            correct: 0
+            options: [
+                    "They're not related",
+                    "They're triplets"
+                ],
+            correct: 1
         },
         {
             topic: "Puzzle Stories",
             emoji: "🧩🔮",
             question: "A man rode into town on Friday. He stayed for three nights and left on Friday. How?",
-            options: ["Friday is his horse's name", "He left on a different Friday"],
-            correct: 0
+            options: [
+                    "He left on a different Friday",
+                    "Friday is his horse's name"
+                ],
+            correct: 1
         },
         {
             topic: "Puzzle Stories",
             emoji: "🎯🎨",
             question: "What can you catch but not throw?",
-            options: ["A cold", "A ball"],
-            correct: 0
+            options: [
+                    "A ball",
+                    "A cold"
+                ],
+            correct: 1
         },
         {
             topic: "Puzzle Stories",
             emoji: "🧠🌈",
             question: "What can you put in a wooden box that would make it lighter?",
-            options: ["Holes", "Air"],
-            correct: 0
+            options: [
+                    "Air",
+                    "Holes"
+                ],
+            correct: 1
         },
         {
             topic: "Puzzle Stories",
             emoji: "🧩🎨",
             question: "A cowboy rode into town on Friday, stayed three days, and rode out again on Friday. How?",
-            options: ["Friday is his horse", "Time travel"],
-            correct: 0
+            options: [
+                    "Time travel",
+                    "Friday is his horse"
+                ],
+            correct: 1
         },
         {
             topic: "Puzzle Stories",
             emoji: "🔍🌟",
             question: "A murderer is condemned to death. He can choose from three rooms. The first is full of raging fires, the second has assassins with loaded guns, and the third has lions that haven't eaten in three years. Which is safest?",
-            options: ["The third (lions are dead)", "The first"],
-            correct: 0
+            options: [
+                    "The first",
+                    "The third (lions are dead)"
+                ],
+            correct: 1
         },
         {
             topic: "Puzzle Stories",
             emoji: "🎯🧩",
             question: "Two fathers and two sons go fishing. They each catch one fish. But only three fish were caught. How?",
-            options: ["Grandfather, father, and son", "One lied"],
-            correct: 0
+            options: [
+                    "One lied",
+                    "Grandfather, father, and son"
+                ],
+            correct: 1
         },
         {
             topic: "Puzzle Stories",
             emoji: "🧠🌈",
             question: "A woman gave birth to two sons who were born on the same hour of the same day of the same year, but were not twins. How?",
-            options: ["They were triplets", "Adoption"],
-            correct: 0
+            options: [
+                    "Adoption",
+                    "They were triplets"
+                ],
+            correct: 1
         },
         {
             topic: "Puzzle Stories",
             emoji: "🎭🔮",
             question: "A man is born in 1972 and dies in 1952 at the age of 25. How is this possible?",
-            options: ["Room numbers", "B.C. years"],
-            correct: 0
+            options: [
+                    "B.C. years",
+                    "Room numbers"
+                ],
+            correct: 1
         },
         {
             topic: "Puzzle Stories",
             emoji: "🔍💭",
             question: "A man is wearing all black. Black shoes, socks, trousers, jumper, and gloves. He's walking down a black street with all the street lamps off. A black car with no headlights comes toward him but stops in time. How did the driver see him?",
-            options: ["It was daytime", "Car had sensors"],
-            correct: 0
+            options: [
+                    "Car had sensors",
+                    "It was daytime"
+                ],
+            correct: 1
         },
         {
             topic: "Puzzle Stories",
             emoji: "🎯🧠",
             question: "There's a one-story house where everything is yellow. The walls, carpet, furniture. What color are the stairs?",
-            options: ["There are no stairs", "Yellow"],
-            correct: 0
+            options: [
+                    "Yellow",
+                    "There are no stairs"
+                ],
+            correct: 1
         },
         {
             topic: "Puzzle Stories",
             emoji: "🎭🌟",
             question: "A man is dead in a phone booth. The phone is off the hook and the floor is covered with water and glass. How did he die?",
-            options: ["He was a fish in a bowl", "Electrocution"],
-            correct: 0
+            options: [
+                    "Electrocution",
+                    "He was a fish in a bowl"
+                ],
+            correct: 1
         },
         {
             topic: "Puzzle Stories",
             emoji: "🔍🌈",
             question: "A man has a bee in his hand. What's in his eye?",
-            options: ["Beauty (beauty is in the eye of the beholder)", "Pollen"],
-            correct: 0
+            options: [
+                    "Pollen",
+                    "Beauty (beauty is in the eye of the beholder)"
+                ],
+            correct: 1
         },
         {
             topic: "Puzzle Stories",
             emoji: "🌟🧩",
             question: "A man wants to escape from a room. There are only two exits. One through a door to a room of deadly gas, the other through a door with a man with a gun. How does he escape?",
-            options: ["Wait and take second door when man sleeps", "Fight the man"],
-            correct: 0
+            options: [
+                    "Fight the man",
+                    "Wait and take second door when man sleeps"
+                ],
+            correct: 1
         },
         {
             topic: "Puzzle Stories",
             emoji: "🎯💫",
             question: "A man jumps off a 20-story building. He survives without injury. How?",
-            options: ["He jumped from the first floor", "Landed in safety net"],
-            correct: 0
+            options: [
+                    "Landed in safety net",
+                    "He jumped from the first floor"
+                ],
+            correct: 1
         },
         {
             topic: "Puzzle Stories",
             emoji: "🎭✨",
             question: "A man in California can't legally marry his widow's sister. Why?",
-            options: ["He's dead", "It's illegal"],
-            correct: 0
+            options: [
+                    "It's illegal",
+                    "He's dead"
+                ],
+            correct: 1
         },
         {
             topic: "Puzzle Stories",
             emoji: "🔍🎨",
             question: "A man is looking at someone's picture. His friend asks who it is. The man replies, 'I have no brothers or sisters, but that man's father is my father's son.' Who is in the picture?",
-            options: ["His son", "Himself"],
-            correct: 0
+            options: [
+                    "Himself",
+                    "His son"
+                ],
+            correct: 1
         },
         {
             topic: "Puzzle Stories",
             emoji: "🔍🌟",
             question: "A man and his son get into a car accident. The man dies. The boy is rushed to the hospital and the surgeon says, 'I can't operate on this boy, he's my son.' How?",
-            options: ["Surgeon is his mother", "Two fathers"],
-            correct: 0
+            options: [
+                    "Two fathers",
+                    "Surgeon is his mother"
+                ],
+            correct: 1
         },
         {
             topic: "Puzzle Stories",
             emoji: "🌈🧩",
             question: "Two mothers and two daughters went out to eat. Everyone ate one burger, yet only three burgers were eaten. How?",
-            options: ["Grandmother, mother, daughter", "Someone didn't eat"],
-            correct: 0
+            options: [
+                    "Someone didn't eat",
+                    "Grandmother, mother, daughter"
+                ],
+            correct: 1
         },
         {
             topic: "Puzzle Stories",
             emoji: "🎯🎨",
             question: "A man is looking at a portrait. Someone asks him who he's looking at. He replies: 'Brothers and sisters I have none, but that man's father is my father's son.' Who's in the portrait?",
-            options: ["His son", "Himself"],
-            correct: 0
+            options: [
+                    "Himself",
+                    "His son"
+                ],
+            correct: 1
         },
         {
             topic: "Puzzle Stories",
             emoji: "🎭✨",
             question: "A man rode into town on Tuesday. Two days later he rode home on Tuesday. How is this possible?",
-            options: ["Tuesday is his horse", "Time zone"],
-            correct: 0
+            options: [
+                    "Time zone",
+                    "Tuesday is his horse"
+                ],
+            correct: 1
         },
         {
             topic: "Puzzle Stories",
             emoji: "🧩🌟",
             question: "What can run but never walks, has a mouth but never talks, has a head but never weeps, has a bed but never sleeps?",
-            options: ["A river", "A clock"],
-            correct: 0
+            options: [
+                    "A clock",
+                    "A river"
+                ],
+            correct: 1
         }
     ],
     hard: [
@@ -200,176 +275,276 @@ window.riddlesQuestions[2] = {
             topic: "Puzzle Stories",
             emoji: "🎭💭",
             question: "A man is found dead in a room with 53 bicycles. How did he die?",
-            options: ["Playing cards (cheating)", "Bicycle accident", "Heart attack"],
-            correct: 0
+            options: [
+                    "Heart attack",
+                    "Playing cards (cheating)",
+                    "Bicycle accident"
+                ],
+            correct: 1
         },
         {
             topic: "Puzzle Stories",
             emoji: "🌈💡",
             question: "Romeo and Juliet are found dead on the floor with water and glass around them. How did they die?",
-            options: ["They're fish and bowl broke", "Poisoning", "Murder"],
+            options: [
+                    "They're fish and bowl broke",
+                    "Murder",
+                    "Poisoning"
+                ],
             correct: 0
         },
         {
             topic: "Puzzle Stories",
             emoji: "🌟🔮",
             question: "A man lives in a house with four walls. Each wall has a window facing south. A bear walks by. What color is the bear?",
-            options: ["White (polar bear)", "Brown", "Black"],
+            options: [
+                    "White (polar bear)",
+                    "Black",
+                    "Brown"
+                ],
             correct: 0
         },
         {
             topic: "Puzzle Stories",
             emoji: "🎯💡",
             question: "A woman has 5 daughters. Each daughter has 1 brother. How many children does she have?",
-            options: ["6 children", "10 children", "5 children"],
-            correct: 0
+            options: [
+                    "10 children",
+                    "6 children",
+                    "5 children"
+                ],
+            correct: 1
         },
         {
             topic: "Puzzle Stories",
             emoji: "🎪🌟",
             question: "A man is found hanging in a barn with a pile of sawdust beneath him. What happened?",
-            options: ["He stood on ice that melted", "He was murdered", "He fell"],
+            options: [
+                    "He stood on ice that melted",
+                    "He fell",
+                    "He was murdered"
+                ],
             correct: 0
         },
         {
             topic: "Puzzle Stories",
             emoji: "🌟🧩",
             question: "What goes in hard, comes out soft, and you blow continuously?",
-            options: ["Chewing gum", "Bubble gum", "Balloon"],
-            correct: 0
+            options: [
+                    "Balloon",
+                    "Bubble gum",
+                    "Chewing gum"
+                ],
+            correct: 2
         },
         {
             topic: "Puzzle Stories",
             emoji: "🎭💫",
             question: "A man is found dead with a cassette recorder in one hand and a gun in the other. When police press play, they hear: 'I can't go on, I have nothing to live for.' Then a gunshot. What happened?",
-            options: ["Murder (tape was rewound)", "Suicide", "Accident"],
+            options: [
+                    "Murder (tape was rewound)",
+                    "Accident",
+                    "Suicide"
+                ],
             correct: 0
         },
         {
             topic: "Puzzle Stories",
             emoji: "🎪💭",
             question: "A man is running along a corridor with a piece of paper. The lights flicker and he dies. What happened?",
-            options: ["Airplane crash", "Heart attack", "Murdered"],
-            correct: 0
+            options: [
+                    "Murdered",
+                    "Airplane crash",
+                    "Heart attack"
+                ],
+            correct: 1
         },
         {
             topic: "Puzzle Stories",
             emoji: "🧠💫",
             question: "A man is running home. He is about to reach it when a man wearing a mask jumps out. He turns and runs back where he came from. What's happening?",
-            options: ["Playing baseball", "Robbery", "Halloween"],
-            correct: 0
+            options: [
+                    "Halloween",
+                    "Robbery",
+                    "Playing baseball"
+                ],
+            correct: 2
         },
         {
             topic: "Puzzle Stories",
             emoji: "🔮💭",
             question: "A man is in a bar. He looks at the bartender and says, 'Banana.' The bartender smiles. What happened?",
-            options: ["Password to secret club", "Inside joke", "Bartender is deaf"],
-            correct: 0
+            options: [
+                    "Inside joke",
+                    "Password to secret club",
+                    "Bartender is deaf"
+                ],
+            correct: 1
         },
         {
             topic: "Puzzle Stories",
             emoji: "🎪💡",
             question: "A man is found murdered on Sunday morning. His wife calls police saying she was sleeping. Police question the wife and staff. The cook says she was cooking breakfast, the maid says she was getting mail, the butler says he was polishing silverware. Who did it?",
-            options: ["The maid (no mail Sunday)", "The cook", "The butler"],
-            correct: 0
+            options: [
+                    "The butler",
+                    "The maid (no mail Sunday)",
+                    "The cook"
+                ],
+            correct: 1
         },
         {
             topic: "Puzzle Stories",
             emoji: "🧩💭",
             question: "A man leaves home, makes three left turns, and returns home where he finds two masked men. What's happening?",
-            options: ["Playing baseball", "Robbery", "Halloween"],
-            correct: 0
+            options: [
+                    "Robbery",
+                    "Playing baseball",
+                    "Halloween"
+                ],
+            correct: 1
         },
         {
             topic: "Puzzle Stories",
             emoji: "🧠✨",
             question: "A man walks into a bar and asks for a drink. The bartender pulls out a gun and points it at him. The man says 'Thank you' and walks out. Why?",
-            options: ["He had hiccups", "Wrong bar", "Joke between friends"],
+            options: [
+                    "He had hiccups",
+                    "Joke between friends",
+                    "Wrong bar"
+                ],
             correct: 0
         },
         {
             topic: "Puzzle Stories",
             emoji: "🔍💭",
             question: "A man is found dead with a match in his hand in the middle of a field. What happened?",
-            options: ["Hot air balloon crash", "Lightning strike", "Murder"],
-            correct: 0
+            options: [
+                    "Murder",
+                    "Hot air balloon crash",
+                    "Lightning strike"
+                ],
+            correct: 1
         },
         {
             topic: "Puzzle Stories",
             emoji: "🎪✨",
             question: "A man is replacing a wheel on his car when four of the five nuts are blown by a gust of wind into a sewer. A boy nearby tells him an idea. The man thanks the boy and drives away safely. What was the idea?",
-            options: ["Take one nut from each other wheel", "Call for help", "Tow truck"],
-            correct: 0
+            options: [
+                    "Call for help",
+                    "Tow truck",
+                    "Take one nut from each other wheel"
+                ],
+            correct: 2
         },
         {
             topic: "Puzzle Stories",
             emoji: "🧩💡",
             question: "A man comes home to find his wife dead on the floor. There are pieces of glass and some water on the floor with her. He knows immediately how she died. How?",
-            options: ["She choked on ice", "Fishbowl broke", "Glass of water"],
+            options: [
+                    "She choked on ice",
+                    "Glass of water",
+                    "Fishbowl broke"
+                ],
             correct: 0
         },
         {
             topic: "Puzzle Stories",
             emoji: "🧠🔮",
             question: "A man is trapped in a room with two doors. One door leads to a room of fire, the other to a room with lions that haven't eaten in 6 months. Which is safer?",
-            options: ["Lions (they're dead)", "Fire room", "Both unsafe"],
-            correct: 0
+            options: [
+                    "Fire room",
+                    "Both unsafe",
+                    "Lions (they're dead)"
+                ],
+            correct: 2
         },
         {
             topic: "Puzzle Stories",
             emoji: "🎨💫",
             question: "A man is found dead in a room with 52 bicycles. How did he die?",
-            options: ["Cheating at cards", "Bicycle accident", "Poisoning"],
-            correct: 0
+            options: [
+                    "Bicycle accident",
+                    "Poisoning",
+                    "Cheating at cards"
+                ],
+            correct: 2
         },
         {
             topic: "Puzzle Stories",
             emoji: "🎪💡",
             question: "A man is found dead in a locked car with the windows up and the doors locked. There's no damage to the car. How did he die?",
-            options: ["Carbon monoxide poisoning", "Heart attack", "Suffocation"],
-            correct: 0
+            options: [
+                    "Heart attack",
+                    "Suffocation",
+                    "Carbon monoxide poisoning"
+                ],
+            correct: 2
         },
         {
             topic: "Puzzle Stories",
             emoji: "🧩💫",
             question: "A man is pushed out of an airplane without a parachute. He survives with no injuries. How?",
-            options: ["Plane was on ground", "Landed in water", "Had hidden parachute"],
-            correct: 0
+            options: [
+                    "Had hidden parachute",
+                    "Landed in water",
+                    "Plane was on ground"
+                ],
+            correct: 2
         },
         {
             topic: "Puzzle Stories",
             emoji: "🧠💡",
             question: "A man is running through a field, screaming. He dies. A few seconds later, another man takes the exact same route, screaming, and dies. What's happening?",
-            options: ["Parachute didn't open", "Landmine", "Sniper"],
-            correct: 0
+            options: [
+                    "Landmine",
+                    "Parachute didn't open",
+                    "Sniper"
+                ],
+            correct: 1
         },
         {
             topic: "Puzzle Stories",
             emoji: "🔮💭",
             question: "A man is found hanging from a 30-foot ceiling. There's no furniture or anything to climb on. The only evidence is a puddle on the floor. How did he hang himself?",
-            options: ["Stood on ice", "Ladder removed", "Rope was longer"],
-            correct: 0
+            options: [
+                    "Rope was longer",
+                    "Ladder removed",
+                    "Stood on ice"
+                ],
+            correct: 2
         },
         {
             topic: "Puzzle Stories",
             emoji: "🎪💡",
             question: "A man is found murdered on a Sunday morning. His wife said she was reading. The butler said he was taking a shower. The chef said he was making breakfast. The maid said she was getting the mail. Who did it?",
-            options: ["The maid (no mail Sunday)", "The wife", "The butler"],
-            correct: 0
+            options: [
+                    "The butler",
+                    "The maid (no mail Sunday)",
+                    "The wife"
+                ],
+            correct: 1
         },
         {
             topic: "Puzzle Stories",
             emoji: "🧠🎨",
             question: "A man is walking in the middle of the night and sees two headlights. He's scared and starts running. The headlights follow him wherever he goes. He can't escape. What's happening?",
-            options: ["He's on train tracks", "Stalker", "Hallucinating"],
-            correct: 0
+            options: [
+                    "Stalker",
+                    "Hallucinating",
+                    "He's on train tracks"
+                ],
+            correct: 2
         },
         {
             topic: "Puzzle Stories",
             emoji: "🌈🔮",
             question: "A man is found dead with a tape recorder in his hand. When police play it, they hear: 'I'm about to die, the killer is...' then a gunshot. How do they know it's murder?",
-            options: ["Dead man can't rewind tape", "Fingerprints on gun", "No gun found"],
-            correct: 0
+            options: [
+                    "No gun found",
+                    "Fingerprints on gun",
+                    "Dead man can't rewind tape"
+                ],
+            correct: 2
         }
     ],
     expert: [
@@ -378,176 +553,301 @@ window.riddlesQuestions[2] = {
             topic: "Puzzle Stories",
             emoji: "🧩🌟",
             question: "A woman shoots her husband, then holds him underwater for 5 minutes. Finally, she hangs him. But 10 minutes later they both go out and enjoy a wonderful dinner together. How?",
-            options: ["She's a magician", "She's a photographer", "It was a play", "He's immortal"],
+            options: [
+                    "It was a play",
+                    "She's a photographer",
+                    "She's a magician",
+                    "He's immortal"
+                ],
             correct: 1
         },
         {
             topic: "Puzzle Stories",
             emoji: "🎯🧠",
             question: "A man hangs himself in a room with nothing but a puddle of water beneath him. The ceiling is 20 feet high. How did he do it?",
-            options: ["He climbed a ladder", "He stood on ice", "He jumped", "Magic trick"],
-            correct: 1
+            options: [
+                    "He stood on ice",
+                    "He climbed a ladder",
+                    "He jumped",
+                    "Magic trick"
+                ],
+            correct: 0
         },
         {
             topic: "Puzzle Stories",
             emoji: "🧩💭",
             question: "A man is lying dead in a field with an unopened package beside him. There are no other creatures around. How did he die?",
-            options: ["His parachute", "Poison in package", "Heart attack", "Lightning strike"],
+            options: [
+                    "His parachute",
+                    "Heart attack",
+                    "Lightning strike",
+                    "Poison in package"
+                ],
             correct: 0
         },
         {
             topic: "Puzzle Stories",
             emoji: "🌟🧠",
             question: "A cabin in the woods contains no living creatures. Inside are 53 people, all dead. How did they die?",
-            options: ["Airplane crash", "Gas leak", "Fire", "Poisoning"],
+            options: [
+                    "Airplane crash",
+                    "Poisoning",
+                    "Fire",
+                    "Gas leak"
+                ],
             correct: 0
         },
         {
             topic: "Puzzle Stories",
             emoji: "🔍💭",
             question: "A man walks all day on two healthy legs but goes to bed with six legs at night. How?",
-            options: ["Bed has four legs", "He's a centaur", "He wears prosthetics", "Magic"],
-            correct: 0
+            options: [
+                    "He's a centaur",
+                    "He wears prosthetics",
+                    "Magic",
+                    "Bed has four legs"
+                ],
+            correct: 3
         },
         {
             topic: "Puzzle Stories",
             emoji: "🔮💡",
             question: "A man is trapped in a room. There are only two doors. Through the first door is a room made of magnifying glass. Through the second door is a fire-breathing dragon. How does he escape?",
-            options: ["Wait until night, use first door", "Fight dragon", "Break magnifying glass", "Wait for rescue"],
+            options: [
+                    "Wait until night, use first door",
+                    "Break magnifying glass",
+                    "Fight dragon",
+                    "Wait for rescue"
+                ],
             correct: 0
         },
         {
             topic: "Puzzle Stories",
             emoji: "🌟🎯",
             question: "A man is driving a black car. His lights are off. The moon isn't out. A woman wearing all black starts crossing the street. How does he see her?",
-            options: ["It's daytime", "Street lights", "She has reflectors", "Car sensors"],
-            correct: 0
+            options: [
+                    "Car sensors",
+                    "She has reflectors",
+                    "Street lights",
+                    "It's daytime"
+                ],
+            correct: 3
         },
         {
             topic: "Puzzle Stories",
             emoji: "🌈🔮",
             question: "A man went to a party and drank some punch. He then left early. Everyone who stayed at the party died of poisoning. How did he survive?",
-            options: ["Poison was in ice cubes", "He had antidote", "He didn't drink much", "Immune"],
-            correct: 0
+            options: [
+                    "He didn't drink much",
+                    "Poison was in ice cubes",
+                    "Immune",
+                    "He had antidote"
+                ],
+            correct: 1
         },
         {
             topic: "Puzzle Stories",
             emoji: "🎭✨",
             question: "Acting on an anonymous tip, police raid a house. They arrest the man living there for suspicion of murder. They don't know the victim's name, where they were killed, or when. How can they arrest him?",
-            options: ["The man was the tip caller", "DNA evidence", "Confession", "Witness saw him"],
-            correct: 0
+            options: [
+                    "DNA evidence",
+                    "Confession",
+                    "Witness saw him",
+                    "The man was the tip caller"
+                ],
+            correct: 3
         },
         {
             topic: "Puzzle Stories",
             emoji: "🌟🔍",
             question: "A man calls his wife from his car and tells her he'll be home by 8pm. At 8:03pm his car smashes into the front of his house, killing him instantly. How did the wife know to call 911 at exactly 8:00pm?",
-            options: ["She saw brake failure", "She caused the crash", "Psychic vision", "Lucky guess"],
-            correct: 1
+            options: [
+                    "Psychic vision",
+                    "She saw brake failure",
+                    "Lucky guess",
+                    "She caused the crash"
+                ],
+            correct: 3
         },
         {
             topic: "Puzzle Stories",
             emoji: "🔍✨",
             question: "A man is found dead at the bottom of a building. A detective arrives and sees an open window at the top. He closes the case immediately. What happened?",
-            options: ["The man jumped", "Suicide note visible", "Obvious accident", "Security footage"],
-            correct: 0
+            options: [
+                    "Suicide note visible",
+                    "Security footage",
+                    "The man jumped",
+                    "Obvious accident"
+                ],
+            correct: 2
         },
         {
             topic: "Puzzle Stories",
             emoji: "🌈🎪",
             question: "A woman shoots her husband. She holds him underwater for over 5 minutes. Then she hangs him. Right after, they go out and enjoy dinner. How?",
-            options: ["She's a photographer", "It's a play", "He's immortal", "Dream sequence"],
-            correct: 0
+            options: [
+                    "He's immortal",
+                    "It's a play",
+                    "She's a photographer",
+                    "Dream sequence"
+                ],
+            correct: 2
         },
         {
             topic: "Puzzle Stories",
             emoji: "🎨🔮",
             question: "A man was walking in the rain with no hat or umbrella. His clothes got soaked, but not a single hair on his head got wet. How?",
-            options: ["He's bald", "Inside building", "Wearing hood", "Running fast"],
-            correct: 0
+            options: [
+                    "Running fast",
+                    "He's bald",
+                    "Wearing hood",
+                    "Inside building"
+                ],
+            correct: 1
         },
         {
             topic: "Puzzle Stories",
             emoji: "🌟🎯",
             question: "A wealthy man lives alone in a small cottage. Being partially handicapped, he had everything delivered to his cottage. One Thursday the mailman came to deliver a package and saw the man dead in his home. The mailman immediately called the police. Why did the mailman suspect foul play?",
-            options: ["Mail piled up for days", "Door was open", "Blood visible", "Knew his schedule"],
-            correct: 0
+            options: [
+                    "Blood visible",
+                    "Mail piled up for days",
+                    "Knew his schedule",
+                    "Door was open"
+                ],
+            correct: 1
         },
         {
             topic: "Puzzle Stories",
             emoji: "🔮🔍",
             question: "A man is found hanging in an empty locked room. The only thing in the room besides the body is a puddle of water. How did he manage to hang himself?",
-            options: ["Stood on ice block", "Climbed rope", "Jumped from chair", "Ladder disappeared"],
-            correct: 0
+            options: [
+                    "Ladder disappeared",
+                    "Climbed rope",
+                    "Jumped from chair",
+                    "Stood on ice block"
+                ],
+            correct: 3
         },
         {
             topic: "Puzzle Stories",
             emoji: "🌈🎪",
             question: "A man enters a cabin and immediately knows someone has died. The cabin has no windows or doors. How does he know?",
-            options: ["Airplane cabin", "Elevator", "Train compartment", "Submarine"],
+            options: [
+                    "Airplane cabin",
+                    "Train compartment",
+                    "Submarine",
+                    "Elevator"
+                ],
             correct: 0
         },
         {
             topic: "Puzzle Stories",
             emoji: "🌟🎯",
             question: "A man is dead in his office. He has a cassette recorder on his desk. When police play it back, they hear 'I have nothing to live for' and a gunshot. How do they know it's murder?",
-            options: ["Tape was rewound", "No gun found", "Door was locked", "Fingerprints"],
-            correct: 0
+            options: [
+                    "No gun found",
+                    "Tape was rewound",
+                    "Fingerprints",
+                    "Door was locked"
+                ],
+            correct: 1
         },
         {
             topic: "Puzzle Stories",
             emoji: "🧩✨",
             question: "A body is discovered in a park at six in the morning. The police are called. The detective interviews the groundskeeper, the cook, the mailman, and the gardener. The mailman confesses. Why did the mailman confess?",
-            options: ["Mail isn't delivered at 6am", "He was lying", "Evidence against him", "Guilty conscience"],
-            correct: 0
+            options: [
+                    "Evidence against him",
+                    "Guilty conscience",
+                    "He was lying",
+                    "Mail isn't delivered at 6am"
+                ],
+            correct: 3
         },
         {
             topic: "Puzzle Stories",
             emoji: "🌈🔍",
             question: "A man walks into a restaurant and orders albatross. After one bite, he goes home and kills himself. Why?",
-            options: ["He realized he ate his wife", "Food was poisoned", "He was allergic", "Bad memory triggered"],
-            correct: 0
+            options: [
+                    "Bad memory triggered",
+                    "Food was poisoned",
+                    "He realized he ate his wife",
+                    "He was allergic"
+                ],
+            correct: 2
         },
         {
             topic: "Puzzle Stories",
             emoji: "🌟✨",
             question: "A woman has incontrovertible proof in court that her husband was murdered by her sister. The judge declares, 'This is her sister and her husband's murderer, but I cannot send her to jail.' Why?",
-            options: ["They're conjoined twins", "Diplomatic immunity", "Insanity plea", "Already in jail"],
-            correct: 0
+            options: [
+                    "Insanity plea",
+                    "They're conjoined twins",
+                    "Diplomatic immunity",
+                    "Already in jail"
+                ],
+            correct: 1
         },
         {
             topic: "Puzzle Stories",
             emoji: "🎨🔮",
             question: "A man walks into a bar, orders a drink, then immediately pulls out a gun and shoots the bartender. The bartender thanks him. Why?",
-            options: ["Cured his hiccups", "Acting rehearsal", "Blank bullets", "Joke between friends"],
-            correct: 0
+            options: [
+                    "Acting rehearsal",
+                    "Joke between friends",
+                    "Cured his hiccups",
+                    "Blank bullets"
+                ],
+            correct: 2
         },
         {
             topic: "Puzzle Stories",
             emoji: "🌈🎯",
             question: "A man and his wife raced through the streets. They stopped and the husband got out of the car. He came back with a baby. They raced back to the same place. What happened?",
-            options: ["Hospital birth", "Kidnapping", "Adoption", "Babysitting"],
-            correct: 0
+            options: [
+                    "Adoption",
+                    "Babysitting",
+                    "Hospital birth",
+                    "Kidnapping"
+                ],
+            correct: 2
         },
         {
             topic: "Puzzle Stories",
             emoji: "🌟🧩",
             question: "A man is found dead in his cabin in the woods in the middle of winter. The cabin is locked from the inside. The only clue is a pile of water and sawdust. How did he die?",
-            options: ["Stood on ice, melted", "Hypothermia", "Carbon monoxide", "Murder"],
-            correct: 0
+            options: [
+                    "Murder",
+                    "Hypothermia",
+                    "Stood on ice, melted",
+                    "Carbon monoxide"
+                ],
+            correct: 2
         },
         {
             topic: "Puzzle Stories",
             emoji: "🔍💭",
             question: "A man goes to a funeral. There he meets a woman. He tries to get her number but she leaves before he can. A week later he kills his brother. Why?",
-            options: ["To see her at funeral", "Jealousy", "Inheritance", "Accident"],
-            correct: 0
+            options: [
+                    "Inheritance",
+                    "Accident",
+                    "To see her at funeral",
+                    "Jealousy"
+                ],
+            correct: 2
         },
         {
             topic: "Puzzle Stories",
             emoji: "🧩💡",
             question: "A man enters his house and sees his wife hanging from the ceiling fan. There's a puddle of water below her and the fan is on. What happened?",
-            options: ["She stood on ice", "Pushed from ladder", "Suicide note", "Someone helped"],
-            correct: 0
+            options: [
+                    "Someone helped",
+                    "Suicide note",
+                    "Pushed from ladder",
+                    "She stood on ice"
+                ],
+            correct: 3
         }
     ],
     extreme: [

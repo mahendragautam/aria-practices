@@ -19,350 +19,350 @@ window.riddlesQuestions[12] = {
                 emoji: "🔢✨",
                 question: "What comes next in the sequence: 2, 4, 6, 8, __?",
                 options: [
-                    "10",
-                    "12"
+                    "12",
+                    "10"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Easy",
                 emoji: "🎯💡",
                 question: "What letter comes next: A, B, C, D, __?",
                 options: [
-                    "E",
-                    "F"
+                    "F",
+                    "E"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Easy",
                 emoji: "🌟🔤",
                 question: "What comes next: Monday, Tuesday, Wednesday, __?",
                 options: [
-                    "Thursday",
-                    "Friday"
+                    "Friday",
+                    "Thursday"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Easy",
                 emoji: "💫🔢",
                 question: "What number comes next: 5, 10, 15, 20, __?",
                 options: [
-                    "25",
-                    "30"
+                    "30",
+                    "25"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Easy",
                 emoji: "🎨📅",
                 question: "What month comes next: January, February, March, __?",
                 options: [
-                    "April",
-                    "May"
+                    "May",
+                    "April"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Easy",
                 emoji: "🔮✨",
                 question: "What comes next: 1, 2, 3, 4, __?",
                 options: [
-                    "5",
-                    "6"
+                    "6",
+                    "5"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Easy",
                 emoji: "🎯🌈",
                 question: "What comes next: Red, Orange, Yellow, Green, __?",
                 options: [
-                    "Blue",
-                    "Purple"
+                    "Purple",
+                    "Blue"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Easy",
                 emoji: "🔢💭",
                 question: "What number comes next: 10, 20, 30, 40, __?",
                 options: [
-                    "50",
-                    "60"
+                    "60",
+                    "50"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Easy",
                 emoji: "✨🎪",
                 question: "What comes next: Spring, Summer, Fall, __?",
                 options: [
-                    "Winter",
-                    "Spring"
+                    "Spring",
+                    "Winter"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Easy",
                 emoji: "🌟🔤",
                 question: "What comes next: First, Second, Third, __?",
                 options: [
-                    "Fourth",
-                    "Fifth"
+                    "Fifth",
+                    "Fourth"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Medium",
                 emoji: "🔢🔮",
                 question: "What comes next: 1, 4, 9, 16, 25, __?",
                 options: [
-                    "36",
-                    "30"
+                    "30",
+                    "36"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Medium",
                 emoji: "🎯💡",
                 question: "What comes next: 2, 6, 12, 20, 30, __?",
                 options: [
-                    "42",
-                    "40"
+                    "40",
+                    "42"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Medium",
                 emoji: "🌟✨",
                 question: "What letter is next: A, E, I, O, __?",
                 options: [
-                    "U",
-                    "Y"
+                    "Y",
+                    "U"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Medium",
                 emoji: "💫🔢",
                 question: "What comes next: 1, 1, 2, 3, 5, 8, __?",
                 options: [
-                    "13",
-                    "11"
+                    "11",
+                    "13"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Medium",
                 emoji: "🎨🎯",
                 question: "What comes next: 3, 6, 9, 12, 15, __?",
                 options: [
-                    "18",
-                    "21"
+                    "21",
+                    "18"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Medium",
                 emoji: "🔮💭",
                 question: "What letter comes next: J, F, M, A, M, J, J, A, __?",
                 options: [
-                    "S (months)",
-                    "N"
+                    "N",
+                    "S (months)"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Medium",
                 emoji: "✨🌈",
                 question: "What comes next: 1, 3, 6, 10, 15, __?",
                 options: [
-                    "21",
-                    "20"
+                    "20",
+                    "21"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Medium",
                 emoji: "🔢🎪",
                 question: "What comes next: 2, 4, 8, 16, 32, __?",
                 options: [
-                    "64",
-                    "48"
+                    "48",
+                    "64"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Medium",
                 emoji: "🎯🔮",
                 question: "What comes next: Z, Y, X, W, __?",
                 options: [
-                    "V",
-                    "U"
+                    "U",
+                    "V"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Medium",
                 emoji: "🌟💡",
                 question: "What comes next: 5, 10, 20, 40, __?",
                 options: [
-                    "80",
-                    "60"
+                    "60",
+                    "80"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Medium",
                 emoji: "💫✨",
                 question: "What comes next: 100, 95, 90, 85, __?",
                 options: [
-                    "80",
-                    "75"
+                    "75",
+                    "80"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Medium",
                 emoji: "🎨🔢",
                 question: "What comes next: 1, 4, 7, 10, 13, __?",
                 options: [
-                    "16",
-                    "15"
+                    "15",
+                    "16"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Medium",
                 emoji: "🔮🎯",
                 question: "What comes next: O, T, T, F, F, S, S, __?",
                 options: [
-                    "E (numbers)",
-                    "N"
+                    "N",
+                    "E (numbers)"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Medium",
                 emoji: "✨💭",
                 question: "What comes next: 7, 14, 21, 28, __?",
                 options: [
-                    "35",
-                    "42"
+                    "42",
+                    "35"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Medium",
                 emoji: "🌈🔢",
                 question: "What comes next: 50, 45, 40, 35, __?",
                 options: [
-                    "30",
-                    "25"
+                    "25",
+                    "30"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Medium",
                 emoji: "🔢🌟",
                 question: "What comes next: 11, 22, 33, 44, __?",
                 options: [
-                    "55",
-                    "66"
+                    "66",
+                    "55"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Medium",
                 emoji: "🎯💫",
                 question: "What comes next: 1, 8, 27, 64, __?",
                 options: [
-                    "125",
-                    "100"
+                    "100",
+                    "125"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Medium",
                 emoji: "🎨🔮",
                 question: "What comes next: AB, CD, EF, GH, __?",
                 options: [
-                    "IJ",
-                    "HI"
+                    "HI",
+                    "IJ"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Medium",
                 emoji: "💡✨",
                 question: "What comes next: 4, 9, 16, 25, 36, __?",
                 options: [
-                    "49",
-                    "45"
+                    "45",
+                    "49"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Medium",
                 emoji: "🌟🎯",
                 question: "What comes next: 2, 3, 5, 7, 11, __?",
                 options: [
-                    "13",
-                    "15"
+                    "15",
+                    "13"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Medium",
                 emoji: "🔢💭",
                 question: "What comes next: 0, 1, 1, 2, 3, 5, 8, __?",
                 options: [
-                    "13",
-                    "11"
+                    "11",
+                    "13"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Medium",
                 emoji: "🔮🌈",
                 question: "What comes next: 10, 9, 8, 7, __?",
                 options: [
-                    "6",
-                    "5"
+                    "5",
+                    "6"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Medium",
                 emoji: "✨🎪",
                 question: "What comes next: 1, 2, 4, 7, 11, __?",
                 options: [
-                    "16",
-                    "15"
+                    "15",
+                    "16"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Medium",
                 emoji: "🎯💡",
                 question: "What comes next: 5, 15, 25, 35, __?",
                 options: [
-                    "45",
-                    "50"
+                    "50",
+                    "45"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Medium",
                 emoji: "🌟🔢",
                 question: "What comes next: AZ, BY, CX, DW, __?",
                 options: [
-                    "EV",
-                    "FU"
+                    "FU",
+                    "EV"
                 ],
-                correct: 0
+                correct: 1
             }
     ],
     hard: [
@@ -371,55 +371,55 @@ window.riddlesQuestions[12] = {
                 emoji: "🔢🔮",
                 question: "What comes next: 1, 11, 21, 1211, 111221, __?",
                 options: [
-                    "312211",
                     "122111",
+                    "312211",
                     "211221"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Hard",
                 emoji: "🎯💡",
                 question: "What comes next: 2, 3, 5, 9, 17, __?",
                 options: [
-                    "33",
                     "34",
-                    "35"
+                    "35",
+                    "33"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Pattern Recognition - Hard",
                 emoji: "🌟✨",
                 question: "What number is missing: 8, 5, 4, 9, 1, 7, 6, __, 2?",
                 options: [
-                    "3",
                     "0",
-                    "10"
+                    "10",
+                    "3"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Pattern Recognition - Hard",
                 emoji: "💫🔢",
                 question: "What comes next: 1, 2, 6, 24, 120, __?",
                 options: [
+                    "240",
                     "720",
-                    "600",
-                    "240"
+                    "600"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Hard",
                 emoji: "🎨🎯",
                 question: "What comes next: 3, 3, 5, 4, 4, 3, 5, __?",
                 options: [
+                    "3",
                     "5",
-                    "4",
-                    "3"
+                    "4"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Hard",
@@ -427,8 +427,8 @@ window.riddlesQuestions[12] = {
                 question: "What comes next: 1, 4, 9, 16, 25, 36, 49, __?",
                 options: [
                     "64",
-                    "56",
-                    "63"
+                    "63",
+                    "56"
                 ],
                 correct: 0
             },
@@ -437,11 +437,11 @@ window.riddlesQuestions[12] = {
                 emoji: "✨🌈",
                 question: "What comes next: 31, 28, 31, 30, 31, 30, __?",
                 options: [
-                    "31",
+                    "29",
                     "30",
-                    "29"
+                    "31"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Pattern Recognition - Hard",
@@ -449,8 +449,8 @@ window.riddlesQuestions[12] = {
                 question: "What comes next: 2, 5, 11, 23, 47, __?",
                 options: [
                     "95",
-                    "94",
-                    "96"
+                    "96",
+                    "94"
                 ],
                 correct: 0
             },
@@ -459,11 +459,11 @@ window.riddlesQuestions[12] = {
                 emoji: "🎯🔮",
                 question: "What letter comes next: OTTFFSSEN__?",
                 options: [
+                    "N",
                     "T (Ten)",
-                    "E",
-                    "N"
+                    "E"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Hard",
@@ -471,8 +471,8 @@ window.riddlesQuestions[12] = {
                 question: "What comes next: 1, 3, 7, 15, 31, __?",
                 options: [
                     "63",
-                    "62",
-                    "64"
+                    "64",
+                    "62"
                 ],
                 correct: 0
             },
@@ -482,8 +482,8 @@ window.riddlesQuestions[12] = {
                 question: "What comes next: 10, 11, 12, 13, 14, 15, 16, 17, 20, 22, 24, __?",
                 options: [
                     "100",
-                    "26",
-                    "30"
+                    "30",
+                    "26"
                 ],
                 correct: 0
             },
@@ -493,8 +493,8 @@ window.riddlesQuestions[12] = {
                 question: "What comes next: 1, 1, 2, 4, 7, 13, 24, __?",
                 options: [
                     "44",
-                    "45",
-                    "43"
+                    "43",
+                    "45"
                 ],
                 correct: 0
             },
@@ -503,33 +503,33 @@ window.riddlesQuestions[12] = {
                 emoji: "🔮🎯",
                 question: "What comes next: 16, 06, 68, 88, __, 98?",
                 options: [
-                    "87",
                     "89",
+                    "87",
                     "78"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Hard",
                 emoji: "✨💭",
                 question: "What comes next: 7, 10, 8, 11, 9, 12, __?",
                 options: [
-                    "10",
                     "13",
+                    "10",
                     "11"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Hard",
                 emoji: "🌈🔢",
                 question: "What comes next: 100, 121, 144, 169, __?",
                 options: [
-                    "196",
                     "200",
-                    "189"
+                    "189",
+                    "196"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Pattern Recognition - Hard",
@@ -537,8 +537,8 @@ window.riddlesQuestions[12] = {
                 question: "What comes next: 1, 2, 4, 8, 16, 32, 64, __?",
                 options: [
                     "128",
-                    "96",
-                    "100"
+                    "100",
+                    "96"
                 ],
                 correct: 0
             },
@@ -547,22 +547,22 @@ window.riddlesQuestions[12] = {
                 emoji: "🎯💫",
                 question: "What comes next: 5, 7, 11, 13, 17, 19, 23, __?",
                 options: [
-                    "29",
                     "27",
-                    "25"
+                    "25",
+                    "29"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Pattern Recognition - Hard",
                 emoji: "🎨🔮",
                 question: "What comes next: 1, 3, 6, 10, 15, 21, __?",
                 options: [
-                    "28",
                     "27",
-                    "30"
+                    "30",
+                    "28"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Pattern Recognition - Hard",
@@ -570,8 +570,8 @@ window.riddlesQuestions[12] = {
                 question: "What comes next: 0, 1, 3, 6, 10, 15, __?",
                 options: [
                     "21",
-                    "20",
-                    "18"
+                    "18",
+                    "20"
                 ],
                 correct: 0
             },
@@ -580,33 +580,33 @@ window.riddlesQuestions[12] = {
                 emoji: "🌟🎯",
                 question: "What comes next: 2, 6, 18, 54, __?",
                 options: [
+                    "216",
                     "162",
-                    "108",
-                    "216"
+                    "108"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Hard",
                 emoji: "🔢💭",
                 question: "What comes next: 1, 4, 10, 22, 46, __?",
                 options: [
+                    "96",
                     "94",
-                    "92",
-                    "96"
+                    "92"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Hard",
                 emoji: "🔮🌈",
                 question: "What comes next: 13, 17, 19, 23, 29, __?",
                 options: [
-                    "31",
+                    "37",
                     "33",
-                    "37"
+                    "31"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Pattern Recognition - Hard",
@@ -614,8 +614,8 @@ window.riddlesQuestions[12] = {
                 question: "What comes next: 1, 2, 3, 5, 8, 13, 21, __?",
                 options: [
                     "34",
-                    "33",
-                    "35"
+                    "35",
+                    "33"
                 ],
                 correct: 0
             },
@@ -624,11 +624,11 @@ window.riddlesQuestions[12] = {
                 emoji: "🎯💡",
                 question: "What comes next: 1, 10, 100, 1000, __?",
                 options: [
-                    "10000",
+                    "2000",
                     "5000",
-                    "2000"
+                    "10000"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Pattern Recognition - Hard",
@@ -636,8 +636,8 @@ window.riddlesQuestions[12] = {
                 question: "What comes next: 4, 6, 9, 13, 18, __?",
                 options: [
                     "24",
-                    "23",
-                    "25"
+                    "25",
+                    "23"
                 ],
                 correct: 0
             }
@@ -649,8 +649,8 @@ window.riddlesQuestions[12] = {
                 question: "What comes next: 1, 11, 21, 1211, 111221, 312211, __?",
                 options: [
                     "13112221",
-                    "14112221",
                     "13122211",
+                    "14112221",
                     "12112221"
                 ],
                 correct: 0
@@ -660,48 +660,48 @@ window.riddlesQuestions[12] = {
                 emoji: "🎯💡",
                 question: "What comes next: 2, 12, 1122, 122112, __?",
                 options: [
-                    "112221222112",
-                    "122112122112",
                     "111222111222",
+                    "122112122112",
+                    "112221222112",
                     "122111222112"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Pattern Recognition - Expert",
                 emoji: "🌟✨",
                 question: "What comes next in the sequence: 1, 2, 6, 24, 120, 720, __?",
                 options: [
-                    "5040",
-                    "4320",
                     "3600",
+                    "4320",
+                    "5040",
                     "2880"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Pattern Recognition - Expert",
                 emoji: "🎨🎯",
                 question: "What comes next: 3, 3, 5, 4, 4, 3, 5, 5, 4, 3, __?",
                 options: [
-                    "6",
+                    "3",
                     "5",
                     "4",
-                    "3"
+                    "6"
                 ],
-                correct: 0
+                correct: 3
             },
         {
                 topic: "Pattern Recognition - Expert",
                 emoji: "🔮💭",
                 question: "What comes next: 1, 3, 5, 11, 21, 43, 85, __?",
                 options: [
-                    "171",
+                    "172",
                     "170",
                     "169",
-                    "172"
+                    "171"
                 ],
-                correct: 0
+                correct: 3
             },
         {
                 topic: "Pattern Recognition - Expert",
@@ -709,8 +709,8 @@ window.riddlesQuestions[12] = {
                 question: "What comes next: 2, 5, 10, 17, 26, 37, __?",
                 options: [
                     "50",
-                    "48",
                     "49",
+                    "48",
                     "51"
                 ],
                 correct: 0
@@ -720,24 +720,24 @@ window.riddlesQuestions[12] = {
                 emoji: "🔢🎪",
                 question: "Complete the pattern: 1, 1, 2, 3, 5, 8, 13, 21, 34, __?",
                 options: [
-                    "55",
                     "54",
-                    "56",
-                    "53"
+                    "53",
+                    "55",
+                    "56"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Pattern Recognition - Expert",
                 emoji: "🎯🔮",
                 question: "What comes next: 1, 4, 9, 1, 6, 2, 5, 3, 6, __?",
                 options: [
-                    "4",
+                    "1",
                     "5",
-                    "9",
-                    "1"
+                    "4",
+                    "9"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Pattern Recognition - Expert",
@@ -745,9 +745,9 @@ window.riddlesQuestions[12] = {
                 question: "What comes next: 77, 49, 36, 18, __?",
                 options: [
                     "8",
+                    "10",
                     "9",
-                    "7",
-                    "10"
+                    "7"
                 ],
                 correct: 0
             },
@@ -756,36 +756,36 @@ window.riddlesQuestions[12] = {
                 emoji: "💫✨",
                 question: "What comes next: 1, 1, 2, 4, 7, 13, 24, 44, __?",
                 options: [
-                    "81",
-                    "80",
                     "82",
-                    "79"
+                    "79",
+                    "81",
+                    "80"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Pattern Recognition - Expert",
                 emoji: "🎨🔢",
                 question: "What comes next: 3, 7, 15, 31, 63, __?",
                 options: [
+                    "125",
                     "127",
-                    "126",
                     "128",
-                    "125"
+                    "126"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Expert",
                 emoji: "✨💭",
                 question: "What comes next: 1, 2, 4, 5, 10, 11, 22, 23, __?",
                 options: [
+                    "45",
                     "46",
                     "44",
-                    "45",
                     "47"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Expert",
@@ -793,8 +793,8 @@ window.riddlesQuestions[12] = {
                 question: "What comes next: 1, 2, 2, 4, 8, 32, __?",
                 options: [
                     "256",
-                    "128",
                     "64",
+                    "128",
                     "512"
                 ],
                 correct: 0
@@ -804,36 +804,36 @@ window.riddlesQuestions[12] = {
                 emoji: "🔢🌟",
                 question: "What comes next: 6, 12, 21, 33, 48, __?",
                 options: [
-                    "66",
                     "64",
-                    "65",
-                    "67"
+                    "66",
+                    "67",
+                    "65"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Expert",
                 emoji: "🎯💫",
                 question: "What comes next: 1, 3, 4, 7, 11, 18, 29, __?",
                 options: [
-                    "47",
                     "46",
                     "48",
-                    "45"
+                    "45",
+                    "47"
                 ],
-                correct: 0
+                correct: 3
             },
         {
                 topic: "Pattern Recognition - Expert",
                 emoji: "🎨🔮",
                 question: "What comes next: 0, 4, 18, 48, 100, __?",
                 options: [
-                    "180",
+                    "150",
                     "175",
-                    "200",
-                    "150"
+                    "180",
+                    "200"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Pattern Recognition - Expert",
@@ -841,9 +841,9 @@ window.riddlesQuestions[12] = {
                 question: "What comes next: 2, 3, 5, 7, 11, 13, 17, 19, 23, __?",
                 options: [
                     "29",
+                    "31",
                     "27",
-                    "25",
-                    "31"
+                    "25"
                 ],
                 correct: 0
             },
@@ -853,9 +853,9 @@ window.riddlesQuestions[12] = {
                 question: "What comes next: 1, 5, 14, 30, 55, __?",
                 options: [
                     "91",
-                    "90",
+                    "89",
                     "92",
-                    "89"
+                    "90"
                 ],
                 correct: 0
             },
@@ -865,9 +865,9 @@ window.riddlesQuestions[12] = {
                 question: "What comes next: 10, 20, 21, 30, 32, 33, 40, 43, 44, __?",
                 options: [
                     "45",
-                    "50",
+                    "54",
                     "46",
-                    "54"
+                    "50"
                 ],
                 correct: 0
             },
@@ -876,24 +876,24 @@ window.riddlesQuestions[12] = {
                 emoji: "🔮🌈",
                 question: "What comes next: 4, 7, 11, 18, 29, 47, __?",
                 options: [
-                    "76",
                     "75",
+                    "76",
                     "77",
                     "74"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Pattern Recognition - Expert",
                 emoji: "✨🎪",
                 question: "What comes next: 1, 8, 27, 64, 125, 216, __?",
                 options: [
-                    "343",
-                    "256",
                     "400",
-                    "512"
+                    "512",
+                    "256",
+                    "343"
                 ],
-                correct: 0
+                correct: 3
             },
         {
                 topic: "Pattern Recognition - Expert",
@@ -901,9 +901,9 @@ window.riddlesQuestions[12] = {
                 question: "What comes next: 15, 26, 38, 51, 65, __?",
                 options: [
                     "80",
-                    "79",
+                    "78",
                     "81",
-                    "78"
+                    "79"
                 ],
                 correct: 0
             },
@@ -912,12 +912,12 @@ window.riddlesQuestions[12] = {
                 emoji: "🌟🔢",
                 question: "What comes next: 2, 6, 12, 20, 30, 42, __?",
                 options: [
+                    "58",
                     "56",
-                    "54",
                     "55",
-                    "58"
+                    "54"
                 ],
-                correct: 0
+                correct: 1
             }
     ],
     extreme: [

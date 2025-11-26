@@ -22,10 +22,10 @@ window.riddlesQuestions[3] = {
                 emoji: "🔢🎯",
                 question: "What number do you get when you multiply all the numbers on a telephone's number pad?",
                 options: [
-                    "0",
-                    "1"
+                    "1",
+                    "0"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Number Riddles - Easy",
@@ -37,50 +37,50 @@ window.riddlesQuestions[3] = {
                 emoji: "🔢✨",
                 question: "What two whole, positive numbers have a one-digit answer when multiplied and a two-digit answer when added?",
                 options: [
-                    "1 and 9",
-                    "2 and 3"
+                    "2 and 3",
+                    "1 and 9"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Number Riddles - Easy",
                 emoji: "🔢🌟",
                 question: "If two's company and three's a crowd, what are four and five?",
                 options: [
-                    "Nine",
-                    "A party"
+                    "A party",
+                    "Nine"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Number Riddles - Easy",
                 emoji: "🔢🎨",
                 question: "What number is the same when written upside down?",
                 options: [
-                    "8",
-                    "0"
+                    "0",
+                    "8"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Number Riddles - Easy",
                 emoji: "🔢🧩",
                 question: "I am a three-digit number. My tens digit is five more than my ones digit. My hundreds digit is eight less than my tens digit. What number am I?",
                 options: [
-                    "194",
-                    "183"
+                    "183",
+                    "194"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Number Riddles - Easy",
                 emoji: "🔢💫",
                 question: "What is half of two plus two?",
                 options: [
-                    "3",
-                    "2"
+                    "2",
+                    "3"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Number Riddles - Easy",
@@ -92,20 +92,20 @@ window.riddlesQuestions[3] = {
                 emoji: "🔢🎯",
                 question: "What is the smallest positive number that is evenly divisible by all the numbers from 1 to 9?",
                 options: [
-                    "2520",
-                    "362880"
+                    "362880",
+                    "2520"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Number Riddles - Easy",
                 emoji: "🔢✨",
                 question: "If you add 2 to 200 four times, what do you get?",
                 options: [
-                    "202",
-                    "208"
+                    "208",
+                    "202"
                 ],
-                correct: 0
+                correct: 1
             }
 ,
             {
@@ -113,250 +113,250 @@ window.riddlesQuestions[3] = {
                 emoji: "🔢🧠",
                 question: "A grandfather, two fathers, and two sons went fishing. Each caught one fish. They only caught three fish total. How?",
                 options: [
-                    "Three people: grandfather, father, son",
-                    "They shared"
+                    "They shared",
+                    "Three people: grandfather, father, son"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Number Riddles - Medium",
                 emoji: "🔢💭",
                 question: "I am a number. I have a couple of friends, quarter a dozen, and you'll find me again. What number am I?",
                 options: [
-                    "3",
-                    "6"
+                    "6",
+                    "3"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Number Riddles - Medium",
                 emoji: "🔢🎪",
                 question: "What is the next number in the sequence: 2, 3, 5, 9, 17?",
                 options: [
-                    "33",
-                    "25"
+                    "25",
+                    "33"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Number Riddles - Medium",
                 emoji: "🔢🌟",
                 question: "Using only addition, how do you add eight 8's and get the number 1,000?",
                 options: [
-                    "888 + 88 + 8 + 8 + 8",
-                    "Cannot be done"
+                    "Cannot be done",
+                    "888 + 88 + 8 + 8 + 8"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Number Riddles - Medium",
                 emoji: "🔢💡",
                 question: "What 3 positive numbers give the same result when multiplied and added together?",
                 options: [
-                    "1, 2, and 3",
-                    "2, 3, and 4"
+                    "2, 3, and 4",
+                    "1, 2, and 3"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Number Riddles - Medium",
                 emoji: "🔢🎯",
                 question: "I am a number between 1 and 10. I am more than 6, less than 9, not 7, and not 8. What number am I?",
                 options: [
-                    "There is none",
-                    "6.5"
+                    "6.5",
+                    "There is none"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Number Riddles - Medium",
                 emoji: "🔢✨",
                 question: "What number comes next: 1, 4, 9, 16, 25?",
                 options: [
-                    "36",
-                    "30"
+                    "30",
+                    "36"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Number Riddles - Medium",
                 emoji: "🔢🧩",
                 question: "If 5 cats can catch 5 mice in 5 minutes, how long will it take one cat to catch one mouse?",
                 options: [
-                    "5 minutes",
-                    "1 minute"
+                    "1 minute",
+                    "5 minutes"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Number Riddles - Medium",
                 emoji: "🔢🌈",
                 question: "What number increases by 6 when turned upside down?",
                 options: [
-                    "9",
-                    "6"
+                    "6",
+                    "9"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Number Riddles - Medium",
                 emoji: "🔢💫",
                 question: "A woman has 7 children. Half of them are boys. How is this possible?",
                 options: [
-                    "All are boys",
-                    "3.5 are boys"
+                    "3.5 are boys",
+                    "All are boys"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Number Riddles - Medium",
                 emoji: "🔢🎨",
                 question: "What four consecutive prime numbers add up to 220?",
                 options: [
-                    "47, 53, 59, 61",
-                    "Cannot be done"
+                    "Cannot be done",
+                    "47, 53, 59, 61"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Number Riddles - Medium",
                 emoji: "🔢🔮",
                 question: "I am a three-digit number. My second digit is four times bigger than the third digit. My first digit is three less than my second digit. What number am I?",
                 options: [
-                    "141",
-                    "482"
+                    "482",
+                    "141"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Number Riddles - Medium",
                 emoji: "🔢🎯",
                 question: "What is the smallest number that increases by 12 when it is flipped and turned upside down?",
                 options: [
-                    "86",
-                    "69"
+                    "69",
+                    "86"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Number Riddles - Medium",
                 emoji: "🔢💡",
                 question: "If you multiply this number by any other number, the answer will always be the same. What number is this?",
                 options: [
-                    "0",
-                    "1"
+                    "1",
+                    "0"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Number Riddles - Medium",
                 emoji: "🔢🌟",
                 question: "What is the maximum number of times you can subtract 10 from 100?",
                 options: [
-                    "Once",
-                    "10 times"
+                    "10 times",
+                    "Once"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Number Riddles - Medium",
                 emoji: "🔢✨",
                 question: "Tom was asked to paint numbers 1 to 100 on 100 apartments. How many times will he paint the number 8?",
                 options: [
-                    "20",
-                    "11"
+                    "11",
+                    "20"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Number Riddles - Medium",
                 emoji: "🔢🧩",
                 question: "What five-digit number has the following features: If we put the numeral 1 at the beginning, we get a number three times smaller than if we put it at the end?",
                 options: [
-                    "42857",
-                    "33333"
+                    "33333",
+                    "42857"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Number Riddles - Medium",
                 emoji: "🔢🎪",
                 question: "What number do you get when you multiply all of the numbers on a standard calculator?",
                 options: [
-                    "0",
-                    "Infinity"
+                    "Infinity",
+                    "0"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Number Riddles - Medium",
                 emoji: "🔢💭",
                 question: "If you have 6 apples and you take away 4, how many do you have?",
                 options: [
-                    "4",
-                    "2"
+                    "2",
+                    "4"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Number Riddles - Medium",
                 emoji: "🔢🌈",
                 question: "What single digit appears most frequently between and including the numbers 1 and 1,000?",
                 options: [
-                    "1",
-                    "0"
+                    "0",
+                    "1"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Number Riddles - Medium",
                 emoji: "🔢🎯",
                 question: "A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost?",
                 options: [
-                    "5 cents",
-                    "10 cents"
+                    "10 cents",
+                    "5 cents"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Number Riddles - Medium",
                 emoji: "🔢💫",
                 question: "What are the next two numbers in the pattern: 2, 6, 12, 20, 30?",
                 options: [
-                    "42, 56",
-                    "40, 52"
+                    "40, 52",
+                    "42, 56"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Number Riddles - Medium",
                 emoji: "🔢🔮",
                 question: "If you divide 30 by half and add 10, what do you get?",
                 options: [
-                    "70",
-                    "25"
+                    "25",
+                    "70"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Number Riddles - Medium",
                 emoji: "🔢✨",
                 question: "What number squared equals the same number when added to itself?",
                 options: [
-                    "2",
-                    "1"
+                    "1",
+                    "2"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Number Riddles - Medium",
                 emoji: "🔢🌟",
                 question: "I am a number. If you add me to myself and then multiply by 4, you get 40. What number am I?",
                 options: [
-                    "5",
-                    "10"
+                    "10",
+                    "5"
                 ],
-                correct: 0
+                correct: 1
             }
     ],
     hard: [
@@ -365,33 +365,33 @@ window.riddlesQuestions[3] = {
                 emoji: "🔢🧠",
                 question: "If you have three, you have three. If you have two, you have two. But if you have one, you have none. What is it?",
                 options: [
-                    "Choices",
                     "Options",
-                    "Possibilities"
+                    "Possibilities",
+                    "Choices"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Number Riddles - Hard",
                 emoji: "🔢💭",
                 question: "A girl has as many brothers as sisters, but each brother has only half as many brothers as sisters. How many siblings are there?",
                 options: [
-                    "4 sisters, 3 brothers",
                     "3 sisters, 3 brothers",
-                    "5 sisters, 4 brothers"
+                    "5 sisters, 4 brothers",
+                    "4 sisters, 3 brothers"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Number Riddles - Hard",
                 emoji: "🔢🎯",
                 question: "Three people check into a hotel. The bill is $30, so they each pay $10. Later the manager finds a $5 error and sends the bellboy to refund them. He keeps $2 and gives each person $1. So they paid $9 each ($27) + bellboy's $2 = $29. Where's the other dollar?",
                 options: [
-                    "No missing dollar, faulty math",
+                    "Bellboy has it",
                     "Manager has it",
-                    "Bellboy has it"
+                    "No missing dollar, faulty math"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Number Riddles - Hard",
@@ -399,8 +399,8 @@ window.riddlesQuestions[3] = {
                 question: "What is the four-digit number in which the first digit is one-third of the second, the third is the sum of the first and second, and the last is three times the second?",
                 options: [
                     "1349",
-                    "2486",
-                    "1236"
+                    "1236",
+                    "2486"
                 ],
                 correct: 0
             },
@@ -409,33 +409,33 @@ window.riddlesQuestions[3] = {
                 emoji: "🔢💡",
                 question: "If 1=3, 2=3, 3=5, 4=4, 5=4, then 6=?",
                 options: [
-                    "3",
                     "6",
-                    "5"
+                    "5",
+                    "3"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Number Riddles - Hard",
                 emoji: "🔢🧩",
                 question: "A farmer has 17 sheep and all but 9 die. How many are left?",
                 options: [
-                    "9",
+                    "0",
                     "8",
-                    "0"
+                    "9"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Number Riddles - Hard",
                 emoji: "🔢🎪",
                 question: "What is the next number in this sequence: 1, 11, 21, 1211, 111221, 312211?",
                 options: [
-                    "13112221",
+                    "21121131",
                     "11131221",
-                    "21121131"
+                    "13112221"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Number Riddles - Hard",
@@ -448,8 +448,8 @@ window.riddlesQuestions[3] = {
                 question: "A number I'm thinking of: One half of its half is one quarter of 48. What is the number?",
                 options: [
                     "48",
-                    "24",
-                    "96"
+                    "96",
+                    "24"
                 ],
                 correct: 0
             },
@@ -458,33 +458,33 @@ window.riddlesQuestions[3] = {
                 emoji: "🔢🔮",
                 question: "If 5 machines can make 5 widgets in 5 minutes, how long does it take 100 machines to make 100 widgets?",
                 options: [
+                    "20 minutes",
                     "5 minutes",
-                    "100 minutes",
-                    "20 minutes"
+                    "100 minutes"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Number Riddles - Hard",
                 emoji: "🔢💫",
                 question: "There are 49 dogs signed up to compete in a dog show. There are 36 more small dogs than large dogs. How many small dogs are signed up?",
                 options: [
-                    "42.5",
                     "36",
-                    "40"
+                    "40",
+                    "42.5"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Number Riddles - Hard",
                 emoji: "🔢🎨",
                 question: "What number should replace the question mark: 2, 4, 8, 16, 32, 64, ?",
                 options: [
+                    "72",
                     "128",
-                    "96",
-                    "72"
+                    "96"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Number Riddles - Hard",
@@ -492,8 +492,8 @@ window.riddlesQuestions[3] = {
                 question: "I am thinking of a number. When I add 5 to it, it becomes equal to its 1/3 plus 10. What is the number?",
                 options: [
                     "7.5",
-                    "15",
-                    "5"
+                    "5",
+                    "15"
                 ],
                 correct: 0
             },
@@ -502,22 +502,22 @@ window.riddlesQuestions[3] = {
                 emoji: "🔢💭",
                 question: "A lily pad doubles in size every day. If it takes 48 days to cover the entire pond, how long will it take to cover half the pond?",
                 options: [
-                    "47 days",
                     "24 days",
-                    "46 days"
+                    "46 days",
+                    "47 days"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Number Riddles - Hard",
                 emoji: "🔢🌟",
                 question: "What is the value of 1/2 of 2/3 of 3/4 of 4/5 of 5/6 of 6/7 of 7/8 of 8/9 of 9/10 of 1,000?",
                 options: [
+                    "200",
                     "100",
-                    "50",
-                    "200"
+                    "50"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Number Riddles - Hard",
@@ -525,8 +525,8 @@ window.riddlesQuestions[3] = {
                 question: "If it takes 5 elves 5 minutes to make 5 dolls, how long would it take 100 elves to make 100 dolls?",
                 options: [
                     "5 minutes",
-                    "100 minutes",
-                    "20 minutes"
+                    "20 minutes",
+                    "100 minutes"
                 ],
                 correct: 0
             },
@@ -536,8 +536,8 @@ window.riddlesQuestions[3] = {
                 question: "There are 100 pairs of dogs in the zoo. Two pairs of babies are born for every dog. How many dogs are there in total?",
                 options: [
                     "600",
-                    "300",
-                    "400"
+                    "400",
+                    "300"
                 ],
                 correct: 0
             },
@@ -546,11 +546,11 @@ window.riddlesQuestions[3] = {
                 emoji: "🔢🎪",
                 question: "If you overtake the person in second place in a race, what position are you in?",
                 options: [
-                    "Second place",
                     "First place",
-                    "Third place"
+                    "Third place",
+                    "Second place"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Number Riddles - Hard",
@@ -558,8 +558,8 @@ window.riddlesQuestions[3] = {
                 question: "A store has a buy 2 get 1 free sale on bottles of soda. Each bottle costs $1. If I want to get 6 bottles, how much will it cost?",
                 options: [
                     "$4",
-                    "$5",
-                    "$6"
+                    "$6",
+                    "$5"
                 ],
                 correct: 0
             },
@@ -568,11 +568,11 @@ window.riddlesQuestions[3] = {
                 emoji: "🔢💡",
                 question: "If 7 people meet and each shakes hands only once with each of the others, how many handshakes will there be?",
                 options: [
-                    "21",
+                    "14",
                     "42",
-                    "14"
+                    "21"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Number Riddles - Hard",
@@ -580,8 +580,8 @@ window.riddlesQuestions[3] = {
                 question: "A snail is at the bottom of a 30-foot well. Each day it climbs up 3 feet, but each night it slides back down 2 feet. How many days will it take to escape?",
                 options: [
                     "28 days",
-                    "30 days",
-                    "27 days"
+                    "27 days",
+                    "30 days"
                 ],
                 correct: 0
             },
@@ -590,11 +590,11 @@ window.riddlesQuestions[3] = {
                 emoji: "🔢💫",
                 question: "What is the next number in the sequence: 0, 1, 1, 2, 3, 5, 8, 13?",
                 options: [
-                    "21",
+                    "15",
                     "18",
-                    "15"
+                    "21"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Number Riddles - Hard",
@@ -602,8 +602,8 @@ window.riddlesQuestions[3] = {
                 question: "If you write down all the numbers from 1 to 100, how many times do you write the digit 1?",
                 options: [
                     "20",
-                    "19",
-                    "11"
+                    "11",
+                    "19"
                 ],
                 correct: 0
             },
@@ -612,22 +612,22 @@ window.riddlesQuestions[3] = {
                 emoji: "🔢✨",
                 question: "What is the smallest number that can be divided evenly by all numbers from 1 to 10?",
                 options: [
-                    "2520",
                     "3628800",
+                    "2520",
                     "1260"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Number Riddles - Hard",
                 emoji: "🔢🌟",
                 question: "If you buy a rooster for $8 and sell it for $9, then buy it back for $10 and sell it again for $11, how much profit did you make?",
                 options: [
+                    "$3",
                     "$2",
-                    "$1",
-                    "$3"
+                    "$1"
                 ],
-                correct: 0
+                correct: 1
             }
     ],
     expert: [
@@ -636,72 +636,72 @@ window.riddlesQuestions[3] = {
                 emoji: "🔢🧠",
                 question: "A number with an interesting property: When I multiply it by any number, the sum of the digits in the product is always equal to the original number. What is it?",
                 options: [
+                    "0",
                     "9",
                     "1",
-                    "3",
-                    "0"
+                    "3"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Number Riddles - Expert",
                 emoji: "🔢💭",
                 question: "Three friends divide a bill of $30 equally. A discount makes it $25. The waiter pockets $2 and returns $1 each. They paid $9 each ($27) + waiter's $2. Where's the missing dollar?",
                 options: [
-                    "No missing dollar",
-                    "In the tip",
                     "Waiter has it",
-                    "Restaurant kept it"
+                    "In the tip",
+                    "Restaurant kept it",
+                    "No missing dollar"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Number Riddles - Expert",
                 emoji: "🔢🎯",
                 question: "What is the value of x in this pattern: 2, 3, 5, 7, 11, 13, x, 19, 23?",
                 options: [
-                    "17",
-                    "15",
+                    "14",
                     "16",
-                    "14"
+                    "17",
+                    "15"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Number Riddles - Expert",
                 emoji: "🔢🌟",
                 question: "A clock shows 3:15. What is the angle between the hour and minute hands?",
                 options: [
-                    "7.5 degrees",
                     "0 degrees",
+                    "22.5 degrees",
                     "15 degrees",
-                    "22.5 degrees"
+                    "7.5 degrees"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Number Riddles - Expert",
                 emoji: "🔢💡",
                 question: "You have 10 bags with 100 coins each. One bag contains fake coins that weigh 1.1g instead of 1g. Using a scale only once, how do you find the fake bag?",
                 options: [
-                    "Take different amounts from each",
-                    "Weigh one coin from each",
+                    "Cannot be done",
                     "Weigh all bags together",
-                    "Cannot be done"
+                    "Take different amounts from each",
+                    "Weigh one coin from each"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Number Riddles - Expert",
                 emoji: "🔢🧩",
                 question: "If 2 + 3 = 10, 8 + 4 = 96, 7 + 2 = 63, 6 + 5 = 66, then 9 + 5 = ?",
                 options: [
-                    "126",
-                    "45",
+                    "135",
                     "90",
-                    "135"
+                    "126",
+                    "45"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Number Riddles - Expert",
@@ -709,9 +709,9 @@ window.riddlesQuestions[3] = {
                 question: "A train travels at 60 mph for 2 hours, then 30 mph for 2 hours. What's the average speed?",
                 options: [
                     "45 mph",
+                    "42 mph",
                     "50 mph",
-                    "40 mph",
-                    "42 mph"
+                    "40 mph"
                 ],
                 correct: 0
             },
@@ -720,12 +720,12 @@ window.riddlesQuestions[3] = {
                 emoji: "🔢✨",
                 question: "What is the next number: 1, 2, 4, 7, 28, 33, 198, ?",
                 options: [
-                    "205",
                     "200",
                     "210",
+                    "205",
                     "208"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Number Riddles - Expert",
@@ -733,8 +733,8 @@ window.riddlesQuestions[3] = {
                 question: "A number is divided by 2, then 3, then 4, and equals 1. What is the original number?",
                 options: [
                     "24",
-                    "12",
                     "48",
+                    "12",
                     "16"
                 ],
                 correct: 0
@@ -744,12 +744,12 @@ window.riddlesQuestions[3] = {
                 emoji: "🔢🔮",
                 question: "If A = 1, B = 2, C = 3... what word equals 100?",
                 options: [
-                    "ATTITUDE",
-                    "PERFECT",
                     "AWESOME",
-                    "HUNDRED"
+                    "ATTITUDE",
+                    "HUNDRED",
+                    "PERFECT"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Number Riddles - Expert",
@@ -757,9 +757,9 @@ window.riddlesQuestions[3] = {
                 question: "You have 9 balls, all identical except one is lighter. Using a balance scale twice, how do you find the light one?",
                 options: [
                     "Divide into groups of 3",
-                    "Weigh pairs",
                     "Cannot be done",
-                    "Weigh all at once"
+                    "Weigh all at once",
+                    "Weigh pairs"
                 ],
                 correct: 0
             },
@@ -768,24 +768,24 @@ window.riddlesQuestions[3] = {
                 emoji: "🔢🎨",
                 question: "What is the maximum number of times you can fold a piece of paper in half?",
                 options: [
-                    "About 7-8 times",
                     "Infinite",
+                    "20 times",
                     "12 times",
-                    "20 times"
+                    "About 7-8 times"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Number Riddles - Expert",
                 emoji: "🔢🎯",
                 question: "If you have a 5-liter jug and a 3-liter jug, how can you measure exactly 4 liters?",
                 options: [
-                    "Fill 5, pour to 3 twice",
                     "Cannot be done",
+                    "Fill 5, pour to 3 twice",
                     "Fill both",
                     "Use 5 only"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Number Riddles - Expert",
@@ -793,9 +793,9 @@ window.riddlesQuestions[3] = {
                 question: "A number when multiplied by itself gives 1. What is the number?",
                 options: [
                     "1 or -1",
+                    "2",
                     "1",
-                    "0",
-                    "2"
+                    "0"
                 ],
                 correct: 0
             },
@@ -804,60 +804,60 @@ window.riddlesQuestions[3] = {
                 emoji: "🔢🌟",
                 question: "If 1 = 5, 2 = 10, 3 = 15, 4 = 20, then 5 = ?",
                 options: [
+                    "30",
                     "1",
                     "25",
-                    "5",
-                    "30"
+                    "5"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Number Riddles - Expert",
                 emoji: "🔢✨",
                 question: "A car travels 60 miles in 1 hour. It returns the same distance in 1.5 hours. What's the average speed for the whole trip?",
                 options: [
-                    "48 mph",
-                    "50 mph",
                     "45 mph",
-                    "60 mph"
+                    "60 mph",
+                    "48 mph",
+                    "50 mph"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Number Riddles - Expert",
                 emoji: "🔢🧩",
                 question: "What number comes next: 1, 1, 2, 3, 5, 8, 13, 21, 34, ?",
                 options: [
-                    "55",
-                    "44",
                     "43",
-                    "50"
+                    "44",
+                    "50",
+                    "55"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Number Riddles - Expert",
                 emoji: "🔢🎪",
                 question: "If 1/2 of 5 is 3, what is 1/3 of 10?",
                 options: [
-                    "4",
                     "3.33",
-                    "5",
-                    "6"
+                    "4",
+                    "6",
+                    "5"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Number Riddles - Expert",
                 emoji: "🔢🌈",
                 question: "A pizza is cut into 8 slices. If you eat 1/4 of it, how many slices are left?",
                 options: [
-                    "6",
                     "4",
+                    "7",
                     "5",
-                    "7"
+                    "6"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Number Riddles - Expert",
@@ -866,8 +866,8 @@ window.riddlesQuestions[3] = {
                 options: [
                     "2 or 0",
                     "1",
-                    "2",
-                    "3"
+                    "3",
+                    "2"
                 ],
                 correct: 0
             },
@@ -876,48 +876,48 @@ window.riddlesQuestions[3] = {
                 emoji: "🔢🔮",
                 question: "How many squares are on a standard 8x8 chessboard?",
                 options: [
-                    "204",
+                    "100",
                     "64",
                     "128",
-                    "100"
+                    "204"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Number Riddles - Expert",
                 emoji: "🔢💫",
                 question: "If you write all numbers from 300 to 400, how many times do you write the digit 3?",
                 options: [
-                    "120",
+                    "110",
                     "100",
                     "101",
-                    "110"
+                    "120"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Number Riddles - Expert",
                 emoji: "🔢🎯",
                 question: "A bookworm eats from page 1 of Volume 1 to the last page of Volume 2, standing side by side. Each cover is 2mm thick, each book is 20mm thick. How far does it travel?",
                 options: [
-                    "4mm",
                     "44mm",
                     "40mm",
+                    "4mm",
                     "24mm"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Number Riddles - Expert",
                 emoji: "🔢✨",
                 question: "What is the smallest number that when divided by 2, 3, 4, 5, and 6 leaves a remainder of 1?",
                 options: [
-                    "61",
                     "121",
+                    "61",
                     "31",
                     "41"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Number Riddles - Expert",
@@ -925,9 +925,9 @@ window.riddlesQuestions[3] = {
                 question: "If you have a cube with each side painted in 3 different colors, how many unique cubes can you make?",
                 options: [
                     "30",
+                    "24",
                     "6",
-                    "18",
-                    "24"
+                    "18"
                 ],
                 correct: 0
             }

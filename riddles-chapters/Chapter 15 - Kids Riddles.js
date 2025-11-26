@@ -19,100 +19,100 @@ window.riddlesQuestions[15] = {
                 emoji: "🎈🌟",
                 question: "What has to be broken before you can use it?",
                 options: [
-                    "An egg",
-                    "A toy"
+                    "A toy",
+                    "An egg"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Kids Riddles - Easy",
                 emoji: "🎪🎯",
                 question: "What gets wetter the more it dries?",
                 options: [
-                    "A towel",
-                    "Water"
+                    "Water",
+                    "A towel"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Kids Riddles - Medium",
                 emoji: "🌟🎨",
                 question: "What runs but never walks, has a mouth but never talks?",
                 options: [
-                    "A river",
-                    "A robot"
+                    "A robot",
+                    "A river"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Kids Riddles - Medium",
                 emoji: "🎯✨",
                 question: "What belongs to you but others use it more than you?",
                 options: [
-                    "Your name",
-                    "Your toys"
+                    "Your toys",
+                    "Your name"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Kids Riddles - Medium",
                 emoji: "🎪🌟",
                 question: "What is so fragile that saying its name breaks it?",
                 options: [
-                    "Silence",
-                    "Glass"
+                    "Glass",
+                    "Silence"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Kids Riddles - Medium",
                 emoji: "🌟🎈",
                 question: "What has cities but no houses, forests but no trees?",
                 options: [
-                    "A map",
-                    "A picture"
+                    "A picture",
+                    "A map"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Kids Riddles - Medium",
                 emoji: "🎈🎨",
                 question: "What starts with T, ends with T, and has T in it?",
                 options: [
-                    "A teapot",
-                    "Text"
+                    "Text",
+                    "A teapot"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Kids Riddles - Medium",
                 emoji: "🌟🧩",
                 question: "What goes up and down but doesn't move?",
                 options: [
-                    "A staircase",
-                    "An elevator"
+                    "An elevator",
+                    "A staircase"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Kids Riddles - Medium",
                 emoji: "🧸🌈",
                 question: "What runs all around a backyard but never moves?",
                 options: [
-                    "A fence",
-                    "A dog's leash"
+                    "A dog's leash",
+                    "A fence"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Kids Riddles - Medium",
                 emoji: "🎪💡",
                 question: "What kind of room has no doors or windows?",
                 options: [
-                    "A mushroom",
-                    "A bathroom"
+                    "A bathroom",
+                    "A mushroom"
                 ],
-                correct: 0
+                correct: 1
             }
     ],
     hard: [
@@ -121,11 +121,11 @@ window.riddlesQuestions[15] = {
                 emoji: "🌈💭",
                 question: "What kind of tree can you carry in your hand?",
                 options: [
-                    "A palm",
                     "A stick",
+                    "A palm",
                     "A leaf"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Kids Riddles - Hard",
@@ -133,8 +133,8 @@ window.riddlesQuestions[15] = {
                 question: "What has many needles but doesn't sew?",
                 options: [
                     "A pine tree",
-                    "A porcupine",
-                    "A cactus"
+                    "A cactus",
+                    "A porcupine"
                 ],
                 correct: 0
             },
@@ -143,66 +143,66 @@ window.riddlesQuestions[15] = {
                 emoji: "🌟🧩",
                 question: "What can you hold without ever touching or using your hands?",
                 options: [
-                    "Your breath",
+                    "Water",
                     "Air",
-                    "Water"
+                    "Your breath"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Kids Riddles - Hard",
                 emoji: "🎈🌈",
                 question: "I have branches but no fruit, trunk, or leaves. What am I?",
                 options: [
-                    "A bank",
+                    "A river",
                     "A dead tree",
-                    "A river"
+                    "A bank"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Kids Riddles - Hard",
                 emoji: "🧸💫",
                 question: "The more you take, the more you leave behind. What am I?",
                 options: [
-                    "Footsteps",
                     "Time",
-                    "Money"
+                    "Money",
+                    "Footsteps"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Kids Riddles - Hard",
                 emoji: "🧸🎯",
                 question: "What kind of coat can be put on only when wet?",
                 options: [
-                    "A coat of paint",
+                    "A fur coat",
                     "A raincoat",
-                    "A fur coat"
+                    "A coat of paint"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Kids Riddles - Hard",
                 emoji: "🌟💫",
                 question: "What begins with E, ends with E, but only has one letter?",
                 options: [
+                    "Edge",
                     "An envelope",
-                    "Eye",
-                    "Edge"
+                    "Eye"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Kids Riddles - Hard",
                 emoji: "🎈✨",
                 question: "If you have three apples and take away two, how many do you have?",
                 options: [
-                    "Two",
                     "One",
+                    "Two",
                     "Three"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Kids Riddles - Hard",
@@ -210,8 +210,8 @@ window.riddlesQuestions[15] = {
                 question: "What has a bed but never sleeps, and a mouth but never eats?",
                 options: [
                     "A river",
-                    "A baby",
-                    "A doll"
+                    "A doll",
+                    "A baby"
                 ],
                 correct: 0
             },
@@ -220,22 +220,22 @@ window.riddlesQuestions[15] = {
                 emoji: "🎨🎯",
                 question: "What disappears as soon as you say its name?",
                 options: [
-                    "Silence",
                     "Magic",
-                    "Air"
+                    "Air",
+                    "Silence"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Kids Riddles - Hard",
                 emoji: "🧸🌟",
                 question: "Where do you find roads without cars, forests without trees, and cities without houses?",
                 options: [
-                    "On a map",
                     "In a book",
-                    "In a dream"
+                    "In a dream",
+                    "On a map"
                 ],
-                correct: 0
+                correct: 2
             }
     ],
     expert: [
@@ -244,72 +244,72 @@ window.riddlesQuestions[15] = {
                 emoji: "🌈🧠",
                 question: "The more of these you take, the more you leave behind. What are they?",
                 options: [
-                    "Footsteps",
-                    "Cookies",
+                    "Memories",
                     "Photos",
-                    "Memories"
+                    "Footsteps",
+                    "Cookies"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Kids Riddles - Expert",
                 emoji: "🧸🎨",
                 question: "What starts with T, ends with T, and is full of T?",
                 options: [
+                    "Tent",
                     "A teapot",
-                    "Toast",
                     "Text",
-                    "Tent"
+                    "Toast"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Kids Riddles - Expert",
                 emoji: "🌟✨",
                 question: "I am always hungry and will die if not fed, but whatever I touch will soon turn red. What am I?",
                 options: [
+                    "Paint",
                     "Fire",
-                    "A baby",
                     "A monster",
-                    "Paint"
+                    "A baby"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Kids Riddles - Expert",
                 emoji: "🎈💡",
                 question: "What flies without wings and cries without eyes?",
                 options: [
-                    "A cloud",
                     "A plane",
                     "A kite",
+                    "A cloud",
                     "Wind"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Kids Riddles - Expert",
                 emoji: "🎯🌈",
                 question: "What has hands but cannot clap, a face but cannot see?",
                 options: [
-                    "A clock",
-                    "A statue",
                     "A doll",
-                    "A painting"
+                    "A statue",
+                    "A painting",
+                    "A clock"
                 ],
-                correct: 0
+                correct: 3
             },
         {
                 topic: "Kids Riddles - Expert",
                 emoji: "🧸🔮",
                 question: "I have a head and a tail but no body. What am I?",
                 options: [
+                    "A comet",
                     "A coin",
-                    "A snake",
                     "A worm",
-                    "A comet"
+                    "A snake"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Kids Riddles - Expert",
@@ -318,8 +318,8 @@ window.riddlesQuestions[15] = {
                 options: [
                     "Your age",
                     "A balloon",
-                    "A rocket",
-                    "Smoke"
+                    "Smoke",
+                    "A rocket"
                 ],
                 correct: 0
             },
@@ -328,12 +328,12 @@ window.riddlesQuestions[15] = {
                 emoji: "🌟💫",
                 question: "What can you catch but never throw?",
                 options: [
-                    "A cold",
-                    "A ball",
                     "A fish",
+                    "A ball",
+                    "A cold",
                     "Lightning"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Kids Riddles - Expert",
@@ -341,9 +341,9 @@ window.riddlesQuestions[15] = {
                 question: "I have keys but no locks. I have space but no room. You can enter but you can't go inside. What am I?",
                 options: [
                     "A keyboard",
+                    "A car",
                     "A piano",
-                    "A house",
-                    "A car"
+                    "A house"
                 ],
                 correct: 0
             },
@@ -352,12 +352,12 @@ window.riddlesQuestions[15] = {
                 emoji: "🧸💡",
                 question: "What is seen in the middle of March and April but can't be seen at the beginning or end?",
                 options: [
+                    "Flowers",
                     "The letter R",
                     "Spring",
-                    "Flowers",
                     "Rain"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Kids Riddles - Expert",
@@ -365,9 +365,9 @@ window.riddlesQuestions[15] = {
                 question: "What is full of holes but can still hold water?",
                 options: [
                     "A sponge",
-                    "A bucket with holes",
+                    "A strainer",
                     "A net",
-                    "A strainer"
+                    "A bucket with holes"
                 ],
                 correct: 0
             },
@@ -376,72 +376,72 @@ window.riddlesQuestions[15] = {
                 emoji: "🌈🎯",
                 question: "What occurs once in every minute, twice in every moment, but never in a thousand years?",
                 options: [
-                    "The letter M",
                     "Time",
                     "A second",
+                    "The letter M",
                     "Breathing"
                 ],
-                correct: 0
+                correct: 2
             },
         {
                 topic: "Kids Riddles - Expert",
                 emoji: "🎈🌟",
                 question: "What has a tongue but cannot taste, and has a soul but no body?",
                 options: [
+                    "A bell",
                     "A shoe",
                     "A snake",
-                    "A bell",
                     "A ghost"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Kids Riddles - Expert",
                 emoji: "🧸💫",
                 question: "What runs around a yard without moving?",
                 options: [
-                    "A fence",
+                    "A path",
                     "A dog on a leash",
                     "Grass",
-                    "A path"
+                    "A fence"
                 ],
-                correct: 0
+                correct: 3
             },
         {
                 topic: "Kids Riddles - Expert",
                 emoji: "🎪🔮",
                 question: "What can point in every direction but cannot reach anywhere?",
                 options: [
-                    "Your finger",
                     "A compass",
                     "A sign",
-                    "An arrow"
+                    "An arrow",
+                    "Your finger"
                 ],
-                correct: 0
+                correct: 3
             },
         {
                 topic: "Kids Riddles - Expert",
                 emoji: "🎯💭",
                 question: "What belongs to you but other people use it more than you do?",
                 options: [
+                    "Your room",
                     "Your name",
                     "Your toys",
-                    "Your bike",
-                    "Your room"
+                    "Your bike"
                 ],
-                correct: 0
+                correct: 1
             },
         {
                 topic: "Kids Riddles - Expert",
                 emoji: "🧸🌈",
                 question: "What can go through glass without breaking it?",
                 options: [
-                    "Light",
+                    "Water",
                     "Air",
                     "Sound",
-                    "Water"
+                    "Light"
                 ],
-                correct: 0
+                correct: 3
             }
     ],
     extreme: [

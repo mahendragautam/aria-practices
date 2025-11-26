@@ -1,20 +1,17 @@
 /**
- * WPCode Snippet: Dad Jokes Complete (Master + Logic Combined)
- * ============================================================
+ * WPCode Snippet: Dad Jokes Complete - FINAL FIXED
+ * ==================================================
  * Type: JavaScript
  * Location: Auto Insert > Footer
  * Priority: 15
  *
- * This SINGLE file:
- * 1. Loads all 5 category files
- * 2. Contains all game logic
+ * ✅ FIXES:
+ * 1. Properly hides home page
+ * 2. Shows only dad jokes page
+ * 3. Clean page transitions
+ * 4. No quiz interference
  *
- * REQUIRES: 5 category files already uploaded to WPCode:
- * - dad-jokes-category-1.js (Priority: 5)
- * - dad-jokes-category-2.js (Priority: 5)
- * - dad-jokes-category-3.js (Priority: 5)
- * - dad-jokes-category-4.js (Priority: 5)
- * - dad-jokes-category-5.js (Priority: 5)
+ * REQUIRES: 5 category files in WPCode (Priority: 5)
  *
  * COPY ALL CODE BELOW
  */
@@ -22,53 +19,21 @@
 (function() {
     'use strict';
 
-    console.log('😂 Loading Dad Jokes Complete Module...');
+    console.log('😂 Dad Jokes Module Loading...');
 
-    // PART 1: LOAD CATEGORY FILES
-    // ============================
-    const categoryFiles = [
-        'dad-jokes-js/dad-jokes-category-1.js',
-        'dad-jokes-js/dad-jokes-category-2.js',
-        'dad-jokes-js/dad-jokes-category-3.js',
-        'dad-jokes-js/dad-jokes-category-4.js',
-        'dad-jokes-js/dad-jokes-category-5.js'
-    ];
-
-    let filesLoaded = 0;
-    const totalFiles = categoryFiles.length;
-
-    function loadFile(index) {
-        if (index >= categoryFiles.length) {
-            console.log('✅ All category files loaded!');
-            initializeDadJokes(); // Start game logic after files loaded
-            return;
-        }
-
-        const script = document.createElement('script');
-        script.src = categoryFiles[index];
-        script.onload = function() {
-            filesLoaded++;
-            console.log(`✅ Loaded (${filesLoaded}/${totalFiles}): ${categoryFiles[index]}`);
-            loadFile(index + 1);
-        };
-        script.onerror = function() {
-            console.error(`❌ Failed to load: ${categoryFiles[index]}`);
-            loadFile(index + 1); // Continue loading
-        };
-        document.head.appendChild(script);
+    // Wait for DOM
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initializeDadJokes);
+    } else {
+        initializeDadJokes();
     }
 
-    // Start loading files
-    loadFile(0);
-
-    // PART 2: GAME LOGIC (Runs after files loaded)
-    // =============================================
     function initializeDadJokes() {
-        console.log('🎮 Initializing Dad Jokes game logic...');
+        console.log('🎮 Initializing Dad Jokes...');
 
         // Define categories
         window.dadJokesCategories = {
-            5: { name: 'Random Mix', emoji: '🎲', key: 'random' },         // FIRST!
+            5: { name: 'Random Mix', emoji: '🎲', key: 'random' },
             1: { name: 'Classic Dad Jokes', emoji: '😂', key: 'classic' },
             2: { name: 'Tech/Geek Dad Jokes', emoji: '💻', key: 'tech' },
             3: { name: 'Parenting Dad Jokes', emoji: '👶', key: 'parenting' },
@@ -79,42 +44,24 @@
         window.dadJokesData = {};
 
         // Load categories from window.dadJokesQuestions
-        try {
-            if (typeof window.dadJokesQuestions !== 'undefined' && window.dadJokesQuestions[1]) {
-                window.dadJokesData[1] = window.dadJokesQuestions[1];
-                console.log('✅ Category 1 loaded:', window.dadJokesQuestions[1].length, 'jokes');
+        for (let i = 1; i <= 4; i++) {
+            try {
+                if (typeof window.dadJokesQuestions !== 'undefined' && window.dadJokesQuestions[i]) {
+                    window.dadJokesData[i] = window.dadJokesQuestions[i];
+                    console.log(`✅ Category ${i}: ${window.dadJokesQuestions[i].length} jokes`);
+                }
+            } catch(e) {
+                console.warn(`⚠️ Category ${i} not loaded`);
             }
-        } catch(e) { console.warn('❌ Category 1 not loaded:', e); }
+        }
 
-        try {
-            if (typeof window.dadJokesQuestions !== 'undefined' && window.dadJokesQuestions[2]) {
-                window.dadJokesData[2] = window.dadJokesQuestions[2];
-                console.log('✅ Category 2 loaded:', window.dadJokesQuestions[2].length, 'jokes');
-            }
-        } catch(e) { console.warn('❌ Category 2 not loaded:', e); }
+        // State variables
+        window.currentJokeCategory = 1;
+        window.currentJokeSet = 0;
+        window.shuffledJokes = [];
+        window.jokesPerPage = 3;
 
-        try {
-            if (typeof window.dadJokesQuestions !== 'undefined' && window.dadJokesQuestions[3]) {
-                window.dadJokesData[3] = window.dadJokesQuestions[3];
-                console.log('✅ Category 3 loaded:', window.dadJokesQuestions[3].length, 'jokes');
-            }
-        } catch(e) { console.warn('❌ Category 3 not loaded:', e); }
-
-        try {
-            if (typeof window.dadJokesQuestions !== 'undefined' && window.dadJokesQuestions[4]) {
-                window.dadJokesData[4] = window.dadJokesQuestions[4];
-                console.log('✅ Category 4 loaded:', window.dadJokesQuestions[4].length, 'jokes');
-            }
-        } catch(e) { console.warn('❌ Category 4 not loaded:', e); }
-
-        try {
-            if (typeof window.dadJokesQuestions !== 'undefined' && window.dadJokesQuestions[5]) {
-                window.dadJokesData[5] = window.dadJokesQuestions[5];
-                console.log('✅ Category 5 loaded:', window.dadJokesQuestions[5].length, 'jokes');
-            }
-        } catch(e) { console.warn('❌ Category 5 not loaded:', e); }
-
-        // Count jokes per category
+        // Helper: Get joke count
         window.getJokeCount = function(category) {
             if (category === 5) {
                 let total = 0;
@@ -129,35 +76,43 @@
             return window.dadJokesData[category].length;
         };
 
-        // Get total jokes
-        window.getTotalJokesCount = function() {
-            let total = 0;
-            for (let i = 1; i <= 5; i++) {
-                total += window.getJokeCount(i);
+        // Helper: Switch to dad jokes page (FIXED)
+        function switchToDadJokesPage() {
+            // Hide ALL other pages
+            const allPages = document.querySelectorAll(
+                '.home-page, .chapter-selection, .level-selection, ' +
+                '.quiz-container, .result-container, .timer-challenges-page, ' +
+                '.timer-subject-level-selection, .practice-mode-page, .riddles-page'
+            );
+            allPages.forEach(page => page.classList.remove('active'));
+            
+            // Show ONLY dad jokes page
+            const dadJokesPage = document.querySelector('.dad-jokes-page');
+            if (dadJokesPage) {
+                dadJokesPage.classList.add('active');
             }
-            return total;
-        };
-
-        // State variables
-        window.currentJokeCategory = 1;
-        window.currentJokeSet = 0;
-        window.shuffledJokes = [];
-        window.jokesPerPage = 3;
+        }
 
         // Show home page
         window.showDadJokesHome = function() {
-            document.querySelectorAll('.home-page, .chapter-selection, .level-selection, .quiz-container, .result-container, .timer-challenges-page, .timer-subject-level-selection, .practice-mode-page, .riddles-page, .dad-jokes-page').forEach(el => {
-                el.classList.remove('active');
-            });
-            document.querySelector('.dad-jokes-page').classList.add('active');
+            // Switch to dad jokes page (hides home)
+            switchToDadJokesPage();
 
-            document.querySelector('.dad-jokes-page').innerHTML = `
+            const dadJokesPage = document.querySelector('.dad-jokes-page');
+            if (!dadJokesPage) {
+                console.error('❌ .dad-jokes-page not found in HTML!');
+                return;
+            }
+
+            // Populate content
+            dadJokesPage.innerHTML = `
                 <h1 class="title">😂 Dad Jokes 😂</h1>
                 <p class="subtitle">Get ready to groan!</p>
                 <h2 class="section-title">📚 Select Category</h2>
                 <div class="joke-category-grid" id="jokeCategoryGrid"></div>
                 <button class="back-button" onclick="showHomePage()">← Back to Home</button>
             `;
+            
             displayJokeCategories();
         };
 
@@ -202,6 +157,7 @@
             let jokes = [];
 
             if (window.currentJokeCategory === 5) {
+                // Random mix - combine all categories
                 for (let i = 1; i <= 4; i++) {
                     if (window.dadJokesData[i] && window.dadJokesData[i].length > 0) {
                         jokes = jokes.concat(window.dadJokesData[i]);
@@ -212,11 +168,12 @@
             }
 
             if (!jokes || jokes.length === 0) {
-                alert('❌ No jokes available!\n\nCheck:\n1. Category files uploaded\n2. Files are ACTIVE\n3. Correct priority order');
+                alert('❌ No jokes available!\n\nCheck:\n1. Category files uploaded to WPCode\n2. Files are ACTIVE\n3. Priority: 5 for categories, 15 for this file');
                 window.showDadJokesHome();
                 return;
             }
 
+            // Shuffle jokes
             window.shuffledJokes = [...jokes].sort(() => Math.random() - 0.5);
             window.currentJokeSet = 0;
             displayJokeSet();
@@ -224,21 +181,24 @@
 
         // Display joke set
         window.displayJokeSet = function() {
-            document.querySelectorAll('.home-page, .chapter-selection, .level-selection, .quiz-container, .result-container, .timer-challenges-page, .timer-subject-level-selection, .practice-mode-page, .riddles-page, .dad-jokes-page').forEach(el => {
-                el.classList.remove('active');
-            });
-            document.querySelector('.dad-jokes-page').classList.add('active');
+            // Make sure we're on dad jokes page
+            switchToDadJokesPage();
+
+            const dadJokesPage = document.querySelector('.dad-jokes-page');
+            if (!dadJokesPage) return;
 
             const category = window.dadJokesCategories[window.currentJokeCategory];
             const startIndex = window.currentJokeSet * window.jokesPerPage;
             const endIndex = Math.min(startIndex + window.jokesPerPage, window.shuffledJokes.length);
             const jokesToShow = window.shuffledJokes.slice(startIndex, endIndex);
 
+            // Check if we've reached the end
             if (startIndex >= window.shuffledJokes.length) {
                 showJokesComplete();
                 return;
             }
 
+            // Build jokes HTML
             let jokesHTML = '';
             jokesToShow.forEach((joke, index) => {
                 const globalIndex = startIndex + index;
@@ -258,7 +218,8 @@
 
             const progress = Math.round((startIndex / window.shuffledJokes.length) * 100);
 
-            document.querySelector('.dad-jokes-page').innerHTML = `
+            // Update page content
+            dadJokesPage.innerHTML = `
                 <div class="jokes-header">
                     <h2 class="jokes-title">${category.emoji} ${category.name}</h2>
                     <div class="jokes-progress">Set ${window.currentJokeSet + 1} - Jokes ${startIndex + 1}-${endIndex} of ${window.shuffledJokes.length}</div>
@@ -268,8 +229,8 @@
                 </div>
                 <div class="jokes-container">${jokesHTML}</div>
                 <div class="jokes-navigation">
-                    ${window.currentJokeSet > 0 ? '<button class="prev-jokes-btn" onclick="previousJokeSet()">← Previous Set</button>' : ''}
-                    <button class="next-jokes-btn" onclick="nextJokeSet()">Next Set →</button>
+                    ${window.currentJokeSet > 0 ? '<button class="prev-jokes-btn" onclick="previousJokeSet()">← Previous</button>' : ''}
+                    <button class="next-jokes-btn" onclick="nextJokeSet()">Next →</button>
                 </div>
                 <button class="back-button" onclick="confirmQuitJokes()">← Quit</button>
             `;
@@ -310,13 +271,13 @@
 
         // Complete screen
         window.showJokesComplete = function() {
-            document.querySelectorAll('.home-page, .chapter-selection, .level-selection, .quiz-container, .result-container, .timer-challenges-page, .timer-subject-level-selection, .practice-mode-page, .riddles-page, .dad-jokes-page').forEach(el => {
-                el.classList.remove('active');
-            });
-            document.querySelector('.dad-jokes-page').classList.add('active');
+            switchToDadJokesPage();
+
+            const dadJokesPage = document.querySelector('.dad-jokes-page');
+            if (!dadJokesPage) return;
 
             const category = window.dadJokesCategories[window.currentJokeCategory];
-            document.querySelector('.dad-jokes-page').innerHTML = `
+            dadJokesPage.innerHTML = `
                 <div class="result-content">
                     <div class="result-title">All Jokes Complete! 🎉</div>
                     <div class="badge">😂</div>
@@ -340,12 +301,12 @@
             }
         };
 
-        // Entry point
+        // Entry point (called from home page button)
         window.showDadJokes = function() {
             window.showDadJokesHome();
         };
 
-        console.log('✅ Dad Jokes initialized! Total jokes:', window.getTotalJokesCount());
+        console.log('✅ Dad Jokes initialized!');
     }
 
 })();

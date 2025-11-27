@@ -20,7 +20,7 @@ const artCultureQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Music",
@@ -40,7 +40,7 @@ const artCultureQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Literature",
@@ -60,7 +60,7 @@ const artCultureQuestions = {
                     "Jarabe Tapatío",
                     "Cumbia"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Sculpture",
@@ -70,7 +70,7 @@ const artCultureQuestions = {
                     "Auguste Rodin",
                     "Donatello"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Cinema",
@@ -90,7 +90,7 @@ const artCultureQuestions = {
                     "Evita",
                     "Cats"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Festivals",
@@ -100,7 +100,7 @@ const artCultureQuestions = {
                     "Jazz Fest",
                     "Mardi Gras"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Museums",
@@ -110,7 +110,7 @@ const artCultureQuestions = {
                     "Shanghai",
                     "Beijing"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         hard: [
@@ -123,7 +123,7 @@ const artCultureQuestions = {
                     "Pierre-Auguste Renoir",
                     "Camille Pissarro"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Music",
@@ -134,7 +134,7 @@ const artCultureQuestions = {
                     "Giuseppe Verdi",
                     "Giacomo Puccini"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Architecture",
@@ -145,7 +145,7 @@ const artCultureQuestions = {
                     "Norman Foster",
                     "Zaha Hadid"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Literature",
@@ -167,7 +167,7 @@ const artCultureQuestions = {
                     "Duo",
                     "Group"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Sculpture",
@@ -178,7 +178,7 @@ const artCultureQuestions = {
                     "Spring Temple Buddha",
                     "Statue of Liberty"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Cinema",
@@ -189,7 +189,7 @@ const artCultureQuestions = {
                     "Ridley Scott",
                     "Steven Spielberg"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Theater",
@@ -200,7 +200,7 @@ const artCultureQuestions = {
                     "Zarzuela",
                     "Corrida"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "World Heritage",
@@ -211,7 +211,7 @@ const artCultureQuestions = {
                     "Mosaicos",
                     "Ladrilhos"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Crafts",
@@ -260,7 +260,7 @@ const artCultureQuestions = {
                     "Paulo Mendes da Rocha",
                     "Vilanova Artigas"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Literature",
@@ -275,7 +275,7 @@ const artCultureQuestions = {
                     "Athol Fugard",
                     "Breyten Breytenbach"
                 ],
-                correct: 0
+                correct: 3
             },
                 question: "Who founded the Joffrey Ballet?",
                 options: [
@@ -284,7 +284,7 @@ const artCultureQuestions = {
                     "Twyla Tharp",
                     "Paul Taylor"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Sculpture",
@@ -296,7 +296,7 @@ const artCultureQuestions = {
                     "Giacomo Balla",
                     "Carlo Carrà"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Cinema",
@@ -308,7 +308,7 @@ const artCultureQuestions = {
                     "Nordic Noir",
                     "Scandinavian Wave"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Theater",
@@ -423,7 +423,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Riverdance",
                     "Irish step dance"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Sculpture",
@@ -443,7 +443,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Christian Bale",
                     "Ben Affleck"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Theater",
@@ -453,7 +453,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Cats",
                     "Phantom"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Festivals",
@@ -463,7 +463,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Fat Tuesday",
                     "Fat Monday"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Museums",
@@ -473,7 +473,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Rome",
                     "Athens"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         hard: [
@@ -500,7 +500,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Haydn",
                     "Rossini"
                 ],
-                correct: 0
+                correct: 2
             },
                 question: "Who designed the Guggenheim Museum in New York?",
                 options: [
@@ -522,7 +522,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Yukio Mishima",
                     "Kazuo Ishiguro"
                 ],
-                correct: 0
+                correct: 2
             },
                 question: "What is the African-American dance style with sharp movements?",
                 options: [
@@ -530,7 +530,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Krumping",
                     "Popping"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Sculpture",
@@ -563,7 +563,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Klezmer",
                     "Hasidic"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "World Heritage",
@@ -574,7 +574,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Nineveh",
                     "Ur"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Crafts",
@@ -585,7 +585,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Prague",
                     "Murano"
                 ],
-                correct: 2
+                correct: 1
             }
         ],
         expert: [
@@ -599,7 +599,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Bauhaus",
                     "Vorticism"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Music",
@@ -611,7 +611,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "52",
                     "27"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Architecture",
@@ -623,7 +623,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Eliel Saarinen",
                     "Reima Pietilä"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Literature",
@@ -638,7 +638,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Ben Okri",
                     "Chimamanda Adichie"
                 ],
-                correct: 0
+                correct: 2
             },
                 question: "Who founded the Alvin Ailey dance company?",
                 options: [
@@ -647,7 +647,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Pearl Primus",
                     "Donald McKayle"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Sculpture",
@@ -659,7 +659,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Jean Tinguely",
                     "Naum Gabo"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Cinema",
@@ -677,7 +677,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Alain Resnais",
                     "Claude Chabrol"
                 ],
-                correct: 0
+                correct: 1
             },
                 question: "Who wrote 'The Importance of Being Earnest'?",
                 options: [
@@ -695,7 +695,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Troy",
                     "Pergamon"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Museums",
@@ -707,7 +707,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Potsdamer",
                     "Charlottenburg"
                 ],
-                correct: 0
+                correct: 2
             }
         ],
         extreme: [
@@ -783,7 +783,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Music",
@@ -793,7 +793,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Architecture",
@@ -823,7 +823,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Sculpture",
@@ -833,7 +833,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Cinema",
@@ -843,7 +843,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Theater",
@@ -863,7 +863,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Crafts",
@@ -873,7 +873,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             }
         ],
         medium: [
@@ -885,7 +885,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Edvard Munch",
                     "Vincent van Gogh"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Music",
@@ -895,7 +895,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Wolfgang",
                     "Ludwig"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Architecture",
@@ -905,7 +905,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Jørn Utzon",
                     "Frank Lloyd Wright"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Literature",
@@ -925,7 +925,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Argentina",
                     "Spain"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Sculpture",
@@ -935,7 +935,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Marble",
                     "Bronze"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Cinema",
@@ -945,7 +945,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Orson Welles",
                     "Alfred Hitchcock"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Theater",
@@ -955,7 +955,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "The Phantom of the Opera",
                     "Cats"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Festivals",
@@ -965,7 +965,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "France",
                     "Italy"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "World Heritage",
@@ -975,7 +975,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "15th century",
                     "14th century"
                 ],
-                correct: 0
+                correct: 3
             }
         ],
         hard: [
@@ -988,7 +988,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Leonardo da Vinci",
                     "Raphael"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Music",
@@ -999,7 +999,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Johann Sebastian Bach",
                     "Georg Handel"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Architecture",
@@ -1010,7 +1010,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Bramante",
                     "Bernini"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Literature",
@@ -1021,7 +1021,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Jorge Luis Borges",
                     "Pablo Neruda"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Dance",
@@ -1043,7 +1043,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Constantin Brâncuși",
                     "Antonio Canova"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Cinema",
@@ -1054,7 +1054,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Charlie Chaplin",
                     "D.W. Griffith"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Theater",
@@ -1076,7 +1076,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Moscow",
                     "Kiev"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Crafts",
@@ -1087,7 +1087,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Decoupage",
                     "Batik"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         expert: [
@@ -1125,7 +1125,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Norman Foster",
                     "Renzo Piano"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Literature",
@@ -1137,7 +1137,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Anton Chekhov",
                     "Nikolai Gogol"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Dance",
@@ -1149,7 +1149,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Martha Graham",
                     "Merce Cunningham"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Sculpture",
@@ -1161,7 +1161,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Alberto Giacometti",
                     "Barbara Hepworth"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Cinema",
@@ -1173,7 +1173,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Akira Kurosawa",
                     "Andrei Tarkovsky"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Theater",
@@ -1185,7 +1185,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Tom Stoppard",
                     "Eugène Ionesco"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "World Heritage",
@@ -1197,7 +1197,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "1988",
                     "1990"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Crafts",
@@ -1209,7 +1209,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Suzani",
                     "Ikat"
                 ],
-                correct: 0
+                correct: 3
             }
         ],
         extreme: [
@@ -1295,7 +1295,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Architecture",
@@ -1305,7 +1305,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Literature",
@@ -1315,7 +1315,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Dance",
@@ -1325,7 +1325,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Sculpture",
@@ -1335,7 +1335,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Cinema",
@@ -1345,7 +1345,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Theater",
@@ -1355,7 +1355,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Music",
@@ -1365,7 +1365,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Painting",
@@ -1387,7 +1387,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Johannes Vermeer",
                     "Rembrandt"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Music",
@@ -1397,7 +1397,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Trumpet",
                     "Saxophone"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Architecture",
@@ -1407,7 +1407,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Moorish",
                     "Gothic"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Literature",
@@ -1417,7 +1417,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Harper Lee",
                     "Truman Capote"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Dance",
@@ -1427,7 +1427,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Tap dancing",
                     "Jazz"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Sculpture",
@@ -1437,7 +1437,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Carrara marble",
                     "Limestone"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Cinema",
@@ -1447,7 +1447,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Francis Ford Coppola",
                     "Martin Scorsese"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Theater",
@@ -1467,7 +1467,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Madrid",
                     "Barcelona"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Festivals",
@@ -1477,7 +1477,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Spain",
                     "Italy"
                 ],
-                correct: 0
+                correct: 2
             }
         ],
         hard: [
@@ -1490,7 +1490,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Georges Braque",
                     "Juan Gris"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Music",
@@ -1512,7 +1512,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Le Corbusier",
                     "Mies van der Rohe"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Literature",
@@ -1523,7 +1523,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Alice Walker",
                     "Maya Angelou"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Dance",
@@ -1534,7 +1534,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Bossa Nova",
                     "Capoeira"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Sculpture",
@@ -1567,7 +1567,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "George Bernard Shaw",
                     "Noël Coward"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "World Heritage",
@@ -1578,7 +1578,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Thailand",
                     "Vietnam"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Crafts",
@@ -1589,7 +1589,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Bonsai",
                     "Origami"
                 ],
-                correct: 0
+                correct: 3
             }
         ],
         expert: [
@@ -1603,7 +1603,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Jan van Eyck",
                     "Rogier van der Weyden"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Music",
@@ -1627,7 +1627,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Le Corbusier",
                     "Walter Gropius"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Literature",
@@ -1639,7 +1639,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Vita Sackville-West",
                     "E.M. Forster"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Dance",
@@ -1651,7 +1651,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Michel Fokine",
                     "Vaslav Nijinsky"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Sculpture",
@@ -1663,7 +1663,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Barbara Hepworth",
                     "Jean Arp"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Cinema",
@@ -1687,7 +1687,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Arthur Miller",
                     "Edward Albee"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Museums",
@@ -1699,7 +1699,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "1962",
                     "1965"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Crafts",
@@ -1711,7 +1711,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Ikat",
                     "Shibori"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         extreme: [
@@ -1787,7 +1787,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Architecture",
@@ -1797,7 +1797,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Painting",
@@ -1817,7 +1817,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Dance",
@@ -1837,7 +1837,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Sculpture",
@@ -1847,7 +1847,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Theater",
@@ -1857,7 +1857,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Music",
@@ -1867,7 +1867,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Painting",
@@ -1877,7 +1877,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             }
         ],
         medium: [
@@ -1889,7 +1889,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Tchaikovsky",
                     "Stravinsky"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Architecture",
@@ -1899,7 +1899,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Gothic",
                     "Romanesque"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Painting",
@@ -1909,7 +1909,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Grant Wood",
                     "Edward Hopper"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Literature",
@@ -1919,7 +1919,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "F. Scott Fitzgerald",
                     "Ernest Hemingway"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Dance",
@@ -1949,7 +1949,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Clay",
                     "Stone"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Theater",
@@ -1969,7 +1969,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "London",
                     "Edinburgh"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Crafts",
@@ -1979,7 +1979,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Macramé",
                     "Crochet"
                 ],
-                correct: 0
+                correct: 3
             }
         ],
         hard: [
@@ -1992,7 +1992,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Aaron Copland",
                     "Leonard Bernstein"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Architecture",
@@ -2014,7 +2014,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Roy Lichtenstein",
                     "Jasper Johns"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Literature",
@@ -2025,7 +2025,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "James Baldwin",
                     "Richard Wright"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Dance",
@@ -2036,7 +2036,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Kahiko",
                     "Auana"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Cinema",
@@ -2047,7 +2047,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Isao Takahata",
                     "Mamoru Hosoda"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Sculpture",
@@ -2058,7 +2058,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Aristide Maillol",
                     "Camille Claudel"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Theater",
@@ -2069,7 +2069,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Maxim Gorky",
                     "Ivan Turgenev"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "World Heritage",
@@ -2091,7 +2091,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "São Paulo",
                     "Salvador"
                 ],
-                correct: 0
+                correct: 3
             }
         ],
         expert: [
@@ -2105,7 +2105,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Edgar Varèse",
                     "John Cage"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Architecture",
@@ -2117,7 +2117,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Walter Gropius",
                     "Philip Johnson"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Painting",
@@ -2129,7 +2129,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Francis Picabia",
                     "Fernand Léger"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Literature",
@@ -2141,7 +2141,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "John Steinbeck",
                     "Sinclair Lewis"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Dance",
@@ -2153,7 +2153,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Katherine Dunham",
                     "Pearl Primus"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Cinema",
@@ -2165,7 +2165,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Carl Theodor Dreyer",
                     "Roy Andersson"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Sculpture",
@@ -2177,7 +2177,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Francis Picabia",
                     "Hans Arp"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Theater",
@@ -2189,7 +2189,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "William Saroyan",
                     "Elmer Rice"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Museums",
@@ -2201,7 +2201,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "1875",
                     "1880"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Crafts",
@@ -2213,7 +2213,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Llwyau Caru",
                     "Cymraeg"
                 ],
-                correct: 2
+                correct: 1
             }
         ],
         extreme: [
@@ -2289,7 +2289,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Cinema",
@@ -2309,7 +2309,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Architecture",
@@ -2319,7 +2319,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Painting",
@@ -2329,7 +2329,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Dance",
@@ -2339,7 +2339,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Theater",
@@ -2349,7 +2349,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Sculpture",
@@ -2369,7 +2369,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Music",
@@ -2379,7 +2379,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             }
         ],
         medium: [
@@ -2401,7 +2401,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Snow White",
                     "Fantasia"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Music",
@@ -2431,7 +2431,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Leonardo da Vinci",
                     "Michelangelo"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Dance",
@@ -2441,7 +2441,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Troika",
                     "Polka"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Theater",
@@ -2461,7 +2461,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "The Thinker",
                     "The Kiss"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Festivals",
@@ -2471,7 +2471,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Munich",
                     "Berlin"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Crafts",
@@ -2505,7 +2505,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Billy Wilder",
                     "John Ford"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Music",
@@ -2516,7 +2516,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Claude Debussy",
                     "Erik Satie"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Architecture",
@@ -2538,7 +2538,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "René Magritte",
                     "Max Ernst"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Dance",
@@ -2560,7 +2560,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Arthur Miller",
                     "William Inge"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Sculpture",
@@ -2571,7 +2571,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Henry Moore",
                     "Anish Kapoor"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "World Heritage",
@@ -2593,7 +2593,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Venice",
                     "Rome"
                 ],
-                correct: 0
+                correct: 2
             }
         ],
         expert: [
@@ -2631,7 +2631,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Dmitri Shostakovich",
                     "Aram Khachaturian"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Architecture",
@@ -2655,7 +2655,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Paul Delvaux",
                     "Yves Tanguy"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Dance",
@@ -2667,7 +2667,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Kenneth MacMillan",
                     "Jerome Robbins"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Theater",
@@ -2679,7 +2679,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Jean Genet",
                     "Fernando Arrabal"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Sculpture",
@@ -2691,7 +2691,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Naum Gabo",
                     "Antoine Pevsner"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Museums",
@@ -2703,7 +2703,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "1926",
                     "1935"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Crafts",
@@ -2803,7 +2803,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Architecture",
@@ -2813,7 +2813,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Literature",
@@ -2833,7 +2833,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Sculpture",
@@ -2843,7 +2843,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Cinema",
@@ -2853,7 +2853,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Theater",
@@ -2863,7 +2863,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Monuments",
@@ -2873,7 +2873,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Music",
@@ -2883,7 +2883,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         medium: [
@@ -2895,7 +2895,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Pablo Picasso",
                     "Joan Miró"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Music",
@@ -2905,7 +2905,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Piano",
                     "Harp"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Architecture",
@@ -2938,7 +2938,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Auguste Rodin",
                     "Camille Claudel"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Cinema",
@@ -2948,7 +2948,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Palme d'Or",
                     "Golden Lion"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Theater",
@@ -2958,7 +2958,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Chicago",
                     "Cabaret"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Festivals",
@@ -2968,7 +2968,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Fringe Festival",
                     "International Festival"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Museums",
@@ -2997,7 +2997,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Imperial Palace",
                     "Purple City"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Literature",
@@ -3011,7 +3011,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "8",
                     "16"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Sculpture",
@@ -3022,7 +3022,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Marble",
                     "Wood"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Cinema",
@@ -3072,7 +3072,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Suprematism",
                     "Constructivism"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Music",
@@ -3084,7 +3084,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "48",
                     "32"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Architecture",
@@ -3096,7 +3096,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Frank Lloyd Wright",
                     "Mies van der Rohe"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Literature",
@@ -3111,7 +3111,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Mary Wigman",
                     "Rudolf Laban"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Sculpture",
@@ -3126,7 +3126,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Raj Kapoor",
                     "Guru Dutt"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Theater",
@@ -3248,7 +3248,7 @@ const artCultureChapter7 = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Architecture",
@@ -3258,7 +3258,7 @@ const artCultureChapter7 = {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Literature",
@@ -3268,7 +3268,7 @@ const artCultureChapter7 = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Dance",
@@ -3288,7 +3288,7 @@ const artCultureChapter7 = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Cinema",
@@ -3308,7 +3308,7 @@ const artCultureChapter7 = {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Monuments",
@@ -3328,7 +3328,7 @@ const artCultureChapter7 = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             }
         ],
         medium: [
@@ -3353,7 +3353,7 @@ const artCultureChapter7 = {
                     "One World Trade",
                     "Empire State"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Literature",
@@ -3366,7 +3366,7 @@ const artCultureChapter7 = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Sculpture",
@@ -3376,7 +3376,7 @@ const artCultureChapter7 = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Cinema",
@@ -3406,7 +3406,7 @@ const artCultureChapter7 = {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Music",
@@ -3416,7 +3416,7 @@ const artCultureChapter7 = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             }
         ],
         hard: [
@@ -3429,7 +3429,7 @@ const artCultureChapter7 = {
                     "Vincent van Gogh",
                     "Salvador Dalí"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Music",
@@ -3440,7 +3440,7 @@ const artCultureChapter7 = {
                     "12",
                     "7"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Architecture",
@@ -3451,7 +3451,7 @@ const artCultureChapter7 = {
                     "Persian",
                     "Ottoman"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Literature",
@@ -3465,7 +3465,7 @@ const artCultureChapter7 = {
                     "7",
                     "8"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Sculpture",
@@ -3476,7 +3476,7 @@ const artCultureChapter7 = {
                     "England",
                     "Spain"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Cinema",
@@ -3490,7 +3490,7 @@ const artCultureChapter7 = {
                     "Aeschylus",
                     "Euripides"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "World Heritage",
@@ -3501,7 +3501,7 @@ const artCultureChapter7 = {
                     "10",
                     "5"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Crafts",
@@ -3512,7 +3512,7 @@ const artCultureChapter7 = {
                     "Batik",
                     "Screen printing"
                 ],
-                correct: 1
+                correct: 3
             }
         ],
         expert: [
@@ -3526,7 +3526,7 @@ const artCultureChapter7 = {
                     "1892",
                     "1880"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Music",
@@ -3538,7 +3538,7 @@ const artCultureChapter7 = {
                     "Vivace",
                     "Largo"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Architecture",
@@ -3550,7 +3550,7 @@ const artCultureChapter7 = {
                     "Jørn Utzon",
                     "I.M. Pei"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Literature",
@@ -3562,7 +3562,7 @@ const artCultureChapter7 = {
                     "Rudyard Kipling",
                     "W.B. Yeats"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Dance",
@@ -3574,7 +3574,7 @@ const artCultureChapter7 = {
                     "Mambo",
                     "Salsa"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Sculpture",
@@ -3598,7 +3598,7 @@ const artCultureChapter7 = {
                     "Sunrise",
                     "The Circus"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Theater",
@@ -3622,7 +3622,7 @@ const artCultureChapter7 = {
                     "12 years",
                     "20 years"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Museums",
@@ -3634,7 +3634,7 @@ const artCultureChapter7 = {
                     "1725",
                     "1789"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         extreme: [
@@ -3717,7 +3717,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Music",
@@ -3727,7 +3727,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Architecture",
@@ -3737,7 +3737,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Literature",
@@ -3747,7 +3747,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Dance",
@@ -3757,7 +3757,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Sculpture",
@@ -3767,7 +3767,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Cinema",
@@ -3777,7 +3777,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Theater",
@@ -3787,7 +3787,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Monuments",
@@ -3797,7 +3797,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Music",
@@ -3807,7 +3807,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         medium: [
@@ -3822,7 +3822,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "4",
                     "3"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Architecture",
@@ -3832,7 +3832,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Gyeongbokgung",
                     "Changdeokgung"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Literature",
@@ -3845,7 +3845,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Ganggangsullae",
                     "Talchum"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Sculpture",
@@ -3855,7 +3855,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Modeling",
                     "Carving"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Cinema",
@@ -3888,7 +3888,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Cairo",
                     "Alexandria"
                 ],
-                correct: 0
+                correct: 3
             }
         ],
         hard: [
@@ -3907,7 +3907,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "KL Towers",
                     "Twin Spires"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Literature",
@@ -3921,7 +3921,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Three swans",
                     "Five swans"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Sculpture",
@@ -3932,7 +3932,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Marble",
                     "Steel"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Cinema",
@@ -3946,7 +3946,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Namsadang",
                     "Talchum"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "World Heritage",
@@ -3957,7 +3957,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Sukhothai",
                     "Lopburi"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Crafts",
@@ -3968,7 +3968,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Ikebana",
                     "Origami"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         expert: [
@@ -3982,7 +3982,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "František Kupka",
                     "Fernand Léger"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Music",
@@ -3994,7 +3994,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "67",
                     "51"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Architecture",
@@ -4006,7 +4006,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Nader Ardalan",
                     "Abdol-Aziz Farmanfarmaian"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Literature",
@@ -4024,7 +4024,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Antoine Bourdelle",
                     "Aristide Maillol"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Cinema",
@@ -4042,7 +4042,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Zabid",
                     "Marib"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Museums",
@@ -4054,7 +4054,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Van Gogh Museum",
                     "Stedelijk"
                 ],
-                correct: 0
+                correct: 3
             }
         ],
         extreme: [
@@ -4130,7 +4130,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Music",
@@ -4140,7 +4140,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Architecture",
@@ -4150,7 +4150,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Literature",
@@ -4160,7 +4160,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Dance",
@@ -4180,7 +4180,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Cinema",
@@ -4190,7 +4190,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Theater",
@@ -4200,7 +4200,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Monuments",
@@ -4210,7 +4210,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Music",
@@ -4220,7 +4220,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 3
             }
         ],
         medium: [
@@ -4245,7 +4245,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Wailing Wall",
                     "Temple Wall"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Literature",
@@ -4258,7 +4258,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Zorba",
                     "Sirtaki"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Sculpture",
@@ -4268,7 +4268,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Assemblage",
                     "Collage"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Cinema",
@@ -4278,7 +4278,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Grand Jury Prize",
                     "Audience Award"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Theater",
@@ -4298,7 +4298,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Montreux",
                     "Lucerne"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Museums",
@@ -4308,7 +4308,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Mexico City",
                     "Guadalajara"
                 ],
-                correct: 0
+                correct: 2
             }
         ],
         hard: [
@@ -4327,7 +4327,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Atlantis",
                     "Emirates Palace"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Literature",
@@ -4341,7 +4341,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Five",
                     "Ten"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Sculpture",
@@ -4352,7 +4352,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Camille Claudel",
                     "Medardo Rosso"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Cinema",
@@ -4366,7 +4366,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Zarzuela",
                     "Moro-moro"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "World Heritage",
@@ -4377,7 +4377,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Tyre",
                     "Sidon"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Crafts",
@@ -4388,7 +4388,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Iznik",
                     "Calligraphy"
                 ],
-                correct: 0
+                correct: 3
             }
         ],
         expert: [
@@ -4402,7 +4402,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Maurice de Vlaminck",
                     "Raoul Dufy"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Music",
@@ -4414,7 +4414,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "18",
                     "24"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Architecture",
@@ -4438,7 +4438,7 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Elif Şafak",
                     "Nâzım Hikmet"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Dance",
@@ -4579,7 +4579,7 @@ const artCultureChapter10 = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Literature",
@@ -4619,7 +4619,7 @@ const artCultureChapter10 = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Theater",
@@ -4639,7 +4639,7 @@ const artCultureChapter10 = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Music",
@@ -4649,7 +4649,7 @@ const artCultureChapter10 = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 3
             }
         ],
         medium: [
@@ -4674,7 +4674,7 @@ const artCultureChapter10 = {
                     "Winter Palace",
                     "Peterhof"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Literature",
@@ -4687,7 +4687,7 @@ const artCultureChapter10 = {
                     "Salsa",
                     "Samba"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Sculpture",
@@ -4697,7 +4697,7 @@ const artCultureChapter10 = {
                     "Ceramic",
                     "Bronze"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Cinema",
@@ -4707,7 +4707,7 @@ const artCultureChapter10 = {
                     "National Film Award",
                     "Filmfare Award"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Theater",
@@ -4763,7 +4763,7 @@ const artCultureChapter10 = {
                     "Zapateado",
                     "Braceo"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Sculpture",
@@ -4780,7 +4780,7 @@ const artCultureChapter10 = {
                     "Kabuki",
                     "Noh"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "World Heritage",
@@ -4802,7 +4802,7 @@ const artCultureChapter10 = {
                     "Raku",
                     "Shibori"
                 ],
-                correct: 0
+                correct: 3
             }
         ],
         expert: [
@@ -4816,7 +4816,7 @@ const artCultureChapter10 = {
                     "Edward Hopper",
                     "Charles Sheeler"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Music",
@@ -4828,7 +4828,7 @@ const artCultureChapter10 = {
                     "8",
                     "12"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Architecture",
@@ -4840,7 +4840,7 @@ const artCultureChapter10 = {
                     "Byzantines",
                     "Persians"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Literature",
@@ -4867,7 +4867,7 @@ const artCultureChapter10 = {
                     "Kiyomizu-dera",
                     "Kinkaku-ji"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Museums",
@@ -4958,7 +4958,7 @@ const artCultureSet3 = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Music",
@@ -4968,7 +4968,7 @@ const artCultureSet3 = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Architecture",
@@ -4978,7 +4978,7 @@ const artCultureSet3 = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Literature",
@@ -4988,7 +4988,7 @@ const artCultureSet3 = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Dance",
@@ -5008,7 +5008,7 @@ const artCultureSet3 = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Cinema",
@@ -5018,7 +5018,7 @@ const artCultureSet3 = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Theater",
@@ -5028,7 +5028,7 @@ const artCultureSet3 = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Monuments",
@@ -5063,7 +5063,7 @@ const artCultureSet3 = {
                     "Concerto",
                     "Sonata"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Architecture",
@@ -5073,7 +5073,7 @@ const artCultureSet3 = {
                     "Baitul Mukarram",
                     "Star Mosque"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Literature",
@@ -5096,7 +5096,7 @@ const artCultureSet3 = {
                     "Relief",
                     "Sunken design"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Cinema",
@@ -5106,7 +5106,7 @@ const artCultureSet3 = {
                     "César Award",
                     "Lumière Award"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Theater",
@@ -5129,7 +5129,7 @@ const artCultureSet3 = {
                     "Trinity College Dublin",
                     "National Museum"
                 ],
-                correct: 0
+                correct: 3
             }
         ],
         hard: [
@@ -5148,7 +5148,7 @@ const artCultureSet3 = {
                     "Hanoi",
                     "Da Nang"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Literature",
@@ -5162,7 +5162,7 @@ const artCultureSet3 = {
                     "Solo",
                     "Pair"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Sculpture",
@@ -5179,7 +5179,7 @@ const artCultureSet3 = {
                     "Khon",
                     "Likay"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "World Heritage",
@@ -5190,7 +5190,7 @@ const artCultureSet3 = {
                     "Aleppo",
                     "Damascus"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Crafts",
@@ -5201,7 +5201,7 @@ const artCultureSet3 = {
                     "Papel picado",
                     "Alebrije"
                 ],
-                correct: 0
+                correct: 3
             }
         ],
         expert: [
@@ -5215,7 +5215,7 @@ const artCultureSet3 = {
                     "Kazimir Malevich",
                     "El Lissitzky"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Music",
@@ -5227,7 +5227,7 @@ const artCultureSet3 = {
                     "8",
                     "12"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Architecture",
@@ -5275,7 +5275,7 @@ const artCultureSet3 = {
                     "Herat Buddhas",
                     "Kabul Buddhas"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Museums",
@@ -5287,7 +5287,7 @@ const artCultureSet3 = {
                     "Tinguely Museum",
                     "Vitra Design"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         extreme: [
@@ -5363,7 +5363,7 @@ const artCultureSet3 = {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Music",
@@ -5373,7 +5373,7 @@ const artCultureSet3 = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Architecture",
@@ -5383,7 +5383,7 @@ const artCultureSet3 = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Literature",
@@ -5393,7 +5393,7 @@ const artCultureSet3 = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Dance",
@@ -5413,7 +5413,7 @@ const artCultureSet3 = {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Cinema",
@@ -5423,7 +5423,7 @@ const artCultureSet3 = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Theater",
@@ -5433,7 +5433,7 @@ const artCultureSet3 = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Monuments",
@@ -5443,7 +5443,7 @@ const artCultureSet3 = {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Music",
@@ -5453,7 +5453,7 @@ const artCultureSet3 = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 3
             }
         ],
         medium: [
@@ -5468,7 +5468,7 @@ const artCultureSet3 = {
                     "Symphony",
                     "Concerto"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Architecture",
@@ -5478,7 +5478,7 @@ const artCultureSet3 = {
                     "Sigiriya",
                     "Polonnaruwa"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Literature",
@@ -5491,7 +5491,7 @@ const artCultureSet3 = {
                     "Tinikling",
                     "Pandanggo sa Ilaw"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Sculpture",
@@ -5501,7 +5501,7 @@ const artCultureSet3 = {
                     "Subtractive",
                     "Additive"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Cinema",
@@ -5514,7 +5514,7 @@ const artCultureSet3 = {
                     "Hamilton",
                     "1776"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Festivals",
@@ -5534,7 +5534,7 @@ const artCultureSet3 = {
                     "Stockholm",
                     "Gothenburg"
                 ],
-                correct: 0
+                correct: 3
             }
         ],
         hard: [
@@ -5553,7 +5553,7 @@ const artCultureSet3 = {
                     "Norman Foster",
                     "David Adjaye"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Literature",
@@ -5567,7 +5567,7 @@ const artCultureSet3 = {
                     "Balinese dance",
                     "Both are correct"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Sculpture",
@@ -5578,7 +5578,7 @@ const artCultureSet3 = {
                     "Wood",
                     "Stone"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Cinema",
@@ -5592,7 +5592,7 @@ const artCultureSet3 = {
                     "Peranakan",
                     "Bangsawan"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "World Heritage",
@@ -5603,7 +5603,7 @@ const artCultureSet3 = {
                     "Kerma",
                     "Napata"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Crafts",
@@ -5614,7 +5614,7 @@ const artCultureSet3 = {
                     "Navajo weaving",
                     "Kilim"
                 ],
-                correct: 0
+                correct: 2
             }
         ],
         expert: [
@@ -5628,7 +5628,7 @@ const artCultureSet3 = {
                     "William Roberts",
                     "Edward Wadsworth"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Music",
@@ -5640,7 +5640,7 @@ const artCultureSet3 = {
                     "20",
                     "42"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Architecture",
@@ -5652,7 +5652,7 @@ const artCultureSet3 = {
                     "Joseph Philippe Karam",
                     "Pierre el-Khoury"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Literature",
@@ -5688,7 +5688,7 @@ const artCultureSet3 = {
                     "Gao",
                     "Mopti"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Museums",
@@ -5700,7 +5700,7 @@ const artCultureSet3 = {
                     "Astrup Fearnley",
                     "Vigeland Museum"
                 ],
-                correct: 0
+                correct: 2
             }
         ],
         extreme: [
@@ -5776,7 +5776,7 @@ const artCultureSet3 = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Music",
@@ -5816,7 +5816,7 @@ const artCultureSet3 = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Sculpture",
@@ -5848,7 +5848,7 @@ const artCultureChapters14_15 = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Music",
@@ -5858,7 +5858,7 @@ const artCultureChapters14_15 = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Architecture",
@@ -5868,7 +5868,7 @@ const artCultureChapters14_15 = {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Literature",
@@ -5878,7 +5878,7 @@ const artCultureChapters14_15 = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Dance",
@@ -5888,7 +5888,7 @@ const artCultureChapters14_15 = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Sculpture",
@@ -5908,7 +5908,7 @@ const artCultureChapters14_15 = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Theater",
@@ -5928,7 +5928,7 @@ const artCultureChapters14_15 = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Music",
@@ -5960,7 +5960,7 @@ const artCultureChapters14_15 = {
                     "Cello",
                     "Double bass"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Architecture",
@@ -5976,7 +5976,7 @@ const artCultureChapters14_15 = {
                     "Ballroom",
                     "Tap dance"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Sculpture",
@@ -5986,7 +5986,7 @@ const artCultureChapters14_15 = {
                     "Copper and tin",
                     "Iron and carbon"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Cinema",
@@ -5996,7 +5996,7 @@ const artCultureChapters14_15 = {
                     "BAFTA",
                     "BRIT"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Theater",
@@ -6006,7 +6006,7 @@ const artCultureChapters14_15 = {
                     "Wicked",
                     "Into the Woods"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Festivals",
@@ -6016,7 +6016,7 @@ const artCultureChapters14_15 = {
                     "Cannes",
                     "Deauville"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Museums",
@@ -6026,7 +6026,7 @@ const artCultureChapters14_15 = {
                     "Los Angeles",
                     "San Francisco"
                 ],
-                correct: 0
+                correct: 3
             }
         ],
         hard: [
@@ -6070,7 +6070,7 @@ const artCultureChapters14_15 = {
                     "Bronze",
                     "Limestone"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Cinema",
@@ -6095,7 +6095,7 @@ const artCultureChapters14_15 = {
                     "Chichen Itza",
                     "Copán"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Crafts",
@@ -6106,7 +6106,7 @@ const artCultureChapters14_15 = {
                     "Batik",
                     "Ikat"
                 ],
-                correct: 0
+                correct: 2
             }
         ],
         expert: [
@@ -6120,7 +6120,7 @@ const artCultureChapters14_15 = {
                     "Giorgio Morandi",
                     "Alberto Savinio"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Music",
@@ -6132,7 +6132,7 @@ const artCultureChapters14_15 = {
                     "32",
                     "18"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Architecture",
@@ -6144,7 +6144,7 @@ const artCultureChapters14_15 = {
                     "Rafael Lorente Escudero",
                     "Carlos Surraco"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Literature",
@@ -6159,7 +6159,7 @@ const artCultureChapters14_15 = {
                     "Ruth St. Denis",
                     "Isadora Duncan"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Sculpture",
@@ -6180,7 +6180,7 @@ const artCultureChapters14_15 = {
                     "Davit Gareja",
                     "Ananuri"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Museums",
@@ -6270,7 +6270,7 @@ const artCultureChapters14_15 = {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Music",
@@ -6280,7 +6280,7 @@ const artCultureChapters14_15 = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Architecture",
@@ -6300,7 +6300,7 @@ const artCultureChapters14_15 = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Dance",
@@ -6310,7 +6310,7 @@ const artCultureChapters14_15 = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Sculpture",
@@ -6320,7 +6320,7 @@ const artCultureChapters14_15 = {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Cinema",
@@ -6330,7 +6330,7 @@ const artCultureChapters14_15 = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Theater",
@@ -6340,7 +6340,7 @@ const artCultureChapters14_15 = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Monuments",
@@ -6350,7 +6350,7 @@ const artCultureChapters14_15 = {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Music",
@@ -6360,7 +6360,7 @@ const artCultureChapters14_15 = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 3
             }
         ],
         medium: [
@@ -6375,7 +6375,7 @@ const artCultureChapters14_15 = {
                     "Alto",
                     "Soprano"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Architecture",
@@ -6385,7 +6385,7 @@ const artCultureChapters14_15 = {
                     "Roman",
                     "Greek"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Literature",
@@ -6398,7 +6398,7 @@ const artCultureChapters14_15 = {
                     "Reggae",
                     "Dancehall"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Sculpture",
@@ -6418,7 +6418,7 @@ const artCultureChapters14_15 = {
                     "Venice",
                     "Cannes"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Theater",
@@ -6431,7 +6431,7 @@ const artCultureChapters14_15 = {
                     "Glastonbury",
                     "Reading"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Museums",
@@ -6441,7 +6441,7 @@ const artCultureChapters14_15 = {
                     "Hermitage",
                     "Tretyakov"
                 ],
-                correct: 0
+                correct: 2
             }
         ],
         hard: [
@@ -6460,7 +6460,7 @@ const artCultureChapters14_15 = {
                     "Blue Mosque",
                     "Süleymaniye"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Literature",
@@ -6474,7 +6474,7 @@ const artCultureChapters14_15 = {
                     "Pointe work",
                     "Tap dancing"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Sculpture",
@@ -6491,7 +6491,7 @@ const artCultureChapters14_15 = {
                     "Pansori",
                     "Samulnori"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "World Heritage",
@@ -6519,7 +6519,7 @@ const artCultureChapters14_15 = {
                     "Patrick Henry Bruce",
                     "Thomas Hart Benton"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Music",
@@ -6543,7 +6543,7 @@ const artCultureChapters14_15 = {
                     "Szymon Syrkus",
                     "Helena Syrkus"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Literature",
@@ -6582,7 +6582,7 @@ const artCultureChapters14_15 = {
                     "Sinebrychoff",
                     "Amos Rex"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         extreme: [
@@ -6676,7 +6676,7 @@ const artCultureSet4 = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Music",
@@ -6686,7 +6686,7 @@ const artCultureSet4 = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Architecture",
@@ -6696,7 +6696,7 @@ const artCultureSet4 = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Literature",
@@ -6706,7 +6706,7 @@ const artCultureSet4 = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Dance",
@@ -6726,7 +6726,7 @@ const artCultureSet4 = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Cinema",
@@ -6736,7 +6736,7 @@ const artCultureSet4 = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Theater",
@@ -6746,7 +6746,7 @@ const artCultureSet4 = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Monuments",
@@ -6756,7 +6756,7 @@ const artCultureSet4 = {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Music",
@@ -6766,7 +6766,7 @@ const artCultureSet4 = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 2
             }
         ],
         medium: [
@@ -6791,7 +6791,7 @@ const artCultureSet4 = {
                     "Manyatta",
                     "Rondavel"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Literature",
@@ -6804,7 +6804,7 @@ const artCultureSet4 = {
                     "Cueca",
                     "Tango"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Sculpture",
@@ -6814,7 +6814,7 @@ const artCultureSet4 = {
                     "Temporary frozen art",
                     "Permanent art"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Cinema",
@@ -6837,7 +6837,7 @@ const artCultureSet4 = {
                     "Dance Festival",
                     "Ballet Festival"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Museums",
@@ -6847,7 +6847,7 @@ const artCultureSet4 = {
                     "Santiago",
                     "Lima"
                 ],
-                correct: 0
+                correct: 3
             }
         ],
         hard: [
@@ -6866,7 +6866,7 @@ const artCultureSet4 = {
                     "Grand Muscat",
                     "Royal Mosque"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Literature",
@@ -6880,7 +6880,7 @@ const artCultureSet4 = {
                     "Adumu",
                     "Gwara gwara"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Sculpture",
@@ -6945,7 +6945,7 @@ const artCultureSet4 = {
                     "83",
                     "45"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Architecture",
@@ -6957,7 +6957,7 @@ const artCultureSet4 = {
                     "Cesar Pelli",
                     "Kohn Pedersen Fox"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Literature",
@@ -6972,7 +6972,7 @@ const artCultureSet4 = {
                     "Merce Cunningham",
                     "Erick Hawkins"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Sculpture",
@@ -6993,7 +6993,7 @@ const artCultureSet4 = {
                     "Lake Dojran",
                     "Matka Canyon"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Museums",
@@ -7005,7 +7005,7 @@ const artCultureSet4 = {
                     "Villa Vauban",
                     "National Museum"
                 ],
-                correct: 0
+                correct: 3
             }
         ],
         extreme: [
@@ -7081,7 +7081,7 @@ const artCultureSet4 = {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Music",
@@ -7091,7 +7091,7 @@ const artCultureSet4 = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Architecture",
@@ -7111,7 +7111,7 @@ const artCultureSet4 = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Dance",
@@ -7121,7 +7121,7 @@ const artCultureSet4 = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Sculpture",
@@ -7131,7 +7131,7 @@ const artCultureSet4 = {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Cinema",
@@ -7151,7 +7151,7 @@ const artCultureSet4 = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Monuments",
@@ -7171,7 +7171,7 @@ const artCultureSet4 = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         medium: [
@@ -7186,7 +7186,7 @@ const artCultureSet4 = {
                     "Opening piece",
                     "Finale"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Architecture",
@@ -7196,7 +7196,7 @@ const artCultureSet4 = {
                     "Great Zimbabwe",
                     "Khami"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Literature",
@@ -7209,7 +7209,7 @@ const artCultureSet4 = {
                     "Marinera",
                     "Huayno"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Sculpture",
@@ -7219,7 +7219,7 @@ const artCultureSet4 = {
                     "Metal joined by heat",
                     "Carved stone"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Cinema",
@@ -7235,7 +7235,7 @@ const artCultureSet4 = {
                     "Puppet Festival",
                     "Theatre Festival"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Museums",
@@ -7245,7 +7245,7 @@ const artCultureSet4 = {
                     "Bogotá",
                     "Lima"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         hard: [
@@ -7264,7 +7264,7 @@ const artCultureSet4 = {
                     "Khamis",
                     "Al-Aqsa"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Literature",
@@ -7278,7 +7278,7 @@ const artCultureSet4 = {
                     "Adumu",
                     "Pantsula"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Sculpture",
@@ -7306,7 +7306,7 @@ const artCultureSet4 = {
                     "Ayutthaya",
                     "Sukhothai"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Crafts",
@@ -7317,7 +7317,7 @@ const artCultureSet4 = {
                     "Knotted weaving",
                     "Plaited weaving"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         expert: [
@@ -7343,7 +7343,7 @@ const artCultureSet4 = {
                     "8",
                     "12"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Architecture",
@@ -7355,7 +7355,7 @@ const artCultureSet4 = {
                     "Savin Sever",
                     "Max Fabiani"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Literature",
@@ -7394,7 +7394,7 @@ const artCultureSet4 = {
                     "Niguliste",
                     "Mikkel"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         extreme: [
@@ -7479,7 +7479,7 @@ const artCultureChapter18 = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Music",
@@ -7499,7 +7499,7 @@ const artCultureChapter18 = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Literature",
@@ -7519,7 +7519,7 @@ const artCultureChapter18 = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Sculpture",
@@ -7529,7 +7529,7 @@ const artCultureChapter18 = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Cinema",
@@ -7539,7 +7539,7 @@ const artCultureChapter18 = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Theater",
@@ -7559,7 +7559,7 @@ const artCultureChapter18 = {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Music",
@@ -7584,7 +7584,7 @@ const artCultureChapter18 = {
                     "Quartet",
                     "Quintet"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Architecture",
@@ -7594,7 +7594,7 @@ const artCultureChapter18 = {
                     "Union Buildings",
                     "Parliament"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Literature",
@@ -7607,7 +7607,7 @@ const artCultureChapter18 = {
                     "Polka paraguaya",
                     "Chacarera"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Sculpture",
@@ -7627,7 +7627,7 @@ const artCultureChapter18 = {
                     "Golden Orange",
                     "Siyad"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Theater",
@@ -7640,7 +7640,7 @@ const artCultureChapter18 = {
                     "San Fermín",
                     "La Tomatina"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Museums",
@@ -7650,7 +7650,7 @@ const artCultureChapter18 = {
                     "Johannesburg",
                     "Cape Town"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         hard: [
@@ -7669,7 +7669,7 @@ const artCultureChapter18 = {
                     "Zurich",
                     "Bern"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Literature",
@@ -7719,7 +7719,7 @@ const artCultureChapter18 = {
                     "Tugela Falls",
                     "Kalambo Falls"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Crafts",
@@ -7768,7 +7768,7 @@ const artCultureChapter18 = {
                     "Julio Dormal",
                     "All three"
                 ],
-                correct: 3
+                correct: 0
             },
             {
                 topic: "Literature",
@@ -7807,7 +7807,7 @@ const artCultureChapter18 = {
                     "Fundación Proa",
                     "MAMBA"
                 ],
-                correct: 1
+                correct: 2
             }
         ],
         extreme: [
@@ -7895,7 +7895,7 @@ const artCultureChapters19_20 = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Music",
@@ -7905,7 +7905,7 @@ const artCultureChapters19_20 = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Architecture",
@@ -7915,7 +7915,7 @@ const artCultureChapters19_20 = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Literature",
@@ -7925,7 +7925,7 @@ const artCultureChapters19_20 = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Dance",
@@ -7955,7 +7955,7 @@ const artCultureChapters19_20 = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Theater",
@@ -7965,7 +7965,7 @@ const artCultureChapters19_20 = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Monuments",
@@ -7975,7 +7975,7 @@ const artCultureChapters19_20 = {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Music",
@@ -7985,7 +7985,7 @@ const artCultureChapters19_20 = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         medium: [
@@ -8000,7 +8000,7 @@ const artCultureChapters19_20 = {
                     "Trio",
                     "Quartet"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Architecture",
@@ -8010,7 +8010,7 @@ const artCultureChapters19_20 = {
                     "Charles Bridge",
                     "Legion Bridge"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Literature",
@@ -8033,7 +8033,7 @@ const artCultureChapters19_20 = {
                     "Maquette",
                     "Relief"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Cinema",
@@ -8043,7 +8043,7 @@ const artCultureChapters19_20 = {
                     "Lola",
                     "Golden Bear"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Theater",
@@ -8056,7 +8056,7 @@ const artCultureChapters19_20 = {
                     "Trinidad Carnival",
                     "Crop Over"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Museums",
@@ -8066,7 +8066,7 @@ const artCultureChapters19_20 = {
                     "Ankara",
                     "Istanbul"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         hard: [
@@ -8085,7 +8085,7 @@ const artCultureChapters19_20 = {
                     "Liberation Tower",
                     "Al Hamra Tower"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Literature",
@@ -8099,7 +8099,7 @@ const artCultureChapters19_20 = {
                     "Gurage",
                     "Tigray"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Sculpture",
@@ -8116,7 +8116,7 @@ const artCultureChapters19_20 = {
                     "Mak yong",
                     "Menora"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "World Heritage",
@@ -8127,7 +8127,7 @@ const artCultureChapters19_20 = {
                     "Apollonia",
                     "Byllis"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Crafts",
@@ -8138,7 +8138,7 @@ const artCultureChapters19_20 = {
                     "Tweed",
                     "Harris"
                 ],
-                correct: 0
+                correct: 3
             }
         ],
         expert: [
@@ -8164,7 +8164,7 @@ const artCultureChapters19_20 = {
                     "32",
                     "96"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Architecture",
@@ -8215,7 +8215,7 @@ const artCultureChapters19_20 = {
                     "National Folk Museum",
                     "Seoul Museum"
                 ],
-                correct: 0
+                correct: 3
             }
         ],
         extreme: [
@@ -8293,7 +8293,7 @@ const artCultureChapters19_20 = {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Music",
@@ -8303,7 +8303,7 @@ const artCultureChapters19_20 = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Architecture",
@@ -8313,7 +8313,7 @@ const artCultureChapters19_20 = {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Literature",
@@ -8323,7 +8323,7 @@ const artCultureChapters19_20 = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Dance",
@@ -8333,7 +8333,7 @@ const artCultureChapters19_20 = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Sculpture",
@@ -8353,7 +8353,7 @@ const artCultureChapters19_20 = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Theater",
@@ -8363,7 +8363,7 @@ const artCultureChapters19_20 = {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Monuments",
@@ -8373,7 +8373,7 @@ const artCultureChapters19_20 = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Music",
@@ -8383,7 +8383,7 @@ const artCultureChapters19_20 = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 3
             }
         ],
         medium: [
@@ -8408,7 +8408,7 @@ const artCultureChapters19_20 = {
                     "Budapest",
                     "Prague"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Literature",
@@ -8447,7 +8447,7 @@ const artCultureChapters19_20 = {
                     "Albuquerque Balloon Fiesta",
                     "Santa Fe Fiesta"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Museums",
@@ -8457,7 +8457,7 @@ const artCultureChapters19_20 = {
                     "Athens",
                     "Rome"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         hard: [
@@ -8476,7 +8476,7 @@ const artCultureChapters19_20 = {
                     "National Museum",
                     "Mathaf"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Literature",
@@ -8490,7 +8490,7 @@ const artCultureChapters19_20 = {
                     "Azonto",
                     "Gwara gwara"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Sculpture",
@@ -8518,7 +8518,7 @@ const artCultureChapters19_20 = {
                     "Maramureș",
                     "Transylvania"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Crafts",
@@ -8543,7 +8543,7 @@ const artCultureChapters19_20 = {
                     "Wols",
                     "Hans Hartung"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Music",
@@ -8555,7 +8555,7 @@ const artCultureChapters19_20 = {
                     "14",
                     "27"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Architecture",
@@ -8567,7 +8567,7 @@ const artCultureChapters19_20 = {
                     "Ágúst Pálsson",
                     "Gísli Halldórsson"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Literature",
@@ -8594,7 +8594,7 @@ const artCultureChapters19_20 = {
                     "Latin Bridge",
                     "Šeher-Ćehaja"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Museums",
@@ -8606,7 +8606,7 @@ const artCultureChapters19_20 = {
                     "Asian Civilisations Museum",
                     "Peranakan Museum"
                 ],
-                correct: 0
+                correct: 3
             }
         ],
         extreme: [

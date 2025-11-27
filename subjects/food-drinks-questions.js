@@ -19,7 +19,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Beverages",
@@ -29,7 +29,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Pizza",
@@ -39,7 +39,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Water",
@@ -49,7 +49,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Chocolate",
@@ -59,7 +59,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Tea",
@@ -79,7 +79,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Juice",
@@ -89,7 +89,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Eggs",
@@ -99,7 +99,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Milk",
@@ -121,7 +121,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Smoothies",
@@ -151,7 +151,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Cheese",
@@ -161,7 +161,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Soda",
@@ -171,7 +171,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Tacos",
@@ -191,7 +191,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Rice",
@@ -211,7 +211,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 2
             }
         ],
         hard: [
@@ -223,7 +223,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Espresso",
@@ -243,7 +243,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Kombucha",
@@ -253,7 +253,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Caviar",
@@ -263,7 +263,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Matcha",
@@ -273,7 +273,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Foie Gras",
@@ -283,7 +283,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Sake",
@@ -293,7 +293,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Prosciutto",
@@ -303,7 +303,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Kefir",
@@ -327,7 +327,7 @@ const foodDrinksQuestions = {
                     "Maybe",
                     "Never"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Coffee Regions",
@@ -339,7 +339,7 @@ const foodDrinksQuestions = {
                     "Unknown",
                     "China"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Molecular Gastronomy",
@@ -351,7 +351,7 @@ const foodDrinksQuestions = {
                     "Sometimes",
                     "Never"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Wine Terroir",
@@ -363,7 +363,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 3
             },
             {
                 topic: "Saffron",
@@ -375,7 +375,7 @@ const foodDrinksQuestions = {
                     "Second most",
                     "Third most"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Champagne",
@@ -387,7 +387,7 @@ const foodDrinksQuestions = {
                     "Any region",
                     "Only Italy"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Maillard Reaction",
@@ -411,7 +411,7 @@ const foodDrinksQuestions = {
                     "Only dried",
                     "Only fresh"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Wagyu Beef",
@@ -435,7 +435,7 @@ const foodDrinksQuestions = {
                     "Only vintage",
                     "Never"
                 ],
-                correct: 0
+                correct: 2
             }
         ],
         "extreme": [
@@ -511,7 +511,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Orange Juice",
@@ -541,7 +541,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Ice Cream",
@@ -551,7 +551,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Apple Juice",
@@ -561,7 +561,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Chicken",
@@ -571,7 +571,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Mineral Water",
@@ -581,7 +581,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Cookies",
@@ -591,7 +591,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Iced Tea",
@@ -613,7 +613,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Cappuccino",
@@ -623,7 +623,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Avocado",
@@ -633,7 +633,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Energy Drinks",
@@ -653,7 +653,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Milkshake",
@@ -663,7 +663,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Croissant",
@@ -683,7 +683,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Tofu",
@@ -693,7 +693,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Bubble Tea",
@@ -703,7 +703,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         hard: [
@@ -715,7 +715,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Cold Brew",
@@ -725,7 +725,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Risotto",
@@ -745,7 +745,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Tempura",
@@ -755,7 +755,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Horchata",
@@ -785,7 +785,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Escargot",
@@ -795,7 +795,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Lassi",
@@ -805,7 +805,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             }
         ],
         "expert": [
@@ -831,7 +831,7 @@ const foodDrinksQuestions = {
                     "Sweet only",
                     "No herbs"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Confit",
@@ -843,7 +843,7 @@ const foodDrinksQuestions = {
                     "Fast cooking",
                     "No fat"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Oolong Tea",
@@ -867,7 +867,7 @@ const foodDrinksQuestions = {
                     "Cooked fish",
                     "No citrus"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Mezcal",
@@ -879,7 +879,7 @@ const foodDrinksQuestions = {
                     "True",
                     "Corn based"
                 ],
-                correct: 2
+                correct: 3
             },
             {
                 topic: "Sous Vide",
@@ -891,7 +891,7 @@ const foodDrinksQuestions = {
                     "Open air",
                     "Grilling"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Sherry",
@@ -903,7 +903,7 @@ const foodDrinksQuestions = {
                     "False",
                     "From France"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Pâté",
@@ -915,7 +915,7 @@ const foodDrinksQuestions = {
                     "Vegetable only",
                     "Cheese"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Rooibos",
@@ -1003,7 +1003,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Chocolate Milk",
@@ -1023,7 +1023,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Grape Juice",
@@ -1033,7 +1033,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Cake",
@@ -1043,7 +1043,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Lemon Water",
@@ -1053,7 +1053,7 @@ const foodDrinksQuestions = {
                   "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Bacon",
@@ -1073,7 +1073,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Popcorn",
@@ -1105,7 +1105,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Latte",
@@ -1115,7 +1115,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Hummus",
@@ -1125,7 +1125,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Protein Shake",
@@ -1135,7 +1135,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Falafel",
@@ -1155,7 +1155,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Nachos",
@@ -1175,7 +1175,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Gyro",
@@ -1185,7 +1185,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Almond Milk",
@@ -1227,7 +1227,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Switchel",
@@ -1247,7 +1247,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Masala Chai",
@@ -1257,7 +1257,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Ratatouille",
@@ -1267,7 +1267,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Agua Fresca",
@@ -1277,7 +1277,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Haggis",
@@ -1287,7 +1287,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Mate Tea",
@@ -1297,7 +1297,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 2
             }
         ],
         "expert": [
@@ -1311,7 +1311,7 @@ const foodDrinksQuestions = {
                     "Only whole",
                     "No mushrooms"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Cascade Hops",
@@ -1335,7 +1335,7 @@ const foodDrinksQuestions = {
                     "Only meat",
                     "Single vegetable"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Barolo Wine",
@@ -1347,7 +1347,7 @@ const foodDrinksQuestions = {
                     "True",
                     "Merlot only"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Cassoulet",
@@ -1371,7 +1371,7 @@ const foodDrinksQuestions = {
                     "True",
                     "Only leaves"
                 ],
-                correct: 2
+                correct: 3
             },
             {
                 topic: "Brandade",
@@ -1383,7 +1383,7 @@ const foodDrinksQuestions = {
                     "Fresh fish only",
                     "No fish"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Shochu",
@@ -1395,7 +1395,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Wine"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Choucroute",
@@ -1407,7 +1407,7 @@ const foodDrinksQuestions = {
                     "Fresh only",
                     "Pickled"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Tepache",
@@ -1419,7 +1419,7 @@ const foodDrinksQuestions = {
                     "True",
                     "Apple"
                 ],
-                correct: 2
+                correct: 0
             }
         ],
         "extreme": [
@@ -1505,7 +1505,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Hot Dog",
@@ -1515,7 +1515,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Pineapple Juice",
@@ -1525,7 +1525,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Donut",
@@ -1535,7 +1535,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Coconut Water",
@@ -1545,7 +1545,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Peanut Butter",
@@ -1565,7 +1565,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Pancakes",
@@ -1575,7 +1575,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Sparkling Water",
@@ -1585,7 +1585,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 2
             }
         ],
         medium: [
@@ -1597,7 +1597,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Frappuccino",
@@ -1607,7 +1607,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Quinoa",
@@ -1617,7 +1617,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Freshly Squeezed",
@@ -1627,7 +1627,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Burrito",
@@ -1637,7 +1637,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Iced Coffee",
@@ -1657,7 +1657,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Soy Milk",
@@ -1677,7 +1677,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Pomegranate Juice",
@@ -1687,7 +1687,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         hard: [
@@ -1709,7 +1709,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Shakshuka",
@@ -1719,7 +1719,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Kefir Water",
@@ -1729,7 +1729,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Couscous",
@@ -1739,7 +1739,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Turmeric Latte",
@@ -1749,7 +1749,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Tagine",
@@ -1759,7 +1759,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Shrub Drink",
@@ -1803,7 +1803,7 @@ const foodDrinksQuestions = {
                     "Red sauce",
                     "No roux"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Darjeeling Tea",
@@ -1815,7 +1815,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Japan only"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Galantine",
@@ -1827,7 +1827,7 @@ const foodDrinksQuestions = {
                     "Roasted only",
                     "Fried only"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Riesling Wine",
@@ -1839,7 +1839,7 @@ const foodDrinksQuestions = {
                     "True",
                     "Rosé only"
                 ],
-                correct: 2
+                correct: 3
             },
             {
                 topic: "Soufflé",
@@ -1851,7 +1851,7 @@ const foodDrinksQuestions = {
                     "Yeast only",
                     "Baking powder"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Assam Tea",
@@ -1863,7 +1863,7 @@ const foodDrinksQuestions = {
                     "False",
                     "White only"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Ballotine",
@@ -1875,7 +1875,7 @@ const foodDrinksQuestions = {
                     "Fish only",
                     "Vegetable"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Grappa",
@@ -1887,7 +1887,7 @@ const foodDrinksQuestions = {
                     "True",
                     "Potato based"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Charcuterie",
@@ -1899,7 +1899,7 @@ const foodDrinksQuestions = {
                     "Cheese only",
                     "Vegetables"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Sencha Tea",
@@ -1911,7 +1911,7 @@ const foodDrinksQuestions = {
                     "True",
                     "Herbal"
                 ],
-                correct: 2
+                correct: 3
             }
         ],
         "extreme": [
@@ -1987,7 +1987,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Herbal Tea",
@@ -1997,7 +1997,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Muffin",
@@ -2017,7 +2017,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Salad",
@@ -2027,7 +2027,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Fruit Punch",
@@ -2037,7 +2037,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Omelette",
@@ -2057,7 +2057,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Noodles",
@@ -2067,7 +2067,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Fruit Water",
@@ -2077,7 +2077,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             }
         ],
         medium: [
@@ -2089,7 +2089,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Macchiato",
@@ -2099,7 +2099,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Bruschetta",
@@ -2109,7 +2109,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Beetroot Juice",
@@ -2119,7 +2119,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Stir Fry",
@@ -2129,7 +2129,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Vanilla Latte",
@@ -2139,7 +2139,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Spring Rolls",
@@ -2149,7 +2149,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Tonic Water",
@@ -2169,7 +2169,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Celery Juice",
@@ -2179,7 +2179,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         hard: [
@@ -2191,7 +2191,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Flat White",
@@ -2211,7 +2211,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Ginger Beer",
@@ -2221,7 +2221,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Osso Buco",
@@ -2231,7 +2231,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Yerba Mate",
@@ -2241,7 +2241,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Goulash",
@@ -2261,7 +2261,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Carpaccio",
@@ -2281,7 +2281,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 2
             }
         ],
         "expert": [
@@ -2295,7 +2295,7 @@ const foodDrinksQuestions = {
                     "Red sauce",
                     "No stock"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Silver Needle Tea",
@@ -2307,7 +2307,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Green tea"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Chateaubriand",
@@ -2319,7 +2319,7 @@ const foodDrinksQuestions = {
                     "Pork cut",
                     "Fish cut"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Chartreuse",
@@ -2331,7 +2331,7 @@ const foodDrinksQuestions = {
                     "True",
                     "Wine"
                 ],
-                correct: 2
+                correct: 3
             },
             {
                 topic: "Terrine",
@@ -2343,7 +2343,7 @@ const foodDrinksQuestions = {
                     "Soup",
                     "Sauce"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Lapsang Souchong",
@@ -2355,7 +2355,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Fruit tea"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Tournedos",
@@ -2367,7 +2367,7 @@ const foodDrinksQuestions = {
                     "Chicken",
                     "Fish"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Fernet",
@@ -2391,7 +2391,7 @@ const foodDrinksQuestions = {
                     "Water cooked",
                     "Grilled"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Gyokuro Tea",
@@ -2403,7 +2403,7 @@ const foodDrinksQuestions = {
                     "True",
                     "Chinese"
                 ],
-                correct: 2
+                correct: 0
             }
         ],
         "extreme": [
@@ -2479,7 +2479,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Black Coffee",
@@ -2489,7 +2489,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Sandwich",
@@ -2509,7 +2509,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Brownie",
@@ -2519,7 +2519,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Peach Juice",
@@ -2529,7 +2529,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Soup",
@@ -2539,7 +2539,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Lemon Tea",
@@ -2549,7 +2549,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Potato",
@@ -2569,7 +2569,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 3
             }
         ],
         medium: [
@@ -2581,7 +2581,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Americano",
@@ -2591,7 +2591,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Empanada",
@@ -2601,7 +2601,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Wheat Grass Juice",
@@ -2621,7 +2621,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Caramel Latte",
@@ -2631,7 +2631,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Samosa",
@@ -2641,7 +2641,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Rice Milk",
@@ -2651,7 +2651,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Pastrami",
@@ -2661,7 +2661,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Grapefruit Juice",
@@ -2671,7 +2671,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 2
             }
         ],
         hard: [
@@ -2693,7 +2693,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Arancini",
@@ -2703,7 +2703,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Soursop Juice",
@@ -2733,7 +2733,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Baklava",
@@ -2743,7 +2743,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Sea Buckthorn Juice",
@@ -2811,7 +2811,7 @@ const foodDrinksQuestions = {
                     "Phyllo",
                     "No pastry"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Pisco",
@@ -2847,7 +2847,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Winter"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Paillard",
@@ -2859,7 +2859,7 @@ const foodDrinksQuestions = {
                     "Thick cut",
                     "Ground"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Calvados",
@@ -2895,7 +2895,7 @@ const foodDrinksQuestions = {
                     "True",
                     "Black tea"
                 ],
-                correct: 2
+                correct: 1
             }
         ],
         "extreme": [
@@ -2971,7 +2971,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "White Tea",
@@ -2981,7 +2981,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Steak",
@@ -3020,7 +3020,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Corn",
@@ -3030,7 +3030,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Cola",
@@ -3050,7 +3050,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Mango Juice",
@@ -3072,7 +3072,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Mocha",
@@ -3082,7 +3082,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Pita Bread",
@@ -3092,7 +3092,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Acai Juice",
@@ -3102,7 +3102,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Tikka",
@@ -3112,7 +3112,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Hazelnut Coffee",
@@ -3132,7 +3132,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Hemp Milk",
@@ -3162,7 +3162,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             }
         ],
         hard: [
@@ -3184,7 +3184,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Pierogi",
@@ -3194,7 +3194,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Noni Juice",
@@ -3244,7 +3244,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Jambalaya",
@@ -3254,7 +3254,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Birch Water",
@@ -3264,7 +3264,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         "expert": [
@@ -3278,7 +3278,7 @@ const foodDrinksQuestions = {
                     "Tomato based",
                     "No eggs"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Jin Xuan Tea",
@@ -3290,7 +3290,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Bitter"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Blanquette",
@@ -3302,7 +3302,7 @@ const foodDrinksQuestions = {
                     "Red stew",
                     "No sauce"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Cachaça",
@@ -3314,7 +3314,7 @@ const foodDrinksQuestions = {
                     "True",
                     "Whiskey"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Fricassee",
@@ -3326,7 +3326,7 @@ const foodDrinksQuestions = {
                     "Red sauce",
                     "No sauce"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Yellow Tea",
@@ -3338,7 +3338,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Not Chinese"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Noisettes",
@@ -3362,7 +3362,7 @@ const foodDrinksQuestions = {
                     "True",
                     "Mexican"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Saltimbocca",
@@ -3386,7 +3386,7 @@ const foodDrinksQuestions = {
                     "True",
                     "Flowers"
                 ],
-                correct: 2
+                correct: 0
             }
         ],
         "extreme": [
@@ -3462,7 +3462,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Iced Water",
@@ -3472,7 +3472,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Pasta",
@@ -3482,7 +3482,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Carrot Juice",
@@ -3502,7 +3502,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Honey Water",
@@ -3512,7 +3512,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Onion",
@@ -3522,7 +3522,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Sprite",
@@ -3532,7 +3532,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Fish",
@@ -3542,7 +3542,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Watermelon Juice",
@@ -3574,7 +3574,7 @@ const foodDrinksQuestions = {
                     "Weak coffee",
                     "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Naan",
@@ -3594,7 +3594,7 @@ const foodDrinksQuestions = {
                     "Animal source",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Curry",
@@ -3604,7 +3604,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Pumpkin Spice Latte",
@@ -3614,7 +3614,7 @@ const foodDrinksQuestions = {
                     "Year-round",
                     "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Tortilla",
@@ -3624,7 +3624,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Cashew Milk",
@@ -3634,7 +3634,7 @@ const foodDrinksQuestions = {
                     "Watery only",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Pretzel",
@@ -3667,7 +3667,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Hot only"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Lungo",
@@ -3689,7 +3689,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Italian"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Mangosteen Juice",
@@ -3700,7 +3700,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Vindaloo",
@@ -3711,7 +3711,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Mild only"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Dirty Chai",
@@ -3722,7 +3722,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Knafeh",
@@ -3733,7 +3733,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Asian"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Chrysanthemum Tea",
@@ -3744,7 +3744,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Okonomiyaki",
@@ -3766,7 +3766,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 3
             }
         ],
         "expert": [
@@ -3780,7 +3780,7 @@ const foodDrinksQuestions = {
                     "Secondary",
                     "Not classified"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "White Peony Tea",
@@ -3792,7 +3792,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Black tea"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Mirepoix Ratio",
@@ -3804,7 +3804,7 @@ const foodDrinksQuestions = {
                     "1:1:1",
                     "3:2:1"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Soju",
@@ -3816,7 +3816,7 @@ const foodDrinksQuestions = {
                     "True",
                     "Chinese"
                 ],
-                correct: 2
+                correct: 3
             },
             {
                 topic: "Quenelle",
@@ -3828,7 +3828,7 @@ const foodDrinksQuestions = {
                     "Square",
                     "Round"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Keemun Tea",
@@ -3840,7 +3840,7 @@ const foodDrinksQuestions = {
                     "False",
                     "White"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Medallions",
@@ -3852,7 +3852,7 @@ const foodDrinksQuestions = {
                     "Square",
                     "Strips"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Ouzo",
@@ -3864,7 +3864,7 @@ const foodDrinksQuestions = {
                     "True",
                     "Turkish"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Papillote",
@@ -3876,7 +3876,7 @@ const foodDrinksQuestions = {
                     "Foil only",
                     "Open pan"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Genmaicha",
@@ -3974,7 +3974,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Tuna",
@@ -3994,7 +3994,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Candy",
@@ -4004,7 +4004,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Rose Tea",
@@ -4024,7 +4024,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Lemon Soda",
@@ -4034,7 +4034,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Butter",
@@ -4044,7 +4044,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Strawberry Milk",
@@ -4054,7 +4054,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 2
             }
         ],
         medium: [
@@ -4076,7 +4076,7 @@ const foodDrinksQuestions = {
                     "One shot",
                     "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Focaccia",
@@ -4086,7 +4086,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Pear Juice",
@@ -4096,7 +4096,7 @@ const foodDrinksQuestions = {
                     "Bitter",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Ramen",
@@ -4116,7 +4116,7 @@ const foodDrinksQuestions = {
                     "No alcohol",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Bagel",
@@ -4126,7 +4126,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Macadamia Milk",
@@ -4136,7 +4136,7 @@ const foodDrinksQuestions = {
                     "From almonds",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Churros",
@@ -4146,7 +4146,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Plum Juice",
@@ -4169,7 +4169,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Chinese"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Red Eye Coffee",
@@ -4180,7 +4180,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Challah",
@@ -4191,7 +4191,7 @@ const foodDrinksQuestions = {
                     "False",
                     "French"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Dragon Fruit Juice",
@@ -4202,7 +4202,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Biryani",
@@ -4235,7 +4235,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Savory"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Hibiscus Tea",
@@ -4246,7 +4246,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Croquette",
@@ -4257,7 +4257,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Baked only"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Lychee Juice",
@@ -4268,7 +4268,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 2
             }
         ],
         "expert": [
@@ -4282,7 +4282,7 @@ const foodDrinksQuestions = {
                     "White sauce",
                     "Thin sauce"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Ceylon Tea",
@@ -4294,7 +4294,7 @@ const foodDrinksQuestions = {
                     "False",
                     "China"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Brunoise",
@@ -4342,7 +4342,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Japan"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Escalope",
@@ -4354,7 +4354,7 @@ const foodDrinksQuestions = {
                     "Thick cut",
                     "Ground"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Raki",
@@ -4366,7 +4366,7 @@ const foodDrinksQuestions = {
                     "True",
                     "Italian"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Mornay Sauce",
@@ -4378,7 +4378,7 @@ const foodDrinksQuestions = {
                     "No cheese",
                     "Tomato base"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Phoenix Tea",
@@ -4390,7 +4390,7 @@ const foodDrinksQuestions = {
                     "True",
                     "India"
                 ],
-                correct: 2
+                correct: 3
             }
         ],
         "extreme": [
@@ -4466,7 +4466,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Cold Water",
@@ -4476,7 +4476,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Turkey",
@@ -4486,7 +4486,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Kiwi Juice",
@@ -4496,7 +4496,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Chocolate Cake",
@@ -4506,7 +4506,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Jasmine Tea",
@@ -4526,7 +4526,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Mountain Dew",
@@ -4546,7 +4546,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Banana Shake",
@@ -4556,7 +4556,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 3
             }
         ],
         medium: [
@@ -4568,7 +4568,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Decaf Coffee",
@@ -4578,7 +4578,7 @@ const foodDrinksQuestions = {
                     "Low caffeine",
                     "True"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Ciabatta",
@@ -4588,7 +4588,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Papaya Juice",
@@ -4598,7 +4598,7 @@ const foodDrinksQuestions = {
                     "Green",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Paella",
@@ -4608,7 +4608,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Matcha Latte",
@@ -4618,7 +4618,7 @@ const foodDrinksQuestions = {
                     "Brown",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Cornbread",
@@ -4628,7 +4628,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Flax Milk",
@@ -4638,7 +4638,7 @@ const foodDrinksQuestions = {
                     "From nuts",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Tiramisu",
@@ -4648,7 +4648,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Apricot Juice",
@@ -4658,7 +4658,7 @@ const foodDrinksQuestions = {
                     "From peaches",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             }
         ],
         hard: [
@@ -4671,7 +4671,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Paris"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Vienna Coffee",
@@ -4682,7 +4682,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Sourdough",
@@ -4704,7 +4704,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Laksa",
@@ -4726,7 +4726,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Brioche",
@@ -4748,7 +4748,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 3
             },
             {
                 topic: "Croquembouche",
@@ -4759,7 +4759,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Flat cake"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Goji Berry Juice",
@@ -4770,7 +4770,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         "expert": [
@@ -4784,7 +4784,7 @@ const foodDrinksQuestions = {
                     "White wine",
                     "No wine"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Yunnan Tea",
@@ -4796,7 +4796,7 @@ const foodDrinksQuestions = {
                     "False",
                     "White tea"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Julienne",
@@ -4832,7 +4832,7 @@ const foodDrinksQuestions = {
                     "Dice",
                     "Chunks"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Hojicha",
@@ -4856,7 +4856,7 @@ const foodDrinksQuestions = {
                     "Flat",
                     "Ground"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Limoncello",
@@ -4892,7 +4892,7 @@ const foodDrinksQuestions = {
                     "True",
                     "Fully shaded"
                 ],
-                correct: 2
+                correct: 0
             }
         ],
         "extreme": [
@@ -4970,7 +4970,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Spring Water",
@@ -4980,7 +4980,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Pork",
@@ -4990,7 +4990,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Raspberry Juice",
@@ -5020,7 +5020,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Spinach",
@@ -5030,7 +5030,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Orange Soda",
@@ -5040,7 +5040,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Honey",
@@ -5050,7 +5050,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Peach Smoothie",
@@ -5060,7 +5060,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 2
             }
         ],
         medium: [
@@ -5072,7 +5072,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Turkish Coffee",
@@ -5082,7 +5082,7 @@ const foodDrinksQuestions = {
                     "Weak",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Baguette",
@@ -5092,7 +5092,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Passion Fruit Juice",
@@ -5102,7 +5102,7 @@ const foodDrinksQuestions = {
                     "Temperate",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Gumbo",
@@ -5112,7 +5112,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Turmeric Milk",
@@ -5122,7 +5122,7 @@ const foodDrinksQuestions = {
                     "White only",
                     "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Rye Bread",
@@ -5132,7 +5132,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Walnut Milk",
@@ -5142,7 +5142,7 @@ const foodDrinksQuestions = {
                     "From almonds",
                     "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Macarons",
@@ -5152,7 +5152,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Fig Juice",
@@ -5162,7 +5162,7 @@ const foodDrinksQuestions = {
                     "From dates",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         hard: [
@@ -5175,7 +5175,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Vietnamese"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Gibraltar Coffee",
@@ -5186,7 +5186,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Pumpernickel",
@@ -5197,7 +5197,7 @@ const foodDrinksQuestions = {
                     "False",
                     "White bread"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Acerola Juice",
@@ -5208,7 +5208,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 3
             },
             {
                 topic: "Rendang",
@@ -5219,7 +5219,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Indian"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Moon Milk",
@@ -5230,7 +5230,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Stollen",
@@ -5241,7 +5241,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Italian"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Neem Juice",
@@ -5252,7 +5252,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 3
             },
             {
                 topic: "Pavlova",
@@ -5263,7 +5263,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Cake"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Calamansi Juice",
@@ -5274,7 +5274,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         "expert": [
@@ -5312,7 +5312,7 @@ const foodDrinksQuestions = {
                     "Root vegetables",
                     "Meat"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Arak",
@@ -5324,7 +5324,7 @@ const foodDrinksQuestions = {
                     "True",
                     "Asian"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Bâtonnets",
@@ -5372,7 +5372,7 @@ const foodDrinksQuestions = {
                     "True",
                     "Vodka"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Lyonnaise",
@@ -5384,7 +5384,7 @@ const foodDrinksQuestions = {
                     "No onions",
                     "Tomatoes"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Longjing Tea",
@@ -5396,7 +5396,7 @@ const foodDrinksQuestions = {
                     "True",
                     "Tiger"
                 ],
-                correct: 2
+                correct: 0
             }
         ],
         "extreme": [
@@ -5472,7 +5472,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Filtered Water",
@@ -5492,7 +5492,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Tangerine Juice",
@@ -5525,7 +5525,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Grape Soda",
@@ -5535,7 +5535,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Maple Syrup",
@@ -5545,7 +5545,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Berry Smoothie",
@@ -5555,7 +5555,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             }
         ],
         medium: [
@@ -5567,7 +5567,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Piccolo Latte",
@@ -5577,7 +5577,7 @@ const foodDrinksQuestions = {
                     "Large",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Multigrain Bread",
@@ -5587,7 +5587,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Cantaloupe Juice",
@@ -5597,7 +5597,7 @@ const foodDrinksQuestions = {
                     "Green",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Sashimi",
@@ -5607,7 +5607,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Beetroot Latte",
@@ -5627,7 +5627,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Pea Milk",
@@ -5637,7 +5637,7 @@ const foodDrinksQuestions = {
                     "From green beans",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Éclair",
@@ -5647,7 +5647,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Prune Juice",
@@ -5670,7 +5670,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Spanish"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Mazagran",
@@ -5681,7 +5681,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Pain de Mie",
@@ -5692,7 +5692,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Italian"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Wolfberry Juice",
@@ -5703,7 +5703,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Mole",
@@ -5714,7 +5714,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Never"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Cascara Tea",
@@ -5725,7 +5725,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Babka",
@@ -5736,7 +5736,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Flat"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Noni Juice",
@@ -5747,7 +5747,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Cremolada",
@@ -5758,7 +5758,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Hot"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Jujube Tea",
@@ -5769,7 +5769,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         "expert": [
@@ -5783,7 +5783,7 @@ const foodDrinksQuestions = {
                     "No truffles",
                     "Mushrooms only"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Wuyi Tea",
@@ -5795,7 +5795,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Black tea"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Paysanne",
@@ -5807,7 +5807,7 @@ const foodDrinksQuestions = {
                     "Thick",
                     "Strips"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Absinthe",
@@ -5819,7 +5819,7 @@ const foodDrinksQuestions = {
                     "True",
                     "Red fairy"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Macedoine",
@@ -5831,7 +5831,7 @@ const foodDrinksQuestions = {
                     "Large chunks",
                     "Strips"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Rooibos",
@@ -5879,7 +5879,7 @@ const foodDrinksQuestions = {
                     "No tomato",
                     "No garlic"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Biluochun Tea",
@@ -5891,7 +5891,7 @@ const foodDrinksQuestions = {
                     "True",
                     "Black"
                 ],
-                correct: 2
+                correct: 3
             }
         ],
         "extreme": [
@@ -5984,7 +5984,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Melon Juice",
@@ -6004,7 +6004,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Earl Grey Tea",
@@ -6014,7 +6014,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Cucumber",
@@ -6024,7 +6024,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Cream Soda",
@@ -6054,7 +6054,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         medium: [
@@ -6066,7 +6066,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Bone Broth",
@@ -6076,7 +6076,7 @@ const foodDrinksQuestions = {
                     "Minutes only",
                     "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Pita",
@@ -6086,7 +6086,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Honeydew Juice",
@@ -6106,7 +6106,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Blue Latte",
@@ -6136,7 +6136,7 @@ const foodDrinksQuestions = {
                     "From oats",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Profiteroles",
@@ -6146,7 +6146,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Mulberry Juice",
@@ -6180,7 +6180,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Lavash",
@@ -6191,7 +6191,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Italian"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Camu Camu Juice",
@@ -6213,7 +6213,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Chinese"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Cortado",
@@ -6224,7 +6224,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Challah",
@@ -6235,7 +6235,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Flat"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Pomelo Juice",
@@ -6246,7 +6246,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 3
             },
             {
                 topic: "Beignet",
@@ -6257,7 +6257,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Italian"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Schisandra Tea",
@@ -6268,7 +6268,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         "expert": [
@@ -6282,7 +6282,7 @@ const foodDrinksQuestions = {
                     "No onions",
                     "No mustard"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Bai Hao Tea",
@@ -6318,7 +6318,7 @@ const foodDrinksQuestions = {
                     "True",
                     "Tea leaves"
                 ],
-                correct: 2
+                correct: 3
             },
             {
                 topic: "Paysanne Cut",
@@ -6342,7 +6342,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Europe"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Tournée Cut",
@@ -6354,7 +6354,7 @@ const foodDrinksQuestions = {
                     "Square",
                     "Round"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Frangelico",
@@ -6378,7 +6378,7 @@ const foodDrinksQuestions = {
                     "No spinach",
                     "Kale"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Anji Bai Cha",
@@ -6390,7 +6390,7 @@ const foodDrinksQuestions = {
                     "True",
                     "Black tea"
                 ],
-                correct: 2
+                correct: 0
             }
         ],
         "extreme": [
@@ -6476,7 +6476,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Venison",
@@ -6486,7 +6486,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Watermelon Juice",
@@ -6496,7 +6496,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Fudge",
@@ -6516,7 +6516,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Bell Pepper",
@@ -6526,7 +6526,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Cherry Cola",
@@ -6536,7 +6536,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Marmalade",
@@ -6546,7 +6546,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Chocolate Shake",
@@ -6556,7 +6556,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         medium: [
@@ -6568,7 +6568,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Consommé",
@@ -6578,7 +6578,7 @@ const foodDrinksQuestions = {
                     "Thick soup",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "English Muffin",
@@ -6588,7 +6588,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Cranberry Juice",
@@ -6598,7 +6598,7 @@ const foodDrinksQuestions = {
                     "Sweet only",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Soba",
@@ -6628,7 +6628,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Tiger Nut Milk",
@@ -6638,7 +6638,7 @@ const foodDrinksQuestions = {
                     "Contains dairy",
                     "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Cannoli",
@@ -6648,7 +6648,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Pomegranate Juice",
@@ -6658,7 +6658,7 @@ const foodDrinksQuestions = {
                     "Low antioxidants",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         hard: [
@@ -6671,7 +6671,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Korean"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Shakerato",
@@ -6682,7 +6682,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Tigelle",
@@ -6693,7 +6693,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Large"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Sea Buckthorn Juice",
@@ -6704,7 +6704,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 3
             },
             {
                 topic: "Satay",
@@ -6715,7 +6715,7 @@ const foodDrinksQuestions = {
                     "False",
                     "No sauce"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Nitro Brew",
@@ -6726,7 +6726,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Damper Bread",
@@ -6748,7 +6748,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 3
             },
             {
                 topic: "Mochi",
@@ -6770,7 +6770,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             }
         ],
         "expert": [
@@ -6784,7 +6784,7 @@ const foodDrinksQuestions = {
                     "Cream based",
                     "Tomato based"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Huangshan Maofeng",
@@ -6796,7 +6796,7 @@ const foodDrinksQuestions = {
                     "False",
                     "White tea"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Rondelle",
@@ -6832,7 +6832,7 @@ const foodDrinksQuestions = {
                     "Straight",
                     "Diced"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Essiac Tea",
@@ -6844,7 +6844,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Not herbal"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Gaufrette",
@@ -6856,7 +6856,7 @@ const foodDrinksQuestions = {
                     "Thick cut",
                     "Mashed"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Strega",
@@ -6868,7 +6868,7 @@ const foodDrinksQuestions = {
                     "True",
                     "Spanish"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Milanaise Style",
@@ -6880,7 +6880,7 @@ const foodDrinksQuestions = {
                     "Grilled",
                     "Boiled"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Junshan Yinzhen",
@@ -6892,7 +6892,7 @@ const foodDrinksQuestions = {
                     "True",
                     "Black"
                 ],
-                correct: 2
+                correct: 0
             }
         ],
         "extreme": [
@@ -6978,7 +6978,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Rabbit",
@@ -6988,7 +6988,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Blackberry Juice",
@@ -7001,7 +7001,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Peppermint Tea",
@@ -7011,7 +7011,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 2
             },
 {
                 topic: "Eggplant",
@@ -7021,7 +7021,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Dr Pepper",
@@ -7031,7 +7031,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Peanut Butter",
@@ -7063,7 +7063,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Bisque",
@@ -7073,7 +7073,7 @@ const foodDrinksQuestions = {
                     "Clear soup",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Tortilla",
@@ -7086,7 +7086,7 @@ const foodDrinksQuestions = {
                     "Bitter",
                     "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Pad Thai",
@@ -7106,7 +7106,7 @@ const foodDrinksQuestions = {
                     "Brown",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Scone",
@@ -7116,7 +7116,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Brazil Nut Milk",
@@ -7126,7 +7126,7 @@ const foodDrinksQuestions = {
                     "From cashews",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Panna Cotta",
@@ -7136,7 +7136,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Persimmon Juice",
@@ -7146,7 +7146,7 @@ const foodDrinksQuestions = {
                     "Green",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             }
         ],
         hard: [
@@ -7170,7 +7170,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Arepa",
@@ -7192,7 +7192,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 3
             },
             {
                 topic: "Massaman",
@@ -7203,7 +7203,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Indian"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Einspänner",
@@ -7214,7 +7214,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Bannock",
@@ -7225,7 +7225,7 @@ const foodDrinksQuestions = {
                     "False",
                     "European"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Dandelion Tea",
@@ -7236,7 +7236,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Gulab Jamun",
@@ -7247,7 +7247,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Chinese"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Feijoa Juice",
@@ -7258,7 +7258,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 2
             }
         ],
         "expert": [
@@ -7284,7 +7284,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Black tea"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Pont-Neuf",
@@ -7296,7 +7296,7 @@ const foodDrinksQuestions = {
                     "Thin",
                     "Not fries"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Chambord",
@@ -7308,7 +7308,7 @@ const foodDrinksQuestions = {
                     "True",
                     "Blueberry"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Bâtonnet Cut",
@@ -7320,7 +7320,7 @@ const foodDrinksQuestions = {
                     "Smaller",
                     "Larger"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Tulsi Tea",
@@ -7332,7 +7332,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Regular basil"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Allumette",
@@ -7344,7 +7344,7 @@ const foodDrinksQuestions = {
                     "Thick",
                     "Diced"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Midori",
@@ -7356,7 +7356,7 @@ const foodDrinksQuestions = {
                     "True",
                     "Grape"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Duglere Style",
@@ -7368,7 +7368,7 @@ const foodDrinksQuestions = {
                     "No tomatoes",
                     "Cream only"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Liu An Gua Pian",
@@ -7380,7 +7380,7 @@ const foodDrinksQuestions = {
                     "True",
                     "Yellow"
                 ],
-                correct: 2
+                correct: 3
             }
         ],
         "extreme": [
@@ -7453,7 +7453,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Seltzer Water",
@@ -7463,7 +7463,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Quail",
@@ -7473,7 +7473,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Apple Juice",
@@ -7483,7 +7483,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Caramel",
@@ -7493,7 +7493,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Chamomile Tea",
@@ -7503,7 +7503,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Mushroom",
@@ -7513,7 +7513,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Fanta",
@@ -7555,7 +7555,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Chowder",
@@ -7575,7 +7575,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Tamarind Juice",
@@ -7585,7 +7585,7 @@ const foodDrinksQuestions = {
                     "Bland",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Teppanyaki",
@@ -7595,7 +7595,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Rose Latte",
@@ -7605,7 +7605,7 @@ const foodDrinksQuestions = {
                     "Brown",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Crumpet",
@@ -7615,7 +7615,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Pistachio Milk",
@@ -7625,7 +7625,7 @@ const foodDrinksQuestions = {
                     "From almonds",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Crème Brûlée",
@@ -7658,7 +7658,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Normandy"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Café Bombón",
@@ -7669,7 +7669,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Mantou",
@@ -7680,7 +7680,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Fried"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Acai Juice",
@@ -7691,7 +7691,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 3
             },
             {
                 topic: "Tonkatsu",
@@ -7702,7 +7702,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Beef"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Café de Olla",
@@ -7713,7 +7713,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Zopf",
@@ -7724,7 +7724,7 @@ const foodDrinksQuestions = {
                     "False",
                     "German"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Nettle Tea",
@@ -7735,7 +7735,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Sfogliatelle",
@@ -7746,7 +7746,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Round"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Jabuticaba Juice",
@@ -7757,7 +7757,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 3
             }
         ],
         "expert": [
@@ -7771,7 +7771,7 @@ const foodDrinksQuestions = {
                     "No shellfish",
                     "Lobster only"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Xinyang Maojian",
@@ -7783,7 +7783,7 @@ const foodDrinksQuestions = {
                     "False",
                     "White"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Mirepoix",
@@ -7795,7 +7795,7 @@ const foodDrinksQuestions = {
                     "1:1:1",
                     "3:2:1"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Benedictine",
@@ -7831,7 +7831,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Death herb"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Dice Cut",
@@ -7855,7 +7855,7 @@ const foodDrinksQuestions = {
                     "True",
                     "Lavender"
                 ],
-                correct: 2
+                correct: 3
             },
             {
                 topic: "Véronique Style",
@@ -7867,7 +7867,7 @@ const foodDrinksQuestions = {
                     "No grapes",
                     "Berries"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Bai Mudan Tea",
@@ -7952,7 +7952,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Club Soda",
@@ -7962,7 +7962,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Goat",
@@ -7982,7 +7982,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Marshmallow",
@@ -7992,7 +7992,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Hibiscus Tea",
@@ -8005,7 +8005,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Pepsi",
@@ -8015,7 +8015,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Nutella",
@@ -8025,7 +8025,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Mint Lemonade",
@@ -8035,7 +8035,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 2
             }
         ],
         medium: [
@@ -8057,7 +8057,7 @@ const foodDrinksQuestions = {
                     "Hot",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Flatbread",
@@ -8067,7 +8067,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Pomegranate Juice",
@@ -8077,7 +8077,7 @@ const foodDrinksQuestions = {
                     "Yellow",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Poke Bowl",
@@ -8100,7 +8100,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Hazelnut Milk",
@@ -8110,7 +8110,7 @@ const foodDrinksQuestions = {
                     "From walnuts",
                     "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Mille-Feuille",
@@ -8130,7 +8130,7 @@ const foodDrinksQuestions = {
                     "Green",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             }
         ],
         hard: [
@@ -8154,7 +8154,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Khachapuri",
@@ -8165,7 +8165,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Russian"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Guarana Juice",
@@ -8176,7 +8176,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Okonomiyaki",
@@ -8198,7 +8198,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Karjalanpiirakka",
@@ -8209,7 +8209,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Swedish"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Rambutan Juice",
@@ -8220,7 +8220,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 3
             },
             {
                 topic: "Kladdkaka",
@@ -8231,7 +8231,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Danish"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Cupuaçu Juice",
@@ -8256,7 +8256,7 @@ const foodDrinksQuestions = {
                     "Red wine",
                     "No wine"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Mao Feng Tea",
@@ -8268,7 +8268,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Black"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Sofrito",
@@ -8280,7 +8280,7 @@ const foodDrinksQuestions = {
                     "Sauce only",
                     "Garnish"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Kahlúa",
@@ -8292,7 +8292,7 @@ const foodDrinksQuestions = {
                     "True",
                     "Vanilla"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Concassé",
@@ -8304,7 +8304,7 @@ const foodDrinksQuestions = {
                     "With skin",
                     "Whole"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Gyokuro Tea",
@@ -8316,7 +8316,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Indoor"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Salpicon",
@@ -8328,7 +8328,7 @@ const foodDrinksQuestions = {
                     "Large chunks",
                     "Whole"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Tia Maria",
@@ -8340,7 +8340,7 @@ const foodDrinksQuestions = {
                     "True",
                     "Brazil"
                 ],
-                correct: 2
+                correct: 3
             },
             {
                 topic: "À la Grecque",
@@ -8364,7 +8364,7 @@ const foodDrinksQuestions = {
                     "True",
                     "Powdered"
                 ],
-                correct: 2
+                correct: 3
             }
         ],
         "extreme": [
@@ -8440,7 +8440,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Purified Water",
@@ -8450,7 +8450,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Bison",
@@ -8460,7 +8460,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Grape Juice",
@@ -8470,7 +8470,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Gummy Bears",
@@ -8480,7 +8480,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Lemon Tea",
@@ -8490,7 +8490,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Asparagus",
@@ -8500,7 +8500,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "7UP",
@@ -8510,7 +8510,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Ketchup",
@@ -8520,7 +8520,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Fruit Punch",
@@ -8530,7 +8530,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         medium: [
@@ -8562,7 +8562,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Goji Berry Juice",
@@ -8582,7 +8582,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Cortado",
@@ -8592,7 +8592,7 @@ const foodDrinksQuestions = {
                     "More milk",
                     "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Pide",
@@ -8602,7 +8602,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Pea Protein Shake",
@@ -8632,7 +8632,7 @@ const foodDrinksQuestions = {
                     "Yellow",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         hard: [
@@ -8645,7 +8645,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Mild"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Cortado Condensada",
@@ -8667,7 +8667,7 @@ const foodDrinksQuestions = {
                     "False",
                     "German"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Baobab Juice",
@@ -8678,7 +8678,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Khinkali",
@@ -8689,7 +8689,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Chinese"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Café Touba",
@@ -8700,7 +8700,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Lefse",
@@ -8711,7 +8711,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Swedish"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Soursop Juice",
@@ -8722,7 +8722,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 3
             },
             {
                 topic: "Medovik",
@@ -8744,7 +8744,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 3
             }
         ],
         "expert": [
@@ -8758,7 +8758,7 @@ const foodDrinksQuestions = {
                     "No tomato",
                     "Hollandaise"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Pi Lo Chun Tea",
@@ -8770,7 +8770,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Oolong"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Battuto",
@@ -8782,7 +8782,7 @@ const foodDrinksQuestions = {
                     "Cooked",
                     "Spanish"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Cointreau",
@@ -8806,7 +8806,7 @@ const foodDrinksQuestions = {
                     "Winter",
                     "Fall"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Kukicha Tea",
@@ -8818,7 +8818,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Flower"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Duxelles",
@@ -8830,7 +8830,7 @@ const foodDrinksQuestions = {
                     "Whole",
                     "Sliced"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Grand Marnier",
@@ -8854,7 +8854,7 @@ const foodDrinksQuestions = {
                     "Chicken",
                     "Beef"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Pouchong Tea",
@@ -8866,7 +8866,7 @@ const foodDrinksQuestions = {
                     "True",
                     "Not oolong"
                 ],
-                correct: 2
+                correct: 0
             }
         ],
         "extreme": [
@@ -8942,7 +8942,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Alkaline Water",
@@ -8952,7 +8952,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Elk",
@@ -8962,7 +8962,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Pineapple Juice",
@@ -8972,7 +8972,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Licorice",
@@ -8982,7 +8982,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Ginseng Tea",
@@ -8992,7 +8992,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Radish",
@@ -9012,7 +9012,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Mustard",
@@ -9044,7 +9044,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Pho",
@@ -9054,7 +9054,7 @@ const foodDrinksQuestions = {
                     "Thai",
                     "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Pumpernickel Bread",
@@ -9064,7 +9064,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Cherry Juice",
@@ -9084,7 +9084,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Ristretto",
@@ -9094,7 +9094,7 @@ const foodDrinksQuestions = {
                     "Longer",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Injera",
@@ -9104,7 +9104,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Sunflower Milk",
@@ -9124,7 +9124,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Cranberry Juice",
@@ -9134,7 +9134,7 @@ const foodDrinksQuestions = {
                     "No benefits",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             }
         ],
         hard: [
@@ -9180,7 +9180,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Pelmeni",
@@ -9191,7 +9191,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Chinese"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Café Bombón",
@@ -9202,7 +9202,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Pan de Muerto",
@@ -9235,7 +9235,7 @@ const foodDrinksQuestions = {
                     "False",
                     "German"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Karkadé",
@@ -9260,7 +9260,7 @@ const foodDrinksQuestions = {
                     "Hollandaise",
                     "No glaze"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Mao Jian Tea",
@@ -9284,7 +9284,7 @@ const foodDrinksQuestions = {
                     "Spanish",
                     "Italian"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Campari",
@@ -9296,7 +9296,7 @@ const foodDrinksQuestions = {
                     "True",
                     "Mild"
                 ],
-                correct: 2
+                correct: 3
             },
             {
                 topic: "Brunoise Cut",
@@ -9323,7 +9323,7 @@ const foodDrinksQuestions = {
                     "Dice",
                     "Strips"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Aperol",
@@ -9335,7 +9335,7 @@ const foodDrinksQuestions = {
                     "True",
                     "Yellow"
                 ],
-                correct: 2
+                correct: 3
             },
             {
                 topic: "À la King",
@@ -9432,7 +9432,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Vitamin Water",
@@ -9465,7 +9465,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Sage Tea",
@@ -9485,7 +9485,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Tonic Water",
@@ -9495,7 +9495,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Soy Sauce",
@@ -9505,7 +9505,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Tropical Smoothie",
@@ -9515,7 +9515,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             }
         ],
         medium: [
@@ -9527,7 +9527,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Tom Kha",
@@ -9547,7 +9547,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Açaí Juice",
@@ -9557,7 +9557,7 @@ const foodDrinksQuestions = {
                     "Green",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Bulgogi",
@@ -9567,7 +9567,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Lungo",
@@ -9577,7 +9577,7 @@ const foodDrinksQuestions = {
                     "Shorter",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Focaccia",
@@ -9587,7 +9587,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Barley Milk",
@@ -9597,7 +9597,7 @@ const foodDrinksQuestions = {
                     "From oats",
                     "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Napoleon",
@@ -9607,7 +9607,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Lime Juice",
@@ -9617,7 +9617,7 @@ const foodDrinksQuestions = {
                     "Not citrus",
                     "True"
                 ],
-                correct: 1
+                correct: 3
             }
         ],
         hard: [
@@ -9641,7 +9641,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Pandesal",
@@ -9652,7 +9652,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Mexican"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Birch Juice",
@@ -9663,7 +9663,7 @@ const foodDrinksQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Manti",
@@ -9685,7 +9685,7 @@ const foodDrinksQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Kolache",
@@ -9696,7 +9696,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Polish"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Pine Needle Tea",
@@ -9718,7 +9718,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Flat cake"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Noni Juice",
@@ -9755,7 +9755,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Fully shaded"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Trinity",
@@ -9779,7 +9779,7 @@ const foodDrinksQuestions = {
                     "True",
                     "Spanish"
                 ],
-                correct: 2
+                correct: 1
             },
             {
                 topic: "Paysanne Cut",
@@ -9791,7 +9791,7 @@ const foodDrinksQuestions = {
                     "Thick cubes",
                     "Strips"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Pu-erh Tea",
@@ -9803,7 +9803,7 @@ const foodDrinksQuestions = {
                     "False",
                     "Not fermented"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Salpicon Cut",
@@ -9827,7 +9827,7 @@ const foodDrinksQuestions = {
                     "True",
                     "Vodka"
                 ],
-                correct: 2
+                correct: 3
             },
             {
                 topic: "Nicoise Style",
@@ -9839,7 +9839,7 @@ const foodDrinksQuestions = {
                     "No tomatoes",
                     "No olives"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Silver Needle Tea",
@@ -9851,7 +9851,7 @@ const foodDrinksQuestions = {
                     "True",
                     "Black"
                 ],
-                correct: 2
+                correct: 3
             }
         ],
         "extreme": [

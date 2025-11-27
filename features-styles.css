@@ -1,0 +1,1209 @@
+/**
+ * COMPLETE RIDDLES CSS - ALL FEATURES (V4)
+ * ==========================================
+ * Includes: Bubble foam, falling emojis, floating emojis,
+ * collapsible sections, timer display, pause button,
+ * mobile responsive, and all quiz-like polish
+ */
+
+/* ========================================================================
+   BUBBLE FOAM BACKGROUND EFFECT
+   ======================================================================== */
+
+.bubble-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.bubble {
+    position: absolute;
+    bottom: -100px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 50%;
+    animation: rise 15s infinite ease-in;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.bubble:nth-child(1) { width: 40px; height: 40px; left: 10%; animation-duration: 12s; animation-delay: 0s; }
+.bubble:nth-child(2) { width: 60px; height: 60px; left: 20%; animation-duration: 14s; animation-delay: 2s; }
+.bubble:nth-child(3) { width: 30px; height: 30px; left: 30%; animation-duration: 10s; animation-delay: 1s; }
+.bubble:nth-child(4) { width: 50px; height: 50px; left: 40%; animation-duration: 16s; animation-delay: 3s; }
+.bubble:nth-child(5) { width: 45px; height: 45px; left: 50%; animation-duration: 13s; animation-delay: 1.5s; }
+.bubble:nth-child(6) { width: 35px; height: 35px; left: 60%; animation-duration: 11s; animation-delay: 2.5s; }
+.bubble:nth-child(7) { width: 55px; height: 55px; left: 70%; animation-duration: 15s; animation-delay: 0.5s; }
+.bubble:nth-child(8) { width: 40px; height: 40px; left: 80%; animation-duration: 12s; animation-delay: 2s; }
+.bubble:nth-child(9) { width: 50px; height: 50px; left: 90%; animation-duration: 14s; animation-delay: 1s; }
+.bubble:nth-child(10) { width: 65px; height: 65px; left: 15%; animation-duration: 17s; animation-delay: 3.5s; }
+
+@keyframes rise {
+    0% { bottom: -100px; transform: translateX(0); opacity: 0; }
+    10% { opacity: 1; }
+    90% { opacity: 1; }
+    100% { bottom: 110vh; transform: translateX(100px); opacity: 0; }
+}
+
+
+/* ========================================================================
+   RIDDLES - ENTRY CARDS (Timer + No Timer)
+   ======================================================================== */
+
+.riddle-entry-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin: 40px auto;
+    padding: 0 20px;
+    max-width: 1000px;
+}
+
+.riddle-entry-card {
+    background: white;
+    border-radius: 15px;
+    padding: 20px 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.riddle-entry-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: linear-gradient(90deg, #667eea, #764ba2);
+}
+
+.timer-card::before {
+    background: linear-gradient(90deg, #f093fb, #f5576c);
+}
+
+.riddle-entry-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+}
+
+.entry-card-icon {
+    font-size: 2em;
+    margin-bottom: 8px;
+}
+
+.entry-card-title {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.entry-card-subtitle {
+    font-size: 0.85em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.entry-card-badge {
+    display: inline-block;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    padding: 4px 12px;
+    border-radius: 15px;
+    font-size: 0.75em;
+    font-weight: bold;
+}
+
+.timer-card .entry-card-badge {
+    background: linear-gradient(135deg, #f093fb, #f5576c);
+}
+
+
+/* ========================================================================
+   RIDDLES - CHAPTER SELECTION
+   ======================================================================== */
+
+.riddle-chapter-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    margin: 30px auto;
+    padding: 0 20px;
+    max-width: 1200px;
+}
+
+.riddle-chapter-card {
+    background: white;
+    border-radius: 12px;
+    padding: 15px 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+}
+
+.riddle-chapter-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+    border: 2px solid #667eea;
+}
+
+.chapter-emoji {
+    font-size: 2em;
+    margin-bottom: 8px;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+/* Emoji animation on card hover */
+.riddle-chapter-card:hover .chapter-emoji {
+    animation: emojiRotateZoom 0.6s ease-in-out infinite;
+}
+
+@keyframes emojiRotateZoom {
+    0%, 100% { transform: rotate(0deg) scale(1); }
+    25% { transform: rotate(-10deg) scale(1.15); }
+    75% { transform: rotate(10deg) scale(1.15); }
+}
+
+.chapter-name {
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.chapter-count {
+    font-size: 0.75em;
+    color: #666;
+}
+
+
+/* ========================================================================
+   RIDDLES - LEVEL SELECTION (4 LEVELS GRID + COLLAPSIBLE)
+   ======================================================================== */
+
+/* Collapsible Sections */
+.collapsible-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 18px 20px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 15px;
+    margin: 10px 0;
+    transition: transform 0.3s;
+}
+
+.collapsible-header:hover {
+    transform: translateY(-2px);
+}
+
+.toggle-arrow {
+    color: white;
+    font-size: 1.3em;
+    font-weight: bold;
+    transition: transform 0.3s;
+}
+
+.toggle-arrow.collapsed {
+    transform: rotate(-90deg);
+}
+
+.collapsible-content {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.3s ease, opacity 0.3s ease, padding 0.3s ease;
+}
+
+.collapsible-content.expanded {
+    max-height: 2000px;
+    opacity: 1;
+    padding: 20px 0;
+}
+
+.mode-description {
+    text-align: center;
+    font-size: 1em;
+    color: #666;
+    margin: 10px 0 20px 0;
+}
+
+/* Level Grid */
+.riddle-level-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 30px auto;
+    padding: 0 20px;
+    max-width: 1000px;
+}
+
+.riddle-level-card {
+    padding: 12px 15px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.riddle-level-card:hover {
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.level-emoji {
+    font-size: 2.5em;
+    flex-shrink: 0;
+    transition: transform 0.3s ease;
+}
+
+/* Emoji animation on level card hover */
+.riddle-level-card:hover .level-emoji {
+    animation: emojiRotateZoom 0.6s ease-in-out infinite;
+}
+
+.level-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    flex: 1;
+}
+
+.level-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+}
+
+.level-count {
+    font-size: 0.9em;
+    opacity: 0.95;
+}
+
+.level-timer {
+    font-size: 0.9em;
+    opacity: 0.95;
+    margin-top: 4px;
+}
+
+
+/* ========================================================================
+   RIDDLES - QUESTION DISPLAY
+   ======================================================================== */
+
+.riddle-header {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.1), rgba(118, 75, 162, 0.1));
+    border-radius: 15px;
+}
+
+.riddle-header h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.riddle-progress {
+    font-size: 1.1em;
+    color: #666;
+}
+
+/* Timer Display */
+.timer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    background: rgba(102, 126, 234, 0.1);
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.timer-container.timer-warning {
+    background: rgba(231, 76, 60, 0.15);
+    animation: timerPulse 1s infinite;
+}
+
+@keyframes timerPulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.7; }
+}
+
+/* Topic header 3-column grid: Topic | Timer (center) | Empty */
+.topic-header-grid {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 15px;
+}
+
+/* Timer in CENTER column */
+.timer-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.timer-center .timer-display {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #667eea;
+}
+
+.timer-center.timer-warning .timer-display {
+    color: #e74c3c;
+    animation: timerPulse 1s infinite;
+}
+
+@keyframes timerPulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+
+.timer-center .timer-pause-btn {
+    padding: 6px 15px;
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 0.85em;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.timer-center .timer-pause-btn:hover {
+    background: #5568d3;
+}
+
+/* OLD topic-header and timer-inline styles (keep for backwards compatibility) */
+.topic-header {
+    display: none; /* Not used anymore */
+}
+
+/* Inline timer (next to topic badge) */
+.timer-inline {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.timer-inline .timer-display {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #667eea;
+}
+
+.timer-inline.timer-warning .timer-display {
+    color: #e74c3c;
+    animation: timerPulse 1s infinite;
+}
+
+@keyframes timerPulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+
+.timer-inline .timer-pause-btn {
+    padding: 6px 15px;
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 0.85em;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.timer-inline .timer-pause-btn:hover {
+    background: #5568d3;
+}
+
+/* Old timer container styles (keep for backwards compatibility) */
+.timer-container {
+    display: none; /* Hidden - using inline timer now */
+}
+
+.timer-display {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #667eea;
+}
+
+.timer-warning .timer-display {
+    color: #e74c3c;
+}
+
+.timer-pause-btn {
+    padding: 8px 20px;
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9em;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.timer-pause-btn:hover {
+    background: #5568d3;
+}
+
+.riddle-card {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+    margin: 20px 0;
+}
+
+.riddle-emoji {
+    font-size: 4em;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+    animation: questionBounce 2s infinite;
+}
+
+@keyframes questionBounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+.riddle-question {
+    font-size: 1.5em;
+    color: #333;
+    font-weight: 600;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.riddle-options {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.riddle-option {
+    padding: 20px 25px;
+    border: 3px solid #e0e0e0;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: #fafafa;
+    font-size: 1.15em;
+}
+
+.riddle-option:hover {
+    border-color: #667eea;
+    background: #f0f3ff;
+    transform: translateY(-3px);
+}
+
+.riddle-option.selected {
+    border-color: #667eea;
+    background: #e8eaf6;
+}
+
+.riddle-option.correct {
+    background: #d4edda;
+    border-color: #28a745;
+    color: #155724;
+}
+
+.riddle-option.wrong {
+    background: #f8d7da;
+    border-color: #dc3545;
+    color: #721c24;
+}
+
+.riddle-text-input {
+    width: 100%;
+    padding: 18px 20px;
+    font-size: 1.2em;
+    border: 3px solid #ddd;
+    border-radius: 12px;
+    margin: 20px 0;
+}
+
+.riddle-text-input:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 0 4px rgba(102, 126, 234, 0.15);
+}
+
+.riddle-submit-btn {
+    width: 100%;
+    padding: 15px 30px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.riddle-submit-btn:hover {
+    transform: translateY(-3px);
+}
+
+.riddle-feedback {
+    margin-top: 20px;
+    padding: 0px 0px;
+    border-radius: 12px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.riddle-feedback.correct {
+    background: #d4edda;
+    color: #155724;
+    border: 2px solid #28a745;
+}
+
+.riddle-feedback.wrong {
+    background: #f8d7da;
+    color: #721c24;
+    border: 2px solid #dc3545;
+}
+
+.riddle-nav {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    margin-top: 0px;
+    padding: 0px;
+    background: transparent;
+    border-radius: 0px;
+    gap: 15px;
+}
+
+.riddle-score {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #667eea;
+    text-align: center;
+    grid-column: 2;
+}
+
+.back-button {
+    justify-self: start;
+}
+
+.next-button {
+    justify-self: end;
+}
+
+
+/* ========================================================================
+   RIDDLES - RESULTS
+   ======================================================================== */
+
+.result-content {
+    text-align: center;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 40px 30px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+}
+
+.result-title {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.badge {
+    font-size: 5em;
+    margin: 20px 0;
+    display: block;
+    font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', 'Segoe UI Symbol', sans-serif;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0) scale(1); }
+    50% { transform: translateY(-20px) scale(1.1); }
+}
+
+.badge-text {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #667eea;
+    margin: 15px 0;
+}
+
+.score-display {
+    font-size: 3.5em;
+    font-weight: bold;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 20px 0;
+    font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', 'Segoe UI Symbol', sans-serif;
+}
+
+.percentage {
+    font-size: 2em;
+    color: #666;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.result-details {
+    background: #f8f9fa;
+    padding: 25px;
+    border-radius: 15px;
+    margin: 30px 0;
+    text-align: left;
+}
+
+.result-details div {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2em;
+    margin: 12px 0;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+    font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', 'Segoe UI Symbol', sans-serif;
+}
+
+.result-details div:last-child {
+    border-bottom: none;
+}
+
+.restart-button {
+    display: block;
+    width: 100%;
+    padding: 15px 30px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    transition: transform 0.3s;
+}
+
+.restart-button:nth-of-type(1) {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.restart-button:nth-of-type(2) {
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+}
+
+.restart-button:nth-of-type(3) {
+    background: linear-gradient(135deg, #43e97b, #38f9d7);
+}
+
+.restart-button:nth-of-type(4) {
+    background: #6c757d;
+}
+
+.restart-button:hover {
+    transform: translateY(-3px);
+}
+
+
+/* ========================================================================
+   SHARED UTILITIES
+   ======================================================================== */
+
+.title {
+    text-align: center;
+    font-size: 2.2em;
+    color: #333;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 1.1em;
+    color: #888;
+    margin: 10px 0 30px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 1.5em;
+    color: #666;
+    margin: 20px 0 10px;
+    font-weight: 600;
+}
+
+.back-button, .next-button {
+    padding: 12px 30px;
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 10px 5px;
+    transition: background 0.3s, transform 0.2s;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.back-button:hover, .next-button:hover {
+    background: #5568d3;
+    transform: translateY(-2px);
+}
+
+.next-button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 10px;
+    background: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 15px 0 5px;
+    position: relative;
+}
+
+.progress-text {
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #667eea, #764ba2);
+    transition: width 0.3s;
+}
+
+/* Topic Badge Styles - Chapter Based Colors */
+.topic-badge {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: white;
+}
+
+/* Chapter 1 - Trick Questions */
+.topic-trick {
+    background: linear-gradient(135deg, #f093fb, #f5576c);
+}
+
+/* Chapter 2 - Story Riddles */
+.topic-story {
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+}
+
+/* Chapter 3 - Logic Puzzles */
+.topic-logic {
+    background: linear-gradient(135deg, #43e97b, #38f9d7);
+}
+
+/* Chapter 4 - Word Play */
+.topic-word {
+    background: linear-gradient(135deg, #fa709a, #fee140);
+}
+
+
+/* ========================================================================
+   EMOJI ANIMATIONS
+   ======================================================================== */
+
+/* Falling Emoji - Pop in/out at left corner */
+.falling-emoji {
+    position: fixed;
+    left: 2%;
+    font-size: 1.4em;
+    pointer-events: none;
+    z-index: 1000;
+    animation: popInOut 2.5s ease-in-out;
+    filter: brightness(1.1);
+    font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji', 'Android Emoji', 'EmojiOne Color', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    display: inline-block;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+@keyframes popInOut {
+    0% { transform: scale(0); opacity: 0; }
+    15% { transform: scale(1.3); opacity: 1; }
+    85% { transform: scale(1); opacity: 1; }
+    100% { transform: scale(0); opacity: 0; }
+}
+
+/* Floating Background Emoji */
+.floating-bg-emoji {
+    position: fixed;
+    font-size: 2.5em;
+    opacity: 0.08;
+    animation: floatBg 20s infinite ease-in-out;
+    pointer-events: none;
+    z-index: 0;
+}
+
+@keyframes floatBg {
+    0%, 100% { transform: translate(0, 0) rotate(0deg); }
+    33% { transform: translate(80px, -80px) rotate(120deg); }
+    66% { transform: translate(-80px, 80px) rotate(240deg); }
+}
+
+/* Celebration Emoji - Disabled but available */
+.celebration-emoji {
+    display: none !important;
+}
+
+@keyframes celebrate {
+    0% { transform: translateY(100vh) scale(0); opacity: 0; }
+    50% { opacity: 1; }
+    100% { transform: translateY(-100vh) scale(1.5); opacity: 0; }
+}
+
+
+/* ========================================================================
+   MOBILE RESPONSIVE
+   ======================================================================== */
+
+/* Tablet breakpoint */
+@media (max-width: 1024px) and (min-width: 769px) {
+    .riddle-entry-cards {
+        gap: 25px;
+        padding: 0 30px;
+    }
+
+    .riddle-chapter-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 18px;
+    }
+}
+
+/* Mobile breakpoint */
+@media (max-width: 768px) {
+    .riddle-entry-cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        padding: 0 15px;
+    }
+
+    .entry-card-icon {
+        font-size: 2.2em;
+    }
+
+    .entry-card-title {
+        font-size: 1em;
+    }
+    
+    .entry-card-subtitle {
+        font-size: 0.8em;
+    }
+    
+    .entry-card-badge {
+        font-size: 0.7em;
+        padding: 4px 10px;
+    }
+
+    .riddle-chapter-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .riddle-level-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+        max-width: 100%;
+    }
+    
+    /* Level cards - horizontal layout maintained */
+    .level-emoji {
+        font-size: 2em;
+    }
+    
+    .level-name {
+        font-size: 1em;
+    }
+    
+    .level-count, .level-timer {
+        font-size: 0.85em;
+    }
+    
+    .riddle-level-card {
+        padding: 10px 12px;
+        gap: 12px;
+    }
+
+    .chapter-emoji {
+        font-size: 2.5em;
+    }
+
+    .riddle-header h2 {
+        font-size: 1.3em;
+    }
+
+    .riddle-question {
+        font-size: 1.2em;
+    }
+    
+    /* Mobile 3-column grid */
+    .topic-header-grid {
+        gap: 8px;
+    }
+    
+    .topic-badge {
+        font-size: 0.8em;
+        padding: 6px 12px;
+    }
+    
+    .timer-center .timer-display {
+        font-size: 1em;
+    }
+    
+    .timer-center .timer-pause-btn {
+        padding: 4px 10px;
+        font-size: 0.75em;
+    }
+
+    .riddle-option {
+        font-size: 1em;
+        padding: 15px 20px;
+    }
+
+    .riddle-nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .result-content {
+        padding: 30px 20px;
+    }
+
+    .result-title {
+        font-size: 1.8em;
+    }
+
+    .score-display {
+        font-size: 2.5em;
+    }
+
+    .falling-emoji {
+        font-size: 1.2em;
+    }
+
+    /* Mobile header background */
+    .title {
+        background: rgba(102, 126, 234, 0.15);
+        border-radius: 10px;
+        color: #000;
+        font-weight: 900;
+        padding: 10px;
+    }
+
+    .mode-description {
+        font-size: 0.9em;
+    }
+}
+
+
+/* ========================================================================
+   DAD JOKES STYLES (Preserved from original)
+   ======================================================================== */
+
+.dad-jokes-page {
+    padding: 20px;
+}
+
+.joke-category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin: 30px 0;
+}
+
+.joke-category-card {
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+.joke-category-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.category-emoji {
+    font-size: 3em;
+    margin-bottom: 15px;
+}
+
+.category-name {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.category-count {
+    font-size: 1em;
+    opacity: 0.9;
+}
+
+.jokes-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.jokes-title {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.jokes-progress {
+    font-size: 1.1em;
+    color: #666;
+}
+
+.jokes-container {
+    display: grid;
+    gap: 25px;
+    margin: 30px 0;
+}
+
+.joke-card {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.joke-number {
+    font-size: 0.9em;
+    color: #999;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.joke-setup {
+    font-size: 1.3em;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.show-answer-btn {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.show-answer-btn:hover {
+    transform: translateY(-2px);
+}
+
+.joke-punchline {
+    background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.jokes-navigation {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    margin: 30px 0;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 12px;
+    gap: 15px;
+}
+
+.joke-score {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #667eea;
+    text-align: center;
+    grid-column: 2;
+}
+
+.prev-jokes-btn {
+    justify-self: start;
+}
+
+.next-jokes-btn {
+    justify-self: end;
+}
+
+.next-jokes-btn,
+.prev-jokes-btn {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .joke-category-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+}

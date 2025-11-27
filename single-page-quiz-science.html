@@ -1,0 +1,506 @@
+<!--
+=================================================================
+SINGLE PAGE QUIZ - COPY-PASTE EKDUM
+=================================================================
+WordPress page editor ma yo PURAI copy-paste gara (Text/Code mode)
+Kei aru garnai pardaina!
+=================================================================
+-->
+
+<style>
+/* Quiz CSS - All styles inline */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+}
+
+.main-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.quiz-header {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.quiz-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.home-page { display: block; }
+.chapter-selection,
+.level-selection,
+.quiz-container,
+.result-container {
+    display: none;
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 20px 0;
+    box-shadow: 0 10px 50px rgba(0,0,0,0.2);
+}
+
+.chapter-selection.active,
+.level-selection.active,
+.quiz-container.active,
+.result-container.active {
+    display: block;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+.chapter-grid,
+.level-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.chapter-card,
+.level-card {
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: transform 0.3s;
+    color: white;
+    border: none;
+}
+
+.chapter-card:hover,
+.level-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
+
+.level-easy { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+.level-medium { background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); }
+.level-hard { background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); }
+.level-expert { background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); }
+.level-extreme { background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); }
+
+.progress-container {
+    background: #f0f0f0;
+    border-radius: 10px;
+    height: 30px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.progress-bar {
+    background: linear-gradient(90deg, #667eea, #764ba2);
+    height: 100%;
+    border-radius: 10px;
+    transition: width 0.3s;
+    width: 10%;
+}
+
+.progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    color: #333;
+}
+
+.question-card {
+    margin: 20px 0;
+}
+
+.question-text {
+    font-size: 1.3em;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.answer-options {
+    display: grid;
+    gap: 15px;
+}
+
+.answer-option {
+    padding: 15px 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    background: white;
+    text-align: left;
+}
+
+.answer-option:hover {
+    border-color: #667eea;
+    background: #f8f9ff;
+}
+
+.answer-option.correct {
+    background: #d4edda;
+    border-color: #28a745;
+}
+
+.answer-option.incorrect {
+    background: #f8d7da;
+    border-color: #dc3545;
+}
+
+.feedback-message {
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.feedback-correct {
+    background: #d4edda;
+    color: #155724;
+}
+
+.feedback-incorrect {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+.quiz-nav-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.nav-btn,
+.back-btn {
+    padding: 12px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1em;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.next-btn {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+}
+
+.next-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.back-btn {
+    background: #6c757d;
+    color: white;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.back-btn:hover {
+    background: #5a6268;
+}
+
+.result-card {
+    text-align: center;
+    padding: 30px;
+}
+
+.result-title {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.score-number {
+    font-size: 4em;
+    font-weight: bold;
+    color: #667eea;
+    margin: 20px 0;
+}
+
+.result-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.result-btn {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1em;
+    cursor: pointer;
+    font-weight: bold;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .main-container { padding: 10px; }
+    .quiz-header h1 { font-size: 1.8em; }
+    .question-text { font-size: 1.1em; }
+}
+</style>
+
+<!-- HTML Structure -->
+<div class="main-container">
+    <div class="quiz-header">
+        <h1>🔬 Science Quiz 🔬</h1>
+    </div>
+
+    <div class="home-page active">
+        <!-- Chapter Selection -->
+        <div class="chapter-selection" id="chapterScreen">
+            <h2 id="subjectTitle">Select Chapter</h2>
+            <div class="chapter-grid" id="chapterGrid">
+                <!-- Generated by JS -->
+            </div>
+            <button class="back-btn" onclick="goToHome()">⬅️ Back to Home</button>
+        </div>
+
+        <!-- Level Selection -->
+        <div class="level-selection" id="levelScreen">
+            <h2 id="levelTitle">Select Difficulty Level</h2>
+            <div class="level-grid">
+                <button class="level-card level-easy" onclick="startQuiz('easy')">
+                    😊<br>Easy
+                </button>
+                <button class="level-card level-medium" onclick="startQuiz('medium')">
+                    🤔<br>Medium
+                </button>
+                <button class="level-card level-hard" onclick="startQuiz('hard')">
+                    😰<br>Hard
+                </button>
+                <button class="level-card level-expert" onclick="startQuiz('expert')">
+                    🧠<br>Expert
+                </button>
+                <button class="level-card level-extreme" onclick="startQuiz('extreme')">
+                    🔥<br>Extreme
+                </button>
+            </div>
+            <button class="back-btn" onclick="showChapters()">⬅️ Back to Chapters</button>
+        </div>
+
+        <!-- Quiz Screen -->
+        <div class="quiz-container" id="quizScreen">
+            <div class="progress-container">
+                <div class="progress-bar" id="progressBar"></div>
+                <div class="progress-text" id="progressText">Question 1 of 10</div>
+            </div>
+
+            <div class="question-card">
+                <h3 class="question-text" id="questionText"></h3>
+                <div class="answer-options" id="answerOptions"></div>
+                <div id="feedbackMessage" class="feedback-message"></div>
+
+                <div class="quiz-nav-buttons">
+                    <button id="nextBtn" class="nav-btn next-btn" onclick="nextQuestion()" disabled>
+                        Next ➡️
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Results Screen -->
+        <div class="result-container" id="resultScreen">
+            <div class="result-card">
+                <h2 class="result-title" id="resultTitle">Quiz Complete!</h2>
+                <div class="score-number" id="scoreNumber">0</div>
+                <p style="font-size: 1.2em; color: #666;">out of 10</p>
+
+                <div class="result-buttons">
+                    <button class="result-btn" onclick="retryQuiz()">🔄 Try Again</button>
+                    <button class="result-btn" onclick="goToHome()">🏠 Home</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- JavaScript -->
+<script>
+// Science Questions Data
+const scienceQuestions = {
+    1: {
+        easy: [
+            { question: "What is the chemical symbol for water?", options: ["H2O", "CO2", "O2", "NaCl"], correct: 0 },
+            { question: "What planet is known as the Red Planet?", options: ["Venus", "Mars", "Jupiter", "Saturn"], correct: 1 },
+            { question: "What gas do plants absorb from the atmosphere?", options: ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"], correct: 2 },
+            { question: "What is the center of an atom called?", options: ["Electron", "Proton", "Nucleus", "Neutron"], correct: 2 },
+            { question: "What is the boiling point of water?", options: ["50°C", "75°C", "100°C", "125°C"], correct: 2 },
+            { question: "What is the largest organ in the human body?", options: ["Heart", "Liver", "Skin", "Brain"], correct: 2 },
+            { question: "How many bones are in the adult human body?", options: ["186", "206", "226", "246"], correct: 1 },
+            { question: "What is the speed of light?", options: ["300,000 km/s", "150,000 km/s", "450,000 km/s", "600,000 km/s"], correct: 0 },
+            { question: "What is photosynthesis?", options: ["Animal breathing", "Plant food-making", "Water cycle", "Rock formation"], correct: 1 },
+            { question: "What is the smallest unit of life?", options: ["Atom", "Molecule", "Cell", "Organ"], correct: 2 }
+        ]
+    }
+};
+
+// Global Variables
+let currentChapter = 1;
+let currentLevel = '';
+let currentQuestionIndex = 0;
+let score = 0;
+let questions = [];
+let answered = false;
+
+// Initialize
+window.onload = function() {
+    showChapters();
+};
+
+function showChapters() {
+    hideAllScreens();
+    document.getElementById('chapterScreen').classList.add('active');
+
+    const grid = document.getElementById('chapterGrid');
+    grid.innerHTML = '';
+
+    // Generate chapter buttons
+    for (let i = 1; i <= 3; i++) {
+        const btn = document.createElement('button');
+        btn.className = 'chapter-card level-easy';
+        btn.textContent = `Chapter ${i}`;
+        btn.onclick = () => selectChapter(i);
+        grid.appendChild(btn);
+    }
+}
+
+function selectChapter(chapter) {
+    currentChapter = chapter;
+    hideAllScreens();
+    document.getElementById('levelScreen').classList.add('active');
+    document.getElementById('levelTitle').textContent = `Chapter ${chapter} - Select Level`;
+}
+
+function startQuiz(level) {
+    currentLevel = level;
+    currentQuestionIndex = 0;
+    score = 0;
+    answered = false;
+
+    // Get questions
+    if (scienceQuestions[currentChapter] && scienceQuestions[currentChapter][level]) {
+        questions = [...scienceQuestions[currentChapter][level]];
+    } else {
+        alert('Questions not available for this chapter/level yet!');
+        return;
+    }
+
+    hideAllScreens();
+    document.getElementById('quizScreen').classList.add('active');
+    displayQuestion();
+}
+
+function displayQuestion() {
+    if (currentQuestionIndex >= questions.length) {
+        showResults();
+        return;
+    }
+
+    answered = false;
+    const question = questions[currentQuestionIndex];
+
+    // Update progress
+    const progress = ((currentQuestionIndex + 1) / questions.length) * 100;
+    document.getElementById('progressBar').style.width = progress + '%';
+    document.getElementById('progressText').textContent = `Question ${currentQuestionIndex + 1} of ${questions.length}`;
+
+    // Display question
+    document.getElementById('questionText').textContent = question.question;
+
+    // Display options
+    const optionsDiv = document.getElementById('answerOptions');
+    optionsDiv.innerHTML = '';
+
+    question.options.forEach((option, index) => {
+        const btn = document.createElement('button');
+        btn.className = 'answer-option';
+        btn.textContent = option;
+        btn.onclick = () => selectAnswer(index);
+        optionsDiv.appendChild(btn);
+    });
+
+    // Reset feedback and next button
+    document.getElementById('feedbackMessage').textContent = '';
+    document.getElementById('feedbackMessage').className = 'feedback-message';
+    document.getElementById('nextBtn').disabled = true;
+}
+
+function selectAnswer(selectedIndex) {
+    if (answered) return;
+
+    answered = true;
+    const question = questions[currentQuestionIndex];
+    const options = document.querySelectorAll('.answer-option');
+    const feedback = document.getElementById('feedbackMessage');
+    const nextBtn = document.getElementById('nextBtn');
+
+    options[selectedIndex].classList.add('selected');
+
+    if (selectedIndex === question.correct) {
+        options[selectedIndex].classList.add('correct');
+        feedback.textContent = 'Excellent! 🌟';
+        feedback.className = 'feedback-message feedback-correct';
+        score++;
+    } else {
+        options[selectedIndex].classList.add('incorrect');
+        options[question.correct].classList.add('correct');
+        feedback.textContent = 'Try next 📚';
+        feedback.className = 'feedback-message feedback-incorrect';
+    }
+
+    nextBtn.disabled = false;
+}
+
+function nextQuestion() {
+    currentQuestionIndex++;
+    displayQuestion();
+}
+
+function showResults() {
+    hideAllScreens();
+    document.getElementById('resultScreen').classList.add('active');
+
+    document.getElementById('resultTitle').textContent = 'Quiz Complete!';
+    document.getElementById('scoreNumber').textContent = score;
+}
+
+function retryQuiz() {
+    startQuiz(currentLevel);
+}
+
+function goToHome() {
+    window.location.href = '/';
+}
+
+function hideAllScreens() {
+    document.getElementById('chapterScreen').classList.remove('active');
+    document.getElementById('levelScreen').classList.remove('active');
+    document.getElementById('quizScreen').classList.remove('active');
+    document.getElementById('resultScreen').classList.remove('active');
+}
+</script>

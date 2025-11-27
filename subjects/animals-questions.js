@@ -2121,8 +2121,7 @@ const animalsQuestions = {
             }
         ]
     },
-
- 7: {
+    7: {
         easy: [
             {
                 topic: "Mammals",
@@ -5481,7 +5480,7 @@ const animalsQuestions = {
             }
         ]
     },
-        16: {
+    16: {
         easy: [
             {
                 topic: "Mammals",

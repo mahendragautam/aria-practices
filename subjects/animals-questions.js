@@ -5241,7 +5241,10 @@ const animalsQuestions = {
             {
                 topic: "Mammals",
                 emoji: "🦨🦔",
-        }
+                question: "Do hedgehogs have quills for protection?",
+                options: ["Yes", "No"],
+                correct: 0
+            }
         ],
         hard: [
             {

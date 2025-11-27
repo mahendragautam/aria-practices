@@ -203,7 +203,12 @@ const subjects = {
     environment: { name: 'Environment', emoji: '🌱' },
     business: { name: 'Business', emoji: '💼' },
     technology: { name: 'Technology', emoji: '💻' },
-    parenting: { name: 'Parenting', emoji: '👶' }
+    parenting: { name: 'Parenting', emoji: '👶' },
+    animals: { name: 'Animals', emoji: '🐾' },
+    movies: { name: 'Movies & TV', emoji: '🎬' },
+    sports: { name: 'Sports', emoji: '⚽' },
+    'food-drinks': { name: 'Food & Drinks', emoji: '🍕' },
+    'art-literature': { name: 'Art & Culture', emoji: '🎨' }
 };
 
 // Chapter colors

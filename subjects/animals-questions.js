@@ -1758,20 +1758,7 @@ const animalsQuestions = {
                 answer: "500 calories or about 500"
             }
         ]
-    }
-};
-
-// Chapters 6-20 will be added with completely unique questions
-// Export for use
-if (typeof module !== 'undefined' && module.exports) {
-    module.exports = animalsQuestions;
-}
-
-
-
-     // Chapters 6-20 - All Unique Questions
-
-const animalsChapters6to20 = {
+    },
     6: {
         easy: [
             {
@@ -3533,12 +3520,7 @@ const animalsChapters6to20 = {
                 answer: "0.15 mph or 0.24 km/h"
             }
         ]
-    }
-};
-
-// Chapters 11-20 - Final Set of Unique Questions
-
-const animalsChapters11to20 = {
+    },
     11: {
         easy: [
             {
@@ -7812,10 +7794,8 @@ const animalsChapters11to20 = {
                 answer: "20-30 years in wild"
             }
         ]
-    }
-};
-
-const chapter20 = {
+    },
+    
     20: {
         easy: [
             {

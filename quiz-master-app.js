@@ -227,8 +227,13 @@ try { if (typeof environmentQuestions !== 'undefined') subjectQuestionBank.envir
 try { if (typeof businessQuestions !== 'undefined') subjectQuestionBank.business = businessQuestions; } catch(e) { console.warn('Business questions not loaded:', e); }
 try { if (typeof technologyQuestions !== 'undefined') subjectQuestionBank.technology = technologyQuestions; } catch(e) { console.warn('Technology questions not loaded:', e); }
 try { if (typeof parentingQuestions !== 'undefined') subjectQuestionBank.parenting = parentingQuestions; } catch(e) { console.warn('Parenting questions not loaded:', e); }
+try { if (typeof animalsQuestions !== 'undefined') subjectQuestionBank.animals = animalsQuestions; } catch(e) { console.warn('Animals questions not loaded:', e); }
+try { if (typeof moviesTVQuestions !== 'undefined') subjectQuestionBank.movies = moviesTVQuestions; } catch(e) { console.warn('Movies questions not loaded:', e); }
+try { if (typeof sportsQuestions !== 'undefined') subjectQuestionBank.sports = sportsQuestions; } catch(e) { console.warn('Sports questions not loaded:', e); }
+try { if (typeof foodDrinksQuestions !== 'undefined') subjectQuestionBank['food-drinks'] = foodDrinksQuestions; } catch(e) { console.warn('Food & Drinks questions not loaded:', e); }
+try { if (typeof artCultureQuestions !== 'undefined') subjectQuestionBank['art-literature'] = artCultureQuestions; } catch(e) { console.warn('Art & Culture questions not loaded:', e); }
 
-console.log('✅ Loaded subjects:', Object.keys(subjectQuestionBank).length + '/10');
+console.log('✅ Loaded subjects:', Object.keys(subjectQuestionBank).length + '/15');
 
 // Navigation functions
 function showHomePage() {

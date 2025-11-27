@@ -1,9 +1,11 @@
 /**
- * Art & Culture Trivia Questions
+ * WPCode Snippet #6: Art & Culture Questions
  * ==================================================
- * 20 Chapters divided into 4 Sets
- * Mix of True/False with randomized answer positions
- * Original questions with relevant emojis
+ * Type: JavaScript
+ * Location: Auto Insert > Footer
+ * Priority: 10
+ *
+ * COPY ALL CODE BELOW
  */
 
 const artCultureQuestions = {

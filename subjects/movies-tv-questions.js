@@ -1,3 +1,13 @@
+/**
+ * WPCode Snippet #3: Movies & TV Questions
+ * ==================================================
+ * Type: JavaScript
+ * Location: Auto Insert > Footer
+ * Priority: 10
+ *
+ * COPY ALL CODE BELOW
+ */
+
 const moviesTVQuestions = {
     1: {
         easy: [

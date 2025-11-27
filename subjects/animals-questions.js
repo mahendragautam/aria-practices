@@ -1,3 +1,13 @@
+/**
+ * WPCode Snippet #2: Animals & Wildlife Questions
+ * ==================================================
+ * Type: JavaScript
+ * Location: Auto Insert > Footer
+ * Priority: 10
+ *
+ * COPY ALL CODE BELOW
+ */
+
 const animalsQuestions = {
     1: {
         easy: [

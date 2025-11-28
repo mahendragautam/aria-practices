@@ -36,10 +36,10 @@ const businessQuestions = {
                 "emoji": "📊📈",
                 "question": "Is managers lead teams?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Accounting",
@@ -56,10 +56,10 @@ const businessQuestions = {
                 "emoji": "💳💸",
                 "question": "Is advertising part of marketing?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Finance",
@@ -86,10 +86,10 @@ const businessQuestions = {
                 "emoji": "💡🔦",
                 "question": "Is budgets help control spending?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Marketing",
@@ -106,10 +106,10 @@ const businessQuestions = {
                 "emoji": "🖥️⌨️",
                 "question": "Is banks provide business loans?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -128,20 +128,20 @@ const businessQuestions = {
                 "emoji": "📧💌",
                 "question": "What does the acronym ROI stand for?",
                 "options": [
-                    "Rate of Income",
-                    "Return on Investment"
+                    "Return on Investment",
+                    "Rate of Income"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Management",
                 "emoji": "🗂️📋",
                 "question": "What does the acronym delegation stand for?",
                 "options": [
-                    "Doing everything",
-                    "Assigning tasks"
+                    "Assigning tasks",
+                    "Doing everything"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Accounting",
@@ -158,20 +158,20 @@ const businessQuestions = {
                 "emoji": "🎯🎲",
                 "question": "What is a target market?",
                 "options": [
-                    "All customers",
-                    "Specific customer group"
+                    "Specific customer group",
+                    "All customers"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Finance",
                 "emoji": "📅🗓️",
                 "question": "What is cash flow?",
                 "options": [
-                    "Money in and out",
-                    "Total revenue"
+                    "Total revenue",
+                    "Money in and out"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Management",
@@ -231,9 +231,9 @@ const businessQuestions = {
                 "emoji": "🚀🛸",
                 "question": "What is the break-even point?",
                 "options": [
-                    "Minimum loss",
+                    "Revenue equals costs",
                     "Maximum profit",
-                    "Revenue equals costs"
+                    "Minimum loss"
                 ],
                 "correct": 1
             },
@@ -243,8 +243,8 @@ const businessQuestions = {
                 "question": "What is Six Sigma?",
                 "options": [
                     "Quality improvement method",
-                    "Marketing strategy",
-                    "HR policy"
+                    "HR policy",
+                    "Marketing strategy"
                 ],
                 "correct": 0
             },
@@ -253,22 +253,22 @@ const businessQuestions = {
                 "emoji": "🏪🛍️",
                 "question": "What does the acronym depreciation stand for?",
                 "options": [
-                    "Debt payment",
                     "Asset value decrease",
-                    "Profit increase"
+                    "Profit increase",
+                    "Debt payment"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Marketing",
                 "emoji": "🛒🏬",
                 "question": "What is customer lifetime value?",
                 "options": [
-                    "Total customer spending",
                     "Annual revenue",
+                    "Total customer spending",
                     "First purchase"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Finance",
@@ -287,43 +287,43 @@ const businessQuestions = {
                 "question": "What does the acronym KPI stand for?",
                 "options": [
                     "Key Performance Indicator",
-                    "Key Profit Indicator",
-                    "Knowledge and Practice Index"
+                    "Knowledge and Practice Index",
+                    "Key Profit Indicator"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Accounting",
                 "emoji": "✈️🌐",
                 "question": "What does the acronym GAAP stand for?",
                 "options": [
+                    "Accounting standards",
                     "Tax code",
-                    "Profit formula",
-                    "Accounting standards"
+                    "Profit formula"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Marketing",
                 "emoji": "🗺️🧭",
                 "question": "What is B2B marketing?",
                 "options": [
-                    "Brand to Buyer",
                     "Business to Business",
+                    "Brand to Buyer",
                     "Budget to Business"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Finance",
                 "emoji": "💎💍",
                 "question": "What is venture capital?",
                 "options": [
-                    "Bank loan",
                     "Government grant",
+                    "Bank loan",
                     "Startup investment"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -333,9 +333,9 @@ const businessQuestions = {
                 "question": "What is the conversion rate formula?",
                 "options": [
                     "Sales/Expenses",
-                    "Visitors/Sales",
                     "Profit/Revenue",
-                    "Conversions/Visitors × 100"
+                    "Conversions/Visitors × 100",
+                    "Visitors/Sales"
                 ],
                 "correct": 0
             },
@@ -344,36 +344,36 @@ const businessQuestions = {
                 "emoji": "💰💵",
                 "question": "What is the debt-to-equity ratio?",
                 "options": [
+                    "Profit/Sales",
                     "Total debt/Total equity",
-                    "Assets/Liabilities",
                     "Revenue/Expenses",
-                    "Profit/Sales"
+                    "Assets/Liabilities"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Management",
                 "emoji": "👔📊",
                 "question": "What does the acronym Kaizen stand for?",
                 "options": [
+                    "Continuous improvement",
                     "Japanese accounting",
-                    "Marketing method",
                     "HR strategy",
-                    "Continuous improvement"
+                    "Marketing method"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Accounting",
                 "emoji": "📊💼",
                 "question": "What does the acronym EBITDA stand for?",
                 "options": [
-                    "Total revenue",
                     "Net profit",
                     "Earnings before interest, tax, depreciation, amortization",
+                    "Total revenue",
                     "Gross income"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Marketing",
@@ -381,35 +381,35 @@ const businessQuestions = {
                 "question": "What is the marketing funnel stages?",
                 "options": [
                     "Price, Product, Promote",
-                    "Research, Develop, Launch",
+                    "Plan, Execute, Measure",
                     "Awareness, Interest, Decision, Action",
-                    "Plan, Execute, Measure"
+                    "Research, Develop, Launch"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Finance",
                 "emoji": "💰📈",
                 "question": "What does the acronym NPV stand for?",
                 "options": [
-                    "Net Present Value",
                     "Nominal Price Value",
                     "New Profit Value",
-                    "Net Percentage Variable"
+                    "Net Percentage Variable",
+                    "Net Present Value"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Management",
                 "emoji": "👔📋",
                 "question": "What is agile methodology?",
                 "options": [
-                    "Fixed planning",
                     "Static process",
-                    "Waterfall model",
-                    "Iterative development"
+                    "Iterative development",
+                    "Fixed planning",
+                    "Waterfall model"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Accounting",
@@ -417,9 +417,9 @@ const businessQuestions = {
                 "question": "What is double-entry bookkeeping?",
                 "options": [
                     "Bi-annual reports",
+                    "Two accountants",
                     "Debit and credit entries",
-                    "Duplicate records",
-                    "Two accountants"
+                    "Duplicate records"
                 ],
                 "correct": 0
             },
@@ -429,9 +429,9 @@ const businessQuestions = {
                 "question": "What does the acronym SEO stand for?",
                 "options": [
                     "Strategic Expense Outline",
+                    "Sales Efficiency Objective",
                     "Social Engagement Online",
-                    "Search Engine Optimization",
-                    "Sales Efficiency Objective"
+                    "Search Engine Optimization"
                 ],
                 "correct": 0
             },
@@ -440,12 +440,12 @@ const businessQuestions = {
                 "emoji": "💰🏦",
                 "question": "What does the acronym IPO stand for?",
                 "options": [
-                    "Internal Process Optimization",
-                    "Initial Public Offering",
                     "International Profit Objective",
-                    "Investment Portfolio Option"
+                    "Internal Process Optimization",
+                    "Investment Portfolio Option",
+                    "Initial Public Offering"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "extreme": [
@@ -568,10 +568,10 @@ const businessQuestions = {
                 "emoji": "💡🌟",
                 "question": "Is most startups need funding?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Innovation",
@@ -588,10 +588,10 @@ const businessQuestions = {
                 "emoji": "🚀💰",
                 "question": "Is investors provide capital?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Risk",
@@ -608,10 +608,10 @@ const businessQuestions = {
                 "emoji": "💡👥",
                 "question": "Are teams important for startups?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -620,30 +620,30 @@ const businessQuestions = {
                 "emoji": "🚀💡",
                 "question": "What is a startup?",
                 "options": [
-                    "New business venture",
-                    "Established company"
+                    "Established company",
+                    "New business venture"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Startup",
                 "emoji": "💡🏢",
                 "question": "What is a business model?",
                 "options": [
-                    "Company location",
-                    "How company makes money"
+                    "How company makes money",
+                    "Company location"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Innovation",
                 "emoji": "🔬💡",
                 "question": "What is disruptive innovation?",
                 "options": [
-                    "Incremental change",
-                    "New market creation"
+                    "New market creation",
+                    "Incremental change"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Startup",
@@ -660,10 +660,10 @@ const businessQuestions = {
                 "emoji": "⚠️💼",
                 "question": "What is risk management?",
                 "options": [
-                    "Ignoring problems",
-                    "Identifying and mitigating risks"
+                    "Identifying and mitigating risks",
+                    "Ignoring problems"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Startup",
@@ -700,20 +700,20 @@ const businessQuestions = {
                 "emoji": "⚠️📊",
                 "question": "What does the acronym pivot stand for?",
                 "options": [
-                    "Stay same course",
-                    "Change business direction"
+                    "Change business direction",
+                    "Stay same course"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Startup",
                 "emoji": "💡👥",
                 "question": "What is co-founder?",
                 "options": [
-                    "Partner who starts company",
-                    "Employee"
+                    "Employee",
+                    "Partner who starts company"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -722,22 +722,22 @@ const businessQuestions = {
                 "emoji": "🚀💡",
                 "question": "What is the lean startup methodology?",
                 "options": [
-                    "Research-develop-launch",
                     "Build-measure-learn",
+                    "Research-develop-launch",
                     "Plan-execute-finish"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Startup",
                 "emoji": "💡🏢",
                 "question": "What is product-market fit?",
                 "options": [
-                    "Any product",
                     "Market research",
+                    "Any product",
                     "Product satisfies market demand"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Innovation",
@@ -756,32 +756,32 @@ const businessQuestions = {
                 "question": "What is unicorn company?",
                 "options": [
                     "Public company",
-                    "Any startup",
-                    "Startup valued at $1B+"
+                    "Startup valued at $1B+",
+                    "Any startup"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Risk",
                 "emoji": "⚠️💼",
                 "question": "What is burn rate?",
                 "options": [
-                    "Profit margin",
                     "Cash spending rate",
-                    "Revenue growth"
+                    "Revenue growth",
+                    "Profit margin"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Startup",
                 "emoji": "💡🌟",
                 "question": "What are Series A, B, C funding?",
                 "options": [
+                    "Product versions",
                     "Investment rounds",
-                    "Company grades",
-                    "Product versions"
+                    "Company grades"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Innovation",
@@ -800,8 +800,8 @@ const businessQuestions = {
                 "question": "What is equity dilution?",
                 "options": [
                     "Revenue loss",
-                    "Ownership percentage decrease",
-                    "Profit increase"
+                    "Profit increase",
+                    "Ownership percentage decrease"
                 ],
                 "correct": 0
             },
@@ -810,22 +810,22 @@ const businessQuestions = {
                 "emoji": "⚠️📊",
                 "question": "What does the acronym runway stand for?",
                 "options": [
-                    "Profit target",
+                    "Time until money runs out",
                     "Growth rate",
-                    "Time until money runs out"
+                    "Profit target"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Startup",
                 "emoji": "💡👥",
                 "question": "What is vesting schedule?",
                 "options": [
+                    "Equity earned over time",
                     "Immediate ownership",
-                    "Salary increase",
-                    "Equity earned over time"
+                    "Salary increase"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -834,24 +834,24 @@ const businessQuestions = {
                 "emoji": "🚀💡",
                 "question": "What is typical startup failure rate?",
                 "options": [
-                    "10%",
-                    "25%",
                     "50%",
-                    "~90%"
+                    "~90%",
+                    "10%",
+                    "25%"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Startup",
                 "emoji": "💡🏢",
                 "question": "What is customer acquisition cost (CAC)?",
                 "options": [
-                    "Profit margin",
                     "Total revenue",
-                    "Cost to acquire customer",
-                    "Product cost"
+                    "Product cost",
+                    "Profit margin",
+                    "Cost to acquire customer"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Innovation",
@@ -859,8 +859,8 @@ const businessQuestions = {
                 "question": "What is the innovator's dilemma?",
                 "options": [
                     "Fast innovation",
-                    "No innovation",
                     "Successful companies miss disruptions",
+                    "No innovation",
                     "Too much innovation"
                 ],
                 "correct": 0
@@ -870,12 +870,12 @@ const businessQuestions = {
                 "emoji": "🚀📈",
                 "question": "What is hockey stick growth?",
                 "options": [
-                    "Decline",
                     "Exponential growth curve",
                     "Flat",
+                    "Decline",
                     "Linear growth"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Risk",
@@ -883,23 +883,23 @@ const businessQuestions = {
                 "question": "What is pivot vs persevere?",
                 "options": [
                     "Random choice",
+                    "Never change",
                     "Change or continue decision",
-                    "Always pivot",
-                    "Never change"
+                    "Always pivot"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Startup",
                 "emoji": "💡🌟",
                 "question": "What is typical angel investment amount?",
                 "options": [
-                    "$10M",
                     "$1M+",
+                    "$25k-$100k",
                     "$1k",
-                    "$25k-$100k"
+                    "$10M"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Innovation",
@@ -908,8 +908,8 @@ const businessQuestions = {
                 "options": [
                     "10 features",
                     "10% improvement",
-                    "10 times better than competitors",
-                    "10 customers"
+                    "10 customers",
+                    "10 times better than competitors"
                 ],
                 "correct": 1
             },
@@ -918,24 +918,24 @@ const businessQuestions = {
                 "emoji": "🚀💰",
                 "question": "What is term sheet?",
                 "options": [
-                    "Product specs",
                     "Marketing plan",
-                    "Employee contract",
-                    "Investment agreement terms"
+                    "Product specs",
+                    "Investment agreement terms",
+                    "Employee contract"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Risk",
                 "emoji": "⚠️📊",
                 "question": "What is pre-money vs post-money valuation?",
                 "options": [
-                    "Time periods",
+                    "Market caps",
                     "Before and after investment",
                     "Profit measures",
-                    "Market caps"
+                    "Time periods"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Startup",
@@ -943,11 +943,11 @@ const businessQuestions = {
                 "question": "What is sweat equity?",
                 "options": [
                     "Salary",
-                    "Borrowed money",
+                    "Ownership for work",
                     "Cash investment",
-                    "Ownership for work"
+                    "Borrowed money"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "extreme": [
@@ -1020,20 +1020,20 @@ const businessQuestions = {
                 "emoji": "👥💼",
                 "question": "Is hR manages employees?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Recruitment",
                 "emoji": "📝🔍",
                 "question": "Is interviews help hire people?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Training",
@@ -1050,20 +1050,20 @@ const businessQuestions = {
                 "emoji": "💰🏥",
                 "question": "Is benefits include health insurance?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Culture",
                 "emoji": "🌟👥",
                 "question": "Is company culture matters?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Performance",
@@ -1080,20 +1080,20 @@ const businessQuestions = {
                 "emoji": "👥📋",
                 "question": "Is hR handles payroll?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Recruitment",
                 "emoji": "📝💼",
                 "question": "Is job descriptions attract candidates?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Training",
@@ -1122,10 +1122,10 @@ const businessQuestions = {
                 "emoji": "👥💼",
                 "question": "What is human capital?",
                 "options": [
-                    "Employee value",
-                    "Cash reserves"
+                    "Cash reserves",
+                    "Employee value"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Recruitment",
@@ -1182,10 +1182,10 @@ const businessQuestions = {
                 "emoji": "👥📋",
                 "question": "What does the acronym HRIS stand for?",
                 "options": [
-                    "HR Information System",
-                    "HR Insurance Service"
+                    "HR Insurance Service",
+                    "HR Information System"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Recruitment",
@@ -1202,10 +1202,10 @@ const businessQuestions = {
                 "emoji": "📚💡",
                 "question": "What does the acronym upskilling stand for?",
                 "options": [
-                    "Firing employees",
-                    "Learning new skills"
+                    "Learning new skills",
+                    "Firing employees"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Benefits",
@@ -1225,8 +1225,8 @@ const businessQuestions = {
                 "question": "What is strategic HRM?",
                 "options": [
                     "Random hiring",
-                    "No strategy",
-                    "Align HR with business goals"
+                    "Align HR with business goals",
+                    "No strategy"
                 ],
                 "correct": 0
             },
@@ -1235,11 +1235,11 @@ const businessQuestions = {
                 "emoji": "📝🔍",
                 "question": "What is the recruitment funnel?",
                 "options": [
-                    "Candidate journey stages",
                     "Interview room",
-                    "Job board"
+                    "Job board",
+                    "Candidate journey stages"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Training",
@@ -1257,9 +1257,9 @@ const businessQuestions = {
                 "emoji": "💰🏥",
                 "question": "What is total rewards?",
                 "options": [
-                    "Salary only",
+                    "Bonuses only",
                     "All compensation and benefits",
-                    "Bonuses only"
+                    "Salary only"
                 ],
                 "correct": 1
             },
@@ -1268,66 +1268,66 @@ const businessQuestions = {
                 "emoji": "🌟👥",
                 "question": "What is organizational culture?",
                 "options": [
+                    "Shared values and behaviors",
                     "Company size",
-                    "Office location",
-                    "Shared values and behaviors"
+                    "Office location"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Performance",
                 "emoji": "📊✅",
                 "question": "What is 360-degree feedback?",
                 "options": [
-                    "Feedback from all directions",
                     "Manager only",
-                    "Self-review only"
+                    "Self-review only",
+                    "Feedback from all directions"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "HR",
                 "emoji": "👥📋",
                 "question": "What is succession planning?",
                 "options": [
+                    "Firing process",
                     "Hiring process",
-                    "Preparing future leaders",
-                    "Firing process"
+                    "Preparing future leaders"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Recruitment",
                 "emoji": "📝💼",
                 "question": "What is passive candidate?",
                 "options": [
+                    "Not actively job seeking",
                     "Entry-level",
-                    "Unemployed",
-                    "Not actively job seeking"
+                    "Unemployed"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Training",
                 "emoji": "📚💡",
                 "question": "What is competency framework?",
                 "options": [
-                    "Required skills and behaviors",
                     "Training schedule",
-                    "Job titles"
+                    "Job titles",
+                    "Required skills and behaviors"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Benefits",
                 "emoji": "💰⏰",
                 "question": "What is flexible benefits?",
                 "options": [
-                    "Choose your own benefits",
                     "Fixed package",
-                    "No benefits"
+                    "No benefits",
+                    "Choose your own benefits"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -1337,9 +1337,9 @@ const businessQuestions = {
                 "question": "What is employee turnover rate?",
                 "options": [
                     "Salary increase",
-                    "Hiring rate",
                     "Promotion rate",
-                    "Percentage leaving annually"
+                    "Percentage leaving annually",
+                    "Hiring rate"
                 ],
                 "correct": 0
             },
@@ -1348,24 +1348,24 @@ const businessQuestions = {
                 "emoji": "📝🔍",
                 "question": "What is typical time-to-hire?",
                 "options": [
-                    "1 year",
                     "1 week",
                     "30-45 days",
-                    "6 months"
+                    "6 months",
+                    "1 year"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Training",
                 "emoji": "📚👨‍🎓",
                 "question": "What is ROI on training?",
                 "options": [
-                    "Value gained vs cost",
                     "Training hours",
-                    "Attendance rate",
-                    "Number of courses"
+                    "Value gained vs cost",
+                    "Number of courses",
+                    "Attendance rate"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Benefits",
@@ -1374,8 +1374,8 @@ const businessQuestions = {
                 "options": [
                     "90%",
                     "~30%",
-                    "100%",
-                    "5%"
+                    "5%",
+                    "100%"
                 ],
                 "correct": 1
             },
@@ -1384,12 +1384,12 @@ const businessQuestions = {
                 "emoji": "🌟👥",
                 "question": "What is the Great Resignation?",
                 "options": [
-                    "Retirement age",
                     "Firing wave",
+                    "Layoff period",
                     "Mass employee exodus trend",
-                    "Layoff period"
+                    "Retirement age"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Performance",
@@ -1397,9 +1397,9 @@ const businessQuestions = {
                 "question": "What is forced ranking?",
                 "options": [
                     "Seniority order",
+                    "Rank employees by performance",
                     "Alphabetical",
-                    "Random assignment",
-                    "Rank employees by performance"
+                    "Random assignment"
                 ],
                 "correct": 0
             },
@@ -1420,12 +1420,12 @@ const businessQuestions = {
                 "emoji": "📝💼",
                 "question": "What is talent pipeline?",
                 "options": [
-                    "Pool of potential candidates",
-                    "Office layout",
                     "Job board",
+                    "Office layout",
+                    "Pool of potential candidates",
                     "Interview schedule"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Training",
@@ -1444,12 +1444,12 @@ const businessQuestions = {
                 "emoji": "💰⏰",
                 "question": "What is unlimited PTO?",
                 "options": [
+                    "365 days off",
                     "10 days",
                     "No fixed vacation days",
-                    "365 days off",
                     "No vacation"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -1542,10 +1542,10 @@ const businessQuestions = {
                 "emoji": "🔄📊",
                 "question": "Is processes improve efficiency?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Inventory",
@@ -1562,60 +1562,60 @@ const businessQuestions = {
                 "emoji": "⚙️💼",
                 "question": "Is operations affect costs?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Quality",
                 "emoji": "✅⭐",
                 "question": "Is quality matters to customers?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Process",
                 "emoji": "🔄🎯",
                 "question": "Is automation speeds up work?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Inventory",
                 "emoji": "📦📊",
                 "question": "Is too much inventory costs money?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Operations",
                 "emoji": "⚙️🔧",
                 "question": "Is maintenance prevents breakdowns?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Quality",
                 "emoji": "✅📈",
                 "question": "Is quality reduces waste?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -1654,40 +1654,40 @@ const businessQuestions = {
                 "emoji": "📦🏬",
                 "question": "What is just-in-time inventory?",
                 "options": [
-                    "Receive goods as needed",
-                    "Store everything"
+                    "Store everything",
+                    "Receive goods as needed"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Operations",
                 "emoji": "⚙️💼",
                 "question": "What is capacity planning?",
                 "options": [
-                    "Random production",
-                    "Determine production capability"
+                    "Determine production capability",
+                    "Random production"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Quality",
                 "emoji": "✅⭐",
                 "question": "What is ISO certification?",
                 "options": [
-                    "Quality standard",
-                    "Company name"
+                    "Company name",
+                    "Quality standard"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Process",
                 "emoji": "🔄🎯",
                 "question": "What does the acronym bottleneck stand for?",
                 "options": [
-                    "Fastest step",
-                    "Slowest step in process"
+                    "Slowest step in process",
+                    "Fastest step"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Inventory",
@@ -1726,20 +1726,20 @@ const businessQuestions = {
                 "emoji": "⚙️🏭",
                 "question": "What is lean manufacturing?",
                 "options": [
+                    "Slow production",
                     "Maximize inventory",
-                    "Eliminate waste",
-                    "Slow production"
+                    "Eliminate waste"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Quality",
                 "emoji": "✅🔍",
                 "question": "What are Six Sigma levels?",
                 "options": [
-                    "No standards",
+                    "60% quality",
                     "3.4 defects per million",
-                    "60% quality"
+                    "No standards"
                 ],
                 "correct": 1
             },
@@ -1749,8 +1749,8 @@ const businessQuestions = {
                 "question": "What is business process reengineering?",
                 "options": [
                     "Fundamental redesign",
-                    "Minor tweaks",
-                    "No change"
+                    "No change",
+                    "Minor tweaks"
                 ],
                 "correct": 0
             },
@@ -1759,33 +1759,33 @@ const businessQuestions = {
                 "emoji": "📦🏬",
                 "question": "What does the acronym EOQ stand for?",
                 "options": [
-                    "Extra Order Quality",
                     "Estimated Output Quota",
+                    "Extra Order Quality",
                     "Economic Order Quantity"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Operations",
                 "emoji": "⚙️💼",
                 "question": "What does the acronym throughput stand for?",
                 "options": [
-                    "Input rate",
                     "Output rate",
+                    "Input rate",
                     "Waste rate"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Quality",
                 "emoji": "✅⭐",
                 "question": "What does Kaizen emphasize in operations?",
                 "options": [
-                    "Continuous improvement",
                     "No change",
+                    "Continuous improvement",
                     "One-time fix"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Process",
@@ -1793,32 +1793,32 @@ const businessQuestions = {
                 "question": "What is value stream mapping?",
                 "options": [
                     "Financial planning",
-                    "Marketing tool",
-                    "Visualize process flow"
+                    "Visualize process flow",
+                    "Marketing tool"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Inventory",
                 "emoji": "📦📊",
                 "question": "What is safety stock?",
                 "options": [
-                    "Oldest stock",
                     "Damaged goods",
+                    "Oldest stock",
                     "Buffer inventory"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Operations",
                 "emoji": "⚙️🔧",
                 "question": "What does the acronym OEE stand for?",
                 "options": [
-                    "Organized Employee Effort",
+                    "Operational Efficiency Estimate",
                     "Overall Equipment Effectiveness",
-                    "Operational Efficiency Estimate"
+                    "Organized Employee Effort"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Quality",
@@ -1838,72 +1838,72 @@ const businessQuestions = {
                 "emoji": "⚙️🏭",
                 "question": "What is theory of constraints?",
                 "options": [
-                    "Equal focus",
+                    "Focus on bottlenecks",
                     "Random approach",
-                    "Ignore constraints",
-                    "Focus on bottlenecks"
+                    "Equal focus",
+                    "Ignore constraints"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Quality",
                 "emoji": "✅🔍",
                 "question": "What does the acronym DMAIC stand for?",
                 "options": [
-                    "Define, Measure, Analyze, Improve, Control",
-                    "Develop, Monitor, Act, Implement, Change",
                     "Design, Make, Assemble, Inspect, Check",
-                    "Data, Model, Apply, Interpret, Complete"
+                    "Data, Model, Apply, Interpret, Complete",
+                    "Develop, Monitor, Act, Implement, Change",
+                    "Define, Measure, Analyze, Improve, Control"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Process",
                 "emoji": "🔄📊",
                 "question": "What is cycle time?",
                 "options": [
+                    "Monthly output",
                     "Daily work hours",
                     "Time to complete one unit",
-                    "Annual production",
-                    "Monthly output"
+                    "Annual production"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Inventory",
                 "emoji": "📦🏬",
                 "question": "What is inventory turnover ratio?",
                 "options": [
-                    "Inventory / Sales",
-                    "Revenue / Inventory",
+                    "COGS / Average inventory",
                     "Assets / Inventory",
-                    "COGS / Average inventory"
+                    "Revenue / Inventory",
+                    "Inventory / Sales"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Operations",
                 "emoji": "⚙️💼",
                 "question": "What is takt time?",
                 "options": [
-                    "Break time",
-                    "Available time / Customer demand",
                     "Setup time",
-                    "Production time"
+                    "Production time",
+                    "Break time",
+                    "Available time / Customer demand"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Quality",
                 "emoji": "✅⭐",
                 "question": "What is cost of quality?",
                 "options": [
-                    "Labor cost",
                     "Material cost",
                     "Production cost",
-                    "Prevention, appraisal, failure costs"
+                    "Prevention, appraisal, failure costs",
+                    "Labor cost"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Process",
@@ -1912,8 +1912,8 @@ const businessQuestions = {
                 "options": [
                     "Inventory software",
                     "Visual workflow management",
-                    "Quality tool",
-                    "HR system"
+                    "HR system",
+                    "Quality tool"
                 ],
                 "correct": 1
             },
@@ -1922,36 +1922,36 @@ const businessQuestions = {
                 "emoji": "📦📊",
                 "question": "What is ABC analysis?",
                 "options": [
-                    "Categorize inventory by value",
-                    "Color coding",
                     "Size classification",
-                    "Alphabetical sorting"
+                    "Alphabetical sorting",
+                    "Color coding",
+                    "Categorize inventory by value"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Operations",
                 "emoji": "⚙️🔧",
                 "question": "What is 5S methodology?",
                 "options": [
-                    "5 shifts",
                     "5 suppliers",
                     "Sort, Set, Shine, Standardize, Sustain",
-                    "5 supervisors"
+                    "5 supervisors",
+                    "5 shifts"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Quality",
                 "emoji": "✅📈",
                 "question": "What is poka-yoke?",
                 "options": [
-                    "Error-proofing",
                     "Quality badge",
+                    "Error-proofing",
                     "Inspection tool",
                     "Training method"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "extreme": [
@@ -2064,30 +2064,30 @@ const businessQuestions = {
                 "emoji": "🚚🔗",
                 "question": "Is suppliers provide materials?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Logistics",
                 "emoji": "🚛📊",
                 "question": "Is delivery time matters?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Procurement",
                 "emoji": "🛒💰",
                 "question": "Is buying in bulk saves money?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Warehouse",
@@ -2104,20 +2104,20 @@ const businessQuestions = {
                 "emoji": "🚚🌐",
                 "question": "Are global supply chains complex?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Logistics",
                 "emoji": "🚛⚡",
                 "question": "Is fast shipping valuable?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -2126,10 +2126,10 @@ const businessQuestions = {
                 "emoji": "🚚📦",
                 "question": "What is supply chain management?",
                 "options": [
-                    "Sales only",
-                    "Flow from supplier to customer"
+                    "Flow from supplier to customer",
+                    "Sales only"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Logistics",
@@ -2156,20 +2156,20 @@ const businessQuestions = {
                 "emoji": "🏭📦",
                 "question": "What is cross-docking?",
                 "options": [
-                    "Long-term storage",
-                    "Direct transfer without storage"
+                    "Direct transfer without storage",
+                    "Long-term storage"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Supply Chain",
                 "emoji": "🚚🔗",
                 "question": "What is vendor management?",
                 "options": [
-                    "Managing supplier relationships",
-                    "Ignoring suppliers"
+                    "Ignoring suppliers",
+                    "Managing supplier relationships"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Logistics",
@@ -2186,40 +2186,40 @@ const businessQuestions = {
                 "emoji": "🛒💰",
                 "question": "What does the acronym RFP stand for?",
                 "options": [
-                    "Request for Proposal",
-                    "Ready for Payment"
+                    "Ready for Payment",
+                    "Request for Proposal"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Warehouse",
                 "emoji": "🏭🔍",
                 "question": "What does the acronym WMS stand for?",
                 "options": [
-                    "Worker Management Service",
-                    "Warehouse Management System"
+                    "Warehouse Management System",
+                    "Worker Management Service"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Supply Chain",
                 "emoji": "🚚🌐",
                 "question": "What is supply chain visibility?",
                 "options": [
-                    "Track goods location",
-                    "Hide information"
+                    "Hide information",
+                    "Track goods location"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Logistics",
                 "emoji": "🚛⚡",
                 "question": "What is expedited shipping?",
                 "options": [
-                    "Slower delivery",
-                    "Faster delivery"
+                    "Faster delivery",
+                    "Slower delivery"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -2228,21 +2228,21 @@ const businessQuestions = {
                 "emoji": "🚚📦",
                 "question": "What is bullwhip effect?",
                 "options": [
-                    "No variation",
                     "Stable demand",
-                    "Demand amplification upstream"
+                    "Demand amplification upstream",
+                    "No variation"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Logistics",
                 "emoji": "🚛🌍",
                 "question": "What is intermodal transportation?",
                 "options": [
-                    "Multiple transport modes",
-                    "One mode only"
+                    "One mode only",
+                    "Multiple transport modes"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Procurement",
@@ -2259,30 +2259,30 @@ const businessQuestions = {
                 "emoji": "🏭📦",
                 "question": "What is pick-and-pack?",
                 "options": [
-                    "Storage method",
-                    "Order fulfillment process"
+                    "Order fulfillment process",
+                    "Storage method"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Supply Chain",
                 "emoji": "🚚🔗",
                 "question": "What is vertical integration?",
                 "options": [
-                    "Control multiple supply chain stages",
-                    "Outsource everything"
+                    "Outsource everything",
+                    "Control multiple supply chain stages"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Logistics",
                 "emoji": "🚛📊",
                 "question": "What is freight forwarding?",
                 "options": [
-                    "Coordinate shipments",
-                    "Direct shipping"
+                    "Direct shipping",
+                    "Coordinate shipments"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Procurement",
@@ -2309,20 +2309,20 @@ const businessQuestions = {
                 "emoji": "🚚🌐",
                 "question": "What is supply chain resilience?",
                 "options": [
-                    "Ability to recover from disruptions",
-                    "No disruptions"
+                    "No disruptions",
+                    "Ability to recover from disruptions"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Logistics",
                 "emoji": "🚛⚡",
                 "question": "What is reverse logistics?",
                 "options": [
-                    "Forward shipping",
-                    "Returns and recycling"
+                    "Returns and recycling",
+                    "Forward shipping"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -2331,22 +2331,22 @@ const businessQuestions = {
                 "emoji": "🚚📦",
                 "question": "What is the SCOR model?",
                 "options": [
-                    "Strategic Coordination Resource",
-                    "Standard Chain Order Review",
                     "Supply Cost Optimization Rate",
-                    "Supply Chain Operations Reference"
+                    "Standard Chain Order Review",
+                    "Supply Chain Operations Reference",
+                    "Strategic Coordination Resource"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Logistics",
                 "emoji": "🚛🌍",
                 "question": "What is typical logistics cost as % of sales?",
                 "options": [
-                    "90%",
+                    "5-10%",
                     "1%",
-                    "50%",
-                    "5-10%"
+                    "90%",
+                    "50%"
                 ],
                 "correct": 1
             },
@@ -2355,22 +2355,22 @@ const businessQuestions = {
                 "emoji": "🛒💼",
                 "question": "What is spend analysis?",
                 "options": [
-                    "Sales analysis",
                     "Profit calculation",
                     "Revenue tracking",
-                    "Analyze purchasing data"
+                    "Analyze purchasing data",
+                    "Sales analysis"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Warehouse",
                 "emoji": "🏭📦",
                 "question": "What is slotting optimization?",
                 "options": [
-                    "Alphabetical order",
+                    "Size sorting",
                     "Random storage",
-                    "Optimal product placement",
-                    "Size sorting"
+                    "Alphabetical order",
+                    "Optimal product placement"
                 ],
                 "correct": 1
             },
@@ -2380,33 +2380,33 @@ const businessQuestions = {
                 "question": "What is demand forecasting accuracy target?",
                 "options": [
                     "100%",
+                    "85-95%",
                     "50%",
-                    "10%",
-                    "85-95%"
+                    "10%"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Logistics",
                 "emoji": "🚛📊",
                 "question": "What is zone skipping?",
                 "options": [
-                    "Bypass distribution centers",
-                    "Area expansion",
                     "Zone charging",
+                    "Area expansion",
+                    "Bypass distribution centers",
                     "Skip deliveries"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Procurement",
                 "emoji": "🛒💰",
                 "question": "What is supplier scorecarding?",
                 "options": [
-                    "Pricing only",
-                    "No evaluation",
                     "Evaluate supplier performance",
-                    "Random selection"
+                    "No evaluation",
+                    "Random selection",
+                    "Pricing only"
                 ],
                 "correct": 1
             },
@@ -2416,9 +2416,9 @@ const businessQuestions = {
                 "question": "What is cycle counting?",
                 "options": [
                     "No counting",
-                    "Daily production",
                     "Annual count",
-                    "Continuous inventory audit"
+                    "Continuous inventory audit",
+                    "Daily production"
                 ],
                 "correct": 0
             },
@@ -2427,24 +2427,24 @@ const businessQuestions = {
                 "emoji": "🚚🌐",
                 "question": "What is supply chain digitalization?",
                 "options": [
-                    "Use of digital technologies",
-                    "No technology",
                     "Paper processes",
+                    "No technology",
+                    "Use of digital technologies",
                     "Manual only"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Logistics",
                 "emoji": "🚛⚡",
                 "question": "What is milk run logistics?",
                 "options": [
+                    "Random routes",
                     "Dairy delivery",
                     "One-time shipment",
-                    "Random routes",
                     "Regular route pickups"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -2517,10 +2517,10 @@ const businessQuestions = {
                 "emoji": "🎯📋",
                 "question": "Is strategy guides business direction?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Vision",
@@ -2547,35 +2547,25 @@ const businessQuestions = {
                 "emoji": "🏆📊",
                 "question": "Do goals should be specific?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Strategy",
                 "emoji": "🎯🗺️",
                 "question": "Is planning prevents problems?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Analysis",
                 "emoji": "📊🔍",
                 "question": "Does analysis help make decisions?",
-                "options": [
-                    "False",
-                    "True"
-                ],
-                "correct": 0
-            },
-            {
-                "topic": "Competition",
-                "emoji": "🏆⚔️",
-                "question": "Is competitors affect strategy?",
                 "options": [
                     "True",
                     "False"
@@ -2583,14 +2573,24 @@ const businessQuestions = {
                 "correct": 1
             },
             {
-                "topic": "Growth",
-                "emoji": "📈🚀",
-                "question": "Is growth strategies expand business?",
+                "topic": "Competition",
+                "emoji": "🏆⚔️",
+                "question": "Is competitors affect strategy?",
                 "options": [
                     "False",
                     "True"
                 ],
                 "correct": 0
+            },
+            {
+                "topic": "Growth",
+                "emoji": "📈🚀",
+                "question": "Is growth strategies expand business?",
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "correct": 1
             },
             {
                 "topic": "Strategy",
@@ -2607,10 +2607,10 @@ const businessQuestions = {
                 "emoji": "⚙️✅",
                 "question": "Is execution matters as much as planning?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -2619,50 +2619,50 @@ const businessQuestions = {
                 "emoji": "🎯📋",
                 "question": "What is strategic planning?",
                 "options": [
-                    "Daily operations",
-                    "Define long-term direction"
+                    "Define long-term direction",
+                    "Daily operations"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Vision",
                 "emoji": "🔮✨",
                 "question": "What is a vision statement?",
                 "options": [
-                    "Current state",
-                    "Future aspiration"
+                    "Future aspiration",
+                    "Current state"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mission",
                 "emoji": "🎯💼",
                 "question": "What is a mission statement?",
                 "options": [
-                    "Core purpose and values",
-                    "Product list"
+                    "Product list",
+                    "Core purpose and values"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Goals",
                 "emoji": "🏆📊",
                 "question": "What are SMART goals?",
                 "options": [
-                    "Simple goals",
-                    "Specific, Measurable, Achievable, Relevant, Time-bound"
+                    "Specific, Measurable, Achievable, Relevant, Time-bound",
+                    "Simple goals"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Strategy",
                 "emoji": "🎯🗺️",
                 "question": "What is strategic fit?",
                 "options": [
-                    "Alignment of strategy and resources",
-                    "Random plan"
+                    "Random plan",
+                    "Alignment of strategy and resources"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Analysis",
@@ -2679,10 +2679,10 @@ const businessQuestions = {
                 "emoji": "🏆⚔️",
                 "question": "What is competitive advantage?",
                 "options": [
-                    "Being average",
-                    "Superior position vs rivals"
+                    "Superior position vs rivals",
+                    "Being average"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Growth",
@@ -2709,10 +2709,10 @@ const businessQuestions = {
                 "emoji": "⚙️✅",
                 "question": "What is strategic execution?",
                 "options": [
-                    "Just planning",
-                    "Putting strategy into action"
+                    "Putting strategy into action",
+                    "Just planning"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -2721,21 +2721,21 @@ const businessQuestions = {
                 "emoji": "🎯📋",
                 "question": "What is Porter's Five Forces?",
                 "options": [
+                    "Marketing tool",
                     "Industry competition analysis",
-                    "Employee model",
-                    "Marketing tool"
+                    "Employee model"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Vision",
                 "emoji": "🔮✨",
                 "question": "What is strategic intent?",
                 "options": [
-                    "Ambitious long-term goal",
-                    "Short-term target"
+                    "Short-term target",
+                    "Ambitious long-term goal"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mission",
@@ -2762,20 +2762,20 @@ const businessQuestions = {
                 "emoji": "🎯🗺️",
                 "question": "What does blue ocean strategy aim to create?",
                 "options": [
-                    "Compete in existing market",
-                    "Create uncontested market"
+                    "Create uncontested market",
+                    "Compete in existing market"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Analysis",
                 "emoji": "📊🔍",
                 "question": "What is PESTEL analysis?",
                 "options": [
-                    "Political, Economic, Social, Tech, Environmental, Legal",
-                    "Product evaluation"
+                    "Product evaluation",
+                    "Political, Economic, Social, Tech, Environmental, Legal"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Competition",
@@ -2824,48 +2824,48 @@ const businessQuestions = {
                 "emoji": "🎯📋",
                 "question": "What is strategic drift?",
                 "options": [
-                    "Perfect alignment",
-                    "Strategy becomes outdated",
                     "No change",
-                    "Fast adaptation"
+                    "Fast adaptation",
+                    "Strategy becomes outdated",
+                    "Perfect alignment"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Vision",
                 "emoji": "🔮✨",
                 "question": "What does the acronym BHAG stand for?",
                 "options": [
+                    "Business Handling Annual Gains",
                     "Big Hairy Audacious Goal",
                     "Basic Health And Growth",
-                    "Business Handling Annual Gains",
                     "Brand Helping Achieve Growth"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Mission",
                 "emoji": "🎯💼",
                 "question": "What is core competency?",
                 "options": [
-                    "Unique organizational capability",
                     "Any skill",
                     "Basic function",
+                    "Unique organizational capability",
                     "No specialty"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Goals",
                 "emoji": "🏆📊",
                 "question": "What is OKR framework?",
                 "options": [
+                    "Overall Knowledge Review",
                     "Objectives and Key Results",
                     "Organized Knowledge Resources",
-                    "Overall Knowledge Review",
                     "Operational Key Ratios"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Strategy",
@@ -2873,23 +2873,23 @@ const businessQuestions = {
                 "question": "What is scenario planning?",
                 "options": [
                     "No planning",
+                    "Random approach",
                     "Single prediction",
-                    "Prepare for multiple futures",
-                    "Random approach"
+                    "Prepare for multiple futures"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Analysis",
                 "emoji": "📊🔍",
                 "question": "What is value chain analysis?",
                 "options": [
-                    "Revenue focus",
+                    "Examine activity value creation",
                     "Supply chain only",
                     "Cost cutting",
-                    "Examine activity value creation"
+                    "Revenue focus"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Competition",
@@ -2908,36 +2908,36 @@ const businessQuestions = {
                 "emoji": "📈🚀",
                 "question": "What is organic vs inorganic growth?",
                 "options": [
-                    "Food industry",
-                    "Natural products",
                     "Internal vs acquisition",
-                    "No difference"
+                    "No difference",
+                    "Natural products",
+                    "Food industry"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Strategy",
                 "emoji": "🎯💡",
                 "question": "What is strategic alliance?",
                 "options": [
-                    "Partnership for mutual benefit",
-                    "Acquisition",
                     "Competition",
+                    "Acquisition",
+                    "Partnership for mutual benefit",
                     "No relationship"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Implementation",
                 "emoji": "⚙️✅",
                 "question": "What percentage of strategies fail in execution?",
                 "options": [
-                    "0%",
                     "10%",
                     "~70%",
-                    "100%"
+                    "100%",
+                    "0%"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "extreme": [
@@ -3010,10 +3010,10 @@ const businessQuestions = {
                 "emoji": "⚖️💼",
                 "question": "Is ethics guide right and wrong?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Compliance",
@@ -3040,10 +3040,10 @@ const businessQuestions = {
                 "emoji": "🎯🌍",
                 "question": "Does businesses have social responsibility?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ethics",
@@ -3080,10 +3080,10 @@ const businessQuestions = {
                 "emoji": "💎✨",
                 "question": "Does integrity mean doing the right thing?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ethics",
@@ -3132,30 +3132,30 @@ const businessQuestions = {
                 "emoji": "🤝💚",
                 "question": "What is fiduciary duty?",
                 "options": [
-                    "Legal obligation to act in best interest",
-                    "No obligation"
+                    "No obligation",
+                    "Legal obligation to act in best interest"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Responsibility",
                 "emoji": "🎯🌍",
                 "question": "What does the acronym CSR stand for?",
                 "options": [
-                    "Corporate Social Responsibility",
-                    "Company Sales Report"
+                    "Company Sales Report",
+                    "Corporate Social Responsibility"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ethics",
                 "emoji": "⚖️🏢",
                 "question": "What is ethical dilemma?",
                 "options": [
-                    "Conflict between moral choices",
-                    "Easy decision"
+                    "Easy decision",
+                    "Conflict between moral choices"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Transparency",
@@ -3172,10 +3172,10 @@ const businessQuestions = {
                 "emoji": "⚖️👥",
                 "question": "What is equal opportunity?",
                 "options": [
-                    "Fair access for all",
-                    "Discrimination"
+                    "Discrimination",
+                    "Fair access for all"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Integrity",
@@ -3214,10 +3214,10 @@ const businessQuestions = {
                 "emoji": "⚖️💼",
                 "question": "What is stakeholder theory?",
                 "options": [
-                    "Shareholders only",
-                    "Consider all affected parties"
+                    "Consider all affected parties",
+                    "Shareholders only"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Compliance",
@@ -3244,20 +3244,20 @@ const businessQuestions = {
                 "emoji": "🎯🌍",
                 "question": "What is triple bottom line?",
                 "options": [
-                    "Profit only",
-                    "People, Planet, Profit"
+                    "People, Planet, Profit",
+                    "Profit only"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ethics",
                 "emoji": "⚖️🏢",
                 "question": "What is moral hazard?",
                 "options": [
-                    "Risk-taking without consequences",
-                    "Ethical behavior"
+                    "Ethical behavior",
+                    "Risk-taking without consequences"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Transparency",
@@ -3294,10 +3294,10 @@ const businessQuestions = {
                 "emoji": "⚖️📜",
                 "question": "What is ethical sourcing?",
                 "options": [
-                    "Any supplier",
-                    "Responsible procurement"
+                    "Responsible procurement",
+                    "Any supplier"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Accountability",
@@ -3316,45 +3316,45 @@ const businessQuestions = {
                 "emoji": "⚖️💼",
                 "question": "What is utilitarian ethics?",
                 "options": [
+                    "Virtue-based",
                     "Greatest good for greatest number",
-                    "Duty-based",
                     "Individual rights",
-                    "Virtue-based"
+                    "Duty-based"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Compliance",
                 "emoji": "📋✅",
                 "question": "What does the acronym FCPA stand for?",
                 "options": [
-                    "Federal Corporate Policy Act",
                     "Fair Competition Procedures Act",
-                    "Financial Compliance Protection Act",
-                    "Foreign Corrupt Practices Act"
+                    "Federal Corporate Policy Act",
+                    "Foreign Corrupt Practices Act",
+                    "Financial Compliance Protection Act"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Honesty",
                 "emoji": "🤝💚",
                 "question": "What is materiality in disclosure?",
                 "options": [
-                    "Information significance",
-                    "No importance",
                     "Physical assets",
-                    "Material goods"
+                    "Material goods",
+                    "No importance",
+                    "Information significance"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Responsibility",
                 "emoji": "🎯🌍",
                 "question": "What does the acronym ESG stand for?",
                 "options": [
-                    "Environmental, Social, Governance",
-                    "Earnings, Sales, Growth",
                     "Economic Strategy Guide",
+                    "Earnings, Sales, Growth",
+                    "Environmental, Social, Governance",
                     "Employee Safety Guidelines"
                 ],
                 "correct": 1
@@ -3364,10 +3364,10 @@ const businessQuestions = {
                 "emoji": "⚖️🏢",
                 "question": "What is ethical relativism?",
                 "options": [
-                    "Universal ethics",
+                    "No ethics",
                     "Absolute rules",
-                    "Ethics vary by culture",
-                    "No ethics"
+                    "Universal ethics",
+                    "Ethics vary by culture"
                 ],
                 "correct": 1
             },
@@ -3377,9 +3377,9 @@ const businessQuestions = {
                 "question": "What is audit independence?",
                 "options": [
                     "Auditor objectivity",
-                    "No audits",
                     "Audit dependence",
-                    "Biased review"
+                    "Biased review",
+                    "No audits"
                 ],
                 "correct": 0
             },
@@ -3388,10 +3388,10 @@ const businessQuestions = {
                 "emoji": "⚖️👥",
                 "question": "What is distributive justice?",
                 "options": [
-                    "No fairness",
+                    "Random allocation",
                     "Unequal distribution",
-                    "Fair allocation of resources",
-                    "Random allocation"
+                    "No fairness",
+                    "Fair allocation of resources"
                 ],
                 "correct": 1
             },
@@ -3401,9 +3401,9 @@ const businessQuestions = {
                 "question": "What is ethical climate?",
                 "options": [
                     "Organizational moral culture",
+                    "No culture",
                     "Physical environment",
-                    "Weather conditions",
-                    "No culture"
+                    "Weather conditions"
                 ],
                 "correct": 0
             },
@@ -3412,12 +3412,12 @@ const businessQuestions = {
                 "emoji": "⚖️📜",
                 "question": "What does the acronym greenwashing stand for?",
                 "options": [
-                    "No claims",
-                    "Cleaning service",
                     "Misleading environmental claims",
-                    "Eco-friendly practice"
+                    "Eco-friendly practice",
+                    "No claims",
+                    "Cleaning service"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Accountability",
@@ -3502,20 +3502,20 @@ const businessQuestions = {
                 "emoji": "💻🛒",
                 "question": "Is e-commerce online shopping?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Website",
                 "emoji": "🌐🏬",
                 "question": "Is websites sell products?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Payment",
@@ -3542,10 +3542,10 @@ const businessQuestions = {
                 "emoji": "💻📱",
                 "question": "Is mobile apps enable shopping?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Marketing",
@@ -3572,20 +3572,20 @@ const businessQuestions = {
                 "emoji": "🔒💻",
                 "question": "Is online security important?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Online",
                 "emoji": "💻🌍",
                 "question": "Is e-commerce global?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Convenience",
@@ -3614,30 +3614,30 @@ const businessQuestions = {
                 "emoji": "🌐🏬",
                 "question": "What is shopping cart?",
                 "options": [
-                    "Virtual basket for items",
-                    "Physical cart"
+                    "Physical cart",
+                    "Virtual basket for items"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Payment",
                 "emoji": "💳💰",
                 "question": "What is payment gateway?",
                 "options": [
-                    "Processes online payments",
-                    "Physical gate"
+                    "Physical gate",
+                    "Processes online payments"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Shipping",
                 "emoji": "📦🚚",
                 "question": "What does the acronym fulfillment stand for?",
                 "options": [
-                    "Cancel orders",
-                    "Process orders and ship"
+                    "Process orders and ship",
+                    "Cancel orders"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Online",
@@ -3694,10 +3694,10 @@ const businessQuestions = {
                 "emoji": "⏰🛒",
                 "question": "What is one-click checkout?",
                 "options": [
-                    "Fast purchase process",
-                    "Multiple steps"
+                    "Multiple steps",
+                    "Fast purchase process"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -3706,10 +3706,10 @@ const businessQuestions = {
                 "emoji": "💻🛒",
                 "question": "What is omnichannel retail?",
                 "options": [
-                    "Online only",
-                    "Integrated multi-channel"
+                    "Integrated multi-channel",
+                    "Online only"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Website",
@@ -3736,30 +3736,30 @@ const businessQuestions = {
                 "emoji": "📦🚚",
                 "question": "What is real-time inventory?",
                 "options": [
-                    "Live stock updates",
-                    "Monthly count"
+                    "Monthly count",
+                    "Live stock updates"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Online",
                 "emoji": "💻📱",
                 "question": "What is progressive web app?",
                 "options": [
-                    "Traditional website",
-                    "Web app like mobile app"
+                    "Web app like mobile app",
+                    "Traditional website"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Marketing",
                 "emoji": "📢💻",
                 "question": "What does the acronym retargeting stand for?",
                 "options": [
-                    "New customers only",
-                    "Show ads to previous visitors"
+                    "Show ads to previous visitors",
+                    "New customers only"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Customer",
@@ -3796,10 +3796,10 @@ const businessQuestions = {
                 "emoji": "⏰🛒",
                 "question": "What is subscription commerce?",
                 "options": [
-                    "One-time purchase",
-                    "Recurring automatic orders"
+                    "Recurring automatic orders",
+                    "One-time purchase"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -3808,22 +3808,22 @@ const businessQuestions = {
                 "emoji": "💻🛒",
                 "question": "What is typical e-commerce conversion rate?",
                 "options": [
-                    "90%",
                     "2-3%",
+                    "90%",
                     "50%",
                     "0.1%"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Website",
                 "emoji": "🌐🏬",
                 "question": "What is A/B testing?",
                 "options": [
-                    "Random change",
-                    "No testing",
                     "Compare two versions",
-                    "Single test"
+                    "No testing",
+                    "Single test",
+                    "Random change"
                 ],
                 "correct": 1
             },
@@ -3833,9 +3833,9 @@ const businessQuestions = {
                 "question": "What does the acronym chargeback stand for?",
                 "options": [
                     "Bonus",
-                    "Extra charge",
                     "Discount",
-                    "Reversed payment"
+                    "Reversed payment",
+                    "Extra charge"
                 ],
                 "correct": 0
             },
@@ -3845,23 +3845,23 @@ const businessQuestions = {
                 "question": "What is cross-border e-commerce challenge?",
                 "options": [
                     "Domestic shipping",
-                    "No issues",
                     "Customs and regulations",
-                    "Simple process"
+                    "Simple process",
+                    "No issues"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Online",
                 "emoji": "💻📱",
                 "question": "What percentage of e-commerce is mobile?",
                 "options": [
-                    "99%",
                     "~60-70%",
-                    "10%",
-                    "1%"
+                    "99%",
+                    "1%",
+                    "10%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Marketing",
@@ -3869,9 +3869,9 @@ const businessQuestions = {
                 "question": "What is CAC in e-commerce?",
                 "options": [
                     "Customer Account Center",
-                    "Computer Access Code",
+                    "Customer Acquisition Cost",
                     "Central Admin Console",
-                    "Customer Acquisition Cost"
+                    "Computer Access Code"
                 ],
                 "correct": 0
             },
@@ -3880,48 +3880,48 @@ const businessQuestions = {
                 "emoji": "👤⭐",
                 "question": "What is cart abandonment rate?",
                 "options": [
-                    "100%",
-                    "10%",
                     "~70% average",
-                    "0%"
+                    "0%",
+                    "100%",
+                    "10%"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Security",
                 "emoji": "🔒💻",
                 "question": "What does the acronym GDPR stand for?",
                 "options": [
-                    "Marketing tool",
-                    "Payment method",
                     "Shipping rule",
-                    "Data protection regulation"
+                    "Data protection regulation",
+                    "Payment method",
+                    "Marketing tool"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Online",
                 "emoji": "💻🌍",
                 "question": "What is headless commerce?",
                 "options": [
-                    "No interface",
                     "Traditional setup",
                     "Single system",
+                    "No interface",
                     "Separate frontend and backend"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Convenience",
                 "emoji": "⏰🛒",
                 "question": "What is average delivery expectation?",
                 "options": [
-                    "1 hour",
                     "1 year",
+                    "1 month",
                     "2-3 days",
-                    "1 month"
+                    "1 hour"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "extreme": [
@@ -4024,30 +4024,30 @@ const businessQuestions = {
                 "emoji": "🌏🤝",
                 "question": "Is culture affects business?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Global",
                 "emoji": "🌍🏢",
                 "question": "Is global companies operate worldwide?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Export",
                 "emoji": "📤🌐",
                 "question": "Are exports goods sold abroad?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Import",
@@ -4064,20 +4064,20 @@ const businessQuestions = {
                 "emoji": "🌐💹",
                 "question": "Is foreign markets offer opportunities?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Global",
                 "emoji": "🌍✈️",
                 "question": "Is travel connects global business?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Language",
@@ -4106,30 +4106,30 @@ const businessQuestions = {
                 "emoji": "🚢📦",
                 "question": "What is free trade?",
                 "options": [
-                    "Trade without barriers",
-                    "No trade allowed"
+                    "No trade allowed",
+                    "Trade without barriers"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Currency",
                 "emoji": "💱💵",
                 "question": "What is exchange rate?",
                 "options": [
-                    "Currency conversion value",
-                    "Interest rate"
+                    "Interest rate",
+                    "Currency conversion value"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Culture",
                 "emoji": "🌏🤝",
                 "question": "What is cultural intelligence?",
                 "options": [
-                    "Language skills only",
-                    "Ability to work across cultures"
+                    "Ability to work across cultures",
+                    "Language skills only"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Global",
@@ -4146,40 +4146,40 @@ const businessQuestions = {
                 "emoji": "📤🌐",
                 "question": "What is export subsidy?",
                 "options": [
-                    "Tax on exports",
-                    "Government support for exports"
+                    "Government support for exports",
+                    "Tax on exports"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Import",
                 "emoji": "📥🌍",
                 "question": "What does the acronym tariff stand for?",
                 "options": [
-                    "Import permission",
-                    "Tax on imports"
+                    "Tax on imports",
+                    "Import permission"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Market",
                 "emoji": "🌐💹",
                 "question": "What is market entry?",
                 "options": [
-                    "Entering foreign market",
-                    "Leaving market"
+                    "Leaving market",
+                    "Entering foreign market"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Global",
                 "emoji": "🌍✈️",
                 "question": "What does the acronym expatriate stand for?",
                 "options": [
-                    "Tourist",
-                    "Employee working abroad"
+                    "Employee working abroad",
+                    "Tourist"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Language",
@@ -4199,8 +4199,8 @@ const businessQuestions = {
                 "question": "What is GLOCAL strategy?",
                 "options": [
                     "Think global, act local",
-                    "Local only",
-                    "Global only"
+                    "Global only",
+                    "Local only"
                 ],
                 "correct": 0
             },
@@ -4209,22 +4209,22 @@ const businessQuestions = {
                 "emoji": "🚢📦",
                 "question": "What does the acronym WTO stand for?",
                 "options": [
-                    "World Trade Organization",
                     "World Tourism Office",
+                    "World Trade Organization",
                     "Worldwide Tax Office"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Currency",
                 "emoji": "💱💵",
                 "question": "What is currency hedging?",
                 "options": [
-                    "Protect against exchange rate risk",
+                    "No protection",
                     "Currency trading",
-                    "No protection"
+                    "Protect against exchange rate risk"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Culture",
@@ -4253,20 +4253,20 @@ const businessQuestions = {
                 "emoji": "📤🌐",
                 "question": "What is letter of credit?",
                 "options": [
+                    "Export license",
                     "Payment guarantee",
-                    "Trade agreement",
-                    "Export license"
+                    "Trade agreement"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Import",
                 "emoji": "📥🌍",
                 "question": "What does the acronym quota stand for?",
                 "options": [
-                    "Quality standard",
+                    "Price control",
                     "Import quantity limit",
-                    "Price control"
+                    "Quality standard"
                 ],
                 "correct": 1
             },
@@ -4286,22 +4286,22 @@ const businessQuestions = {
                 "emoji": "🌍✈️",
                 "question": "What does the acronym repatriation stand for?",
                 "options": [
-                    "Local hire",
+                    "Return employee to home country",
                     "Send abroad",
-                    "Return employee to home country"
+                    "Local hire"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Language",
                 "emoji": "🗣️🌏",
                 "question": "What does the acronym localization stand for?",
                 "options": [
-                    "Global standard",
                     "Adapt to local market",
-                    "No changes"
+                    "No changes",
+                    "Global standard"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -4310,48 +4310,48 @@ const businessQuestions = {
                 "emoji": "🌍💼",
                 "question": "What is Uppsala model?",
                 "options": [
-                    "Incremental internationalization",
                     "No growth",
+                    "Rapid expansion",
                     "Random approach",
-                    "Rapid expansion"
+                    "Incremental internationalization"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Trade",
                 "emoji": "🚢📦",
                 "question": "What percentage does international trade represent of global GDP?",
                 "options": [
-                    "100%",
                     "1%",
                     "~60%",
-                    "10%"
+                    "10%",
+                    "100%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Currency",
                 "emoji": "💱💵",
                 "question": "What is purchasing power parity?",
                 "options": [
-                    "No comparison",
                     "Fixed exchange rate",
+                    "No comparison",
                     "Interest rate",
                     "Compare currencies by buying power"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Culture",
                 "emoji": "🌏🤝",
                 "question": "What is high-context vs low-context culture?",
                 "options": [
+                    "Indirect vs direct communication",
                     "East vs West",
                     "Old vs new",
-                    "Indirect vs direct communication",
                     "Rich vs poor"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Global",
@@ -4359,33 +4359,33 @@ const businessQuestions = {
                 "question": "What does the acronym FDI stand for?",
                 "options": [
                     "Financial Debt Indicator",
+                    "Federal Department Index",
                     "Foreign Development Institute",
-                    "Foreign Direct Investment",
-                    "Federal Department Index"
+                    "Foreign Direct Investment"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Export",
                 "emoji": "📤🌐",
                 "question": "What does the acronym Incoterms stand for?",
                 "options": [
-                    "International trade terms",
-                    "Shipping times",
                     "Tax codes",
-                    "Currency rates"
+                    "Currency rates",
+                    "Shipping times",
+                    "International trade terms"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Import",
                 "emoji": "📥🌍",
                 "question": "What is non-tariff barrier?",
                 "options": [
-                    "Price control",
-                    "Regulations limiting imports",
                     "No barriers",
-                    "Tax only"
+                    "Regulations limiting imports",
+                    "Tax only",
+                    "Price control"
                 ],
                 "correct": 1
             },
@@ -4394,36 +4394,36 @@ const businessQuestions = {
                 "emoji": "🌐💹",
                 "question": "What is psychic distance?",
                 "options": [
-                    "Travel time",
+                    "Perceived cultural difference",
                     "Time zones",
                     "Physical distance",
-                    "Perceived cultural difference"
+                    "Travel time"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Global",
                 "emoji": "🌍✈️",
                 "question": "What is culture shock?",
                 "options": [
-                    "Quick adaptation",
                     "No change",
                     "Adjustment difficulty abroad",
-                    "Happy experience"
+                    "Happy experience",
+                    "Quick adaptation"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Language",
                 "emoji": "🗣️🌏",
                 "question": "What percentage of international business uses English?",
                 "options": [
-                    "~80%",
-                    "10%",
+                    "100%",
                     "5%",
-                    "100%"
+                    "~80%",
+                    "10%"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "extreme": [
@@ -4496,10 +4496,10 @@ const businessQuestions = {
                 "emoji": "⚖️📜",
                 "question": "Is laws regulate business?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Contract",
@@ -4516,10 +4516,10 @@ const businessQuestions = {
                 "emoji": "🏢📋",
                 "question": "Is intellectual property protects ideas?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Employment",
@@ -4566,20 +4566,20 @@ const businessQuestions = {
                 "emoji": "🛍️⚖️",
                 "question": "Is consumer protection laws exist?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Law",
                 "emoji": "⚖️🏛️",
                 "question": "Is courts resolve disputes?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Compliance",
@@ -4598,10 +4598,10 @@ const businessQuestions = {
                 "emoji": "⚖️📜",
                 "question": "What is commercial law?",
                 "options": [
-                    "Criminal law",
-                    "Law governing business"
+                    "Law governing business",
+                    "Criminal law"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Contract",
@@ -4628,40 +4628,40 @@ const businessQuestions = {
                 "emoji": "👥⚖️",
                 "question": "What is at-will employment?",
                 "options": [
-                    "Permanent job",
-                    "Can terminate anytime"
+                    "Can terminate anytime",
+                    "Permanent job"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Law",
                 "emoji": "⚖️💼",
                 "question": "What is tort law?",
                 "options": [
-                    "Criminal offenses",
-                    "Civil wrongs and damages"
+                    "Civil wrongs and damages",
+                    "Criminal offenses"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Liability",
                 "emoji": "🛡️⚠️",
                 "question": "What is limited liability?",
                 "options": [
-                    "Unlimited responsibility",
-                    "Personal assets protected"
+                    "Personal assets protected",
+                    "Unlimited responsibility"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Tax",
                 "emoji": "💰📊",
                 "question": "What is corporate tax?",
                 "options": [
-                    "Personal income tax",
-                    "Tax on company profits"
+                    "Tax on company profits",
+                    "Personal income tax"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Consumer",
@@ -4678,20 +4678,20 @@ const businessQuestions = {
                 "emoji": "⚖️🏛️",
                 "question": "What does the acronym arbitration stand for?",
                 "options": [
-                    "Court trial",
-                    "Alternative dispute resolution"
+                    "Alternative dispute resolution",
+                    "Court trial"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Compliance",
                 "emoji": "✅📋",
                 "question": "What is due diligence?",
                 "options": [
-                    "Investigation before transaction",
-                    "Random check"
+                    "Random check",
+                    "Investigation before transaction"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -4700,53 +4700,53 @@ const businessQuestions = {
                 "emoji": "⚖️📜",
                 "question": "What does the acronym UCC stand for?",
                 "options": [
-                    "Universal Credit Check",
                     "Uniform Commercial Code",
-                    "United Consumer Council"
+                    "United Consumer Council",
+                    "Universal Credit Check"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Contract",
                 "emoji": "📄🤝",
                 "question": "What is breach of contract?",
                 "options": [
-                    "Failure to perform obligations",
                     "Negotiate terms",
-                    "Sign contract"
+                    "Sign contract",
+                    "Failure to perform obligations"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Property",
                 "emoji": "🏢📋",
                 "question": "What is patent duration?",
                 "options": [
-                    "20 years",
                     "5 years",
+                    "20 years",
                     "Forever"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Employment",
                 "emoji": "👥⚖️",
                 "question": "What is wrongful termination?",
                 "options": [
-                    "Any firing",
                     "Retirement",
+                    "Any firing",
                     "Illegal firing"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Law",
                 "emoji": "⚖️💼",
                 "question": "What is vicarious liability?",
                 "options": [
-                    "Employer liable for employee acts",
+                    "Personal only",
                     "No liability",
-                    "Personal only"
+                    "Employer liable for employee acts"
                 ],
                 "correct": 1
             },
@@ -4755,11 +4755,11 @@ const businessQuestions = {
                 "emoji": "🛡️⚠️",
                 "question": "What is product liability?",
                 "options": [
+                    "No responsibility",
                     "Manufacturer responsibility for harm",
-                    "Consumer fault",
-                    "No responsibility"
+                    "Consumer fault"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Tax",
@@ -4778,8 +4778,8 @@ const businessQuestions = {
                 "question": "What is caveat emptor?",
                 "options": [
                     "No responsibility",
-                    "Seller beware",
-                    "Buyer beware"
+                    "Buyer beware",
+                    "Seller beware"
                 ],
                 "correct": 0
             },
@@ -4788,20 +4788,20 @@ const businessQuestions = {
                 "emoji": "⚖️🏛️",
                 "question": "What is class action lawsuit?",
                 "options": [
-                    "Individual lawsuit",
                     "Government suit",
-                    "Group sues together"
+                    "Group sues together",
+                    "Individual lawsuit"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Compliance",
                 "emoji": "✅📋",
                 "question": "What does the acronym SEC stand for?",
                 "options": [
-                    "Sales Efficiency Code",
+                    "Securities Exchange Commission",
                     "Standard Employment Contract",
-                    "Securities Exchange Commission"
+                    "Sales Efficiency Code"
                 ],
                 "correct": 1
             }
@@ -4812,36 +4812,36 @@ const businessQuestions = {
                 "emoji": "⚖️📜",
                 "question": "What is piercing the corporate veil?",
                 "options": [
-                    "Corporate protection",
-                    "Hold owners personally liable",
+                    "Tax benefit",
                     "No consequences",
-                    "Tax benefit"
+                    "Hold owners personally liable",
+                    "Corporate protection"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Contract",
                 "emoji": "📄🤝",
                 "question": "What is statute of frauds?",
                 "options": [
-                    "Certain contracts must be written",
                     "Fraud prevention",
-                    "No requirements",
-                    "All oral"
+                    "All oral",
+                    "Certain contracts must be written",
+                    "No requirements"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Property",
                 "emoji": "🏢📋",
                 "question": "What is fair use doctrine?",
                 "options": [
-                    "Limited use of copyrighted work",
                     "Complete ban",
-                    "No limits",
-                    "Free access"
+                    "Free access",
+                    "Limited use of copyrighted work",
+                    "No limits"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Employment",
@@ -4849,35 +4849,35 @@ const businessQuestions = {
                 "question": "What does the acronym EEOC stand for?",
                 "options": [
                     "Ethical Employment Operations Center",
+                    "Employee Expense Oversight Committee",
                     "Executive Employee Organization Council",
-                    "Equal Employment Opportunity Commission",
-                    "Employee Expense Oversight Committee"
+                    "Equal Employment Opportunity Commission"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Law",
                 "emoji": "⚖️💼",
                 "question": "What is force majeure?",
                 "options": [
-                    "Unforeseeable circumstances excuse",
-                    "Contract void",
                     "No excuse",
-                    "Breach allowed"
+                    "Unforeseeable circumstances excuse",
+                    "Breach allowed",
+                    "Contract void"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Liability",
                 "emoji": "🛡️⚠️",
                 "question": "What is strict liability?",
                 "options": [
-                    "No liability",
-                    "Liable regardless of fault",
                     "Need proof of negligence",
-                    "Conditional"
+                    "Liable regardless of fault",
+                    "Conditional",
+                    "No liability"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Tax",
@@ -4885,11 +4885,11 @@ const businessQuestions = {
                 "question": "What is transfer pricing?",
                 "options": [
                     "Pricing between related entities",
-                    "Customer pricing",
+                    "No pricing",
                     "Retail price",
-                    "No pricing"
+                    "Customer pricing"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Consumer",
@@ -4908,24 +4908,24 @@ const businessQuestions = {
                 "emoji": "⚖️🏛️",
                 "question": "What is statute of limitations?",
                 "options": [
-                    "Court backlog",
-                    "Crime severity",
                     "Time limit to file lawsuit",
-                    "No limit"
+                    "Court backlog",
+                    "No limit",
+                    "Crime severity"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Compliance",
                 "emoji": "✅📋",
                 "question": "What is insider trading?",
                 "options": [
-                    "Illegal trading on non-public info",
-                    "No restriction",
                     "Legal trading",
-                    "Day trading"
+                    "Illegal trading on non-public info",
+                    "Day trading",
+                    "No restriction"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "extreme": [
@@ -5028,10 +5028,10 @@ const businessQuestions = {
                 "emoji": "💰📊",
                 "question": "Is projects need budgets?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Schedule",
@@ -5058,10 +5058,10 @@ const businessQuestions = {
                 "emoji": "⚠️🛡️",
                 "question": "Do risks can affect projects?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Quality",
@@ -5110,10 +5110,10 @@ const businessQuestions = {
                 "emoji": "📋✏️",
                 "question": "What is project scope?",
                 "options": [
-                    "Work included in project",
-                    "Project cost"
+                    "Project cost",
+                    "Work included in project"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Team",
@@ -5140,20 +5140,20 @@ const businessQuestions = {
                 "emoji": "📅⏰",
                 "question": "What does the acronym milestone stand for?",
                 "options": [
-                    "Final deadline",
-                    "Key project checkpoint"
+                    "Key project checkpoint",
+                    "Final deadline"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Goals",
                 "emoji": "🎯✅",
                 "question": "What are deliverables?",
                 "options": [
-                    "Input resources",
-                    "Project outputs"
+                    "Project outputs",
+                    "Input resources"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Risk",
@@ -5190,10 +5190,10 @@ const businessQuestions = {
                 "emoji": "🏁✅",
                 "question": "What is project closure?",
                 "options": [
-                    "Formal project end",
-                    "Abandon project"
+                    "Abandon project",
+                    "Formal project end"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -5213,41 +5213,41 @@ const businessQuestions = {
                 "emoji": "📋✏️",
                 "question": "What does the acronym WBS stand for?",
                 "options": [
+                    "Work Breakdown Structure",
                     "Workflow Basic System",
-                    "Weekly Business Summary",
-                    "Work Breakdown Structure"
+                    "Weekly Business Summary"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Team",
                 "emoji": "👥🤝",
                 "question": "What is RACI matrix?",
                 "options": [
-                    "Resource Allocation Chart",
-                    "Responsible, Accountable, Consulted, Informed"
+                    "Responsible, Accountable, Consulted, Informed",
+                    "Resource Allocation Chart"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Budget",
                 "emoji": "💰📊",
                 "question": "What is earned value management?",
                 "options": [
-                    "Project performance measurement",
                     "Salary calculation",
+                    "Project performance measurement",
                     "Revenue tracking"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Schedule",
                 "emoji": "📅⏰",
                 "question": "What is critical path?",
                 "options": [
-                    "Most important tasks",
+                    "Shortest route",
                     "Longest task sequence",
-                    "Shortest route"
+                    "Most important tasks"
                 ],
                 "correct": 1
             },
@@ -5256,11 +5256,11 @@ const businessQuestions = {
                 "emoji": "🎯✅",
                 "question": "What is project charter?",
                 "options": [
-                    "Project authorization document",
                     "Budget report",
+                    "Project authorization document",
                     "Team roster"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Risk",
@@ -5278,22 +5278,22 @@ const businessQuestions = {
                 "emoji": "✨🔍",
                 "question": "What is quality control?",
                 "options": [
-                    "Prevent defects",
                     "No checking",
+                    "Prevent defects",
                     "Monitor specific results"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Communication",
                 "emoji": "💬📢",
                 "question": "What is status report?",
                 "options": [
-                    "Final report",
                     "Budget request",
-                    "Project progress update"
+                    "Project progress update",
+                    "Final report"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Completion",
@@ -5314,9 +5314,9 @@ const businessQuestions = {
                 "question": "What does the acronym PMI stand for?",
                 "options": [
                     "Personnel Management Integration",
-                    "Public Market Index",
                     "Primary Management Indicator",
-                    "Project Management Institute"
+                    "Project Management Institute",
+                    "Public Market Index"
                 ],
                 "correct": 0
             },
@@ -5325,108 +5325,108 @@ const businessQuestions = {
                 "emoji": "📋✏️",
                 "question": "What is rolling wave planning?",
                 "options": [
-                    "Detailed near-term, high-level long-term",
                     "Random approach",
                     "No planning",
+                    "Detailed near-term, high-level long-term",
                     "All detailed upfront"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Team",
                 "emoji": "👥🤝",
                 "question": "What is Tuckman team development stages?",
                 "options": [
-                    "Forming, Storming, Norming, Performing",
+                    "Start, Middle, End",
                     "Plan, Execute, Close",
                     "Hire, Train, Work",
-                    "Start, Middle, End"
+                    "Forming, Storming, Norming, Performing"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Budget",
                 "emoji": "💰📊",
                 "question": "What is typical project management overhead cost?",
                 "options": [
-                    "90%",
                     "10-20%",
+                    "90%",
                     "50%",
                     "1%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Schedule",
                 "emoji": "📅⏰",
                 "question": "What is fast tracking?",
                 "options": [
-                    "Overlap sequential activities",
-                    "Add resources",
                     "Reduce scope",
-                    "Extend timeline"
+                    "Overlap sequential activities",
+                    "Extend timeline",
+                    "Add resources"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Goals",
                 "emoji": "🎯✅",
                 "question": "What is scope creep?",
                 "options": [
-                    "Scope reduction",
                     "Uncontrolled project expansion",
                     "Fast completion",
-                    "No changes"
+                    "No changes",
+                    "Scope reduction"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Risk",
                 "emoji": "⚠️🛡️",
                 "question": "What is Monte Carlo simulation?",
                 "options": [
-                    "Risk analysis technique",
                     "No analysis",
-                    "Gambling method",
-                    "Simple guess"
+                    "Risk analysis technique",
+                    "Simple guess",
+                    "Gambling method"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Quality",
                 "emoji": "✨🔍",
                 "question": "What is Six Sigma in project management?",
                 "options": [
-                    "Team building",
-                    "Cost cutting",
                     "Quality improvement methodology",
+                    "Cost cutting",
+                    "Team building",
                     "Time management"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Communication",
                 "emoji": "💬📢",
                 "question": "What percentage of PM time is communication?",
                 "options": [
-                    "50%",
                     "~90%",
-                    "0%",
-                    "10%"
+                    "50%",
+                    "10%",
+                    "0%"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Completion",
                 "emoji": "🏁✅",
                 "question": "What is project success rate industry average?",
                 "options": [
-                    "~35%",
                     "5%",
+                    "90%",
                     "100%",
-                    "90%"
+                    "~35%"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "extreme": [
@@ -5499,10 +5499,10 @@ const businessQuestions = {
                 "emoji": "💰🤝",
                 "question": "Is sales generate revenue?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Customer",
@@ -5519,10 +5519,10 @@ const businessQuestions = {
                 "emoji": "🔍👥",
                 "question": "Is finding new customers important?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Negotiation",
@@ -5549,40 +5549,40 @@ const businessQuestions = {
                 "emoji": "🤝❤️",
                 "question": "Is building relationships increases sales?",
                 "options": [
-                    "False",
-                    "True"
-                ],
-                "correct": 0
-            },
-            {
-                "topic": "Product",
-                "emoji": "📦💡",
-                "question": "Is product knowledge helps sell?",
-                "options": [
                     "True",
                     "False"
                 ],
                 "correct": 1
             },
             {
+                "topic": "Product",
+                "emoji": "📦💡",
+                "question": "Is product knowledge helps sell?",
+                "options": [
+                    "False",
+                    "True"
+                ],
+                "correct": 0
+            },
+            {
                 "topic": "Follow-up",
                 "emoji": "📞✅",
                 "question": "Is following up important?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sales",
                 "emoji": "💰🎯",
                 "question": "Does closing deals require skill?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Pipeline",
@@ -5601,20 +5601,20 @@ const businessQuestions = {
                 "emoji": "💰🤝",
                 "question": "What is sales cycle?",
                 "options": [
-                    "One meeting",
-                    "Steps from prospect to close"
+                    "Steps from prospect to close",
+                    "One meeting"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Customer",
                 "emoji": "👤💼",
                 "question": "What is lead qualification?",
                 "options": [
-                    "Reject all leads",
-                    "Assess prospect potential"
+                    "Assess prospect potential",
+                    "Reject all leads"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Prospecting",
@@ -5641,20 +5641,20 @@ const businessQuestions = {
                 "emoji": "💰📊",
                 "question": "What is sales quota?",
                 "options": [
-                    "Minimum price",
-                    "Target sales amount"
+                    "Target sales amount",
+                    "Minimum price"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Relationship",
                 "emoji": "🤝❤️",
                 "question": "What is account management?",
                 "options": [
-                    "Open accounts",
-                    "Maintain customer relationships"
+                    "Maintain customer relationships",
+                    "Open accounts"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Product",
@@ -5691,10 +5691,10 @@ const businessQuestions = {
                 "emoji": "🔄📈",
                 "question": "What is sales funnel?",
                 "options": [
-                    "Stages from awareness to purchase",
-                    "Marketing only"
+                    "Marketing only",
+                    "Stages from awareness to purchase"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -5704,9 +5704,9 @@ const businessQuestions = {
                 "question": "What is SPIN selling?",
                 "options": [
                     "Situation, Problem, Implication, Need-payoff",
+                    "No questions",
                     "Fast pitch",
-                    "Price focus",
-                    "No questions"
+                    "Price focus"
                 ],
                 "correct": 0
             },
@@ -5716,98 +5716,98 @@ const businessQuestions = {
                 "question": "What is BANT framework?",
                 "options": [
                     "Random criteria",
-                    "Price, Product, Place",
-                    "Budget, Authority, Need, Timeline"
+                    "Budget, Authority, Need, Timeline",
+                    "Price, Product, Place"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Prospecting",
                 "emoji": "🔍👥",
                 "question": "What is social selling?",
                 "options": [
-                    "No technology",
                     "In-person only",
-                    "Use social media for sales"
+                    "Use social media for sales",
+                    "No technology"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Negotiation",
                 "emoji": "🤝💬",
                 "question": "What does the acronym BATNA stand for?",
                 "options": [
-                    "Best Alternative To Negotiated Agreement",
                     "Basic Tactics",
+                    "Best Alternative To Negotiated Agreement",
                     "Beginning Approach"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sales",
                 "emoji": "💰📊",
                 "question": "What is sales velocity?",
                 "options": [
+                    "Price point",
                     "Speed of deals through pipeline",
-                    "Sales volume",
-                    "Price point"
+                    "Sales volume"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Relationship",
                 "emoji": "🤝❤️",
                 "question": "What does customer lifetime value measure?",
                 "options": [
-                    "One year",
                     "Total revenue from customer",
-                    "First purchase"
+                    "First purchase",
+                    "One year"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Product",
                 "emoji": "📦💡",
                 "question": "What is solution selling?",
                 "options": [
-                    "Solve customer problems",
                     "Price-based",
-                    "Product features only"
+                    "Product features only",
+                    "Solve customer problems"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Follow-up",
                 "emoji": "📞✅",
                 "question": "What is nurture campaign?",
                 "options": [
+                    "One-time contact",
                     "Ongoing prospect engagement",
-                    "No follow-up",
-                    "One-time contact"
+                    "No follow-up"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sales",
                 "emoji": "💰🎯",
                 "question": "What is trial close?",
                 "options": [
-                    "Test readiness to buy",
                     "Opening",
-                    "Final close"
+                    "Final close",
+                    "Test readiness to buy"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Pipeline",
                 "emoji": "🔄📈",
                 "question": "What is pipeline coverage ratio?",
                 "options": [
-                    "Number of deals",
                     "Conversion rate",
+                    "Number of deals",
                     "Pipeline value vs quota"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -5817,9 +5817,9 @@ const businessQuestions = {
                 "question": "What is typical B2B sales cycle length?",
                 "options": [
                     "3-6 months",
+                    "1 week",
                     "5 years",
-                    "1 day",
-                    "1 week"
+                    "1 day"
                 ],
                 "correct": 0
             },
@@ -5828,72 +5828,72 @@ const businessQuestions = {
                 "emoji": "👤💼",
                 "question": "What is lead-to-customer conversion rate average?",
                 "options": [
-                    "90%",
-                    "2-5%",
                     "50%",
-                    "0.1%"
+                    "0.1%",
+                    "90%",
+                    "2-5%"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Prospecting",
                 "emoji": "🔍👥",
                 "question": "What is SQL vs MQL?",
                 "options": [
-                    "Random terms",
-                    "Sales vs Marketing Qualified Lead",
                     "No difference",
-                    "Same thing"
+                    "Same thing",
+                    "Random terms",
+                    "Sales vs Marketing Qualified Lead"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Negotiation",
                 "emoji": "🤝💬",
                 "question": "What is anchoring in negotiation?",
                 "options": [
-                    "No strategy",
                     "Set initial reference point",
-                    "Final offer",
-                    "Random price"
+                    "Random price",
+                    "No strategy",
+                    "Final offer"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sales",
                 "emoji": "💰📊",
                 "question": "What is typical sales commission rate?",
                 "options": [
-                    "50%",
                     "100%",
+                    "1%",
                     "5-15%",
-                    "1%"
+                    "50%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Relationship",
                 "emoji": "🤝❤️",
                 "question": "What does the acronym NPS stand for?",
                 "options": [
-                    "National Pricing Standard",
-                    "Net Promoter Score",
+                    "New Product Sales",
                     "Next Phase Strategy",
-                    "New Product Sales"
+                    "National Pricing Standard",
+                    "Net Promoter Score"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Product",
                 "emoji": "📦💡",
                 "question": "What is feature vs benefit?",
                 "options": [
-                    "Same thing",
                     "What it does vs why it matters",
                     "Random terms",
-                    "No difference"
+                    "No difference",
+                    "Same thing"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Follow-up",
@@ -5901,9 +5901,9 @@ const businessQuestions = {
                 "question": "What is optimal follow-up frequency?",
                 "options": [
                     "Every 3-7 days",
-                    "Never",
+                    "Daily",
                     "Monthly",
-                    "Daily"
+                    "Never"
                 ],
                 "correct": 0
             },
@@ -5912,24 +5912,24 @@ const businessQuestions = {
                 "emoji": "💰🎯",
                 "question": "What percentage of reps hit quota?",
                 "options": [
-                    "5%",
-                    "100%",
                     "~50-60%",
-                    "0%"
+                    "0%",
+                    "5%",
+                    "100%"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Pipeline",
                 "emoji": "🔄📈",
                 "question": "What is ideal pipeline coverage?",
                 "options": [
+                    "3-5x quota",
                     "1x",
                     "0.5x",
-                    "20x",
-                    "3-5x quota"
+                    "20x"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -6002,10 +6002,10 @@ const businessQuestions = {
                 "emoji": "💁‍♀️😊",
                 "question": "Is customer service helps customers?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Support",
@@ -6022,10 +6022,10 @@ const businessQuestions = {
                 "emoji": "😊⭐",
                 "question": "Are happy customers important?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Communication",
@@ -6062,10 +6062,10 @@ const businessQuestions = {
                 "emoji": "😠➡️😊",
                 "question": "Do complaints should be handled well?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Loyalty",
@@ -6082,20 +6082,20 @@ const businessQuestions = {
                 "emoji": "💁‍♀️✅",
                 "question": "Is training improves service quality?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Feedback",
                 "emoji": "📝💭",
                 "question": "Is customer feedback valuable?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -6104,40 +6104,40 @@ const businessQuestions = {
                 "emoji": "💁‍♀️😊",
                 "question": "What is customer service?",
                 "options": [
-                    "Support before, during, after purchase",
-                    "Selling only"
+                    "Selling only",
+                    "Support before, during, after purchase"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Support",
                 "emoji": "🛠️💬",
                 "question": "What is ticketing system?",
                 "options": [
-                    "Track customer issues",
-                    "Payment system"
+                    "Payment system",
+                    "Track customer issues"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Satisfaction",
                 "emoji": "😊⭐",
                 "question": "What does the acronym CSAT stand for?",
                 "options": [
-                    "Complete Sales Tracking",
-                    "Customer Satisfaction Score"
+                    "Customer Satisfaction Score",
+                    "Complete Sales Tracking"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Communication",
                 "emoji": "💬📞",
                 "question": "What is omnichannel support?",
                 "options": [
-                    "Multiple integrated channels",
-                    "One channel only"
+                    "One channel only",
+                    "Multiple integrated channels"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Service",
@@ -6164,10 +6164,10 @@ const businessQuestions = {
                 "emoji": "😠➡️😊",
                 "question": "What is service recovery?",
                 "options": [
-                    "Ignore issues",
-                    "Fix problems and restore satisfaction"
+                    "Fix problems and restore satisfaction",
+                    "Ignore issues"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Loyalty",
@@ -6206,20 +6206,20 @@ const businessQuestions = {
                 "emoji": "💁‍♀️😊",
                 "question": "What is customer experience (CX)?",
                 "options": [
+                    "Single interaction",
                     "Total journey with company",
-                    "Product only",
-                    "Single interaction"
+                    "Product only"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Support",
                 "emoji": "🛠️💬",
                 "question": "What is self-service portal?",
                 "options": [
-                    "Customers find answers themselves",
+                    "Agent required",
                     "No support",
-                    "Agent required"
+                    "Customers find answers themselves"
                 ],
                 "correct": 1
             },
@@ -6228,20 +6228,20 @@ const businessQuestions = {
                 "emoji": "😊⭐",
                 "question": "What does the acronym CES stand for?",
                 "options": [
-                    "Customer Effort Score",
                     "Complete Engagement System",
-                    "Central Evaluation Standard"
+                    "Central Evaluation Standard",
+                    "Customer Effort Score"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Communication",
                 "emoji": "💬📞",
                 "question": "What is empathy in service?",
                 "options": [
-                    "Understand customer feelings",
+                    "No emotion",
                     "Indifference",
-                    "No emotion"
+                    "Understand customer feelings"
                 ],
                 "correct": 1
             },
@@ -6250,9 +6250,9 @@ const businessQuestions = {
                 "emoji": "💁‍♀️🤝",
                 "question": "What is customer-centric culture?",
                 "options": [
-                    "Profit only",
+                    "Product focus",
                     "Put customer first in all decisions",
-                    "Product focus"
+                    "Profit only"
                 ],
                 "correct": 1
             },
@@ -6272,11 +6272,11 @@ const businessQuestions = {
                 "emoji": "😠➡️😊",
                 "question": "What is complaint escalation?",
                 "options": [
-                    "Move issue to higher level",
                     "Close ticket",
-                    "Ignore problem"
+                    "Ignore problem",
+                    "Move issue to higher level"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Loyalty",
@@ -6319,8 +6319,8 @@ const businessQuestions = {
                 "question": "What is typical customer service cost per contact?",
                 "options": [
                     "$500",
-                    "$5-15",
                     "$1",
+                    "$5-15",
                     "$100"
                 ],
                 "correct": 0
@@ -6330,45 +6330,45 @@ const businessQuestions = {
                 "emoji": "🛠️💬",
                 "question": "What is first contact resolution rate target?",
                 "options": [
-                    "100%",
-                    "10%",
+                    "5%",
                     "70-80%",
-                    "5%"
+                    "100%",
+                    "10%"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Satisfaction",
                 "emoji": "😊⭐",
                 "question": "What CSAT score is considered good?",
                 "options": [
+                    "50%",
                     "20%",
                     "80%+",
-                    "100%",
-                    "50%"
+                    "100%"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Communication",
                 "emoji": "💬📞",
                 "question": "What percentage of communication is non-verbal?",
                 "options": [
-                    "~70%",
                     "0%",
+                    "~70%",
                     "100%",
                     "10%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Service",
                 "emoji": "💁‍♀️🤝",
                 "question": "What is the service profit chain?",
                 "options": [
-                    "Profit focus only",
-                    "Link employee satisfaction to profit",
                     "Random theory",
+                    "Link employee satisfaction to profit",
+                    "Profit focus only",
                     "No connection"
                 ],
                 "correct": 1
@@ -6378,12 +6378,12 @@ const businessQuestions = {
                 "emoji": "⚡💬",
                 "question": "What is expected email response time?",
                 "options": [
-                    "Never",
-                    "5 minutes",
                     "24 hours",
-                    "1 month"
+                    "1 month",
+                    "Never",
+                    "5 minutes"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Complaint",
@@ -6402,24 +6402,24 @@ const businessQuestions = {
                 "emoji": "❤️🔄",
                 "question": "What does it cost to acquire vs retain?",
                 "options": [
-                    "5-7x more to acquire",
+                    "No difference",
                     "Same cost",
                     "Cheaper to acquire",
-                    "No difference"
+                    "5-7x more to acquire"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Service",
                 "emoji": "💁‍♀️✅",
                 "question": "What is AI chatbot resolution rate?",
                 "options": [
-                    "100%",
-                    "5%",
                     "60-80%",
-                    "0%"
+                    "5%",
+                    "0%",
+                    "100%"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Feedback",
@@ -6427,11 +6427,11 @@ const businessQuestions = {
                 "question": "What NPS score is considered excellent?",
                 "options": [
                     "100",
+                    "70+",
                     "0",
-                    "10",
-                    "70+"
+                    "10"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -6504,20 +6504,20 @@ const businessQuestions = {
                 "emoji": "💡🚀",
                 "question": "Is innovation creates new things?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Research",
                 "emoji": "🔬📊",
                 "question": "Is research discovers knowledge?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Development",
@@ -6554,20 +6554,20 @@ const businessQuestions = {
                 "emoji": "🔧💻",
                 "question": "Is technology enables innovation?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Patents",
                 "emoji": "📜🔒",
                 "question": "Is patents protect inventions?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Testing",
@@ -6584,20 +6584,20 @@ const businessQuestions = {
                 "emoji": "💡🌟",
                 "question": "Does innovation require investment?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Improvement",
                 "emoji": "📈🔄",
                 "question": "Is continuous improvement matters?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -6606,10 +6606,10 @@ const businessQuestions = {
                 "emoji": "💡🚀",
                 "question": "What does the acronym innovation stand for?",
                 "options": [
-                    "New or improved product/process",
-                    "Same as before"
+                    "Same as before",
+                    "New or improved product/process"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Research",
@@ -6646,20 +6646,20 @@ const businessQuestions = {
                 "emoji": "💡✨",
                 "question": "What does disruptive innovation do?",
                 "options": [
-                    "Incremental change",
-                    "Create new market"
+                    "Create new market",
+                    "Incremental change"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Technology",
                 "emoji": "🔧💻",
                 "question": "What is technology transfer?",
                 "options": [
-                    "Keep secret",
-                    "Share tech between entities"
+                    "Share tech between entities",
+                    "Keep secret"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Patents",
@@ -6676,30 +6676,30 @@ const businessQuestions = {
                 "emoji": "🧪✅",
                 "question": "What does the acronym prototype stand for?",
                 "options": [
-                    "Early model for testing",
-                    "Final product"
+                    "Final product",
+                    "Early model for testing"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Innovation",
                 "emoji": "💡🌟",
                 "question": "What is innovation pipeline?",
                 "options": [
-                    "One project",
-                    "Flow of ideas to market"
+                    "Flow of ideas to market",
+                    "One project"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Improvement",
                 "emoji": "📈🔄",
                 "question": "What is continuous improvement?",
                 "options": [
-                    "One-time change",
-                    "Ongoing enhancement"
+                    "Ongoing enhancement",
+                    "One-time change"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -6708,22 +6708,22 @@ const businessQuestions = {
                 "emoji": "💡🚀",
                 "question": "What is open innovation?",
                 "options": [
-                    "No collaboration",
                     "Collaborate with external partners",
+                    "No collaboration",
                     "Internal only"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Research",
                 "emoji": "🔬📊",
                 "question": "What is basic vs applied research?",
                 "options": [
+                    "Theory vs practical application",
                     "No difference",
-                    "Same thing",
-                    "Theory vs practical application"
+                    "Same thing"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Development",
@@ -6741,9 +6741,9 @@ const businessQuestions = {
                 "emoji": "🎨💭",
                 "question": "What is design thinking?",
                 "options": [
-                    "No method",
+                    "User-centered problem solving",
                     "Art design",
-                    "User-centered problem solving"
+                    "No method"
                 ],
                 "correct": 1
             },
@@ -6752,22 +6752,22 @@ const businessQuestions = {
                 "emoji": "💡✨",
                 "question": "What is technology readiness level?",
                 "options": [
-                    "Scale of tech maturity",
                     "No scale",
-                    "Price level"
+                    "Price level",
+                    "Scale of tech maturity"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Technology",
                 "emoji": "🔧💻",
                 "question": "What is proof of concept?",
                 "options": [
-                    "Demonstrate feasibility",
+                    "No testing",
                     "Final product",
-                    "No testing"
+                    "Demonstrate feasibility"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Patents",
@@ -6775,43 +6775,43 @@ const businessQuestions = {
                 "question": "What is prior art?",
                 "options": [
                     "Existing knowledge before patent",
-                    "No relevance",
-                    "New invention"
+                    "New invention",
+                    "No relevance"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Testing",
                 "emoji": "🧪✅",
                 "question": "What is A/B testing in innovation?",
                 "options": [
-                    "Single test",
+                    "Compare two versions",
                     "No testing",
-                    "Compare two versions"
+                    "Single test"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Innovation",
                 "emoji": "💡🌟",
                 "question": "What is minimum viable product?",
                 "options": [
-                    "Basic version to test market",
                     "No product",
-                    "Perfect product"
+                    "Perfect product",
+                    "Basic version to test market"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Improvement",
                 "emoji": "📈🔄",
                 "question": "What is innovation funnel?",
                 "options": [
+                    "All ideas succeed",
                     "No filtering",
-                    "Filter many ideas to few products",
-                    "All ideas succeed"
+                    "Filter many ideas to few products"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -6820,48 +6820,48 @@ const businessQuestions = {
                 "emoji": "💡🚀",
                 "question": "What percentage of innovations fail?",
                 "options": [
-                    "50%",
+                    "0%",
                     "~90%",
                     "10%",
-                    "0%"
+                    "50%"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Research",
                 "emoji": "🔬📊",
                 "question": "What is typical R&D spending as % of revenue?",
                 "options": [
+                    "1%",
                     "50%",
                     "100%",
-                    "3-15%",
-                    "1%"
+                    "3-15%"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Development",
                 "emoji": "⚙️🏗️",
                 "question": "What is time-to-market?",
                 "options": [
-                    "No time limit",
-                    "Idea to launch duration",
+                    "Random",
                     "Market hours",
-                    "Random"
+                    "Idea to launch duration",
+                    "No time limit"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Creativity",
                 "emoji": "🎨💭",
                 "question": "What is lateral thinking?",
                 "options": [
-                    "Linear approach",
-                    "Random thoughts",
                     "No thinking",
-                    "Solve problems indirectly"
+                    "Solve problems indirectly",
+                    "Random thoughts",
+                    "Linear approach"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Innovation",
@@ -6869,23 +6869,23 @@ const businessQuestions = {
                 "question": "What is the diffusion of innovation curve?",
                 "options": [
                     "No pattern",
-                    "Everyone at once",
+                    "Random adoption",
                     "Innovators, Early adopters, Majority, Laggards",
-                    "Random adoption"
+                    "Everyone at once"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Technology",
                 "emoji": "🔧💻",
                 "question": "What is technology S-curve?",
                 "options": [
-                    "No pattern",
                     "Decline only",
-                    "Performance improvement over time",
-                    "Linear growth"
+                    "Linear growth",
+                    "No pattern",
+                    "Performance improvement over time"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Patents",
@@ -6893,23 +6893,23 @@ const businessQuestions = {
                 "question": "What is patent litigation cost?",
                 "options": [
                     "$100M",
-                    "$1-5M average",
                     "$100",
+                    "$1-5M average",
                     "$50K"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Testing",
                 "emoji": "🧪✅",
                 "question": "What is beta testing?",
                 "options": [
-                    "Real users test pre-release",
-                    "Post-launch",
                     "No testing",
-                    "Internal only"
+                    "Post-launch",
+                    "Internal only",
+                    "Real users test pre-release"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Innovation",
@@ -6917,8 +6917,8 @@ const businessQuestions = {
                 "question": "What is innovation accounting?",
                 "options": [
                     "No measurement",
-                    "Regular accounting",
                     "Measure innovation progress",
+                    "Regular accounting",
                     "Random"
                 ],
                 "correct": 0
@@ -6928,12 +6928,12 @@ const businessQuestions = {
                 "emoji": "📈🔄",
                 "question": "What is the 70-20-10 innovation rule?",
                 "options": [
-                    "All core",
-                    "Core, Adjacent, Transformational",
                     "Equal split",
-                    "Random"
+                    "Random",
+                    "Core, Adjacent, Transformational",
+                    "All core"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -7006,10 +7006,10 @@ const businessQuestions = {
                 "emoji": "📊💾",
                 "question": "Is data provides information?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Analytics",
@@ -7026,10 +7026,10 @@ const businessQuestions = {
                 "emoji": "📏📊",
                 "question": "Is metrics measure performance?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Reports",
@@ -7046,20 +7046,20 @@ const businessQuestions = {
                 "emoji": "📊💻",
                 "question": "Does data help make decisions?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Visualization",
                 "emoji": "📊📉",
                 "question": "Is charts visualize data?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Trends",
@@ -7076,20 +7076,20 @@ const businessQuestions = {
                 "emoji": "💡📊",
                 "question": "Is insights drive actions?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Data",
                 "emoji": "📊🔢",
                 "question": "Is numbers tell stories?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Analysis",
@@ -7108,10 +7108,10 @@ const businessQuestions = {
                 "emoji": "📊💾",
                 "question": "What is big data?",
                 "options": [
-                    "Large complex datasets",
-                    "Small files"
+                    "Small files",
+                    "Large complex datasets"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Analytics",
@@ -7138,10 +7138,10 @@ const businessQuestions = {
                 "emoji": "📄📊",
                 "question": "What does the acronym dashboard stand for?",
                 "options": [
-                    "Visual data display",
-                    "Steering wheel"
+                    "Steering wheel",
+                    "Visual data display"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Data",
@@ -7158,10 +7158,10 @@ const businessQuestions = {
                 "emoji": "📊📉",
                 "question": "What is data visualization?",
                 "options": [
-                    "Graphical representation",
-                    "Text only"
+                    "Text only",
+                    "Graphical representation"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Trends",
@@ -7198,10 +7198,10 @@ const businessQuestions = {
                 "emoji": "🔍📊",
                 "question": "What does the acronym correlation stand for?",
                 "options": [
-                    "No connection",
-                    "Relationship between variables"
+                    "Relationship between variables",
+                    "No connection"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -7211,8 +7211,8 @@ const businessQuestions = {
                 "question": "What are the 5 Vs of big data?",
                 "options": [
                     "Five databases",
-                    "Five charts",
-                    "Volume, Velocity, Variety, Veracity, Value"
+                    "Volume, Velocity, Variety, Veracity, Value",
+                    "Five charts"
                 ],
                 "correct": 0
             },
@@ -7233,8 +7233,8 @@ const businessQuestions = {
                 "question": "What is North Star metric?",
                 "options": [
                     "Random metric",
-                    "All metrics",
-                    "Single key success measure"
+                    "Single key success measure",
+                    "All metrics"
                 ],
                 "correct": 0
             },
@@ -7243,9 +7243,9 @@ const businessQuestions = {
                 "emoji": "📄📊",
                 "question": "What is real-time reporting?",
                 "options": [
-                    "Monthly reports",
+                    "Live data updates",
                     "No updates",
-                    "Live data updates"
+                    "Monthly reports"
                 ],
                 "correct": 1
             },
@@ -7265,11 +7265,11 @@ const businessQuestions = {
                 "emoji": "📊📉",
                 "question": "What is heat map?",
                 "options": [
-                    "Location map",
                     "Temperature chart",
-                    "Color-coded data matrix"
+                    "Color-coded data matrix",
+                    "Location map"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Trends",
@@ -7287,11 +7287,11 @@ const businessQuestions = {
                 "emoji": "💡📊",
                 "question": "What is prescriptive analytics?",
                 "options": [
-                    "No recommendation",
                     "Describe past",
+                    "No recommendation",
                     "Recommend actions"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Data",
@@ -7310,10 +7310,10 @@ const businessQuestions = {
                 "question": "What is cohort analysis?",
                 "options": [
                     "Compare groups over time",
-                    "Single group",
-                    "No comparison"
+                    "No comparison",
+                    "Single group"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -7334,36 +7334,36 @@ const businessQuestions = {
                 "emoji": "📈🔍",
                 "question": "What is the CRISP-DM process?",
                 "options": [
-                    "Critical Response Plan",
                     "Computer Research Process",
                     "Customer Relations System",
+                    "Critical Response Plan",
                     "Cross Industry Standard Process for Data Mining"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Metrics",
                 "emoji": "📏📊",
                 "question": "What is vanity metric?",
                 "options": [
-                    "Important metric",
                     "No value",
-                    "Looks good but not actionable",
-                    "Revenue metric"
+                    "Revenue metric",
+                    "Important metric",
+                    "Looks good but not actionable"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Reports",
                 "emoji": "📄📊",
                 "question": "What percentage of data is never analyzed?",
                 "options": [
-                    "100%",
                     "~80%",
+                    "100%",
                     "50%",
                     "0%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Data",
@@ -7371,47 +7371,47 @@ const businessQuestions = {
                 "question": "What is machine learning?",
                 "options": [
                     "No learning",
-                    "Algorithms learn from data",
                     "Manual programming",
-                    "Random results"
+                    "Random results",
+                    "Algorithms learn from data"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Visualization",
                 "emoji": "📊📉",
                 "question": "What is Tufte data-ink ratio?",
                 "options": [
+                    "Chart size",
                     "Color count",
                     "Proportion of ink showing data",
-                    "Chart size",
                     "Random ratio"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Trends",
                 "emoji": "📈⬆️",
                 "question": "What is regression analysis?",
                 "options": [
-                    "No analysis",
-                    "Going backward",
                     "Random",
-                    "Relationships between variables"
+                    "Relationships between variables",
+                    "Going backward",
+                    "No analysis"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Insights",
                 "emoji": "💡📊",
                 "question": "What is A/B test significance level?",
                 "options": [
-                    "100%",
                     "50%",
-                    "95% confidence",
-                    "10%"
+                    "100%",
+                    "10%",
+                    "95% confidence"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Data",
@@ -7430,12 +7430,12 @@ const businessQuestions = {
                 "emoji": "🔍📊",
                 "question": "What is statistical significance?",
                 "options": [
+                    "Any result",
                     "Important finding",
                     "Result unlikely due to chance",
-                    "Any result",
                     "Random"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -7528,50 +7528,50 @@ const businessQuestions = {
                 "emoji": "🤖⚙️",
                 "question": "Is automation improves efficiency?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Mobile",
                 "emoji": "📱💼",
                 "question": "Is mobile enables work anywhere?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Digital",
                 "emoji": "💻📈",
                 "question": "Is digital transformation improves efficiency?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "AI",
                 "emoji": "🤖🧠",
                 "question": "Is aI assists decision-making?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Data",
                 "emoji": "📊💾",
                 "question": "Is data drives digital business?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Integration",
@@ -7588,10 +7588,10 @@ const businessQuestions = {
                 "emoji": "💻🌐",
                 "question": "Is digital reaches more customers?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Change",
@@ -7620,10 +7620,10 @@ const businessQuestions = {
                 "emoji": "☁️💾",
                 "question": "What does the acronym SaaS stand for?",
                 "options": [
-                    "Software as a Service",
-                    "Storage and Secure"
+                    "Storage and Secure",
+                    "Software as a Service"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Automation",
@@ -7640,70 +7640,70 @@ const businessQuestions = {
                 "emoji": "📱💼",
                 "question": "What is mobile-first design?",
                 "options": [
-                    "Prioritize mobile experience",
-                    "Desktop only"
+                    "Desktop only",
+                    "Prioritize mobile experience"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Digital",
                 "emoji": "💻📈",
                 "question": "What is digital maturity?",
                 "options": [
-                    "Level of digital adoption",
-                    "Age of company"
+                    "Age of company",
+                    "Level of digital adoption"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "AI",
                 "emoji": "🤖🧠",
                 "question": "What is artificial intelligence?",
                 "options": [
-                    "Human intelligence",
-                    "Machine intelligence"
+                    "Machine intelligence",
+                    "Human intelligence"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Data",
                 "emoji": "📊💾",
                 "question": "What is data-driven decision making?",
                 "options": [
-                    "Gut feeling only",
-                    "Use data for decisions"
+                    "Use data for decisions",
+                    "Gut feeling only"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Integration",
                 "emoji": "🔗💻",
                 "question": "What does the acronym API stand for?",
                 "options": [
-                    "Advanced Program Integration",
-                    "Application Programming Interface"
+                    "Application Programming Interface",
+                    "Advanced Program Integration"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Digital",
                 "emoji": "💻🌐",
                 "question": "What is omnichannel experience?",
                 "options": [
-                    "One channel",
-                    "Seamless multi-channel experience"
+                    "Seamless multi-channel experience",
+                    "One channel"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Change",
                 "emoji": "🔄✨",
                 "question": "What is change resistance?",
                 "options": [
-                    "Accept everything",
-                    "Opposition to change"
+                    "Opposition to change",
+                    "Accept everything"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -7735,8 +7735,8 @@ const businessQuestions = {
                 "question": "What is intelligent automation?",
                 "options": [
                     "No intelligence",
-                    "AI plus automation",
-                    "Simple scripts"
+                    "Simple scripts",
+                    "AI plus automation"
                 ],
                 "correct": 0
             },
@@ -7745,9 +7745,9 @@ const businessQuestions = {
                 "emoji": "📱💼",
                 "question": "What does the acronym PWA stand for?",
                 "options": [
-                    "Public Wireless Access",
+                    "Progressive Web App",
                     "Private Work Area",
-                    "Progressive Web App"
+                    "Public Wireless Access"
                 ],
                 "correct": 1
             },
@@ -7767,11 +7767,11 @@ const businessQuestions = {
                 "emoji": "🤖🧠",
                 "question": "What is machine learning in business?",
                 "options": [
-                    "AI learns from data",
+                    "Fixed programming",
                     "No learning",
-                    "Fixed programming"
+                    "AI learns from data"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Data",
@@ -7789,22 +7789,22 @@ const businessQuestions = {
                 "emoji": "🔗💻",
                 "question": "What is microservices architecture?",
                 "options": [
-                    "Small independent services",
+                    "No services",
                     "Monolithic system",
-                    "No services"
+                    "Small independent services"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Digital",
                 "emoji": "💻🌐",
                 "question": "What is customer data platform?",
                 "options": [
-                    "Unified customer data",
                     "Separate databases",
+                    "Unified customer data",
                     "No platform"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Change",
@@ -7824,36 +7824,36 @@ const businessQuestions = {
                 "emoji": "💻🔄",
                 "question": "What percentage of digital transformations succeed?",
                 "options": [
-                    "100%",
+                    "~30%",
                     "5%",
                     "90%",
-                    "~30%"
+                    "100%"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Cloud",
                 "emoji": "☁️💾",
                 "question": "What is typical cloud cost savings?",
                 "options": [
-                    "100%",
-                    "90%",
+                    "0%",
                     "15-30%",
-                    "0%"
+                    "100%",
+                    "90%"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Automation",
                 "emoji": "🤖⚙️",
                 "question": "What percentage of jobs are automatable?",
                 "options": [
+                    "~30-50%",
                     "5%",
                     "100%",
-                    "~30-50%",
                     "0%"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Mobile",
@@ -7861,21 +7861,21 @@ const businessQuestions = {
                 "question": "What percentage of web traffic is mobile?",
                 "options": [
                     "~60%",
-                    "100%",
                     "0%",
-                    "5%"
+                    "5%",
+                    "100%"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Digital",
                 "emoji": "💻📈",
                 "question": "What is the IoT device count by 2030?",
                 "options": [
-                    "100",
+                    "~50 billion",
                     "1 trillion",
-                    "1 million",
-                    "~50 billion"
+                    "100",
+                    "1 million"
                 ],
                 "correct": 1
             },
@@ -7884,60 +7884,60 @@ const businessQuestions = {
                 "emoji": "🤖🧠",
                 "question": "What is typical AI project failure rate?",
                 "options": [
-                    "50%",
                     "~85%",
                     "5%",
+                    "50%",
                     "0%"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Data",
                 "emoji": "📊💾",
                 "question": "What is data mesh?",
                 "options": [
-                    "Centralized only",
                     "Decentralized data architecture",
-                    "No architecture",
-                    "Random structure"
+                    "Centralized only",
+                    "Random structure",
+                    "No architecture"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Integration",
                 "emoji": "🔗💻",
                 "question": "What is API-first design?",
                 "options": [
-                    "No APIs",
                     "Random order",
+                    "No APIs",
                     "UI first",
                     "Build APIs before interfaces"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Digital",
                 "emoji": "💻🌐",
                 "question": "What is headless architecture?",
                 "options": [
-                    "No architecture",
-                    "Integrated",
                     "Separate front and backend",
-                    "Random"
+                    "Random",
+                    "Integrated",
+                    "No architecture"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Change",
                 "emoji": "🔄✨",
                 "question": "What is Kotter 8-step change model?",
                 "options": [
-                    "Change management framework",
-                    "No model",
                     "Dance move",
-                    "Random steps"
+                    "Random steps",
+                    "Change management framework",
+                    "No model"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "extreme": [
@@ -8010,10 +8010,10 @@ const businessQuestions = {
                 "emoji": "👔🌟",
                 "question": "Is leaders guide teams?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Vision",
@@ -8050,20 +8050,20 @@ const businessQuestions = {
                 "emoji": "👔💡",
                 "question": "Leadership can be learned?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Trust",
                 "emoji": "🤝💚",
                 "question": "Is trust essential for leadership?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Decision",
@@ -8090,10 +8090,10 @@ const businessQuestions = {
                 "emoji": "👔🚀",
                 "question": "Is leaders drive change?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Example",
@@ -8112,40 +8112,40 @@ const businessQuestions = {
                 "emoji": "👔🌟",
                 "question": "What does the acronym leadership stand for?",
                 "options": [
-                    "Just title",
-                    "Influence and guide others"
+                    "Influence and guide others",
+                    "Just title"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Vision",
                 "emoji": "🔮👁️",
                 "question": "What is strategic vision?",
                 "options": [
-                    "Past achievements",
-                    "Future direction"
+                    "Future direction",
+                    "Past achievements"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Motivation",
                 "emoji": "💪🎯",
                 "question": "What is intrinsic motivation?",
                 "options": [
-                    "External rewards",
-                    "Internal drive"
+                    "Internal drive",
+                    "External rewards"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Communication",
                 "emoji": "💬👥",
                 "question": "What is active listening in leadership?",
                 "options": [
-                    "Wait to talk",
-                    "Fully engage and understand"
+                    "Fully engage and understand",
+                    "Wait to talk"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Leadership",
@@ -8162,30 +8162,30 @@ const businessQuestions = {
                 "emoji": "🤝💚",
                 "question": "What builds trust?",
                 "options": [
-                    "Empty promises",
-                    "Consistency and honesty"
+                    "Consistency and honesty",
+                    "Empty promises"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Decision",
                 "emoji": "🎯✅",
                 "question": "What is data-driven leadership?",
                 "options": [
-                    "Gut feeling only",
-                    "Base decisions on data"
+                    "Base decisions on data",
+                    "Gut feeling only"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Delegation",
                 "emoji": "📋👥",
                 "question": "What is effective delegation?",
                 "options": [
-                    "Assign tasks with authority",
-                    "Do everything"
+                    "Do everything",
+                    "Assign tasks with authority"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Leadership",
@@ -8226,41 +8226,41 @@ const businessQuestions = {
                 "question": "What is BHAG in leadership?",
                 "options": [
                     "No vision",
-                    "Basic Goal",
-                    "Big Hairy Audacious Goal"
+                    "Big Hairy Audacious Goal",
+                    "Basic Goal"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Motivation",
                 "emoji": "💪🎯",
                 "question": "What is Maslow hierarchy?",
                 "options": [
-                    "Needs pyramid",
                     "Flat structure",
+                    "Needs pyramid",
                     "No hierarchy"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Communication",
                 "emoji": "💬👥",
                 "question": "What is transparent communication?",
                 "options": [
-                    "Partial truth",
                     "Open honest sharing",
+                    "Partial truth",
                     "Hide information"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Leadership",
                 "emoji": "👔💡",
                 "question": "What are the 5 EI competencies?",
                 "options": [
-                    "No competencies",
+                    "Self-awareness, Self-regulation, Motivation, Empathy, Social skills",
                     "Random traits",
-                    "Self-awareness, Self-regulation, Motivation, Empathy, Social skills"
+                    "No competencies"
                 ],
                 "correct": 1
             },
@@ -8269,11 +8269,11 @@ const businessQuestions = {
                 "emoji": "🤝💚",
                 "question": "What is psychological safety?",
                 "options": [
+                    "Feel safe to take risks",
                     "No safety",
-                    "Physical safety",
-                    "Feel safe to take risks"
+                    "Physical safety"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Decision",
@@ -8281,10 +8281,10 @@ const businessQuestions = {
                 "question": "What is decision paralysis?",
                 "options": [
                     "No decisions needed",
-                    "Unable to decide",
-                    "Fast decisions"
+                    "Fast decisions",
+                    "Unable to decide"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Delegation",
@@ -8302,11 +8302,11 @@ const businessQuestions = {
                 "emoji": "👔🚀",
                 "question": "What is authentic leadership?",
                 "options": [
-                    "Fake persona",
+                    "No authenticity",
                     "Genuine and true to values",
-                    "No authenticity"
+                    "Fake persona"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Example",
@@ -8314,10 +8314,10 @@ const businessQuestions = {
                 "question": "What is leading from front vs behind?",
                 "options": [
                     "Same thing",
-                    "Direct vs support style",
-                    "No difference"
+                    "No difference",
+                    "Direct vs support style"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -8328,8 +8328,8 @@ const businessQuestions = {
                 "options": [
                     "100% innate",
                     "50-50",
-                    "0% learned",
-                    "~70-80% learned"
+                    "~70-80% learned",
+                    "0% learned"
                 ],
                 "correct": 0
             },
@@ -8339,35 +8339,35 @@ const businessQuestions = {
                 "question": "What is Jim Collins Level 5 leadership?",
                 "options": [
                     "Humility plus will",
-                    "Random theory",
                     "No levels",
-                    "Just confidence"
+                    "Just confidence",
+                    "Random theory"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Motivation",
                 "emoji": "💪🎯",
                 "question": "What is Herzberg two-factor theory?",
                 "options": [
+                    "No theory",
                     "One factor",
                     "Random",
-                    "Hygiene and motivators",
-                    "No theory"
+                    "Hygiene and motivators"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Communication",
                 "emoji": "💬👥",
                 "question": "What percentage of communication is body language?",
                 "options": [
-                    "5%",
                     "0%",
+                    "5%",
                     "~55%",
                     "100%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Leadership",
@@ -8386,12 +8386,12 @@ const businessQuestions = {
                 "emoji": "🤝💚",
                 "question": "What is the trust equation?",
                 "options": [
+                    "Credibility+Reliability+Intimacy/Self-orientation",
                     "No equation",
-                    "Random formula",
                     "Trust = time",
-                    "Credibility+Reliability+Intimacy/Self-orientation"
+                    "Random formula"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Decision",
@@ -8399,47 +8399,47 @@ const businessQuestions = {
                 "question": "What is the OODA loop?",
                 "options": [
                     "Random acronym",
-                    "Observe, Orient, Decide, Act",
                     "Single step",
+                    "Observe, Orient, Decide, Act",
                     "No loop"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Delegation",
                 "emoji": "📋👥",
                 "question": "What is the delegation ladder?",
                 "options": [
-                    "Random",
-                    "Levels of authority",
                     "Climbing tool",
-                    "No levels"
+                    "No levels",
+                    "Random",
+                    "Levels of authority"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Leadership",
                 "emoji": "👔🚀",
                 "question": "What is the leadership pipeline?",
                 "options": [
-                    "Random",
                     "Single leader",
-                    "Develop leaders at all levels",
-                    "No development"
+                    "Random",
+                    "No development",
+                    "Develop leaders at all levels"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Example",
                 "emoji": "⭐👤",
                 "question": "What percentage of employees leave due to bad leaders?",
                 "options": [
-                    "100%",
-                    "0%",
                     "~50%",
-                    "5%"
+                    "5%",
+                    "0%",
+                    "100%"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -8512,10 +8512,10 @@ const businessQuestions = {
                 "emoji": "🔄💼",
                 "question": "Is change constant in business?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Resistance",
@@ -8542,10 +8542,10 @@ const businessQuestions = {
                 "emoji": "💬📢",
                 "question": "Is communication reduces fear?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Change",
@@ -8572,20 +8572,20 @@ const businessQuestions = {
                 "emoji": "👔🔄",
                 "question": "Is leaders facilitate change?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Culture",
                 "emoji": "🌟🔄",
                 "question": "Is culture affects change success?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Change",
@@ -8624,80 +8624,80 @@ const businessQuestions = {
                 "emoji": "🚫😟",
                 "question": "What causes change resistance?",
                 "options": [
-                    "Fear and uncertainty",
-                    "Excitement"
+                    "Excitement",
+                    "Fear and uncertainty"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Planning",
                 "emoji": "📋🔄",
                 "question": "What is change roadmap?",
                 "options": [
-                    "Plan for implementing change",
-                    "Random approach"
+                    "Random approach",
+                    "Plan for implementing change"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Communication",
                 "emoji": "💬📢",
                 "question": "What is change narrative?",
                 "options": [
-                    "Story explaining why change",
-                    "Silent approach"
+                    "Silent approach",
+                    "Story explaining why change"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Change",
                 "emoji": "🔄✨",
                 "question": "What is incremental change?",
                 "options": [
-                    "Small gradual changes",
-                    "Radical shift"
+                    "Radical shift",
+                    "Small gradual changes"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Training",
                 "emoji": "📚👨‍🎓",
                 "question": "What is change readiness?",
                 "options": [
-                    "Resistance",
-                    "Ability to adapt"
+                    "Ability to adapt",
+                    "Resistance"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Leadership",
                 "emoji": "👔🔄",
                 "question": "What is change champion?",
                 "options": [
-                    "Leader promoting change",
-                    "Opponent"
+                    "Opponent",
+                    "Leader promoting change"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Culture",
                 "emoji": "🌟🔄",
                 "question": "What is change-friendly culture?",
                 "options": [
-                    "Embraces adaptation",
-                    "Resists everything"
+                    "Resists everything",
+                    "Embraces adaptation"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Change",
                 "emoji": "🔄⏰",
                 "question": "What is transition period?",
                 "options": [
-                    "Instant change",
-                    "Time to adjust"
+                    "Time to adjust",
+                    "Instant change"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Support",
@@ -8716,20 +8716,20 @@ const businessQuestions = {
                 "emoji": "🔄💼",
                 "question": "What is Kotter change model?",
                 "options": [
-                    "Random steps",
+                    "8 steps from urgency to sustain",
                     "No model",
-                    "8 steps from urgency to sustain"
+                    "Random steps"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Resistance",
                 "emoji": "🚫😟",
                 "question": "What is ADKAR model?",
                 "options": [
-                    "Random acronym",
+                    "No model",
                     "Awareness, Desire, Knowledge, Ability, Reinforcement",
-                    "No model"
+                    "Random acronym"
                 ],
                 "correct": 1
             },
@@ -8738,11 +8738,11 @@ const businessQuestions = {
                 "emoji": "📋🔄",
                 "question": "What is force field analysis?",
                 "options": [
-                    "Identify driving and restraining forces",
                     "No analysis",
-                    "Random analysis"
+                    "Random analysis",
+                    "Identify driving and restraining forces"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Communication",
@@ -8750,41 +8750,41 @@ const businessQuestions = {
                 "question": "What is two-way communication in change?",
                 "options": [
                     "One-way only",
-                    "No communication",
-                    "Listen and respond"
+                    "Listen and respond",
+                    "No communication"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Change",
                 "emoji": "🔄✨",
                 "question": "What is transformational change?",
                 "options": [
-                    "No change",
                     "Minor tweak",
+                    "No change",
                     "Fundamental organizational shift"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Training",
                 "emoji": "📚👨‍🎓",
                 "question": "What is capability building?",
                 "options": [
-                    "Random training",
                     "No development",
-                    "Develop skills for new state"
+                    "Develop skills for new state",
+                    "Random training"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Leadership",
                 "emoji": "👔🔄",
                 "question": "What is coalition building?",
                 "options": [
-                    "Form group to drive change",
+                    "No team",
                     "Work alone",
-                    "No team"
+                    "Form group to drive change"
                 ],
                 "correct": 1
             },
@@ -8793,31 +8793,31 @@ const businessQuestions = {
                 "emoji": "🌟🔄",
                 "question": "What is cultural transformation?",
                 "options": [
+                    "Shift values and behaviors",
                     "Surface change",
-                    "No shift",
-                    "Shift values and behaviors"
+                    "No shift"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Change",
                 "emoji": "🔄⏰",
                 "question": "What is change saturation?",
                 "options": [
-                    "No changes",
+                    "Too many changes at once",
                     "Perfect amount",
-                    "Too many changes at once"
+                    "No changes"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Support",
                 "emoji": "🤝💪",
                 "question": "What is transition management?",
                 "options": [
-                    "Guide people through change",
+                    "Ignore feelings",
                     "Force change",
-                    "Ignore feelings"
+                    "Guide people through change"
                 ],
                 "correct": 1
             }
@@ -8828,22 +8828,22 @@ const businessQuestions = {
                 "emoji": "🔄💼",
                 "question": "What percentage of change initiatives fail?",
                 "options": [
-                    "~70%",
-                    "0%",
                     "100%",
-                    "10%"
+                    "10%",
+                    "0%",
+                    "~70%"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Resistance",
                 "emoji": "🚫😟",
                 "question": "What is the change curve?",
                 "options": [
-                    "Random",
-                    "Emotional journey through change",
                     "Straight line",
-                    "No pattern"
+                    "Emotional journey through change",
+                    "No pattern",
+                    "Random"
                 ],
                 "correct": 1
             },
@@ -8852,12 +8852,12 @@ const businessQuestions = {
                 "emoji": "📋🔄",
                 "question": "What is McKinsey 7-S framework?",
                 "options": [
-                    "7 elements of organization",
                     "No framework",
-                    "Random number",
-                    "Single factor"
+                    "Single factor",
+                    "7 elements of organization",
+                    "Random number"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Communication",
@@ -8876,36 +8876,36 @@ const businessQuestions = {
                 "emoji": "🔄✨",
                 "question": "What is the tipping point in change?",
                 "options": [
+                    "End point",
                     "Starting point",
                     "Random",
-                    "End point",
                     "Critical mass of adoption"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Training",
                 "emoji": "📚👨‍🎓",
                 "question": "What is the learning model for change?",
                 "options": [
+                    "70% experience, 20% others, 10% formal",
                     "No learning",
-                    "Random",
                     "All classroom",
-                    "70% experience, 20% others, 10% formal"
+                    "Random"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Leadership",
                 "emoji": "👔🔄",
                 "question": "What is sponsorship in change?",
                 "options": [
-                    "Financial only",
                     "No involvement",
                     "Active visible executive support",
+                    "Financial only",
                     "Random"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Culture",
@@ -8913,9 +8913,9 @@ const businessQuestions = {
                 "question": "What is Schein culture model?",
                 "options": [
                     "Single layer",
+                    "No model",
                     "Artifacts, Values, Assumptions",
-                    "Random",
-                    "No model"
+                    "Random"
                 ],
                 "correct": 0
             },
@@ -8924,12 +8924,12 @@ const businessQuestions = {
                 "emoji": "🔄⏰",
                 "question": "What is typical change duration?",
                 "options": [
-                    "10 years",
                     "6-18 months",
-                    "1 week",
-                    "1 day"
+                    "10 years",
+                    "1 day",
+                    "1 week"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Support",
@@ -8937,11 +8937,11 @@ const businessQuestions = {
                 "question": "What is resistance analysis?",
                 "options": [
                     "Identify sources of resistance",
-                    "Random",
+                    "Ignore resistance",
                     "No analysis",
-                    "Ignore resistance"
+                    "Random"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "extreme": [
@@ -9014,10 +9014,10 @@ const businessQuestions = {
                 "emoji": "💬📝",
                 "question": "Is communication shares information?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Writing",
@@ -9034,10 +9034,10 @@ const businessQuestions = {
                 "emoji": "🗣️💼",
                 "question": "Is speaking skills help careers?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Listening",
@@ -9064,40 +9064,40 @@ const businessQuestions = {
                 "emoji": "📊🎤",
                 "question": "Is presentations persuade audiences?",
                 "options": [
-                    "False",
-                    "True"
-                ],
-                "correct": 0
-            },
-            {
-                "topic": "Meeting",
-                "emoji": "👥📋",
-                "question": "Does meetings should have agendas?",
-                "options": [
                     "True",
                     "False"
                 ],
                 "correct": 1
             },
             {
+                "topic": "Meeting",
+                "emoji": "👥📋",
+                "question": "Does meetings should have agendas?",
+                "options": [
+                    "False",
+                    "True"
+                ],
+                "correct": 0
+            },
+            {
                 "topic": "Feedback",
                 "emoji": "💬✅",
                 "question": "Is feedback improves performance?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Communication",
                 "emoji": "💬🌐",
                 "question": "Is digital tools enable communication?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Professionalism",
@@ -9116,10 +9116,10 @@ const businessQuestions = {
                 "emoji": "💬📝",
                 "question": "What is business communication?",
                 "options": [
-                    "Personal chat",
-                    "Information sharing in organizations"
+                    "Information sharing in organizations",
+                    "Personal chat"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Writing",
@@ -9136,30 +9136,30 @@ const businessQuestions = {
                 "emoji": "🗣️💼",
                 "question": "What is executive presence?",
                 "options": [
-                    "Confident authoritative communication",
-                    "Shy behavior"
+                    "Shy behavior",
+                    "Confident authoritative communication"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Listening",
                 "emoji": "👂💭",
                 "question": "What is active listening skill?",
                 "options": [
-                    "Wait to talk",
-                    "Fully focus and understand"
+                    "Fully focus and understand",
+                    "Wait to talk"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Email",
                 "emoji": "📧💻",
                 "question": "What is email etiquette?",
                 "options": [
-                    "Professional email practices",
-                    "No rules"
+                    "No rules",
+                    "Professional email practices"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Presentation",
@@ -9186,10 +9186,10 @@ const businessQuestions = {
                 "emoji": "💬✅",
                 "question": "What is constructive feedback?",
                 "options": [
-                    "Criticism only",
-                    "Helpful developmental input"
+                    "Helpful developmental input",
+                    "Criticism only"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Communication",
@@ -9206,10 +9206,10 @@ const businessQuestions = {
                 "emoji": "👔✨",
                 "question": "What is professional communication?",
                 "options": [
-                    "Appropriate for business context",
-                    "Informal"
+                    "Informal",
+                    "Appropriate for business context"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -9218,22 +9218,22 @@ const businessQuestions = {
                 "emoji": "💬📝",
                 "question": "What is communication model?",
                 "options": [
+                    "One-way only",
                     "No model",
-                    "Sender, Message, Channel, Receiver, Feedback",
-                    "One-way only"
+                    "Sender, Message, Channel, Receiver, Feedback"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Writing",
                 "emoji": "✍️📄",
                 "question": "What is the inverted pyramid?",
                 "options": [
+                    "Bury the lead",
                     "Important info first",
-                    "Random order",
-                    "Bury the lead"
+                    "Random order"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Speaking",
@@ -9241,8 +9241,8 @@ const businessQuestions = {
                 "question": "What is rhetorical triangle?",
                 "options": [
                     "Ethos, Pathos, Logos",
-                    "Random concept",
-                    "No triangle"
+                    "No triangle",
+                    "Random concept"
                 ],
                 "correct": 0
             },
@@ -9251,22 +9251,22 @@ const businessQuestions = {
                 "emoji": "👂💭",
                 "question": "What are listening barriers?",
                 "options": [
+                    "Perfect hearing",
                     "Obstacles to understanding",
-                    "No barriers",
-                    "Perfect hearing"
+                    "No barriers"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Email",
                 "emoji": "📧💻",
                 "question": "What is email overload?",
                 "options": [
-                    "No emails",
                     "Perfect amount",
-                    "Too many emails to manage"
+                    "Too many emails to manage",
+                    "No emails"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Presentation",
@@ -9284,22 +9284,22 @@ const businessQuestions = {
                 "emoji": "👥📋",
                 "question": "What is meeting ROI?",
                 "options": [
-                    "No calculation",
                     "Value vs time cost",
-                    "Random"
+                    "Random",
+                    "No calculation"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Feedback",
                 "emoji": "💬✅",
                 "question": "What is SBI feedback model?",
                 "options": [
+                    "Situation, Behavior, Impact",
                     "Random acronym",
-                    "No model",
-                    "Situation, Behavior, Impact"
+                    "No model"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Communication",
@@ -9318,10 +9318,10 @@ const businessQuestions = {
                 "question": "What is cultural communication?",
                 "options": [
                     "No adaptation",
-                    "Adapt to cultural norms",
-                    "One style fits all"
+                    "One style fits all",
+                    "Adapt to cultural norms"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -9330,12 +9330,12 @@ const businessQuestions = {
                 "emoji": "💬📝",
                 "question": "What percentage of workplace time is communication?",
                 "options": [
-                    "~70%",
-                    "100%",
+                    "5%",
                     "10%",
-                    "5%"
+                    "~70%",
+                    "100%"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Writing",
@@ -9343,23 +9343,23 @@ const businessQuestions = {
                 "question": "What is optimal email length?",
                 "options": [
                     "5000 words",
+                    "1 word",
                     "No limit",
-                    "50-125 words",
-                    "1 word"
+                    "50-125 words"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Speaking",
                 "emoji": "🗣️💼",
                 "question": "What does the acronym glossophobia stand for?",
                 "options": [
-                    "Fear of public speaking",
-                    "Language skill",
                     "Love of speaking",
-                    "No fear"
+                    "Language skill",
+                    "No fear",
+                    "Fear of public speaking"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Listening",
@@ -9378,12 +9378,12 @@ const businessQuestions = {
                 "emoji": "📧💻",
                 "question": "What is average email response time expectation?",
                 "options": [
-                    "1 month",
                     "Never",
-                    "1 minute",
-                    "24 hours"
+                    "24 hours",
+                    "1 month",
+                    "1 minute"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Presentation",
@@ -9391,9 +9391,9 @@ const businessQuestions = {
                 "question": "What is optimal slide count for 20 min presentation?",
                 "options": [
                     "100 slides",
-                    "10-15 slides",
                     "No slides",
-                    "1 slide"
+                    "1 slide",
+                    "10-15 slides"
                 ],
                 "correct": 0
             },
@@ -9402,12 +9402,12 @@ const businessQuestions = {
                 "emoji": "👥📋",
                 "question": "What percentage of meetings are considered unproductive?",
                 "options": [
+                    "~50%",
                     "5%",
                     "100%",
-                    "0%",
-                    "~50%"
+                    "0%"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Feedback",
@@ -9415,9 +9415,9 @@ const businessQuestions = {
                 "question": "What is feedback ratio for positive vs developmental?",
                 "options": [
                     "All negative",
+                    "1:1",
                     "1:10",
-                    "5:1 (Losada)",
-                    "1:1"
+                    "5:1 (Losada)"
                 ],
                 "correct": 0
             },
@@ -9426,24 +9426,24 @@ const businessQuestions = {
                 "emoji": "💬🌐",
                 "question": "What is the 7-38-55 rule?",
                 "options": [
-                    "No rule",
-                    "Equal thirds",
                     "Words, Tone, Body language",
-                    "Random numbers"
+                    "Equal thirds",
+                    "Random numbers",
+                    "No rule"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Professionalism",
                 "emoji": "👔✨",
                 "question": "What is high-context culture communication?",
                 "options": [
-                    "Random",
-                    "No context",
                     "Direct explicit",
-                    "Indirect, implicit"
+                    "Indirect, implicit",
+                    "No context",
+                    "Random"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -9516,10 +9516,10 @@ const businessQuestions = {
                 "emoji": "💰📊",
                 "question": "Is finance manages money?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Capital",
@@ -9586,10 +9586,10 @@ const businessQuestions = {
                 "emoji": "💵📉",
                 "question": "Is controlling costs increases profit?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Finance",
@@ -9606,10 +9606,10 @@ const businessQuestions = {
                 "emoji": "📈💵",
                 "question": "Is return measures investment performance?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -9638,10 +9638,10 @@ const businessQuestions = {
                 "emoji": "📈💰",
                 "question": "What is capital budgeting?",
                 "options": [
-                    "Evaluate investment projects",
-                    "Operating budget"
+                    "Operating budget",
+                    "Evaluate investment projects"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Risk",
@@ -9668,10 +9668,10 @@ const businessQuestions = {
                 "emoji": "💎📊",
                 "question": "What is shareholder value?",
                 "options": [
-                    "Return to shareholders",
-                    "Employee value"
+                    "Employee value",
+                    "Return to shareholders"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Profit",
@@ -9688,10 +9688,10 @@ const businessQuestions = {
                 "emoji": "💵📉",
                 "question": "What is cost of capital?",
                 "options": [
-                    "Operating cost",
-                    "Cost of financing"
+                    "Cost of financing",
+                    "Operating cost"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Finance",
@@ -9720,11 +9720,11 @@ const businessQuestions = {
                 "emoji": "💰📊",
                 "question": "What does the acronym WACC stand for?",
                 "options": [
-                    "Weighted Average Cost of Capital",
                     "World Accounting Control Center",
-                    "Working Asset Cash Calculation"
+                    "Working Asset Cash Calculation",
+                    "Weighted Average Cost of Capital"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Capital",
@@ -9753,9 +9753,9 @@ const businessQuestions = {
                 "emoji": "⚠️💼",
                 "question": "What is beta in finance?",
                 "options": [
-                    "Greek letter",
+                    "Software version",
                     "Measure of systematic risk",
-                    "Software version"
+                    "Greek letter"
                 ],
                 "correct": 1
             },
@@ -9764,55 +9764,55 @@ const businessQuestions = {
                 "emoji": "💰📋",
                 "question": "What is free cash flow?",
                 "options": [
-                    "Cash after operations and CapEx",
                     "Any cash",
+                    "Cash after operations and CapEx",
                     "No cost"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Value",
                 "emoji": "💎📊",
                 "question": "What is DCF valuation?",
                 "options": [
-                    "Discounted Cash Flow",
                     "Direct Cost Formula",
+                    "Discounted Cash Flow",
                     "Data Collection Framework"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Profit",
                 "emoji": "💰📈",
                 "question": "What does EBITDA measure?",
                 "options": [
-                    "Earnings before interest, tax, depreciation, amortization",
                     "Total profit",
-                    "Revenue"
+                    "Revenue",
+                    "Earnings before interest, tax, depreciation, amortization"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Cost",
                 "emoji": "💵📉",
                 "question": "What is opportunity cost?",
                 "options": [
-                    "No cost",
                     "Value of next best alternative",
+                    "No cost",
                     "Actual cost"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Finance",
                 "emoji": "💰🏦",
                 "question": "What is debt-to-equity ratio?",
                 "options": [
+                    "Assets / Liabilities",
                     "Revenue / Expenses",
-                    "Total debt / Total equity",
-                    "Assets / Liabilities"
+                    "Total debt / Total equity"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Return",
@@ -9820,10 +9820,10 @@ const businessQuestions = {
                 "question": "What does the acronym IRR stand for?",
                 "options": [
                     "Immediate Revenue Report",
-                    "International Risk Rating",
-                    "Internal Rate of Return"
+                    "Internal Rate of Return",
+                    "International Risk Rating"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -9832,22 +9832,22 @@ const businessQuestions = {
                 "emoji": "💰📊",
                 "question": "What is typical corporate tax rate?",
                 "options": [
-                    "90%",
-                    "100%",
                     "21-25%",
+                    "100%",
+                    "90%",
                     "0%"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Capital",
                 "emoji": "💵🏢",
                 "question": "What is Modigliani-Miller theorem?",
                 "options": [
-                    "Debt is best",
+                    "Random theory",
                     "Capital structure irrelevance",
                     "Equity only",
-                    "Random theory"
+                    "Debt is best"
                 ],
                 "correct": 1
             },
@@ -9856,22 +9856,22 @@ const businessQuestions = {
                 "emoji": "📈💰",
                 "question": "What is payback period for projects?",
                 "options": [
-                    "Time to recover investment",
-                    "Random",
                     "Project duration",
-                    "No period"
+                    "No period",
+                    "Time to recover investment",
+                    "Random"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Risk",
                 "emoji": "⚠️💼",
                 "question": "What does the acronym VaR stand for?",
                 "options": [
-                    "Virtual Asset Register",
-                    "Value at Risk",
                     "Variable Annual Return",
-                    "Verified Audit Report"
+                    "Value at Risk",
+                    "Verified Audit Report",
+                    "Virtual Asset Register"
                 ],
                 "correct": 1
             },
@@ -9880,48 +9880,48 @@ const businessQuestions = {
                 "emoji": "💰📋",
                 "question": "What is working capital ratio target?",
                 "options": [
-                    "1.5-2.0",
                     "100",
                     "10",
-                    "0.1"
+                    "0.1",
+                    "1.5-2.0"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Value",
                 "emoji": "💎📊",
                 "question": "What is typical PE ratio?",
                 "options": [
-                    "1000",
                     "0",
+                    "1000",
                     "1",
                     "15-25"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Profit",
                 "emoji": "💰📈",
                 "question": "What is economic profit?",
                 "options": [
-                    "Random",
-                    "No difference",
+                    "Same as accounting profit",
                     "Accounting profit minus opportunity cost",
-                    "Same as accounting profit"
+                    "No difference",
+                    "Random"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Cost",
                 "emoji": "💵📉",
                 "question": "What is the time value of money?",
                 "options": [
-                    "No difference",
-                    "Money now worth more than future",
                     "Same value",
-                    "Future worth more"
+                    "Future worth more",
+                    "Money now worth more than future",
+                    "No difference"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Finance",
@@ -9929,9 +9929,9 @@ const businessQuestions = {
                 "question": "What is M&A?",
                 "options": [
                     "Mergers and Acquisitions",
-                    "Management and Administration",
+                    "Money and Assets",
                     "Markets and Analysis",
-                    "Money and Assets"
+                    "Management and Administration"
                 ],
                 "correct": 0
             },
@@ -9940,12 +9940,12 @@ const businessQuestions = {
                 "emoji": "📈💵",
                 "question": "What is the risk-return tradeoff?",
                 "options": [
+                    "Higher risk, higher potential return",
                     "Random",
                     "No relationship",
-                    "Inverse",
-                    "Higher risk, higher potential return"
+                    "Inverse"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [

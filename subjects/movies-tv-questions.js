@@ -16,20 +16,20 @@ const moviesTVQuestions = {
                 emoji: "🎬🎥",
                 question: "Simba is a lion cub.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Spider-Man",
                 emoji: "🎭🎪",
                 question: "Peter Parker gets bitten by a radioactive spider.",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Friends",
@@ -46,20 +46,20 @@ const moviesTVQuestions = {
                 emoji: "🎞️📽️",
                 question: "Jurassic Park has real dinosaurs.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Breaking Bad",
                 emoji: "📺📻",
                 question: "Walter White is a chemistry teacher.",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Finding Nemo",
@@ -76,10 +76,10 @@ const moviesTVQuestions = {
                 emoji: "🎵🎶",
                 question: "The Walking Dead features zombies.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Batman",
@@ -96,20 +96,20 @@ const moviesTVQuestions = {
                 emoji: "⭐🌟",
                 question: "Game of Thrones has dragons.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Toy Story",
                 emoji: "🎨🖼️",
                 question: "Woody is a cowboy toy.",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         medium: [
@@ -118,20 +118,20 @@ const moviesTVQuestions = {
                 emoji: "📸📷",
                 question: "What does Dom Cobb do?",
                 options: [
-                    "Steals from dreams",
-                    "Creates dreams"
+                    "Creates dreams",
+                    "Steals from dreams"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "The Office",
                 emoji: "🎟️🎫",
                 question: "What company do they work for?",
                 options: [
-                    "Dunder Mifflin",
-                    "Staples"
+                    "Staples",
+                    "Dunder Mifflin"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "The Matrix",
@@ -158,10 +158,10 @@ const moviesTVQuestions = {
                 emoji: "🎰🃏",
                 question: "Who directed Pulp Fiction?",
                 options: [
-                    "Quentin Tarantino",
-                    "Martin Scorsese"
+                    "Martin Scorsese",
+                    "Quentin Tarantino"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "How I Met Your Mother",
@@ -188,10 +188,10 @@ const moviesTVQuestions = {
                 emoji: "🚀🛸",
                 question: "What is Sheldon's profession?",
                 options: [
-                    "Physicist",
-                    "Engineer"
+                    "Engineer",
+                    "Physicist"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Forrest Gump",
@@ -208,10 +208,10 @@ const moviesTVQuestions = {
                 emoji: "🦸🦹",
                 question: "What is Leslie's dream project?",
                 options: [
-                    "Park",
-                    "Library"
+                    "Library",
+                    "Park"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         hard: [
@@ -220,20 +220,20 @@ const moviesTVQuestions = {
                 emoji: "🧙🧚",
                 question: "Who directed The Godfather?",
                 options: [
+                    "Brian De Palma",
                     "Francis Ford Coppola",
-                    "Martin Scorsese",
-                    "Brian De Palma"
+                    "Martin Scorsese"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "The Wire",
                 emoji: "🧛🧟",
                 question: "What city is The Wire set in?",
                 options: [
-                    "Baltimore",
+                    "Chicago",
                     "New York",
-                    "Chicago"
+                    "Baltimore"
                 ],
                 correct: 1
             },
@@ -242,22 +242,22 @@ const moviesTVQuestions = {
                 emoji: "👻💀",
                 question: "How many years was Andy imprisoned?",
                 options: [
-                    "19",
                     "20",
-                    "27"
+                    "27",
+                    "19"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Mad Men",
                 emoji: "🐉🦖",
                 question: "What decade is Mad Men primarily set in?",
                 options: [
-                    "1960s",
                     "1950s",
-                    "1970s"
+                    "1970s",
+                    "1960s"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "The Dark Knight",
@@ -276,8 +276,8 @@ const moviesTVQuestions = {
                 question: "How many main seasons does Lost have?",
                 options: [
                     "6",
-                    "5",
-                    "7"
+                    "7",
+                    "5"
                 ],
                 correct: 0
             },
@@ -286,9 +286,9 @@ const moviesTVQuestions = {
                 emoji: "🗼🌉",
                 question: "Who plays Henry Hill?",
                 options: [
-                    "Ray Liotta",
+                    "Joe Pesci",
                     "Robert De Niro",
-                    "Joe Pesci"
+                    "Ray Liotta"
                 ],
                 correct: 1
             },
@@ -297,11 +297,11 @@ const moviesTVQuestions = {
                 emoji: "🌃🌆",
                 question: "Who is the President in The West Wing?",
                 options: [
+                    "Arnold Vinick",
                     "Josiah Bartlet",
-                    "Matt Santos",
-                    "Arnold Vinick"
+                    "Matt Santos"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Schindler's List",
@@ -309,21 +309,21 @@ const moviesTVQuestions = {
                 question: "What war is Schindler's List set during?",
                 options: [
                     "World War II",
-                    "World War I",
-                    "Vietnam War"
+                    "Vietnam War",
+                    "World War I"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Twin Peaks",
                 emoji: "🔥💫",
                 question: "Who killed Laura Palmer?",
                 options: [
-                    "Leland Palmer",
                     "Bob",
+                    "Leland Palmer",
                     "Leo Johnson"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         expert: [
@@ -332,12 +332,12 @@ const moviesTVQuestions = {
                 emoji: "🎬🎥",
                 question: "What year was The Godfather released?",
                 options: [
-                    "1972",
                     "1971",
                     "1973",
-                    "1974"
+                    "1974",
+                    "1972"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Breaking Bad",
@@ -345,32 +345,32 @@ const moviesTVQuestions = {
                 question: "What is Walter White's alias?",
                 options: [
                     "Heisenberg",
-                    "Capn Cook",
                     "Krazy-8",
+                    "Capn Cook",
                     "Tuco"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Citizen Kane",
                 emoji: "🏆🌟",
                 question: "What is Kane's dying word?",
                 options: [
-                    "Rosebud",
                     "Susan",
+                    "Mother",
                     "Xanadu",
-                    "Mother"
+                    "Rosebud"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "The Sopranos",
                 emoji: "👑💍",
                 question: "What state is The Sopranos set in?",
                 options: [
-                    "New Jersey",
-                    "New York",
                     "Pennsylvania",
+                    "New York",
+                    "New Jersey",
                     "Connecticut"
                 ],
                 correct: 1
@@ -381,35 +381,35 @@ const moviesTVQuestions = {
                 question: "What is Rick's nightclub called?",
                 options: [
                     "Rick's Café Américain",
-                    "The Blue Parrot",
                     "The American Bar",
+                    "The Blue Parrot",
                     "Café Morocco"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "The Twilight Zone",
                 emoji: "🚀🌌",
                 question: "Who created The Twilight Zone?",
                 options: [
-                    "Rod Serling",
-                    "Alfred Hitchcock",
                     "Gene Roddenberry",
-                    "Ray Bradbury"
+                    "Rod Serling",
+                    "Ray Bradbury",
+                    "Alfred Hitchcock"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Seven Samurai",
                 emoji: "🧙🔮",
                 question: "Who directed Seven Samurai?",
                 options: [
-                    "Akira Kurosawa",
-                    "Yasujirō Ozu",
                     "Kenji Mizoguchi",
-                    "Masaki Kobayashi"
+                    "Masaki Kobayashi",
+                    "Akira Kurosawa",
+                    "Yasujirō Ozu"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "The X-Files",
@@ -417,8 +417,8 @@ const moviesTVQuestions = {
                 question: "What is Mulder's first name?",
                 options: [
                     "Fox",
-                    "Frank",
                     "Fred",
+                    "Frank",
                     "Felix"
                 ],
                 correct: 0
@@ -428,24 +428,24 @@ const moviesTVQuestions = {
                 emoji: "🕷️🕸️",
                 question: "Who directed 2001: A Space Odyssey?",
                 options: [
-                    "Stanley Kubrick",
-                    "Ridley Scott",
                     "Steven Spielberg",
-                    "George Lucas"
+                    "Stanley Kubrick",
+                    "George Lucas",
+                    "Ridley Scott"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Seinfeld",
                 emoji: "⚔️🛡️",
                 question: "What network aired Seinfeld?",
                 options: [
-                    "NBC",
-                    "CBS",
                     "ABC",
-                    "FOX"
+                    "NBC",
+                    "FOX",
+                    "CBS"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         extreme: [
@@ -518,20 +518,20 @@ const moviesTVQuestions = {
                 emoji: "🎯🎲",
                 question: "Elsa has ice powers.",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Iron Man",
                 emoji: "🎰🃏",
                 question: "Tony Stark builds a suit of armor.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "The Simpsons",
@@ -578,40 +578,40 @@ const moviesTVQuestions = {
                 emoji: "💰💵",
                 question: "Grey's Anatomy is set in a hospital.",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Harry Potter",
                 emoji: "🎭😂",
                 question: "Harry Potter attends Hogwarts.",
                 options: [
-                    "True",
-                    "False"
-                ],
-                correct: 1
-            },
-            {
-                topic: "The Office",
-                emoji: "🎪🤡",
-                question: "Michael Scott is the regional manager.",
-                options: [
                     "False",
                     "True"
                 ],
                 correct: 0
             },
             {
-                topic: "Shrek",
-                emoji: "🎬📹",
-                question: "Shrek lives in a swamp.",
+                topic: "The Office",
+                emoji: "🎪🤡",
+                question: "Michael Scott is the regional manager.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
+            },
+            {
+                topic: "Shrek",
+                emoji: "🎬📹",
+                question: "Shrek lives in a swamp.",
+                options: [
+                    "False",
+                    "True"
+                ],
+                correct: 1
             }
         ],
         medium: [
@@ -640,10 +640,10 @@ const moviesTVQuestions = {
                 emoji: "🏆🌟",
                 question: "What is Hannibal Lecter?",
                 options: [
-                    "Psychiatrist",
-                    "Surgeon"
+                    "Surgeon",
+                    "Psychiatrist"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Arrested Development",
@@ -660,10 +660,10 @@ const moviesTVQuestions = {
                 emoji: "🦸🦹",
                 question: "What was Maximus before becoming a gladiator?",
                 options: [
-                    "General",
-                    "Senator"
+                    "Senator",
+                    "General"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Brooklyn Nine-Nine",
@@ -680,10 +680,10 @@ const moviesTVQuestions = {
                 emoji: "🧙🔮",
                 question: "Who directed The Departed?",
                 options: [
-                    "Martin Scorsese",
-                    "Francis Ford Coppola"
+                    "Francis Ford Coppola",
+                    "Martin Scorsese"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Modern Family",
@@ -722,20 +722,20 @@ const moviesTVQuestions = {
                 emoji: "💎🏝️",
                 question: "Who directed There Will Be Blood?",
                 options: [
-                    "Paul Thomas Anderson",
                     "Terrence Malick",
-                    "Christopher Nolan"
+                    "Christopher Nolan",
+                    "Paul Thomas Anderson"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "The Leftovers",
                 emoji: "🐉⚡",
                 question: "What percentage of people disappeared?",
                 options: [
-                    "2%",
+                    "10%",
                     "5%",
-                    "10%"
+                    "2%"
                 ],
                 correct: 1
             },
@@ -744,20 +744,20 @@ const moviesTVQuestions = {
                 emoji: "🤖🔧",
                 question: "Who plays Anton Chigurh?",
                 options: [
-                    "Javier Bardem",
+                    "Tommy Lee Jones",
                     "Josh Brolin",
-                    "Tommy Lee Jones"
+                    "Javier Bardem"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Deadwood",
                 emoji: "🏴‍☠️⚓",
                 question: "What is the setting time period?",
                 options: [
-                    "1870s",
+                    "1880s",
                     "1860s",
-                    "1880s"
+                    "1870s"
                 ],
                 correct: 1
             },
@@ -767,8 +767,8 @@ const moviesTVQuestions = {
                 question: "Who directed The Social Network?",
                 options: [
                     "David Fincher",
-                    "Aaron Sorkin",
-                    "Bennett Miller"
+                    "Bennett Miller",
+                    "Aaron Sorkin"
                 ],
                 correct: 0
             },
@@ -778,10 +778,10 @@ const moviesTVQuestions = {
                 question: "Where is Louie set?",
                 options: [
                     "New York",
-                    "Los Angeles",
-                    "Boston"
+                    "Boston",
+                    "Los Angeles"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Inglourious Basterds",
@@ -789,8 +789,8 @@ const moviesTVQuestions = {
                 question: "Who plays Hans Landa?",
                 options: [
                     "Christoph Waltz",
-                    "Michael Fassbender",
-                    "Daniel Brühl"
+                    "Daniel Brühl",
+                    "Michael Fassbender"
                 ],
                 correct: 0
             },
@@ -799,20 +799,20 @@ const moviesTVQuestions = {
                 emoji: "🌹💔",
                 question: "Who is the main character?",
                 options: [
-                    "Nucky Thompson",
                     "Jimmy Darmody",
-                    "Al Capone"
+                    "Al Capone",
+                    "Nucky Thompson"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "The Master",
                 emoji: "🎸🎤",
                 question: "Who plays Freddie Quell?",
                 options: [
-                    "Joaquin Phoenix",
+                    "Daniel Day-Lewis",
                     "Philip Seymour Hoffman",
-                    "Daniel Day-Lewis"
+                    "Joaquin Phoenix"
                 ],
                 correct: 1
             },
@@ -821,11 +821,11 @@ const moviesTVQuestions = {
                 emoji: "🏃💨",
                 question: "What is Boyd Crowder to Raylan?",
                 options: [
-                    "Childhood friend",
                     "Brother",
+                    "Childhood friend",
                     "Cousin"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         expert: [
@@ -834,21 +834,21 @@ const moviesTVQuestions = {
                 emoji: "🎯🎲",
                 question: "What is Scottie's phobia?",
                 options: [
-                    "Acrophobia",
-                    "Claustrophobia",
+                    "Nyctophobia",
                     "Agoraphobia",
-                    "Nyctophobia"
+                    "Acrophobia",
+                    "Claustrophobia"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "The Wire",
                 emoji: "🎰🃏",
                 question: "How many seasons does The Wire have?",
                 options: [
-                    "5",
-                    "4",
                     "6",
+                    "4",
+                    "5",
                     "7"
                 ],
                 correct: 1
@@ -858,24 +858,24 @@ const moviesTVQuestions = {
                 emoji: "🏎️💨",
                 question: "Who directed Mulholland Drive?",
                 options: [
-                    "David Lynch",
-                    "David Cronenberg",
+                    "Darren Aronofsky",
                     "David Fincher",
-                    "Darren Aronofsky"
+                    "David Lynch",
+                    "David Cronenberg"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Deadwood",
                 emoji: "🚁✈️",
                 question: "How many seasons did Deadwood originally have?",
                 options: [
-                    "3",
                     "2",
+                    "5",
                     "4",
-                    "5"
+                    "3"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "The Apartment",
@@ -883,21 +883,21 @@ const moviesTVQuestions = {
                 question: "Who directed The Apartment?",
                 options: [
                     "Billy Wilder",
-                    "William Wyler",
                     "Frank Capra",
+                    "William Wyler",
                     "George Cukor"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Freaks and Geeks",
                 emoji: "👮🔍",
                 question: "What year is Freaks and Geeks set in?",
                 options: [
-                    "1980",
-                    "1981",
                     "1979",
-                    "1982"
+                    "1981",
+                    "1982",
+                    "1980"
                 ],
                 correct: 1
             },
@@ -906,9 +906,9 @@ const moviesTVQuestions = {
                 emoji: "💰💵",
                 question: "Who directed this film?",
                 options: [
-                    "Krzysztof Kieślowski",
-                    "Andrei Tarkovsky",
                     "Ingmar Bergman",
+                    "Andrei Tarkovsky",
+                    "Krzysztof Kieślowski",
                     "Theo Angelopoulos"
                 ],
                 correct: 1
@@ -918,10 +918,10 @@ const moviesTVQuestions = {
                 emoji: "🎭😂",
                 question: "How many seasons does The Shield have?",
                 options: [
-                    "7",
-                    "6",
                     "8",
-                    "5"
+                    "6",
+                    "5",
+                    "7"
                 ],
                 correct: 1
             },
@@ -930,12 +930,12 @@ const moviesTVQuestions = {
                 emoji: "🎪🤡",
                 question: "Who directed The Conformist?",
                 options: [
-                    "Bernardo Bertolucci",
                     "Luchino Visconti",
+                    "Michelangelo Antonioni",
                     "Pier Paolo Pasolini",
-                    "Michelangelo Antonioni"
+                    "Bernardo Bertolucci"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "The Larry Sanders Show",
@@ -943,9 +943,9 @@ const moviesTVQuestions = {
                 question: "Who created The Larry Sanders Show?",
                 options: [
                     "Garry Shandling",
+                    "Chris Rock",
                     "Larry David",
-                    "Jerry Seinfeld",
-                    "Chris Rock"
+                    "Jerry Seinfeld"
                 ],
                 correct: 0
             }
@@ -1020,29 +1020,29 @@ const moviesTVQuestions = {
             emoji: "💎🏝️",
             question: "Titanic is about a ship that sinks.",
             options: [
-                "True",
-                "False"
-            ],
-            correct: 1
+                    "False",
+                    "True"
+                ],
+            correct: 0
         },
         {
             topic: "Black Panther",
             emoji: "🐉⚡",
             question: "Black Panther is the king of Wakanda.",
             options: [
-                "False",
-                "True"
-            ],
-            correct: 1
+                    "True",
+                    "False"
+                ],
+            correct: 0
         },
         {
             topic: "Downton Abbey",
             emoji: "🤖🔧",
             question: "Downton Abbey is set in England.",
             options: [
-                "True",
-                "False"
-            ],
+                    "True",
+                    "False"
+                ],
             correct: 0
         },
         {
@@ -1050,19 +1050,19 @@ const moviesTVQuestions = {
             emoji: "🏴‍☠️⚓",
             question: "E.T. wants to go home.",
             options: [
-                "False",
-                "True"
-            ],
-            correct: 0
+                    "True",
+                    "False"
+                ],
+            correct: 1
         },
         {
             topic: "Supernatural",
             emoji: "👻👽",
             question: "Sam and Dean hunt monsters.",
             options: [
-                "True",
-                "False"
-            ],
+                    "True",
+                    "False"
+                ],
             correct: 0
         },
         {
@@ -1070,49 +1070,49 @@ const moviesTVQuestions = {
             emoji: "🔫💥",
             question: "The Incredibles is a superhero family.",
             options: [
-                "False",
-                "True"
-            ],
-            correct: 0
+                    "True",
+                    "False"
+                ],
+            correct: 1
         },
         {
             topic: "Doctor Who",
             emoji: "🎩🎪",
             question: "The Doctor travels through time.",
             options: [
-                "True",
-                "False"
-            ],
-            correct: 1
+                    "False",
+                    "True"
+                ],
+            correct: 0
         },
         {
             topic: "Captain America",
             emoji: "🌹💔",
             question: "Steve Rogers becomes Captain America.",
             options: [
-                "True",
-                "False"
-            ],
-            correct: 1
+                    "False",
+                    "True"
+                ],
+            correct: 0
         },
         {
             topic: "Glee",
             emoji: "🎸🎤",
             question: "Glee is about a high school choir.",
             options: [
-                "False",
-                "True"
-            ],
-            correct: 0
+                    "True",
+                    "False"
+                ],
+            correct: 1
         },
         {
             topic: "Up",
             emoji: "🏃💨",
             question: "Carl uses balloons to fly his house.",
             options: [
-                "True",
-                "False"
-            ],
+                    "True",
+                    "False"
+                ],
             correct: 1
         }
     ],
@@ -1122,9 +1122,9 @@ const moviesTVQuestions = {
             emoji: "🎯🎲",
             question: "What city is The Departed set in?",
             options: [
-                "Boston",
-                "New York"
-            ],
+                    "Boston",
+                    "New York"
+                ],
             correct: 0
         },
         {
@@ -1132,9 +1132,9 @@ const moviesTVQuestions = {
             emoji: "🎰🃏",
             question: "What is JD's profession?",
             options: [
-                "Doctor",
-                "Nurse"
-            ],
+                    "Doctor",
+                    "Nurse"
+                ],
             correct: 1
         },
         {
@@ -1142,29 +1142,29 @@ const moviesTVQuestions = {
             emoji: "🏎️💨",
             question: "Who directed Interstellar?",
             options: [
-                "Christopher Nolan",
-                "Denis Villeneuve"
-            ],
-            correct: 1
+                    "Denis Villeneuve",
+                    "Christopher Nolan"
+                ],
+            correct: 0
         },
         {
             topic: "The Good Place",
             emoji: "🚁✈️",
             question: "Who is the architect of The Good Place?",
             options: [
-                "Michael",
-                "Chidi"
-            ],
-            correct: 1
+                    "Chidi",
+                    "Michael"
+                ],
+            correct: 0
         },
         {
             topic: "Saving Private Ryan",
             emoji: "🦇🌃",
             question: "What war is depicted in Saving Private Ryan?",
             options: [
-                "World War II",
-                "Vietnam War"
-            ],
+                    "World War II",
+                    "Vietnam War"
+                ],
             correct: 1
         },
         {
@@ -1172,19 +1172,19 @@ const moviesTVQuestions = {
             emoji: "👮🔍",
             question: "What is Geralt's profession?",
             options: [
-                "Witcher",
-                "Knight"
-            ],
-            correct: 0
+                    "Knight",
+                    "Witcher"
+                ],
+            correct: 1
         },
         {
             topic: "The Notebook",
             emoji: "💰💵",
             question: "Where does The Notebook take place?",
             options: [
-                "South Carolina",
-                "North Carolina"
-            ],
+                    "South Carolina",
+                    "North Carolina"
+                ],
             correct: 0
         },
         {
@@ -1192,19 +1192,19 @@ const moviesTVQuestions = {
             emoji: "🎭😂",
             question: "What is the main company called?",
             options: [
-                "Pied Piper",
-                "Hooli"
-            ],
-            correct: 0
+                    "Hooli",
+                    "Pied Piper"
+                ],
+            correct: 1
         },
         {
             topic: "La La Land",
             emoji: "🎪🤡",
             question: "What city is La La Land set in?",
             options: [
-                "Los Angeles",
-                "San Francisco"
-            ],
+                    "Los Angeles",
+                    "San Francisco"
+                ],
             correct: 1
         },
         {
@@ -1212,10 +1212,10 @@ const moviesTVQuestions = {
             emoji: "🎬📹",
             question: "What is the family business?",
             options: [
-                "Real estate development",
-                "Frozen bananas"
-            ],
-            correct: 0
+                    "Frozen bananas",
+                    "Real estate development"
+                ],
+            correct: 1
         }
     ],
     hard: [
@@ -1224,21 +1224,21 @@ const moviesTVQuestions = {
             emoji: "🎬🎥",
             question: "How many deadly sins are there?",
             options: [
-                "5",
-                "7",
-                "10"
-            ],
-            correct: 0
+                    "7",
+                    "5",
+                    "10"
+                ],
+            correct: 1
         },
         {
             topic: "Chernobyl",
             emoji: "🎭🎪",
             question: "What year did the Chernobyl disaster occur?",
             options: [
-                "1984",
-                "1986",
-                "1988"
-            ],
+                    "1988",
+                    "1986",
+                    "1984"
+                ],
             correct: 1
         },
         {
@@ -1246,88 +1246,88 @@ const moviesTVQuestions = {
             emoji: "🏆🌟",
             question: "How many years was the protagonist imprisoned?",
             options: [
-                "10",
-                "15",
-                "20"
-            ],
-            correct: 1
+                    "10",
+                    "20",
+                    "15"
+                ],
+            correct: 2
         },
         {
             topic: "Atlanta",
             emoji: "👑💍",
             question: "Who created Atlanta?",
             options: [
-                "Donald Glover",
-                "Jordan Peele",
-                "Lakeith Stanfield"
-            ],
-            correct: 0
+                    "Lakeith Stanfield",
+                    "Jordan Peele",
+                    "Donald Glover"
+                ],
+            correct: 2
         },
         {
             topic: "Memento",
             emoji: "🦸🦹",
             question: "What condition does Leonard have?",
             options: [
-                "Amnesia",
-                "Short-term memory loss",
-                "Alzheimer's"
-            ],
-            correct: 1
+                    "Short-term memory loss",
+                    "Amnesia",
+                    "Alzheimer's"
+                ],
+            correct: 0
         },
         {
             topic: "Fargo",
             emoji: "🚀🌌",
             question: "What state is the TV series Fargo set in?",
             options: [
-                "North Dakota",
-                "Minnesota",
-                "Wisconsin"
-            ],
-            correct: 0
+                    "Wisconsin",
+                    "North Dakota",
+                    "Minnesota"
+                ],
+            correct: 1
         },
         {
             topic: "Eternal Sunshine",
             emoji: "🧙🔮",
             question: "What gets erased in Eternal Sunshine?",
             options: [
-                "Memories",
-                "Identity",
-                "Emotions"
-            ],
-            correct: 0
+                    "Identity",
+                    "Emotions",
+                    "Memories"
+                ],
+            correct: 2
         },
         {
             topic: "True Detective",
             emoji: "🦖🦕",
             question: "How many detectives are in Season 1?",
             options: [
-                "1",
-                "2",
-                "3"
-            ],
-            correct: 1
+                    "3",
+                    "1",
+                    "2"
+                ],
+            correct: 2
         },
         {
             topic: "Pan's Labyrinth",
             emoji: "🕷️🕸️",
             question: "What country is Pan's Labyrinth from?",
             options: [
-                "Mexico",
-                "Spain",
-                "Argentina"
-            ],
-            correct: 1
+                    "Spain",
+                    "Argentina",
+                    "Mexico"
+                ],
+            correct: 0
         },
         {
             topic: "The Expanse",
             emoji: "⚔️🛡️",
             question: "What is the main spaceship called?",
             options: [
-                "Rocinante",
-                "Donnager",
-                "Canterbury"
-            ],
-            correct: 1
+                    "Canterbury",
+                    "Rocinante",
+                    "Donnager"
+                ],
+            correct: 2
         }
     ],
     expert: [
@@ -1336,47 +1336,47 @@ const moviesTVQuestions = {
             emoji: "💎🏝️",
             question: "What type of lighting did Kubrick use?",
             options: [
-                "Natural light",
-                "Candlelight",
-                "LED lights",
-                "Fluorescent"
-            ],
-            correct: 1
+                    "Fluorescent",
+                    "LED lights",
+                    "Natural light",
+                    "Candlelight"
+                ],
+            correct: 3
         },
         {
             topic: "The Shield",
             emoji: "🐉⚡",
             question: "What is the Strike Team's leader's name?",
             options: [
-                "Vic Mackey",
-                "Shane Vendrell",
-                "Ronnie Gardocki",
-                "Curtis Lemansky"
-            ],
-            correct: 1
+                    "Shane Vendrell",
+                    "Curtis Lemansky",
+                    "Ronnie Gardocki",
+                    "Vic Mackey"
+                ],
+            correct: 0
         },
         {
             topic: "Persona",
             emoji: "🤖🔧",
             question: "Who directed Persona?",
             options: [
-                "Ingmar Bergman",
-                "Carl Theodor Dreyer",
-                "Lars von Trier",
-                "Roy Andersson"
-            ],
-            correct: 1
+                    "Roy Andersson",
+                    "Lars von Trier",
+                    "Carl Theodor Dreyer",
+                    "Ingmar Bergman"
+                ],
+            correct: 2
         },
         {
             topic: "The Larry Sanders Show",
             emoji: "🏴‍☠️⚓",
             question: "What type of show is Larry Sanders Show?",
             options: [
-                "News show",
-                "Talk show",
-                "Game show",
-                "Reality show"
-            ],
+                    "News show",
+                    "Talk show",
+                    "Game show",
+                    "Reality show"
+                ],
             correct: 0
         },
         {
@@ -1384,47 +1384,47 @@ const moviesTVQuestions = {
             emoji: "👻👽",
             question: "How many versions of the story are told?",
             options: [
-                "2",
-                "3",
-                "4",
-                "5"
-            ],
-            correct: 1
+                    "2",
+                    "5",
+                    "3",
+                    "4"
+                ],
+            correct: 2
         },
         {
             topic: "Boardwalk Empire",
             emoji: "🔫💥",
             question: "What decade is Boardwalk Empire set in?",
             options: [
-                "1910s",
-                "1920s",
-                "1930s",
-                "1940s"
-            ],
-            correct: 0
+                    "1930s",
+                    "1920s",
+                    "1940s",
+                    "1910s"
+                ],
+            correct: 3
         },
         {
             topic: "Tokyo Story",
             emoji: "🎩🎪",
             question: "Who directed Tokyo Story?",
             options: [
-                "Akira Kurosawa",
-                "Yasujirō Ozu",
-                "Kenji Mizoguchi",
-                "Masaki Kobayashi"
-            ],
-            correct: 1
+                    "Masaki Kobayashi",
+                    "Kenji Mizoguchi",
+                    "Yasujirō Ozu",
+                    "Akira Kurosawa"
+                ],
+            correct: 2
         },
         {
             topic: "Rectify",
             emoji: "🌹💔",
             question: "How many years was Daniel on death row?",
             options: [
-                "15",
-                "19",
-                "20",
-                "25"
-            ],
+                    "15",
+                    "19",
+                    "25",
+                    "20"
+                ],
             correct: 0
         },
         {
@@ -1432,23 +1432,23 @@ const moviesTVQuestions = {
             emoji: "🎸🎤",
             question: "What city is Wings of Desire set in?",
             options: [
-                "Paris",
-                "Berlin",
-                "Vienna",
-                "Prague"
-            ],
-            correct: 0
+                    "Prague",
+                    "Vienna",
+                    "Paris",
+                    "Berlin"
+                ],
+            correct: 2
         },
         {
             topic: "Justified",
             emoji: "🏃💨",
             question: "What is Raylan Givens' occupation?",
             options: [
-                "Sheriff",
-                "Detective",
-                "US Marshal",
-                "FBI Agent"
-            ],
+                    "Sheriff",
+                    "US Marshal",
+                    "Detective",
+                    "FBI Agent"
+                ],
             correct: 0
         }
     ],
@@ -1516,19 +1516,19 @@ const moviesTVQuestions = {
             emoji: "🎬🎥",
             question: "Neo takes the red pill.",
             options: [
-                "True",
-                "False"
-            ],
-            correct: 1
+                    "False",
+                    "True"
+                ],
+            correct: 0
         },
         {
             topic: "Stranger Things",
             emoji: "🎭🎪",
             question: "Stranger Things is set in the 1980s.",
             options: [
-                "False",
-                "True"
-            ],
+                    "False",
+                    "True"
+                ],
             correct: 0
         },
         {
@@ -1536,9 +1536,9 @@ const moviesTVQuestions = {
             emoji: "🍿🥤",
             question: "The Titanic ship sinks in the movie.",
             options: [
-                "True",
-                "False"
-            ],
+                    "True",
+                    "False"
+                ],
             correct: 1
         },
         {
@@ -1546,19 +1546,19 @@ const moviesTVQuestions = {
             emoji: "🎞️📽️",
             question: "The Office is a mockumentary.",
             options: [
-                "False",
-                "True"
-            ],
-            correct: 0
+                    "True",
+                    "False"
+                ],
+            correct: 1
         },
         {
             topic: "Forrest Gump",
             emoji: "📺📻",
             question: "Forrest Gump loves running.",
             options: [
-                "True",
-                "False"
-            ],
+                    "True",
+                    "False"
+                ],
             correct: 0
         },
         {
@@ -1566,19 +1566,19 @@ const moviesTVQuestions = {
             emoji: "🎤🎧",
             question: "The Crown is about British royalty.",
             options: [
-                "False",
-                "True"
-            ],
-            correct: 0
+                    "True",
+                    "False"
+                ],
+            correct: 1
         },
         {
             topic: "Inception",
             emoji: "🎵🎶",
             question: "Inception deals with dreams.",
             options: [
-                "True",
-                "False"
-            ],
+                    "True",
+                    "False"
+                ],
             correct: 0
         },
         {
@@ -1586,9 +1586,9 @@ const moviesTVQuestions = {
             emoji: "🏆🥇",
             question: "Leslie Knope works in parks department.",
             options: [
-                "True",
-                "False"
-            ],
+                    "True",
+                    "False"
+                ],
             correct: 1
         },
         {
@@ -1596,9 +1596,9 @@ const moviesTVQuestions = {
             emoji: "⭐🌟",
             question: "The Godfather is about a crime family.",
             options: [
-                "False",
-                "True"
-            ],
+                    "False",
+                    "True"
+                ],
             correct: 1
         },
         {
@@ -1606,10 +1606,10 @@ const moviesTVQuestions = {
             emoji: "🎨🖼️",
             question: "Seinfeld is a show about nothing.",
             options: [
-                "True",
-                "False"
-            ],
-            correct: 0
+                    "False",
+                    "True"
+                ],
+            correct: 1
         }
     ],
     medium: [
@@ -1618,29 +1618,29 @@ const moviesTVQuestions = {
             emoji: "💎🏆",
             question: "Who directed Pulp Fiction?",
             options: [
-                "Quentin Tarantino",
-                "Martin Scorsese"
-            ],
-            correct: 1
+                    "Martin Scorsese",
+                    "Quentin Tarantino"
+                ],
+            correct: 0
         },
         {
             topic: "The Sopranos",
             emoji: "🎯🎲",
             question: "What is Tony Soprano's profession?",
             options: [
-                "Mob boss",
-                "Restaurant owner"
-            ],
-            correct: 1
+                    "Restaurant owner",
+                    "Mob boss"
+                ],
+            correct: 0
         },
         {
             topic: "Star Wars",
             emoji: "🎰🃏",
             question: "Who is Luke's father?",
             options: [
-                "Darth Vader",
-                "Obi-Wan"
-            ],
+                    "Darth Vader",
+                    "Obi-Wan"
+                ],
             correct: 0
         },
         {
@@ -1648,19 +1648,19 @@ const moviesTVQuestions = {
             emoji: "🏎️💨",
             question: "Where is The Wire set?",
             options: [
-                "Baltimore",
-                "New York"
-            ],
-            correct: 1
+                    "New York",
+                    "Baltimore"
+                ],
+            correct: 0
         },
         {
             topic: "The Shawshank Redemption",
             emoji: "🚗💨",
             question: "What is Andy's profession?",
             options: [
-                "Banker",
-                "Lawyer"
-            ],
+                    "Banker",
+                    "Lawyer"
+                ],
             correct: 1
         },
         {
@@ -1668,9 +1668,9 @@ const moviesTVQuestions = {
             emoji: "🏍️🛵",
             question: "What decade is Mad Men set in?",
             options: [
-                "1960s",
-                "1950s"
-            ],
+                    "1960s",
+                    "1950s"
+                ],
             correct: 0
         },
         {
@@ -1678,9 +1678,9 @@ const moviesTVQuestions = {
             emoji: "🚀✈️",
             question: "Who plays the Joker?",
             options: [
-                "Heath Ledger",
-                "Jack Nicholson"
-            ],
+                    "Heath Ledger",
+                    "Jack Nicholson"
+                ],
             correct: 1
         },
         {
@@ -1688,19 +1688,19 @@ const moviesTVQuestions = {
             emoji: "🛩️🚁",
             question: "What is the family business?",
             options: [
-                "Real estate",
-                "Law firm"
-            ],
-            correct: 0
+                    "Law firm",
+                    "Real estate"
+                ],
+            correct: 1
         },
         {
             topic: "Schindler's List",
             emoji: "⛵🚤",
             question: "Who directed Schindler's List?",
             options: [
-                "Steven Spielberg",
-                "Martin Scorsese"
-            ],
+                    "Steven Spielberg",
+                    "Martin Scorsese"
+                ],
             correct: 0
         },
         {
@@ -1708,9 +1708,9 @@ const moviesTVQuestions = {
             emoji: "🚢⚓",
             question: "What building is the show set in?",
             options: [
-                "White House",
-                "Capitol"
-            ],
+                    "White House",
+                    "Capitol"
+                ],
             correct: 1
         }
     ],
@@ -1720,10 +1720,10 @@ const moviesTVQuestions = {
             emoji: "🎯🎲",
             question: "Who directed Goodfellas?",
             options: [
-                "Martin Scorsese",
-                "Francis Ford Coppola",
-                "Brian De Palma"
-            ],
+                    "Martin Scorsese",
+                    "Brian De Palma",
+                    "Francis Ford Coppola"
+                ],
             correct: 0
         },
         {
@@ -1731,10 +1731,10 @@ const moviesTVQuestions = {
             emoji: "🎰🃏",
             question: "Where is Season 1 set?",
             options: [
-                "Louisiana",
-                "Texas",
-                "Mississippi"
-            ],
+                    "Mississippi",
+                    "Texas",
+                    "Louisiana"
+                ],
             correct: 1
         },
         {
@@ -1742,21 +1742,21 @@ const moviesTVQuestions = {
             emoji: "🏎️💨",
             question: "Who wrote the novel Fight Club?",
             options: [
-                "Chuck Palahniuk",
-                "Bret Easton Ellis",
-                "Don DeLillo"
-            ],
-            correct: 1
+                    "Don DeLillo",
+                    "Chuck Palahniuk",
+                    "Bret Easton Ellis"
+                ],
+            correct: 2
         },
         {
             topic: "The Twilight Zone",
             emoji: "🚗💨",
             question: "Who created The Twilight Zone?",
             options: [
-                "Rod Serling",
-                "Alfred Hitchcock",
-                "Gene Roddenberry"
-            ],
+                    "Rod Serling",
+                    "Alfred Hitchcock",
+                    "Gene Roddenberry"
+                ],
             correct: 0
         },
         {
@@ -1764,10 +1764,10 @@ const moviesTVQuestions = {
             emoji: "🏍️🛵",
             question: "What year was Casablanca released?",
             options: [
-                "1942",
-                "1941",
-                "1943"
-            ],
+                    "1942",
+                    "1943",
+                    "1941"
+                ],
             correct: 0
         },
         {
@@ -1775,32 +1775,32 @@ const moviesTVQuestions = {
             emoji: "🚀✈️",
             question: "What are Mulder and Scully's jobs?",
             options: [
-                "FBI agents",
-                "CIA agents",
-                "Police detectives"
-            ],
-            correct: 1
+                    "CIA agents",
+                    "FBI agents",
+                    "Police detectives"
+                ],
+            correct: 0
         },
         {
             topic: "The Silence of the Lambs",
             emoji: "🛩️🚁",
             question: "Who plays Hannibal Lecter?",
             options: [
-                "Anthony Hopkins",
-                "Brian Cox",
-                "Mads Mikkelsen"
-            ],
-            correct: 1
+                    "Anthony Hopkins",
+                    "Mads Mikkelsen",
+                    "Brian Cox"
+                ],
+            correct: 2
         },
         {
             topic: "Fargo",
             emoji: "⛵🚤",
             question: "What state is Fargo TV series filmed in?",
             options: [
-                "Minnesota",
-                "North Dakota",
-                "Wisconsin"
-            ],
+                    "Minnesota",
+                    "Wisconsin",
+                    "North Dakota"
+                ],
             correct: 0
         },
         {
@@ -1808,21 +1808,21 @@ const moviesTVQuestions = {
             emoji: "🚢⚓",
             question: "What war is depicted in Apocalypse Now?",
             options: [
-                "Vietnam War",
-                "Korean War",
-                "World War II"
-            ],
-            correct: 1
+                    "Vietnam War",
+                    "World War II",
+                    "Korean War"
+                ],
+            correct: 2
         },
         {
             topic: "Curb Your Enthusiasm",
             emoji: "🎬📹",
             question: "Who created Curb Your Enthusiasm?",
             options: [
-                "Larry David",
-                "Jerry Seinfeld",
-                "Ricky Gervais"
-            ],
+                    "Larry David",
+                    "Jerry Seinfeld",
+                    "Ricky Gervais"
+                ],
             correct: 1
         }
     ],
@@ -1832,11 +1832,11 @@ const moviesTVQuestions = {
             emoji: "🎬🎥",
             question: "What year was Citizen Kane released?",
             options: [
-                "1941",
-                "1940",
-                "1942",
-                "1939"
-            ],
+                    "1941",
+                    "1942",
+                    "1940",
+                    "1939"
+                ],
             correct: 0
         },
         {
@@ -1844,35 +1844,35 @@ const moviesTVQuestions = {
             emoji: "🎭🎪",
             question: "What percentage of population disappeared?",
             options: [
-                "2%",
-                "5%",
-                "10%",
-                "1%"
-            ],
-            correct: 1
+                    "5%",
+                    "2%",
+                    "10%",
+                    "1%"
+                ],
+            correct: 0
         },
         {
             topic: "2001: A Space Odyssey",
             emoji: "🍿🥤",
             question: "Who directed 2001: A Space Odyssey?",
             options: [
-                "Stanley Kubrick",
-                "Steven Spielberg",
-                "Ridley Scott",
-                "George Lucas"
-            ],
-            correct: 0
+                    "George Lucas",
+                    "Ridley Scott",
+                    "Stanley Kubrick",
+                    "Steven Spielberg"
+                ],
+            correct: 2
         },
         {
             topic: "Twin Peaks",
             emoji: "🎞️📽️",
             question: "Who created Twin Peaks?",
             options: [
-                "David Lynch",
-                "Mark Frost",
-                "Chris Carter",
-                "Vince Gilligan"
-            ],
+                    "David Lynch",
+                    "Chris Carter",
+                    "Mark Frost",
+                    "Vince Gilligan"
+                ],
             correct: 0
         },
         {
@@ -1880,47 +1880,47 @@ const moviesTVQuestions = {
             emoji: "📺📻",
             question: "Who directed The Seventh Seal?",
             options: [
-                "Ingmar Bergman",
-                "Federico Fellini",
-                "Akira Kurosawa",
-                "Andrei Tarkovsky"
-            ],
-            correct: 0
+                    "Andrei Tarkovsky",
+                    "Federico Fellini",
+                    "Akira Kurosawa",
+                    "Ingmar Bergman"
+                ],
+            correct: 3
         },
         {
             topic: "Deadwood",
             emoji: "🎤🎧",
             question: "What year is Deadwood set in?",
             options: [
-                "1870s",
-                "1860s",
-                "1880s",
-                "1890s"
-            ],
-            correct: 1
+                    "1860s",
+                    "1880s",
+                    "1870s",
+                    "1890s"
+                ],
+            correct: 0
         },
         {
             topic: "Vertigo",
             emoji: "🎵🎶",
             question: "What is Scottie's phobia in Vertigo?",
             options: [
-                "Acrophobia",
-                "Agoraphobia",
-                "Claustrophobia",
-                "Nyctophobia"
-            ],
-            correct: 1
+                    "Agoraphobia",
+                    "Nyctophobia",
+                    "Acrophobia",
+                    "Claustrophobia"
+                ],
+            correct: 0
         },
         {
             topic: "Six Feet Under",
             emoji: "🏆🥇",
             question: "What is the Fisher family business?",
             options: [
-                "Funeral home",
-                "Restaurant",
-                "Law firm",
-                "Hospital"
-            ],
+                    "Funeral home",
+                    "Restaurant",
+                    "Hospital",
+                    "Law firm"
+                ],
             correct: 0
         },
         {
@@ -1928,24 +1928,24 @@ const moviesTVQuestions = {
             emoji: "⭐🌟",
             question: "Who directed Rashomon?",
             options: [
-                "Akira Kurosawa",
-                "Yasujirō Ozu",
-                "Kenji Mizoguchi",
-                "Masaki Kobayashi"
-            ],
-            correct: 1
+                    "Yasujirō Ozu",
+                    "Akira Kurosawa",
+                    "Kenji Mizoguchi",
+                    "Masaki Kobayashi"
+                ],
+            correct: 0
         },
         {
             topic: "The Americans",
             emoji: "🎨🖼️",
             question: "What decade is The Americans set in?",
             options: [
-                "1980s",
-                "1970s",
-                "1990s",
-                "1960s"
-            ],
-            correct: 0
+                    "1960s",
+                    "1990s",
+                    "1970s",
+                    "1980s"
+                ],
+            correct: 3
         }
     ],
     extreme: [
@@ -2038,20 +2038,20 @@ const moviesTVQuestions = {
                 emoji: "🏆🌟",
                 question: "Will Smith moves to Bel-Air in the show.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Ghostbusters",
                 emoji: "👑💍",
                 question: "Ghostbusters catch ghosts.",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Suits",
@@ -2130,20 +2130,20 @@ const moviesTVQuestions = {
                 emoji: "🐉⚡",
                 question: "Who is the head writer?",
                 options: [
-                    "Liz Lemon",
-                    "Jack Donaghy"
+                    "Jack Donaghy",
+                    "Liz Lemon"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Django Unchained",
                 emoji: "🤖🔧",
                 question: "What genre is Django Unchained?",
                 options: [
-                    "Western",
-                    "Thriller"
+                    "Thriller",
+                    "Western"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Veep",
@@ -2170,10 +2170,10 @@ const moviesTVQuestions = {
                 emoji: "🔫💥",
                 question: "What are superheroes called in The Boys?",
                 options: [
-                    "Supes",
-                    "Heroes"
+                    "Heroes",
+                    "Supes"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Birdman",
@@ -2190,10 +2190,10 @@ const moviesTVQuestions = {
                 emoji: "🌹💔",
                 question: "What is the Mandalorian's code?",
                 options: [
-                    "This is the way",
-                    "May the Force be with you"
+                    "May the Force be with you",
+                    "This is the way"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Up",
@@ -2210,10 +2210,10 @@ const moviesTVQuestions = {
                 emoji: "🏃💨",
                 question: "What do they plan to rob?",
                 options: [
-                    "Bank",
-                    "Royal Mint"
+                    "Royal Mint",
+                    "Bank"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         hard: [
@@ -2223,8 +2223,8 @@ const moviesTVQuestions = {
                 question: "Who directed Birdman?",
                 options: [
                     "Alfonso Cuarón",
-                    "Alejandro González Iñárritu",
-                    "Guillermo del Toro"
+                    "Guillermo del Toro",
+                    "Alejandro González Iñárritu"
                 ],
                 correct: 0
             },
@@ -2233,11 +2233,11 @@ const moviesTVQuestions = {
                 emoji: "🎰🃏",
                 question: "What is Hannibal Lecter's profession in the show?",
                 options: [
+                    "Chef",
                     "Psychiatrist",
-                    "Surgeon",
-                    "Chef"
+                    "Surgeon"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Drive",
@@ -2256,8 +2256,8 @@ const moviesTVQuestions = {
                 question: "What company is the show about?",
                 options: [
                     "Easy Company",
-                    "Baker Company",
-                    "Charlie Company"
+                    "Charlie Company",
+                    "Baker Company"
                 ],
                 correct: 0
             },
@@ -2266,44 +2266,44 @@ const moviesTVQuestions = {
                 emoji: "🦇🌃",
                 question: "What instrument does Andrew play?",
                 options: [
+                    "Trumpet",
                     "Piano",
-                    "Drums",
-                    "Trumpet"
+                    "Drums"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Mindhunter",
                 emoji: "👮🔍",
                 question: "What do the agents study?",
                 options: [
-                    "Cold cases",
                     "Serial killers",
-                    "Organized crime"
+                    "Organized crime",
+                    "Cold cases"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Her",
                 emoji: "💰💵",
                 question: "What does the protagonist fall in love with?",
                 options: [
+                    "A hologram",
                     "A robot",
-                    "An AI",
-                    "A hologram"
+                    "An AI"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "The Leftovers",
                 emoji: "🎭😂",
                 question: "Where is the show primarily set?",
                 options: [
+                    "Austin",
                     "New York",
-                    "Mapleton",
-                    "Austin"
+                    "Mapleton"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Moonlight",
@@ -2321,11 +2321,11 @@ const moviesTVQuestions = {
                 emoji: "🎬📹",
                 question: "What are the ships searching for?",
                 options: [
-                    "Northwest Passage",
                     "Treasure",
-                    "New land"
+                    "New land",
+                    "Northwest Passage"
                 ],
-                correct: 0
+                correct: 2
             }
         ],
         expert: [
@@ -2334,96 +2334,96 @@ const moviesTVQuestions = {
                 emoji: "🎬🎥",
                 question: "Who directed The Tree of Life?",
                 options: [
-                    "Terrence Malick",
-                    "Paul Thomas Anderson",
                     "Darren Aronofsky",
-                    "Christopher Nolan"
+                    "Terrence Malick",
+                    "Christopher Nolan",
+                    "Paul Thomas Anderson"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "The Prisoner",
                 emoji: "🎭🎪",
                 question: "What is the protagonist known as?",
                 options: [
-                    "Number 5",
+                    "Number 8",
                     "Number 6",
                     "Number 7",
-                    "Number 8"
+                    "Number 5"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "A Separation",
                 emoji: "🏆🌟",
                 question: "What country is A Separation from?",
                 options: [
-                    "Iraq",
-                    "Iran",
+                    "Lebanon",
                     "Turkey",
-                    "Lebanon"
+                    "Iran",
+                    "Iraq"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "The Knick",
                 emoji: "👑💍",
                 question: "What century is The Knick set in?",
                 options: [
+                    "21st",
                     "19th",
                     "20th",
-                    "18th",
-                    "21st"
+                    "18th"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "The Master",
                 emoji: "🦸🦹",
                 question: "What is the cult-like organization called?",
                 options: [
-                    "The Cause",
                     "The Way",
                     "The Movement",
-                    "The Path"
+                    "The Path",
+                    "The Cause"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Carnivàle",
                 emoji: "🚀🌌",
                 question: "What decade is Carnivàle set in?",
                 options: [
+                    "1950s",
                     "1920s",
-                    "1930s",
                     "1940s",
-                    "1950s"
+                    "1930s"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Utopia",
                 emoji: "🦖🦕",
                 question: "What country produced the original Utopia?",
                 options: [
+                    "Australia",
                     "USA",
-                    "UK",
                     "Canada",
-                    "Australia"
+                    "UK"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Harakiri",
                 emoji: "🕷️🕸️",
                 question: "What is the central theme?",
                 options: [
-                    "Honor",
                     "Revenge",
-                    "Love",
-                    "War"
+                    "Honor",
+                    "War",
+                    "Love"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Terriers",
@@ -2512,70 +2512,70 @@ const moviesTVQuestions = {
                 emoji: "🎰🃏",
                 question: "Doctor Strange is a neurosurgeon.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "That '70s Show",
                 emoji: "🏎️💨",
                 question: "That '70s Show is set in Wisconsin.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "The Terminator",
                 emoji: "🚁✈️",
                 question: "The Terminator is a cyborg.",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Gilmore Girls",
                 emoji: "🦇🌃",
                 question: "Lorelai and Rory are mother and daughter.",
                 options: [
-                    "True",
-                    "False"
-                ],
-                correct: 1
-            },
-            {
-                topic: "Beauty and the Beast",
-                emoji: "👮🔍",
-                question: "Belle loves reading books.",
-                options: [
-                    "True",
-                    "False"
-                ],
-                correct: 0
-            },
-            {
-                topic: "The Vampire Diaries",
-                emoji: "💰💵",
-                question: "The show is set in Mystic Falls.",
-                options: [
                     "False",
                     "True"
                 ],
                 correct: 0
             },
             {
-                topic: "Aquaman",
-                emoji: "🎭😂",
-                question: "Aquaman can communicate with sea creatures.",
+                topic: "Beauty and the Beast",
+                emoji: "👮🔍",
+                question: "Belle loves reading books.",
+                options: [
+                    "False",
+                    "True"
+                ],
+                correct: 1
+            },
+            {
+                topic: "The Vampire Diaries",
+                emoji: "💰💵",
+                question: "The show is set in Mystic Falls.",
                 options: [
                     "True",
                     "False"
                 ],
                 correct: 1
+            },
+            {
+                topic: "Aquaman",
+                emoji: "🎭😂",
+                question: "Aquaman can communicate with sea creatures.",
+                options: [
+                    "False",
+                    "True"
+                ],
+                correct: 0
             },
             {
                 topic: "The Handmaid's Tale",
@@ -2604,10 +2604,10 @@ const moviesTVQuestions = {
                 emoji: "🎬🎥",
                 question: "What does the Spotlight team investigate?",
                 options: [
-                    "Catholic Church scandal",
-                    "Political corruption"
+                    "Political corruption",
+                    "Catholic Church scandal"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Logan",
@@ -2624,10 +2624,10 @@ const moviesTVQuestions = {
                 emoji: "👑💍",
                 question: "Who created Curb Your Enthusiasm?",
                 options: [
-                    "Larry David",
-                    "Jerry Seinfeld"
+                    "Jerry Seinfeld",
+                    "Larry David"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Arrival",
@@ -2674,10 +2674,10 @@ const moviesTVQuestions = {
                 emoji: "⚔️🛡️",
                 question: "What is BoJack's species?",
                 options: [
-                    "Horse",
-                    "Donkey"
+                    "Donkey",
+                    "Horse"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Mad Max: Fury Road",
@@ -2696,11 +2696,11 @@ const moviesTVQuestions = {
                 emoji: "🐉⚡",
                 question: "What is the main crisis in the film?",
                 options: [
-                    "War",
+                    "Plague",
                     "Infertility",
-                    "Plague"
+                    "War"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "The Leftovers",
@@ -2729,9 +2729,9 @@ const moviesTVQuestions = {
                 emoji: "🔫💥",
                 question: "What is the main character falsely accused of?",
                 options: [
-                    "Murder",
+                    "Theft",
                     "Child abuse",
-                    "Theft"
+                    "Murder"
                 ],
                 correct: 1
             },
@@ -2740,20 +2740,20 @@ const moviesTVQuestions = {
                 emoji: "🎩🎪",
                 question: "What state is Rectify set in?",
                 options: [
-                    "Georgia",
                     "Alabama",
+                    "Georgia",
                     "South Carolina"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Halt and Catch Fire",
                 emoji: "🎸🎤",
                 question: "What decade does the show start in?",
                 options: [
-                    "1970s",
+                    "1990s",
                     "1980s",
-                    "1990s"
+                    "1970s"
                 ],
                 correct: 1
             },
@@ -2762,11 +2762,11 @@ const moviesTVQuestions = {
                 emoji: "🏃💨",
                 question: "What music genre is featured?",
                 options: [
+                    "Blues",
                     "Folk",
-                    "Jazz",
-                    "Blues"
+                    "Jazz"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "The Americans",
@@ -2786,12 +2786,12 @@ const moviesTVQuestions = {
                 emoji: "🎰🃏",
                 question: "Who directed this Korean film?",
                 options: [
-                    "Park Chan-wook",
                     "Kim Ki-duk",
-                    "Bong Joon-ho",
-                    "Lee Chang-dong"
+                    "Park Chan-wook",
+                    "Lee Chang-dong",
+                    "Bong Joon-ho"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "The Singing Detective",
@@ -2799,59 +2799,59 @@ const moviesTVQuestions = {
                 question: "What illness does the protagonist have?",
                 options: [
                     "Cancer",
-                    "Psoriatic arthritis",
                     "Multiple sclerosis",
-                    "ALS"
+                    "ALS",
+                    "Psoriatic arthritis"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "In the Mood for Love",
                 emoji: "🚁✈️",
                 question: "Who directed In the Mood for Love?",
                 options: [
-                    "Wong Kar-wai",
-                    "Ang Lee",
                     "Zhang Yimou",
-                    "Chen Kaige"
+                    "Ang Lee",
+                    "Chen Kaige",
+                    "Wong Kar-wai"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "The Young Pope",
                 emoji: "🦇🌃",
                 question: "Who plays Pope Pius XIII?",
                 options: [
-                    "Jude Law",
                     "Michael Fassbender",
                     "Benedict Cumberbatch",
-                    "Tom Hiddleston"
+                    "Tom Hiddleston",
+                    "Jude Law"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Yi Yi",
                 emoji: "👮🔍",
                 question: "What does Yi Yi mean?",
                 options: [
+                    "Family",
                     "One One",
                     "A One and a Two",
-                    "Family",
                     "Life"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "The Night Of",
                 emoji: "💰💵",
                 question: "How many episodes is The Night Of?",
                 options: [
-                    "6",
                     "8",
                     "10",
+                    "6",
                     "12"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Cache",
@@ -2859,9 +2859,9 @@ const moviesTVQuestions = {
                 question: "Who directed Cache (Hidden)?",
                 options: [
                     "Michael Haneke",
+                    "Jacques Audiard",
                     "François Ozon",
-                    "Olivier Assayas",
-                    "Jacques Audiard"
+                    "Olivier Assayas"
                 ],
                 correct: 0
             },
@@ -2870,36 +2870,36 @@ const moviesTVQuestions = {
                 emoji: "🎪🤡",
                 question: "Who created Top of the Lake?",
                 options: [
-                    "Jane Campion",
                     "Nic Pizzolatto",
-                    "David Lynch",
-                    "Cary Fukunaga"
+                    "Jane Campion",
+                    "Cary Fukunaga",
+                    "David Lynch"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Once Upon a Time in Anatolia",
                 emoji: "🎬📹",
                 question: "What country is this film from?",
                 options: [
-                    "Greece",
-                    "Turkey",
+                    "Armenia",
                     "Iran",
-                    "Armenia"
+                    "Greece",
+                    "Turkey"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Treme",
                 emoji: "🎬🎥",
                 question: "What city is Treme set in post-disaster?",
                 options: [
+                    "Mobile",
                     "Houston",
                     "Miami",
-                    "New Orleans",
-                    "Mobile"
+                    "New Orleans"
                 ],
-                correct: 1
+                correct: 2
             }
         ],
         extreme: [
@@ -2954,10 +2954,10 @@ const moviesTVQuestions = {
                 emoji: "🐉⚡",
                 question: "Inside Out takes place inside a girl's mind.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Ant-Man",
@@ -2984,10 +2984,10 @@ const moviesTVQuestions = {
                 emoji: "👻👽",
                 question: "Ripley fights xenomorphs in Aliens.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Lost",
@@ -3014,10 +3014,10 @@ const moviesTVQuestions = {
                 emoji: "🌹💔",
                 question: "Dexter is a serial killer.",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Captain Marvel",
@@ -3044,10 +3044,10 @@ const moviesTVQuestions = {
                 emoji: "🎯🎲",
                 question: "A rat wants to be a chef.",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         medium: [
@@ -3056,10 +3056,10 @@ const moviesTVQuestions = {
                 emoji: "🎰🃏",
                 question: "What is the concierge's name?",
                 options: [
-                    "Gustave H.",
-                    "Zero"
+                    "Zero",
+                    "Gustave H."
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "The IT Crowd",
@@ -3106,20 +3106,20 @@ const moviesTVQuestions = {
                 emoji: "💰💵",
                 question: "Who is the assassin?",
                 options: [
-                    "Eve",
-                    "Villanelle"
+                    "Villanelle",
+                    "Eve"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Russian Doll",
                 emoji: "🎪🤡",
                 question: "What keeps happening to Nadia?",
                 options: [
-                    "She dies repeatedly",
-                    "She time travels"
+                    "She time travels",
+                    "She dies repeatedly"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Three Billboards",
@@ -3136,10 +3136,10 @@ const moviesTVQuestions = {
                 emoji: "🎬🎥",
                 question: "What country is Dark from?",
                 options: [
-                    "Austria",
-                    "Germany"
+                    "Germany",
+                    "Austria"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         hard: [
@@ -3149,8 +3149,8 @@ const moviesTVQuestions = {
                 question: "How many main characters are there?",
                 options: [
                     "1",
-                    "2",
-                    "3"
+                    "3",
+                    "2"
                 ],
                 correct: 0
             },
@@ -3159,11 +3159,11 @@ const moviesTVQuestions = {
                 emoji: "🏆🌟",
                 question: "What is the main concept?",
                 options: [
+                    "Clones",
                     "Time travel",
-                    "Parallel worlds",
-                    "Clones"
+                    "Parallel worlds"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "The Lives of Others",
@@ -3181,11 +3181,11 @@ const moviesTVQuestions = {
                 emoji: "🦸🦹",
                 question: "What are the protagonists part of?",
                 options: [
-                    "Support group",
                     "Drug trial",
+                    "Support group",
                     "Therapy"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Incendies",
@@ -3204,8 +3204,8 @@ const moviesTVQuestions = {
                 question: "What ability does Prairie have?",
                 options: [
                     "Telekinesis",
-                    "Dimensional travel",
-                    "Mind reading"
+                    "Mind reading",
+                    "Dimensional travel"
                 ],
                 correct: 0
             },
@@ -3214,31 +3214,31 @@ const moviesTVQuestions = {
                 emoji: "🦖🦕",
                 question: "Where does most of the film take place?",
                 options: [
-                    "Prison",
                     "Streets",
+                    "Prison",
                     "Hospital"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Patriot",
                 emoji: "🕷️🕸️",
                 question: "What does John express through?",
                 options: [
+                    "Poetry",
                     "Paintings",
-                    "Folk songs",
-                    "Poetry"
+                    "Folk songs"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Poetry",
                 emoji: "⚔️🛡️",
                 question: "What country is the film Poetry from?",
                 options: [
-                    "Japan",
+                    "China",
                     "South Korea",
-                    "China"
+                    "Japan"
                 ],
                 correct: 1
             },
@@ -3248,8 +3248,8 @@ const moviesTVQuestions = {
                 question: "What does the troupe perform?",
                 options: [
                     "Music",
-                    "Shakespeare",
-                    "Opera"
+                    "Opera",
+                    "Shakespeare"
                 ],
                 correct: 0
             }
@@ -3260,36 +3260,36 @@ const moviesTVQuestions = {
                 emoji: "🐉⚡",
                 question: "Who plays Lancaster Dodd?",
                 options: [
-                    "Philip Seymour Hoffman",
                     "Joaquin Phoenix",
+                    "Philip Seymour Hoffman",
                     "Daniel Day-Lewis",
                     "Tom Cruise"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "I May Destroy You",
                 emoji: "🤖🔧",
                 question: "Who created I May Destroy You?",
                 options: [
-                    "Phoebe Waller-Bridge",
                     "Michaela Coel",
+                    "Phoebe Waller-Bridge",
                     "Issa Rae",
                     "Lena Waithe"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Stalker",
                 emoji: "🏴‍☠️⚓",
                 question: "Who directed Stalker?",
                 options: [
-                    "Andrei Tarkovsky",
+                    "Aleksei German",
                     "Sergei Eisenstein",
-                    "Elem Klimov",
-                    "Aleksei German"
+                    "Andrei Tarkovsky",
+                    "Elem Klimov"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Gomorrah",
@@ -3308,48 +3308,48 @@ const moviesTVQuestions = {
                 emoji: "🔫💥",
                 question: "What filmmaking movement is it part of?",
                 options: [
-                    "Dogme 95",
                     "French New Wave",
                     "Italian Neorealism",
+                    "Dogme 95",
                     "Cinema Novo"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Enlightened",
                 emoji: "🎩🎪",
                 question: "Who created Enlightened?",
                 options: [
-                    "Laura Dern",
-                    "Mike White",
                     "Both A and B",
-                    "Amy Sherman-Palladino"
+                    "Laura Dern",
+                    "Amy Sherman-Palladino",
+                    "Mike White"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Uncle Boonmee",
                 emoji: "🌹💔",
                 question: "Who directed this Palme d'Or winner?",
                 options: [
-                    "Apichatpong Weerasethakul",
-                    "Wong Kar-wai",
+                    "Jafar Panahi",
                     "Hirokazu Kore-eda",
-                    "Jafar Panahi"
+                    "Wong Kar-wai",
+                    "Apichatpong Weerasethakul"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "The Bureau",
                 emoji: "🎸🎤",
                 question: "What agency is The Bureau about?",
                 options: [
+                    "Mossad",
                     "MI6",
-                    "CIA",
                     "DGSE",
-                    "Mossad"
+                    "CIA"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Winter Sleep",
@@ -3369,11 +3369,11 @@ const moviesTVQuestions = {
                 question: "What is Engrenages called in English?",
                 options: [
                     "Spiral",
-                    "The Mechanism",
+                    "The Bridge",
                     "Locked Up",
-                    "The Bridge"
+                    "The Mechanism"
                 ],
-                correct: 1
+                correct: 3
             }
         ],
         extreme: [
@@ -3456,10 +3456,10 @@ const moviesTVQuestions = {
                 emoji: "🏆🌟",
                 question: "Electric guitars need amplifiers.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Architecture",
@@ -3506,20 +3506,20 @@ const moviesTVQuestions = {
                 emoji: "🦖🦕",
                 question: "'Harry Potter' films are based on books.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Theater",
                 emoji: "🕷️🕸️",
                 question: "Comedy makes people laugh.",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Monuments",
@@ -3536,10 +3536,10 @@ const moviesTVQuestions = {
                 emoji: "💎🏝️",
                 question: "David Bowie was a British rock star.",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         medium: [
@@ -3548,10 +3548,10 @@ const moviesTVQuestions = {
                 emoji: "🐉⚡",
                 question: "Who painted 'Starry Night'?",
                 options: [
-                    "Vincent van Gogh",
-                    "Paul Gauguin"
+                    "Paul Gauguin",
+                    "Vincent van Gogh"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Music",
@@ -3598,20 +3598,20 @@ const moviesTVQuestions = {
                 emoji: "🎩🎪",
                 question: "Michelangelo sculpted the statue of David.",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Cinema",
                 emoji: "🌹💔",
                 question: "The first film ever made was in color.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Theater",
@@ -3628,10 +3628,10 @@ const moviesTVQuestions = {
                 emoji: "🏃💨",
                 question: "The Eiffel Tower is made entirely of wood.",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Music",
@@ -3650,11 +3650,11 @@ const moviesTVQuestions = {
                 emoji: "🎰🃏",
                 question: "Which artist is famous for painting sunflowers?",
                 options: [
-                    "Claude Monet",
                     "Vincent van Gogh",
+                    "Claude Monet",
                     "Salvador Dalí"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Music",
@@ -3672,33 +3672,33 @@ const moviesTVQuestions = {
                 emoji: "🚁✈️",
                 question: "What is the architectural style of the Taj Mahal?",
                 options: [
+                    "Ottoman",
                     "Mughal",
-                    "Persian",
-                    "Ottoman"
+                    "Persian"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Literature",
                 emoji: "🦇🌃",
                 question: "Who wrote 'Pride and Prejudice'?",
                 options: [
-                    "Charlotte Brontë",
                     "Jane Austen",
+                    "Charlotte Brontë",
                     "Emily Dickinson"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Dance",
                 emoji: "👮🔍",
                 question: "How many positions are there in classical ballet?",
                 options: [
-                    "5",
                     "7",
+                    "5",
                     "8"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Sculpture",
@@ -3706,32 +3706,32 @@ const moviesTVQuestions = {
                 question: "Which country gifted the Statue of Liberty to the USA?",
                 options: [
                     "France",
-                    "England",
-                    "Spain"
+                    "Spain",
+                    "England"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Cinema",
                 emoji: "🎭😂",
                 question: "Who directed 'The Godfather'?",
                 options: [
-                    "Martin Scorsese",
+                    "Steven Spielberg",
                     "Francis Ford Coppola",
-                    "Steven Spielberg"
+                    "Martin Scorsese"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Theater",
                 emoji: "🎪🤡",
                 question: "Who is considered the father of tragedy?",
                 options: [
+                    "Euripides",
                     "Sophocles",
-                    "Aeschylus",
-                    "Euripides"
+                    "Aeschylus"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "World Heritage",
@@ -3739,8 +3739,8 @@ const moviesTVQuestions = {
                 question: "How many wonders are in the Ancient World?",
                 options: [
                     "7",
-                    "10",
-                    "5"
+                    "5",
+                    "10"
                 ],
                 correct: 0
             },
@@ -3749,11 +3749,11 @@ const moviesTVQuestions = {
                 emoji: "🎬🎥",
                 question: "What technique uses wax to create patterns on fabric?",
                 options: [
-                    "Tie-dye",
                     "Batik",
+                    "Tie-dye",
                     "Screen printing"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         expert: [
@@ -3763,9 +3763,9 @@ const moviesTVQuestions = {
                 question: "In which year was 'The Starry Night' painted?",
                 options: [
                     "1885",
-                    "1889",
                     "1892",
-                    "1880"
+                    "1880",
+                    "1889"
                 ],
                 correct: 0
             },
@@ -3774,21 +3774,21 @@ const moviesTVQuestions = {
                 emoji: "🏆🌟",
                 question: "What is the musical term for 'very fast'?",
                 options: [
-                    "Presto",
                     "Allegro",
+                    "Largo",
                     "Vivace",
-                    "Largo"
+                    "Presto"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Architecture",
                 emoji: "👑💍",
                 question: "Who designed the Sydney Opera House?",
                 options: [
-                    "Frank Lloyd Wright",
-                    "Le Corbusier",
                     "Jørn Utzon",
+                    "Le Corbusier",
+                    "Frank Lloyd Wright",
                     "I.M. Pei"
                 ],
                 correct: 1
@@ -3798,10 +3798,10 @@ const moviesTVQuestions = {
                 emoji: "🦸🦹",
                 question: "Who won the first Nobel Prize in Literature?",
                 options: [
-                    "Sully Prudhomme",
+                    "W.B. Yeats",
                     "Rabindranath Tagore",
-                    "Rudyard Kipling",
-                    "W.B. Yeats"
+                    "Sully Prudhomme",
+                    "Rudyard Kipling"
                 ],
                 correct: 1
             },
@@ -3810,58 +3810,58 @@ const moviesTVQuestions = {
                 emoji: "🚀🌌",
                 question: "Which dance form originated in Cuba?",
                 options: [
+                    "Salsa",
                     "Samba",
-                    "Rumba",
                     "Mambo",
-                    "Salsa"
+                    "Rumba"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Sculpture",
                 emoji: "🧙🔮",
                 question: "What artistic period is 'The Thinker' from?",
                 options: [
-                    "Renaissance",
-                    "Baroque",
                     "Modern",
+                    "Baroque",
+                    "Renaissance",
                     "Classical"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Cinema",
                 emoji: "🦖🦕",
                 question: "Which film won the first Academy Award for Best Picture?",
                 options: [
-                    "Wings",
                     "The Jazz Singer",
+                    "The Circus",
                     "Sunrise",
-                    "The Circus"
+                    "Wings"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Theater",
                 emoji: "🕷️🕸️",
                 question: "What is the oldest surviving play?",
                 options: [
+                    "The Persians",
                     "Oedipus Rex",
                     "Medea",
-                    "The Persians",
                     "Antigone"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "World Heritage",
                 emoji: "⚔️🛡️",
                 question: "How many years did it take to build the Colosseum?",
                 options: [
-                    "8 years",
+                    "20 years",
                     "15 years",
                     "12 years",
-                    "20 years"
+                    "8 years"
                 ],
                 correct: 1
             },
@@ -3870,12 +3870,12 @@ const moviesTVQuestions = {
                 emoji: "💎🏝️",
                 question: "What year was the British Museum founded?",
                 options: [
-                    "1753",
-                    "1801",
+                    "1789",
                     "1725",
-                    "1789"
+                    "1753",
+                    "1801"
                 ],
-                correct: 1
+                correct: 3
             }
         ],
         extreme: [
@@ -3948,10 +3948,10 @@ const moviesTVQuestions = {
                 emoji: "🎰🃏",
                 question: "Baymax is a healthcare robot.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Daredevil",
@@ -4008,10 +4008,10 @@ const moviesTVQuestions = {
                 emoji: "🎭😂",
                 question: "Smallville is about young Superman.",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Venom",
@@ -4028,10 +4028,10 @@ const moviesTVQuestions = {
                 emoji: "🎬📹",
                 question: "Claire time travels in Outlander.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Wreck-It Ralph",
@@ -4060,10 +4060,10 @@ const moviesTVQuestions = {
                 emoji: "🏆🌟",
                 question: "What was Jimmy's brother's name?",
                 options: [
-                    "Chuck",
-                    "Howard"
+                    "Howard",
+                    "Chuck"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Wind River",
@@ -4130,10 +4130,10 @@ const moviesTVQuestions = {
                 emoji: "⚔️🛡️",
                 question: "What race are they competing in?",
                 options: [
-                    "Le Mans",
-                    "Monaco"
+                    "Monaco",
+                    "Le Mans"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Succession",
@@ -4152,11 +4152,11 @@ const moviesTVQuestions = {
                 emoji: "🐉⚡",
                 question: "What country is The Act of Killing about?",
                 options: [
+                    "Vietnam",
                     "Cambodia",
-                    "Indonesia",
-                    "Vietnam"
+                    "Indonesia"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "The Young Pope",
@@ -4164,10 +4164,10 @@ const moviesTVQuestions = {
                 question: "What is the Pope's name?",
                 options: [
                     "Pius XIII",
-                    "John Paul III",
-                    "Benedict XVI"
+                    "Benedict XVI",
+                    "John Paul III"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "The Deuce",
@@ -4186,8 +4186,8 @@ const moviesTVQuestions = {
                 question: "What is the priest's crisis about?",
                 options: [
                     "Faith",
-                    "Environmental",
-                    "Both"
+                    "Both",
+                    "Environmental"
                 ],
                 correct: 0
             },
@@ -4197,30 +4197,30 @@ const moviesTVQuestions = {
                 question: "What decade is Season 1 set in?",
                 options: [
                     "1970s",
-                    "1980s",
-                    "1990s"
+                    "1990s",
+                    "1980s"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "The Square",
                 emoji: "🌹💔",
                 question: "What country is The Square from?",
                 options: [
+                    "Norway",
                     "Denmark",
-                    "Sweden",
-                    "Norway"
+                    "Sweden"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Big Little Lies",
                 emoji: "🎸🎤",
                 question: "Where is Big Little Lies set?",
                 options: [
-                    "Monterey",
+                    "Santa Barbara",
                     "Malibu",
-                    "Santa Barbara"
+                    "Monterey"
                 ],
                 correct: 1
             },
@@ -4229,11 +4229,11 @@ const moviesTVQuestions = {
                 emoji: "🏃💨",
                 question: "What country is Shoplifters from?",
                 options: [
-                    "South Korea",
                     "Japan",
+                    "South Korea",
                     "China"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Succession S1",
@@ -4253,21 +4253,21 @@ const moviesTVQuestions = {
                 emoji: "🎰🃏",
                 question: "Who directed Close-Up?",
                 options: [
-                    "Abbas Kiarostami",
-                    "Asghar Farhadi",
+                    "Mohsen Makhmalbaf",
                     "Jafar Panahi",
-                    "Mohsen Makhmalbaf"
+                    "Asghar Farhadi",
+                    "Abbas Kiarostami"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Olive Kitteridge",
                 emoji: "🏎️💨",
                 question: "Who plays Olive Kitteridge?",
                 options: [
-                    "Frances McDormand",
-                    "Meryl Streep",
                     "Glenn Close",
+                    "Meryl Streep",
+                    "Frances McDormand",
                     "Diane Keaton"
                 ],
                 correct: 1
@@ -4277,12 +4277,12 @@ const moviesTVQuestions = {
                 emoji: "🚁✈️",
                 question: "Who directed The Assassin?",
                 options: [
-                    "Hou Hsiao-hsien",
                     "Wong Kar-wai",
                     "Zhang Yimou",
+                    "Hou Hsiao-hsien",
                     "Ang Lee"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "This Is England",
@@ -4290,11 +4290,11 @@ const moviesTVQuestions = {
                 question: "What decade is This Is England set in?",
                 options: [
                     "1970s",
-                    "1980s",
                     "1990s",
+                    "1980s",
                     "1960s"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Secret Sunshine",
@@ -4302,9 +4302,9 @@ const moviesTVQuestions = {
                 question: "Who directed Secret Sunshine?",
                 options: [
                     "Lee Chang-dong",
+                    "Park Chan-wook",
                     "Hong Sang-soo",
-                    "Kim Ki-duk",
-                    "Park Chan-wook"
+                    "Kim Ki-duk"
                 ],
                 correct: 0
             },
@@ -4313,24 +4313,24 @@ const moviesTVQuestions = {
                 emoji: "💰💵",
                 question: "How many episodes is The Shadow Line?",
                 options: [
-                    "5",
                     "6",
                     "7",
-                    "8"
+                    "8",
+                    "5"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Silent Light",
                 emoji: "🎭😂",
                 question: "What country is Silent Light from?",
                 options: [
-                    "Argentina",
                     "Mexico",
                     "Brazil",
+                    "Argentina",
                     "Colombia"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Southcliffe",
@@ -4338,9 +4338,9 @@ const moviesTVQuestions = {
                 question: "How many episodes is Southcliffe?",
                 options: [
                     "3",
-                    "4",
+                    "6",
                     "5",
-                    "6"
+                    "4"
                 ],
                 correct: 0
             }
@@ -4409,20 +4409,20 @@ const moviesTVQuestions = {
                 emoji: "🐉⚡",
                 question: "Judy Hopps wants to be a police officer.",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Luke Cage",
                 emoji: "🤖🔧",
                 question: "Luke Cage has unbreakable skin.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Frasier",
@@ -4439,10 +4439,10 @@ const moviesTVQuestions = {
                 emoji: "👻👽",
                 question: "RoboCop is part human.",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "The Crown",
@@ -4459,20 +4459,20 @@ const moviesTVQuestions = {
                 emoji: "🎩🎪",
                 question: "Hercules is a Greek demigod.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "The 100",
                 emoji: "🌹💔",
                 question: "The 100 is set in a post-apocalyptic world.",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Joker",
@@ -4489,10 +4489,10 @@ const moviesTVQuestions = {
                 emoji: "🏃💨",
                 question: "Westworld features android hosts.",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Big Hero 6",
@@ -4531,10 +4531,10 @@ const moviesTVQuestions = {
                 emoji: "🦇🌃",
                 question: "What percentage of people vanished?",
                 options: [
-                    "2%",
-                    "5%"
+                    "5%",
+                    "2%"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Nightcrawler",
@@ -4571,10 +4571,10 @@ const moviesTVQuestions = {
                 emoji: "🎪🤡",
                 question: "What era is it set in?",
                 options: [
-                    "Victorian",
-                    "Edwardian"
+                    "Edwardian",
+                    "Victorian"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Whiplash",
@@ -4603,9 +4603,9 @@ const moviesTVQuestions = {
                 emoji: "🎭🎪",
                 question: "Who directed Holy Motors?",
                 options: [
-                    "Leos Carax",
+                    "Jacques Audiard",
                     "Jean-Luc Godard",
-                    "Jacques Audiard"
+                    "Leos Carax"
                 ],
                 correct: 1
             },
@@ -4625,44 +4625,44 @@ const moviesTVQuestions = {
                 emoji: "👑💍",
                 question: "Who directed Under the Skin?",
                 options: [
-                    "Jonathan Glazer",
                     "Nicolas Winding Refn",
+                    "Jonathan Glazer",
                     "Shane Carruth"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "The Knick",
                 emoji: "🦸🦹",
                 question: "Who directed The Knick?",
                 options: [
-                    "David Fincher",
                     "Steven Soderbergh",
-                    "Paul Thomas Anderson"
+                    "Paul Thomas Anderson",
+                    "David Fincher"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "A Girl Walks Home Alone at Night",
                 emoji: "🚀🌌",
                 question: "What language is the film in?",
                 options: [
-                    "Arabic",
+                    "Turkish",
                     "Persian",
-                    "Turkish"
+                    "Arabic"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Top of the Lake",
                 emoji: "🧙🔮",
                 question: "Where is Season 1 set?",
                 options: [
-                    "Australia",
                     "New Zealand",
-                    "Scotland"
+                    "Scotland",
+                    "Australia"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "It Follows",
@@ -4670,8 +4670,8 @@ const moviesTVQuestions = {
                 question: "What is following the protagonist?",
                 options: [
                     "Demon",
-                    "Curse",
-                    "Ghost"
+                    "Ghost",
+                    "Curse"
                 ],
                 correct: 0
             },
@@ -4680,33 +4680,33 @@ const moviesTVQuestions = {
                 emoji: "🕷️🕸️",
                 question: "What decade is Season 1 set?",
                 options: [
-                    "1970s",
                     "1980s",
+                    "1970s",
                     "1990s"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "The Lobster",
                 emoji: "⚔️🛡️",
                 question: "What happens if you don't find a partner?",
                 options: [
+                    "Imprisoned",
                     "Turned into animal",
-                    "Exiled",
-                    "Imprisoned"
+                    "Exiled"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Halt and Catch Fire S1",
                 emoji: "💎🏝️",
                 question: "What are they trying to build?",
                 options: [
+                    "Console",
                     "Computer",
-                    "Software",
-                    "Console"
+                    "Software"
                 ],
-                correct: 1
+                correct: 2
             }
         ],
         expert: [
@@ -4715,36 +4715,36 @@ const moviesTVQuestions = {
                 emoji: "🐉⚡",
                 question: "Who directed Marketa Lazarová?",
                 options: [
-                    "František Vláčil",
+                    "Jan Švankmajer",
                     "Jiří Menzel",
                     "Miloš Forman",
-                    "Jan Švankmajer"
+                    "František Vláčil"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Carlos",
                 emoji: "🤖🔧",
                 question: "How long is the full Carlos?",
                 options: [
-                    "4.5 hours",
                     "5.5 hours",
+                    "4.5 hours",
                     "6 hours",
                     "3.5 hours"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Werckmeister Harmonies",
                 emoji: "🏴‍☠️⚓",
                 question: "Who directed Werckmeister Harmonies?",
                 options: [
+                    "István Szabó",
                     "Béla Tarr",
                     "Miklós Jancsó",
-                    "István Szabó",
                     "Kornél Mundruczó"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Fortitude",
@@ -4753,8 +4753,8 @@ const moviesTVQuestions = {
                 options: [
                     "Arctic Norway",
                     "Iceland",
-                    "Greenland",
-                    "Alaska"
+                    "Alaska",
+                    "Greenland"
                 ],
                 correct: 1
             },
@@ -4763,69 +4763,69 @@ const moviesTVQuestions = {
                 emoji: "🔫💥",
                 question: "Who directed Tropical Malady?",
                 options: [
-                    "Apichatpong Weerasethakul",
-                    "Pen-Ek Ratanaruang",
                     "Wisit Sasanatieng",
-                    "Anocha Suwichakornpong"
+                    "Apichatpong Weerasethakul",
+                    "Anocha Suwichakornpong",
+                    "Pen-Ek Ratanaruang"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "The Affair",
                 emoji: "🎩🎪",
                 question: "How is The Affair's narrative told?",
                 options: [
-                    "Linear",
                     "Multiple perspectives",
-                    "Flashback",
-                    "Reverse chronology"
+                    "Linear",
+                    "Reverse chronology",
+                    "Flashback"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "The Turin Horse",
                 emoji: "🌹💔",
                 question: "Who directed The Turin Horse?",
                 options: [
-                    "Béla Tarr",
                     "Andrei Tarkovsky",
+                    "Aleksandr Sokurov",
                     "Theo Angelopoulos",
-                    "Aleksandr Sokurov"
+                    "Béla Tarr"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Broadchurch",
                 emoji: "🎸🎤",
                 question: "What country is Broadchurch from?",
                 options: [
-                    "UK",
                     "Ireland",
                     "Australia",
+                    "UK",
                     "New Zealand"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "The Great Beauty",
                 emoji: "🏃💨",
                 question: "Who directed The Great Beauty?",
                 options: [
-                    "Paolo Sorrentino",
-                    "Nanni Moretti",
                     "Matteo Garrone",
-                    "Marco Bellocchio"
+                    "Marco Bellocchio",
+                    "Paolo Sorrentino",
+                    "Nanni Moretti"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Utopia",
                 emoji: "🎯🎲",
                 question: "What are they searching for in Utopia?",
                 options: [
-                    "Manuscript",
-                    "Painting",
                     "Book",
+                    "Painting",
+                    "Manuscript",
                     "Film"
                 ],
                 correct: 1
@@ -4911,10 +4911,10 @@ const moviesTVQuestions = {
                 emoji: "🏆🌟",
                 question: "Beethoven continued composing after becoming deaf.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Architecture",
@@ -4931,20 +4931,20 @@ const moviesTVQuestions = {
                 emoji: "🦸🦹",
                 question: "Mary Shelley wrote 'Frankenstein'.",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Dance",
                 emoji: "🚀🌌",
                 question: "Australia has indigenous dance traditions.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Sculpture",
@@ -4971,10 +4971,10 @@ const moviesTVQuestions = {
                 emoji: "🕷️🕸️",
                 question: "An understudy replaces the main actor when needed.",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Monuments",
@@ -5003,10 +5003,10 @@ const moviesTVQuestions = {
                 emoji: "🤖🔧",
                 question: "What is a musical composition for two performers?",
                 options: [
-                    "Duet",
-                    "Solo"
+                    "Solo",
+                    "Duet"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Architecture",
@@ -5023,20 +5023,20 @@ const moviesTVQuestions = {
                 emoji: "🔫💥",
                 question: "What is Brazil's national dance?",
                 options: [
-                    "Salsa",
-                    "Samba"
+                    "Samba",
+                    "Salsa"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Sculpture",
                 emoji: "🎩🎪",
                 question: "What is clay sculpture that is fired in a kiln?",
                 options: [
-                    "Ceramic",
-                    "Bronze"
+                    "Bronze",
+                    "Ceramic"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Cinema",
@@ -5063,20 +5063,20 @@ const moviesTVQuestions = {
                 emoji: "🏃💨",
                 question: "What is the famous Brazilian carnival city?",
                 options: [
-                    "Salvador",
-                    "Rio de Janeiro"
+                    "Rio de Janeiro",
+                    "Salvador"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Museums",
                 emoji: "🎯🎲",
                 question: "Where is the Kunsthistorisches Museum?",
                 options: [
-                    "Vienna",
-                    "Berlin"
+                    "Berlin",
+                    "Vienna"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         hard: [
@@ -5085,22 +5085,22 @@ const moviesTVQuestions = {
                 emoji: "🎰🃏",
                 question: "Which artist painted 'The Card Players'?",
                 options: [
-                    "Paul Cézanne",
                     "Edgar Degas",
-                    "Henri Matisse"
+                    "Henri Matisse",
+                    "Paul Cézanne"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Music",
                 emoji: "🏎️💨",
                 question: "Which composer wrote 'The Rite of Spring'?",
                 options: [
-                    "Igor Stravinsky",
+                    "Dmitri Shostakovich",
                     "Sergei Prokofiev",
-                    "Dmitri Shostakovich"
+                    "Igor Stravinsky"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Architecture",
@@ -5108,8 +5108,8 @@ const moviesTVQuestions = {
                 question: "What is Gaudí's unfinished church in Barcelona?",
                 options: [
                     "Sagrada Família",
-                    "Casa Batlló",
-                    "Park Güell"
+                    "Park Güell",
+                    "Casa Batlló"
                 ],
                 correct: 0
             },
@@ -5118,9 +5118,9 @@ const moviesTVQuestions = {
                 emoji: "👮🔍",
                 question: "What is the Spanish flamenco hand movement called?",
                 options: [
-                    "Palmas",
+                    "Braceo",
                     "Zapateado",
-                    "Braceo"
+                    "Palmas"
                 ],
                 correct: 1
             },
@@ -5130,8 +5130,8 @@ const moviesTVQuestions = {
                 question: "What artist created 'Cloud Gate' in Chicago?",
                 options: [
                     "Anish Kapoor",
-                    "Jeff Koons",
-                    "Damien Hirst"
+                    "Damien Hirst",
+                    "Jeff Koons"
                 ],
                 correct: 0
             },
@@ -5141,32 +5141,32 @@ const moviesTVQuestions = {
                 question: "What is Chinese traditional opera?",
                 options: [
                     "Peking Opera",
-                    "Kabuki",
-                    "Noh"
+                    "Noh",
+                    "Kabuki"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "World Heritage",
                 emoji: "🎬📹",
                 question: "What ancient Incan city is in Peru?",
                 options: [
-                    "Machu Picchu",
                     "Chichen Itza",
+                    "Machu Picchu",
                     "Tikal"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Crafts",
                 emoji: "🎬🎥",
                 question: "What is Japanese decorative metal inlay?",
                 options: [
-                    "Zogan",
+                    "Shibori",
                     "Raku",
-                    "Shibori"
+                    "Zogan"
                 ],
-                correct: 0
+                correct: 2
             }
         ],
         expert: [
@@ -5175,48 +5175,48 @@ const moviesTVQuestions = {
                 emoji: "🎭🎪",
                 question: "Which artist founded the Precisionism movement?",
                 options: [
-                    "Charles Demuth",
                     "Georgia O'Keeffe",
+                    "Charles Demuth",
                     "Edward Hopper",
                     "Charles Sheeler"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Music",
                 emoji: "🏆🌟",
                 question: "How many Brandenburg Concertos did Bach compose?",
                 options: [
-                    "6",
-                    "4",
                     "8",
-                    "12"
+                    "4",
+                    "12",
+                    "6"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Architecture",
                 emoji: "👑💍",
                 question: "Who carved the ancient city of Petra?",
                 options: [
-                    "Nabataeans",
                     "Romans",
                     "Byzantines",
+                    "Nabataeans",
                     "Persians"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Dance",
                 emoji: "🚀🌌",
                 question: "Who choreographed 'West Side Story'?",
                 options: [
-                    "Jerome Robbins",
-                    "Bob Fosse",
                     "Michael Bennett",
-                    "Twyla Tharp"
+                    "Twyla Tharp",
+                    "Bob Fosse",
+                    "Jerome Robbins"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Sculpture",
@@ -5247,12 +5247,12 @@ const moviesTVQuestions = {
                 emoji: "💎🏝️",
                 question: "What museum houses Botticelli's 'Birth of Venus'?",
                 options: [
-                    "Uffizi Gallery",
+                    "Accademia",
                     "Vatican Museums",
-                    "Borghese Gallery",
-                    "Accademia"
+                    "Uffizi Gallery",
+                    "Borghese Gallery"
                 ],
-                correct: 0
+                correct: 2
             }
         ],
         extreme: [
@@ -5325,10 +5325,10 @@ const moviesTVQuestions = {
                 emoji: "🎰🃏",
                 question: "Ariel trades her voice for legs.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Iron Fist",
@@ -5355,10 +5355,10 @@ const moviesTVQuestions = {
                 emoji: "🦇🌃",
                 question: "Blade is a vampire hunter.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Homeland",
@@ -5385,10 +5385,10 @@ const moviesTVQuestions = {
                 emoji: "🎭😂",
                 question: "Gotham is about young Bruce Wayne.",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Suicide Squad",
@@ -5405,10 +5405,10 @@ const moviesTVQuestions = {
                 emoji: "🎬📹",
                 question: "The siblings have superpowers.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "How to Train Your Dragon",
@@ -5457,20 +5457,20 @@ const moviesTVQuestions = {
                 emoji: "🦸🦹",
                 question: "What type of series is Black Mirror?",
                 options: [
-                    "Anthology",
-                    "Serial"
+                    "Serial",
+                    "Anthology"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Brooklyn Nine-Nine",
                 emoji: "🚀🌌",
                 question: "What precinct do they work at?",
                 options: [
-                    "99th",
-                    "88th"
+                    "88th",
+                    "99th"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Killing Eve",
@@ -5529,33 +5529,33 @@ const moviesTVQuestions = {
                 emoji: "🐉⚡",
                 question: "How long is Mysteries of Lisbon?",
                 options: [
+                    "5 hours",
                     "3.5 hours",
-                    "4.5 hours",
-                    "5 hours"
+                    "4.5 hours"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Peaky Blinders",
                 emoji: "🤖🔧",
                 question: "What year does Season 1 start?",
                 options: [
-                    "1919",
+                    "1921",
                     "1920",
-                    "1921"
+                    "1919"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Certified Copy",
                 emoji: "🏴‍☠️⚓",
                 question: "What is the film's central theme?",
                 options: [
-                    "Identity",
                     "Authenticity",
-                    "Memory"
+                    "Memory",
+                    "Identity"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Line of Duty",
@@ -5573,11 +5573,11 @@ const moviesTVQuestions = {
                 emoji: "🔫💥",
                 question: "How much dialogue is in the film?",
                 options: [
+                    "Excessive",
                     "Very little",
-                    "Normal amount",
-                    "Excessive"
+                    "Normal amount"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Bloodline",
@@ -5595,22 +5595,22 @@ const moviesTVQuestions = {
                 emoji: "🌹💔",
                 question: "Who directed Post Tenebras Lux?",
                 options: [
+                    "Alejandro González Iñárritu",
                     "Amat Escalante",
-                    "Carlos Reygadas",
-                    "Alejandro González Iñárritu"
+                    "Carlos Reygadas"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Quarry",
                 emoji: "🎸🎤",
                 question: "What decade is Quarry set in?",
                 options: [
-                    "1960s",
                     "1970s",
-                    "1980s"
+                    "1980s",
+                    "1960s"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Knight of Cups",
@@ -5641,12 +5641,12 @@ const moviesTVQuestions = {
                 emoji: "🎰🃏",
                 question: "How long is Shoah?",
                 options: [
+                    "10 hours",
                     "7 hours",
-                    "8.5 hours",
                     "9.5 hours",
-                    "10 hours"
+                    "8.5 hours"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Wallander",
@@ -5665,36 +5665,36 @@ const moviesTVQuestions = {
                 emoji: "🚁✈️",
                 question: "Who directed Inland Empire?",
                 options: [
-                    "David Lynch",
                     "David Cronenberg",
                     "Darren Aronofsky",
-                    "Terry Gilliam"
+                    "Terry Gilliam",
+                    "David Lynch"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Occupied",
                 emoji: "🦇🌃",
                 question: "What country occupies Norway in the series?",
                 options: [
-                    "Russia",
-                    "Germany",
                     "China",
-                    "USA"
+                    "USA",
+                    "Germany",
+                    "Russia"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Uncle Boonmee",
                 emoji: "👮🔍",
                 question: "What award did Uncle Boonmee win?",
                 options: [
-                    "Golden Lion",
+                    "Grand Prix",
                     "Palme d'Or",
                     "Golden Bear",
-                    "Grand Prix"
+                    "Golden Lion"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "The Tunnel",
@@ -5702,9 +5702,9 @@ const moviesTVQuestions = {
                 question: "Which countries does the tunnel connect?",
                 options: [
                     "UK-France",
+                    "Germany-France",
                     "Spain-France",
-                    "Italy-France",
-                    "Germany-France"
+                    "Italy-France"
                 ],
                 correct: 0
             },
@@ -5713,24 +5713,24 @@ const moviesTVQuestions = {
                 emoji: "🎭😂",
                 question: "Who directed The Color of Pomegranates?",
                 options: [
+                    "Elem Klimov",
                     "Sergei Parajanov",
-                    "Andrei Tarkovsky",
                     "Aleksandr Sokurov",
-                    "Elem Klimov"
+                    "Andrei Tarkovsky"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Engrenages",
                 emoji: "🎪🤡",
                 question: "What is Laure Berthaud's job?",
                 options: [
-                    "Detective",
                     "Prosecutor",
                     "Lawyer",
+                    "Detective",
                     "Judge"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "The Holy Mountain",
@@ -5738,21 +5738,21 @@ const moviesTVQuestions = {
                 question: "Who directed The Holy Mountain?",
                 options: [
                     "Alejandro Jodorowsky",
-                    "Luis Buñuel",
                     "Fernando Arrabal",
+                    "Luis Buñuel",
                     "Carlos Saura"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Borgen",
                 emoji: "🎬🎥",
                 question: "How many seasons does Borgen have?",
                 options: [
-                    "2",
+                    "5",
                     "3",
                     "4",
-                    "5"
+                    "2"
                 ],
                 correct: 1
             }
@@ -5837,20 +5837,20 @@ const moviesTVQuestions = {
                 emoji: "🤖🔧",
                 question: "Frank Castle becomes The Punisher.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "All in the Family",
                 emoji: "🏴‍☠️⚓",
                 question: "All in the Family addressed social issues.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "The Fifth Element",
@@ -5877,20 +5877,20 @@ const moviesTVQuestions = {
                 emoji: "🎩🎪",
                 question: "Aurora falls into a deep sleep.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Agents of S.H.I.E.L.D.",
                 emoji: "🌹💔",
                 question: "S.H.I.E.L.D. is a spy organization.",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Birds of Prey",
@@ -5907,10 +5907,10 @@ const moviesTVQuestions = {
                 emoji: "🏃💨",
                 question: "Ciri has special powers.",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Despicable Me",
@@ -5929,30 +5929,30 @@ const moviesTVQuestions = {
                 emoji: "🎰🃏",
                 question: "What is Reynolds' profession?",
                 options: [
-                    "Couturier",
-                    "Tailor"
+                    "Tailor",
+                    "Couturier"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "The Shield",
                 emoji: "🏎️💨",
                 question: "What is the team called?",
                 options: [
-                    "Strike Team",
-                    "SWAT"
+                    "SWAT",
+                    "Strike Team"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Wind River",
                 emoji: "🚁✈️",
                 question: "What is Cory's profession?",
                 options: [
-                    "Tracker",
-                    "Sheriff"
+                    "Sheriff",
+                    "Tracker"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Mare of Easttown",
@@ -5979,10 +5979,10 @@ const moviesTVQuestions = {
                 emoji: "💰💵",
                 question: "Where is Gomorrah set?",
                 options: [
-                    "Naples",
-                    "Rome"
+                    "Rome",
+                    "Naples"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Arrival",
@@ -6019,10 +6019,10 @@ const moviesTVQuestions = {
                 emoji: "🎬🎥",
                 question: "What is Prairie's ability?",
                 options: [
-                    "Dimension jumping",
-                    "Time travel"
+                    "Time travel",
+                    "Dimension jumping"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         hard: [
@@ -6031,11 +6031,11 @@ const moviesTVQuestions = {
                 emoji: "🎭🎪",
                 question: "What war is The Ascent set during?",
                 options: [
-                    "World War I",
                     "World War II",
+                    "World War I",
                     "Cold War"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "The Young Pope",
@@ -6053,22 +6053,22 @@ const moviesTVQuestions = {
                 emoji: "👑💍",
                 question: "What dynasty is The Assassin set in?",
                 options: [
-                    "Ming",
                     "Tang",
+                    "Ming",
                     "Qing"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Deutschland 83",
                 emoji: "🦸🦹",
                 question: "Which side is Martin from?",
                 options: [
-                    "East Germany",
                     "West Germany",
-                    "Both"
+                    "Both",
+                    "East Germany"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Tales of the Unexpected",
@@ -6087,8 +6087,8 @@ const moviesTVQuestions = {
                 question: "What is Anna's profession?",
                 options: [
                     "Teacher",
-                    "Governess",
-                    "Nanny"
+                    "Nanny",
+                    "Governess"
                 ],
                 correct: 0
             },
@@ -6098,8 +6098,8 @@ const moviesTVQuestions = {
                 question: "How is the ghost depicted?",
                 options: [
                     "Sheet with eyeholes",
-                    "Transparent figure",
-                    "Shadow"
+                    "Shadow",
+                    "Transparent figure"
                 ],
                 correct: 0
             },
@@ -6108,33 +6108,33 @@ const moviesTVQuestions = {
                 emoji: "🕷️🕸️",
                 question: "How many seasons does Deadwood have?",
                 options: [
-                    "2",
                     "3",
-                    "4"
+                    "4",
+                    "2"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Personal Shopper",
                 emoji: "⚔️🛡️",
                 question: "Who directed Personal Shopper?",
                 options: [
-                    "Olivier Assayas",
                     "François Ozon",
-                    "Claire Denis"
+                    "Claire Denis",
+                    "Olivier Assayas"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Taboo",
                 emoji: "💎🏝️",
                 question: "What century is Taboo set in?",
                 options: [
-                    "18th",
                     "19th",
+                    "18th",
                     "17th"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         expert: [
@@ -6143,22 +6143,22 @@ const moviesTVQuestions = {
                 emoji: "🐉⚡",
                 question: "How long is Out 1?",
                 options: [
-                    "10 hours",
                     "12 hours",
+                    "10 hours",
                     "13 hours",
                     "15 hours"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "The Bridge",
                 emoji: "🤖🔧",
                 question: "Which countries does the original bridge connect?",
                 options: [
-                    "Denmark-Sweden",
+                    "Germany-Denmark",
                     "Norway-Sweden",
-                    "Finland-Sweden",
-                    "Germany-Denmark"
+                    "Denmark-Sweden",
+                    "Finland-Sweden"
                 ],
                 correct: 1
             },
@@ -6167,36 +6167,36 @@ const moviesTVQuestions = {
                 emoji: "🏴‍☠️⚓",
                 question: "Who directed Nostalghia?",
                 options: [
-                    "Andrei Tarkovsky",
-                    "Aleksandr Sokurov",
+                    "Sergei Parajanov",
                     "Elem Klimov",
-                    "Sergei Parajanov"
+                    "Aleksandr Sokurov",
+                    "Andrei Tarkovsky"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "The Bureau",
                 emoji: "👻👽",
                 question: "How many seasons does The Bureau have?",
                 options: [
-                    "3",
                     "4",
+                    "6",
                     "5",
-                    "6"
+                    "3"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Mysteries of the Organism",
                 emoji: "🔫💥",
                 question: "Who directed WR: Mysteries of the Organism?",
                 options: [
+                    "Goran Paskaljević",
                     "Dušan Makavejev",
                     "Emir Kusturica",
-                    "Goran Paskaljević",
                     "Srđan Dragojević"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Spiral",
@@ -6215,48 +6215,48 @@ const moviesTVQuestions = {
                 emoji: "🌹💔",
                 question: "How long is the full version of Fanny and Alexander?",
                 options: [
-                    "3 hours",
-                    "4 hours",
+                    "6 hours",
                     "5 hours",
-                    "6 hours"
+                    "3 hours",
+                    "4 hours"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Gomorrah",
                 emoji: "🎸🎤",
                 question: "How many seasons does Gomorrah have?",
                 options: [
-                    "3",
                     "4",
-                    "5",
-                    "6"
+                    "6",
+                    "3",
+                    "5"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Dekalog",
                 emoji: "🏃💨",
                 question: "How many films are in Dekalog?",
                 options: [
-                    "8",
                     "9",
+                    "8",
                     "10",
                     "12"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Montag",
                 emoji: "🎯🎲",
                 question: "What is Montag (Monday) part of?",
                 options: [
-                    "Berlin Alexanderplatz",
                     "Heimat",
-                    "Edgar Reitz trilogy",
-                    "Standalone film"
+                    "Berlin Alexanderplatz",
+                    "Standalone film",
+                    "Edgar Reitz trilogy"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         extreme: [
@@ -6329,10 +6329,10 @@ const moviesTVQuestions = {
                 emoji: "🎭🎪",
                 question: "Kuzco is turned into a llama.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Cloak & Dagger",
@@ -6349,20 +6349,20 @@ const moviesTVQuestions = {
                 emoji: "👑💍",
                 question: "The Golden Girls live in Miami.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Total Recall",
                 emoji: "🦸🦹",
                 question: "Doug Quaid goes to Mars.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "The Blacklist",
@@ -6379,10 +6379,10 @@ const moviesTVQuestions = {
                 emoji: "🧙🔮",
                 question: "Kenai is transformed into a bear.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Legends of Tomorrow",
@@ -6399,20 +6399,20 @@ const moviesTVQuestions = {
                 emoji: "🕷️🕸️",
                 question: "The New Mutants are young mutants.",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "The Boys",
                 emoji: "⚔️🛡️",
                 question: "The Boys fight corrupt superheroes.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             }
         ]
     },
@@ -6423,15 +6423,25 @@ const moviesTVQuestions = {
                 emoji: "💎🏝️",
                 question: "The Madrigal family has magical gifts.",
                 options: [
+                    "False",
+                    "True"
+                ],
+                correct: 1
+            },
+            {
+                topic: "Moon Knight",
+                emoji: "🐉⚡",
+                question: "Moon Knight has multiple personalities.",
+                options: [
                     "True",
                     "False"
                 ],
                 correct: 0
             },
             {
-                topic: "Moon Knight",
-                emoji: "🐉⚡",
-                question: "Moon Knight has multiple personalities.",
+                topic: "Taxi",
+                emoji: "🤖🔧",
+                question: "Taxi is set in New York.",
                 options: [
                     "False",
                     "True"
@@ -6439,24 +6449,14 @@ const moviesTVQuestions = {
                 correct: 1
             },
             {
-                topic: "Taxi",
-                emoji: "🤖🔧",
-                question: "Taxi is set in New York.",
-                options: [
-                    "True",
-                    "False"
-                ],
-                correct: 0
-            },
-            {
                 topic: "The Matrix",
                 emoji: "🏴‍☠️⚓",
                 question: "Neo can dodge bullets.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Succession",
@@ -6473,10 +6473,10 @@ const moviesTVQuestions = {
                 emoji: "🔫💥",
                 question: "Luca is a sea monster.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Hawkeye",
@@ -6503,20 +6503,20 @@ const moviesTVQuestions = {
                 emoji: "🎸🎤",
                 question: "Yellowjackets involves a plane crash.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Soul",
                 emoji: "🏃💨",
                 question: "Joe Gardner is a music teacher.",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         medium: [
@@ -6525,30 +6525,30 @@ const moviesTVQuestions = {
                 emoji: "🎯🎲",
                 question: "What country is Parasite from?",
                 options: [
-                    "South Korea",
-                    "Japan"
+                    "Japan",
+                    "South Korea"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Ted Lasso",
                 emoji: "🎰🃏",
                 question: "What sport does Ted coach?",
                 options: [
-                    "Football/Soccer",
-                    "American Football"
+                    "American Football",
+                    "Football/Soccer"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Knives Out",
                 emoji: "🏎️💨",
                 question: "Who directed Knives Out?",
                 options: [
-                    "Rian Johnson",
-                    "Denis Villeneuve"
+                    "Denis Villeneuve",
+                    "Rian Johnson"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "The White Lotus",
@@ -6575,20 +6575,20 @@ const moviesTVQuestions = {
                 emoji: "👮🔍",
                 question: "What country is Squid Game from?",
                 options: [
-                    "South Korea",
-                    "Japan"
+                    "Japan",
+                    "South Korea"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "CODA",
                 emoji: "💰💵",
                 question: "What does CODA stand for?",
                 options: [
-                    "Child of Deaf Adults",
-                    "Center of Drama Arts"
+                    "Center of Drama Arts",
+                    "Child of Deaf Adults"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Loki",
@@ -6615,10 +6615,10 @@ const moviesTVQuestions = {
                 emoji: "🎬📹",
                 question: "What causes the apocalypse?",
                 options: [
-                    "Fungal infection",
-                    "Virus"
+                    "Virus",
+                    "Fungal infection"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         hard: [
@@ -6628,8 +6628,8 @@ const moviesTVQuestions = {
                 question: "What country is Drive My Car from?",
                 options: [
                     "Japan",
-                    "South Korea",
-                    "China"
+                    "China",
+                    "South Korea"
                 ],
                 correct: 0
             },
@@ -6638,33 +6638,33 @@ const moviesTVQuestions = {
                 emoji: "🎭🎪",
                 question: "Where does the finale take place?",
                 options: [
+                    "France",
                     "Italy",
-                    "Greece",
-                    "France"
+                    "Greece"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "The Power of the Dog",
                 emoji: "🏆🌟",
                 question: "Who directed The Power of the Dog?",
                 options: [
-                    "Jane Campion",
                     "Kelly Reichardt",
+                    "Jane Campion",
                     "Chloé Zhao"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Mare of Easttown",
                 emoji: "👑💍",
                 question: "Who plays Mare?",
                 options: [
+                    "Frances McDormand",
                     "Kate Winslet",
-                    "Amy Adams",
-                    "Frances McDormand"
+                    "Amy Adams"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Yellowjackets",
@@ -6682,31 +6682,31 @@ const moviesTVQuestions = {
                 emoji: "🧙🔮",
                 question: "Who directed The Green Knight?",
                 options: [
+                    "Ari Aster",
                     "David Lowery",
-                    "Robert Eggers",
-                    "Ari Aster"
+                    "Robert Eggers"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Dopesick",
                 emoji: "🦖🦕",
                 question: "What drug crisis does Dopesick examine?",
                 options: [
-                    "Opioid",
                     "Cocaine",
+                    "Opioid",
                     "Methamphetamine"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Spencer",
                 emoji: "🕷️🕸️",
                 question: "Who plays Princess Diana?",
                 options: [
-                    "Kristen Stewart",
+                    "Naomi Watts",
                     "Emma Corrin",
-                    "Naomi Watts"
+                    "Kristen Stewart"
                 ],
                 correct: 1
             },
@@ -6715,9 +6715,9 @@ const moviesTVQuestions = {
                 emoji: "⚔️🛡️",
                 question: "What city is Hacks primarily set in?",
                 options: [
-                    "Las Vegas",
+                    "New York",
                     "Los Angeles",
-                    "New York"
+                    "Las Vegas"
                 ],
                 correct: 1
             }
@@ -6728,108 +6728,108 @@ const moviesTVQuestions = {
                 emoji: "💎🏝️",
                 question: "Who directed Petite Maman?",
                 options: [
-                    "Céline Sciamma",
+                    "Agnès Varda",
                     "Mia Hansen-Løve",
-                    "Claire Denis",
-                    "Agnès Varda"
+                    "Céline Sciamma",
+                    "Claire Denis"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "The Underground Railroad",
                 emoji: "🐉⚡",
                 question: "Who directed The Underground Railroad?",
                 options: [
-                    "Barry Jenkins",
-                    "Ava DuVernay",
+                    "Ryan Coogler",
                     "Steve McQueen",
-                    "Ryan Coogler"
+                    "Ava DuVernay",
+                    "Barry Jenkins"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "The Card Counter",
                 emoji: "🤖🔧",
                 question: "Who directed The Card Counter?",
                 options: [
-                    "Paul Schrader",
-                    "Martin Scorsese",
                     "Paul Thomas Anderson",
-                    "David Fincher"
+                    "David Fincher",
+                    "Martin Scorsese",
+                    "Paul Schrader"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "It's a Sin",
                 emoji: "🏴‍☠️⚓",
                 question: "What decade is It's a Sin set in?",
                 options: [
-                    "1980s",
-                    "1970s",
                     "1990s",
-                    "2000s"
+                    "1980s",
+                    "2000s",
+                    "1970s"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "The French Dispatch",
                 emoji: "👻👽",
                 question: "What is the fictional city called?",
                 options: [
-                    "Ennui-sur-Blasé",
-                    "Marseille",
                     "Lyon",
-                    "Bordeaux"
+                    "Marseille",
+                    "Bordeaux",
+                    "Ennui-sur-Blasé"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Landscapers",
                 emoji: "🔫💥",
                 question: "Who created Landscapers?",
                 options: [
-                    "Ed Sinclair",
                     "Sally Wainwright",
                     "Jed Mercurio",
-                    "Russell T Davies"
+                    "Russell T Davies",
+                    "Ed Sinclair"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "The Lost Daughter",
                 emoji: "🎩🎪",
                 question: "Who directed The Lost Daughter?",
                 options: [
+                    "Kelly Reichardt",
                     "Maggie Gyllenhaal",
                     "Greta Gerwig",
-                    "Kelly Reichardt",
                     "Sofia Coppola"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Wheel of Time",
                 emoji: "🌹💔",
                 question: "How many episodes is Season 1?",
                 options: [
-                    "8",
-                    "6",
                     "10",
-                    "12"
+                    "12",
+                    "6",
+                    "8"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Bergman Island",
                 emoji: "🎸🎤",
                 question: "Who directed Bergman Island?",
                 options: [
-                    "Mia Hansen-Løve",
-                    "Céline Sciamma",
+                    "Maren Ade",
                     "Claire Denis",
-                    "Maren Ade"
+                    "Mia Hansen-Løve",
+                    "Céline Sciamma"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Pachinko",
@@ -6837,9 +6837,9 @@ const moviesTVQuestions = {
                 question: "How many generations does Pachinko follow?",
                 options: [
                     "4",
+                    "5",
                     "2",
-                    "3",
-                    "5"
+                    "3"
                 ],
                 correct: 0
             }
@@ -6914,35 +6914,25 @@ const moviesTVQuestions = {
                 emoji: "🎬🎥",
                 question: "Mei turns into a red panda.",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Ms. Marvel",
                 emoji: "🎭🎪",
                 question: "Kamala Khan has superpowers.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Fawlty Towers",
                 emoji: "🏆🌟",
                 question: "Fawlty Towers is a hotel comedy.",
-                options: [
-                    "True",
-                    "False"
-                ],
-                correct: 1
-            },
-            {
-                topic: "Avatar",
-                emoji: "👑💍",
-                question: "Avatar is set on Pandora.",
                 options: [
                     "False",
                     "True"
@@ -6950,14 +6940,24 @@ const moviesTVQuestions = {
                 correct: 0
             },
             {
-                topic: "Severance",
-                emoji: "🦸🦹",
-                question: "Workers have their memories separated.",
+                topic: "Avatar",
+                emoji: "👑💍",
+                question: "Avatar is set on Pandora.",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
+            },
+            {
+                topic: "Severance",
+                emoji: "🦸🦹",
+                question: "Workers have their memories separated.",
+                options: [
+                    "False",
+                    "True"
+                ],
+                correct: 1
             },
             {
                 topic: "Lightyear",
@@ -6984,30 +6984,30 @@ const moviesTVQuestions = {
                 emoji: "🦖🦕",
                 question: "Thor fights with a hammer.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "House of the Dragon",
                 emoji: "🕷️🕸️",
                 question: "House of the Dragon is a Game of Thrones prequel.",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Strange World",
                 emoji: "⚔️🛡️",
                 question: "Strange World is about explorers.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         medium: [
@@ -7036,70 +7036,70 @@ const moviesTVQuestions = {
                 emoji: "🤖🔧",
                 question: "Who returns as Maverick?",
                 options: [
-                    "Tom Cruise",
-                    "Val Kilmer"
+                    "Val Kilmer",
+                    "Tom Cruise"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Abbott Elementary",
                 emoji: "🏴‍☠️⚓",
                 question: "What city is Abbott Elementary set in?",
                 options: [
-                    "Philadelphia",
-                    "Chicago"
+                    "Chicago",
+                    "Philadelphia"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "The Batman",
                 emoji: "👻👽",
                 question: "Who plays Batman in 2022?",
                 options: [
-                    "Robert Pattinson",
-                    "Ben Affleck"
+                    "Ben Affleck",
+                    "Robert Pattinson"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Andor",
                 emoji: "🔫💥",
                 question: "What universe is Andor set in?",
                 options: [
-                    "Star Wars",
-                    "Star Trek"
+                    "Star Trek",
+                    "Star Wars"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Wednesday",
                 emoji: "🌹💔",
                 question: "What family is Wednesday from?",
                 options: [
-                    "Addams Family",
-                    "Munsters"
+                    "Munsters",
+                    "Addams Family"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Glass Onion",
                 emoji: "🎸🎤",
                 question: "Who is the detective?",
                 options: [
-                    "Benoit Blanc",
-                    "Hercule Poirot"
+                    "Hercule Poirot",
+                    "Benoit Blanc"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "1899",
                 emoji: "🏃💨",
                 question: "What decade is 1899 set in?",
                 options: [
-                    "1890s",
-                    "1900s"
+                    "1900s",
+                    "1890s"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         hard: [
@@ -7108,42 +7108,42 @@ const moviesTVQuestions = {
                 emoji: "🎯🎲",
                 question: "What is Lydia Tár's profession?",
                 options: [
-                    "Conductor",
                     "Composer",
+                    "Conductor",
                     "Violinist"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "The Fabelmans",
                 emoji: "🎰🃏",
                 question: "Who directed The Fabelmans?",
                 options: [
-                    "Steven Spielberg",
                     "Martin Scorsese",
-                    "Francis Ford Coppola"
+                    "Francis Ford Coppola",
+                    "Steven Spielberg"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Triangle of Sadness",
                 emoji: "🏎️💨",
                 question: "What is the main setting?",
                 options: [
+                    "Resort",
                     "Luxury yacht",
-                    "Private island",
-                    "Resort"
+                    "Private island"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "The Rehearsal",
                 emoji: "🚁✈️",
                 question: "Who created The Rehearsal?",
                 options: [
-                    "Nathan Fielder",
+                    "Tim Heidecker",
                     "Eric André",
-                    "Tim Heidecker"
+                    "Nathan Fielder"
                 ],
                 correct: 1
             },
@@ -7152,33 +7152,33 @@ const moviesTVQuestions = {
                 emoji: "🦇🌃",
                 question: "What country produced the 2022 version?",
                 options: [
+                    "UK",
                     "Germany",
-                    "USA",
-                    "UK"
+                    "USA"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Slow Horses",
                 emoji: "👮🔍",
                 question: "What is Slough House?",
                 options: [
-                    "Failed agents division",
                     "Training facility",
+                    "Failed agents division",
                     "Headquarters"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "RRR",
                 emoji: "💰💵",
                 question: "What country is RRR from?",
                 options: [
-                    "India",
                     "Pakistan",
+                    "India",
                     "Bangladesh"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "The Northman",
@@ -7186,8 +7186,8 @@ const moviesTVQuestions = {
                 question: "Who directed The Northman?",
                 options: [
                     "Robert Eggers",
-                    "Ari Aster",
-                    "David Lowery"
+                    "David Lowery",
+                    "Ari Aster"
                 ],
                 correct: 0
             },
@@ -7197,21 +7197,21 @@ const moviesTVQuestions = {
                 question: "What is Yang?",
                 options: [
                     "Android",
-                    "Alien",
-                    "Clone"
+                    "Clone",
+                    "Alien"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Nope",
                 emoji: "🎬📹",
                 question: "Who directed Nope?",
                 options: [
+                    "Robert Eggers",
                     "Jordan Peele",
-                    "Ari Aster",
-                    "Robert Eggers"
+                    "Ari Aster"
                 ],
-                correct: 1
+                correct: 2
             }
         ],
         expert: [
@@ -7221,11 +7221,11 @@ const moviesTVQuestions = {
                 question: "Who directed EO?",
                 options: [
                     "Jerzy Skolimowski",
+                    "Roman Polanski",
                     "Pawel Pawlikowski",
-                    "Andrzej Wajda",
-                    "Roman Polanski"
+                    "Andrzej Wajda"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Aftersun",
@@ -7233,9 +7233,9 @@ const moviesTVQuestions = {
                 question: "Who directed Aftersun?",
                 options: [
                     "Charlotte Wells",
-                    "Celine Song",
                     "Joanna Hogg",
-                    "Lynne Ramsay"
+                    "Lynne Ramsay",
+                    "Celine Song"
                 ],
                 correct: 0
             },
@@ -7244,12 +7244,12 @@ const moviesTVQuestions = {
                 emoji: "🏆🌟",
                 question: "Who directed Decision to Leave?",
                 options: [
-                    "Park Chan-wook",
                     "Bong Joon-ho",
                     "Lee Chang-dong",
+                    "Park Chan-wook",
                     "Hong Sang-soo"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "The Patient",
@@ -7257,11 +7257,11 @@ const moviesTVQuestions = {
                 question: "Who plays the therapist?",
                 options: [
                     "Steve Carell",
-                    "Bryan Cranston",
+                    "Michael C. Hall",
                     "Bob Odenkirk",
-                    "Michael C. Hall"
+                    "Bryan Cranston"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Saint Omer",
@@ -7269,23 +7269,23 @@ const moviesTVQuestions = {
                 question: "Who directed Saint Omer?",
                 options: [
                     "Alice Diop",
+                    "Céline Sciamma",
                     "Claire Denis",
-                    "Mia Hansen-Løve",
-                    "Céline Sciamma"
+                    "Mia Hansen-Løve"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Argentina, 1985",
                 emoji: "🚀🌌",
                 question: "What trial is depicted?",
                 options: [
-                    "Junta trials",
                     "Dirty War",
-                    "Military coup",
-                    "Human rights"
+                    "Junta trials",
+                    "Human rights",
+                    "Military coup"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Blonde",
@@ -7293,9 +7293,9 @@ const moviesTVQuestions = {
                 question: "Who directed Blonde?",
                 options: [
                     "Andrew Dominik",
-                    "David Fincher",
                     "Paul Thomas Anderson",
-                    "James Gray"
+                    "James Gray",
+                    "David Fincher"
                 ],
                 correct: 0
             },
@@ -7305,9 +7305,9 @@ const moviesTVQuestions = {
                 question: "How many courses are served?",
                 options: [
                     "Multiple/Many",
+                    "7",
                     "3",
-                    "5",
-                    "7"
+                    "5"
                 ],
                 correct: 0
             },
@@ -7316,24 +7316,24 @@ const moviesTVQuestions = {
                 emoji: "🕷️🕸️",
                 question: "What era is Babylon set in?",
                 options: [
+                    "Silent film era",
                     "1920s Hollywood",
                     "1930s Hollywood",
-                    "1940s Hollywood",
-                    "Silent film era"
+                    "1940s Hollywood"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "The English",
                 emoji: "⚔️🛡️",
                 question: "Who plays Cornelia Locke?",
                 options: [
+                    "Carey Mulligan",
                     "Emily Blunt",
                     "Florence Pugh",
-                    "Carey Mulligan",
                     "Saoirse Ronan"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         extreme: [
@@ -7406,10 +7406,10 @@ const moviesTVQuestions = {
                 emoji: "🎯🎲",
                 question: "Elemental is about fire and water elements.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Secret Invasion",
@@ -7426,10 +7426,10 @@ const moviesTVQuestions = {
                 emoji: "🏎️💨",
                 question: "The Bluth family is wealthy.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Blade Runner",
@@ -7456,10 +7456,10 @@ const moviesTVQuestions = {
                 emoji: "👮🔍",
                 question: "Wish is a Disney animated film.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Gen V",
@@ -7476,20 +7476,20 @@ const moviesTVQuestions = {
                 emoji: "🎭😂",
                 question: "The Guardians travel through space.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "The Crowded Room",
                 emoji: "🎪🤡",
                 question: "The show explores mental health.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Migration",
@@ -7508,10 +7508,10 @@ const moviesTVQuestions = {
                 emoji: "🎬🎥",
                 question: "Who directed Past Lives?",
                 options: [
-                    "Celine Song",
-                    "Charlotte Wells"
+                    "Charlotte Wells",
+                    "Celine Song"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Beef",
@@ -7548,10 +7548,10 @@ const moviesTVQuestions = {
                 emoji: "🚀🌌",
                 question: "Who created this series?",
                 options: [
-                    "Mike Flanagan",
-                    "Ryan Murphy"
+                    "Ryan Murphy",
+                    "Mike Flanagan"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Barbie",
@@ -7568,10 +7568,10 @@ const moviesTVQuestions = {
                 emoji: "🦖🦕",
                 question: "What era is The Gilded Age set in?",
                 options: [
-                    "1880s",
-                    "1920s"
+                    "1920s",
+                    "1880s"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Spider-Man: Across the Spider-Verse",
@@ -7588,10 +7588,10 @@ const moviesTVQuestions = {
                 emoji: "⚔️🛡️",
                 question: "What type of government is depicted?",
                 options: [
-                    "Authoritarian",
-                    "Democracy"
+                    "Democracy",
+                    "Authoritarian"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         hard: [
@@ -7600,11 +7600,11 @@ const moviesTVQuestions = {
                 emoji: "💎🏝️",
                 question: "What country is Anatomy of a Fall from?",
                 options: [
+                    "Switzerland",
                     "France",
-                    "Belgium",
-                    "Switzerland"
+                    "Belgium"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "The Zone of Interest",
@@ -7622,22 +7622,22 @@ const moviesTVQuestions = {
                 emoji: "🤖🔧",
                 question: "Who directed May December?",
                 options: [
-                    "Todd Haynes",
+                    "Kelly Reichardt",
                     "Paul Thomas Anderson",
-                    "Kelly Reichardt"
+                    "Todd Haynes"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Poor Things",
                 emoji: "🏴‍☠️⚓",
                 question: "Who plays Bella Baxter?",
                 options: [
-                    "Emma Stone",
                     "Florence Pugh",
+                    "Emma Stone",
                     "Anya Taylor-Joy"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "The Iron Claw",
@@ -7645,10 +7645,10 @@ const moviesTVQuestions = {
                 question: "What sport is featured?",
                 options: [
                     "Wrestling",
-                    "Boxing",
-                    "MMA"
+                    "MMA",
+                    "Boxing"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "A Murder at the End of the World",
@@ -7688,22 +7688,22 @@ const moviesTVQuestions = {
                 emoji: "🎸🎤",
                 question: "What does the test in Fingernails measure?",
                 options: [
+                    "Health",
                     "Love compatibility",
-                    "Personality",
-                    "Health"
+                    "Personality"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Fargo S5",
                 emoji: "🏃💨",
                 question: "What decade is Season 5 set in?",
                 options: [
-                    "2019",
                     "2010",
+                    "2019",
                     "2020"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         expert: [
@@ -7712,21 +7712,21 @@ const moviesTVQuestions = {
                 emoji: "🎯🎲",
                 question: "Who directed The Taste of Things?",
                 options: [
-                    "Tran Anh Hung",
-                    "Hirokazu Kore-eda",
                     "Wong Kar-wai",
-                    "Hou Hsiao-hsien"
+                    "Hou Hsiao-hsien",
+                    "Hirokazu Kore-eda",
+                    "Tran Anh Hung"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Showing Up",
                 emoji: "🎰🃏",
                 question: "Who directed Showing Up?",
                 options: [
-                    "Kelly Reichardt",
-                    "Lynne Ramsay",
                     "Joanna Hogg",
+                    "Lynne Ramsay",
+                    "Kelly Reichardt",
                     "Céline Sciamma"
                 ],
                 correct: 1
@@ -7736,46 +7736,46 @@ const moviesTVQuestions = {
                 emoji: "🏎️💨",
                 question: "Who directed Fallen Leaves?",
                 options: [
+                    "Joachim Trier",
                     "Aki Kaurismäki",
-                    "Roy Andersson",
                     "Ruben Östlund",
-                    "Joachim Trier"
+                    "Roy Andersson"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "The Boy and the Heron",
                 emoji: "🚁✈️",
                 question: "Who directed The Boy and the Heron?",
                 options: [
-                    "Hayao Miyazaki",
-                    "Makoto Shinkai",
                     "Mamoru Hosoda",
-                    "Satoshi Kon"
+                    "Satoshi Kon",
+                    "Makoto Shinkai",
+                    "Hayao Miyazaki"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Monster",
                 emoji: "🦇🌃",
                 question: "Who directed Monster?",
                 options: [
-                    "Hirokazu Kore-eda",
                     "Ryusuke Hamaguchi",
-                    "Naomi Kawase",
-                    "Takeshi Kitano"
+                    "Takeshi Kitano",
+                    "Hirokazu Kore-eda",
+                    "Naomi Kawase"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "The Teachers' Lounge",
                 emoji: "👮🔍",
                 question: "What country is The Teachers' Lounge from?",
                 options: [
-                    "Germany",
-                    "Austria",
                     "Netherlands",
-                    "Denmark"
+                    "Austria",
+                    "Denmark",
+                    "Germany"
                 ],
                 correct: 1
             },
@@ -7784,36 +7784,36 @@ const moviesTVQuestions = {
                 emoji: "💰💵",
                 question: "Who directed All of Us Strangers?",
                 options: [
-                    "Andrew Haigh",
-                    "Francis Lee",
                     "Barry Jenkins",
-                    "Todd Haynes"
+                    "Todd Haynes",
+                    "Andrew Haigh",
+                    "Francis Lee"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Society of the Snow",
                 emoji: "🎭😂",
                 question: "What country is Society of the Snow from?",
                 options: [
-                    "Spain",
-                    "Argentina",
+                    "Uruguay",
                     "Chile",
-                    "Uruguay"
+                    "Argentina",
+                    "Spain"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "The Sweet East",
                 emoji: "🎪🤡",
                 question: "Who directed The Sweet East?",
                 options: [
+                    "Nathan Silver",
                     "Sean Price Williams",
                     "Kelly Reichardt",
-                    "Nathan Silver",
                     "Alex Ross Perry"
                 ],
-                correct: 1
+                correct: 2
             }
         ],
         extreme: [
@@ -7896,10 +7896,10 @@ const moviesTVQuestions = {
                 emoji: "🐉⚡",
                 question: "Agatha is a witch.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "The Jeffersons",
@@ -7926,30 +7926,30 @@ const moviesTVQuestions = {
                 emoji: "👻👽",
                 question: "Shogun is set in Japan.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Kung Fu Panda 4",
                 emoji: "🔫💥",
                 question: "Po is the Dragon Warrior.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Fallout",
                 emoji: "🎩🎪",
                 question: "Fallout is based on a video game.",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Deadpool & Wolverine",
@@ -8008,60 +8008,60 @@ const moviesTVQuestions = {
                 emoji: "🏎️💨",
                 question: "What genre is The Substance?",
                 options: [
-                    "Body horror",
-                    "Thriller"
+                    "Thriller",
+                    "Body horror"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Ripley",
                 emoji: "🚁✈️",
                 question: "What format is the series shot in?",
                 options: [
-                    "Black and white",
-                    "Color"
+                    "Color",
+                    "Black and white"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Civil War",
                 emoji: "🦇🌃",
                 question: "Who directed Civil War?",
                 options: [
-                    "Alex Garland",
-                    "Denis Villeneuve"
+                    "Denis Villeneuve",
+                    "Alex Garland"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "3 Body Problem",
                 emoji: "👮🔍",
                 question: "Who created the series?",
                 options: [
-                    "Game of Thrones creators",
-                    "Westworld creators"
+                    "Westworld creators",
+                    "Game of Thrones creators"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "The Brutalist",
                 emoji: "💰💵",
                 question: "What profession is the protagonist?",
                 options: [
-                    "Architect",
-                    "Sculptor"
+                    "Sculptor",
+                    "Architect"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Anora",
                 emoji: "🎭😂",
                 question: "Who directed Anora?",
                 options: [
-                    "Sean Baker",
-                    "Barry Jenkins"
+                    "Barry Jenkins",
+                    "Sean Baker"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Wicked",
@@ -8078,10 +8078,10 @@ const moviesTVQuestions = {
                 emoji: "🎬📹",
                 question: "What is the robot stranded on?",
                 options: [
-                    "Island",
-                    "Planet"
+                    "Planet",
+                    "Island"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         hard: [
@@ -8091,8 +8091,8 @@ const moviesTVQuestions = {
                 question: "Who plays the architect?",
                 options: [
                     "Adrien Brody",
-                    "Oscar Isaac",
-                    "Adam Driver"
+                    "Adam Driver",
+                    "Oscar Isaac"
                 ],
                 correct: 0
             },
@@ -8101,9 +8101,9 @@ const moviesTVQuestions = {
                 emoji: "🎭🎪",
                 question: "What event is depicted in Conclave?",
                 options: [
-                    "Papal election",
+                    "Vatican conspiracy",
                     "Church scandal",
-                    "Vatican conspiracy"
+                    "Papal election"
                 ],
                 correct: 1
             },
@@ -8113,8 +8113,8 @@ const moviesTVQuestions = {
                 question: "Who directed A Different Man?",
                 options: [
                     "Aaron Schimberg",
-                    "Yorgos Lanthimos",
-                    "Ari Aster"
+                    "Ari Aster",
+                    "Yorgos Lanthimos"
                 ],
                 correct: 0
             },
@@ -8124,10 +8124,10 @@ const moviesTVQuestions = {
                 question: "Who directed the 2024 Nosferatu?",
                 options: [
                     "Robert Eggers",
-                    "Ari Aster",
-                    "David Lowery"
+                    "David Lowery",
+                    "Ari Aster"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Kinds of Kindness",
@@ -8157,21 +8157,21 @@ const moviesTVQuestions = {
                 question: "What novel is it based on?",
                 options: [
                     "Colson Whitehead novel",
-                    "Ta-Nehisi Coates novel",
-                    "James Baldwin novel"
+                    "James Baldwin novel",
+                    "Ta-Nehisi Coates novel"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Emilia Pérez",
                 emoji: "🦖🦕",
                 question: "What genre is Emilia Pérez?",
                 options: [
+                    "Thriller",
                     "Musical",
-                    "Drama",
-                    "Thriller"
+                    "Drama"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "I Saw the TV Glow",
@@ -8179,8 +8179,8 @@ const moviesTVQuestions = {
                 question: "Who directed I Saw the TV Glow?",
                 options: [
                     "Jane Schoenbrun",
-                    "Ari Aster",
-                    "Robert Eggers"
+                    "Robert Eggers",
+                    "Ari Aster"
                 ],
                 correct: 0
             },
@@ -8189,11 +8189,11 @@ const moviesTVQuestions = {
                 emoji: "⚔️🛡️",
                 question: "Who directed Love Lies Bleeding?",
                 options: [
-                    "Rose Glass",
                     "Julia Ducournau",
-                    "Coralie Fargeat"
+                    "Coralie Fargeat",
+                    "Rose Glass"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         expert: [
@@ -8202,24 +8202,24 @@ const moviesTVQuestions = {
                 emoji: "💎🏝️",
                 question: "Who directed All We Imagine as Light?",
                 options: [
-                    "Payal Kapadia",
+                    "Aparna Sen",
                     "Mira Nair",
-                    "Deepa Mehta",
-                    "Aparna Sen"
+                    "Payal Kapadia",
+                    "Deepa Mehta"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "The Seed of the Sacred Fig",
                 emoji: "🐉⚡",
                 question: "Who directed The Seed of the Sacred Fig?",
                 options: [
-                    "Mohammad Rasoulof",
                     "Asghar Farhadi",
-                    "Jafar Panahi",
-                    "Abbas Kiarostami"
+                    "Abbas Kiarostami",
+                    "Mohammad Rasoulof",
+                    "Jafar Panahi"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Dying",
@@ -8239,9 +8239,9 @@ const moviesTVQuestions = {
                 question: "Who directed Grand Tour?",
                 options: [
                     "Miguel Gomes",
-                    "Pedro Costa",
                     "João Pedro Rodrigues",
-                    "Manoel de Oliveira"
+                    "Manoel de Oliveira",
+                    "Pedro Costa"
                 ],
                 correct: 0
             },
@@ -8250,24 +8250,24 @@ const moviesTVQuestions = {
                 emoji: "👻👽",
                 question: "Who directed Evil Does Not Exist?",
                 options: [
-                    "Ryusuke Hamaguchi",
                     "Hirokazu Kore-eda",
-                    "Naomi Kawase",
-                    "Nobuhiro Suwa"
+                    "Nobuhiro Suwa",
+                    "Ryusuke Hamaguchi",
+                    "Naomi Kawase"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Flow",
                 emoji: "🔫💥",
                 question: "What country is Flow from?",
                 options: [
+                    "Lithuania",
                     "Latvia",
                     "Estonia",
-                    "Lithuania",
                     "Poland"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "La Chimera",
@@ -8275,11 +8275,11 @@ const moviesTVQuestions = {
                 question: "Who directed La Chimera?",
                 options: [
                     "Alice Rohrwacher",
-                    "Paolo Sorrentino",
                     "Matteo Garrone",
-                    "Luca Guadagnino"
+                    "Luca Guadagnino",
+                    "Paolo Sorrentino"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Green Border",
@@ -8287,11 +8287,11 @@ const moviesTVQuestions = {
                 question: "Who directed Green Border?",
                 options: [
                     "Agnieszka Holland",
-                    "Pawel Pawlikowski",
+                    "Małgorzata Szumowska",
                     "Jerzy Skolimowski",
-                    "Małgorzata Szumowska"
+                    "Pawel Pawlikowski"
                 ],
-                correct: 1
+                correct: 3
             }
         ],
         extreme: [
@@ -8394,30 +8394,30 @@ const moviesTVQuestions = {
                 emoji: "👑💍",
                 question: "Jaws is about a killer shark.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Bridgerton",
                 emoji: "🦸🦹",
                 question: "Bridgerton is set in Regency England.",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Cars",
                 emoji: "🚀🌌",
                 question: "Lightning McQueen is a race car.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Invincible",
@@ -8434,20 +8434,20 @@ const moviesTVQuestions = {
                 emoji: "🦖🦕",
                 question: "Black Widow is a spy.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Only Murders in the Building",
                 emoji: "🕷️🕸️",
                 question: "The show is about solving murders.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Onward",
@@ -8466,10 +8466,10 @@ const moviesTVQuestions = {
                 emoji: "💎🏝️",
                 question: "Who directed Nomadland?",
                 options: [
-                    "Chloé Zhao",
-                    "Kelly Reichardt"
+                    "Kelly Reichardt",
+                    "Chloé Zhao"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "The Queen's Gambit",
@@ -8496,60 +8496,60 @@ const moviesTVQuestions = {
                 emoji: "🏴‍☠️⚓",
                 question: "Who does Grogu reunite with?",
                 options: [
-                    "Luke Skywalker",
-                    "Yoda"
+                    "Yoda",
+                    "Luke Skywalker"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Minari",
                 emoji: "👻👽",
                 question: "What country does the family move from?",
                 options: [
-                    "South Korea",
-                    "Japan"
+                    "Japan",
+                    "South Korea"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Mare of Easttown",
                 emoji: "🔫💥",
                 question: "What is Mare investigating?",
                 options: [
-                    "Murder",
-                    "Robbery"
+                    "Robbery",
+                    "Murder"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Promising Young Woman",
                 emoji: "🎩🎪",
                 question: "Who directed Promising Young Woman?",
                 options: [
-                    "Emerald Fennell",
-                    "Greta Gerwig"
+                    "Greta Gerwig",
+                    "Emerald Fennell"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Luca",
                 emoji: "🌹💔",
                 question: "Where is Luca set?",
                 options: [
-                    "Italian Riviera",
-                    "Sicily"
+                    "Sicily",
+                    "Italian Riviera"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "The Father",
                 emoji: "🎸🎤",
                 question: "What condition does Anthony have?",
                 options: [
-                    "Dementia",
-                    "Alzheimer's"
+                    "Alzheimer's",
+                    "Dementia"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Arcane",
@@ -8579,22 +8579,22 @@ const moviesTVQuestions = {
                 emoji: "🎰🃏",
                 question: "Who directed the Small Axe anthology?",
                 options: [
+                    "Ava DuVernay",
                     "Steve McQueen",
-                    "Barry Jenkins",
-                    "Ava DuVernay"
+                    "Barry Jenkins"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Judas and the Black Messiah",
                 emoji: "🏎️💨",
                 question: "Who is the Black Messiah?",
                 options: [
+                    "Huey Newton",
                     "Fred Hampton",
-                    "Malcolm X",
-                    "Huey Newton"
+                    "Malcolm X"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "I May Destroy You",
@@ -8602,52 +8602,52 @@ const moviesTVQuestions = {
                 question: "What does Arabella investigate?",
                 options: [
                     "Sexual assault",
-                    "Drug trafficking",
-                    "Murder"
+                    "Murder",
+                    "Drug trafficking"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "The Underground Railroad",
                 emoji: "👮🔍",
                 question: "How is the Underground Railroad depicted?",
                 options: [
+                    "Metaphor",
                     "Literal train",
-                    "Secret routes",
-                    "Metaphor"
+                    "Secret routes"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Shang-Chi",
                 emoji: "💰💵",
                 question: "What martial arts style is featured?",
                 options: [
+                    "Taekwondo",
                     "Kung Fu",
-                    "Karate",
-                    "Taekwondo"
+                    "Karate"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "The Mauritanian",
                 emoji: "🎭😂",
                 question: "Where is the protagonist detained?",
                 options: [
-                    "Guantanamo Bay",
                     "Abu Ghraib",
+                    "Guantanamo Bay",
                     "Black site"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Cruella",
                 emoji: "🎪🤡",
                 question: "What decade is Cruella set in?",
                 options: [
-                    "1970s",
+                    "1980s",
                     "1960s",
-                    "1980s"
+                    "1970s"
                 ],
                 correct: 1
             }
@@ -8658,48 +8658,48 @@ const moviesTVQuestions = {
                 emoji: "🎬🎥",
                 question: "What Small Axe film is Lovers Rock?",
                 options: [
-                    "Part of anthology",
-                    "Standalone",
+                    "Sequel",
                     "Prequel",
-                    "Sequel"
+                    "Standalone",
+                    "Part of anthology"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "First Cow",
                 emoji: "🎭🎪",
                 question: "Who directed First Cow?",
                 options: [
-                    "Kelly Reichardt",
-                    "Lynne Ramsay",
                     "Jane Campion",
-                    "Chloé Zhao"
+                    "Chloé Zhao",
+                    "Kelly Reichardt",
+                    "Lynne Ramsay"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Another Round",
                 emoji: "🏆🌟",
                 question: "What experiment do the teachers conduct?",
                 options: [
-                    "Drinking alcohol daily",
                     "Sleep deprivation",
-                    "Meditation",
-                    "Exercise regime"
+                    "Drinking alcohol daily",
+                    "Exercise regime",
+                    "Meditation"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "The Dig",
                 emoji: "👑💍",
                 question: "What historical event is depicted?",
                 options: [
-                    "Sutton Hoo excavation",
-                    "Tutankhamun discovery",
+                    "Rosetta Stone finding",
                     "Pompeii dig",
-                    "Rosetta Stone finding"
+                    "Sutton Hoo excavation",
+                    "Tutankhamun discovery"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "The Mauritanian",
@@ -8707,9 +8707,9 @@ const moviesTVQuestions = {
                 question: "Who plays the defense attorney?",
                 options: [
                     "Jodie Foster",
-                    "Meryl Streep",
+                    "Frances McDormand",
                     "Cate Blanchett",
-                    "Frances McDormand"
+                    "Meryl Streep"
                 ],
                 correct: 0
             },
@@ -8718,12 +8718,12 @@ const moviesTVQuestions = {
                 emoji: "🚀🌌",
                 question: "What genocide is depicted?",
                 options: [
-                    "Srebrenica",
                     "Rwanda",
+                    "Darfur",
                     "Cambodia",
-                    "Darfur"
+                    "Srebrenica"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "The Disciple",
@@ -8731,9 +8731,9 @@ const moviesTVQuestions = {
                 question: "What music tradition is featured?",
                 options: [
                     "Indian classical",
-                    "Bollywood",
+                    "Carnatic",
                     "Qawwali",
-                    "Carnatic"
+                    "Bollywood"
                 ],
                 correct: 0
             },
@@ -8744,8 +8744,8 @@ const moviesTVQuestions = {
                 options: [
                     "Hong Sang-soo",
                     "Lee Chang-dong",
-                    "Park Chan-wook",
-                    "Bong Joon-ho"
+                    "Bong Joon-ho",
+                    "Park Chan-wook"
                 ],
                 correct: 0
             },
@@ -8754,24 +8754,24 @@ const moviesTVQuestions = {
                 emoji: "🕷️🕸️",
                 question: "What country is Malmkrog from?",
                 options: [
-                    "Romania",
-                    "Hungary",
                     "Poland",
-                    "Bulgaria"
+                    "Bulgaria",
+                    "Romania",
+                    "Hungary"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Undine",
                 emoji: "⚔️🛡️",
                 question: "Who directed Undine?",
                 options: [
-                    "Christian Petzold",
                     "Michael Haneke",
                     "Maren Ade",
+                    "Christian Petzold",
                     "Ulrich Seidl"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         extreme: [
@@ -8858,10 +8858,10 @@ const moviesTVQuestions = {
                 emoji: "🏎️💨",
                 question: "Hill Street Blues is a police drama.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Close Encounters",
@@ -8898,10 +8898,10 @@ const moviesTVQuestions = {
                 emoji: "💰💵",
                 question: "What If explores alternate realities.",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Eternals",
@@ -8918,10 +8918,10 @@ const moviesTVQuestions = {
                 emoji: "🎪🤡",
                 question: "Ted Lasso is an American coach.",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Encanto",
@@ -8940,10 +8940,10 @@ const moviesTVQuestions = {
                 emoji: "🎬🎥",
                 question: "What threatens Earth?",
                 options: [
-                    "Comet",
-                    "Asteroid"
+                    "Asteroid",
+                    "Comet"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "The Harder They Fall",
@@ -8970,20 +8970,20 @@ const moviesTVQuestions = {
                 emoji: "👑💍",
                 question: "What city is Hawkeye set in?",
                 options: [
-                    "New York",
-                    "Los Angeles"
+                    "Los Angeles",
+                    "New York"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "The Suicide Squad",
                 emoji: "🦸🦹",
                 question: "Who directed The Suicide Squad?",
                 options: [
-                    "James Gunn",
-                    "David Ayer"
+                    "David Ayer",
+                    "James Gunn"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Tick, Tick... Boom!",
@@ -9000,30 +9000,30 @@ const moviesTVQuestions = {
                 emoji: "🦖🦕",
                 question: "What company is featured?",
                 options: [
-                    "Purdue Pharma",
-                    "Johnson & Johnson"
+                    "Johnson & Johnson",
+                    "Purdue Pharma"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "West Side Story",
                 emoji: "🕷️🕸️",
                 question: "Who directed the 2021 version?",
                 options: [
-                    "Steven Spielberg",
-                    "Martin Scorsese"
+                    "Martin Scorsese",
+                    "Steven Spielberg"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Midnight Mass",
                 emoji: "⚔️🛡️",
                 question: "Who created Midnight Mass?",
                 options: [
-                    "Mike Flanagan",
-                    "Ryan Murphy"
+                    "Ryan Murphy",
+                    "Mike Flanagan"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         hard: [
@@ -9033,8 +9033,8 @@ const moviesTVQuestions = {
                 question: "Who plays Phil Burbank?",
                 options: [
                     "Benedict Cumberbatch",
-                    "Jesse Plemons",
-                    "Kodi Smit-McPhee"
+                    "Kodi Smit-McPhee",
+                    "Jesse Plemons"
                 ],
                 correct: 0
             },
@@ -9043,9 +9043,9 @@ const moviesTVQuestions = {
                 emoji: "🐉⚡",
                 question: "Who plays Gawain?",
                 options: [
-                    "Dev Patel",
+                    "Oscar Isaac",
                     "Timothée Chalamet",
-                    "Oscar Isaac"
+                    "Dev Patel"
                 ],
                 correct: 1
             },
@@ -9054,44 +9054,44 @@ const moviesTVQuestions = {
                 emoji: "🤖🔧",
                 question: "What award did Titane win at Cannes?",
                 options: [
-                    "Palme d'Or",
+                    "Best Director",
                     "Grand Prix",
-                    "Best Director"
+                    "Palme d'Or"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "C'mon C'mon",
                 emoji: "🏴‍☠️⚓",
                 question: "Who directed C'mon C'mon?",
                 options: [
+                    "Noah Baumbach",
                     "Mike Mills",
-                    "Barry Jenkins",
-                    "Noah Baumbach"
+                    "Barry Jenkins"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Pig",
                 emoji: "👻👽",
                 question: "What does Rob search for?",
                 options: [
+                    "Recipe",
                     "Truffle pig",
-                    "Missing person",
-                    "Recipe"
+                    "Missing person"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Spencer",
                 emoji: "🔫💥",
                 question: "What time period is depicted?",
                 options: [
-                    "Christmas 1991",
                     "Summer 1997",
+                    "Christmas 1991",
                     "Christmas 1995"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Nightmare Alley",
@@ -9120,11 +9120,11 @@ const moviesTVQuestions = {
                 emoji: "🏃💨",
                 question: "Who directed Red Rocket?",
                 options: [
+                    "Harmony Korine",
                     "Sean Baker",
-                    "Paul Thomas Anderson",
-                    "Harmony Korine"
+                    "Paul Thomas Anderson"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         expert: [
@@ -9133,22 +9133,22 @@ const moviesTVQuestions = {
                 emoji: "🎯🎲",
                 question: "How many episodes/stories does it contain?",
                 options: [
-                    "3",
-                    "2",
+                    "5",
                     "4",
-                    "5"
+                    "2",
+                    "3"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "The Souvenir Part II",
                 emoji: "🏎️💨",
                 question: "Who directed The Souvenir Part II?",
                 options: [
-                    "Joanna Hogg",
+                    "Charlotte Wells",
                     "Lynne Ramsay",
                     "Kelly Reichardt",
-                    "Charlotte Wells"
+                    "Joanna Hogg"
                 ],
                 correct: 1
             },
@@ -9158,11 +9158,11 @@ const moviesTVQuestions = {
                 question: "How long is Petite Maman?",
                 options: [
                     "72 minutes",
-                    "90 minutes",
                     "60 minutes",
+                    "90 minutes",
                     "105 minutes"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Memoria",
@@ -9170,9 +9170,9 @@ const moviesTVQuestions = {
                 question: "Who directed Memoria?",
                 options: [
                     "Apichatpong Weerasethakul",
-                    "Tsai Ming-liang",
                     "Hou Hsiao-hsien",
-                    "Wong Kar-wai"
+                    "Wong Kar-wai",
+                    "Tsai Ming-liang"
                 ],
                 correct: 0
             },
@@ -9181,36 +9181,36 @@ const moviesTVQuestions = {
                 emoji: "💰💵",
                 question: "Who directed A Hero?",
                 options: [
+                    "Mohammad Rasoulof",
                     "Asghar Farhadi",
-                    "Jafar Panahi",
                     "Abbas Kiarostami",
-                    "Mohammad Rasoulof"
+                    "Jafar Panahi"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Parallel Mothers",
                 emoji: "🎭😂",
                 question: "Who directed Parallel Mothers?",
                 options: [
-                    "Pedro Almodóvar",
                     "Isabel Coixet",
                     "Alejandro Amenábar",
-                    "Pablo Larraín"
+                    "Pablo Larraín",
+                    "Pedro Almodóvar"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Introduction",
                 emoji: "🎪🤡",
                 question: "Who directed Introduction?",
                 options: [
-                    "Hong Sang-soo",
-                    "Lee Chang-dong",
                     "Park Chan-wook",
-                    "Bong Joon-ho"
+                    "Hong Sang-soo",
+                    "Bong Joon-ho",
+                    "Lee Chang-dong"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "The Tsugua Diaries",
@@ -9218,11 +9218,11 @@ const moviesTVQuestions = {
                 question: "What country is The Tsugua Diaries from?",
                 options: [
                     "Portugal",
-                    "Spain",
+                    "Italy",
                     "Brazil",
-                    "Italy"
+                    "Spain"
                 ],
-                correct: 1
+                correct: 3
             }
         ],
         extreme: [
@@ -9325,10 +9325,10 @@ const moviesTVQuestions = {
                 emoji: "🏴‍☠️⚓",
                 question: "Marty McFly travels through time.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Yellowstone",
@@ -9355,20 +9355,20 @@ const moviesTVQuestions = {
                 emoji: "🎩🎪",
                 question: "Marc Spector has dissociative identity disorder.",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Shang-Chi",
                 emoji: "🌹💔",
                 question: "Shang-Chi is a martial artist.",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Foundation",
@@ -9427,10 +9427,10 @@ const moviesTVQuestions = {
                 emoji: "🚁✈️",
                 question: "Who plays Macbeth?",
                 options: [
-                    "Denzel Washington",
-                    "Michael Fassbender"
+                    "Michael Fassbender",
+                    "Denzel Washington"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Turning Red",
@@ -9447,10 +9447,10 @@ const moviesTVQuestions = {
                 emoji: "👮🔍",
                 question: "Who directed The Tender Bar?",
                 options: [
-                    "George Clooney",
-                    "Ben Affleck"
+                    "Ben Affleck",
+                    "George Clooney"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Last Night in Soho",
@@ -9477,20 +9477,20 @@ const moviesTVQuestions = {
                 emoji: "🎪🤡",
                 question: "Who directed Belfast?",
                 options: [
-                    "Kenneth Branagh",
-                    "Martin McDonagh"
+                    "Martin McDonagh",
+                    "Kenneth Branagh"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Being the Ricardos",
                 emoji: "🎬📹",
                 question: "Who plays Lucille Ball?",
                 options: [
-                    "Nicole Kidman",
-                    "Cate Blanchett"
+                    "Cate Blanchett",
+                    "Nicole Kidman"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         hard: [
@@ -9499,66 +9499,66 @@ const moviesTVQuestions = {
                 emoji: "🎬🎥",
                 question: "What is Leda's profession?",
                 options: [
-                    "Professor",
                     "Writer",
-                    "Artist"
+                    "Artist",
+                    "Professor"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Drive My Car",
                 emoji: "🎭🎪",
                 question: "What play is being rehearsed?",
                 options: [
+                    "The Cherry Orchard",
                     "Uncle Vanya",
-                    "Three Sisters",
-                    "The Cherry Orchard"
+                    "Three Sisters"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Flee",
                 emoji: "👑💍",
                 question: "What technique is primarily used?",
                 options: [
+                    "Documentary footage",
                     "Animation",
-                    "Live action",
-                    "Documentary footage"
+                    "Live action"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "The Hand of God",
                 emoji: "🦸🦹",
                 question: "Who directed The Hand of God?",
                 options: [
-                    "Paolo Sorrentino",
                     "Matteo Garrone",
-                    "Luca Guadagnino"
+                    "Luca Guadagnino",
+                    "Paolo Sorrentino"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Passing",
                 emoji: "🚀🌌",
                 question: "What decade is Passing set in?",
                 options: [
-                    "1920s",
                     "1930s",
+                    "1920s",
                     "1940s"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Mass",
                 emoji: "🧙🔮",
                 question: "How many parents meet in Mass?",
                 options: [
-                    "4",
                     "2",
-                    "6"
+                    "6",
+                    "4"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Swan Song",
@@ -9577,8 +9577,8 @@ const moviesTVQuestions = {
                 question: "What is unique about the baby?",
                 options: [
                     "Puppet",
-                    "CGI",
-                    "Twin actors"
+                    "Twin actors",
+                    "CGI"
                 ],
                 correct: 0
             },
@@ -9587,11 +9587,11 @@ const moviesTVQuestions = {
                 emoji: "⚔️🛡️",
                 question: "What format is the film shot in?",
                 options: [
-                    "Black and white",
                     "Color",
+                    "Black and white",
                     "Sepia"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         expert: [
@@ -9600,10 +9600,10 @@ const moviesTVQuestions = {
                 emoji: "🐉⚡",
                 question: "What decade is Azor set in?",
                 options: [
-                    "1980s",
+                    "1990s",
                     "1970s",
-                    "1960s",
-                    "1990s"
+                    "1980s",
+                    "1960s"
                 ],
                 correct: 1
             },
@@ -9612,10 +9612,10 @@ const moviesTVQuestions = {
                 emoji: "🤖🔧",
                 question: "What is Julie making a film about?",
                 options: [
-                    "Her relationship",
-                    "Her mother",
                     "Her childhood",
-                    "The war"
+                    "Her mother",
+                    "The war",
+                    "Her relationship"
                 ],
                 correct: 1
             },
@@ -9624,12 +9624,12 @@ const moviesTVQuestions = {
                 emoji: "🏴‍☠️⚓",
                 question: "What country is Prayers for the Stolen from?",
                 options: [
-                    "Mexico",
                     "Colombia",
                     "Argentina",
-                    "Chile"
+                    "Chile",
+                    "Mexico"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Compartment No. 6",
@@ -9648,34 +9648,34 @@ const moviesTVQuestions = {
                 emoji: "🎩🎪",
                 question: "Who is the film's subject?",
                 options: [
+                    "Robert Graves",
                     "Siegfried Sassoon",
                     "Wilfred Owen",
-                    "Rupert Brooke",
-                    "Robert Graves"
+                    "Rupert Brooke"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Nitram",
                 emoji: "🎸🎤",
                 question: "What tragedy is Nitram based on?",
                 options: [
-                    "Port Arthur massacre",
                     "Lindt Café siege",
                     "Hoddle Street massacre",
+                    "Port Arthur massacre",
                     "Strathfield massacre"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "A Chiara",
                 emoji: "🏃💨",
                 question: "Who directed A Chiara?",
                 options: [
-                    "Jonas Carpignano",
-                    "Matteo Garrone",
                     "Paolo Sorrentino",
-                    "Alice Rohrwacher"
+                    "Matteo Garrone",
+                    "Alice Rohrwacher",
+                    "Jonas Carpignano"
                 ],
                 correct: 1
             }

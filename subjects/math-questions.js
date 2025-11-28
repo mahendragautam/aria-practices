@@ -16,20 +16,20 @@ const mathQuestions = {
                 "emoji": "➕➖",
                 "question": "Does 2 + 2 equal 4?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Arithmetic",
                 "emoji": "✖️➗",
                 "question": "Does 5 × 3 equal 15?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Geometry",
@@ -76,20 +76,20 @@ const mathQuestions = {
                 "emoji": "📊📈",
                 "question": "Is x + 5 = 10, so x = 5?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Geometry",
                 "emoji": "🟦📏",
                 "question": "Does a square have four equal sides?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Arithmetic",
@@ -118,20 +118,20 @@ const mathQuestions = {
                 "emoji": "📏📐",
                 "question": "What is 12 + 8?",
                 "options": [
-                    "20",
-                    "19"
+                    "19",
+                    "20"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Geometry",
                 "emoji": "🎯🎲",
                 "question": "How many degrees in a triangle?",
                 "options": [
-                    "360°",
-                    "180°"
+                    "180°",
+                    "360°"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Arithmetic",
@@ -148,10 +148,10 @@ const mathQuestions = {
                 "emoji": "📉📊",
                 "question": "Is if x = 3, what 2x?",
                 "options": [
-                    "5",
-                    "6"
+                    "6",
+                    "5"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Geometry",
@@ -168,20 +168,20 @@ const mathQuestions = {
                 "emoji": "🔶🔷",
                 "question": "What is 100 ÷ 4?",
                 "options": [
-                    "25",
-                    "20"
+                    "20",
+                    "25"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Arithmetic",
                 "emoji": "⚖️⚗️",
                 "question": "What is 50 - 17?",
                 "options": [
-                    "37",
-                    "33"
+                    "33",
+                    "37"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Geometry",
@@ -208,10 +208,10 @@ const mathQuestions = {
                 "emoji": "💱💲",
                 "question": "What is 9 × 9?",
                 "options": [
-                    "81",
-                    "72"
+                    "72",
+                    "81"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -220,20 +220,20 @@ const mathQuestions = {
                 "emoji": "🔀🔁",
                 "question": "What is 15% of 200?",
                 "options": [
-                    "25",
                     "35",
+                    "25",
                     "30"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Geometry",
                 "emoji": "🎲🎯",
                 "question": "What is the sum of angles in a triangle?",
                 "options": [
-                    "90°",
+                    "360°",
                     "180°",
-                    "360°"
+                    "90°"
                 ],
                 "correct": 1
             },
@@ -242,11 +242,11 @@ const mathQuestions = {
                 "emoji": "📈📊",
                 "question": "Is solve: 3x + 9 = 24?",
                 "options": [
-                    "x = 5",
+                    "x = 6",
                     "x = 7",
-                    "x = 6"
+                    "x = 5"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Arithmetic",
@@ -264,11 +264,11 @@ const mathQuestions = {
                 "emoji": "🔤🔡",
                 "question": "What is the area formula for a circle?",
                 "options": [
-                    "2πr",
                     "πd",
+                    "2πr",
                     "πr²"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Algebra",
@@ -276,8 +276,8 @@ const mathQuestions = {
                 "question": "What is 2³ (2 cubed)?",
                 "options": [
                     "8",
-                    "9",
-                    "6"
+                    "6",
+                    "9"
                 ],
                 "correct": 0
             },
@@ -287,21 +287,21 @@ const mathQuestions = {
                 "question": "What is 1000 - 347?",
                 "options": [
                     "663",
-                    "643",
-                    "653"
+                    "653",
+                    "643"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Geometry",
                 "emoji": "📌📍",
                 "question": "Area of rectangle =?",
                 "options": [
-                    "Length ÷ Width",
                     "Length × Width",
+                    "Length ÷ Width",
                     "Length + Width"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Algebra",
@@ -319,11 +319,11 @@ const mathQuestions = {
                 "emoji": "🧮🔢",
                 "question": "What is 25 × 4?",
                 "options": [
-                    "90",
                     "110",
-                    "100"
+                    "100",
+                    "90"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -332,60 +332,60 @@ const mathQuestions = {
                 "emoji": "➕➖",
                 "question": "What is 20% of 500?",
                 "options": [
-                    "80",
                     "120",
+                    "100",
                     "90",
-                    "100"
+                    "80"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Geometry",
                 "emoji": "🔺📐",
                 "question": "What is the Pythagorean theorem?",
                 "options": [
+                    "abc = 180",
                     "a² = b²",
-                    "a + b = c",
                     "a² + b² = c²",
-                    "abc = 180"
+                    "a + b = c"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Algebra",
                 "emoji": "📊📈",
                 "question": "Is solve: 2x - 5 = 11?",
                 "options": [
-                    "x = 6",
                     "x = 8",
-                    "x = 7",
-                    "x = 10"
+                    "x = 10",
+                    "x = 6",
+                    "x = 7"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Arithmetic",
                 "emoji": "✖️➗",
                 "question": "What is 225 ÷ 15?",
                 "options": [
-                    "20",
-                    "10",
                     "12",
-                    "15"
+                    "20",
+                    "15",
+                    "10"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Geometry",
                 "emoji": "⭕📏",
                 "question": "Circumference of circle =?",
                 "options": [
-                    "2πr",
-                    "πd²",
+                    "πr²",
                     "r²",
-                    "πr²"
+                    "2πr",
+                    "πd²"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Algebra",
@@ -393,9 +393,9 @@ const mathQuestions = {
                 "question": "What is 4² + 3²?",
                 "options": [
                     "30",
-                    "20",
+                    "25",
                     "16",
-                    "25"
+                    "20"
                 ],
                 "correct": 0
             },
@@ -404,36 +404,36 @@ const mathQuestions = {
                 "emoji": "💰💵",
                 "question": "Is convert 3/4 to decimal?",
                 "options": [
-                    "0.75",
-                    "0.70",
+                    "0.80",
                     "0.50",
-                    "0.80"
+                    "0.75",
+                    "0.70"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Geometry",
                 "emoji": "🔺📐",
                 "question": "Sum of angles in a quadrilateral?",
                 "options": [
+                    "180°",
                     "270°",
                     "360°",
-                    "180°",
                     "540°"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Algebra",
                 "emoji": "📈🔢",
                 "question": "What is √100?",
                 "options": [
-                    "20",
-                    "10",
                     "50",
-                    "100"
+                    "20",
+                    "100",
+                    "10"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Arithmetic",
@@ -441,11 +441,11 @@ const mathQuestions = {
                 "question": "What is 12 × 12?",
                 "options": [
                     "144",
-                    "124",
                     "154",
+                    "124",
                     "134"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -518,10 +518,10 @@ const mathQuestions = {
                 "emoji": "🍕➗",
                 "question": "Is 1/2 equal to 0.5?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Fractions",
@@ -548,10 +548,10 @@ const mathQuestions = {
                 "emoji": "🍕💯",
                 "question": "Does 3/3 equal 1?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Fractions",
@@ -568,10 +568,10 @@ const mathQuestions = {
                 "emoji": "🍰➕",
                 "question": "Does 1/4 + 1/4 equal 1/2?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Fractions",
@@ -608,10 +608,10 @@ const mathQuestions = {
                 "emoji": "🍕➕",
                 "question": "Does 1/2 + 1/4 equal 3/4?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -620,11 +620,11 @@ const mathQuestions = {
                 "emoji": "🍕➗",
                 "question": "What is 1/2 + 1/3?",
                 "options": [
-                    "3/5",
+                    "2/5",
                     "5/6",
-                    "2/5"
+                    "3/5"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Fractions",
@@ -632,43 +632,43 @@ const mathQuestions = {
                 "question": "What is 3/4 - 1/4?",
                 "options": [
                     "1/4",
-                    "1/2",
-                    "2/4"
+                    "2/4",
+                    "1/2"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Fractions",
                 "emoji": "🍰➕",
                 "question": "What is 2/3 × 3/4?",
                 "options": [
-                    "6/12",
                     "5/7",
-                    "1/2"
+                    "1/2",
+                    "6/12"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Fractions",
                 "emoji": "🍕💯",
                 "question": "What is 1/2 ÷ 1/4?",
                 "options": [
+                    "4",
                     "1/8",
-                    "2",
-                    "4"
+                    "2"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Fractions",
                 "emoji": "🥧🔢",
                 "question": "Is simplify: 4/8?",
                 "options": [
-                    "1/4",
                     "2/4",
+                    "1/4",
                     "1/2"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Fractions",
@@ -697,33 +697,33 @@ const mathQuestions = {
                 "emoji": "🥧➕",
                 "question": "What is 1/3 × 2?",
                 "options": [
+                    "1/6",
                     "3/2",
-                    "2/3",
-                    "1/6"
+                    "2/3"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Fractions",
                 "emoji": "🍰💯",
                 "question": "Is simplify: 6/9?",
                 "options": [
-                    "1/2",
+                    "2/3",
                     "3/4",
-                    "2/3"
+                    "1/2"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Fractions",
                 "emoji": "🍕➗",
                 "question": "What is 3/4 ÷ 1/2?",
                 "options": [
-                    "3/2",
                     "1/2",
+                    "3/2",
                     "6/4"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -732,44 +732,44 @@ const mathQuestions = {
                 "emoji": "🍕➗",
                 "question": "What is 2/3 + 3/4?",
                 "options": [
+                    "5/7",
                     "17/12",
-                    "1",
-                    "5/7"
+                    "1"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Fractions",
                 "emoji": "🥧🔢",
                 "question": "What is 5/6 - 2/3?",
                 "options": [
+                    "3/9",
                     "1/6",
-                    "1/3",
-                    "3/9"
+                    "1/3"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Fractions",
                 "emoji": "🍰➕",
                 "question": "What is 3/5 × 5/6?",
                 "options": [
-                    "15/30",
                     "1/2",
+                    "15/30",
                     "8/11"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Fractions",
                 "emoji": "🍕💯",
                 "question": "What is 3/4 ÷ 2/3?",
                 "options": [
-                    "1",
                     "9/8",
+                    "1",
                     "6/12"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Fractions",
@@ -777,10 +777,10 @@ const mathQuestions = {
                 "question": "Is simplify: 12/16?",
                 "options": [
                     "2/3",
-                    "3/4",
-                    "6/8"
+                    "6/8",
+                    "3/4"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Fractions",
@@ -788,8 +788,8 @@ const mathQuestions = {
                 "question": "What is 4/5 + 1/3?",
                 "options": [
                     "5/8",
-                    "1",
-                    "17/15"
+                    "17/15",
+                    "1"
                 ],
                 "correct": 0
             },
@@ -799,10 +799,10 @@ const mathQuestions = {
                 "question": "What is 7/8 - 3/4?",
                 "options": [
                     "4/12",
-                    "1/4",
-                    "1/8"
+                    "1/8",
+                    "1/4"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Fractions",
@@ -810,8 +810,8 @@ const mathQuestions = {
                 "question": "What is 2/3 × 9/10?",
                 "options": [
                     "18/30",
-                    "3/5",
-                    "11/13"
+                    "11/13",
+                    "3/5"
                 ],
                 "correct": 0
             },
@@ -820,22 +820,22 @@ const mathQuestions = {
                 "emoji": "🍰💯",
                 "question": "Is simplify: 15/20?",
                 "options": [
-                    "1/2",
                     "5/10",
-                    "3/4"
+                    "3/4",
+                    "1/2"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Fractions",
                 "emoji": "🍕➗",
                 "question": "What is 5/6 ÷ 5/12?",
                 "options": [
+                    "2",
                     "25/72",
-                    "1/2",
-                    "2"
+                    "1/2"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -845,9 +845,9 @@ const mathQuestions = {
                 "question": "What is 7/8 + 5/6?",
                 "options": [
                     "12/14",
+                    "41/24",
                     "2",
-                    "1",
-                    "41/24"
+                    "1"
                 ],
                 "correct": 0
             },
@@ -856,36 +856,36 @@ const mathQuestions = {
                 "emoji": "🥧🔢",
                 "question": "What is 11/12 - 3/8?",
                 "options": [
-                    "8/20",
                     "13/24",
-                    "1/3",
-                    "1/2"
+                    "8/20",
+                    "1/2",
+                    "1/3"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Fractions",
                 "emoji": "🍰➕",
                 "question": "What is 4/7 × 7/8?",
                 "options": [
-                    "11/15",
+                    "3/4",
                     "28/56",
-                    "1/2",
-                    "3/4"
+                    "11/15",
+                    "1/2"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Fractions",
                 "emoji": "🍕💯",
                 "question": "What is 5/6 ÷ 5/9?",
                 "options": [
-                    "1",
-                    "25/54",
+                    "2/3",
                     "3/2",
-                    "2/3"
+                    "1",
+                    "25/54"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Fractions",
@@ -893,35 +893,35 @@ const mathQuestions = {
                 "question": "Is simplify: 24/32?",
                 "options": [
                     "12/16",
-                    "6/8",
                     "1/2",
+                    "6/8",
                     "3/4"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Fractions",
                 "emoji": "🍰➗",
                 "question": "What is 5/8 + 3/10?",
                 "options": [
-                    "37/40",
-                    "1/2",
                     "1",
-                    "8/18"
+                    "37/40",
+                    "8/18",
+                    "1/2"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Fractions",
                 "emoji": "🍕🔢",
                 "question": "What is 13/15 - 2/5?",
                 "options": [
-                    "1/2",
                     "1/3",
-                    "7/15",
-                    "11/20"
+                    "11/20",
+                    "1/2",
+                    "7/15"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Fractions",
@@ -941,8 +941,8 @@ const mathQuestions = {
                 "question": "Is simplify: 36/48?",
                 "options": [
                     "9/12",
-                    "18/24",
                     "6/8",
+                    "18/24",
                     "3/4"
                 ],
                 "correct": 0
@@ -952,12 +952,12 @@ const mathQuestions = {
                 "emoji": "🍕➗",
                 "question": "What is 7/10 ÷ 14/15?",
                 "options": [
+                    "2/3",
                     "3/4",
                     "1/2",
-                    "2/3",
                     "98/150"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -1050,20 +1050,20 @@ const mathQuestions = {
                 "emoji": "🔢📊",
                 "question": "Is 0.1 larger than 0.2?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Decimals",
                 "emoji": "💯📈",
                 "question": "Does 0.75 equal three quarters?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Decimals",
@@ -1080,16 +1080,6 @@ const mathQuestions = {
                 "emoji": "📊💵",
                 "question": "Does 1.0 equal 1?",
                 "options": [
-                    "False",
-                    "True"
-                ],
-                "correct": 0
-            },
-            {
-                "topic": "Decimals",
-                "emoji": "🔢🎯",
-                "question": "Is 0.3 + 0.3 = 0.6?",
-                "options": [
                     "True",
                     "False"
                 ],
@@ -1097,13 +1087,23 @@ const mathQuestions = {
             },
             {
                 "topic": "Decimals",
+                "emoji": "🔢🎯",
+                "question": "Is 0.3 + 0.3 = 0.6?",
+                "options": [
+                    "False",
+                    "True"
+                ],
+                "correct": 0
+            },
+            {
+                "topic": "Decimals",
                 "emoji": "💯💰",
                 "question": "Is 0.9 less than 1?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Decimals",
@@ -1132,10 +1132,10 @@ const mathQuestions = {
                 "emoji": "🔢💯",
                 "question": "What is 0.5 + 0.3?",
                 "options": [
-                    "0.7",
-                    "0.8"
+                    "0.8",
+                    "0.7"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Decimals",
@@ -1182,10 +1182,10 @@ const mathQuestions = {
                 "emoji": "📊💵",
                 "question": "What is 0.6 + 0.9?",
                 "options": [
-                    "1.4",
-                    "1.5"
+                    "1.5",
+                    "1.4"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Decimals",
@@ -1202,10 +1202,10 @@ const mathQuestions = {
                 "emoji": "💯💰",
                 "question": "What is 4.8 ÷ 2?",
                 "options": [
-                    "2.4",
-                    "2.5"
+                    "2.5",
+                    "2.4"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Decimals",
@@ -1222,10 +1222,10 @@ const mathQuestions = {
                 "emoji": "💵📊",
                 "question": "Is round 5.4 to nearest whole?",
                 "options": [
-                    "5",
-                    "6"
+                    "6",
+                    "5"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -1235,8 +1235,8 @@ const mathQuestions = {
                 "question": "What is 3.45 + 2.67?",
                 "options": [
                     "6.02",
-                    "6.12",
-                    "6.22"
+                    "6.22",
+                    "6.12"
                 ],
                 "correct": 0
             },
@@ -1246,21 +1246,21 @@ const mathQuestions = {
                 "question": "What is 7.5 - 3.75?",
                 "options": [
                     "3.75",
-                    "3.65",
-                    "3.85"
+                    "3.85",
+                    "3.65"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Decimals",
                 "emoji": "🔢📊",
                 "question": "What is 0.25 × 12?",
                 "options": [
-                    "3.5",
                     "3.0",
-                    "2.5"
+                    "2.5",
+                    "3.5"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Decimals",
@@ -1268,21 +1268,21 @@ const mathQuestions = {
                 "question": "What is 8.4 ÷ 0.4?",
                 "options": [
                     "22",
-                    "20",
-                    "21"
+                    "21",
+                    "20"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Decimals",
                 "emoji": "🔢💰",
                 "question": "Is round 12.649 to 2 decimal places?",
                 "options": [
-                    "12.65",
                     "12.66",
-                    "12.64"
+                    "12.64",
+                    "12.65"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Decimals",
@@ -1301,21 +1301,21 @@ const mathQuestions = {
                 "question": "What is 9.6 ÷ 3?",
                 "options": [
                     "3.3",
-                    "3.2",
-                    "3.1"
+                    "3.1",
+                    "3.2"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Decimals",
                 "emoji": "💯💰",
                 "question": "What is 0.125 + 0.375?",
                 "options": [
+                    "0.5",
                     "0.6",
-                    "0.4",
-                    "0.5"
+                    "0.4"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Decimals",
@@ -1323,8 +1323,8 @@ const mathQuestions = {
                 "question": "Is round 99.999 to nearest whole?",
                 "options": [
                     "99",
-                    "100",
-                    "101"
+                    "101",
+                    "100"
                 ],
                 "correct": 0
             },
@@ -1333,11 +1333,11 @@ const mathQuestions = {
                 "emoji": "💵📊",
                 "question": "What is 2.5 × 0.8?",
                 "options": [
+                    "1.8",
                     "2.0",
-                    "2.2",
-                    "1.8"
+                    "2.2"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -1346,12 +1346,12 @@ const mathQuestions = {
                 "emoji": "🔢💯",
                 "question": "What is 15.75 + 23.68?",
                 "options": [
-                    "39.33",
+                    "39.53",
                     "39.23",
-                    "39.43",
-                    "39.53"
+                    "39.33",
+                    "39.43"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Decimals",
@@ -1370,12 +1370,12 @@ const mathQuestions = {
                 "emoji": "🔢📊",
                 "question": "What is 3.75 × 1.6?",
                 "options": [
-                    "5.8",
-                    "6.0",
                     "5.5",
-                    "6.5"
+                    "6.5",
+                    "6.0",
+                    "5.8"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Decimals",
@@ -1383,11 +1383,11 @@ const mathQuestions = {
                 "question": "What is 12.6 ÷ 0.3?",
                 "options": [
                     "42",
-                    "40",
+                    "44",
                     "38",
-                    "44"
+                    "40"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Decimals",
@@ -1395,35 +1395,35 @@ const mathQuestions = {
                 "question": "Is round 45.7654 to 3 decimal places?",
                 "options": [
                     "45.767",
+                    "45.764",
                     "45.766",
-                    "45.765",
-                    "45.764"
+                    "45.765"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Decimals",
                 "emoji": "📊💵",
                 "question": "What is 0.625 × 8?",
                 "options": [
-                    "4.8",
-                    "5.0",
                     "4.5",
+                    "5.0",
+                    "4.8",
                     "5.5"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Decimals",
                 "emoji": "🔢🎯",
                 "question": "What is 18.9 ÷ 0.9?",
                 "options": [
-                    "22",
                     "20",
                     "19",
+                    "22",
                     "21"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Decimals",
@@ -1432,8 +1432,8 @@ const mathQuestions = {
                 "options": [
                     "5.75",
                     "6.25",
-                    "6.0",
-                    "6.5"
+                    "6.5",
+                    "6.0"
                 ],
                 "correct": 0
             },
@@ -1442,24 +1442,24 @@ const mathQuestions = {
                 "emoji": "📈🔢",
                 "question": "Is express 7/8 as a decimal?",
                 "options": [
+                    "0.857",
                     "0.875",
                     "0.785",
-                    "0.857",
                     "0.825"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Decimals",
                 "emoji": "💵📊",
                 "question": "What is 0.2 × 0.2?",
                 "options": [
+                    "0.4",
                     "0.02",
                     "0.2",
-                    "0.4",
                     "0.04"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -1542,16 +1542,6 @@ const mathQuestions = {
                 "emoji": "📈🔢",
                 "question": "Does 100% equal the whole?",
                 "options": [
-                    "False",
-                    "True"
-                ],
-                "correct": 1
-            },
-            {
-                "topic": "Percentages",
-                "emoji": "💯💰",
-                "question": "Does 25% equal one quarter?",
-                "options": [
                     "True",
                     "False"
                 ],
@@ -1559,13 +1549,23 @@ const mathQuestions = {
             },
             {
                 "topic": "Percentages",
+                "emoji": "💯💰",
+                "question": "Does 25% equal one quarter?",
+                "options": [
+                    "False",
+                    "True"
+                ],
+                "correct": 1
+            },
+            {
+                "topic": "Percentages",
                 "emoji": "📊🎯",
                 "question": "Is 10% of 100 10?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Percentages",
@@ -1582,10 +1582,10 @@ const mathQuestions = {
                 "emoji": "🔢💰",
                 "question": "Does 0% mean nothing?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Percentages",
@@ -1634,10 +1634,10 @@ const mathQuestions = {
                 "emoji": "💯📊",
                 "question": "What is 25% of 200?",
                 "options": [
-                    "40",
-                    "50"
+                    "50",
+                    "40"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Percentages",
@@ -1654,70 +1654,70 @@ const mathQuestions = {
                 "emoji": "💯💰",
                 "question": "What is 75% of 40?",
                 "options": [
-                    "28",
-                    "30"
+                    "30",
+                    "28"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Percentages",
                 "emoji": "📊🎯",
                 "question": "What is 20% of 150?",
                 "options": [
-                    "30",
-                    "25"
+                    "25",
+                    "30"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Percentages",
                 "emoji": "💯📈",
                 "question": "What is 50% of 80?",
                 "options": [
-                    "40",
-                    "45"
+                    "45",
+                    "40"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Percentages",
                 "emoji": "🔢💰",
                 "question": "What is 15% of 100?",
                 "options": [
-                    "15",
-                    "20"
+                    "20",
+                    "15"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Percentages",
                 "emoji": "📊💯",
                 "question": "What is 5% of 200?",
                 "options": [
-                    "10",
-                    "5"
-                ],
-                "correct": 1
-            },
-            {
-                "topic": "Percentages",
-                "emoji": "📈🎯",
-                "question": "What is 30% of 50?",
-                "options": [
-                    "15",
+                    "5",
                     "10"
                 ],
                 "correct": 0
             },
             {
                 "topic": "Percentages",
+                "emoji": "📈🎯",
+                "question": "What is 30% of 50?",
+                "options": [
+                    "10",
+                    "15"
+                ],
+                "correct": 1
+            },
+            {
+                "topic": "Percentages",
                 "emoji": "💯🔢",
                 "question": "What is 40% of 25?",
                 "options": [
-                    "10",
-                    "12"
+                    "12",
+                    "10"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Percentages",
@@ -1736,11 +1736,11 @@ const mathQuestions = {
                 "emoji": "💯📊",
                 "question": "What is 35% of 240?",
                 "options": [
-                    "84",
+                    "88",
                     "80",
-                    "88"
+                    "84"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Percentages",
@@ -1748,43 +1748,43 @@ const mathQuestions = {
                 "question": "What is 12.5% of 800?",
                 "options": [
                     "100",
-                    "110",
-                    "90"
+                    "90",
+                    "110"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Percentages",
                 "emoji": "💯💰",
                 "question": "Is increase 50 by 20%?",
                 "options": [
-                    "55",
                     "65",
+                    "55",
                     "60"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Percentages",
                 "emoji": "📊🎯",
                 "question": "Is decrease 120 by 25%?",
                 "options": [
+                    "90",
                     "85",
-                    "95",
-                    "90"
+                    "95"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Percentages",
                 "emoji": "💯📈",
                 "question": "What is 45% of 180?",
                 "options": [
+                    "75",
                     "81",
-                    "85",
-                    "75"
+                    "85"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Percentages",
@@ -1792,8 +1792,8 @@ const mathQuestions = {
                 "question": "What % is 30 of 150?",
                 "options": [
                     "25%",
-                    "15%",
-                    "20%"
+                    "20%",
+                    "15%"
                 ],
                 "correct": 0
             },
@@ -1824,22 +1824,22 @@ const mathQuestions = {
                 "emoji": "💯🔢",
                 "question": "What % is 25 of 200?",
                 "options": [
-                    "12.5%",
                     "10%",
+                    "12.5%",
                     "15%"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Percentages",
                 "emoji": "📊💰",
                 "question": "Is decrease 200 by 30%?",
                 "options": [
-                    "150",
                     "140",
+                    "150",
                     "130"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -1860,10 +1860,10 @@ const mathQuestions = {
                 "emoji": "📈🔢",
                 "question": "Is increase 250 by 18%?",
                 "options": [
-                    "300",
+                    "285",
                     "295",
                     "305",
-                    "285"
+                    "300"
                 ],
                 "correct": 1
             },
@@ -1874,8 +1874,8 @@ const mathQuestions = {
                 "options": [
                     "270",
                     "279",
-                    "285",
-                    "275"
+                    "275",
+                    "285"
                 ],
                 "correct": 0
             },
@@ -1885,83 +1885,83 @@ const mathQuestions = {
                 "question": "What % is 45 of 180?",
                 "options": [
                     "30%",
+                    "20%",
                     "25%",
-                    "22%",
-                    "20%"
+                    "22%"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Percentages",
                 "emoji": "💯📈",
                 "question": "What is 62.5% of 160?",
                 "options": [
-                    "105",
                     "100",
+                    "95",
                     "110",
-                    "95"
+                    "105"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Percentages",
                 "emoji": "🔢💰",
                 "question": "Is 40 what % of 320?",
                 "options": [
-                    "15%",
-                    "12.5%",
                     "10%",
-                    "13%"
+                    "13%",
+                    "12.5%",
+                    "15%"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Percentages",
                 "emoji": "📊💯",
                 "question": "Is increase 150 by 33.33%?",
                 "options": [
+                    "210",
                     "200",
                     "190",
-                    "195",
-                    "210"
+                    "195"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Percentages",
                 "emoji": "📈🎯",
                 "question": "What is 87.5% of 240?",
                 "options": [
-                    "210",
-                    "200",
                     "220",
-                    "215"
+                    "210",
+                    "215",
+                    "200"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Percentages",
                 "emoji": "💯🔢",
                 "question": "Is decrease 500 by 16%?",
                 "options": [
-                    "410",
                     "420",
-                    "425",
-                    "430"
+                    "430",
+                    "410",
+                    "425"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Percentages",
                 "emoji": "📊💰",
                 "question": "What % is 72 of 288?",
                 "options": [
-                    "22%",
-                    "20%",
+                    "30%",
                     "25%",
-                    "30%"
+                    "20%",
+                    "22%"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -2044,10 +2044,10 @@ const mathQuestions = {
                 "emoji": "📊⚖️",
                 "question": "Is in ratio 3:1, 3 larger?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ratios",
@@ -2064,20 +2064,20 @@ const mathQuestions = {
                 "emoji": "⚖️💯",
                 "question": "Does ratio 5:5 equal 1:1?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ratios",
                 "emoji": "📊🔢",
                 "question": "Is ratios compare two quantities?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ratios",
@@ -2094,20 +2094,20 @@ const mathQuestions = {
                 "emoji": "📈💯",
                 "question": "Are in ratio 4:1, there 4 times more?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ratios",
                 "emoji": "⚖️📊",
                 "question": "Does ratio 6:3 equal 2:1?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ratios",
@@ -2136,10 +2136,10 @@ const mathQuestions = {
                 "emoji": "⚖️🔢",
                 "question": "Is simplify ratio 12:18?",
                 "options": [
-                    "3:2",
-                    "2:3"
+                    "2:3",
+                    "3:2"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ratios",
@@ -2166,10 +2166,10 @@ const mathQuestions = {
                 "emoji": "⚖️💯",
                 "question": "Is if ratio 2:3 and first is 10, what is second?",
                 "options": [
-                    "12",
-                    "15"
+                    "15",
+                    "12"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ratios",
@@ -2186,30 +2186,30 @@ const mathQuestions = {
                 "emoji": "🔢⚖️",
                 "question": "Is express 2:7 as decimal?",
                 "options": [
-                    "0.35",
-                    "0.29"
+                    "0.29",
+                    "0.35"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ratios",
                 "emoji": "📈💯",
                 "question": "Is simplify ratio 24:32?",
                 "options": [
-                    "3:4",
-                    "4:5"
+                    "4:5",
+                    "3:4"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ratios",
                 "emoji": "⚖️📊",
                 "question": "Is if ratio 5:2 and total is 35, what is first part?",
                 "options": [
-                    "25",
-                    "20"
+                    "20",
+                    "25"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ratios",
@@ -2238,33 +2238,33 @@ const mathQuestions = {
                 "emoji": "⚖️🔢",
                 "question": "Is divide 120 in ratio 2:3:5?",
                 "options": [
-                    "24, 36, 60",
                     "25, 35, 60",
-                    "20, 40, 60"
+                    "20, 40, 60",
+                    "24, 36, 60"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Ratios",
                 "emoji": "📊⚖️",
                 "question": "Is if a:b = 3:4 and b:c = 2:5, find a:c?",
                 "options": [
-                    "3:8",
                     "3:10",
-                    "6:20"
+                    "6:20",
+                    "3:8"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ratios",
                 "emoji": "🔢📈",
                 "question": "Is simplify ratio 48:64:80?",
                 "options": [
-                    "6:8:10",
                     "3:4:5",
-                    "4:5:6"
+                    "4:5:6",
+                    "6:8:10"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Ratios",
@@ -2272,19 +2272,19 @@ const mathQuestions = {
                 "question": "Is if 5:x = 15:60, what x?",
                 "options": [
                     "15",
-                    "20",
-                    "25"
+                    "25",
+                    "20"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Ratios",
                 "emoji": "📊🔢",
                 "question": "Is divide 180 in ratio 1:2:3?",
                 "options": [
-                    "35, 65, 80",
+                    "40, 60, 80",
                     "30, 60, 90",
-                    "40, 60, 80"
+                    "35, 65, 80"
                 ],
                 "correct": 1
             },
@@ -2304,33 +2304,33 @@ const mathQuestions = {
                 "emoji": "📈💯",
                 "question": "Is simplify ratio 36:48:60?",
                 "options": [
-                    "3:4:5",
                     "6:8:10",
+                    "3:4:5",
                     "9:12:15"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ratios",
                 "emoji": "⚖️📊",
                 "question": "Is if a:b = 2:5 and a = 18, what b?",
                 "options": [
+                    "45",
                     "40",
-                    "50",
-                    "45"
+                    "50"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ratios",
                 "emoji": "🔢📈",
                 "question": "Is divide 150 in ratio 2:3?",
                 "options": [
-                    "60, 90",
+                    "50, 100",
                     "75, 75",
-                    "50, 100"
+                    "60, 90"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Ratios",
@@ -2338,10 +2338,10 @@ const mathQuestions = {
                 "question": "Is if 7:x = 21:12, what x?",
                 "options": [
                     "3",
-                    "5",
-                    "4"
+                    "4",
+                    "5"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -2350,12 +2350,12 @@ const mathQuestions = {
                 "emoji": "⚖️🔢",
                 "question": "Is divide 480 in ratio 3:5:8?",
                 "options": [
+                    "90, 150, 240",
                     "100, 150, 230",
                     "95, 145, 240",
-                    "80, 140, 260",
-                    "90, 150, 240"
+                    "80, 140, 260"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ratios",
@@ -2375,9 +2375,9 @@ const mathQuestions = {
                 "question": "Is if x:y = 3:5 and x+y = 120, find x?",
                 "options": [
                     "45",
-                    "50",
+                    "55",
                     "40",
-                    "55"
+                    "50"
                 ],
                 "correct": 0
             },
@@ -2386,48 +2386,48 @@ const mathQuestions = {
                 "emoji": "⚖️💯",
                 "question": "Is simplify 0.5:0.75:1.25?",
                 "options": [
-                    "1:2:3",
                     "1:3:5",
-                    "2:4:5",
-                    "2:3:5"
+                    "2:3:5",
+                    "1:2:3",
+                    "2:4:5"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ratios",
                 "emoji": "📊🔢",
                 "question": "Is if 2/x = 3/12, what x?",
                 "options": [
+                    "8",
                     "9",
                     "6",
-                    "7",
-                    "8"
+                    "7"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Ratios",
                 "emoji": "🔢⚖️",
                 "question": "Is divide 360 in ratio 2:3:4:6?",
                 "options": [
-                    "50, 70, 90, 150",
                     "40, 80, 100, 140",
+                    "50, 70, 90, 150",
                     "45, 75, 95, 145",
                     "48, 72, 96, 144"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ratios",
                 "emoji": "📈💯",
                 "question": "Is if a:b = 5:7 and a-b = -10, find a?",
                 "options": [
-                    "15",
                     "30",
-                    "25",
-                    "20"
+                    "20",
+                    "15",
+                    "25"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ratios",
@@ -2446,12 +2446,12 @@ const mathQuestions = {
                 "emoji": "🔢📈",
                 "question": "Is if x:y:z = 2:3:4 and z = 20, find x?",
                 "options": [
-                    "8",
+                    "15",
                     "10",
                     "12",
-                    "15"
+                    "8"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Ratios",
@@ -2459,11 +2459,11 @@ const mathQuestions = {
                 "question": "Is if 5:8 = x:(x+12), what x?",
                 "options": [
                     "18",
+                    "25",
                     "15",
-                    "20",
-                    "25"
+                    "20"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -2536,10 +2536,10 @@ const mathQuestions = {
                 "emoji": "🔤📊",
                 "question": "Does if x + 5 = 10, then x equal 5?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Algebra",
@@ -2556,20 +2556,20 @@ const mathQuestions = {
                 "emoji": "🔤💯",
                 "question": "Is x - 3 = 7, so x = 10?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Algebra",
                 "emoji": "📊🎯",
                 "question": "Is variables represent unknown numbers?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Algebra",
@@ -2596,10 +2596,10 @@ const mathQuestions = {
                 "emoji": "📊🔤",
                 "question": "Is x/2 = 5, so x = 10?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Algebra",
@@ -2616,10 +2616,10 @@ const mathQuestions = {
                 "emoji": "🔤🎯",
                 "question": "Is 5x - 2x = 3x?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Algebra",
@@ -2648,10 +2648,10 @@ const mathQuestions = {
                 "emoji": "📈🔢",
                 "question": "Is solve: 3x = 21?",
                 "options": [
-                    "x = 7",
-                    "x = 6"
+                    "x = 6",
+                    "x = 7"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Algebra",
@@ -2708,10 +2708,10 @@ const mathQuestions = {
                 "emoji": "📈💯",
                 "question": "Is expand: 3(x + 2)?",
                 "options": [
-                    "3x + 2",
-                    "3x + 6"
+                    "3x + 6",
+                    "3x + 2"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Algebra",
@@ -2728,10 +2728,10 @@ const mathQuestions = {
                 "emoji": "🔢📊",
                 "question": "Is simplify: 2x + 5x - 3x?",
                 "options": [
-                    "10x",
-                    "4x"
+                    "4x",
+                    "10x"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -2741,8 +2741,8 @@ const mathQuestions = {
                 "question": "Is solve: 3x + 7 = 22?",
                 "options": [
                     "x = 5",
-                    "x = 6",
-                    "x = 4"
+                    "x = 4",
+                    "x = 6"
                 ],
                 "correct": 0
             },
@@ -2751,42 +2751,42 @@ const mathQuestions = {
                 "emoji": "📈🔢",
                 "question": "Is solve: 5(x - 2) = 20?",
                 "options": [
-                    "x = 7",
                     "x = 6",
+                    "x = 7",
                     "x = 5"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Algebra",
                 "emoji": "🔤💯",
                 "question": "Is simplify: 3(2x + 4) - 2x?",
                 "options": [
-                    "4x + 6",
+                    "6x + 12",
                     "4x + 12",
-                    "6x + 12"
+                    "4x + 6"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Algebra",
                 "emoji": "📊🎯",
                 "question": "Is solve: 2x/3 = 8?",
                 "options": [
+                    "x = 16",
                     "x = 10",
-                    "x = 12",
-                    "x = 16"
+                    "x = 12"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Algebra",
                 "emoji": "🔤📈",
                 "question": "Is solve: 4x - 5 = 19?",
                 "options": [
-                    "x = 7",
+                    "x = 6",
                     "x = 5",
-                    "x = 6"
+                    "x = 7"
                 ],
                 "correct": 1
             },
@@ -2795,22 +2795,22 @@ const mathQuestions = {
                 "emoji": "🔢💰",
                 "question": "Is expand: (x + 3)(x + 2)?",
                 "options": [
-                    "x² + 5x",
                     "x² + 5x + 6",
-                    "x² + 6"
+                    "x² + 6",
+                    "x² + 5x"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Algebra",
                 "emoji": "📊🔤",
                 "question": "Is solve: 7 - 2x = 1?",
                 "options": [
-                    "x = 3",
                     "x = 4",
+                    "x = 3",
                     "x = 2"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Algebra",
@@ -2818,8 +2818,8 @@ const mathQuestions = {
                 "question": "Is simplify: 5(x + 2) - 3(x - 1)?",
                 "options": [
                     "2x + 13",
-                    "2x + 7",
-                    "8x + 13"
+                    "8x + 13",
+                    "2x + 7"
                 ],
                 "correct": 0
             },
@@ -2854,8 +2854,8 @@ const mathQuestions = {
                 "options": [
                     "x = 7",
                     "x = 5",
-                    "x = 6",
-                    "x = 4"
+                    "x = 4",
+                    "x = 6"
                 ],
                 "correct": 0
             },
@@ -2876,12 +2876,12 @@ const mathQuestions = {
                 "emoji": "🔤💯",
                 "question": "Is solve: (2x + 3)/4 = 5?",
                 "options": [
-                    "x = 8.5",
-                    "x = 9",
                     "x = 7.5",
-                    "x = 8"
+                    "x = 9",
+                    "x = 8",
+                    "x = 8.5"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Algebra",
@@ -2900,12 +2900,12 @@ const mathQuestions = {
                 "emoji": "🔤📈",
                 "question": "Is expand: (x + 5)(x - 3)?",
                 "options": [
-                    "x² + 8x - 15",
-                    "x² - 15",
                     "x² + 2x - 15",
-                    "x² - 2x - 15"
+                    "x² - 2x - 15",
+                    "x² + 8x - 15",
+                    "x² - 15"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Algebra",
@@ -2913,9 +2913,9 @@ const mathQuestions = {
                 "question": "Is solve: 5x - 2(x + 3) = 9?",
                 "options": [
                     "x = 4",
+                    "x = 5",
                     "x = 3",
-                    "x = 6",
-                    "x = 5"
+                    "x = 6"
                 ],
                 "correct": 0
             },
@@ -2924,10 +2924,10 @@ const mathQuestions = {
                 "emoji": "📊🔤",
                 "question": "Is factor: 2x² + 7x + 3?",
                 "options": [
-                    "(2x + 3)(x + 1)",
-                    "(x + 1)(2x + 3)",
                     "(2x + 1)(x + 3)",
-                    "(x + 3)(2x + 1)"
+                    "(x + 1)(2x + 3)",
+                    "(x + 3)(2x + 1)",
+                    "(2x + 3)(x + 1)"
                 ],
                 "correct": 1
             },
@@ -2936,12 +2936,12 @@ const mathQuestions = {
                 "emoji": "📈💯",
                 "question": "Is solve: 3(x - 4) = 2(x + 1)?",
                 "options": [
-                    "x = 10",
+                    "x = 12",
                     "x = 16",
-                    "x = 14",
-                    "x = 12"
+                    "x = 10",
+                    "x = 14"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Algebra",
@@ -2949,9 +2949,9 @@ const mathQuestions = {
                 "question": "Is simplify: (x + 2)² - (x - 2)²?",
                 "options": [
                     "4x",
-                    "8",
+                    "4",
                     "8x",
-                    "4"
+                    "8"
                 ],
                 "correct": 0
             },
@@ -2961,11 +2961,11 @@ const mathQuestions = {
                 "question": "Is solve: (3x - 1)/2 + (x + 4)/3 = 5?",
                 "options": [
                     "x = 1",
-                    "x = 4",
+                    "x = 3",
                     "x = 2",
-                    "x = 3"
+                    "x = 4"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "extreme": [
@@ -3038,10 +3038,10 @@ const mathQuestions = {
                 "emoji": "📈📉",
                 "question": "Does a linear equation have degree 1?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Linear Equations",
@@ -3058,10 +3058,10 @@ const mathQuestions = {
                 "emoji": "📉🎯",
                 "question": "Are linear graphs straight lines?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Linear Equations",
@@ -3098,10 +3098,10 @@ const mathQuestions = {
                 "emoji": "📈🔢",
                 "question": "Does a horizontal line have slope 0?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Linear Equations",
@@ -3118,10 +3118,10 @@ const mathQuestions = {
                 "emoji": "🔢📈",
                 "question": "Does vertical lines have undefined slope?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Linear Equations",
@@ -3140,50 +3140,50 @@ const mathQuestions = {
                 "emoji": "📈📉",
                 "question": "What is the slope of y = 3x + 2?",
                 "options": [
-                    "2",
-                    "3"
+                    "3",
+                    "2"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Linear Equations",
                 "emoji": "🔢📊",
                 "question": "What is the y-intercept of y = 4x - 5?",
                 "options": [
-                    "-5",
-                    "4"
+                    "4",
+                    "-5"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Linear Equations",
                 "emoji": "📉🎯",
                 "question": "Slope of line through (0,0) and (2,4)?",
                 "options": [
-                    "2",
-                    "1"
+                    "1",
+                    "2"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Linear Equations",
                 "emoji": "📈💯",
                 "question": "What is the slope of y = -2x + 7?",
                 "options": [
-                    "7",
-                    "-2"
+                    "-2",
+                    "7"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Linear Equations",
                 "emoji": "🔢📉",
                 "question": "What is y-intercept of y = x - 3?",
                 "options": [
-                    "-3",
-                    "1"
+                    "1",
+                    "-3"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Linear Equations",
@@ -3200,30 +3200,30 @@ const mathQuestions = {
                 "emoji": "📈🔢",
                 "question": "Slope through (1,2) and (3,6)?",
                 "options": [
-                    "3",
-                    "2"
+                    "2",
+                    "3"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Linear Equations",
                 "emoji": "📉💰",
                 "question": "What is slope of y = 7?",
                 "options": [
-                    "0",
-                    "7"
+                    "7",
+                    "0"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Linear Equations",
                 "emoji": "🔢📈",
                 "question": "Is if y = 2x - 1, find x when y = 5?",
                 "options": [
-                    "3",
-                    "2"
+                    "2",
+                    "3"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Linear Equations",
@@ -3242,20 +3242,20 @@ const mathQuestions = {
                 "emoji": "📈📉",
                 "question": "Is write equation for slope 2, y-intercept -3?",
                 "options": [
-                    "y = -3x + 2",
                     "y = 2x + 3",
-                    "y = 2x - 3"
+                    "y = 2x - 3",
+                    "y = -3x + 2"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Linear Equations",
                 "emoji": "🔢📊",
                 "question": "Is find slope through (-1,3) and (2,9)?",
                 "options": [
-                    "3",
+                    "2",
                     "1",
-                    "2"
+                    "3"
                 ],
                 "correct": 1
             },
@@ -3265,8 +3265,8 @@ const mathQuestions = {
                 "question": "Is convert 3x + y = 6 to slope-intercept?",
                 "options": [
                     "y = -3x + 6",
-                    "y = 3x - 6",
-                    "y = 6 - x"
+                    "y = 6 - x",
+                    "y = 3x - 6"
                 ],
                 "correct": 0
             },
@@ -3286,55 +3286,55 @@ const mathQuestions = {
                 "emoji": "🔢📉",
                 "question": "Lines y = 2x + 1 and y = 2x - 3 are?",
                 "options": [
-                    "Same",
                     "Perpendicular",
-                    "Parallel"
+                    "Parallel",
+                    "Same"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Linear Equations",
                 "emoji": "📊🎯",
                 "question": "Is find x-intercept of y = 3x - 9?",
                 "options": [
+                    "9",
                     "3",
-                    "-3",
-                    "9"
+                    "-3"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Linear Equations",
                 "emoji": "📈🔢",
                 "question": "Slope through (4,-2) and (6,2)?",
                 "options": [
-                    "2",
                     "1",
+                    "2",
                     "3"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Linear Equations",
                 "emoji": "📉💰",
                 "question": "Is if 2x - y = 4, find y when x = 3?",
                 "options": [
-                    "1",
+                    "2",
                     "3",
-                    "2"
+                    "1"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Linear Equations",
                 "emoji": "🔢📈",
                 "question": "Is write equation for slope -1/2, through (0,4)?",
                 "options": [
-                    "y = -x/2 + 4",
+                    "y = 4x - 1/2",
                     "y = -2x + 4",
-                    "y = 4x - 1/2"
+                    "y = -x/2 + 4"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Linear Equations",
@@ -3342,10 +3342,10 @@ const mathQuestions = {
                 "question": "Is convert x - 2y = 8 to slope-intercept?",
                 "options": [
                     "y = 2x - 8",
-                    "y = -2x + 8",
-                    "y = x/2 - 4"
+                    "y = x/2 - 4",
+                    "y = -2x + 8"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -3355,8 +3355,8 @@ const mathQuestions = {
                 "question": "Is find equation through (2,3) and (4,7)?",
                 "options": [
                     "y = 2x + 1",
-                    "y = x + 1",
                     "y = 3x - 3",
+                    "y = x + 1",
                     "y = 2x - 1"
                 ],
                 "correct": 0
@@ -3366,12 +3366,12 @@ const mathQuestions = {
                 "emoji": "🔢📊",
                 "question": "Perpendicular to y = 3x + 1 through (0,2)?",
                 "options": [
-                    "y = -x/3 + 2",
-                    "y = x/3 + 2",
+                    "y = 3x + 2",
                     "y = -3x + 2",
-                    "y = 3x + 2"
+                    "y = x/3 + 2",
+                    "y = -x/3 + 2"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Linear Equations",
@@ -3379,9 +3379,9 @@ const mathQuestions = {
                 "question": "Is find y-intercept of 4x - 2y = 12?",
                 "options": [
                     "3",
-                    "6",
+                    "-6",
                     "12",
-                    "-6"
+                    "6"
                 ],
                 "correct": 0
             },
@@ -3390,22 +3390,22 @@ const mathQuestions = {
                 "emoji": "📈💯",
                 "question": "Is distance from origin to line 3x + 4y = 25?",
                 "options": [
-                    "3",
                     "4",
-                    "6",
-                    "5"
+                    "3",
+                    "5",
+                    "6"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Linear Equations",
                 "emoji": "🔢📉",
                 "question": "Midpoint of (2,5) and (8,13)?",
                 "options": [
-                    "(5, 8)",
+                    "(6, 9)",
                     "(5, 9)",
                     "(6, 8)",
-                    "(6, 9)"
+                    "(5, 8)"
                 ],
                 "correct": 1
             },
@@ -3414,12 +3414,12 @@ const mathQuestions = {
                 "emoji": "📊🎯",
                 "question": "Parallel to 2x + y = 5 through (3,1)?",
                 "options": [
-                    "y = -2x + 7",
+                    "y = 2x + 7",
                     "y = -2x - 5",
-                    "y = x/2 + 1",
-                    "y = 2x + 7"
+                    "y = -2x + 7",
+                    "y = x/2 + 1"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Linear Equations",
@@ -3427,44 +3427,44 @@ const mathQuestions = {
                 "question": "Is find where y = 2x + 1 and y = -x + 7 meet?",
                 "options": [
                     "x = 4",
-                    "x = 2",
+                    "x = 3",
                     "x = 1",
-                    "x = 3"
+                    "x = 2"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Linear Equations",
                 "emoji": "📉💰",
                 "question": "Slope of line perpendicular to y = 4x - 3?",
                 "options": [
-                    "4",
                     "1/4",
+                    "4",
                     "-1/4",
                     "-4"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Linear Equations",
                 "emoji": "🔢📈",
                 "question": "Is find equation: x-intercept 5, y-intercept -10?",
                 "options": [
-                    "y = 5x - 10",
                     "y = -2x + 10",
-                    "y = 2x - 10",
-                    "y = x - 5"
+                    "y = x - 5",
+                    "y = 5x - 10",
+                    "y = 2x - 10"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Linear Equations",
                 "emoji": "📊💯",
                 "question": "Is if 3x - 2y = 12, find slope?",
                 "options": [
-                    "-2/3",
-                    "3/2",
                     "-3/2",
+                    "3/2",
+                    "-2/3",
                     "2/3"
                 ],
                 "correct": 1
@@ -3540,30 +3540,30 @@ const mathQuestions = {
                 "emoji": "📐🔢",
                 "question": "Does a quadratic have degree 2?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Quadratics",
                 "emoji": "🎯📊",
                 "question": "Is x² + 5x + 6 a quadratic?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Quadratics",
                 "emoji": "📐💯",
                 "question": "Are quadratic graphs parabolas?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Quadratics",
@@ -3580,10 +3580,10 @@ const mathQuestions = {
                 "emoji": "📊📐",
                 "question": "Does a quadratic can have 2 real roots?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Quadratics",
@@ -3630,10 +3630,10 @@ const mathQuestions = {
                 "emoji": "📐🔢",
                 "question": "Is (x + 2)(x - 3) factored form?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -3652,20 +3652,20 @@ const mathQuestions = {
                 "emoji": "🎯📊",
                 "question": "Is factor: x² + 5x + 6?",
                 "options": [
-                    "(x+1)(x+6)",
-                    "(x+2)(x+3)"
+                    "(x+2)(x+3)",
+                    "(x+1)(x+6)"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Quadratics",
                 "emoji": "📐💯",
                 "question": "Is solve: x² - 4 = 0?",
                 "options": [
-                    "x = 4",
-                    "x = ±2"
+                    "x = ±2",
+                    "x = 4"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Quadratics",
@@ -3702,10 +3702,10 @@ const mathQuestions = {
                 "emoji": "📐🎯",
                 "question": "Is factor: x² - 6x + 9?",
                 "options": [
-                    "(x-3)²",
-                    "(x-9)(x+1)"
+                    "(x-9)(x+1)",
+                    "(x-3)²"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Quadratics",
@@ -3732,10 +3732,10 @@ const mathQuestions = {
                 "emoji": "📐🔢",
                 "question": "Is expand: (x - 5)²?",
                 "options": [
-                    "x² - 10x + 25",
-                    "x² + 25"
+                    "x² + 25",
+                    "x² - 10x + 25"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -3744,11 +3744,11 @@ const mathQuestions = {
                 "emoji": "📐🔢",
                 "question": "Is solve: x² + 6x + 8 = 0?",
                 "options": [
-                    "x = -2, 4",
                     "x = -2, -4",
+                    "x = -2, 4",
                     "x = 2, 4"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Quadratics",
@@ -3756,98 +3756,98 @@ const mathQuestions = {
                 "question": "Is solve: x² - 5x + 6 = 0?",
                 "options": [
                     "x = -2, -3",
-                    "x = 1, 6",
-                    "x = 2, 3"
+                    "x = 2, 3",
+                    "x = 1, 6"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Quadratics",
                 "emoji": "📐💯",
                 "question": "Is complete square: x² + 8x + __?",
                 "options": [
-                    "64",
                     "16",
-                    "8"
+                    "8",
+                    "64"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Quadratics",
                 "emoji": "🔢🎯",
                 "question": "Vertex of y = x² - 4x + 3?",
                 "options": [
+                    "(-2, 1)",
                     "(2, -1)",
-                    "(4, 3)",
-                    "(-2, 1)"
+                    "(4, 3)"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Quadratics",
                 "emoji": "📊📐",
                 "question": "Is factor: x² + x - 12?",
                 "options": [
+                    "(x+3)(x-4)",
                     "(x+4)(x-3)",
-                    "(x+2)(x-6)",
-                    "(x+3)(x-4)"
+                    "(x+2)(x-6)"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Quadratics",
                 "emoji": "💯🔢",
                 "question": "Is solve: 2x² = 32?",
                 "options": [
-                    "x = ±4",
+                    "x = ±16",
                     "x = 4",
-                    "x = ±16"
+                    "x = ±4"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Quadratics",
                 "emoji": "📐🎯",
                 "question": "Discriminant of x² + 4x + 4?",
                 "options": [
-                    "16",
                     "4",
-                    "0"
+                    "0",
+                    "16"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Quadratics",
                 "emoji": "🔢📊",
                 "question": "Is solve: x² - 2x - 15 = 0?",
                 "options": [
-                    "x = 15, -1",
                     "x = -5, 3",
+                    "x = 15, -1",
                     "x = 5, -3"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Quadratics",
                 "emoji": "🎯💯",
                 "question": "Axis of symmetry: y = x² + 6x + 5?",
                 "options": [
-                    "x = -6",
+                    "x = 3",
                     "x = -3",
-                    "x = 3"
+                    "x = -6"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Quadratics",
                 "emoji": "📐🔢",
                 "question": "Is factor: x² - 11x + 24?",
                 "options": [
-                    "(x-4)(x-6)",
                     "(x-2)(x-12)",
+                    "(x-4)(x-6)",
                     "(x-3)(x-8)"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -3856,48 +3856,48 @@ const mathQuestions = {
                 "emoji": "📐🔢",
                 "question": "Is solve: 2x² + 7x + 3 = 0?",
                 "options": [
+                    "x = -1/2, -3",
                     "x = 1/2, 3",
-                    "x = -1, -3",
                     "x = -2, -3/2",
-                    "x = -1/2, -3"
+                    "x = -1, -3"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Quadratics",
                 "emoji": "🎯📊",
                 "question": "Vertex form of y = x² - 6x + 11?",
                 "options": [
-                    "y = (x-6)² + 11",
-                    "y = (x+3)² + 2",
                     "y = (x-3)² + 2",
-                    "y = (x-3)² - 2"
+                    "y = (x-3)² - 2",
+                    "y = (x-6)² + 11",
+                    "y = (x+3)² + 2"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Quadratics",
                 "emoji": "📐💯",
                 "question": "Is solve: 3x² - 5x - 2 = 0?",
                 "options": [
-                    "x = 2, -1/3",
-                    "x = 1, -2/3",
+                    "x = -2, 1/3",
                     "x = -1, 2/3",
-                    "x = -2, 1/3"
+                    "x = 1, -2/3",
+                    "x = 2, -1/3"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Quadratics",
                 "emoji": "🔢🎯",
                 "question": "Max value of y = -x² + 4x - 1?",
                 "options": [
-                    "1",
-                    "2",
                     "3",
-                    "4"
+                    "1",
+                    "4",
+                    "2"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Quadratics",
@@ -3916,24 +3916,24 @@ const mathQuestions = {
                 "emoji": "💯🔢",
                 "question": "Sum of roots of x² - 7x + 10 = 0?",
                 "options": [
-                    "-7",
+                    "-10",
                     "10",
-                    "7",
-                    "-10"
+                    "-7",
+                    "7"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Quadratics",
                 "emoji": "📐🎯",
                 "question": "Is solve: x² + 4x + 1 = 0 (use formula)?",
                 "options": [
-                    "x = -4±√3",
-                    "x = -2±√5",
+                    "x = 2±√3",
                     "x = -2±√3",
-                    "x = 2±√3"
+                    "x = -2±√5",
+                    "x = -4±√3"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Quadratics",
@@ -3941,9 +3941,9 @@ const mathQuestions = {
                 "question": "Product of roots: 2x² + 5x - 3 = 0?",
                 "options": [
                     "-5/2",
+                    "3/2",
                     "5/2",
-                    "-3/2",
-                    "3/2"
+                    "-3/2"
                 ],
                 "correct": 0
             },
@@ -3952,24 +3952,24 @@ const mathQuestions = {
                 "emoji": "🎯💯",
                 "question": "How many real roots: x² + x + 1 = 0?",
                 "options": [
-                    "0",
                     "3",
+                    "0",
                     "2",
                     "1"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Quadratics",
                 "emoji": "📐🔢",
                 "question": "Vertex of y = -2(x - 1)² + 5?",
                 "options": [
+                    "(2, 5)",
                     "(1, -5)",
                     "(-1, 5)",
-                    "(2, 5)",
                     "(1, 5)"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -4082,10 +4082,10 @@ const mathQuestions = {
                 "emoji": "📐🔢",
                 "question": "Is complementary angles sum to 90°?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Angles",
@@ -4122,10 +4122,10 @@ const mathQuestions = {
                 "emoji": "📏🔢",
                 "question": "Is a full rotation 360°?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Angles",
@@ -4144,40 +4144,40 @@ const mathQuestions = {
                 "emoji": "📐📏",
                 "question": "Complement of 30°?",
                 "options": [
-                    "150°",
-                    "60°"
+                    "60°",
+                    "150°"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Angles",
                 "emoji": "🔺📐",
                 "question": "Supplement of 120°?",
                 "options": [
-                    "60°",
-                    "30°"
+                    "30°",
+                    "60°"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Angles",
                 "emoji": "📏🎯",
                 "question": "Is if angle 35°, its complement?",
                 "options": [
-                    "55°",
-                    "145°"
+                    "145°",
+                    "55°"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Angles",
                 "emoji": "🔺💯",
                 "question": "Are alternate interior angles on parallels?",
                 "options": [
-                    "Equal",
-                    "Supplementary"
+                    "Supplementary",
+                    "Equal"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Angles",
@@ -4194,10 +4194,10 @@ const mathQuestions = {
                 "emoji": "📏📊",
                 "question": "Are corresponding angles on parallels?",
                 "options": [
-                    "Complementary",
-                    "Equal"
+                    "Equal",
+                    "Complementary"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Angles",
@@ -4246,11 +4246,11 @@ const mathQuestions = {
                 "emoji": "📐📏",
                 "question": "Is three angles: x, 2x, 3x form line. Find x?",
                 "options": [
-                    "30°",
                     "45°",
-                    "60°"
+                    "60°",
+                    "30°"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Angles",
@@ -4258,10 +4258,10 @@ const mathQuestions = {
                 "question": "Two complementary angles differ by 20°. Smaller?",
                 "options": [
                     "35°",
-                    "40°",
-                    "30°"
+                    "30°",
+                    "40°"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Angles",
@@ -4269,8 +4269,8 @@ const mathQuestions = {
                 "question": "Angles in ratio 2:3:4 on line. Largest?",
                 "options": [
                     "80°",
-                    "60°",
-                    "90°"
+                    "90°",
+                    "60°"
                 ],
                 "correct": 0
             },
@@ -4312,9 +4312,9 @@ const mathQuestions = {
                 "emoji": "🔺🎯",
                 "question": "Sum of exterior angles of any polygon?",
                 "options": [
-                    "180°",
+                    "360°",
                     "540°",
-                    "360°"
+                    "180°"
                 ],
                 "correct": 1
             },
@@ -4334,22 +4334,22 @@ const mathQuestions = {
                 "emoji": "📏🔢",
                 "question": "Each exterior angle of regular octagon?",
                 "options": [
-                    "40°",
                     "45°",
+                    "40°",
                     "50°"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Angles",
                 "emoji": "🔺📊",
                 "question": "Bisector divides 80° angle into?",
                 "options": [
-                    "45°, 35°",
                     "50°, 30°",
-                    "40°, 40°"
+                    "40°, 40°",
+                    "45°, 35°"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -4358,22 +4358,22 @@ const mathQuestions = {
                 "emoji": "📐📏",
                 "question": "Sum of interior angles in 12-sided polygon?",
                 "options": [
-                    "1800°",
-                    "1980°",
+                    "2160°",
                     "1620°",
-                    "2160°"
+                    "1800°",
+                    "1980°"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Angles",
                 "emoji": "🔺📐",
                 "question": "Each interior angle of regular decagon?",
                 "options": [
-                    "140°",
+                    "150°",
                     "144°",
-                    "135°",
-                    "150°"
+                    "140°",
+                    "135°"
                 ],
                 "correct": 1
             },
@@ -4394,10 +4394,10 @@ const mathQuestions = {
                 "emoji": "🔺💯",
                 "question": "How many sides if each interior angle 150°?",
                 "options": [
-                    "12",
+                    "10",
                     "15",
                     "8",
-                    "10"
+                    "12"
                 ],
                 "correct": 1
             },
@@ -4406,24 +4406,24 @@ const mathQuestions = {
                 "emoji": "📐🔢",
                 "question": "Angles in triangle ratio 2:3:5. Largest?",
                 "options": [
-                    "90°",
                     "120°",
+                    "90°",
                     "100°",
                     "108°"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Angles",
                 "emoji": "📏📊",
                 "question": "Each exterior angle of regular 18-gon?",
                 "options": [
-                    "15°",
                     "22.5°",
+                    "18°",
                     "20°",
-                    "18°"
+                    "15°"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Angles",
@@ -4431,23 +4431,23 @@ const mathQuestions = {
                 "question": "Is if two angles 4x and 5x supplementary, find 4x?",
                 "options": [
                     "72°",
+                    "100°",
                     "90°",
-                    "80°",
-                    "100°"
+                    "80°"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Angles",
                 "emoji": "📐💰",
                 "question": "Sides of polygon if sum of interiors 1440°?",
                 "options": [
-                    "11",
-                    "9",
                     "8",
-                    "10"
+                    "10",
+                    "11",
+                    "9"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Angles",
@@ -4455,8 +4455,8 @@ const mathQuestions = {
                 "question": "Bisectors of supplementary angles form?",
                 "options": [
                     "90°",
-                    "180°",
                     "60°",
+                    "180°",
                     "45°"
                 ],
                 "correct": 0
@@ -4466,12 +4466,12 @@ const mathQuestions = {
                 "emoji": "🔺📊",
                 "question": "Is three angles at point: x, 2x, 3x+60. Find x?",
                 "options": [
-                    "45°",
-                    "60°",
                     "50°",
-                    "40°"
+                    "45°",
+                    "40°",
+                    "60°"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "extreme": [
@@ -4554,10 +4554,10 @@ const mathQuestions = {
                 "emoji": "📏🔺",
                 "question": "Is sum of angles in triangle 180°?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Triangles",
@@ -4574,25 +4574,15 @@ const mathQuestions = {
                 "emoji": "📐🎯",
                 "question": "Does an isosceles triangle have two equal sides?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Triangles",
                 "emoji": "🔺📊",
                 "question": "Does a right triangle have one 90° angle?",
-                "options": [
-                    "True",
-                    "False"
-                ],
-                "correct": 1
-            },
-            {
-                "topic": "Triangles",
-                "emoji": "📏💰",
-                "question": "Is pythagorean theorem: a² + b² = c²?",
                 "options": [
                     "False",
                     "True"
@@ -4601,13 +4591,23 @@ const mathQuestions = {
             },
             {
                 "topic": "Triangles",
+                "emoji": "📏💰",
+                "question": "Is pythagorean theorem: a² + b² = c²?",
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "correct": 1
+            },
+            {
+                "topic": "Triangles",
                 "emoji": "🔺🔢",
                 "question": "Is each angle in equilateral 60°?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Triangles",
@@ -4624,20 +4624,20 @@ const mathQuestions = {
                 "emoji": "🔺🎯",
                 "question": "Is area of triangle = ½ × base × height?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Triangles",
                 "emoji": "📏🔺",
                 "question": "Does obtuse triangle have one angle > 90°?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -4676,10 +4676,10 @@ const mathQuestions = {
                 "emoji": "📐🎯",
                 "question": "Perimeter of triangle with sides 5, 7, 8?",
                 "options": [
-                    "280",
-                    "20"
+                    "20",
+                    "280"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Triangles",
@@ -4726,10 +4726,10 @@ const mathQuestions = {
                 "emoji": "🔺🎯",
                 "question": "Triangle with sides 7, 7, 7 is?",
                 "options": [
-                    "Equilateral",
-                    "Isosceles"
+                    "Isosceles",
+                    "Equilateral"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Triangles",
@@ -4748,33 +4748,33 @@ const mathQuestions = {
                 "emoji": "🔺📐",
                 "question": "Area of triangle with sides 13, 14, 15?",
                 "options": [
-                    "90",
+                    "84",
                     "80",
-                    "84"
+                    "90"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Triangles",
                 "emoji": "📏🔺",
                 "question": "Are find x if triangle sides 8, 15, x (right)?",
                 "options": [
+                    "23",
                     "7",
-                    "17",
-                    "23"
+                    "17"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Triangles",
                 "emoji": "🔺💯",
                 "question": "Median divides triangle into two equal?",
                 "options": [
-                    "Angles",
                     "Areas",
-                    "Perimeters"
+                    "Perimeters",
+                    "Angles"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Triangles",
@@ -4782,21 +4782,21 @@ const mathQuestions = {
                 "question": "Altitude to hypotenuse in 3-4-5 triangle?",
                 "options": [
                     "2.4",
-                    "3",
-                    "2.5"
+                    "2.5",
+                    "3"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Triangles",
                 "emoji": "🔺📊",
                 "question": "Triangle angles in ratio 2:3:4. Largest?",
                 "options": [
+                    "100°",
                     "90°",
-                    "80°",
-                    "100°"
+                    "80°"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Triangles",
@@ -4814,22 +4814,22 @@ const mathQuestions = {
                 "emoji": "🔺🔢",
                 "question": "Area of equilateral triangle, side 6?",
                 "options": [
-                    "9√3",
                     "12√3",
-                    "18"
+                    "18",
+                    "9√3"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Triangles",
                 "emoji": "📐📊",
                 "question": "Is find third side: isosceles perimeter 20, equal sides 7?",
                 "options": [
-                    "8",
                     "7",
+                    "8",
                     "6"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Triangles",
@@ -4847,11 +4847,11 @@ const mathQuestions = {
                 "emoji": "📏🔺",
                 "question": "Inradius of 3-4-5 triangle?",
                 "options": [
-                    "1",
                     "1.5",
+                    "1",
                     "2"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -4860,12 +4860,12 @@ const mathQuestions = {
                 "emoji": "🔺📐",
                 "question": "Area of triangle vertices (0,0), (4,0), (2,6)?",
                 "options": [
+                    "14",
                     "8",
-                    "10",
                     "12",
-                    "14"
+                    "10"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Triangles",
@@ -4873,11 +4873,11 @@ const mathQuestions = {
                 "question": "Circumradius of triangle sides 7, 24, 25?",
                 "options": [
                     "12.5",
-                    "14",
                     "13",
-                    "12"
+                    "12",
+                    "14"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Triangles",
@@ -4885,9 +4885,9 @@ const mathQuestions = {
                 "question": "In 30-60-90 triangle, if short leg = 5, hypotenuse?",
                 "options": [
                     "10",
-                    "15",
                     "5√3",
-                    "5√2"
+                    "5√2",
+                    "15"
                 ],
                 "correct": 0
             },
@@ -4896,48 +4896,48 @@ const mathQuestions = {
                 "emoji": "📐🎯",
                 "question": "Area using Heron: sides 5, 6, 7?",
                 "options": [
-                    "6√5",
                     "5√7",
+                    "7√5",
                     "6√6",
-                    "7√5"
+                    "6√5"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Triangles",
                 "emoji": "🔺📊",
                 "question": "In 45-45-90 triangle, if leg = 8, hypotenuse?",
                 "options": [
-                    "12",
-                    "8√3",
                     "8√2",
-                    "16"
+                    "12",
+                    "16",
+                    "8√3"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Triangles",
                 "emoji": "📏💰",
                 "question": "Altitude to side in equilateral triangle side 10?",
                 "options": [
-                    "10√3",
-                    "5√3",
+                    "10",
                     "5",
-                    "10"
+                    "5√3",
+                    "10√3"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Triangles",
                 "emoji": "🔺🔢",
                 "question": "Orthocenter, centroid, circumcenter lie on?",
                 "options": [
-                    "Angle bisector",
                     "Euler line",
+                    "Angle bisector",
                     "Median",
                     "Altitude"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Triangles",
@@ -4945,8 +4945,8 @@ const mathQuestions = {
                 "question": "Area: two sides 8, 10, included angle 60°?",
                 "options": [
                     "20√3",
-                    "20",
                     "40√3",
+                    "20",
                     "40"
                 ],
                 "correct": 0
@@ -4969,11 +4969,11 @@ const mathQuestions = {
                 "question": "Length of median to hypotenuse, hyp 16?",
                 "options": [
                     "8",
+                    "16",
                     "4",
-                    "12",
-                    "16"
+                    "12"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -5046,20 +5046,20 @@ const mathQuestions = {
                 "emoji": "⭕📏",
                 "question": "Does a circle have 360°?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Circles",
                 "emoji": "🔵📐",
                 "question": "Is diameter twice the radius?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Circles",
@@ -5076,10 +5076,10 @@ const mathQuestions = {
                 "emoji": "🔵🎯",
                 "question": "Is area of circle = πr²?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Circles",
@@ -5106,10 +5106,10 @@ const mathQuestions = {
                 "emoji": "⭕📐",
                 "question": "Is a tangent touches circle at one point?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Circles",
@@ -5148,20 +5148,20 @@ const mathQuestions = {
                 "emoji": "⭕📏",
                 "question": "Circumference if radius = 7?",
                 "options": [
-                    "14π",
-                    "7π"
+                    "7π",
+                    "14π"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Circles",
                 "emoji": "🔵📐",
                 "question": "Area if radius = 5?",
                 "options": [
-                    "10π",
-                    "25π"
+                    "25π",
+                    "10π"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Circles",
@@ -5188,10 +5188,10 @@ const mathQuestions = {
                 "emoji": "⭕📊",
                 "question": "Circumference if diameter = 10?",
                 "options": [
-                    "20π",
-                    "10π"
+                    "10π",
+                    "20π"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Circles",
@@ -5208,10 +5208,10 @@ const mathQuestions = {
                 "emoji": "⭕📐",
                 "question": "Radius if circumference = 10π?",
                 "options": [
-                    "5",
-                    "10"
+                    "10",
+                    "5"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Circles",
@@ -5238,10 +5238,10 @@ const mathQuestions = {
                 "emoji": "🔵📊",
                 "question": "Area of semicircle, r = 6?",
                 "options": [
-                    "36π",
-                    "18π"
+                    "18π",
+                    "36π"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -5250,20 +5250,20 @@ const mathQuestions = {
                 "emoji": "⭕📏",
                 "question": "Area of sector with angle 60°, radius 6?",
                 "options": [
-                    "12π",
                     "3π",
+                    "12π",
                     "6π"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Circles",
                 "emoji": "🔵📐",
                 "question": "Length of arc, angle 90°, radius 8?",
                 "options": [
-                    "8π",
+                    "4π",
                     "2π",
-                    "4π"
+                    "8π"
                 ],
                 "correct": 1
             },
@@ -5272,22 +5272,22 @@ const mathQuestions = {
                 "emoji": "⭕💯",
                 "question": "Area of annulus: outer r=5, inner r=3?",
                 "options": [
-                    "8π",
                     "16π",
-                    "20π"
+                    "20π",
+                    "8π"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Circles",
                 "emoji": "🔵🎯",
                 "question": "Is chord length if perpendicular from center 3, r=5?",
                 "options": [
+                    "10",
                     "8",
-                    "6",
-                    "10"
+                    "6"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Circles",
@@ -5295,10 +5295,10 @@ const mathQuestions = {
                 "question": "Central angle if arc = πr/2?",
                 "options": [
                     "90°",
-                    "45°",
-                    "180°"
+                    "180°",
+                    "45°"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Circles",
@@ -5306,8 +5306,8 @@ const mathQuestions = {
                 "question": "Is inscribed angle on diameter?",
                 "options": [
                     "90°",
-                    "45°",
-                    "180°"
+                    "180°",
+                    "45°"
                 ],
                 "correct": 0
             },
@@ -5316,11 +5316,11 @@ const mathQuestions = {
                 "emoji": "⭕📐",
                 "question": "Area of circle inscribed in square, side 10?",
                 "options": [
-                    "100π",
                     "25π",
+                    "100π",
                     "50π"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Circles",
@@ -5338,11 +5338,11 @@ const mathQuestions = {
                 "emoji": "⭕🔢",
                 "question": "Radius of circle circumscribing square, side 8?",
                 "options": [
-                    "4√2",
                     "8",
-                    "8√2"
+                    "8√2",
+                    "4√2"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Circles",
@@ -5362,104 +5362,44 @@ const mathQuestions = {
                 "emoji": "⭕📏",
                 "question": "Area of segment: sector 120°, r=6, triangle subtracted?",
                 "options": [
-                    "12π",
                     "6π - 9√3",
                     "12π - 9√3",
-                    "18π"
+                    "18π",
+                    "12π"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Circles",
                 "emoji": "🔵📐",
                 "question": "Common chord length of two circles r=5, centers 6 apart?",
                 "options": [
-                    "10",
                     "4",
-                    "8",
-                    "6"
+                    "6",
+                    "10",
+                    "8"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Circles",
                 "emoji": "⭕💯",
                 "question": "Angle inscribed in arc 100° is?",
                 "options": [
-                    "50°",
-                    "100°",
                     "200°",
-                    "25°"
+                    "25°",
+                    "50°",
+                    "100°"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Circles",
                 "emoji": "🔵🎯",
                 "question": "Radius of circle touching all sides of triangle 6-8-10?",
                 "options": [
-                    "2",
                     "3",
                     "1",
-                    "4"
-                ],
-                "correct": 1
-            },
-            {
-                "topic": "Circles",
-                "emoji": "⭕📊",
-                "question": "Power of point 10 units from center, r=6?",
-                "options": [
-                    "36",
-                    "100",
-                    "16",
-                    "64"
-                ],
-                "correct": 1
-            },
-            {
-                "topic": "Circles",
-                "emoji": "🔵🔢",
-                "question": "Area of largest circle in right triangle 3-4-5?",
-                "options": [
-                    "2π",
-                    "π",
-                    "2.25π",
-                    "4π"
-                ],
-                "correct": 0
-            },
-            {
-                "topic": "Circles",
-                "emoji": "⭕📐",
-                "question": "Two tangents from external point form 60°. Distance if r=8?",
-                "options": [
-                    "16√3",
-                    "8√3",
-                    "16",
-                    "8"
-                ],
-                "correct": 1
-            },
-            {
-                "topic": "Circles",
-                "emoji": "🔵💰",
-                "question": "Area between circle r=10 and inscribed square?",
-                "options": [
-                    "100π - 200",
-                    "100π - 100",
-                    "50π - 100",
-                    "100π"
-                ],
-                "correct": 0
-            },
-            {
-                "topic": "Circles",
-                "emoji": "⭕🔢",
-                "question": "Radius of semicircle on hypotenuse 3-4-5 triangle?",
-                "options": [
-                    "2.5",
-                    "3",
                     "4",
                     "2"
                 ],
@@ -5467,15 +5407,75 @@ const mathQuestions = {
             },
             {
                 "topic": "Circles",
+                "emoji": "⭕📊",
+                "question": "Power of point 10 units from center, r=6?",
+                "options": [
+                    "64",
+                    "16",
+                    "100",
+                    "36"
+                ],
+                "correct": 2
+            },
+            {
+                "topic": "Circles",
+                "emoji": "🔵🔢",
+                "question": "Area of largest circle in right triangle 3-4-5?",
+                "options": [
+                    "2.25π",
+                    "π",
+                    "4π",
+                    "2π"
+                ],
+                "correct": 3
+            },
+            {
+                "topic": "Circles",
+                "emoji": "⭕📐",
+                "question": "Two tangents from external point form 60°. Distance if r=8?",
+                "options": [
+                    "8",
+                    "16",
+                    "8√3",
+                    "16√3"
+                ],
+                "correct": 2
+            },
+            {
+                "topic": "Circles",
+                "emoji": "🔵💰",
+                "question": "Area between circle r=10 and inscribed square?",
+                "options": [
+                    "50π - 100",
+                    "100π - 100",
+                    "100π - 200",
+                    "100π"
+                ],
+                "correct": 2
+            },
+            {
+                "topic": "Circles",
+                "emoji": "⭕🔢",
+                "question": "Radius of semicircle on hypotenuse 3-4-5 triangle?",
+                "options": [
+                    "2",
+                    "3",
+                    "2.5",
+                    "4"
+                ],
+                "correct": 2
+            },
+            {
+                "topic": "Circles",
                 "emoji": "🔵📊",
                 "question": "Does chord make 30° at center. If r=10, chord length?",
                 "options": [
+                    "10√3",
                     "10",
                     "5",
-                    "5√3",
-                    "10√3"
+                    "5√3"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -5568,30 +5568,30 @@ const mathQuestions = {
                 "emoji": "📦🎯",
                 "question": "Is volume of cube = side³?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "3D Shapes",
                 "emoji": "🎲💯",
                 "question": "Does a cylinder have two circular bases?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "3D Shapes",
                 "emoji": "🔺📊",
                 "question": "Does a cone have one circular base?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "3D Shapes",
@@ -5608,10 +5608,10 @@ const mathQuestions = {
                 "emoji": "🎲📐",
                 "question": "Does a prism have two parallel bases?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "3D Shapes",
@@ -5638,10 +5638,10 @@ const mathQuestions = {
                 "emoji": "🎲📊",
                 "question": "Does a cuboid have rectangular faces?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -5660,10 +5660,10 @@ const mathQuestions = {
                 "emoji": "🔺📐",
                 "question": "Surface area of cube with side 4?",
                 "options": [
-                    "96",
-                    "64"
+                    "64",
+                    "96"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "3D Shapes",
@@ -5690,10 +5690,10 @@ const mathQuestions = {
                 "emoji": "🔺📊",
                 "question": "Volume of sphere with r=3?",
                 "options": [
-                    "27π",
-                    "36π"
+                    "36π",
+                    "27π"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "3D Shapes",
@@ -5710,10 +5710,10 @@ const mathQuestions = {
                 "emoji": "🎲📐",
                 "question": "Volume of cone: r=4, h=9?",
                 "options": [
-                    "144π",
-                    "48π"
+                    "48π",
+                    "144π"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "3D Shapes",
@@ -5752,20 +5752,20 @@ const mathQuestions = {
                 "emoji": "🎲📦",
                 "question": "Volume of sphere inscribed in cube, side 6?",
                 "options": [
+                    "36π",
                     "108π",
-                    "216π",
-                    "36π"
+                    "216π"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "3D Shapes",
                 "emoji": "🔺📐",
                 "question": "Total surface area of cylinder: r=7, h=10?",
                 "options": [
-                    "119π",
+                    "238π",
                     "140π",
-                    "238π"
+                    "119π"
                 ],
                 "correct": 1
             },
@@ -5774,55 +5774,55 @@ const mathQuestions = {
                 "emoji": "📦🎯",
                 "question": "Volume of hemisphere with r=6?",
                 "options": [
-                    "72π",
                     "288π",
-                    "144π"
+                    "144π",
+                    "72π"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "3D Shapes",
                 "emoji": "🎲💯",
                 "question": "Slant height of cone: r=5, h=12?",
                 "options": [
+                    "17",
                     "7",
-                    "13",
-                    "17"
+                    "13"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "3D Shapes",
                 "emoji": "🔺📊",
                 "question": "Total surface area of cone: r=7, l=25?",
                 "options": [
-                    "224π",
                     "175π",
+                    "224π",
                     "49π"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "3D Shapes",
                 "emoji": "📦🔢",
                 "question": "Volume of cuboid: 8×6×5?",
                 "options": [
-                    "220",
                     "240",
-                    "180"
+                    "180",
+                    "220"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "3D Shapes",
                 "emoji": "🎲📐",
                 "question": "Diagonal of cube with side 4?",
                 "options": [
-                    "8",
                     "4√3",
-                    "4√2"
+                    "4√2",
+                    "8"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "3D Shapes",
@@ -5830,8 +5830,8 @@ const mathQuestions = {
                 "question": "Surface area of cuboid: 10×8×6?",
                 "options": [
                     "280",
-                    "376",
-                    "480"
+                    "480",
+                    "376"
                 ],
                 "correct": 0
             },
@@ -5840,20 +5840,20 @@ const mathQuestions = {
                 "emoji": "📦🎯",
                 "question": "Volume of prism: triangular base area 20, h=15?",
                 "options": [
-                    "600",
+                    "150",
                     "300",
-                    "150"
+                    "600"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "3D Shapes",
                 "emoji": "🎲📊",
                 "question": "Volume of frustum: top r=3, bottom r=5, h=4?",
                 "options": [
-                    "196π/3",
+                    "64π",
                     "52π",
-                    "64π"
+                    "196π/3"
                 ],
                 "correct": 1
             }
@@ -5864,12 +5864,12 @@ const mathQuestions = {
                 "emoji": "🎲📦",
                 "question": "Volume of largest sphere in cube side 12?",
                 "options": [
+                    "432π",
                     "576π",
                     "288π",
-                    "432π",
                     "144π"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "3D Shapes",
@@ -5877,11 +5877,11 @@ const mathQuestions = {
                 "question": "Total surface area of hemisphere r=14?",
                 "options": [
                     "392π",
-                    "1176π",
                     "588π",
+                    "1176π",
                     "784π"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "3D Shapes",
@@ -5900,9 +5900,9 @@ const mathQuestions = {
                 "emoji": "🎲💯",
                 "question": "Space diagonal of cuboid 12×9×8?",
                 "options": [
-                    "20",
-                    "17",
                     "14",
+                    "17",
+                    "20",
                     "15"
                 ],
                 "correct": 1
@@ -5912,24 +5912,24 @@ const mathQuestions = {
                 "emoji": "🔺📊",
                 "question": "Curved surface area of cone r=5, slant 13?",
                 "options": [
-                    "65π",
                     "169π",
+                    "65π",
                     "25π",
                     "130π"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "3D Shapes",
                 "emoji": "📦🔢",
                 "question": "Volume of spherical shell: outer r=10, inner r=8?",
                 "options": [
-                    "488π",
-                    "1000π",
+                    "512π",
                     "368π",
-                    "512π"
+                    "488π",
+                    "1000π"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "3D Shapes",
@@ -5937,11 +5937,11 @@ const mathQuestions = {
                 "question": "Surface area of regular tetrahedron edge 6?",
                 "options": [
                     "72√3",
+                    "36√3",
                     "18√3",
-                    "108√3",
-                    "36√3"
+                    "108√3"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "3D Shapes",
@@ -5949,9 +5949,9 @@ const mathQuestions = {
                 "question": "Volume of right circular cone r=8, h=15?",
                 "options": [
                     "480π",
+                    "160π",
                     "320π",
-                    "960π",
-                    "160π"
+                    "960π"
                 ],
                 "correct": 0
             },
@@ -5960,24 +5960,24 @@ const mathQuestions = {
                 "emoji": "📦🎯",
                 "question": "Total surface area of hollow cylinder: R=10, r=8, h=7?",
                 "options": [
-                    "280π",
-                    "224π",
                     "252π",
-                    "196π"
+                    "280π",
+                    "196π",
+                    "224π"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "3D Shapes",
                 "emoji": "🎲📊",
                 "question": "Volume of octahedron with edge a=4?",
                 "options": [
-                    "256√2/3",
-                    "128√2/3",
+                    "64√2",
                     "32√2",
-                    "64√2"
+                    "128√2/3",
+                    "256√2/3"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -6060,20 +6060,20 @@ const mathQuestions = {
                 "emoji": "💯📊",
                 "question": "Does any number to power 0 equal 1?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Exponents",
                 "emoji": "🔢🎯",
                 "question": "Does 10² equal 100?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Exponents",
@@ -6100,20 +6100,20 @@ const mathQuestions = {
                 "emoji": "📊🎯",
                 "question": "Does 4² equal 16?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Exponents",
                 "emoji": "💪🔢",
                 "question": "Does 2⁴ equal 16?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Exponents",
@@ -6130,10 +6130,10 @@ const mathQuestions = {
                 "emoji": "🔢📊",
                 "question": "Does 6² equal 36?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Exponents",
@@ -6152,10 +6152,10 @@ const mathQuestions = {
                 "emoji": "🔢💪",
                 "question": "What is 2⁵?",
                 "options": [
-                    "32",
-                    "64"
+                    "64",
+                    "32"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Exponents",
@@ -6192,10 +6192,10 @@ const mathQuestions = {
                 "emoji": "🔢💯",
                 "question": "What is 7²?",
                 "options": [
-                    "49",
-                    "14"
+                    "14",
+                    "49"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Exponents",
@@ -6232,20 +6232,20 @@ const mathQuestions = {
                 "emoji": "🔢📊",
                 "question": "What is 8²?",
                 "options": [
-                    "64",
-                    "16"
+                    "16",
+                    "64"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Exponents",
                 "emoji": "🎯💪",
                 "question": "Is simplify: 5² × 5³?",
                 "options": [
-                    "5⁶",
-                    "5⁵"
+                    "5⁵",
+                    "5⁶"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -6254,20 +6254,20 @@ const mathQuestions = {
                 "emoji": "🔢💪",
                 "question": "Is simplify: (2³)⁴?",
                 "options": [
-                    "2¹²",
                     "2¹⁶",
-                    "2⁷"
+                    "2⁷",
+                    "2¹²"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Exponents",
                 "emoji": "💯📊",
                 "question": "What is 4⁻²?",
                 "options": [
-                    "1/4",
+                    "1/8",
                     "1/16",
-                    "1/8"
+                    "1/4"
                 ],
                 "correct": 1
             },
@@ -6276,11 +6276,11 @@ const mathQuestions = {
                 "emoji": "🔢🎯",
                 "question": "Is simplify: (x²y³)²?",
                 "options": [
-                    "x²y⁶",
                     "x⁴y⁶",
-                    "x⁴y⁵"
+                    "x⁴y⁵",
+                    "x²y⁶"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Exponents",
@@ -6288,10 +6288,10 @@ const mathQuestions = {
                 "question": "What is 2⁶ ÷ 2³?",
                 "options": [
                     "8",
-                    "16",
-                    "4"
+                    "4",
+                    "16"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Exponents",
@@ -6299,65 +6299,65 @@ const mathQuestions = {
                 "question": "Is simplify: 3⁵ × 3⁻²?",
                 "options": [
                     "3³",
-                    "3¹⁰",
-                    "3⁷"
+                    "3⁷",
+                    "3¹⁰"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Exponents",
                 "emoji": "📊🎯",
                 "question": "What is (5²)³?",
                 "options": [
+                    "5⁶",
                     "5⁸",
-                    "5⁵",
-                    "5⁶"
+                    "5⁵"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Exponents",
                 "emoji": "💪🔢",
                 "question": "Is simplify: x⁸ ÷ x³?",
                 "options": [
-                    "x¹¹",
                     "x⁵",
-                    "x⁶"
+                    "x⁶",
+                    "x¹¹"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Exponents",
                 "emoji": "💯📈",
                 "question": "What is 16^(1/2)?",
                 "options": [
-                    "8",
                     "2",
-                    "4"
+                    "4",
+                    "8"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Exponents",
                 "emoji": "🔢📊",
                 "question": "Is simplify: (ab²)³?",
                 "options": [
-                    "a³b⁶",
+                    "a²b⁶",
                     "a³b⁵",
-                    "a²b⁶"
+                    "a³b⁶"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Exponents",
                 "emoji": "🎯💪",
                 "question": "What is 27^(1/3)?",
                 "options": [
-                    "9",
                     "6",
+                    "9",
                     "3"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -6367,9 +6367,9 @@ const mathQuestions = {
                 "question": "Is simplify: (2x³y²)⁴?",
                 "options": [
                     "16x¹²y⁸",
-                    "16x⁷y⁶",
+                    "8x¹²y⁸",
                     "2x¹²y⁸",
-                    "8x¹²y⁸"
+                    "16x⁷y⁶"
                 ],
                 "correct": 0
             },
@@ -6378,70 +6378,70 @@ const mathQuestions = {
                 "emoji": "💯📊",
                 "question": "What is 8^(2/3)?",
                 "options": [
+                    "8",
                     "4",
-                    "16",
                     "2",
-                    "8"
+                    "16"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Exponents",
                 "emoji": "🔢🎯",
                 "question": "Is simplify: (x⁻²y³)⁻³?",
                 "options": [
-                    "x⁻⁶y⁹",
-                    "x⁶/y⁹",
                     "x⁶y⁹",
-                    "x⁻⁶/y⁹"
+                    "x⁻⁶/y⁹",
+                    "x⁶/y⁹",
+                    "x⁻⁶y⁹"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Exponents",
                 "emoji": "💪📈",
                 "question": "What is 32^(3/5)?",
                 "options": [
-                    "32",
-                    "8",
                     "16",
-                    "4"
+                    "4",
+                    "32",
+                    "8"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Exponents",
                 "emoji": "🔢💯",
                 "question": "Is simplify: (2⁴ × 3²)/(2² × 3)?",
                 "options": [
-                    "12",
                     "18",
-                    "6",
-                    "24"
+                    "12",
+                    "24",
+                    "6"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Exponents",
                 "emoji": "📊🎯",
                 "question": "What is (1/4)⁻²?",
                 "options": [
-                    "1/16",
-                    "8",
+                    "4",
                     "16",
-                    "4"
+                    "1/16",
+                    "8"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Exponents",
                 "emoji": "💪🔢",
                 "question": "Is simplify: √(x⁴y⁶)?",
                 "options": [
-                    "x⁴y³",
-                    "xy³",
                     "x²y³",
-                    "x²y²"
+                    "xy³",
+                    "x²y²",
+                    "x⁴y³"
                 ],
                 "correct": 1
             },
@@ -6450,36 +6450,36 @@ const mathQuestions = {
                 "emoji": "💯📈",
                 "question": "What is 64^(-1/3)?",
                 "options": [
-                    "4",
+                    "8",
                     "1/8",
                     "1/4",
-                    "8"
+                    "4"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Exponents",
                 "emoji": "🔢📊",
                 "question": "Is simplify: (a²b⁻³)/(a⁻¹b²)?",
                 "options": [
-                    "a³b⁵",
-                    "a³/b⁵",
+                    "a³/b",
                     "a/b⁵",
-                    "a³/b"
+                    "a³b⁵",
+                    "a³/b⁵"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Exponents",
                 "emoji": "🎯💪",
                 "question": "What is 125^(2/3)?",
                 "options": [
-                    "25",
                     "15",
+                    "5",
                     "50",
-                    "5"
+                    "25"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "extreme": [
@@ -6552,16 +6552,6 @@ const mathQuestions = {
                 "emoji": "√️🔢",
                 "question": "Does √4 equal 2?",
                 "options": [
-                    "False",
-                    "True"
-                ],
-                "correct": 0
-            },
-            {
-                "topic": "Square Roots",
-                "emoji": "💯√️",
-                "question": "Does √9 equal 3?",
-                "options": [
                     "True",
                     "False"
                 ],
@@ -6569,13 +6559,23 @@ const mathQuestions = {
             },
             {
                 "topic": "Square Roots",
+                "emoji": "💯√️",
+                "question": "Does √9 equal 3?",
+                "options": [
+                    "False",
+                    "True"
+                ],
+                "correct": 0
+            },
+            {
+                "topic": "Square Roots",
                 "emoji": "√️📊",
                 "question": "Does √16 equal 4?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Square Roots",
@@ -6592,10 +6592,10 @@ const mathQuestions = {
                 "emoji": "√️🎯",
                 "question": "Does √36 equal 6?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Square Roots",
@@ -6632,10 +6632,10 @@ const mathQuestions = {
                 "emoji": "💪💯",
                 "question": "Does √100 equal 10?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Square Roots",
@@ -6664,20 +6664,20 @@ const mathQuestions = {
                 "emoji": "💯√️",
                 "question": "Is find √144?",
                 "options": [
-                    "12",
-                    "14"
+                    "14",
+                    "12"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Square Roots",
                 "emoji": "√️📊",
                 "question": "What is √169?",
                 "options": [
-                    "13",
-                    "12"
+                    "12",
+                    "13"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Square Roots",
@@ -6714,20 +6714,20 @@ const mathQuestions = {
                 "emoji": "√️📈",
                 "question": "What is √225?",
                 "options": [
-                    "14",
-                    "15"
+                    "15",
+                    "14"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Square Roots",
                 "emoji": "🔢√️",
                 "question": "Is simplify: √18?",
                 "options": [
-                    "2√3",
-                    "3√2"
+                    "3√2",
+                    "2√3"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Square Roots",
@@ -6744,10 +6744,10 @@ const mathQuestions = {
                 "emoji": "√️📊",
                 "question": "Is simplify: √75?",
                 "options": [
-                    "5√3",
-                    "3√5"
+                    "3√5",
+                    "5√3"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -6756,44 +6756,44 @@ const mathQuestions = {
                 "emoji": "√️🔢",
                 "question": "Is simplify: √(48)?",
                 "options": [
-                    "3√4",
                     "4√3",
+                    "3√4",
                     "2√12"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Square Roots",
                 "emoji": "💯√️",
                 "question": "What is √(0.25)?",
                 "options": [
-                    "1",
                     "0.5",
-                    "0.25"
+                    "0.25",
+                    "1"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Square Roots",
                 "emoji": "√️📊",
                 "question": "Is simplify: 2√3 + 3√3?",
                 "options": [
-                    "5√3",
                     "6√3",
-                    "√15"
+                    "√15",
+                    "5√3"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Square Roots",
                 "emoji": "🔢💪",
                 "question": "Is rationalize: 1/√2?",
                 "options": [
-                    "2/√2",
                     "√2/2",
-                    "1/2"
+                    "1/2",
+                    "2/√2"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Square Roots",
@@ -6801,21 +6801,21 @@ const mathQuestions = {
                 "question": "Is simplify: √8 × √2?",
                 "options": [
                     "2√4",
-                    "4",
-                    "√16"
+                    "√16",
+                    "4"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Square Roots",
                 "emoji": "💯🔢",
                 "question": "What is √(49/64)?",
                 "options": [
+                    "8/7",
                     "7/8",
-                    "1/2",
-                    "8/7"
+                    "1/2"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Square Roots",
@@ -6833,33 +6833,33 @@ const mathQuestions = {
                 "emoji": "🔢√️",
                 "question": "Is rationalize: 2/√5?",
                 "options": [
-                    "10/√5",
+                    "2√5/5",
                     "√5/2",
-                    "2√5/5"
+                    "10/√5"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Square Roots",
                 "emoji": "💪💯",
                 "question": "Is simplify: √27 + √12?",
                 "options": [
-                    "√39",
+                    "3√3 + 2√3",
                     "5√3",
-                    "3√3 + 2√3"
+                    "√39"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Square Roots",
                 "emoji": "√️📊",
                 "question": "What is (√5)²?",
                 "options": [
-                    "25",
                     "√25",
-                    "5"
+                    "5",
+                    "25"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -6868,60 +6868,60 @@ const mathQuestions = {
                 "emoji": "√️🔢",
                 "question": "Is rationalize: 1/(√3 + √2)?",
                 "options": [
+                    "√6",
                     "√3 + √2",
                     "√3 - √2",
-                    "1",
-                    "√6"
-                ],
-                "correct": 0
-            },
-            {
-                "topic": "Square Roots",
-                "emoji": "💯√️",
-                "question": "Is reduce: √(x⁴y⁶)?",
-                "options": [
-                    "x²y²",
-                    "x⁴y³",
-                    "xy³",
-                    "x²y³"
-                ],
-                "correct": 1
-            },
-            {
-                "topic": "Square Roots",
-                "emoji": "√️📊",
-                "question": "What is ³√27?",
-                "options": [
-                    "3",
-                    "6",
-                    "9",
-                    "√27"
-                ],
-                "correct": 0
-            },
-            {
-                "topic": "Square Roots",
-                "emoji": "🔢💪",
-                "question": "Is simplify: (2 + √3)(2 - √3)?",
-                "options": [
-                    "4 - 3",
-                    "7",
-                    "4",
                     "1"
                 ],
                 "correct": 1
             },
             {
                 "topic": "Square Roots",
+                "emoji": "💯√️",
+                "question": "Is reduce: √(x⁴y⁶)?",
+                "options": [
+                    "x²y³",
+                    "xy³",
+                    "x²y²",
+                    "x⁴y³"
+                ],
+                "correct": 3
+            },
+            {
+                "topic": "Square Roots",
+                "emoji": "√️📊",
+                "question": "What is ³√27?",
+                "options": [
+                    "9",
+                    "3",
+                    "6",
+                    "√27"
+                ],
+                "correct": 1
+            },
+            {
+                "topic": "Square Roots",
+                "emoji": "🔢💪",
+                "question": "Is simplify: (2 + √3)(2 - √3)?",
+                "options": [
+                    "1",
+                    "4 - 3",
+                    "4",
+                    "7"
+                ],
+                "correct": 3
+            },
+            {
+                "topic": "Square Roots",
                 "emoji": "√️🎯",
                 "question": "Is rationalize: 3/(2 - √5)?",
                 "options": [
-                    "3√5",
-                    "6 + 3√5",
+                    "-6 - 3√5",
                     "-3√5",
-                    "-6 - 3√5"
+                    "3√5",
+                    "6 + 3√5"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Square Roots",
@@ -6929,8 +6929,8 @@ const mathQuestions = {
                 "question": "What is ³√64?",
                 "options": [
                     "2",
-                    "8",
                     "16",
+                    "8",
                     "4"
                 ],
                 "correct": 0
@@ -6940,24 +6940,24 @@ const mathQuestions = {
                 "emoji": "√️📈",
                 "question": "Is simplify: √(98a²b⁴)?",
                 "options": [
-                    "7ab√2",
-                    "14ab²",
+                    "7ab²√2",
                     "7a²b⁴√2",
-                    "7ab²√2"
+                    "14ab²",
+                    "7ab√2"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Square Roots",
                 "emoji": "🔢√️",
                 "question": "What is ⁴√16?",
                 "options": [
-                    "8",
-                    "2",
                     "4",
+                    "2",
+                    "8",
                     "1"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Square Roots",
@@ -6966,8 +6966,8 @@ const mathQuestions = {
                 "options": [
                     "√6 - √2",
                     "√2",
-                    "√6/2",
-                    "(√6 + √2)/2"
+                    "(√6 + √2)/2",
+                    "√6/2"
                 ],
                 "correct": 0
             },
@@ -6977,11 +6977,11 @@ const mathQuestions = {
                 "question": "Is simplify: ³√(54x⁶)?",
                 "options": [
                     "9x²",
-                    "3x²³√2",
                     "6x²",
+                    "3x²³√2",
                     "3x³√2"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -7054,10 +7054,10 @@ const mathQuestions = {
                 "emoji": "🎲🎯",
                 "question": "Is probability between 0 and 1?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Probability",
@@ -7084,10 +7084,10 @@ const mathQuestions = {
                 "emoji": "🃏🎯",
                 "question": "Is probability of heads in coin toss 0.5?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Probability",
@@ -7104,40 +7104,40 @@ const mathQuestions = {
                 "emoji": "🃏📈",
                 "question": "Is total probability of all outcomes 1?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Probability",
                 "emoji": "🎲🔢",
                 "question": "Is p(not A) = 1 - P(A)?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Probability",
                 "emoji": "🃏🎲",
                 "question": "Does deck have 52 cards?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Probability",
                 "emoji": "🎯💯",
                 "question": "Is independent events don't affect each other?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Probability",
@@ -7176,30 +7176,30 @@ const mathQuestions = {
                 "emoji": "🎲📊",
                 "question": "Probability of even number on die?",
                 "options": [
-                    "1/2",
-                    "1/3"
+                    "1/3",
+                    "1/2"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Probability",
                 "emoji": "🃏🎯",
                 "question": "Probability of drawing an ace?",
                 "options": [
-                    "1/52",
-                    "1/13"
+                    "1/13",
+                    "1/52"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Probability",
                 "emoji": "🎲💰",
                 "question": "Probability of getting more than 4 on die?",
                 "options": [
-                    "1/3",
-                    "1/2"
+                    "1/2",
+                    "1/3"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Probability",
@@ -7226,10 +7226,10 @@ const mathQuestions = {
                 "emoji": "🃏🎲",
                 "question": "Probability of drawing a face card?",
                 "options": [
-                    "1/4",
-                    "3/13"
+                    "3/13",
+                    "1/4"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Probability",
@@ -7246,10 +7246,10 @@ const mathQuestions = {
                 "emoji": "🎲📊",
                 "question": "Probability of getting 7 on die?",
                 "options": [
-                    "1/6",
-                    "0"
+                    "0",
+                    "1/6"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -7259,8 +7259,8 @@ const mathQuestions = {
                 "question": "Probability of sum 7 with two dice?",
                 "options": [
                     "1/6",
-                    "1/36",
-                    "1/12"
+                    "1/12",
+                    "1/36"
                 ],
                 "correct": 0
             },
@@ -7269,77 +7269,77 @@ const mathQuestions = {
                 "emoji": "🃏💯",
                 "question": "P(drawing 2 aces from deck without replacement)?",
                 "options": [
+                    "1/221",
                     "1/52",
-                    "1/169",
-                    "1/221"
+                    "1/169"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Probability",
                 "emoji": "🎲📊",
                 "question": "P(at least one head in 3 coin tosses)?",
                 "options": [
-                    "1/2",
+                    "7/8",
                     "3/4",
-                    "7/8"
+                    "1/2"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Probability",
                 "emoji": "🃏🎯",
                 "question": "P(both cards red, 2 draws no replacement)?",
                 "options": [
+                    "1/2",
                     "1/4",
-                    "25/102",
-                    "1/2"
+                    "25/102"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Probability",
                 "emoji": "🎲💰",
                 "question": "If A and B independent, P(A)=0.4, P(B)=0.5, P(A∩B)?",
                 "options": [
-                    "0.1",
                     "0.9",
-                    "0.2"
+                    "0.2",
+                    "0.1"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Probability",
                 "emoji": "🃏📈",
                 "question": "Is p(sum of 2 dice 10)?",
                 "options": [
-                    "1/6",
                     "1/36",
-                    "1/12"
+                    "1/12",
+                    "1/6"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Probability",
                 "emoji": "🎲🔢",
                 "question": "P(exactly 2 heads in 4 tosses)?",
                 "options": [
+                    "1/4",
                     "3/8",
-                    "1/2",
-                    "1/4"
+                    "1/2"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Probability",
                 "emoji": "🃏🎲",
                 "question": "P(king or queen from deck)?",
                 "options": [
-                    "2/13",
+                    "1/13",
                     "1/26",
-                    "1/13"
+                    "2/13"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Probability",
@@ -7358,10 +7358,10 @@ const mathQuestions = {
                 "question": "P(A∪B) if P(A)=0.6, P(B)=0.5, P(A∩B)=0.3?",
                 "options": [
                     "0.5",
-                    "0.8",
-                    "1.1"
+                    "1.1",
+                    "0.8"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -7371,9 +7371,9 @@ const mathQuestions = {
                 "question": "P(exactly 3 heads in 5 coin tosses)?",
                 "options": [
                     "1/2",
+                    "5/16",
                     "10/32",
-                    "3/5",
-                    "5/16"
+                    "3/5"
                 ],
                 "correct": 0
             },
@@ -7382,48 +7382,48 @@ const mathQuestions = {
                 "emoji": "🃏💯",
                 "question": "P(full house in poker - 5 cards)?",
                 "options": [
-                    "1/4165",
-                    "3/4165",
+                    "9/4165",
                     "6/4165",
-                    "9/4165"
+                    "1/4165",
+                    "3/4165"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Probability",
                 "emoji": "🎲📊",
                 "question": "P(sum 8 with 3 dice)?",
                 "options": [
+                    "27/216",
                     "21/216",
-                    "15/216",
                     "18/216",
-                    "27/216"
+                    "15/216"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Probability",
                 "emoji": "🃏🎯",
                 "question": "If P(A|B)=0.8, P(B)=0.5, P(A∩B)?",
                 "options": [
-                    "0.8",
-                    "0.5",
+                    "0.4",
                     "0.3",
-                    "0.4"
+                    "0.5",
+                    "0.8"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Probability",
                 "emoji": "🎲💰",
                 "question": "P(at least one 6 in 4 dice rolls)?",
                 "options": [
-                    "1/6",
                     "625/1296",
-                    "5/6",
-                    "671/1296"
+                    "671/1296",
+                    "1/6",
+                    "5/6"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Probability",
@@ -7431,9 +7431,9 @@ const mathQuestions = {
                 "question": "P(flush in poker - all same suit)?",
                 "options": [
                     "1/509",
-                    "4/52",
+                    "33/16660",
                     "1/1000",
-                    "33/16660"
+                    "4/52"
                 ],
                 "correct": 0
             },
@@ -7442,9 +7442,9 @@ const mathQuestions = {
                 "emoji": "🎲🔢",
                 "question": "P(getting all different numbers in 3 dice)?",
                 "options": [
-                    "1/6",
-                    "2/3",
                     "5/9",
+                    "2/3",
+                    "1/6",
                     "1/2"
                 ],
                 "correct": 1
@@ -7454,12 +7454,12 @@ const mathQuestions = {
                 "emoji": "🃏🎲",
                 "question": "If P(A)=0.7, P(B|A)=0.6, P(A∩B)?",
                 "options": [
-                    "0.7",
                     "0.42",
+                    "1.3",
                     "0.6",
-                    "1.3"
+                    "0.7"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Probability",
@@ -7467,9 +7467,9 @@ const mathQuestions = {
                 "question": "P(exactly 2 sixes in 5 dice rolls)?",
                 "options": [
                     "625/3888",
-                    "25/216",
                     "5/36",
-                    "125/1296"
+                    "125/1296",
+                    "25/216"
                 ],
                 "correct": 0
             },
@@ -7556,20 +7556,20 @@ const mathQuestions = {
                 "emoji": "📊📈",
                 "question": "Is mean the average?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Statistics",
                 "emoji": "📉🔢",
                 "question": "Is median the middle value?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Statistics",
@@ -7616,10 +7616,10 @@ const mathQuestions = {
                 "emoji": "📊🔢",
                 "question": "Is median needs data to be ordered?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Statistics",
@@ -7636,10 +7636,10 @@ const mathQuestions = {
                 "emoji": "📉🎯",
                 "question": "Is outliers affect the mean?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Statistics",
@@ -7678,10 +7678,10 @@ const mathQuestions = {
                 "emoji": "📊💯",
                 "question": "Mode of 3, 5, 5, 7, 9?",
                 "options": [
-                    "7",
-                    "5"
+                    "5",
+                    "7"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Statistics",
@@ -7698,40 +7698,40 @@ const mathQuestions = {
                 "emoji": "📉📊",
                 "question": "Median of 1, 3, 5, 7?",
                 "options": [
-                    "5",
-                    "4"
+                    "4",
+                    "5"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Statistics",
                 "emoji": "🔢💰",
                 "question": "Mean of 5, 10, 15, 20?",
                 "options": [
-                    "15",
-                    "12.5"
+                    "12.5",
+                    "15"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Statistics",
                 "emoji": "📊🔢",
                 "question": "Mode of 2, 2, 3, 4, 4?",
                 "options": [
-                    "2 and 4",
-                    "3"
+                    "3",
+                    "2 and 4"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Statistics",
                 "emoji": "📈💯",
                 "question": "Range of 8, 12, 15, 22?",
                 "options": [
-                    "14",
-                    "12"
+                    "12",
+                    "14"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Statistics",
@@ -7748,10 +7748,10 @@ const mathQuestions = {
                 "emoji": "📊📈",
                 "question": "Mean of 6, 9, 12, 15?",
                 "options": [
-                    "9",
-                    "10.5"
+                    "10.5",
+                    "9"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -7772,98 +7772,98 @@ const mathQuestions = {
                 "question": "What is the first quartile (Q1) of this data: 3, 7, 8, 12, 15, 18, 20?",
                 "options": [
                     "8",
-                    "7.5",
-                    "7"
+                    "7",
+                    "7.5"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Statistics",
                 "emoji": "📊💯",
                 "question": "IQR if Q1=25 and Q3=40?",
                 "options": [
-                    "15",
                     "65",
+                    "15",
                     "25"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Statistics",
                 "emoji": "📈🎯",
                 "question": "Variance of 2, 4, 6, 8 (mean=5)?",
                 "options": [
-                    "10",
                     "5",
+                    "10",
                     "2.5"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Statistics",
                 "emoji": "📉📊",
                 "question": "Standard deviation if variance=16?",
                 "options": [
-                    "8",
                     "4",
-                    "2"
+                    "2",
+                    "8"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Statistics",
                 "emoji": "🔢💰",
                 "question": "Median of 3, 5, 7, 9, 11, 13?",
                 "options": [
-                    "7",
+                    "9",
                     "8",
-                    "9"
+                    "7"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Statistics",
                 "emoji": "📊🔢",
                 "question": "Weighted mean: 80(weight 3), 90(weight 2)?",
                 "options": [
-                    "86",
                     "84",
+                    "86",
                     "85"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Statistics",
                 "emoji": "📈💯",
                 "question": "What is the third quartile (Q3) of this data: 2, 4, 6, 8, 10?",
                 "options": [
-                    "9",
                     "8",
+                    "9",
                     "10"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Statistics",
                 "emoji": "📉🎯",
                 "question": "Range of 5, 12, 8, 20, 15?",
                 "options": [
+                    "12",
                     "15",
-                    "20",
-                    "12"
+                    "20"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Statistics",
                 "emoji": "📊📈",
                 "question": "Mean absolute deviation of 2, 4, 6 (mean=4)?",
                 "options": [
-                    "4/3",
                     "1",
-                    "2"
+                    "2",
+                    "4/3"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -7872,12 +7872,12 @@ const mathQuestions = {
                 "emoji": "📊📈",
                 "question": "If mean=50, SD=10, what % within 1 SD (normal)?",
                 "options": [
-                    "99.7%",
                     "50%",
+                    "99.7%",
                     "68%",
                     "95%"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Statistics",
@@ -7886,8 +7886,8 @@ const mathQuestions = {
                 "options": [
                     "Perfect positive",
                     "Perfect negative",
-                    "Weak",
-                    "No correlation"
+                    "No correlation",
+                    "Weak"
                 ],
                 "correct": 1
             },
@@ -7896,24 +7896,24 @@ const mathQuestions = {
                 "emoji": "📊💯",
                 "question": "Z-score if x=75, mean=60, SD=5?",
                 "options": [
-                    "1",
                     "15",
-                    "3",
-                    "2"
+                    "2",
+                    "1",
+                    "3"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Statistics",
                 "emoji": "📈🎯",
                 "question": "Coefficient of variation: mean=50, SD=10?",
                 "options": [
-                    "10%",
-                    "5%",
+                    "0.2",
                     "20%",
-                    "0.2"
+                    "5%",
+                    "10%"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Statistics",
@@ -7921,23 +7921,23 @@ const mathQuestions = {
                 "question": "Percentile rank if 80 out of 100 below you?",
                 "options": [
                     "20th",
-                    "80th",
+                    "70th",
                     "90th",
-                    "70th"
+                    "80th"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Statistics",
                 "emoji": "🔢💰",
                 "question": "Sample variance divisor for n=10?",
                 "options": [
+                    "10",
                     "9",
                     "8",
-                    "10",
                     "11"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Statistics",
@@ -7946,8 +7946,8 @@ const mathQuestions = {
                 "options": [
                     "Symmetric",
                     "Uniform",
-                    "Left skew",
-                    "Right skew"
+                    "Right skew",
+                    "Left skew"
                 ],
                 "correct": 1
             },
@@ -7956,36 +7956,36 @@ const mathQuestions = {
                 "emoji": "📈💯",
                 "question": "Is if r²=0.64, what r (positive)?",
                 "options": [
-                    "0.8",
                     "0.4",
-                    "0.32",
-                    "0.64"
+                    "0.64",
+                    "0.8",
+                    "0.32"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Statistics",
                 "emoji": "📉🎯",
                 "question": "Standard error = SD/√n. If SD=20, n=25?",
                 "options": [
-                    "0.8",
                     "5",
-                    "100",
-                    "4"
+                    "0.8",
+                    "4",
+                    "100"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Statistics",
                 "emoji": "📊📈",
                 "question": "Is outlier if beyond Q1 - 1.5×IQR or Q3 + 1.5×IQR. Q1=20, Q3=40, 70 outlier?",
                 "options": [
-                    "Maybe",
                     "Yes",
-                    "Cannot tell",
-                    "No"
+                    "Maybe",
+                    "No",
+                    "Cannot tell"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "extreme": [
@@ -8078,10 +8078,10 @@ const mathQuestions = {
                 "emoji": "🔢📈",
                 "question": "Is 2, 4, 6, 8 arithmetic?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sequences",
@@ -8108,10 +8108,10 @@ const mathQuestions = {
                 "emoji": "📊🔢",
                 "question": "Is common difference denoted d?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sequences",
@@ -8128,10 +8128,10 @@ const mathQuestions = {
                 "emoji": "🔢📊",
                 "question": "Is series sum of sequence terms?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sequences",
@@ -8160,30 +8160,30 @@ const mathQuestions = {
                 "emoji": "🔢➡️",
                 "question": "Next term in 5, 10, 15, 20, __?",
                 "options": [
-                    "25",
-                    "30"
+                    "30",
+                    "25"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sequences",
                 "emoji": "📊💯",
                 "question": "Next term in 3, 9, 27, 81, __?",
                 "options": [
-                    "162",
-                    "243"
+                    "243",
+                    "162"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sequences",
                 "emoji": "🔢📈",
                 "question": "Common difference in 7, 12, 17, 22?",
                 "options": [
-                    "10",
-                    "5"
+                    "5",
+                    "10"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sequences",
@@ -8200,10 +8200,10 @@ const mathQuestions = {
                 "emoji": "🔢💰",
                 "question": "10th term of 3, 6, 9, 12,?",
                 "options": [
-                    "30",
-                    "33"
+                    "33",
+                    "30"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sequences",
@@ -8220,10 +8220,10 @@ const mathQuestions = {
                 "emoji": "➡️💯",
                 "question": "5th term of 2, 4, 8, 16,?",
                 "options": [
-                    "32",
-                    "64"
+                    "64",
+                    "32"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sequences",
@@ -8240,10 +8240,10 @@ const mathQuestions = {
                 "emoji": "🎯📈",
                 "question": "Common difference in 100, 95, 90, 85?",
                 "options": [
-                    "-5",
-                    "5"
+                    "5",
+                    "-5"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sequences",
@@ -8262,11 +8262,11 @@ const mathQuestions = {
                 "emoji": "🔢➡️",
                 "question": "Aₙ = 3n + 2. Find a₁₀?",
                 "options": [
-                    "35",
                     "32",
-                    "30"
+                    "30",
+                    "35"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Sequences",
@@ -8274,32 +8274,32 @@ const mathQuestions = {
                 "question": "Sum of first 10 terms: 1, 2, 3, ..., 10?",
                 "options": [
                     "55",
-                    "45",
-                    "50"
+                    "50",
+                    "45"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Sequences",
                 "emoji": "🔢📈",
                 "question": "Geometric: a₁=3, r=2. Find a₅?",
                 "options": [
-                    "32",
                     "48",
-                    "96"
+                    "96",
+                    "32"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Sequences",
                 "emoji": "➡️🎯",
                 "question": "Arithmetic: a₁=5, d=3. Find a₁₅?",
                 "options": [
+                    "44",
                     "47",
-                    "50",
-                    "44"
+                    "50"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Sequences",
@@ -8307,10 +8307,10 @@ const mathQuestions = {
                 "question": "Sum of geometric: a=2, r=3, n=4?",
                 "options": [
                     "40",
-                    "120",
-                    "80"
+                    "80",
+                    "120"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Sequences",
@@ -8318,8 +8318,8 @@ const mathQuestions = {
                 "question": "Aₙ = 2ⁿ. Find a₆?",
                 "options": [
                     "64",
-                    "32",
-                    "128"
+                    "128",
+                    "32"
                 ],
                 "correct": 0
             },
@@ -8328,33 +8328,33 @@ const mathQuestions = {
                 "emoji": "➡️💯",
                 "question": "Which term is 37 in 1, 4, 7, 10,?",
                 "options": [
-                    "13th",
                     "14th",
+                    "13th",
                     "12th"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sequences",
                 "emoji": "🔢📊",
                 "question": "Sum: 5 + 10 + 15 + ... + 50?",
                 "options": [
-                    "250",
                     "275",
+                    "250",
                     "300"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sequences",
                 "emoji": "🎯📈",
                 "question": "Geometric mean of 4 and 16?",
                 "options": [
-                    "8",
                     "10",
-                    "12"
+                    "12",
+                    "8"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Sequences",
@@ -8362,10 +8362,10 @@ const mathQuestions = {
                 "question": "Arithmetic mean of 8 and 24?",
                 "options": [
                     "18",
-                    "16",
-                    "20"
+                    "20",
+                    "16"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -8374,24 +8374,24 @@ const mathQuestions = {
                 "emoji": "🔢➡️",
                 "question": "Sum of infinite geometric: a=8, r=0.5?",
                 "options": [
-                    "32",
                     "24",
+                    "8",
                     "16",
-                    "8"
+                    "32"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Sequences",
                 "emoji": "📊💯",
                 "question": "If aₙ = n² + 1, find a₁₀?",
                 "options": [
-                    "99",
                     "100",
+                    "99",
                     "102",
                     "101"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sequences",
@@ -8399,8 +8399,8 @@ const mathQuestions = {
                 "question": "Arithmetic: a₃=14, a₇=26. Find d?",
                 "options": [
                     "4",
-                    "5",
                     "3",
+                    "5",
                     "2"
                 ],
                 "correct": 0
@@ -8410,36 +8410,36 @@ const mathQuestions = {
                 "emoji": "➡️🎯",
                 "question": "Sum of first n natural numbers: n=100?",
                 "options": [
+                    "10000",
                     "10100",
                     "5050",
-                    "10000",
                     "5000"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Sequences",
                 "emoji": "🔢💰",
                 "question": "Geometric: a₂=6, a₅=48. Find r?",
                 "options": [
-                    "2",
-                    "4",
                     "8",
-                    "3"
+                    "3",
+                    "4",
+                    "2"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Sequences",
                 "emoji": "📊🔢",
                 "question": "How many terms in: 5, 8, 11, ..., 50?",
                 "options": [
-                    "15",
+                    "17",
                     "16",
                     "14",
-                    "17"
+                    "15"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Sequences",
@@ -8447,47 +8447,47 @@ const mathQuestions = {
                 "question": "Sum of arithmetic: a₁=3, aₙ=99, n=17?",
                 "options": [
                     "867",
-                    "850",
+                    "800",
                     "900",
-                    "800"
+                    "850"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Sequences",
                 "emoji": "🔢📊",
                 "question": "If Sₙ = n²+n, find nth term?",
                 "options": [
-                    "n+1",
+                    "2n",
                     "2n+1",
-                    "n²",
-                    "2n"
+                    "n+1",
+                    "n²"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Sequences",
                 "emoji": "🎯📈",
                 "question": "Harmonic mean of 2 and 8?",
                 "options": [
-                    "3.2",
                     "3",
-                    "4",
-                    "5"
+                    "3.2",
+                    "5",
+                    "4"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sequences",
                 "emoji": "🔢➡️",
                 "question": "Infinite sum: 1 + 1/2 + 1/4 + 1/8 +?",
                 "options": [
-                    "1",
                     "2",
+                    "1",
                     "∞",
                     "3"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "extreme": [
@@ -8570,10 +8570,10 @@ const mathQuestions = {
                 "emoji": "🎯📊",
                 "question": "Is f(x) notation represents a function?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Functions",
@@ -8590,30 +8590,30 @@ const mathQuestions = {
                 "emoji": "🔢🎯",
                 "question": "Is range set of all outputs?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Functions",
                 "emoji": "📊📈",
                 "question": "Is f(x) = x + 1 a function?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Functions",
                 "emoji": "💯🔢",
                 "question": "Does each input have exactly one output?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Functions",
@@ -8630,10 +8630,10 @@ const mathQuestions = {
                 "emoji": "🔢📊",
                 "question": "Does linear function have form f(x) = mx + b?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Functions",
@@ -8702,40 +8702,40 @@ const mathQuestions = {
                 "emoji": "📊📈",
                 "question": "Is if f(x) = x/2, find f(10)?",
                 "options": [
-                    "20",
-                    "5"
+                    "5",
+                    "20"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Functions",
                 "emoji": "💯🔢",
                 "question": "Range of f(x) = x²?",
                 "options": [
-                    "All reals",
-                    "y ≥ 0"
+                    "y ≥ 0",
+                    "All reals"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Functions",
                 "emoji": "📈🎯",
                 "question": "Is if f(x) = 5 - x, find f(3)?",
                 "options": [
-                    "2",
-                    "8"
+                    "8",
+                    "2"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Functions",
                 "emoji": "🔢📊",
                 "question": "Is if f(x) = x³, find f(2)?",
                 "options": [
-                    "6",
-                    "8"
+                    "8",
+                    "6"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Functions",
@@ -8765,8 +8765,8 @@ const mathQuestions = {
                 "question": "Is if f(x) = x² - 3x + 2, find f(4)?",
                 "options": [
                     "6",
-                    "4",
-                    "8"
+                    "8",
+                    "4"
                 ],
                 "correct": 0
             },
@@ -8776,98 +8776,98 @@ const mathQuestions = {
                 "question": "Is if f(x)=2x+1 and g(x)=x², find f(g(2))?",
                 "options": [
                     "17",
-                    "9",
-                    "5"
+                    "5",
+                    "9"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Functions",
                 "emoji": "📈💯",
                 "question": "Domain of f(x) = √(x-3)?",
                 "options": [
-                    "x ≥ 3",
                     "x > 3",
-                    "x ≥ 0"
+                    "x ≥ 0",
+                    "x ≥ 3"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Functions",
                 "emoji": "🔢🎯",
                 "question": "Is if f(x)=x²+1, solve f(x)=10?",
                 "options": [
-                    "x = ±3",
                     "x = 3",
+                    "x = ±3",
                     "x = 9"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Functions",
                 "emoji": "📊📈",
                 "question": "Inverse of f(x) = 2x + 4?",
                 "options": [
-                    "(x-4)/2",
                     "x/2 - 4",
+                    "(x-4)/2",
                     "2x - 4"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Functions",
                 "emoji": "💯🔢",
                 "question": "Is if f(x)=1/x, find f(f(2))?",
                 "options": [
-                    "2",
                     "4",
+                    "2",
                     "1/2"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Functions",
                 "emoji": "📈🎯",
                 "question": "Domain of f(x) = 1/(x-5)?",
                 "options": [
+                    "x ≠ 5",
                     "x > 5",
-                    "x ≥ 5",
-                    "x ≠ 5"
+                    "x ≥ 5"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Functions",
                 "emoji": "🔢📊",
                 "question": "Is if f(x)=x²-4, solve f(x)=0?",
                 "options": [
-                    "x = 2",
+                    "x = 4",
                     "x = ±2",
-                    "x = 4"
+                    "x = 2"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Functions",
                 "emoji": "🎯💯",
                 "question": "Range of f(x) = -x² + 4?",
                 "options": [
-                    "All reals",
                     "y ≥ 4",
+                    "All reals",
                     "y ≤ 4"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Functions",
                 "emoji": "📈🔢",
                 "question": "Is if f(x)=3x-2, find f⁻¹(7)?",
                 "options": [
+                    "3",
                     "5",
-                    "19",
-                    "3"
+                    "19"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -8876,48 +8876,48 @@ const mathQuestions = {
                 "emoji": "📈🔢",
                 "question": "If f(g(x))=x and g(f(x))=x, then g is?",
                 "options": [
-                    "Composite",
                     "Equal to f",
+                    "Inverse of f",
                     "Reciprocal",
-                    "Inverse of f"
+                    "Composite"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Functions",
                 "emoji": "🎯📊",
                 "question": "Domain of f(x) = √(x²-9)?",
                 "options": [
-                    "x ≥ 3",
-                    "x > 3",
+                    "|x| ≥ 3",
                     "x ≥ 0",
-                    "|x| ≥ 3"
+                    "x > 3",
+                    "x ≥ 3"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Functions",
                 "emoji": "📈💯",
                 "question": "Is if f(x)=2x+3 and g(x)=x-1, find (f∘g)(5)?",
                 "options": [
+                    "11",
                     "7",
-                    "9",
                     "13",
-                    "11"
+                    "9"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Functions",
                 "emoji": "🔢🎯",
                 "question": "Inverse of f(x) = (x+2)/3?",
                 "options": [
+                    "3x + 2",
                     "x/3 - 2",
-                    "(x-2)/3",
                     "3x - 2",
-                    "3x + 2"
+                    "(x-2)/3"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Functions",
@@ -8925,47 +8925,47 @@ const mathQuestions = {
                 "question": "Is if f(x) even, then f(-x) =?",
                 "options": [
                     "1/f(x)",
+                    "f(x)",
                     "-f(x)",
-                    "x",
-                    "f(x)"
+                    "x"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Functions",
                 "emoji": "💯🔢",
                 "question": "Domain of f(x) = ln(x-5)?",
                 "options": [
-                    "x ≠ 5",
-                    "x ≥ 5",
+                    "x < 5",
                     "x > 5",
-                    "x < 5"
+                    "x ≥ 5",
+                    "x ≠ 5"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Functions",
                 "emoji": "📈🎯",
                 "question": "Is if f(x) odd, then f(-x) =?",
                 "options": [
-                    "f(x)",
                     "-f(x)",
                     "1/f(x)",
+                    "f(x)",
                     "0"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Functions",
                 "emoji": "🔢📊",
                 "question": "Range of f(x) = e^x?",
                 "options": [
-                    "y > 0",
                     "y ≥ 0",
                     "y ≠ 0",
-                    "All reals"
+                    "All reals",
+                    "y > 0"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Functions",
@@ -8974,8 +8974,8 @@ const mathQuestions = {
                 "options": [
                     "8",
                     "512",
-                    "64",
-                    "16"
+                    "16",
+                    "64"
                 ],
                 "correct": 0
             },
@@ -8984,12 +8984,12 @@ const mathQuestions = {
                 "emoji": "📈🔢",
                 "question": "Inverse of f(x) = √(x-1)?",
                 "options": [
-                    "(x+1)²",
-                    "x² - 1",
+                    "√(x+1)",
                     "x² + 1",
-                    "√(x+1)"
+                    "x² - 1",
+                    "(x+1)²"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -9072,10 +9072,10 @@ const mathQuestions = {
                 "emoji": "🎯📊",
                 "question": "Is x-axis horizontal?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Coordinates",
@@ -9102,20 +9102,20 @@ const mathQuestions = {
                 "emoji": "📍🎯",
                 "question": "Does quadrant I have positive x and y?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Coordinates",
                 "emoji": "🎯📈",
                 "question": "Does distance formula use Pythagorean theorem?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Coordinates",
@@ -9132,10 +9132,10 @@ const mathQuestions = {
                 "emoji": "🗺️💯",
                 "question": "Is slope measures steepness of line?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Coordinates",
@@ -9152,10 +9152,10 @@ const mathQuestions = {
                 "emoji": "🎯🗺️",
                 "question": "Is collinear points lie on same line?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -9164,10 +9164,10 @@ const mathQuestions = {
                 "emoji": "📍🗺️",
                 "question": "Distance between (0,0) and (3,4)?",
                 "options": [
-                    "7",
-                    "5"
+                    "5",
+                    "7"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Coordinates",
@@ -9184,40 +9184,40 @@ const mathQuestions = {
                 "emoji": "📍💯",
                 "question": "Find slope between points (1,2) and (3,6)?",
                 "options": [
-                    "2",
-                    "4"
+                    "4",
+                    "2"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Coordinates",
                 "emoji": "🗺️🔢",
                 "question": "Distance between (1,1) and (4,5)?",
                 "options": [
-                    "5",
-                    "3"
+                    "3",
+                    "5"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Coordinates",
                 "emoji": "📍🎯",
                 "question": "Which quadrant is (-3, -5)?",
                 "options": [
-                    "III",
-                    "II"
+                    "II",
+                    "III"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Coordinates",
                 "emoji": "🎯📈",
                 "question": "Midpoint of (0,0) and (8,6)?",
                 "options": [
-                    "(4, 3)",
-                    "(8, 6)"
+                    "(8, 6)",
+                    "(4, 3)"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Coordinates",
@@ -9266,22 +9266,22 @@ const mathQuestions = {
                 "emoji": "📍🗺️",
                 "question": "Distance between (-3,4) and (5,10)?",
                 "options": [
+                    "10",
                     "14",
-                    "8",
-                    "10"
+                    "8"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Coordinates",
                 "emoji": "🎯📊",
                 "question": "Slope of line through (-2,3) and (4,-5)?",
                 "options": [
+                    "-4/3",
                     "-3/4",
-                    "4/3",
-                    "-4/3"
+                    "4/3"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Coordinates",
@@ -9289,8 +9289,8 @@ const mathQuestions = {
                 "question": "Equation of line through (0,5) with slope 2?",
                 "options": [
                     "y = 5x + 2",
-                    "y = 2x + 5",
-                    "y = 2x - 5"
+                    "y = 2x - 5",
+                    "y = 2x + 5"
                 ],
                 "correct": 0
             },
@@ -9300,10 +9300,10 @@ const mathQuestions = {
                 "question": "Find y-intercept of line through (3,7) and (0,1)?",
                 "options": [
                     "1",
-                    "7",
-                    "0"
+                    "0",
+                    "7"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Coordinates",
@@ -9321,20 +9321,20 @@ const mathQuestions = {
                 "emoji": "🎯📈",
                 "question": "Distance of (3,4) from origin?",
                 "options": [
-                    "3",
+                    "7",
                     "5",
-                    "7"
+                    "3"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Coordinates",
                 "emoji": "📍🔢",
                 "question": "Perpendicular slope to m = 3?",
                 "options": [
-                    "-1/3",
+                    "3",
                     "-3",
-                    "3"
+                    "-1/3"
                 ],
                 "correct": 1
             },
@@ -9343,33 +9343,33 @@ const mathQuestions = {
                 "emoji": "🗺️💯",
                 "question": "Equation of x-axis?",
                 "options": [
-                    "x = 0",
                     "y = x",
-                    "y = 0"
+                    "y = 0",
+                    "x = 0"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Coordinates",
                 "emoji": "📍📊",
                 "question": "Centroid of triangle (0,0), (6,0), (0,6)?",
                 "options": [
-                    "(3, 3)",
                     "(2, 2)",
-                    "(4, 4)"
+                    "(4, 4)",
+                    "(3, 3)"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Coordinates",
                 "emoji": "🎯🗺️",
                 "question": "Slope of line 3x + 4y = 12?",
                 "options": [
-                    "-4/3",
                     "4/3",
-                    "-3/4"
+                    "-3/4",
+                    "-4/3"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -9379,8 +9379,8 @@ const mathQuestions = {
                 "question": "Distance from (2,3) to line 3x + 4y = 10?",
                 "options": [
                     "8/5",
-                    "4/5",
                     "2",
+                    "4/5",
                     "1"
                 ],
                 "correct": 0
@@ -9390,12 +9390,12 @@ const mathQuestions = {
                 "emoji": "🎯📊",
                 "question": "Equation perpendicular to 2x - y = 5 through (1,3)?",
                 "options": [
-                    "x + 2y = 7",
                     "2x + y = 5",
                     "y = x/2",
-                    "y = -2x + 5"
+                    "y = -2x + 5",
+                    "x + 2y = 7"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Coordinates",
@@ -9403,9 +9403,9 @@ const mathQuestions = {
                 "question": "Area of triangle: (0,0), (4,0), (0,6)?",
                 "options": [
                     "10",
+                    "12",
                     "6",
-                    "24",
-                    "12"
+                    "24"
                 ],
                 "correct": 0
             },
@@ -9414,10 +9414,10 @@ const mathQuestions = {
                 "emoji": "🗺️🔢",
                 "question": "Reflection of (3,5) over x-axis?",
                 "options": [
-                    "(5, 3)",
+                    "(-3, -5)",
                     "(-3, 5)",
-                    "(3, -5)",
-                    "(-3, -5)"
+                    "(5, 3)",
+                    "(3, -5)"
                 ],
                 "correct": 1
             },
@@ -9426,36 +9426,36 @@ const mathQuestions = {
                 "emoji": "📍🎯",
                 "question": "Center of circle: x² + y² - 6x + 4y = 12?",
                 "options": [
-                    "(-3, 2)",
                     "(3, 2)",
-                    "(3, -2)",
-                    "(6, -4)"
+                    "(-3, 2)",
+                    "(6, -4)",
+                    "(3, -2)"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Coordinates",
                 "emoji": "🎯📈",
                 "question": "Equation of circle center (3,4), radius 5?",
                 "options": [
+                    "(x-3)²+(y-4)²=5",
                     "(x+3)²+(y+4)²=25",
                     "(x-3)²+(y-4)²=25",
-                    "(x-3)²+(y-4)²=5",
                     "x²+y²=25"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Coordinates",
                 "emoji": "📍🔢",
                 "question": "Section formula: P divides A(2,3) to B(7,8) in 2:3?",
                 "options": [
-                    "(4, 5)",
-                    "(6, 7)",
                     "(5, 6)",
-                    "(3, 4)"
+                    "(3, 4)",
+                    "(4, 5)",
+                    "(6, 7)"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Coordinates",
@@ -9464,8 +9464,8 @@ const mathQuestions = {
                 "options": [
                     "x = 2",
                     "x - y = 2",
-                    "y = 2",
-                    "x + y = 2"
+                    "x + y = 2",
+                    "y = 2"
                 ],
                 "correct": 0
             },
@@ -9474,12 +9474,12 @@ const mathQuestions = {
                 "emoji": "📍📊",
                 "question": "Area of quadrilateral: (0,0),(4,0),(4,3),(0,3)?",
                 "options": [
-                    "12",
-                    "10",
                     "7",
-                    "14"
+                    "10",
+                    "14",
+                    "12"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Coordinates",
@@ -9487,11 +9487,11 @@ const mathQuestions = {
                 "question": "Equation of perpendicular bisector of (1,2) and (5,6)?",
                 "options": [
                     "x - y = 1",
-                    "y = -x + 7",
                     "x + y = 7",
-                    "y = x + 1"
+                    "y = x + 1",
+                    "y = -x + 7"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "extreme": [
@@ -9564,30 +9564,30 @@ const mathQuestions = {
                 "emoji": "📏🔢",
                 "question": "Is perimeter distance around a shape?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Mensuration",
                 "emoji": "📐💯",
                 "question": "Area is measured in square units?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mensuration",
                 "emoji": "📏🎯",
                 "question": "Is volume measured in cubic units?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Mensuration",
@@ -9604,20 +9604,20 @@ const mathQuestions = {
                 "emoji": "📐📈",
                 "question": "Is area of rectangle = length × width?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mensuration",
                 "emoji": "📏💰",
                 "question": "Is perimeter of square = 4 × side?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Mensuration",
@@ -9644,10 +9644,10 @@ const mathQuestions = {
                 "emoji": "📏🔢",
                 "question": "Does circle area equal πr²?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Mensuration",
@@ -9666,10 +9666,10 @@ const mathQuestions = {
                 "emoji": "📏🔢",
                 "question": "Perimeter of rectangle: length 8, width 5?",
                 "options": [
-                    "26",
-                    "40"
+                    "40",
+                    "26"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Mensuration",
@@ -9716,10 +9716,10 @@ const mathQuestions = {
                 "emoji": "📏💰",
                 "question": "Area of circle with diameter 10?",
                 "options": [
-                    "25π",
-                    "100π"
+                    "100π",
+                    "25π"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Mensuration",
@@ -9769,8 +9769,8 @@ const mathQuestions = {
                 "question": "Area of trapezoid: parallel sides 8, 12, height 5?",
                 "options": [
                     "100",
-                    "60",
-                    "50"
+                    "50",
+                    "60"
                 ],
                 "correct": 0
             },
@@ -9790,31 +9790,31 @@ const mathQuestions = {
                 "emoji": "📏🎯",
                 "question": "Volume of cone: r=6, h=8?",
                 "options": [
+                    "288π",
                     "48π",
-                    "96π",
-                    "288π"
+                    "96π"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Mensuration",
                 "emoji": "🔢📊",
                 "question": "Area of rhombus: diagonals 10 and 16?",
                 "options": [
-                    "160",
                     "26",
-                    "80"
+                    "80",
+                    "160"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mensuration",
                 "emoji": "📐📈",
                 "question": "Lateral surface area of cone: r=5, l=13?",
                 "options": [
-                    "325π",
+                    "65π",
                     "169π",
-                    "65π"
+                    "325π"
                 ],
                 "correct": 1
             },
@@ -9824,8 +9824,8 @@ const mathQuestions = {
                 "question": "Volume of sphere with diameter 12?",
                 "options": [
                     "288π",
-                    "576π",
-                    "144π"
+                    "144π",
+                    "576π"
                 ],
                 "correct": 0
             },
@@ -9834,42 +9834,42 @@ const mathQuestions = {
                 "emoji": "🔢🎯",
                 "question": "Area of parallelogram: base 15, height 8?",
                 "options": [
-                    "60",
                     "46",
-                    "120"
+                    "120",
+                    "60"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mensuration",
                 "emoji": "📐📊",
                 "question": "Cuboid volume with dimensions 8×6×5?",
                 "options": [
-                    "220",
                     "180",
-                    "240"
+                    "240",
+                    "220"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Mensuration",
                 "emoji": "📏🔢",
                 "question": "Surface area of sphere with radius 7?",
                 "options": [
+                    "49π",
                     "392π",
-                    "196π",
-                    "49π"
+                    "196π"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Mensuration",
                 "emoji": "💯📐",
                 "question": "Area of regular hexagon with side 6?",
                 "options": [
-                    "54√3",
+                    "36√3",
                     "108√3",
-                    "36√3"
+                    "54√3"
                 ],
                 "correct": 1
             }
@@ -9880,96 +9880,96 @@ const mathQuestions = {
                 "emoji": "📏🔢",
                 "question": "Frustum volume with top r=3, bottom r=5, h=4?",
                 "options": [
-                    "100π",
                     "196π/3",
-                    "52π",
-                    "64π"
+                    "100π",
+                    "64π",
+                    "52π"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Mensuration",
                 "emoji": "📐💯",
                 "question": "Area of sector: angle 60°, radius 12?",
                 "options": [
-                    "48π",
-                    "72π",
+                    "12π",
                     "24π",
-                    "12π"
+                    "72π",
+                    "48π"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Mensuration",
                 "emoji": "📏🎯",
                 "question": "Volume of hollow cylinder: R=10, r=8, h=7?",
                 "options": [
-                    "252π",
-                    "490π",
                     "126π",
+                    "490π",
+                    "252π",
                     "560π"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Mensuration",
                 "emoji": "🔢📊",
                 "question": "Surface area of hemisphere with radius 14?",
                 "options": [
-                    "1176π",
                     "784π",
+                    "1176π",
                     "392π",
                     "588π"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mensuration",
                 "emoji": "📐📈",
                 "question": "Find segment area: sector 120°, r=6, triangle subtracted?",
                 "options": [
-                    "6π",
                     "18π",
-                    "12π - 9√3",
-                    "12π"
+                    "12π",
+                    "6π",
+                    "12π - 9√3"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mensuration",
                 "emoji": "📏💰",
                 "question": "Volume of pyramid: square base side 6, height 8?",
                 "options": [
-                    "48",
-                    "96",
+                    "144",
                     "288",
-                    "144"
+                    "48",
+                    "96"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Mensuration",
                 "emoji": "🔢🎯",
                 "question": "Area of ring: outer r=10, inner r=7?",
                 "options": [
-                    "51π",
-                    "100π",
                     "30π",
-                    "149π"
+                    "51π",
+                    "149π",
+                    "100π"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Mensuration",
                 "emoji": "📐📊",
                 "question": "Volume of prism: triangular base area 30, height 12?",
                 "options": [
-                    "72",
-                    "180",
                     "360",
+                    "180",
+                    "72",
                     "720"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Mensuration",
@@ -9977,8 +9977,8 @@ const mathQuestions = {
                 "question": "Diagonal of cuboid: 12×9×8?",
                 "options": [
                     "15",
-                    "20",
                     "14",
+                    "20",
                     "17"
                 ],
                 "correct": 0
@@ -9989,11 +9989,11 @@ const mathQuestions = {
                 "question": "Area of equilateral triangle inscribed in circle r=10?",
                 "options": [
                     "75√3",
-                    "100√3",
+                    "50√3",
                     "25√3",
-                    "50√3"
+                    "100√3"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "extreme": [

@@ -36,10 +36,10 @@ const environmentQuestions = {
                 "emoji": "🌍🌏",
                 "question": "Is air pollution harms health?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Recycling",
@@ -56,10 +56,10 @@ const environmentQuestions = {
                 "emoji": "🐝🦋",
                 "question": "Is trees produce oxygen?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Wildlife",
@@ -118,10 +118,10 @@ const environmentQuestions = {
                 "emoji": "🗻🏔️",
                 "question": "What is the greenhouse effect?",
                 "options": [
-                    "Cooling Earth",
-                    "Trapping heat"
+                    "Trapping heat",
+                    "Cooling Earth"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Wildlife",
@@ -138,20 +138,20 @@ const environmentQuestions = {
                 "emoji": "🐠🐟",
                 "question": "What causes air pollution?",
                 "options": [
-                    "Trees",
-                    "Factories and cars"
+                    "Factories and cars",
+                    "Trees"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Recycling",
                 "emoji": "🐢🐙",
                 "question": "What materials can be recycled?",
                 "options": [
-                    "Paper, glass, plastic",
-                    "Only paper"
+                    "Only paper",
+                    "Paper, glass, plastic"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ecology",
@@ -168,10 +168,10 @@ const environmentQuestions = {
                 "emoji": "🐘🦏",
                 "question": "Why are bees important?",
                 "options": [
-                    "Making honey only",
-                    "Pollination"
+                    "Pollination",
+                    "Making honey only"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Pollution",
@@ -188,10 +188,10 @@ const environmentQuestions = {
                 "emoji": "🐼🐨",
                 "question": "What does reduce, reuse, recycle mean?",
                 "options": [
-                    "3 types of trash",
-                    "3 Rs of environment"
+                    "3 Rs of environment",
+                    "3 types of trash"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ecology",
@@ -208,10 +208,10 @@ const environmentQuestions = {
                 "emoji": "🍃🌿",
                 "question": "What does the acronym biodiversity stand for?",
                 "options": [
-                    "Variety of life",
-                    "One species"
+                    "One species",
+                    "Variety of life"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -220,11 +220,11 @@ const environmentQuestions = {
                 "emoji": "🌬️💨",
                 "question": "What is the main greenhouse gas?",
                 "options": [
+                    "Oxygen",
                     "Nitrogen",
-                    "Carbon dioxide",
-                    "Oxygen"
+                    "Carbon dioxide"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Wildlife",
@@ -232,10 +232,10 @@ const environmentQuestions = {
                 "question": "How many species go extinct daily?",
                 "options": [
                     "Dozens",
-                    "One",
-                    "Hundreds"
+                    "Hundreds",
+                    "One"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Pollution",
@@ -253,11 +253,11 @@ const environmentQuestions = {
                 "emoji": "❄️🧊",
                 "question": "How long does plastic take to decompose?",
                 "options": [
-                    "10 years",
                     "1 year",
-                    "Hundreds of years"
+                    "Hundreds of years",
+                    "10 years"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ecology",
@@ -265,32 +265,32 @@ const environmentQuestions = {
                 "question": "What percentage of oxygen comes from oceans?",
                 "options": [
                     "10-20%",
-                    "90-100%",
-                    "50-80%"
+                    "50-80%",
+                    "90-100%"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Wildlife",
                 "emoji": "⚡🌩️",
                 "question": "What is a keystone species?",
                 "options": [
+                    "Most common",
                     "Largest animal",
-                    "Critical to ecosystem",
-                    "Most common"
+                    "Critical to ecosystem"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Pollution",
                 "emoji": "🌈🌦️",
                 "question": "What is the Great Pacific Garbage Patch?",
                 "options": [
+                    "Reef",
                     "Ocean plastic accumulation",
-                    "Island",
-                    "Reef"
+                    "Island"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Recycling",
@@ -308,11 +308,11 @@ const environmentQuestions = {
                 "emoji": "🌃🌆",
                 "question": "What is the Paris Agreement?",
                 "options": [
+                    "Trade deal",
                     "Space program",
-                    "Climate treaty",
-                    "Trade deal"
+                    "Climate treaty"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Wildlife",
@@ -320,10 +320,10 @@ const environmentQuestions = {
                 "question": "What is habitat loss?",
                 "options": [
                     "Destruction of homes",
-                    "Population growth",
-                    "Animal migration"
+                    "Animal migration",
+                    "Population growth"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -332,58 +332,58 @@ const environmentQuestions = {
                 "emoji": "🌍🌱",
                 "question": "Does by how much have global temperature risen since 1880?",
                 "options": [
-                    "1-1.5°C",
-                    "0.1°C",
                     "5°C",
-                    "10°C"
+                    "10°C",
+                    "1-1.5°C",
+                    "0.1°C"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Wildlife",
                 "emoji": "🦁🐘",
                 "question": "What percentage of species are endangered?",
                 "options": [
+                    "50%",
                     "75%",
-                    "25-30%",
                     "5%",
-                    "50%"
+                    "25-30%"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Pollution",
                 "emoji": "🏭💨",
                 "question": "What is PM2.5?",
                 "options": [
-                    "Gas",
+                    "Plastic type",
                     "Fine particulate matter",
-                    "Metal",
-                    "Plastic type"
+                    "Gas",
+                    "Metal"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Recycling",
                 "emoji": "♻️🗑️",
                 "question": "What percentage of plastic is recycled globally?",
                 "options": [
+                    "1%",
                     "50%",
                     "75%",
-                    "9%",
-                    "1%"
+                    "9%"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Ecology",
                 "emoji": "🌳🌲",
                 "question": "How many trees are cut down annually?",
                 "options": [
-                    "1 billion",
+                    "50 billion",
                     "15 billion",
-                    "100 million",
-                    "50 billion"
+                    "1 billion",
+                    "100 million"
                 ],
                 "correct": 1
             },
@@ -392,60 +392,60 @@ const environmentQuestions = {
                 "emoji": "🐼🦋",
                 "question": "What is trophic cascade?",
                 "options": [
-                    "Food source",
                     "Ecosystem chain reaction",
-                    "Reproduction cycle",
-                    "Migration pattern"
+                    "Food source",
+                    "Migration pattern",
+                    "Reproduction cycle"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Pollution",
                 "emoji": "🌊🗑️",
                 "question": "How many tons of plastic enter oceans yearly?",
                 "options": [
-                    "50 million",
-                    "100,000",
+                    "1 million",
                     "8-12 million",
-                    "1 million"
+                    "50 million",
+                    "100,000"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Recycling",
                 "emoji": "♻️📄",
                 "question": "What is circular economy?",
                 "options": [
-                    "Single use",
-                    "Linear production",
                     "Export waste",
-                    "Reuse resources"
+                    "Single use",
+                    "Reuse resources",
+                    "Linear production"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ecology",
                 "emoji": "🌍💚",
                 "question": "What is carbon footprint?",
                 "options": [
-                    "Land area",
                     "Water usage",
+                    "Tree count",
                     "CO2 emissions",
-                    "Tree count"
+                    "Land area"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Wildlife",
                 "emoji": "🦅🌳",
                 "question": "What does the acronym rewilding stand for?",
                 "options": [
-                    "Hunting",
                     "Restoring ecosystems",
-                    "Urbanization",
-                    "Farming"
+                    "Farming",
+                    "Hunting",
+                    "Urbanization"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "extreme": [
@@ -548,20 +548,20 @@ const environmentQuestions = {
                 "emoji": "🌊🏝️",
                 "question": "Are sea levels rising?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Climate",
                 "emoji": "🌪️⛈️",
                 "question": "Is extreme weather increasing?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Climate",
@@ -578,10 +578,10 @@ const environmentQuestions = {
                 "emoji": "🔥🌲",
                 "question": "Are wildfires becoming more common?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Climate",
@@ -620,10 +620,10 @@ const environmentQuestions = {
                 "emoji": "🌡️🌍",
                 "question": "What is climate change?",
                 "options": [
-                    "Daily weather",
-                    "Long-term weather shifts"
+                    "Long-term weather shifts",
+                    "Daily weather"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Climate",
@@ -670,10 +670,10 @@ const environmentQuestions = {
                 "emoji": "🏔️🌨️",
                 "question": "Why do glaciers matter?",
                 "options": [
-                    "Only for tourism",
-                    "Store freshwater"
+                    "Store freshwater",
+                    "Only for tourism"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Climate",
@@ -690,20 +690,20 @@ const environmentQuestions = {
                 "emoji": "🌾☀️",
                 "question": "What is a climate refugee?",
                 "options": [
-                    "Tourist",
-                    "Displaced by climate"
+                    "Displaced by climate",
+                    "Tourist"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Climate",
                 "emoji": "💨🏭",
                 "question": "What is climate action?",
                 "options": [
-                    "Reducing emissions",
-                    "Ignoring problem"
+                    "Ignoring problem",
+                    "Reducing emissions"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Climate",
@@ -722,42 +722,42 @@ const environmentQuestions = {
                 "emoji": "🌡️🌍",
                 "question": "What is the target global warming limit?",
                 "options": [
-                    "1.5-2°C",
                     "5°C",
-                    "10°C"
+                    "10°C",
+                    "1.5-2°C"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Climate",
                 "emoji": "☀️🌡️",
                 "question": "Which gas contributes most to warming?",
                 "options": [
+                    "Carbon dioxide",
                     "Oxygen",
-                    "Helium",
-                    "Carbon dioxide"
+                    "Helium"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Climate",
                 "emoji": "🧊❄️",
                 "question": "What is the albedo effect?",
                 "options": [
-                    "Ice produces cold",
                     "Ice reflects sunlight",
-                    "Ice absorbs heat"
+                    "Ice absorbs heat",
+                    "Ice produces cold"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Climate",
                 "emoji": "🌊🏝️",
                 "question": "How much could seas rise by 2100?",
                 "options": [
-                    "1-8 feet",
+                    "1 inch",
                     "100 feet",
-                    "1 inch"
+                    "1-8 feet"
                 ],
                 "correct": 1
             },
@@ -766,11 +766,11 @@ const environmentQuestions = {
                 "emoji": "🌪️⛈️",
                 "question": "What is the jet stream?",
                 "options": [
-                    "Underground river",
                     "High-altitude wind",
-                    "Ocean current"
+                    "Ocean current",
+                    "Underground river"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Climate",
@@ -778,8 +778,8 @@ const environmentQuestions = {
                 "question": "What percentage of glaciers are retreating?",
                 "options": [
                     "Over 90%",
-                    "10%",
-                    "50%"
+                    "50%",
+                    "10%"
                 ],
                 "correct": 0
             },
@@ -788,11 +788,11 @@ const environmentQuestions = {
                 "emoji": "🔥🌲",
                 "question": "What is a feedback loop in climate?",
                 "options": [
+                    "One-time event",
                     "Cooling effect",
-                    "Self-reinforcing cycle",
-                    "One-time event"
+                    "Self-reinforcing cycle"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Climate",
@@ -810,20 +810,20 @@ const environmentQuestions = {
                 "emoji": "💨🏭",
                 "question": "What is net-zero?",
                 "options": [
-                    "Unlimited emissions",
+                    "Balance emissions absorbed",
                     "No emissions",
-                    "Balance emissions absorbed"
+                    "Unlimited emissions"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Climate",
                 "emoji": "🌍💚",
                 "question": "What is the IPCC?",
                 "options": [
-                    "Energy company",
+                    "Political party",
                     "Climate science panel",
-                    "Political party"
+                    "Energy company"
                 ],
                 "correct": 1
             }
@@ -834,22 +834,22 @@ const environmentQuestions = {
                 "emoji": "🌡️🌍",
                 "question": "What is the current CO2 concentration in atmosphere?",
                 "options": [
-                    "~420 ppm",
-                    "1000 ppm",
                     "50 ppm",
+                    "1000 ppm",
+                    "~420 ppm",
                     "200 ppm"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Climate",
                 "emoji": "☀️🌡️",
                 "question": "What is climate sensitivity?",
                 "options": [
-                    "Daily variation",
+                    "Temperature response to CO2",
                     "Weather prediction",
                     "Seasonal change",
-                    "Temperature response to CO2"
+                    "Daily variation"
                 ],
                 "correct": 1
             },
@@ -858,33 +858,33 @@ const environmentQuestions = {
                 "emoji": "🧊❄️",
                 "question": "What does the acronym permafrost stand for?",
                 "options": [
-                    "Glacier",
-                    "Snow",
                     "Frozen ground",
-                    "Ice sheet"
+                    "Glacier",
+                    "Ice sheet",
+                    "Snow"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Climate",
                 "emoji": "🌊🏝️",
                 "question": "What is thermal expansion of oceans?",
                 "options": [
-                    "Evaporation",
                     "Ice melting",
-                    "Water expands when warm",
-                    "Cooling"
+                    "Cooling",
+                    "Evaporation",
+                    "Water expands when warm"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Climate",
                 "emoji": "🌪️⛈️",
                 "question": "What is the Atlantic Meridional Overturning Circulation?",
                 "options": [
-                    "Ocean current system",
-                    "Cloud formation",
                     "Storm type",
+                    "Cloud formation",
+                    "Ocean current system",
                     "Wind pattern"
                 ],
                 "correct": 1
@@ -895,9 +895,9 @@ const environmentQuestions = {
                 "question": "What percentage of freshwater is in glaciers?",
                 "options": [
                     "90%",
-                    "~70%",
+                    "10%",
                     "30%",
-                    "10%"
+                    "~70%"
                 ],
                 "correct": 0
             },
@@ -906,48 +906,48 @@ const environmentQuestions = {
                 "emoji": "🔥🌲",
                 "question": "What is fire weather index?",
                 "options": [
-                    "Wind speed",
                     "Temperature only",
                     "Wildfire risk measure",
+                    "Wind speed",
                     "Rainfall amount"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Climate",
                 "emoji": "🌾☀️",
                 "question": "What is crop resilience?",
                 "options": [
-                    "High yield only",
-                    "Fast growth",
                     "Disease resistance",
-                    "Adapt to climate stress"
+                    "Adapt to climate stress",
+                    "Fast growth",
+                    "High yield only"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Climate",
                 "emoji": "💨🏭",
                 "question": "What are Scope 1, 2, 3 emissions?",
                 "options": [
-                    "Air, water, soil",
-                    "Direct, indirect, supply chain",
                     "Low, medium, high",
-                    "Past, present, future"
+                    "Air, water, soil",
+                    "Past, present, future",
+                    "Direct, indirect, supply chain"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Climate",
                 "emoji": "🌍💚",
                 "question": "What is carbon sequestration?",
                 "options": [
+                    "Releasing CO2",
                     "Burning fuel",
                     "Capturing and storing CO2",
-                    "Releasing CO2",
                     "Deforestation"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -1030,10 +1030,10 @@ const environmentQuestions = {
                 "emoji": "🚿💦",
                 "question": "Is saving water helps the environment?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Water",
@@ -1060,16 +1060,6 @@ const environmentQuestions = {
                 "emoji": "🌧️☔",
                 "question": "Is rain fresh water?",
                 "options": [
-                    "True",
-                    "False"
-                ],
-                "correct": 1
-            },
-            {
-                "topic": "Water",
-                "emoji": "🏜️💧",
-                "question": "Does deserts have little water?",
-                "options": [
                     "False",
                     "True"
                 ],
@@ -1077,13 +1067,23 @@ const environmentQuestions = {
             },
             {
                 "topic": "Water",
+                "emoji": "🏜️💧",
+                "question": "Does deserts have little water?",
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "correct": 1
+            },
+            {
+                "topic": "Water",
                 "emoji": "🚱💧",
                 "question": "Is polluted water unsafe?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Water",
@@ -1100,10 +1100,10 @@ const environmentQuestions = {
                 "emoji": "🚰💰",
                 "question": "Is water bills cost money?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Water",
@@ -1122,20 +1122,20 @@ const environmentQuestions = {
                 "emoji": "💧🚰",
                 "question": "What percentage of Earth is fresh water?",
                 "options": [
-                    "50%",
-                    "2.5%"
+                    "2.5%",
+                    "50%"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Water",
                 "emoji": "🚿💦",
                 "question": "How can we save water at home?",
                 "options": [
-                    "Short showers, fix leaks",
-                    "Leave taps running"
+                    "Leave taps running",
+                    "Short showers, fix leaks"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Water",
@@ -1162,10 +1162,10 @@ const environmentQuestions = {
                 "emoji": "🌧️☔",
                 "question": "What is rainwater harvesting?",
                 "options": [
-                    "Preventing rain",
-                    "Collecting rain"
+                    "Collecting rain",
+                    "Preventing rain"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Water",
@@ -1212,10 +1212,10 @@ const environmentQuestions = {
                 "emoji": "💧♻️",
                 "question": "What does the acronym greywater stand for?",
                 "options": [
-                    "Drinking water",
-                    "Reusable wastewater"
+                    "Reusable wastewater",
+                    "Drinking water"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -1224,77 +1224,77 @@ const environmentQuestions = {
                 "emoji": "💧🚰",
                 "question": "What percentage of freshwater is accessible?",
                 "options": [
+                    "Less than 1%",
                     "25%",
-                    "50%",
-                    "Less than 1%"
+                    "50%"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Water",
                 "emoji": "🚿💦",
                 "question": "How much water does a 5-minute shower use?",
                 "options": [
-                    "100 gallons",
                     "10-25 gallons",
+                    "100 gallons",
                     "1 gallon"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Water",
                 "emoji": "🌊💧",
                 "question": "What is virtual water?",
                 "options": [
-                    "Imaginary water",
                     "Video game water",
-                    "Water to make products"
+                    "Water to make products",
+                    "Imaginary water"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Water",
                 "emoji": "🏞️💧",
                 "question": "What is groundwater depletion?",
                 "options": [
-                    "Aquifer overuse",
                     "River overflow",
+                    "Aquifer overuse",
                     "Surface flooding"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Water",
                 "emoji": "🌧️☔",
                 "question": "What is the water cycle?",
                 "options": [
+                    "One-way flow",
                     "Static system",
-                    "Evaporation-rain-runoff",
-                    "One-way flow"
+                    "Evaporation-rain-runoff"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Water",
                 "emoji": "🏜️💧",
                 "question": "Which region has most water stress?",
                 "options": [
-                    "Middle East",
                     "Great Lakes",
+                    "Middle East",
                     "Amazon"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Water",
                 "emoji": "🚱💧",
                 "question": "What does the acronym eutrophication stand for?",
                 "options": [
-                    "Excess nutrients in water",
                     "Water purification",
-                    "Desalination"
+                    "Desalination",
+                    "Excess nutrients in water"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Water",
@@ -1312,22 +1312,22 @@ const environmentQuestions = {
                 "emoji": "🚰💰",
                 "question": "What is water footprint?",
                 "options": [
+                    "Total water usage",
                     "Waterproof shoes",
-                    "Foot size",
-                    "Total water usage"
+                    "Foot size"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Water",
                 "emoji": "💧♻️",
                 "question": "What is water recycling?",
                 "options": [
-                    "Drinking seawater",
                     "Melting ice",
-                    "Treating wastewater"
+                    "Treating wastewater",
+                    "Drinking seawater"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -1336,36 +1336,36 @@ const environmentQuestions = {
                 "emoji": "💧🚰",
                 "question": "What percentage of body weight is water?",
                 "options": [
-                    "90%",
                     "30%",
+                    "90%",
                     "~60%",
                     "10%"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Water",
                 "emoji": "🚿💦",
                 "question": "What is water-use efficiency?",
                 "options": [
-                    "Rainfall amount",
-                    "Total consumption",
                     "Water waste",
-                    "Output per water used"
+                    "Output per water used",
+                    "Total consumption",
+                    "Rainfall amount"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Water",
                 "emoji": "🌊💧",
                 "question": "What is the water-energy nexus?",
                 "options": [
-                    "Pipeline system",
-                    "Water-energy interdependence",
                     "Power plant",
-                    "Type of dam"
+                    "Water-energy interdependence",
+                    "Type of dam",
+                    "Pipeline system"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Water",
@@ -1373,81 +1373,81 @@ const environmentQuestions = {
                 "question": "What is an aquifer?",
                 "options": [
                     "Underground water storage",
-                    "River",
+                    "Lake",
                     "Ocean",
-                    "Lake"
+                    "River"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Water",
                 "emoji": "🌧️☔",
                 "question": "What is the global average rainfall?",
                 "options": [
-                    "10mm",
-                    "100mm",
+                    "5000mm",
                     "~990mm per year",
-                    "5000mm"
+                    "10mm",
+                    "100mm"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Water",
                 "emoji": "🏜️💧",
                 "question": "What is water security?",
                 "options": [
-                    "Reliable clean water access",
                     "Waterproof safe",
-                    "Locked tap",
-                    "Dam safety"
+                    "Dam safety",
+                    "Reliable clean water access",
+                    "Locked tap"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Water",
                 "emoji": "🚱💧",
                 "question": "What is BOD in water quality?",
                 "options": [
-                    "Bottle of drink",
                     "Base of dam",
+                    "Body of debris",
                     "Biological oxygen demand",
-                    "Body of debris"
+                    "Bottle of drink"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Water",
                 "emoji": "🌍💧",
                 "question": "What percentage of water is used for agriculture?",
                 "options": [
-                    "10%",
                     "90%",
+                    "10%",
                     "~70%",
                     "30%"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Water",
                 "emoji": "🚰💰",
                 "question": "What is water pricing?",
                 "options": [
-                    "Water quality",
                     "Free water",
                     "Rain measurement",
+                    "Water quality",
                     "Charging for water use"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Water",
                 "emoji": "💧♻️",
                 "question": "What is integrated water management?",
                 "options": [
-                    "Coordinated water approach",
+                    "Random distribution",
                     "Ocean dumping",
                     "Single use",
-                    "Random distribution"
+                    "Coordinated water approach"
                 ],
                 "correct": 1
             }
@@ -1522,20 +1522,20 @@ const environmentQuestions = {
                 "emoji": "☀️⚡",
                 "question": "Is solar energy comes from the sun?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Energy",
                 "emoji": "💨🌪️",
                 "question": "Wind can generate electricity?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Energy",
@@ -1552,10 +1552,10 @@ const environmentQuestions = {
                 "emoji": "♻️⚡",
                 "question": "Is renewable energy cleaner?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Energy",
@@ -1582,20 +1582,20 @@ const environmentQuestions = {
                 "emoji": "🌊⚡",
                 "question": "Does ocean waves have energy?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Energy",
                 "emoji": "🌡️⚡",
                 "question": "Does earth have heat inside?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Energy",
@@ -1612,10 +1612,10 @@ const environmentQuestions = {
                 "emoji": "💡💚",
                 "question": "Is saving energy helps environment?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -1634,40 +1634,40 @@ const environmentQuestions = {
                 "emoji": "💨🌪️",
                 "question": "What are wind turbines?",
                 "options": [
-                    "Create wind",
-                    "Convert wind to power"
+                    "Convert wind to power",
+                    "Create wind"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Energy",
                 "emoji": "💧⚡",
                 "question": "What is hydroelectric power?",
                 "options": [
-                    "Electricity from water",
-                    "Water from electricity"
+                    "Water from electricity",
+                    "Electricity from water"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Energy",
                 "emoji": "♻️⚡",
                 "question": "What does renewable mean?",
                 "options": [
-                    "Naturally replenished",
-                    "Runs out quickly"
+                    "Runs out quickly",
+                    "Naturally replenished"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Energy",
                 "emoji": "🌍💚",
                 "question": "What are fossil fuels?",
                 "options": [
-                    "Coal, oil, gas",
-                    "Sun, wind"
+                    "Sun, wind",
+                    "Coal, oil, gas"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Energy",
@@ -1714,10 +1714,10 @@ const environmentQuestions = {
                 "emoji": "💡💚",
                 "question": "What is energy efficiency?",
                 "options": [
-                    "Less energy, same output",
-                    "More waste"
+                    "More waste",
+                    "Less energy, same output"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -1726,11 +1726,11 @@ const environmentQuestions = {
                 "emoji": "☀️⚡",
                 "question": "What is photovoltaic technology?",
                 "options": [
+                    "Wind power",
                     "Water dam",
-                    "Solar cells",
-                    "Wind power"
+                    "Solar cells"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Energy",
@@ -1759,20 +1759,20 @@ const environmentQuestions = {
                 "emoji": "♻️⚡",
                 "question": "What percentage of global energy is renewable?",
                 "options": [
+                    "5%",
                     "90%",
-                    "~30%",
-                    "5%"
+                    "~30%"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Energy",
                 "emoji": "🌍💚",
                 "question": "What is the energy transition?",
                 "options": [
-                    "Use more fossil fuels",
+                    "Shift to renewables",
                     "Stop all power",
-                    "Shift to renewables"
+                    "Use more fossil fuels"
                 ],
                 "correct": 1
             },
@@ -1782,8 +1782,8 @@ const environmentQuestions = {
                 "question": "What is net metering?",
                 "options": [
                     "No measurement",
-                    "Sell excess solar power",
-                    "Buy only"
+                    "Buy only",
+                    "Sell excess solar power"
                 ],
                 "correct": 0
             },
@@ -1792,44 +1792,44 @@ const environmentQuestions = {
                 "emoji": "🌊⚡",
                 "question": "What is the potential of ocean energy?",
                 "options": [
-                    "Very high",
                     "Only for islands",
+                    "Very high",
                     "None"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Energy",
                 "emoji": "🌡️⚡",
                 "question": "Where is geothermal energy most viable?",
                 "options": [
+                    "Deserts",
                     "Volcanic regions",
-                    "Polar areas",
-                    "Deserts"
+                    "Polar areas"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Energy",
                 "emoji": "🌱⚡",
                 "question": "What does the acronym biofuel stand for?",
                 "options": [
-                    "Nuclear fuel",
                     "Fossil fuel",
-                    "Fuel from biomass"
+                    "Fuel from biomass",
+                    "Nuclear fuel"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Energy",
                 "emoji": "💡💚",
                 "question": "What is the rebound effect in energy?",
                 "options": [
-                    "Always save",
                     "No change",
-                    "Efficiency leads to more use"
+                    "Efficiency leads to more use",
+                    "Always save"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -1838,45 +1838,45 @@ const environmentQuestions = {
                 "emoji": "☀️⚡",
                 "question": "What is the efficiency of modern solar panels?",
                 "options": [
-                    "5%",
-                    "50%",
                     "15-22%",
-                    "90%"
+                    "90%",
+                    "50%",
+                    "5%"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Energy",
                 "emoji": "💨🌪️",
                 "question": "What is the Betz limit for wind turbines?",
                 "options": [
-                    "59.3% efficiency cap",
-                    "100%",
                     "25%",
-                    "10%"
+                    "59.3% efficiency cap",
+                    "10%",
+                    "100%"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Energy",
                 "emoji": "💧⚡",
                 "question": "What is the largest hydropower producer?",
                 "options": [
+                    "USA",
                     "Brazil",
                     "Canada",
-                    "USA",
                     "China"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Energy",
                 "emoji": "♻️⚡",
                 "question": "What does the acronym LCOE stand for?",
                 "options": [
-                    "Limited capacity",
-                    "Local consumption",
                     "Low carbon output",
+                    "Local consumption",
+                    "Limited capacity",
                     "Levelized cost of energy"
                 ],
                 "correct": 1
@@ -1886,12 +1886,12 @@ const environmentQuestions = {
                 "emoji": "🌍💚",
                 "question": "What does the acronym decarbonization stand for?",
                 "options": [
-                    "Burning coal",
                     "Reducing carbon emissions",
+                    "Tree removal",
                     "Adding carbon",
-                    "Tree removal"
+                    "Burning coal"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Energy",
@@ -1910,48 +1910,48 @@ const environmentQuestions = {
                 "emoji": "🌊⚡",
                 "question": "What is wave energy converter?",
                 "options": [
-                    "Boat",
                     "Dam",
+                    "Surfboard",
                     "Device capturing wave power",
-                    "Surfboard"
+                    "Boat"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Energy",
                 "emoji": "🌡️⚡",
                 "question": "What depth is needed for geothermal wells?",
                 "options": [
-                    "100 km",
-                    "Surface only",
                     "1-3 km typically",
-                    "10 meters"
+                    "Surface only",
+                    "10 meters",
+                    "100 km"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Energy",
                 "emoji": "🌱⚡",
                 "question": "What is anaerobic digestion?",
                 "options": [
-                    "Water treatment",
-                    "Oxygen production",
                     "Coal mining",
-                    "Breakdown organic matter"
+                    "Oxygen production",
+                    "Breakdown organic matter",
+                    "Water treatment"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Energy",
                 "emoji": "💡💚",
                 "question": "What is demand response?",
                 "options": [
-                    "Constant use",
-                    "No control",
+                    "Waste energy",
                     "Adjust consumption to supply",
-                    "Waste energy"
+                    "Constant use",
+                    "No control"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "extreme": [
@@ -2024,10 +2024,10 @@ const environmentQuestions = {
                 "emoji": "🌳🦋",
                 "question": "Does ecosystems have living things?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ecosystem",
@@ -2044,10 +2044,10 @@ const environmentQuestions = {
                 "emoji": "🦁🥩",
                 "question": "Are lions consumers?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ecosystem",
@@ -2064,20 +2064,20 @@ const environmentQuestions = {
                 "emoji": "🌍🔗",
                 "question": "Is everything connected?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ecosystem",
                 "emoji": "🐝🌸",
                 "question": "Is bees pollinate flowers?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ecosystem",
@@ -2104,10 +2104,10 @@ const environmentQuestions = {
                 "emoji": "🦅🐭",
                 "question": "Is hawks eat mice?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ecosystem",
@@ -2146,20 +2146,20 @@ const environmentQuestions = {
                 "emoji": "🦁🥩",
                 "question": "What is a carnivore?",
                 "options": [
-                    "Eats plants",
-                    "Eats meat"
+                    "Eats meat",
+                    "Eats plants"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ecosystem",
                 "emoji": "🍄🍂",
                 "question": "What do decomposers do?",
                 "options": [
-                    "Produce oxygen",
-                    "Break down dead matter"
+                    "Break down dead matter",
+                    "Produce oxygen"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ecosystem",
@@ -2196,10 +2196,10 @@ const environmentQuestions = {
                 "emoji": "🌲🦌",
                 "question": "What is a terrestrial ecosystem?",
                 "options": [
-                    "Water-based",
-                    "Land-based"
+                    "Land-based",
+                    "Water-based"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ecosystem",
@@ -2216,10 +2216,10 @@ const environmentQuestions = {
                 "emoji": "🌱☀️",
                 "question": "What does the acronym photosynthesis stand for?",
                 "options": [
-                    "Animals breathe",
-                    "Plants make food from light"
+                    "Plants make food from light",
+                    "Animals breathe"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -2228,20 +2228,20 @@ const environmentQuestions = {
                 "emoji": "🌳🦋",
                 "question": "Is define biodiversity?",
                 "options": [
-                    "Variety of life",
                     "No life",
+                    "Variety of life",
                     "One species"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ecosystem",
                 "emoji": "🌿🐛",
                 "question": "What is primary production?",
                 "options": [
-                    "Factory output",
+                    "First sale",
                     "Energy from photosynthesis",
-                    "First sale"
+                    "Factory output"
                 ],
                 "correct": 1
             },
@@ -2250,11 +2250,11 @@ const environmentQuestions = {
                 "emoji": "🦁🥩",
                 "question": "What is a trophic level?",
                 "options": [
-                    "Temperature",
+                    "Feeding position",
                     "Altitude",
-                    "Feeding position"
+                    "Temperature"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Ecosystem",
@@ -2262,10 +2262,10 @@ const environmentQuestions = {
                 "question": "What is nutrient cycling?",
                 "options": [
                     "No movement",
-                    "One-way flow",
-                    "Matter reuse in ecosystem"
+                    "Matter reuse in ecosystem",
+                    "One-way flow"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Ecosystem",
@@ -2273,65 +2273,65 @@ const environmentQuestions = {
                 "question": "What is a food web?",
                 "options": [
                     "Complex feeding relationships",
-                    "Internet",
-                    "Single chain"
+                    "Single chain",
+                    "Internet"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Ecosystem",
                 "emoji": "🐝🌸",
                 "question": "What percentage of crops depend on pollinators?",
                 "options": [
-                    "100%",
                     "10%",
-                    "75%"
+                    "75%",
+                    "100%"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Ecosystem",
                 "emoji": "🌊🐟",
                 "question": "What is a coral reef ecosystem?",
                 "options": [
+                    "Desert",
                     "Marine biodiversity hotspot",
-                    "Forest",
-                    "Desert"
+                    "Forest"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Ecosystem",
                 "emoji": "🌲🦌",
                 "question": "What does the acronym succession stand for?",
                 "options": [
+                    "Ecosystem change over time",
                     "Staying same",
-                    "Instant death",
-                    "Ecosystem change over time"
+                    "Instant death"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ecosystem",
                 "emoji": "🦅🐭",
                 "question": "What is the 10% rule?",
                 "options": [
+                    "Energy transfer between levels",
                     "Tax rate",
-                    "Discount",
-                    "Energy transfer between levels"
+                    "Discount"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ecosystem",
                 "emoji": "🌱☀️",
                 "question": "What is carrying capacity?",
                 "options": [
-                    "Infinite",
                     "Max population supported",
-                    "Weight limit"
+                    "Weight limit",
+                    "Infinite"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -2340,58 +2340,58 @@ const environmentQuestions = {
                 "emoji": "🌳🦋",
                 "question": "What is ecosystem services?",
                 "options": [
-                    "Restaurant",
                     "Repair shop",
                     "Benefits to humans",
+                    "Restaurant",
                     "Service industry"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Ecosystem",
                 "emoji": "🌿🐛",
                 "question": "What is net primary productivity?",
                 "options": [
-                    "Total consumption",
                     "Sales revenue",
+                    "Energy stored by plants",
                     "Factory output",
-                    "Energy stored by plants"
+                    "Total consumption"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ecosystem",
                 "emoji": "🦁🥩",
                 "question": "What is an apex predator?",
                 "options": [
-                    "Plant eater",
                     "Bottom feeder",
                     "Top of food chain",
+                    "Plant eater",
                     "Decomposer"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Ecosystem",
                 "emoji": "🍄🍂",
                 "question": "What is the role of fungi in ecosystems?",
                 "options": [
-                    "Producing oxygen",
-                    "Decomposition and symbiosis",
                     "Photosynthesis",
-                    "Predation"
+                    "Predation",
+                    "Producing oxygen",
+                    "Decomposition and symbiosis"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Ecosystem",
                 "emoji": "🌍🔗",
                 "question": "What does the acronym bioaccumulation stand for?",
                 "options": [
-                    "Population growth",
+                    "Energy storage",
                     "Water collection",
                     "Toxin buildup in organisms",
-                    "Energy storage"
+                    "Population growth"
                 ],
                 "correct": 1
             },
@@ -2400,58 +2400,58 @@ const environmentQuestions = {
                 "emoji": "🐝🌸",
                 "question": "What does the acronym mutualism stand for?",
                 "options": [
-                    "Both harmed",
-                    "One benefits only",
                     "No interaction",
-                    "Both species benefit"
+                    "Both species benefit",
+                    "One benefits only",
+                    "Both harmed"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Ecosystem",
                 "emoji": "🌊🐟",
                 "question": "What is the photic zone?",
                 "options": [
-                    "Sunlight penetration depth",
-                    "River bed",
+                    "Deep ocean",
                     "Shore area",
-                    "Deep ocean"
+                    "Sunlight penetration depth",
+                    "River bed"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Ecosystem",
                 "emoji": "🌲🦌",
                 "question": "What is climax community?",
                 "options": [
-                    "Stable ecosystem endpoint",
+                    "No community",
                     "Starting point",
                     "Destroyed area",
-                    "No community"
+                    "Stable ecosystem endpoint"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Ecosystem",
                 "emoji": "🦅🐭",
                 "question": "What is an ecological niche?",
                 "options": [
-                    "Physical location",
                     "Weather pattern",
+                    "Species' role in ecosystem",
                     "Time period",
-                    "Species' role in ecosystem"
+                    "Physical location"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Ecosystem",
                 "emoji": "🌱☀️",
                 "question": "What is the nitrogen cycle?",
                 "options": [
-                    "Oxygen cycle",
-                    "Nitrogen movement in ecosystem",
                     "Water cycle",
-                    "Carbon only"
+                    "Nitrogen movement in ecosystem",
+                    "Carbon only",
+                    "Oxygen cycle"
                 ],
                 "correct": 1
             }
@@ -2546,20 +2546,20 @@ const environmentQuestions = {
                 "emoji": "🏭🗑️",
                 "question": "Is factories produce waste?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Waste",
                 "emoji": "🌍💚",
                 "question": "Is less waste helps environment?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Waste",
@@ -2576,16 +2576,6 @@ const environmentQuestions = {
                 "emoji": "👕♻️",
                 "question": "Do clothes can be reused?",
                 "options": [
-                    "False",
-                    "True"
-                ],
-                "correct": 0
-            },
-            {
-                "topic": "Waste",
-                "emoji": "🏠🗑️",
-                "question": "Is households create waste?",
-                "options": [
                     "True",
                     "False"
                 ],
@@ -2593,13 +2583,23 @@ const environmentQuestions = {
             },
             {
                 "topic": "Waste",
-                "emoji": "🌊🗑️",
-                "question": "Is littering pollutes oceans?",
+                "emoji": "🏠🗑️",
+                "question": "Is households create waste?",
                 "options": [
                     "False",
                     "True"
                 ],
                 "correct": 0
+            },
+            {
+                "topic": "Waste",
+                "emoji": "🌊🗑️",
+                "question": "Is littering pollutes oceans?",
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "correct": 1
             },
             {
                 "topic": "Waste",
@@ -2658,10 +2658,10 @@ const environmentQuestions = {
                 "emoji": "🌍💚",
                 "question": "What is zero waste?",
                 "options": [
-                    "Create more trash",
-                    "Minimize waste to landfill"
+                    "Minimize waste to landfill",
+                    "Create more trash"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Waste",
@@ -2678,20 +2678,20 @@ const environmentQuestions = {
                 "emoji": "👕♻️",
                 "question": "What is textile waste?",
                 "options": [
-                    "Discarded fabrics",
-                    "Food waste"
+                    "Food waste",
+                    "Discarded fabrics"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Waste",
                 "emoji": "🏠🗑️",
                 "question": "What is municipal solid waste?",
                 "options": [
-                    "Household trash",
-                    "Factory waste"
+                    "Factory waste",
+                    "Household trash"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Waste",
@@ -2718,10 +2718,10 @@ const environmentQuestions = {
                 "emoji": "🚮✅",
                 "question": "What is source separation?",
                 "options": [
-                    "Sorting at origin",
-                    "Mixed trash"
+                    "Mixed trash",
+                    "Sorting at origin"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -2731,8 +2731,8 @@ const environmentQuestions = {
                 "question": "What is the waste hierarchy?",
                 "options": [
                     "Reduce, reuse, recycle order",
-                    "Burn everything",
-                    "Any order"
+                    "Any order",
+                    "Burn everything"
                 ],
                 "correct": 0
             },
@@ -2741,22 +2741,22 @@ const environmentQuestions = {
                 "emoji": "🍎🥕",
                 "question": "What percentage of food is wasted globally?",
                 "options": [
-                    "5%",
                     "75%",
-                    "~30%"
+                    "~30%",
+                    "5%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Waste",
                 "emoji": "🏭🗑️",
                 "question": "What is hazardous waste?",
                 "options": [
-                    "Dangerous materials",
                     "Safe trash",
-                    "Food"
+                    "Food",
+                    "Dangerous materials"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Waste",
@@ -2774,31 +2774,31 @@ const environmentQuestions = {
                 "emoji": "🔋♻️",
                 "question": "How many phones are discarded yearly?",
                 "options": [
-                    "Millions",
                     "Billions",
-                    "Thousands"
+                    "Thousands",
+                    "Millions"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Waste",
                 "emoji": "👕♻️",
                 "question": "What is fast fashion waste?",
                 "options": [
-                    "Quickly discarded clothes",
                     "Sport clothes",
-                    "Quick delivery"
+                    "Quick delivery",
+                    "Quickly discarded clothes"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Waste",
                 "emoji": "🏠🗑️",
                 "question": "What is per capita waste generation?",
                 "options": [
-                    "Factory waste",
+                    "Total waste",
                     "Waste per person",
-                    "Total waste"
+                    "Factory waste"
                 ],
                 "correct": 1
             },
@@ -2807,11 +2807,11 @@ const environmentQuestions = {
                 "emoji": "🌊🗑️",
                 "question": "What does the acronym microplastic stand for?",
                 "options": [
-                    "Large bags",
                     "Tiny plastic particles",
-                    "No plastic"
+                    "No plastic",
+                    "Large bags"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Waste",
@@ -2829,11 +2829,11 @@ const environmentQuestions = {
                 "emoji": "🚮✅",
                 "question": "What is waste-to-energy?",
                 "options": [
-                    "Convert trash to power",
                     "Bury everything",
+                    "Convert trash to power",
                     "Export waste"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -2842,12 +2842,12 @@ const environmentQuestions = {
                 "emoji": "🗑️♻️",
                 "question": "How much waste does average American generate daily?",
                 "options": [
-                    "0.5 lbs",
-                    "20 lbs",
+                    "~4.5 lbs",
                     "1 lb",
-                    "~4.5 lbs"
+                    "0.5 lbs",
+                    "20 lbs"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Waste",
@@ -2878,12 +2878,12 @@ const environmentQuestions = {
                 "emoji": "🌍💚",
                 "question": "What is circular economy in waste?",
                 "options": [
+                    "Eliminate waste concept",
                     "Linear disposal",
                     "One-time use",
-                    "Eliminate waste concept",
                     "Export trash"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Waste",
@@ -2902,60 +2902,60 @@ const environmentQuestions = {
                 "emoji": "👕♻️",
                 "question": "How long for textiles to decompose in landfill?",
                 "options": [
-                    "1 week",
-                    "1 year",
+                    "200+ years",
                     "1 month",
-                    "200+ years"
+                    "1 week",
+                    "1 year"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Waste",
                 "emoji": "🏠🗑️",
                 "question": "What is a materials recovery facility?",
                 "options": [
-                    "Sort recyclables",
-                    "Incinerator",
                     "Storage",
-                    "Landfill"
+                    "Landfill",
+                    "Sort recyclables",
+                    "Incinerator"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Waste",
                 "emoji": "🌊🗑️",
                 "question": "How many garbage patches exist in oceans?",
                 "options": [
-                    "100",
                     "None",
                     "1",
+                    "100",
                     "5 major ones"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Waste",
                 "emoji": "📦♻️",
                 "question": "What does the acronym downcycling stand for?",
                 "options": [
-                    "Destroy",
                     "No change",
-                    "Recycle to lower quality",
-                    "Upgrade material"
+                    "Upgrade material",
+                    "Destroy",
+                    "Recycle to lower quality"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Waste",
                 "emoji": "🚮✅",
                 "question": "What is single-stream recycling?",
                 "options": [
-                    "No recycling",
                     "One item type",
-                    "Separate everything",
-                    "All recyclables together"
+                    "No recycling",
+                    "All recyclables together",
+                    "Separate everything"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "extreme": [
@@ -3058,10 +3058,10 @@ const environmentQuestions = {
                 "emoji": "🐄🌾",
                 "question": "Are animals part of farming?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Agriculture",
@@ -3078,10 +3078,10 @@ const environmentQuestions = {
                 "emoji": "🌻🐝",
                 "question": "Is bees help crops grow?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Agriculture",
@@ -3118,10 +3118,10 @@ const environmentQuestions = {
                 "emoji": "🥗💚",
                 "question": "Is local food fresher?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -3160,10 +3160,10 @@ const environmentQuestions = {
                 "emoji": "🐄🌾",
                 "question": "What is integrated farming?",
                 "options": [
-                    "Crops only",
-                    "Crops and livestock together"
+                    "Crops and livestock together",
+                    "Crops only"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Agriculture",
@@ -3180,10 +3180,10 @@ const environmentQuestions = {
                 "emoji": "🌻🐝",
                 "question": "What does the acronym agroforestry stand for?",
                 "options": [
-                    "Trees and crops together",
-                    "No trees"
+                    "No trees",
+                    "Trees and crops together"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Agriculture",
@@ -3200,30 +3200,30 @@ const environmentQuestions = {
                 "emoji": "🔄🌱",
                 "question": "Why rotate crops?",
                 "options": [
-                    "Prevent soil depletion",
-                    "No benefit"
+                    "No benefit",
+                    "Prevent soil depletion"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Agriculture",
                 "emoji": "🚜💨",
                 "question": "What is runoff in farming?",
                 "options": [
-                    "Water with chemicals flowing",
-                    "Irrigation"
+                    "Irrigation",
+                    "Water with chemicals flowing"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Agriculture",
                 "emoji": "🥗💚",
                 "question": "What is food miles?",
                 "options": [
-                    "Recipe length",
-                    "Distance food travels"
+                    "Distance food travels",
+                    "Recipe length"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -3232,55 +3232,55 @@ const environmentQuestions = {
                 "emoji": "🌾🚜",
                 "question": "What does the acronym monoculture stand for?",
                 "options": [
-                    "Single crop large area",
                     "No crops",
+                    "Single crop large area",
                     "Multiple crops"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Agriculture",
                 "emoji": "🌱🌿",
                 "question": "What percentage of US farmland is organic?",
                 "options": [
-                    "90%",
                     "50%",
-                    "~1-2%"
+                    "~1-2%",
+                    "90%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Agriculture",
                 "emoji": "💧🌾",
                 "question": "What is precision agriculture?",
                 "options": [
-                    "No planning",
+                    "Random planting",
                     "Technology-based farming",
-                    "Random planting"
+                    "No planning"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Agriculture",
                 "emoji": "🐄🌾",
                 "question": "What is the main issue with livestock farming?",
                 "options": [
-                    "High emissions",
                     "Too healthy",
-                    "No issues"
+                    "No issues",
+                    "High emissions"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Agriculture",
                 "emoji": "🌍♻️",
                 "question": "What is carbon farming?",
                 "options": [
-                    "Burn fields",
                     "Sequester CO2 in soil",
-                    "Release carbon"
+                    "Release carbon",
+                    "Burn fields"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Agriculture",
@@ -3309,33 +3309,33 @@ const environmentQuestions = {
                 "emoji": "🔄🌱",
                 "question": "What is nitrogen fixation?",
                 "options": [
-                    "Converting N2 to usable form",
                     "Adding chemicals",
+                    "Converting N2 to usable form",
                     "Removing nitrogen"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Agriculture",
                 "emoji": "🚜💨",
                 "question": "What causes eutrophication?",
                 "options": [
-                    "Soil health",
                     "Dry conditions",
-                    "Excess nutrients in water"
+                    "Excess nutrients in water",
+                    "Soil health"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Agriculture",
                 "emoji": "🥗💚",
                 "question": "What is community supported agriculture?",
                 "options": [
-                    "Direct farm subscriptions",
                     "Imports",
-                    "Supermarkets"
+                    "Supermarkets",
+                    "Direct farm subscriptions"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -3344,36 +3344,36 @@ const environmentQuestions = {
                 "emoji": "🌾🚜",
                 "question": "What percentage of global emissions is from agriculture?",
                 "options": [
-                    "75%",
                     "~25%",
+                    "5%",
                     "1%",
-                    "5%"
+                    "75%"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Agriculture",
                 "emoji": "🌱🌿",
                 "question": "What is biological pest control?",
                 "options": [
-                    "Chemicals only",
                     "No control",
                     "Natural predators",
-                    "Fire"
+                    "Fire",
+                    "Chemicals only"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Agriculture",
                 "emoji": "💧🌾",
                 "question": "What percentage of freshwater is used for agriculture?",
                 "options": [
-                    "~70%",
-                    "95%",
                     "10%",
-                    "30%"
+                    "95%",
+                    "30%",
+                    "~70%"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Agriculture",
@@ -3381,71 +3381,71 @@ const environmentQuestions = {
                 "question": "How much more land does beef require vs plants?",
                 "options": [
                     "Same",
+                    "~20x more",
                     "Less",
-                    "2x",
-                    "~20x more"
+                    "2x"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Agriculture",
                 "emoji": "🌍♻️",
                 "question": "What is soil organic matter?",
                 "options": [
-                    "Air",
                     "Water",
                     "Carbon-rich material",
+                    "Air",
                     "Rocks"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Agriculture",
                 "emoji": "🌻🐝",
                 "question": "What percentage of food crops rely on pollinators?",
                 "options": [
-                    "5%",
+                    "~75%",
                     "100%",
                     "10%",
-                    "~75%"
+                    "5%"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Agriculture",
                 "emoji": "🌳🌾",
                 "question": "How much topsoil is lost annually to erosion?",
                 "options": [
+                    "1 billion tons",
                     "100 tons",
                     "1 ton",
-                    "1 billion tons",
                     "24 billion tons"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Agriculture",
                 "emoji": "🔄🌱",
                 "question": "What is cover cropping?",
                 "options": [
-                    "Plastic covers",
-                    "No planting",
+                    "Only main crop",
                     "Plants between main crops",
-                    "Only main crop"
+                    "Plastic covers",
+                    "No planting"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Agriculture",
                 "emoji": "🚜💨",
                 "question": "What is integrated pest management?",
                 "options": [
-                    "One method",
                     "Chemicals only",
                     "Combined control strategies",
-                    "No management"
+                    "No management",
+                    "One method"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Agriculture",
@@ -3453,11 +3453,11 @@ const environmentQuestions = {
                 "question": "What is vertical farming?",
                 "options": [
                     "Underground",
+                    "No farming",
                     "Traditional fields",
-                    "Indoor stacked growing",
-                    "No farming"
+                    "Indoor stacked growing"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -3530,80 +3530,80 @@ const environmentQuestions = {
                 "emoji": "🦁🐘",
                 "question": "Is many species exist on Earth?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Biodiversity",
                 "emoji": "🌳🦋",
                 "question": "Does forests have many animals?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Biodiversity",
                 "emoji": "🌍💚",
                 "question": "Is biodiversity important?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Biodiversity",
                 "emoji": "🐼⚠️",
                 "question": "Are some animals endangered?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Biodiversity",
                 "emoji": "🌊🐠",
                 "question": "Does oceans have diverse life?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Biodiversity",
                 "emoji": "🦅🦉",
                 "question": "Are birds important for ecosystems?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Biodiversity",
                 "emoji": "🌺🌸",
                 "question": "Is plants provide food and oxygen?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Biodiversity",
                 "emoji": "🐝🦋",
                 "question": "Is insects pollinate plants?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Biodiversity",
@@ -3632,20 +3632,20 @@ const environmentQuestions = {
                 "emoji": "🦁🐘",
                 "question": "What does the term biodiversity mean?",
                 "options": [
-                    "Variety of life",
-                    "One species"
+                    "One species",
+                    "Variety of life"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Biodiversity",
                 "emoji": "🌳🦋",
                 "question": "What does the acronym habitat stand for?",
                 "options": [
-                    "Where species lives",
-                    "Food type"
+                    "Food type",
+                    "Where species lives"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Biodiversity",
@@ -3662,10 +3662,10 @@ const environmentQuestions = {
                 "emoji": "🐼⚠️",
                 "question": "What is an endangered species?",
                 "options": [
-                    "Very common",
-                    "Risk of extinction"
+                    "Risk of extinction",
+                    "Very common"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Biodiversity",
@@ -3702,30 +3702,30 @@ const environmentQuestions = {
                 "emoji": "🐝🦋",
                 "question": "What is a pollinator?",
                 "options": [
-                    "Eats plants",
-                    "Helps plant reproduction"
+                    "Helps plant reproduction",
+                    "Eats plants"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Biodiversity",
                 "emoji": "🏞️🌲",
                 "question": "What is a protected area?",
                 "options": [
-                    "Shopping mall",
-                    "Conservation zone"
+                    "Conservation zone",
+                    "Shopping mall"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Biodiversity",
                 "emoji": "🌍🔗",
                 "question": "Is define an ecosystem?",
                 "options": [
-                    "One animal",
-                    "Living things interact"
+                    "Living things interact",
+                    "One animal"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -3734,11 +3734,11 @@ const environmentQuestions = {
                 "emoji": "🦁🐘",
                 "question": "How many species exist on Earth?",
                 "options": [
+                    "100 billion",
                     "~8-9 million",
-                    "1000",
-                    "100 billion"
+                    "1000"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Biodiversity",
@@ -3746,21 +3746,21 @@ const environmentQuestions = {
                 "question": "What is habitat fragmentation?",
                 "options": [
                     "Connecting habitats",
-                    "Breaking up habitats",
-                    "No change"
+                    "No change",
+                    "Breaking up habitats"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Biodiversity",
                 "emoji": "🌍💚",
                 "question": "What are biodiversity hotspots?",
                 "options": [
-                    "High species richness areas",
                     "Low diversity",
+                    "High species richness areas",
                     "Empty zones"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Biodiversity",
@@ -3779,32 +3779,32 @@ const environmentQuestions = {
                 "question": "What percentage of species are in oceans?",
                 "options": [
                     "~50-80%",
-                    "1%",
-                    "100%"
+                    "100%",
+                    "1%"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Biodiversity",
                 "emoji": "🦅🦉",
                 "question": "What is genetic diversity?",
                 "options": [
-                    "Variation within species",
+                    "Same DNA",
                     "No variation",
-                    "Same DNA"
+                    "Variation within species"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Biodiversity",
                 "emoji": "🌺🌸",
                 "question": "What is the main threat to biodiversity?",
                 "options": [
-                    "Habitat loss",
                     "Too many animals",
+                    "Habitat loss",
                     "Too much rain"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Biodiversity",
@@ -3822,11 +3822,11 @@ const environmentQuestions = {
                 "emoji": "🏞️🌲",
                 "question": "What is in-situ conservation?",
                 "options": [
-                    "Laboratory",
                     "Zoo only",
-                    "Protect in natural habitat"
+                    "Protect in natural habitat",
+                    "Laboratory"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Biodiversity",
@@ -3846,12 +3846,12 @@ const environmentQuestions = {
                 "emoji": "🦁🐘",
                 "question": "What is the current extinction rate compared to background?",
                 "options": [
-                    "Same",
-                    "100-1000x higher",
                     "10x",
+                    "100-1000x higher",
+                    "Same",
                     "2x"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Biodiversity",
@@ -3859,11 +3859,11 @@ const environmentQuestions = {
                 "question": "What is edge effect in ecology?",
                 "options": [
                     "No effect",
+                    "Habitat boundary impacts",
                     "Weather pattern",
-                    "Center areas",
-                    "Habitat boundary impacts"
+                    "Center areas"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Biodiversity",
@@ -3871,8 +3871,8 @@ const environmentQuestions = {
                 "question": "How many biodiversity hotspots exist?",
                 "options": [
                     "36",
-                    "100",
                     "5",
+                    "100",
                     "3"
                 ],
                 "correct": 0
@@ -3896,8 +3896,8 @@ const environmentQuestions = {
                 "options": [
                     "One reef",
                     "Marine biodiversity center",
-                    "Shape only",
-                    "Empty ocean"
+                    "Empty ocean",
+                    "Shape only"
                 ],
                 "correct": 1
             },
@@ -3906,12 +3906,12 @@ const environmentQuestions = {
                 "emoji": "🦅🦉",
                 "question": "What is taxonomic diversity?",
                 "options": [
-                    "Name only",
+                    "No groups",
                     "Variety of taxonomic groups",
                     "One group",
-                    "No groups"
+                    "Name only"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Biodiversity",
@@ -3919,35 +3919,35 @@ const environmentQuestions = {
                 "question": "What is island biogeography?",
                 "options": [
                     "Species-area relationship",
+                    "Vacation spots",
                     "Weather study",
-                    "No theory",
-                    "Vacation spots"
+                    "No theory"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Biodiversity",
                 "emoji": "🐝🦋",
                 "question": "What is colony collapse disorder?",
                 "options": [
+                    "Bee hive die-off",
                     "Weather event",
-                    "Plant disease",
                     "Ant problem",
-                    "Bee hive die-off"
+                    "Plant disease"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Biodiversity",
                 "emoji": "🏞️🌲",
                 "question": "What percentage of land is protected globally?",
                 "options": [
-                    "90%",
-                    "50%",
                     "~15%",
-                    "1%"
+                    "50%",
+                    "1%",
+                    "90%"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Biodiversity",
@@ -4042,20 +4042,20 @@ const environmentQuestions = {
                 "emoji": "🏭💨",
                 "question": "Is factories pollute air?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Air",
                 "emoji": "🚗💨",
                 "question": "Is cars emit pollution?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Air",
@@ -4072,26 +4072,16 @@ const environmentQuestions = {
                 "emoji": "🏙️🌫️",
                 "question": "Is smog harmful?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Air",
                 "emoji": "😷🤧",
                 "question": "Is air pollution affects health?",
                 "options": [
-                    "True",
-                    "False"
-                ],
-                "correct": 0
-            },
-            {
-                "topic": "Air",
-                "emoji": "🌬️☁️",
-                "question": "Is wind moves pollution?",
-                "options": [
                     "False",
                     "True"
                 ],
@@ -4099,13 +4089,23 @@ const environmentQuestions = {
             },
             {
                 "topic": "Air",
-                "emoji": "🏠💨",
-                "question": "Indoor air can be polluted?",
+                "emoji": "🌬️☁️",
+                "question": "Is wind moves pollution?",
                 "options": [
                     "True",
                     "False"
                 ],
                 "correct": 0
+            },
+            {
+                "topic": "Air",
+                "emoji": "🏠💨",
+                "question": "Indoor air can be polluted?",
+                "options": [
+                    "False",
+                    "True"
+                ],
+                "correct": 1
             },
             {
                 "topic": "Air",
@@ -4122,10 +4122,10 @@ const environmentQuestions = {
                 "emoji": "🌍💚",
                 "question": "Is clean air a right?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -4154,10 +4154,10 @@ const environmentQuestions = {
                 "emoji": "🚗💨",
                 "question": "What is vehicular pollution?",
                 "options": [
-                    "Clean air",
-                    "Exhaust from vehicles"
+                    "Exhaust from vehicles",
+                    "Clean air"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Air",
@@ -4174,40 +4174,40 @@ const environmentQuestions = {
                 "emoji": "🏙️🌫️",
                 "question": "What does the acronym smog stand for?",
                 "options": [
-                    "Clean mist",
-                    "Fog mixed with pollution"
+                    "Fog mixed with pollution",
+                    "Clean mist"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Air",
                 "emoji": "😷🤧",
                 "question": "What health issues from air pollution?",
                 "options": [
-                    "Perfect health",
-                    "Respiratory, heart disease"
+                    "Respiratory, heart disease",
+                    "Perfect health"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Air",
                 "emoji": "🌬️☁️",
                 "question": "What is atmospheric circulation?",
                 "options": [
-                    "Air movement patterns",
-                    "Stationary air"
+                    "Stationary air",
+                    "Air movement patterns"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Air",
                 "emoji": "🏠💨",
                 "question": "What is indoor air pollution?",
                 "options": [
-                    "Outside only",
-                    "Contaminants inside buildings"
+                    "Contaminants inside buildings",
+                    "Outside only"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Air",
@@ -4236,20 +4236,20 @@ const environmentQuestions = {
                 "emoji": "💨🌍",
                 "question": "What is the Air Quality Index?",
                 "options": [
-                    "Humidity",
                     "Pollution level measure",
-                    "Temperature"
+                    "Temperature",
+                    "Humidity"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Air",
                 "emoji": "🏭💨",
                 "question": "What does PM2.5 measure?",
                 "options": [
-                    "Fine particles <2.5 microns",
+                    "Time",
                     "Temperature",
-                    "Time"
+                    "Fine particles <2.5 microns"
                 ],
                 "correct": 1
             },
@@ -4258,22 +4258,22 @@ const environmentQuestions = {
                 "emoji": "🚗💨",
                 "question": "What is the main car pollutant?",
                 "options": [
+                    "Nitrogen oxides",
                     "Oxygen",
-                    "Water",
-                    "Nitrogen oxides"
+                    "Water"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Air",
                 "emoji": "🌳💚",
                 "question": "What is the urban heat island effect?",
                 "options": [
-                    "Cities hotter than surroundings",
                     "No difference",
-                    "Cooler cities"
+                    "Cooler cities",
+                    "Cities hotter than surroundings"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Air",
@@ -4281,63 +4281,63 @@ const environmentQuestions = {
                 "question": "What causes photochemical smog?",
                 "options": [
                     "Snow",
-                    "Rain",
-                    "Sunlight on pollutants"
+                    "Sunlight on pollutants",
+                    "Rain"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Air",
                 "emoji": "😷🤧",
                 "question": "How many die from air pollution yearly?",
                 "options": [
-                    "100",
                     "1000",
-                    "~7 million"
+                    "~7 million",
+                    "100"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Air",
                 "emoji": "🌬️☁️",
                 "question": "What is transboundary pollution?",
                 "options": [
+                    "Crosses borders",
                     "No movement",
-                    "Stays local",
-                    "Crosses borders"
+                    "Stays local"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Air",
                 "emoji": "🏠💨",
                 "question": "What is volatile organic compound?",
                 "options": [
-                    "Evaporates easily",
                     "Solid",
+                    "Evaporates easily",
                     "Water"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Air",
                 "emoji": "🔥💨",
                 "question": "What is black carbon?",
                 "options": [
+                    "Clean air",
                     "Soot from burning",
-                    "Oxygen",
-                    "Clean air"
+                    "Oxygen"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Air",
                 "emoji": "🌍💚",
                 "question": "What is emission standard?",
                 "options": [
-                    "Legal pollution limit",
+                    "No limit",
                     "Infinite",
-                    "No limit"
+                    "Legal pollution limit"
                 ],
                 "correct": 1
             }
@@ -4348,48 +4348,48 @@ const environmentQuestions = {
                 "emoji": "💨🌍",
                 "question": "What AQI value is considered unhealthy?",
                 "options": [
-                    "51-100",
-                    "151-200",
                     "0-50",
+                    "151-200",
+                    "51-100",
                     "500+"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Air",
                 "emoji": "🏭💨",
                 "question": "What is a scrubber in industry?",
                 "options": [
-                    "Product",
-                    "Cleaning tool",
                     "Pollution control device",
-                    "Worker"
+                    "Worker",
+                    "Cleaning tool",
+                    "Product"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Air",
                 "emoji": "🚗💨",
                 "question": "What is catalytic converter?",
                 "options": [
-                    "Increases power",
-                    "Reduces vehicle emissions",
                     "Radio",
-                    "Fuel tank"
+                    "Increases power",
+                    "Fuel tank",
+                    "Reduces vehicle emissions"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Air",
                 "emoji": "🌳💚",
                 "question": "How much CO2 does a tree absorb yearly?",
                 "options": [
-                    "0 lbs",
                     "~48 lbs",
-                    "1 lb",
-                    "1000 lbs"
+                    "1000 lbs",
+                    "0 lbs",
+                    "1 lb"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Air",
@@ -4397,69 +4397,69 @@ const environmentQuestions = {
                 "question": "What is the Great Smog of London?",
                 "options": [
                     "1952 deadly fog event",
-                    "Myth",
+                    "Modern issue",
                     "Weather",
-                    "Modern issue"
+                    "Myth"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Air",
                 "emoji": "😷🤧",
                 "question": "What is the leading air pollution health risk?",
                 "options": [
-                    "Noise",
-                    "Temperature",
                     "PM2.5 exposure",
-                    "Light"
+                    "Light",
+                    "Temperature",
+                    "Noise"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Air",
                 "emoji": "🌬️☁️",
                 "question": "What is atmospheric inversion?",
                 "options": [
-                    "Normal flow",
                     "No air",
+                    "Warm air traps cool air",
                     "Wind",
-                    "Warm air traps cool air"
+                    "Normal flow"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Air",
                 "emoji": "🏠💨",
                 "question": "What is sick building syndrome?",
                 "options": [
-                    "Structural damage",
-                    "Health issues from indoor air",
                     "Paint color",
-                    "Old building"
+                    "Old building",
+                    "Structural damage",
+                    "Health issues from indoor air"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Air",
                 "emoji": "🔥💨",
                 "question": "What percentage of pollution from biomass burning?",
                 "options": [
-                    "~25% globally",
-                    "1%",
                     "0%",
-                    "90%"
+                    "90%",
+                    "1%",
+                    "~25% globally"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Air",
                 "emoji": "🌍💚",
                 "question": "What is the National Ambient Air Quality Standards?",
                 "options": [
-                    "Temperature standard",
+                    "US EPA air limits",
                     "Music",
-                    "Food rule",
-                    "US EPA air limits"
+                    "Temperature standard",
+                    "Food rule"
                 ],
                 "correct": 1
             }
@@ -4534,20 +4534,20 @@ const environmentQuestions = {
                 "emoji": "👣💨",
                 "question": "Is carbon footprint measures emissions?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Carbon",
                 "emoji": "🚗💨",
                 "question": "Is driving increases carbon footprint?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Carbon",
@@ -4584,20 +4584,20 @@ const environmentQuestions = {
                 "emoji": "♻️💚",
                 "question": "Is recycling reduces footprint?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Carbon",
                 "emoji": "🌳🌲",
                 "question": "Is trees absorb carbon?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Carbon",
@@ -4646,20 +4646,20 @@ const environmentQuestions = {
                 "emoji": "🚗💨",
                 "question": "What is carbon offset?",
                 "options": [
-                    "Increase emissions",
-                    "Compensate for emissions"
+                    "Compensate for emissions",
+                    "Increase emissions"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Carbon",
                 "emoji": "🏠⚡",
                 "question": "What uses most home energy?",
                 "options": [
-                    "TV",
-                    "Heating and cooling"
+                    "Heating and cooling",
+                    "TV"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Carbon",
@@ -4686,50 +4686,50 @@ const environmentQuestions = {
                 "emoji": "♻️💚",
                 "question": "How does recycling help?",
                 "options": [
-                    "Saves energy, reduces production",
-                    "No benefit"
+                    "No benefit",
+                    "Saves energy, reduces production"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Carbon",
                 "emoji": "🌳🌲",
                 "question": "What does carbon sequestration do?",
                 "options": [
-                    "Releasing CO2",
-                    "Capturing and storing CO2"
+                    "Capturing and storing CO2",
+                    "Releasing CO2"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Carbon",
                 "emoji": "💡⚡",
                 "question": "How much energy do LEDs save?",
                 "options": [
-                    "10%",
-                    "75% vs incandescent"
+                    "75% vs incandescent",
+                    "10%"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Carbon",
                 "emoji": "🚴‍♂️💚",
                 "question": "What is sustainable transport?",
                 "options": [
-                    "Low-emission travel",
-                    "Any travel"
+                    "Any travel",
+                    "Low-emission travel"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Carbon",
                 "emoji": "🌍💚",
                 "question": "What is carbon neutrality?",
                 "options": [
-                    "High emissions",
-                    "Net zero emissions"
+                    "Net zero emissions",
+                    "High emissions"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -4738,43 +4738,43 @@ const environmentQuestions = {
                 "emoji": "👣💨",
                 "question": "What is average US carbon footprint?",
                 "options": [
-                    "~16 tons per year",
                     "100 tons",
-                    "1 ton"
+                    "1 ton",
+                    "~16 tons per year"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Carbon",
                 "emoji": "🚗💨",
                 "question": "What is scope 1, 2, 3 emissions?",
                 "options": [
-                    "Direct, indirect, supply chain",
-                    "Past, present, future"
+                    "Past, present, future",
+                    "Direct, indirect, supply chain"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Carbon",
                 "emoji": "🏠⚡",
                 "question": "What is embodied carbon?",
                 "options": [
-                    "Future emissions",
+                    "No emissions",
                     "Emissions to make product",
-                    "No emissions"
+                    "Future emissions"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Carbon",
                 "emoji": "✈️💨",
                 "question": "What is radiative forcing from aviation?",
                 "options": [
+                    "Cooling effect",
                     "Extra warming at altitude",
-                    "No effect",
-                    "Cooling effect"
+                    "No effect"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Carbon",
@@ -4782,32 +4782,32 @@ const environmentQuestions = {
                 "question": "How much more emissions: beef vs beans?",
                 "options": [
                     "Same",
-                    "Less",
-                    "~20x more"
+                    "~20x more",
+                    "Less"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Carbon",
                 "emoji": "♻️💚",
                 "question": "What does circular economy aim for?",
                 "options": [
-                    "Eliminate waste",
                     "Linear use",
+                    "Eliminate waste",
                     "Disposable"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Carbon",
                 "emoji": "🌳🌲",
                 "question": "How much CO2 does a tree absorb lifetime?",
                 "options": [
+                    "~1 ton",
                     "100 tons",
-                    "10 kg",
-                    "~1 ton"
+                    "10 kg"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Carbon",
@@ -4825,20 +4825,20 @@ const environmentQuestions = {
                 "emoji": "🚴‍♂️💚",
                 "question": "What is modal shift?",
                 "options": [
-                    "Gear shift",
+                    "No change",
                     "Change transport mode",
-                    "No change"
+                    "Gear shift"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Carbon",
                 "emoji": "🌍💚",
                 "question": "What is the 2-ton challenge?",
                 "options": [
-                    "Weight loss",
+                    "Personal footprint goal",
                     "Lifting",
-                    "Personal footprint goal"
+                    "Weight loss"
                 ],
                 "correct": 1
             }
@@ -4849,22 +4849,22 @@ const environmentQuestions = {
                 "emoji": "👣💨",
                 "question": "What is life cycle assessment?",
                 "options": [
-                    "Biography",
                     "Total environmental impact",
+                    "Health check",
                     "Age measurement",
-                    "Health check"
+                    "Biography"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Carbon",
                 "emoji": "🚗💨",
                 "question": "What is the EPA emission factor for gasoline?",
                 "options": [
-                    "~8.9 kg CO2/gallon",
-                    "100 kg",
                     "0.1 kg",
-                    "1 kg"
+                    "100 kg",
+                    "1 kg",
+                    "~8.9 kg CO2/gallon"
                 ],
                 "correct": 1
             },
@@ -4873,12 +4873,12 @@ const environmentQuestions = {
                 "emoji": "🏠⚡",
                 "question": "What is Passivhaus standard?",
                 "options": [
-                    "Abandoned",
-                    "Ultra-low energy building",
                     "Normal house",
-                    "Factory"
+                    "Factory",
+                    "Abandoned",
+                    "Ultra-low energy building"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Carbon",
@@ -4886,23 +4886,23 @@ const environmentQuestions = {
                 "question": "What percentage of global emissions from aviation?",
                 "options": [
                     "50%",
+                    "0.1%",
                     "75%",
-                    "~2-3%",
-                    "0.1%"
+                    "~2-3%"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Carbon",
                 "emoji": "🥩🍔",
                 "question": "What is the carbon intensity of beef?",
                 "options": [
-                    "~27 kg CO2/kg",
                     "100 kg",
+                    "0.1 kg",
                     "1 kg",
-                    "0.1 kg"
+                    "~27 kg CO2/kg"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Carbon",
@@ -4910,9 +4910,9 @@ const environmentQuestions = {
                 "question": "What is industrial symbiosis?",
                 "options": [
                     "No interaction",
-                    "Conflict",
                     "Competition",
-                    "Waste = resource"
+                    "Waste = resource",
+                    "Conflict"
                 ],
                 "correct": 0
             },
@@ -4921,48 +4921,48 @@ const environmentQuestions = {
                 "emoji": "🌳🌲",
                 "question": "What is blue carbon?",
                 "options": [
-                    "Ocean/coastal carbon storage",
-                    "Lake",
                     "Ice",
-                    "Sky color"
+                    "Sky color",
+                    "Lake",
+                    "Ocean/coastal carbon storage"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Carbon",
                 "emoji": "💡⚡",
                 "question": "What is demand-side management?",
                 "options": [
-                    "Ignore demand",
-                    "Supply only",
                     "Maximum use",
-                    "Optimize energy consumption"
+                    "Optimize energy consumption",
+                    "Supply only",
+                    "Ignore demand"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Carbon",
                 "emoji": "🚴‍♂️💚",
                 "question": "What is mobility as a service?",
                 "options": [
-                    "No transport",
                     "Car ownership",
                     "Integrated transport options",
+                    "No transport",
                     "One mode only"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Carbon",
                 "emoji": "🌍💚",
                 "question": "What is science-based target?",
                 "options": [
-                    "Random number",
                     "No target",
                     "Marketing",
+                    "Random number",
                     "Emission goal aligned with climate"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "extreme": [
@@ -5035,20 +5035,20 @@ const environmentQuestions = {
                 "emoji": "🌊💙",
                 "question": "Is oceans cover most of Earth?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ocean",
                 "emoji": "🐟🐠",
                 "question": "Is fish live in the ocean?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ocean",
@@ -5085,16 +5085,6 @@ const environmentQuestions = {
                 "emoji": "🌊🌡️",
                 "question": "Are oceans getting warmer?",
                 "options": [
-                    "False",
-                    "True"
-                ],
-                "correct": 0
-            },
-            {
-                "topic": "Ocean",
-                "emoji": "🎣⚠️",
-                "question": "Is overfishing a problem?",
-                "options": [
                     "True",
                     "False"
                 ],
@@ -5102,13 +5092,23 @@ const environmentQuestions = {
             },
             {
                 "topic": "Ocean",
+                "emoji": "🎣⚠️",
+                "question": "Is overfishing a problem?",
+                "options": [
+                    "False",
+                    "True"
+                ],
+                "correct": 0
+            },
+            {
+                "topic": "Ocean",
                 "emoji": "🌊💚",
                 "question": "We should protect oceans?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ocean",
@@ -5125,10 +5125,10 @@ const environmentQuestions = {
                 "emoji": "🌊☀️",
                 "question": "Is oceans affect climate?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -5137,10 +5137,10 @@ const environmentQuestions = {
                 "emoji": "🌊💙",
                 "question": "What percentage of Earth is ocean?",
                 "options": [
-                    "~70%",
-                    "30%"
+                    "30%",
+                    "~70%"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ocean",
@@ -5197,20 +5197,20 @@ const environmentQuestions = {
                 "emoji": "🎣⚠️",
                 "question": "What does the acronym overfishing stand for?",
                 "options": [
-                    "Taking too many fish",
-                    "Not enough fishing"
+                    "Not enough fishing",
+                    "Taking too many fish"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ocean",
                 "emoji": "🌊💚",
                 "question": "What is marine protected area?",
                 "options": [
-                    "Fishing zone",
-                    "Conservation zone"
+                    "Conservation zone",
+                    "Fishing zone"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ocean",
@@ -5227,10 +5227,10 @@ const environmentQuestions = {
                 "emoji": "🌊☀️",
                 "question": "How do oceans regulate climate?",
                 "options": [
-                    "No effect",
-                    "Absorb heat and CO2"
+                    "Absorb heat and CO2",
+                    "No effect"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -5239,53 +5239,53 @@ const environmentQuestions = {
                 "emoji": "🌊💙",
                 "question": "How much oxygen is produced by oceans?",
                 "options": [
-                    "~50-80%",
                     "100%",
-                    "5%"
+                    "5%",
+                    "~50-80%"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Ocean",
                 "emoji": "🐟🐠",
                 "question": "What is the ocean twilight zone?",
                 "options": [
-                    "Beach area",
                     "Mesopelagic layer",
-                    "Surface only"
+                    "Surface only",
+                    "Beach area"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ocean",
                 "emoji": "🗑️🌊",
                 "question": "How much plastic enters oceans yearly?",
                 "options": [
-                    "8-12 million tons",
                     "1 ton",
+                    "8-12 million tons",
                     "100 tons"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ocean",
                 "emoji": "🐢🐙",
                 "question": "How much has ocean pH decreased?",
                 "options": [
+                    "No change",
                     "0.1 units",
-                    "5 units",
-                    "No change"
+                    "5 units"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Ocean",
                 "emoji": "🪸🐠",
                 "question": "What percentage of coral reefs are threatened?",
                 "options": [
-                    "100%",
+                    "~75%",
                     "10%",
-                    "~75%"
+                    "100%"
                 ],
                 "correct": 1
             },
@@ -5294,22 +5294,22 @@ const environmentQuestions = {
                 "emoji": "🌊🌡️",
                 "question": "How much ocean heat has increased?",
                 "options": [
-                    "0%",
                     "~90% of warming",
-                    "10%"
+                    "10%",
+                    "0%"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Ocean",
                 "emoji": "🎣⚠️",
                 "question": "What percentage of fish stocks are overfished?",
                 "options": [
+                    "5%",
                     "90%",
-                    "~35%",
-                    "5%"
+                    "~35%"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Ocean",
@@ -5317,8 +5317,8 @@ const environmentQuestions = {
                 "question": "What is the goal for marine protection?",
                 "options": [
                     "30% by 2030",
-                    "100%",
-                    "5%"
+                    "5%",
+                    "100%"
                 ],
                 "correct": 0
             },
@@ -5328,8 +5328,8 @@ const environmentQuestions = {
                 "question": "What does the acronym bycatch stand for?",
                 "options": [
                     "No catch",
-                    "Unintended catch",
-                    "Target fish"
+                    "Target fish",
+                    "Unintended catch"
                 ],
                 "correct": 0
             },
@@ -5338,11 +5338,11 @@ const environmentQuestions = {
                 "emoji": "🌊☀️",
                 "question": "What is the thermohaline circulation?",
                 "options": [
+                    "Local current",
                     "No movement",
-                    "Global ocean conveyor",
-                    "Local current"
+                    "Global ocean conveyor"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -5351,57 +5351,57 @@ const environmentQuestions = {
                 "emoji": "🌊💙",
                 "question": "What is the average ocean depth?",
                 "options": [
-                    "~3,700 meters",
                     "10,000 meters",
+                    "~3,700 meters",
                     "100 meters",
                     "50 meters"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ocean",
                 "emoji": "🐟🐠",
                 "question": "What is the Dead Zone?",
                 "options": [
-                    "Reef",
-                    "Low oxygen area",
+                    "Warm current",
                     "Deep trench",
-                    "Warm current"
+                    "Reef",
+                    "Low oxygen area"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Ocean",
                 "emoji": "🗑️🌊",
                 "question": "What is microplastic size?",
                 "options": [
+                    "<10cm",
                     "<1cm",
                     "<1m",
-                    "<5mm",
-                    "<10cm"
+                    "<5mm"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ocean",
                 "emoji": "🐢🐙",
                 "question": "How much CO2 have oceans absorbed?",
                 "options": [
-                    "~30% of emissions",
                     "5%",
+                    "~30% of emissions",
                     "0%",
                     "90%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ocean",
                 "emoji": "🪸🐠",
                 "question": "What is coral bleaching?",
                 "options": [
-                    "Coral eats",
-                    "Coral migrates",
                     "Coral grows",
+                    "Coral migrates",
+                    "Coral eats",
                     "Coral loses algae"
                 ],
                 "correct": 1
@@ -5411,22 +5411,22 @@ const environmentQuestions = {
                 "emoji": "🌊🌡️",
                 "question": "What is ocean stratification?",
                 "options": [
-                    "Layer separation",
-                    "Evaporation",
                     "Freezing",
+                    "Evaporation",
+                    "Layer separation",
                     "Mixed water"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Ocean",
                 "emoji": "🎣⚠️",
                 "question": "What is IUU fishing?",
                 "options": [
-                    "Sport fishing",
+                    "Illegal, unreported, unregulated",
                     "No fishing",
-                    "Sustainable method",
-                    "Illegal, unreported, unregulated"
+                    "Sport fishing",
+                    "Sustainable method"
                 ],
                 "correct": 1
             },
@@ -5435,36 +5435,36 @@ const environmentQuestions = {
                 "emoji": "🌊💚",
                 "question": "What is blue economy?",
                 "options": [
-                    "No use",
-                    "Deep sea mining",
                     "Sustainable ocean use",
-                    "All extraction"
+                    "All extraction",
+                    "Deep sea mining",
+                    "No use"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Ocean",
                 "emoji": "🐋🐬",
                 "question": "What is the main threat to cetaceans?",
                 "options": [
-                    "Ship strikes and nets",
-                    "Nothing",
+                    "Natural predators",
                     "Old age",
-                    "Natural predators"
+                    "Nothing",
+                    "Ship strikes and nets"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Ocean",
                 "emoji": "🌊☀️",
                 "question": "What is El Niño?",
                 "options": [
-                    "Arctic ice",
-                    "Atlantic storm",
                     "Pacific warming pattern",
-                    "River flow"
+                    "River flow",
+                    "Arctic ice",
+                    "Atlantic storm"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "extreme": [
@@ -5547,10 +5547,10 @@ const environmentQuestions = {
                 "emoji": "☀️🔋",
                 "question": "Is solar panels make electricity?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Technology",
@@ -5567,10 +5567,10 @@ const environmentQuestions = {
                 "emoji": "💡🌱",
                 "question": "Is lED lights save energy?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Technology",
@@ -5587,10 +5587,10 @@ const environmentQuestions = {
                 "emoji": "🏠🌿",
                 "question": "Is green buildings use less energy?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Technology",
@@ -5607,30 +5607,30 @@ const environmentQuestions = {
                 "emoji": "🔋♻️",
                 "question": "Do batteries can be recharged?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Technology",
                 "emoji": "🌍💻",
                 "question": "Technology can solve problems?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Technology",
                 "emoji": "📲💚",
                 "question": "Do apps can help sustainability?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -5649,10 +5649,10 @@ const environmentQuestions = {
                 "emoji": "☀️🔋",
                 "question": "How do solar panels work?",
                 "options": [
-                    "Store water",
-                    "Convert light to electricity"
+                    "Convert light to electricity",
+                    "Store water"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Technology",
@@ -5669,50 +5669,50 @@ const environmentQuestions = {
                 "emoji": "💡🌱",
                 "question": "What is smart home technology?",
                 "options": [
-                    "Automated efficiency",
-                    "Regular home"
+                    "Regular home",
+                    "Automated efficiency"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Technology",
                 "emoji": "♻️💻",
                 "question": "What is e-waste recycling?",
                 "options": [
-                    "Paper recycling",
-                    "Electronic waste recovery"
+                    "Electronic waste recovery",
+                    "Paper recycling"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Technology",
                 "emoji": "🏠🌿",
                 "question": "What is LEED certification?",
                 "options": [
-                    "Car rating",
-                    "Green building standard"
+                    "Green building standard",
+                    "Car rating"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Technology",
                 "emoji": "💨⚡",
                 "question": "What is wind energy capacity factor?",
                 "options": [
-                    "Maximum size",
-                    "Average output percentage"
+                    "Average output percentage",
+                    "Maximum size"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Technology",
                 "emoji": "🔋♻️",
                 "question": "What is battery recycling?",
                 "options": [
-                    "Recover materials",
-                    "Throw away"
+                    "Throw away",
+                    "Recover materials"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Technology",
@@ -5774,66 +5774,66 @@ const environmentQuestions = {
                 "emoji": "💡🌱",
                 "question": "What is the Internet of Things for environment?",
                 "options": [
-                    "Connected sensors",
                     "Regular internet",
+                    "Connected sensors",
                     "No connection"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Technology",
                 "emoji": "♻️💻",
                 "question": "What percentage of e-waste is properly recycled?",
                 "options": [
-                    "~20%",
                     "90%",
+                    "~20%",
                     "100%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Technology",
                 "emoji": "🏠🌿",
                 "question": "What is passive solar design?",
                 "options": [
-                    "No design",
+                    "Active systems only",
                     "Natural heating/cooling",
-                    "Active systems only"
+                    "No design"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Technology",
                 "emoji": "💨⚡",
                 "question": "What is offshore wind power?",
                 "options": [
+                    "No power",
                     "Ocean-based turbines",
-                    "Land turbines",
-                    "No power"
+                    "Land turbines"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Technology",
                 "emoji": "🔋♻️",
                 "question": "What is a lithium-ion battery?",
                 "options": [
+                    "Rechargeable battery type",
                     "Disposable",
-                    "No battery",
-                    "Rechargeable battery type"
+                    "No battery"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Technology",
                 "emoji": "🌍💻",
                 "question": "What is carbon capture technology?",
                 "options": [
-                    "Adds CO2",
+                    "Removes CO2",
                     "No effect",
-                    "Removes CO2"
+                    "Adds CO2"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Technology",
@@ -5841,10 +5841,10 @@ const environmentQuestions = {
                 "question": "What is green computing?",
                 "options": [
                     "Any computer use",
-                    "No computing",
-                    "Energy-efficient IT"
+                    "Energy-efficient IT",
+                    "No computing"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -5853,24 +5853,24 @@ const environmentQuestions = {
                 "emoji": "💚📱",
                 "question": "What is biomimicry in technology?",
                 "options": [
-                    "No inspiration",
                     "Random design",
                     "Nature-inspired design",
-                    "Synthetic only"
+                    "Synthetic only",
+                    "No inspiration"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Technology",
                 "emoji": "☀️🔋",
                 "question": "What is perovskite solar cell?",
                 "options": [
-                    "New solar technology",
                     "Battery",
-                    "Old method",
-                    "Not solar"
+                    "New solar technology",
+                    "Not solar",
+                    "Old method"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Technology",
@@ -5878,8 +5878,8 @@ const environmentQuestions = {
                 "question": "What is battery electric vehicle range?",
                 "options": [
                     "~200-400 miles typical",
-                    "2000 miles",
                     "Infinite",
+                    "2000 miles",
                     "10 miles"
                 ],
                 "correct": 0
@@ -5889,24 +5889,24 @@ const environmentQuestions = {
                 "emoji": "💡🌱",
                 "question": "What is smart grid technology?",
                 "options": [
-                    "No grid",
                     "Regular grid",
                     "Intelligent power distribution",
+                    "No grid",
                     "Manual only"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Technology",
                 "emoji": "♻️💻",
                 "question": "What is urban mining for electronics?",
                 "options": [
-                    "Traditional mining",
-                    "No mining",
+                    "Coal mining",
                     "Recovering metals from e-waste",
-                    "Coal mining"
+                    "No mining",
+                    "Traditional mining"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Technology",
@@ -5914,8 +5914,8 @@ const environmentQuestions = {
                 "question": "What is net-zero energy building?",
                 "options": [
                     "No energy",
-                    "Produces as much as uses",
                     "Uses more",
+                    "Produces as much as uses",
                     "Wastes energy"
                 ],
                 "correct": 0
@@ -5925,12 +5925,12 @@ const environmentQuestions = {
                 "emoji": "💨⚡",
                 "question": "What is capacity factor for wind?",
                 "options": [
+                    "90%",
                     "~35% average",
                     "5%",
-                    "100%",
-                    "90%"
+                    "100%"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Technology",
@@ -5939,8 +5939,8 @@ const environmentQuestions = {
                 "options": [
                     "Next-gen battery tech",
                     "No battery",
-                    "Old technology",
-                    "Liquid battery"
+                    "Liquid battery",
+                    "Old technology"
                 ],
                 "correct": 0
             },
@@ -5950,9 +5950,9 @@ const environmentQuestions = {
                 "question": "What is direct air capture?",
                 "options": [
                     "Remove CO2 from air",
+                    "No capture",
                     "Add CO2",
-                    "Capture water",
-                    "No capture"
+                    "Capture water"
                 ],
                 "correct": 0
             },
@@ -5962,11 +5962,11 @@ const environmentQuestions = {
                 "question": "What is data center PUE?",
                 "options": [
                     "Power usage effectiveness",
-                    "Price unit",
+                    "Storage size",
                     "Processing speed",
-                    "Storage size"
+                    "Price unit"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "extreme": [
@@ -6069,20 +6069,20 @@ const environmentQuestions = {
                 "emoji": "💰♻️",
                 "question": "Do taxes can encourage recycling?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Policy",
                 "emoji": "🏭⚖️",
                 "question": "Is factories must follow pollution rules?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Policy",
@@ -6119,20 +6119,20 @@ const environmentQuestions = {
                 "emoji": "📊🌱",
                 "question": "Is environmental data guides decisions?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Policy",
                 "emoji": "⚡📜",
                 "question": "Is energy policies affect emissions?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -6141,10 +6141,10 @@ const environmentQuestions = {
                 "emoji": "📜🌍",
                 "question": "What is environmental policy?",
                 "options": [
-                    "Any rule",
-                    "Rules to protect nature"
+                    "Rules to protect nature",
+                    "Any rule"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Policy",
@@ -6161,10 +6161,10 @@ const environmentQuestions = {
                 "emoji": "🌍🤝",
                 "question": "What does the Paris Agreement address?",
                 "options": [
-                    "Climate change treaty",
-                    "Trade deal"
+                    "Trade deal",
+                    "Climate change treaty"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Policy",
@@ -6181,10 +6181,10 @@ const environmentQuestions = {
                 "emoji": "🏭⚖️",
                 "question": "What is cap and trade?",
                 "options": [
-                    "Stock market",
-                    "Emission limit system"
+                    "Emission limit system",
+                    "Stock market"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Policy",
@@ -6201,20 +6201,20 @@ const environmentQuestions = {
                 "emoji": "🚫🗑️",
                 "question": "What is Extended Producer Responsibility in your opinion?",
                 "options": [
-                    "Buyer pays",
-                    "Makers responsible for disposal"
+                    "Makers responsible for disposal",
+                    "Buyer pays"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Policy",
                 "emoji": "🌍💚",
                 "question": "What is environmental advocacy?",
                 "options": [
-                    "Supporting nature protection",
-                    "Opposing laws"
+                    "Opposing laws",
+                    "Supporting nature protection"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Policy",
@@ -6231,10 +6231,10 @@ const environmentQuestions = {
                 "emoji": "⚡📜",
                 "question": "What is a renewable energy mandate?",
                 "options": [
-                    "Required clean energy",
-                    "Optional only"
+                    "Optional only",
+                    "Required clean energy"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -6243,77 +6243,77 @@ const environmentQuestions = {
                 "emoji": "📜🌍",
                 "question": "What is the precautionary principle?",
                 "options": [
-                    "Act despite uncertainty",
+                    "Wait for proof",
                     "Ignore risks",
-                    "Wait for proof"
+                    "Act despite uncertainty"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Policy",
                 "emoji": "⚖️🌱",
                 "question": "What does the Clean Air Act regulate?",
                 "options": [
-                    "Land law",
                     "Water law",
+                    "Land law",
                     "US air pollution law"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Policy",
                 "emoji": "🌍🤝",
                 "question": "What is the Kyoto Protocol?",
                 "options": [
-                    "War treaty",
+                    "Trade agreement",
                     "Climate treaty",
-                    "Trade agreement"
+                    "War treaty"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Policy",
                 "emoji": "💰♻️",
                 "question": "What is green subsidy?",
                 "options": [
-                    "Financial support for eco-projects",
                     "Penalty",
+                    "Financial support for eco-projects",
                     "Tax increase"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Policy",
                 "emoji": "🏭⚖️",
                 "question": "What is environmental regulation?",
                 "options": [
-                    "No limits",
                     "Rules limiting pollution",
-                    "Voluntary only"
+                    "Voluntary only",
+                    "No limits"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Policy",
                 "emoji": "🌳📜",
                 "question": "What does the acronym CITES stand for?",
                 "options": [
-                    "Climate deal",
                     "Wildlife trade treaty",
+                    "Climate deal",
                     "Ocean law"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Policy",
                 "emoji": "🚫🗑️",
                 "question": "What is single-use plastic ban?",
                 "options": [
-                    "Prohibit disposable plastics",
                     "No law",
+                    "Prohibit disposable plastics",
                     "Require plastic"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Policy",
@@ -6321,8 +6321,8 @@ const environmentQuestions = {
                 "question": "What is environmental justice?",
                 "options": [
                     "No fairness",
-                    "Court system",
-                    "Fair distribution of impacts"
+                    "Fair distribution of impacts",
+                    "Court system"
                 ],
                 "correct": 0
             },
@@ -6331,22 +6331,22 @@ const environmentQuestions = {
                 "emoji": "📊🌱",
                 "question": "What is the polluter pays principle?",
                 "options": [
-                    "No cost",
                     "Polluter covers costs",
-                    "Public pays"
+                    "Public pays",
+                    "No cost"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Policy",
                 "emoji": "⚡📜",
                 "question": "What is feed-in tariff?",
                 "options": [
+                    "Import tax",
                     "Fine",
-                    "Payment for renewable energy",
-                    "Import tax"
+                    "Payment for renewable energy"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -6356,9 +6356,9 @@ const environmentQuestions = {
                 "question": "What is the Montreal Protocol about?",
                 "options": [
                     "Trade",
+                    "Ocean protection",
                     "Climate only",
-                    "Ozone layer protection",
-                    "Ocean protection"
+                    "Ozone layer protection"
                 ],
                 "correct": 0
             },
@@ -6367,12 +6367,12 @@ const environmentQuestions = {
                 "emoji": "⚖️🌱",
                 "question": "What is the National Environmental Policy Act?",
                 "options": [
-                    "No law",
                     "City law",
                     "State law",
-                    "US environmental review law"
+                    "US environmental review law",
+                    "No law"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Policy",
@@ -6380,8 +6380,8 @@ const environmentQuestions = {
                 "question": "How many countries signed Paris Agreement?",
                 "options": [
                     "10",
-                    "5",
                     "50",
+                    "5",
                     "~195"
                 ],
                 "correct": 0
@@ -6391,24 +6391,24 @@ const environmentQuestions = {
                 "emoji": "💰♻️",
                 "question": "What is carbon pricing?",
                 "options": [
-                    "No pricing",
                     "Energy cost",
+                    "Free emissions",
                     "Cost on emissions",
-                    "Free emissions"
+                    "No pricing"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Policy",
                 "emoji": "🏭⚖️",
                 "question": "What is best available technology requirement?",
                 "options": [
-                    "Any method",
                     "Use cleanest methods",
                     "No requirement",
-                    "Cheapest only"
+                    "Cheapest only",
+                    "Any method"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Policy",
@@ -6416,9 +6416,9 @@ const environmentQuestions = {
                 "question": "How much land has protected status globally?",
                 "options": [
                     "~15%",
+                    "50%",
                     "90%",
-                    "2%",
-                    "50%"
+                    "2%"
                 ],
                 "correct": 0
             },
@@ -6427,12 +6427,12 @@ const environmentQuestions = {
                 "emoji": "🚫🗑️",
                 "question": "How many countries ban single-use plastics?",
                 "options": [
-                    "5",
                     "~70+",
-                    "200",
-                    "0"
+                    "0",
+                    "5",
+                    "200"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Policy",
@@ -6440,8 +6440,8 @@ const environmentQuestions = {
                 "question": "What is the Aarhus Convention?",
                 "options": [
                     "War convention",
-                    "Public participation rights",
                     "Trade deal",
+                    "Public participation rights",
                     "Climate treaty"
                 ],
                 "correct": 0
@@ -6451,22 +6451,22 @@ const environmentQuestions = {
                 "emoji": "📊🌱",
                 "question": "What is strategic environmental assessment?",
                 "options": [
-                    "Project only",
-                    "Policy-level review",
                     "Financial audit",
-                    "No assessment"
+                    "No assessment",
+                    "Project only",
+                    "Policy-level review"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Policy",
                 "emoji": "⚡📜",
                 "question": "What is renewable portfolio standard?",
                 "options": [
-                    "Required renewable percentage",
+                    "Fossil fuel quota",
                     "No standard",
-                    "Optional target",
-                    "Fossil fuel quota"
+                    "Required renewable percentage",
+                    "Optional target"
                 ],
                 "correct": 1
             }
@@ -6541,20 +6541,20 @@ const environmentQuestions = {
                 "emoji": "🏠💚",
                 "question": "We can live more sustainably?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Living",
                 "emoji": "🚶‍♂️🚴",
                 "question": "Is walking better than driving?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Living",
@@ -6581,10 +6581,10 @@ const environmentQuestions = {
                 "emoji": "💡🔌",
                 "question": "Is turning off lights saves energy?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Living",
@@ -6601,10 +6601,10 @@ const environmentQuestions = {
                 "emoji": "♻️🗑️",
                 "question": "Is separating waste helps recycling?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Living",
@@ -6631,10 +6631,10 @@ const environmentQuestions = {
                 "emoji": "📱♻️",
                 "question": "Is keeping phones longer reduces waste?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -6653,50 +6653,50 @@ const environmentQuestions = {
                 "emoji": "🚶‍♂️🚴",
                 "question": "What is active transportation?",
                 "options": [
-                    "Driving only",
-                    "Walking, biking"
+                    "Walking, biking",
+                    "Driving only"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Living",
                 "emoji": "🛍️♻️",
                 "question": "What is zero waste lifestyle?",
                 "options": [
-                    "Create more waste",
-                    "Minimize landfill waste"
+                    "Minimize landfill waste",
+                    "Create more waste"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Living",
                 "emoji": "🥗🌱",
                 "question": "What is farm-to-table?",
                 "options": [
-                    "Imported food",
-                    "Direct from farm"
+                    "Direct from farm",
+                    "Imported food"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Living",
                 "emoji": "💡🔌",
                 "question": "What is energy conservation?",
                 "options": [
-                    "Using more",
-                    "Using less energy"
+                    "Using less energy",
+                    "Using more"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Living",
                 "emoji": "🚿💧",
                 "question": "What is water-wise living?",
                 "options": [
-                    "Conserve water",
-                    "Waste water"
+                    "Waste water",
+                    "Conserve water"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Living",
@@ -6733,10 +6733,10 @@ const environmentQuestions = {
                 "emoji": "📱♻️",
                 "question": "What is planned obsolescence?",
                 "options": [
-                    "Designed to fail",
-                    "Long-lasting"
+                    "Long-lasting",
+                    "Designed to fail"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -6756,31 +6756,31 @@ const environmentQuestions = {
                 "emoji": "🚶‍♂️🚴",
                 "question": "How much CO2 saved by biking vs driving 10 miles?",
                 "options": [
+                    "~5 kg",
                     "0 kg",
-                    "50 kg",
-                    "~5 kg"
+                    "50 kg"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Living",
                 "emoji": "🛍️♻️",
                 "question": "What is the true cost of fast fashion?",
                 "options": [
+                    "No cost",
                     "Price only",
-                    "Environmental and social",
-                    "No cost"
+                    "Environmental and social"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Living",
                 "emoji": "🥗🌱",
                 "question": "What is plant-based diet impact?",
                 "options": [
-                    "Higher",
+                    "Same",
                     "Lower carbon footprint",
-                    "Same"
+                    "Higher"
                 ],
                 "correct": 1
             },
@@ -6789,64 +6789,64 @@ const environmentQuestions = {
                 "emoji": "💡🔌",
                 "question": "What is vampire power?",
                 "options": [
+                    "No power",
                     "Maximum power",
-                    "Standby energy use",
-                    "No power"
+                    "Standby energy use"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Living",
                 "emoji": "🚿💧",
                 "question": "How much water in 5-minute shower?",
                 "options": [
-                    "100 gallons",
                     "~10-25 gallons",
+                    "100 gallons",
                     "1 gallon"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Living",
                 "emoji": "♻️🗑️",
                 "question": "What percentage of household waste is organic?",
                 "options": [
+                    "~30%",
                     "5%",
-                    "90%",
-                    "~30%"
+                    "90%"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Living",
                 "emoji": "👕🔄",
                 "question": "What is textile recycling rate?",
                 "options": [
+                    "~15%",
                     "100%",
-                    "90%",
-                    "~15%"
+                    "90%"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Living",
                 "emoji": "🌱🏡",
                 "question": "What is permaculture gardening?",
                 "options": [
-                    "Sustainable design",
+                    "Monoculture",
                     "No design",
-                    "Monoculture"
+                    "Sustainable design"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Living",
                 "emoji": "📱♻️",
                 "question": "What is right to repair movement?",
                 "options": [
-                    "No repairs",
+                    "Fix not replace",
                     "Always buy new",
-                    "Fix not replace"
+                    "No repairs"
                 ],
                 "correct": 1
             }
@@ -6857,12 +6857,12 @@ const environmentQuestions = {
                 "emoji": "🏠💚",
                 "question": "What is ecological footprint?",
                 "options": [
-                    "Shoe size",
-                    "House size",
                     "Resource use measure",
-                    "Walking distance"
+                    "Walking distance",
+                    "House size",
+                    "Shoe size"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Living",
@@ -6870,107 +6870,107 @@ const environmentQuestions = {
                 "question": "What is the 15-minute city concept?",
                 "options": [
                     "No concept",
-                    "All needs nearby",
                     "Commute time",
+                    "All needs nearby",
                     "Speed limit"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Living",
                 "emoji": "🛍️♻️",
                 "question": "What is product lifecycle thinking?",
                 "options": [
+                    "Cradle to grave impact",
                     "No thinking",
                     "Price only",
-                    "Buy only",
-                    "Cradle to grave impact"
+                    "Buy only"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Living",
                 "emoji": "🥗🌱",
                 "question": "How much less emissions: vegan vs meat diet?",
                 "options": [
-                    "More",
-                    "~50-70%",
+                    "10%",
                     "Same",
-                    "10%"
+                    "~50-70%",
+                    "More"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Living",
                 "emoji": "💡🔌",
                 "question": "What is home energy audit?",
                 "options": [
-                    "Ignore waste",
                     "Assess efficiency",
                     "No audit",
+                    "Ignore waste",
                     "Increase use"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Living",
                 "emoji": "🚿💧",
                 "question": "What is greywater system?",
                 "options": [
-                    "Drinking water",
                     "Reuse household water",
                     "Waste all",
+                    "Drinking water",
                     "No system"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Living",
                 "emoji": "♻️🗑️",
                 "question": "What is bokashi composting?",
                 "options": [
+                    "Regular compost",
                     "Burning",
                     "No composting",
-                    "Regular compost",
                     "Fermentation method"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Living",
                 "emoji": "👕🔄",
                 "question": "How many wears before washing jeans?",
                 "options": [
-                    "Daily",
-                    "~5-10 or more",
                     "1",
+                    "~5-10 or more",
+                    "Daily",
                     "Never"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Living",
                 "emoji": "🌱🏡",
                 "question": "What does the acronym aquaponics stand for?",
                 "options": [
-                    "Fish and plants together",
+                    "Plants only",
                     "No system",
-                    "Fish only",
-                    "Plants only"
+                    "Fish and plants together",
+                    "Fish only"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Living",
                 "emoji": "📱♻️",
                 "question": "What is modular phone design?",
                 "options": [
-                    "No design",
-                    "Fixed design",
                     "Replaceable parts",
-                    "Disposable"
+                    "Disposable",
+                    "No design",
+                    "Fixed design"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "extreme": [
@@ -7043,10 +7043,10 @@ const environmentQuestions = {
                 "emoji": "🏙️🌿",
                 "question": "Do cities can be green?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Urban",
@@ -7063,20 +7063,20 @@ const environmentQuestions = {
                 "emoji": "🚇🚌",
                 "question": "Is public transit reduces pollution?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Urban",
                 "emoji": "🏢♻️",
                 "question": "Is buildings use a lot of energy?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Urban",
@@ -7113,20 +7113,20 @@ const environmentQuestions = {
                 "emoji": "💧🏙️",
                 "question": "Is cities use lots of water?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Urban",
                 "emoji": "🗑️🏙️",
                 "question": "Is urban areas create much waste?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Urban",
@@ -7145,20 +7145,20 @@ const environmentQuestions = {
                 "emoji": "🏙️🌿",
                 "question": "What is green infrastructure?",
                 "options": [
-                    "Grey concrete",
-                    "Natural systems in cities"
+                    "Natural systems in cities",
+                    "Grey concrete"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Urban",
                 "emoji": "🌳🏘️",
                 "question": "What is urban forestry?",
                 "options": [
-                    "Managing city trees",
-                    "Rural forests"
+                    "Rural forests",
+                    "Managing city trees"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Urban",
@@ -7175,10 +7175,10 @@ const environmentQuestions = {
                 "emoji": "🏢♻️",
                 "question": "What is green building?",
                 "options": [
-                    "Sustainable construction",
-                    "Green paint"
+                    "Green paint",
+                    "Sustainable construction"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Urban",
@@ -7195,10 +7195,10 @@ const environmentQuestions = {
                 "emoji": "🚴‍♀️🛴",
                 "question": "What is complete streets?",
                 "options": [
-                    "Safe for all users",
-                    "Cars only"
+                    "Cars only",
+                    "Safe for all users"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Urban",
@@ -7235,10 +7235,10 @@ const environmentQuestions = {
                 "emoji": "🌍🏘️",
                 "question": "What does the acronym urbanization stand for?",
                 "options": [
-                    "Population shift to cities",
-                    "Rural growth"
+                    "Rural growth",
+                    "Population shift to cities"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -7247,20 +7247,20 @@ const environmentQuestions = {
                 "emoji": "🏙️🌿",
                 "question": "What is biophilic design?",
                 "options": [
+                    "No nature",
                     "Nature in architecture",
-                    "Industrial only",
-                    "No nature"
+                    "Industrial only"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Urban",
                 "emoji": "🌳🏘️",
                 "question": "What is urban tree canopy goal?",
                 "options": [
-                    "5%",
+                    "~40% coverage",
                     "100%",
-                    "~40% coverage"
+                    "5%"
                 ],
                 "correct": 1
             },
@@ -7269,22 +7269,22 @@ const environmentQuestions = {
                 "emoji": "🚇🚌",
                 "question": "How much CO2 saved: bus vs car?",
                 "options": [
-                    "Same",
                     "~50-70%",
+                    "Same",
                     "10%"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Urban",
                 "emoji": "🏢♻️",
                 "question": "What percentage of energy in buildings?",
                 "options": [
-                    "5%",
                     "~40%",
-                    "90%"
+                    "90%",
+                    "5%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Urban",
@@ -7292,30 +7292,30 @@ const environmentQuestions = {
                 "question": "How much hotter are cities?",
                 "options": [
                     "50°F",
-                    "1-7°F",
-                    "0°F"
+                    "0°F",
+                    "1-7°F"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Urban",
                 "emoji": "🚴‍♀️🛴",
                 "question": "What is protected bike lane?",
                 "options": [
-                    "No protection",
                     "Painted only",
-                    "Physically separated"
+                    "Physically separated",
+                    "No protection"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Urban",
                 "emoji": "🏞️🏙️",
                 "question": "What is the 10-minute walk standard?",
                 "options": [
-                    "1 hour",
+                    "No standard",
                     "Park within 10 min",
-                    "No standard"
+                    "1 hour"
                 ],
                 "correct": 1
             },
@@ -7336,8 +7336,8 @@ const environmentQuestions = {
                 "question": "What is circular city concept?",
                 "options": [
                     "Zero waste economy",
-                    "Maximum waste",
-                    "Linear flow"
+                    "Linear flow",
+                    "Maximum waste"
                 ],
                 "correct": 0
             },
@@ -7347,10 +7347,10 @@ const environmentQuestions = {
                 "question": "What percentage live in cities globally?",
                 "options": [
                     "~55%",
-                    "100%",
-                    "10%"
+                    "10%",
+                    "100%"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -7359,58 +7359,58 @@ const environmentQuestions = {
                 "emoji": "🏙️🌿",
                 "question": "What is sponge city?",
                 "options": [
-                    "Impermeable surfaces",
                     "Absorb and reuse water",
+                    "Impermeable surfaces",
                     "Dry city",
                     "No water"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Urban",
                 "emoji": "🌳🏘️",
                 "question": "What is i-Tree assessment?",
                 "options": [
+                    "Urban forest evaluation",
                     "Tree age",
                     "No assessment",
-                    "Urban forest evaluation",
                     "Tree height"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Urban",
                 "emoji": "🚇🚌",
                 "question": "What is Bus Rapid Transit?",
                 "options": [
-                    "Private cars",
-                    "No system",
                     "High-capacity bus system",
-                    "Regular bus"
+                    "Regular bus",
+                    "Private cars",
+                    "No system"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Urban",
                 "emoji": "🏢♻️",
                 "question": "What is net-zero building?",
                 "options": [
-                    "Negative energy",
                     "No building",
+                    "High energy",
                     "Zero net energy",
-                    "High energy"
+                    "Negative energy"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Urban",
                 "emoji": "🌆🌡️",
                 "question": "What is cool pavement?",
                 "options": [
-                    "No pavement",
-                    "Absorbs heat",
                     "Regular asphalt",
-                    "Reflects heat"
+                    "Absorbs heat",
+                    "Reflects heat",
+                    "No pavement"
                 ],
                 "correct": 1
             },
@@ -7419,36 +7419,36 @@ const environmentQuestions = {
                 "emoji": "🚴‍♀️🛴",
                 "question": "What is modal share?",
                 "options": [
-                    "Shared bikes",
-                    "Car only",
+                    "Transportation mode percentage",
                     "No data",
-                    "Transportation mode percentage"
+                    "Car only",
+                    "Shared bikes"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Urban",
                 "emoji": "🏞️🏙️",
                 "question": "What is the High Line model?",
                 "options": [
-                    "Traditional park",
-                    "Underground park",
+                    "No park",
                     "Elevated park conversion",
-                    "No park"
+                    "Underground park",
+                    "Traditional park"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Urban",
                 "emoji": "💧🏙️",
                 "question": "What is rain garden?",
                 "options": [
-                    "Dry garden",
-                    "Bioretention planting",
                     "Regular garden",
-                    "No garden"
+                    "Dry garden",
+                    "No garden",
+                    "Bioretention planting"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Urban",
@@ -7456,9 +7456,9 @@ const environmentQuestions = {
                 "question": "What is waste-to-energy facility?",
                 "options": [
                     "Convert trash to power",
-                    "Landfill only",
+                    "No facility",
                     "Export waste",
-                    "No facility"
+                    "Landfill only"
                 ],
                 "correct": 0
             },
@@ -7469,8 +7469,8 @@ const environmentQuestions = {
                 "options": [
                     "Low density",
                     "Sprawl",
-                    "High density mixed-use",
-                    "No strategy"
+                    "No strategy",
+                    "High density mixed-use"
                 ],
                 "correct": 1
             }
@@ -7565,10 +7565,10 @@ const environmentQuestions = {
                 "emoji": "🌳🔒",
                 "question": "Is protected areas help species?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Conservation",
@@ -7585,20 +7585,20 @@ const environmentQuestions = {
                 "emoji": "🌍🔬",
                 "question": "Does science help conservation?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Conservation",
                 "emoji": "🦅🏞️",
                 "question": "Is habitats need protection?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Conservation",
@@ -7615,20 +7615,20 @@ const environmentQuestions = {
                 "emoji": "🐢🥚",
                 "question": "Is breeding programs save species?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Conservation",
                 "emoji": "🌊🐋",
                 "question": "Is marine reserves protect ocean life?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Conservation",
@@ -7647,40 +7647,40 @@ const environmentQuestions = {
                 "emoji": "🐾🌿",
                 "question": "What is conservation biology?",
                 "options": [
-                    "Science of protecting life",
-                    "Any biology"
+                    "Any biology",
+                    "Science of protecting life"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Conservation",
                 "emoji": "🦏⚠️",
                 "question": "What is keystone species?",
                 "options": [
-                    "Critical to ecosystem",
-                    "Common animal"
+                    "Common animal",
+                    "Critical to ecosystem"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Conservation",
                 "emoji": "🌳🔒",
                 "question": "What is protected area?",
                 "options": [
-                    "Conservation zone",
-                    "Unprotected land"
+                    "Unprotected land",
+                    "Conservation zone"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Conservation",
                 "emoji": "🐼💚",
                 "question": "What is species recovery plan?",
                 "options": [
-                    "No plan",
-                    "Strategy to save species"
+                    "Strategy to save species",
+                    "No plan"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Conservation",
@@ -7717,20 +7717,20 @@ const environmentQuestions = {
                 "emoji": "🐢🥚",
                 "question": "What is captive breeding?",
                 "options": [
-                    "Wild only",
-                    "Breed in facilities"
+                    "Breed in facilities",
+                    "Wild only"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Conservation",
                 "emoji": "🌊🐋",
                 "question": "What is a marine protected area?",
                 "options": [
-                    "Ocean conservation zone",
-                    "Fishing ground"
+                    "Fishing ground",
+                    "Ocean conservation zone"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Conservation",
@@ -7749,44 +7749,44 @@ const environmentQuestions = {
                 "emoji": "🐾🌿",
                 "question": "What is minimum viable population?",
                 "options": [
+                    "Lowest for survival",
                     "Maximum",
-                    "Any number",
-                    "Lowest for survival"
+                    "Any number"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Conservation",
                 "emoji": "🦏⚠️",
                 "question": "What is a trophic cascade?",
                 "options": [
-                    "No effect",
                     "Bottom only",
+                    "No effect",
                     "Top predator effects"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Conservation",
                 "emoji": "🌳🔒",
                 "question": "What is the global conservation target?",
                 "options": [
-                    "5%",
+                    "100%",
                     "~30% goal",
-                    "100%"
+                    "5%"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Conservation",
                 "emoji": "🐼💚",
                 "question": "What is IUCN Red List status?",
                 "options": [
-                    "Threat classification",
                     "No system",
-                    "Color chart"
+                    "Color chart",
+                    "Threat classification"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Conservation",
@@ -7794,21 +7794,21 @@ const environmentQuestions = {
                 "question": "What is genetic bottleneck?",
                 "options": [
                     "Loss of diversity",
-                    "Increase diversity",
-                    "No change"
+                    "No change",
+                    "Increase diversity"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Conservation",
                 "emoji": "🦅🏞️",
                 "question": "What is ecosystem engineer species?",
                 "options": [
-                    "No effect",
                     "Modifies habitat",
+                    "No effect",
                     "Destroys only"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Conservation",
@@ -7816,10 +7816,10 @@ const environmentQuestions = {
                 "question": "What is assisted migration?",
                 "options": [
                     "No movement",
-                    "Natural only",
-                    "Help species relocate"
+                    "Help species relocate",
+                    "Natural only"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Conservation",
@@ -7838,8 +7838,8 @@ const environmentQuestions = {
                 "question": "What is no-take zone?",
                 "options": [
                     "Any activity",
-                    "No fishing allowed",
-                    "Fishing encouraged"
+                    "Fishing encouraged",
+                    "No fishing allowed"
                 ],
                 "correct": 0
             },
@@ -7849,10 +7849,10 @@ const environmentQuestions = {
                 "question": "What is traditional ecological knowledge?",
                 "options": [
                     "Indigenous wisdom",
-                    "No knowledge",
-                    "Modern only"
+                    "Modern only",
+                    "No knowledge"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -7862,9 +7862,9 @@ const environmentQuestions = {
                 "question": "What is the 50/500 rule?",
                 "options": [
                     "Distance rule",
-                    "Minimum population genetics",
                     "Age rule",
-                    "No rule"
+                    "No rule",
+                    "Minimum population genetics"
                 ],
                 "correct": 0
             },
@@ -7873,36 +7873,36 @@ const environmentQuestions = {
                 "emoji": "🦏⚠️",
                 "question": "What is umbrella species concept?",
                 "options": [
-                    "Protect many by protecting one",
-                    "No concept",
                     "One species only",
-                    "Random selection"
+                    "Protect many by protecting one",
+                    "Random selection",
+                    "No concept"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Conservation",
                 "emoji": "🌳🔒",
                 "question": "What is IUCN protected area category?",
                 "options": [
-                    "Classification system",
-                    "Size only",
                     "Single type",
+                    "Size only",
+                    "Classification system",
                     "No categories"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Conservation",
                 "emoji": "🐼💚",
                 "question": "What is extinction vortex?",
                 "options": [
-                    "Static",
                     "Reverse direction",
                     "Positive feedback to extinction",
-                    "No effect"
+                    "No effect",
+                    "Static"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Conservation",
@@ -7910,11 +7910,11 @@ const environmentQuestions = {
                 "question": "What is effective population size?",
                 "options": [
                     "Total count",
-                    "Maximum possible",
+                    "Zero",
                     "Breeding individuals",
-                    "Zero"
+                    "Maximum possible"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Conservation",
@@ -7923,8 +7923,8 @@ const environmentQuestions = {
                 "options": [
                     "Restore natural processes",
                     "Intensive management",
-                    "No change",
-                    "Remove all animals"
+                    "Remove all animals",
+                    "No change"
                 ],
                 "correct": 0
             },
@@ -7933,24 +7933,24 @@ const environmentQuestions = {
                 "emoji": "🌱🌲",
                 "question": "What is edge effect?",
                 "options": [
+                    "Core area",
                     "Habitat boundary impacts",
-                    "Color",
                     "No effect",
-                    "Core area"
+                    "Color"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Conservation",
                 "emoji": "🐢🥚",
                 "question": "What is head-starting?",
                 "options": [
-                    "Wild from birth",
                     "No intervention",
                     "Keep all",
-                    "Raise young, release adults"
+                    "Raise young, release adults",
+                    "Wild from birth"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Conservation",
@@ -7958,9 +7958,9 @@ const environmentQuestions = {
                 "question": "What is marine spatial planning?",
                 "options": [
                     "Ocean use zoning",
-                    "Random use",
+                    "No planning",
                     "Land only",
-                    "No planning"
+                    "Random use"
                 ],
                 "correct": 0
             },
@@ -7969,12 +7969,12 @@ const environmentQuestions = {
                 "emoji": "👥🌿",
                 "question": "What does the acronym CBNRM stand for?",
                 "options": [
-                    "Central control",
                     "Community-based resource management",
                     "Corporate only",
+                    "Central control",
                     "No management"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "extreme": [
@@ -8047,10 +8047,10 @@ const environmentQuestions = {
                 "emoji": "📚🌍",
                 "question": "Is learning about environment important?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Education",
@@ -8067,35 +8067,25 @@ const environmentQuestions = {
                 "emoji": "🌳🔍",
                 "question": "Is field trips help learn about nature?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Education",
                 "emoji": "💚📖",
                 "question": "Everyone can learn sustainability?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Education",
                 "emoji": "🌍👶",
                 "question": "Children should learn about Earth?",
-                "options": [
-                    "True",
-                    "False"
-                ],
-                "correct": 1
-            },
-            {
-                "topic": "Education",
-                "emoji": "📺🌿",
-                "question": "Is media spreads environmental awareness?",
                 "options": [
                     "False",
                     "True"
@@ -8104,13 +8094,23 @@ const environmentQuestions = {
             },
             {
                 "topic": "Education",
-                "emoji": "🏫♻️",
-                "question": "Do schools can be eco-friendly?",
+                "emoji": "📺🌿",
+                "question": "Is media spreads environmental awareness?",
                 "options": [
                     "True",
                     "False"
                 ],
                 "correct": 1
+            },
+            {
+                "topic": "Education",
+                "emoji": "🏫♻️",
+                "question": "Do schools can be eco-friendly?",
+                "options": [
+                    "False",
+                    "True"
+                ],
+                "correct": 0
             },
             {
                 "topic": "Education",
@@ -8127,10 +8127,10 @@ const environmentQuestions = {
                 "emoji": "👥💬",
                 "question": "Does discussion help understanding?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Education",
@@ -8159,20 +8159,20 @@ const environmentQuestions = {
                 "emoji": "👨‍🏫🌱",
                 "question": "What is outdoor education?",
                 "options": [
-                    "Learning in nature",
-                    "Classroom only"
+                    "Classroom only",
+                    "Learning in nature"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Education",
                 "emoji": "🌳🔍",
                 "question": "What is citizen science?",
                 "options": [
-                    "Public participates in research",
-                    "Scientists only"
+                    "Scientists only",
+                    "Public participates in research"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Education",
@@ -8189,20 +8189,20 @@ const environmentQuestions = {
                 "emoji": "🌍👶",
                 "question": "What is nature deficit disorder?",
                 "options": [
-                    "Medical disease",
-                    "Lack of outdoor experience"
+                    "Lack of outdoor experience",
+                    "Medical disease"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Education",
                 "emoji": "📺🌿",
                 "question": "What is environmental communication?",
                 "options": [
-                    "Share environmental info",
-                    "No communication"
+                    "No communication",
+                    "Share environmental info"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Education",
@@ -8219,10 +8219,10 @@ const environmentQuestions = {
                 "emoji": "🌱🎨",
                 "question": "What is eco-art?",
                 "options": [
-                    "Any art",
-                    "Art about environment"
+                    "Art about environment",
+                    "Any art"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Education",
@@ -8251,11 +8251,11 @@ const environmentQuestions = {
                 "emoji": "📚🌍",
                 "question": "What is the Belgrade Charter?",
                 "options": [
+                    "Building",
                     "Environmental education framework",
-                    "Treaty",
-                    "Building"
+                    "Treaty"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Education",
@@ -8272,21 +8272,21 @@ const environmentQuestions = {
                 "emoji": "🌳🔍",
                 "question": "What does the acronym bioblitz stand for?",
                 "options": [
-                    "Species inventory event",
                     "No event",
-                    "Storm"
+                    "Storm",
+                    "Species inventory event"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Education",
                 "emoji": "💚📖",
                 "question": "What is systems thinking?",
                 "options": [
-                    "Linear thinking",
-                    "Understand connections"
+                    "Understand connections",
+                    "Linear thinking"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Education",
@@ -8303,10 +8303,10 @@ const environmentQuestions = {
                 "emoji": "📺🌿",
                 "question": "What is climate communication?",
                 "options": [
-                    "No communication",
-                    "Explain climate science"
+                    "Explain climate science",
+                    "No communication"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Education",
@@ -8323,10 +8323,10 @@ const environmentQuestions = {
                 "emoji": "🌱🎨",
                 "question": "What is land art?",
                 "options": [
-                    "Sculpture with nature",
-                    "Regular art"
+                    "Regular art",
+                    "Sculpture with nature"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Education",
@@ -8343,10 +8343,10 @@ const environmentQuestions = {
                 "emoji": "🌍💡",
                 "question": "What is action competence?",
                 "options": [
-                    "No action",
-                    "Ability to create change"
+                    "Ability to create change",
+                    "No action"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -8356,8 +8356,8 @@ const environmentQuestions = {
                 "question": "What is the Tbilisi Declaration?",
                 "options": [
                     "Recent document",
-                    "Trade treaty",
                     "1977 environmental education goals",
+                    "Trade treaty",
                     "No declaration"
                 ],
                 "correct": 0
@@ -8368,33 +8368,33 @@ const environmentQuestions = {
                 "question": "What is inquiry-based learning?",
                 "options": [
                     "Memorization",
-                    "Lecture only",
                     "No questions",
+                    "Lecture only",
                     "Student-driven exploration"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Education",
                 "emoji": "🌳🔍",
                 "question": "What does the acronym phenology stand for?",
                 "options": [
+                    "Study seasonal patterns",
                     "Plant names",
                     "Rock study",
-                    "Weather",
-                    "Study seasonal patterns"
+                    "Weather"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Education",
                 "emoji": "💚📖",
                 "question": "What is transformative learning?",
                 "options": [
-                    "Change worldview",
+                    "Surface learning",
                     "No change",
                     "Rote memory",
-                    "Surface learning"
+                    "Change worldview"
                 ],
                 "correct": 1
             },
@@ -8403,10 +8403,10 @@ const environmentQuestions = {
                 "emoji": "🌍👶",
                 "question": "What is the Last Child in the Woods?",
                 "options": [
-                    "Place",
+                    "Movie",
                     "Song",
                     "Book on nature deficit",
-                    "Movie"
+                    "Place"
                 ],
                 "correct": 1
             },
@@ -8416,9 +8416,9 @@ const environmentQuestions = {
                 "question": "What is environmental literacy?",
                 "options": [
                     "No literacy",
-                    "Knowledge and action capacity",
+                    "Reading only",
                     "Math skills",
-                    "Reading only"
+                    "Knowledge and action capacity"
                 ],
                 "correct": 0
             },
@@ -8427,12 +8427,12 @@ const environmentQuestions = {
                 "emoji": "🏫♻️",
                 "question": "What is carbon-neutral campus?",
                 "options": [
+                    "Average",
                     "No goal",
                     "Net-zero emissions school",
-                    "High emissions",
-                    "Average"
+                    "High emissions"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Education",
@@ -8441,8 +8441,8 @@ const environmentQuestions = {
                 "options": [
                     "Artificial",
                     "Appearance only",
-                    "No aesthetics",
-                    "Beauty in nature connection"
+                    "Beauty in nature connection",
+                    "No aesthetics"
                 ],
                 "correct": 0
             },
@@ -8451,24 +8451,24 @@ const environmentQuestions = {
                 "emoji": "👥💬",
                 "question": "What is participatory action research?",
                 "options": [
-                    "No participation",
-                    "Lab only",
                     "Solo work",
-                    "Community-driven study"
+                    "Community-driven study",
+                    "Lab only",
+                    "No participation"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Education",
                 "emoji": "🌍💡",
                 "question": "What is the UN Decade of ESD?",
                 "options": [
-                    "Education for sustainable development",
-                    "No program",
                     "Regular decade",
-                    "Trade decade"
+                    "Trade decade",
+                    "Education for sustainable development",
+                    "No program"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "extreme": [
@@ -8541,10 +8541,10 @@ const environmentQuestions = {
                 "emoji": "♻️🔄",
                 "question": "Is circular economy reduces waste?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Circular",
@@ -8561,10 +8561,10 @@ const environmentQuestions = {
                 "emoji": "📦♻️",
                 "question": "Packaging can be reused?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Circular",
@@ -8581,10 +8581,10 @@ const environmentQuestions = {
                 "emoji": "🌍🔄",
                 "question": "Do resources should be kept in use?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Circular",
@@ -8601,20 +8601,20 @@ const environmentQuestions = {
                 "emoji": "🔄💡",
                 "question": "Is design affects recyclability?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Circular",
                 "emoji": "🌱🔄",
                 "question": "Does nature work in cycles?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Circular",
@@ -8631,10 +8631,10 @@ const environmentQuestions = {
                 "emoji": "🔄🌍",
                 "question": "Is circular economy helps planet?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -8673,50 +8673,50 @@ const environmentQuestions = {
                 "emoji": "🛠️🔧",
                 "question": "What is right to repair?",
                 "options": [
-                    "Must replace",
-                    "Legal ability to fix"
+                    "Legal ability to fix",
+                    "Must replace"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Circular",
                 "emoji": "🌍🔄",
                 "question": "What is resource efficiency?",
                 "options": [
-                    "More output per input",
-                    "Waste resources"
+                    "Waste resources",
+                    "More output per input"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Circular",
                 "emoji": "♻️🏭",
                 "question": "What does the acronym remanufacturing stand for?",
                 "options": [
-                    "Rebuild to like-new",
-                    "Make new"
+                    "Make new",
+                    "Rebuild to like-new"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Circular",
                 "emoji": "🔄💡",
                 "question": "What is design for disassembly?",
                 "options": [
-                    "Easy to take apart",
-                    "Permanent assembly"
+                    "Permanent assembly",
+                    "Easy to take apart"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Circular",
                 "emoji": "🌱🔄",
                 "question": "What is biological cycle?",
                 "options": [
-                    "Synthetic only",
-                    "Return to nature"
+                    "Return to nature",
+                    "Synthetic only"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Circular",
@@ -8745,42 +8745,42 @@ const environmentQuestions = {
                 "emoji": "♻️🔄",
                 "question": "What are the 3 principles of circular economy?",
                 "options": [
-                    "Take-make-dispose",
+                    "Single use",
                     "Eliminate waste, circulate, regenerate",
-                    "Single use"
+                    "Take-make-dispose"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Circular",
                 "emoji": "🔄💚",
                 "question": "What is performance economy?",
                 "options": [
-                    "Sell function not product",
                     "No economy",
+                    "Sell function not product",
                     "Sell products"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Circular",
                 "emoji": "📦♻️",
                 "question": "What is loop logistics?",
                 "options": [
-                    "No returns",
                     "One-way shipping",
+                    "No returns",
                     "Return and reuse system"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Circular",
                 "emoji": "🛠️🔧",
                 "question": "What is modular design?",
                 "options": [
-                    "No parts",
+                    "Replaceable components",
                     "Fixed design",
-                    "Replaceable components"
+                    "No parts"
                 ],
                 "correct": 1
             },
@@ -8790,21 +8790,21 @@ const environmentQuestions = {
                 "question": "What is material passport?",
                 "options": [
                     "Product composition data",
-                    "No data",
-                    "Travel document"
+                    "Travel document",
+                    "No data"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Circular",
                 "emoji": "♻️🏭",
                 "question": "What does the acronym upcycling stand for?",
                 "options": [
-                    "Decrease value",
+                    "No change",
                     "Increase value",
-                    "No change"
+                    "Decrease value"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Circular",
@@ -8812,21 +8812,21 @@ const environmentQuestions = {
                 "question": "What is cradle-to-cradle?",
                 "options": [
                     "Disposal",
-                    "Cradle-to-grave",
-                    "Continuous reuse cycle"
+                    "Continuous reuse cycle",
+                    "Cradle-to-grave"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Circular",
                 "emoji": "🌱🔄",
                 "question": "What is regenerative design?",
                 "options": [
-                    "Degrade",
+                    "Restore systems",
                     "Extract only",
-                    "Restore systems"
+                    "Degrade"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Circular",
@@ -8834,8 +8834,8 @@ const environmentQuestions = {
                 "question": "What is sharing economy?",
                 "options": [
                     "Access over ownership",
-                    "Individual ownership",
-                    "No sharing"
+                    "No sharing",
+                    "Individual ownership"
                 ],
                 "correct": 0
             },
@@ -8844,11 +8844,11 @@ const environmentQuestions = {
                 "emoji": "🔄🌍",
                 "question": "What does the acronym decoupling stand for?",
                 "options": [
-                    "Growth without resource use",
                     "Direct link",
+                    "Growth without resource use",
                     "No change"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -8857,22 +8857,22 @@ const environmentQuestions = {
                 "emoji": "♻️🔄",
                 "question": "What is Ellen MacArthur Foundation?",
                 "options": [
-                    "No organization",
-                    "Leading circular economy org",
                     "Trading company",
+                    "Leading circular economy org",
+                    "No organization",
                     "Linear economy"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Circular",
                 "emoji": "🔄💚",
                 "question": "What is cascade use?",
                 "options": [
-                    "Single use",
-                    "No cascade",
                     "Parallel only",
-                    "Sequential material use"
+                    "No cascade",
+                    "Sequential material use",
+                    "Single use"
                 ],
                 "correct": 1
             },
@@ -8881,12 +8881,12 @@ const environmentQuestions = {
                 "emoji": "📦♻️",
                 "question": "What does EPR mean?",
                 "options": [
-                    "No responsibility",
                     "Maker handles end-of-life",
-                    "Government only",
-                    "Consumer responsible"
+                    "Consumer responsible",
+                    "No responsibility",
+                    "Government only"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Circular",
@@ -8894,23 +8894,23 @@ const environmentQuestions = {
                 "question": "What is the repairability index?",
                 "options": [
                     "Price",
-                    "No index",
                     "Ease of repair score",
-                    "Speed"
+                    "Speed",
+                    "No index"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Circular",
                 "emoji": "🌍🔄",
                 "question": "What is material flow analysis?",
                 "options": [
-                    "Track resource movement",
                     "One-time check",
                     "No tracking",
+                    "Track resource movement",
                     "Financial only"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Circular",
@@ -8918,9 +8918,9 @@ const environmentQuestions = {
                 "question": "What is closed-loop manufacturing?",
                 "options": [
                     "Waste becomes input",
+                    "No loop",
                     "Open loop",
-                    "Linear",
-                    "No loop"
+                    "Linear"
                 ],
                 "correct": 0
             },
@@ -8929,12 +8929,12 @@ const environmentQuestions = {
                 "emoji": "🔄💡",
                 "question": "What is biomimicry in design?",
                 "options": [
+                    "Random design",
                     "Synthetic only",
-                    "Learn from nature",
                     "Ignore nature",
-                    "Random design"
+                    "Learn from nature"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Circular",
@@ -8943,8 +8943,8 @@ const environmentQuestions = {
                 "options": [
                     "One-way",
                     "No cycling",
-                    "Waste disposal",
-                    "Biological material return"
+                    "Biological material return",
+                    "Waste disposal"
                 ],
                 "correct": 0
             },
@@ -8954,9 +8954,9 @@ const environmentQuestions = {
                 "question": "What does the acronym servitization stand for?",
                 "options": [
                     "Traditional",
+                    "Shift to service model",
                     "No services",
-                    "Product only",
-                    "Shift to service model"
+                    "Product only"
                 ],
                 "correct": 0
             },
@@ -8965,12 +8965,12 @@ const environmentQuestions = {
                 "emoji": "🔄🌍",
                 "question": "What is circular business model?",
                 "options": [
-                    "No model",
-                    "Disposal focus",
                     "Linear model",
-                    "Eliminate waste in operations"
+                    "No model",
+                    "Eliminate waste in operations",
+                    "Disposal focus"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "extreme": [
@@ -9043,30 +9043,30 @@ const environmentQuestions = {
                 "emoji": "👥🌍",
                 "question": "Do indigenous people have environmental knowledge?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Indigenous",
                 "emoji": "🌱📚",
                 "question": "Is traditional knowledge valuable?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Indigenous",
                 "emoji": "🌲👣",
                 "question": "Is indigenous peoples lived sustainably?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Indigenous",
@@ -9083,50 +9083,50 @@ const environmentQuestions = {
                 "emoji": "🌍🤝",
                 "question": "We can learn from indigenous wisdom?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Indigenous",
                 "emoji": "💧🏔️",
                 "question": "Is indigenous peoples protect lands?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Indigenous",
                 "emoji": "🦌🌲",
                 "question": "Was traditional hunting sustainable?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Indigenous",
                 "emoji": "🌾🌱",
                 "question": "Is indigenous agriculture preserved diversity?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Indigenous",
                 "emoji": "⚖️🌍",
                 "question": "Are indigenous rights important?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Indigenous",
@@ -9155,10 +9155,10 @@ const environmentQuestions = {
                 "emoji": "🌱📚",
                 "question": "What is intergenerational knowledge?",
                 "options": [
-                    "One generation",
-                    "Passed through generations"
+                    "Passed through generations",
+                    "One generation"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Indigenous",
@@ -9205,10 +9205,10 @@ const environmentQuestions = {
                 "emoji": "🦌🌲",
                 "question": "What is subsistence harvesting?",
                 "options": [
-                    "Take only what is needed",
-                    "Commercial exploitation"
+                    "Commercial exploitation",
+                    "Take only what is needed"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Indigenous",
@@ -9235,10 +9235,10 @@ const environmentQuestions = {
                 "emoji": "🔬🌿",
                 "question": "What is two-eyed seeing?",
                 "options": [
-                    "One view only",
-                    "Combine indigenous and Western knowledge"
+                    "Combine indigenous and Western knowledge",
+                    "One view only"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -9247,11 +9247,11 @@ const environmentQuestions = {
                 "emoji": "👥🌍",
                 "question": "What percentage of biodiversity on indigenous lands?",
                 "options": [
-                    "50%",
                     "~80%",
+                    "50%",
                     "10%"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Indigenous",
@@ -9268,20 +9268,20 @@ const environmentQuestions = {
                 "emoji": "🌲👣",
                 "question": "What is the Seventh Generation principle?",
                 "options": [
-                    "Present only",
-                    "Consider future impact"
+                    "Consider future impact",
+                    "Present only"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Indigenous",
                 "emoji": "🔥🌿",
                 "question": "How did indigenous burning benefit ecosystems?",
                 "options": [
-                    "Destroyed all",
-                    "Reduced fuel, increased diversity"
+                    "Reduced fuel, increased diversity",
+                    "Destroyed all"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Indigenous",
@@ -9308,40 +9308,40 @@ const environmentQuestions = {
                 "emoji": "🦌🌲",
                 "question": "What is the honorable harvest?",
                 "options": [
-                    "Take respectfully",
-                    "Take everything"
+                    "Take everything",
+                    "Take respectfully"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Indigenous",
                 "emoji": "🌾🌱",
                 "question": "What is milpa agriculture?",
                 "options": [
-                    "Diverse crop system",
-                    "Monoculture"
+                    "Monoculture",
+                    "Diverse crop system"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Indigenous",
                 "emoji": "⚖️🌍",
                 "question": "What are indigenous land rights?",
                 "options": [
-                    "Legal territorial claims",
-                    "No rights"
+                    "No rights",
+                    "Legal territorial claims"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Indigenous",
                 "emoji": "🔬🌿",
                 "question": "What is biocultural diversity?",
                 "options": [
-                    "Link between culture and nature",
-                    "Separate concepts"
+                    "Separate concepts",
+                    "Link between culture and nature"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -9351,9 +9351,9 @@ const environmentQuestions = {
                 "question": "How many indigenous people worldwide?",
                 "options": [
                     "100,000",
-                    "1 billion",
                     "~370-500 million",
-                    "10 million"
+                    "10 million",
+                    "1 billion"
                 ],
                 "correct": 0
             },
@@ -9362,10 +9362,10 @@ const environmentQuestions = {
                 "emoji": "🌱📚",
                 "question": "What is the precautionary principle in TEK?",
                 "options": [
-                    "Rush ahead",
-                    "Careful with unknown"
+                    "Careful with unknown",
+                    "Rush ahead"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Indigenous",
@@ -9382,32 +9382,32 @@ const environmentQuestions = {
                 "emoji": "🔥🌿",
                 "question": "What is fire-stick farming?",
                 "options": [
-                    "Australian Aboriginal burning",
-                    "Regular farming"
+                    "Regular farming",
+                    "Australian Aboriginal burning"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Indigenous",
                 "emoji": "🌍🤝",
                 "question": "What is the Nagoya Protocol?",
                 "options": [
-                    "Climate treaty",
-                    "Benefit-sharing from genetic resources"
+                    "Benefit-sharing from genetic resources",
+                    "Climate treaty"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Indigenous",
                 "emoji": "💧🏔️",
                 "question": "What percentage of forest is in indigenous territories?",
                 "options": [
-                    "~36%",
                     "90%",
                     "5%",
-                    "1%"
+                    "1%",
+                    "~36%"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Indigenous",
@@ -9434,10 +9434,10 @@ const environmentQuestions = {
                 "emoji": "⚖️🌍",
                 "question": "What is ILO Convention 169?",
                 "options": [
-                    "Labor law",
-                    "Indigenous peoples rights"
+                    "Indigenous peoples rights",
+                    "Labor law"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Indigenous",
@@ -9540,20 +9540,20 @@ const environmentQuestions = {
                 "emoji": "👨‍👩‍👧‍👦🌍",
                 "question": "Does everyone have a role in the future?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Future",
                 "emoji": "🌳🌈",
                 "question": "Is a green future possible?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Future",
@@ -9580,20 +9580,20 @@ const environmentQuestions = {
                 "emoji": "🚀🌍",
                 "question": "Does technology help sustainability?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Future",
                 "emoji": "💪🌱",
                 "question": "Is young people drive change?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Future",
@@ -9610,10 +9610,10 @@ const environmentQuestions = {
                 "emoji": "✨🌏",
                 "question": "We can make a difference?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -9632,20 +9632,20 @@ const environmentQuestions = {
                 "emoji": "🌱💡",
                 "question": "What is green innovation?",
                 "options": [
-                    "Any invention",
-                    "Eco-friendly technology"
+                    "Eco-friendly technology",
+                    "Any invention"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Future",
                 "emoji": "👨‍👩‍👧‍👦🌍",
                 "question": "What is environmental citizenship?",
                 "options": [
-                    "Responsible environmental behavior",
-                    "No responsibility"
+                    "No responsibility",
+                    "Responsible environmental behavior"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Future",
@@ -9682,10 +9682,10 @@ const environmentQuestions = {
                 "emoji": "🚀🌍",
                 "question": "What is climate tech?",
                 "options": [
-                    "Any tech",
-                    "Technology for climate solutions"
+                    "Technology for climate solutions",
+                    "Any tech"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Future",
@@ -9702,10 +9702,10 @@ const environmentQuestions = {
                 "emoji": "🌍❤️",
                 "question": "What does the acronym solastalgia stand for?",
                 "options": [
-                    "Distress about environmental change",
-                    "No feeling"
+                    "No feeling",
+                    "Distress about environmental change"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Future",
@@ -9725,8 +9725,8 @@ const environmentQuestions = {
                 "question": "What are the SDGs?",
                 "options": [
                     "UN Sustainable Development Goals",
-                    "No goals",
-                    "Sports"
+                    "Sports",
+                    "No goals"
                 ],
                 "correct": 0
             },
@@ -9755,31 +9755,31 @@ const environmentQuestions = {
                 "emoji": "🌳🌈",
                 "question": "What does the acronym degrowth stand for?",
                 "options": [
-                    "Reduce consumption",
-                    "Infinite growth"
+                    "Infinite growth",
+                    "Reduce consumption"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Future",
                 "emoji": "🔄💚",
                 "question": "What is systems change?",
                 "options": [
-                    "Surface fix",
-                    "Transform underlying structures"
+                    "Transform underlying structures",
+                    "Surface fix"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Future",
                 "emoji": "🌞⚡",
                 "question": "When could we be 100% renewable?",
                 "options": [
-                    "2030-2050 possible",
+                    "2200",
                     "Never",
-                    "2200"
+                    "2030-2050 possible"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Future",
@@ -9796,30 +9796,30 @@ const environmentQuestions = {
                 "emoji": "💪🌱",
                 "question": "What is Fridays for Future?",
                 "options": [
-                    "Youth climate strikes",
-                    "Day off"
+                    "Day off",
+                    "Youth climate strikes"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Future",
                 "emoji": "🌍❤️",
                 "question": "What is ecological grief?",
                 "options": [
-                    "No emotion",
-                    "Mourning environmental loss"
+                    "Mourning environmental loss",
+                    "No emotion"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Future",
                 "emoji": "✨🌏",
                 "question": "What is the Anthropocene?",
                 "options": [
-                    "Human-dominated era",
-                    "Past era"
+                    "Past era",
+                    "Human-dominated era"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -9829,9 +9829,9 @@ const environmentQuestions = {
                 "question": "How many SDGs are there?",
                 "options": [
                     "5",
-                    "50",
+                    "17",
                     "100",
-                    "17"
+                    "50"
                 ],
                 "correct": 0
             },
@@ -9840,59 +9840,59 @@ const environmentQuestions = {
                 "emoji": "🌱💡",
                 "question": "What is mission-oriented innovation?",
                 "options": [
-                    "Goal-directed research",
-                    "Random discovery"
+                    "Random discovery",
+                    "Goal-directed research"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Future",
                 "emoji": "👨‍👩‍👧‍👦🌍",
                 "question": "What is the commons?",
                 "options": [
-                    "Private property",
-                    "Shared resources"
+                    "Shared resources",
+                    "Private property"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Future",
                 "emoji": "🌳🌈",
                 "question": "What is doughnut economics?",
                 "options": [
-                    "Growth only",
-                    "Balance social and planetary boundaries"
+                    "Balance social and planetary boundaries",
+                    "Growth only"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Future",
                 "emoji": "🔄💚",
                 "question": "What is deep leverage point?",
                 "options": [
-                    "Surface intervention",
-                    "System paradigm shift"
+                    "System paradigm shift",
+                    "Surface intervention"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Future",
                 "emoji": "🌞⚡",
                 "question": "What is sector coupling?",
                 "options": [
-                    "Integrate energy sectors",
-                    "Separate sectors"
+                    "Separate sectors",
+                    "Integrate energy sectors"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Future",
                 "emoji": "🚀🌍",
                 "question": "What is carbon removal target by 2050?",
                 "options": [
-                    "~10 Gt CO2/year",
+                    "1 Mt",
                     "0",
-                    "1 Mt"
+                    "~10 Gt CO2/year"
                 ],
                 "correct": 1
             },

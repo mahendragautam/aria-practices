@@ -16,10 +16,10 @@ const technologyQuestions = {
                 "emoji": "💻🖥️",
                 "question": "Is Python a programming language?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Hardware",
@@ -36,20 +36,20 @@ const technologyQuestions = {
                 "emoji": "⌨️🖱️",
                 "question": "Are apps software programs?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Networking",
                 "emoji": "🖨️📠",
                 "question": "Is WiFi wireless internet?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Programming",
@@ -76,10 +76,10 @@ const technologyQuestions = {
                 "emoji": "🔌🔋",
                 "question": "Is operating systems manage computers?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Networking",
@@ -96,20 +96,20 @@ const technologyQuestions = {
                 "emoji": "🤖🦾",
                 "question": "Does javaScript run in web browsers?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Hardware",
                 "emoji": "🚀🛸",
                 "question": "Is GPU for graphics processing?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -118,40 +118,40 @@ const technologyQuestions = {
                 "emoji": "🔬🧬",
                 "question": "What does the acronym API stand for?",
                 "options": [
-                    "Application Programming Interface",
-                    "Advanced Program Integration"
+                    "Advanced Program Integration",
+                    "Application Programming Interface"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Hardware",
                 "emoji": "⚙️🔧",
                 "question": "What does the acronym CPU stand for?",
                 "options": [
-                    "Computer Power Unit",
-                    "Central Processing Unit"
+                    "Central Processing Unit",
+                    "Computer Power Unit"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Software",
                 "emoji": "🛠️🔨",
                 "question": "What is open source software?",
                 "options": [
-                    "Free and modifiable",
-                    "Expensive and closed"
+                    "Expensive and closed",
+                    "Free and modifiable"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Networking",
                 "emoji": "📊📈",
                 "question": "What does IP address identify?",
                 "options": [
-                    "User name",
-                    "Device on network"
+                    "Device on network",
+                    "User name"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Programming",
@@ -168,10 +168,10 @@ const technologyQuestions = {
                 "emoji": "🔒🔐",
                 "question": "What does the acronym ROM stand for?",
                 "options": [
-                    "Random Operating Memory",
-                    "Read-Only Memory"
+                    "Read-Only Memory",
+                    "Random Operating Memory"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Software",
@@ -188,30 +188,30 @@ const technologyQuestions = {
                 "emoji": "📧💌",
                 "question": "What is a firewall?",
                 "options": [
-                    "Internet speed",
-                    "Security barrier"
+                    "Security barrier",
+                    "Internet speed"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Programming",
                 "emoji": "☁️💾",
                 "question": "What does the acronym debugging stand for?",
                 "options": [
-                    "Writing code",
-                    "Fixing errors"
+                    "Fixing errors",
+                    "Writing code"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Hardware",
                 "emoji": "🖼️📸",
                 "question": "What does the acronym bandwidth stand for?",
                 "options": [
-                    "Storage space",
-                    "Data transfer rate"
+                    "Data transfer rate",
+                    "Storage space"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -232,10 +232,10 @@ const technologyQuestions = {
                 "question": "What is Moore's Law?",
                 "options": [
                     "Transistors double every 2 years",
-                    "Storage halves cost",
-                    "Internet speed doubles"
+                    "Internet speed doubles",
+                    "Storage halves cost"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Software",
@@ -253,22 +253,22 @@ const technologyQuestions = {
                 "emoji": "🎬🎞️",
                 "question": "What is TCP/IP?",
                 "options": [
-                    "Storage system",
                     "Programming language",
-                    "Internet protocol"
+                    "Internet protocol",
+                    "Storage system"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Programming",
                 "emoji": "📺📻",
                 "question": "What does the acronym recursion stand for?",
                 "options": [
-                    "Variable",
                     "Loop",
+                    "Variable",
                     "Function calling itself"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Hardware",
@@ -276,8 +276,8 @@ const technologyQuestions = {
                 "question": "What is quantum computing?",
                 "options": [
                     "Uses quantum mechanics",
-                    "Cloud storage",
-                    "Traditional binary"
+                    "Traditional binary",
+                    "Cloud storage"
                 ],
                 "correct": 0
             },
@@ -298,8 +298,8 @@ const technologyQuestions = {
                 "question": "What does the acronym VPN stand for?",
                 "options": [
                     "Virtual Private Network",
-                    "Very Public Network",
-                    "Video Programming Network"
+                    "Video Programming Network",
+                    "Very Public Network"
                 ],
                 "correct": 0
             },
@@ -308,11 +308,11 @@ const technologyQuestions = {
                 "emoji": "🗂️📋",
                 "question": "What does the acronym SQL stand for?",
                 "options": [
+                    "Operating system",
                     "Web language",
-                    "Database query language",
-                    "Operating system"
+                    "Database query language"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Hardware",
@@ -320,10 +320,10 @@ const technologyQuestions = {
                 "question": "What is 5G?",
                 "options": [
                     "5 gigahertz",
-                    "5 gigabytes",
-                    "5th generation mobile"
+                    "5th generation mobile",
+                    "5 gigabytes"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -333,9 +333,9 @@ const technologyQuestions = {
                 "question": "What is Big O notation?",
                 "options": [
                     "Function name",
-                    "Variable type",
                     "Algorithm complexity",
-                    "Loop structure"
+                    "Loop structure",
+                    "Variable type"
                 ],
                 "correct": 0
             },
@@ -344,46 +344,46 @@ const technologyQuestions = {
                 "emoji": "🖥️⌨️",
                 "question": "How many bits in a byte?",
                 "options": [
-                    "4",
-                    "8",
+                    "32",
                     "16",
-                    "32"
+                    "8",
+                    "4"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Software",
                 "emoji": "📱💾",
                 "question": "What does the acronym Docker stand for?",
                 "options": [
-                    "Database",
                     "Programming language",
                     "Web browser",
+                    "Database",
                     "Containerization platform"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Networking",
                 "emoji": "🌐📡",
                 "question": "What OSI layer is TCP in?",
                 "options": [
-                    "Transport (Layer 4)",
-                    "Application (Layer 7)",
                     "Physical (Layer 1)",
-                    "Network (Layer 3)"
+                    "Network (Layer 3)",
+                    "Application (Layer 7)",
+                    "Transport (Layer 4)"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Programming",
                 "emoji": "💻🔢",
                 "question": "What is a hash function?",
                 "options": [
-                    "Creates variables",
+                    "Sorts array",
                     "Maps data to fixed size",
-                    "Loops through list",
-                    "Sorts array"
+                    "Creates variables",
+                    "Loops through list"
                 ],
                 "correct": 1
             },
@@ -392,24 +392,24 @@ const technologyQuestions = {
                 "emoji": "🖥️💽",
                 "question": "What does the acronym RAID stand for?",
                 "options": [
-                    "Redundant Array Independent Disks",
-                    "Read And Input Data",
                     "Random Access Integrated Data",
+                    "Read And Input Data",
+                    "Redundant Array Independent Disks",
                     "Rapid Application Interface Device"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Software",
                 "emoji": "📱🖥️",
                 "question": "What is microservices architecture?",
                 "options": [
-                    "One server",
                     "Monolithic app",
-                    "Single database",
-                    "Small independent services"
+                    "Small independent services",
+                    "One server",
+                    "Single database"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Networking",
@@ -429,8 +429,8 @@ const technologyQuestions = {
                 "question": "What is RESTful API?",
                 "options": [
                     "Operating system",
-                    "File system",
                     "Database protocol",
+                    "File system",
                     "Stateless web service"
                 ],
                 "correct": 0
@@ -440,12 +440,12 @@ const technologyQuestions = {
                 "emoji": "🖥️🎮",
                 "question": "What is cache memory?",
                 "options": [
-                    "Fast temporary storage",
                     "Virtual memory",
+                    "Permanent storage",
                     "Cloud storage",
-                    "Permanent storage"
+                    "Fast temporary storage"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "extreme": [
@@ -528,10 +528,10 @@ const technologyQuestions = {
                 "emoji": "🎨💅",
                 "question": "Is cSS styles web pages?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Frontend",
@@ -568,50 +568,50 @@ const technologyQuestions = {
                 "emoji": "🎨🖌️",
                 "question": "Is bootstrap a CSS framework?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Frontend",
                 "emoji": "⚛️💙",
                 "question": "Is react a JavaScript library?",
                 "options": [
-                    "True",
-                    "False"
-                ],
-                "correct": 1
-            },
-            {
-                "topic": "Backend",
-                "emoji": "🔙📊",
-                "question": "Is databases store data?",
-                "options": [
                     "False",
                     "True"
                 ],
                 "correct": 0
             },
             {
-                "topic": "Frontend",
-                "emoji": "🌐🔧",
-                "question": "Is browsers render web pages?",
+                "topic": "Backend",
+                "emoji": "🔙📊",
+                "question": "Is databases store data?",
                 "options": [
                     "True",
                     "False"
                 ],
-                "correct": 0
+                "correct": 1
+            },
+            {
+                "topic": "Frontend",
+                "emoji": "🌐🔧",
+                "question": "Is browsers render web pages?",
+                "options": [
+                    "False",
+                    "True"
+                ],
+                "correct": 1
             },
             {
                 "topic": "Testing",
                 "emoji": "🧪✅",
                 "question": "Is testing ensures quality?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -620,30 +620,30 @@ const technologyQuestions = {
                 "emoji": "🌐💻",
                 "question": "What is the DOM?",
                 "options": [
-                    "Document Object Model",
-                    "Data Object Manager"
+                    "Data Object Manager",
+                    "Document Object Model"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Styling",
                 "emoji": "🎨💅",
                 "question": "What is CSS flexbox?",
                 "options": [
-                    "Color scheme",
-                    "Layout model"
+                    "Layout model",
+                    "Color scheme"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Frontend",
                 "emoji": "⚡📱",
                 "question": "What does the acronym AJAX stand for?",
                 "options": [
-                    "Asynchronous JavaScript and XML",
-                    "Advanced Java Application"
+                    "Advanced Java Application",
+                    "Asynchronous JavaScript and XML"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Backend",
@@ -670,10 +670,10 @@ const technologyQuestions = {
                 "emoji": "🎨🖌️",
                 "question": "What does the acronym Sass stand for?",
                 "options": [
-                    "CSS preprocessor",
-                    "JavaScript framework"
+                    "JavaScript framework",
+                    "CSS preprocessor"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Frontend",
@@ -690,10 +690,10 @@ const technologyQuestions = {
                 "emoji": "🔙📊",
                 "question": "What is REST API?",
                 "options": [
-                    "Web service architecture",
-                    "Database type"
+                    "Database type",
+                    "Web service architecture"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Frontend",
@@ -723,8 +723,8 @@ const technologyQuestions = {
                 "question": "What does the acronym WebAssembly stand for?",
                 "options": [
                     "JavaScript variant",
-                    "Binary instruction format",
-                    "HTML version"
+                    "HTML version",
+                    "Binary instruction format"
                 ],
                 "correct": 0
             },
@@ -755,11 +755,11 @@ const technologyQuestions = {
                 "emoji": "🔙💾",
                 "question": "What is Express.js?",
                 "options": [
-                    "Node.js web framework",
                     "Frontend library",
+                    "Node.js web framework",
                     "Database"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Frontend",
@@ -767,30 +767,30 @@ const technologyQuestions = {
                 "question": "What is Server-Side Rendering?",
                 "options": [
                     "No rendering",
-                    "Client only",
-                    "Render on server"
+                    "Render on server",
+                    "Client only"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Styling",
                 "emoji": "🎨🖌️",
                 "question": "What is CSS-in-JS?",
                 "options": [
+                    "Styles in JavaScript",
                     "No styles",
-                    "Separate CSS files",
-                    "Styles in JavaScript"
+                    "Separate CSS files"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Frontend",
                 "emoji": "⚛️💙",
                 "question": "What does the acronym Redux stand for?",
                 "options": [
-                    "Database",
+                    "Router",
                     "State management library",
-                    "Router"
+                    "Database"
                 ],
                 "correct": 1
             },
@@ -811,8 +811,8 @@ const technologyQuestions = {
                 "question": "What is lazy loading?",
                 "options": [
                     "Load content on demand",
-                    "Load all at once",
-                    "No loading"
+                    "No loading",
+                    "Load all at once"
                 ],
                 "correct": 0
             },
@@ -834,22 +834,22 @@ const technologyQuestions = {
                 "emoji": "🌐💻",
                 "question": "What is the critical rendering path?",
                 "options": [
-                    "API call",
+                    "File upload",
                     "Steps to render page",
-                    "Database query",
-                    "File upload"
+                    "API call",
+                    "Database query"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Styling",
                 "emoji": "🎨💅",
                 "question": "What is specificity in CSS?",
                 "options": [
-                    "Layout type",
+                    "Color value",
                     "Selector priority",
                     "Font size",
-                    "Color value"
+                    "Layout type"
                 ],
                 "correct": 1
             },
@@ -859,9 +859,9 @@ const technologyQuestions = {
                 "question": "What is tree shaking?",
                 "options": [
                     "Remove unused code",
-                    "Add features",
+                    "Deploy app",
                     "Test code",
-                    "Deploy app"
+                    "Add features"
                 ],
                 "correct": 0
             },
@@ -870,48 +870,48 @@ const technologyQuestions = {
                 "emoji": "🔙💾",
                 "question": "What is middleware in Express?",
                 "options": [
-                    "Frontend code",
                     "Database layer",
+                    "CSS framework",
                     "Functions between request/response",
-                    "CSS framework"
+                    "Frontend code"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Frontend",
                 "emoji": "📱💻",
                 "question": "What is hydration in SSR?",
                 "options": [
-                    "Load images",
                     "Add water effects",
-                    "Make static HTML interactive",
-                    "Cache data"
+                    "Load images",
+                    "Cache data",
+                    "Make static HTML interactive"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Styling",
                 "emoji": "🎨🖌️",
                 "question": "What is BEM methodology?",
                 "options": [
+                    "Best Efficient Method",
                     "Block Element Modifier",
                     "Basic Element Model",
-                    "Browser Extension Module",
-                    "Best Efficient Method"
+                    "Browser Extension Module"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Frontend",
                 "emoji": "⚛️💙",
                 "question": "What are React hooks?",
                 "options": [
+                    "API endpoints",
                     "CSS tricks",
-                    "Database queries",
                     "Functions for state in components",
-                    "API endpoints"
+                    "Database queries"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Backend",
@@ -919,9 +919,9 @@ const technologyQuestions = {
                 "question": "What does the acronym JWT stand for?",
                 "options": [
                     "Java Web Technology",
-                    "JavaScript Web Tool",
                     "JSON Web Token",
-                    "JSON Widget Type"
+                    "JSON Widget Type",
+                    "JavaScript Web Tool"
                 ],
                 "correct": 0
             },
@@ -930,21 +930,21 @@ const technologyQuestions = {
                 "emoji": "🌐🔧",
                 "question": "What is code splitting?",
                 "options": [
-                    "Copy code",
-                    "Break code into chunks",
                     "Delete code",
-                    "Combine all code"
+                    "Combine all code",
+                    "Copy code",
+                    "Break code into chunks"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Testing",
                 "emoji": "🧪✅",
                 "question": "What is test coverage?",
                 "options": [
-                    "Testing time",
-                    "Number of tests",
                     "Percentage of code tested",
+                    "Number of tests",
+                    "Testing time",
                     "Test location"
                 ],
                 "correct": 1
@@ -1020,30 +1020,30 @@ const technologyQuestions = {
                 "emoji": "📱💻",
                 "question": "Is apps run on smartphones?",
                 "options": [
-                    "True",
-                    "False"
-                ],
-                "correct": 0
-            },
-            {
-                "topic": "iOS",
-                "emoji": "🍎📱",
-                "question": "Is IOS Apple mobile OS?",
-                "options": [
                     "False",
                     "True"
                 ],
                 "correct": 1
             },
             {
+                "topic": "iOS",
+                "emoji": "🍎📱",
+                "question": "Is IOS Apple mobile OS?",
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "correct": 0
+            },
+            {
                 "topic": "Android",
                 "emoji": "🤖📱",
                 "question": "Is android Google mobile OS?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Mobile",
@@ -1080,30 +1080,30 @@ const technologyQuestions = {
                 "emoji": "🤖💻",
                 "question": "Is kotlin for Android development?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mobile",
                 "emoji": "📱⚡",
                 "question": "Is mobile apps work offline?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Cross-platform",
                 "emoji": "🔄📱",
                 "question": "Is react Native works on both platforms?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Mobile",
@@ -1142,10 +1142,10 @@ const technologyQuestions = {
                 "emoji": "🤖📱",
                 "question": "What is Android Studio?",
                 "options": [
-                    "Design tool",
-                    "Android development IDE"
+                    "Android development IDE",
+                    "Design tool"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Mobile",
@@ -1212,10 +1212,10 @@ const technologyQuestions = {
                 "emoji": "📲🔔",
                 "question": "What does the acronym FCM stand for?",
                 "options": [
-                    "Fast Content Manager",
-                    "Firebase Cloud Messaging"
+                    "Firebase Cloud Messaging",
+                    "Fast Content Manager"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -1225,8 +1225,8 @@ const technologyQuestions = {
                 "question": "What does the acronym PWA stand for?",
                 "options": [
                     "Pure Web Application",
-                    "Private Web Access",
-                    "Progressive Web App"
+                    "Progressive Web App",
+                    "Private Web Access"
                 ],
                 "correct": 0
             },
@@ -1235,9 +1235,9 @@ const technologyQuestions = {
                 "emoji": "🍎📱",
                 "question": "What is Core Data?",
                 "options": [
-                    "Cloud storage",
+                    "Database",
                     "iOS data persistence",
-                    "Database"
+                    "Cloud storage"
                 ],
                 "correct": 1
             },
@@ -1246,11 +1246,11 @@ const technologyQuestions = {
                 "emoji": "🤖📱",
                 "question": "What does the acronym Room stand for?",
                 "options": [
-                    "UI component",
+                    "Network tool",
                     "Android database library",
-                    "Network tool"
+                    "UI component"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Mobile",
@@ -1258,10 +1258,10 @@ const technologyQuestions = {
                 "question": "What is App Store Optimization?",
                 "options": [
                     "Code optimization",
-                    "Improve app visibility",
-                    "UI design"
+                    "UI design",
+                    "Improve app visibility"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Design",
@@ -1269,10 +1269,10 @@ const technologyQuestions = {
                 "question": "What is Human Interface Guidelines?",
                 "options": [
                     "Android guidelines",
-                    "Apple design principles",
-                    "Web standards"
+                    "Web standards",
+                    "Apple design principles"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "iOS",
@@ -1280,8 +1280,8 @@ const technologyQuestions = {
                 "question": "What does the acronym CocoaPods stand for?",
                 "options": [
                     "iOS dependency manager",
-                    "Database",
-                    "Android tool"
+                    "Android tool",
+                    "Database"
                 ],
                 "correct": 0
             },
@@ -1290,9 +1290,9 @@ const technologyQuestions = {
                 "emoji": "🤖💻",
                 "question": "What does the acronym Gradle stand for?",
                 "options": [
-                    "Database",
+                    "UI library",
                     "Build automation tool",
-                    "UI library"
+                    "Database"
                 ],
                 "correct": 1
             },
@@ -1301,33 +1301,33 @@ const technologyQuestions = {
                 "emoji": "📱⚡",
                 "question": "What is deep linking?",
                 "options": [
-                    "No linking",
                     "Link to specific app content",
-                    "Website link"
+                    "Website link",
+                    "No linking"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Cross-platform",
                 "emoji": "🔄📱",
                 "question": "What does the acronym Xamarin stand for?",
                 "options": [
+                    "Database",
                     "Design tool",
-                    "Microsoft cross-platform framework",
-                    "Database"
+                    "Microsoft cross-platform framework"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Mobile",
                 "emoji": "📲🔔",
                 "question": "What is silent notification?",
                 "options": [
-                    "Sound alert",
                     "No notification",
+                    "Sound alert",
                     "Background data update"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -1337,9 +1337,9 @@ const technologyQuestions = {
                 "question": "What is the average mobile app retention rate?",
                 "options": [
                     "100%",
-                    "~25% after 30 days",
                     "5%",
-                    "90%"
+                    "90%",
+                    "~25% after 30 days"
                 ],
                 "correct": 0
             },
@@ -1348,24 +1348,24 @@ const technologyQuestions = {
                 "emoji": "🍎📱",
                 "question": "What is ARC in iOS?",
                 "options": [
-                    "Advanced Runtime Compiler",
                     "Apple Remote Control",
+                    "Advanced Runtime Compiler",
                     "Automatic Reference Counting",
                     "App Review Center"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Android",
                 "emoji": "🤖📱",
                 "question": "What is the Android activity lifecycle?",
                 "options": [
-                    "Load, Display, Close",
-                    "onCreate, onStart, onResume, onPause, onStop, onDestroy",
                     "Init, Show, Exit",
-                    "Start, Run, End"
+                    "onCreate, onStart, onResume, onPause, onStop, onDestroy",
+                    "Start, Run, End",
+                    "Load, Display, Close"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Mobile",
@@ -1385,35 +1385,35 @@ const technologyQuestions = {
                 "question": "What is the ideal tap target size?",
                 "options": [
                     "10x10",
+                    "Any size",
                     "100x100",
-                    "44x44 points (iOS) / 48x48 dp (Android)",
-                    "Any size"
+                    "44x44 points (iOS) / 48x48 dp (Android)"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "iOS",
                 "emoji": "🍎💻",
                 "question": "What is Grand Central Dispatch?",
                 "options": [
-                    "iOS concurrency framework",
                     "Database",
-                    "UI framework",
-                    "Cloud service"
+                    "iOS concurrency framework",
+                    "Cloud service",
+                    "UI framework"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Android",
                 "emoji": "🤖💻",
                 "question": "What does the acronym ProGuard stand for?",
                 "options": [
-                    "Testing tool",
-                    "Code shrinking tool",
                     "Database",
-                    "UI builder"
+                    "UI builder",
+                    "Code shrinking tool",
+                    "Testing tool"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Mobile",
@@ -1421,9 +1421,9 @@ const technologyQuestions = {
                 "question": "What percentage of apps are never used?",
                 "options": [
                     "75%",
-                    "0%",
+                    "~25%",
                     "5%",
-                    "~25%"
+                    "0%"
                 ],
                 "correct": 0
             },
@@ -1432,24 +1432,24 @@ const technologyQuestions = {
                 "emoji": "🔄📱",
                 "question": "What is code sharing in cross-platform?",
                 "options": [
-                    "0%",
+                    "100%",
                     "10%",
-                    "~70-90% shared code",
-                    "100%"
+                    "0%",
+                    "~70-90% shared code"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Mobile",
                 "emoji": "📲🔔",
                 "question": "What is notification open rate?",
                 "options": [
-                    "50%",
-                    "90%",
                     "~5-10%",
-                    "0%"
+                    "50%",
+                    "0%",
+                    "90%"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "extreme": [
@@ -1532,30 +1532,30 @@ const technologyQuestions = {
                 "emoji": "🌐📦",
                 "question": "Is AWS a cloud provider?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Cloud",
                 "emoji": "☁️💾",
                 "question": "Is cloud reduces hardware costs?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Storage",
                 "emoji": "📦💽",
                 "question": "Is cloud storage scalable?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Services",
@@ -1572,50 +1572,50 @@ const technologyQuestions = {
                 "emoji": "☁️🌍",
                 "question": "Is cloud accessible anywhere?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Computing",
                 "emoji": "💻⚡",
                 "question": "Is cloud offers flexible resources?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Services",
                 "emoji": "🌐🎯",
                 "question": "Is Google Cloud a cloud platform?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Cloud",
                 "emoji": "☁️🔒",
                 "question": "Is cloud security important?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Backup",
                 "emoji": "💾🔄",
                 "question": "Is cloud provides backup solutions?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -1624,10 +1624,10 @@ const technologyQuestions = {
                 "emoji": "☁️💻",
                 "question": "What defines cloud computing?",
                 "options": [
-                    "Internet-based computing",
-                    "Local storage"
+                    "Local storage",
+                    "Internet-based computing"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Services",
@@ -1684,30 +1684,30 @@ const technologyQuestions = {
                 "emoji": "💻⚡",
                 "question": "What does the acronym serverless stand for?",
                 "options": [
-                    "No servers exist",
-                    "No server management needed"
+                    "No server management needed",
+                    "No servers exist"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Services",
                 "emoji": "🌐🎯",
                 "question": "What is S3?",
                 "options": [
-                    "Database",
-                    "Amazon object storage"
+                    "Amazon object storage",
+                    "Database"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Cloud",
                 "emoji": "☁️🔒",
                 "question": "What does the acronym VPC stand for?",
                 "options": [
-                    "Virtual Public Connection",
-                    "Virtual Private Cloud"
+                    "Virtual Private Cloud",
+                    "Virtual Public Connection"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Backup",
@@ -1726,11 +1726,11 @@ const technologyQuestions = {
                 "emoji": "☁️💻",
                 "question": "What is hybrid cloud?",
                 "options": [
+                    "Public only",
                     "Mix of public and private cloud",
-                    "Private only",
-                    "Public only"
+                    "Private only"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Services",
@@ -1738,10 +1738,10 @@ const technologyQuestions = {
                 "question": "What does the acronym Lambda stand for?",
                 "options": [
                     "Storage",
-                    "Database",
-                    "Serverless compute service"
+                    "Serverless compute service",
+                    "Database"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Cloud",
@@ -1759,33 +1759,33 @@ const technologyQuestions = {
                 "emoji": "📦💽",
                 "question": "What is object storage?",
                 "options": [
+                    "No storage",
                     "Flat data structure",
-                    "Hierarchical files",
-                    "No storage"
+                    "Hierarchical files"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Services",
                 "emoji": "🌐🔧",
                 "question": "What does the acronym Kubernetes stand for?",
                 "options": [
-                    "Container orchestration",
                     "Programming language",
+                    "Container orchestration",
                     "Database"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Cloud",
                 "emoji": "☁️🌍",
                 "question": "What does the acronym CDN stand for?",
                 "options": [
+                    "Cloud Database Network",
                     "Central Data Node",
-                    "Content Delivery Network",
-                    "Cloud Database Network"
+                    "Content Delivery Network"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Computing",
@@ -1803,11 +1803,11 @@ const technologyQuestions = {
                 "emoji": "🌐🎯",
                 "question": "What does the acronym RDS stand for?",
                 "options": [
+                    "Relational Database Service",
                     "Remote Data Storage",
-                    "Real-time Data System",
-                    "Relational Database Service"
+                    "Real-time Data System"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Cloud",
@@ -1815,8 +1815,8 @@ const technologyQuestions = {
                 "question": "What does the acronym IAM stand for?",
                 "options": [
                     "Identity and Access Management",
-                    "Internet Access Manager",
-                    "Integrated App Module"
+                    "Integrated App Module",
+                    "Internet Access Manager"
                 ],
                 "correct": 0
             },
@@ -1825,9 +1825,9 @@ const technologyQuestions = {
                 "emoji": "💾🔄",
                 "question": "What is disaster recovery?",
                 "options": [
-                    "No recovery",
+                    "Restore after failure",
                     "Regular backup",
-                    "Restore after failure"
+                    "No recovery"
                 ],
                 "correct": 1
             }
@@ -1838,36 +1838,36 @@ const technologyQuestions = {
                 "emoji": "☁️💻",
                 "question": "What is typical cloud cost savings?",
                 "options": [
-                    "20-40%",
-                    "5%",
+                    "90%",
                     "0%",
-                    "90%"
+                    "20-40%",
+                    "5%"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Services",
                 "emoji": "🌐📦",
                 "question": "What is the CAP theorem?",
                 "options": [
+                    "Central Administration Panel",
                     "Compute and Performance",
                     "Cloud Access Protocol",
-                    "Central Administration Panel",
                     "Consistency, Availability, Partition tolerance"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Cloud",
                 "emoji": "☁️💾",
                 "question": "What is eventual consistency?",
                 "options": [
-                    "Random state",
                     "Immediate consistency",
                     "No consistency",
-                    "Data becomes consistent over time"
+                    "Data becomes consistent over time",
+                    "Random state"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Storage",
@@ -1875,11 +1875,11 @@ const technologyQuestions = {
                 "question": "What are the storage classes in S3?",
                 "options": [
                     "Primary, Secondary",
-                    "Standard, IA, Glacier, Deep Archive",
                     "Fast, Slow",
-                    "Hot, Cold"
+                    "Hot, Cold",
+                    "Standard, IA, Glacier, Deep Archive"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Services",
@@ -1898,36 +1898,36 @@ const technologyQuestions = {
                 "emoji": "☁️🌍",
                 "question": "What is cloud bursting?",
                 "options": [
+                    "Scale to public cloud when needed",
                     "Cost increase",
                     "Data transfer",
-                    "Scale to public cloud when needed",
                     "Cloud failure"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Computing",
                 "emoji": "💻⚡",
                 "question": "What is spot instance?",
                 "options": [
-                    "No discount",
-                    "Premium service",
+                    "Unused cloud capacity at discount",
                     "Reserved capacity",
-                    "Unused cloud capacity at discount"
+                    "Premium service",
+                    "No discount"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Services",
                 "emoji": "🌐🎯",
                 "question": "What does the acronym DynamoDB stand for?",
                 "options": [
-                    "SQL database",
-                    "File storage",
                     "NoSQL database service",
-                    "Compute service"
+                    "SQL database",
+                    "Compute service",
+                    "File storage"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Cloud",
@@ -1935,9 +1935,9 @@ const technologyQuestions = {
                 "question": "What is zero trust security?",
                 "options": [
                     "Perimeter-based",
-                    "Trust everyone",
                     "Never trust, always verify",
-                    "No security"
+                    "No security",
+                    "Trust everyone"
                 ],
                 "correct": 0
             },
@@ -1946,12 +1946,12 @@ const technologyQuestions = {
                 "emoji": "💾🔄",
                 "question": "What is RPO and RTO?",
                 "options": [
-                    "Recovery Point/Time Objective",
-                    "Real Performance Outcome",
+                    "Resource Planning Options",
                     "Remote Process Orchestration",
-                    "Resource Planning Options"
+                    "Real Performance Outcome",
+                    "Recovery Point/Time Objective"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -2034,10 +2034,10 @@ const technologyQuestions = {
                 "emoji": "⚠️🦠",
                 "question": "Is malware harmful software?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Security",
@@ -2104,20 +2104,20 @@ const technologyQuestions = {
                 "emoji": "🔐👤",
                 "question": "Is privacy protects personal data?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Network",
                 "emoji": "🌐🛡️",
                 "question": "Is vPN encrypts internet traffic?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -2136,10 +2136,10 @@ const technologyQuestions = {
                 "emoji": "⚠️🦠",
                 "question": "What does the acronym ransomware stand for?",
                 "options": [
-                    "Antivirus software",
-                    "Malware that encrypts files"
+                    "Malware that encrypts files",
+                    "Antivirus software"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Security",
@@ -2166,20 +2166,20 @@ const technologyQuestions = {
                 "emoji": "🌐🔒",
                 "question": "What is DDoS attack?",
                 "options": [
-                    "Database Download Service",
-                    "Distributed Denial of Service"
+                    "Distributed Denial of Service",
+                    "Database Download Service"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Security",
                 "emoji": "🔑✅",
                 "question": "What does the acronym MFA stand for?",
                 "options": [
-                    "Multi-Factor Authentication",
-                    "Main File Access"
+                    "Main File Access",
+                    "Multi-Factor Authentication"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Threats",
@@ -2196,10 +2196,10 @@ const technologyQuestions = {
                 "emoji": "🔒📱",
                 "question": "What is penetration testing?",
                 "options": [
-                    "Hardware testing",
-                    "Testing security defenses"
+                    "Testing security defenses",
+                    "Hardware testing"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Privacy",
@@ -2216,10 +2216,10 @@ const technologyQuestions = {
                 "emoji": "🌐🛡️",
                 "question": "What does the acronym IDS stand for?",
                 "options": [
-                    "Internet Data Service",
-                    "Intrusion Detection System"
+                    "Intrusion Detection System",
+                    "Internet Data Service"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -2228,20 +2228,20 @@ const technologyQuestions = {
                 "emoji": "🔒🛡️",
                 "question": "What is defense in depth?",
                 "options": [
-                    "Multiple layers of security",
                     "Single firewall",
+                    "Multiple layers of security",
                     "No security"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Threats",
                 "emoji": "⚠️🦠",
                 "question": "What does the acronym APT stand for?",
                 "options": [
-                    "Application Programming Tool",
+                    "Automated Process Testing",
                     "Advanced Persistent Threat",
-                    "Automated Process Testing"
+                    "Application Programming Tool"
                 ],
                 "correct": 1
             },
@@ -2261,44 +2261,44 @@ const technologyQuestions = {
                 "emoji": "🎣📧",
                 "question": "What is spear phishing?",
                 "options": [
-                    "Targeted phishing attack",
                     "Generic email",
+                    "Targeted phishing attack",
                     "Fishing sport"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Network",
                 "emoji": "🌐🔒",
                 "question": "What is man-in-the-middle attack?",
                 "options": [
-                    "Intercept communication",
                     "Network routing",
-                    "Firewall rule"
+                    "Firewall rule",
+                    "Intercept communication"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Security",
                 "emoji": "🔑✅",
                 "question": "What is biometric authentication?",
                 "options": [
-                    "No authentication",
+                    "Use physical characteristics",
                     "Password only",
-                    "Use physical characteristics"
+                    "No authentication"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Threats",
                 "emoji": "🦠💻",
                 "question": "What is SQL injection?",
                 "options": [
-                    "SQL query",
                     "Database attack via input",
-                    "Database backup"
+                    "Database backup",
+                    "SQL query"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Security",
@@ -2306,8 +2306,8 @@ const technologyQuestions = {
                 "question": "What does the acronym SIEM stand for?",
                 "options": [
                     "Software Implementation Module",
-                    "System Integration Engine",
-                    "Security Information and Event Management"
+                    "Security Information and Event Management",
+                    "System Integration Engine"
                 ],
                 "correct": 0
             },
@@ -2317,8 +2317,8 @@ const technologyQuestions = {
                 "question": "What is data anonymization?",
                 "options": [
                     "Remove identifying information",
-                    "Delete data",
-                    "Store data"
+                    "Store data",
+                    "Delete data"
                 ],
                 "correct": 0
             },
@@ -2327,9 +2327,9 @@ const technologyQuestions = {
                 "emoji": "🌐🛡️",
                 "question": "What is network segmentation?",
                 "options": [
-                    "Divide network into zones",
+                    "No division",
                     "Combine networks",
-                    "No division"
+                    "Divide network into zones"
                 ],
                 "correct": 1
             }
@@ -2340,21 +2340,21 @@ const technologyQuestions = {
                 "emoji": "🔒🛡️",
                 "question": "What percentage of breaches involve human error?",
                 "options": [
-                    "~85%",
-                    "10%",
                     "0%",
+                    "10%",
+                    "~85%",
                     "50%"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Threats",
                 "emoji": "⚠️🦠",
                 "question": "What is the average cost of a data breach?",
                 "options": [
-                    "$100M",
-                    "$4.35M",
                     "$10K",
+                    "$4.35M",
+                    "$100M",
                     "$100K"
                 ],
                 "correct": 1
@@ -2364,24 +2364,24 @@ const technologyQuestions = {
                 "emoji": "🔐💻",
                 "question": "What is AES encryption key size?",
                 "options": [
-                    "128, 192, or 256 bits",
                     "1024 bits",
                     "512 bits",
+                    "128, 192, or 256 bits",
                     "64 bits"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Threats",
                 "emoji": "🎣📧",
                 "question": "What percentage of emails are phishing?",
                 "options": [
-                    "50%",
                     "~1-3%",
                     "0.01%",
-                    "90%"
+                    "90%",
+                    "50%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Network",
@@ -2400,36 +2400,36 @@ const technologyQuestions = {
                 "emoji": "🔑✅",
                 "question": "What does the acronym RBAC stand for?",
                 "options": [
-                    "Role-Based Access Control",
                     "Remote Backup Access Center",
-                    "Rapid Business Application Cloud",
-                    "Real-time Blockchain Audit Chain"
+                    "Role-Based Access Control",
+                    "Real-time Blockchain Audit Chain",
+                    "Rapid Business Application Cloud"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Threats",
                 "emoji": "🦠💻",
                 "question": "What does the acronym cryptojacking stand for?",
                 "options": [
-                    "Unauthorized crypto mining",
                     "Wallet theft",
+                    "Blockchain hacking",
                     "Stealing cryptocurrency",
-                    "Blockchain hacking"
+                    "Unauthorized crypto mining"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Security",
                 "emoji": "🔒📱",
                 "question": "What is bug bounty program?",
                 "options": [
+                    "Employee bonus",
                     "Pay for finding vulnerabilities",
                     "Software testing",
-                    "Employee bonus",
                     "Marketing campaign"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Privacy",
@@ -2437,9 +2437,9 @@ const technologyQuestions = {
                 "question": "What does the acronym PII stand for?",
                 "options": [
                     "Personally Identifiable Information",
-                    "Private Internet Interface",
                     "Public Identity Index",
-                    "Protected Internal Infrastructure"
+                    "Protected Internal Infrastructure",
+                    "Private Internet Interface"
                 ],
                 "correct": 0
             },
@@ -2448,12 +2448,12 @@ const technologyQuestions = {
                 "emoji": "🌐🛡️",
                 "question": "What is honeypot in security?",
                 "options": [
-                    "Firewall rule",
-                    "Sweet food",
                     "Decoy system to attract attackers",
-                    "Database backup"
+                    "Firewall rule",
+                    "Database backup",
+                    "Sweet food"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "extreme": [
@@ -2526,20 +2526,20 @@ const technologyQuestions = {
                 "emoji": "📊💾",
                 "question": "Is data science analyzes data?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Analysis",
                 "emoji": "📈🔍",
                 "question": "Is statistics help understand data?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "ML",
@@ -2566,10 +2566,10 @@ const technologyQuestions = {
                 "emoji": "📉🎨",
                 "question": "Is charts visualize data?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Analysis",
@@ -2606,10 +2606,10 @@ const technologyQuestions = {
                 "emoji": "📉📊",
                 "question": "Is dashboards display metrics?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Analysis",
@@ -2628,40 +2628,40 @@ const technologyQuestions = {
                 "emoji": "📊💾",
                 "question": "What is data science?",
                 "options": [
-                    "Extract insights from data",
-                    "Build websites"
+                    "Build websites",
+                    "Extract insights from data"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Analysis",
                 "emoji": "📈🔍",
                 "question": "What is exploratory data analysis?",
                 "options": [
-                    "Final report",
-                    "Investigate data patterns"
+                    "Investigate data patterns",
+                    "Final report"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "ML",
                 "emoji": "🤖📊",
                 "question": "What is supervised learning?",
                 "options": [
-                    "No labels",
-                    "Learning with labeled data"
+                    "Learning with labeled data",
+                    "No labels"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Data",
                 "emoji": "📊🧹",
                 "question": "What is data wrangling?",
                 "options": [
-                    "Clean and transform data",
-                    "Store data"
+                    "Store data",
+                    "Clean and transform data"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Visualization",
@@ -2678,30 +2678,30 @@ const technologyQuestions = {
                 "emoji": "📈💡",
                 "question": "What does the acronym pandas stand for?",
                 "options": [
-                    "Animal",
-                    "Python data library"
+                    "Python data library",
+                    "Animal"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "ML",
                 "emoji": "🤖🧠",
                 "question": "What is neural network?",
                 "options": [
-                    "AI model inspired by brain",
-                    "Computer network"
+                    "Computer network",
+                    "AI model inspired by brain"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Data",
                 "emoji": "📊🗄️",
                 "question": "What is big data?",
                 "options": [
-                    "Small files",
-                    "Large complex datasets"
+                    "Large complex datasets",
+                    "Small files"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Visualization",
@@ -2730,88 +2730,88 @@ const technologyQuestions = {
                 "emoji": "📊💾",
                 "question": "What is feature engineering?",
                 "options": [
-                    "Store data",
                     "Create meaningful features",
+                    "Store data",
                     "Delete data"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Analysis",
                 "emoji": "📈🔍",
                 "question": "What is hypothesis testing?",
                 "options": [
-                    "Random guessing",
                     "No testing",
-                    "Statistical validation"
+                    "Statistical validation",
+                    "Random guessing"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "ML",
                 "emoji": "🤖📊",
                 "question": "What is deep learning?",
                 "options": [
-                    "Shallow network",
                     "No learning",
-                    "Neural networks with many layers"
+                    "Neural networks with many layers",
+                    "Shallow network"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Data",
                 "emoji": "📊🧹",
                 "question": "What is missing data imputation?",
                 "options": [
+                    "Ignore gaps",
                     "Delete data",
-                    "Fill missing values",
-                    "Ignore gaps"
+                    "Fill missing values"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Visualization",
                 "emoji": "📉🎨",
                 "question": "What is D3.js?",
                 "options": [
+                    "Framework",
                     "Database",
-                    "JavaScript visualization library",
-                    "Framework"
+                    "JavaScript visualization library"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Analysis",
                 "emoji": "📈💡",
                 "question": "What is scikit-learn?",
                 "options": [
-                    "Web framework",
                     "Python ML library",
-                    "Database"
+                    "Database",
+                    "Web framework"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "ML",
                 "emoji": "🤖🧠",
                 "question": "What does the acronym overfitting stand for?",
                 "options": [
+                    "No fitting",
                     "Model too specific to training data",
-                    "Perfect model",
-                    "No fitting"
+                    "Perfect model"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Data",
                 "emoji": "📊🗄️",
                 "question": "What is data lake?",
                 "options": [
-                    "Structured database",
                     "Raw data repository",
-                    "Water storage"
+                    "Water storage",
+                    "Structured database"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Visualization",
@@ -2819,8 +2819,8 @@ const technologyQuestions = {
                 "question": "What is heat map?",
                 "options": [
                     "Color-coded data matrix",
-                    "No visualization",
-                    "Temperature chart"
+                    "Temperature chart",
+                    "No visualization"
                 ],
                 "correct": 0
             },
@@ -2829,11 +2829,11 @@ const technologyQuestions = {
                 "emoji": "📈🔢",
                 "question": "What is principal component analysis?",
                 "options": [
-                    "Dimensionality reduction",
                     "No analysis",
+                    "Dimensionality reduction",
                     "Data collection"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -2842,22 +2842,22 @@ const technologyQuestions = {
                 "emoji": "📊💾",
                 "question": "What percentage of data science work is data preparation?",
                 "options": [
-                    "50%",
-                    "~80%",
+                    "5%",
                     "10%",
-                    "5%"
+                    "50%",
+                    "~80%"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Analysis",
                 "emoji": "📈🔍",
                 "question": "What is p-value significance level?",
                 "options": [
-                    "99%",
+                    "50%",
                     "0.05 or 5%",
                     "1%",
-                    "50%"
+                    "99%"
                 ],
                 "correct": 1
             },
@@ -2866,12 +2866,12 @@ const technologyQuestions = {
                 "emoji": "🤖📊",
                 "question": "What is the curse of dimensionality?",
                 "options": [
-                    "No issues",
-                    "Too little data",
                     "Perfect dimensions",
-                    "Problems with high-dimensional data"
+                    "Problems with high-dimensional data",
+                    "Too little data",
+                    "No issues"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Data",
@@ -2880,8 +2880,8 @@ const technologyQuestions = {
                 "options": [
                     "95%+ accuracy",
                     "100%",
-                    "50%",
-                    "10%"
+                    "10%",
+                    "50%"
                 ],
                 "correct": 1
             },
@@ -2891,11 +2891,11 @@ const technologyQuestions = {
                 "question": "What is Tufte data-ink ratio principle?",
                 "options": [
                     "Random design",
-                    "Maximize data, minimize ink",
                     "More decoration",
+                    "Maximize data, minimize ink",
                     "No principle"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Analysis",
@@ -2903,9 +2903,9 @@ const technologyQuestions = {
                 "question": "What is cross-validation?",
                 "options": [
                     "Single test",
-                    "Split data for validation",
                     "Random split",
-                    "No validation"
+                    "No validation",
+                    "Split data for validation"
                 ],
                 "correct": 0
             },
@@ -2914,48 +2914,48 @@ const technologyQuestions = {
                 "emoji": "🤖🧠",
                 "question": "What is typical train-test split?",
                 "options": [
-                    "90-10",
-                    "70-30 or 80-20",
+                    "50-50",
                     "100-0",
-                    "50-50"
+                    "90-10",
+                    "70-30 or 80-20"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Data",
                 "emoji": "📊🗄️",
                 "question": "What is ETL in data engineering?",
                 "options": [
-                    "Extract, Transform, Load",
+                    "Evaluate, Train, Learn",
                     "Execute, Test, Launch",
-                    "Export, Transfer, Log",
-                    "Evaluate, Train, Learn"
+                    "Extract, Transform, Load",
+                    "Export, Transfer, Log"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Visualization",
                 "emoji": "📉📊",
                 "question": "What is the Gestalt principle?",
                 "options": [
+                    "Color scheme",
                     "No principle",
-                    "Chart type",
                     "How humans perceive visual elements",
-                    "Color scheme"
+                    "Chart type"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Analysis",
                 "emoji": "📈🔢",
                 "question": "What is Bayes theorem used for?",
                 "options": [
+                    "Sort data",
                     "Update probability with new evidence",
                     "Visualize",
-                    "Delete records",
-                    "Sort data"
+                    "Delete records"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -3068,40 +3068,40 @@ const technologyQuestions = {
                 "emoji": "👁️🤖",
                 "question": "AI can recognize images?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Language",
                 "emoji": "💬🤖",
                 "question": "Is aI understands natural language?",
                 "options": [
-                    "True",
-                    "False"
-                ],
-                "correct": 0
-            },
-            {
-                "topic": "Applications",
-                "emoji": "🚗🤖",
-                "question": "Is aI enables self-driving cars?",
-                "options": [
                     "False",
                     "True"
                 ],
                 "correct": 1
             },
             {
+                "topic": "Applications",
+                "emoji": "🚗🤖",
+                "question": "Is aI enables self-driving cars?",
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "correct": 0
+            },
+            {
                 "topic": "AI",
                 "emoji": "🤖🎮",
                 "question": "Is aI plays games better than humans?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Learning",
@@ -3140,10 +3140,10 @@ const technologyQuestions = {
                 "emoji": "📚🤖",
                 "question": "What defines deep learning?",
                 "options": [
-                    "Shallow learning",
-                    "ML with neural networks"
+                    "ML with neural networks",
+                    "Shallow learning"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Applications",
@@ -3220,10 +3220,10 @@ const technologyQuestions = {
                 "emoji": "🏥🤖",
                 "question": "What is medical AI?",
                 "options": [
-                    "AI for healthcare",
-                    "Medical device"
+                    "Medical device",
+                    "AI for healthcare"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -3232,11 +3232,11 @@ const technologyQuestions = {
                 "emoji": "🤖🧠",
                 "question": "What does the acronym AGI stand for?",
                 "options": [
+                    "Advanced Graphics Interface",
                     "Automated Group Intelligence",
-                    "Artificial General Intelligence",
-                    "Advanced Graphics Interface"
+                    "Artificial General Intelligence"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Learning",
@@ -3244,21 +3244,21 @@ const technologyQuestions = {
                 "question": "What is transformer architecture?",
                 "options": [
                     "Simple network",
-                    "Traditional RNN",
-                    "Attention-based neural network"
+                    "Attention-based neural network",
+                    "Traditional RNN"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Applications",
                 "emoji": "🎯🤖",
                 "question": "What is sentiment analysis?",
                 "options": [
-                    "Grammar check",
                     "Determine emotional tone",
-                    "Translation"
+                    "Translation",
+                    "Grammar check"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "AI",
@@ -3277,10 +3277,10 @@ const technologyQuestions = {
                 "question": "What is object detection?",
                 "options": [
                     "Display images",
-                    "Identify and locate objects",
-                    "Take photos"
+                    "Take photos",
+                    "Identify and locate objects"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Language",
@@ -3298,11 +3298,11 @@ const technologyQuestions = {
                 "emoji": "🚗🤖",
                 "question": "What is LIDAR in autonomous vehicles?",
                 "options": [
-                    "Light detection and ranging",
                     "GPS system",
-                    "Camera"
+                    "Camera",
+                    "Light detection and ranging"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "AI",
@@ -3320,22 +3320,22 @@ const technologyQuestions = {
                 "emoji": "📊🤖",
                 "question": "What is ensemble learning?",
                 "options": [
-                    "Single model",
+                    "Combine multiple models",
                     "No learning",
-                    "Combine multiple models"
+                    "Single model"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Applications",
                 "emoji": "🏥🤖",
                 "question": "What is radiology AI?",
                 "options": [
-                    "Patient records",
                     "Lab tests",
+                    "Patient records",
                     "Analyze medical images"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -3344,46 +3344,46 @@ const technologyQuestions = {
                 "emoji": "🤖🧠",
                 "question": "What is the Turing Test?",
                 "options": [
-                    "Test if machine exhibits human intelligence",
-                    "Graphics test",
+                    "Memory test",
                     "Speed test",
-                    "Memory test"
+                    "Graphics test",
+                    "Test if machine exhibits human intelligence"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Learning",
                 "emoji": "📚🤖",
                 "question": "What is the vanishing gradient problem?",
                 "options": [
-                    "Perfect gradients",
                     "Too large gradients",
                     "Gradients become too small in backpropagation",
+                    "Perfect gradients",
                     "No problem"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Applications",
                 "emoji": "🎯🤖",
                 "question": "What is GPT in ChatGPT?",
                 "options": [
+                    "Global Pattern Training",
                     "Graphical Processing Tool",
-                    "Generative Pre-trained Transformer",
                     "General Purpose Text",
-                    "Global Pattern Training"
+                    "Generative Pre-trained Transformer"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "AI",
                 "emoji": "🤖💡",
                 "question": "What is the credit assignment problem?",
                 "options": [
-                    "Determine which actions led to outcome",
+                    "Payment system",
                     "Assign credits",
                     "No problem",
-                    "Payment system"
+                    "Determine which actions led to outcome"
                 ],
                 "correct": 1
             },
@@ -3392,36 +3392,36 @@ const technologyQuestions = {
                 "emoji": "👁️🤖",
                 "question": "What is YOLO in computer vision?",
                 "options": [
-                    "Video player",
                     "Graphics engine",
-                    "You Only Look Once (object detection)",
-                    "Image filter"
+                    "Video player",
+                    "Image filter",
+                    "You Only Look Once (object detection)"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Language",
                 "emoji": "💬🤖",
                 "question": "What is few-shot learning?",
                 "options": [
-                    "One example only",
                     "Many examples",
+                    "Learn from few examples",
                     "No examples",
-                    "Learn from few examples"
+                    "One example only"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Applications",
                 "emoji": "🚗🤖",
                 "question": "What level is full self-driving?",
                 "options": [
-                    "Level 5",
-                    "Level 1",
                     "Level 10",
-                    "Level 0"
+                    "Level 5",
+                    "Level 0",
+                    "Level 1"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "AI",
@@ -3429,9 +3429,9 @@ const technologyQuestions = {
                 "question": "What did AlphaGo achieve?",
                 "options": [
                     "Beat world Go champion",
-                    "No achievement",
+                    "Play chess",
                     "Solve puzzles",
-                    "Play chess"
+                    "No achievement"
                 ],
                 "correct": 0
             },
@@ -3441,8 +3441,8 @@ const technologyQuestions = {
                 "question": "What is catastrophic forgetting?",
                 "options": [
                     "No forgetting",
-                    "Neural network forgets old tasks",
                     "Perfect memory",
+                    "Neural network forgets old tasks",
                     "Remembers everything"
                 ],
                 "correct": 0
@@ -3454,8 +3454,8 @@ const technologyQuestions = {
                 "options": [
                     "50%",
                     "100%",
-                    "10%",
-                    "~90-95% for specific tasks"
+                    "~90-95% for specific tasks",
+                    "10%"
                 ],
                 "correct": 1
             }
@@ -3530,10 +3530,10 @@ const technologyQuestions = {
                 "emoji": "⛓️💎",
                 "question": "Is blockchain a distributed ledger?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Crypto",
@@ -3550,10 +3550,10 @@ const technologyQuestions = {
                 "emoji": "⛓️🔒",
                 "question": "Is blockchain secure?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Crypto",
@@ -3610,10 +3610,10 @@ const technologyQuestions = {
                 "emoji": "⛓️🔓",
                 "question": "Is blockchain transparent?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Crypto",
@@ -3632,10 +3632,10 @@ const technologyQuestions = {
                 "emoji": "⛓️💎",
                 "question": "What is blockchain technology?",
                 "options": [
-                    "Single database",
-                    "Distributed ledger technology"
+                    "Distributed ledger technology",
+                    "Single database"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Crypto",
@@ -3652,20 +3652,20 @@ const technologyQuestions = {
                 "emoji": "⛓️🔒",
                 "question": "What is a block?",
                 "options": [
-                    "Container of transactions",
-                    "Physical box"
+                    "Physical box",
+                    "Container of transactions"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Crypto",
                 "emoji": "💎💸",
                 "question": "What does the acronym Ethereum stand for?",
                 "options": [
-                    "Payment app",
-                    "Blockchain platform"
+                    "Blockchain platform",
+                    "Payment app"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Smart Contracts",
@@ -3722,10 +3722,10 @@ const technologyQuestions = {
                 "emoji": "💸🔐",
                 "question": "What is a wallet?",
                 "options": [
-                    "Physical wallet",
-                    "Store crypto keys"
+                    "Store crypto keys",
+                    "Physical wallet"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -3735,8 +3735,8 @@ const technologyQuestions = {
                 "question": "What is consensus mechanism?",
                 "options": [
                     "No agreement",
-                    "Agreement protocol for validation",
-                    "Single approval"
+                    "Single approval",
+                    "Agreement protocol for validation"
                 ],
                 "correct": 0
             },
@@ -3745,11 +3745,11 @@ const technologyQuestions = {
                 "emoji": "💰🔐",
                 "question": "What is proof of work?",
                 "options": [
+                    "Mining-based consensus",
                     "No proof",
-                    "Proof of identity",
-                    "Mining-based consensus"
+                    "Proof of identity"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Blockchain",
@@ -3768,32 +3768,32 @@ const technologyQuestions = {
                 "question": "What is a fork in blockchain?",
                 "options": [
                     "Utensil",
-                    "Protocol change creating split",
-                    "No change"
+                    "No change",
+                    "Protocol change creating split"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Smart Contracts",
                 "emoji": "📝⛓️",
                 "question": "What does the acronym Solidity stand for?",
                 "options": [
-                    "State of matter",
                     "Database",
-                    "Smart contract programming language"
+                    "Smart contract programming language",
+                    "State of matter"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Blockchain",
                 "emoji": "⛓️📊",
                 "question": "What is a node?",
                 "options": [
+                    "Network cable",
                     "No connection",
-                    "Computer maintaining blockchain",
-                    "Network cable"
+                    "Computer maintaining blockchain"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Crypto",
@@ -3801,10 +3801,10 @@ const technologyQuestions = {
                 "question": "What does the acronym DeFi stand for?",
                 "options": [
                     "Default Interface",
-                    "Defined Finance",
-                    "Decentralized Finance"
+                    "Decentralized Finance",
+                    "Defined Finance"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Mining",
@@ -3822,22 +3822,22 @@ const technologyQuestions = {
                 "emoji": "⛓️🔓",
                 "question": "What is a public blockchain?",
                 "options": [
-                    "No access",
+                    "Private access",
                     "Open to everyone",
-                    "Private access"
+                    "No access"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Crypto",
                 "emoji": "💸🔐",
                 "question": "What is a private key?",
                 "options": [
+                    "Public information",
                     "Secret key for wallet access",
-                    "No security",
-                    "Public information"
+                    "No security"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -3846,21 +3846,21 @@ const technologyQuestions = {
                 "emoji": "⛓️💎",
                 "question": "What is the blockchain trilemma?",
                 "options": [
-                    "Perfect solution",
                     "No problem",
                     "Decentralization, Security, Scalability trade-off",
+                    "Perfect solution",
                     "Three blockchains"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Crypto",
                 "emoji": "💰🔐",
                 "question": "What is Bitcoin block time?",
                 "options": [
-                    "1 day",
-                    "1 hour",
                     "~10 minutes",
+                    "1 hour",
+                    "1 day",
                     "1 second"
                 ],
                 "correct": 1
@@ -3870,34 +3870,34 @@ const technologyQuestions = {
                 "emoji": "⛓️🔒",
                 "question": "What is the 51% attack?",
                 "options": [
-                    "No attack",
                     "100% control",
                     "Small attack",
+                    "No attack",
                     "Majority control of network"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Crypto",
                 "emoji": "💎💸",
                 "question": "What is market cap of Bitcoin?",
                 "options": [
-                    "$500B-$1T range",
                     "$10T",
+                    "$500B-$1T range",
                     "$1B",
                     "$100M"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Smart Contracts",
                 "emoji": "📝⛓️",
                 "question": "What is gas in Ethereum?",
                 "options": [
-                    "Transaction fee unit",
-                    "No cost",
                     "Fixed price",
-                    "Fuel type"
+                    "No cost",
+                    "Fuel type",
+                    "Transaction fee unit"
                 ],
                 "correct": 1
             },
@@ -3906,36 +3906,36 @@ const technologyQuestions = {
                 "emoji": "⛓️📊",
                 "question": "What does the acronym sharding stand for?",
                 "options": [
-                    "Break blockchain",
-                    "Delete data",
                     "Partition blockchain for scalability",
-                    "No scaling"
+                    "Delete data",
+                    "No scaling",
+                    "Break blockchain"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Crypto",
                 "emoji": "💰🌐",
                 "question": "What is an NFT?",
                 "options": [
+                    "No Fixed Type",
                     "Non-Fungible Token",
                     "New Financial Tool",
-                    "Network File Transfer",
-                    "No Fixed Type"
+                    "Network File Transfer"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Mining",
                 "emoji": "⛏️💎",
                 "question": "What is hash rate?",
                 "options": [
-                    "No measure",
-                    "Random number",
                     "Storage size",
-                    "Mining power per second"
+                    "Mining power per second",
+                    "Random number",
+                    "No measure"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Blockchain",
@@ -3943,8 +3943,8 @@ const technologyQuestions = {
                 "question": "What is Byzantine Fault Tolerance?",
                 "options": [
                     "No tolerance",
-                    "Consensus despite faulty nodes",
                     "Single failure",
+                    "Consensus despite faulty nodes",
                     "Perfect nodes"
                 ],
                 "correct": 0
@@ -3954,12 +3954,12 @@ const technologyQuestions = {
                 "emoji": "💸🔐",
                 "question": "What is cold storage?",
                 "options": [
+                    "Offline wallet storage",
                     "Hot storage",
                     "No storage",
-                    "Offline wallet storage",
                     "Online wallet"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -4032,10 +4032,10 @@ const technologyQuestions = {
                 "emoji": "🌐📱",
                 "question": "Is ioT connects devices to internet?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Devices",
@@ -4052,20 +4052,20 @@ const technologyQuestions = {
                 "emoji": "🌐🔌",
                 "question": "Is ioT devices collect data?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sensors",
                 "emoji": "📡🌡️",
                 "question": "Is sensors measure physical conditions?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Devices",
@@ -4082,10 +4082,10 @@ const technologyQuestions = {
                 "emoji": "🌐🏠",
                 "question": "Is ioT enables remote control?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Applications",
@@ -4102,30 +4102,30 @@ const technologyQuestions = {
                 "emoji": "🌐💾",
                 "question": "Is ioT generates big data?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Devices",
                 "emoji": "🔊📱",
                 "question": "Is smart speakers use IoT?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "IoT",
                 "emoji": "🌐🔒",
                 "question": "Is IoT security important?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -4144,10 +4144,10 @@ const technologyQuestions = {
                 "emoji": "📟💡",
                 "question": "What is a smart home?",
                 "options": [
-                    "Regular home",
-                    "Home with connected devices"
+                    "Home with connected devices",
+                    "Regular home"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "IoT",
@@ -4184,10 +4184,10 @@ const technologyQuestions = {
                 "emoji": "🌐🏠",
                 "question": "What is home automation?",
                 "options": [
-                    "Manual control",
-                    "Automated home control"
+                    "Automated home control",
+                    "Manual control"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Applications",
@@ -4214,10 +4214,10 @@ const technologyQuestions = {
                 "emoji": "🔊📱",
                 "question": "What does the acronym Alexa stand for?",
                 "options": [
-                    "Speaker brand",
-                    "Amazon voice assistant"
+                    "Amazon voice assistant",
+                    "Speaker brand"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "IoT",
@@ -4236,11 +4236,11 @@ const technologyQuestions = {
                 "emoji": "🌐📱",
                 "question": "What is M2M communication?",
                 "options": [
-                    "Man to Machine",
                     "Machine to Machine",
+                    "Man to Machine",
                     "Mobile to Mobile"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Devices",
@@ -4248,10 +4248,10 @@ const technologyQuestions = {
                 "question": "What does the acronym Zigbee stand for?",
                 "options": [
                     "Programming language",
-                    "Device brand",
-                    "Low-power wireless protocol"
+                    "Low-power wireless protocol",
+                    "Device brand"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "IoT",
@@ -4259,8 +4259,8 @@ const technologyQuestions = {
                 "question": "What does the acronym CoAP stand for?",
                 "options": [
                     "Cloud Access Protocol",
-                    "Constrained Application Protocol",
-                    "Computer Application Program"
+                    "Computer Application Program",
+                    "Constrained Application Protocol"
                 ],
                 "correct": 0
             },
@@ -4269,11 +4269,11 @@ const technologyQuestions = {
                 "emoji": "📡🌡️",
                 "question": "What is an actuator?",
                 "options": [
+                    "Data sensor",
                     "Display",
-                    "Device that performs action",
-                    "Data sensor"
+                    "Device that performs action"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Devices",
@@ -4281,10 +4281,10 @@ const technologyQuestions = {
                 "question": "What is fitness tracker?",
                 "options": [
                     "Calculator",
-                    "Timer",
-                    "Wearable monitoring activity"
+                    "Wearable monitoring activity",
+                    "Timer"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "IoT",
@@ -4292,8 +4292,8 @@ const technologyQuestions = {
                 "question": "What is a smart thermostat?",
                 "options": [
                     "Heater",
-                    "Connected temperature controller",
-                    "Regular thermostat"
+                    "Regular thermostat",
+                    "Connected temperature controller"
                 ],
                 "correct": 0
             },
@@ -4302,9 +4302,9 @@ const technologyQuestions = {
                 "emoji": "🚗📡",
                 "question": "What is V2X communication?",
                 "options": [
-                    "Voice to Text",
+                    "Video to XML",
                     "Vehicle to Everything",
-                    "Video to XML"
+                    "Voice to Text"
                 ],
                 "correct": 1
             },
@@ -4313,33 +4313,33 @@ const technologyQuestions = {
                 "emoji": "🌐💾",
                 "question": "What is fog computing?",
                 "options": [
-                    "No computing",
                     "Cloud computing",
-                    "Distributed edge computing"
+                    "Distributed edge computing",
+                    "No computing"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Devices",
                 "emoji": "🔊📱",
                 "question": "What is a smart plug?",
                 "options": [
+                    "USB port",
                     "Regular plug",
-                    "Connected power outlet",
-                    "USB port"
+                    "Connected power outlet"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "IoT",
                 "emoji": "🌐🔒",
                 "question": "What is device provisioning?",
                 "options": [
+                    "Configure and register device",
                     "Delete device",
-                    "Power on",
-                    "Configure and register device"
+                    "Power on"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -4360,24 +4360,24 @@ const technologyQuestions = {
                 "emoji": "📟💡",
                 "question": "What is the typical IoT device lifespan?",
                 "options": [
+                    "3-5 years",
                     "1 year",
-                    "1 month",
                     "20 years",
-                    "3-5 years"
+                    "1 month"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "IoT",
                 "emoji": "🌐🔌",
                 "question": "What does the acronym LoRaWAN stand for?",
                 "options": [
-                    "Local Radio Access Network",
                     "Limited Range WAN",
                     "Long Range Wide Area Network",
-                    "Low Rate Wireless Application"
+                    "Low Rate Wireless Application",
+                    "Local Radio Access Network"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Sensors",
@@ -4386,8 +4386,8 @@ const technologyQuestions = {
                 "options": [
                     "1 Hz only",
                     "1 MHz",
-                    "1-1000 Hz depending on application",
-                    "No sampling"
+                    "No sampling",
+                    "1-1000 Hz depending on application"
                 ],
                 "correct": 1
             },
@@ -4396,33 +4396,33 @@ const technologyQuestions = {
                 "emoji": "⌚📱",
                 "question": "What does the acronym BLE stand for?",
                 "options": [
-                    "Bluetooth Low Energy",
                     "Basic Link Encryption",
-                    "Battery Life Extension",
-                    "Binary Logic Engine"
+                    "Bluetooth Low Energy",
+                    "Binary Logic Engine",
+                    "Battery Life Extension"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "IoT",
                 "emoji": "🌐🏠",
                 "question": "What is Z-Wave?",
                 "options": [
-                    "No wave",
                     "Wireless protocol for home automation",
-                    "Light wave",
-                    "Sound wave"
+                    "Sound wave",
+                    "No wave",
+                    "Light wave"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Applications",
                 "emoji": "🚗📡",
                 "question": "What is OBD-II?",
                 "options": [
-                    "Optical Beam Detector",
-                    "Operating Base Design",
                     "On-Board Diagnostics interface",
+                    "Operating Base Design",
+                    "Optical Beam Detector",
                     "Online Database"
                 ],
                 "correct": 1
@@ -4433,8 +4433,8 @@ const technologyQuestions = {
                 "question": "What is digital twin?",
                 "options": [
                     "Backup system",
-                    "No replica",
                     "Virtual replica of physical device",
+                    "No replica",
                     "Two devices"
                 ],
                 "correct": 0
@@ -4445,9 +4445,9 @@ const technologyQuestions = {
                 "question": "What is wake word detection?",
                 "options": [
                     "Sleep mode",
-                    "Activate device by voice trigger",
+                    "Manual button",
                     "No activation",
-                    "Manual button"
+                    "Activate device by voice trigger"
                 ],
                 "correct": 0
             },
@@ -4456,10 +4456,10 @@ const technologyQuestions = {
                 "emoji": "🌐🔒",
                 "question": "What percentage of IoT devices have security flaws?",
                 "options": [
-                    "10%",
-                    "0%",
                     "100%",
-                    "~70-80%"
+                    "0%",
+                    "~70-80%",
+                    "10%"
                 ],
                 "correct": 1
             }
@@ -4534,10 +4534,10 @@ const technologyQuestions = {
                 "emoji": "🔧⚙️",
                 "question": "Is devOps combines development and operations?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "CI/CD",
@@ -4554,10 +4554,10 @@ const technologyQuestions = {
                 "emoji": "🔧💻",
                 "question": "Is devOps improves collaboration?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Tools",
@@ -4574,10 +4574,10 @@ const technologyQuestions = {
                 "emoji": "📦🐳",
                 "question": "Is docker creates containers?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "DevOps",
@@ -4594,10 +4594,10 @@ const technologyQuestions = {
                 "emoji": "📊👁️",
                 "question": "Is monitoring tracks system health?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "DevOps",
@@ -4614,20 +4614,20 @@ const technologyQuestions = {
                 "emoji": "🏗️💻",
                 "question": "Is infrastructure as code manages resources?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "DevOps",
                 "emoji": "🔧📈",
                 "question": "Is devOps improves quality?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -4636,20 +4636,20 @@ const technologyQuestions = {
                 "emoji": "🔧⚙️",
                 "question": "What does the acronym DevOps stand for?",
                 "options": [
-                    "Culture of dev and ops collaboration",
-                    "Development only"
+                    "Development only",
+                    "Culture of dev and ops collaboration"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "CI/CD",
                 "emoji": "🔄🚀",
                 "question": "What does the acronym CI stand for?",
                 "options": [
-                    "Code Inspection",
-                    "Continuous Integration"
+                    "Continuous Integration",
+                    "Code Inspection"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "DevOps",
@@ -4666,40 +4666,40 @@ const technologyQuestions = {
                 "emoji": "🛠️📦",
                 "question": "What does the acronym Jenkins stand for?",
                 "options": [
-                    "Automation server",
-                    "Database"
+                    "Database",
+                    "Automation server"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Containers",
                 "emoji": "📦🐳",
                 "question": "What does the acronym containerization stand for?",
                 "options": [
-                    "Virtual machine",
-                    "Package app with dependencies"
+                    "Package app with dependencies",
+                    "Virtual machine"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "DevOps",
                 "emoji": "🔧⚡",
                 "question": "What is deployment pipeline?",
                 "options": [
-                    "Manual release",
-                    "Automated release process"
+                    "Automated release process",
+                    "Manual release"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Monitoring",
                 "emoji": "📊👁️",
                 "question": "What does the acronym observability stand for?",
                 "options": [
-                    "Understanding system internal state",
-                    "Basic monitoring"
+                    "Basic monitoring",
+                    "Understanding system internal state"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "DevOps",
@@ -4716,10 +4716,10 @@ const technologyQuestions = {
                 "emoji": "🏗️💻",
                 "question": "What does the acronym IaC stand for?",
                 "options": [
-                    "Infrastructure as Code",
-                    "Internet as Code"
+                    "Internet as Code",
+                    "Infrastructure as Code"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "DevOps",
@@ -4750,9 +4750,9 @@ const technologyQuestions = {
                 "emoji": "🔄🚀",
                 "question": "What is blue-green deployment?",
                 "options": [
-                    "No deployment",
+                    "Two identical production environments",
                     "One environment",
-                    "Two identical production environments"
+                    "No deployment"
                 ],
                 "correct": 1
             },
@@ -4761,11 +4761,11 @@ const technologyQuestions = {
                 "emoji": "🔧💻",
                 "question": "What is canary deployment?",
                 "options": [
-                    "Gradual rollout to subset",
+                    "All at once",
                     "No rollout",
-                    "All at once"
+                    "Gradual rollout to subset"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Tools",
@@ -4773,10 +4773,10 @@ const technologyQuestions = {
                 "question": "What does the acronym Ansible stand for?",
                 "options": [
                     "Programming language",
-                    "Configuration management tool",
-                    "Database"
+                    "Database",
+                    "Configuration management tool"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Containers",
@@ -4794,11 +4794,11 @@ const technologyQuestions = {
                 "emoji": "🔧⚡",
                 "question": "What is immutable infrastructure?",
                 "options": [
+                    "Replace rather than modify",
                     "Always modify",
-                    "No changes",
-                    "Replace rather than modify"
+                    "No changes"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Monitoring",
@@ -4838,11 +4838,11 @@ const technologyQuestions = {
                 "emoji": "🔧📈",
                 "question": "What is site reliability engineering?",
                 "options": [
-                    "No engineering",
                     "Apply software to operations",
+                    "No engineering",
                     "Manual operations"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -4851,22 +4851,22 @@ const technologyQuestions = {
                 "emoji": "🔧⚙️",
                 "question": "What are the Three Ways of DevOps?",
                 "options": [
-                    "Flow, Feedback, Continuous Learning",
+                    "Code, Test, Release",
                     "Fast, Reliable, Secure",
                     "Plan, Build, Deploy",
-                    "Code, Test, Release"
+                    "Flow, Feedback, Continuous Learning"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "CI/CD",
                 "emoji": "🔄🚀",
                 "question": "What is typical deployment frequency for elite teams?",
                 "options": [
-                    "Never",
+                    "Once a year",
                     "Multiple times per day",
-                    "Once a month",
-                    "Once a year"
+                    "Never",
+                    "Once a month"
                 ],
                 "correct": 1
             },
@@ -4876,8 +4876,8 @@ const technologyQuestions = {
                 "question": "What does the acronym MTTR stand for?",
                 "options": [
                     "Minimum Technical Test Requirement",
-                    "Most Tested Technical Release",
                     "Maximum Total Test Rate",
+                    "Most Tested Technical Release",
                     "Mean Time To Recovery"
                 ],
                 "correct": 0
@@ -4888,21 +4888,21 @@ const technologyQuestions = {
                 "question": "What is GitLab CI/CD?",
                 "options": [
                     "Git client",
+                    "Integrated DevOps platform",
                     "Code editor",
-                    "Database",
-                    "Integrated DevOps platform"
+                    "Database"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Containers",
                 "emoji": "📦🐳",
                 "question": "What is a pod in Kubernetes?",
                 "options": [
-                    "Database",
+                    "Server",
                     "Container image",
-                    "Smallest deployable unit",
-                    "Server"
+                    "Database",
+                    "Smallest deployable unit"
                 ],
                 "correct": 1
             },
@@ -4911,22 +4911,22 @@ const technologyQuestions = {
                 "emoji": "🔧⚡",
                 "question": "What is chaos engineering?",
                 "options": [
-                    "Perfect system",
-                    "No testing",
                     "Test system resilience by breaking things",
+                    "No testing",
+                    "Perfect system",
                     "Random coding"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Monitoring",
                 "emoji": "📊👁️",
                 "question": "What are the four golden signals?",
                 "options": [
-                    "Speed, Size, Cost, Time",
+                    "Fast, Slow, Medium, Stop",
                     "Latency, Traffic, Errors, Saturation",
                     "CPU, Memory, Disk, Network",
-                    "Fast, Slow, Medium, Stop"
+                    "Speed, Size, Cost, Time"
                 ],
                 "correct": 1
             },
@@ -4935,12 +4935,12 @@ const technologyQuestions = {
                 "emoji": "🔧🔄",
                 "question": "What is feature flag?",
                 "options": [
-                    "Manual change",
                     "Toggle features without deployment",
+                    "Manual change",
                     "Delete features",
                     "No control"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Infrastructure",
@@ -4948,8 +4948,8 @@ const technologyQuestions = {
                 "question": "What does the acronym idempotency stand for?",
                 "options": [
                     "Different results",
-                    "Random results",
                     "One-time only",
+                    "Random results",
                     "Same result regardless of repetition"
                 ],
                 "correct": 0
@@ -4960,11 +4960,11 @@ const technologyQuestions = {
                 "question": "What is typical change failure rate for elite teams?",
                 "options": [
                     "100%",
-                    "0-15%",
+                    "50%",
                     "90%",
-                    "50%"
+                    "0-15%"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "extreme": [
@@ -5037,10 +5037,10 @@ const technologyQuestions = {
                 "emoji": "🗄️💾",
                 "question": "Is database systems manage data storage?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "SQL",
@@ -5067,20 +5067,20 @@ const technologyQuestions = {
                 "emoji": "🔥💾",
                 "question": "Is NoSQL non-relational database?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Databases",
                 "emoji": "🗄️🔐",
                 "question": "Is databases need security?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "SQL",
@@ -5117,20 +5117,20 @@ const technologyQuestions = {
                 "emoji": "🗄️🔄",
                 "question": "Is backup protects data?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "SQL",
                 "emoji": "📊🔗",
                 "question": "Is joins combine tables?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -5139,40 +5139,40 @@ const technologyQuestions = {
                 "emoji": "🗄️💾",
                 "question": "What is a database?",
                 "options": [
-                    "Random files",
-                    "Organized collection of data"
+                    "Organized collection of data",
+                    "Random files"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "SQL",
                 "emoji": "📊🔍",
                 "question": "What does the acronym SQL stand for in your opinion?",
                 "options": [
-                    "Simple Question Logic",
-                    "Structured Query Language"
+                    "Structured Query Language",
+                    "Simple Question Logic"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Databases",
                 "emoji": "🗄️📋",
                 "question": "What is a primary key?",
                 "options": [
-                    "Any column",
-                    "Unique identifier for row"
+                    "Unique identifier for row",
+                    "Any column"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "NoSQL",
                 "emoji": "🔥💾",
                 "question": "What is document database?",
                 "options": [
-                    "Text files",
-                    "Stores data as documents"
+                    "Stores data as documents",
+                    "Text files"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Databases",
@@ -5189,10 +5189,10 @@ const technologyQuestions = {
                 "emoji": "📊✏️",
                 "question": "What is a transaction?",
                 "options": [
-                    "Group of database operations",
-                    "Single query"
+                    "Single query",
+                    "Group of database operations"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Databases",
@@ -5219,10 +5219,10 @@ const technologyQuestions = {
                 "emoji": "🗄️🔄",
                 "question": "What does the acronym replication stand for?",
                 "options": [
-                    "Copy data to multiple servers",
-                    "Delete data"
+                    "Delete data",
+                    "Copy data to multiple servers"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "SQL",
@@ -5241,42 +5241,42 @@ const technologyQuestions = {
                 "emoji": "🗄️💾",
                 "question": "What does the acronym ACID stand for?",
                 "options": [
-                    "Programming language",
+                    "Atomicity, Consistency, Isolation, Durability",
                     "Database type",
-                    "Atomicity, Consistency, Isolation, Durability"
+                    "Programming language"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "SQL",
                 "emoji": "📊🔍",
                 "question": "What is a subquery?",
                 "options": [
-                    "Query nested in another query",
                     "Main query",
-                    "No nesting"
+                    "No nesting",
+                    "Query nested in another query"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Databases",
                 "emoji": "🗄️📋",
                 "question": "What does the acronym denormalization stand for?",
                 "options": [
-                    "Add redundancy for performance",
                     "No change",
+                    "Add redundancy for performance",
                     "Remove redundancy"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "NoSQL",
                 "emoji": "🔥💾",
                 "question": "What does eventual consistency mean?",
                 "options": [
-                    "Immediate consistency",
+                    "Never consistent",
                     "Data becomes consistent over time",
-                    "Never consistent"
+                    "Immediate consistency"
                 ],
                 "correct": 1
             },
@@ -5285,22 +5285,22 @@ const technologyQuestions = {
                 "emoji": "🗄️🔐",
                 "question": "What is SQL injection attack?",
                 "options": [
+                    "Performance boost",
                     "Backup method",
-                    "Security vulnerability in queries",
-                    "Performance boost"
+                    "Security vulnerability in queries"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "SQL",
                 "emoji": "📊✏️",
                 "question": "What is a stored procedure?",
                 "options": [
-                    "Table",
                     "Precompiled SQL code",
-                    "Backup file"
+                    "Backup file",
+                    "Table"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Databases",
@@ -5308,10 +5308,10 @@ const technologyQuestions = {
                 "question": "What is query optimization?",
                 "options": [
                     "Improve query performance",
-                    "Delete queries",
-                    "No optimization"
+                    "No optimization",
+                    "Delete queries"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "NoSQL",
@@ -5329,20 +5329,20 @@ const technologyQuestions = {
                 "emoji": "🗄️🔄",
                 "question": "What is database migration?",
                 "options": [
-                    "Transfer data between systems",
                     "No transfer",
-                    "Delete database"
+                    "Delete database",
+                    "Transfer data between systems"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "SQL",
                 "emoji": "📊🔗",
                 "question": "What is a view?",
                 "options": [
-                    "Index",
+                    "Physical table",
                     "Virtual table from query",
-                    "Physical table"
+                    "Index"
                 ],
                 "correct": 1
             }
@@ -5354,8 +5354,8 @@ const technologyQuestions = {
                 "question": "What does CAP theorem state?",
                 "options": [
                     "Central Admin Panel",
-                    "Consistency, Availability, Partition tolerance",
                     "Cached Application Performance",
+                    "Consistency, Availability, Partition tolerance",
                     "Common Access Protocol"
                 ],
                 "correct": 0
@@ -5365,48 +5365,48 @@ const technologyQuestions = {
                 "emoji": "📊🔍",
                 "question": "What is the N+1 query problem?",
                 "options": [
-                    "No problem",
-                    "Fast queries",
+                    "Multiple queries instead of one join",
                     "Single query",
-                    "Multiple queries instead of one join"
+                    "No problem",
+                    "Fast queries"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Databases",
                 "emoji": "🗄️📋",
                 "question": "What is third normal form (3NF)?",
                 "options": [
-                    "Fourth form",
-                    "No normalization",
+                    "First normal form",
                     "No transitive dependencies",
-                    "First normal form"
+                    "Fourth form",
+                    "No normalization"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "NoSQL",
                 "emoji": "🔥💾",
                 "question": "What is BASE model?",
                 "options": [
-                    "Basically Available, Soft state, Eventually consistent",
                     "No model",
+                    "Database type",
                     "ACID alternative",
-                    "Database type"
+                    "Basically Available, Soft state, Eventually consistent"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Databases",
                 "emoji": "🗄️🔐",
                 "question": "What is row-level security?",
                 "options": [
-                    "No security",
                     "Table-level only",
                     "Access control per row",
+                    "No security",
                     "Database-level"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "SQL",
@@ -5414,8 +5414,8 @@ const technologyQuestions = {
                 "question": "What does the acronym MVCC stand for?",
                 "options": [
                     "Main Version Control Center",
-                    "Multiple Virtual Cloud Computing",
                     "Multi-Version Concurrency Control",
+                    "Multiple Virtual Cloud Computing",
                     "Manual Version Change Control"
                 ],
                 "correct": 0
@@ -5425,12 +5425,12 @@ const technologyQuestions = {
                 "emoji": "🗄️⚡",
                 "question": "What is a covering index?",
                 "options": [
-                    "Partial index",
                     "Index containing all query columns",
                     "No index",
+                    "Partial index",
                     "Primary key only"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "NoSQL",
@@ -5439,8 +5439,8 @@ const technologyQuestions = {
                 "options": [
                     "Optimized for time-stamped data",
                     "Regular database",
-                    "No timestamps",
-                    "Calendar app"
+                    "Calendar app",
+                    "No timestamps"
                 ],
                 "correct": 0
             },
@@ -5451,8 +5451,8 @@ const technologyQuestions = {
                 "options": [
                     "Email logs",
                     "Ship products",
-                    "Transfer transaction logs for replication",
-                    "No transfer"
+                    "No transfer",
+                    "Transfer transaction logs for replication"
                 ],
                 "correct": 0
             },
@@ -5461,12 +5461,12 @@ const technologyQuestions = {
                 "emoji": "📊🔗",
                 "question": "What is a materialized view?",
                 "options": [
-                    "Index",
                     "Cached query results",
                     "Table",
+                    "Index",
                     "Regular view"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "extreme": [
@@ -5549,10 +5549,10 @@ const technologyQuestions = {
                 "emoji": "👨‍💻💡",
                 "question": "Is code needs to be tested?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Software",
@@ -5599,10 +5599,10 @@ const technologyQuestions = {
                 "emoji": "✅🎯",
                 "question": "Does quality assurance require testing?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Development",
@@ -5619,20 +5619,20 @@ const technologyQuestions = {
                 "emoji": "💻⚙️",
                 "question": "Is agile a development method?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Design",
                 "emoji": "🎨🔧",
                 "question": "Is architecture defines structure?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -5641,30 +5641,30 @@ const technologyQuestions = {
                 "emoji": "💻🔧",
                 "question": "What is software engineering?",
                 "options": [
-                    "Random coding",
-                    "Systematic development of software"
+                    "Systematic development of software",
+                    "Random coding"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Development",
                 "emoji": "👨‍💻💡",
                 "question": "What does the acronym SDLC stand for?",
                 "options": [
-                    "System Design Logic Code",
-                    "Software Development Life Cycle"
+                    "Software Development Life Cycle",
+                    "System Design Logic Code"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Software",
                 "emoji": "💻📋",
                 "question": "What are functional requirements?",
                 "options": [
-                    "What system should do",
-                    "How system works"
+                    "How system works",
+                    "What system should do"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Design",
@@ -5681,30 +5681,30 @@ const technologyQuestions = {
                 "emoji": "👨‍💻🐛",
                 "question": "What does debugging involve?",
                 "options": [
-                    "Writing code",
-                    "Finding and fixing errors"
+                    "Finding and fixing errors",
+                    "Writing code"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Software",
                 "emoji": "💻🔄",
                 "question": "What does the acronym refactoring stand for?",
                 "options": [
-                    "Rewrite everything",
-                    "Improve code without changing behavior"
+                    "Improve code without changing behavior",
+                    "Rewrite everything"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Quality",
                 "emoji": "✅🎯",
                 "question": "What does the acronym QA stand for?",
                 "options": [
-                    "Quality Assurance",
-                    "Quick Action"
+                    "Quick Action",
+                    "Quality Assurance"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Development",
@@ -5743,11 +5743,11 @@ const technologyQuestions = {
                 "emoji": "💻🔧",
                 "question": "What is software architecture?",
                 "options": [
-                    "Low-level code",
+                    "High-level structure of system",
                     "No structure",
-                    "High-level structure of system"
+                    "Low-level code"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Development",
@@ -5755,21 +5755,21 @@ const technologyQuestions = {
                 "question": "What is test-driven development?",
                 "options": [
                     "Test after coding",
-                    "No testing",
-                    "Write tests before code"
+                    "Write tests before code",
+                    "No testing"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Software",
                 "emoji": "💻📋",
                 "question": "What is use case?",
                 "options": [
-                    "Describe system interaction",
                     "Code function",
+                    "Describe system interaction",
                     "Database"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Design",
@@ -5777,43 +5777,43 @@ const technologyQuestions = {
                 "question": "What defines microservices architecture?",
                 "options": [
                     "Monolithic app",
-                    "Single service",
-                    "Small independent services"
+                    "Small independent services",
+                    "Single service"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Development",
                 "emoji": "👨‍💻🐛",
                 "question": "What is static code analysis?",
                 "options": [
-                    "Analyze code without execution",
                     "Run code",
-                    "Delete code"
+                    "Delete code",
+                    "Analyze code without execution"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Software",
                 "emoji": "💻🔄",
                 "question": "What is continuous refactoring?",
                 "options": [
-                    "No changes",
                     "One-time change",
-                    "Ongoing code improvement"
+                    "Ongoing code improvement",
+                    "No changes"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Quality",
                 "emoji": "✅🎯",
                 "question": "What is regression testing?",
                 "options": [
-                    "No testing",
                     "Test after changes",
-                    "First test only"
+                    "First test only",
+                    "No testing"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Development",
@@ -5821,8 +5821,8 @@ const technologyQuestions = {
                 "question": "What is API documentation?",
                 "options": [
                     "Describe API usage",
-                    "No documentation",
-                    "Source code"
+                    "Source code",
+                    "No documentation"
                 ],
                 "correct": 0
             },
@@ -5831,11 +5831,11 @@ const technologyQuestions = {
                 "emoji": "💻⚙️",
                 "question": "What is sprint in Scrum?",
                 "options": [
+                    "No time limit",
                     "Time-boxed iteration",
-                    "Running fast",
-                    "No time limit"
+                    "Running fast"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Design",
@@ -5843,10 +5843,10 @@ const technologyQuestions = {
                 "question": "What is singleton pattern?",
                 "options": [
                     "Multiple instances",
-                    "Only one instance exists",
-                    "No pattern"
+                    "No pattern",
+                    "Only one instance exists"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -5856,9 +5856,9 @@ const technologyQuestions = {
                 "question": "What is Conway's Law?",
                 "options": [
                     "Random design",
-                    "Physics law",
                     "System design mirrors org structure",
-                    "No law"
+                    "No law",
+                    "Physics law"
                 ],
                 "correct": 0
             },
@@ -5867,48 +5867,48 @@ const technologyQuestions = {
                 "emoji": "👨‍💻💡",
                 "question": "What is the typical bug cost multiplier?",
                 "options": [
-                    "Decreases",
                     "10x each phase later",
-                    "2x",
-                    "No increase"
+                    "Decreases",
+                    "No increase",
+                    "2x"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Software",
                 "emoji": "💻📋",
                 "question": "What is the MoSCoW method?",
                 "options": [
-                    "Prioritize requirements: Must, Should, Could, Won't",
                     "No method",
                     "City name",
+                    "Prioritize requirements: Must, Should, Could, Won't",
                     "Testing"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Design",
                 "emoji": "🎨🏗️",
                 "question": "What is SOLID principle?",
                 "options": [
-                    "No principle",
                     "Database type",
                     "State of matter",
+                    "No principle",
                     "5 OOP design principles"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Development",
                 "emoji": "👨‍💻🐛",
                 "question": "What percentage of code has bugs?",
                 "options": [
+                    "No bugs",
                     "1 bug",
                     "~15-50 bugs per 1000 lines",
-                    "1000 bugs",
-                    "No bugs"
+                    "1000 bugs"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Software",
@@ -5916,9 +5916,9 @@ const technologyQuestions = {
                 "question": "What is the Boy Scout Rule?",
                 "options": [
                     "Camping rule",
+                    "Leave code cleaner than you found it",
                     "No rule",
-                    "Make it worse",
-                    "Leave code cleaner than you found it"
+                    "Make it worse"
                 ],
                 "correct": 0
             },
@@ -5927,12 +5927,12 @@ const technologyQuestions = {
                 "emoji": "✅🎯",
                 "question": "What is test coverage target?",
                 "options": [
-                    "10%",
-                    "70-80% for most projects",
                     "100%",
-                    "0%"
+                    "0%",
+                    "70-80% for most projects",
+                    "10%"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Development",
@@ -5940,8 +5940,8 @@ const technologyQuestions = {
                 "question": "What is the DRY principle?",
                 "options": [
                     "Do Repeat Yourself",
-                    "Don't Repeat Yourself",
                     "No principle",
+                    "Don't Repeat Yourself",
                     "Dry Weather"
                 ],
                 "correct": 0
@@ -5951,24 +5951,24 @@ const technologyQuestions = {
                 "emoji": "💻⚙️",
                 "question": "What is velocity in Agile?",
                 "options": [
-                    "Code speed",
                     "Work completed per sprint",
                     "Running speed",
-                    "No measure"
+                    "No measure",
+                    "Code speed"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Design",
                 "emoji": "🎨🔧",
                 "question": "What is dependency injection?",
                 "options": [
+                    "Pass dependencies from outside",
                     "No dependencies",
                     "Hard-code dependencies",
-                    "Delete code",
-                    "Pass dependencies from outside"
+                    "Delete code"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -6051,10 +6051,10 @@ const technologyQuestions = {
                 "emoji": "🌍🔗",
                 "question": "Is internet a global network?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Networks",
@@ -6071,40 +6071,40 @@ const technologyQuestions = {
                 "emoji": "📋🔗",
                 "question": "Are protocols communication rules?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Internet",
                 "emoji": "🌍🔍",
                 "question": "Is dNS translates domain names?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Networks",
                 "emoji": "🌐🔌",
                 "question": "Does ethernet use cables?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Protocols",
                 "emoji": "📋💻",
                 "question": "Is HTTP for web browsing?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Internet",
@@ -6131,10 +6131,10 @@ const technologyQuestions = {
                 "emoji": "🔒🌐",
                 "question": "Is firewalls protect networks?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -6163,30 +6163,30 @@ const technologyQuestions = {
                 "emoji": "🌐📡",
                 "question": "What is network bandwidth?",
                 "options": [
-                    "Data transfer rate",
-                    "Physical width"
+                    "Physical width",
+                    "Data transfer rate"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Protocols",
                 "emoji": "📋🔗",
                 "question": "What does the acronym TCP stand for?",
                 "options": [
-                    "Text Copy Protocol",
-                    "Transmission Control Protocol"
+                    "Transmission Control Protocol",
+                    "Text Copy Protocol"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Internet",
                 "emoji": "🌍🔍",
                 "question": "What is a domain name?",
                 "options": [
-                    "IP address",
-                    "Human-readable web address"
+                    "Human-readable web address",
+                    "IP address"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Networks",
@@ -6213,10 +6213,10 @@ const technologyQuestions = {
                 "emoji": "🌍📧",
                 "question": "What does the acronym SMTP stand for?",
                 "options": [
-                    "Email sending protocol",
-                    "Web protocol"
+                    "Web protocol",
+                    "Email sending protocol"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Networks",
@@ -6233,10 +6233,10 @@ const technologyQuestions = {
                 "emoji": "🔒🌐",
                 "question": "What is a VPN?",
                 "options": [
-                    "Virtual Private Network",
-                    "Video Protocol Network"
+                    "Video Protocol Network",
+                    "Virtual Private Network"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -6245,11 +6245,11 @@ const technologyQuestions = {
                 "emoji": "🌐💻",
                 "question": "What is the OSI model?",
                 "options": [
-                    "No model",
+                    "3-layer model",
                     "7-layer network model",
-                    "3-layer model"
+                    "No model"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Internet",
@@ -6257,30 +6257,30 @@ const technologyQuestions = {
                 "question": "What is IPv6?",
                 "options": [
                     "No version",
-                    "Old IP version",
-                    "New IP address version"
+                    "New IP address version",
+                    "Old IP version"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Networks",
                 "emoji": "🌐📡",
                 "question": "What does the acronym latency stand for?",
                 "options": [
-                    "No delay",
+                    "Time delay in transmission",
                     "Data size",
-                    "Time delay in transmission"
+                    "No delay"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Protocols",
                 "emoji": "📋🔗",
                 "question": "What does the acronym UDP stand for?",
                 "options": [
-                    "Universal Data Protocol",
+                    "User Datagram Protocol",
                     "Unified Download Process",
-                    "User Datagram Protocol"
+                    "Universal Data Protocol"
                 ],
                 "correct": 1
             },
@@ -6289,22 +6289,22 @@ const technologyQuestions = {
                 "emoji": "🌍🔍",
                 "question": "What is DNS cache poisoning?",
                 "options": [
+                    "Clean cache",
                     "No attack",
-                    "Corrupt DNS records",
-                    "Clean cache"
+                    "Corrupt DNS records"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Networks",
                 "emoji": "🌐🔌",
                 "question": "What is network topology?",
                 "options": [
-                    "Physical/logical layout",
                     "No layout",
+                    "Physical/logical layout",
                     "Speed measure"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Protocols",
@@ -6312,21 +6312,21 @@ const technologyQuestions = {
                 "question": "What does the acronym WebSocket stand for?",
                 "options": [
                     "Full-duplex communication protocol",
-                    "Web page",
-                    "Database"
+                    "Database",
+                    "Web page"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Internet",
                 "emoji": "🌍📧",
                 "question": "What is POP3?",
                 "options": [
+                    "File transfer",
                     "Email retrieval protocol",
-                    "Web protocol",
-                    "File transfer"
+                    "Web protocol"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Networks",
@@ -6344,11 +6344,11 @@ const technologyQuestions = {
                 "emoji": "🔒🌐",
                 "question": "What are SSL/TLS protocols?",
                 "options": [
+                    "Routing protocol",
                     "Encryption protocols",
-                    "No security",
-                    "Routing protocol"
+                    "No security"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -6358,9 +6358,9 @@ const technologyQuestions = {
                 "question": "What are the 7 OSI layers?",
                 "options": [
                     "Physical, Data Link, Network, Transport, Session, Presentation, Application",
-                    "10 layers",
+                    "3 layers",
                     "5 layers",
-                    "3 layers"
+                    "10 layers"
                 ],
                 "correct": 0
             },
@@ -6369,24 +6369,24 @@ const technologyQuestions = {
                 "emoji": "🌍🔗",
                 "question": "How many IPv6 addresses exist?",
                 "options": [
-                    "Unlimited",
                     "4 billion",
-                    "1 million",
-                    "340 undecillion (2^128)"
+                    "Unlimited",
+                    "340 undecillion (2^128)",
+                    "1 million"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Networks",
                 "emoji": "🌐📡",
                 "question": "What is typical fiber optic speed?",
                 "options": [
+                    "1 Tbps",
                     "1 Kbps",
                     "1-100 Gbps",
-                    "1 Tbps",
                     "10 Mbps"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Protocols",
@@ -6394,11 +6394,11 @@ const technologyQuestions = {
                 "question": "What port does HTTP use?",
                 "options": [
                     "80",
-                    "21",
+                    "443",
                     "22",
-                    "443"
+                    "21"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Internet",
@@ -6429,36 +6429,36 @@ const technologyQuestions = {
                 "emoji": "📋💻",
                 "question": "What is the three-way handshake?",
                 "options": [
-                    "No handshake",
                     "Two-way process",
+                    "TCP connection establishment",
                     "UDP process",
-                    "TCP connection establishment"
+                    "No handshake"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Internet",
                 "emoji": "🌍📧",
                 "question": "What is the typical email size limit?",
                 "options": [
+                    "25 MB",
                     "No limit",
-                    "1 GB",
                     "1 KB",
-                    "25 MB"
+                    "1 GB"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Networks",
                 "emoji": "🌐🏠",
                 "question": "What does the acronym BGP stand for?",
                 "options": [
+                    "Basic Gateway Process",
                     "Backup Gateway Protocol",
                     "No protocol",
-                    "Border Gateway Protocol",
-                    "Basic Gateway Process"
+                    "Border Gateway Protocol"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Security",
@@ -6466,11 +6466,11 @@ const technologyQuestions = {
                 "question": "What is the Diffie-Hellman algorithm for?",
                 "options": [
                     "Key exchange",
-                    "Routing",
                     "No purpose",
-                    "Compression"
+                    "Compression",
+                    "Routing"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "extreme": [
@@ -6633,10 +6633,10 @@ const technologyQuestions = {
                 "emoji": "📱🍎",
                 "question": "Is iOS powers Apple mobile devices?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -6645,10 +6645,10 @@ const technologyQuestions = {
                 "emoji": "💻🖥️",
                 "question": "What is an operating system?",
                 "options": [
-                    "Software managing hardware and software",
-                    "Application"
+                    "Application",
+                    "Software managing hardware and software"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Windows",
@@ -6675,10 +6675,10 @@ const technologyQuestions = {
                 "emoji": "🐧💻",
                 "question": "What is the Linux kernel?",
                 "options": [
-                    "Application",
-                    "Core of Linux OS"
+                    "Core of Linux OS",
+                    "Application"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "OS",
@@ -6695,10 +6695,10 @@ const technologyQuestions = {
                 "emoji": "🍎💻",
                 "question": "What is macOS based on?",
                 "options": [
-                    "Unix",
-                    "DOS"
+                    "DOS",
+                    "Unix"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "OS",
@@ -6715,10 +6715,10 @@ const technologyQuestions = {
                 "emoji": "📱💻",
                 "question": "What is Android based on?",
                 "options": [
-                    "Linux kernel",
-                    "Windows"
+                    "Windows",
+                    "Linux kernel"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "OS",
@@ -6735,10 +6735,10 @@ const technologyQuestions = {
                 "emoji": "📱🍎",
                 "question": "What is iOS kernel?",
                 "options": [
-                    "XNU (Darwin)",
-                    "Linux"
+                    "Linux",
+                    "XNU (Darwin)"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -6747,33 +6747,33 @@ const technologyQuestions = {
                 "emoji": "💻🖥️",
                 "question": "What is a kernel?",
                 "options": [
-                    "Core of operating system",
+                    "User interface",
                     "Application",
-                    "User interface"
+                    "Core of operating system"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Windows",
                 "emoji": "🪟💻",
                 "question": "What does the acronym NTFS stand for?",
                 "options": [
-                    "Application",
                     "Network protocol",
+                    "Application",
                     "Windows file system"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "OS",
                 "emoji": "💻📂",
                 "question": "What are inodes?",
                 "options": [
-                    "File system data structure",
                     "Users",
+                    "File system data structure",
                     "Applications"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Linux",
@@ -6781,10 +6781,10 @@ const technologyQuestions = {
                 "question": "What is a Linux distribution?",
                 "options": [
                     "Hardware",
-                    "Application",
-                    "OS built on Linux kernel"
+                    "OS built on Linux kernel",
+                    "Application"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "OS",
@@ -6792,30 +6792,30 @@ const technologyQuestions = {
                 "question": "What does the acronym paging stand for?",
                 "options": [
                     "Memory management technique",
-                    "No technique",
-                    "Web browsing"
+                    "Web browsing",
+                    "No technique"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "macOS",
                 "emoji": "🍎💻",
                 "question": "What does the acronym Finder stand for?",
                 "options": [
-                    "macOS file manager",
                     "Search engine",
-                    "Browser"
+                    "Browser",
+                    "macOS file manager"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "OS",
                 "emoji": "💻🔄",
                 "question": "What is context switching?",
                 "options": [
-                    "Switch between processes",
+                    "No switching",
                     "Change settings",
-                    "No switching"
+                    "Switch between processes"
                 ],
                 "correct": 1
             },
@@ -6824,11 +6824,11 @@ const technologyQuestions = {
                 "emoji": "📱💻",
                 "question": "What is ART in Android?",
                 "options": [
-                    "Android Runtime",
                     "Application",
-                    "File system"
+                    "File system",
+                    "Android Runtime"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "OS",
@@ -6836,8 +6836,8 @@ const technologyQuestions = {
                 "question": "What is privilege escalation?",
                 "options": [
                     "Gain higher access rights",
-                    "Normal login",
-                    "No access"
+                    "No access",
+                    "Normal login"
                 ],
                 "correct": 0
             },
@@ -6847,10 +6847,10 @@ const technologyQuestions = {
                 "question": "What is sandboxing in iOS?",
                 "options": [
                     "Combine apps",
-                    "Isolate app execution",
-                    "No isolation"
+                    "No isolation",
+                    "Isolate app execution"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -6860,9 +6860,9 @@ const technologyQuestions = {
                 "question": "What is the difference between monolithic and microkernel?",
                 "options": [
                     "All services in kernel vs separate services",
-                    "No difference",
                     "Both monolithic",
-                    "Same thing"
+                    "Same thing",
+                    "No difference"
                 ],
                 "correct": 0
             },
@@ -6871,33 +6871,33 @@ const technologyQuestions = {
                 "emoji": "🪟💻",
                 "question": "What is the Windows HAL?",
                 "options": [
-                    "High Access Level",
-                    "Hard Application Link",
                     "No HAL",
-                    "Hardware Abstraction Layer"
+                    "High Access Level",
+                    "Hardware Abstraction Layer",
+                    "Hard Application Link"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "OS",
                 "emoji": "💻📂",
                 "question": "What is journaling in file systems?",
                 "options": [
-                    "Random writes",
                     "Track changes for recovery",
                     "Delete files",
+                    "Random writes",
                     "No tracking"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Linux",
                 "emoji": "🐧💻",
                 "question": "What does the acronym systemd stand for?",
                 "options": [
-                    "File system",
-                    "Init system and service manager",
                     "Text editor",
+                    "Init system and service manager",
+                    "File system",
                     "Kernel"
                 ],
                 "correct": 1
@@ -6907,72 +6907,72 @@ const technologyQuestions = {
                 "emoji": "💻⚙️",
                 "question": "What does the acronym thrashing stand for?",
                 "options": [
-                    "Good state",
                     "No issue",
+                    "Good state",
                     "Excessive paging reduces performance",
                     "Fast performance"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "macOS",
                 "emoji": "🍎💻",
                 "question": "What does the acronym Spotlight stand for?",
                 "options": [
-                    "No search",
                     "Light control",
-                    "System-wide search",
-                    "Screen brightness"
+                    "No search",
+                    "Screen brightness",
+                    "System-wide search"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "OS",
                 "emoji": "💻🔄",
                 "question": "What is the scheduler in OS?",
                 "options": [
-                    "No scheduling",
-                    "Calendar app",
                     "Random order",
-                    "Determines process execution order"
+                    "Determines process execution order",
+                    "Calendar app",
+                    "No scheduling"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Mobile",
                 "emoji": "📱💻",
                 "question": "What is the Android Zygote?",
                 "options": [
-                    "Browser",
-                    "No zygote",
                     "App process spawner",
-                    "File manager"
+                    "File manager",
+                    "Browser",
+                    "No zygote"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "OS",
                 "emoji": "💻🔐",
                 "question": "What does the acronym SELinux stand for?",
                 "options": [
-                    "No SELinux",
                     "Search Engine Linux",
+                    "No SELinux",
                     "Security-Enhanced Linux",
                     "Simple Enhanced Linux"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Mobile",
                 "emoji": "📱🍎",
                 "question": "What is the typical iOS memory for apps?",
                 "options": [
-                    "100 GB",
                     "10 MB",
                     "Unlimited",
+                    "100 GB",
                     "Varies by device, ~1-2 GB limit"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "extreme": [
@@ -7055,40 +7055,40 @@ const technologyQuestions = {
                 "emoji": "🔀📊",
                 "question": "Is sorting arranges data in order?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Algorithms",
                 "emoji": "📝🔍",
                 "question": "Is search algorithms find data?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Complexity",
                 "emoji": "⏱️📈",
                 "question": "Is algorithm efficiency matters?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sorting",
                 "emoji": "🔀⬆️",
                 "question": "Is bubble sort a sorting algorithm?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Algorithms",
@@ -7105,30 +7105,30 @@ const technologyQuestions = {
                 "emoji": "🔍📊",
                 "question": "Is binary search fast?",
                 "options": [
-                    "False",
-                    "True"
-                ],
-                "correct": 1
-            },
-            {
-                "topic": "Complexity",
-                "emoji": "⏱️💻",
-                "question": "Is time complexity measures speed?",
-                "options": [
                     "True",
                     "False"
                 ],
                 "correct": 0
             },
             {
-                "topic": "Algorithms",
-                "emoji": "📝🔄",
-                "question": "Is recursion calls itself?",
+                "topic": "Complexity",
+                "emoji": "⏱️💻",
+                "question": "Is time complexity measures speed?",
                 "options": [
                     "False",
                     "True"
                 ],
-                "correct": 0
+                "correct": 1
+            },
+            {
+                "topic": "Algorithms",
+                "emoji": "📝🔄",
+                "question": "Is recursion calls itself?",
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "correct": 1
             },
             {
                 "topic": "Sorting",
@@ -7147,10 +7147,10 @@ const technologyQuestions = {
                 "emoji": "📝🔢",
                 "question": "What is an algorithm?",
                 "options": [
-                    "Random steps",
-                    "Step-by-step problem solution"
+                    "Step-by-step problem solution",
+                    "Random steps"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sorting",
@@ -7187,20 +7187,20 @@ const technologyQuestions = {
                 "emoji": "🔀⬆️",
                 "question": "What is insertion sort?",
                 "options": [
-                    "Random sorting",
-                    "Build sorted array incrementally"
+                    "Build sorted array incrementally",
+                    "Random sorting"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Algorithms",
                 "emoji": "📝🧮",
                 "question": "What is a greedy algorithm?",
                 "options": [
-                    "Make locally optimal choice",
-                    "Random choice"
+                    "Random choice",
+                    "Make locally optimal choice"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Search",
@@ -7227,20 +7227,20 @@ const technologyQuestions = {
                 "emoji": "📝🔄",
                 "question": "What defines recursion?",
                 "options": [
-                    "Function calling itself",
-                    "Loop"
+                    "Loop",
+                    "Function calling itself"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sorting",
                 "emoji": "🔀⚡",
                 "question": "What is quick sort?",
                 "options": [
-                    "Partition-based sorting",
-                    "Slow sorting"
+                    "Slow sorting",
+                    "Partition-based sorting"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -7249,53 +7249,53 @@ const technologyQuestions = {
                 "emoji": "📝🔢",
                 "question": "What is dynamic programming?",
                 "options": [
-                    "No strategy",
                     "Random approach",
-                    "Solve by breaking into subproblems"
+                    "Solve by breaking into subproblems",
+                    "No strategy"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Sorting",
                 "emoji": "🔀📊",
                 "question": "What is heap sort?",
                 "options": [
-                    "No structure",
                     "Use heap data structure to sort",
-                    "Simple swap"
+                    "Simple swap",
+                    "No structure"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Algorithms",
                 "emoji": "📝🔍",
                 "question": "What is depth-first search?",
                 "options": [
-                    "No search",
+                    "Breadth search",
                     "Explore branch fully before backtrack",
-                    "Breadth search"
+                    "No search"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Complexity",
                 "emoji": "⏱️📈",
                 "question": "What is O(n log n) complexity?",
                 "options": [
-                    "Linearithmic time",
                     "Linear time",
+                    "Linearithmic time",
                     "Constant time"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sorting",
                 "emoji": "🔀⬆️",
                 "question": "What is radix sort?",
                 "options": [
-                    "No sorting",
+                    "Comparison sort",
                     "Sort by digits/characters",
-                    "Comparison sort"
+                    "No sorting"
                 ],
                 "correct": 1
             },
@@ -7304,53 +7304,53 @@ const technologyQuestions = {
                 "emoji": "📝🧮",
                 "question": "What is the knapsack problem?",
                 "options": [
-                    "Optimize item selection with constraint",
+                    "Simple counting",
                     "No problem",
-                    "Simple counting"
+                    "Optimize item selection with constraint"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Search",
                 "emoji": "🔍📊",
                 "question": "What is breadth-first search?",
                 "options": [
+                    "No search",
                     "Depth search",
-                    "Explore level by level",
-                    "No search"
+                    "Explore level by level"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Complexity",
                 "emoji": "⏱️💻",
                 "question": "What is amortized analysis?",
                 "options": [
-                    "Average time over sequence",
                     "No analysis",
-                    "Worst case only"
+                    "Worst case only",
+                    "Average time over sequence"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Algorithms",
                 "emoji": "📝🔄",
                 "question": "What does the acronym memoization stand for?",
                 "options": [
+                    "Cache results to avoid recomputation",
                     "Delete results",
-                    "No caching",
-                    "Cache results to avoid recomputation"
+                    "No caching"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sorting",
                 "emoji": "🔀⚡",
                 "question": "What is the best comparison sort complexity?",
                 "options": [
-                    "O(n log n)",
+                    "O(n)",
                     "O(n²)",
-                    "O(n)"
+                    "O(n log n)"
                 ],
                 "correct": 1
             }
@@ -7361,22 +7361,22 @@ const technologyQuestions = {
                 "emoji": "📝🔢",
                 "question": "What is the P vs NP problem?",
                 "options": [
+                    "Solved problem",
                     "No problem",
-                    "Simple question",
                     "Major unsolved computer science problem",
-                    "Solved problem"
+                    "Simple question"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sorting",
                 "emoji": "🔀📊",
                 "question": "What is the worst-case complexity of quick sort?",
                 "options": [
-                    "O(n²)",
+                    "O(1)",
                     "O(n)",
                     "O(n log n)",
-                    "O(1)"
+                    "O(n²)"
                 ],
                 "correct": 1
             },
@@ -7385,24 +7385,24 @@ const technologyQuestions = {
                 "emoji": "📝🔍",
                 "question": "What is Dijkstra's algorithm for?",
                 "options": [
-                    "Shortest path in graph",
-                    "No purpose",
+                    "Sorting",
                     "Searching tree",
-                    "Sorting"
+                    "Shortest path in graph",
+                    "No purpose"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Complexity",
                 "emoji": "⏱️📈",
                 "question": "What does NP-complete mean?",
                 "options": [
-                    "Hardest problems in NP class",
                     "Easy problems",
-                    "Simple",
-                    "No classification"
+                    "Hardest problems in NP class",
+                    "No classification",
+                    "Simple"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sorting",
@@ -7421,12 +7421,12 @@ const technologyQuestions = {
                 "emoji": "📝🧮",
                 "question": "What is the traveling salesman problem?",
                 "options": [
-                    "Simple path",
-                    "No problem",
                     "Easy solution",
+                    "No problem",
+                    "Simple path",
                     "Find shortest route visiting all cities"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Search",
@@ -7445,24 +7445,24 @@ const technologyQuestions = {
                 "emoji": "⏱️💻",
                 "question": "What is the Master Theorem for?",
                 "options": [
+                    "Analyze divide-and-conquer algorithms",
                     "Sort data",
                     "Count elements",
-                    "Analyze divide-and-conquer algorithms",
                     "No purpose"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Algorithms",
                 "emoji": "📝🔄",
                 "question": "What is tail recursion?",
                 "options": [
+                    "No recursion",
                     "Recursive call is last operation",
                     "Middle operation",
-                    "No recursion",
                     "First operation"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sorting",
@@ -7577,10 +7577,10 @@ const technologyQuestions = {
                 "emoji": "📦🎨",
                 "question": "3D graphics have depth?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Graphics",
@@ -7597,15 +7597,25 @@ const technologyQuestions = {
                 "emoji": "🖼️⚡",
                 "question": "Is rendering creates final image?",
                 "options": [
+                    "True",
+                    "False"
+                ],
+                "correct": 1
+            },
+            {
+                "topic": "Graphics",
+                "emoji": "🎨📹",
+                "question": "Is animation moving graphics?",
+                "options": [
                     "False",
                     "True"
                 ],
                 "correct": 0
             },
             {
-                "topic": "Graphics",
-                "emoji": "🎨📹",
-                "question": "Is animation moving graphics?",
+                "topic": "3D",
+                "emoji": "📦🎬",
+                "question": "Is movies use 3D graphics?",
                 "options": [
                     "True",
                     "False"
@@ -7613,24 +7623,14 @@ const technologyQuestions = {
                 "correct": 1
             },
             {
-                "topic": "3D",
-                "emoji": "📦🎬",
-                "question": "Is movies use 3D graphics?",
-                "options": [
-                    "False",
-                    "True"
-                ],
-                "correct": 0
-            },
-            {
                 "topic": "Graphics",
                 "emoji": "🎨💡",
                 "question": "Is lighting affects graphics realism?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Rendering",
@@ -7649,10 +7649,10 @@ const technologyQuestions = {
                 "emoji": "🎨🖼️",
                 "question": "What is computer graphics?",
                 "options": [
-                    "Text only",
-                    "Create and manipulate visual content"
+                    "Create and manipulate visual content",
+                    "Text only"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "2D",
@@ -7669,20 +7669,20 @@ const technologyQuestions = {
                 "emoji": "🎨🎮",
                 "question": "What is a GPU?",
                 "options": [
-                    "Graphics Processing Unit",
-                    "General Purpose Unit"
+                    "General Purpose Unit",
+                    "Graphics Processing Unit"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "3D",
                 "emoji": "📦🎨",
                 "question": "What is a polygon?",
                 "options": [
-                    "Basic 3D shape building block",
-                    "2D circle"
+                    "2D circle",
+                    "Basic 3D shape building block"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Graphics",
@@ -7709,20 +7709,20 @@ const technologyQuestions = {
                 "emoji": "🎨📹",
                 "question": "What does the acronym FPS stand for?",
                 "options": [
-                    "First Person Shooter",
-                    "Frames Per Second"
+                    "Frames Per Second",
+                    "First Person Shooter"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "3D",
                 "emoji": "📦🎬",
                 "question": "What is a mesh?",
                 "options": [
-                    "Fishing net",
-                    "3D object made of polygons"
+                    "3D object made of polygons",
+                    "Fishing net"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Graphics",
@@ -7739,10 +7739,10 @@ const technologyQuestions = {
                 "emoji": "🖼️🔍",
                 "question": "What is texture mapping?",
                 "options": [
-                    "Delete textures",
-                    "Apply images to 3D surfaces"
+                    "Apply images to 3D surfaces",
+                    "Delete textures"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -7751,33 +7751,33 @@ const technologyQuestions = {
                 "emoji": "🎨🖼️",
                 "question": "What is the graphics pipeline?",
                 "options": [
-                    "Series of steps to render image",
                     "No process",
+                    "Series of steps to render image",
                     "Single step"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "2D",
                 "emoji": "🖼️📐",
                 "question": "What is anti-aliasing?",
                 "options": [
-                    "Create jagged edges",
                     "Smooth jagged edges",
-                    "No effect"
+                    "No effect",
+                    "Create jagged edges"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Graphics",
                 "emoji": "🎨🎮",
                 "question": "What is a shader?",
                 "options": [
-                    "Hardware device",
                     "No program",
+                    "Hardware device",
                     "Program for rendering effects"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "3D",
@@ -7785,19 +7785,19 @@ const technologyQuestions = {
                 "question": "What is model transformation?",
                 "options": [
                     "Delete objects",
-                    "No transformation",
-                    "Move, rotate, scale 3D objects"
+                    "Move, rotate, scale 3D objects",
+                    "No transformation"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Graphics",
                 "emoji": "🎨🖱️",
                 "question": "What is Bezier curve?",
                 "options": [
-                    "Straight line",
+                    "Random curve",
                     "Parametric curve for smooth paths",
-                    "Random curve"
+                    "Straight line"
                 ],
                 "correct": 1
             },
@@ -7806,22 +7806,22 @@ const technologyQuestions = {
                 "emoji": "🖼️⚡",
                 "question": "What is Z-buffering?",
                 "options": [
-                    "Color buffer",
                     "Manage depth for visibility",
-                    "No buffer"
+                    "No buffer",
+                    "Color buffer"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Graphics",
                 "emoji": "🎨📹",
                 "question": "What is keyframe animation?",
                 "options": [
-                    "Single frame",
                     "Define start and end, interpolate between",
-                    "No frames"
+                    "No frames",
+                    "Single frame"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "3D",
@@ -7829,8 +7829,8 @@ const technologyQuestions = {
                 "question": "What is normal mapping?",
                 "options": [
                     "Add polygons",
-                    "Simulate surface detail without geometry",
-                    "Delete detail"
+                    "Delete detail",
+                    "Simulate surface detail without geometry"
                 ],
                 "correct": 0
             },
@@ -7839,22 +7839,22 @@ const technologyQuestions = {
                 "emoji": "🎨💡",
                 "question": "What is ambient occlusion?",
                 "options": [
-                    "Bright light",
                     "No shadow",
+                    "Bright light",
                     "Shadow effect where surfaces meet"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Rendering",
                 "emoji": "🖼️🔍",
                 "question": "What is global illumination?",
                 "options": [
-                    "No light",
                     "Account for indirect light bounces",
-                    "Direct light only"
+                    "Direct light only",
+                    "No light"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -7876,23 +7876,23 @@ const technologyQuestions = {
                 "question": "What does the acronym MSAA stand for?",
                 "options": [
                     "Main Screen Active Area",
+                    "Multi-Sample Anti-Aliasing",
                     "Multiple System Access Algorithm",
-                    "No MSAA",
-                    "Multi-Sample Anti-Aliasing"
+                    "No MSAA"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Graphics",
                 "emoji": "🎨🎮",
                 "question": "What does the acronym CUDA stand for?",
                 "options": [
-                    "No CUDA",
                     "Graphics format",
-                    "Game engine",
-                    "Parallel computing platform by NVIDIA"
+                    "Parallel computing platform by NVIDIA",
+                    "No CUDA",
+                    "Game engine"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "3D",
@@ -7901,8 +7901,8 @@ const technologyQuestions = {
                 "options": [
                     "10,000-100,000",
                     "100",
-                    "10",
-                    "10 million"
+                    "10 million",
+                    "10"
                 ],
                 "correct": 1
             },
@@ -7913,8 +7913,8 @@ const technologyQuestions = {
                 "options": [
                     "No SVG",
                     "Scalable Vector Graphics",
-                    "Simple Visual Graphics",
-                    "Standard Video Game"
+                    "Standard Video Game",
+                    "Simple Visual Graphics"
                 ],
                 "correct": 1
             },
@@ -7923,12 +7923,12 @@ const technologyQuestions = {
                 "emoji": "🖼️⚡",
                 "question": "What is deferred rendering?",
                 "options": [
-                    "No rendering",
                     "Random order",
+                    "Single pass",
                     "Separate geometry and lighting passes",
-                    "Single pass"
+                    "No rendering"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Graphics",
@@ -7936,47 +7936,47 @@ const technologyQuestions = {
                 "question": "What is motion blur?",
                 "options": [
                     "Error",
-                    "Sharp image",
+                    "No blur",
                     "Simulate camera movement blur",
-                    "No blur"
+                    "Sharp image"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "3D",
                 "emoji": "📦🎬",
                 "question": "What does the acronym tessellation stand for?",
                 "options": [
-                    "Delete polygons",
                     "Combine polygons",
-                    "No change",
-                    "Subdivide polygons for detail"
+                    "Subdivide polygons for detail",
+                    "Delete polygons",
+                    "No change"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Graphics",
                 "emoji": "🎨💡",
                 "question": "What is the Phong reflection model?",
                 "options": [
-                    "No model",
-                    "Ambient + Diffuse + Specular lighting",
                     "Ambient only",
-                    "Single component"
+                    "Single component",
+                    "Ambient + Diffuse + Specular lighting",
+                    "No model"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Rendering",
                 "emoji": "🖼️🔍",
                 "question": "What is path tracing?",
                 "options": [
-                    "No tracing",
                     "2D only",
+                    "Simple rendering",
                     "Ray tracing extension for realism",
-                    "Simple rendering"
+                    "No tracing"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "extreme": [
@@ -8059,10 +8059,10 @@ const technologyQuestions = {
                 "emoji": "🏭🤖",
                 "question": "Is factories use robots?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Robots",
@@ -8099,10 +8099,10 @@ const technologyQuestions = {
                 "emoji": "🤖💪",
                 "question": "Do robots can lift heavy objects?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Programming",
@@ -8119,20 +8119,20 @@ const technologyQuestions = {
                 "emoji": "🚗🤖",
                 "question": "Are self-driving cars robots?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Robots",
                 "emoji": "🤖👁️",
                 "question": "Is robots use computer vision?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Future",
@@ -8151,20 +8151,20 @@ const technologyQuestions = {
                 "emoji": "🤖🔧",
                 "question": "What is a robot?",
                 "options": [
-                    "Programmable machine for tasks",
-                    "Human worker"
+                    "Human worker",
+                    "Programmable machine for tasks"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Applications",
                 "emoji": "🏭🤖",
                 "question": "What is industrial robotics?",
                 "options": [
-                    "Robots in manufacturing",
-                    "Home robots"
+                    "Home robots",
+                    "Robots in manufacturing"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Robots",
@@ -8181,10 +8181,10 @@ const technologyQuestions = {
                 "emoji": "🤖🧠",
                 "question": "What is autonomous robot?",
                 "options": [
-                    "Remote controlled",
-                    "Operates without human control"
+                    "Operates without human control",
+                    "Remote controlled"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Applications",
@@ -8201,10 +8201,10 @@ const technologyQuestions = {
                 "emoji": "🤖💪",
                 "question": "What is a robotic arm?",
                 "options": [
-                    "Human arm",
-                    "Manipulator for tasks"
+                    "Manipulator for tasks",
+                    "Human arm"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Programming",
@@ -8221,10 +8221,10 @@ const technologyQuestions = {
                 "emoji": "🚗🤖",
                 "question": "What is a drone?",
                 "options": [
-                    "Ground robot",
-                    "Unmanned aerial vehicle"
+                    "Unmanned aerial vehicle",
+                    "Ground robot"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Robots",
@@ -8241,10 +8241,10 @@ const technologyQuestions = {
                 "emoji": "🤖🚀",
                 "question": "What is humanoid robot?",
                 "options": [
-                    "Human-like appearance",
-                    "Animal-like"
+                    "Animal-like",
+                    "Human-like appearance"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -8253,77 +8253,77 @@ const technologyQuestions = {
                 "emoji": "🤖🔧",
                 "question": "What does the acronym kinematics stand for?",
                 "options": [
+                    "Sensor type",
                     "Power source",
-                    "Study of robot motion",
-                    "Sensor type"
+                    "Study of robot motion"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Applications",
                 "emoji": "🏭🤖",
                 "question": "What is collaborative robot (cobot)?",
                 "options": [
+                    "No collaboration",
                     "Works alongside humans",
-                    "Isolated operation",
-                    "No collaboration"
+                    "Isolated operation"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Robots",
                 "emoji": "🤖⚙️",
                 "question": "What is degrees of freedom in robotics?",
                 "options": [
+                    "Independent motion directions",
                     "No freedom",
-                    "Temperature range",
-                    "Independent motion directions"
+                    "Temperature range"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "AI",
                 "emoji": "🤖🧠",
                 "question": "What does the acronym SLAM stand for?",
                 "options": [
-                    "Simple Linear Algorithm",
                     "No SLAM",
+                    "Simple Linear Algorithm",
                     "Simultaneous Localization and Mapping"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Applications",
                 "emoji": "🏥🤖",
                 "question": "What is the da Vinci surgical system?",
                 "options": [
+                    "No system",
                     "Painting tool",
-                    "Robotic surgery platform",
-                    "No system"
+                    "Robotic surgery platform"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Robots",
                 "emoji": "🤖💪",
                 "question": "What is end effector?",
                 "options": [
-                    "Tool at robot arm end",
+                    "Starting point",
                     "No effector",
-                    "Starting point"
+                    "Tool at robot arm end"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Programming",
                 "emoji": "💻🤖",
                 "question": "What is path planning?",
                 "options": [
-                    "No planning",
                     "Calculate robot movement route",
+                    "No planning",
                     "Random movement"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Applications",
@@ -8331,8 +8331,8 @@ const technologyQuestions = {
                 "question": "What is swarm robotics?",
                 "options": [
                     "Coordinated multi-robot system",
-                    "No coordination",
-                    "Single robot"
+                    "Single robot",
+                    "No coordination"
                 ],
                 "correct": 0
             },
@@ -8341,22 +8341,22 @@ const technologyQuestions = {
                 "emoji": "🤖👁️",
                 "question": "What is sensor fusion?",
                 "options": [
-                    "Combine multiple sensor data",
+                    "Single sensor",
                     "No fusion",
-                    "Single sensor"
+                    "Combine multiple sensor data"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Future",
                 "emoji": "🤖🚀",
                 "question": "What is soft robotics?",
                 "options": [
-                    "No flexibility",
                     "Flexible compliant materials",
-                    "Hard metals only"
+                    "Hard metals only",
+                    "No flexibility"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -8366,9 +8366,9 @@ const technologyQuestions = {
                 "question": "What are the three laws of robotics by Asimov?",
                 "options": [
                     "Harm prevention, Obey orders, Self-preservation",
-                    "Speed, Accuracy, Strength",
+                    "One law",
                     "No laws",
-                    "One law"
+                    "Speed, Accuracy, Strength"
                 ],
                 "correct": 0
             },
@@ -8377,46 +8377,46 @@ const technologyQuestions = {
                 "emoji": "🏭🤖",
                 "question": "What is typical robot arm accuracy?",
                 "options": [
-                    "No accuracy",
                     "±0.1 mm for industrial",
                     "±1 m",
-                    "±10 cm"
+                    "±10 cm",
+                    "No accuracy"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Robots",
                 "emoji": "🤖⚙️",
                 "question": "What is a 6-axis robot?",
                 "options": [
-                    "Robot with 6 degrees of freedom",
                     "6 wheels",
+                    "6 motors",
                     "6 sensors",
-                    "6 motors"
+                    "Robot with 6 degrees of freedom"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "AI",
                 "emoji": "🤖🧠",
                 "question": "What is reinforcement learning in robotics?",
                 "options": [
+                    "Supervised learning",
                     "Learn through trial and reward",
-                    "Pre-programmed only",
                     "No learning",
-                    "Supervised learning"
+                    "Pre-programmed only"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Applications",
                 "emoji": "🏥🤖",
                 "question": "What is typical robot surgery precision?",
                 "options": [
-                    "10 cm",
+                    "1 cm",
                     "No precision",
-                    "Sub-millimeter accuracy",
-                    "1 cm"
+                    "10 cm",
+                    "Sub-millimeter accuracy"
                 ],
                 "correct": 1
             },
@@ -8425,12 +8425,12 @@ const technologyQuestions = {
                 "emoji": "🤖💪",
                 "question": "What is the payload capacity of industrial robots?",
                 "options": [
-                    "1 kg max",
-                    "Unlimited",
+                    "10 kg - 1000 kg range",
                     "10 tons",
-                    "10 kg - 1000 kg range"
+                    "Unlimited",
+                    "1 kg max"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Programming",
@@ -8449,36 +8449,36 @@ const technologyQuestions = {
                 "emoji": "🚗🤖",
                 "question": "What is the Turing test for robots?",
                 "options": [
+                    "No test",
                     "Strength test",
-                    "Test if robot exhibits human-like intelligence",
                     "Speed test",
-                    "No test"
+                    "Test if robot exhibits human-like intelligence"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Robots",
                 "emoji": "🤖👁️",
                 "question": "What is typical camera frame rate for robot vision?",
                 "options": [
-                    "30-60 FPS",
                     "No frames",
+                    "30-60 FPS",
                     "1000 FPS",
                     "1 FPS"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Future",
                 "emoji": "🤖🚀",
                 "question": "What is the uncanny valley?",
                 "options": [
+                    "No valley",
                     "Discomfort with human-like robots",
                     "Happy feeling",
-                    "No valley",
                     "Physical valley"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -8571,50 +8571,50 @@ const technologyQuestions = {
                 "emoji": "🥽🎮",
                 "question": "Is games use VR technology?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "AR",
                 "emoji": "📱🌍",
                 "question": "Is aR overlays digital on real world?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "VR",
                 "emoji": "🥽👓",
                 "question": "Is VR different from AR?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Applications",
                 "emoji": "🏫🥽",
                 "question": "Is VR used for training?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "VR",
                 "emoji": "🥽🎬",
                 "question": "Is vR creates 360-degree experiences?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Hardware",
@@ -8631,20 +8631,20 @@ const technologyQuestions = {
                 "emoji": "🥽🏠",
                 "question": "VR can simulate environments?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Applications",
                 "emoji": "🎨🥽",
                 "question": "Is vR enables virtual tours?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -8663,10 +8663,10 @@ const technologyQuestions = {
                 "emoji": "🥽💻",
                 "question": "What is a VR headset?",
                 "options": [
-                    "Head-mounted display",
-                    "Regular screen"
+                    "Regular screen",
+                    "Head-mounted display"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "VR",
@@ -8683,10 +8683,10 @@ const technologyQuestions = {
                 "emoji": "📱🌍",
                 "question": "What is augmented reality?",
                 "options": [
-                    "Overlay digital on physical",
-                    "Pure virtual"
+                    "Pure virtual",
+                    "Overlay digital on physical"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "VR",
@@ -8703,10 +8703,10 @@ const technologyQuestions = {
                 "emoji": "🏫🥽",
                 "question": "What is VR training?",
                 "options": [
-                    "Practice skills in virtual environment",
-                    "Book learning"
+                    "Book learning",
+                    "Practice skills in virtual environment"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "VR",
@@ -8733,10 +8733,10 @@ const technologyQuestions = {
                 "emoji": "🥽🏠",
                 "question": "What is room-scale VR?",
                 "options": [
-                    "Seated only",
-                    "Move in physical space"
+                    "Move in physical space",
+                    "Seated only"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Applications",
@@ -8755,22 +8755,22 @@ const technologyQuestions = {
                 "emoji": "🥽🌐",
                 "question": "What is stereoscopic 3D?",
                 "options": [
+                    "No 3D",
                     "Different images for each eye",
-                    "Same image both eyes",
-                    "No 3D"
+                    "Same image both eyes"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Hardware",
                 "emoji": "🥽💻",
                 "question": "What is the field of view in VR?",
                 "options": [
+                    "No view",
                     "Headset weight",
-                    "Visible area in headset",
-                    "No view"
+                    "Visible area in headset"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "VR",
@@ -8788,42 +8788,42 @@ const technologyQuestions = {
                 "emoji": "📱🌍",
                 "question": "What is marker-based AR?",
                 "options": [
+                    "Use visual markers for positioning",
                     "Random placement",
-                    "No markers",
-                    "Use visual markers for positioning"
+                    "No markers"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "VR",
                 "emoji": "🥽👓",
                 "question": "What is passthrough mode?",
                 "options": [
-                    "See real world through VR headset",
                     "Virtual only",
+                    "See real world through VR headset",
                     "No view"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Applications",
                 "emoji": "🏫🥽",
                 "question": "What is VR therapy?",
                 "options": [
-                    "No treatment",
                     "Regular therapy",
-                    "Treat conditions with VR"
+                    "Treat conditions with VR",
+                    "No treatment"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "VR",
                 "emoji": "🥽🎬",
                 "question": "What is locomotion in VR?",
                 "options": [
-                    "No movement",
+                    "Movement in virtual space",
                     "Standing still",
-                    "Movement in virtual space"
+                    "No movement"
                 ],
                 "correct": 1
             },
@@ -8833,8 +8833,8 @@ const technologyQuestions = {
                 "question": "What is latency in VR?",
                 "options": [
                     "No delay",
-                    "Speed",
-                    "Delay between action and display"
+                    "Delay between action and display",
+                    "Speed"
                 ],
                 "correct": 0
             },
@@ -8843,22 +8843,22 @@ const technologyQuestions = {
                 "emoji": "🥽🏠",
                 "question": "What is social VR?",
                 "options": [
-                    "Single player",
+                    "No interaction",
                     "Interact with others in VR",
-                    "No interaction"
+                    "Single player"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Applications",
                 "emoji": "🎨🥽",
                 "question": "What is VR cinema?",
                 "options": [
-                    "Regular cinema",
                     "Watch movies in virtual theater",
+                    "Regular cinema",
                     "No viewing"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -8867,22 +8867,22 @@ const technologyQuestions = {
                 "emoji": "🥽🌐",
                 "question": "What is the typical VR headset refresh rate?",
                 "options": [
+                    "30 Hz",
                     "90-120 Hz",
                     "1000 Hz",
-                    "10 Hz",
-                    "30 Hz"
+                    "10 Hz"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Hardware",
                 "emoji": "🥽💻",
                 "question": "What is the Oculus Quest resolution per eye?",
                 "options": [
-                    "4K",
+                    "640 x 480",
                     "~1832 x 1920 pixels",
                     "8K",
-                    "640 x 480"
+                    "4K"
                 ],
                 "correct": 1
             },
@@ -8891,36 +8891,36 @@ const technologyQuestions = {
                 "emoji": "🥽🎮",
                 "question": "What causes VR motion sickness?",
                 "options": [
-                    "Sensory mismatch",
                     "High frame rate",
-                    "Perfect tracking",
-                    "No cause"
+                    "No cause",
+                    "Sensory mismatch",
+                    "Perfect tracking"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "AR",
                 "emoji": "📱🌍",
                 "question": "What is SLAM in AR?",
                 "options": [
-                    "Simultaneous Localization and Mapping",
-                    "Screen Level Adjustment",
                     "Simple Linear Algorithm",
-                    "No SLAM"
+                    "No SLAM",
+                    "Simultaneous Localization and Mapping",
+                    "Screen Level Adjustment"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "VR",
                 "emoji": "🥽👓",
                 "question": "What is the metaverse?",
                 "options": [
-                    "No connection",
-                    "Single game",
                     "Shared virtual world",
-                    "Website"
+                    "Website",
+                    "Single game",
+                    "No connection"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Applications",
@@ -8928,9 +8928,9 @@ const technologyQuestions = {
                 "question": "What is surgical VR training effectiveness?",
                 "options": [
                     "5% improvement",
+                    "100% mastery",
                     "No improvement",
-                    "Improves skills by 30-50%",
-                    "100% mastery"
+                    "Improves skills by 30-50%"
                 ],
                 "correct": 0
             },
@@ -8940,47 +8940,47 @@ const technologyQuestions = {
                 "question": "What is foveated rendering?",
                 "options": [
                     "Low quality only",
-                    "Equal quality everywhere",
                     "Render high quality where user looks",
-                    "No rendering"
+                    "No rendering",
+                    "Equal quality everywhere"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Hardware",
                 "emoji": "🎮🥽",
                 "question": "What is acceptable VR latency?",
                 "options": [
-                    "<20 milliseconds",
                     "500 ms",
-                    "1 second",
-                    "10 seconds"
+                    "10 seconds",
+                    "<20 milliseconds",
+                    "1 second"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "VR",
                 "emoji": "🥽🏠",
                 "question": "What is volumetric capture?",
                 "options": [
-                    "Record 3D space and movement",
-                    "No capture",
                     "Audio only",
-                    "2D video"
+                    "No capture",
+                    "2D video",
+                    "Record 3D space and movement"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Applications",
                 "emoji": "🎨🥽",
                 "question": "What is the VR market size projection for 2025?",
                 "options": [
-                    "$100 million",
                     "$500 billion",
-                    "$1 billion",
-                    "$50-70 billion"
+                    "$50-70 billion",
+                    "$100 million",
+                    "$1 billion"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "extreme": [
@@ -9063,10 +9063,10 @@ const technologyQuestions = {
                 "emoji": "⚛️🔢",
                 "question": "Are qubits quantum bits?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Quantum",
@@ -9083,10 +9083,10 @@ const technologyQuestions = {
                 "emoji": "🔬⚛️",
                 "question": "Does quantum computing use quantum physics?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Quantum",
@@ -9123,10 +9123,10 @@ const technologyQuestions = {
                 "emoji": "⚛️💡",
                 "question": "Do qubits can be 0 and 1 simultaneously?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Quantum",
@@ -9185,20 +9185,20 @@ const technologyQuestions = {
                 "emoji": "🔬⚛️",
                 "question": "What does the acronym superposition stand for?",
                 "options": [
-                    "Exist in multiple states",
-                    "Single state"
+                    "Single state",
+                    "Exist in multiple states"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Quantum",
                 "emoji": "⚛️🌡️",
                 "question": "What temperature do quantum computers need?",
                 "options": [
-                    "Room temperature",
-                    "Near absolute zero"
+                    "Near absolute zero",
+                    "Room temperature"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Applications",
@@ -9225,10 +9225,10 @@ const technologyQuestions = {
                 "emoji": "⚛️💡",
                 "question": "What does the acronym entanglement stand for?",
                 "options": [
-                    "Qubits connected regardless of distance",
-                    "No connection"
+                    "No connection",
+                    "Qubits connected regardless of distance"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Quantum",
@@ -9245,10 +9245,10 @@ const technologyQuestions = {
                 "emoji": "⚛️🚀",
                 "question": "What is quantum supremacy?",
                 "options": [
-                    "No difference",
-                    "Quantum solves unsolvable classical problems"
+                    "Quantum solves unsolvable classical problems",
+                    "No difference"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -9257,11 +9257,11 @@ const technologyQuestions = {
                 "emoji": "⚛️💻",
                 "question": "What is a quantum gate?",
                 "options": [
-                    "Basic quantum operation",
                     "No operation",
-                    "Physical gate"
+                    "Physical gate",
+                    "Basic quantum operation"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Qubits",
@@ -9290,11 +9290,11 @@ const technologyQuestions = {
                 "emoji": "🔬⚛️",
                 "question": "What is quantum interference?",
                 "options": [
-                    "Block states",
                     "Combine quantum states",
-                    "No combination"
+                    "No combination",
+                    "Block states"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Quantum",
@@ -9312,22 +9312,22 @@ const technologyQuestions = {
                 "emoji": "🔐⚛️",
                 "question": "What is Shor's algorithm?",
                 "options": [
-                    "Encrypt data",
+                    "No algorithm",
                     "Factor numbers efficiently",
-                    "No algorithm"
+                    "Encrypt data"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Quantum",
                 "emoji": "⚛️🧪",
                 "question": "What is topological qubit?",
                 "options": [
-                    "Error-resistant qubit design",
                     "No design",
-                    "Regular qubit"
+                    "Regular qubit",
+                    "Error-resistant qubit design"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Qubits",
@@ -9335,8 +9335,8 @@ const technologyQuestions = {
                 "question": "What is quantum measurement?",
                 "options": [
                     "Collapse superposition to definite state",
-                    "Continuous",
-                    "No change"
+                    "No change",
+                    "Continuous"
                 ],
                 "correct": 0
             },
@@ -9345,11 +9345,11 @@ const technologyQuestions = {
                 "emoji": "⚛️🏢",
                 "question": "What is D-Wave?",
                 "options": [
-                    "No company",
                     "Classical computer",
+                    "No company",
                     "Quantum annealing company"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Future",
@@ -9357,10 +9357,10 @@ const technologyQuestions = {
                 "question": "What is quantum error correction?",
                 "options": [
                     "No correction",
-                    "Fix errors in quantum computation",
-                    "Classical method"
+                    "Classical method",
+                    "Fix errors in quantum computation"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -9369,22 +9369,22 @@ const technologyQuestions = {
                 "emoji": "⚛️💻",
                 "question": "What is the typical qubit coherence time?",
                 "options": [
-                    "Hours",
                     "Microseconds to milliseconds",
-                    "Seconds",
-                    "Years"
+                    "Hours",
+                    "Years",
+                    "Seconds"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Qubits",
                 "emoji": "⚛️🔢",
                 "question": "What is the no-cloning theorem?",
                 "options": [
-                    "Classical only",
-                    "No theorem",
                     "Cannot copy unknown quantum state",
-                    "Can copy everything"
+                    "No theorem",
+                    "Can copy everything",
+                    "Classical only"
                 ],
                 "correct": 1
             },
@@ -9394,9 +9394,9 @@ const technologyQuestions = {
                 "question": "What speedup does Grover provide?",
                 "options": [
                     "No speedup",
-                    "Linear",
                     "Exponential",
-                    "Quadratic (square root)"
+                    "Quadratic (square root)",
+                    "Linear"
                 ],
                 "correct": 0
             },
@@ -9406,23 +9406,23 @@ const technologyQuestions = {
                 "question": "What is the Bloch sphere?",
                 "options": [
                     "No representation",
-                    "Represent qubit state geometrically",
+                    "Physical ball",
                     "Cube",
-                    "Physical ball"
+                    "Represent qubit state geometrically"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Quantum",
                 "emoji": "⚛️🌡️",
                 "question": "What temperature is needed for superconducting qubits?",
                 "options": [
-                    "Room temp",
-                    "0°C",
                     "~15 millikelvin",
-                    "100°C"
+                    "100°C",
+                    "Room temp",
+                    "0°C"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Applications",
@@ -9431,8 +9431,8 @@ const technologyQuestions = {
                 "options": [
                     "Quantum key distribution",
                     "Classical encryption",
-                    "No protocol",
-                    "Web protocol"
+                    "Web protocol",
+                    "No protocol"
                 ],
                 "correct": 0
             },
@@ -9441,48 +9441,48 @@ const technologyQuestions = {
                 "emoji": "⚛️🧪",
                 "question": "What is adiabatic quantum computing?",
                 "options": [
-                    "Evolve system to find solution",
-                    "No computing",
+                    "Classical method",
                     "Gate-based computing",
-                    "Classical method"
+                    "No computing",
+                    "Evolve system to find solution"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Qubits",
                 "emoji": "⚛️💡",
                 "question": "What is the quantum volume metric?",
                 "options": [
+                    "Physical volume",
                     "No metric",
                     "Speed only",
-                    "Physical volume",
                     "Measure quantum computer capability"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Quantum",
                 "emoji": "⚛️🏢",
                 "question": "How many qubits did Google's Sycamore have?",
                 "options": [
-                    "1",
                     "10",
-                    "53",
-                    "1000"
+                    "1000",
+                    "1",
+                    "53"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Future",
                 "emoji": "⚛️🚀",
                 "question": "What is fault-tolerant quantum computing?",
                 "options": [
+                    "Classical fallback",
                     "Reliable computation despite errors",
                     "Ignore errors",
-                    "Classical fallback",
                     "No errors possible"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -9555,20 +9555,20 @@ const technologyQuestions = {
                 "emoji": "⚖️💻",
                 "question": "Is technology raises ethical questions?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Privacy",
                 "emoji": "🔐👤",
                 "question": "Is privacy important online?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ethics",
@@ -9595,20 +9595,20 @@ const technologyQuestions = {
                 "emoji": "⚖️🌍",
                 "question": "Is technology impacts society?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Bias",
                 "emoji": "⚠️🤖",
                 "question": "Does AI can have biases?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ethics",
@@ -9625,20 +9625,20 @@ const technologyQuestions = {
                 "emoji": "🌱💻",
                 "question": "Does tech have environmental impact?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ethics",
                 "emoji": "⚖️👥",
                 "question": "Is digital divide creates inequality?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Security",
@@ -9707,10 +9707,10 @@ const technologyQuestions = {
                 "emoji": "⚠️🤖",
                 "question": "What is facial recognition bias?",
                 "options": [
-                    "Perfect accuracy",
-                    "Inaccuracy across demographics"
+                    "Inaccuracy across demographics",
+                    "Perfect accuracy"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ethics",
@@ -9737,10 +9737,10 @@ const technologyQuestions = {
                 "emoji": "⚖️👥",
                 "question": "What is digital divide?",
                 "options": [
-                    "No gap",
-                    "Gap in technology access"
+                    "Gap in technology access",
+                    "No gap"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Security",
@@ -9759,11 +9759,11 @@ const technologyQuestions = {
                 "emoji": "⚖️💻",
                 "question": "What is the trolley problem in AI?",
                 "options": [
-                    "Train problem",
                     "Ethical decision in autonomous systems",
+                    "Train problem",
                     "No problem"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Privacy",
@@ -9782,8 +9782,8 @@ const technologyQuestions = {
                 "question": "What is explainable AI?",
                 "options": [
                     "Black box",
-                    "AI that can explain decisions",
-                    "No explanation"
+                    "No explanation",
+                    "AI that can explain decisions"
                 ],
                 "correct": 0
             },
@@ -9792,33 +9792,33 @@ const technologyQuestions = {
                 "emoji": "📊🔒",
                 "question": "What is right to be forgotten?",
                 "options": [
-                    "No rights",
                     "Keep forever",
-                    "Delete personal data from internet"
+                    "Delete personal data from internet",
+                    "No rights"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ethics",
                 "emoji": "⚖️🌍",
                 "question": "What is surveillance capitalism?",
                 "options": [
-                    "No surveillance",
                     "Profit from behavioral data",
+                    "No surveillance",
                     "Free services"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Bias",
                 "emoji": "⚠️🤖",
                 "question": "What is training data bias?",
                 "options": [
+                    "Biased data leads to biased AI",
                     "No bias",
-                    "Perfect data",
-                    "Biased data leads to biased AI"
+                    "Perfect data"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Ethics",
@@ -9826,21 +9826,21 @@ const technologyQuestions = {
                 "question": "What is dark pattern?",
                 "options": [
                     "Helpful design",
-                    "No pattern",
-                    "Manipulative UI design"
+                    "Manipulative UI design",
+                    "No pattern"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Environment",
                 "emoji": "🌱💻",
                 "question": "What is green computing?",
                 "options": [
-                    "Environmentally responsible computing",
+                    "No responsibility",
                     "Color choice",
-                    "No responsibility"
+                    "Environmentally responsible computing"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Ethics",
@@ -9858,9 +9858,9 @@ const technologyQuestions = {
                 "emoji": "🔒💻",
                 "question": "What is responsible disclosure?",
                 "options": [
-                    "Report vulnerabilities to vendor first",
+                    "Hide forever",
                     "Publish immediately",
-                    "Hide forever"
+                    "Report vulnerabilities to vendor first"
                 ],
                 "correct": 1
             }
@@ -9883,12 +9883,12 @@ const technologyQuestions = {
                 "emoji": "🔐👤",
                 "question": "What percentage of users read privacy policies?",
                 "options": [
-                    "100%",
                     "90%",
                     "50%",
-                    "~1-9%"
+                    "~1-9%",
+                    "100%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ethics",
@@ -9896,8 +9896,8 @@ const technologyQuestions = {
                 "question": "What is the European AI Act?",
                 "options": [
                     "No regulation",
-                    "Ban all AI",
                     "US law",
+                    "Ban all AI",
                     "Regulate AI based on risk level"
                 ],
                 "correct": 0
@@ -9907,84 +9907,84 @@ const technologyQuestions = {
                 "emoji": "📊🔒",
                 "question": "What is GDPR maximum fine?",
                 "options": [
-                    "€20M or 4% of revenue, whichever higher",
                     "No fine",
                     "Unlimited",
+                    "€20M or 4% of revenue, whichever higher",
                     "€100"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Ethics",
                 "emoji": "⚖️🌍",
                 "question": "What is the digital divide percentage globally?",
                 "options": [
-                    "0%",
-                    "90%",
                     "1%",
-                    "~40% lack internet access"
+                    "~40% lack internet access",
+                    "0%",
+                    "90%"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Bias",
                 "emoji": "⚠️🤖",
                 "question": "What is the COMPAS bias controversy?",
                 "options": [
-                    "Weather prediction",
                     "Racial bias in recidivism prediction",
                     "Perfect system",
+                    "Weather prediction",
                     "No bias"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Ethics",
                 "emoji": "⚖️📱",
                 "question": "What is the average daily screen time?",
                 "options": [
+                    "1 hour",
                     "30 minutes",
-                    "24 hours",
                     "~7 hours",
-                    "1 hour"
+                    "24 hours"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Environment",
                 "emoji": "🌱💻",
                 "question": "What is data center energy use percentage?",
                 "options": [
-                    "20%",
                     "~1-2% of global electricity",
                     "50%",
-                    "0.01%"
+                    "0.01%",
+                    "20%"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Ethics",
                 "emoji": "⚖️👥",
                 "question": "What is digital redlining?",
                 "options": [
+                    "Discriminatory access to services",
                     "Equal access",
                     "Physical boundaries",
-                    "No discrimination",
-                    "Discriminatory access to services"
+                    "No discrimination"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Security",
                 "emoji": "🔒💻",
                 "question": "What is the average data breach cost?",
                 "options": [
-                    "$100",
                     "~$4-5 million",
+                    "$100",
                     "$10",
                     "$1 billion"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "extreme": [

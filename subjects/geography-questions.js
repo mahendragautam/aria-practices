@@ -46,30 +46,30 @@ const geographyQuestions = {
                 "emoji": "🏜️🏝️",
                 "question": "Is the Nile the longest river?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Continents",
                 "emoji": "🌲🌳",
                 "question": "Is Africa a continent?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Oceans",
                 "emoji": "🗻🏔️",
                 "question": "Is the Atlantic Ocean between Europe and America?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Mountains",
@@ -106,10 +106,10 @@ const geographyQuestions = {
                 "emoji": "🌐🗺️",
                 "question": "Is the Arctic Ocean the smallest ocean?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -128,10 +128,10 @@ const geographyQuestions = {
                 "emoji": "🏘️🏡",
                 "question": "Which ocean is the deepest?",
                 "options": [
-                    "Pacific",
-                    "Atlantic"
+                    "Atlantic",
+                    "Pacific"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mountains",
@@ -148,10 +148,10 @@ const geographyQuestions = {
                 "emoji": "🌅🌄",
                 "question": "Which river flows through Egypt?",
                 "options": [
-                    "Amazon",
-                    "Nile"
+                    "Nile",
+                    "Amazon"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Continents",
@@ -188,20 +188,20 @@ const geographyQuestions = {
                 "emoji": "🏕️⛺",
                 "question": "Which river is in South America?",
                 "options": [
-                    "Mississippi",
-                    "Amazon"
+                    "Amazon",
+                    "Mississippi"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Continents",
                 "emoji": "🎿🏂",
                 "question": "Which continent has the most countries?",
                 "options": [
-                    "Asia",
-                    "Africa"
+                    "Africa",
+                    "Asia"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Oceans",
@@ -220,44 +220,44 @@ const geographyQuestions = {
                 "emoji": "🏞️🏔️",
                 "question": "How many countries are in Africa?",
                 "options": [
+                    "48",
                     "60",
-                    "54",
-                    "48"
+                    "54"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Oceans",
                 "emoji": "🗼🏯",
                 "question": "What is the deepest ocean trench?",
                 "options": [
-                    "Puerto Rico Trench",
                     "Java Trench",
+                    "Puerto Rico Trench",
                     "Mariana Trench"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mountains",
                 "emoji": "🌁🌫️",
                 "question": "How tall is Mount Everest?",
                 "options": [
-                    "8,611m",
+                    "9,000m",
                     "8,849m",
-                    "9,000m"
+                    "8,611m"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Rivers",
                 "emoji": "🌤️⛅",
                 "question": "What is the longest river in Europe?",
                 "options": [
-                    "Danube",
                     "Volga",
+                    "Danube",
                     "Rhine"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Continents",
@@ -286,22 +286,22 @@ const geographyQuestions = {
                 "emoji": "🌈☀️",
                 "question": "Which mountain range is longest?",
                 "options": [
-                    "Himalayas",
                     "Rockies",
+                    "Himalayas",
                     "Andes"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Rivers",
                 "emoji": "❄️⛄",
                 "question": "Which river flows through most countries?",
                 "options": [
+                    "Nile",
                     "Danube",
-                    "Amazon",
-                    "Nile"
+                    "Amazon"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Continents",
@@ -309,8 +309,8 @@ const geographyQuestions = {
                 "question": "What is the capital of Australia?",
                 "options": [
                     "Sydney",
-                    "Canberra",
-                    "Melbourne"
+                    "Melbourne",
+                    "Canberra"
                 ],
                 "correct": 0
             },
@@ -319,11 +319,11 @@ const geographyQuestions = {
                 "emoji": "🍂🍁",
                 "question": "Where is the Bermuda Triangle?",
                 "options": [
+                    "Pacific Ocean",
                     "Atlantic Ocean",
-                    "Indian Ocean",
-                    "Pacific Ocean"
+                    "Indian Ocean"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -332,24 +332,24 @@ const geographyQuestions = {
                 "emoji": "🌍🗺️",
                 "question": "What is the total area of Asia (approx)?",
                 "options": [
-                    "30 million km²",
-                    "50 million km²",
+                    "40 million km²",
                     "44.5 million km²",
-                    "40 million km²"
+                    "50 million km²",
+                    "30 million km²"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Oceans",
                 "emoji": "🌊💧",
                 "question": "How deep is the Mariana Trench?",
                 "options": [
+                    "10,000m",
                     "11,000m",
-                    "9,000m",
                     "12,000m",
-                    "10,000m"
+                    "9,000m"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Mountains",
@@ -357,9 +357,9 @@ const geographyQuestions = {
                 "question": "Is in which mountain range Mont Blanc?",
                 "options": [
                     "Apennines",
-                    "Carpathians",
                     "Alps",
-                    "Pyrenees"
+                    "Pyrenees",
+                    "Carpathians"
                 ],
                 "correct": 0
             },
@@ -368,10 +368,10 @@ const geographyQuestions = {
                 "emoji": "🏞️💧",
                 "question": "How long is the Amazon River (approx)?",
                 "options": [
-                    "4,400km",
-                    "6,400km",
                     "7,400km",
-                    "5,400km"
+                    "6,400km",
+                    "5,400km",
+                    "4,400km"
                 ],
                 "correct": 1
             },
@@ -380,72 +380,72 @@ const geographyQuestions = {
                 "emoji": "🗺️🌏",
                 "question": "What is the most populous country?",
                 "options": [
-                    "USA",
                     "Indonesia",
-                    "China",
-                    "India"
+                    "India",
+                    "USA",
+                    "China"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Oceans",
                 "emoji": "🌊🌍",
                 "question": "What is the average depth of Pacific Ocean?",
                 "options": [
-                    "5,000m",
-                    "6,000m",
                     "4,000m",
-                    "3,000m"
+                    "3,000m",
+                    "5,000m",
+                    "6,000m"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Mountains",
                 "emoji": "⛰️📏",
                 "question": "Which is the highest mountain in Africa?",
                 "options": [
+                    "Atlas Peak",
                     "Mount Kenya",
-                    "Kilimanjaro",
                     "Table Mountain",
-                    "Atlas Peak"
+                    "Kilimanjaro"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Rivers",
                 "emoji": "🏞️🌊",
                 "question": "Does through how many countries doe the Nile flow?",
                 "options": [
-                    "9",
-                    "11",
                     "13",
+                    "11",
+                    "9",
                     "7"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Continents",
                 "emoji": "🌍🗺️",
                 "question": "What is the smallest country in the world?",
                 "options": [
-                    "Vatican City",
+                    "Monaco",
                     "Liechtenstein",
-                    "San Marino",
-                    "Monaco"
+                    "Vatican City",
+                    "San Marino"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Oceans",
                 "emoji": "🌊💧",
                 "question": "What is the saltiest ocean?",
                 "options": [
-                    "Pacific",
                     "Indian",
+                    "Pacific",
                     "Arctic",
                     "Atlantic"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "extreme": [
@@ -538,10 +538,10 @@ const geographyQuestions = {
                 "emoji": "🇷🇺🌍",
                 "question": "Is russia the largest country?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Borders",
@@ -558,10 +558,10 @@ const geographyQuestions = {
                 "emoji": "🇧🇷🌴",
                 "question": "Is brazil in South America?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Borders",
@@ -598,20 +598,20 @@ const geographyQuestions = {
                 "emoji": "🇩🇪🗺️",
                 "question": "Is Germany in Europe?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Borders",
                 "emoji": "🌊🗺️",
                 "question": "Island nations have no land borders?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -620,10 +620,10 @@ const geographyQuestions = {
                 "emoji": "🏔️🚧",
                 "question": "Which countries border the USA?",
                 "options": [
-                    "Canada and Mexico",
-                    "Mexico and Cuba"
+                    "Mexico and Cuba",
+                    "Canada and Mexico"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Countries",
@@ -650,10 +650,10 @@ const geographyQuestions = {
                 "emoji": "🏞️🚧",
                 "question": "Which river forms part of US-Mexico border?",
                 "options": [
-                    "Rio Grande",
-                    "Colorado"
+                    "Colorado",
+                    "Rio Grande"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Countries",
@@ -690,22 +690,22 @@ const geographyQuestions = {
                 "emoji": "🌊🗺️",
                 "question": "Which country has the most borders?",
                 "options": [
-                    "China",
-                    "Russia"
+                    "Russia",
+                    "China"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Borders",
                 "emoji": "🏔️🚧",
                 "question": "Where is the Amazon Rainforest?",
                 "options": [
-                    "Africa",
                     "Asia",
+                    "Africa",
                     "South America",
                     "Australia"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Borders",
@@ -726,20 +726,20 @@ const geographyQuestions = {
                 "emoji": "🇺🇸🗺️",
                 "question": "How many states are in the USA?",
                 "options": [
-                    "52",
                     "48",
+                    "52",
                     "50"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Borders",
                 "emoji": "🏔️🚧",
                 "question": "Which line divides North and South Korea?",
                 "options": [
-                    "49th parallel",
+                    "38th parallel",
                     "17th parallel",
-                    "38th parallel"
+                    "49th parallel"
                 ],
                 "correct": 1
             },
@@ -748,31 +748,31 @@ const geographyQuestions = {
                 "emoji": "🇷🇺🌍",
                 "question": "What is the area of Russia (approx)?",
                 "options": [
-                    "15 million km²",
                     "17 million km²",
-                    "20 million km²"
+                    "20 million km²",
+                    "15 million km²"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Borders",
                 "emoji": "🗺️📍",
                 "question": "How long is Canada-USA border?",
                 "options": [
-                    "10,891 km",
                     "6,891 km",
-                    "8,891 km"
+                    "8,891 km",
+                    "10,891 km"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Countries",
                 "emoji": "🇧🇷🌴",
                 "question": "What percentage of South America is Brazil?",
                 "options": [
-                    "37%",
+                    "47%",
                     "57%",
-                    "47%"
+                    "37%"
                 ],
                 "correct": 1
             },
@@ -781,22 +781,22 @@ const geographyQuestions = {
                 "emoji": "🏞️🚧",
                 "question": "How many countries does the Danube flow through?",
                 "options": [
+                    "8",
                     "10",
-                    "12",
-                    "8"
+                    "12"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Countries",
                 "emoji": "🇮🇳🗺️",
                 "question": "What is the population of India (approx)?",
                 "options": [
-                    "1.2 billion",
                     "1.6 billion",
-                    "1.4 billion"
+                    "1.4 billion",
+                    "1.2 billion"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Borders",
@@ -814,11 +814,11 @@ const geographyQuestions = {
                 "emoji": "🇩🇪🗺️",
                 "question": "When was Germany reunified?",
                 "options": [
-                    "1991",
                     "1989",
-                    "1990"
+                    "1990",
+                    "1991"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Borders",
@@ -826,10 +826,10 @@ const geographyQuestions = {
                 "question": "How many countries border China?",
                 "options": [
                     "16",
-                    "12",
-                    "14"
+                    "14",
+                    "12"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -838,22 +838,22 @@ const geographyQuestions = {
                 "emoji": "🇺🇸🗺️",
                 "question": "Which state is the largest by area?",
                 "options": [
+                    "California",
                     "Texas",
                     "Montana",
-                    "California",
                     "Alaska"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Borders",
                 "emoji": "🏔️🚧",
                 "question": "What was the Berlin Wall?",
                 "options": [
-                    "Historical monument",
+                    "Military base",
                     "Border dividing East and West Berlin",
                     "City wall",
-                    "Military base"
+                    "Historical monument"
                 ],
                 "correct": 1
             },
@@ -862,48 +862,48 @@ const geographyQuestions = {
                 "emoji": "🇷🇺🌍",
                 "question": "What percentage of Russia is in Asia?",
                 "options": [
-                    "77%",
-                    "50%",
                     "85%",
-                    "65%"
+                    "65%",
+                    "50%",
+                    "77%"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Borders",
                 "emoji": "🗺️📍",
                 "question": "What is an enclave?",
                 "options": [
-                    "Border city",
                     "Territory surrounded by another country",
                     "Island nation",
-                    "Neutral zone"
+                    "Neutral zone",
+                    "Border city"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Countries",
                 "emoji": "🇧🇷🌴",
                 "question": "How many countries does Brazil border?",
                 "options": [
-                    "12",
                     "10",
-                    "8",
-                    "9"
+                    "9",
+                    "12",
+                    "8"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Borders",
                 "emoji": "🏞️🚧",
                 "question": "What is the DMZ?",
                 "options": [
+                    "Dutch Maritime Zone",
                     "Desert Military Zone",
                     "Demilitarized Zone Korea",
-                    "Defense Monitoring Zone",
-                    "Dutch Maritime Zone"
+                    "Defense Monitoring Zone"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Countries",
@@ -911,47 +911,47 @@ const geographyQuestions = {
                 "question": "How many states are in India?",
                 "options": [
                     "28",
-                    "27",
                     "30",
+                    "27",
                     "29"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Borders",
                 "emoji": "⛰️🚧",
                 "question": "Which countries meet at Four Corners?",
                 "options": [
-                    "Argentina-Chile-Bolivia-Paraguay",
                     "Switzerland-Austria-Italy-Germany",
-                    "France-Belgium-Germany-Luxembourg",
-                    "US states not countries"
+                    "Argentina-Chile-Bolivia-Paraguay",
+                    "US states not countries",
+                    "France-Belgium-Germany-Luxembourg"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Countries",
                 "emoji": "🇩🇪🗺️",
                 "question": "What was West Germany called?",
                 "options": [
-                    "Western Germany",
-                    "Republic of Germany",
+                    "Federal Republic of Germany",
                     "German Democratic Republic",
-                    "Federal Republic of Germany"
+                    "Republic of Germany",
+                    "Western Germany"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Countries",
                 "emoji": "🇺🇸🗺️",
                 "question": "What is Kazakhstan's capital?",
                 "options": [
+                    "Tashkent",
                     "Almaty",
-                    "Astana",
                     "Bishkek",
-                    "Tashkent"
+                    "Astana"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "extreme": [
@@ -1034,10 +1034,10 @@ const geographyQuestions = {
                 "emoji": "🏛️🇬🇧",
                 "question": "Is london the capital of UK?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Capitals",
@@ -1054,25 +1054,15 @@ const geographyQuestions = {
                 "emoji": "🏛️🦘",
                 "question": "Is sydney the capital of Australia?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Capitals",
                 "emoji": "🏛️🍕",
                 "question": "Is Rome the capital of Italy?",
-                "options": [
-                    "True",
-                    "False"
-                ],
-                "correct": 1
-            },
-            {
-                "topic": "Capitals",
-                "emoji": "🏛️🇪🇸",
-                "question": "Is madrid the capital of Spain?",
                 "options": [
                     "False",
                     "True"
@@ -1081,13 +1071,23 @@ const geographyQuestions = {
             },
             {
                 "topic": "Capitals",
-                "emoji": "🏛️🇩🇪",
-                "question": "Is berlin the capital of Germany?",
+                "emoji": "🏛️🇪🇸",
+                "question": "Is madrid the capital of Spain?",
                 "options": [
                     "True",
                     "False"
                 ],
                 "correct": 1
+            },
+            {
+                "topic": "Capitals",
+                "emoji": "🏛️🇩🇪",
+                "question": "Is berlin the capital of Germany?",
+                "options": [
+                    "False",
+                    "True"
+                ],
+                "correct": 0
             },
             {
                 "topic": "Capitals",
@@ -1146,54 +1146,54 @@ const geographyQuestions = {
                 "emoji": "🏛️🇩🇪",
                 "question": "What is the capital of Switzerland?",
                 "options": [
-                    "Bern",
-                    "Zurich"
+                    "Zurich",
+                    "Bern"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Capitals",
                 "emoji": "🏛️🇨🇳",
                 "question": "What is the capital of Egypt?",
                 "options": [
-                    "Alexandria",
-                    "Cairo"
+                    "Cairo",
+                    "Alexandria"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Capitals",
                 "emoji": "🏛️🇧🇷",
                 "question": "What is the real capital of Brazil?",
                 "options": [
-                    "Rio de Janeiro",
-                    "Brasília"
-                ],
-                "correct": 1
-            },
-            {
-                "topic": "Capitals",
-                "emoji": "🏛️🍕",
-                "question": "Which is the longest river?",
-                "options": [
-                    "Amazon",
-                    "Nile",
-                    "Yangtze",
-                    "Mississippi"
+                    "Brasília",
+                    "Rio de Janeiro"
                 ],
                 "correct": 0
             },
             {
                 "topic": "Capitals",
                 "emoji": "🏛️🍕",
+                "question": "Which is the longest river?",
+                "options": [
+                    "Nile",
+                    "Mississippi",
+                    "Yangtze",
+                    "Amazon"
+                ],
+                "correct": 3
+            },
+            {
+                "topic": "Capitals",
+                "emoji": "🏛️🍕",
                 "question": "What is the smallest continent in your opinion?",
                 "options": [
+                    "South America",
                     "Europe",
                     "Antarctica",
-                    "Australia",
-                    "South America"
+                    "Australia"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Capitals",
@@ -1212,24 +1212,24 @@ const geographyQuestions = {
                 "emoji": "🏛️🍕",
                 "question": "Ch3: Where is the Amazon Rainforest?",
                 "options": [
-                    "Africa",
                     "Asia",
+                    "Africa",
                     "South America",
                     "Australia"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Capitals",
                 "emoji": "🏛️🍕",
                 "question": "Ch3: Which is the largest ocean?",
                 "options": [
-                    "Atlantic",
                     "Pacific",
-                    "Indian",
-                    "Arctic"
+                    "Atlantic",
+                    "Arctic",
+                    "Indian"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -1238,75 +1238,75 @@ const geographyQuestions = {
                 "emoji": "🏛️🗼",
                 "question": "What is the capital of Kazakhstan?",
                 "options": [
-                    "Nur-Sultan",
                     "Astana",
+                    "Nur-Sultan",
                     "Almaty"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Capitals",
                 "emoji": "🏛️🇬🇧",
                 "question": "What is the capital of Myanmar?",
                 "options": [
-                    "Mandalay",
                     "Yangon",
-                    "Naypyidaw"
+                    "Naypyidaw",
+                    "Mandalay"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Capitals",
                 "emoji": "🏛️🗾",
                 "question": "What is the capital of Nigeria?",
                 "options": [
-                    "Abuja",
                     "Kano",
-                    "Lagos"
+                    "Lagos",
+                    "Abuja"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Capitals",
                 "emoji": "🏛️🦘",
                 "question": "When did Canberra become capital?",
                 "options": [
+                    "1913",
                     "1927",
-                    "1901",
-                    "1913"
+                    "1901"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Capitals",
                 "emoji": "🏛️🇪🇸",
                 "question": "What is the capital of Morocco?",
                 "options": [
-                    "Casablanca",
                     "Rabat",
+                    "Casablanca",
                     "Marrakech"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Capitals",
                 "emoji": "🏛️🇩🇪",
                 "question": "What is the capital of South Africa?",
                 "options": [
+                    "Johannesburg",
                     "Cape Town",
-                    "Pretoria",
-                    "Johannesburg"
+                    "Pretoria"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Capitals",
                 "emoji": "🏛️🇨🇳",
                 "question": "What is the capital of Vietnam?",
                 "options": [
-                    "Da Nang",
+                    "Hanoi",
                     "Ho Chi Minh City",
-                    "Hanoi"
+                    "Da Nang"
                 ],
                 "correct": 1
             },
@@ -1326,23 +1326,23 @@ const geographyQuestions = {
                 "emoji": "🏛️🇧🇷",
                 "question": "When was Brasília founded?",
                 "options": [
-                    "1950",
+                    "1960",
                     "1970",
-                    "1960"
+                    "1950"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Capitals",
                 "emoji": "🏛️🗼",
                 "question": "What is South America's longest river?",
                 "options": [
-                    "Paraná",
-                    "Orinoco",
                     "Amazon",
-                    "São Francisco"
+                    "São Francisco",
+                    "Orinoco",
+                    "Paraná"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -1351,12 +1351,12 @@ const geographyQuestions = {
                 "emoji": "🏛️🗼",
                 "question": "What is the highest capital city?",
                 "options": [
-                    "Addis Ababa",
                     "Bogotá",
                     "Quito",
-                    "La Paz"
+                    "La Paz",
+                    "Addis Ababa"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Capitals",
@@ -1364,23 +1364,23 @@ const geographyQuestions = {
                 "question": "Which country has two capitals?",
                 "options": [
                     "Malaysia",
-                    "South Africa",
+                    "Bolivia",
                     "Sri Lanka",
-                    "Bolivia"
+                    "South Africa"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Capitals",
                 "emoji": "🏛️🗾",
                 "question": "What is the smallest capital?",
                 "options": [
-                    "San Marino",
                     "Liechtenstein",
-                    "Vatican City",
-                    "Monaco"
+                    "San Marino",
+                    "Monaco",
+                    "Vatican City"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Capitals",
@@ -1399,24 +1399,24 @@ const geographyQuestions = {
                 "emoji": "🏛️🍕",
                 "question": "What is the capital of UAE?",
                 "options": [
-                    "Sharjah",
                     "Dubai",
+                    "Sharjah",
                     "Ajman",
                     "Abu Dhabi"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Capitals",
                 "emoji": "🏛️🇪🇸",
                 "question": "Which capital is on two continents?",
                 "options": [
-                    "Tehran",
-                    "Cairo",
                     "Moscow",
-                    "Istanbul"
+                    "Tehran",
+                    "Istanbul",
+                    "Cairo"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Capitals",
@@ -1424,11 +1424,11 @@ const geographyQuestions = {
                 "question": "What is the oldest continuously inhabited capital?",
                 "options": [
                     "Cairo",
-                    "Rome",
                     "Damascus",
-                    "Athens"
+                    "Athens",
+                    "Rome"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Capitals",
@@ -1436,9 +1436,9 @@ const geographyQuestions = {
                 "question": "What is the capital of Indonesia?",
                 "options": [
                     "Bandung",
-                    "Medan",
                     "Surabaya",
-                    "Jakarta"
+                    "Jakarta",
+                    "Medan"
                 ],
                 "correct": 0
             },
@@ -1447,21 +1447,21 @@ const geographyQuestions = {
                 "emoji": "🏛️🇷🇺",
                 "question": "Which capital was built from scratch?",
                 "options": [
-                    "Washington DC",
+                    "Canberra",
                     "Brasília",
-                    "Naypyidaw",
-                    "Canberra"
+                    "Washington DC",
+                    "Naypyidaw"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Capitals",
                 "emoji": "🏛️🗼",
                 "question": "Ch3: What is Kazakhstan's capital?",
                 "options": [
-                    "Almaty",
-                    "Astana",
                     "Bishkek",
+                    "Astana",
+                    "Almaty",
                     "Tashkent"
                 ],
                 "correct": 1
@@ -1537,10 +1537,10 @@ const geographyQuestions = {
                 "emoji": "☀️🌡️",
                 "question": "Is the equator hot year-round?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Climate",
@@ -1587,20 +1587,20 @@ const geographyQuestions = {
                 "emoji": "🌴🥥",
                 "question": "Are tropical areas near the equator?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Climate",
                 "emoji": "🌨️⛄",
                 "question": "Are polar regions very cold?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Climate",
@@ -1669,20 +1669,20 @@ const geographyQuestions = {
                 "emoji": "🏜️🌵",
                 "question": "What is the driest desert?",
                 "options": [
-                    "Sahara",
-                    "Atacama"
+                    "Atacama",
+                    "Sahara"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Climate",
                 "emoji": "🍂🍁",
                 "question": "What are the temperate zones?",
                 "options": [
-                    "Between tropics and poles",
-                    "Near equator"
+                    "Near equator",
+                    "Between tropics and poles"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Climate",
@@ -1699,20 +1699,20 @@ const geographyQuestions = {
                 "emoji": "🌨️⛄",
                 "question": "What is the Arctic Circle?",
                 "options": [
-                    "66.5°N latitude",
-                    "90°N latitude"
+                    "90°N latitude",
+                    "66.5°N latitude"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Climate",
                 "emoji": "🌿🌱",
                 "question": "What is a monsoon?",
                 "options": [
-                    "Seasonal wind and rain",
-                    "Hurricane"
+                    "Hurricane",
+                    "Seasonal wind and rain"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Climate",
@@ -1729,10 +1729,10 @@ const geographyQuestions = {
                 "emoji": "⛰️❄️",
                 "question": "Why are mountains colder?",
                 "options": [
-                    "More wind",
-                    "Higher elevation"
+                    "Higher elevation",
+                    "More wind"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -1741,33 +1741,33 @@ const geographyQuestions = {
                 "emoji": "☀️🌡️",
                 "question": "How many major climate zones are there?",
                 "options": [
-                    "5",
+                    "7",
                     "3",
-                    "7"
+                    "5"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Climate",
                 "emoji": "❄️🧊",
                 "question": "What percentage of Earth is covered by ice?",
                 "options": [
-                    "10%",
                     "5%",
+                    "10%",
                     "15%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Climate",
                 "emoji": "🌧️💧",
                 "question": "How much rain does rainforest get annually?",
                 "options": [
-                    "1000mm+",
                     "2000mm+",
-                    "500mm+"
+                    "500mm+",
+                    "1000mm+"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Climate",
@@ -1785,11 +1785,11 @@ const geographyQuestions = {
                 "emoji": "🍂🍁",
                 "question": "What is the Mediterranean climate?",
                 "options": [
-                    "Cold winters, hot summers",
                     "Hot dry summers, mild winters",
-                    "Rainy year-round"
+                    "Rainy year-round",
+                    "Cold winters, hot summers"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Climate",
@@ -1807,22 +1807,22 @@ const geographyQuestions = {
                 "emoji": "🌨️⛄",
                 "question": "What does the acronym permafrost stand for?",
                 "options": [
-                    "Glacier",
                     "Permanently frozen ground",
+                    "Glacier",
                     "Ice sheet"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Climate",
                 "emoji": "🌿🌱",
                 "question": "When does India get monsoons?",
                 "options": [
-                    "December-March",
+                    "Year-round",
                     "June-September",
-                    "Year-round"
+                    "December-March"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Climate",
@@ -1830,8 +1830,8 @@ const geographyQuestions = {
                 "question": "How often does El Niño occur?",
                 "options": [
                     "Every 10 years",
-                    "Every 2-7 years",
-                    "Every year"
+                    "Every year",
+                    "Every 2-7 years"
                 ],
                 "correct": 0
             },
@@ -1840,11 +1840,11 @@ const geographyQuestions = {
                 "emoji": "⛰️❄️",
                 "question": "How much does temp drop per 1000m?",
                 "options": [
+                    "3°C",
                     "10°C",
-                    "6.5°C",
-                    "3°C"
+                    "6.5°C"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -1853,12 +1853,12 @@ const geographyQuestions = {
                 "emoji": "☀️🌡️",
                 "question": "What is the Köppen climate classification?",
                 "options": [
-                    "Weather pattern",
-                    "Season type",
                     "System of climate zones",
-                    "Temperature scale"
+                    "Weather pattern",
+                    "Temperature scale",
+                    "Season type"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Climate",
@@ -1867,8 +1867,8 @@ const geographyQuestions = {
                 "options": [
                     "Winter season",
                     "Single cold year",
-                    "Polar expansion",
-                    "Long period of cold climate"
+                    "Long period of cold climate",
+                    "Polar expansion"
                 ],
                 "correct": 1
             },
@@ -1877,57 +1877,57 @@ const geographyQuestions = {
                 "emoji": "🌧️💧",
                 "question": "What is orographic rainfall?",
                 "options": [
-                    "Forest rain",
-                    "Desert rain",
                     "Ocean rain",
-                    "Mountain-induced rain"
+                    "Desert rain",
+                    "Mountain-induced rain",
+                    "Forest rain"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Climate",
                 "emoji": "🏜️🌵",
                 "question": "What causes rain shadow effect?",
                 "options": [
-                    "Ocean currents",
-                    "Latitude",
+                    "Mountains block moisture",
                     "Elevation",
-                    "Mountains block moisture"
+                    "Latitude",
+                    "Ocean currents"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Climate",
                 "emoji": "🍂🍁",
                 "question": "What is a continental climate?",
                 "options": [
+                    "Large temp variations",
                     "Moderate year-round",
-                    "Tropical heat",
                     "Polar cold",
-                    "Large temp variations"
+                    "Tropical heat"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Climate",
                 "emoji": "🌴🥥",
                 "question": "What are trade winds?",
                 "options": [
-                    "Mountain winds",
                     "Western winds",
-                    "Polar winds",
-                    "Easterly tropical winds"
+                    "Mountain winds",
+                    "Easterly tropical winds",
+                    "Polar winds"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Climate",
                 "emoji": "🌨️⛄",
                 "question": "What is the tree line?",
                 "options": [
-                    "Latitude line",
-                    "Forest border",
                     "Elevation limit for trees",
+                    "Forest border",
+                    "Latitude line",
                     "Desert edge"
                 ],
                 "correct": 1
@@ -1937,36 +1937,36 @@ const geographyQuestions = {
                 "emoji": "🌿🌱",
                 "question": "What is a microclimate?",
                 "options": [
-                    "Small country climate",
-                    "City climate",
                     "Local climate variation",
-                    "Indoor climate"
+                    "Small country climate",
+                    "Indoor climate",
+                    "City climate"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Climate",
                 "emoji": "🌊🌀",
                 "question": "What is La Niña?",
                 "options": [
-                    "Atlantic storm",
-                    "Arctic wind",
                     "Indian monsoon",
-                    "Pacific cooling pattern"
+                    "Atlantic storm",
+                    "Pacific cooling pattern",
+                    "Arctic wind"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Climate",
                 "emoji": "⛰️❄️",
                 "question": "What is the greenhouse effect?",
                 "options": [
-                    "Plant growth",
                     "Ice melting",
+                    "Plant growth",
                     "Ocean warming",
                     "Atmospheric heat retention"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "extreme": [
@@ -2049,10 +2049,10 @@ const geographyQuestions = {
                 "emoji": "🏖️🌊",
                 "question": "Are beaches found near water?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Landforms",
@@ -2069,10 +2069,10 @@ const geographyQuestions = {
                 "emoji": "🏜️🌵",
                 "question": "Are plateaus flat elevated areas?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Landforms",
@@ -2099,10 +2099,10 @@ const geographyQuestions = {
                 "emoji": "🏝️🌴",
                 "question": "Islands are surrounded by water?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Landforms",
@@ -2119,20 +2119,20 @@ const geographyQuestions = {
                 "emoji": "🏔️❄️",
                 "question": "Are glaciers made of ice?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Landforms",
                 "emoji": "🏞️🌾",
                 "question": "Are plains flat areas?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -2141,10 +2141,10 @@ const geographyQuestions = {
                 "emoji": "⛰️🏔️",
                 "question": "What is the tallest mountain type?",
                 "options": [
-                    "Volcanic mountain",
-                    "Fold mountain"
+                    "Fold mountain",
+                    "Volcanic mountain"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Landforms",
@@ -2181,30 +2181,30 @@ const geographyQuestions = {
                 "emoji": "🌊⛰️",
                 "question": "What are the White Cliffs of Dover?",
                 "options": [
-                    "Limestone cliffs",
-                    "Chalk cliffs"
+                    "Chalk cliffs",
+                    "Limestone cliffs"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Landforms",
                 "emoji": "🏞️💧",
                 "question": "What is the deepest canyon?",
                 "options": [
-                    "Yarlung Tsangpo",
-                    "Grand Canyon"
+                    "Grand Canyon",
+                    "Yarlung Tsangpo"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Landforms",
                 "emoji": "🏝️🌴",
                 "question": "What is an atoll?",
                 "options": [
-                    "Volcanic island",
-                    "Ring-shaped coral reef"
+                    "Ring-shaped coral reef",
+                    "Volcanic island"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Landforms",
@@ -2221,10 +2221,10 @@ const geographyQuestions = {
                 "emoji": "🏔️❄️",
                 "question": "Where is the largest glacier?",
                 "options": [
-                    "Antarctica",
-                    "Greenland"
+                    "Greenland",
+                    "Antarctica"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Landforms",
@@ -2243,11 +2243,11 @@ const geographyQuestions = {
                 "emoji": "⛰️🏔️",
                 "question": "How are fold mountains formed?",
                 "options": [
-                    "Volcanic eruption",
                     "Erosion",
+                    "Volcanic eruption",
                     "Plate collision"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Landforms",
@@ -2255,32 +2255,32 @@ const geographyQuestions = {
                 "question": "What is longshore drift?",
                 "options": [
                     "Ocean current",
-                    "Wave type",
-                    "Coastal sediment movement"
+                    "Coastal sediment movement",
+                    "Wave type"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Landforms",
                 "emoji": "🏞️🗻",
                 "question": "What is the Great Rift Valley?",
                 "options": [
-                    "Asian valley",
+                    "African tectonic valley",
                     "American valley",
-                    "African tectonic valley"
+                    "Asian valley"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Landforms",
                 "emoji": "🏜️🌵",
                 "question": "How high is Tibetan Plateau?",
                 "options": [
-                    "4,500m average",
                     "6,000m average",
+                    "4,500m average",
                     "3,000m average"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Landforms",
@@ -2298,44 +2298,44 @@ const geographyQuestions = {
                 "emoji": "🏞️💧",
                 "question": "How deep is the Grand Canyon?",
                 "options": [
-                    "2,500m",
                     "1,000m",
-                    "1,800m"
+                    "1,800m",
+                    "2,500m"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Landforms",
                 "emoji": "🏝️🌴",
                 "question": "What is the largest island?",
                 "options": [
-                    "New Guinea",
                     "Greenland",
-                    "Borneo"
+                    "Borneo",
+                    "New Guinea"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Landforms",
                 "emoji": "🗻🔥",
                 "question": "What percentage of volcanoes are in Ring of Fire?",
                 "options": [
-                    "90%",
                     "75%",
+                    "90%",
                     "50%"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Landforms",
                 "emoji": "🏔️❄️",
                 "question": "What is the Lambert Glacier length?",
                 "options": [
+                    "500km",
                     "300km",
-                    "400km",
-                    "500km"
+                    "400km"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Landforms",
@@ -2343,10 +2343,10 @@ const geographyQuestions = {
                 "question": "What are pampas?",
                 "options": [
                     "African plains",
-                    "Asian steppes",
-                    "South American grasslands"
+                    "South American grasslands",
+                    "Asian steppes"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -2355,12 +2355,12 @@ const geographyQuestions = {
                 "emoji": "⛰️🏔️",
                 "question": "What does the acronym orogenesis stand for?",
                 "options": [
-                    "Erosion process",
                     "Volcanic activity",
+                    "Erosion process",
                     "Plate movement",
                     "Mountain formation"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Landforms",
@@ -2379,36 +2379,36 @@ const geographyQuestions = {
                 "emoji": "🏞️🗻",
                 "question": "What is a hanging valley?",
                 "options": [
-                    "Desert valley",
                     "Mountain valley",
+                    "Desert valley",
                     "Coastal valley",
                     "Tributary valley above main valley"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Landforms",
                 "emoji": "🏜️🌵",
                 "question": "What is the Colorado Plateau known for?",
                 "options": [
-                    "High elevation",
-                    "Ancient rocks",
                     "Canyon formations",
-                    "Desert climate"
+                    "Desert climate",
+                    "High elevation",
+                    "Ancient rocks"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Landforms",
                 "emoji": "🌊⛰️",
                 "question": "What is a sea stack?",
                 "options": [
+                    "Beach feature",
                     "Coral formation",
                     "Underwater mountain",
-                    "Isolated rock pillar in sea",
-                    "Beach feature"
+                    "Isolated rock pillar in sea"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Landforms",
@@ -2416,9 +2416,9 @@ const geographyQuestions = {
                 "question": "What created the Grand Canyon?",
                 "options": [
                     "Glacier",
+                    "Volcanic activity",
                     "Earthquake",
-                    "Colorado River erosion",
-                    "Volcanic activity"
+                    "Colorado River erosion"
                 ],
                 "correct": 0
             },
@@ -2427,48 +2427,48 @@ const geographyQuestions = {
                 "emoji": "🏝️🌴",
                 "question": "What is a continental island?",
                 "options": [
-                    "Island on continental shelf",
-                    "Oceanic island",
                     "Coral island",
-                    "Volcanic island"
+                    "Volcanic island",
+                    "Island on continental shelf",
+                    "Oceanic island"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Landforms",
                 "emoji": "🗻🔥",
                 "question": "What is a caldera?",
                 "options": [
-                    "Mountain peak",
-                    "Fault line",
                     "Large volcanic crater",
-                    "Lava flow"
+                    "Mountain peak",
+                    "Lava flow",
+                    "Fault line"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Landforms",
                 "emoji": "🏔️❄️",
                 "question": "What is a glacial moraine?",
                 "options": [
-                    "Deposited rock and debris",
                     "Snow field",
-                    "Valley type",
-                    "Ice formation"
+                    "Ice formation",
+                    "Deposited rock and debris",
+                    "Valley type"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Landforms",
                 "emoji": "🏞️🌾",
                 "question": "What is a peneplain?",
                 "options": [
-                    "Flood plain",
-                    "Coastal plain",
                     "Eroded flat surface",
-                    "New plain"
+                    "Flood plain",
+                    "New plain",
+                    "Coastal plain"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "extreme": [
@@ -2541,20 +2541,20 @@ const geographyQuestions = {
                 "emoji": "👥🌍",
                 "question": "Does China have largest population?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Population",
                 "emoji": "👶👴",
                 "question": "Is population keeps growing globally?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Cities",
@@ -2581,20 +2581,20 @@ const geographyQuestions = {
                 "emoji": "👥🌏",
                 "question": "Does Asia have most people?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Cities",
                 "emoji": "🏙️🌃",
                 "question": "Is more people live in cities now?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Demographics",
@@ -2643,20 +2643,20 @@ const geographyQuestions = {
                 "emoji": "👥🌍",
                 "question": "Which country has largest population now?",
                 "options": [
-                    "India",
-                    "China"
+                    "China",
+                    "India"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Population",
                 "emoji": "👶👴",
                 "question": "What is world population (approx)?",
                 "options": [
-                    "7 billion",
-                    "8 billion"
+                    "8 billion",
+                    "7 billion"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Demographics",
@@ -2673,20 +2673,20 @@ const geographyQuestions = {
                 "emoji": "👥🌏",
                 "question": "What continent has fewest people?",
                 "options": [
-                    "Antarctica",
-                    "Australia"
+                    "Australia",
+                    "Antarctica"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Cities",
                 "emoji": "🏙️🌃",
                 "question": "What percent live in cities?",
                 "options": [
-                    "45%",
-                    "55%"
+                    "55%",
+                    "45%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Demographics",
@@ -2703,10 +2703,10 @@ const geographyQuestions = {
                 "emoji": "👥🗺️",
                 "question": "Which has highest density?",
                 "options": [
-                    "Monaco",
-                    "Singapore"
+                    "Singapore",
+                    "Monaco"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Cities",
@@ -2733,12 +2733,12 @@ const geographyQuestions = {
                 "emoji": "👥🌍",
                 "question": "Ch6: Which is the largest ocean?",
                 "options": [
-                    "Atlantic",
                     "Pacific",
-                    "Indian",
-                    "Arctic"
+                    "Atlantic",
+                    "Arctic",
+                    "Indian"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -2758,33 +2758,33 @@ const geographyQuestions = {
                 "emoji": "👶👴",
                 "question": "When did world reach 8 billion?",
                 "options": [
+                    "2022",
                     "2024",
-                    "2020",
-                    "2022"
+                    "2020"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Cities",
                 "emoji": "🏙️🌆",
                 "question": "How many megacities exist?",
                 "options": [
+                    "33+",
                     "25",
-                    "40",
-                    "33+"
+                    "40"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Demographics",
                 "emoji": "📊📈",
                 "question": "What is replacement fertility rate?",
                 "options": [
-                    "2.1",
                     "2.5",
+                    "2.1",
                     "1.8"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Population",
@@ -2792,21 +2792,21 @@ const geographyQuestions = {
                 "question": "What percent of people live in Asia?",
                 "options": [
                     "60%",
-                    "50%",
-                    "70%"
+                    "70%",
+                    "50%"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Cities",
                 "emoji": "🏙️🌃",
                 "question": "What is urbanization rate?",
                 "options": [
-                    "City growth",
                     "Migration",
-                    "Increasing city population"
+                    "Increasing city population",
+                    "City growth"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Demographics",
@@ -2824,33 +2824,33 @@ const geographyQuestions = {
                 "emoji": "👥🗺️",
                 "question": "What is Singapore's density?",
                 "options": [
-                    "10,000/km²",
+                    "8,000/km²",
                     "6,000/km²",
-                    "8,000/km²"
+                    "10,000/km²"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Cities",
                 "emoji": "🏙️🏘️",
                 "question": "What was first city to reach 10M?",
                 "options": [
-                    "London",
+                    "Tokyo",
                     "New York",
-                    "Tokyo"
+                    "London"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Demographics",
                 "emoji": "📊📉",
                 "question": "Which country has oldest population?",
                 "options": [
-                    "Germany",
                     "Japan",
-                    "Italy"
+                    "Italy",
+                    "Germany"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -2859,22 +2859,22 @@ const geographyQuestions = {
                 "emoji": "👥🌍",
                 "question": "What is demographic transition?",
                 "options": [
+                    "Population development stages",
                     "Age structure",
                     "Growth rate",
-                    "Population development stages",
                     "Migration pattern"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Population",
                 "emoji": "👶👴",
                 "question": "When will world population peak?",
                 "options": [
-                    "2060",
+                    "2150",
                     "2080s-2100",
                     "2050",
-                    "2150"
+                    "2060"
                 ],
                 "correct": 1
             },
@@ -2884,9 +2884,9 @@ const geographyQuestions = {
                 "question": "What is a primate city?",
                 "options": [
                     "Capital city",
-                    "Largest city dominates country",
+                    "Port city",
                     "Ancient city",
-                    "Port city"
+                    "Largest city dominates country"
                 ],
                 "correct": 0
             },
@@ -2895,22 +2895,22 @@ const geographyQuestions = {
                 "emoji": "📊📈",
                 "question": "What is dependency ratio?",
                 "options": [
-                    "Urban to rural ratio",
                     "Age structure",
-                    "Non-working to working population",
-                    "Birth to death ratio"
+                    "Birth to death ratio",
+                    "Urban to rural ratio",
+                    "Non-working to working population"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Population",
                 "emoji": "👥🌏",
                 "question": "What is carrying capacity?",
                 "options": [
-                    "Population density",
+                    "Maximum sustainable population",
                     "Growth rate",
                     "Current population",
-                    "Maximum sustainable population"
+                    "Population density"
                 ],
                 "correct": 1
             },
@@ -2919,60 +2919,60 @@ const geographyQuestions = {
                 "emoji": "🏙️🌃",
                 "question": "What is urban sprawl?",
                 "options": [
-                    "Uncontrolled city expansion",
                     "City planning",
                     "Population growth",
-                    "High-rise development"
+                    "High-rise development",
+                    "Uncontrolled city expansion"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Demographics",
                 "emoji": "📊👶",
                 "question": "What is infant mortality rate?",
                 "options": [
-                    "Child deaths",
-                    "Deaths per 1000 live births",
+                    "Health indicator",
                     "Birth complications",
-                    "Health indicator"
+                    "Deaths per 1000 live births",
+                    "Child deaths"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Population",
                 "emoji": "👥🗺️",
                 "question": "What is population pyramid?",
                 "options": [
+                    "Density map",
                     "Age-sex distribution graph",
                     "Migration pattern",
-                    "Growth chart",
-                    "Density map"
+                    "Growth chart"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Cities",
                 "emoji": "🏙️🏘️",
                 "question": "What does the acronym gentrification stand for?",
                 "options": [
+                    "Population growth",
                     "City planning",
                     "Urban renewal",
-                    "Neighborhood renovation and displacement",
-                    "Population growth"
+                    "Neighborhood renovation and displacement"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Demographics",
                 "emoji": "📊📉",
                 "question": "What does the acronym emigration stand for?",
                 "options": [
-                    "Forced movement",
                     "Entering country",
                     "Internal migration",
-                    "Leaving one's country"
+                    "Leaving one's country",
+                    "Forced movement"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "extreme": [
@@ -3075,10 +3075,10 @@ const geographyQuestions = {
                 "emoji": "⚡💡",
                 "question": "Is coal produces energy?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Resources",
@@ -3095,20 +3095,20 @@ const geographyQuestions = {
                 "emoji": "☀️🔋",
                 "question": "Is solar renewable energy?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Resources",
                 "emoji": "🐟🦐",
                 "question": "Is oceans provide food?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Resources",
@@ -3125,20 +3125,20 @@ const geographyQuestions = {
                 "emoji": "🌬️💨",
                 "question": "Is wind creates electricity?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Resources",
                 "emoji": "🔥🪵",
                 "question": "Is biomass energy source?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -3157,10 +3157,10 @@ const geographyQuestions = {
                 "emoji": "🌲🪵",
                 "question": "What does the acronym deforestation stand for?",
                 "options": [
-                    "Tree planting",
-                    "Forest removal"
+                    "Forest removal",
+                    "Tree planting"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Resources",
@@ -3177,30 +3177,30 @@ const geographyQuestions = {
                 "emoji": "⚡💡",
                 "question": "What is fossil fuel?",
                 "options": [
-                    "Modern fuel",
-                    "Ancient organic matter"
+                    "Ancient organic matter",
+                    "Modern fuel"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Resources",
                 "emoji": "🌾🌽",
                 "question": "What does the acronym topsoil stand for?",
                 "options": [
-                    "Deep soil",
-                    "Upper soil layer"
+                    "Upper soil layer",
+                    "Deep soil"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Resources",
                 "emoji": "☀️🔋",
                 "question": "What does the acronym photovoltaic stand for?",
                 "options": [
-                    "Wind power",
-                    "Solar to electricity"
+                    "Solar to electricity",
+                    "Wind power"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Resources",
@@ -3237,10 +3237,10 @@ const geographyQuestions = {
                 "emoji": "🔥🪵",
                 "question": "What does the acronym biomass stand for?",
                 "options": [
-                    "Organic matter fuel",
-                    "Chemical fuel"
+                    "Chemical fuel",
+                    "Organic matter fuel"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -3250,8 +3250,8 @@ const geographyQuestions = {
                 "question": "How much oil does Venezuela have?",
                 "options": [
                     "200 billion",
-                    "400 billion",
-                    "300+ billion barrels"
+                    "300+ billion barrels",
+                    "400 billion"
                 ],
                 "correct": 0
             },
@@ -3261,30 +3261,30 @@ const geographyQuestions = {
                 "question": "How much rainforest is lost yearly?",
                 "options": [
                     "5 million",
-                    "15 million",
-                    "10 million hectares"
+                    "10 million hectares",
+                    "15 million"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Resources",
                 "emoji": "💧🚰",
                 "question": "Where is most freshwater?",
                 "options": [
-                    "Ice and glaciers",
                     "Rivers",
-                    "Lakes"
+                    "Lakes",
+                    "Ice and glaciers"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Resources",
                 "emoji": "⚡💡",
                 "question": "Which fossil fuel is cleanest?",
                 "options": [
-                    "Coal",
+                    "Oil",
                     "Natural gas",
-                    "Oil"
+                    "Coal"
                 ],
                 "correct": 1
             },
@@ -3293,9 +3293,9 @@ const geographyQuestions = {
                 "emoji": "🌾🌽",
                 "question": "How long to form 1 inch of topsoil?",
                 "options": [
-                    "1000 years",
+                    "100 years",
                     "500 years",
-                    "100 years"
+                    "1000 years"
                 ],
                 "correct": 1
             },
@@ -3305,8 +3305,8 @@ const geographyQuestions = {
                 "question": "What percent of energy is solar?",
                 "options": [
                     "1%",
-                    "3%",
-                    "10%"
+                    "10%",
+                    "3%"
                 ],
                 "correct": 0
             },
@@ -3315,11 +3315,11 @@ const geographyQuestions = {
                 "emoji": "🐟🦐",
                 "question": "What percent of stocks are overfished?",
                 "options": [
+                    "20%",
                     "35%",
-                    "50%",
-                    "20%"
+                    "50%"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Resources",
@@ -3338,8 +3338,8 @@ const geographyQuestions = {
                 "question": "Which country has most wind power?",
                 "options": [
                     "USA",
-                    "Germany",
-                    "China"
+                    "China",
+                    "Germany"
                 ],
                 "correct": 0
             },
@@ -3348,11 +3348,11 @@ const geographyQuestions = {
                 "emoji": "🔥🪵",
                 "question": "What percent use biomass for cooking?",
                 "options": [
-                    "20%",
                     "60%",
-                    "40%"
+                    "40%",
+                    "20%"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -3362,8 +3362,8 @@ const geographyQuestions = {
                 "question": "What is peak oil theory?",
                 "options": [
                     "Price maximum",
-                    "Oil discovery peak",
                     "Production decline",
+                    "Oil discovery peak",
                     "Maximum extraction rate reached"
                 ],
                 "correct": 0
@@ -3374,23 +3374,23 @@ const geographyQuestions = {
                 "question": "What is sustainable forestry?",
                 "options": [
                     "No cutting",
-                    "Fast cutting",
+                    "Tree planting",
                     "Harvesting that maintains forest",
-                    "Tree planting"
+                    "Fast cutting"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Resources",
                 "emoji": "💧🚰",
                 "question": "What is water stress?",
                 "options": [
-                    "Demand exceeds supply",
+                    "Drought",
                     "Pollution",
-                    "Scarcity",
-                    "Drought"
+                    "Demand exceeds supply",
+                    "Scarcity"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Resources",
@@ -3398,59 +3398,59 @@ const geographyQuestions = {
                 "question": "What is carbon capture?",
                 "options": [
                     "Clean energy",
+                    "Reducing emissions",
                     "Tree planting",
-                    "Storing CO2 emissions",
-                    "Reducing emissions"
+                    "Storing CO2 emissions"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Resources",
                 "emoji": "🌾🌽",
                 "question": "What is soil erosion?",
                 "options": [
+                    "Deposition",
                     "Weathering",
                     "Soil formation",
-                    "Deposition",
                     "Loss of topsoil"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Resources",
                 "emoji": "☀️🔋",
                 "question": "What is solar efficiency?",
                 "options": [
-                    "Panel size",
                     "Energy conversion rate",
-                    "Cost",
-                    "Sunlight amount"
+                    "Panel size",
+                    "Sunlight amount",
+                    "Cost"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Resources",
                 "emoji": "🐟🦐",
                 "question": "What does the acronym aquaculture stand for?",
                 "options": [
-                    "Fish farming",
-                    "Wild fishing",
                     "Coral growing",
-                    "Ocean study"
+                    "Ocean study",
+                    "Fish farming",
+                    "Wild fishing"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Resources",
                 "emoji": "⛰️🪨",
                 "question": "What is strip mining?",
                 "options": [
-                    "Ocean mining",
-                    "Surface mineral extraction",
                     "Cave mining",
-                    "Underground mining"
+                    "Ocean mining",
+                    "Underground mining",
+                    "Surface mineral extraction"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Resources",
@@ -3458,8 +3458,8 @@ const geographyQuestions = {
                 "question": "What is offshore wind?",
                 "options": [
                     "Ocean-based turbines",
-                    "Coastal winds",
                     "Tidal power",
+                    "Coastal winds",
                     "Storm energy"
                 ],
                 "correct": 0
@@ -3469,10 +3469,10 @@ const geographyQuestions = {
                 "emoji": "🔥🪵",
                 "question": "What does the acronym biofuel stand for?",
                 "options": [
-                    "Fossil fuel",
+                    "Chemical fuel",
                     "Fuel from organic matter",
-                    "Nuclear fuel",
-                    "Chemical fuel"
+                    "Fossil fuel",
+                    "Nuclear fuel"
                 ],
                 "correct": 1
             }
@@ -3597,40 +3597,40 @@ const geographyQuestions = {
                 "emoji": "🌊🐠",
                 "question": "Is marine aquatic biome?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Biomes",
                 "emoji": "🌿🌾",
                 "question": "Does grasslands have few trees?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Biomes",
                 "emoji": "🦌🌲",
                 "question": "Does taiga have coniferous forests?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Biomes",
                 "emoji": "💧🪷",
                 "question": "Are wetlands transition zones?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Biomes",
@@ -3649,10 +3649,10 @@ const geographyQuestions = {
                 "emoji": "🌳🌲",
                 "question": "What is largest land biome?",
                 "options": [
-                    "Taiga",
-                    "Rainforest"
+                    "Rainforest",
+                    "Taiga"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Biomes",
@@ -3679,30 +3679,30 @@ const geographyQuestions = {
                 "emoji": "🏜️🦎",
                 "question": "What is coldest desert?",
                 "options": [
-                    "Gobi",
-                    "Antarctic"
+                    "Antarctic",
+                    "Gobi"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Biomes",
                 "emoji": "🌴🦜",
                 "question": "What percent of species in rainforest?",
                 "options": [
-                    "30%",
-                    "50%"
+                    "50%",
+                    "30%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Biomes",
                 "emoji": "🌊🐠",
                 "question": "What is ocean zonation?",
                 "options": [
-                    "Temperature zones",
-                    "Depth layers"
+                    "Depth layers",
+                    "Temperature zones"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Biomes",
@@ -3729,10 +3729,10 @@ const geographyQuestions = {
                 "emoji": "💧🪷",
                 "question": "What are mangroves?",
                 "options": [
-                    "Coastal wetland trees",
-                    "Swamp plants"
+                    "Swamp plants",
+                    "Coastal wetland trees"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Biomes",
@@ -3751,11 +3751,11 @@ const geographyQuestions = {
                 "emoji": "🌳🌲",
                 "question": "What percent of land is taiga?",
                 "options": [
-                    "17%",
+                    "25%",
                     "10%",
-                    "25%"
+                    "17%"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Biomes",
@@ -3763,10 +3763,10 @@ const geographyQuestions = {
                 "question": "What is savanna rainfall range?",
                 "options": [
                     "500-1500mm",
-                    "1500-2500mm",
-                    "250-500mm"
+                    "250-500mm",
+                    "1500-2500mm"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Biomes",
@@ -3774,8 +3774,8 @@ const geographyQuestions = {
                 "question": "What is tundra growing season?",
                 "options": [
                     "90 days",
-                    "30 days",
-                    "50-60 days"
+                    "50-60 days",
+                    "30 days"
                 ],
                 "correct": 0
             },
@@ -3795,11 +3795,11 @@ const geographyQuestions = {
                 "emoji": "🌴🦜",
                 "question": "How many rainforest trees per hectare?",
                 "options": [
+                    "50-100",
                     "100-200",
-                    "200-300",
-                    "50-100"
+                    "200-300"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Biomes",
@@ -3807,8 +3807,8 @@ const geographyQuestions = {
                 "question": "What depth is photic zone?",
                 "options": [
                     "200m",
-                    "100m",
-                    "300m"
+                    "300m",
+                    "100m"
                 ],
                 "correct": 0
             },
@@ -3817,11 +3817,11 @@ const geographyQuestions = {
                 "emoji": "🌿🌾",
                 "question": "What does the acronym steppe stand for?",
                 "options": [
+                    "American grassland",
                     "African grassland",
-                    "Eurasian grassland",
-                    "American grassland"
+                    "Eurasian grassland"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Biomes",
@@ -3839,11 +3839,11 @@ const geographyQuestions = {
                 "emoji": "💧🪷",
                 "question": "What percent of species use wetlands?",
                 "options": [
+                    "40%",
                     "50%",
-                    "25%",
-                    "40%"
+                    "25%"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Biomes",
@@ -3863,72 +3863,72 @@ const geographyQuestions = {
                 "emoji": "🌳🌲",
                 "question": "What defines a biome?",
                 "options": [
+                    "Plant types",
                     "Climate and organisms",
-                    "Rainfall",
                     "Animal types",
-                    "Plant types"
+                    "Rainfall"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Biomes",
                 "emoji": "🌾🦁",
                 "question": "What is fire's role in savanna?",
                 "options": [
-                    "Maintains grassland",
                     "Destroys habitat",
+                    "Causes drought",
                     "Kills animals",
-                    "Causes drought"
+                    "Maintains grassland"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Biomes",
                 "emoji": "🏔️❄️",
                 "question": "What is alpine tundra?",
                 "options": [
+                    "Cold desert",
                     "Snow field",
                     "High mountain treeless area",
-                    "Cold desert",
                     "Arctic region"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Biomes",
                 "emoji": "🏜️🦎",
                 "question": "What does the acronym desertification stand for?",
                 "options": [
-                    "Sandstorm",
-                    "Drought",
+                    "Desert expansion",
                     "Land becoming desert",
-                    "Desert expansion"
+                    "Sandstorm",
+                    "Drought"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Biomes",
                 "emoji": "🌴🦜",
                 "question": "What is canopy in rainforest?",
                 "options": [
-                    "Forest floor",
-                    "Upper tree layer",
                     "Vine layer",
-                    "Tree type"
+                    "Tree type",
+                    "Upper tree layer",
+                    "Forest floor"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Biomes",
                 "emoji": "🌊🐠",
                 "question": "What is benthic zone?",
                 "options": [
-                    "Ocean floor",
-                    "Coastal area",
+                    "Mid-water",
                     "Surface water",
-                    "Mid-water"
+                    "Ocean floor",
+                    "Coastal area"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Biomes",
@@ -3947,36 +3947,36 @@ const geographyQuestions = {
                 "emoji": "🦌🌲",
                 "question": "What is taiga climate?",
                 "options": [
+                    "Cold year-round",
                     "Long cold winters, short summers",
-                    "Moderate",
                     "Dry",
-                    "Cold year-round"
+                    "Moderate"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Biomes",
                 "emoji": "💧🪷",
                 "question": "What services do wetlands provide?",
                 "options": [
-                    "Habitat only",
-                    "Water filtration, flood control",
                     "Food only",
-                    "Recreation"
+                    "Habitat only",
+                    "Recreation",
+                    "Water filtration, flood control"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Biomes",
                 "emoji": "🍂🦫",
                 "question": "What is succession in forests?",
                 "options": [
-                    "Forest fire",
-                    "Tree growth",
                     "Ecological change over time",
-                    "Seasonal change"
+                    "Seasonal change",
+                    "Tree growth",
+                    "Forest fire"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -4059,20 +4059,20 @@ const geographyQuestions = {
                 "emoji": "🌧️💧",
                 "question": "Does rain come from clouds?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Weather",
                 "emoji": "⚡🌩️",
                 "question": "Does lightning make thunder?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Weather",
@@ -4089,10 +4089,10 @@ const geographyQuestions = {
                 "emoji": "🌪️💨",
                 "question": "Are tornadoes rotating storms?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Weather",
@@ -4109,40 +4109,40 @@ const geographyQuestions = {
                 "emoji": "🌡️☀️",
                 "question": "Is temperature measures heat?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Weather",
                 "emoji": "💨🍃",
                 "question": "Is wind moving air?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Weather",
                 "emoji": "🌫️💭",
                 "question": "Is fog low cloud?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Weather",
                 "emoji": "🌈☔",
                 "question": "Is rainbows need sun and rain?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -4151,10 +4151,10 @@ const geographyQuestions = {
                 "emoji": "☀️🌤️",
                 "question": "What causes weather?",
                 "options": [
-                    "Earth rotation",
-                    "Atmospheric conditions"
+                    "Atmospheric conditions",
+                    "Earth rotation"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Weather",
@@ -4171,40 +4171,40 @@ const geographyQuestions = {
                 "emoji": "⚡🌩️",
                 "question": "What causes lightning?",
                 "options": [
-                    "Electrical discharge",
-                    "Thunder"
+                    "Thunder",
+                    "Electrical discharge"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Weather",
                 "emoji": "🌨️❄️",
                 "question": "Does at what temp doe snow form?",
                 "options": [
-                    "Below 0°C",
-                    "Below 5°C"
+                    "Below 5°C",
+                    "Below 0°C"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Weather",
                 "emoji": "🌪️💨",
                 "question": "Where do tornadoes form most?",
                 "options": [
-                    "Tornado Alley USA",
-                    "Everywhere"
+                    "Everywhere",
+                    "Tornado Alley USA"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Weather",
                 "emoji": "🌀🌊",
                 "question": "What is a hurricane called in Asia?",
                 "options": [
-                    "Cyclone",
-                    "Typhoon"
+                    "Typhoon",
+                    "Cyclone"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Weather",
@@ -4231,10 +4231,10 @@ const geographyQuestions = {
                 "emoji": "🌫️💭",
                 "question": "When does fog form?",
                 "options": [
-                    "Rain evaporates",
-                    "Air cools to dew point"
+                    "Air cools to dew point",
+                    "Rain evaporates"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Weather",
@@ -4253,44 +4253,44 @@ const geographyQuestions = {
                 "emoji": "☀️🌤️",
                 "question": "What is weather vs climate?",
                 "options": [
-                    "Local vs global",
+                    "Short-term vs long-term",
                     "Same thing",
-                    "Short-term vs long-term"
+                    "Local vs global"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Weather",
                 "emoji": "🌧️💧",
                 "question": "What is wettest place on Earth?",
                 "options": [
-                    "Hawaii",
                     "Mawsynram India",
+                    "Hawaii",
                     "Amazon"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Weather",
                 "emoji": "⚡🌩️",
                 "question": "How hot is lightning?",
                 "options": [
-                    "10,000°C",
                     "50,000°C",
+                    "10,000°C",
                     "30,000°C"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Weather",
                 "emoji": "🌨️❄️",
                 "question": "What is a blizzard?",
                 "options": [
-                    "Ice storm",
                     "Heavy snow with wind",
+                    "Ice storm",
                     "Light snow"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Weather",
@@ -4308,44 +4308,44 @@ const geographyQuestions = {
                 "emoji": "🌀🌊",
                 "question": "What is hurricane category based on?",
                 "options": [
-                    "Wind speed",
                     "Rainfall",
+                    "Wind speed",
                     "Size"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Weather",
                 "emoji": "🌡️☀️",
                 "question": "What is hottest temp recorded?",
                 "options": [
+                    "50°C",
                     "60°C",
-                    "56.7°C",
-                    "50°C"
+                    "56.7°C"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Weather",
                 "emoji": "💨🍃",
                 "question": "What is the Beaufort scale?",
                 "options": [
-                    "Wind speed scale",
                     "Pressure scale",
-                    "Temperature scale"
+                    "Temperature scale",
+                    "Wind speed scale"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Weather",
                 "emoji": "🌫️💭",
                 "question": "What does the acronym smog stand for?",
                 "options": [
-                    "Natural fog",
                     "Cloud type",
+                    "Natural fog",
                     "Smoke and fog pollution"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Weather",
@@ -4366,9 +4366,9 @@ const geographyQuestions = {
                 "question": "What is a weather front?",
                 "options": [
                     "Storm system",
-                    "Boundary between air masses",
+                    "Wind pattern",
                     "Cloud type",
-                    "Wind pattern"
+                    "Boundary between air masses"
                 ],
                 "correct": 0
             },
@@ -4377,36 +4377,36 @@ const geographyQuestions = {
                 "emoji": "🌧️💧",
                 "question": "What is orographic precipitation?",
                 "options": [
+                    "Storm rain",
                     "Light rain",
                     "Mountain-induced rainfall",
-                    "Storm rain",
                     "Ocean rain"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Weather",
                 "emoji": "⚡🌩️",
                 "question": "What does the acronym thunder stand for?",
                 "options": [
-                    "Wind sound",
                     "Cloud noise",
-                    "Lightning sound",
-                    "Sound from lightning"
+                    "Wind sound",
+                    "Sound from lightning",
+                    "Lightning sound"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Weather",
                 "emoji": "🌨️❄️",
                 "question": "What does the acronym graupel stand for?",
                 "options": [
+                    "Snow",
                     "Soft hail",
                     "Sleet",
-                    "Snow",
                     "Ice"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Weather",
@@ -4414,35 +4414,35 @@ const geographyQuestions = {
                 "question": "What is Enhanced Fujita scale?",
                 "options": [
                     "Damage scale",
-                    "Speed scale",
                     "Tornado intensity rating",
+                    "Speed scale",
                     "Wind scale"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Weather",
                 "emoji": "🌀🌊",
                 "question": "What is hurricane eye?",
                 "options": [
-                    "Storm wall",
                     "Calm center",
+                    "Cloud ring",
                     "Wind maximum",
-                    "Cloud ring"
+                    "Storm wall"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Weather",
                 "emoji": "🌡️☀️",
                 "question": "What is heat index?",
                 "options": [
+                    "Maximum temp",
                     "Temperature plus humidity feel",
                     "Actual temperature",
-                    "Average temp",
-                    "Maximum temp"
+                    "Average temp"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Weather",
@@ -4461,22 +4461,22 @@ const geographyQuestions = {
                 "emoji": "🌫️💭",
                 "question": "What is advection fog?",
                 "options": [
-                    "Valley fog",
+                    "Radiation fog",
                     "Sea fog",
-                    "Warm air over cold surface",
-                    "Radiation fog"
+                    "Valley fog",
+                    "Warm air over cold surface"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Weather",
                 "emoji": "🌈☔",
                 "question": "What is a moonbow?",
                 "options": [
-                    "Lunar halo",
+                    "Night clouds",
                     "Rainbow at night",
                     "Moon ring",
-                    "Night clouds"
+                    "Lunar halo"
                 ],
                 "correct": 1
             }
@@ -4561,20 +4561,20 @@ const geographyQuestions = {
                 "emoji": "🐪🌴",
                 "question": "Is camels live in deserts?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Deserts",
                 "emoji": "☀️🌡️",
                 "question": "Are deserts hot during day?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Deserts",
@@ -4591,30 +4591,30 @@ const geographyQuestions = {
                 "emoji": "🦎🐍",
                 "question": "Is reptiles live in deserts?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Deserts",
                 "emoji": "💨🏜️",
                 "question": "Is wind shapes desert landscapes?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Deserts",
                 "emoji": "🌙❄️",
                 "question": "Is deserts get cold at night?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Deserts",
@@ -4631,10 +4631,10 @@ const geographyQuestions = {
                 "emoji": "🏺🏜️",
                 "question": "Ancient civilizations had deserts?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Deserts",
@@ -4673,10 +4673,10 @@ const geographyQuestions = {
                 "emoji": "🦎🐍",
                 "question": "How do desert animals stay cool?",
                 "options": [
-                    "Nocturnal, burrow",
-                    "Panting"
+                    "Panting",
+                    "Nocturnal, burrow"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Deserts",
@@ -4703,20 +4703,20 @@ const geographyQuestions = {
                 "emoji": "🏜️💧",
                 "question": "What is an oasis?",
                 "options": [
-                    "Fertile area with water",
-                    "Desert town"
+                    "Desert town",
+                    "Fertile area with water"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Deserts",
                 "emoji": "🏺🏜️",
                 "question": "Where was ancient Egypt?",
                 "options": [
-                    "Nile in Sahara",
-                    "Arabian desert"
+                    "Arabian desert",
+                    "Nile in Sahara"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Deserts",
@@ -4733,24 +4733,24 @@ const geographyQuestions = {
                 "emoji": "🐪🌴",
                 "question": "Is it correct that where is the amazon rainforest?",
                 "options": [
-                    "Africa",
                     "Asia",
+                    "Australia",
                     "South America",
-                    "Australia"
+                    "Africa"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Deserts",
                 "emoji": "🐪🌴",
                 "question": "Ch10: Which is the largest ocean?",
                 "options": [
-                    "Atlantic",
                     "Pacific",
                     "Indian",
-                    "Arctic"
+                    "Arctic",
+                    "Atlantic"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -4770,11 +4770,11 @@ const geographyQuestions = {
                 "emoji": "🐪🌴",
                 "question": "How much weight can camels lose?",
                 "options": [
-                    "15%",
                     "35%",
-                    "25%"
+                    "25%",
+                    "15%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Deserts",
@@ -4792,33 +4792,33 @@ const geographyQuestions = {
                 "emoji": "🌵🪨",
                 "question": "How tall can saguaro grow?",
                 "options": [
+                    "8m",
                     "15m",
-                    "12m",
-                    "8m"
+                    "12m"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Deserts",
                 "emoji": "🦎🐍",
                 "question": "What is largest desert animal?",
                 "options": [
+                    "Addax antelope",
                     "Camel",
-                    "Gazelle",
-                    "Addax antelope"
+                    "Gazelle"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Deserts",
                 "emoji": "💨🏜️",
                 "question": "What is largest sand desert?",
                 "options": [
-                    "Rub' al Khali",
+                    "Gobi",
                     "Sahara",
-                    "Gobi"
+                    "Rub' al Khali"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Deserts",
@@ -4836,33 +4836,33 @@ const geographyQuestions = {
                 "emoji": "🏜️💧",
                 "question": "How many oases in Sahara?",
                 "options": [
-                    "150",
                     "90+",
+                    "150",
                     "50"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Deserts",
                 "emoji": "🏺🏜️",
                 "question": "What civilization was in Atacama?",
                 "options": [
-                    "Aztec",
+                    "Inca",
                     "Maya",
-                    "Inca"
+                    "Aztec"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Deserts",
                 "emoji": "🌵🌸",
                 "question": "How often does desert bloom occur?",
                 "options": [
-                    "Yearly",
                     "After rare rains",
-                    "Monthly"
+                    "Monthly",
+                    "Yearly"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -4871,22 +4871,22 @@ const geographyQuestions = {
                 "emoji": "🏜️🌵",
                 "question": "What causes deserts to form?",
                 "options": [
-                    "Rain shadow, latitude, currents",
-                    "Heat only",
+                    "Soil type",
                     "No water",
-                    "Soil type"
+                    "Rain shadow, latitude, currents",
+                    "Heat only"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Deserts",
                 "emoji": "🐪🌴",
                 "question": "What is camel's hump for?",
                 "options": [
-                    "Heat regulation",
+                    "Water storage",
                     "Balance",
-                    "Fat storage not water",
-                    "Water storage"
+                    "Heat regulation",
+                    "Fat storage not water"
                 ],
                 "correct": 1
             },
@@ -4896,9 +4896,9 @@ const geographyQuestions = {
                 "question": "What is albedo effect?",
                 "options": [
                     "Wind pattern",
-                    "Heat absorption",
+                    "Evaporation",
                     "Surface reflectivity",
-                    "Evaporation"
+                    "Heat absorption"
                 ],
                 "correct": 0
             },
@@ -4907,72 +4907,72 @@ const geographyQuestions = {
                 "emoji": "🌵🪨",
                 "question": "What is CAM photosynthesis?",
                 "options": [
-                    "Desert adaptation",
                     "Root system",
+                    "Desert adaptation",
                     "Cactus type",
                     "Water-saving plant process"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Deserts",
                 "emoji": "🦎🐍",
                 "question": "What does the acronym estivation stand for?",
                 "options": [
-                    "Migration",
-                    "Summer dormancy",
                     "Hibernation",
-                    "Hunting"
+                    "Hunting",
+                    "Summer dormancy",
+                    "Migration"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Deserts",
                 "emoji": "💨🏜️",
                 "question": "What is aeolian process?",
                 "options": [
-                    "Sand movement",
                     "Dune formation",
+                    "Desert creation",
                     "Wind erosion and deposition",
-                    "Desert creation"
+                    "Sand movement"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Deserts",
                 "emoji": "🌙❄️",
                 "question": "What is diurnal temperature range?",
                 "options": [
-                    "Heat measure",
                     "Annual variation",
                     "Seasonal change",
-                    "Day-night temperature difference"
+                    "Day-night temperature difference",
+                    "Heat measure"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Deserts",
                 "emoji": "🏜️💧",
                 "question": "What creates an oasis?",
                 "options": [
+                    "River",
                     "Underground water reaching surface",
-                    "Rain collection",
                     "Lake",
-                    "River"
+                    "Rain collection"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Deserts",
                 "emoji": "🏺🏜️",
                 "question": "What causes desertification?",
                 "options": [
-                    "Land becoming desert",
                     "Overgrazing",
-                    "Climate change",
-                    "Desert expansion"
+                    "Desert expansion",
+                    "Land becoming desert",
+                    "Climate change"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Deserts",
@@ -5057,20 +5057,20 @@ const geographyQuestions = {
                 "emoji": "🏝️🌴",
                 "question": "Islands are completely encircled by water?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Islands",
                 "emoji": "🗾🌏",
                 "question": "Is Japan an island nation?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Archipelagos",
@@ -5087,10 +5087,10 @@ const geographyQuestions = {
                 "emoji": "🌋🏝️",
                 "question": "Are some islands volcanic?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Islands",
@@ -5107,50 +5107,50 @@ const geographyQuestions = {
                 "emoji": "🇵🇭🏝️",
                 "question": "Does philippines have many islands?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Islands",
                 "emoji": "🏝️❄️",
                 "question": "Is greenland largest island?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Islands",
                 "emoji": "🌊🏝️",
                 "question": "Islands can be man-made?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Archipelagos",
                 "emoji": "🏝️🗺️",
                 "question": "Is indonesia an archipelago?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Islands",
                 "emoji": "🏝️🌴",
                 "question": "Islands have unique ecosystems?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -5189,10 +5189,10 @@ const geographyQuestions = {
                 "emoji": "🌋🏝️",
                 "question": "What created Hawaiian Islands?",
                 "options": [
-                    "Volcanic hotspot",
-                    "Coral"
+                    "Coral",
+                    "Volcanic hotspot"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Islands",
@@ -5229,10 +5229,10 @@ const geographyQuestions = {
                 "emoji": "🌊🏝️",
                 "question": "What are Palm Islands?",
                 "options": [
-                    "Artificial islands Dubai",
-                    "Natural islands"
+                    "Natural islands",
+                    "Artificial islands Dubai"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Archipelagos",
@@ -5249,10 +5249,10 @@ const geographyQuestions = {
                 "emoji": "🏝️🌴",
                 "question": "What is endemic species?",
                 "options": [
-                    "Found only in one place",
-                    "Common everywhere"
+                    "Common everywhere",
+                    "Found only in one place"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -5262,8 +5262,8 @@ const geographyQuestions = {
                 "question": "How big is Greenland?",
                 "options": [
                     "2.2 million km²",
-                    "3 million km²",
-                    "1.5 million km²"
+                    "1.5 million km²",
+                    "3 million km²"
                 ],
                 "correct": 0
             },
@@ -5283,11 +5283,11 @@ const geographyQuestions = {
                 "emoji": "🏝️🏝️",
                 "question": "How many islands in Caribbean?",
                 "options": [
-                    "700+",
+                    "500",
                     "1000",
-                    "500"
+                    "700+"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Islands",
@@ -5295,21 +5295,21 @@ const geographyQuestions = {
                 "question": "What is youngest Hawaiian island?",
                 "options": [
                     "Oahu",
-                    "Hawaii (Big Island)",
-                    "Maui"
+                    "Maui",
+                    "Hawaii (Big Island)"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Islands",
                 "emoji": "🐠🪸",
                 "question": "What is largest atoll?",
                 "options": [
+                    "Great Chagos",
                     "Kwajalein",
-                    "Maldives",
-                    "Great Chagos"
+                    "Maldives"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Archipelagos",
@@ -5317,8 +5317,8 @@ const geographyQuestions = {
                 "question": "What is largest Philippine island?",
                 "options": [
                     "Luzon",
-                    "Palawan",
-                    "Mindanao"
+                    "Mindanao",
+                    "Palawan"
                 ],
                 "correct": 0
             },
@@ -5327,11 +5327,11 @@ const geographyQuestions = {
                 "emoji": "🏝️❄️",
                 "question": "What percent of Greenland is ice?",
                 "options": [
-                    "80%",
                     "90%",
+                    "80%",
                     "60%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Islands",
@@ -5339,8 +5339,8 @@ const geographyQuestions = {
                 "question": "When were Palm Islands built?",
                 "options": [
                     "2001-2008",
-                    "2010-2015",
-                    "1990-2000"
+                    "1990-2000",
+                    "2010-2015"
                 ],
                 "correct": 0
             },
@@ -5350,8 +5350,8 @@ const geographyQuestions = {
                 "question": "What is Java's population?",
                 "options": [
                     "200 million",
-                    "145 million",
-                    "100 million"
+                    "100 million",
+                    "145 million"
                 ],
                 "correct": 0
             },
@@ -5360,11 +5360,11 @@ const geographyQuestions = {
                 "emoji": "🏝️🌴",
                 "question": "What causes island gigantism?",
                 "options": [
+                    "Food",
                     "Climate",
-                    "Lack of predators",
-                    "Food"
+                    "Lack of predators"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -5373,46 +5373,46 @@ const geographyQuestions = {
                 "emoji": "🏝️🌴",
                 "question": "What is island biogeography theory?",
                 "options": [
-                    "Island formation",
                     "Ocean currents",
                     "Climate",
-                    "Species richness on islands"
+                    "Species richness on islands",
+                    "Island formation"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Islands",
                 "emoji": "🗾🌏",
                 "question": "What tectonic feature is Japan on?",
                 "options": [
-                    "Pacific Ring of Fire",
-                    "Transform fault",
                     "Mid-ocean ridge",
-                    "Rift valley"
+                    "Rift valley",
+                    "Transform fault",
+                    "Pacific Ring of Fire"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Archipelagos",
                 "emoji": "🏝️🏝️",
                 "question": "What is an island arc?",
                 "options": [
-                    "Coral islands",
                     "River delta",
                     "Coastal islands",
-                    "Volcanic chain from subduction"
+                    "Volcanic chain from subduction",
+                    "Coral islands"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Islands",
                 "emoji": "🌋🏝️",
                 "question": "What is a shield volcano?",
                 "options": [
-                    "Extinct volcano",
+                    "Explosive volcano",
                     "Steep volcano",
                     "Broad gentle-sloped volcano",
-                    "Explosive volcano"
+                    "Extinct volcano"
                 ],
                 "correct": 1
             },
@@ -5421,10 +5421,10 @@ const geographyQuestions = {
                 "emoji": "🐠🪸",
                 "question": "How do atolls form?",
                 "options": [
-                    "Waves build up",
-                    "Coral grows",
                     "Volcano subsides, reef remains",
-                    "Sand accumulates"
+                    "Coral grows",
+                    "Sand accumulates",
+                    "Waves build up"
                 ],
                 "correct": 1
             },
@@ -5434,9 +5434,9 @@ const geographyQuestions = {
                 "question": "What is the Philippines' biodiversity status?",
                 "options": [
                     "Megadiverse country",
-                    "Low diversity",
+                    "Moderate diversity",
                     "Desert",
-                    "Moderate diversity"
+                    "Low diversity"
                 ],
                 "correct": 0
             },
@@ -5445,48 +5445,48 @@ const geographyQuestions = {
                 "emoji": "🏝️❄️",
                 "question": "Why is Greenland not a continent?",
                 "options": [
-                    "Too small",
                     "Definition",
+                    "Too small",
                     "Ice-covered",
                     "On continental shelf"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Islands",
                 "emoji": "🌊🏝️",
                 "question": "What threat do artificial islands face?",
                 "options": [
-                    "Earthquakes",
-                    "Pollution",
                     "Sea level rise, subsidence",
-                    "Storms only"
+                    "Pollution",
+                    "Storms only",
+                    "Earthquakes"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Archipelagos",
                 "emoji": "🏝️🗺️",
                 "question": "What is Wallace Line?",
                 "options": [
-                    "Asian-Australian fauna boundary",
-                    "Climate zone",
                     "Island chain",
-                    "Ocean trench"
+                    "Climate zone",
+                    "Ocean trench",
+                    "Asian-Australian fauna boundary"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Islands",
                 "emoji": "🏝️🌴",
                 "question": "What is island dwarfism?",
                 "options": [
-                    "Small islands",
-                    "Low biodiversity",
+                    "Species becoming smaller",
                     "Endemic species",
-                    "Species becoming smaller"
+                    "Small islands",
+                    "Low biodiversity"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "extreme": [
@@ -5559,20 +5559,20 @@ const geographyQuestions = {
                 "emoji": "🏞️💧",
                 "question": "Is lakes and Water Bodies topic 10?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Lakes",
                 "emoji": "🏞️💧",
                 "question": "Is the Atlantic between Europe and America?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Lakes",
@@ -5589,30 +5589,30 @@ const geographyQuestions = {
                 "emoji": "🏞️💧",
                 "question": "Is the Sahara the largest hot desert?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Lakes",
                 "emoji": "🏞️💧",
                 "question": "Does Australia have the Great Barrier Reef?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Lakes",
                 "emoji": "🏞️💧",
                 "question": "Is the Amazon Rainforest in South America?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Lakes",
@@ -5639,10 +5639,10 @@ const geographyQuestions = {
                 "emoji": "🏞️💧",
                 "question": "Is the Nile River located in Africa?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Lakes",
@@ -5671,70 +5671,70 @@ const geographyQuestions = {
                 "emoji": "🏞️💧",
                 "question": "Which is the saltiest sea?",
                 "options": [
-                    "Mediterranean",
-                    "Red Sea",
                     "Dead Sea",
-                    "Black Sea"
+                    "Black Sea",
+                    "Red Sea",
+                    "Mediterranean"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Lakes",
                 "emoji": "🏞️💧",
                 "question": "What is the largest country by area?",
                 "options": [
-                    "Canada",
                     "China",
                     "USA",
+                    "Canada",
                     "Russia"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Lakes",
                 "emoji": "🏞️💧",
                 "question": "Which is the longest mountain range?",
                 "options": [
-                    "Himalayas",
-                    "Rockies",
                     "Andes",
-                    "Alps"
+                    "Alps",
+                    "Rockies",
+                    "Himalayas"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Lakes",
                 "emoji": "🏞️💧",
                 "question": "What is Japan's capital?",
                 "options": [
-                    "Seoul",
                     "Beijing",
+                    "Seoul",
                     "Tokyo",
                     "Bangkok"
-                ],
-                "correct": 1
-            },
-            {
-                "topic": "Lakes",
-                "emoji": "🏞️💧",
-                "question": "Which is the longest river generally?",
-                "options": [
-                    "Amazon",
-                    "Nile",
-                    "Yangtze",
-                    "Mississippi"
                 ],
                 "correct": 0
             },
             {
                 "topic": "Lakes",
                 "emoji": "🏞️💧",
+                "question": "Which is the longest river generally?",
+                "options": [
+                    "Mississippi",
+                    "Amazon",
+                    "Yangtze",
+                    "Nile"
+                ],
+                "correct": 1
+            },
+            {
+                "topic": "Lakes",
+                "emoji": "🏞️💧",
                 "question": "What can be the smallest continent?",
                 "options": [
-                    "Europe",
+                    "South America",
                     "Antarctica",
-                    "Australia",
-                    "South America"
+                    "Europe",
+                    "Australia"
                 ],
                 "correct": 1
             },
@@ -5744,9 +5744,9 @@ const geographyQuestions = {
                 "question": "Would you agree that which country has the largest population?",
                 "options": [
                     "India",
-                    "USA",
+                    "Indonesia",
                     "China",
-                    "Indonesia"
+                    "USA"
                 ],
                 "correct": 0
             },
@@ -5755,24 +5755,24 @@ const geographyQuestions = {
                 "emoji": "🏞️💧",
                 "question": "Where is the Amazon Rainforest in your opinion?",
                 "options": [
-                    "Africa",
-                    "Asia",
                     "South America",
-                    "Australia"
+                    "Australia",
+                    "Asia",
+                    "Africa"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Lakes",
                 "emoji": "🏞️💧",
                 "question": "Ch12: Which is the largest ocean?",
                 "options": [
-                    "Atlantic",
                     "Pacific",
-                    "Indian",
-                    "Arctic"
+                    "Arctic",
+                    "Atlantic",
+                    "Indian"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -5781,11 +5781,11 @@ const geographyQuestions = {
                 "emoji": "🏞️💧",
                 "question": "Lakes and Water Bodies difficult question 10?",
                 "options": [
-                    "A",
                     "B",
-                    "C"
+                    "C",
+                    "A"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Lakes",
@@ -5793,59 +5793,59 @@ const geographyQuestions = {
                 "question": "What is the highest waterfall?",
                 "options": [
                     "Niagara",
-                    "Victoria",
                     "Angel Falls",
+                    "Victoria",
                     "Yosemite"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Lakes",
                 "emoji": "🏞️💧",
                 "question": "Which country has the most volcanoes?",
                 "options": [
+                    "Iceland",
                     "Japan",
                     "Indonesia",
-                    "Philippines",
-                    "Iceland"
+                    "Philippines"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Lakes",
                 "emoji": "🏞️💧",
                 "question": "What is the world's largest island?",
                 "options": [
-                    "Madagascar",
-                    "Borneo",
                     "Greenland",
-                    "New Guinea"
+                    "New Guinea",
+                    "Borneo",
+                    "Madagascar"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Lakes",
                 "emoji": "🏞️💧",
                 "question": "Which waterfall has the greatest drop?",
                 "options": [
-                    "Niagara",
-                    "Victoria",
                     "Angel Falls",
-                    "Iguazu"
+                    "Iguazu",
+                    "Victoria",
+                    "Niagara"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Lakes",
                 "emoji": "🏞️💧",
                 "question": "What is the driest place on Earth?",
                 "options": [
+                    "Antarctica",
                     "Sahara",
-                    "Atacama Desert",
                     "Death Valley",
-                    "Antarctica"
+                    "Atacama Desert"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Lakes",
@@ -5864,12 +5864,12 @@ const geographyQuestions = {
                 "emoji": "🏞️💧",
                 "question": "What is the deepest ocean point?",
                 "options": [
-                    "Puerto Rico Trench",
-                    "Java Trench",
+                    "Tonga Trench",
                     "Mariana Trench",
-                    "Tonga Trench"
+                    "Puerto Rico Trench",
+                    "Java Trench"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Lakes",
@@ -5878,8 +5878,8 @@ const geographyQuestions = {
                 "options": [
                     "Russia",
                     "USA",
-                    "France",
-                    "Canada"
+                    "Canada",
+                    "France"
                 ],
                 "correct": 0
             },
@@ -5888,10 +5888,10 @@ const geographyQuestions = {
                 "emoji": "🏞️💧",
                 "question": "Ch12: What is South America's longest river?",
                 "options": [
-                    "Paraná",
-                    "Orinoco",
                     "Amazon",
-                    "São Francisco"
+                    "Orinoco",
+                    "São Francisco",
+                    "Paraná"
                 ],
                 "correct": 1
             }
@@ -5902,48 +5902,48 @@ const geographyQuestions = {
                 "emoji": "🏞️💧",
                 "question": "Lakes and Water Bodies expert question 10?",
                 "options": [
+                    "A",
                     "B",
                     "C",
-                    "D",
-                    "A"
+                    "D"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Lakes",
                 "emoji": "🏞️💧",
                 "question": "What is the smallest country by area?",
                 "options": [
-                    "Monaco",
                     "Vatican City",
+                    "Liechtenstein",
                     "San Marino",
-                    "Liechtenstein"
-                ],
-                "correct": 1
-            },
-            {
-                "topic": "Lakes",
-                "emoji": "🏞️💧",
-                "question": "Which country has the most islands?",
-                "options": [
-                    "Indonesia",
-                    "Philippines",
-                    "Sweden",
-                    "Finland"
+                    "Monaco"
                 ],
                 "correct": 0
             },
             {
                 "topic": "Lakes",
                 "emoji": "🏞️💧",
+                "question": "Which country has the most islands?",
+                "options": [
+                    "Philippines",
+                    "Finland",
+                    "Sweden",
+                    "Indonesia"
+                ],
+                "correct": 3
+            },
+            {
+                "topic": "Lakes",
+                "emoji": "🏞️💧",
                 "question": "What is the southernmost capital?",
                 "options": [
-                    "Canberra",
                     "Wellington",
                     "Buenos Aires",
-                    "Santiago"
+                    "Santiago",
+                    "Canberra"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Lakes",
@@ -5951,23 +5951,23 @@ const geographyQuestions = {
                 "question": "Ch12: Which river flows through most countries?",
                 "options": [
                     "Nile",
-                    "Amazon",
                     "Danube",
-                    "Rhine"
+                    "Rhine",
+                    "Amazon"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Lakes",
                 "emoji": "🏞️💧",
                 "question": "What sea has no coastline?",
                 "options": [
-                    "Caspian",
-                    "Sargasso",
+                    "Dead Sea",
                     "Aral",
-                    "Dead Sea"
+                    "Caspian",
+                    "Sargasso"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Lakes",
@@ -5975,47 +5975,47 @@ const geographyQuestions = {
                 "question": "Which country was formerly Abyssinia?",
                 "options": [
                     "Eritrea",
-                    "Somalia",
                     "Ethiopia",
-                    "Sudan"
+                    "Sudan",
+                    "Somalia"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Lakes",
                 "emoji": "🏞️💧",
                 "question": "What is the highest capital by elevation?",
                 "options": [
+                    "Addis Ababa",
                     "Quito",
-                    "Bogotá",
                     "La Paz",
-                    "Addis Ababa"
+                    "Bogotá"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Lakes",
                 "emoji": "🏞️💧",
                 "question": "Which strait separates Europe from Africa?",
                 "options": [
-                    "Bering",
+                    "Bosporus",
                     "Gibraltar",
-                    "Hormuz",
-                    "Bosporus"
+                    "Bering",
+                    "Hormuz"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Lakes",
                 "emoji": "🏞️💧",
                 "question": "Ch12: What is Kazakhstan's capital?",
                 "options": [
+                    "Tashkent",
                     "Almaty",
                     "Astana",
-                    "Bishkek",
-                    "Tashkent"
+                    "Bishkek"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -6088,20 +6088,20 @@ const geographyQuestions = {
                 "emoji": "🌲🌳",
                 "question": "Is forests and Woodlands topic 10?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Forests",
                 "emoji": "🌲🌳",
                 "question": "Is it correct that is the atlantic between europe and america?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Forests",
@@ -6118,10 +6118,10 @@ const geographyQuestions = {
                 "emoji": "🌲🌳",
                 "question": "Is the Sahara the largest hot desert generally?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Forests",
@@ -6138,10 +6138,10 @@ const geographyQuestions = {
                 "emoji": "🌲🌳",
                 "question": "Would you agree that is the amazon rainforest in south america?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Forests",
@@ -6190,22 +6190,22 @@ const geographyQuestions = {
                 "emoji": "🌲🌳",
                 "question": "Forests and Woodlands question 10?",
                 "options": [
-                    "Option B",
-                    "Option A"
+                    "Option A",
+                    "Option B"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Forests",
                 "emoji": "🌲🌳",
                 "question": "Ch13: Which is the saltiest sea?",
                 "options": [
-                    "Mediterranean",
                     "Red Sea",
+                    "Mediterranean",
                     "Dead Sea",
                     "Black Sea"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Forests",
@@ -6214,8 +6214,8 @@ const geographyQuestions = {
                 "options": [
                     "Canada",
                     "China",
-                    "USA",
-                    "Russia"
+                    "Russia",
+                    "USA"
                 ],
                 "correct": 0
             },
@@ -6224,46 +6224,46 @@ const geographyQuestions = {
                 "emoji": "🌲🌳",
                 "question": "Ch13: Which is the longest mountain range?",
                 "options": [
-                    "Himalayas",
                     "Rockies",
                     "Andes",
+                    "Himalayas",
                     "Alps"
-                ],
-                "correct": 1
-            },
-            {
-                "topic": "Forests",
-                "emoji": "🌲🌳",
-                "question": "What is Japan's capital generally?",
-                "options": [
-                    "Seoul",
-                    "Beijing",
-                    "Tokyo",
-                    "Bangkok"
-                ],
-                "correct": 1
-            },
-            {
-                "topic": "Forests",
-                "emoji": "🌲🌳",
-                "question": "Which can be the longest river?",
-                "options": [
-                    "Amazon",
-                    "Nile",
-                    "Yangtze",
-                    "Mississippi"
                 ],
                 "correct": 0
             },
             {
                 "topic": "Forests",
                 "emoji": "🌲🌳",
+                "question": "What is Japan's capital generally?",
+                "options": [
+                    "Bangkok",
+                    "Tokyo",
+                    "Seoul",
+                    "Beijing"
+                ],
+                "correct": 3
+            },
+            {
+                "topic": "Forests",
+                "emoji": "🌲🌳",
+                "question": "Which can be the longest river?",
+                "options": [
+                    "Mississippi",
+                    "Amazon",
+                    "Nile",
+                    "Yangtze"
+                ],
+                "correct": 1
+            },
+            {
+                "topic": "Forests",
+                "emoji": "🌲🌳",
                 "question": "Would you agree that what is the smallest continent?",
                 "options": [
-                    "Europe",
+                    "South America",
                     "Antarctica",
-                    "Australia",
-                    "South America"
+                    "Europe",
+                    "Australia"
                 ],
                 "correct": 1
             },
@@ -6272,12 +6272,12 @@ const geographyQuestions = {
                 "emoji": "🌲🌳",
                 "question": "Which country has the largest population in your opinion?",
                 "options": [
-                    "India",
-                    "USA",
+                    "Indonesia",
                     "China",
-                    "Indonesia"
+                    "USA",
+                    "India"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Forests",
@@ -6286,8 +6286,8 @@ const geographyQuestions = {
                 "options": [
                     "Africa",
                     "Asia",
-                    "South America",
-                    "Australia"
+                    "Australia",
+                    "South America"
                 ],
                 "correct": 0
             },
@@ -6297,11 +6297,11 @@ const geographyQuestions = {
                 "question": "Ch13: Which is the largest ocean?",
                 "options": [
                     "Atlantic",
-                    "Pacific",
                     "Indian",
-                    "Arctic"
+                    "Arctic",
+                    "Pacific"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "hard": [
@@ -6311,8 +6311,8 @@ const geographyQuestions = {
                 "question": "Forests and Woodlands difficult question 10?",
                 "options": [
                     "C",
-                    "B",
-                    "A"
+                    "A",
+                    "B"
                 ],
                 "correct": 0
             },
@@ -6333,24 +6333,24 @@ const geographyQuestions = {
                 "emoji": "🌲🌳",
                 "question": "Ch13: Which country has the most volcanoes?",
                 "options": [
-                    "Japan",
+                    "Iceland",
                     "Indonesia",
                     "Philippines",
-                    "Iceland"
+                    "Japan"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Forests",
                 "emoji": "🌲🌳",
                 "question": "Is it correct that what is the world's largest island?",
                 "options": [
-                    "Madagascar",
                     "Borneo",
+                    "New Guinea",
                     "Greenland",
-                    "New Guinea"
+                    "Madagascar"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Forests",
@@ -6358,59 +6358,59 @@ const geographyQuestions = {
                 "question": "Ch13: Which waterfall has the greatest drop?",
                 "options": [
                     "Niagara",
-                    "Victoria",
                     "Angel Falls",
+                    "Victoria",
                     "Iguazu"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Forests",
                 "emoji": "🌲🌳",
                 "question": "What is the driest place on Earth generally?",
                 "options": [
-                    "Sahara",
+                    "Antarctica",
                     "Atacama Desert",
-                    "Death Valley",
-                    "Antarctica"
+                    "Sahara",
+                    "Death Valley"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Forests",
                 "emoji": "🌲🌳",
                 "question": "Ch13: Which european country has most lakes?",
                 "options": [
-                    "Sweden",
-                    "Finland",
                     "Norway",
-                    "Russia"
+                    "Sweden",
+                    "Russia",
+                    "Finland"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Forests",
                 "emoji": "🌲🌳",
                 "question": "Would you agree that what is the deepest ocean point?",
                 "options": [
-                    "Puerto Rico Trench",
                     "Java Trench",
                     "Mariana Trench",
-                    "Tonga Trench"
+                    "Tonga Trench",
+                    "Puerto Rico Trench"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Forests",
                 "emoji": "🌲🌳",
                 "question": "Which country has the most time zones in your opinion?",
                 "options": [
-                    "Russia",
                     "USA",
                     "France",
+                    "Russia",
                     "Canada"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Forests",
@@ -6419,8 +6419,8 @@ const geographyQuestions = {
                 "options": [
                     "Paraná",
                     "Orinoco",
-                    "Amazon",
-                    "São Francisco"
+                    "São Francisco",
+                    "Amazon"
                 ],
                 "correct": 1
             }
@@ -6431,21 +6431,21 @@ const geographyQuestions = {
                 "emoji": "🌲🌳",
                 "question": "Forests and Woodlands expert question 10?",
                 "options": [
+                    "D",
                     "B",
                     "A",
-                    "C",
-                    "D"
+                    "C"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Forests",
                 "emoji": "🌲🌳",
                 "question": "Ch13: What is the smallest country by area?",
                 "options": [
-                    "Monaco",
-                    "Vatican City",
                     "San Marino",
+                    "Vatican City",
+                    "Monaco",
                     "Liechtenstein"
                 ],
                 "correct": 1
@@ -6455,33 +6455,33 @@ const geographyQuestions = {
                 "emoji": "🌲🌳",
                 "question": "Ch13: Which country has the most islands?",
                 "options": [
-                    "Indonesia",
-                    "Philippines",
                     "Sweden",
-                    "Finland"
-                ],
-                "correct": 0
-            },
-            {
-                "topic": "Forests",
-                "emoji": "🌲🌳",
-                "question": "Ch13: What is the southernmost capital?",
-                "options": [
-                    "Canberra",
-                    "Wellington",
-                    "Buenos Aires",
-                    "Santiago"
+                    "Indonesia",
+                    "Finland",
+                    "Philippines"
                 ],
                 "correct": 1
             },
             {
                 "topic": "Forests",
                 "emoji": "🌲🌳",
+                "question": "Ch13: What is the southernmost capital?",
+                "options": [
+                    "Wellington",
+                    "Canberra",
+                    "Buenos Aires",
+                    "Santiago"
+                ],
+                "correct": 0
+            },
+            {
+                "topic": "Forests",
+                "emoji": "🌲🌳",
                 "question": "Is it correct that which river flows through most countries?",
                 "options": [
-                    "Nile",
-                    "Amazon",
                     "Danube",
+                    "Amazon",
+                    "Nile",
                     "Rhine"
                 ],
                 "correct": 1
@@ -6492,9 +6492,9 @@ const geographyQuestions = {
                 "question": "Ch13: What sea has no coastline?",
                 "options": [
                     "Caspian",
-                    "Sargasso",
+                    "Dead Sea",
                     "Aral",
-                    "Dead Sea"
+                    "Sargasso"
                 ],
                 "correct": 0
             },
@@ -6503,48 +6503,48 @@ const geographyQuestions = {
                 "emoji": "🌲🌳",
                 "question": "Which country was formerly Abyssinia generally?",
                 "options": [
-                    "Eritrea",
                     "Somalia",
+                    "Sudan",
                     "Ethiopia",
-                    "Sudan"
+                    "Eritrea"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Forests",
                 "emoji": "🌲🌳",
                 "question": "What can be the highest capital by elevation?",
                 "options": [
-                    "Quito",
+                    "Addis Ababa",
                     "Bogotá",
-                    "La Paz",
-                    "Addis Ababa"
+                    "Quito",
+                    "La Paz"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Forests",
                 "emoji": "🌲🌳",
                 "question": "Would you agree that which strait separates europe from africa?",
                 "options": [
+                    "Bosporus",
                     "Bering",
                     "Gibraltar",
-                    "Hormuz",
-                    "Bosporus"
+                    "Hormuz"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Forests",
                 "emoji": "🌲🌳",
                 "question": "What is Kazakhstan's capital in your opinion?",
                 "options": [
+                    "Tashkent",
                     "Almaty",
                     "Astana",
-                    "Bishkek",
-                    "Tashkent"
+                    "Bishkek"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -6627,30 +6627,30 @@ const geographyQuestions = {
                 "emoji": "🌾🚜",
                 "question": "Do you think the Atlantic between Europe and America?",
                 "options": [
-                    "True",
-                    "False"
-                ],
-                "correct": 1
-            },
-            {
-                "topic": "Agriculture",
-                "emoji": "🌾🚜",
-                "question": "Would you say Antarctica have permanent ice?",
-                "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
                 "correct": 0
             },
             {
                 "topic": "Agriculture",
                 "emoji": "🌾🚜",
-                "question": "Ch14: Is the Sahara the largest hot desert?",
+                "question": "Would you say Antarctica have permanent ice?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
                 "correct": 1
+            },
+            {
+                "topic": "Agriculture",
+                "emoji": "🌾🚜",
+                "question": "Ch14: Is the Sahara the largest hot desert?",
+                "options": [
+                    "False",
+                    "True"
+                ],
+                "correct": 0
             },
             {
                 "topic": "Agriculture",
@@ -6667,10 +6667,10 @@ const geographyQuestions = {
                 "emoji": "🌾🚜",
                 "question": "Is it correct that is the amazon rainforest in south america?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Agriculture",
@@ -6731,8 +6731,8 @@ const geographyQuestions = {
                 "options": [
                     "Mediterranean",
                     "Red Sea",
-                    "Dead Sea",
-                    "Black Sea"
+                    "Black Sea",
+                    "Dead Sea"
                 ],
                 "correct": 1
             },
@@ -6741,22 +6741,22 @@ const geographyQuestions = {
                 "emoji": "🌾🚜",
                 "question": "Ch14: What is the largest country by area?",
                 "options": [
-                    "Canada",
                     "China",
                     "USA",
-                    "Russia"
+                    "Russia",
+                    "Canada"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Agriculture",
                 "emoji": "🌾🚜",
                 "question": "Ch14: Which is the longest mountain range?",
                 "options": [
-                    "Himalayas",
-                    "Rockies",
                     "Andes",
-                    "Alps"
+                    "Rockies",
+                    "Alps",
+                    "Himalayas"
                 ],
                 "correct": 1
             },
@@ -6765,33 +6765,33 @@ const geographyQuestions = {
                 "emoji": "🌾🚜",
                 "question": "Ch14: What is Japan's capital?",
                 "options": [
+                    "Bangkok",
                     "Seoul",
                     "Beijing",
-                    "Tokyo",
-                    "Bangkok"
+                    "Tokyo"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Agriculture",
                 "emoji": "🌾🚜",
                 "question": "Ch14: Which is the longest river?",
                 "options": [
+                    "Yangtze",
                     "Amazon",
                     "Nile",
-                    "Yangtze",
                     "Mississippi"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Agriculture",
                 "emoji": "🌾🚜",
                 "question": "Is it correct that what is the smallest continent?",
                 "options": [
-                    "Europe",
-                    "Antarctica",
                     "Australia",
+                    "Antarctica",
+                    "Europe",
                     "South America"
                 ],
                 "correct": 1
@@ -6801,34 +6801,34 @@ const geographyQuestions = {
                 "emoji": "🌾🚜",
                 "question": "Ch14: Which country has the largest population?",
                 "options": [
-                    "India",
-                    "USA",
                     "China",
-                    "Indonesia"
+                    "India",
+                    "Indonesia",
+                    "USA"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Agriculture",
                 "emoji": "🌾🚜",
                 "question": "Where is the Amazon Rainforest generally?",
                 "options": [
-                    "Africa",
                     "Asia",
-                    "South America",
-                    "Australia"
+                    "Australia",
+                    "Africa",
+                    "South America"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Agriculture",
                 "emoji": "🌾🚜",
                 "question": "Which can be the largest ocean?",
                 "options": [
-                    "Atlantic",
+                    "Arctic",
                     "Pacific",
                     "Indian",
-                    "Arctic"
+                    "Atlantic"
                 ],
                 "correct": 1
             }
@@ -6839,20 +6839,20 @@ const geographyQuestions = {
                 "emoji": "🌾🚜",
                 "question": "Agriculture and Farming difficult question 10?",
                 "options": [
-                    "C",
                     "B",
+                    "C",
                     "A"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Agriculture",
                 "emoji": "🌾🚜",
                 "question": "Would you agree that what is the highest waterfall?",
                 "options": [
-                    "Niagara",
-                    "Victoria",
                     "Angel Falls",
+                    "Victoria",
+                    "Niagara",
                     "Yosemite"
                 ],
                 "correct": 1
@@ -6862,33 +6862,33 @@ const geographyQuestions = {
                 "emoji": "🌾🚜",
                 "question": "Which country has the most volcanoes in your opinion?",
                 "options": [
-                    "Japan",
                     "Indonesia",
                     "Philippines",
-                    "Iceland"
+                    "Iceland",
+                    "Japan"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Agriculture",
                 "emoji": "🌾🚜",
                 "question": "Ch14: What is the world's largest island?",
                 "options": [
-                    "Madagascar",
                     "Borneo",
+                    "Madagascar",
                     "Greenland",
                     "New Guinea"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Agriculture",
                 "emoji": "🌾🚜",
                 "question": "Ch14: Which waterfall has the greatest drop?",
                 "options": [
-                    "Niagara",
-                    "Victoria",
                     "Angel Falls",
+                    "Victoria",
+                    "Niagara",
                     "Iguazu"
                 ],
                 "correct": 1
@@ -6898,12 +6898,12 @@ const geographyQuestions = {
                 "emoji": "🌾🚜",
                 "question": "Ch14: What is the driest place on Earth?",
                 "options": [
-                    "Sahara",
+                    "Antarctica",
                     "Atacama Desert",
                     "Death Valley",
-                    "Antarctica"
+                    "Sahara"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Agriculture",
@@ -6911,11 +6911,11 @@ const geographyQuestions = {
                 "question": "Ch14: Which european country has most lakes?",
                 "options": [
                     "Sweden",
-                    "Finland",
                     "Norway",
+                    "Finland",
                     "Russia"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Agriculture",
@@ -6923,9 +6923,9 @@ const geographyQuestions = {
                 "question": "Is it correct that what is the deepest ocean point?",
                 "options": [
                     "Puerto Rico Trench",
-                    "Java Trench",
                     "Mariana Trench",
-                    "Tonga Trench"
+                    "Tonga Trench",
+                    "Java Trench"
                 ],
                 "correct": 0
             },
@@ -6936,8 +6936,8 @@ const geographyQuestions = {
                 "options": [
                     "Russia",
                     "USA",
-                    "France",
-                    "Canada"
+                    "Canada",
+                    "France"
                 ],
                 "correct": 0
             },
@@ -6946,12 +6946,12 @@ const geographyQuestions = {
                 "emoji": "🌾🚜",
                 "question": "What is South America's longest river generally?",
                 "options": [
+                    "São Francisco",
                     "Paraná",
-                    "Orinoco",
                     "Amazon",
-                    "São Francisco"
+                    "Orinoco"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "expert": [
@@ -6972,84 +6972,84 @@ const geographyQuestions = {
                 "emoji": "🌾🚜",
                 "question": "What can be the smallest country by area?",
                 "options": [
+                    "Liechtenstein",
                     "Monaco",
                     "Vatican City",
-                    "San Marino",
-                    "Liechtenstein"
+                    "San Marino"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Agriculture",
                 "emoji": "🌾🚜",
                 "question": "Would you agree that which country has the most islands?",
                 "options": [
-                    "Indonesia",
+                    "Finland",
                     "Philippines",
-                    "Sweden",
-                    "Finland"
+                    "Indonesia",
+                    "Sweden"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Agriculture",
                 "emoji": "🌾🚜",
                 "question": "What is the southernmost capital in your opinion?",
                 "options": [
+                    "Buenos Aires",
                     "Canberra",
                     "Wellington",
-                    "Buenos Aires",
                     "Santiago"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Agriculture",
                 "emoji": "🌾🚜",
                 "question": "Ch14: Which river flows through most countries?",
                 "options": [
-                    "Nile",
                     "Amazon",
-                    "Danube",
-                    "Rhine"
+                    "Nile",
+                    "Rhine",
+                    "Danube"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Agriculture",
                 "emoji": "🌾🚜",
                 "question": "Ch14: What sea has no coastline?",
                 "options": [
-                    "Caspian",
+                    "Dead Sea",
                     "Sargasso",
                     "Aral",
-                    "Dead Sea"
+                    "Caspian"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Agriculture",
                 "emoji": "🌾🚜",
                 "question": "Ch14: Which country was formerly Abyssinia?",
                 "options": [
-                    "Eritrea",
                     "Somalia",
-                    "Ethiopia",
-                    "Sudan"
+                    "Sudan",
+                    "Eritrea",
+                    "Ethiopia"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Agriculture",
                 "emoji": "🌾🚜",
                 "question": "Ch14: What is the highest capital by elevation?",
                 "options": [
-                    "Quito",
+                    "Addis Ababa",
                     "Bogotá",
                     "La Paz",
-                    "Addis Ababa"
+                    "Quito"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Agriculture",
@@ -7058,8 +7058,8 @@ const geographyQuestions = {
                 "options": [
                     "Bering",
                     "Gibraltar",
-                    "Hormuz",
-                    "Bosporus"
+                    "Bosporus",
+                    "Hormuz"
                 ],
                 "correct": 0
             },
@@ -7068,12 +7068,12 @@ const geographyQuestions = {
                 "emoji": "🌾🚜",
                 "question": "Ch14: What is Kazakhstan's capital?",
                 "options": [
-                    "Almaty",
-                    "Astana",
                     "Bishkek",
-                    "Tashkent"
+                    "Almaty",
+                    "Tashkent",
+                    "Astana"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "extreme": [
@@ -7156,10 +7156,10 @@ const geographyQuestions = {
                 "emoji": "🏙️🌆",
                 "question": "Is the Atlantic between Europe and America generally?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Urban",
@@ -7196,20 +7196,20 @@ const geographyQuestions = {
                 "emoji": "🏙️🌆",
                 "question": "Do you think the Amazon Rainforest in South America?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Urban",
                 "emoji": "🏙️🌆",
                 "question": "Ch15: Is mount Everest the world's tallest mountain?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Urban",
@@ -7226,20 +7226,20 @@ const geographyQuestions = {
                 "emoji": "🏙️🌆",
                 "question": "Ch15: Is the Nile River located in Africa?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Urban",
                 "emoji": "🏙️🌆",
                 "question": "Is it correct that does the pacific ocean border north america?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -7248,22 +7248,22 @@ const geographyQuestions = {
                 "emoji": "🏙️🌆",
                 "question": "Urban Geography question 10?",
                 "options": [
-                    "Option B",
-                    "Option A"
+                    "Option A",
+                    "Option B"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Urban",
                 "emoji": "🏙️🌆",
                 "question": "Ch15: Which is the saltiest sea?",
                 "options": [
-                    "Mediterranean",
                     "Red Sea",
+                    "Black Sea",
                     "Dead Sea",
-                    "Black Sea"
+                    "Mediterranean"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Urban",
@@ -7271,8 +7271,8 @@ const geographyQuestions = {
                 "question": "What is the largest country by area generally?",
                 "options": [
                     "Canada",
-                    "China",
                     "USA",
+                    "China",
                     "Russia"
                 ],
                 "correct": 0
@@ -7282,10 +7282,10 @@ const geographyQuestions = {
                 "emoji": "🏙️🌆",
                 "question": "Which can be the longest mountain range?",
                 "options": [
-                    "Himalayas",
+                    "Alps",
                     "Rockies",
-                    "Andes",
-                    "Alps"
+                    "Himalayas",
+                    "Andes"
                 ],
                 "correct": 1
             },
@@ -7294,9 +7294,9 @@ const geographyQuestions = {
                 "emoji": "🏙️🌆",
                 "question": "Would you agree that what is japan's capital?",
                 "options": [
-                    "Seoul",
-                    "Beijing",
                     "Tokyo",
+                    "Beijing",
+                    "Seoul",
                     "Bangkok"
                 ],
                 "correct": 1
@@ -7308,8 +7308,8 @@ const geographyQuestions = {
                 "options": [
                     "Amazon",
                     "Nile",
-                    "Yangtze",
-                    "Mississippi"
+                    "Mississippi",
+                    "Yangtze"
                 ],
                 "correct": 0
             },
@@ -7318,24 +7318,24 @@ const geographyQuestions = {
                 "emoji": "🏙️🌆",
                 "question": "Ch15: What is the smallest continent?",
                 "options": [
+                    "South America",
                     "Europe",
-                    "Antarctica",
                     "Australia",
-                    "South America"
+                    "Antarctica"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Urban",
                 "emoji": "🏙️🌆",
                 "question": "Ch15: Which country has the largest population?",
                 "options": [
-                    "India",
+                    "Indonesia",
                     "USA",
-                    "China",
-                    "Indonesia"
+                    "India",
+                    "China"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Urban",
@@ -7344,8 +7344,8 @@ const geographyQuestions = {
                 "options": [
                     "Africa",
                     "Asia",
-                    "South America",
-                    "Australia"
+                    "Australia",
+                    "South America"
                 ],
                 "correct": 0
             },
@@ -7354,10 +7354,10 @@ const geographyQuestions = {
                 "emoji": "🏙️🌆",
                 "question": "Ch15: Which is the largest ocean?",
                 "options": [
-                    "Atlantic",
+                    "Arctic",
                     "Pacific",
                     "Indian",
-                    "Arctic"
+                    "Atlantic"
                 ],
                 "correct": 1
             }
@@ -7368,11 +7368,11 @@ const geographyQuestions = {
                 "emoji": "🏙️🌆",
                 "question": "Urban Geography difficult question 10?",
                 "options": [
-                    "A",
+                    "B",
                     "C",
-                    "B"
+                    "A"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Urban",
@@ -7380,69 +7380,69 @@ const geographyQuestions = {
                 "question": "Is it correct that what is the highest waterfall?",
                 "options": [
                     "Niagara",
-                    "Victoria",
                     "Angel Falls",
+                    "Victoria",
                     "Yosemite"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Urban",
                 "emoji": "🏙️🌆",
                 "question": "Ch15: Which country has the most volcanoes?",
                 "options": [
-                    "Japan",
+                    "Iceland",
                     "Indonesia",
                     "Philippines",
-                    "Iceland"
+                    "Japan"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Urban",
                 "emoji": "🏙️🌆",
                 "question": "What is the world's largest island generally?",
                 "options": [
-                    "Madagascar",
                     "Borneo",
                     "Greenland",
+                    "Madagascar",
                     "New Guinea"
-                ],
-                "correct": 1
-            },
-            {
-                "topic": "Urban",
-                "emoji": "🏙️🌆",
-                "question": "Ch15: Which waterfall has the greatest drop?",
-                "options": [
-                    "Niagara",
-                    "Victoria",
-                    "Angel Falls",
-                    "Iguazu"
-                ],
-                "correct": 1
-            },
-            {
-                "topic": "Urban",
-                "emoji": "🏙️🌆",
-                "question": "Would you agree that what is the driest place on earth?",
-                "options": [
-                    "Sahara",
-                    "Atacama Desert",
-                    "Death Valley",
-                    "Antarctica"
                 ],
                 "correct": 0
             },
             {
                 "topic": "Urban",
                 "emoji": "🏙️🌆",
+                "question": "Ch15: Which waterfall has the greatest drop?",
+                "options": [
+                    "Victoria",
+                    "Angel Falls",
+                    "Niagara",
+                    "Iguazu"
+                ],
+                "correct": 0
+            },
+            {
+                "topic": "Urban",
+                "emoji": "🏙️🌆",
+                "question": "Would you agree that what is the driest place on earth?",
+                "options": [
+                    "Atacama Desert",
+                    "Death Valley",
+                    "Antarctica",
+                    "Sahara"
+                ],
+                "correct": 3
+            },
+            {
+                "topic": "Urban",
+                "emoji": "🏙️🌆",
                 "question": "Which european country has most lakes in your opinion?",
                 "options": [
-                    "Sweden",
+                    "Russia",
                     "Finland",
                     "Norway",
-                    "Russia"
+                    "Sweden"
                 ],
                 "correct": 1
             },
@@ -7451,36 +7451,36 @@ const geographyQuestions = {
                 "emoji": "🏙️🌆",
                 "question": "Ch15: What is the deepest ocean point?",
                 "options": [
-                    "Puerto Rico Trench",
                     "Java Trench",
-                    "Mariana Trench",
-                    "Tonga Trench"
+                    "Tonga Trench",
+                    "Puerto Rico Trench",
+                    "Mariana Trench"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Urban",
                 "emoji": "🏙️🌆",
                 "question": "Ch15: Which country has the most time zones?",
                 "options": [
-                    "Russia",
                     "USA",
-                    "France",
-                    "Canada"
+                    "Canada",
+                    "Russia",
+                    "France"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Urban",
                 "emoji": "🏙️🌆",
                 "question": "Ch15: What is South America's longest river?",
                 "options": [
-                    "Paraná",
-                    "Orinoco",
                     "Amazon",
-                    "São Francisco"
+                    "São Francisco",
+                    "Orinoco",
+                    "Paraná"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -7489,22 +7489,22 @@ const geographyQuestions = {
                 "emoji": "🏙️🌆",
                 "question": "Urban Geography expert question 10?",
                 "options": [
-                    "B",
-                    "C",
                     "A",
-                    "D"
+                    "D",
+                    "C",
+                    "B"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Urban",
                 "emoji": "🏙️🌆",
                 "question": "Ch15: What is the smallest country by area?",
                 "options": [
-                    "Monaco",
-                    "Vatican City",
                     "San Marino",
-                    "Liechtenstein"
+                    "Vatican City",
+                    "Liechtenstein",
+                    "Monaco"
                 ],
                 "correct": 1
             },
@@ -7515,8 +7515,8 @@ const geographyQuestions = {
                 "options": [
                     "Indonesia",
                     "Philippines",
-                    "Sweden",
-                    "Finland"
+                    "Finland",
+                    "Sweden"
                 ],
                 "correct": 0
             },
@@ -7525,24 +7525,24 @@ const geographyQuestions = {
                 "emoji": "🏙️🌆",
                 "question": "Ch15: What is the southernmost capital?",
                 "options": [
+                    "Buenos Aires",
                     "Canberra",
                     "Wellington",
-                    "Buenos Aires",
                     "Santiago"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Urban",
                 "emoji": "🏙️🌆",
                 "question": "Which river flows through most countries generally?",
                 "options": [
-                    "Nile",
                     "Amazon",
                     "Danube",
-                    "Rhine"
+                    "Rhine",
+                    "Nile"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Urban",
@@ -7561,48 +7561,48 @@ const geographyQuestions = {
                 "emoji": "🏙️🌆",
                 "question": "Would you agree that which country was formerly abyssinia?",
                 "options": [
-                    "Eritrea",
-                    "Somalia",
                     "Ethiopia",
-                    "Sudan"
+                    "Sudan",
+                    "Eritrea",
+                    "Somalia"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Urban",
                 "emoji": "🏙️🌆",
                 "question": "What is the highest capital by elevation in your opinion?",
                 "options": [
+                    "Addis Ababa",
                     "Quito",
                     "Bogotá",
-                    "La Paz",
-                    "Addis Ababa"
+                    "La Paz"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Urban",
                 "emoji": "🏙️🌆",
                 "question": "Ch15: Which strait separates Europe from Africa?",
                 "options": [
+                    "Hormuz",
                     "Bering",
                     "Gibraltar",
-                    "Hormuz",
                     "Bosporus"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Urban",
                 "emoji": "🏙️🌆",
                 "question": "Ch15: What is Kazakhstan's capital?",
                 "options": [
-                    "Almaty",
                     "Astana",
                     "Bishkek",
-                    "Tashkent"
+                    "Tashkent",
+                    "Almaty"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "extreme": [
@@ -7675,10 +7675,10 @@ const geographyQuestions = {
                 "emoji": "🏖️🌊",
                 "question": "Is coastal Geography topic 10?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Coastal",
@@ -7695,10 +7695,10 @@ const geographyQuestions = {
                 "emoji": "🏖️🌊",
                 "question": "Ch16: Does Antarctica have permanent ice?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Coastal",
@@ -7715,10 +7715,10 @@ const geographyQuestions = {
                 "emoji": "🏖️🌊",
                 "question": "Ch16: Does Australia have the Great Barrier Reef?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Coastal",
@@ -7735,20 +7735,20 @@ const geographyQuestions = {
                 "emoji": "🏖️🌊",
                 "question": "Ch16: Is mount Everest the world's tallest mountain?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Coastal",
                 "emoji": "🏖️🌊",
                 "question": "Would you agree that are there seven continents on earth?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Coastal",
@@ -7777,20 +7777,20 @@ const geographyQuestions = {
                 "emoji": "🏖️🌊",
                 "question": "Coastal Geography question 10?",
                 "options": [
-                    "Option A",
-                    "Option B"
+                    "Option B",
+                    "Option A"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Coastal",
                 "emoji": "🏖️🌊",
                 "question": "Ch16: Which is the saltiest sea?",
                 "options": [
-                    "Mediterranean",
+                    "Black Sea",
                     "Red Sea",
-                    "Dead Sea",
-                    "Black Sea"
+                    "Mediterranean",
+                    "Dead Sea"
                 ],
                 "correct": 1
             },
@@ -7799,94 +7799,94 @@ const geographyQuestions = {
                 "emoji": "🏖️🌊",
                 "question": "Ch16: What is the largest country by area?",
                 "options": [
-                    "Canada",
-                    "China",
+                    "Russia",
                     "USA",
-                    "Russia"
+                    "Canada",
+                    "China"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Coastal",
                 "emoji": "🏖️🌊",
                 "question": "Ch16: Which is the longest mountain range?",
                 "options": [
-                    "Himalayas",
-                    "Rockies",
                     "Andes",
-                    "Alps"
+                    "Alps",
+                    "Rockies",
+                    "Himalayas"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Coastal",
                 "emoji": "🏖️🌊",
                 "question": "Is it correct that what is japan's capital?",
                 "options": [
-                    "Seoul",
                     "Beijing",
                     "Tokyo",
+                    "Seoul",
                     "Bangkok"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Coastal",
                 "emoji": "🏖️🌊",
                 "question": "Ch16: Which is the longest river?",
                 "options": [
+                    "Yangtze",
                     "Amazon",
                     "Nile",
-                    "Yangtze",
                     "Mississippi"
-                ],
-                "correct": 0
-            },
-            {
-                "topic": "Coastal",
-                "emoji": "🏖️🌊",
-                "question": "What is the smallest continent generally?",
-                "options": [
-                    "Europe",
-                    "Antarctica",
-                    "Australia",
-                    "South America"
                 ],
                 "correct": 1
             },
             {
                 "topic": "Coastal",
                 "emoji": "🏖️🌊",
+                "question": "What is the smallest continent generally?",
+                "options": [
+                    "South America",
+                    "Australia",
+                    "Antarctica",
+                    "Europe"
+                ],
+                "correct": 2
+            },
+            {
+                "topic": "Coastal",
+                "emoji": "🏖️🌊",
                 "question": "Ch16: Which country has the largest population?",
                 "options": [
-                    "India",
-                    "USA",
                     "China",
-                    "Indonesia"
+                    "USA",
+                    "Indonesia",
+                    "India"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Coastal",
                 "emoji": "🏖️🌊",
                 "question": "Would you agree that where is the amazon rainforest?",
                 "options": [
+                    "Australia",
                     "Africa",
-                    "Asia",
                     "South America",
-                    "Australia"
+                    "Asia"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Coastal",
                 "emoji": "🏖️🌊",
                 "question": "Which is the largest ocean in your opinion?",
                 "options": [
-                    "Atlantic",
-                    "Pacific",
                     "Indian",
-                    "Arctic"
+                    "Pacific",
+                    "Arctic",
+                    "Atlantic"
                 ],
                 "correct": 1
             }
@@ -7897,83 +7897,83 @@ const geographyQuestions = {
                 "emoji": "🏖️🌊",
                 "question": "Coastal Geography difficult question 10?",
                 "options": [
-                    "B",
                     "A",
-                    "C"
+                    "C",
+                    "B"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Coastal",
                 "emoji": "🏖️🌊",
                 "question": "Ch16: What is the highest waterfall?",
                 "options": [
-                    "Niagara",
                     "Victoria",
-                    "Angel Falls",
-                    "Yosemite"
+                    "Niagara",
+                    "Yosemite",
+                    "Angel Falls"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Coastal",
                 "emoji": "🏖️🌊",
                 "question": "Ch16: Which country has the most volcanoes?",
                 "options": [
-                    "Japan",
+                    "Iceland",
                     "Indonesia",
-                    "Philippines",
-                    "Iceland"
+                    "Japan",
+                    "Philippines"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Coastal",
                 "emoji": "🏖️🌊",
                 "question": "Ch16: What is the world's largest island?",
                 "options": [
-                    "Madagascar",
-                    "Borneo",
                     "Greenland",
-                    "New Guinea"
+                    "Madagascar",
+                    "New Guinea",
+                    "Borneo"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Coastal",
                 "emoji": "🏖️🌊",
                 "question": "Ch16: Which waterfall has the greatest drop?",
                 "options": [
-                    "Niagara",
-                    "Victoria",
                     "Angel Falls",
-                    "Iguazu"
+                    "Iguazu",
+                    "Victoria",
+                    "Niagara"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Coastal",
                 "emoji": "🏖️🌊",
                 "question": "Is it correct that what is the driest place on earth?",
                 "options": [
+                    "Antarctica",
                     "Sahara",
                     "Atacama Desert",
-                    "Death Valley",
-                    "Antarctica"
+                    "Death Valley"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Coastal",
                 "emoji": "🏖️🌊",
                 "question": "Ch16: Which european country has most lakes?",
                 "options": [
-                    "Sweden",
-                    "Finland",
+                    "Russia",
                     "Norway",
-                    "Russia"
+                    "Finland",
+                    "Sweden"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Coastal",
@@ -7982,8 +7982,8 @@ const geographyQuestions = {
                 "options": [
                     "Puerto Rico Trench",
                     "Java Trench",
-                    "Mariana Trench",
-                    "Tonga Trench"
+                    "Tonga Trench",
+                    "Mariana Trench"
                 ],
                 "correct": 0
             },
@@ -8005,11 +8005,11 @@ const geographyQuestions = {
                 "question": "Would you agree that what is south america's longest river?",
                 "options": [
                     "Paraná",
+                    "São Francisco",
                     "Orinoco",
-                    "Amazon",
-                    "São Francisco"
+                    "Amazon"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -8018,118 +8018,118 @@ const geographyQuestions = {
                 "emoji": "🏖️🌊",
                 "question": "Coastal Geography expert question 10?",
                 "options": [
+                    "B",
                     "A",
                     "D",
-                    "B",
                     "C"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Coastal",
                 "emoji": "🏖️🌊",
                 "question": "What is the smallest country by area in your opinion?",
                 "options": [
-                    "Monaco",
-                    "Vatican City",
+                    "Liechtenstein",
                     "San Marino",
-                    "Liechtenstein"
+                    "Monaco",
+                    "Vatican City"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Coastal",
                 "emoji": "🏖️🌊",
                 "question": "Ch16: Which country has the most islands?",
                 "options": [
-                    "Indonesia",
-                    "Philippines",
+                    "Finland",
                     "Sweden",
-                    "Finland"
+                    "Philippines",
+                    "Indonesia"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Coastal",
                 "emoji": "🏖️🌊",
                 "question": "Ch16: What is the southernmost capital?",
                 "options": [
-                    "Canberra",
                     "Wellington",
                     "Buenos Aires",
-                    "Santiago"
+                    "Santiago",
+                    "Canberra"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Coastal",
                 "emoji": "🏖️🌊",
                 "question": "Ch16: Which river flows through most countries?",
                 "options": [
-                    "Nile",
-                    "Amazon",
                     "Danube",
-                    "Rhine"
+                    "Rhine",
+                    "Amazon",
+                    "Nile"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Coastal",
                 "emoji": "🏖️🌊",
                 "question": "Ch16: What sea has no coastline?",
                 "options": [
-                    "Caspian",
                     "Sargasso",
-                    "Aral",
-                    "Dead Sea"
+                    "Dead Sea",
+                    "Caspian",
+                    "Aral"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Coastal",
                 "emoji": "🏖️🌊",
                 "question": "Is it correct that which country was formerly abyssinia?",
                 "options": [
-                    "Eritrea",
-                    "Somalia",
                     "Ethiopia",
-                    "Sudan"
+                    "Sudan",
+                    "Eritrea",
+                    "Somalia"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Coastal",
                 "emoji": "🏖️🌊",
                 "question": "Ch16: What is the highest capital by elevation?",
                 "options": [
-                    "Quito",
                     "Bogotá",
-                    "La Paz",
-                    "Addis Ababa"
+                    "Addis Ababa",
+                    "Quito",
+                    "La Paz"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Coastal",
                 "emoji": "🏖️🌊",
                 "question": "Which strait separates Europe from Africa generally?",
                 "options": [
+                    "Bosporus",
                     "Bering",
-                    "Gibraltar",
                     "Hormuz",
-                    "Bosporus"
+                    "Gibraltar"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Coastal",
                 "emoji": "🏖️🌊",
                 "question": "What can be Kazakhstan's capital?",
                 "options": [
-                    "Almaty",
+                    "Tashkent",
                     "Astana",
-                    "Bishkek",
-                    "Tashkent"
+                    "Almaty",
+                    "Bishkek"
                 ],
                 "correct": 1
             }
@@ -8204,60 +8204,60 @@ const geographyQuestions = {
                 "emoji": "🌋🔥",
                 "question": "Is volcanoes and Geothermal topic 10?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Volcanoes",
                 "emoji": "🌋🔥",
                 "question": "Would you agree that is the atlantic between europe and america?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Volcanoes",
                 "emoji": "🌋🔥",
                 "question": "Does Antarctica have permanent ice in your opinion?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Volcanoes",
                 "emoji": "🌋🔥",
                 "question": "Do you think the Sahara the largest hot desert?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Volcanoes",
                 "emoji": "🌋🔥",
                 "question": "Would you say Australia have the Great Barrier Reef?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Volcanoes",
                 "emoji": "🌋🔥",
                 "question": "Ch17: Is the Amazon Rainforest in South America?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Volcanoes",
@@ -8294,10 +8294,10 @@ const geographyQuestions = {
                 "emoji": "🌋🔥",
                 "question": "Does the Pacific Ocean border North America generally?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -8316,108 +8316,108 @@ const geographyQuestions = {
                 "emoji": "🌋🔥",
                 "question": "Which can be the saltiest sea?",
                 "options": [
-                    "Mediterranean",
                     "Red Sea",
-                    "Dead Sea",
-                    "Black Sea"
+                    "Mediterranean",
+                    "Black Sea",
+                    "Dead Sea"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Volcanoes",
                 "emoji": "🌋🔥",
                 "question": "Would you agree that what is the largest country by area?",
                 "options": [
-                    "Canada",
                     "China",
+                    "Canada",
                     "USA",
                     "Russia"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Volcanoes",
                 "emoji": "🌋🔥",
                 "question": "Which is the longest mountain range in your opinion?",
                 "options": [
-                    "Himalayas",
-                    "Rockies",
                     "Andes",
-                    "Alps"
+                    "Himalayas",
+                    "Alps",
+                    "Rockies"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Volcanoes",
                 "emoji": "🌋🔥",
                 "question": "Ch17: What is Japan's capital?",
                 "options": [
-                    "Seoul",
                     "Beijing",
-                    "Tokyo",
-                    "Bangkok"
+                    "Seoul",
+                    "Bangkok",
+                    "Tokyo"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Volcanoes",
                 "emoji": "🌋🔥",
                 "question": "Ch17: Which is the longest river?",
                 "options": [
-                    "Amazon",
                     "Nile",
-                    "Yangtze",
-                    "Mississippi"
+                    "Amazon",
+                    "Mississippi",
+                    "Yangtze"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Volcanoes",
                 "emoji": "🌋🔥",
                 "question": "Ch17: What is the smallest continent?",
                 "options": [
-                    "Europe",
-                    "Antarctica",
                     "Australia",
-                    "South America"
+                    "Europe",
+                    "South America",
+                    "Antarctica"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Volcanoes",
                 "emoji": "🌋🔥",
                 "question": "Ch17: Which country has the largest population?",
                 "options": [
-                    "India",
                     "USA",
                     "China",
-                    "Indonesia"
+                    "Indonesia",
+                    "India"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Volcanoes",
                 "emoji": "🌋🔥",
                 "question": "Do you think where is the amazon rainforest?",
                 "options": [
-                    "Africa",
                     "Asia",
-                    "South America",
-                    "Australia"
+                    "Australia",
+                    "Africa",
+                    "South America"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Volcanoes",
                 "emoji": "🌋🔥",
                 "question": "Ch17: Which is the largest ocean?",
                 "options": [
-                    "Atlantic",
                     "Pacific",
-                    "Indian",
-                    "Arctic"
+                    "Arctic",
+                    "Atlantic",
+                    "Indian"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -8426,20 +8426,20 @@ const geographyQuestions = {
                 "emoji": "🌋🔥",
                 "question": "Volcanoes and Geothermal difficult question 10?",
                 "options": [
+                    "B",
                     "C",
-                    "A",
-                    "B"
+                    "A"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Volcanoes",
                 "emoji": "🌋🔥",
                 "question": "What is the highest waterfall generally?",
                 "options": [
-                    "Niagara",
-                    "Victoria",
                     "Angel Falls",
+                    "Victoria",
+                    "Niagara",
                     "Yosemite"
                 ],
                 "correct": 1
@@ -8450,9 +8450,9 @@ const geographyQuestions = {
                 "question": "Ch17: Which country has the most volcanoes?",
                 "options": [
                     "Japan",
-                    "Indonesia",
+                    "Iceland",
                     "Philippines",
-                    "Iceland"
+                    "Indonesia"
                 ],
                 "correct": 0
             },
@@ -8461,10 +8461,10 @@ const geographyQuestions = {
                 "emoji": "🌋🔥",
                 "question": "Would you agree that what is the world's largest island?",
                 "options": [
-                    "Madagascar",
-                    "Borneo",
                     "Greenland",
-                    "New Guinea"
+                    "Borneo",
+                    "New Guinea",
+                    "Madagascar"
                 ],
                 "correct": 1
             },
@@ -8473,24 +8473,24 @@ const geographyQuestions = {
                 "emoji": "🌋🔥",
                 "question": "Which waterfall has the greatest drop in your opinion?",
                 "options": [
-                    "Niagara",
                     "Victoria",
-                    "Angel Falls",
-                    "Iguazu"
+                    "Niagara",
+                    "Iguazu",
+                    "Angel Falls"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Volcanoes",
                 "emoji": "🌋🔥",
                 "question": "Ch17: What is the driest place on Earth?",
                 "options": [
-                    "Sahara",
                     "Atacama Desert",
+                    "Antarctica",
                     "Death Valley",
-                    "Antarctica"
+                    "Sahara"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Volcanoes",
@@ -8499,8 +8499,8 @@ const geographyQuestions = {
                 "options": [
                     "Sweden",
                     "Finland",
-                    "Norway",
-                    "Russia"
+                    "Russia",
+                    "Norway"
                 ],
                 "correct": 1
             },
@@ -8509,36 +8509,36 @@ const geographyQuestions = {
                 "emoji": "🌋🔥",
                 "question": "Ch17: What is the deepest ocean point?",
                 "options": [
+                    "Mariana Trench",
                     "Puerto Rico Trench",
                     "Java Trench",
-                    "Mariana Trench",
                     "Tonga Trench"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Volcanoes",
                 "emoji": "🌋🔥",
                 "question": "Ch17: Which country has the most time zones?",
                 "options": [
-                    "Russia",
                     "USA",
-                    "France",
-                    "Canada"
+                    "Canada",
+                    "Russia",
+                    "France"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Volcanoes",
                 "emoji": "🌋🔥",
                 "question": "Is it correct that what is south america's longest river?",
                 "options": [
-                    "Paraná",
-                    "Orinoco",
+                    "São Francisco",
                     "Amazon",
-                    "São Francisco"
+                    "Paraná",
+                    "Orinoco"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "expert": [
@@ -8548,8 +8548,8 @@ const geographyQuestions = {
                 "question": "Volcanoes and Geothermal expert question 10?",
                 "options": [
                     "B",
-                    "D",
                     "A",
+                    "D",
                     "C"
                 ],
                 "correct": 0
@@ -8559,9 +8559,9 @@ const geographyQuestions = {
                 "emoji": "🌋🔥",
                 "question": "Ch17: What is the smallest country by area?",
                 "options": [
-                    "Monaco",
-                    "Vatican City",
                     "San Marino",
+                    "Vatican City",
+                    "Monaco",
                     "Liechtenstein"
                 ],
                 "correct": 1
@@ -8571,12 +8571,12 @@ const geographyQuestions = {
                 "emoji": "🌋🔥",
                 "question": "Which country has the most islands generally?",
                 "options": [
+                    "Sweden",
                     "Indonesia",
                     "Philippines",
-                    "Sweden",
                     "Finland"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Volcanoes",
@@ -8595,24 +8595,24 @@ const geographyQuestions = {
                 "emoji": "🌋🔥",
                 "question": "Would you agree that which river flows through most countries?",
                 "options": [
-                    "Nile",
                     "Amazon",
-                    "Danube",
-                    "Rhine"
+                    "Nile",
+                    "Rhine",
+                    "Danube"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Volcanoes",
                 "emoji": "🌋🔥",
                 "question": "What sea has no coastline in your opinion?",
                 "options": [
-                    "Caspian",
                     "Sargasso",
                     "Aral",
-                    "Dead Sea"
+                    "Dead Sea",
+                    "Caspian"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Volcanoes",
@@ -8620,47 +8620,47 @@ const geographyQuestions = {
                 "question": "Ch17: Which country was formerly Abyssinia?",
                 "options": [
                     "Eritrea",
-                    "Somalia",
+                    "Sudan",
                     "Ethiopia",
-                    "Sudan"
+                    "Somalia"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Volcanoes",
                 "emoji": "🌋🔥",
                 "question": "Ch17: What is the highest capital by elevation?",
                 "options": [
+                    "Addis Ababa",
                     "Quito",
-                    "Bogotá",
                     "La Paz",
-                    "Addis Ababa"
+                    "Bogotá"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Volcanoes",
                 "emoji": "🌋🔥",
                 "question": "Ch17: Which strait separates Europe from Africa?",
                 "options": [
-                    "Bering",
                     "Gibraltar",
-                    "Hormuz",
-                    "Bosporus"
+                    "Bosporus",
+                    "Bering",
+                    "Hormuz"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Volcanoes",
                 "emoji": "🌋🔥",
                 "question": "Ch17: What is Kazakhstan's capital?",
                 "options": [
-                    "Almaty",
                     "Astana",
                     "Bishkek",
+                    "Almaty",
                     "Tashkent"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "extreme": [
@@ -8763,10 +8763,10 @@ const geographyQuestions = {
                 "emoji": "🌍💥",
                 "question": "Do you think the Sahara the largest hot desert generally?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Earthquakes",
@@ -8793,10 +8793,10 @@ const geographyQuestions = {
                 "emoji": "🌍💥",
                 "question": "Do you think mount Everest the world's tallest mountain in your opinion?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Earthquakes",
@@ -8846,11 +8846,11 @@ const geographyQuestions = {
                 "question": "Ch18: Which is the saltiest sea?",
                 "options": [
                     "Mediterranean",
-                    "Red Sea",
                     "Dead Sea",
+                    "Red Sea",
                     "Black Sea"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Earthquakes",
@@ -8859,8 +8859,8 @@ const geographyQuestions = {
                 "options": [
                     "Canada",
                     "China",
-                    "USA",
-                    "Russia"
+                    "Russia",
+                    "USA"
                 ],
                 "correct": 0
             },
@@ -8869,10 +8869,10 @@ const geographyQuestions = {
                 "emoji": "🌍💥",
                 "question": "Ch18: Which is the longest mountain range?",
                 "options": [
-                    "Himalayas",
+                    "Alps",
                     "Rockies",
                     "Andes",
-                    "Alps"
+                    "Himalayas"
                 ],
                 "correct": 1
             },
@@ -8881,9 +8881,9 @@ const geographyQuestions = {
                 "emoji": "🌍💥",
                 "question": "Do you think what is japan's capital generally?",
                 "options": [
-                    "Seoul",
-                    "Beijing",
                     "Tokyo",
+                    "Beijing",
+                    "Seoul",
                     "Bangkok"
                 ],
                 "correct": 1
@@ -8893,36 +8893,36 @@ const geographyQuestions = {
                 "emoji": "🌍💥",
                 "question": "Do you think which can be the longest river?",
                 "options": [
-                    "Amazon",
                     "Nile",
-                    "Yangtze",
-                    "Mississippi"
+                    "Mississippi",
+                    "Amazon",
+                    "Yangtze"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Earthquakes",
                 "emoji": "🌍💥",
                 "question": "Do you think what is the smallest continent?",
                 "options": [
-                    "Europe",
-                    "Antarctica",
                     "Australia",
-                    "South America"
+                    "South America",
+                    "Antarctica",
+                    "Europe"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Earthquakes",
                 "emoji": "🌍💥",
                 "question": "Do you think which country has the largest population in your opinion?",
                 "options": [
-                    "India",
-                    "USA",
                     "China",
+                    "USA",
+                    "India",
                     "Indonesia"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Earthquakes",
@@ -8943,8 +8943,8 @@ const geographyQuestions = {
                 "options": [
                     "Atlantic",
                     "Pacific",
-                    "Indian",
-                    "Arctic"
+                    "Arctic",
+                    "Indian"
                 ],
                 "correct": 1
             }
@@ -8966,46 +8966,46 @@ const geographyQuestions = {
                 "emoji": "🌍💥",
                 "question": "Ch18: What is the highest waterfall?",
                 "options": [
-                    "Niagara",
                     "Victoria",
-                    "Angel Falls",
-                    "Yosemite"
-                ],
-                "correct": 1
-            },
-            {
-                "topic": "Earthquakes",
-                "emoji": "🌍💥",
-                "question": "Ch18: Which country has the most volcanoes?",
-                "options": [
-                    "Japan",
-                    "Indonesia",
-                    "Philippines",
-                    "Iceland"
+                    "Niagara",
+                    "Yosemite",
+                    "Angel Falls"
                 ],
                 "correct": 0
             },
             {
                 "topic": "Earthquakes",
                 "emoji": "🌍💥",
-                "question": "Do you think what is the world's largest island?",
+                "question": "Ch18: Which country has the most volcanoes?",
                 "options": [
-                    "Madagascar",
-                    "Borneo",
-                    "Greenland",
-                    "New Guinea"
+                    "Iceland",
+                    "Japan",
+                    "Philippines",
+                    "Indonesia"
                 ],
                 "correct": 1
             },
             {
                 "topic": "Earthquakes",
                 "emoji": "🌍💥",
+                "question": "Do you think what is the world's largest island?",
+                "options": [
+                    "Borneo",
+                    "Greenland",
+                    "Madagascar",
+                    "New Guinea"
+                ],
+                "correct": 0
+            },
+            {
+                "topic": "Earthquakes",
+                "emoji": "🌍💥",
                 "question": "Ch18: Which waterfall has the greatest drop?",
                 "options": [
-                    "Niagara",
+                    "Iguazu",
                     "Victoria",
                     "Angel Falls",
-                    "Iguazu"
+                    "Niagara"
                 ],
                 "correct": 1
             },
@@ -9015,9 +9015,9 @@ const geographyQuestions = {
                 "question": "Do you think what is the driest place on earth generally?",
                 "options": [
                     "Sahara",
+                    "Antarctica",
                     "Atacama Desert",
-                    "Death Valley",
-                    "Antarctica"
+                    "Death Valley"
                 ],
                 "correct": 0
             },
@@ -9026,10 +9026,10 @@ const geographyQuestions = {
                 "emoji": "🌍💥",
                 "question": "Ch18: Which european country has most lakes?",
                 "options": [
-                    "Sweden",
+                    "Russia",
                     "Finland",
-                    "Norway",
-                    "Russia"
+                    "Sweden",
+                    "Norway"
                 ],
                 "correct": 1
             },
@@ -9038,36 +9038,36 @@ const geographyQuestions = {
                 "emoji": "🌍💥",
                 "question": "Do you think what is the deepest ocean point?",
                 "options": [
+                    "Mariana Trench",
                     "Puerto Rico Trench",
                     "Java Trench",
-                    "Mariana Trench",
                     "Tonga Trench"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Earthquakes",
                 "emoji": "🌍💥",
                 "question": "Do you think which country has the most time zones in your opinion?",
                 "options": [
-                    "Russia",
                     "USA",
+                    "Canada",
                     "France",
-                    "Canada"
+                    "Russia"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Earthquakes",
                 "emoji": "🌍💥",
                 "question": "Ch18: What is South America's longest river?",
                 "options": [
-                    "Paraná",
-                    "Orinoco",
+                    "São Francisco",
                     "Amazon",
-                    "São Francisco"
+                    "Paraná",
+                    "Orinoco"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "expert": [
@@ -9076,60 +9076,60 @@ const geographyQuestions = {
                 "emoji": "🌍💥",
                 "question": "Earthquakes and Tectonics expert question 10?",
                 "options": [
-                    "B",
-                    "C",
                     "D",
-                    "A"
+                    "B",
+                    "A",
+                    "C"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Earthquakes",
                 "emoji": "🌍💥",
                 "question": "Ch18: What is the smallest country by area?",
                 "options": [
-                    "Monaco",
-                    "Vatican City",
                     "San Marino",
-                    "Liechtenstein"
+                    "Liechtenstein",
+                    "Vatican City",
+                    "Monaco"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Earthquakes",
                 "emoji": "🌍💥",
                 "question": "Ch18: Which country has the most islands?",
                 "options": [
-                    "Indonesia",
                     "Philippines",
-                    "Sweden",
-                    "Finland"
+                    "Indonesia",
+                    "Finland",
+                    "Sweden"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Earthquakes",
                 "emoji": "🌍💥",
                 "question": "Ch18: What is the southernmost capital?",
                 "options": [
-                    "Canberra",
                     "Wellington",
+                    "Santiago",
                     "Buenos Aires",
-                    "Santiago"
+                    "Canberra"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Earthquakes",
                 "emoji": "🌍💥",
                 "question": "Do you think which river flows through most countries?",
                 "options": [
-                    "Nile",
-                    "Amazon",
                     "Danube",
-                    "Rhine"
+                    "Nile",
+                    "Rhine",
+                    "Amazon"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Earthquakes",
@@ -9137,9 +9137,9 @@ const geographyQuestions = {
                 "question": "Ch18: What sea has no coastline?",
                 "options": [
                     "Caspian",
-                    "Sargasso",
                     "Aral",
-                    "Dead Sea"
+                    "Dead Sea",
+                    "Sargasso"
                 ],
                 "correct": 0
             },
@@ -9148,10 +9148,10 @@ const geographyQuestions = {
                 "emoji": "🌍💥",
                 "question": "Do you think which country was formerly abyssinia generally?",
                 "options": [
-                    "Eritrea",
+                    "Sudan",
                     "Somalia",
-                    "Ethiopia",
-                    "Sudan"
+                    "Eritrea",
+                    "Ethiopia"
                 ],
                 "correct": 1
             },
@@ -9160,12 +9160,12 @@ const geographyQuestions = {
                 "emoji": "🌍💥",
                 "question": "Do you think what can be the highest capital by elevation?",
                 "options": [
-                    "Quito",
-                    "Bogotá",
+                    "Addis Ababa",
                     "La Paz",
-                    "Addis Ababa"
+                    "Quito",
+                    "Bogotá"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Earthquakes",
@@ -9173,9 +9173,9 @@ const geographyQuestions = {
                 "question": "Do you think which strait separates europe from africa?",
                 "options": [
                     "Bering",
-                    "Gibraltar",
                     "Hormuz",
-                    "Bosporus"
+                    "Bosporus",
+                    "Gibraltar"
                 ],
                 "correct": 0
             },
@@ -9184,12 +9184,12 @@ const geographyQuestions = {
                 "emoji": "🌍💥",
                 "question": "Do you think what is kazakhstan's capital in your opinion?",
                 "options": [
+                    "Tashkent",
                     "Almaty",
                     "Astana",
-                    "Bishkek",
-                    "Tashkent"
+                    "Bishkek"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -9272,10 +9272,10 @@ const geographyQuestions = {
                 "emoji": "🌪️⚡",
                 "question": "Would you say the atlantic between europe and america?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Natural",
@@ -9302,20 +9302,20 @@ const geographyQuestions = {
                 "emoji": "🌪️⚡",
                 "question": "Ch19: Does Australia have the Great Barrier Reef?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Natural",
                 "emoji": "🌪️⚡",
                 "question": "Would you say is the amazon rainforest in south america?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Natural",
@@ -9332,10 +9332,10 @@ const geographyQuestions = {
                 "emoji": "🌪️⚡",
                 "question": "Do you think there seven continents on Earth generally?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Natural",
@@ -9352,10 +9352,10 @@ const geographyQuestions = {
                 "emoji": "🌪️⚡",
                 "question": "Do you think does the pacific ocean border north america?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -9364,20 +9364,20 @@ const geographyQuestions = {
                 "emoji": "🌪️⚡",
                 "question": "Natural Disasters question 10?",
                 "options": [
-                    "Option A",
-                    "Option B"
+                    "Option B",
+                    "Option A"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Natural",
                 "emoji": "🌪️⚡",
                 "question": "Do you think which is the saltiest sea in your opinion?",
                 "options": [
-                    "Mediterranean",
-                    "Red Sea",
                     "Dead Sea",
-                    "Black Sea"
+                    "Red Sea",
+                    "Black Sea",
+                    "Mediterranean"
                 ],
                 "correct": 1
             },
@@ -9386,36 +9386,36 @@ const geographyQuestions = {
                 "emoji": "🌪️⚡",
                 "question": "Ch19: What is the largest country by area?",
                 "options": [
-                    "Canada",
-                    "China",
                     "USA",
+                    "China",
+                    "Canada",
                     "Russia"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Natural",
                 "emoji": "🌪️⚡",
                 "question": "Ch19: Which is the longest mountain range?",
                 "options": [
-                    "Himalayas",
-                    "Rockies",
                     "Andes",
-                    "Alps"
+                    "Alps",
+                    "Himalayas",
+                    "Rockies"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Natural",
                 "emoji": "🌪️⚡",
                 "question": "Ch19: What is Japan's capital?",
                 "options": [
+                    "Tokyo",
                     "Seoul",
                     "Beijing",
-                    "Tokyo",
                     "Bangkok"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Natural",
@@ -9434,10 +9434,10 @@ const geographyQuestions = {
                 "emoji": "🌪️⚡",
                 "question": "Would you say what is the smallest continent?",
                 "options": [
-                    "Europe",
+                    "South America",
                     "Antarctica",
                     "Australia",
-                    "South America"
+                    "Europe"
                 ],
                 "correct": 1
             },
@@ -9447,9 +9447,9 @@ const geographyQuestions = {
                 "question": "Ch19: Which country has the largest population?",
                 "options": [
                     "India",
-                    "USA",
+                    "Indonesia",
                     "China",
-                    "Indonesia"
+                    "USA"
                 ],
                 "correct": 0
             },
@@ -9458,12 +9458,12 @@ const geographyQuestions = {
                 "emoji": "🌪️⚡",
                 "question": "Do you think where is the amazon rainforest generally?",
                 "options": [
-                    "Africa",
-                    "Asia",
                     "South America",
-                    "Australia"
+                    "Asia",
+                    "Australia",
+                    "Africa"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Natural",
@@ -9472,8 +9472,8 @@ const geographyQuestions = {
                 "options": [
                     "Atlantic",
                     "Pacific",
-                    "Indian",
-                    "Arctic"
+                    "Arctic",
+                    "Indian"
                 ],
                 "correct": 1
             }
@@ -9484,71 +9484,71 @@ const geographyQuestions = {
                 "emoji": "🌪️⚡",
                 "question": "Natural Disasters difficult question 10?",
                 "options": [
-                    "C",
                     "B",
+                    "C",
                     "A"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Natural",
                 "emoji": "🌪️⚡",
                 "question": "Do you think what is the highest waterfall?",
                 "options": [
-                    "Niagara",
                     "Victoria",
                     "Angel Falls",
+                    "Niagara",
                     "Yosemite"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Natural",
                 "emoji": "🌪️⚡",
                 "question": "Do you think which country has the most volcanoes in your opinion?",
                 "options": [
-                    "Japan",
                     "Indonesia",
-                    "Philippines",
-                    "Iceland"
+                    "Iceland",
+                    "Japan",
+                    "Philippines"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Natural",
                 "emoji": "🌪️⚡",
                 "question": "Ch19: What is the world's largest island?",
                 "options": [
-                    "Madagascar",
                     "Borneo",
                     "Greenland",
-                    "New Guinea"
+                    "New Guinea",
+                    "Madagascar"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Natural",
                 "emoji": "🌪️⚡",
                 "question": "Ch19: Which waterfall has the greatest drop?",
                 "options": [
-                    "Niagara",
-                    "Victoria",
+                    "Iguazu",
                     "Angel Falls",
-                    "Iguazu"
+                    "Niagara",
+                    "Victoria"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Natural",
                 "emoji": "🌪️⚡",
                 "question": "Ch19: What is the driest place on Earth?",
                 "options": [
+                    "Antarctica",
                     "Sahara",
                     "Atacama Desert",
-                    "Death Valley",
-                    "Antarctica"
+                    "Death Valley"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Natural",
@@ -9556,47 +9556,47 @@ const geographyQuestions = {
                 "question": "Ch19: Which european country has most lakes?",
                 "options": [
                     "Sweden",
-                    "Finland",
                     "Norway",
-                    "Russia"
+                    "Russia",
+                    "Finland"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Natural",
                 "emoji": "🌪️⚡",
                 "question": "Would you say what is the deepest ocean point?",
                 "options": [
+                    "Tonga Trench",
                     "Puerto Rico Trench",
                     "Java Trench",
-                    "Mariana Trench",
-                    "Tonga Trench"
+                    "Mariana Trench"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Natural",
                 "emoji": "🌪️⚡",
                 "question": "Ch19: Which country has the most time zones?",
                 "options": [
-                    "Russia",
-                    "USA",
                     "France",
-                    "Canada"
+                    "Canada",
+                    "USA",
+                    "Russia"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Natural",
                 "emoji": "🌪️⚡",
                 "question": "Do you think what is south america's longest river generally?",
                 "options": [
+                    "São Francisco",
                     "Paraná",
                     "Orinoco",
-                    "Amazon",
-                    "São Francisco"
+                    "Amazon"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -9605,22 +9605,22 @@ const geographyQuestions = {
                 "emoji": "🌪️⚡",
                 "question": "Natural Disasters expert question 10?",
                 "options": [
-                    "C",
                     "B",
+                    "C",
                     "D",
                     "A"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Natural",
                 "emoji": "🌪️⚡",
                 "question": "Do you think what can be the smallest country by area?",
                 "options": [
-                    "Monaco",
+                    "Liechtenstein",
                     "Vatican City",
-                    "San Marino",
-                    "Liechtenstein"
+                    "Monaco",
+                    "San Marino"
                 ],
                 "correct": 1
             },
@@ -9629,48 +9629,48 @@ const geographyQuestions = {
                 "emoji": "🌪️⚡",
                 "question": "Do you think which country has the most islands?",
                 "options": [
-                    "Indonesia",
                     "Philippines",
-                    "Sweden",
-                    "Finland"
+                    "Finland",
+                    "Indonesia",
+                    "Sweden"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Natural",
                 "emoji": "🌪️⚡",
                 "question": "Do you think what is the southernmost capital in your opinion?",
                 "options": [
-                    "Canberra",
                     "Wellington",
-                    "Buenos Aires",
-                    "Santiago"
+                    "Canberra",
+                    "Santiago",
+                    "Buenos Aires"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Natural",
                 "emoji": "🌪️⚡",
                 "question": "Ch19: Which river flows through most countries?",
                 "options": [
-                    "Nile",
                     "Amazon",
+                    "Rhine",
                     "Danube",
-                    "Rhine"
+                    "Nile"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Natural",
                 "emoji": "🌪️⚡",
                 "question": "Ch19: What sea has no coastline?",
                 "options": [
-                    "Caspian",
                     "Sargasso",
+                    "Dead Sea",
                     "Aral",
-                    "Dead Sea"
+                    "Caspian"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Natural",
@@ -9679,8 +9679,8 @@ const geographyQuestions = {
                 "options": [
                     "Eritrea",
                     "Somalia",
-                    "Ethiopia",
-                    "Sudan"
+                    "Sudan",
+                    "Ethiopia"
                 ],
                 "correct": 1
             },
@@ -9689,36 +9689,36 @@ const geographyQuestions = {
                 "emoji": "🌪️⚡",
                 "question": "Ch19: What is the highest capital by elevation?",
                 "options": [
-                    "Quito",
                     "Bogotá",
+                    "Quito",
                     "La Paz",
                     "Addis Ababa"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Natural",
                 "emoji": "🌪️⚡",
                 "question": "Would you say which strait separates europe from africa?",
                 "options": [
+                    "Hormuz",
                     "Bering",
                     "Gibraltar",
-                    "Hormuz",
                     "Bosporus"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Natural",
                 "emoji": "🌪️⚡",
                 "question": "Ch19: What is Kazakhstan's capital?",
                 "options": [
-                    "Almaty",
-                    "Astana",
+                    "Tashkent",
                     "Bishkek",
-                    "Tashkent"
+                    "Astana",
+                    "Almaty"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -9801,30 +9801,30 @@ const geographyQuestions = {
                 "emoji": "🌱♻️",
                 "question": "Do you think the Atlantic between Europe and America generally?",
                 "options": [
-                    "True",
-                    "False"
-                ],
-                "correct": 1
-            },
-            {
-                "topic": "Environment",
-                "emoji": "🌱♻️",
-                "question": "Ch20: Does Antarctica have permanent ice?",
-                "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
                 "correct": 0
             },
             {
                 "topic": "Environment",
                 "emoji": "🌱♻️",
-                "question": "Do you think is the sahara the largest hot desert?",
+                "question": "Ch20: Does Antarctica have permanent ice?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
                 "correct": 1
+            },
+            {
+                "topic": "Environment",
+                "emoji": "🌱♻️",
+                "question": "Do you think is the sahara the largest hot desert?",
+                "options": [
+                    "False",
+                    "True"
+                ],
+                "correct": 0
             },
             {
                 "topic": "Environment",
@@ -9841,10 +9841,10 @@ const geographyQuestions = {
                 "emoji": "🌱♻️",
                 "question": "Would you say the amazon rainforest in south america?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Environment",
@@ -9861,20 +9861,20 @@ const geographyQuestions = {
                 "emoji": "🌱♻️",
                 "question": "Do you think would you consider there seven continents on earth?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Environment",
                 "emoji": "🌱♻️",
                 "question": "Ch20: Is the Nile River located in Africa?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Environment",
@@ -9893,72 +9893,72 @@ const geographyQuestions = {
                 "emoji": "📚✨",
                 "question": "What is the capital of France?",
                 "options": [
-                    "London",
-                    "Paris",
+                    "Madrid",
                     "Berlin",
-                    "Madrid"
+                    "London",
+                    "Paris"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "General",
                 "emoji": "📚✨",
                 "question": "Ch20: Which is the saltiest sea?",
                 "options": [
-                    "Mediterranean",
                     "Red Sea",
+                    "Black Sea",
                     "Dead Sea",
-                    "Black Sea"
+                    "Mediterranean"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "General",
                 "emoji": "📚✨",
                 "question": "Do you think what is the largest country by area generally?",
                 "options": [
-                    "Canada",
                     "China",
-                    "USA",
-                    "Russia"
+                    "Canada",
+                    "Russia",
+                    "USA"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "General",
                 "emoji": "📚✨",
                 "question": "Do you think which can be the longest mountain range?",
                 "options": [
-                    "Himalayas",
                     "Rockies",
-                    "Andes",
-                    "Alps"
+                    "Alps",
+                    "Himalayas",
+                    "Andes"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "General",
                 "emoji": "📚✨",
                 "question": "Do you think what is japan's capital?",
                 "options": [
+                    "Bangkok",
                     "Seoul",
-                    "Beijing",
                     "Tokyo",
-                    "Bangkok"
+                    "Beijing"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "General",
                 "emoji": "📚✨",
                 "question": "Do you think which is the longest river in your opinion?",
                 "options": [
-                    "Amazon",
+                    "Mississippi",
                     "Nile",
-                    "Yangtze",
-                    "Mississippi"
+                    "Amazon",
+                    "Yangtze"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "General",
@@ -9977,34 +9977,34 @@ const geographyQuestions = {
                 "emoji": "📚✨",
                 "question": "Ch20: Which country has the largest population?",
                 "options": [
-                    "India",
                     "USA",
                     "China",
-                    "Indonesia"
+                    "Indonesia",
+                    "India"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "General",
                 "emoji": "📚✨",
                 "question": "Ch20: Where is the Amazon Rainforest?",
                 "options": [
-                    "Africa",
                     "Asia",
+                    "Africa",
                     "South America",
                     "Australia"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "General",
                 "emoji": "📚✨",
                 "question": "Ch20: Which is the largest ocean?",
                 "options": [
-                    "Atlantic",
+                    "Arctic",
                     "Pacific",
-                    "Indian",
-                    "Arctic"
+                    "Atlantic",
+                    "Indian"
                 ],
                 "correct": 1
             }
@@ -10026,60 +10026,60 @@ const geographyQuestions = {
                 "emoji": "🌱♻️",
                 "question": "Would you say what is the highest waterfall?",
                 "options": [
-                    "Niagara",
-                    "Victoria",
                     "Angel Falls",
-                    "Yosemite"
+                    "Yosemite",
+                    "Victoria",
+                    "Niagara"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Environment",
                 "emoji": "🌱♻️",
                 "question": "Ch20: Which country has the most volcanoes?",
                 "options": [
-                    "Japan",
-                    "Indonesia",
                     "Philippines",
-                    "Iceland"
+                    "Iceland",
+                    "Indonesia",
+                    "Japan"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Environment",
                 "emoji": "🌱♻️",
                 "question": "Do you think what is the world's largest island generally?",
                 "options": [
+                    "Greenland",
                     "Madagascar",
                     "Borneo",
-                    "Greenland",
                     "New Guinea"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Environment",
                 "emoji": "🌱♻️",
                 "question": "Ch20: Which waterfall has the greatest drop?",
                 "options": [
+                    "Angel Falls",
                     "Niagara",
                     "Victoria",
-                    "Angel Falls",
                     "Iguazu"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Environment",
                 "emoji": "🌱♻️",
                 "question": "Do you think what is the driest place on earth?",
                 "options": [
-                    "Sahara",
                     "Atacama Desert",
+                    "Sahara",
                     "Death Valley",
                     "Antarctica"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Environment",
@@ -10088,8 +10088,8 @@ const geographyQuestions = {
                 "options": [
                     "Sweden",
                     "Finland",
-                    "Norway",
-                    "Russia"
+                    "Russia",
+                    "Norway"
                 ],
                 "correct": 1
             },
@@ -10098,12 +10098,12 @@ const geographyQuestions = {
                 "emoji": "🌱♻️",
                 "question": "Ch20: What is the deepest ocean point?",
                 "options": [
-                    "Puerto Rico Trench",
                     "Java Trench",
+                    "Puerto Rico Trench",
                     "Mariana Trench",
                     "Tonga Trench"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Environment",
@@ -10111,9 +10111,9 @@ const geographyQuestions = {
                 "question": "Ch20: Which country has the most time zones?",
                 "options": [
                     "Russia",
-                    "USA",
+                    "Canada",
                     "France",
-                    "Canada"
+                    "USA"
                 ],
                 "correct": 0
             },
@@ -10122,12 +10122,12 @@ const geographyQuestions = {
                 "emoji": "🌱♻️",
                 "question": "Ch20: What is South America's longest river?",
                 "options": [
-                    "Paraná",
                     "Orinoco",
                     "Amazon",
+                    "Paraná",
                     "São Francisco"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -10136,36 +10136,36 @@ const geographyQuestions = {
                 "emoji": "🌱♻️",
                 "question": "Environment and Conservation expert question 1?",
                 "options": [
-                    "B",
                     "A",
+                    "C",
                     "D",
-                    "C"
+                    "B"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Environment",
                 "emoji": "🌱♻️",
                 "question": "Environment and Conservation expert question 10?",
                 "options": [
-                    "A",
                     "C",
-                    "B",
-                    "D"
+                    "A",
+                    "D",
+                    "B"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Environment",
                 "emoji": "🌱♻️",
                 "question": "Ch20: Which country has the most islands?",
                 "options": [
-                    "Indonesia",
                     "Philippines",
+                    "Indonesia",
                     "Sweden",
                     "Finland"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Environment",
@@ -10173,20 +10173,20 @@ const geographyQuestions = {
                 "question": "Is it correct that what is the southernmost capital?",
                 "options": [
                     "Canberra",
-                    "Wellington",
+                    "Santiago",
                     "Buenos Aires",
-                    "Santiago"
+                    "Wellington"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Environment",
                 "emoji": "🌱♻️",
                 "question": "Ch20: Which river flows through most countries?",
                 "options": [
-                    "Nile",
-                    "Amazon",
                     "Danube",
+                    "Amazon",
+                    "Nile",
                     "Rhine"
                 ],
                 "correct": 1
@@ -10197,9 +10197,9 @@ const geographyQuestions = {
                 "question": "What sea has no coastline generally?",
                 "options": [
                     "Caspian",
-                    "Sargasso",
+                    "Dead Sea",
                     "Aral",
-                    "Dead Sea"
+                    "Sargasso"
                 ],
                 "correct": 0
             },
@@ -10208,48 +10208,48 @@ const geographyQuestions = {
                 "emoji": "🌱♻️",
                 "question": "Ch20: Which country was formerly Abyssinia?",
                 "options": [
-                    "Eritrea",
-                    "Somalia",
+                    "Sudan",
                     "Ethiopia",
-                    "Sudan"
+                    "Somalia",
+                    "Eritrea"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Environment",
                 "emoji": "🌱♻️",
                 "question": "Would you agree that what is the highest capital by elevation?",
                 "options": [
-                    "Quito",
                     "Bogotá",
                     "La Paz",
+                    "Quito",
                     "Addis Ababa"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Environment",
                 "emoji": "🌱♻️",
                 "question": "Which strait separates Europe from Africa in your opinion?",
                 "options": [
-                    "Bering",
                     "Gibraltar",
                     "Hormuz",
-                    "Bosporus"
+                    "Bosporus",
+                    "Bering"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Environment",
                 "emoji": "🌱♻️",
                 "question": "Ch20: What is Kazakhstan's capital?",
                 "options": [
+                    "Tashkent",
                     "Almaty",
-                    "Astana",
                     "Bishkek",
-                    "Tashkent"
+                    "Astana"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "extreme": [

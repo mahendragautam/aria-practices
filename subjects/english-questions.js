@@ -26,50 +26,50 @@ const englishQuestions = {
                 "emoji": "✍️📝",
                 "question": "Is a verb an action word?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Vocabulary",
                 "emoji": "📜📄",
                 "question": "Does synonym mean opposite meaning?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
                 "emoji": "🖊️✒️",
                 "question": "Is an adjective describes a noun?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Literature",
                 "emoji": "💬💭",
                 "question": "Is shakespeare wrote plays?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Grammar",
                 "emoji": "📰🗞️",
                 "question": "Does a sentence must have a subject and verb?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Vocabulary",
@@ -96,20 +96,20 @@ const englishQuestions = {
                 "emoji": "🔤🔡",
                 "question": "Is an adverb modifies a verb?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Literature",
                 "emoji": "📗📘",
                 "question": "Is a novel a long fictional story?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -138,20 +138,20 @@ const englishQuestions = {
                 "emoji": "🖋️🖊️",
                 "question": "What punctuation ends a question?",
                 "options": [
-                    "Period",
-                    "Question mark"
+                    "Question mark",
+                    "Period"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Literature",
                 "emoji": "💌📧",
                 "question": "Who wrote Romeo and Juliet?",
                 "options": [
-                    "Dickens",
-                    "Shakespeare"
+                    "Shakespeare",
+                    "Dickens"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Composition",
@@ -188,10 +188,10 @@ const englishQuestions = {
                 "emoji": "🏷️🔖",
                 "question": "What is a haiku?",
                 "options": [
-                    "Japanese poem",
-                    "Long story"
+                    "Long story",
+                    "Japanese poem"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -208,10 +208,10 @@ const englishQuestions = {
                 "emoji": "🗣️💬",
                 "question": "What introduces an essay?",
                 "options": [
-                    "Introduction",
-                    "Body"
+                    "Body",
+                    "Introduction"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -220,11 +220,11 @@ const englishQuestions = {
                 "emoji": "✉️📨",
                 "question": "What is a gerund?",
                 "options": [
-                    "Verb ending in -ing",
                     "Adjective",
-                    "Plural noun"
+                    "Plural noun",
+                    "Verb ending in -ing"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Literature",
@@ -253,20 +253,20 @@ const englishQuestions = {
                 "emoji": "📻📺",
                 "question": "What is the subjunctive mood?",
                 "options": [
+                    "Past tense",
                     "Questions",
-                    "Hypothetical situations",
-                    "Past tense"
+                    "Hypothetical situations"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Composition",
                 "emoji": "🎬🎞️",
                 "question": "What is a thesis statement?",
                 "options": [
-                    "Example",
+                    "Conclusion",
                     "Main argument",
-                    "Conclusion"
+                    "Example"
                 ],
                 "correct": 1
             },
@@ -275,44 +275,44 @@ const englishQuestions = {
                 "emoji": "📸📷",
                 "question": "What is an allegory?",
                 "options": [
-                    "Short poem",
                     "Biography",
-                    "Symbolic story"
+                    "Symbolic story",
+                    "Short poem"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Grammar",
                 "emoji": "🖼️🎨",
                 "question": "What is a participle?",
                 "options": [
-                    "Noun phrase",
                     "Verb as adjective",
-                    "Adverb"
+                    "Adverb",
+                    "Noun phrase"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Vocabulary",
                 "emoji": "🎵🎶",
                 "question": "What does the acronym onomatopoeia stand for?",
                 "options": [
-                    "Sound words",
                     "Metaphor",
+                    "Sound words",
                     "Rhyme"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Composition",
                 "emoji": "🎼🎹",
                 "question": "What is a counterargument?",
                 "options": [
-                    "Evidence",
                     "Opposing view",
-                    "Conclusion"
+                    "Conclusion",
+                    "Evidence"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Literature",
@@ -345,11 +345,11 @@ const englishQuestions = {
                 "question": "In which century did Shakespeare live?",
                 "options": [
                     "18th-19th",
-                    "14th-15th",
+                    "16th-17th",
                     "12th-13th",
-                    "16th-17th"
+                    "14th-15th"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Vocabulary",
@@ -368,21 +368,21 @@ const englishQuestions = {
                 "emoji": "✍️📄",
                 "question": "What is an appositive?",
                 "options": [
-                    "Adverb",
-                    "Noun explaining noun",
                     "Adjective clause",
-                    "Verb phrase"
+                    "Verb phrase",
+                    "Noun explaining noun",
+                    "Adverb"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Composition",
                 "emoji": "📝✏️",
                 "question": "What is ethos in rhetoric?",
                 "options": [
-                    "Emotion",
-                    "Timing",
                     "Logic",
+                    "Timing",
+                    "Emotion",
                     "Credibility"
                 ],
                 "correct": 1
@@ -393,9 +393,9 @@ const englishQuestions = {
                 "question": "What is iambic pentameter?",
                 "options": [
                     "8 syllables per line",
-                    "12 syllables per line",
                     "5 syllables per line",
-                    "10 syllables per line"
+                    "10 syllables per line",
+                    "12 syllables per line"
                 ],
                 "correct": 0
             },
@@ -404,10 +404,10 @@ const englishQuestions = {
                 "emoji": "📚✍️",
                 "question": "What is a dangling modifier?",
                 "options": [
-                    "Misplaced description",
-                    "Comma splice",
                     "Fragment",
-                    "Run-on sentence"
+                    "Comma splice",
+                    "Run-on sentence",
+                    "Misplaced description"
                 ],
                 "correct": 1
             },
@@ -440,12 +440,12 @@ const englishQuestions = {
                 "emoji": "📖📚",
                 "question": "What is magical realism?",
                 "options": [
+                    "Science fiction",
                     "Fantasy in realistic setting",
-                    "Pure fantasy",
                     "Historical fiction",
-                    "Science fiction"
+                    "Pure fantasy"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "extreme": [
@@ -518,10 +518,10 @@ const englishQuestions = {
                 "emoji": "📝✍️",
                 "question": "Is nouns name people, places, and things?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -548,10 +548,10 @@ const englishQuestions = {
                 "emoji": "⚡📖",
                 "question": "Is adverbs modify verbs?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Grammar",
@@ -568,10 +568,10 @@ const englishQuestions = {
                 "emoji": "🔗✍️",
                 "question": "Is conjunctions connect words?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -588,10 +588,10 @@ const englishQuestions = {
                 "emoji": "❗📝",
                 "question": "Is interjections express emotion?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -608,10 +608,10 @@ const englishQuestions = {
                 "emoji": "🎯📖",
                 "question": "Are there eight parts of speech?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -640,10 +640,10 @@ const englishQuestions = {
                 "emoji": "🎨📝",
                 "question": "Where do adjectives usually go?",
                 "options": [
-                    "Before noun",
-                    "After verb"
+                    "After verb",
+                    "Before noun"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -690,10 +690,10 @@ const englishQuestions = {
                 "emoji": "❗📝",
                 "question": "Which is an interjection?",
                 "options": [
-                    "Wow",
-                    "Run"
+                    "Run",
+                    "Wow"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -722,11 +722,11 @@ const englishQuestions = {
                 "emoji": "📝✍️",
                 "question": "What is a collective noun?",
                 "options": [
-                    "Multiple items",
                     "Abstract concept",
-                    "Group as single unit"
+                    "Group as single unit",
+                    "Multiple items"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Grammar",
@@ -745,8 +745,8 @@ const englishQuestions = {
                 "question": "What is a predicate adjective?",
                 "options": [
                     "Before noun",
-                    "After linking verb",
-                    "Modifying verb"
+                    "Modifying verb",
+                    "After linking verb"
                 ],
                 "correct": 0
             },
@@ -755,11 +755,11 @@ const englishQuestions = {
                 "emoji": "⚡📖",
                 "question": "What is a conjunctive adverb?",
                 "options": [
-                    "Describes noun",
                     "Modifies verb",
+                    "Describes noun",
                     "Connects sentences"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Grammar",
@@ -767,43 +767,43 @@ const englishQuestions = {
                 "question": "What are intensive pronouns?",
                 "options": [
                     "Ask questions",
-                    "Show possession",
-                    "Emphasize noun"
+                    "Emphasize noun",
+                    "Show possession"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Grammar",
                 "emoji": "🔗✍️",
                 "question": "What is a correlative conjunction?",
                 "options": [
-                    "Paired connectors",
                     "Three words",
-                    "Single word"
+                    "Single word",
+                    "Paired connectors"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Grammar",
                 "emoji": "📍📖",
                 "question": "What is a prepositional phrase?",
                 "options": [
-                    "Preposition + object",
                     "Two prepositions",
+                    "Preposition + object",
                     "Verb phrase"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Grammar",
                 "emoji": "❗📝",
                 "question": "Do interjections affect grammar?",
                 "options": [
-                    "No, standalone",
                     "Yes, as objects",
-                    "Yes, as subjects"
+                    "Yes, as subjects",
+                    "No, standalone"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Grammar",
@@ -821,9 +821,9 @@ const englishQuestions = {
                 "emoji": "🎯📖",
                 "question": "What can function as noun?",
                 "options": [
-                    "Gerund",
+                    "Preposition",
                     "Adverb",
-                    "Preposition"
+                    "Gerund"
                 ],
                 "correct": 1
             }
@@ -834,48 +834,48 @@ const englishQuestions = {
                 "emoji": "📝✍️",
                 "question": "What is the nominative case?",
                 "options": [
-                    "Possessive form",
-                    "Subject position",
                     "Object position",
-                    "Indirect object"
+                    "Subject position",
+                    "Indirect object",
+                    "Possessive form"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Grammar",
                 "emoji": "🏃‍♂️📖",
                 "question": "What is an ergative verb?",
                 "options": [
+                    "Only intransitive",
                     "Always passive",
-                    "Only transitive",
                     "Same form transitive/intransitive",
-                    "Only intransitive"
+                    "Only transitive"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Grammar",
                 "emoji": "🎨📝",
                 "question": "What is a postpositive adjective?",
                 "options": [
-                    "After verb",
                     "Before verb",
+                    "After verb",
                     "After noun",
                     "Before noun"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
                 "emoji": "⚡📖",
                 "question": "What is a flat adverb?",
                 "options": [
-                    "Has -ly ending",
-                    "Two syllables",
+                    "Comparative form",
                     "No -ly ending",
-                    "Comparative form"
+                    "Two syllables",
+                    "Has -ly ending"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Grammar",
@@ -883,23 +883,23 @@ const englishQuestions = {
                 "question": "What is an indefinite pronoun?",
                 "options": [
                     "Question word",
+                    "Non-specific reference",
                     "Specific person",
-                    "Possessive",
-                    "Non-specific reference"
+                    "Possessive"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Grammar",
                 "emoji": "🔗✍️",
                 "question": "What is a subordinating conjunction?",
                 "options": [
-                    "Joins equal parts",
-                    "Introduces dependent clause",
                     "Starts question",
-                    "Ends sentence"
+                    "Joins equal parts",
+                    "Ends sentence",
+                    "Introduces dependent clause"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -907,11 +907,11 @@ const englishQuestions = {
                 "question": "Can prepositions end sentences?",
                 "options": [
                     "Only formal",
-                    "No, never",
                     "Yes, in modern English",
+                    "No, never",
                     "Only informal"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Grammar",
@@ -930,24 +930,24 @@ const englishQuestions = {
                 "emoji": "📚✍️",
                 "question": "What determines article choice?",
                 "options": [
-                    "Sound of next word",
                     "Meaning",
                     "Grammar",
+                    "Sound of next word",
                     "Spelling only"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Grammar",
                 "emoji": "🎯📖",
                 "question": "What is a determiner?",
                 "options": [
-                    "Adverb type",
-                    "Adjective only",
+                    "Type of verb",
                     "Introduces noun phrase",
-                    "Type of verb"
+                    "Adjective only",
+                    "Adverb type"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -1020,10 +1020,10 @@ const englishQuestions = {
                 "emoji": "📝✍️",
                 "question": "Does a simple sentence have one clause?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -1050,30 +1050,30 @@ const englishQuestions = {
                 "emoji": "⚙️📝",
                 "question": "Is every sentence needs a predicate?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Grammar",
                 "emoji": "❓📖",
                 "question": "Are questions interrogative sentences?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Grammar",
                 "emoji": "❗✍️",
                 "question": "Are commands imperative sentences?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -1090,20 +1090,20 @@ const englishQuestions = {
                 "emoji": "📄📖",
                 "question": "Is declarative sentences make statements?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
                 "emoji": "🎯✍️",
                 "question": "Are fragments incomplete sentences?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -1122,10 +1122,10 @@ const englishQuestions = {
                 "emoji": "🔗📖",
                 "question": "How are compound sentences joined?",
                 "options": [
-                    "Conjunction or semicolon",
-                    "Comma only"
+                    "Comma only",
+                    "Conjunction or semicolon"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -1142,40 +1142,40 @@ const englishQuestions = {
                 "emoji": "⚙️📝",
                 "question": "What is the predicate?",
                 "options": [
-                    "Verb and its parts",
-                    "Subject"
+                    "Subject",
+                    "Verb and its parts"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
                 "emoji": "❓📖",
                 "question": "What marks end of question?",
                 "options": [
-                    "Period",
-                    "Question mark"
+                    "Question mark",
+                    "Period"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Grammar",
                 "emoji": "❗✍️",
                 "question": "What is implied subject in commands?",
                 "options": [
-                    "You",
-                    "I"
+                    "I",
+                    "You"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Grammar",
                 "emoji": "😮📝",
                 "question": "What punctuation for exclamations?",
                 "options": [
-                    "Exclamation mark",
-                    "Period"
+                    "Period",
+                    "Exclamation mark"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -1192,10 +1192,10 @@ const englishQuestions = {
                 "emoji": "🎯✍️",
                 "question": "What makes a fragment?",
                 "options": [
-                    "Missing subject or verb",
-                    "Too short"
+                    "Too short",
+                    "Missing subject or verb"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -1212,12 +1212,12 @@ const englishQuestions = {
                 "emoji": "🔗📖",
                 "question": "What part of speech is 'beautiful'?",
                 "options": [
+                    "Adverb",
                     "Noun",
                     "Verb",
-                    "Adjective",
-                    "Adverb"
+                    "Adjective"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "hard": [
@@ -1226,11 +1226,11 @@ const englishQuestions = {
                 "emoji": "📝✍️",
                 "question": "What is a complex sentence?",
                 "options": [
-                    "One clause only",
                     "Independent + dependent clause",
+                    "One clause only",
                     "Two independent clauses"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -1238,10 +1238,10 @@ const englishQuestions = {
                 "question": "What is a compound-complex sentence?",
                 "options": [
                     "One of each",
-                    "Three independent",
-                    "Two independent + one dependent"
+                    "Two independent + one dependent",
+                    "Three independent"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Grammar",
@@ -1249,8 +1249,8 @@ const englishQuestions = {
                 "question": "What is a complete subject?",
                 "options": [
                     "Verb phrase",
-                    "Subject with modifiers",
-                    "Subject only"
+                    "Subject only",
+                    "Subject with modifiers"
                 ],
                 "correct": 0
             },
@@ -1259,9 +1259,9 @@ const englishQuestions = {
                 "emoji": "⚙️📝",
                 "question": "What is a complete predicate?",
                 "options": [
-                    "Verb with modifiers/objects",
+                    "Subject phrase",
                     "Verb only",
-                    "Subject phrase"
+                    "Verb with modifiers/objects"
                 ],
                 "correct": 1
             },
@@ -1270,11 +1270,11 @@ const englishQuestions = {
                 "emoji": "❓📖",
                 "question": "What is a rhetorical question?",
                 "options": [
+                    "Yes/no question",
                     "No answer expected",
-                    "Multiple choice",
-                    "Yes/no question"
+                    "Multiple choice"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Grammar",
@@ -1292,33 +1292,33 @@ const englishQuestions = {
                 "emoji": "😮📝",
                 "question": "Are all exclamations complete sentences?",
                 "options": [
-                    "Only if long",
                     "Yes, always",
+                    "Only if long",
                     "No, can be fragments"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Grammar",
                 "emoji": "📄📖",
                 "question": "Can declaratives ask questions?",
                 "options": [
+                    "No, never",
                     "Yes, indirectly",
-                    "Only formal",
-                    "No, never"
+                    "Only formal"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
                 "emoji": "🎯✍️",
                 "question": "What is a dependent clause fragment?",
                 "options": [
+                    "Simple sentence",
                     "Clause needing main clause",
-                    "Complete thought",
-                    "Simple sentence"
+                    "Complete thought"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -1339,8 +1339,8 @@ const englishQuestions = {
                 "question": "What is a periodic sentence?",
                 "options": [
                     "Main idea at start",
-                    "Question form",
                     "Main idea at end",
+                    "Question form",
                     "No main idea"
                 ],
                 "correct": 0
@@ -1350,24 +1350,24 @@ const englishQuestions = {
                 "emoji": "🔗📖",
                 "question": "What does the acronym asyndeton stand for?",
                 "options": [
-                    "Omitting conjunctions",
                     "Using semicolons",
-                    "Adding conjunctions",
-                    "Complex structure"
+                    "Omitting conjunctions",
+                    "Complex structure",
+                    "Adding conjunctions"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Grammar",
                 "emoji": "🏗️✍️",
                 "question": "What is an expletive construction?",
                 "options": [
-                    "Exclamation",
                     "Command",
-                    "Question",
-                    "It is/There is structure"
+                    "Exclamation",
+                    "It is/There is structure",
+                    "Question"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -1388,8 +1388,8 @@ const englishQuestions = {
                 "options": [
                     "Wh-question",
                     "Added question at end",
-                    "Embedded question",
-                    "Yes/no question"
+                    "Yes/no question",
+                    "Embedded question"
                 ],
                 "correct": 1
             },
@@ -1399,8 +1399,8 @@ const englishQuestions = {
                 "question": "What is a hortative sentence?",
                 "options": [
                     "Command",
-                    "Statement",
                     "Exhortation or encouragement",
+                    "Statement",
                     "Question"
                 ],
                 "correct": 0
@@ -1410,48 +1410,48 @@ const englishQuestions = {
                 "emoji": "😮📝",
                 "question": "What is an exclamatory sentence fragment?",
                 "options": [
-                    "Complete sentence",
-                    "Emotional outburst phrase",
                     "Statement",
-                    "Question"
+                    "Question",
+                    "Emotional outburst phrase",
+                    "Complete sentence"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Grammar",
                 "emoji": "📄📖",
                 "question": "What is passive voice structure?",
                 "options": [
-                    "No object",
-                    "Object becomes subject",
                     "Subject acts",
+                    "Object becomes subject",
+                    "No object",
                     "Question form"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Grammar",
                 "emoji": "🎯✍️",
                 "question": "Can fragments be stylistic?",
                 "options": [
-                    "Only in dialogue",
                     "Yes, for effect",
+                    "Only in dialogue",
                     "No, always errors",
                     "Only in poetry"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
                 "emoji": "🔄📝",
                 "question": "What is a fused sentence?",
                 "options": [
-                    "Comma splice",
                     "Fragment",
+                    "Comma splice",
                     "Complex sentence",
                     "Run-on with no punctuation"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "extreme": [
@@ -1524,20 +1524,20 @@ const englishQuestions = {
                 "emoji": "📝✍️",
                 "question": "Is a period ends a statement?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Punctuation",
                 "emoji": "❓📖",
                 "question": "Is a question mark ends a question?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Punctuation",
@@ -1554,10 +1554,10 @@ const englishQuestions = {
                 "emoji": "💬📝",
                 "question": "Is quotation marks show speech?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Punctuation",
@@ -1574,16 +1574,6 @@ const englishQuestions = {
                 "emoji": "✍️📄",
                 "question": "Is apostrophes show possession?",
                 "options": [
-                    "False",
-                    "True"
-                ],
-                "correct": 0
-            },
-            {
-                "topic": "Punctuation",
-                "emoji": "🔗📝",
-                "question": "Is semicolons join related clauses?",
-                "options": [
                     "True",
                     "False"
                 ],
@@ -1591,13 +1581,23 @@ const englishQuestions = {
             },
             {
                 "topic": "Punctuation",
+                "emoji": "🔗📝",
+                "question": "Is semicolons join related clauses?",
+                "options": [
+                    "False",
+                    "True"
+                ],
+                "correct": 0
+            },
+            {
+                "topic": "Punctuation",
                 "emoji": "➖📖",
                 "question": "Is hyphens connect compound words?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Mechanics",
@@ -1614,10 +1614,10 @@ const englishQuestions = {
                 "emoji": "📝📖",
                 "question": "Are proper nouns capitalized?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -1636,10 +1636,10 @@ const englishQuestions = {
                 "emoji": "❓📖",
                 "question": "Where does question mark go?",
                 "options": [
-                    "End of sentence",
-                    "Beginning"
+                    "Beginning",
+                    "End of sentence"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Punctuation",
@@ -1686,40 +1686,40 @@ const englishQuestions = {
                 "emoji": "🔗📝",
                 "question": "What joins clauses stronger than comma?",
                 "options": [
-                    "Semicolon",
-                    "Period"
+                    "Period",
+                    "Semicolon"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Punctuation",
                 "emoji": "➖📖",
                 "question": "When to hyphenate compound adjectives?",
                 "options": [
-                    "Before noun",
-                    "After noun"
+                    "After noun",
+                    "Before noun"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Mechanics",
                 "emoji": "🔤✍️",
                 "question": "Capitalize which words in title?",
                 "options": [
-                    "All words",
-                    "First, last, major words"
+                    "First, last, major words",
+                    "All words"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Mechanics",
                 "emoji": "📝📖",
                 "question": "Are seasons capitalized?",
                 "options": [
-                    "No",
-                    "Yes"
+                    "Yes",
+                    "No"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -1728,20 +1728,20 @@ const englishQuestions = {
                 "emoji": "📝✍️",
                 "question": "What is an em dash used for?",
                 "options": [
+                    "List items",
                     "Possession",
-                    "Interruption or emphasis",
-                    "List items"
+                    "Interruption or emphasis"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Punctuation",
                 "emoji": "❓📖",
                 "question": "Can question mark be used mid-sentence?",
                 "options": [
-                    "Yes, in quotes",
+                    "Yes, anywhere",
                     "No, only at end",
-                    "Yes, anywhere"
+                    "Yes, in quotes"
                 ],
                 "correct": 1
             },
@@ -1750,22 +1750,22 @@ const englishQuestions = {
                 "emoji": "❗✍️",
                 "question": "What is an interrobang?",
                 "options": [
-                    "?! combined",
+                    "Multiple ?",
                     "Multiple !",
-                    "Multiple ?"
+                    "?! combined"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Punctuation",
                 "emoji": "💬📝",
                 "question": "How to quote within quote?",
                 "options": [
-                    "Double inside single",
                     "Same quotes",
+                    "Double inside single",
                     "Single quotes inside double"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Punctuation",
@@ -1773,21 +1773,21 @@ const englishQuestions = {
                 "question": "What is the serial comma also called?",
                 "options": [
                     "Harvard comma",
-                    "Series comma",
-                    "Oxford comma"
+                    "Oxford comma",
+                    "Series comma"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Punctuation",
                 "emoji": "✍️📄",
                 "question": "How to show plural of letter?",
                 "options": [
-                    "Just s",
                     "Just apostrophe",
+                    "Just s",
                     "Apostrophe + s"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Punctuation",
@@ -1805,33 +1805,33 @@ const englishQuestions = {
                 "emoji": "➖📖",
                 "question": "What is an en dash?",
                 "options": [
-                    "Same as hyphen",
                     "Between numbers/ranges",
+                    "Same as hyphen",
                     "Same as em dash"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Mechanics",
                 "emoji": "🔤✍️",
                 "question": "Capitalize after colon?",
                 "options": [
-                    "If complete sentence follows",
                     "Always",
-                    "Never"
+                    "Never",
+                    "If complete sentence follows"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Mechanics",
                 "emoji": "📝📖",
                 "question": "How to write numbers under 10?",
                 "options": [
-                    "Use numerals",
                     "Spell out",
-                    "Either"
+                    "Either",
+                    "Use numerals"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -1840,36 +1840,36 @@ const englishQuestions = {
                 "emoji": "📝✍️",
                 "question": "What is ellipsis used for?",
                 "options": [
-                    "List",
                     "Question",
                     "Omitted words or pause",
-                    "Excitement"
+                    "Excitement",
+                    "List"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Punctuation",
                 "emoji": "❓📖",
                 "question": "What is a rhetorical question punctuation?",
                 "options": [
-                    "Question mark or period",
-                    "Only period",
                     "Exclamation",
-                    "Only question mark"
+                    "Only question mark",
+                    "Question mark or period",
+                    "Only period"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Punctuation",
                 "emoji": "❗✍️",
                 "question": "When is exclamation overused?",
                 "options": [
-                    "One per page",
-                    "Never",
                     "Multiple in paragraph",
-                    "Two total"
+                    "Two total",
+                    "One per page",
+                    "Never"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Punctuation",
@@ -1877,35 +1877,35 @@ const englishQuestions = {
                 "question": "British vs American quote punctuation?",
                 "options": [
                     "No difference",
+                    "UK outside, US inside",
                     "Same",
-                    "UK inside, US outside",
-                    "UK outside, US inside"
+                    "UK inside, US outside"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Punctuation",
                 "emoji": "📍📖",
                 "question": "What is a serial comma?",
                 "options": [
+                    "First comma",
                     "Before last item in list",
                     "No comma",
-                    "First comma",
                     "Any comma"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Punctuation",
                 "emoji": "✍️📄",
                 "question": "How to show joint possession?",
                 "options": [
-                    "Each name",
-                    "No apostrophe",
                     "Apostrophe on last name",
-                    "First name only"
+                    "First name only",
+                    "Each name",
+                    "No apostrophe"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Punctuation",
@@ -1913,11 +1913,11 @@ const englishQuestions = {
                 "question": "Can semicolon join with conjunction?",
                 "options": [
                     "Only and",
-                    "Yes, always",
                     "Yes, with transitional phrase",
-                    "No, never"
+                    "No, never",
+                    "Yes, always"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Punctuation",
@@ -1936,24 +1936,24 @@ const englishQuestions = {
                 "emoji": "🔤✍️",
                 "question": "Capitalize compass directions?",
                 "options": [
+                    "Only North",
                     "Only as proper regions",
-                    "Never",
                     "Always",
-                    "Only North"
+                    "Never"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Mechanics",
                 "emoji": "📝📖",
                 "question": "How to write decades?",
                 "options": [
+                    "1990",
                     "Only 1990's",
                     "Only nineties",
-                    "1990s or 90s",
-                    "1990"
+                    "1990s or 90s"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -2026,10 +2026,10 @@ const englishQuestions = {
                 "emoji": "⏰📝",
                 "question": "Is present tense happening now?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -2056,10 +2056,10 @@ const englishQuestions = {
                 "emoji": "🔄📝",
                 "question": "Does progressive show ongoing action?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Grammar",
@@ -2076,10 +2076,10 @@ const englishQuestions = {
                 "emoji": "📖🎯",
                 "question": "Is regular verbs add -ed for past?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -2096,30 +2096,30 @@ const englishQuestions = {
                 "emoji": "🗣️✍️",
                 "question": "Does mood show attitude?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
                 "emoji": "💭📖",
                 "question": "Does subjunctive show wishes?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
                 "emoji": "❗📝",
                 "question": "Is imperative mood gives commands?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -2128,10 +2128,10 @@ const englishQuestions = {
                 "emoji": "⏰📝",
                 "question": "What is simple present?",
                 "options": [
-                    "Habitual action",
-                    "Right now"
+                    "Right now",
+                    "Habitual action"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -2148,10 +2148,10 @@ const englishQuestions = {
                 "emoji": "⏩📖",
                 "question": "How to form simple future?",
                 "options": [
-                    "Will + base verb",
-                    "Going to"
+                    "Going to",
+                    "Will + base verb"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -2198,20 +2198,20 @@ const englishQuestions = {
                 "emoji": "💭📖",
                 "question": "When use subjunctive?",
                 "options": [
-                    "Statements",
-                    "Wishes, if clauses"
+                    "Wishes, if clauses",
+                    "Statements"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
                 "emoji": "❗📝",
                 "question": "What is indicative mood?",
                 "options": [
-                    "Commands",
-                    "Statements and questions"
+                    "Statements and questions",
+                    "Commands"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -2220,8 +2220,8 @@ const englishQuestions = {
                 "options": [
                     "Noun",
                     "Verb",
-                    "Adjective",
-                    "Adverb"
+                    "Adverb",
+                    "Adjective"
                 ],
                 "correct": 1
             }
@@ -2232,55 +2232,55 @@ const englishQuestions = {
                 "emoji": "⏪✍️",
                 "question": "What is past perfect?",
                 "options": [
-                    "Has + past participle",
                     "Had + past participle",
-                    "Was + -ing"
+                    "Was + -ing",
+                    "Has + past participle"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Grammar",
                 "emoji": "⏩📖",
                 "question": "What is future perfect?",
                 "options": [
+                    "Will + base",
                     "Will have + past participle",
-                    "Will be + -ing",
-                    "Will + base"
+                    "Will be + -ing"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Grammar",
                 "emoji": "🔄📝",
                 "question": "What is past progressive?",
                 "options": [
-                    "Was/were + -ing",
                     "Is/am/are + -ing",
+                    "Was/were + -ing",
                     "Had been + -ing"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
                 "emoji": "✅✍️",
                 "question": "When use past perfect?",
                 "options": [
-                    "Earlier past action",
                     "Recent past",
+                    "Earlier past action",
                     "Future"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Grammar",
                 "emoji": "📖🎯",
                 "question": "What is principal parts of verb?",
                 "options": [
+                    "Two forms",
                     "Three forms",
-                    "Base, past, past participle, present participle",
-                    "Two forms"
+                    "Base, past, past participle, present participle"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Grammar",
@@ -2298,9 +2298,9 @@ const englishQuestions = {
                 "emoji": "🗣️✍️",
                 "question": "What is conditional mood?",
                 "options": [
-                    "Commands",
+                    "Would/could/should situations",
                     "Wishes",
-                    "Would/could/should situations"
+                    "Commands"
                 ],
                 "correct": 1
             },
@@ -2309,11 +2309,11 @@ const englishQuestions = {
                 "emoji": "💭📖",
                 "question": "What verb form in subjunctive?",
                 "options": [
+                    "Regular past",
                     "Base form or were",
-                    "Present",
-                    "Regular past"
+                    "Present"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
@@ -2346,9 +2346,9 @@ const englishQuestions = {
                 "question": "What is habitual aspect?",
                 "options": [
                     "Future tense",
-                    "Present tense",
+                    "Used to/would for past habits",
                     "Progressive",
-                    "Used to/would for past habits"
+                    "Present tense"
                 ],
                 "correct": 0
             },
@@ -2357,10 +2357,10 @@ const englishQuestions = {
                 "emoji": "⏪✍️",
                 "question": "What is past perfect progressive?",
                 "options": [
-                    "Has been + -ing",
+                    "Was + -ing",
                     "Had been + -ing",
-                    "Were + -ing",
-                    "Was + -ing"
+                    "Has been + -ing",
+                    "Were + -ing"
                 ],
                 "correct": 1
             },
@@ -2369,22 +2369,22 @@ const englishQuestions = {
                 "emoji": "⏩📖",
                 "question": "What is future perfect progressive?",
                 "options": [
+                    "Going to be + -ing",
                     "Will be + -ing",
                     "Will have + past",
-                    "Going to be + -ing",
                     "Will have been + -ing"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Grammar",
                 "emoji": "🔄📝",
                 "question": "What is aspect in grammar?",
                 "options": [
-                    "Tense",
-                    "Mood",
                     "Voice",
-                    "Time flow of action"
+                    "Mood",
+                    "Time flow of action",
+                    "Tense"
                 ],
                 "correct": 1
             },
@@ -2405,36 +2405,36 @@ const englishQuestions = {
                 "emoji": "📖🎯",
                 "question": "What is a defective verb?",
                 "options": [
-                    "Regular verb",
                     "Perfect verb",
                     "Irregular verb",
-                    "Missing forms"
+                    "Missing forms",
+                    "Regular verb"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Grammar",
                 "emoji": "🔀📝",
                 "question": "What does the acronym ablaut stand for?",
                 "options": [
-                    "Adding -ed",
-                    "No change",
                     "Double consonant",
-                    "Vowel change in irregular verbs"
+                    "Vowel change in irregular verbs",
+                    "No change",
+                    "Adding -ed"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Grammar",
                 "emoji": "🗣️✍️",
                 "question": "What is jussive mood?",
                 "options": [
-                    "Statement",
-                    "Command in third person",
                     "Question",
+                    "Command in third person",
+                    "Statement",
                     "First person command"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Grammar",
@@ -2541,10 +2541,10 @@ const englishQuestions = {
                 "emoji": "🔤📚",
                 "question": "Do paragraphs have indentation?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Vocabulary",
@@ -2571,10 +2571,10 @@ const englishQuestions = {
                 "emoji": "🔤📚",
                 "question": "Is 'beautiful' an adjective?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Vocabulary",
@@ -2591,10 +2591,10 @@ const englishQuestions = {
                 "emoji": "🔤📚",
                 "question": "Is 'and' a conjunction?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Vocabulary",
@@ -2611,10 +2611,10 @@ const englishQuestions = {
                 "emoji": "🔤📚",
                 "question": "Is 'quickly' an adverb?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Vocabulary",
@@ -2643,46 +2643,46 @@ const englishQuestions = {
                 "emoji": "🔤📚",
                 "question": "What expresses a complete thought?",
                 "options": [
-                    "Phrase",
-                    "Sentence",
                     "Word",
-                    "Fragment"
+                    "Phrase",
+                    "Fragment",
+                    "Sentence"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Vocabulary",
                 "emoji": "🔤📚",
                 "question": "Which shows correct capitalization?",
                 "options": [
-                    "i went home",
                     "I Went Home",
                     "I went home",
-                    "i Went home"
+                    "i Went home",
+                    "i went home"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Vocabulary",
                 "emoji": "🔤📚",
                 "question": "What type of word modifies a verb?",
                 "options": [
+                    "Pronoun",
                     "Adjective",
-                    "Adverb",
                     "Noun",
-                    "Pronoun"
+                    "Adverb"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Vocabulary",
                 "emoji": "🔤📚",
                 "question": "Which word is opposite of 'hot'?",
                 "options": [
-                    "Warm",
+                    "Tepid",
                     "Cool",
-                    "Cold",
-                    "Tepid"
+                    "Warm",
+                    "Cold"
                 ],
                 "correct": 1
             },
@@ -2692,9 +2692,9 @@ const englishQuestions = {
                 "question": "What is the past tense of 'run'?",
                 "options": [
                     "Runned",
-                    "Ran",
                     "Running",
-                    "Runs"
+                    "Runs",
+                    "Ran"
                 ],
                 "correct": 0
             },
@@ -2703,48 +2703,48 @@ const englishQuestions = {
                 "emoji": "🔤📚",
                 "question": "Which punctuation ends a question?",
                 "options": [
-                    "Period",
-                    "Question mark",
                     "Exclamation",
-                    "Comma"
+                    "Comma",
+                    "Period",
+                    "Question mark"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Vocabulary",
                 "emoji": "🔤📚",
                 "question": "What is the plural of 'child'?",
                 "options": [
-                    "Childs",
-                    "Children",
                     "Childes",
-                    "Childrens"
+                    "Childs",
+                    "Childrens",
+                    "Children"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Vocabulary",
                 "emoji": "🔤📚",
                 "question": "Which sentence is grammatically correct?",
                 "options": [
-                    "She don't go",
-                    "She doesn't goes",
                     "She doesn't go",
-                    "She not go"
+                    "She not go",
+                    "She don't go",
+                    "She doesn't goes"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Vocabulary",
                 "emoji": "🔤📚",
                 "question": "Ch6: What part of speech is 'beautiful'?",
                 "options": [
+                    "Adverb",
                     "Noun",
-                    "Verb",
                     "Adjective",
-                    "Adverb"
+                    "Verb"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "hard": [
@@ -2753,23 +2753,23 @@ const englishQuestions = {
                 "emoji": "🔤📚",
                 "question": "Vocabulary Building advanced question 10?",
                 "options": [
-                    "B",
+                    "C",
                     "A",
-                    "C"
+                    "B"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Vocabulary",
                 "emoji": "🔤📚",
                 "question": "Which mark shows possession?",
                 "options": [
-                    "Comma",
                     "Apostrophe",
-                    "Colon",
-                    "Semicolon"
+                    "Semicolon",
+                    "Comma",
+                    "Colon"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Vocabulary",
@@ -2777,9 +2777,9 @@ const englishQuestions = {
                 "question": "What clause can stand alone?",
                 "options": [
                     "Dependent",
-                    "Independent",
+                    "Relative",
                     "Subordinate",
-                    "Relative"
+                    "Independent"
                 ],
                 "correct": 0
             },
@@ -2790,8 +2790,8 @@ const englishQuestions = {
                 "options": [
                     "Team",
                     "Player",
-                    "Game",
-                    "Ball"
+                    "Ball",
+                    "Game"
                 ],
                 "correct": 1
             },
@@ -2800,10 +2800,10 @@ const englishQuestions = {
                 "emoji": "🔤📚",
                 "question": "What is the superlative of 'good'?",
                 "options": [
-                    "Gooder",
-                    "More good",
                     "Best",
-                    "Better"
+                    "More good",
+                    "Better",
+                    "Gooder"
                 ],
                 "correct": 1
             },
@@ -2812,24 +2812,24 @@ const englishQuestions = {
                 "emoji": "🔤📚",
                 "question": "Which sentence is in passive voice?",
                 "options": [
-                    "Cat chased mouse",
-                    "Mouse was chased",
                     "Cat is chasing",
-                    "Mouse runs"
+                    "Mouse runs",
+                    "Mouse was chased",
+                    "Cat chased mouse"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Vocabulary",
                 "emoji": "🔤📚",
                 "question": "What type of pronoun is 'myself'?",
                 "options": [
-                    "Personal",
-                    "Possessive",
                     "Reflexive",
-                    "Demonstrative"
+                    "Demonstrative",
+                    "Personal",
+                    "Possessive"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Vocabulary",
@@ -2849,9 +2849,9 @@ const englishQuestions = {
                 "question": "What device compares using 'like' or 'as'?",
                 "options": [
                     "Metaphor",
-                    "Simile",
+                    "Alliteration",
                     "Personification",
-                    "Alliteration"
+                    "Simile"
                 ],
                 "correct": 0
             },
@@ -2860,12 +2860,12 @@ const englishQuestions = {
                 "emoji": "🔤📚",
                 "question": "Ch6: Which uses correct subject-verb agreement?",
                 "options": [
-                    "Dogs runs",
-                    "Dog run",
+                    "Dogs is running",
                     "Dog runs",
-                    "Dogs is running"
+                    "Dogs runs",
+                    "Dog run"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "expert": [
@@ -2874,12 +2874,12 @@ const englishQuestions = {
                 "emoji": "🔤📚",
                 "question": "Vocabulary Building expert question 10?",
                 "options": [
-                    "D",
                     "B",
+                    "A",
                     "C",
-                    "A"
+                    "D"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Vocabulary",
@@ -2887,35 +2887,35 @@ const englishQuestions = {
                 "question": "What is emotional atmosphere called?",
                 "options": [
                     "Theme",
-                    "Tone",
+                    "Setting",
                     "Mood",
-                    "Setting"
+                    "Tone"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Vocabulary",
                 "emoji": "🔤📚",
                 "question": "Which shows alliteration?",
                 "options": [
-                    "Wind whispered",
-                    "Peter Piper picked",
                     "Time flies",
-                    "Happy clam"
+                    "Happy clam",
+                    "Wind whispered",
+                    "Peter Piper picked"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Vocabulary",
                 "emoji": "🔤📚",
                 "question": "Ch6: What is a dangling modifier?",
                 "options": [
+                    "Multiple modifiers",
                     "Clear modifier",
-                    "Misplaced modifier",
                     "End modifier",
-                    "Multiple modifiers"
+                    "Misplaced modifier"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Vocabulary",
@@ -2923,47 +2923,47 @@ const englishQuestions = {
                 "question": "Which uses parallel structure?",
                 "options": [
                     "Reading, writing, to swim",
-                    "Reading, writing, swimming",
+                    "Read, write, swimming",
                     "To read, writing, swim",
-                    "Read, write, swimming"
+                    "Reading, writing, swimming"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Vocabulary",
                 "emoji": "🔤📚",
                 "question": "What is an oxymoron?",
                 "options": [
+                    "Exaggeration",
                     "Like comparison",
                     "Contradictory terms",
-                    "Exaggeration",
                     "Sound repetition"
-                ],
-                "correct": 0
-            },
-            {
-                "topic": "Vocabulary",
-                "emoji": "🔤📚",
-                "question": "What gives human traits to non-humans?",
-                "options": [
-                    "Simile",
-                    "Metaphor",
-                    "Personification",
-                    "Hyperbole"
                 ],
                 "correct": 1
             },
             {
                 "topic": "Vocabulary",
                 "emoji": "🔤📚",
+                "question": "What gives human traits to non-humans?",
+                "options": [
+                    "Personification",
+                    "Hyperbole",
+                    "Metaphor",
+                    "Simile"
+                ],
+                "correct": 2
+            },
+            {
+                "topic": "Vocabulary",
+                "emoji": "🔤📚",
                 "question": "What does a gerund function as?",
                 "options": [
-                    "Verb",
-                    "Noun",
+                    "Adverb",
                     "Adjective",
-                    "Adverb"
+                    "Verb",
+                    "Noun"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Vocabulary",
@@ -2983,11 +2983,11 @@ const englishQuestions = {
                 "question": "What is an example of synecdoche?",
                 "options": [
                     "Pen vs sword",
-                    "All hands on deck",
+                    "Busy bee",
                     "Time flies",
-                    "Busy bee"
+                    "All hands on deck"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "extreme": [
@@ -3080,20 +3080,20 @@ const englishQuestions = {
                 "emoji": "📖👁️",
                 "question": "Is it correct that is 'run' a verb?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Reading",
                 "emoji": "📖👁️",
                 "question": "Ch7: Are commas used to separate list items?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Reading",
@@ -3130,30 +3130,30 @@ const englishQuestions = {
                 "emoji": "📖👁️",
                 "question": "Do sentences begin with capital letters in your opinion?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Reading",
                 "emoji": "📖👁️",
                 "question": "Do you think 'quickly' an adverb?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Reading",
                 "emoji": "📖👁️",
                 "question": "Would you say every sentence need a verb?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -3162,20 +3162,20 @@ const englishQuestions = {
                 "emoji": "📖👁️",
                 "question": "Reading Comprehension question 10?",
                 "options": [
-                    "Option A",
-                    "Option B"
+                    "Option B",
+                    "Option A"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Reading",
                 "emoji": "📖👁️",
                 "question": "Ch7: What expresses a complete thought?",
                 "options": [
-                    "Phrase",
-                    "Sentence",
                     "Word",
-                    "Fragment"
+                    "Sentence",
+                    "Fragment",
+                    "Phrase"
                 ],
                 "correct": 1
             },
@@ -3184,12 +3184,12 @@ const englishQuestions = {
                 "emoji": "📖👁️",
                 "question": "Ch7: Which shows correct capitalization?",
                 "options": [
-                    "i went home",
                     "I Went Home",
+                    "i Went home",
                     "I went home",
-                    "i Went home"
+                    "i went home"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Reading",
@@ -3197,71 +3197,71 @@ const englishQuestions = {
                 "question": "Is it correct that what type of word modifies a verb?",
                 "options": [
                     "Adjective",
-                    "Adverb",
                     "Noun",
-                    "Pronoun"
+                    "Pronoun",
+                    "Adverb"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Reading",
                 "emoji": "📖👁️",
                 "question": "Ch7: Which word is opposite of 'hot'?",
                 "options": [
+                    "Tepid",
                     "Warm",
                     "Cool",
-                    "Cold",
-                    "Tepid"
+                    "Cold"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Reading",
                 "emoji": "📖👁️",
                 "question": "What is the past tense of 'run' generally?",
                 "options": [
-                    "Runned",
                     "Ran",
-                    "Running",
-                    "Runs"
+                    "Runs",
+                    "Runned",
+                    "Running"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Reading",
                 "emoji": "📖👁️",
                 "question": "Ch7: Which punctuation ends a question?",
                 "options": [
-                    "Period",
                     "Question mark",
                     "Exclamation",
-                    "Comma"
+                    "Comma",
+                    "Period"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Reading",
                 "emoji": "📖👁️",
                 "question": "Would you agree that what is the plural of 'child'?",
                 "options": [
+                    "Childrens",
                     "Childs",
                     "Children",
-                    "Childes",
-                    "Childrens"
+                    "Childes"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Reading",
                 "emoji": "📖👁️",
                 "question": "Which sentence is grammatically correct in your opinion?",
                 "options": [
-                    "She don't go",
-                    "She doesn't goes",
                     "She doesn't go",
-                    "She not go"
+                    "She doesn't goes",
+                    "She not go",
+                    "She don't go"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Reading",
@@ -3269,11 +3269,11 @@ const englishQuestions = {
                 "question": "Ch7: What part of speech is 'beautiful'?",
                 "options": [
                     "Noun",
+                    "Adverb",
                     "Verb",
-                    "Adjective",
-                    "Adverb"
+                    "Adjective"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "hard": [
@@ -3282,119 +3282,119 @@ const englishQuestions = {
                 "emoji": "📖👁️",
                 "question": "Reading Comprehension advanced question 10?",
                 "options": [
-                    "A",
                     "B",
+                    "A",
                     "C"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Reading",
                 "emoji": "📖👁️",
                 "question": "Ch7: Which mark shows possession?",
                 "options": [
-                    "Comma",
-                    "Apostrophe",
+                    "Semicolon",
                     "Colon",
-                    "Semicolon"
+                    "Apostrophe",
+                    "Comma"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Reading",
                 "emoji": "📖👁️",
                 "question": "Ch7: What clause can stand alone?",
                 "options": [
-                    "Dependent",
+                    "Relative",
                     "Independent",
                     "Subordinate",
-                    "Relative"
+                    "Dependent"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Reading",
                 "emoji": "📖👁️",
                 "question": "Ch7: Which is a collective noun?",
                 "options": [
-                    "Team",
-                    "Player",
+                    "Ball",
                     "Game",
-                    "Ball"
+                    "Team",
+                    "Player"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Reading",
                 "emoji": "📖👁️",
                 "question": "Is it correct that what is the superlative of 'good'?",
                 "options": [
-                    "Gooder",
-                    "More good",
                     "Best",
-                    "Better"
+                    "Better",
+                    "More good",
+                    "Gooder"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Reading",
                 "emoji": "📖👁️",
                 "question": "Ch7: Which sentence is in passive voice?",
                 "options": [
+                    "Mouse runs",
                     "Cat chased mouse",
                     "Mouse was chased",
-                    "Cat is chasing",
-                    "Mouse runs"
+                    "Cat is chasing"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Reading",
                 "emoji": "📖👁️",
                 "question": "What type of pronoun is 'myself' generally?",
                 "options": [
+                    "Demonstrative",
                     "Personal",
                     "Possessive",
-                    "Reflexive",
-                    "Demonstrative"
+                    "Reflexive"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Reading",
                 "emoji": "📖👁️",
                 "question": "Ch7: Which word means opposite of 'abundant'?",
                 "options": [
-                    "Plentiful",
                     "Scarce",
+                    "Ample",
                     "Numerous",
-                    "Ample"
+                    "Plentiful"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Reading",
                 "emoji": "📖👁️",
                 "question": "Would you agree that what device compares using 'like' or 'as'?",
                 "options": [
-                    "Metaphor",
-                    "Simile",
                     "Personification",
-                    "Alliteration"
+                    "Metaphor",
+                    "Alliteration",
+                    "Simile"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Reading",
                 "emoji": "📖👁️",
                 "question": "Which uses correct subject-verb agreement in your opinion?",
                 "options": [
-                    "Dogs runs",
-                    "Dog run",
                     "Dog runs",
-                    "Dogs is running"
+                    "Dogs is running",
+                    "Dog run",
+                    "Dogs runs"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -3405,8 +3405,8 @@ const englishQuestions = {
                 "options": [
                     "B",
                     "C",
-                    "D",
-                    "A"
+                    "A",
+                    "D"
                 ],
                 "correct": 0
             },
@@ -3415,45 +3415,45 @@ const englishQuestions = {
                 "emoji": "📖👁️",
                 "question": "Ch7: What is emotional atmosphere called?",
                 "options": [
-                    "Theme",
                     "Tone",
                     "Mood",
-                    "Setting"
-                ],
-                "correct": 1
-            },
-            {
-                "topic": "Reading",
-                "emoji": "📖👁️",
-                "question": "Ch7: Which shows alliteration?",
-                "options": [
-                    "Wind whispered",
-                    "Peter Piper picked",
-                    "Time flies",
-                    "Happy clam"
+                    "Setting",
+                    "Theme"
                 ],
                 "correct": 0
             },
             {
                 "topic": "Reading",
                 "emoji": "📖👁️",
+                "question": "Ch7: Which shows alliteration?",
+                "options": [
+                    "Peter Piper picked",
+                    "Time flies",
+                    "Happy clam",
+                    "Wind whispered"
+                ],
+                "correct": 3
+            },
+            {
+                "topic": "Reading",
+                "emoji": "📖👁️",
                 "question": "Ch7: What is a dangling modifier?",
                 "options": [
-                    "Clear modifier",
                     "Misplaced modifier",
                     "End modifier",
-                    "Multiple modifiers"
+                    "Multiple modifiers",
+                    "Clear modifier"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Reading",
                 "emoji": "📖👁️",
                 "question": "Ch7: Which uses parallel structure?",
                 "options": [
-                    "Reading, writing, to swim",
-                    "Reading, writing, swimming",
                     "To read, writing, swim",
+                    "Reading, writing, swimming",
+                    "Reading, writing, to swim",
                     "Read, write, swimming"
                 ],
                 "correct": 1
@@ -3464,8 +3464,8 @@ const englishQuestions = {
                 "question": "Is it correct that what is an oxymoron?",
                 "options": [
                     "Like comparison",
-                    "Contradictory terms",
                     "Exaggeration",
+                    "Contradictory terms",
                     "Sound repetition"
                 ],
                 "correct": 0
@@ -3475,48 +3475,48 @@ const englishQuestions = {
                 "emoji": "📖👁️",
                 "question": "Ch7: What gives human traits to non-humans?",
                 "options": [
-                    "Simile",
                     "Metaphor",
-                    "Personification",
-                    "Hyperbole"
+                    "Hyperbole",
+                    "Simile",
+                    "Personification"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Reading",
                 "emoji": "📖👁️",
                 "question": "What does a gerund function as generally?",
                 "options": [
+                    "Adverb",
                     "Verb",
-                    "Noun",
                     "Adjective",
-                    "Adverb"
+                    "Noun"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Reading",
                 "emoji": "📖👁️",
                 "question": "Ch7: What are words that sound the same but differ in meaning?",
                 "options": [
-                    "Synonyms",
-                    "Antonyms",
+                    "Acronyms",
                     "Homonyms",
-                    "Acronyms"
+                    "Antonyms",
+                    "Synonyms"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Reading",
                 "emoji": "📖👁️",
                 "question": "Would you agree that what is an example of synecdoche?",
                 "options": [
-                    "Pen vs sword",
                     "All hands on deck",
+                    "Busy bee",
                     "Time flies",
-                    "Busy bee"
+                    "Pen vs sword"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "extreme": [
@@ -3619,20 +3619,20 @@ const englishQuestions = {
                 "emoji": "🎭📝",
                 "question": "Ch8: Are commas used to separate list items?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Poetry",
                 "emoji": "🎭📝",
                 "question": "Ch8: Is 'beautiful' an adjective?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Poetry",
@@ -3679,10 +3679,10 @@ const englishQuestions = {
                 "emoji": "🎭📝",
                 "question": "Ch8: Does every sentence need a verb?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -3691,48 +3691,48 @@ const englishQuestions = {
                 "emoji": "📚✨",
                 "question": "Which word is a synonym for 'happy'?",
                 "options": [
-                    "Sad",
-                    "Joyful",
                     "Angry",
-                    "Tired"
+                    "Sad",
+                    "Tired",
+                    "Joyful"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "General",
                 "emoji": "📚✨",
                 "question": "Would you agree that what expresses a complete thought?",
                 "options": [
-                    "Phrase",
-                    "Sentence",
                     "Word",
-                    "Fragment"
+                    "Fragment",
+                    "Phrase",
+                    "Sentence"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "General",
                 "emoji": "📚✨",
                 "question": "Which shows correct capitalization in your opinion?",
                 "options": [
-                    "i went home",
-                    "I Went Home",
                     "I went home",
-                    "i Went home"
+                    "i Went home",
+                    "I Went Home",
+                    "i went home"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "General",
                 "emoji": "📚✨",
                 "question": "Ch8: What type of word modifies a verb?",
                 "options": [
-                    "Adjective",
-                    "Adverb",
                     "Noun",
-                    "Pronoun"
+                    "Adjective",
+                    "Pronoun",
+                    "Adverb"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "General",
@@ -3740,71 +3740,71 @@ const englishQuestions = {
                 "question": "Ch8: Which word is opposite of 'hot'?",
                 "options": [
                     "Warm",
-                    "Cool",
                     "Cold",
-                    "Tepid"
+                    "Tepid",
+                    "Cool"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "General",
                 "emoji": "📚✨",
                 "question": "Ch8: What is the past tense of 'run'?",
                 "options": [
-                    "Runned",
                     "Ran",
+                    "Runned",
                     "Running",
                     "Runs"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "General",
                 "emoji": "📚✨",
                 "question": "Ch8: Which punctuation ends a question?",
                 "options": [
-                    "Period",
                     "Question mark",
-                    "Exclamation",
-                    "Comma"
+                    "Comma",
+                    "Period",
+                    "Exclamation"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "General",
                 "emoji": "📚✨",
                 "question": "Is it correct that what is the plural of 'child'?",
                 "options": [
+                    "Childrens",
                     "Childs",
                     "Children",
-                    "Childes",
-                    "Childrens"
+                    "Childes"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "General",
                 "emoji": "📚✨",
                 "question": "Ch8: Which sentence is grammatically correct?",
                 "options": [
+                    "She not go",
                     "She don't go",
-                    "She doesn't goes",
                     "She doesn't go",
-                    "She not go"
+                    "She doesn't goes"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "General",
                 "emoji": "📚✨",
                 "question": "What part of speech is 'beautiful' generally?",
                 "options": [
+                    "Adverb",
                     "Noun",
                     "Verb",
-                    "Adjective",
-                    "Adverb"
+                    "Adjective"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "hard": [
@@ -3814,8 +3814,8 @@ const englishQuestions = {
                 "question": "Poetry and Figurative Language advanced question 10?",
                 "options": [
                     "B",
-                    "A",
-                    "C"
+                    "C",
+                    "A"
                 ],
                 "correct": 0
             },
@@ -3824,36 +3824,36 @@ const englishQuestions = {
                 "emoji": "🎭📝",
                 "question": "Ch8: Which mark shows possession?",
                 "options": [
-                    "Comma",
                     "Apostrophe",
+                    "Comma",
                     "Colon",
                     "Semicolon"
-                ],
-                "correct": 1
-            },
-            {
-                "topic": "Poetry",
-                "emoji": "🎭📝",
-                "question": "Would you agree that what clause can stand alone?",
-                "options": [
-                    "Dependent",
-                    "Independent",
-                    "Subordinate",
-                    "Relative"
                 ],
                 "correct": 0
             },
             {
                 "topic": "Poetry",
                 "emoji": "🎭📝",
+                "question": "Would you agree that what clause can stand alone?",
+                "options": [
+                    "Independent",
+                    "Relative",
+                    "Dependent",
+                    "Subordinate"
+                ],
+                "correct": 2
+            },
+            {
+                "topic": "Poetry",
+                "emoji": "🎭📝",
                 "question": "Which is a collective noun in your opinion?",
                 "options": [
+                    "Game",
                     "Team",
                     "Player",
-                    "Game",
                     "Ball"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Poetry",
@@ -3873,9 +3873,9 @@ const englishQuestions = {
                 "question": "Ch8: Which sentence is in passive voice?",
                 "options": [
                     "Cat chased mouse",
-                    "Mouse was chased",
                     "Cat is chasing",
-                    "Mouse runs"
+                    "Mouse runs",
+                    "Mouse was chased"
                 ],
                 "correct": 0
             },
@@ -3884,46 +3884,46 @@ const englishQuestions = {
                 "emoji": "🎭📝",
                 "question": "Ch8: What type of pronoun is 'myself'?",
                 "options": [
-                    "Personal",
                     "Possessive",
-                    "Reflexive",
-                    "Demonstrative"
+                    "Personal",
+                    "Demonstrative",
+                    "Reflexive"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Poetry",
                 "emoji": "🎭📝",
                 "question": "Ch8: Which word means opposite of 'abundant'?",
                 "options": [
-                    "Plentiful",
+                    "Ample",
                     "Scarce",
                     "Numerous",
-                    "Ample"
+                    "Plentiful"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Poetry",
                 "emoji": "🎭📝",
                 "question": "Is it correct that what device compares using 'like' or 'as'?",
                 "options": [
-                    "Metaphor",
                     "Simile",
+                    "Alliteration",
                     "Personification",
-                    "Alliteration"
+                    "Metaphor"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Poetry",
                 "emoji": "🎭📝",
                 "question": "Ch8: Which uses correct subject-verb agreement?",
                 "options": [
-                    "Dogs runs",
-                    "Dog run",
                     "Dog runs",
-                    "Dogs is running"
+                    "Dog run",
+                    "Dogs is running",
+                    "Dogs runs"
                 ],
                 "correct": 1
             }
@@ -3934,24 +3934,24 @@ const englishQuestions = {
                 "emoji": "🎭📝",
                 "question": "Poetry and Figurative Language expert question 1?",
                 "options": [
-                    "C",
                     "A",
-                    "D",
-                    "B"
+                    "C",
+                    "B",
+                    "D"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Poetry",
                 "emoji": "🎭📝",
                 "question": "Poetry and Figurative Language expert question 10?",
                 "options": [
-                    "B",
-                    "D",
                     "C",
-                    "A"
+                    "B",
+                    "A",
+                    "D"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Poetry",
@@ -3959,8 +3959,8 @@ const englishQuestions = {
                 "question": "Which shows alliteration generally?",
                 "options": [
                     "Wind whispered",
-                    "Peter Piper picked",
                     "Time flies",
+                    "Peter Piper picked",
                     "Happy clam"
                 ],
                 "correct": 0
@@ -3970,22 +3970,22 @@ const englishQuestions = {
                 "emoji": "🎭📝",
                 "question": "What can be a dangling modifier?",
                 "options": [
+                    "Multiple modifiers",
                     "Clear modifier",
                     "Misplaced modifier",
-                    "End modifier",
-                    "Multiple modifiers"
+                    "End modifier"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Poetry",
                 "emoji": "🎭📝",
                 "question": "Would you agree that which uses parallel structure?",
                 "options": [
-                    "Reading, writing, to swim",
+                    "Read, write, swimming",
                     "Reading, writing, swimming",
-                    "To read, writing, swim",
-                    "Read, write, swimming"
+                    "Reading, writing, to swim",
+                    "To read, writing, swim"
                 ],
                 "correct": 1
             },
@@ -3995,9 +3995,9 @@ const englishQuestions = {
                 "question": "What is an oxymoron in your opinion?",
                 "options": [
                     "Like comparison",
+                    "Sound repetition",
                     "Contradictory terms",
-                    "Exaggeration",
-                    "Sound repetition"
+                    "Exaggeration"
                 ],
                 "correct": 0
             },
@@ -4006,36 +4006,36 @@ const englishQuestions = {
                 "emoji": "🎭📝",
                 "question": "Ch8: What gives human traits to non-humans?",
                 "options": [
-                    "Simile",
-                    "Metaphor",
                     "Personification",
-                    "Hyperbole"
+                    "Hyperbole",
+                    "Metaphor",
+                    "Simile"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Poetry",
                 "emoji": "🎭📝",
                 "question": "Ch8: What does a gerund function as?",
                 "options": [
-                    "Verb",
                     "Noun",
                     "Adjective",
+                    "Verb",
                     "Adverb"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Poetry",
                 "emoji": "🎭📝",
                 "question": "Ch8: What are words that sound the same but differ in meaning?",
                 "options": [
-                    "Synonyms",
-                    "Antonyms",
                     "Homonyms",
-                    "Acronyms"
+                    "Acronyms",
+                    "Antonyms",
+                    "Synonyms"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Poetry",
@@ -4043,11 +4043,11 @@ const englishQuestions = {
                 "question": "Ch8: What is an example of synecdoche?",
                 "options": [
                     "Pen vs sword",
-                    "All hands on deck",
                     "Time flies",
+                    "All hands on deck",
                     "Busy bee"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -4140,10 +4140,10 @@ const englishQuestions = {
                 "emoji": "✍️📄",
                 "question": "Ch9: Is 'run' a verb?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Writing",
@@ -4160,10 +4160,10 @@ const englishQuestions = {
                 "emoji": "✍️📄",
                 "question": "Ch9: Is 'beautiful' an adjective?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Writing",
@@ -4190,20 +4190,20 @@ const englishQuestions = {
                 "emoji": "✍️📄",
                 "question": "Ch9: Do sentences begin with capital letters?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Writing",
                 "emoji": "✍️📄",
                 "question": "Ch9: Is 'quickly' an adverb?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Writing",
@@ -4232,24 +4232,24 @@ const englishQuestions = {
                 "emoji": "✍️📄",
                 "question": "Ch9: What expresses a complete thought?",
                 "options": [
-                    "Phrase",
-                    "Sentence",
                     "Word",
-                    "Fragment"
+                    "Fragment",
+                    "Phrase",
+                    "Sentence"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Writing",
                 "emoji": "✍️📄",
                 "question": "Is it correct that which shows correct capitalization?",
                 "options": [
-                    "i went home",
-                    "I Went Home",
                     "I went home",
-                    "i Went home"
+                    "i Went home",
+                    "I Went Home",
+                    "i went home"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Writing",
@@ -4268,12 +4268,12 @@ const englishQuestions = {
                 "emoji": "✍️📄",
                 "question": "Which word is opposite of 'hot' generally?",
                 "options": [
+                    "Cold",
                     "Warm",
                     "Cool",
-                    "Cold",
                     "Tepid"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Writing",
@@ -4281,9 +4281,9 @@ const englishQuestions = {
                 "question": "What can be the past tense of 'run'?",
                 "options": [
                     "Runned",
-                    "Ran",
                     "Running",
-                    "Runs"
+                    "Runs",
+                    "Ran"
                 ],
                 "correct": 0
             },
@@ -4293,11 +4293,11 @@ const englishQuestions = {
                 "question": "Would you agree that which punctuation ends a question?",
                 "options": [
                     "Period",
-                    "Question mark",
                     "Exclamation",
+                    "Question mark",
                     "Comma"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Writing",
@@ -4305,8 +4305,8 @@ const englishQuestions = {
                 "question": "What is the plural of 'child' in your opinion?",
                 "options": [
                     "Childs",
-                    "Children",
                     "Childes",
+                    "Children",
                     "Childrens"
                 ],
                 "correct": 0
@@ -4316,24 +4316,24 @@ const englishQuestions = {
                 "emoji": "✍️📄",
                 "question": "Ch9: Which sentence is grammatically correct?",
                 "options": [
-                    "She don't go",
                     "She doesn't goes",
                     "She doesn't go",
+                    "She don't go",
                     "She not go"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Writing",
                 "emoji": "✍️📄",
                 "question": "Ch9: What part of speech is 'beautiful'?",
                 "options": [
-                    "Noun",
                     "Verb",
-                    "Adjective",
-                    "Adverb"
+                    "Noun",
+                    "Adverb",
+                    "Adjective"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -4353,36 +4353,36 @@ const englishQuestions = {
                 "emoji": "✍️📄",
                 "question": "Ch9: Which mark shows possession?",
                 "options": [
-                    "Comma",
                     "Apostrophe",
+                    "Comma",
                     "Colon",
                     "Semicolon"
-                ],
-                "correct": 1
-            },
-            {
-                "topic": "Writing",
-                "emoji": "✍️📄",
-                "question": "Ch9: What clause can stand alone?",
-                "options": [
-                    "Dependent",
-                    "Independent",
-                    "Subordinate",
-                    "Relative"
                 ],
                 "correct": 0
             },
             {
                 "topic": "Writing",
                 "emoji": "✍️📄",
+                "question": "Ch9: What clause can stand alone?",
+                "options": [
+                    "Independent",
+                    "Relative",
+                    "Subordinate",
+                    "Dependent"
+                ],
+                "correct": 3
+            },
+            {
+                "topic": "Writing",
+                "emoji": "✍️📄",
                 "question": "Is it correct that which is a collective noun?",
                 "options": [
+                    "Game",
                     "Team",
                     "Player",
-                    "Game",
                     "Ball"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Writing",
@@ -4390,23 +4390,23 @@ const englishQuestions = {
                 "question": "Ch9: What is the superlative of 'good'?",
                 "options": [
                     "Gooder",
-                    "More good",
                     "Best",
+                    "More good",
                     "Better"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Writing",
                 "emoji": "✍️📄",
                 "question": "Which sentence is in passive voice generally?",
                 "options": [
-                    "Cat chased mouse",
-                    "Mouse was chased",
                     "Cat is chasing",
+                    "Mouse was chased",
+                    "Cat chased mouse",
                     "Mouse runs"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Writing",
@@ -4414,47 +4414,47 @@ const englishQuestions = {
                 "question": "What type of pronoun can be 'myself'?",
                 "options": [
                     "Personal",
-                    "Possessive",
                     "Reflexive",
+                    "Possessive",
                     "Demonstrative"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Writing",
                 "emoji": "✍️📄",
                 "question": "Would you agree that which word means opposite of 'abundant'?",
                 "options": [
-                    "Plentiful",
+                    "Ample",
                     "Scarce",
                     "Numerous",
-                    "Ample"
+                    "Plentiful"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Writing",
                 "emoji": "✍️📄",
                 "question": "What device compares using 'like' or 'as' in your opinion?",
                 "options": [
-                    "Metaphor",
-                    "Simile",
                     "Personification",
-                    "Alliteration"
+                    "Alliteration",
+                    "Metaphor",
+                    "Simile"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Writing",
                 "emoji": "✍️📄",
                 "question": "Ch9: Which uses correct subject-verb agreement?",
                 "options": [
+                    "Dog runs",
                     "Dogs runs",
                     "Dog run",
-                    "Dog runs",
                     "Dogs is running"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -4463,12 +4463,12 @@ const englishQuestions = {
                 "emoji": "✍️📄",
                 "question": "Writing Techniques expert question 10?",
                 "options": [
-                    "B",
                     "A",
-                    "C",
-                    "D"
+                    "B",
+                    "D",
+                    "C"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Writing",
@@ -4476,11 +4476,11 @@ const englishQuestions = {
                 "question": "Ch9: What is emotional atmosphere called?",
                 "options": [
                     "Theme",
-                    "Tone",
                     "Mood",
+                    "Tone",
                     "Setting"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Writing",
@@ -4488,9 +4488,9 @@ const englishQuestions = {
                 "question": "Ch9: Which shows alliteration?",
                 "options": [
                     "Wind whispered",
-                    "Peter Piper picked",
+                    "Happy clam",
                     "Time flies",
-                    "Happy clam"
+                    "Peter Piper picked"
                 ],
                 "correct": 0
             },
@@ -4499,22 +4499,22 @@ const englishQuestions = {
                 "emoji": "✍️📄",
                 "question": "Ch9: What is a dangling modifier?",
                 "options": [
-                    "Clear modifier",
                     "Misplaced modifier",
-                    "End modifier",
-                    "Multiple modifiers"
+                    "Clear modifier",
+                    "Multiple modifiers",
+                    "End modifier"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Writing",
                 "emoji": "✍️📄",
                 "question": "Is it correct that which uses parallel structure?",
                 "options": [
-                    "Reading, writing, to swim",
+                    "Read, write, swimming",
                     "Reading, writing, swimming",
                     "To read, writing, swim",
-                    "Read, write, swimming"
+                    "Reading, writing, to swim"
                 ],
                 "correct": 1
             },
@@ -4524,9 +4524,9 @@ const englishQuestions = {
                 "question": "Ch9: What is an oxymoron?",
                 "options": [
                     "Like comparison",
-                    "Contradictory terms",
+                    "Sound repetition",
                     "Exaggeration",
-                    "Sound repetition"
+                    "Contradictory terms"
                 ],
                 "correct": 0
             },
@@ -4535,12 +4535,12 @@ const englishQuestions = {
                 "emoji": "✍️📄",
                 "question": "What gives human traits to non-humans generally?",
                 "options": [
-                    "Simile",
-                    "Metaphor",
+                    "Hyperbole",
                     "Personification",
-                    "Hyperbole"
+                    "Metaphor",
+                    "Simile"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Writing",
@@ -4548,8 +4548,8 @@ const englishQuestions = {
                 "question": "Ch9: What does a gerund function as?",
                 "options": [
                     "Verb",
-                    "Noun",
                     "Adjective",
+                    "Noun",
                     "Adverb"
                 ],
                 "correct": 0
@@ -4559,24 +4559,24 @@ const englishQuestions = {
                 "emoji": "✍️📄",
                 "question": "Would you agree that what are words that sound the same but differ in meaning?",
                 "options": [
-                    "Synonyms",
                     "Antonyms",
+                    "Synonyms",
                     "Homonyms",
                     "Acronyms"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Writing",
                 "emoji": "✍️📄",
                 "question": "What is an example of synecdoche in your opinion?",
                 "options": [
-                    "Pen vs sword",
-                    "All hands on deck",
                     "Time flies",
-                    "Busy bee"
+                    "Busy bee",
+                    "All hands on deck",
+                    "Pen vs sword"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -4649,10 +4649,10 @@ const englishQuestions = {
                 "emoji": "📚🎭",
                 "question": "Is literature Genres topic 10?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Literature",
@@ -4669,30 +4669,30 @@ const englishQuestions = {
                 "emoji": "📚🎭",
                 "question": "Ch10: Is 'run' a verb?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Literature",
                 "emoji": "📚🎭",
                 "question": "Would you consider commas used to separate list items?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Literature",
                 "emoji": "📚🎭",
                 "question": "Ch10: Is 'beautiful' an adjective?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Literature",
@@ -4729,20 +4729,20 @@ const englishQuestions = {
                 "emoji": "📚🎭",
                 "question": "Ch10: Is 'quickly' an adverb?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Literature",
                 "emoji": "📚🎭",
                 "question": "Would you agree that does every sentence need a verb?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -4775,8 +4775,8 @@ const englishQuestions = {
                 "options": [
                     "i went home",
                     "I Went Home",
-                    "I went home",
-                    "i Went home"
+                    "i Went home",
+                    "I went home"
                 ],
                 "correct": 0
             },
@@ -4785,10 +4785,10 @@ const englishQuestions = {
                 "emoji": "📚🎭",
                 "question": "Ch10: What type of word modifies a verb?",
                 "options": [
-                    "Adjective",
+                    "Pronoun",
                     "Adverb",
-                    "Noun",
-                    "Pronoun"
+                    "Adjective",
+                    "Noun"
                 ],
                 "correct": 1
             },
@@ -4809,24 +4809,24 @@ const englishQuestions = {
                 "emoji": "📚🎭",
                 "question": "Ch10: What is the past tense of 'run'?",
                 "options": [
-                    "Runned",
                     "Ran",
+                    "Runs",
                     "Running",
-                    "Runs"
+                    "Runned"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Literature",
                 "emoji": "📚🎭",
                 "question": "Is it correct that which punctuation ends a question?",
                 "options": [
-                    "Period",
-                    "Question mark",
+                    "Comma",
                     "Exclamation",
-                    "Comma"
+                    "Period",
+                    "Question mark"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Literature",
@@ -4834,9 +4834,9 @@ const englishQuestions = {
                 "question": "Ch10: What is the plural of 'child'?",
                 "options": [
                     "Childs",
-                    "Children",
+                    "Childrens",
                     "Childes",
-                    "Childrens"
+                    "Children"
                 ],
                 "correct": 0
             },
@@ -4845,24 +4845,24 @@ const englishQuestions = {
                 "emoji": "📚🎭",
                 "question": "Which sentence is grammatically correct generally?",
                 "options": [
-                    "She don't go",
-                    "She doesn't goes",
                     "She doesn't go",
+                    "She doesn't goes",
+                    "She don't go",
                     "She not go"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Literature",
                 "emoji": "📚🎭",
                 "question": "What part of speech can be 'beautiful'?",
                 "options": [
-                    "Noun",
                     "Verb",
-                    "Adjective",
-                    "Adverb"
+                    "Noun",
+                    "Adverb",
+                    "Adjective"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -4871,11 +4871,11 @@ const englishQuestions = {
                 "emoji": "📚🎭",
                 "question": "Literature Genres advanced question 10?",
                 "options": [
-                    "B",
+                    "C",
                     "A",
-                    "C"
+                    "B"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Literature",
@@ -4883,33 +4883,33 @@ const englishQuestions = {
                 "question": "Would you agree that which mark shows possession?",
                 "options": [
                     "Comma",
-                    "Apostrophe",
                     "Colon",
-                    "Semicolon"
+                    "Semicolon",
+                    "Apostrophe"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Literature",
                 "emoji": "📚🎭",
                 "question": "What clause can stand alone in your opinion?",
                 "options": [
-                    "Dependent",
+                    "Relative",
                     "Independent",
                     "Subordinate",
-                    "Relative"
+                    "Dependent"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Literature",
                 "emoji": "📚🎭",
                 "question": "Ch10: Which is a collective noun?",
                 "options": [
-                    "Team",
+                    "Ball",
                     "Player",
                     "Game",
-                    "Ball"
+                    "Team"
                 ],
                 "correct": 1
             },
@@ -4918,72 +4918,72 @@ const englishQuestions = {
                 "emoji": "📚🎭",
                 "question": "Ch10: What is the superlative of 'good'?",
                 "options": [
-                    "Gooder",
-                    "More good",
+                    "Better",
                     "Best",
-                    "Better"
+                    "More good",
+                    "Gooder"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Literature",
                 "emoji": "📚🎭",
                 "question": "Ch10: Which sentence is in passive voice?",
                 "options": [
-                    "Cat chased mouse",
                     "Mouse was chased",
-                    "Cat is chasing",
-                    "Mouse runs"
+                    "Cat chased mouse",
+                    "Mouse runs",
+                    "Cat is chasing"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Literature",
                 "emoji": "📚🎭",
                 "question": "Ch10: What type of pronoun is 'myself'?",
                 "options": [
+                    "Reflexive",
                     "Personal",
                     "Possessive",
-                    "Reflexive",
                     "Demonstrative"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Literature",
                 "emoji": "📚🎭",
                 "question": "Is it correct that which word means opposite of 'abundant'?",
                 "options": [
-                    "Plentiful",
                     "Scarce",
-                    "Numerous",
-                    "Ample"
+                    "Ample",
+                    "Plentiful",
+                    "Numerous"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Literature",
                 "emoji": "📚🎭",
                 "question": "Ch10: What device compares using 'like' or 'as'?",
                 "options": [
+                    "Alliteration",
                     "Metaphor",
                     "Simile",
-                    "Personification",
-                    "Alliteration"
+                    "Personification"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Literature",
                 "emoji": "📚🎭",
                 "question": "Which uses correct subject-verb agreement generally?",
                 "options": [
+                    "Dog runs",
                     "Dogs runs",
                     "Dog run",
-                    "Dog runs",
                     "Dogs is running"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -4992,81 +4992,81 @@ const englishQuestions = {
                 "emoji": "📚🎭",
                 "question": "Literature Genres expert question 10?",
                 "options": [
-                    "B",
-                    "D",
                     "A",
-                    "C"
+                    "C",
+                    "B",
+                    "D"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Literature",
                 "emoji": "📚🎭",
                 "question": "What can be emotional atmosphere called?",
                 "options": [
+                    "Setting",
                     "Theme",
                     "Tone",
-                    "Mood",
-                    "Setting"
+                    "Mood"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Literature",
                 "emoji": "📚🎭",
                 "question": "Would you agree that which shows alliteration?",
                 "options": [
-                    "Wind whispered",
-                    "Peter Piper picked",
+                    "Happy clam",
                     "Time flies",
-                    "Happy clam"
+                    "Peter Piper picked",
+                    "Wind whispered"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Literature",
                 "emoji": "📚🎭",
                 "question": "What is a dangling modifier in your opinion?",
                 "options": [
+                    "Multiple modifiers",
                     "Clear modifier",
-                    "Misplaced modifier",
                     "End modifier",
-                    "Multiple modifiers"
+                    "Misplaced modifier"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Literature",
                 "emoji": "📚🎭",
                 "question": "Ch10: Which uses parallel structure?",
                 "options": [
-                    "Reading, writing, to swim",
                     "Reading, writing, swimming",
+                    "Reading, writing, to swim",
                     "To read, writing, swim",
                     "Read, write, swimming"
-                ],
-                "correct": 1
-            },
-            {
-                "topic": "Literature",
-                "emoji": "📚🎭",
-                "question": "Ch10: What is an oxymoron?",
-                "options": [
-                    "Like comparison",
-                    "Contradictory terms",
-                    "Exaggeration",
-                    "Sound repetition"
                 ],
                 "correct": 0
             },
             {
                 "topic": "Literature",
                 "emoji": "📚🎭",
+                "question": "Ch10: What is an oxymoron?",
+                "options": [
+                    "Contradictory terms",
+                    "Like comparison",
+                    "Exaggeration",
+                    "Sound repetition"
+                ],
+                "correct": 1
+            },
+            {
+                "topic": "Literature",
+                "emoji": "📚🎭",
                 "question": "Ch10: What gives human traits to non-humans?",
                 "options": [
-                    "Simile",
-                    "Metaphor",
                     "Personification",
+                    "Metaphor",
+                    "Simile",
                     "Hyperbole"
                 ],
                 "correct": 1
@@ -5076,24 +5076,24 @@ const englishQuestions = {
                 "emoji": "📚🎭",
                 "question": "Ch10: What does a gerund function as?",
                 "options": [
-                    "Verb",
                     "Noun",
+                    "Adverb",
                     "Adjective",
-                    "Adverb"
+                    "Verb"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Literature",
                 "emoji": "📚🎭",
                 "question": "Is it correct that what are words that sound the same but differ in meaning?",
                 "options": [
+                    "Acronyms",
                     "Synonyms",
                     "Antonyms",
-                    "Homonyms",
-                    "Acronyms"
+                    "Homonyms"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Literature",
@@ -5101,11 +5101,11 @@ const englishQuestions = {
                 "question": "Ch10: What is an example of synecdoche?",
                 "options": [
                     "Pen vs sword",
-                    "All hands on deck",
                     "Time flies",
-                    "Busy bee"
+                    "Busy bee",
+                    "All hands on deck"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "extreme": [
@@ -5178,10 +5178,10 @@ const englishQuestions = {
                 "emoji": "📖🏛️",
                 "question": "Is classic Literature topic 10?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Classic",
@@ -5198,10 +5198,10 @@ const englishQuestions = {
                 "emoji": "📖🏛️",
                 "question": "Ch11: Is 'run' a verb?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Classic",
@@ -5291,23 +5291,23 @@ const englishQuestions = {
                 "question": "Ch11: What expresses a complete thought?",
                 "options": [
                     "Phrase",
+                    "Fragment",
                     "Sentence",
-                    "Word",
-                    "Fragment"
+                    "Word"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Classic",
                 "emoji": "📖🏛️",
                 "question": "Which shows correct capitalization generally?",
                 "options": [
-                    "i went home",
-                    "I Went Home",
                     "I went home",
-                    "i Went home"
+                    "I Went Home",
+                    "i Went home",
+                    "i went home"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Classic",
@@ -5326,70 +5326,70 @@ const englishQuestions = {
                 "emoji": "📖🏛️",
                 "question": "Would you agree that which word is opposite of 'hot'?",
                 "options": [
-                    "Warm",
                     "Cool",
                     "Cold",
-                    "Tepid"
+                    "Tepid",
+                    "Warm"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Classic",
                 "emoji": "📖🏛️",
                 "question": "What is the past tense of 'run' in your opinion?",
                 "options": [
-                    "Runned",
                     "Ran",
+                    "Runned",
                     "Running",
                     "Runs"
-                ],
-                "correct": 0
-            },
-            {
-                "topic": "Classic",
-                "emoji": "📖🏛️",
-                "question": "Ch11: Which punctuation ends a question?",
-                "options": [
-                    "Period",
-                    "Question mark",
-                    "Exclamation",
-                    "Comma"
                 ],
                 "correct": 1
             },
             {
                 "topic": "Classic",
                 "emoji": "📖🏛️",
+                "question": "Ch11: Which punctuation ends a question?",
+                "options": [
+                    "Exclamation",
+                    "Period",
+                    "Question mark",
+                    "Comma"
+                ],
+                "correct": 2
+            },
+            {
+                "topic": "Classic",
+                "emoji": "📖🏛️",
                 "question": "Ch11: What is the plural of 'child'?",
                 "options": [
+                    "Childrens",
                     "Childs",
                     "Children",
-                    "Childes",
-                    "Childrens"
+                    "Childes"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Classic",
                 "emoji": "📖🏛️",
                 "question": "Ch11: Which sentence is grammatically correct?",
                 "options": [
-                    "She don't go",
-                    "She doesn't goes",
+                    "She not go",
                     "She doesn't go",
-                    "She not go"
+                    "She doesn't goes",
+                    "She don't go"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Classic",
                 "emoji": "📖🏛️",
                 "question": "Ch11: What part of speech is 'beautiful'?",
                 "options": [
-                    "Noun",
-                    "Verb",
                     "Adjective",
-                    "Adverb"
+                    "Verb",
+                    "Adverb",
+                    "Noun"
                 ],
                 "correct": 1
             }
@@ -5411,60 +5411,60 @@ const englishQuestions = {
                 "emoji": "📖🏛️",
                 "question": "Is it correct that which mark shows possession?",
                 "options": [
-                    "Comma",
                     "Apostrophe",
-                    "Colon",
-                    "Semicolon"
+                    "Comma",
+                    "Semicolon",
+                    "Colon"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Classic",
                 "emoji": "📖🏛️",
                 "question": "Ch11: What clause can stand alone?",
                 "options": [
-                    "Dependent",
-                    "Independent",
+                    "Relative",
                     "Subordinate",
-                    "Relative"
+                    "Dependent",
+                    "Independent"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Classic",
                 "emoji": "📖🏛️",
                 "question": "Which is a collective noun generally?",
                 "options": [
-                    "Team",
-                    "Player",
                     "Game",
-                    "Ball"
+                    "Ball",
+                    "Team",
+                    "Player"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Classic",
                 "emoji": "📖🏛️",
                 "question": "What can be the superlative of 'good'?",
                 "options": [
-                    "Gooder",
-                    "More good",
+                    "Better",
                     "Best",
-                    "Better"
+                    "Gooder",
+                    "More good"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Classic",
                 "emoji": "📖🏛️",
                 "question": "Would you agree that which sentence is in passive voice?",
                 "options": [
-                    "Cat chased mouse",
                     "Mouse was chased",
                     "Cat is chasing",
+                    "Cat chased mouse",
                     "Mouse runs"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Classic",
@@ -5472,47 +5472,47 @@ const englishQuestions = {
                 "question": "What type of pronoun is 'myself' in your opinion?",
                 "options": [
                     "Personal",
-                    "Possessive",
+                    "Demonstrative",
                     "Reflexive",
-                    "Demonstrative"
+                    "Possessive"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Classic",
                 "emoji": "📖🏛️",
                 "question": "Ch11: Which word means opposite of 'abundant'?",
                 "options": [
+                    "Numerous",
                     "Plentiful",
                     "Scarce",
-                    "Numerous",
                     "Ample"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Classic",
                 "emoji": "📖🏛️",
                 "question": "Ch11: What device compares using 'like' or 'as'?",
                 "options": [
-                    "Metaphor",
-                    "Simile",
+                    "Alliteration",
                     "Personification",
-                    "Alliteration"
+                    "Metaphor",
+                    "Simile"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Classic",
                 "emoji": "📖🏛️",
                 "question": "Ch11: Which uses correct subject-verb agreement?",
                 "options": [
-                    "Dogs runs",
                     "Dog run",
-                    "Dog runs",
-                    "Dogs is running"
+                    "Dogs is running",
+                    "Dogs runs",
+                    "Dog runs"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -5521,12 +5521,12 @@ const englishQuestions = {
                 "emoji": "📖🏛️",
                 "question": "Classic Literature expert question 10?",
                 "options": [
-                    "B",
                     "A",
-                    "D",
-                    "C"
+                    "B",
+                    "C",
+                    "D"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Classic",
@@ -5534,47 +5534,47 @@ const englishQuestions = {
                 "question": "Ch11: What is emotional atmosphere called?",
                 "options": [
                     "Theme",
-                    "Tone",
                     "Mood",
+                    "Tone",
                     "Setting"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Classic",
                 "emoji": "📖🏛️",
                 "question": "Is it correct that which shows alliteration?",
                 "options": [
-                    "Wind whispered",
-                    "Peter Piper picked",
                     "Time flies",
-                    "Happy clam"
+                    "Wind whispered",
+                    "Happy clam",
+                    "Peter Piper picked"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Classic",
                 "emoji": "📖🏛️",
                 "question": "Ch11: What is a dangling modifier?",
                 "options": [
-                    "Clear modifier",
-                    "Misplaced modifier",
                     "End modifier",
-                    "Multiple modifiers"
+                    "Multiple modifiers",
+                    "Misplaced modifier",
+                    "Clear modifier"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Classic",
                 "emoji": "📖🏛️",
                 "question": "Which uses parallel structure generally?",
                 "options": [
-                    "Reading, writing, to swim",
                     "Reading, writing, swimming",
-                    "To read, writing, swim",
-                    "Read, write, swimming"
+                    "Reading, writing, to swim",
+                    "Read, write, swimming",
+                    "To read, writing, swim"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Classic",
@@ -5583,8 +5583,8 @@ const englishQuestions = {
                 "options": [
                     "Like comparison",
                     "Contradictory terms",
-                    "Exaggeration",
-                    "Sound repetition"
+                    "Sound repetition",
+                    "Exaggeration"
                 ],
                 "correct": 0
             },
@@ -5593,10 +5593,10 @@ const englishQuestions = {
                 "emoji": "📖🏛️",
                 "question": "Would you agree that what gives human traits to non-humans?",
                 "options": [
-                    "Simile",
-                    "Metaphor",
                     "Personification",
-                    "Hyperbole"
+                    "Metaphor",
+                    "Hyperbole",
+                    "Simile"
                 ],
                 "correct": 1
             },
@@ -5606,9 +5606,9 @@ const englishQuestions = {
                 "question": "What does a gerund function as in your opinion?",
                 "options": [
                     "Verb",
-                    "Noun",
+                    "Adverb",
                     "Adjective",
-                    "Adverb"
+                    "Noun"
                 ],
                 "correct": 0
             },
@@ -5617,12 +5617,12 @@ const englishQuestions = {
                 "emoji": "📖🏛️",
                 "question": "Ch11: What are words that sound the same but differ in meaning?",
                 "options": [
-                    "Synonyms",
                     "Antonyms",
-                    "Homonyms",
-                    "Acronyms"
+                    "Acronyms",
+                    "Synonyms",
+                    "Homonyms"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Classic",
@@ -5630,11 +5630,11 @@ const englishQuestions = {
                 "question": "Ch11: What is an example of synecdoche?",
                 "options": [
                     "Pen vs sword",
-                    "All hands on deck",
                     "Time flies",
-                    "Busy bee"
+                    "Busy bee",
+                    "All hands on deck"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "extreme": [
@@ -5727,10 +5727,10 @@ const englishQuestions = {
                 "emoji": "📚🆕",
                 "question": "Ch12: Is 'run' a verb?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Modern",
@@ -5747,20 +5747,20 @@ const englishQuestions = {
                 "emoji": "📚🆕",
                 "question": "Ch12: Is 'beautiful' an adjective?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Modern",
                 "emoji": "📚🆕",
                 "question": "Do questions end with question marks generally?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Modern",
@@ -5797,10 +5797,10 @@ const englishQuestions = {
                 "emoji": "📚🆕",
                 "question": "Ch12: Does every sentence need a verb?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -5809,44 +5809,44 @@ const englishQuestions = {
                 "emoji": "📚🆕",
                 "question": "Modern Literature question 10?",
                 "options": [
-                    "Option B",
-                    "Option A"
-                ],
-                "correct": 0
-            },
-            {
-                "topic": "Modern",
-                "emoji": "📚🆕",
-                "question": "Ch12: What expresses a complete thought?",
-                "options": [
-                    "Phrase",
-                    "Sentence",
-                    "Word",
-                    "Fragment"
+                    "Option A",
+                    "Option B"
                 ],
                 "correct": 1
             },
             {
                 "topic": "Modern",
                 "emoji": "📚🆕",
+                "question": "Ch12: What expresses a complete thought?",
+                "options": [
+                    "Fragment",
+                    "Word",
+                    "Phrase",
+                    "Sentence"
+                ],
+                "correct": 3
+            },
+            {
+                "topic": "Modern",
+                "emoji": "📚🆕",
                 "question": "Ch12: Which shows correct capitalization?",
                 "options": [
-                    "i went home",
                     "I Went Home",
+                    "i Went home",
                     "I went home",
-                    "i Went home"
+                    "i went home"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Modern",
                 "emoji": "📚🆕",
                 "question": "Ch12: What type of word modifies a verb?",
                 "options": [
-                    "Adjective",
+                    "Pronoun",
                     "Adverb",
-                    "Noun",
-                    "Pronoun"
+                    "Adjective",
+                    "Noun"
                 ],
                 "correct": 1
             },
@@ -5855,72 +5855,72 @@ const englishQuestions = {
                 "emoji": "📚🆕",
                 "question": "Is it correct that which word is opposite of 'hot'?",
                 "options": [
-                    "Warm",
-                    "Cool",
                     "Cold",
-                    "Tepid"
+                    "Warm",
+                    "Tepid",
+                    "Cool"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Modern",
                 "emoji": "📚🆕",
                 "question": "Ch12: What is the past tense of 'run'?",
                 "options": [
-                    "Runned",
-                    "Ran",
                     "Running",
-                    "Runs"
+                    "Ran",
+                    "Runs",
+                    "Runned"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Modern",
                 "emoji": "📚🆕",
                 "question": "Which punctuation ends a question generally?",
                 "options": [
-                    "Period",
                     "Question mark",
-                    "Exclamation",
-                    "Comma"
+                    "Comma",
+                    "Period",
+                    "Exclamation"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Modern",
                 "emoji": "📚🆕",
                 "question": "What can be the plural of 'child'?",
                 "options": [
-                    "Childs",
+                    "Childrens",
                     "Children",
                     "Childes",
-                    "Childrens"
+                    "Childs"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Modern",
                 "emoji": "📚🆕",
                 "question": "Would you agree that which sentence is grammatically correct?",
                 "options": [
-                    "She don't go",
-                    "She doesn't goes",
                     "She doesn't go",
-                    "She not go"
+                    "She don't go",
+                    "She not go",
+                    "She doesn't goes"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Modern",
                 "emoji": "📚🆕",
                 "question": "Do you think what part of speech is 'beautiful' in your opinion?",
                 "options": [
-                    "Noun",
                     "Verb",
-                    "Adjective",
-                    "Adverb"
+                    "Noun",
+                    "Adverb",
+                    "Adjective"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -5929,48 +5929,48 @@ const englishQuestions = {
                 "emoji": "📚✨",
                 "question": "What is the past participle of 'go'?",
                 "options": [
-                    "Went",
                     "Gone",
-                    "Going",
-                    "Goes"
+                    "Goes",
+                    "Went",
+                    "Going"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "General",
                 "emoji": "📚✨",
                 "question": "Ch12: Which mark shows possession?",
                 "options": [
-                    "Comma",
                     "Apostrophe",
+                    "Comma",
                     "Colon",
                     "Semicolon"
-                ],
-                "correct": 1
-            },
-            {
-                "topic": "General",
-                "emoji": "📚✨",
-                "question": "Ch12: What clause can stand alone?",
-                "options": [
-                    "Dependent",
-                    "Independent",
-                    "Subordinate",
-                    "Relative"
                 ],
                 "correct": 0
             },
             {
                 "topic": "General",
                 "emoji": "📚✨",
+                "question": "Ch12: What clause can stand alone?",
+                "options": [
+                    "Independent",
+                    "Subordinate",
+                    "Dependent",
+                    "Relative"
+                ],
+                "correct": 2
+            },
+            {
+                "topic": "General",
+                "emoji": "📚✨",
                 "question": "Ch12: Which is a collective noun?",
                 "options": [
-                    "Team",
                     "Player",
-                    "Game",
-                    "Ball"
+                    "Ball",
+                    "Team",
+                    "Game"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "General",
@@ -5989,60 +5989,60 @@ const englishQuestions = {
                 "emoji": "📚✨",
                 "question": "Is it correct that which sentence is in passive voice?",
                 "options": [
-                    "Cat chased mouse",
-                    "Mouse was chased",
+                    "Mouse runs",
                     "Cat is chasing",
-                    "Mouse runs"
+                    "Mouse was chased",
+                    "Cat chased mouse"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "General",
                 "emoji": "📚✨",
                 "question": "Ch12: What type of pronoun is 'myself'?",
                 "options": [
+                    "Reflexive",
                     "Personal",
                     "Possessive",
-                    "Reflexive",
                     "Demonstrative"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "General",
                 "emoji": "📚✨",
                 "question": "Which word means opposite of 'abundant' generally?",
                 "options": [
-                    "Plentiful",
-                    "Scarce",
                     "Numerous",
+                    "Scarce",
+                    "Plentiful",
                     "Ample"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "General",
                 "emoji": "📚✨",
                 "question": "Ch12: What device compares using 'like' or 'as'?",
                 "options": [
-                    "Metaphor",
-                    "Simile",
                     "Personification",
-                    "Alliteration"
+                    "Simile",
+                    "Alliteration",
+                    "Metaphor"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "General",
                 "emoji": "📚✨",
                 "question": "Would you agree that which uses correct subject-verb agreement?",
                 "options": [
+                    "Dogs is running",
                     "Dogs runs",
-                    "Dog run",
                     "Dog runs",
-                    "Dogs is running"
+                    "Dog run"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "expert": [
@@ -6051,36 +6051,36 @@ const englishQuestions = {
                 "emoji": "📚🆕",
                 "question": "Modern Literature expert question 10?",
                 "options": [
-                    "D",
                     "C",
-                    "B",
-                    "A"
-                ],
-                "correct": 0
-            },
-            {
-                "topic": "Modern",
-                "emoji": "📚🆕",
-                "question": "What is emotional atmosphere called in your opinion?",
-                "options": [
-                    "Theme",
-                    "Tone",
-                    "Mood",
-                    "Setting"
+                    "D",
+                    "A",
+                    "B"
                 ],
                 "correct": 1
             },
             {
                 "topic": "Modern",
                 "emoji": "📚🆕",
+                "question": "What is emotional atmosphere called in your opinion?",
+                "options": [
+                    "Setting",
+                    "Mood",
+                    "Theme",
+                    "Tone"
+                ],
+                "correct": 3
+            },
+            {
+                "topic": "Modern",
+                "emoji": "📚🆕",
                 "question": "Ch12: Which shows alliteration?",
                 "options": [
+                    "Happy clam",
                     "Wind whispered",
                     "Peter Piper picked",
-                    "Time flies",
-                    "Happy clam"
+                    "Time flies"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Modern",
@@ -6099,10 +6099,10 @@ const englishQuestions = {
                 "emoji": "📚🆕",
                 "question": "Ch12: Which uses parallel structure?",
                 "options": [
-                    "Reading, writing, to swim",
-                    "Reading, writing, swimming",
                     "To read, writing, swim",
-                    "Read, write, swimming"
+                    "Reading, writing, swimming",
+                    "Read, write, swimming",
+                    "Reading, writing, to swim"
                 ],
                 "correct": 1
             },
@@ -6112,9 +6112,9 @@ const englishQuestions = {
                 "question": "Ch12: What is an oxymoron?",
                 "options": [
                     "Like comparison",
+                    "Sound repetition",
                     "Contradictory terms",
-                    "Exaggeration",
-                    "Sound repetition"
+                    "Exaggeration"
                 ],
                 "correct": 0
             },
@@ -6123,24 +6123,24 @@ const englishQuestions = {
                 "emoji": "📚🆕",
                 "question": "Is it correct that what gives human traits to non-humans?",
                 "options": [
+                    "Hyperbole",
                     "Simile",
-                    "Metaphor",
                     "Personification",
-                    "Hyperbole"
+                    "Metaphor"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Modern",
                 "emoji": "📚🆕",
                 "question": "Ch12: What does a gerund function as?",
                 "options": [
-                    "Verb",
                     "Noun",
-                    "Adjective",
-                    "Adverb"
+                    "Verb",
+                    "Adverb",
+                    "Adjective"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Modern",
@@ -6149,8 +6149,8 @@ const englishQuestions = {
                 "options": [
                     "Synonyms",
                     "Antonyms",
-                    "Homonyms",
-                    "Acronyms"
+                    "Acronyms",
+                    "Homonyms"
                 ],
                 "correct": 0
             },
@@ -6159,12 +6159,12 @@ const englishQuestions = {
                 "emoji": "📚🆕",
                 "question": "What can be an example of synecdoche?",
                 "options": [
-                    "Pen vs sword",
                     "All hands on deck",
+                    "Pen vs sword",
                     "Time flies",
                     "Busy bee"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "extreme": [
@@ -6247,20 +6247,20 @@ const englishQuestions = {
                 "emoji": "🎭👑",
                 "question": "Would you agree that do paragraphs have indentation?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Shakespeare",
                 "emoji": "🎭👑",
                 "question": "Is 'run' a verb in your opinion?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Shakespeare",
@@ -6307,20 +6307,20 @@ const englishQuestions = {
                 "emoji": "🎭👑",
                 "question": "Is it correct that do sentences begin with capital letters?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Shakespeare",
                 "emoji": "🎭👑",
                 "question": "Ch13: Is 'quickly' an adverb?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Shakespeare",
@@ -6339,20 +6339,20 @@ const englishQuestions = {
                 "emoji": "🎭👑",
                 "question": "Shakespeare and Drama question 10?",
                 "options": [
-                    "Option A",
-                    "Option B"
+                    "Option B",
+                    "Option A"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Shakespeare",
                 "emoji": "🎭👑",
                 "question": "Ch13: What expresses a complete thought?",
                 "options": [
-                    "Phrase",
+                    "Fragment",
                     "Sentence",
-                    "Word",
-                    "Fragment"
+                    "Phrase",
+                    "Word"
                 ],
                 "correct": 1
             },
@@ -6363,8 +6363,8 @@ const englishQuestions = {
                 "options": [
                     "i went home",
                     "I Went Home",
-                    "I went home",
-                    "i Went home"
+                    "i Went home",
+                    "I went home"
                 ],
                 "correct": 0
             },
@@ -6398,8 +6398,8 @@ const englishQuestions = {
                 "question": "Ch13: What is the past tense of 'run'?",
                 "options": [
                     "Runned",
-                    "Ran",
                     "Running",
+                    "Ran",
                     "Runs"
                 ],
                 "correct": 0
@@ -6409,12 +6409,12 @@ const englishQuestions = {
                 "emoji": "🎭👑",
                 "question": "Ch13: Which punctuation ends a question?",
                 "options": [
-                    "Period",
-                    "Question mark",
+                    "Comma",
                     "Exclamation",
-                    "Comma"
+                    "Question mark",
+                    "Period"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Shakespeare",
@@ -6422,9 +6422,9 @@ const englishQuestions = {
                 "question": "Ch13: What is the plural of 'child'?",
                 "options": [
                     "Childs",
-                    "Children",
+                    "Childrens",
                     "Childes",
-                    "Childrens"
+                    "Children"
                 ],
                 "correct": 0
             },
@@ -6434,9 +6434,9 @@ const englishQuestions = {
                 "question": "Is it correct that which sentence is grammatically correct?",
                 "options": [
                     "She don't go",
-                    "She doesn't goes",
+                    "She not go",
                     "She doesn't go",
-                    "She not go"
+                    "She doesn't goes"
                 ],
                 "correct": 0
             },
@@ -6445,12 +6445,12 @@ const englishQuestions = {
                 "emoji": "🎭👑",
                 "question": "Ch13: What part of speech is 'beautiful'?",
                 "options": [
-                    "Noun",
                     "Verb",
                     "Adjective",
-                    "Adverb"
+                    "Adverb",
+                    "Noun"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -6459,57 +6459,57 @@ const englishQuestions = {
                 "emoji": "🎭👑",
                 "question": "Shakespeare and Drama advanced question 10?",
                 "options": [
+                    "C",
                     "A",
-                    "B",
-                    "C"
+                    "B"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Shakespeare",
                 "emoji": "🎭👑",
                 "question": "Which mark shows possession generally?",
                 "options": [
+                    "Semicolon",
                     "Comma",
-                    "Apostrophe",
                     "Colon",
-                    "Semicolon"
+                    "Apostrophe"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Shakespeare",
                 "emoji": "🎭👑",
                 "question": "Ch13: What clause can stand alone?",
                 "options": [
+                    "Relative",
                     "Dependent",
                     "Independent",
-                    "Subordinate",
-                    "Relative"
-                ],
-                "correct": 0
-            },
-            {
-                "topic": "Shakespeare",
-                "emoji": "🎭👑",
-                "question": "Would you agree that which is a collective noun?",
-                "options": [
-                    "Team",
-                    "Player",
-                    "Game",
-                    "Ball"
+                    "Subordinate"
                 ],
                 "correct": 1
             },
             {
                 "topic": "Shakespeare",
                 "emoji": "🎭👑",
+                "question": "Would you agree that which is a collective noun?",
+                "options": [
+                    "Ball",
+                    "Game",
+                    "Team",
+                    "Player"
+                ],
+                "correct": 3
+            },
+            {
+                "topic": "Shakespeare",
+                "emoji": "🎭👑",
                 "question": "What is the superlative of 'good' in your opinion?",
                 "options": [
-                    "Gooder",
+                    "Better",
                     "More good",
                     "Best",
-                    "Better"
+                    "Gooder"
                 ],
                 "correct": 1
             },
@@ -6518,60 +6518,60 @@ const englishQuestions = {
                 "emoji": "🎭👑",
                 "question": "Ch13: Which sentence is in passive voice?",
                 "options": [
-                    "Cat chased mouse",
-                    "Mouse was chased",
                     "Cat is chasing",
-                    "Mouse runs"
+                    "Mouse runs",
+                    "Cat chased mouse",
+                    "Mouse was chased"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Shakespeare",
                 "emoji": "🎭👑",
                 "question": "Ch13: What type of pronoun is 'myself'?",
                 "options": [
-                    "Personal",
                     "Possessive",
                     "Reflexive",
+                    "Personal",
                     "Demonstrative"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Shakespeare",
                 "emoji": "🎭👑",
                 "question": "Ch13: Which word means opposite of 'abundant'?",
                 "options": [
-                    "Plentiful",
+                    "Ample",
                     "Scarce",
-                    "Numerous",
-                    "Ample"
+                    "Plentiful",
+                    "Numerous"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Shakespeare",
                 "emoji": "🎭👑",
                 "question": "Ch13: What device compares using 'like' or 'as'?",
                 "options": [
-                    "Metaphor",
-                    "Simile",
+                    "Alliteration",
                     "Personification",
-                    "Alliteration"
+                    "Simile",
+                    "Metaphor"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Shakespeare",
                 "emoji": "🎭👑",
                 "question": "Is it correct that which uses correct subject-verb agreement?",
                 "options": [
-                    "Dogs runs",
-                    "Dog run",
+                    "Dogs is running",
                     "Dog runs",
-                    "Dogs is running"
+                    "Dogs runs",
+                    "Dog run"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "expert": [
@@ -6580,58 +6580,58 @@ const englishQuestions = {
                 "emoji": "🎭👑",
                 "question": "Shakespeare and Drama expert question 10?",
                 "options": [
-                    "B",
+                    "C",
                     "A",
                     "D",
-                    "C"
+                    "B"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Shakespeare",
                 "emoji": "🎭👑",
                 "question": "Ch13: What is emotional atmosphere called?",
                 "options": [
-                    "Theme",
-                    "Tone",
                     "Mood",
-                    "Setting"
+                    "Theme",
+                    "Setting",
+                    "Tone"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Shakespeare",
                 "emoji": "🎭👑",
                 "question": "Do you think which shows alliteration generally?",
                 "options": [
-                    "Wind whispered",
-                    "Peter Piper picked",
+                    "Happy clam",
                     "Time flies",
-                    "Happy clam"
+                    "Peter Piper picked",
+                    "Wind whispered"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Shakespeare",
                 "emoji": "🎭👑",
                 "question": "Do you think what can be a dangling modifier?",
                 "options": [
-                    "Clear modifier",
                     "Misplaced modifier",
+                    "Clear modifier",
                     "End modifier",
                     "Multiple modifiers"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Shakespeare",
                 "emoji": "🎭👑",
                 "question": "Do you think which uses parallel structure?",
                 "options": [
-                    "Reading, writing, to swim",
-                    "Reading, writing, swimming",
                     "To read, writing, swim",
-                    "Read, write, swimming"
+                    "Reading, writing, swimming",
+                    "Read, write, swimming",
+                    "Reading, writing, to swim"
                 ],
                 "correct": 1
             },
@@ -6640,24 +6640,24 @@ const englishQuestions = {
                 "emoji": "🎭👑",
                 "question": "Do you think what is an oxymoron in your opinion?",
                 "options": [
-                    "Like comparison",
                     "Contradictory terms",
+                    "Sound repetition",
                     "Exaggeration",
-                    "Sound repetition"
+                    "Like comparison"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Shakespeare",
                 "emoji": "🎭👑",
                 "question": "Ch13: What gives human traits to non-humans?",
                 "options": [
+                    "Hyperbole",
                     "Simile",
                     "Metaphor",
-                    "Personification",
-                    "Hyperbole"
+                    "Personification"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Shakespeare",
@@ -6665,9 +6665,9 @@ const englishQuestions = {
                 "question": "Ch13: What does a gerund function as?",
                 "options": [
                     "Verb",
+                    "Adverb",
                     "Noun",
-                    "Adjective",
-                    "Adverb"
+                    "Adjective"
                 ],
                 "correct": 0
             },
@@ -6676,24 +6676,24 @@ const englishQuestions = {
                 "emoji": "🎭👑",
                 "question": "Ch13: What are words that sound the same but differ in meaning?",
                 "options": [
-                    "Synonyms",
-                    "Antonyms",
+                    "Acronyms",
                     "Homonyms",
-                    "Acronyms"
+                    "Synonyms",
+                    "Antonyms"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Shakespeare",
                 "emoji": "🎭👑",
                 "question": "Ch13: What is an example of synecdoche?",
                 "options": [
-                    "Pen vs sword",
-                    "All hands on deck",
+                    "Busy bee",
                     "Time flies",
-                    "Busy bee"
+                    "Pen vs sword",
+                    "All hands on deck"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "extreme": [
@@ -6766,10 +6766,10 @@ const englishQuestions = {
                 "emoji": "🇺🇸📖",
                 "question": "Is american Literature topic 10?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "American",
@@ -6786,10 +6786,10 @@ const englishQuestions = {
                 "emoji": "🇺🇸📖",
                 "question": "Ch14: Is 'run' a verb?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "American",
@@ -6806,10 +6806,10 @@ const englishQuestions = {
                 "emoji": "🇺🇸📖",
                 "question": "Ch14: Is 'beautiful' an adjective?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "American",
@@ -6836,10 +6836,10 @@ const englishQuestions = {
                 "emoji": "🇺🇸📖",
                 "question": "Ch14: Do sentences begin with capital letters?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "American",
@@ -6879,45 +6879,45 @@ const englishQuestions = {
                 "question": "Ch14: What expresses a complete thought?",
                 "options": [
                     "Phrase",
+                    "Fragment",
                     "Sentence",
-                    "Word",
-                    "Fragment"
+                    "Word"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "American",
                 "emoji": "🇺🇸📖",
                 "question": "Do you think which shows correct capitalization?",
                 "options": [
-                    "i went home",
+                    "i Went home",
                     "I Went Home",
                     "I went home",
-                    "i Went home"
+                    "i went home"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "American",
                 "emoji": "🇺🇸📖",
                 "question": "Ch14: What type of word modifies a verb?",
                 "options": [
-                    "Adjective",
-                    "Adverb",
+                    "Pronoun",
                     "Noun",
-                    "Pronoun"
+                    "Adjective",
+                    "Adverb"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "American",
                 "emoji": "🇺🇸📖",
                 "question": "Do you think which word is opposite of 'hot' generally?",
                 "options": [
-                    "Warm",
-                    "Cool",
                     "Cold",
-                    "Tepid"
+                    "Cool",
+                    "Tepid",
+                    "Warm"
                 ],
                 "correct": 1
             },
@@ -6926,58 +6926,58 @@ const englishQuestions = {
                 "emoji": "🇺🇸📖",
                 "question": "Do you think what can be the past tense of 'run'?",
                 "options": [
+                    "Runs",
                     "Runned",
                     "Ran",
-                    "Running",
-                    "Runs"
-                ],
-                "correct": 0
-            },
-            {
-                "topic": "American",
-                "emoji": "🇺🇸📖",
-                "question": "Do you think which punctuation ends a question?",
-                "options": [
-                    "Period",
-                    "Question mark",
-                    "Exclamation",
-                    "Comma"
+                    "Running"
                 ],
                 "correct": 1
             },
             {
                 "topic": "American",
                 "emoji": "🇺🇸📖",
-                "question": "Do you think what is the plural of 'child' in your opinion?",
+                "question": "Do you think which punctuation ends a question?",
                 "options": [
-                    "Childs",
-                    "Children",
-                    "Childes",
-                    "Childrens"
+                    "Question mark",
+                    "Period",
+                    "Comma",
+                    "Exclamation"
                 ],
                 "correct": 0
+            },
+            {
+                "topic": "American",
+                "emoji": "🇺🇸📖",
+                "question": "Do you think what is the plural of 'child' in your opinion?",
+                "options": [
+                    "Children",
+                    "Childes",
+                    "Childs",
+                    "Childrens"
+                ],
+                "correct": 2
             },
             {
                 "topic": "American",
                 "emoji": "🇺🇸📖",
                 "question": "Ch14: Which sentence is grammatically correct?",
                 "options": [
-                    "She don't go",
                     "She doesn't goes",
                     "She doesn't go",
-                    "She not go"
+                    "She not go",
+                    "She don't go"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "American",
                 "emoji": "🇺🇸📖",
                 "question": "Ch14: What part of speech is 'beautiful'?",
                 "options": [
-                    "Noun",
+                    "Adverb",
                     "Verb",
                     "Adjective",
-                    "Adverb"
+                    "Noun"
                 ],
                 "correct": 1
             }
@@ -6989,8 +6989,8 @@ const englishQuestions = {
                 "question": "American Literature advanced question 1?",
                 "options": [
                     "B",
-                    "A",
-                    "C"
+                    "C",
+                    "A"
                 ],
                 "correct": 0
             },
@@ -7000,32 +7000,32 @@ const englishQuestions = {
                 "question": "American Literature advanced question 10?",
                 "options": [
                     "C",
-                    "B",
-                    "A"
+                    "A",
+                    "B"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "American",
                 "emoji": "🇺🇸📖",
                 "question": "Ch14: What clause can stand alone?",
                 "options": [
-                    "Dependent",
                     "Independent",
-                    "Subordinate",
-                    "Relative"
+                    "Relative",
+                    "Dependent",
+                    "Subordinate"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "American",
                 "emoji": "🇺🇸📖",
                 "question": "Ch14: Which is a collective noun?",
                 "options": [
-                    "Team",
-                    "Player",
                     "Game",
-                    "Ball"
+                    "Player",
+                    "Ball",
+                    "Team"
                 ],
                 "correct": 1
             },
@@ -7034,34 +7034,34 @@ const englishQuestions = {
                 "emoji": "🇺🇸📖",
                 "question": "Do you think what is the superlative of 'good'?",
                 "options": [
-                    "Gooder",
                     "More good",
-                    "Best",
-                    "Better"
-                ],
-                "correct": 1
-            },
-            {
-                "topic": "American",
-                "emoji": "🇺🇸📖",
-                "question": "Ch14: Which sentence is in passive voice?",
-                "options": [
-                    "Cat chased mouse",
-                    "Mouse was chased",
-                    "Cat is chasing",
-                    "Mouse runs"
+                    "Gooder",
+                    "Better",
+                    "Best"
                 ],
                 "correct": 0
             },
             {
                 "topic": "American",
                 "emoji": "🇺🇸📖",
+                "question": "Ch14: Which sentence is in passive voice?",
+                "options": [
+                    "Mouse was chased",
+                    "Cat chased mouse",
+                    "Mouse runs",
+                    "Cat is chasing"
+                ],
+                "correct": 1
+            },
+            {
+                "topic": "American",
+                "emoji": "🇺🇸📖",
                 "question": "Do you think what type of pronoun is 'myself' generally?",
                 "options": [
-                    "Personal",
+                    "Demonstrative",
                     "Possessive",
-                    "Reflexive",
-                    "Demonstrative"
+                    "Personal",
+                    "Reflexive"
                 ],
                 "correct": 1
             },
@@ -7070,36 +7070,36 @@ const englishQuestions = {
                 "emoji": "🇺🇸📖",
                 "question": "Ch14: Which word means opposite of 'abundant'?",
                 "options": [
-                    "Plentiful",
+                    "Ample",
                     "Scarce",
-                    "Numerous",
-                    "Ample"
+                    "Plentiful",
+                    "Numerous"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "American",
                 "emoji": "🇺🇸📖",
                 "question": "Do you think what device compares using 'like' or 'as'?",
                 "options": [
-                    "Metaphor",
-                    "Simile",
+                    "Alliteration",
                     "Personification",
-                    "Alliteration"
+                    "Metaphor",
+                    "Simile"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "American",
                 "emoji": "🇺🇸📖",
                 "question": "Do you think which uses correct subject-verb agreement in your opinion?",
                 "options": [
-                    "Dogs runs",
-                    "Dog run",
                     "Dog runs",
-                    "Dogs is running"
+                    "Dogs is running",
+                    "Dogs runs",
+                    "Dog run"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "expert": [
@@ -7108,36 +7108,36 @@ const englishQuestions = {
                 "emoji": "🇺🇸📖",
                 "question": "American Literature expert question 10?",
                 "options": [
-                    "D",
-                    "B",
                     "A",
-                    "C"
+                    "C",
+                    "B",
+                    "D"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "American",
                 "emoji": "🇺🇸📖",
                 "question": "Ch14: What is emotional atmosphere called?",
                 "options": [
-                    "Theme",
                     "Tone",
-                    "Mood",
-                    "Setting"
+                    "Setting",
+                    "Theme",
+                    "Mood"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "American",
                 "emoji": "🇺🇸📖",
                 "question": "Ch14: Which shows alliteration?",
                 "options": [
+                    "Happy clam",
                     "Wind whispered",
-                    "Peter Piper picked",
                     "Time flies",
-                    "Happy clam"
+                    "Peter Piper picked"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "American",
@@ -7156,24 +7156,24 @@ const englishQuestions = {
                 "emoji": "🇺🇸📖",
                 "question": "Ch14: Which uses parallel structure?",
                 "options": [
-                    "Reading, writing, to swim",
                     "Reading, writing, swimming",
-                    "To read, writing, swim",
-                    "Read, write, swimming"
+                    "Reading, writing, to swim",
+                    "Read, write, swimming",
+                    "To read, writing, swim"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "American",
                 "emoji": "🇺🇸📖",
                 "question": "Do you think what is an oxymoron?",
                 "options": [
+                    "Sound repetition",
                     "Like comparison",
                     "Contradictory terms",
-                    "Exaggeration",
-                    "Sound repetition"
+                    "Exaggeration"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "American",
@@ -7181,47 +7181,47 @@ const englishQuestions = {
                 "question": "Ch14: What gives human traits to non-humans?",
                 "options": [
                     "Simile",
-                    "Metaphor",
                     "Personification",
+                    "Metaphor",
                     "Hyperbole"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "American",
                 "emoji": "🇺🇸📖",
                 "question": "Do you think what does a gerund function as generally?",
                 "options": [
+                    "Adverb",
                     "Verb",
-                    "Noun",
                     "Adjective",
-                    "Adverb"
+                    "Noun"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "American",
                 "emoji": "🇺🇸📖",
                 "question": "Ch14: What are words that sound the same but differ in meaning?",
                 "options": [
+                    "Homonyms",
                     "Synonyms",
                     "Antonyms",
-                    "Homonyms",
                     "Acronyms"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "American",
                 "emoji": "🇺🇸📖",
                 "question": "Do you think what is an example of synecdoche?",
                 "options": [
-                    "Pen vs sword",
-                    "All hands on deck",
                     "Time flies",
-                    "Busy bee"
+                    "Pen vs sword",
+                    "Busy bee",
+                    "All hands on deck"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "extreme": [
@@ -7294,10 +7294,10 @@ const englishQuestions = {
                 "emoji": "🇬🇧📚",
                 "question": "Is british Literature topic 10?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "British",
@@ -7344,50 +7344,50 @@ const englishQuestions = {
                 "emoji": "🇬🇧📚",
                 "question": "Ch15: Do questions end with question marks?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "British",
                 "emoji": "🇬🇧📚",
                 "question": "Do you think is 'and' a conjunction?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "British",
                 "emoji": "🇬🇧📚",
                 "question": "Ch15: Do sentences begin with capital letters?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "British",
                 "emoji": "🇬🇧📚",
                 "question": "Do you think 'quickly' an adverb generally?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "British",
                 "emoji": "🇬🇧📚",
                 "question": "Ch15: Does every sentence need a verb?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -7396,34 +7396,34 @@ const englishQuestions = {
                 "emoji": "🇬🇧📚",
                 "question": "British Literature question 10?",
                 "options": [
-                    "Option B",
-                    "Option A"
-                ],
-                "correct": 0
-            },
-            {
-                "topic": "British",
-                "emoji": "🇬🇧📚",
-                "question": "Do you think what expresses a complete thought?",
-                "options": [
-                    "Phrase",
-                    "Sentence",
-                    "Word",
-                    "Fragment"
+                    "Option A",
+                    "Option B"
                 ],
                 "correct": 1
             },
             {
                 "topic": "British",
                 "emoji": "🇬🇧📚",
+                "question": "Do you think what expresses a complete thought?",
+                "options": [
+                    "Fragment",
+                    "Phrase",
+                    "Word",
+                    "Sentence"
+                ],
+                "correct": 3
+            },
+            {
+                "topic": "British",
+                "emoji": "🇬🇧📚",
                 "question": "Do you think which shows correct capitalization in your opinion?",
                 "options": [
-                    "i went home",
-                    "I Went Home",
+                    "i Went home",
                     "I went home",
-                    "i Went home"
+                    "i went home",
+                    "I Went Home"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "British",
@@ -7432,8 +7432,8 @@ const englishQuestions = {
                 "options": [
                     "Adjective",
                     "Adverb",
-                    "Noun",
-                    "Pronoun"
+                    "Pronoun",
+                    "Noun"
                 ],
                 "correct": 1
             },
@@ -7442,10 +7442,10 @@ const englishQuestions = {
                 "emoji": "🇬🇧📚",
                 "question": "Ch15: Which word is opposite of 'hot'?",
                 "options": [
-                    "Warm",
+                    "Tepid",
                     "Cool",
-                    "Cold",
-                    "Tepid"
+                    "Warm",
+                    "Cold"
                 ],
                 "correct": 1
             },
@@ -7454,24 +7454,24 @@ const englishQuestions = {
                 "emoji": "🇬🇧📚",
                 "question": "Ch15: What is the past tense of 'run'?",
                 "options": [
-                    "Runned",
                     "Ran",
+                    "Runs",
                     "Running",
-                    "Runs"
+                    "Runned"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "British",
                 "emoji": "🇬🇧📚",
                 "question": "Ch15: Which punctuation ends a question?",
                 "options": [
-                    "Period",
-                    "Question mark",
+                    "Comma",
                     "Exclamation",
-                    "Comma"
+                    "Period",
+                    "Question mark"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "British",
@@ -7479,8 +7479,8 @@ const englishQuestions = {
                 "question": "Do you think what is the plural of 'child'?",
                 "options": [
                     "Childs",
-                    "Children",
                     "Childes",
+                    "Children",
                     "Childrens"
                 ],
                 "correct": 0
@@ -7490,24 +7490,24 @@ const englishQuestions = {
                 "emoji": "🇬🇧📚",
                 "question": "Ch15: Which sentence is grammatically correct?",
                 "options": [
-                    "She don't go",
+                    "She not go",
                     "She doesn't goes",
                     "She doesn't go",
-                    "She not go"
+                    "She don't go"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "British",
                 "emoji": "🇬🇧📚",
                 "question": "Do you think what part of speech is 'beautiful' generally?",
                 "options": [
-                    "Noun",
-                    "Verb",
                     "Adjective",
-                    "Adverb"
+                    "Adverb",
+                    "Noun",
+                    "Verb"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "hard": [
@@ -7529,8 +7529,8 @@ const englishQuestions = {
                 "options": [
                     "Comma",
                     "Apostrophe",
-                    "Colon",
-                    "Semicolon"
+                    "Semicolon",
+                    "Colon"
                 ],
                 "correct": 1
             },
@@ -7539,22 +7539,22 @@ const englishQuestions = {
                 "emoji": "🇬🇧📚",
                 "question": "Do you think what clause can stand alone?",
                 "options": [
-                    "Dependent",
-                    "Independent",
                     "Subordinate",
-                    "Relative"
+                    "Relative",
+                    "Dependent",
+                    "Independent"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "British",
                 "emoji": "🇬🇧📚",
                 "question": "Do you think which is a collective noun in your opinion?",
                 "options": [
-                    "Team",
+                    "Ball",
                     "Player",
-                    "Game",
-                    "Ball"
+                    "Team",
+                    "Game"
                 ],
                 "correct": 1
             },
@@ -7563,24 +7563,24 @@ const englishQuestions = {
                 "emoji": "🇬🇧📚",
                 "question": "Ch15: What is the superlative of 'good'?",
                 "options": [
+                    "Best",
                     "Gooder",
                     "More good",
-                    "Best",
                     "Better"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "British",
                 "emoji": "🇬🇧📚",
                 "question": "Ch15: Which sentence is in passive voice?",
                 "options": [
-                    "Cat chased mouse",
                     "Mouse was chased",
-                    "Cat is chasing",
-                    "Mouse runs"
+                    "Cat chased mouse",
+                    "Mouse runs",
+                    "Cat is chasing"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "British",
@@ -7588,11 +7588,11 @@ const englishQuestions = {
                 "question": "Ch15: What type of pronoun is 'myself'?",
                 "options": [
                     "Personal",
-                    "Possessive",
+                    "Demonstrative",
                     "Reflexive",
-                    "Demonstrative"
+                    "Possessive"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "British",
@@ -7600,9 +7600,9 @@ const englishQuestions = {
                 "question": "Ch15: Which word means opposite of 'abundant'?",
                 "options": [
                     "Plentiful",
+                    "Ample",
                     "Scarce",
-                    "Numerous",
-                    "Ample"
+                    "Numerous"
                 ],
                 "correct": 0
             },
@@ -7612,9 +7612,9 @@ const englishQuestions = {
                 "question": "what device compares using 'like' or 'as' in most cases?",
                 "options": [
                     "Metaphor",
-                    "Simile",
                     "Personification",
-                    "Alliteration"
+                    "Alliteration",
+                    "Simile"
                 ],
                 "correct": 0
             },
@@ -7623,12 +7623,12 @@ const englishQuestions = {
                 "emoji": "🇬🇧📚",
                 "question": "Ch15: Which uses correct subject-verb agreement?",
                 "options": [
+                    "Dog runs",
                     "Dogs runs",
                     "Dog run",
-                    "Dog runs",
                     "Dogs is running"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -7637,36 +7637,36 @@ const englishQuestions = {
                 "emoji": "🇬🇧📚",
                 "question": "British Literature expert question 10?",
                 "options": [
-                    "D",
                     "A",
+                    "B",
                     "C",
-                    "B"
+                    "D"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "British",
                 "emoji": "🇬🇧📚",
                 "question": "What is emotional atmosphere called generally?",
                 "options": [
-                    "Theme",
-                    "Tone",
                     "Mood",
-                    "Setting"
+                    "Setting",
+                    "Theme",
+                    "Tone"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "British",
                 "emoji": "🇬🇧📚",
                 "question": "Ch15: Which shows alliteration?",
                 "options": [
-                    "Wind whispered",
+                    "Happy clam",
                     "Peter Piper picked",
                     "Time flies",
-                    "Happy clam"
+                    "Wind whispered"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "British",
@@ -7685,9 +7685,9 @@ const englishQuestions = {
                 "emoji": "🇬🇧📚",
                 "question": "Which uses parallel structure in your opinion?",
                 "options": [
-                    "Reading, writing, to swim",
-                    "Reading, writing, swimming",
                     "To read, writing, swim",
+                    "Reading, writing, swimming",
+                    "Reading, writing, to swim",
                     "Read, write, swimming"
                 ],
                 "correct": 1
@@ -7697,36 +7697,36 @@ const englishQuestions = {
                 "emoji": "🇬🇧📚",
                 "question": "Ch15: What is an oxymoron?",
                 "options": [
+                    "Sound repetition",
                     "Like comparison",
-                    "Contradictory terms",
                     "Exaggeration",
-                    "Sound repetition"
-                ],
-                "correct": 0
-            },
-            {
-                "topic": "British",
-                "emoji": "🇬🇧📚",
-                "question": "Ch15: What gives human traits to non-humans?",
-                "options": [
-                    "Simile",
-                    "Metaphor",
-                    "Personification",
-                    "Hyperbole"
+                    "Contradictory terms"
                 ],
                 "correct": 1
             },
             {
                 "topic": "British",
                 "emoji": "🇬🇧📚",
+                "question": "Ch15: What gives human traits to non-humans?",
+                "options": [
+                    "Personification",
+                    "Hyperbole",
+                    "Metaphor",
+                    "Simile"
+                ],
+                "correct": 2
+            },
+            {
+                "topic": "British",
+                "emoji": "🇬🇧📚",
                 "question": "Ch15: What does a gerund function as?",
                 "options": [
-                    "Verb",
                     "Noun",
-                    "Adjective",
-                    "Adverb"
+                    "Adverb",
+                    "Verb",
+                    "Adjective"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "British",
@@ -7734,9 +7734,9 @@ const englishQuestions = {
                 "question": "Ch15: What are words that sound the same but differ in meaning?",
                 "options": [
                     "Synonyms",
-                    "Antonyms",
                     "Homonyms",
-                    "Acronyms"
+                    "Acronyms",
+                    "Antonyms"
                 ],
                 "correct": 0
             },
@@ -7745,12 +7745,12 @@ const englishQuestions = {
                 "emoji": "🇬🇧📚",
                 "question": "Is it correct that what is an example of synecdoche?",
                 "options": [
-                    "Pen vs sword",
-                    "All hands on deck",
                     "Time flies",
-                    "Busy bee"
+                    "Busy bee",
+                    "All hands on deck",
+                    "Pen vs sword"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -7823,10 +7823,10 @@ const englishQuestions = {
                 "emoji": "🌍📖",
                 "question": "Is world Literature topic 10?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "World",
@@ -7843,10 +7843,10 @@ const englishQuestions = {
                 "emoji": "🌍📖",
                 "question": "Is 'run' a verb generally?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "World",
@@ -7873,20 +7873,20 @@ const englishQuestions = {
                 "emoji": "🌍📖",
                 "question": "Do questions end with question marks in your opinion?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "World",
                 "emoji": "🌍📖",
                 "question": "Do you think 'and' a conjunction?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "World",
@@ -7903,20 +7903,20 @@ const englishQuestions = {
                 "emoji": "🌍📖",
                 "question": "Ch16: Is 'quickly' an adverb?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "World",
                 "emoji": "🌍📖",
                 "question": "Ch16: Does every sentence need a verb?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -7925,20 +7925,20 @@ const englishQuestions = {
                 "emoji": "🌍📖",
                 "question": "World Literature question 10?",
                 "options": [
-                    "Option B",
-                    "Option A"
+                    "Option A",
+                    "Option B"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "World",
                 "emoji": "🌍📖",
                 "question": "Is it correct that what expresses a complete thought?",
                 "options": [
-                    "Phrase",
-                    "Sentence",
                     "Word",
-                    "Fragment"
+                    "Sentence",
+                    "Fragment",
+                    "Phrase"
                 ],
                 "correct": 1
             },
@@ -7947,24 +7947,24 @@ const englishQuestions = {
                 "emoji": "🌍📖",
                 "question": "Ch16: Which shows correct capitalization?",
                 "options": [
-                    "i went home",
-                    "I Went Home",
                     "I went home",
-                    "i Went home"
+                    "i went home",
+                    "i Went home",
+                    "I Went Home"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "World",
                 "emoji": "🌍📖",
                 "question": "What type of word modifies a verb generally?",
                 "options": [
-                    "Adjective",
-                    "Adverb",
+                    "Pronoun",
                     "Noun",
-                    "Pronoun"
+                    "Adverb",
+                    "Adjective"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "World",
@@ -7972,33 +7972,33 @@ const englishQuestions = {
                 "question": "Which word can be opposite of 'hot'?",
                 "options": [
                     "Warm",
+                    "Tepid",
                     "Cool",
-                    "Cold",
-                    "Tepid"
+                    "Cold"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "World",
                 "emoji": "🌍📖",
                 "question": "Would you agree that what is the past tense of 'run'?",
                 "options": [
-                    "Runned",
                     "Ran",
-                    "Running",
-                    "Runs"
+                    "Runs",
+                    "Runned",
+                    "Running"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "World",
                 "emoji": "🌍📖",
                 "question": "Which punctuation ends a question in your opinion?",
                 "options": [
-                    "Period",
+                    "Comma",
                     "Question mark",
                     "Exclamation",
-                    "Comma"
+                    "Period"
                 ],
                 "correct": 1
             },
@@ -8007,36 +8007,36 @@ const englishQuestions = {
                 "emoji": "🌍📖",
                 "question": "Ch16: What is the plural of 'child'?",
                 "options": [
-                    "Childs",
                     "Children",
                     "Childes",
+                    "Childs",
                     "Childrens"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "World",
                 "emoji": "🌍📖",
                 "question": "Ch16: Which sentence is grammatically correct?",
                 "options": [
-                    "She don't go",
-                    "She doesn't goes",
                     "She doesn't go",
-                    "She not go"
+                    "She not go",
+                    "She doesn't goes",
+                    "She don't go"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "World",
                 "emoji": "🌍📖",
                 "question": "Ch16: What part of speech is 'beautiful'?",
                 "options": [
+                    "Adjective",
                     "Noun",
                     "Verb",
-                    "Adjective",
                     "Adverb"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "hard": [
@@ -8045,11 +8045,11 @@ const englishQuestions = {
                 "emoji": "🌍📖",
                 "question": "World Literature advanced question 10?",
                 "options": [
-                    "B",
                     "A",
-                    "C"
+                    "C",
+                    "B"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "World",
@@ -8057,11 +8057,11 @@ const englishQuestions = {
                 "question": "Ch16: Which mark shows possession?",
                 "options": [
                     "Comma",
+                    "Semicolon",
                     "Apostrophe",
-                    "Colon",
-                    "Semicolon"
+                    "Colon"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "World",
@@ -8080,10 +8080,10 @@ const englishQuestions = {
                 "emoji": "🌍📖",
                 "question": "Ch16: Which is a collective noun?",
                 "options": [
-                    "Team",
+                    "Ball",
                     "Player",
-                    "Game",
-                    "Ball"
+                    "Team",
+                    "Game"
                 ],
                 "correct": 1
             },
@@ -8092,12 +8092,12 @@ const englishQuestions = {
                 "emoji": "🌍📖",
                 "question": "What is the superlative of 'good' generally?",
                 "options": [
+                    "Best",
                     "Gooder",
                     "More good",
-                    "Best",
                     "Better"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "World",
@@ -8105,9 +8105,9 @@ const englishQuestions = {
                 "question": "Which sentence can be in passive voice?",
                 "options": [
                     "Cat chased mouse",
-                    "Mouse was chased",
                     "Cat is chasing",
-                    "Mouse runs"
+                    "Mouse runs",
+                    "Mouse was chased"
                 ],
                 "correct": 0
             },
@@ -8116,36 +8116,36 @@ const englishQuestions = {
                 "emoji": "🌍📖",
                 "question": "Would you agree that what type of pronoun is 'myself'?",
                 "options": [
-                    "Personal",
                     "Possessive",
                     "Reflexive",
+                    "Personal",
                     "Demonstrative"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "World",
                 "emoji": "🌍📖",
                 "question": "Which word means opposite of 'abundant' in your opinion?",
                 "options": [
+                    "Numerous",
                     "Plentiful",
                     "Scarce",
-                    "Numerous",
                     "Ample"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "World",
                 "emoji": "🌍📖",
                 "question": "Ch16: What device compares using 'like' or 'as'?",
                 "options": [
-                    "Metaphor",
+                    "Alliteration",
                     "Simile",
-                    "Personification",
-                    "Alliteration"
+                    "Metaphor",
+                    "Personification"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "World",
@@ -8166,117 +8166,117 @@ const englishQuestions = {
                 "emoji": "🌍📖",
                 "question": "World Literature expert question 10?",
                 "options": [
-                    "A",
                     "D",
-                    "C",
-                    "B"
+                    "A",
+                    "B",
+                    "C"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "World",
                 "emoji": "🌍📖",
                 "question": "Ch16: What is emotional atmosphere called?",
                 "options": [
+                    "Setting",
                     "Theme",
-                    "Tone",
                     "Mood",
-                    "Setting"
+                    "Tone"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "World",
                 "emoji": "🌍📖",
                 "question": "Ch16: Which shows alliteration?",
                 "options": [
-                    "Wind whispered",
                     "Peter Piper picked",
                     "Time flies",
-                    "Happy clam"
+                    "Happy clam",
+                    "Wind whispered"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "World",
                 "emoji": "🌍📖",
                 "question": "Is it correct that what is a dangling modifier?",
                 "options": [
-                    "Clear modifier",
                     "Misplaced modifier",
-                    "End modifier",
-                    "Multiple modifiers"
+                    "Clear modifier",
+                    "Multiple modifiers",
+                    "End modifier"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "World",
                 "emoji": "🌍📖",
                 "question": "Ch16: Which uses parallel structure?",
                 "options": [
+                    "Read, write, swimming",
                     "Reading, writing, to swim",
-                    "Reading, writing, swimming",
                     "To read, writing, swim",
-                    "Read, write, swimming"
+                    "Reading, writing, swimming"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "World",
                 "emoji": "🌍📖",
                 "question": "What is an oxymoron generally?",
                 "options": [
+                    "Exaggeration",
                     "Like comparison",
                     "Contradictory terms",
-                    "Exaggeration",
                     "Sound repetition"
-                ],
-                "correct": 0
-            },
-            {
-                "topic": "World",
-                "emoji": "🌍📖",
-                "question": "Ch16: What gives human traits to non-humans?",
-                "options": [
-                    "Simile",
-                    "Metaphor",
-                    "Personification",
-                    "Hyperbole"
                 ],
                 "correct": 1
             },
             {
                 "topic": "World",
                 "emoji": "🌍📖",
+                "question": "Ch16: What gives human traits to non-humans?",
+                "options": [
+                    "Hyperbole",
+                    "Simile",
+                    "Metaphor",
+                    "Personification"
+                ],
+                "correct": 2
+            },
+            {
+                "topic": "World",
+                "emoji": "🌍📖",
                 "question": "Would you agree that what does a gerund function as?",
                 "options": [
-                    "Verb",
-                    "Noun",
                     "Adjective",
+                    "Noun",
+                    "Verb",
                     "Adverb"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "World",
                 "emoji": "🌍📖",
                 "question": "What are words that sound the same but differ in meaning in your opinion?",
                 "options": [
-                    "Synonyms",
-                    "Antonyms",
                     "Homonyms",
-                    "Acronyms"
+                    "Synonyms",
+                    "Acronyms",
+                    "Antonyms"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "World",
                 "emoji": "🌍📖",
                 "question": "Ch16: What is an example of synecdoche?",
                 "options": [
-                    "Pen vs sword",
-                    "All hands on deck",
                     "Time flies",
+                    "All hands on deck",
+                    "Pen vs sword",
                     "Busy bee"
                 ],
                 "correct": 1
@@ -8382,10 +8382,10 @@ const englishQuestions = {
                 "emoji": "🔍📚",
                 "question": "Ch17: Are commas used to separate list items?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Literary",
@@ -8454,10 +8454,10 @@ const englishQuestions = {
                 "emoji": "🔍📚",
                 "question": "Literary Analysis question 10?",
                 "options": [
-                    "Option B",
-                    "Option A"
+                    "Option A",
+                    "Option B"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Literary",
@@ -8465,59 +8465,59 @@ const englishQuestions = {
                 "question": "Ch17: What expresses a complete thought?",
                 "options": [
                     "Phrase",
+                    "Fragment",
                     "Sentence",
-                    "Word",
-                    "Fragment"
+                    "Word"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Literary",
                 "emoji": "🔍📚",
                 "question": "Ch17: Which shows correct capitalization?",
                 "options": [
+                    "I went home",
                     "i went home",
                     "I Went Home",
-                    "I went home",
                     "i Went home"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Literary",
                 "emoji": "🔍📚",
                 "question": "Ch17: What type of word modifies a verb?",
                 "options": [
-                    "Adjective",
-                    "Adverb",
                     "Noun",
-                    "Pronoun"
+                    "Pronoun",
+                    "Adjective",
+                    "Adverb"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Literary",
                 "emoji": "🔍📚",
                 "question": "Ch17: Which word is opposite of 'hot'?",
                 "options": [
+                    "Cold",
                     "Warm",
                     "Cool",
-                    "Cold",
                     "Tepid"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Literary",
                 "emoji": "🔍📚",
                 "question": "Is it correct that what is the past tense of 'run'?",
                 "options": [
-                    "Runned",
                     "Ran",
-                    "Running",
-                    "Runs"
+                    "Runs",
+                    "Runned",
+                    "Running"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Literary",
@@ -8525,35 +8525,35 @@ const englishQuestions = {
                 "question": "Ch17: Which punctuation ends a question?",
                 "options": [
                     "Period",
+                    "Comma",
                     "Question mark",
-                    "Exclamation",
-                    "Comma"
+                    "Exclamation"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Literary",
                 "emoji": "🔍📚",
                 "question": "What is the plural of 'child' generally?",
                 "options": [
-                    "Childs",
-                    "Children",
                     "Childes",
-                    "Childrens"
+                    "Children",
+                    "Childrens",
+                    "Childs"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Literary",
                 "emoji": "🔍📚",
                 "question": "Which sentence can be grammatically correct?",
                 "options": [
-                    "She don't go",
-                    "She doesn't goes",
                     "She doesn't go",
-                    "She not go"
+                    "She not go",
+                    "She doesn't goes",
+                    "She don't go"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Literary",
@@ -8561,11 +8561,11 @@ const englishQuestions = {
                 "question": "Would you agree that what part of speech is 'beautiful'?",
                 "options": [
                     "Noun",
-                    "Verb",
+                    "Adverb",
                     "Adjective",
-                    "Adverb"
+                    "Verb"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "hard": [
@@ -8574,71 +8574,71 @@ const englishQuestions = {
                 "emoji": "🔍📚",
                 "question": "Literary Analysis advanced question 10?",
                 "options": [
-                    "A",
                     "C",
-                    "B"
+                    "B",
+                    "A"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Literary",
                 "emoji": "🔍📚",
                 "question": "Which mark shows possession in your opinion?",
                 "options": [
+                    "Semicolon",
                     "Comma",
-                    "Apostrophe",
                     "Colon",
-                    "Semicolon"
+                    "Apostrophe"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Literary",
                 "emoji": "🔍📚",
                 "question": "Ch17: What clause can stand alone?",
                 "options": [
-                    "Dependent",
-                    "Independent",
                     "Subordinate",
-                    "Relative"
+                    "Relative",
+                    "Independent",
+                    "Dependent"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Literary",
                 "emoji": "🔍📚",
                 "question": "Ch17: Which is a collective noun?",
                 "options": [
-                    "Team",
-                    "Player",
                     "Game",
-                    "Ball"
+                    "Team",
+                    "Ball",
+                    "Player"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Literary",
                 "emoji": "🔍📚",
                 "question": "Ch17: What is the superlative of 'good'?",
                 "options": [
-                    "Gooder",
-                    "More good",
                     "Best",
-                    "Better"
+                    "Gooder",
+                    "Better",
+                    "More good"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Literary",
                 "emoji": "🔍📚",
                 "question": "Ch17: Which sentence is in passive voice?",
                 "options": [
-                    "Cat chased mouse",
-                    "Mouse was chased",
                     "Cat is chasing",
+                    "Mouse was chased",
+                    "Cat chased mouse",
                     "Mouse runs"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Literary",
@@ -8646,47 +8646,47 @@ const englishQuestions = {
                 "question": "Is it correct that what type of pronoun is 'myself'?",
                 "options": [
                     "Personal",
-                    "Possessive",
                     "Reflexive",
+                    "Possessive",
                     "Demonstrative"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Literary",
                 "emoji": "🔍📚",
                 "question": "Ch17: Which word means opposite of 'abundant'?",
                 "options": [
+                    "Ample",
                     "Plentiful",
-                    "Scarce",
                     "Numerous",
-                    "Ample"
+                    "Scarce"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Literary",
                 "emoji": "🔍📚",
                 "question": "What device compares using 'like' or 'as' generally?",
                 "options": [
-                    "Metaphor",
                     "Simile",
+                    "Metaphor",
                     "Personification",
                     "Alliteration"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Literary",
                 "emoji": "🔍📚",
                 "question": "Ch17: Which uses correct subject-verb agreement?",
                 "options": [
-                    "Dogs runs",
-                    "Dog run",
                     "Dog runs",
-                    "Dogs is running"
+                    "Dogs is running",
+                    "Dogs runs",
+                    "Dog run"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "expert": [
@@ -8695,36 +8695,36 @@ const englishQuestions = {
                 "emoji": "🔍📚",
                 "question": "Literary Analysis expert question 10?",
                 "options": [
-                    "A",
-                    "C",
                     "D",
-                    "B"
+                    "B",
+                    "C",
+                    "A"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Literary",
                 "emoji": "🔍📚",
                 "question": "Would you agree that what is emotional atmosphere called?",
                 "options": [
-                    "Theme",
                     "Tone",
+                    "Setting",
                     "Mood",
-                    "Setting"
+                    "Theme"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Literary",
                 "emoji": "🔍📚",
                 "question": "Which shows alliteration in your opinion?",
                 "options": [
-                    "Wind whispered",
                     "Peter Piper picked",
                     "Time flies",
-                    "Happy clam"
+                    "Happy clam",
+                    "Wind whispered"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Literary",
@@ -8732,81 +8732,81 @@ const englishQuestions = {
                 "question": "Ch17: What is a dangling modifier?",
                 "options": [
                     "Clear modifier",
+                    "Multiple modifiers",
                     "Misplaced modifier",
-                    "End modifier",
-                    "Multiple modifiers"
+                    "End modifier"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Literary",
                 "emoji": "🔍📚",
                 "question": "Ch17: Which uses parallel structure?",
                 "options": [
-                    "Reading, writing, to swim",
-                    "Reading, writing, swimming",
                     "To read, writing, swim",
-                    "Read, write, swimming"
+                    "Read, write, swimming",
+                    "Reading, writing, to swim",
+                    "Reading, writing, swimming"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Literary",
                 "emoji": "🔍📚",
                 "question": "Ch17: What is an oxymoron?",
                 "options": [
-                    "Like comparison",
-                    "Contradictory terms",
                     "Exaggeration",
-                    "Sound repetition"
+                    "Sound repetition",
+                    "Like comparison",
+                    "Contradictory terms"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Literary",
                 "emoji": "🔍📚",
                 "question": "Ch17: What gives human traits to non-humans?",
                 "options": [
-                    "Simile",
-                    "Metaphor",
+                    "Hyperbole",
                     "Personification",
-                    "Hyperbole"
+                    "Simile",
+                    "Metaphor"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Literary",
                 "emoji": "🔍📚",
                 "question": "Is it correct that what does a gerund function as?",
                 "options": [
-                    "Verb",
+                    "Adverb",
                     "Noun",
-                    "Adjective",
-                    "Adverb"
+                    "Verb",
+                    "Adjective"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Literary",
                 "emoji": "🔍📚",
                 "question": "Ch17: What are words that sound the same but differ in meaning?",
                 "options": [
-                    "Synonyms",
-                    "Antonyms",
+                    "Acronyms",
                     "Homonyms",
-                    "Acronyms"
+                    "Antonyms",
+                    "Synonyms"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Literary",
                 "emoji": "🔍📚",
                 "question": "What is an example of synecdoche generally?",
                 "options": [
-                    "Pen vs sword",
+                    "Busy bee",
                     "All hands on deck",
-                    "Time flies",
-                    "Busy bee"
+                    "Pen vs sword",
+                    "Time flies"
                 ],
                 "correct": 1
             }
@@ -8891,10 +8891,10 @@ const englishQuestions = {
                 "emoji": "✍️📝",
                 "question": "Ch18: Do paragraphs have indentation?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Essay",
@@ -8921,10 +8921,10 @@ const englishQuestions = {
                 "emoji": "✍️📝",
                 "question": "Do you think 'beautiful' an adjective?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Essay",
@@ -8951,10 +8951,10 @@ const englishQuestions = {
                 "emoji": "✍️📝",
                 "question": "Ch18: Do sentences begin with capital letters?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Essay",
@@ -8983,19 +8983,19 @@ const englishQuestions = {
                 "emoji": "✍️📝",
                 "question": "Essay Writing question 10?",
                 "options": [
-                    "Option B",
-                    "Option A"
+                    "Option A",
+                    "Option B"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Essay",
                 "emoji": "✍️📝",
                 "question": "What expresses a complete thought generally?",
                 "options": [
-                    "Phrase",
-                    "Sentence",
                     "Word",
+                    "Sentence",
+                    "Phrase",
                     "Fragment"
                 ],
                 "correct": 1
@@ -9005,24 +9005,24 @@ const englishQuestions = {
                 "emoji": "✍️📝",
                 "question": "Ch18: Which shows correct capitalization?",
                 "options": [
-                    "i went home",
-                    "I Went Home",
                     "I went home",
-                    "i Went home"
+                    "i Went home",
+                    "i went home",
+                    "I Went Home"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Essay",
                 "emoji": "✍️📝",
                 "question": "Would you agree that what type of word modifies a verb?",
                 "options": [
-                    "Adjective",
                     "Adverb",
+                    "Pronoun",
                     "Noun",
-                    "Pronoun"
+                    "Adjective"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Essay",
@@ -9030,11 +9030,11 @@ const englishQuestions = {
                 "question": "Which word is opposite of 'hot' in your opinion?",
                 "options": [
                     "Warm",
-                    "Cool",
                     "Cold",
+                    "Cool",
                     "Tepid"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Essay",
@@ -9042,9 +9042,9 @@ const englishQuestions = {
                 "question": "Ch18: What is the past tense of 'run'?",
                 "options": [
                     "Runned",
-                    "Ran",
                     "Running",
-                    "Runs"
+                    "Runs",
+                    "Ran"
                 ],
                 "correct": 0
             },
@@ -9054,11 +9054,11 @@ const englishQuestions = {
                 "question": "Ch18: Which punctuation ends a question?",
                 "options": [
                     "Period",
+                    "Comma",
                     "Question mark",
-                    "Exclamation",
-                    "Comma"
+                    "Exclamation"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Essay",
@@ -9066,9 +9066,9 @@ const englishQuestions = {
                 "question": "Ch18: What is the plural of 'child'?",
                 "options": [
                     "Childs",
+                    "Childrens",
                     "Children",
-                    "Childes",
-                    "Childrens"
+                    "Childes"
                 ],
                 "correct": 0
             },
@@ -9077,24 +9077,24 @@ const englishQuestions = {
                 "emoji": "✍️📝",
                 "question": "Ch18: Which sentence is grammatically correct?",
                 "options": [
-                    "She don't go",
                     "She doesn't goes",
+                    "She don't go",
                     "She doesn't go",
                     "She not go"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Essay",
                 "emoji": "✍️📝",
                 "question": "Is it correct that what part of speech is 'beautiful'?",
                 "options": [
-                    "Noun",
                     "Verb",
+                    "Adverb",
                     "Adjective",
-                    "Adverb"
+                    "Noun"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -9103,11 +9103,11 @@ const englishQuestions = {
                 "emoji": "✍️📝",
                 "question": "Essay Writing advanced question 10?",
                 "options": [
-                    "C",
                     "B",
+                    "C",
                     "A"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Essay",
@@ -9115,11 +9115,11 @@ const englishQuestions = {
                 "question": "Ch18: Which mark shows possession?",
                 "options": [
                     "Comma",
-                    "Apostrophe",
+                    "Semicolon",
                     "Colon",
-                    "Semicolon"
+                    "Apostrophe"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Essay",
@@ -9140,8 +9140,8 @@ const englishQuestions = {
                 "options": [
                     "Team",
                     "Player",
-                    "Game",
-                    "Ball"
+                    "Ball",
+                    "Game"
                 ],
                 "correct": 1
             },
@@ -9150,12 +9150,12 @@ const englishQuestions = {
                 "emoji": "✍️📝",
                 "question": "Would you agree that what is the superlative of 'good'?",
                 "options": [
-                    "Gooder",
                     "More good",
+                    "Gooder",
                     "Best",
                     "Better"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Essay",
@@ -9175,11 +9175,11 @@ const englishQuestions = {
                 "question": "Ch18: What type of pronoun is 'myself'?",
                 "options": [
                     "Personal",
+                    "Demonstrative",
                     "Possessive",
-                    "Reflexive",
-                    "Demonstrative"
+                    "Reflexive"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Essay",
@@ -9187,9 +9187,9 @@ const englishQuestions = {
                 "question": "Ch18: Which word means opposite of 'abundant'?",
                 "options": [
                     "Plentiful",
-                    "Scarce",
+                    "Ample",
                     "Numerous",
-                    "Ample"
+                    "Scarce"
                 ],
                 "correct": 0
             },
@@ -9198,24 +9198,24 @@ const englishQuestions = {
                 "emoji": "✍️📝",
                 "question": "Ch18: What device compares using 'like' or 'as'?",
                 "options": [
-                    "Metaphor",
                     "Simile",
+                    "Metaphor",
                     "Personification",
                     "Alliteration"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Essay",
                 "emoji": "✍️📝",
                 "question": "Ch18: Which uses correct subject-verb agreement?",
                 "options": [
+                    "Dog runs",
                     "Dogs runs",
                     "Dog run",
-                    "Dog runs",
                     "Dogs is running"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -9224,48 +9224,48 @@ const englishQuestions = {
                 "emoji": "✍️📝",
                 "question": "Essay Writing expert question 10?",
                 "options": [
-                    "B",
+                    "A",
                     "D",
-                    "C",
-                    "A"
+                    "B",
+                    "C"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Essay",
                 "emoji": "✍️📝",
                 "question": "Is it correct that what is emotional atmosphere called?",
                 "options": [
-                    "Theme",
-                    "Tone",
                     "Mood",
-                    "Setting"
+                    "Setting",
+                    "Tone",
+                    "Theme"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Essay",
                 "emoji": "✍️📝",
                 "question": "Ch18: Which shows alliteration?",
                 "options": [
-                    "Wind whispered",
                     "Peter Piper picked",
+                    "Wind whispered",
                     "Time flies",
                     "Happy clam"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Essay",
                 "emoji": "✍️📝",
                 "question": "What is a dangling modifier generally?",
                 "options": [
-                    "Clear modifier",
                     "Misplaced modifier",
-                    "End modifier",
-                    "Multiple modifiers"
+                    "Clear modifier",
+                    "Multiple modifiers",
+                    "End modifier"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Essay",
@@ -9284,24 +9284,24 @@ const englishQuestions = {
                 "emoji": "✍️📝",
                 "question": "Would you agree that what is an oxymoron?",
                 "options": [
-                    "Like comparison",
-                    "Contradictory terms",
                     "Exaggeration",
-                    "Sound repetition"
+                    "Contradictory terms",
+                    "Sound repetition",
+                    "Like comparison"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Essay",
                 "emoji": "✍️📝",
                 "question": "What gives human traits to non-humans in your opinion?",
                 "options": [
-                    "Simile",
                     "Metaphor",
+                    "Simile",
                     "Personification",
                     "Hyperbole"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Essay",
@@ -9310,8 +9310,8 @@ const englishQuestions = {
                 "options": [
                     "Verb",
                     "Noun",
-                    "Adjective",
-                    "Adverb"
+                    "Adverb",
+                    "Adjective"
                 ],
                 "correct": 0
             },
@@ -9322,8 +9322,8 @@ const englishQuestions = {
                 "options": [
                     "Synonyms",
                     "Antonyms",
-                    "Homonyms",
-                    "Acronyms"
+                    "Acronyms",
+                    "Homonyms"
                 ],
                 "correct": 0
             },
@@ -9332,12 +9332,12 @@ const englishQuestions = {
                 "emoji": "✍️📝",
                 "question": "Ch18: What is an example of synecdoche?",
                 "options": [
-                    "Pen vs sword",
-                    "All hands on deck",
                     "Time flies",
-                    "Busy bee"
+                    "Pen vs sword",
+                    "Busy bee",
+                    "All hands on deck"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "extreme": [
@@ -9420,20 +9420,20 @@ const englishQuestions = {
                 "emoji": "🗣️💭",
                 "question": "Ch19: Do paragraphs have indentation?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Rhetoric",
                 "emoji": "🗣️💭",
                 "question": "Do you think is 'run' a verb?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Rhetoric",
@@ -9470,10 +9470,10 @@ const englishQuestions = {
                 "emoji": "🗣️💭",
                 "question": "is 'and' a conjunction in most cases?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Rhetoric",
@@ -9500,10 +9500,10 @@ const englishQuestions = {
                 "emoji": "🗣️💭",
                 "question": "Do you think every sentence need a verb?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -9523,47 +9523,47 @@ const englishQuestions = {
                 "question": "Ch19: What expresses a complete thought?",
                 "options": [
                     "Phrase",
-                    "Sentence",
                     "Word",
+                    "Sentence",
                     "Fragment"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Rhetoric",
                 "emoji": "🗣️💭",
                 "question": "Ch19: Which shows correct capitalization?",
                 "options": [
-                    "i went home",
-                    "I Went Home",
                     "I went home",
+                    "I Went Home",
+                    "i went home",
                     "i Went home"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Rhetoric",
                 "emoji": "🗣️💭",
                 "question": "Do you think what type of word modifies a verb?",
                 "options": [
-                    "Adjective",
                     "Adverb",
+                    "Pronoun",
                     "Noun",
-                    "Pronoun"
+                    "Adjective"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Rhetoric",
                 "emoji": "🗣️💭",
                 "question": "Ch19: Which word is opposite of 'hot'?",
                 "options": [
-                    "Warm",
                     "Cool",
+                    "Warm",
                     "Cold",
                     "Tepid"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Rhetoric",
@@ -9571,9 +9571,9 @@ const englishQuestions = {
                 "question": "Do you think what is the past tense of 'run' generally?",
                 "options": [
                     "Runned",
-                    "Ran",
                     "Running",
-                    "Runs"
+                    "Runs",
+                    "Ran"
                 ],
                 "correct": 0
             },
@@ -9583,23 +9583,23 @@ const englishQuestions = {
                 "question": "Ch19: Which punctuation ends a question?",
                 "options": [
                     "Period",
-                    "Question mark",
+                    "Comma",
                     "Exclamation",
-                    "Comma"
+                    "Question mark"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Rhetoric",
                 "emoji": "🗣️💭",
                 "question": "Would you say what is the plural of 'child'?",
                 "options": [
-                    "Childs",
+                    "Childrens",
                     "Children",
-                    "Childes",
-                    "Childrens"
+                    "Childs",
+                    "Childes"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Rhetoric",
@@ -9607,8 +9607,8 @@ const englishQuestions = {
                 "question": "Do you think which sentence is grammatically correct in your opinion?",
                 "options": [
                     "She don't go",
-                    "She doesn't goes",
                     "She doesn't go",
+                    "She doesn't goes",
                     "She not go"
                 ],
                 "correct": 0
@@ -9618,12 +9618,12 @@ const englishQuestions = {
                 "emoji": "🗣️💭",
                 "question": "Ch19: What part of speech is 'beautiful'?",
                 "options": [
-                    "Noun",
-                    "Verb",
                     "Adjective",
-                    "Adverb"
+                    "Adverb",
+                    "Verb",
+                    "Noun"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "hard": [
@@ -9632,35 +9632,35 @@ const englishQuestions = {
                 "emoji": "🗣️💭",
                 "question": "Rhetoric and Persuasion advanced question 10?",
                 "options": [
+                    "A",
                     "B",
-                    "C",
-                    "A"
-                ],
-                "correct": 0
-            },
-            {
-                "topic": "Rhetoric",
-                "emoji": "🗣️💭",
-                "question": "Ch19: Which mark shows possession?",
-                "options": [
-                    "Comma",
-                    "Apostrophe",
-                    "Colon",
-                    "Semicolon"
+                    "C"
                 ],
                 "correct": 1
             },
             {
                 "topic": "Rhetoric",
                 "emoji": "🗣️💭",
+                "question": "Ch19: Which mark shows possession?",
+                "options": [
+                    "Colon",
+                    "Comma",
+                    "Semicolon",
+                    "Apostrophe"
+                ],
+                "correct": 3
+            },
+            {
+                "topic": "Rhetoric",
+                "emoji": "🗣️💭",
                 "question": "Ch19: What clause can stand alone?",
                 "options": [
+                    "Subordinate",
                     "Dependent",
                     "Independent",
-                    "Subordinate",
                     "Relative"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Rhetoric",
@@ -9679,10 +9679,10 @@ const englishQuestions = {
                 "emoji": "🗣️💭",
                 "question": "Would you say what is the superlative of 'good'?",
                 "options": [
-                    "Gooder",
+                    "Better",
                     "More good",
                     "Best",
-                    "Better"
+                    "Gooder"
                 ],
                 "correct": 1
             },
@@ -9691,12 +9691,12 @@ const englishQuestions = {
                 "emoji": "🗣️💭",
                 "question": "Ch19: Which sentence is in passive voice?",
                 "options": [
-                    "Cat chased mouse",
                     "Mouse was chased",
-                    "Cat is chasing",
-                    "Mouse runs"
+                    "Mouse runs",
+                    "Cat chased mouse",
+                    "Cat is chasing"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Rhetoric",
@@ -9704,35 +9704,35 @@ const englishQuestions = {
                 "question": "Would you say what type of pronoun is 'myself' generally?",
                 "options": [
                     "Personal",
+                    "Demonstrative",
                     "Possessive",
-                    "Reflexive",
-                    "Demonstrative"
+                    "Reflexive"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Rhetoric",
                 "emoji": "🗣️💭",
                 "question": "Ch19: Which word means opposite of 'abundant'?",
                 "options": [
-                    "Plentiful",
-                    "Scarce",
                     "Numerous",
-                    "Ample"
+                    "Ample",
+                    "Plentiful",
+                    "Scarce"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Rhetoric",
                 "emoji": "🗣️💭",
                 "question": "Would you say what device compares using 'like' or 'as'?",
                 "options": [
-                    "Metaphor",
+                    "Alliteration",
                     "Simile",
                     "Personification",
-                    "Alliteration"
+                    "Metaphor"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Rhetoric",
@@ -9740,11 +9740,11 @@ const englishQuestions = {
                 "question": "Would you say which uses correct subject-verb agreement in your opinion?",
                 "options": [
                     "Dogs runs",
-                    "Dog run",
+                    "Dogs is running",
                     "Dog runs",
-                    "Dogs is running"
+                    "Dog run"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "expert": [
@@ -9753,60 +9753,60 @@ const englishQuestions = {
                 "emoji": "🗣️💭",
                 "question": "Rhetoric and Persuasion expert question 10?",
                 "options": [
-                    "A",
                     "C",
                     "B",
+                    "A",
                     "D"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Rhetoric",
                 "emoji": "🗣️💭",
                 "question": "Ch19: What is emotional atmosphere called?",
                 "options": [
-                    "Theme",
-                    "Tone",
                     "Mood",
-                    "Setting"
+                    "Setting",
+                    "Theme",
+                    "Tone"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Rhetoric",
                 "emoji": "🗣️💭",
                 "question": "Ch19: Which shows alliteration?",
                 "options": [
-                    "Wind whispered",
                     "Peter Piper picked",
+                    "Wind whispered",
                     "Time flies",
                     "Happy clam"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Rhetoric",
                 "emoji": "🗣️💭",
                 "question": "Ch19: What is a dangling modifier?",
                 "options": [
-                    "Clear modifier",
                     "Misplaced modifier",
+                    "Clear modifier",
                     "End modifier",
                     "Multiple modifiers"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Rhetoric",
                 "emoji": "🗣️💭",
                 "question": "Ch19: Which uses parallel structure?",
                 "options": [
-                    "Reading, writing, to swim",
-                    "Reading, writing, swimming",
                     "To read, writing, swim",
-                    "Read, write, swimming"
+                    "Read, write, swimming",
+                    "Reading, writing, swimming",
+                    "Reading, writing, to swim"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Rhetoric",
@@ -9825,48 +9825,48 @@ const englishQuestions = {
                 "emoji": "🗣️💭",
                 "question": "Ch19: What gives human traits to non-humans?",
                 "options": [
-                    "Simile",
-                    "Metaphor",
+                    "Hyperbole",
                     "Personification",
-                    "Hyperbole"
+                    "Simile",
+                    "Metaphor"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Rhetoric",
                 "emoji": "🗣️💭",
                 "question": "Would you say what does a gerund function as generally?",
                 "options": [
-                    "Verb",
+                    "Adverb",
                     "Noun",
                     "Adjective",
-                    "Adverb"
+                    "Verb"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Rhetoric",
                 "emoji": "🗣️💭",
                 "question": "Ch19: What are words that sound the same but differ in meaning?",
                 "options": [
-                    "Synonyms",
                     "Antonyms",
+                    "Acronyms",
                     "Homonyms",
-                    "Acronyms"
+                    "Synonyms"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Rhetoric",
                 "emoji": "🗣️💭",
                 "question": "Would you say what is an example of synecdoche?",
                 "options": [
-                    "Pen vs sword",
                     "All hands on deck",
                     "Time flies",
-                    "Busy bee"
+                    "Busy bee",
+                    "Pen vs sword"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "extreme": [
@@ -9959,10 +9959,10 @@ const englishQuestions = {
                 "emoji": "📜🔤",
                 "question": "'run' a verb generally?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Language",
@@ -9999,40 +9999,40 @@ const englishQuestions = {
                 "emoji": "📜🔤",
                 "question": "Would you say is 'and' a conjunction?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Language",
                 "emoji": "📜🔤",
                 "question": "Ch20: Do sentences begin with capital letters?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Language",
                 "emoji": "📜🔤",
                 "question": "Would you say 'quickly' an adverb generally?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Language",
                 "emoji": "📜🔤",
                 "question": "Ch20: Does every sentence need a verb?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -10041,46 +10041,46 @@ const englishQuestions = {
                 "emoji": "📚✨",
                 "question": "Would you agree that which word is a synonym for 'happy'?",
                 "options": [
+                    "Tired",
                     "Sad",
                     "Joyful",
-                    "Angry",
-                    "Tired"
-                ],
-                "correct": 0
-            },
-            {
-                "topic": "General",
-                "emoji": "📚✨",
-                "question": "Do you think what expresses a complete thought in your opinion?",
-                "options": [
-                    "Phrase",
-                    "Sentence",
-                    "Word",
-                    "Fragment"
+                    "Angry"
                 ],
                 "correct": 1
             },
             {
                 "topic": "General",
                 "emoji": "📚✨",
+                "question": "Do you think what expresses a complete thought in your opinion?",
+                "options": [
+                    "Word",
+                    "Fragment",
+                    "Sentence",
+                    "Phrase"
+                ],
+                "correct": 2
+            },
+            {
+                "topic": "General",
+                "emoji": "📚✨",
                 "question": "Ch20: Which shows correct capitalization?",
                 "options": [
-                    "i went home",
                     "I Went Home",
-                    "I went home",
-                    "i Went home"
+                    "i Went home",
+                    "i went home",
+                    "I went home"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "General",
                 "emoji": "📚✨",
                 "question": "Ch20: What type of word modifies a verb?",
                 "options": [
-                    "Adjective",
-                    "Adverb",
                     "Noun",
-                    "Pronoun"
+                    "Adverb",
+                    "Pronoun",
+                    "Adjective"
                 ],
                 "correct": 1
             },
@@ -10089,12 +10089,12 @@ const englishQuestions = {
                 "emoji": "📚✨",
                 "question": "Ch20: Which word is opposite of 'hot'?",
                 "options": [
-                    "Warm",
                     "Cool",
                     "Cold",
+                    "Warm",
                     "Tepid"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "General",
@@ -10103,8 +10103,8 @@ const englishQuestions = {
                 "options": [
                     "Runned",
                     "Ran",
-                    "Running",
-                    "Runs"
+                    "Runs",
+                    "Running"
                 ],
                 "correct": 0
             },
@@ -10113,48 +10113,48 @@ const englishQuestions = {
                 "emoji": "📚✨",
                 "question": "Would you say which punctuation ends a question?",
                 "options": [
+                    "Exclamation",
                     "Period",
                     "Question mark",
-                    "Exclamation",
                     "Comma"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "General",
                 "emoji": "📚✨",
                 "question": "Ch20: What is the plural of 'child'?",
                 "options": [
+                    "Childrens",
                     "Childs",
-                    "Children",
                     "Childes",
-                    "Childrens"
+                    "Children"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "General",
                 "emoji": "📚✨",
                 "question": "Do you think which sentence is grammatically correct generally?",
                 "options": [
-                    "She don't go",
-                    "She doesn't goes",
                     "She doesn't go",
-                    "She not go"
+                    "She don't go",
+                    "She not go",
+                    "She doesn't goes"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "General",
                 "emoji": "📚✨",
                 "question": "Do you think what part of speech can be 'beautiful'?",
                 "options": [
-                    "Noun",
-                    "Verb",
+                    "Adverb",
                     "Adjective",
-                    "Adverb"
+                    "Noun",
+                    "Verb"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "hard": [
@@ -10163,11 +10163,11 @@ const englishQuestions = {
                 "emoji": "📜🔤",
                 "question": "Language History and Etymology advanced question 10?",
                 "options": [
+                    "B",
                     "A",
-                    "C",
-                    "B"
+                    "C"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Language",
@@ -10175,23 +10175,23 @@ const englishQuestions = {
                 "question": "Do you think which mark shows possession?",
                 "options": [
                     "Comma",
+                    "Semicolon",
                     "Apostrophe",
-                    "Colon",
-                    "Semicolon"
+                    "Colon"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Language",
                 "emoji": "📜🔤",
                 "question": "Do you think what clause can stand alone in your opinion?",
                 "options": [
+                    "Subordinate",
                     "Dependent",
                     "Independent",
-                    "Subordinate",
                     "Relative"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Language",
@@ -10210,60 +10210,60 @@ const englishQuestions = {
                 "emoji": "📜🔤",
                 "question": "Ch20: What is the superlative of 'good'?",
                 "options": [
-                    "Gooder",
                     "More good",
+                    "Gooder",
                     "Best",
                     "Better"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Language",
                 "emoji": "📜🔤",
                 "question": "Ch20: Which sentence is in passive voice?",
                 "options": [
-                    "Cat chased mouse",
                     "Mouse was chased",
                     "Cat is chasing",
+                    "Cat chased mouse",
                     "Mouse runs"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Language",
                 "emoji": "📜🔤",
                 "question": "Ch20: What type of pronoun is 'myself'?",
                 "options": [
+                    "Reflexive",
                     "Personal",
                     "Possessive",
-                    "Reflexive",
                     "Demonstrative"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Language",
                 "emoji": "📜🔤",
                 "question": "Do you think which word means opposite of 'abundant'?",
                 "options": [
-                    "Plentiful",
-                    "Scarce",
                     "Numerous",
+                    "Scarce",
+                    "Plentiful",
                     "Ample"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Language",
                 "emoji": "📜🔤",
                 "question": "Ch20: What device compares using 'like' or 'as'?",
                 "options": [
+                    "Alliteration",
                     "Metaphor",
-                    "Simile",
                     "Personification",
-                    "Alliteration"
+                    "Simile"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Language",
@@ -10271,11 +10271,11 @@ const englishQuestions = {
                 "question": "Do you think which uses correct subject-verb agreement generally?",
                 "options": [
                     "Dogs runs",
-                    "Dog run",
                     "Dog runs",
-                    "Dogs is running"
+                    "Dogs is running",
+                    "Dog run"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "expert": [
@@ -10284,36 +10284,36 @@ const englishQuestions = {
                 "emoji": "📜🔤",
                 "question": "Language History and Etymology expert question 1?",
                 "options": [
+                    "A",
                     "D",
                     "C",
-                    "B",
-                    "A"
-                ],
-                "correct": 0
-            },
-            {
-                "topic": "Language",
-                "emoji": "📜🔤",
-                "question": "Language History and Etymology expert question 10?",
-                "options": [
-                    "C",
-                    "B",
-                    "A",
-                    "D"
+                    "B"
                 ],
                 "correct": 1
             },
             {
                 "topic": "Language",
                 "emoji": "📜🔤",
+                "question": "Language History and Etymology expert question 10?",
+                "options": [
+                    "D",
+                    "C",
+                    "A",
+                    "B"
+                ],
+                "correct": 3
+            },
+            {
+                "topic": "Language",
+                "emoji": "📜🔤",
                 "question": "Ch20: Which shows alliteration?",
                 "options": [
+                    "Time flies",
                     "Wind whispered",
                     "Peter Piper picked",
-                    "Time flies",
                     "Happy clam"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Language",
@@ -10321,23 +10321,23 @@ const englishQuestions = {
                 "question": "Do you think what is a dangling modifier?",
                 "options": [
                     "Clear modifier",
-                    "Misplaced modifier",
+                    "Multiple modifiers",
                     "End modifier",
-                    "Multiple modifiers"
+                    "Misplaced modifier"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Language",
                 "emoji": "📜🔤",
                 "question": "Do you think which uses parallel structure in your opinion?",
                 "options": [
-                    "Reading, writing, to swim",
                     "Reading, writing, swimming",
                     "To read, writing, swim",
+                    "Reading, writing, to swim",
                     "Read, write, swimming"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Language",
@@ -10356,12 +10356,12 @@ const englishQuestions = {
                 "emoji": "📜🔤",
                 "question": "Ch20: What gives human traits to non-humans?",
                 "options": [
-                    "Simile",
-                    "Metaphor",
                     "Personification",
-                    "Hyperbole"
+                    "Simile",
+                    "Hyperbole",
+                    "Metaphor"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Language",
@@ -10369,9 +10369,9 @@ const englishQuestions = {
                 "question": "Ch20: What does a gerund function as?",
                 "options": [
                     "Verb",
-                    "Noun",
                     "Adjective",
-                    "Adverb"
+                    "Adverb",
+                    "Noun"
                 ],
                 "correct": 0
             },
@@ -10381,9 +10381,9 @@ const englishQuestions = {
                 "question": "Ch20: What are words that sound the same but differ in meaning?",
                 "options": [
                     "Synonyms",
-                    "Antonyms",
+                    "Acronyms",
                     "Homonyms",
-                    "Acronyms"
+                    "Antonyms"
                 ],
                 "correct": 0
             },
@@ -10392,10 +10392,10 @@ const englishQuestions = {
                 "emoji": "📜🔤",
                 "question": "what is an example of synecdoche in most cases?",
                 "options": [
-                    "Pen vs sword",
-                    "All hands on deck",
                     "Time flies",
-                    "Busy bee"
+                    "All hands on deck",
+                    "Busy bee",
+                    "Pen vs sword"
                 ],
                 "correct": 1
             }

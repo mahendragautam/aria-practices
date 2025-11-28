@@ -16,10 +16,10 @@ const healthQuestions = {
                 "emoji": "💪🏋️",
                 "question": "Are fruits and vegetables healthy?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Exercise",
@@ -46,20 +46,20 @@ const healthQuestions = {
                 "emoji": "💊💉",
                 "question": "Does yoga help with flexibility?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Cardio",
                 "emoji": "🫀❤️",
                 "question": "Is running a cardio exercise?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Nutrition",
@@ -76,20 +76,20 @@ const healthQuestions = {
                 "emoji": "😴💤",
                 "question": "Is lifting weights builds muscle?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Nutrition",
                 "emoji": "🚴🏃",
                 "question": "Is too much sugar bad for health?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Yoga",
@@ -148,20 +148,20 @@ const healthQuestions = {
                 "emoji": "🏥🩺",
                 "question": "Which yoga pose is for relaxation?",
                 "options": [
-                    "Warrior",
-                    "Savasana"
+                    "Savasana",
+                    "Warrior"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Cardio",
                 "emoji": "💆🛀",
                 "question": "What does cardio improve?",
                 "options": [
-                    "Heart health",
-                    "Flexibility"
+                    "Flexibility",
+                    "Heart health"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Nutrition",
@@ -231,42 +231,42 @@ const healthQuestions = {
                 "emoji": "🦷😁",
                 "question": "What does the acronym HIIT stand for?",
                 "options": [
-                    "Healthy Intensity Integration",
                     "Heavy Indoor Impact",
+                    "Healthy Intensity Integration",
                     "High Intensity Interval"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Nutrition",
                 "emoji": "👓👁️",
                 "question": "What are macronutrients?",
                 "options": [
-                    "Carbs, Protein, Fat",
+                    "Water, Fiber",
                     "Vitamins, Minerals",
-                    "Water, Fiber"
+                    "Carbs, Protein, Fat"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Yoga",
                 "emoji": "👂🦻",
                 "question": "How many limbs in Ashtanga yoga?",
                 "options": [
-                    "4",
                     "12",
-                    "8"
+                    "8",
+                    "4"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Cardio",
                 "emoji": "🫁🫀",
                 "question": "What is target heart rate zone?",
                 "options": [
-                    "50-85% max",
+                    "30-50% max",
                     "90-100% max",
-                    "30-50% max"
+                    "50-85% max"
                 ],
                 "correct": 1
             },
@@ -276,8 +276,8 @@ const healthQuestions = {
                 "question": "What causes dehydration?",
                 "options": [
                     "Low fat",
-                    "Low water intake",
-                    "High protein"
+                    "High protein",
+                    "Low water intake"
                 ],
                 "correct": 0
             },
@@ -286,33 +286,33 @@ const healthQuestions = {
                 "emoji": "🦵🦿",
                 "question": "What is progressive overload?",
                 "options": [
-                    "Same routine",
                     "Decreasing reps",
+                    "Same routine",
                     "Increasing weight gradually"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Nutrition",
                 "emoji": "🧬🔬",
                 "question": "What is lactose intolerance?",
                 "options": [
+                    "Vitamin deficiency",
                     "Allergy to protein",
-                    "Cannot digest milk sugar",
-                    "Vitamin deficiency"
+                    "Cannot digest milk sugar"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Yoga",
                 "emoji": "💉🩸",
                 "question": "What is the sun salutation?",
                 "options": [
-                    "Meditation style",
                     "Series of poses",
-                    "Breathing technique"
+                    "Breathing technique",
+                    "Meditation style"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Cardio",
@@ -320,10 +320,10 @@ const healthQuestions = {
                 "question": "What is VO2 max?",
                 "options": [
                     "Oxygen capacity",
-                    "Lung volume",
-                    "Heart rate"
+                    "Heart rate",
+                    "Lung volume"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -334,8 +334,8 @@ const healthQuestions = {
                 "options": [
                     "2-3g",
                     "5g",
-                    "0.8-1g",
-                    "0.1-0.3g"
+                    "0.1-0.3g",
+                    "0.8-1g"
                 ],
                 "correct": 0
             },
@@ -344,24 +344,24 @@ const healthQuestions = {
                 "emoji": "💪🏃",
                 "question": "What is muscle hypertrophy?",
                 "options": [
+                    "Muscle flexibility",
                     "Muscle strain",
                     "Muscle growth",
-                    "Muscle flexibility",
                     "Muscle loss"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Nutrition",
                 "emoji": "🥦🥕",
                 "question": "What are essential amino acids?",
                 "options": [
-                    "Only in plants",
                     "Body cannot make",
-                    "Made by body",
-                    "Not needed"
+                    "Only in plants",
+                    "Not needed",
+                    "Made by body"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Yoga",
@@ -380,36 +380,36 @@ const healthQuestions = {
                 "emoji": "❤️🏃",
                 "question": "What is maximum heart rate formula?",
                 "options": [
-                    "220 - age",
                     "240 - age",
+                    "220 - age",
                     "200 - age",
                     "180 - age"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Nutrition",
                 "emoji": "💧🚰",
                 "question": "How much water weight can body lose per hour exercise?",
                 "options": [
+                    "1-2 liters",
                     "0.1 liter",
                     "5 liters",
-                    "10 liters",
-                    "1-2 liters"
+                    "10 liters"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Exercise",
                 "emoji": "🏋️💪",
                 "question": "What is eccentric contraction?",
                 "options": [
-                    "No movement",
-                    "Isometric",
                     "Muscle shortens",
-                    "Muscle lengthens"
+                    "Muscle lengthens",
+                    "Isometric",
+                    "No movement"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Nutrition",
@@ -428,24 +428,24 @@ const healthQuestions = {
                 "emoji": "🧘🌅",
                 "question": "What is the corpse pose called?",
                 "options": [
-                    "Downward dog",
-                    "Tree",
                     "Warrior",
-                    "Savasana"
+                    "Tree",
+                    "Savasana",
+                    "Downward dog"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Cardio",
                 "emoji": "🚴‍♂️❤️",
                 "question": "What is anaerobic threshold?",
                 "options": [
-                    "Lactic acid builds up",
                     "Muscle relaxes",
-                    "Oxygen excess",
-                    "Heart stops"
+                    "Lactic acid builds up",
+                    "Heart stops",
+                    "Oxygen excess"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "extreme": [
@@ -578,10 +578,10 @@ const healthQuestions = {
                 "emoji": "🦠💉",
                 "question": "Does adequate sleep improve overall health?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Diseases",
@@ -598,20 +598,20 @@ const healthQuestions = {
                 "emoji": "🦠💉",
                 "question": "Is physical activity beneficial for mental health?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Diseases",
                 "emoji": "🦠💉",
                 "question": "Does vitamin D support bone health?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -620,22 +620,22 @@ const healthQuestions = {
                 "emoji": "🦠💉",
                 "question": "Diseases and Prevention question 10?",
                 "options": [
-                    "Option A",
-                    "Option B"
+                    "Option B",
+                    "Option A"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Diseases",
                 "emoji": "🦠💉",
                 "question": "What is the recommended weekly amount of moderate exercise?",
                 "options": [
-                    "30 minutes",
                     "150 minutes",
+                    "500 minutes",
                     "300 minutes",
-                    "500 minutes"
+                    "30 minutes"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Diseases",
@@ -643,9 +643,9 @@ const healthQuestions = {
                 "question": "Which organ filters toxins from blood?",
                 "options": [
                     "Heart",
-                    "Liver",
                     "Stomach",
-                    "Lungs"
+                    "Lungs",
+                    "Liver"
                 ],
                 "correct": 0
             },
@@ -654,12 +654,12 @@ const healthQuestions = {
                 "emoji": "🦠💉",
                 "question": "What type of fat should be limited in a healthy diet?",
                 "options": [
-                    "Monounsaturated",
                     "Polyunsaturated",
+                    "Omega-3",
                     "Saturated",
-                    "Omega-3"
+                    "Monounsaturated"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Diseases",
@@ -668,8 +668,8 @@ const healthQuestions = {
                 "options": [
                     "Vitamin K",
                     "Vitamin C",
-                    "Vitamin A",
-                    "Vitamin E"
+                    "Vitamin E",
+                    "Vitamin A"
                 ],
                 "correct": 1
             },
@@ -679,9 +679,9 @@ const healthQuestions = {
                 "question": "How many hours of sleep do most adults need per night?",
                 "options": [
                     "4-5 hours",
-                    "7-9 hours",
+                    "3-4 hours",
                     "10-12 hours",
-                    "3-4 hours"
+                    "7-9 hours"
                 ],
                 "correct": 0
             },
@@ -690,24 +690,24 @@ const healthQuestions = {
                 "emoji": "🦠💉",
                 "question": "Which macronutrient is the body's primary energy source?",
                 "options": [
+                    "Minerals",
                     "Proteins",
-                    "Vitamins",
                     "Carbohydrates",
-                    "Minerals"
+                    "Vitamins"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Diseases",
                 "emoji": "🦠💉",
                 "question": "What mineral is essential for healthy bones and teeth?",
                 "options": [
-                    "Iron",
-                    "Zinc",
                     "Calcium",
-                    "Sodium"
+                    "Zinc",
+                    "Sodium",
+                    "Iron"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Diseases",
@@ -726,12 +726,12 @@ const healthQuestions = {
                 "emoji": "🦠💉",
                 "question": "What is the recommended daily water intake for most adults?",
                 "options": [
+                    "10 liters",
                     "2-3 liters",
-                    "5-6 liters",
                     "0.5-1 liter",
-                    "10 liters"
+                    "5-6 liters"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "hard": [
@@ -740,35 +740,35 @@ const healthQuestions = {
                 "emoji": "🦠💉",
                 "question": "Diseases and Prevention advanced question 10?",
                 "options": [
+                    "C",
                     "A",
-                    "B",
-                    "C"
-                ],
-                "correct": 0
-            },
-            {
-                "topic": "Diseases",
-                "emoji": "🦠💉",
-                "question": "Which vitamin is essential for night vision?",
-                "options": [
-                    "Vitamin A",
-                    "Vitamin B",
-                    "Vitamin C",
-                    "Vitamin D"
+                    "B"
                 ],
                 "correct": 1
             },
             {
                 "topic": "Diseases",
                 "emoji": "🦠💉",
-                "question": "What is normal body temperature in Celsius?",
+                "question": "Which vitamin is essential for night vision?",
                 "options": [
-                    "35°C",
-                    "37°C",
-                    "39°C",
-                    "40°C"
+                    "Vitamin B",
+                    "Vitamin C",
+                    "Vitamin D",
+                    "Vitamin A"
                 ],
                 "correct": 0
+            },
+            {
+                "topic": "Diseases",
+                "emoji": "🦠💉",
+                "question": "What is normal body temperature in Celsius?",
+                "options": [
+                    "37°C",
+                    "39°C",
+                    "40°C",
+                    "35°C"
+                ],
+                "correct": 3
             },
             {
                 "topic": "Diseases",
@@ -777,8 +777,8 @@ const healthQuestions = {
                 "options": [
                     "Liver",
                     "Kidneys",
-                    "Bladder",
-                    "Pancreas"
+                    "Pancreas",
+                    "Bladder"
                 ],
                 "correct": 1
             },
@@ -787,12 +787,12 @@ const healthQuestions = {
                 "emoji": "🦠💉",
                 "question": "What is the primary function of white blood cells?",
                 "options": [
-                    "Carry oxygen",
-                    "Fight infections",
                     "Clot blood",
-                    "Regulate temperature"
+                    "Regulate temperature",
+                    "Carry oxygen",
+                    "Fight infections"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Diseases",
@@ -811,48 +811,48 @@ const healthQuestions = {
                 "emoji": "🦠💉",
                 "question": "Is approximately what percentage of the human body water?",
                 "options": [
-                    "30-40%",
                     "50-60%",
-                    "60-70%",
-                    "80-90%"
+                    "80-90%",
+                    "30-40%",
+                    "60-70%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Diseases",
                 "emoji": "🦠💉",
                 "question": "Which type of cholesterol is considered beneficial?",
                 "options": [
-                    "LDL",
                     "HDL",
+                    "LDL",
                     "VLDL",
                     "Triglycerides"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Diseases",
                 "emoji": "🦠💉",
                 "question": "What is the normal resting heart rate range for adults?",
                 "options": [
-                    "40-50 bpm",
-                    "60-100 bpm",
+                    "140-160 bpm",
                     "110-130 bpm",
-                    "140-160 bpm"
+                    "60-100 bpm",
+                    "40-50 bpm"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Diseases",
                 "emoji": "🦠💉",
                 "question": "Which hormone regulates blood sugar levels?",
                 "options": [
+                    "Cortisol",
                     "Insulin",
                     "Adrenaline",
-                    "Cortisol",
                     "Melatonin"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -862,9 +862,9 @@ const healthQuestions = {
                 "question": "Diseases and Prevention expert question 10?",
                 "options": [
                     "D",
-                    "C",
+                    "B",
                     "A",
-                    "B"
+                    "C"
                 ],
                 "correct": 0
             },
@@ -873,34 +873,34 @@ const healthQuestions = {
                 "emoji": "🦠💉",
                 "question": "What is the medical term for nearsightedness?",
                 "options": [
+                    "Astigmatism",
                     "Hyperopia",
                     "Myopia",
-                    "Astigmatism",
                     "Presbyopia"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Diseases",
                 "emoji": "🦠💉",
                 "question": "Which gland regulates other endocrine glands?",
                 "options": [
-                    "Thyroid",
                     "Adrenal",
                     "Pituitary",
-                    "Pineal"
+                    "Pineal",
+                    "Thyroid"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Diseases",
                 "emoji": "🦠💉",
                 "question": "What is the largest bone in the human body?",
                 "options": [
-                    "Tibia",
+                    "Fibula",
                     "Femur",
                     "Humerus",
-                    "Fibula"
+                    "Tibia"
                 ],
                 "correct": 1
             },
@@ -909,12 +909,12 @@ const healthQuestions = {
                 "emoji": "🦠💉",
                 "question": "Which blood type is the universal donor?",
                 "options": [
-                    "A",
-                    "B",
                     "AB",
-                    "O"
+                    "O",
+                    "B",
+                    "A"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Diseases",
@@ -922,9 +922,9 @@ const healthQuestions = {
                 "question": "What is the medical term for the voice box?",
                 "options": [
                     "Pharynx",
-                    "Larynx",
+                    "Esophagus",
                     "Trachea",
-                    "Esophagus"
+                    "Larynx"
                 ],
                 "correct": 0
             },
@@ -946,9 +946,9 @@ const healthQuestions = {
                 "question": "What is the primary role of the lymphatic system?",
                 "options": [
                     "Digestion",
+                    "Respiration",
                     "Circulation",
-                    "Immunity",
-                    "Respiration"
+                    "Immunity"
                 ],
                 "correct": 0
             },
@@ -957,22 +957,22 @@ const healthQuestions = {
                 "emoji": "🦠💉",
                 "question": "Which organ produces insulin in the body?",
                 "options": [
-                    "Liver",
+                    "Thyroid",
                     "Kidney",
-                    "Pancreas",
-                    "Thyroid"
+                    "Liver",
+                    "Pancreas"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Diseases",
                 "emoji": "🦠💉",
                 "question": "What is the medical term for high blood pressure?",
                 "options": [
-                    "Hypotension",
-                    "Hypertension",
                     "Hyperglycemia",
-                    "Hyperthyroidism"
+                    "Hypertension",
+                    "Hyperthyroidism",
+                    "Hypotension"
                 ],
                 "correct": 1
             }
@@ -1057,40 +1057,40 @@ const healthQuestions = {
                 "emoji": "🧠💭",
                 "question": "Is sunscreen important for skin protection in your opinion?",
                 "options": [
-                    "True",
-                    "False"
-                ],
-                "correct": 1
-            },
-            {
-                "topic": "Mental",
-                "emoji": "🧠💭",
-                "question": "Ch3: Does exercise help strengthen muscles?",
-                "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
                 "correct": 0
             },
             {
                 "topic": "Mental",
                 "emoji": "🧠💭",
-                "question": "Ch3: Are fruits and vegetables part of a healthy diet?",
+                "question": "Ch3: Does exercise help strengthen muscles?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
                 "correct": 1
             },
             {
                 "topic": "Mental",
                 "emoji": "🧠💭",
+                "question": "Ch3: Are fruits and vegetables part of a healthy diet?",
+                "options": [
+                    "False",
+                    "True"
+                ],
+                "correct": 0
+            },
+            {
+                "topic": "Mental",
+                "emoji": "🧠💭",
                 "question": "Ch3: Can stress affect physical health?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mental",
@@ -1107,40 +1107,40 @@ const healthQuestions = {
                 "emoji": "🧠💭",
                 "question": "Is it correct that does adequate sleep improve overall health?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mental",
                 "emoji": "🧠💭",
                 "question": "Ch3: Should you drink water throughout the day?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Mental",
                 "emoji": "🧠💭",
                 "question": "Is physical activity beneficial for mental health generally?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Mental",
                 "emoji": "🧠💭",
                 "question": "Ch3: Does vitamin D support bone health?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -1159,10 +1159,10 @@ const healthQuestions = {
                 "emoji": "🧠💭",
                 "question": "Would you agree that what is the recommended weekly amount of moderate exercise?",
                 "options": [
-                    "30 minutes",
-                    "150 minutes",
                     "300 minutes",
-                    "500 minutes"
+                    "150 minutes",
+                    "500 minutes",
+                    "30 minutes"
                 ],
                 "correct": 1
             },
@@ -1171,36 +1171,36 @@ const healthQuestions = {
                 "emoji": "🧠💭",
                 "question": "Which organ filters toxins from blood in your opinion?",
                 "options": [
-                    "Heart",
-                    "Liver",
                     "Stomach",
-                    "Lungs"
+                    "Lungs",
+                    "Heart",
+                    "Liver"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Mental",
                 "emoji": "🧠💭",
                 "question": "Ch3: What type of fat should be limited in a healthy diet?",
                 "options": [
-                    "Monounsaturated",
                     "Polyunsaturated",
+                    "Omega-3",
                     "Saturated",
-                    "Omega-3"
+                    "Monounsaturated"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mental",
                 "emoji": "🧠💭",
                 "question": "Ch3: Which vitamin is important for immune function?",
                 "options": [
-                    "Vitamin K",
-                    "Vitamin C",
                     "Vitamin A",
-                    "Vitamin E"
+                    "Vitamin K",
+                    "Vitamin E",
+                    "Vitamin C"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Mental",
@@ -1209,8 +1209,8 @@ const healthQuestions = {
                 "options": [
                     "4-5 hours",
                     "7-9 hours",
-                    "10-12 hours",
-                    "3-4 hours"
+                    "3-4 hours",
+                    "10-12 hours"
                 ],
                 "correct": 0
             },
@@ -1231,36 +1231,36 @@ const healthQuestions = {
                 "emoji": "🧠💭",
                 "question": "Is it correct that what mineral is essential for healthy bones and teeth?",
                 "options": [
-                    "Iron",
-                    "Zinc",
                     "Calcium",
-                    "Sodium"
+                    "Zinc",
+                    "Sodium",
+                    "Iron"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Mental",
                 "emoji": "🧠💭",
                 "question": "Ch3: Which type of exercise strengthens the heart?",
                 "options": [
+                    "Stretching",
                     "Weight lifting",
                     "Aerobic exercise",
-                    "Stretching",
                     "Balance training"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Mental",
                 "emoji": "🧠💭",
                 "question": "What is the recommended daily water intake for most adults generally?",
                 "options": [
+                    "10 liters",
                     "2-3 liters",
                     "5-6 liters",
-                    "0.5-1 liter",
-                    "10 liters"
+                    "0.5-1 liter"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "hard": [
@@ -1269,20 +1269,20 @@ const healthQuestions = {
                 "emoji": "🧠💭",
                 "question": "Mental Health and Wellness advanced question 10?",
                 "options": [
-                    "B",
+                    "A",
                     "C",
-                    "A"
+                    "B"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Mental",
                 "emoji": "🧠💭",
                 "question": "Which vitamin can be essential for night vision?",
                 "options": [
-                    "Vitamin A",
-                    "Vitamin B",
                     "Vitamin C",
+                    "Vitamin B",
+                    "Vitamin A",
                     "Vitamin D"
                 ],
                 "correct": 1
@@ -1292,12 +1292,12 @@ const healthQuestions = {
                 "emoji": "🧠💭",
                 "question": "Would you agree that what is normal body temperature in celsius?",
                 "options": [
-                    "35°C",
+                    "40°C",
                     "37°C",
                     "39°C",
-                    "40°C"
+                    "35°C"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Mental",
@@ -1305,35 +1305,35 @@ const healthQuestions = {
                 "question": "Which organs filter blood to produce urine in your opinion?",
                 "options": [
                     "Liver",
-                    "Kidneys",
                     "Bladder",
-                    "Pancreas"
+                    "Pancreas",
+                    "Kidneys"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Mental",
                 "emoji": "🧠💭",
                 "question": "Ch3: What is the primary function of white blood cells?",
                 "options": [
+                    "Regulate temperature",
                     "Carry oxygen",
                     "Fight infections",
-                    "Clot blood",
-                    "Regulate temperature"
+                    "Clot blood"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Mental",
                 "emoji": "🧠💭",
                 "question": "Ch3: How many chambers does the human heart have?",
                 "options": [
-                    "Two",
-                    "Three",
                     "Four",
-                    "Five"
+                    "Five",
+                    "Three",
+                    "Two"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Mental",
@@ -1342,8 +1342,8 @@ const healthQuestions = {
                 "options": [
                     "30-40%",
                     "50-60%",
-                    "60-70%",
-                    "80-90%"
+                    "80-90%",
+                    "60-70%"
                 ],
                 "correct": 1
             },
@@ -1353,8 +1353,8 @@ const healthQuestions = {
                 "question": "Ch3: Which type of cholesterol is considered beneficial?",
                 "options": [
                     "LDL",
-                    "HDL",
                     "VLDL",
+                    "HDL",
                     "Triglycerides"
                 ],
                 "correct": 0
@@ -1364,12 +1364,12 @@ const healthQuestions = {
                 "emoji": "🧠💭",
                 "question": "Is it correct that what is the normal resting heart rate range for adults?",
                 "options": [
-                    "40-50 bpm",
+                    "140-160 bpm",
                     "60-100 bpm",
                     "110-130 bpm",
-                    "140-160 bpm"
+                    "40-50 bpm"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Mental",
@@ -1377,11 +1377,11 @@ const healthQuestions = {
                 "question": "Ch3: Which hormone regulates blood sugar levels?",
                 "options": [
                     "Insulin",
+                    "Melatonin",
                     "Adrenaline",
-                    "Cortisol",
-                    "Melatonin"
+                    "Cortisol"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -1390,58 +1390,58 @@ const healthQuestions = {
                 "emoji": "🧠💭",
                 "question": "Mental Health and Wellness expert question 10?",
                 "options": [
-                    "C",
+                    "B",
                     "A",
-                    "D",
-                    "B"
+                    "C",
+                    "D"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Mental",
                 "emoji": "🧠💭",
                 "question": "What is the medical term for nearsightedness generally?",
                 "options": [
-                    "Hyperopia",
-                    "Myopia",
                     "Astigmatism",
-                    "Presbyopia"
+                    "Presbyopia",
+                    "Myopia",
+                    "Hyperopia"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Mental",
                 "emoji": "🧠💭",
                 "question": "Ch3: Which gland regulates other endocrine glands?",
                 "options": [
-                    "Thyroid",
-                    "Adrenal",
                     "Pituitary",
-                    "Pineal"
-                ],
-                "correct": 0
-            },
-            {
-                "topic": "Mental",
-                "emoji": "🧠💭",
-                "question": "Would you agree that what is the largest bone in the human body?",
-                "options": [
-                    "Tibia",
-                    "Femur",
-                    "Humerus",
-                    "Fibula"
+                    "Thyroid",
+                    "Pineal",
+                    "Adrenal"
                 ],
                 "correct": 1
             },
             {
                 "topic": "Mental",
                 "emoji": "🧠💭",
+                "question": "Would you agree that what is the largest bone in the human body?",
+                "options": [
+                    "Humerus",
+                    "Fibula",
+                    "Tibia",
+                    "Femur"
+                ],
+                "correct": 3
+            },
+            {
+                "topic": "Mental",
+                "emoji": "🧠💭",
                 "question": "Which blood type is the universal donor in your opinion?",
                 "options": [
-                    "A",
-                    "B",
                     "AB",
-                    "O"
+                    "B",
+                    "O",
+                    "A"
                 ],
                 "correct": 1
             },
@@ -1452,8 +1452,8 @@ const healthQuestions = {
                 "options": [
                     "Pharynx",
                     "Larynx",
-                    "Trachea",
-                    "Esophagus"
+                    "Esophagus",
+                    "Trachea"
                 ],
                 "correct": 0
             },
@@ -1462,46 +1462,46 @@ const healthQuestions = {
                 "emoji": "🧠💭",
                 "question": "Ch3: Which vitamin deficiency causes scurvy?",
                 "options": [
-                    "Vitamin A",
                     "Vitamin B",
-                    "Vitamin C",
-                    "Vitamin D"
+                    "Vitamin A",
+                    "Vitamin D",
+                    "Vitamin C"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Mental",
                 "emoji": "🧠💭",
                 "question": "Ch3: What is the primary role of the lymphatic system?",
                 "options": [
-                    "Digestion",
-                    "Circulation",
                     "Immunity",
-                    "Respiration"
+                    "Respiration",
+                    "Digestion",
+                    "Circulation"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Mental",
                 "emoji": "🧠💭",
                 "question": "Ch3: Which organ produces insulin in the body?",
                 "options": [
-                    "Liver",
                     "Kidney",
-                    "Pancreas",
-                    "Thyroid"
+                    "Thyroid",
+                    "Liver",
+                    "Pancreas"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Mental",
                 "emoji": "🧠💭",
                 "question": "Is it correct that what is the medical term for high blood pressure?",
                 "options": [
-                    "Hypotension",
-                    "Hypertension",
                     "Hyperglycemia",
-                    "Hyperthyroidism"
+                    "Hypertension",
+                    "Hyperthyroidism",
+                    "Hypotension"
                 ],
                 "correct": 1
             }
@@ -1576,10 +1576,10 @@ const healthQuestions = {
                 "emoji": "😴🛌",
                 "question": "Is sleep and Rest topic 10?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sleep",
@@ -1606,10 +1606,10 @@ const healthQuestions = {
                 "emoji": "😴🛌",
                 "question": "Ch4: Are fruits and vegetables part of a healthy diet?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sleep",
@@ -1666,10 +1666,10 @@ const healthQuestions = {
                 "emoji": "😴🛌",
                 "question": "Ch4: Does vitamin D support bone health?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -1678,46 +1678,46 @@ const healthQuestions = {
                 "emoji": "😴🛌",
                 "question": "Sleep and Rest question 10?",
                 "options": [
-                    "Option A",
-                    "Option B"
+                    "Option B",
+                    "Option A"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sleep",
                 "emoji": "😴🛌",
                 "question": "Is it correct that what is the recommended weekly amount of moderate exercise?",
                 "options": [
-                    "30 minutes",
-                    "150 minutes",
                     "300 minutes",
-                    "500 minutes"
+                    "500 minutes",
+                    "30 minutes",
+                    "150 minutes"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Sleep",
                 "emoji": "😴🛌",
                 "question": "Ch4: Which organ filters toxins from blood?",
                 "options": [
-                    "Heart",
                     "Liver",
                     "Stomach",
+                    "Heart",
                     "Lungs"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Sleep",
                 "emoji": "😴🛌",
                 "question": "What type of fat should be limited in a healthy diet generally?",
                 "options": [
+                    "Omega-3",
                     "Monounsaturated",
-                    "Polyunsaturated",
                     "Saturated",
-                    "Omega-3"
+                    "Polyunsaturated"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Sleep",
@@ -1725,35 +1725,35 @@ const healthQuestions = {
                 "question": "Which vitamin can be important for immune function?",
                 "options": [
                     "Vitamin K",
-                    "Vitamin C",
                     "Vitamin A",
-                    "Vitamin E"
+                    "Vitamin E",
+                    "Vitamin C"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Sleep",
                 "emoji": "😴🛌",
                 "question": "Would you agree that how many hours of sleep do most adults need per night?",
                 "options": [
-                    "4-5 hours",
                     "7-9 hours",
                     "10-12 hours",
-                    "3-4 hours"
+                    "3-4 hours",
+                    "4-5 hours"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Sleep",
                 "emoji": "😴🛌",
                 "question": "Which macronutrient is the body's primary energy source in your opinion?",
                 "options": [
-                    "Proteins",
                     "Vitamins",
                     "Carbohydrates",
+                    "Proteins",
                     "Minerals"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sleep",
@@ -1761,9 +1761,9 @@ const healthQuestions = {
                 "question": "Ch4: What mineral is essential for healthy bones and teeth?",
                 "options": [
                     "Iron",
-                    "Zinc",
                     "Calcium",
-                    "Sodium"
+                    "Sodium",
+                    "Zinc"
                 ],
                 "correct": 0
             },
@@ -1772,12 +1772,12 @@ const healthQuestions = {
                 "emoji": "😴🛌",
                 "question": "Ch4: Which type of exercise strengthens the heart?",
                 "options": [
-                    "Weight lifting",
-                    "Aerobic exercise",
+                    "Balance training",
                     "Stretching",
-                    "Balance training"
+                    "Weight lifting",
+                    "Aerobic exercise"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Sleep",
@@ -1785,11 +1785,11 @@ const healthQuestions = {
                 "question": "Ch4: What is the recommended daily water intake for most adults?",
                 "options": [
                     "2-3 liters",
-                    "5-6 liters",
                     "0.5-1 liter",
+                    "5-6 liters",
                     "10 liters"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "hard": [
@@ -1798,35 +1798,35 @@ const healthQuestions = {
                 "emoji": "😴🛌",
                 "question": "Sleep and Rest advanced question 10?",
                 "options": [
+                    "A",
                     "B",
-                    "C",
-                    "A"
-                ],
-                "correct": 0
-            },
-            {
-                "topic": "Sleep",
-                "emoji": "😴🛌",
-                "question": "Ch4: Which vitamin is essential for night vision?",
-                "options": [
-                    "Vitamin A",
-                    "Vitamin B",
-                    "Vitamin C",
-                    "Vitamin D"
+                    "C"
                 ],
                 "correct": 1
             },
             {
                 "topic": "Sleep",
                 "emoji": "😴🛌",
+                "question": "Ch4: Which vitamin is essential for night vision?",
+                "options": [
+                    "Vitamin D",
+                    "Vitamin A",
+                    "Vitamin B",
+                    "Vitamin C"
+                ],
+                "correct": 2
+            },
+            {
+                "topic": "Sleep",
+                "emoji": "😴🛌",
                 "question": "Is it correct that what is normal body temperature in celsius?",
                 "options": [
-                    "35°C",
-                    "37°C",
                     "39°C",
-                    "40°C"
+                    "40°C",
+                    "37°C",
+                    "35°C"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Sleep",
@@ -1834,20 +1834,20 @@ const healthQuestions = {
                 "question": "Ch4: Which organs filter blood to produce urine?",
                 "options": [
                     "Liver",
-                    "Kidneys",
+                    "Pancreas",
                     "Bladder",
-                    "Pancreas"
+                    "Kidneys"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Sleep",
                 "emoji": "😴🛌",
                 "question": "What is the primary function of white blood cells generally?",
                 "options": [
-                    "Carry oxygen",
-                    "Fight infections",
                     "Clot blood",
+                    "Fight infections",
+                    "Carry oxygen",
                     "Regulate temperature"
                 ],
                 "correct": 1
@@ -1857,22 +1857,22 @@ const healthQuestions = {
                 "emoji": "😴🛌",
                 "question": "Ch4: How many chambers does the human heart have?",
                 "options": [
-                    "Two",
-                    "Three",
+                    "Five",
                     "Four",
-                    "Five"
+                    "Three",
+                    "Two"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Sleep",
                 "emoji": "😴🛌",
                 "question": "Would you agree that is approximately what percentage of the human body water?",
                 "options": [
-                    "30-40%",
-                    "50-60%",
                     "60-70%",
-                    "80-90%"
+                    "50-60%",
+                    "80-90%",
+                    "30-40%"
                 ],
                 "correct": 1
             },
@@ -1881,36 +1881,36 @@ const healthQuestions = {
                 "emoji": "😴🛌",
                 "question": "Which type of cholesterol is considered beneficial in your opinion?",
                 "options": [
+                    "VLDL",
                     "LDL",
                     "HDL",
-                    "VLDL",
                     "Triglycerides"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sleep",
                 "emoji": "😴🛌",
                 "question": "Ch4: What is the normal resting heart rate range for adults?",
                 "options": [
-                    "40-50 bpm",
                     "60-100 bpm",
                     "110-130 bpm",
+                    "40-50 bpm",
                     "140-160 bpm"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Sleep",
                 "emoji": "😴🛌",
                 "question": "Ch4: Which hormone regulates blood sugar levels?",
                 "options": [
-                    "Insulin",
                     "Adrenaline",
                     "Cortisol",
-                    "Melatonin"
+                    "Melatonin",
+                    "Insulin"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -1919,22 +1919,22 @@ const healthQuestions = {
                 "emoji": "😴🛌",
                 "question": "Sleep and Rest expert question 10?",
                 "options": [
+                    "D",
                     "C",
                     "A",
-                    "B",
-                    "D"
+                    "B"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sleep",
                 "emoji": "😴🛌",
                 "question": "Ch4: What is the medical term for nearsightedness?",
                 "options": [
-                    "Hyperopia",
+                    "Presbyopia",
                     "Myopia",
                     "Astigmatism",
-                    "Presbyopia"
+                    "Hyperopia"
                 ],
                 "correct": 1
             },
@@ -1944,9 +1944,9 @@ const healthQuestions = {
                 "question": "Ch4: Which gland regulates other endocrine glands?",
                 "options": [
                     "Thyroid",
-                    "Adrenal",
                     "Pituitary",
-                    "Pineal"
+                    "Pineal",
+                    "Adrenal"
                 ],
                 "correct": 0
             },
@@ -1955,10 +1955,10 @@ const healthQuestions = {
                 "emoji": "😴🛌",
                 "question": "Is it correct that what is the largest bone in the human body?",
                 "options": [
-                    "Tibia",
-                    "Femur",
                     "Humerus",
-                    "Fibula"
+                    "Femur",
+                    "Fibula",
+                    "Tibia"
                 ],
                 "correct": 1
             },
@@ -1967,60 +1967,60 @@ const healthQuestions = {
                 "emoji": "😴🛌",
                 "question": "Ch4: Which blood type is the universal donor?",
                 "options": [
-                    "A",
                     "B",
-                    "AB",
-                    "O"
+                    "O",
+                    "A",
+                    "AB"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sleep",
                 "emoji": "😴🛌",
                 "question": "What is the medical term for the voice box generally?",
                 "options": [
+                    "Trachea",
                     "Pharynx",
                     "Larynx",
-                    "Trachea",
                     "Esophagus"
-                ],
-                "correct": 0
-            },
-            {
-                "topic": "Sleep",
-                "emoji": "😴🛌",
-                "question": "Ch4: Which vitamin deficiency causes scurvy?",
-                "options": [
-                    "Vitamin A",
-                    "Vitamin B",
-                    "Vitamin C",
-                    "Vitamin D"
                 ],
                 "correct": 1
             },
             {
                 "topic": "Sleep",
                 "emoji": "😴🛌",
+                "question": "Ch4: Which vitamin deficiency causes scurvy?",
+                "options": [
+                    "Vitamin C",
+                    "Vitamin D",
+                    "Vitamin A",
+                    "Vitamin B"
+                ],
+                "correct": 3
+            },
+            {
+                "topic": "Sleep",
+                "emoji": "😴🛌",
                 "question": "Would you agree that what is the primary role of the lymphatic system?",
                 "options": [
-                    "Digestion",
                     "Circulation",
-                    "Immunity",
-                    "Respiration"
+                    "Digestion",
+                    "Respiration",
+                    "Immunity"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sleep",
                 "emoji": "😴🛌",
                 "question": "Which organ produces insulin in the body in your opinion?",
                 "options": [
-                    "Liver",
-                    "Kidney",
                     "Pancreas",
+                    "Kidney",
+                    "Liver",
                     "Thyroid"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Sleep",
@@ -2028,11 +2028,11 @@ const healthQuestions = {
                 "question": "Ch4: What is the medical term for high blood pressure?",
                 "options": [
                     "Hypotension",
-                    "Hypertension",
+                    "Hyperthyroidism",
                     "Hyperglycemia",
-                    "Hyperthyroidism"
+                    "Hypertension"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "extreme": [
@@ -2115,10 +2115,10 @@ const healthQuestions = {
                 "emoji": "🧼🚿",
                 "question": "Ch5: Is sunscreen important for skin protection?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Personal",
@@ -2135,30 +2135,30 @@ const healthQuestions = {
                 "emoji": "🧼🚿",
                 "question": "Ch5: Are fruits and vegetables part of a healthy diet?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Personal",
                 "emoji": "🧼🚿",
                 "question": "Is it correct that can stress affect physical health?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Personal",
                 "emoji": "🧼🚿",
                 "question": "Ch5: Is smoking harmful to lung health?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Personal",
@@ -2185,10 +2185,10 @@ const healthQuestions = {
                 "emoji": "🧼🚿",
                 "question": "Would you agree that is physical activity beneficial for mental health?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Personal",
@@ -2207,116 +2207,116 @@ const healthQuestions = {
                 "emoji": "🧼🚿",
                 "question": "Personal Hygiene question 10?",
                 "options": [
-                    "Option B",
-                    "Option A"
+                    "Option A",
+                    "Option B"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Personal",
                 "emoji": "🧼🚿",
                 "question": "Ch5: What is the recommended weekly amount of moderate exercise?",
                 "options": [
-                    "30 minutes",
                     "150 minutes",
+                    "30 minutes",
                     "300 minutes",
                     "500 minutes"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Personal",
                 "emoji": "🧼🚿",
                 "question": "Ch5: Which organ filters toxins from blood?",
                 "options": [
-                    "Heart",
-                    "Liver",
                     "Stomach",
+                    "Liver",
+                    "Heart",
                     "Lungs"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Personal",
                 "emoji": "🧼🚿",
                 "question": "Ch5: What type of fat should be limited in a healthy diet?",
                 "options": [
-                    "Monounsaturated",
                     "Polyunsaturated",
+                    "Monounsaturated",
                     "Saturated",
                     "Omega-3"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Personal",
                 "emoji": "🧼🚿",
                 "question": "Ch5: Which vitamin is important for immune function?",
                 "options": [
-                    "Vitamin K",
                     "Vitamin C",
                     "Vitamin A",
-                    "Vitamin E"
+                    "Vitamin E",
+                    "Vitamin K"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Personal",
                 "emoji": "🧼🚿",
                 "question": "Is it correct that how many hours of sleep do most adults need per night?",
                 "options": [
-                    "4-5 hours",
-                    "7-9 hours",
                     "10-12 hours",
-                    "3-4 hours"
+                    "7-9 hours",
+                    "3-4 hours",
+                    "4-5 hours"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Personal",
                 "emoji": "🧼🚿",
                 "question": "Ch5: Which macronutrient is the body's primary energy source?",
                 "options": [
-                    "Proteins",
                     "Vitamins",
+                    "Minerals",
                     "Carbohydrates",
-                    "Minerals"
+                    "Proteins"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Personal",
                 "emoji": "🧼🚿",
                 "question": "What mineral is essential for healthy bones and teeth generally?",
                 "options": [
-                    "Iron",
+                    "Sodium",
                     "Zinc",
                     "Calcium",
-                    "Sodium"
+                    "Iron"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Personal",
                 "emoji": "🧼🚿",
                 "question": "Ch5: Which type of exercise strengthens the heart?",
                 "options": [
-                    "Weight lifting",
-                    "Aerobic exercise",
                     "Stretching",
+                    "Aerobic exercise",
+                    "Weight lifting",
                     "Balance training"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Personal",
                 "emoji": "🧼🚿",
                 "question": "Would you agree that what is the recommended daily water intake for most adults?",
                 "options": [
-                    "2-3 liters",
+                    "10 liters",
                     "5-6 liters",
                     "0.5-1 liter",
-                    "10 liters"
+                    "2-3 liters"
                 ],
                 "correct": 1
             }
@@ -2340,8 +2340,8 @@ const healthQuestions = {
                 "options": [
                     "Vitamin A",
                     "Vitamin B",
-                    "Vitamin C",
-                    "Vitamin D"
+                    "Vitamin D",
+                    "Vitamin C"
                 ],
                 "correct": 1
             },
@@ -2350,36 +2350,36 @@ const healthQuestions = {
                 "emoji": "🧼🚿",
                 "question": "Ch5: What is normal body temperature in Celsius?",
                 "options": [
-                    "35°C",
-                    "37°C",
                     "39°C",
-                    "40°C"
+                    "37°C",
+                    "40°C",
+                    "35°C"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Personal",
                 "emoji": "🧼🚿",
                 "question": "Ch5: Which organs filter blood to produce urine?",
                 "options": [
-                    "Liver",
                     "Kidneys",
                     "Bladder",
-                    "Pancreas"
+                    "Pancreas",
+                    "Liver"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Personal",
                 "emoji": "🧼🚿",
                 "question": "Ch5: What is the primary function of white blood cells?",
                 "options": [
+                    "Regulate temperature",
                     "Carry oxygen",
                     "Fight infections",
-                    "Clot blood",
-                    "Regulate temperature"
+                    "Clot blood"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Personal",
@@ -2388,8 +2388,8 @@ const healthQuestions = {
                 "options": [
                     "Two",
                     "Three",
-                    "Four",
-                    "Five"
+                    "Five",
+                    "Four"
                 ],
                 "correct": 0
             },
@@ -2398,24 +2398,24 @@ const healthQuestions = {
                 "emoji": "🧼🚿",
                 "question": "Is it correct that is approximately what percentage of the human body water?",
                 "options": [
-                    "30-40%",
-                    "50-60%",
                     "60-70%",
-                    "80-90%"
+                    "30-40%",
+                    "80-90%",
+                    "50-60%"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Personal",
                 "emoji": "🧼🚿",
                 "question": "Ch5: Which type of cholesterol is considered beneficial?",
                 "options": [
-                    "LDL",
                     "HDL",
-                    "VLDL",
-                    "Triglycerides"
+                    "Triglycerides",
+                    "LDL",
+                    "VLDL"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Personal",
@@ -2423,8 +2423,8 @@ const healthQuestions = {
                 "question": "What is the normal resting heart rate range for adults generally?",
                 "options": [
                     "40-50 bpm",
-                    "60-100 bpm",
                     "110-130 bpm",
+                    "60-100 bpm",
                     "140-160 bpm"
                 ],
                 "correct": 0
@@ -2435,11 +2435,11 @@ const healthQuestions = {
                 "question": "Ch5: Which hormone regulates blood sugar levels?",
                 "options": [
                     "Insulin",
-                    "Adrenaline",
                     "Cortisol",
-                    "Melatonin"
+                    "Melatonin",
+                    "Adrenaline"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "expert": [
@@ -2448,12 +2448,12 @@ const healthQuestions = {
                 "emoji": "🧼🚿",
                 "question": "Personal Hygiene expert question 10?",
                 "options": [
-                    "A",
                     "D",
+                    "B",
                     "C",
-                    "B"
+                    "A"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Personal",
@@ -2461,33 +2461,33 @@ const healthQuestions = {
                 "question": "Would you agree that what is the medical term for nearsightedness?",
                 "options": [
                     "Hyperopia",
-                    "Myopia",
                     "Astigmatism",
-                    "Presbyopia"
+                    "Presbyopia",
+                    "Myopia"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Personal",
                 "emoji": "🧼🚿",
                 "question": "Which gland regulates other endocrine glands in your opinion?",
                 "options": [
-                    "Thyroid",
-                    "Adrenal",
                     "Pituitary",
-                    "Pineal"
+                    "Adrenal",
+                    "Pineal",
+                    "Thyroid"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Personal",
                 "emoji": "🧼🚿",
                 "question": "Ch5: What is the largest bone in the human body?",
                 "options": [
-                    "Tibia",
-                    "Femur",
                     "Humerus",
-                    "Fibula"
+                    "Femur",
+                    "Fibula",
+                    "Tibia"
                 ],
                 "correct": 1
             },
@@ -2496,10 +2496,10 @@ const healthQuestions = {
                 "emoji": "🧼🚿",
                 "question": "Ch5: Which blood type is the universal donor?",
                 "options": [
-                    "A",
-                    "B",
                     "AB",
-                    "O"
+                    "B",
+                    "O",
+                    "A"
                 ],
                 "correct": 1
             },
@@ -2508,36 +2508,36 @@ const healthQuestions = {
                 "emoji": "🧼🚿",
                 "question": "Ch5: What is the medical term for the voice box?",
                 "options": [
-                    "Pharynx",
                     "Larynx",
                     "Trachea",
+                    "Pharynx",
                     "Esophagus"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Personal",
                 "emoji": "🧼🚿",
                 "question": "Ch5: Which vitamin deficiency causes scurvy?",
                 "options": [
+                    "Vitamin C",
                     "Vitamin A",
                     "Vitamin B",
-                    "Vitamin C",
                     "Vitamin D"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Personal",
                 "emoji": "🧼🚿",
                 "question": "Is it correct that what is the primary role of the lymphatic system?",
                 "options": [
-                    "Digestion",
-                    "Circulation",
+                    "Respiration",
                     "Immunity",
-                    "Respiration"
+                    "Circulation",
+                    "Digestion"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Personal",
@@ -2556,12 +2556,12 @@ const healthQuestions = {
                 "emoji": "🧼🚿",
                 "question": "What is the medical term for high blood pressure generally?",
                 "options": [
-                    "Hypotension",
-                    "Hypertension",
                     "Hyperglycemia",
-                    "Hyperthyroidism"
+                    "Hyperthyroidism",
+                    "Hypotension",
+                    "Hypertension"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "extreme": [
@@ -2654,10 +2654,10 @@ const healthQuestions = {
                 "emoji": "🥗📊",
                 "question": "Would you agree that does exercise help strengthen muscles?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Nutrition",
@@ -2674,10 +2674,10 @@ const healthQuestions = {
                 "emoji": "🥗📊",
                 "question": "Ch6: Can stress affect physical health?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Nutrition",
@@ -2694,10 +2694,10 @@ const healthQuestions = {
                 "emoji": "🥗📊",
                 "question": "Ch6: Does adequate sleep improve overall health?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Nutrition",
@@ -2746,12 +2746,12 @@ const healthQuestions = {
                 "emoji": "🥗📊",
                 "question": "What is the recommended weekly amount of moderate exercise generally?",
                 "options": [
-                    "30 minutes",
                     "150 minutes",
-                    "300 minutes",
-                    "500 minutes"
+                    "500 minutes",
+                    "30 minutes",
+                    "300 minutes"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Nutrition",
@@ -2759,9 +2759,9 @@ const healthQuestions = {
                 "question": "Ch6: Which organ filters toxins from blood?",
                 "options": [
                     "Heart",
-                    "Liver",
                     "Stomach",
-                    "Lungs"
+                    "Lungs",
+                    "Liver"
                 ],
                 "correct": 0
             },
@@ -2770,48 +2770,48 @@ const healthQuestions = {
                 "emoji": "🥗📊",
                 "question": "Would you agree that what type of fat should be limited in a healthy diet?",
                 "options": [
-                    "Monounsaturated",
                     "Polyunsaturated",
+                    "Omega-3",
                     "Saturated",
-                    "Omega-3"
-                ],
-                "correct": 1
-            },
-            {
-                "topic": "Nutrition",
-                "emoji": "🥗📊",
-                "question": "Which vitamin is important for immune function in your opinion?",
-                "options": [
-                    "Vitamin K",
-                    "Vitamin C",
-                    "Vitamin A",
-                    "Vitamin E"
-                ],
-                "correct": 1
-            },
-            {
-                "topic": "Nutrition",
-                "emoji": "🥗📊",
-                "question": "Ch6: How many hours of sleep do most adults need per night?",
-                "options": [
-                    "4-5 hours",
-                    "7-9 hours",
-                    "10-12 hours",
-                    "3-4 hours"
+                    "Monounsaturated"
                 ],
                 "correct": 0
             },
             {
                 "topic": "Nutrition",
                 "emoji": "🥗📊",
+                "question": "Which vitamin is important for immune function in your opinion?",
+                "options": [
+                    "Vitamin C",
+                    "Vitamin K",
+                    "Vitamin E",
+                    "Vitamin A"
+                ],
+                "correct": 0
+            },
+            {
+                "topic": "Nutrition",
+                "emoji": "🥗📊",
+                "question": "Ch6: How many hours of sleep do most adults need per night?",
+                "options": [
+                    "7-9 hours",
+                    "3-4 hours",
+                    "4-5 hours",
+                    "10-12 hours"
+                ],
+                "correct": 2
+            },
+            {
+                "topic": "Nutrition",
+                "emoji": "🥗📊",
                 "question": "Ch6: Which macronutrient is the body's primary energy source?",
                 "options": [
-                    "Proteins",
                     "Vitamins",
                     "Carbohydrates",
+                    "Proteins",
                     "Minerals"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Nutrition",
@@ -2819,9 +2819,9 @@ const healthQuestions = {
                 "question": "Ch6: What mineral is essential for healthy bones and teeth?",
                 "options": [
                     "Iron",
-                    "Zinc",
                     "Calcium",
-                    "Sodium"
+                    "Sodium",
+                    "Zinc"
                 ],
                 "correct": 0
             },
@@ -2830,24 +2830,24 @@ const healthQuestions = {
                 "emoji": "🥗📊",
                 "question": "Ch6: Which type of exercise strengthens the heart?",
                 "options": [
-                    "Weight lifting",
-                    "Aerobic exercise",
+                    "Balance training",
                     "Stretching",
-                    "Balance training"
+                    "Aerobic exercise",
+                    "Weight lifting"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Nutrition",
                 "emoji": "🥗📊",
                 "question": "Is it correct that what is the recommended daily water intake for most adults?",
                 "options": [
-                    "2-3 liters",
                     "5-6 liters",
+                    "10 liters",
                     "0.5-1 liter",
-                    "10 liters"
+                    "2-3 liters"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -2856,11 +2856,11 @@ const healthQuestions = {
                 "emoji": "🥗📊",
                 "question": "Nutrition and Diet Plans advanced question 10?",
                 "options": [
-                    "C",
                     "A",
+                    "C",
                     "B"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Nutrition",
@@ -2879,24 +2879,24 @@ const healthQuestions = {
                 "emoji": "🥗📊",
                 "question": "What is normal body temperature in Celsius generally?",
                 "options": [
-                    "35°C",
                     "37°C",
+                    "40°C",
                     "39°C",
-                    "40°C"
+                    "35°C"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Nutrition",
                 "emoji": "🥗📊",
                 "question": "Ch6: Which organs filter blood to produce urine?",
                 "options": [
-                    "Liver",
                     "Kidneys",
+                    "Pancreas",
                     "Bladder",
-                    "Pancreas"
+                    "Liver"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Nutrition",
@@ -2904,23 +2904,23 @@ const healthQuestions = {
                 "question": "Would you agree that what is the primary function of white blood cells?",
                 "options": [
                     "Carry oxygen",
-                    "Fight infections",
                     "Clot blood",
+                    "Fight infections",
                     "Regulate temperature"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Nutrition",
                 "emoji": "🥗📊",
                 "question": "How many chambers does the human heart have in your opinion?",
                 "options": [
-                    "Two",
+                    "Five",
                     "Three",
-                    "Four",
-                    "Five"
+                    "Two",
+                    "Four"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Nutrition",
@@ -2928,11 +2928,11 @@ const healthQuestions = {
                 "question": "Do you think approximately what percentage of the human body water?",
                 "options": [
                     "30-40%",
-                    "50-60%",
+                    "80-90%",
                     "60-70%",
-                    "80-90%"
+                    "50-60%"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Nutrition",
@@ -2940,9 +2940,9 @@ const healthQuestions = {
                 "question": "Ch6: Which type of cholesterol is considered beneficial?",
                 "options": [
                     "LDL",
+                    "Triglycerides",
                     "HDL",
-                    "VLDL",
-                    "Triglycerides"
+                    "VLDL"
                 ],
                 "correct": 0
             },
@@ -2951,12 +2951,12 @@ const healthQuestions = {
                 "emoji": "🥗📊",
                 "question": "Ch6: What is the normal resting heart rate range for adults?",
                 "options": [
+                    "110-130 bpm",
                     "40-50 bpm",
                     "60-100 bpm",
-                    "110-130 bpm",
                     "140-160 bpm"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Nutrition",
@@ -2964,11 +2964,11 @@ const healthQuestions = {
                 "question": "Ch6: Which hormone regulates blood sugar levels?",
                 "options": [
                     "Insulin",
-                    "Adrenaline",
                     "Cortisol",
-                    "Melatonin"
+                    "Melatonin",
+                    "Adrenaline"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "expert": [
@@ -2977,12 +2977,12 @@ const healthQuestions = {
                 "emoji": "🥗📊",
                 "question": "Nutrition and Diet Plans expert question 10?",
                 "options": [
-                    "C",
+                    "A",
                     "D",
                     "B",
-                    "A"
+                    "C"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Nutrition",
@@ -2990,23 +2990,23 @@ const healthQuestions = {
                 "question": "Is it correct that what is the medical term for nearsightedness?",
                 "options": [
                     "Hyperopia",
-                    "Myopia",
                     "Astigmatism",
+                    "Myopia",
                     "Presbyopia"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Nutrition",
                 "emoji": "🥗📊",
                 "question": "Ch6: Which gland regulates other endocrine glands?",
                 "options": [
+                    "Pituitary",
                     "Thyroid",
                     "Adrenal",
-                    "Pituitary",
                     "Pineal"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Nutrition",
@@ -3014,11 +3014,11 @@ const healthQuestions = {
                 "question": "What is the largest bone in the human body generally?",
                 "options": [
                     "Tibia",
-                    "Femur",
                     "Humerus",
-                    "Fibula"
+                    "Fibula",
+                    "Femur"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Nutrition",
@@ -3026,35 +3026,35 @@ const healthQuestions = {
                 "question": "Which blood type can be the universal donor?",
                 "options": [
                     "A",
-                    "B",
+                    "O",
                     "AB",
-                    "O"
+                    "B"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Nutrition",
                 "emoji": "🥗📊",
                 "question": "Would you agree that what is the medical term for the voice box?",
                 "options": [
-                    "Pharynx",
+                    "Esophagus",
                     "Larynx",
-                    "Trachea",
-                    "Esophagus"
+                    "Pharynx",
+                    "Trachea"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Nutrition",
                 "emoji": "🥗📊",
                 "question": "Which vitamin deficiency causes scurvy in your opinion?",
                 "options": [
-                    "Vitamin A",
-                    "Vitamin B",
+                    "Vitamin D",
                     "Vitamin C",
-                    "Vitamin D"
+                    "Vitamin B",
+                    "Vitamin A"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Nutrition",
@@ -3062,9 +3062,9 @@ const healthQuestions = {
                 "question": "Ch6: What is the primary role of the lymphatic system?",
                 "options": [
                     "Digestion",
+                    "Respiration",
                     "Circulation",
-                    "Immunity",
-                    "Respiration"
+                    "Immunity"
                 ],
                 "correct": 0
             },
@@ -3073,12 +3073,12 @@ const healthQuestions = {
                 "emoji": "🥗📊",
                 "question": "Ch6: Which organ produces insulin in the body?",
                 "options": [
+                    "Thyroid",
                     "Liver",
                     "Kidney",
-                    "Pancreas",
-                    "Thyroid"
+                    "Pancreas"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Nutrition",
@@ -3086,11 +3086,11 @@ const healthQuestions = {
                 "question": "Ch6: What is the medical term for high blood pressure?",
                 "options": [
                     "Hypotension",
-                    "Hypertension",
                     "Hyperglycemia",
+                    "Hypertension",
                     "Hyperthyroidism"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -3223,10 +3223,10 @@ const healthQuestions = {
                 "emoji": "🏋️‍♀️💪",
                 "question": "Would you agree that does adequate sleep improve overall health?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Physical",
@@ -3253,10 +3253,10 @@ const healthQuestions = {
                 "emoji": "🏋️‍♀️💪",
                 "question": "Would you say vitamin D support bone health?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -3265,79 +3265,79 @@ const healthQuestions = {
                 "emoji": "🏋️‍♀️💪",
                 "question": "Physical Fitness Training question 10?",
                 "options": [
-                    "Option A",
-                    "Option B"
+                    "Option B",
+                    "Option A"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Physical",
                 "emoji": "🏋️‍♀️💪",
                 "question": "Ch7: What is the recommended weekly amount of moderate exercise?",
                 "options": [
+                    "500 minutes",
                     "30 minutes",
                     "150 minutes",
-                    "300 minutes",
-                    "500 minutes"
+                    "300 minutes"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Physical",
                 "emoji": "🏋️‍♀️💪",
                 "question": "Ch7: Which organ filters toxins from blood?",
                 "options": [
-                    "Heart",
                     "Liver",
-                    "Stomach",
-                    "Lungs"
+                    "Heart",
+                    "Lungs",
+                    "Stomach"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Physical",
                 "emoji": "🏋️‍♀️💪",
                 "question": "Is it correct that what type of fat should be limited in a healthy diet?",
                 "options": [
+                    "Omega-3",
                     "Monounsaturated",
                     "Polyunsaturated",
-                    "Saturated",
-                    "Omega-3"
+                    "Saturated"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Physical",
                 "emoji": "🏋️‍♀️💪",
                 "question": "Which vitamin is essential for immune function?",
                 "options": [
+                    "Vitamin E",
                     "Vitamin K",
                     "Vitamin C",
-                    "Vitamin A",
-                    "Vitamin E"
+                    "Vitamin A"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Physical",
                 "emoji": "🏋️‍♀️💪",
                 "question": "How many hours of sleep do most adults need per night generally?",
                 "options": [
-                    "4-5 hours",
+                    "3-4 hours",
                     "7-9 hours",
-                    "10-12 hours",
-                    "3-4 hours"
+                    "4-5 hours",
+                    "10-12 hours"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Physical",
                 "emoji": "🏋️‍♀️💪",
                 "question": "Which macronutrient can be the body's primary energy source?",
                 "options": [
-                    "Proteins",
-                    "Vitamins",
                     "Carbohydrates",
+                    "Vitamins",
+                    "Proteins",
                     "Minerals"
                 ],
                 "correct": 1
@@ -3349,8 +3349,8 @@ const healthQuestions = {
                 "options": [
                     "Iron",
                     "Zinc",
-                    "Calcium",
-                    "Sodium"
+                    "Sodium",
+                    "Calcium"
                 ],
                 "correct": 0
             },
@@ -3359,24 +3359,24 @@ const healthQuestions = {
                 "emoji": "🏋️‍♀️💪",
                 "question": "Which type of exercise strengthens the heart in your opinion?",
                 "options": [
-                    "Weight lifting",
+                    "Balance training",
                     "Aerobic exercise",
                     "Stretching",
-                    "Balance training"
+                    "Weight lifting"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Physical",
                 "emoji": "🏋️‍♀️💪",
                 "question": "Ch7: What is the recommended daily water intake for most adults?",
                 "options": [
-                    "2-3 liters",
                     "5-6 liters",
-                    "0.5-1 liter",
-                    "10 liters"
+                    "10 liters",
+                    "2-3 liters",
+                    "0.5-1 liter"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -3385,11 +3385,11 @@ const healthQuestions = {
                 "emoji": "🏋️‍♀️💪",
                 "question": "Physical Fitness Training advanced question 10?",
                 "options": [
-                    "B",
                     "A",
+                    "B",
                     "C"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Physical",
@@ -3397,11 +3397,11 @@ const healthQuestions = {
                 "question": "Ch7: Which vitamin is essential for night vision?",
                 "options": [
                     "Vitamin A",
+                    "Vitamin D",
                     "Vitamin B",
-                    "Vitamin C",
-                    "Vitamin D"
+                    "Vitamin C"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Physical",
@@ -3420,24 +3420,24 @@ const healthQuestions = {
                 "emoji": "🏋️‍♀️💪",
                 "question": "Ch7: Which organs filter blood to produce urine?",
                 "options": [
-                    "Liver",
                     "Kidneys",
-                    "Bladder",
-                    "Pancreas"
+                    "Liver",
+                    "Pancreas",
+                    "Bladder"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Physical",
                 "emoji": "🏋️‍♀️💪",
                 "question": "Is it correct that what is the primary function of white blood cells?",
                 "options": [
-                    "Carry oxygen",
                     "Fight infections",
-                    "Clot blood",
-                    "Regulate temperature"
+                    "Regulate temperature",
+                    "Carry oxygen",
+                    "Clot blood"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Physical",
@@ -3445,8 +3445,8 @@ const healthQuestions = {
                 "question": "Ch7: How many chambers does the human heart have?",
                 "options": [
                     "Two",
-                    "Three",
                     "Four",
+                    "Three",
                     "Five"
                 ],
                 "correct": 0
@@ -3456,48 +3456,48 @@ const healthQuestions = {
                 "emoji": "🏋️‍♀️💪",
                 "question": "Is approximately what percentage of the human body water generally?",
                 "options": [
-                    "30-40%",
-                    "50-60%",
                     "60-70%",
-                    "80-90%"
+                    "80-90%",
+                    "50-60%",
+                    "30-40%"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Physical",
                 "emoji": "🏋️‍♀️💪",
                 "question": "Which type of cholesterol can be considered beneficial?",
                 "options": [
+                    "Triglycerides",
                     "LDL",
                     "HDL",
-                    "VLDL",
-                    "Triglycerides"
+                    "VLDL"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Physical",
                 "emoji": "🏋️‍♀️💪",
                 "question": "Would you agree that what is the normal resting heart rate range for adults?",
                 "options": [
-                    "40-50 bpm",
                     "60-100 bpm",
                     "110-130 bpm",
+                    "40-50 bpm",
                     "140-160 bpm"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Physical",
                 "emoji": "🏋️‍♀️💪",
                 "question": "Which hormone regulates blood sugar levels in your opinion?",
                 "options": [
+                    "Melatonin",
                     "Insulin",
-                    "Adrenaline",
                     "Cortisol",
-                    "Melatonin"
+                    "Adrenaline"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "expert": [
@@ -3506,36 +3506,36 @@ const healthQuestions = {
                 "emoji": "🏋️‍♀️💪",
                 "question": "Physical Fitness Training expert question 10?",
                 "options": [
-                    "B",
                     "A",
                     "C",
-                    "D"
+                    "D",
+                    "B"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Physical",
                 "emoji": "🏋️‍♀️💪",
                 "question": "Ch7: What is the medical term for nearsightedness?",
                 "options": [
-                    "Hyperopia",
                     "Myopia",
-                    "Astigmatism",
-                    "Presbyopia"
+                    "Hyperopia",
+                    "Presbyopia",
+                    "Astigmatism"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Physical",
                 "emoji": "🏋️‍♀️💪",
                 "question": "Ch7: Which gland regulates other endocrine glands?",
                 "options": [
-                    "Thyroid",
-                    "Adrenal",
                     "Pituitary",
+                    "Adrenal",
+                    "Thyroid",
                     "Pineal"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Physical",
@@ -3543,11 +3543,11 @@ const healthQuestions = {
                 "question": "Ch7: What is the largest bone in the human body?",
                 "options": [
                     "Tibia",
-                    "Femur",
                     "Humerus",
-                    "Fibula"
+                    "Fibula",
+                    "Femur"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Physical",
@@ -3555,23 +3555,23 @@ const healthQuestions = {
                 "question": "Ch7: Which blood type is the universal donor?",
                 "options": [
                     "A",
-                    "B",
                     "AB",
+                    "B",
                     "O"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Physical",
                 "emoji": "🏋️‍♀️💪",
                 "question": "Is it correct that what is the medical term for the voice box?",
                 "options": [
-                    "Pharynx",
-                    "Larynx",
                     "Trachea",
-                    "Esophagus"
+                    "Esophagus",
+                    "Pharynx",
+                    "Larynx"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Physical",
@@ -3579,35 +3579,35 @@ const healthQuestions = {
                 "question": "Ch7: Which vitamin deficiency causes scurvy?",
                 "options": [
                     "Vitamin A",
-                    "Vitamin B",
+                    "Vitamin D",
                     "Vitamin C",
-                    "Vitamin D"
+                    "Vitamin B"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Physical",
                 "emoji": "🏋️‍♀️💪",
                 "question": "What is the primary role of the lymphatic system generally?",
                 "options": [
-                    "Digestion",
-                    "Circulation",
                     "Immunity",
-                    "Respiration"
+                    "Respiration",
+                    "Digestion",
+                    "Circulation"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Physical",
                 "emoji": "🏋️‍♀️💪",
                 "question": "Ch7: Which organ produces insulin in the body?",
                 "options": [
-                    "Liver",
-                    "Kidney",
                     "Pancreas",
-                    "Thyroid"
+                    "Liver",
+                    "Thyroid",
+                    "Kidney"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Physical",
@@ -3615,11 +3615,11 @@ const healthQuestions = {
                 "question": "Would you agree that what is the medical term for high blood pressure?",
                 "options": [
                     "Hypotension",
+                    "Hyperthyroidism",
                     "Hypertension",
-                    "Hyperglycemia",
-                    "Hyperthyroidism"
+                    "Hyperglycemia"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -3692,10 +3692,10 @@ const healthQuestions = {
                 "emoji": "🚑⚕️",
                 "question": "Is first Aid and Safety topic 10?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "First",
@@ -3804,24 +3804,24 @@ const healthQuestions = {
                 "emoji": "🚑⚕️",
                 "question": "Do you think what is the recommended weekly amount of moderate exercise?",
                 "options": [
-                    "30 minutes",
-                    "150 minutes",
                     "300 minutes",
-                    "500 minutes"
+                    "500 minutes",
+                    "30 minutes",
+                    "150 minutes"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "First",
                 "emoji": "🚑⚕️",
                 "question": "Do you think which organ filters toxins from blood in your opinion?",
                 "options": [
-                    "Heart",
                     "Liver",
                     "Stomach",
+                    "Heart",
                     "Lungs"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "First",
@@ -3852,60 +3852,60 @@ const healthQuestions = {
                 "emoji": "🚑⚕️",
                 "question": "Ch8: How many hours of sleep do most adults need per night?",
                 "options": [
-                    "4-5 hours",
-                    "7-9 hours",
                     "10-12 hours",
-                    "3-4 hours"
+                    "4-5 hours",
+                    "3-4 hours",
+                    "7-9 hours"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "First",
                 "emoji": "🚑⚕️",
                 "question": "Ch8: Which macronutrient is the body's primary energy source?",
                 "options": [
-                    "Proteins",
                     "Vitamins",
                     "Carbohydrates",
-                    "Minerals"
+                    "Minerals",
+                    "Proteins"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "First",
                 "emoji": "🚑⚕️",
                 "question": "Do you think what mineral is essential for healthy bones and teeth?",
                 "options": [
-                    "Iron",
-                    "Zinc",
                     "Calcium",
-                    "Sodium"
+                    "Iron",
+                    "Sodium",
+                    "Zinc"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "First",
                 "emoji": "🚑⚕️",
                 "question": "Ch8: Which type of exercise strengthens the heart?",
                 "options": [
-                    "Weight lifting",
-                    "Aerobic exercise",
                     "Stretching",
-                    "Balance training"
+                    "Weight lifting",
+                    "Balance training",
+                    "Aerobic exercise"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "First",
                 "emoji": "🚑⚕️",
                 "question": "Do you think what is the recommended daily water intake for most adults generally?",
                 "options": [
-                    "2-3 liters",
                     "5-6 liters",
-                    "0.5-1 liter",
-                    "10 liters"
+                    "10 liters",
+                    "2-3 liters",
+                    "0.5-1 liter"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -3914,21 +3914,21 @@ const healthQuestions = {
                 "emoji": "🚑⚕️",
                 "question": "First Aid and Safety advanced question 10?",
                 "options": [
-                    "A",
                     "C",
-                    "B"
+                    "B",
+                    "A"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "First",
                 "emoji": "🚑⚕️",
                 "question": "Do you think which vitamin can be essential for night vision?",
                 "options": [
-                    "Vitamin A",
-                    "Vitamin B",
                     "Vitamin C",
-                    "Vitamin D"
+                    "Vitamin B",
+                    "Vitamin D",
+                    "Vitamin A"
                 ],
                 "correct": 1
             },
@@ -3937,84 +3937,84 @@ const healthQuestions = {
                 "emoji": "🚑⚕️",
                 "question": "Do you think what is normal body temperature in celsius?",
                 "options": [
-                    "35°C",
+                    "40°C",
                     "37°C",
                     "39°C",
-                    "40°C"
+                    "35°C"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "First",
                 "emoji": "🚑⚕️",
                 "question": "Do you think which organs filter blood to produce urine in your opinion?",
                 "options": [
-                    "Liver",
-                    "Kidneys",
+                    "Pancreas",
                     "Bladder",
-                    "Pancreas"
+                    "Kidneys",
+                    "Liver"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "First",
                 "emoji": "🚑⚕️",
                 "question": "Ch8: What is the primary function of white blood cells?",
                 "options": [
+                    "Clot blood",
                     "Carry oxygen",
                     "Fight infections",
-                    "Clot blood",
                     "Regulate temperature"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "First",
                 "emoji": "🚑⚕️",
                 "question": "Ch8: How many chambers does the human heart have?",
                 "options": [
-                    "Two",
-                    "Three",
+                    "Five",
                     "Four",
-                    "Five"
+                    "Two",
+                    "Three"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "First",
                 "emoji": "🚑⚕️",
                 "question": "Ch8: Is approximately what percentage of the human body water?",
                 "options": [
-                    "30-40%",
                     "50-60%",
+                    "30-40%",
                     "60-70%",
                     "80-90%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "First",
                 "emoji": "🚑⚕️",
                 "question": "Ch8: Which type of cholesterol is considered beneficial?",
                 "options": [
+                    "VLDL",
                     "LDL",
                     "HDL",
-                    "VLDL",
                     "Triglycerides"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "First",
                 "emoji": "🚑⚕️",
                 "question": "Do you think what is the normal resting heart rate range for adults?",
                 "options": [
-                    "40-50 bpm",
-                    "60-100 bpm",
                     "110-130 bpm",
-                    "140-160 bpm"
+                    "140-160 bpm",
+                    "60-100 bpm",
+                    "40-50 bpm"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "First",
@@ -4022,11 +4022,11 @@ const healthQuestions = {
                 "question": "Ch8: Which hormone regulates blood sugar levels?",
                 "options": [
                     "Insulin",
-                    "Adrenaline",
+                    "Melatonin",
                     "Cortisol",
-                    "Melatonin"
+                    "Adrenaline"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "expert": [
@@ -4035,72 +4035,72 @@ const healthQuestions = {
                 "emoji": "🚑⚕️",
                 "question": "First Aid and Safety expert question 10?",
                 "options": [
-                    "A",
-                    "B",
+                    "C",
                     "D",
-                    "C"
+                    "A",
+                    "B"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "First",
                 "emoji": "🚑⚕️",
                 "question": "Do you think what is the medical term for nearsightedness generally?",
                 "options": [
-                    "Hyperopia",
                     "Myopia",
-                    "Astigmatism",
-                    "Presbyopia"
+                    "Presbyopia",
+                    "Hyperopia",
+                    "Astigmatism"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "First",
                 "emoji": "🚑⚕️",
                 "question": "Ch8: Which gland regulates other endocrine glands?",
                 "options": [
-                    "Thyroid",
+                    "Pineal",
                     "Adrenal",
                     "Pituitary",
-                    "Pineal"
+                    "Thyroid"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "First",
                 "emoji": "🚑⚕️",
                 "question": "Do you think what is the largest bone in the human body?",
                 "options": [
+                    "Humerus",
                     "Tibia",
                     "Femur",
-                    "Humerus",
                     "Fibula"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "First",
                 "emoji": "🚑⚕️",
                 "question": "Do you think which blood type is the universal donor in your opinion?",
                 "options": [
+                    "AB",
                     "A",
                     "B",
-                    "AB",
                     "O"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "First",
                 "emoji": "🚑⚕️",
                 "question": "Ch8: What is the medical term for the voice box?",
                 "options": [
-                    "Pharynx",
                     "Larynx",
                     "Trachea",
+                    "Pharynx",
                     "Esophagus"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "First",
@@ -4108,47 +4108,47 @@ const healthQuestions = {
                 "question": "Ch8: Which vitamin deficiency causes scurvy?",
                 "options": [
                     "Vitamin A",
-                    "Vitamin B",
                     "Vitamin C",
-                    "Vitamin D"
+                    "Vitamin D",
+                    "Vitamin B"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "First",
                 "emoji": "🚑⚕️",
                 "question": "Ch8: What is the primary role of the lymphatic system?",
                 "options": [
-                    "Digestion",
                     "Circulation",
                     "Immunity",
-                    "Respiration"
+                    "Respiration",
+                    "Digestion"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "First",
                 "emoji": "🚑⚕️",
                 "question": "Ch8: Which organ produces insulin in the body?",
                 "options": [
-                    "Liver",
-                    "Kidney",
+                    "Thyroid",
                     "Pancreas",
-                    "Thyroid"
+                    "Kidney",
+                    "Liver"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "First",
                 "emoji": "🚑⚕️",
                 "question": "Do you think what is the medical term for high blood pressure?",
                 "options": [
-                    "Hypotension",
                     "Hypertension",
                     "Hyperglycemia",
-                    "Hyperthyroidism"
+                    "Hyperthyroidism",
+                    "Hypotension"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "extreme": [
@@ -4221,20 +4221,20 @@ const healthQuestions = {
                 "emoji": "🫀🫁",
                 "question": "Is body Systems and Functions topic 10?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Body",
                 "emoji": "🫀🫁",
                 "question": "Do you think sunscreen essential for skin protection?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Body",
@@ -4251,20 +4251,20 @@ const healthQuestions = {
                 "emoji": "🫀🫁",
                 "question": "Ch9: Are fruits and vegetables part of a healthy diet?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Body",
                 "emoji": "🫀🫁",
                 "question": "Do you think can stress affect physical health?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Body",
@@ -4281,40 +4281,40 @@ const healthQuestions = {
                 "emoji": "🫀🫁",
                 "question": "Ch9: Does adequate sleep improve overall health?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Body",
                 "emoji": "🫀🫁",
                 "question": "Ch9: Should you drink water throughout the day?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Body",
                 "emoji": "🫀🫁",
                 "question": "Ch9: Is physical activity beneficial for mental health?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Body",
                 "emoji": "🫀🫁",
                 "question": "Ch9: Does vitamin D support bone health?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -4333,36 +4333,36 @@ const healthQuestions = {
                 "emoji": "🫀🫁",
                 "question": "what is the recommended weekly amount of moderate exercise in most cases?",
                 "options": [
-                    "30 minutes",
                     "150 minutes",
-                    "300 minutes",
-                    "500 minutes"
-                ],
-                "correct": 1
-            },
-            {
-                "topic": "Body",
-                "emoji": "🫀🫁",
-                "question": "Ch9: Which organ filters toxins from blood?",
-                "options": [
-                    "Heart",
-                    "Liver",
-                    "Stomach",
-                    "Lungs"
+                    "500 minutes",
+                    "30 minutes",
+                    "300 minutes"
                 ],
                 "correct": 0
             },
             {
                 "topic": "Body",
                 "emoji": "🫀🫁",
+                "question": "Ch9: Which organ filters toxins from blood?",
+                "options": [
+                    "Liver",
+                    "Stomach",
+                    "Lungs",
+                    "Heart"
+                ],
+                "correct": 3
+            },
+            {
+                "topic": "Body",
+                "emoji": "🫀🫁",
                 "question": "Do you think what type of fat should be limited in a healthy diet generally?",
                 "options": [
-                    "Monounsaturated",
                     "Polyunsaturated",
-                    "Saturated",
-                    "Omega-3"
+                    "Omega-3",
+                    "Monounsaturated",
+                    "Saturated"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Body",
@@ -4371,8 +4371,8 @@ const healthQuestions = {
                 "options": [
                     "Vitamin K",
                     "Vitamin C",
-                    "Vitamin A",
-                    "Vitamin E"
+                    "Vitamin E",
+                    "Vitamin A"
                 ],
                 "correct": 1
             },
@@ -4382,9 +4382,9 @@ const healthQuestions = {
                 "question": "Do you think how many hours of sleep do most adults need per night?",
                 "options": [
                     "4-5 hours",
-                    "7-9 hours",
+                    "3-4 hours",
                     "10-12 hours",
-                    "3-4 hours"
+                    "7-9 hours"
                 ],
                 "correct": 0
             },
@@ -4393,48 +4393,48 @@ const healthQuestions = {
                 "emoji": "🫀🫁",
                 "question": "Do you think which macronutrient is the body's primary energy source in your opinion?",
                 "options": [
-                    "Proteins",
                     "Vitamins",
+                    "Proteins",
                     "Carbohydrates",
                     "Minerals"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Body",
                 "emoji": "🫀🫁",
                 "question": "Ch9: What mineral is essential for healthy bones and teeth?",
                 "options": [
-                    "Iron",
+                    "Sodium",
                     "Zinc",
                     "Calcium",
-                    "Sodium"
+                    "Iron"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Body",
                 "emoji": "🫀🫁",
                 "question": "Ch9: Which type of exercise strengthens the heart?",
                 "options": [
-                    "Weight lifting",
+                    "Balance training",
                     "Aerobic exercise",
                     "Stretching",
-                    "Balance training"
+                    "Weight lifting"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Body",
                 "emoji": "🫀🫁",
                 "question": "Ch9: What is the recommended daily water intake for most adults?",
                 "options": [
-                    "2-3 liters",
                     "5-6 liters",
+                    "10 liters",
                     "0.5-1 liter",
-                    "10 liters"
+                    "2-3 liters"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -4443,119 +4443,119 @@ const healthQuestions = {
                 "emoji": "🫀🫁",
                 "question": "Body Systems and Functions advanced question 10?",
                 "options": [
-                    "B",
                     "A",
+                    "B",
                     "C"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Body",
                 "emoji": "🫀🫁",
                 "question": "Ch9: Which vitamin is essential for night vision?",
                 "options": [
-                    "Vitamin A",
-                    "Vitamin B",
                     "Vitamin C",
-                    "Vitamin D"
+                    "Vitamin D",
+                    "Vitamin A",
+                    "Vitamin B"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Body",
                 "emoji": "🫀🫁",
                 "question": "what is normal body temperature in celsius in most cases?",
                 "options": [
-                    "35°C",
-                    "37°C",
                     "39°C",
-                    "40°C"
+                    "37°C",
+                    "40°C",
+                    "35°C"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Body",
                 "emoji": "🫀🫁",
                 "question": "Ch9: Which organs filter blood to produce urine?",
                 "options": [
-                    "Liver",
                     "Kidneys",
+                    "Pancreas",
                     "Bladder",
-                    "Pancreas"
+                    "Liver"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Body",
                 "emoji": "🫀🫁",
                 "question": "Do you think what is the primary function of white blood cells generally?",
                 "options": [
+                    "Clot blood",
                     "Carry oxygen",
                     "Fight infections",
-                    "Clot blood",
                     "Regulate temperature"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Body",
                 "emoji": "🫀🫁",
                 "question": "Ch9: How many chambers does the human heart have?",
                 "options": [
-                    "Two",
-                    "Three",
                     "Four",
-                    "Five"
+                    "Two",
+                    "Five",
+                    "Three"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Body",
                 "emoji": "🫀🫁",
                 "question": "Do you think is approximately what percentage of the human body water?",
                 "options": [
-                    "30-40%",
                     "50-60%",
+                    "30-40%",
                     "60-70%",
                     "80-90%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Body",
                 "emoji": "🫀🫁",
                 "question": "Do you think which type of cholesterol is considered beneficial in your opinion?",
                 "options": [
+                    "Triglycerides",
                     "LDL",
-                    "HDL",
                     "VLDL",
-                    "Triglycerides"
+                    "HDL"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Body",
                 "emoji": "🫀🫁",
                 "question": "Ch9: What is the normal resting heart rate range for adults?",
                 "options": [
+                    "140-160 bpm",
                     "40-50 bpm",
-                    "60-100 bpm",
                     "110-130 bpm",
-                    "140-160 bpm"
+                    "60-100 bpm"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Body",
                 "emoji": "🫀🫁",
                 "question": "Ch9: Which hormone regulates blood sugar levels?",
                 "options": [
-                    "Insulin",
                     "Adrenaline",
                     "Cortisol",
+                    "Insulin",
                     "Melatonin"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -4564,118 +4564,118 @@ const healthQuestions = {
                 "emoji": "🫀🫁",
                 "question": "Body Systems and Functions expert question 10?",
                 "options": [
-                    "D",
                     "C",
                     "B",
-                    "A"
+                    "A",
+                    "D"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Body",
                 "emoji": "🫀🫁",
                 "question": "Ch9: What is the medical term for nearsightedness?",
                 "options": [
+                    "Presbyopia",
                     "Hyperopia",
                     "Myopia",
-                    "Astigmatism",
-                    "Presbyopia"
+                    "Astigmatism"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Body",
                 "emoji": "🫀🫁",
                 "question": "Ch9: Which gland regulates other endocrine glands?",
                 "options": [
-                    "Thyroid",
                     "Adrenal",
                     "Pituitary",
+                    "Thyroid",
                     "Pineal"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Body",
                 "emoji": "🫀🫁",
                 "question": "what is the largest bone in the human body in most cases?",
                 "options": [
+                    "Humerus",
                     "Tibia",
                     "Femur",
-                    "Humerus",
                     "Fibula"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Body",
                 "emoji": "🫀🫁",
                 "question": "Ch9: Which blood type is the universal donor?",
                 "options": [
-                    "A",
-                    "B",
+                    "O",
                     "AB",
-                    "O"
+                    "B",
+                    "A"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Body",
                 "emoji": "🫀🫁",
                 "question": "Do you think what is the medical term for the voice box generally?",
                 "options": [
-                    "Pharynx",
-                    "Larynx",
                     "Trachea",
-                    "Esophagus"
-                ],
-                "correct": 0
-            },
-            {
-                "topic": "Body",
-                "emoji": "🫀🫁",
-                "question": "Ch9: Which vitamin deficiency causes scurvy?",
-                "options": [
-                    "Vitamin A",
-                    "Vitamin B",
-                    "Vitamin C",
-                    "Vitamin D"
+                    "Pharynx",
+                    "Esophagus",
+                    "Larynx"
                 ],
                 "correct": 1
             },
             {
                 "topic": "Body",
                 "emoji": "🫀🫁",
-                "question": "Do you think what is the primary role of the lymphatic system?",
+                "question": "Ch9: Which vitamin deficiency causes scurvy?",
                 "options": [
-                    "Digestion",
-                    "Circulation",
-                    "Immunity",
-                    "Respiration"
+                    "Vitamin B",
+                    "Vitamin A",
+                    "Vitamin D",
+                    "Vitamin C"
                 ],
                 "correct": 0
+            },
+            {
+                "topic": "Body",
+                "emoji": "🫀🫁",
+                "question": "Do you think what is the primary role of the lymphatic system?",
+                "options": [
+                    "Immunity",
+                    "Circulation",
+                    "Digestion",
+                    "Respiration"
+                ],
+                "correct": 2
             },
             {
                 "topic": "Body",
                 "emoji": "🫀🫁",
                 "question": "Do you think which organ produces insulin in the body in your opinion?",
                 "options": [
+                    "Thyroid",
                     "Liver",
                     "Kidney",
-                    "Pancreas",
-                    "Thyroid"
+                    "Pancreas"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Body",
                 "emoji": "🫀🫁",
                 "question": "Ch9: What is the medical term for high blood pressure?",
                 "options": [
-                    "Hypotension",
+                    "Hyperthyroidism",
                     "Hypertension",
-                    "Hyperglycemia",
-                    "Hyperthyroidism"
+                    "Hypotension",
+                    "Hyperglycemia"
                 ],
                 "correct": 1
             }
@@ -4750,20 +4750,20 @@ const healthQuestions = {
                 "emoji": "🌟💚",
                 "question": "Is healthy Lifestyle Habits topic 10?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Healthy",
                 "emoji": "🌟💚",
                 "question": "Ch10: Is sunscreen important for skin protection?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Healthy",
@@ -4810,10 +4810,10 @@ const healthQuestions = {
                 "emoji": "🌟💚",
                 "question": "Do you think adequate sleep improve overall health generally?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Healthy",
@@ -4840,10 +4840,10 @@ const healthQuestions = {
                 "emoji": "🌟💚",
                 "question": "Do you think vitamin D support bone health in your opinion?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -4862,33 +4862,33 @@ const healthQuestions = {
                 "emoji": "🌟💚",
                 "question": "Ch10: What is the recommended weekly amount of moderate exercise?",
                 "options": [
+                    "500 minutes",
                     "30 minutes",
-                    "150 minutes",
                     "300 minutes",
-                    "500 minutes"
+                    "150 minutes"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Healthy",
                 "emoji": "🌟💚",
                 "question": "Ch10: Which organ filters toxins from blood?",
                 "options": [
-                    "Heart",
                     "Liver",
                     "Stomach",
+                    "Heart",
                     "Lungs"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Healthy",
                 "emoji": "🌟💚",
                 "question": "Ch10: What type of fat should be limited in a healthy diet?",
                 "options": [
-                    "Monounsaturated",
-                    "Polyunsaturated",
                     "Saturated",
+                    "Polyunsaturated",
+                    "Monounsaturated",
                     "Omega-3"
                 ],
                 "correct": 1
@@ -4910,12 +4910,12 @@ const healthQuestions = {
                 "emoji": "🌟💚",
                 "question": "Is it true that how many hours of sleep do most adults need per night?",
                 "options": [
+                    "10-12 hours",
                     "4-5 hours",
                     "7-9 hours",
-                    "10-12 hours",
                     "3-4 hours"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Healthy",
@@ -4924,8 +4924,8 @@ const healthQuestions = {
                 "options": [
                     "Proteins",
                     "Vitamins",
-                    "Carbohydrates",
-                    "Minerals"
+                    "Minerals",
+                    "Carbohydrates"
                 ],
                 "correct": 1
             },
@@ -4935,9 +4935,9 @@ const healthQuestions = {
                 "question": "Do you think what mineral is essential for healthy bones and teeth generally?",
                 "options": [
                     "Iron",
-                    "Zinc",
                     "Calcium",
-                    "Sodium"
+                    "Sodium",
+                    "Zinc"
                 ],
                 "correct": 0
             },
@@ -4946,12 +4946,12 @@ const healthQuestions = {
                 "emoji": "🌟💚",
                 "question": "Ch10: Which type of exercise strengthens the heart?",
                 "options": [
-                    "Weight lifting",
                     "Aerobic exercise",
-                    "Stretching",
-                    "Balance training"
+                    "Balance training",
+                    "Weight lifting",
+                    "Stretching"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Healthy",
@@ -4959,11 +4959,11 @@ const healthQuestions = {
                 "question": "Do you think what is the recommended daily water intake for most adults?",
                 "options": [
                     "2-3 liters",
-                    "5-6 liters",
                     "0.5-1 liter",
+                    "5-6 liters",
                     "10 liters"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "hard": [
@@ -4972,11 +4972,11 @@ const healthQuestions = {
                 "emoji": "🌟💚",
                 "question": "Healthy Lifestyle Habits advanced question 10?",
                 "options": [
-                    "B",
                     "C",
+                    "B",
                     "A"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Healthy",
@@ -4984,11 +4984,11 @@ const healthQuestions = {
                 "question": "Do you think which vitamin is essential for night vision in your opinion?",
                 "options": [
                     "Vitamin A",
-                    "Vitamin B",
                     "Vitamin C",
+                    "Vitamin B",
                     "Vitamin D"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Healthy",
@@ -4997,8 +4997,8 @@ const healthQuestions = {
                 "options": [
                     "35°C",
                     "37°C",
-                    "39°C",
-                    "40°C"
+                    "40°C",
+                    "39°C"
                 ],
                 "correct": 0
             },
@@ -5007,60 +5007,60 @@ const healthQuestions = {
                 "emoji": "🌟💚",
                 "question": "Ch10: Which organs filter blood to produce urine?",
                 "options": [
-                    "Liver",
-                    "Kidneys",
                     "Bladder",
-                    "Pancreas"
+                    "Pancreas",
+                    "Kidneys",
+                    "Liver"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Healthy",
                 "emoji": "🌟💚",
                 "question": "Ch10: What is the primary function of white blood cells?",
                 "options": [
-                    "Carry oxygen",
                     "Fight infections",
+                    "Carry oxygen",
                     "Clot blood",
                     "Regulate temperature"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Healthy",
                 "emoji": "🌟💚",
                 "question": "Ch10: How many chambers does the human heart have?",
                 "options": [
-                    "Two",
-                    "Three",
                     "Four",
-                    "Five"
+                    "Three",
+                    "Five",
+                    "Two"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Healthy",
                 "emoji": "🌟💚",
                 "question": "Is it true that is approximately what percentage of the human body water?",
                 "options": [
+                    "80-90%",
                     "30-40%",
-                    "50-60%",
                     "60-70%",
-                    "80-90%"
+                    "50-60%"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Healthy",
                 "emoji": "🌟💚",
                 "question": "Ch10: Which type of cholesterol is considered beneficial?",
                 "options": [
-                    "LDL",
-                    "HDL",
                     "VLDL",
-                    "Triglycerides"
+                    "Triglycerides",
+                    "HDL",
+                    "LDL"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Healthy",
@@ -5068,9 +5068,9 @@ const healthQuestions = {
                 "question": "Do you think what is the normal resting heart rate range for adults generally?",
                 "options": [
                     "40-50 bpm",
-                    "60-100 bpm",
                     "110-130 bpm",
-                    "140-160 bpm"
+                    "140-160 bpm",
+                    "60-100 bpm"
                 ],
                 "correct": 0
             },
@@ -5079,10 +5079,10 @@ const healthQuestions = {
                 "emoji": "🌟💚",
                 "question": "Ch10: Which hormone regulates blood sugar levels?",
                 "options": [
-                    "Insulin",
-                    "Adrenaline",
                     "Cortisol",
-                    "Melatonin"
+                    "Adrenaline",
+                    "Melatonin",
+                    "Insulin"
                 ],
                 "correct": 1
             }
@@ -5093,12 +5093,12 @@ const healthQuestions = {
                 "emoji": "🌟💚",
                 "question": "Healthy Lifestyle Habits expert question 10?",
                 "options": [
-                    "A",
-                    "B",
                     "D",
-                    "C"
+                    "C",
+                    "B",
+                    "A"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Healthy",
@@ -5118,8 +5118,8 @@ const healthQuestions = {
                 "question": "Do you think which gland regulates other endocrine glands in your opinion?",
                 "options": [
                     "Thyroid",
-                    "Adrenal",
                     "Pituitary",
+                    "Adrenal",
                     "Pineal"
                 ],
                 "correct": 0
@@ -5131,8 +5131,8 @@ const healthQuestions = {
                 "options": [
                     "Tibia",
                     "Femur",
-                    "Humerus",
-                    "Fibula"
+                    "Fibula",
+                    "Humerus"
                 ],
                 "correct": 1
             },
@@ -5141,72 +5141,72 @@ const healthQuestions = {
                 "emoji": "🌟💚",
                 "question": "Ch10: Which blood type is the universal donor?",
                 "options": [
-                    "A",
-                    "B",
+                    "O",
                     "AB",
-                    "O"
+                    "B",
+                    "A"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Healthy",
                 "emoji": "🌟💚",
                 "question": "Ch10: What is the medical term for the voice box?",
                 "options": [
-                    "Pharynx",
-                    "Larynx",
+                    "Esophagus",
                     "Trachea",
-                    "Esophagus"
+                    "Pharynx",
+                    "Larynx"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Healthy",
                 "emoji": "🌟💚",
                 "question": "Ch10: Which vitamin deficiency causes scurvy?",
                 "options": [
-                    "Vitamin A",
-                    "Vitamin B",
                     "Vitamin C",
-                    "Vitamin D"
+                    "Vitamin A",
+                    "Vitamin D",
+                    "Vitamin B"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Healthy",
                 "emoji": "🌟💚",
                 "question": "what is the primary role of the lymphatic system in most cases?",
                 "options": [
-                    "Digestion",
+                    "Respiration",
                     "Circulation",
-                    "Immunity",
-                    "Respiration"
+                    "Digestion",
+                    "Immunity"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Healthy",
                 "emoji": "🌟💚",
                 "question": "Ch10: Which organ produces insulin in the body?",
                 "options": [
-                    "Liver",
-                    "Kidney",
                     "Pancreas",
-                    "Thyroid"
+                    "Liver",
+                    "Thyroid",
+                    "Kidney"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Healthy",
                 "emoji": "🌟💚",
                 "question": "Do you think what is the medical term for high blood pressure generally?",
                 "options": [
-                    "Hypotension",
                     "Hypertension",
                     "Hyperglycemia",
+                    "Hypotension",
                     "Hyperthyroidism"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "extreme": [
@@ -5279,10 +5279,10 @@ const healthQuestions = {
                 "emoji": "😌🧘",
                 "question": "Is stress Management topic 10?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Stress",
@@ -5299,10 +5299,10 @@ const healthQuestions = {
                 "emoji": "😌🧘",
                 "question": "Do you think does exercise help strengthen muscles?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Stress",
@@ -5319,10 +5319,10 @@ const healthQuestions = {
                 "emoji": "😌🧘",
                 "question": "Ch11: Can stress affect physical health?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Stress",
@@ -5349,30 +5349,30 @@ const healthQuestions = {
                 "emoji": "😌🧘",
                 "question": "Ch11: Should you drink water throughout the day?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Stress",
                 "emoji": "😌🧘",
                 "question": "is physical activity beneficial for mental health in most cases?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Stress",
                 "emoji": "😌🧘",
                 "question": "Ch11: Does vitamin D support bone health?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -5381,20 +5381,20 @@ const healthQuestions = {
                 "emoji": "😌🧘",
                 "question": "Stress Management question 10?",
                 "options": [
-                    "Option A",
-                    "Option B"
+                    "Option B",
+                    "Option A"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Stress",
                 "emoji": "😌🧘",
                 "question": "Do you think what is the recommended weekly amount of moderate exercise generally?",
                 "options": [
-                    "30 minutes",
+                    "500 minutes",
                     "150 minutes",
-                    "300 minutes",
-                    "500 minutes"
+                    "30 minutes",
+                    "300 minutes"
                 ],
                 "correct": 1
             },
@@ -5405,8 +5405,8 @@ const healthQuestions = {
                 "options": [
                     "Heart",
                     "Liver",
-                    "Stomach",
-                    "Lungs"
+                    "Lungs",
+                    "Stomach"
                 ],
                 "correct": 0
             },
@@ -5415,12 +5415,12 @@ const healthQuestions = {
                 "emoji": "😌🧘",
                 "question": "Do you think what type of fat should be limited in a healthy diet?",
                 "options": [
-                    "Monounsaturated",
-                    "Polyunsaturated",
+                    "Omega-3",
                     "Saturated",
-                    "Omega-3"
+                    "Polyunsaturated",
+                    "Monounsaturated"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Stress",
@@ -5428,71 +5428,71 @@ const healthQuestions = {
                 "question": "Do you think which vitamin is important for immune function in your opinion?",
                 "options": [
                     "Vitamin K",
+                    "Vitamin E",
                     "Vitamin C",
-                    "Vitamin A",
-                    "Vitamin E"
+                    "Vitamin A"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Stress",
                 "emoji": "😌🧘",
                 "question": "Ch11: How many hours of sleep do most adults need per night?",
                 "options": [
+                    "3-4 hours",
                     "4-5 hours",
                     "7-9 hours",
-                    "10-12 hours",
-                    "3-4 hours"
+                    "10-12 hours"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Stress",
                 "emoji": "😌🧘",
                 "question": "Ch11: Which macronutrient is the body's primary energy source?",
                 "options": [
-                    "Proteins",
-                    "Vitamins",
                     "Carbohydrates",
-                    "Minerals"
+                    "Minerals",
+                    "Vitamins",
+                    "Proteins"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Stress",
                 "emoji": "😌🧘",
                 "question": "Ch11: What mineral is essential for healthy bones and teeth?",
                 "options": [
-                    "Iron",
+                    "Sodium",
                     "Zinc",
                     "Calcium",
-                    "Sodium"
+                    "Iron"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Stress",
                 "emoji": "😌🧘",
                 "question": "Ch11: Which type of exercise strengthens the heart?",
                 "options": [
-                    "Weight lifting",
-                    "Aerobic exercise",
                     "Stretching",
-                    "Balance training"
+                    "Aerobic exercise",
+                    "Balance training",
+                    "Weight lifting"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Stress",
                 "emoji": "😌🧘",
                 "question": "Is it true that what is the recommended daily water intake for most adults?",
                 "options": [
+                    "0.5-1 liter",
                     "2-3 liters",
                     "5-6 liters",
-                    "0.5-1 liter",
                     "10 liters"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "hard": [
@@ -5502,8 +5502,8 @@ const healthQuestions = {
                 "question": "Stress Management advanced question 10?",
                 "options": [
                     "B",
-                    "C",
-                    "A"
+                    "A",
+                    "C"
                 ],
                 "correct": 0
             },
@@ -5512,12 +5512,12 @@ const healthQuestions = {
                 "emoji": "😌🧘",
                 "question": "Ch11: Which vitamin is essential for night vision?",
                 "options": [
+                    "Vitamin C",
                     "Vitamin A",
                     "Vitamin B",
-                    "Vitamin C",
                     "Vitamin D"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Stress",
@@ -5526,8 +5526,8 @@ const healthQuestions = {
                 "options": [
                     "35°C",
                     "37°C",
-                    "39°C",
-                    "40°C"
+                    "40°C",
+                    "39°C"
                 ],
                 "correct": 0
             },
@@ -5536,24 +5536,24 @@ const healthQuestions = {
                 "emoji": "😌🧘",
                 "question": "Ch11: Which organs filter blood to produce urine?",
                 "options": [
-                    "Liver",
-                    "Kidneys",
+                    "Pancreas",
                     "Bladder",
-                    "Pancreas"
+                    "Kidneys",
+                    "Liver"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Stress",
                 "emoji": "😌🧘",
                 "question": "Do you think what is the primary function of white blood cells?",
                 "options": [
-                    "Carry oxygen",
-                    "Fight infections",
                     "Clot blood",
-                    "Regulate temperature"
+                    "Regulate temperature",
+                    "Carry oxygen",
+                    "Fight infections"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Stress",
@@ -5561,8 +5561,8 @@ const healthQuestions = {
                 "question": "Do you think how many chambers does the human heart have in your opinion?",
                 "options": [
                     "Two",
-                    "Three",
                     "Four",
+                    "Three",
                     "Five"
                 ],
                 "correct": 0
@@ -5572,48 +5572,48 @@ const healthQuestions = {
                 "emoji": "😌🧘",
                 "question": "Would you say approximately what percentage of the human body water?",
                 "options": [
+                    "60-70%",
                     "30-40%",
                     "50-60%",
-                    "60-70%",
                     "80-90%"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Stress",
                 "emoji": "😌🧘",
                 "question": "Ch11: Which type of cholesterol is considered beneficial?",
                 "options": [
-                    "LDL",
-                    "HDL",
                     "VLDL",
+                    "HDL",
+                    "LDL",
                     "Triglycerides"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Stress",
                 "emoji": "😌🧘",
                 "question": "Ch11: What is the normal resting heart rate range for adults?",
                 "options": [
-                    "40-50 bpm",
-                    "60-100 bpm",
                     "110-130 bpm",
-                    "140-160 bpm"
+                    "60-100 bpm",
+                    "140-160 bpm",
+                    "40-50 bpm"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Stress",
                 "emoji": "😌🧘",
                 "question": "Ch11: Which hormone regulates blood sugar levels?",
                 "options": [
-                    "Insulin",
                     "Adrenaline",
-                    "Cortisol",
-                    "Melatonin"
+                    "Insulin",
+                    "Melatonin",
+                    "Cortisol"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -5622,22 +5622,22 @@ const healthQuestions = {
                 "emoji": "😌🧘",
                 "question": "Stress Management expert question 10?",
                 "options": [
-                    "A",
-                    "D",
                     "C",
-                    "B"
+                    "B",
+                    "A",
+                    "D"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Stress",
                 "emoji": "😌🧘",
                 "question": "what is the medical term for nearsightedness in most cases?",
                 "options": [
-                    "Hyperopia",
+                    "Presbyopia",
                     "Myopia",
-                    "Astigmatism",
-                    "Presbyopia"
+                    "Hyperopia",
+                    "Astigmatism"
                 ],
                 "correct": 1
             },
@@ -5647,9 +5647,9 @@ const healthQuestions = {
                 "question": "Ch11: Which gland regulates other endocrine glands?",
                 "options": [
                     "Thyroid",
-                    "Adrenal",
+                    "Pineal",
                     "Pituitary",
-                    "Pineal"
+                    "Adrenal"
                 ],
                 "correct": 0
             },
@@ -5658,12 +5658,12 @@ const healthQuestions = {
                 "emoji": "😌🧘",
                 "question": "Do you think what is the largest bone in the human body generally?",
                 "options": [
-                    "Tibia",
-                    "Femur",
                     "Humerus",
-                    "Fibula"
+                    "Tibia",
+                    "Fibula",
+                    "Femur"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Stress",
@@ -5671,33 +5671,33 @@ const healthQuestions = {
                 "question": "Do you think which blood type can be the universal donor?",
                 "options": [
                     "A",
-                    "B",
                     "AB",
+                    "B",
                     "O"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Stress",
                 "emoji": "😌🧘",
                 "question": "Do you think what is the medical term for the voice box?",
                 "options": [
-                    "Pharynx",
-                    "Larynx",
                     "Trachea",
-                    "Esophagus"
+                    "Esophagus",
+                    "Larynx",
+                    "Pharynx"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Stress",
                 "emoji": "😌🧘",
                 "question": "Do you think which vitamin deficiency causes scurvy in your opinion?",
                 "options": [
-                    "Vitamin A",
+                    "Vitamin D",
                     "Vitamin B",
-                    "Vitamin C",
-                    "Vitamin D"
+                    "Vitamin A",
+                    "Vitamin C"
                 ],
                 "correct": 1
             },
@@ -5706,36 +5706,36 @@ const healthQuestions = {
                 "emoji": "😌🧘",
                 "question": "Ch11: What is the primary role of the lymphatic system?",
                 "options": [
+                    "Immunity",
                     "Digestion",
                     "Circulation",
-                    "Immunity",
                     "Respiration"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Stress",
                 "emoji": "😌🧘",
                 "question": "Ch11: Which organ produces insulin in the body?",
                 "options": [
+                    "Thyroid",
                     "Liver",
-                    "Kidney",
                     "Pancreas",
-                    "Thyroid"
+                    "Kidney"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Stress",
                 "emoji": "😌🧘",
                 "question": "Ch11: What is the medical term for high blood pressure?",
                 "options": [
-                    "Hypotension",
-                    "Hypertension",
+                    "Hyperthyroidism",
                     "Hyperglycemia",
-                    "Hyperthyroidism"
+                    "Hypotension",
+                    "Hypertension"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "extreme": [
@@ -5838,10 +5838,10 @@ const healthQuestions = {
                 "emoji": "🏥✅",
                 "question": "Ch12: Are fruits and vegetables part of a healthy diet?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Preventive",
@@ -5858,10 +5858,10 @@ const healthQuestions = {
                 "emoji": "🏥✅",
                 "question": "Ch12: Is smoking harmful to lung health?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Preventive",
@@ -5910,20 +5910,20 @@ const healthQuestions = {
                 "emoji": "🏥✅",
                 "question": "Preventive Healthcare question 10?",
                 "options": [
-                    "Option A",
-                    "Option B"
+                    "Option B",
+                    "Option A"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Preventive",
                 "emoji": "🏥✅",
                 "question": "Ch12: What is the recommended weekly amount of moderate exercise?",
                 "options": [
-                    "30 minutes",
+                    "500 minutes",
                     "150 minutes",
-                    "300 minutes",
-                    "500 minutes"
+                    "30 minutes",
+                    "300 minutes"
                 ],
                 "correct": 1
             },
@@ -5932,21 +5932,21 @@ const healthQuestions = {
                 "emoji": "🏥✅",
                 "question": "Ch12: Which organ filters toxins from blood?",
                 "options": [
-                    "Heart",
-                    "Liver",
+                    "Lungs",
                     "Stomach",
-                    "Lungs"
+                    "Heart",
+                    "Liver"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Preventive",
                 "emoji": "🏥✅",
                 "question": "Would you say what type of fat should be limited in a healthy diet?",
                 "options": [
-                    "Monounsaturated",
-                    "Polyunsaturated",
                     "Saturated",
+                    "Polyunsaturated",
+                    "Monounsaturated",
                     "Omega-3"
                 ],
                 "correct": 1
@@ -5956,34 +5956,34 @@ const healthQuestions = {
                 "emoji": "🏥✅",
                 "question": "Do you think which vitamin is essential for immune function?",
                 "options": [
-                    "Vitamin K",
                     "Vitamin C",
-                    "Vitamin A",
-                    "Vitamin E"
-                ],
-                "correct": 1
-            },
-            {
-                "topic": "Preventive",
-                "emoji": "🏥✅",
-                "question": "Do you think how many hours of sleep do most adults need per night generally?",
-                "options": [
-                    "4-5 hours",
-                    "7-9 hours",
-                    "10-12 hours",
-                    "3-4 hours"
+                    "Vitamin E",
+                    "Vitamin K",
+                    "Vitamin A"
                 ],
                 "correct": 0
             },
             {
                 "topic": "Preventive",
                 "emoji": "🏥✅",
+                "question": "Do you think how many hours of sleep do most adults need per night generally?",
+                "options": [
+                    "10-12 hours",
+                    "7-9 hours",
+                    "4-5 hours",
+                    "3-4 hours"
+                ],
+                "correct": 2
+            },
+            {
+                "topic": "Preventive",
+                "emoji": "🏥✅",
                 "question": "Do you think which macronutrient can be the body's primary energy source?",
                 "options": [
-                    "Proteins",
+                    "Minerals",
                     "Vitamins",
                     "Carbohydrates",
-                    "Minerals"
+                    "Proteins"
                 ],
                 "correct": 1
             },
@@ -5992,12 +5992,12 @@ const healthQuestions = {
                 "emoji": "🏥✅",
                 "question": "what mineral is essential for healthy bones and teeth in most cases?",
                 "options": [
-                    "Iron",
                     "Zinc",
-                    "Calcium",
-                    "Sodium"
+                    "Iron",
+                    "Sodium",
+                    "Calcium"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Preventive",
@@ -6016,12 +6016,12 @@ const healthQuestions = {
                 "emoji": "🏥✅",
                 "question": "Ch12: What is the recommended daily water intake for most adults?",
                 "options": [
-                    "2-3 liters",
                     "5-6 liters",
                     "0.5-1 liter",
+                    "2-3 liters",
                     "10 liters"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -6030,11 +6030,11 @@ const healthQuestions = {
                 "emoji": "🏥✅",
                 "question": "Preventive Healthcare advanced question 10?",
                 "options": [
-                    "A",
                     "B",
-                    "C"
+                    "C",
+                    "A"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Preventive",
@@ -6053,36 +6053,36 @@ const healthQuestions = {
                 "emoji": "🏥✅",
                 "question": "Ch12: What is normal body temperature in Celsius?",
                 "options": [
+                    "40°C",
                     "35°C",
-                    "37°C",
                     "39°C",
-                    "40°C"
+                    "37°C"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Preventive",
                 "emoji": "🏥✅",
                 "question": "Ch12: Which organs filter blood to produce urine?",
                 "options": [
+                    "Bladder",
                     "Liver",
                     "Kidneys",
-                    "Bladder",
                     "Pancreas"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Preventive",
                 "emoji": "🏥✅",
                 "question": "Would you say what is the primary function of white blood cells?",
                 "options": [
-                    "Carry oxygen",
                     "Fight infections",
+                    "Carry oxygen",
                     "Clot blood",
                     "Regulate temperature"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Preventive",
@@ -6090,9 +6090,9 @@ const healthQuestions = {
                 "question": "Ch12: How many chambers does the human heart have?",
                 "options": [
                     "Two",
-                    "Three",
                     "Four",
-                    "Five"
+                    "Five",
+                    "Three"
                 ],
                 "correct": 0
             },
@@ -6101,24 +6101,24 @@ const healthQuestions = {
                 "emoji": "🏥✅",
                 "question": "Do you think approximately what percentage of the human body water generally?",
                 "options": [
-                    "30-40%",
                     "50-60%",
-                    "60-70%",
-                    "80-90%"
+                    "80-90%",
+                    "30-40%",
+                    "60-70%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Preventive",
                 "emoji": "🏥✅",
                 "question": "Do you think which type of cholesterol can be considered beneficial?",
                 "options": [
-                    "LDL",
                     "HDL",
+                    "LDL",
                     "VLDL",
                     "Triglycerides"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Preventive",
@@ -6137,12 +6137,12 @@ const healthQuestions = {
                 "emoji": "🏥✅",
                 "question": "Do you think which hormone regulates blood sugar levels in your opinion?",
                 "options": [
-                    "Insulin",
                     "Adrenaline",
-                    "Cortisol",
-                    "Melatonin"
+                    "Melatonin",
+                    "Insulin",
+                    "Cortisol"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -6151,45 +6151,45 @@ const healthQuestions = {
                 "emoji": "🏥✅",
                 "question": "Preventive Healthcare expert question 10?",
                 "options": [
-                    "A",
-                    "C",
                     "D",
-                    "B"
+                    "B",
+                    "C",
+                    "A"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Preventive",
                 "emoji": "🏥✅",
                 "question": "Ch12: What is the medical term for nearsightedness?",
                 "options": [
-                    "Hyperopia",
                     "Myopia",
                     "Astigmatism",
-                    "Presbyopia"
-                ],
-                "correct": 1
-            },
-            {
-                "topic": "Preventive",
-                "emoji": "🏥✅",
-                "question": "Ch12: Which gland regulates other endocrine glands?",
-                "options": [
-                    "Thyroid",
-                    "Adrenal",
-                    "Pituitary",
-                    "Pineal"
+                    "Presbyopia",
+                    "Hyperopia"
                 ],
                 "correct": 0
             },
             {
                 "topic": "Preventive",
                 "emoji": "🏥✅",
+                "question": "Ch12: Which gland regulates other endocrine glands?",
+                "options": [
+                    "Adrenal",
+                    "Pineal",
+                    "Pituitary",
+                    "Thyroid"
+                ],
+                "correct": 3
+            },
+            {
+                "topic": "Preventive",
+                "emoji": "🏥✅",
                 "question": "Ch12: What is the largest bone in the human body?",
                 "options": [
-                    "Tibia",
-                    "Femur",
                     "Humerus",
+                    "Femur",
+                    "Tibia",
                     "Fibula"
                 ],
                 "correct": 1
@@ -6199,24 +6199,24 @@ const healthQuestions = {
                 "emoji": "🏥✅",
                 "question": "Ch12: Which blood type is the universal donor?",
                 "options": [
-                    "A",
                     "B",
                     "AB",
+                    "A",
                     "O"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Preventive",
                 "emoji": "🏥✅",
                 "question": "Would you say what is the medical term for the voice box?",
                 "options": [
-                    "Pharynx",
                     "Larynx",
+                    "Pharynx",
                     "Trachea",
                     "Esophagus"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Preventive",
@@ -6224,47 +6224,47 @@ const healthQuestions = {
                 "question": "Ch12: Which vitamin deficiency causes scurvy?",
                 "options": [
                     "Vitamin A",
-                    "Vitamin B",
                     "Vitamin C",
+                    "Vitamin B",
                     "Vitamin D"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Preventive",
                 "emoji": "🏥✅",
                 "question": "Do you think what is the primary role of the lymphatic system generally?",
                 "options": [
-                    "Digestion",
                     "Circulation",
+                    "Digestion",
                     "Immunity",
                     "Respiration"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Preventive",
                 "emoji": "🏥✅",
                 "question": "Ch12: Which organ produces insulin in the body?",
                 "options": [
-                    "Liver",
                     "Kidney",
+                    "Liver",
                     "Pancreas",
                     "Thyroid"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Preventive",
                 "emoji": "🏥✅",
                 "question": "Would you say what is the medical term for high blood pressure?",
                 "options": [
-                    "Hypotension",
                     "Hypertension",
                     "Hyperglycemia",
+                    "Hypotension",
                     "Hyperthyroidism"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "extreme": [
@@ -6347,10 +6347,10 @@ const healthQuestions = {
                 "emoji": "🚭🚫",
                 "question": "Would you say sunscreen important for skin protection in your opinion?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Substance",
@@ -6397,40 +6397,40 @@ const healthQuestions = {
                 "emoji": "🚭🚫",
                 "question": "Would you say does adequate sleep improve overall health?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Substance",
                 "emoji": "🚭🚫",
                 "question": "Ch13: Should you drink water throughout the day?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Substance",
                 "emoji": "🚭🚫",
                 "question": "Would you say physical activity beneficial for mental health generally?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Substance",
                 "emoji": "🚭🚫",
                 "question": "Ch13: Does vitamin D support bone health?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -6439,12 +6439,12 @@ const healthQuestions = {
                 "emoji": "📚✨",
                 "question": "Which vitamin is primarily obtained from sunlight exposure?",
                 "options": [
-                    "Vitamin A",
                     "Vitamin D",
-                    "Vitamin C",
-                    "Vitamin B12"
+                    "Vitamin B12",
+                    "Vitamin A",
+                    "Vitamin C"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "General",
@@ -6452,23 +6452,23 @@ const healthQuestions = {
                 "question": "Would you say what is the recommended weekly amount of moderate exercise?",
                 "options": [
                     "30 minutes",
-                    "150 minutes",
                     "300 minutes",
-                    "500 minutes"
+                    "500 minutes",
+                    "150 minutes"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "General",
                 "emoji": "📚✨",
                 "question": "Would you say which organ filters toxins from blood in your opinion?",
                 "options": [
-                    "Heart",
                     "Liver",
+                    "Lungs",
                     "Stomach",
-                    "Lungs"
+                    "Heart"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "General",
@@ -6476,45 +6476,45 @@ const healthQuestions = {
                 "question": "Ch13: What type of fat should be limited in a healthy diet?",
                 "options": [
                     "Monounsaturated",
-                    "Polyunsaturated",
                     "Saturated",
-                    "Omega-3"
+                    "Omega-3",
+                    "Polyunsaturated"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "General",
                 "emoji": "📚✨",
                 "question": "Ch13: Which vitamin is important for immune function?",
                 "options": [
+                    "Vitamin E",
                     "Vitamin K",
                     "Vitamin C",
-                    "Vitamin A",
-                    "Vitamin E"
+                    "Vitamin A"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "General",
                 "emoji": "📚✨",
                 "question": "Ch13: How many hours of sleep do most adults need per night?",
                 "options": [
+                    "3-4 hours",
                     "4-5 hours",
-                    "7-9 hours",
                     "10-12 hours",
-                    "3-4 hours"
+                    "7-9 hours"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "General",
                 "emoji": "📚✨",
                 "question": "Ch13: Which macronutrient is the body's primary energy source?",
                 "options": [
-                    "Proteins",
+                    "Minerals",
                     "Vitamins",
                     "Carbohydrates",
-                    "Minerals"
+                    "Proteins"
                 ],
                 "correct": 1
             },
@@ -6523,36 +6523,36 @@ const healthQuestions = {
                 "emoji": "📚✨",
                 "question": "Would you say what mineral is essential for healthy bones and teeth?",
                 "options": [
-                    "Iron",
                     "Zinc",
+                    "Iron",
                     "Calcium",
                     "Sodium"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "General",
                 "emoji": "📚✨",
                 "question": "Ch13: Which type of exercise strengthens the heart?",
                 "options": [
-                    "Weight lifting",
-                    "Aerobic exercise",
                     "Stretching",
+                    "Aerobic exercise",
+                    "Weight lifting",
                     "Balance training"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "General",
                 "emoji": "📚✨",
                 "question": "Would you say what is the recommended daily water intake for most adults generally?",
                 "options": [
-                    "2-3 liters",
-                    "5-6 liters",
                     "0.5-1 liter",
-                    "10 liters"
+                    "2-3 liters",
+                    "10 liters",
+                    "5-6 liters"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "hard": [
@@ -6562,8 +6562,8 @@ const healthQuestions = {
                 "question": "Substance Abuse and Addiction advanced question 10?",
                 "options": [
                     "A",
-                    "C",
-                    "B"
+                    "B",
+                    "C"
                 ],
                 "correct": 0
             },
@@ -6572,46 +6572,46 @@ const healthQuestions = {
                 "emoji": "🚭🚫",
                 "question": "Would you say which vitamin can be essential for night vision?",
                 "options": [
+                    "Vitamin C",
                     "Vitamin A",
                     "Vitamin B",
-                    "Vitamin C",
                     "Vitamin D"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Substance",
                 "emoji": "🚭🚫",
                 "question": "Would you say what is normal body temperature in celsius?",
                 "options": [
-                    "35°C",
+                    "40°C",
                     "37°C",
-                    "39°C",
-                    "40°C"
+                    "35°C",
+                    "39°C"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Substance",
                 "emoji": "🚭🚫",
                 "question": "Would you say which organs filter blood to produce urine in your opinion?",
                 "options": [
-                    "Liver",
                     "Kidneys",
                     "Bladder",
-                    "Pancreas"
+                    "Pancreas",
+                    "Liver"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Substance",
                 "emoji": "🚭🚫",
                 "question": "Ch13: What is the primary function of white blood cells?",
                 "options": [
-                    "Carry oxygen",
+                    "Regulate temperature",
                     "Fight infections",
                     "Clot blood",
-                    "Regulate temperature"
+                    "Carry oxygen"
                 ],
                 "correct": 1
             },
@@ -6620,24 +6620,24 @@ const healthQuestions = {
                 "emoji": "🚭🚫",
                 "question": "Ch13: How many chambers does the human heart have?",
                 "options": [
-                    "Two",
                     "Three",
-                    "Four",
-                    "Five"
+                    "Five",
+                    "Two",
+                    "Four"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Substance",
                 "emoji": "🚭🚫",
                 "question": "Ch13: Is approximately what percentage of the human body water?",
                 "options": [
-                    "30-40%",
                     "50-60%",
+                    "30-40%",
                     "60-70%",
                     "80-90%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Substance",
@@ -6645,9 +6645,9 @@ const healthQuestions = {
                 "question": "Ch13: Which type of cholesterol is considered beneficial?",
                 "options": [
                     "LDL",
-                    "HDL",
+                    "Triglycerides",
                     "VLDL",
-                    "Triglycerides"
+                    "HDL"
                 ],
                 "correct": 0
             },
@@ -6656,24 +6656,24 @@ const healthQuestions = {
                 "emoji": "🚭🚫",
                 "question": "Would you say what is the normal resting heart rate range for adults?",
                 "options": [
-                    "40-50 bpm",
                     "60-100 bpm",
                     "110-130 bpm",
-                    "140-160 bpm"
+                    "140-160 bpm",
+                    "40-50 bpm"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Substance",
                 "emoji": "🚭🚫",
                 "question": "Ch13: Which hormone regulates blood sugar levels?",
                 "options": [
-                    "Insulin",
                     "Adrenaline",
                     "Cortisol",
-                    "Melatonin"
+                    "Melatonin",
+                    "Insulin"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -6683,9 +6683,9 @@ const healthQuestions = {
                 "question": "Substance Abuse and Addiction expert question 1?",
                 "options": [
                     "A",
-                    "C",
                     "D",
-                    "B"
+                    "B",
+                    "C"
                 ],
                 "correct": 0
             },
@@ -6694,48 +6694,48 @@ const healthQuestions = {
                 "emoji": "🚭🚫",
                 "question": "Substance Abuse and Addiction expert question 10?",
                 "options": [
-                    "A",
-                    "B",
+                    "C",
                     "D",
-                    "C"
+                    "B",
+                    "A"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Substance",
                 "emoji": "🚭🚫",
                 "question": "Which gland regulates other endocrine glands generally?",
                 "options": [
+                    "Pineal",
                     "Thyroid",
-                    "Adrenal",
                     "Pituitary",
-                    "Pineal"
+                    "Adrenal"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Substance",
                 "emoji": "🚭🚫",
                 "question": "What can be the largest bone in the human body?",
                 "options": [
-                    "Tibia",
                     "Femur",
+                    "Fibula",
                     "Humerus",
-                    "Fibula"
+                    "Tibia"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Substance",
                 "emoji": "🚭🚫",
                 "question": "Would you agree that which blood type is the universal donor?",
                 "options": [
-                    "A",
-                    "B",
                     "AB",
-                    "O"
+                    "O",
+                    "B",
+                    "A"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Substance",
@@ -6743,9 +6743,9 @@ const healthQuestions = {
                 "question": "What is the medical term for the voice box in your opinion?",
                 "options": [
                     "Pharynx",
-                    "Larynx",
                     "Trachea",
-                    "Esophagus"
+                    "Esophagus",
+                    "Larynx"
                 ],
                 "correct": 0
             },
@@ -6755,11 +6755,11 @@ const healthQuestions = {
                 "question": "Ch13: Which vitamin deficiency causes scurvy?",
                 "options": [
                     "Vitamin A",
-                    "Vitamin B",
                     "Vitamin C",
-                    "Vitamin D"
+                    "Vitamin D",
+                    "Vitamin B"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Substance",
@@ -6778,12 +6778,12 @@ const healthQuestions = {
                 "emoji": "🚭🚫",
                 "question": "Ch13: Which organ produces insulin in the body?",
                 "options": [
-                    "Liver",
-                    "Kidney",
                     "Pancreas",
-                    "Thyroid"
+                    "Thyroid",
+                    "Liver",
+                    "Kidney"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Substance",
@@ -6792,8 +6792,8 @@ const healthQuestions = {
                 "options": [
                     "Hypotension",
                     "Hypertension",
-                    "Hyperglycemia",
-                    "Hyperthyroidism"
+                    "Hyperthyroidism",
+                    "Hyperglycemia"
                 ],
                 "correct": 1
             }
@@ -6868,10 +6868,10 @@ const healthQuestions = {
                 "emoji": "🌍♻️",
                 "question": "Is environmental Health topic 10?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Environmental",
@@ -6888,30 +6888,30 @@ const healthQuestions = {
                 "emoji": "🌍♻️",
                 "question": "Ch14: Does exercise help strengthen muscles?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Environmental",
                 "emoji": "🌍♻️",
                 "question": "Are fruits and vegetables part of a healthy diet generally?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Environmental",
                 "emoji": "🌍♻️",
                 "question": "Ch14: Can stress affect physical health?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Environmental",
@@ -6928,10 +6928,10 @@ const healthQuestions = {
                 "emoji": "🌍♻️",
                 "question": "Does adequate sleep improve overall health in your opinion?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Environmental",
@@ -6948,10 +6948,10 @@ const healthQuestions = {
                 "emoji": "🌍♻️",
                 "question": "Ch14: Is physical activity beneficial for mental health?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Environmental",
@@ -6970,44 +6970,44 @@ const healthQuestions = {
                 "emoji": "🌍♻️",
                 "question": "Environmental Health question 10?",
                 "options": [
-                    "Option B",
-                    "Option A"
-                ],
-                "correct": 0
-            },
-            {
-                "topic": "Environmental",
-                "emoji": "🌍♻️",
-                "question": "Ch14: What is the recommended weekly amount of moderate exercise?",
-                "options": [
-                    "30 minutes",
-                    "150 minutes",
-                    "300 minutes",
-                    "500 minutes"
+                    "Option A",
+                    "Option B"
                 ],
                 "correct": 1
             },
             {
                 "topic": "Environmental",
                 "emoji": "🌍♻️",
+                "question": "Ch14: What is the recommended weekly amount of moderate exercise?",
+                "options": [
+                    "500 minutes",
+                    "30 minutes",
+                    "150 minutes",
+                    "300 minutes"
+                ],
+                "correct": 2
+            },
+            {
+                "topic": "Environmental",
+                "emoji": "🌍♻️",
                 "question": "Is it correct that which organ filters toxins from blood?",
                 "options": [
-                    "Heart",
+                    "Lungs",
                     "Liver",
-                    "Stomach",
-                    "Lungs"
+                    "Heart",
+                    "Stomach"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Environmental",
                 "emoji": "🌍♻️",
                 "question": "Ch14: What type of fat should be limited in a healthy diet?",
                 "options": [
-                    "Monounsaturated",
-                    "Polyunsaturated",
                     "Saturated",
-                    "Omega-3"
+                    "Polyunsaturated",
+                    "Omega-3",
+                    "Monounsaturated"
                 ],
                 "correct": 1
             },
@@ -7016,60 +7016,60 @@ const healthQuestions = {
                 "emoji": "🌍♻️",
                 "question": "Which vitamin is important for immune function generally?",
                 "options": [
+                    "Vitamin E",
                     "Vitamin K",
-                    "Vitamin C",
                     "Vitamin A",
-                    "Vitamin E"
+                    "Vitamin C"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Environmental",
                 "emoji": "🌍♻️",
                 "question": "Ch14: How many hours of sleep do most adults need per night?",
                 "options": [
-                    "4-5 hours",
-                    "7-9 hours",
                     "10-12 hours",
+                    "7-9 hours",
+                    "4-5 hours",
                     "3-4 hours"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Environmental",
                 "emoji": "🌍♻️",
                 "question": "Would you agree that which macronutrient is the body's primary energy source?",
                 "options": [
-                    "Proteins",
                     "Vitamins",
+                    "Proteins",
                     "Carbohydrates",
                     "Minerals"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Environmental",
                 "emoji": "🌍♻️",
                 "question": "What mineral is essential for healthy bones and teeth in your opinion?",
                 "options": [
-                    "Iron",
-                    "Zinc",
                     "Calcium",
-                    "Sodium"
+                    "Sodium",
+                    "Iron",
+                    "Zinc"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Environmental",
                 "emoji": "🌍♻️",
                 "question": "Ch14: Which type of exercise strengthens the heart?",
                 "options": [
-                    "Weight lifting",
-                    "Aerobic exercise",
+                    "Balance training",
                     "Stretching",
-                    "Balance training"
+                    "Weight lifting",
+                    "Aerobic exercise"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Environmental",
@@ -7077,11 +7077,11 @@ const healthQuestions = {
                 "question": "Ch14: What is the recommended daily water intake for most adults?",
                 "options": [
                     "2-3 liters",
-                    "5-6 liters",
                     "0.5-1 liter",
-                    "10 liters"
+                    "10 liters",
+                    "5-6 liters"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "hard": [
@@ -7091,8 +7091,8 @@ const healthQuestions = {
                 "question": "Environmental Health advanced question 10?",
                 "options": [
                     "A",
-                    "C",
-                    "B"
+                    "B",
+                    "C"
                 ],
                 "correct": 0
             },
@@ -7101,24 +7101,24 @@ const healthQuestions = {
                 "emoji": "🌍♻️",
                 "question": "Ch14: Which vitamin is essential for night vision?",
                 "options": [
-                    "Vitamin A",
-                    "Vitamin B",
+                    "Vitamin D",
                     "Vitamin C",
-                    "Vitamin D"
+                    "Vitamin A",
+                    "Vitamin B"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Environmental",
                 "emoji": "🌍♻️",
                 "question": "Ch14: What is normal body temperature in Celsius?",
                 "options": [
-                    "35°C",
-                    "37°C",
                     "39°C",
-                    "40°C"
+                    "35°C",
+                    "40°C",
+                    "37°C"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Environmental",
@@ -7126,21 +7126,21 @@ const healthQuestions = {
                 "question": "Is it correct that which organs filter blood to produce urine?",
                 "options": [
                     "Liver",
-                    "Kidneys",
+                    "Pancreas",
                     "Bladder",
-                    "Pancreas"
+                    "Kidneys"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Environmental",
                 "emoji": "🌍♻️",
                 "question": "Ch14: What is the primary function of white blood cells?",
                 "options": [
-                    "Carry oxygen",
+                    "Regulate temperature",
                     "Fight infections",
                     "Clot blood",
-                    "Regulate temperature"
+                    "Carry oxygen"
                 ],
                 "correct": 1
             },
@@ -7149,24 +7149,24 @@ const healthQuestions = {
                 "emoji": "🌍♻️",
                 "question": "How many chambers does the human heart have generally?",
                 "options": [
-                    "Two",
-                    "Three",
                     "Four",
-                    "Five"
+                    "Five",
+                    "Three",
+                    "Two"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Environmental",
                 "emoji": "🌍♻️",
                 "question": "Ch14: Is approximately what percentage of the human body water?",
                 "options": [
-                    "30-40%",
                     "50-60%",
                     "60-70%",
-                    "80-90%"
+                    "80-90%",
+                    "30-40%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Environmental",
@@ -7174,9 +7174,9 @@ const healthQuestions = {
                 "question": "Would you agree that which type of cholesterol is considered beneficial?",
                 "options": [
                     "LDL",
-                    "HDL",
+                    "Triglycerides",
                     "VLDL",
-                    "Triglycerides"
+                    "HDL"
                 ],
                 "correct": 0
             },
@@ -7185,24 +7185,24 @@ const healthQuestions = {
                 "emoji": "🌍♻️",
                 "question": "What is the normal resting heart rate range for adults in your opinion?",
                 "options": [
-                    "40-50 bpm",
                     "60-100 bpm",
                     "110-130 bpm",
-                    "140-160 bpm"
+                    "140-160 bpm",
+                    "40-50 bpm"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Environmental",
                 "emoji": "🌍♻️",
                 "question": "Ch14: Which hormone regulates blood sugar levels?",
                 "options": [
-                    "Insulin",
                     "Adrenaline",
-                    "Cortisol",
-                    "Melatonin"
+                    "Insulin",
+                    "Melatonin",
+                    "Cortisol"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -7211,12 +7211,12 @@ const healthQuestions = {
                 "emoji": "🌍♻️",
                 "question": "Environmental Health expert question 10?",
                 "options": [
+                    "D",
                     "B",
                     "C",
-                    "D",
                     "A"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Environmental",
@@ -7235,36 +7235,36 @@ const healthQuestions = {
                 "emoji": "🌍♻️",
                 "question": "Ch14: Which gland regulates other endocrine glands?",
                 "options": [
-                    "Thyroid",
-                    "Adrenal",
                     "Pituitary",
-                    "Pineal"
+                    "Pineal",
+                    "Thyroid",
+                    "Adrenal"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Environmental",
                 "emoji": "🌍♻️",
                 "question": "Ch14: What is the largest bone in the human body?",
                 "options": [
-                    "Tibia",
                     "Femur",
+                    "Tibia",
                     "Humerus",
                     "Fibula"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Environmental",
                 "emoji": "🌍♻️",
                 "question": "Is it correct that which blood type is the universal donor?",
                 "options": [
-                    "A",
                     "B",
-                    "AB",
-                    "O"
+                    "O",
+                    "A",
+                    "AB"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Environmental",
@@ -7283,46 +7283,46 @@ const healthQuestions = {
                 "emoji": "🌍♻️",
                 "question": "Which vitamin deficiency causes scurvy generally?",
                 "options": [
-                    "Vitamin A",
                     "Vitamin B",
-                    "Vitamin C",
-                    "Vitamin D"
+                    "Vitamin D",
+                    "Vitamin A",
+                    "Vitamin C"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Environmental",
                 "emoji": "🌍♻️",
                 "question": "What can be the primary role of the lymphatic system?",
                 "options": [
-                    "Digestion",
-                    "Circulation",
                     "Immunity",
-                    "Respiration"
+                    "Respiration",
+                    "Circulation",
+                    "Digestion"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Environmental",
                 "emoji": "🌍♻️",
                 "question": "Would you agree that which organ produces insulin in the body?",
                 "options": [
+                    "Thyroid",
                     "Liver",
-                    "Kidney",
                     "Pancreas",
-                    "Thyroid"
+                    "Kidney"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Environmental",
                 "emoji": "🌍♻️",
                 "question": "What is the medical term for high blood pressure in your opinion?",
                 "options": [
-                    "Hypotension",
+                    "Hyperthyroidism",
                     "Hypertension",
                     "Hyperglycemia",
-                    "Hyperthyroidism"
+                    "Hypotension"
                 ],
                 "correct": 1
             }
@@ -7417,10 +7417,10 @@ const healthQuestions = {
                 "emoji": "👶💕",
                 "question": "Would you say exercise help strengthen muscles?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sexual",
@@ -7499,22 +7499,22 @@ const healthQuestions = {
                 "emoji": "📚✨",
                 "question": "Which vitamin is primarily obtained from sunlight exposure in your opinion?",
                 "options": [
-                    "Vitamin A",
                     "Vitamin D",
-                    "Vitamin C",
-                    "Vitamin B12"
+                    "Vitamin A",
+                    "Vitamin B12",
+                    "Vitamin C"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "General",
                 "emoji": "📚✨",
                 "question": "Ch15: What is the recommended weekly amount of moderate exercise?",
                 "options": [
-                    "30 minutes",
+                    "500 minutes",
                     "150 minutes",
-                    "300 minutes",
-                    "500 minutes"
+                    "30 minutes",
+                    "300 minutes"
                 ],
                 "correct": 1
             },
@@ -7523,94 +7523,94 @@ const healthQuestions = {
                 "emoji": "📚✨",
                 "question": "Ch15: Which organ filters toxins from blood?",
                 "options": [
+                    "Lungs",
                     "Heart",
                     "Liver",
-                    "Stomach",
-                    "Lungs"
+                    "Stomach"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "General",
                 "emoji": "📚✨",
                 "question": "Ch15: What type of fat should be limited in a healthy diet?",
                 "options": [
-                    "Monounsaturated",
-                    "Polyunsaturated",
                     "Saturated",
-                    "Omega-3"
+                    "Omega-3",
+                    "Polyunsaturated",
+                    "Monounsaturated"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "General",
                 "emoji": "📚✨",
                 "question": "Ch15: Which vitamin is important for immune function?",
                 "options": [
-                    "Vitamin K",
-                    "Vitamin C",
                     "Vitamin A",
-                    "Vitamin E"
+                    "Vitamin K",
+                    "Vitamin E",
+                    "Vitamin C"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "General",
                 "emoji": "📚✨",
                 "question": "Would you say how many hours of sleep do most adults need per night?",
                 "options": [
-                    "4-5 hours",
                     "7-9 hours",
-                    "10-12 hours",
-                    "3-4 hours"
-                ],
-                "correct": 0
-            },
-            {
-                "topic": "General",
-                "emoji": "📚✨",
-                "question": "Ch15: Which macronutrient is the body's primary energy source?",
-                "options": [
-                    "Proteins",
-                    "Vitamins",
-                    "Carbohydrates",
-                    "Minerals"
+                    "4-5 hours",
+                    "3-4 hours",
+                    "10-12 hours"
                 ],
                 "correct": 1
             },
             {
                 "topic": "General",
                 "emoji": "📚✨",
+                "question": "Ch15: Which macronutrient is the body's primary energy source?",
+                "options": [
+                    "Minerals",
+                    "Carbohydrates",
+                    "Vitamins",
+                    "Proteins"
+                ],
+                "correct": 2
+            },
+            {
+                "topic": "General",
+                "emoji": "📚✨",
                 "question": "Would you say what mineral is essential for healthy bones and teeth generally?",
                 "options": [
-                    "Iron",
                     "Zinc",
-                    "Calcium",
-                    "Sodium"
+                    "Sodium",
+                    "Iron",
+                    "Calcium"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "General",
                 "emoji": "📚✨",
                 "question": "Ch15: Which type of exercise strengthens the heart?",
                 "options": [
-                    "Weight lifting",
                     "Aerobic exercise",
+                    "Weight lifting",
                     "Stretching",
                     "Balance training"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "General",
                 "emoji": "📚✨",
                 "question": "Would you say what is the recommended daily water intake for most adults?",
                 "options": [
-                    "2-3 liters",
+                    "10 liters",
                     "5-6 liters",
-                    "0.5-1 liter",
-                    "10 liters"
+                    "2-3 liters",
+                    "0.5-1 liter"
                 ],
                 "correct": 1
             }
@@ -7622,8 +7622,8 @@ const healthQuestions = {
                 "question": "Sexual and Reproductive Health advanced question 10?",
                 "options": [
                     "A",
-                    "C",
-                    "B"
+                    "B",
+                    "C"
                 ],
                 "correct": 0
             },
@@ -7632,10 +7632,10 @@ const healthQuestions = {
                 "emoji": "👶💕",
                 "question": "Would you say which vitamin is essential for night vision in your opinion?",
                 "options": [
-                    "Vitamin A",
+                    "Vitamin D",
                     "Vitamin B",
                     "Vitamin C",
-                    "Vitamin D"
+                    "Vitamin A"
                 ],
                 "correct": 1
             },
@@ -7644,24 +7644,24 @@ const healthQuestions = {
                 "emoji": "👶💕",
                 "question": "Ch15: What is normal body temperature in Celsius?",
                 "options": [
-                    "35°C",
+                    "40°C",
                     "37°C",
-                    "39°C",
-                    "40°C"
+                    "35°C",
+                    "39°C"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Sexual",
                 "emoji": "👶💕",
                 "question": "Ch15: Which organs filter blood to produce urine?",
                 "options": [
-                    "Liver",
                     "Kidneys",
-                    "Bladder",
-                    "Pancreas"
+                    "Liver",
+                    "Pancreas",
+                    "Bladder"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sexual",
@@ -7669,23 +7669,23 @@ const healthQuestions = {
                 "question": "Ch15: What is the primary function of white blood cells?",
                 "options": [
                     "Carry oxygen",
-                    "Fight infections",
                     "Clot blood",
-                    "Regulate temperature"
+                    "Regulate temperature",
+                    "Fight infections"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Sexual",
                 "emoji": "👶💕",
                 "question": "Ch15: How many chambers does the human heart have?",
                 "options": [
-                    "Two",
                     "Three",
-                    "Four",
-                    "Five"
+                    "Two",
+                    "Five",
+                    "Four"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sexual",
@@ -7694,8 +7694,8 @@ const healthQuestions = {
                 "options": [
                     "30-40%",
                     "50-60%",
-                    "60-70%",
-                    "80-90%"
+                    "80-90%",
+                    "60-70%"
                 ],
                 "correct": 1
             },
@@ -7704,12 +7704,12 @@ const healthQuestions = {
                 "emoji": "👶💕",
                 "question": "Ch15: Which type of cholesterol is considered beneficial?",
                 "options": [
-                    "LDL",
-                    "HDL",
                     "VLDL",
-                    "Triglycerides"
+                    "HDL",
+                    "Triglycerides",
+                    "LDL"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Sexual",
@@ -7717,9 +7717,9 @@ const healthQuestions = {
                 "question": "Would you say what is the normal resting heart rate range for adults generally?",
                 "options": [
                     "40-50 bpm",
-                    "60-100 bpm",
+                    "140-160 bpm",
                     "110-130 bpm",
-                    "140-160 bpm"
+                    "60-100 bpm"
                 ],
                 "correct": 0
             },
@@ -7728,10 +7728,10 @@ const healthQuestions = {
                 "emoji": "👶💕",
                 "question": "Ch15: Which hormone regulates blood sugar levels?",
                 "options": [
-                    "Insulin",
-                    "Adrenaline",
                     "Cortisol",
-                    "Melatonin"
+                    "Adrenaline",
+                    "Melatonin",
+                    "Insulin"
                 ],
                 "correct": 1
             }
@@ -7742,24 +7742,24 @@ const healthQuestions = {
                 "emoji": "👶💕",
                 "question": "Sexual and Reproductive Health expert question 1?",
                 "options": [
-                    "C",
-                    "A",
                     "D",
-                    "B"
+                    "A",
+                    "B",
+                    "C"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Sexual",
                 "emoji": "👶💕",
                 "question": "Sexual and Reproductive Health expert question 10?",
                 "options": [
-                    "C",
-                    "B",
+                    "D",
                     "A",
-                    "D"
+                    "B",
+                    "C"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Sexual",
@@ -7767,9 +7767,9 @@ const healthQuestions = {
                 "question": "Would you agree that which gland regulates other endocrine glands?",
                 "options": [
                     "Thyroid",
-                    "Adrenal",
+                    "Pineal",
                     "Pituitary",
-                    "Pineal"
+                    "Adrenal"
                 ],
                 "correct": 0
             },
@@ -7778,82 +7778,82 @@ const healthQuestions = {
                 "emoji": "👶💕",
                 "question": "What is the largest bone in the human body in your opinion?",
                 "options": [
-                    "Tibia",
                     "Femur",
+                    "Fibula",
                     "Humerus",
-                    "Fibula"
+                    "Tibia"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sexual",
                 "emoji": "👶💕",
                 "question": "Ch15: Which blood type is the universal donor?",
                 "options": [
-                    "A",
-                    "B",
                     "AB",
-                    "O"
+                    "O",
+                    "A",
+                    "B"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Sexual",
                 "emoji": "👶💕",
                 "question": "Ch15: What is the medical term for the voice box?",
                 "options": [
+                    "Trachea",
                     "Pharynx",
                     "Larynx",
-                    "Trachea",
                     "Esophagus"
-                ],
-                "correct": 0
-            },
-            {
-                "topic": "Sexual",
-                "emoji": "👶💕",
-                "question": "Ch15: Which vitamin deficiency causes scurvy?",
-                "options": [
-                    "Vitamin A",
-                    "Vitamin B",
-                    "Vitamin C",
-                    "Vitamin D"
                 ],
                 "correct": 1
             },
             {
                 "topic": "Sexual",
                 "emoji": "👶💕",
+                "question": "Ch15: Which vitamin deficiency causes scurvy?",
+                "options": [
+                    "Vitamin C",
+                    "Vitamin A",
+                    "Vitamin D",
+                    "Vitamin B"
+                ],
+                "correct": 3
+            },
+            {
+                "topic": "Sexual",
+                "emoji": "👶💕",
                 "question": "Ch15: What is the primary role of the lymphatic system?",
                 "options": [
-                    "Digestion",
-                    "Circulation",
                     "Immunity",
-                    "Respiration"
+                    "Circulation",
+                    "Respiration",
+                    "Digestion"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Sexual",
                 "emoji": "👶💕",
                 "question": "Is it correct that which organ produces insulin in the body?",
                 "options": [
-                    "Liver",
                     "Kidney",
-                    "Pancreas",
-                    "Thyroid"
+                    "Liver",
+                    "Thyroid",
+                    "Pancreas"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sexual",
                 "emoji": "👶💕",
                 "question": "Ch15: What is the medical term for high blood pressure?",
                 "options": [
-                    "Hypotension",
-                    "Hypertension",
                     "Hyperglycemia",
-                    "Hyperthyroidism"
+                    "Hypertension",
+                    "Hyperthyroidism",
+                    "Hypotension"
                 ],
                 "correct": 1
             }
@@ -7938,20 +7938,20 @@ const healthQuestions = {
                 "emoji": "🩺📋",
                 "question": "Is sunscreen important for skin protection generally?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Chronic",
                 "emoji": "🩺📋",
                 "question": "Ch16: Does exercise help strengthen muscles?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Chronic",
@@ -7968,40 +7968,40 @@ const healthQuestions = {
                 "emoji": "🩺📋",
                 "question": "Can stress affect physical health in your opinion?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Chronic",
                 "emoji": "🩺📋",
                 "question": "Do you think smoking harmful to lung health?",
                 "options": [
-                    "True",
-                    "False"
-                ],
-                "correct": 0
-            },
-            {
-                "topic": "Chronic",
-                "emoji": "🩺📋",
-                "question": "Would you say adequate sleep improve overall health?",
-                "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
                 "correct": 1
             },
             {
                 "topic": "Chronic",
                 "emoji": "🩺📋",
-                "question": "Ch16: Should you drink water throughout the day?",
+                "question": "Would you say adequate sleep improve overall health?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
                 "correct": 0
+            },
+            {
+                "topic": "Chronic",
+                "emoji": "🩺📋",
+                "question": "Ch16: Should you drink water throughout the day?",
+                "options": [
+                    "False",
+                    "True"
+                ],
+                "correct": 1
             },
             {
                 "topic": "Chronic",
@@ -8030,58 +8030,58 @@ const healthQuestions = {
                 "emoji": "🩺📋",
                 "question": "Chronic Diseases question 10?",
                 "options": [
-                    "Option B",
-                    "Option A"
+                    "Option A",
+                    "Option B"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Chronic",
                 "emoji": "🩺📋",
                 "question": "Ch16: What is the recommended weekly amount of moderate exercise?",
                 "options": [
-                    "30 minutes",
                     "150 minutes",
-                    "300 minutes",
-                    "500 minutes"
-                ],
-                "correct": 1
-            },
-            {
-                "topic": "Chronic",
-                "emoji": "🩺📋",
-                "question": "Which organ filters toxins from blood generally?",
-                "options": [
-                    "Heart",
-                    "Liver",
-                    "Stomach",
-                    "Lungs"
+                    "30 minutes",
+                    "500 minutes",
+                    "300 minutes"
                 ],
                 "correct": 0
             },
             {
                 "topic": "Chronic",
                 "emoji": "🩺📋",
-                "question": "Ch16: What type of fat should be limited in a healthy diet?",
+                "question": "Which organ filters toxins from blood generally?",
                 "options": [
-                    "Monounsaturated",
-                    "Polyunsaturated",
-                    "Saturated",
-                    "Omega-3"
+                    "Stomach",
+                    "Heart",
+                    "Liver",
+                    "Lungs"
                 ],
                 "correct": 1
             },
             {
                 "topic": "Chronic",
                 "emoji": "🩺📋",
+                "question": "Ch16: What type of fat should be limited in a healthy diet?",
+                "options": [
+                    "Omega-3",
+                    "Monounsaturated",
+                    "Saturated",
+                    "Polyunsaturated"
+                ],
+                "correct": 3
+            },
+            {
+                "topic": "Chronic",
+                "emoji": "🩺📋",
                 "question": "Would you agree that which vitamin is important for immune function?",
                 "options": [
-                    "Vitamin K",
                     "Vitamin C",
-                    "Vitamin A",
-                    "Vitamin E"
+                    "Vitamin K",
+                    "Vitamin E",
+                    "Vitamin A"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Chronic",
@@ -8100,46 +8100,46 @@ const healthQuestions = {
                 "emoji": "🩺📋",
                 "question": "Ch16: Which macronutrient is the body's primary energy source?",
                 "options": [
-                    "Proteins",
                     "Vitamins",
+                    "Proteins",
                     "Carbohydrates",
                     "Minerals"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Chronic",
                 "emoji": "🩺📋",
                 "question": "Ch16: What mineral is essential for healthy bones and teeth?",
                 "options": [
-                    "Iron",
-                    "Zinc",
+                    "Sodium",
                     "Calcium",
-                    "Sodium"
+                    "Zinc",
+                    "Iron"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Chronic",
                 "emoji": "🩺📋",
                 "question": "Ch16: Which type of exercise strengthens the heart?",
                 "options": [
-                    "Weight lifting",
                     "Aerobic exercise",
                     "Stretching",
+                    "Weight lifting",
                     "Balance training"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Chronic",
                 "emoji": "🩺📋",
                 "question": "Ch16: What is the recommended daily water intake for most adults?",
                 "options": [
-                    "2-3 liters",
+                    "10 liters",
                     "5-6 liters",
                     "0.5-1 liter",
-                    "10 liters"
+                    "2-3 liters"
                 ],
                 "correct": 1
             }
@@ -8151,8 +8151,8 @@ const healthQuestions = {
                 "question": "Chronic Diseases advanced question 10?",
                 "options": [
                     "B",
-                    "C",
-                    "A"
+                    "A",
+                    "C"
                 ],
                 "correct": 0
             },
@@ -8161,36 +8161,36 @@ const healthQuestions = {
                 "emoji": "🩺📋",
                 "question": "Is it correct that which vitamin is essential for night vision?",
                 "options": [
-                    "Vitamin A",
-                    "Vitamin B",
                     "Vitamin C",
-                    "Vitamin D"
+                    "Vitamin A",
+                    "Vitamin D",
+                    "Vitamin B"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Chronic",
                 "emoji": "🩺📋",
                 "question": "Ch16: What is normal body temperature in Celsius?",
                 "options": [
-                    "35°C",
-                    "37°C",
+                    "40°C",
                     "39°C",
-                    "40°C"
+                    "35°C",
+                    "37°C"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Chronic",
                 "emoji": "🩺📋",
                 "question": "Which organs filter blood to produce urine generally?",
                 "options": [
-                    "Liver",
                     "Kidneys",
-                    "Bladder",
-                    "Pancreas"
+                    "Pancreas",
+                    "Liver",
+                    "Bladder"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Chronic",
@@ -8198,32 +8198,32 @@ const healthQuestions = {
                 "question": "What can be the primary function of white blood cells?",
                 "options": [
                     "Carry oxygen",
-                    "Fight infections",
+                    "Regulate temperature",
                     "Clot blood",
-                    "Regulate temperature"
+                    "Fight infections"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Chronic",
                 "emoji": "🩺📋",
                 "question": "Would you agree that how many chambers does the human heart have?",
                 "options": [
-                    "Two",
-                    "Three",
                     "Four",
-                    "Five"
+                    "Five",
+                    "Two",
+                    "Three"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Chronic",
                 "emoji": "🩺📋",
                 "question": "Is approximately what percentage of the human body water in your opinion?",
                 "options": [
-                    "30-40%",
-                    "50-60%",
                     "60-70%",
+                    "50-60%",
+                    "30-40%",
                     "80-90%"
                 ],
                 "correct": 1
@@ -8245,24 +8245,24 @@ const healthQuestions = {
                 "emoji": "🩺📋",
                 "question": "Ch16: What is the normal resting heart rate range for adults?",
                 "options": [
+                    "140-160 bpm",
                     "40-50 bpm",
-                    "60-100 bpm",
                     "110-130 bpm",
-                    "140-160 bpm"
+                    "60-100 bpm"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Chronic",
                 "emoji": "🩺📋",
                 "question": "Ch16: Which hormone regulates blood sugar levels?",
                 "options": [
-                    "Insulin",
-                    "Adrenaline",
+                    "Melatonin",
                     "Cortisol",
-                    "Melatonin"
+                    "Adrenaline",
+                    "Insulin"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -8271,12 +8271,12 @@ const healthQuestions = {
                 "emoji": "🩺📋",
                 "question": "Chronic Diseases expert question 10?",
                 "options": [
-                    "B",
                     "C",
                     "D",
+                    "B",
                     "A"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Chronic",
@@ -8284,33 +8284,33 @@ const healthQuestions = {
                 "question": "Ch16: What is the medical term for nearsightedness?",
                 "options": [
                     "Hyperopia",
-                    "Myopia",
                     "Astigmatism",
-                    "Presbyopia"
+                    "Presbyopia",
+                    "Myopia"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Chronic",
                 "emoji": "🩺📋",
                 "question": "Is it correct that which gland regulates other endocrine glands?",
                 "options": [
-                    "Thyroid",
                     "Adrenal",
-                    "Pituitary",
-                    "Pineal"
+                    "Thyroid",
+                    "Pineal",
+                    "Pituitary"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Chronic",
                 "emoji": "🩺📋",
                 "question": "Ch16: What is the largest bone in the human body?",
                 "options": [
-                    "Tibia",
+                    "Fibula",
                     "Femur",
                     "Humerus",
-                    "Fibula"
+                    "Tibia"
                 ],
                 "correct": 1
             },
@@ -8319,72 +8319,72 @@ const healthQuestions = {
                 "emoji": "🩺📋",
                 "question": "Which blood type is the universal donor generally?",
                 "options": [
-                    "A",
-                    "B",
+                    "O",
                     "AB",
-                    "O"
+                    "A",
+                    "B"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Chronic",
                 "emoji": "🩺📋",
                 "question": "What can be the medical term for the voice box?",
                 "options": [
-                    "Pharynx",
                     "Larynx",
+                    "Pharynx",
                     "Trachea",
                     "Esophagus"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Chronic",
                 "emoji": "🩺📋",
                 "question": "Would you agree that which vitamin deficiency causes scurvy?",
                 "options": [
-                    "Vitamin A",
                     "Vitamin B",
+                    "Vitamin A",
                     "Vitamin C",
                     "Vitamin D"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Chronic",
                 "emoji": "🩺📋",
                 "question": "What is the primary role of the lymphatic system in your opinion?",
                 "options": [
-                    "Digestion",
+                    "Respiration",
                     "Circulation",
                     "Immunity",
-                    "Respiration"
+                    "Digestion"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Chronic",
                 "emoji": "🩺📋",
                 "question": "Ch16: Which organ produces insulin in the body?",
                 "options": [
+                    "Pancreas",
                     "Liver",
                     "Kidney",
-                    "Pancreas",
                     "Thyroid"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Chronic",
                 "emoji": "🩺📋",
                 "question": "Ch16: What is the medical term for high blood pressure?",
                 "options": [
-                    "Hypotension",
-                    "Hypertension",
+                    "Hyperthyroidism",
                     "Hyperglycemia",
-                    "Hyperthyroidism"
+                    "Hypotension",
+                    "Hypertension"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "extreme": [
@@ -8467,30 +8467,30 @@ const healthQuestions = {
                 "emoji": "🦠🌡️",
                 "question": "Ch17: Is sunscreen important for skin protection?",
                 "options": [
-                    "True",
-                    "False"
-                ],
-                "correct": 1
-            },
-            {
-                "topic": "Infectious",
-                "emoji": "🦠🌡️",
-                "question": "Ch17: Does exercise help strengthen muscles?",
-                "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
                 "correct": 0
             },
             {
                 "topic": "Infectious",
                 "emoji": "🦠🌡️",
-                "question": "Is it correct that are fruits and vegetables part of a healthy diet?",
+                "question": "Ch17: Does exercise help strengthen muscles?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
                 "correct": 1
+            },
+            {
+                "topic": "Infectious",
+                "emoji": "🦠🌡️",
+                "question": "Is it correct that are fruits and vegetables part of a healthy diet?",
+                "options": [
+                    "False",
+                    "True"
+                ],
+                "correct": 0
             },
             {
                 "topic": "Infectious",
@@ -8517,10 +8517,10 @@ const healthQuestions = {
                 "emoji": "🦠🌡️",
                 "question": "Ch17: Does adequate sleep improve overall health?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Infectious",
@@ -8559,22 +8559,22 @@ const healthQuestions = {
                 "emoji": "🦠🌡️",
                 "question": "Infectious Diseases question 10?",
                 "options": [
-                    "Option A",
-                    "Option B"
+                    "Option B",
+                    "Option A"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Infectious",
                 "emoji": "🦠🌡️",
                 "question": "Ch17: What is the recommended weekly amount of moderate exercise?",
                 "options": [
+                    "500 minutes",
                     "30 minutes",
                     "150 minutes",
-                    "300 minutes",
-                    "500 minutes"
+                    "300 minutes"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Infectious",
@@ -8582,9 +8582,9 @@ const healthQuestions = {
                 "question": "Ch17: Which organ filters toxins from blood?",
                 "options": [
                     "Heart",
-                    "Liver",
                     "Stomach",
-                    "Lungs"
+                    "Lungs",
+                    "Liver"
                 ],
                 "correct": 0
             },
@@ -8594,11 +8594,11 @@ const healthQuestions = {
                 "question": "Ch17: What type of fat should be limited in a healthy diet?",
                 "options": [
                     "Monounsaturated",
-                    "Polyunsaturated",
                     "Saturated",
+                    "Polyunsaturated",
                     "Omega-3"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Infectious",
@@ -8606,71 +8606,71 @@ const healthQuestions = {
                 "question": "Is it correct that which vitamin is important for immune function?",
                 "options": [
                     "Vitamin K",
-                    "Vitamin C",
                     "Vitamin A",
-                    "Vitamin E"
+                    "Vitamin E",
+                    "Vitamin C"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Infectious",
                 "emoji": "🦠🌡️",
                 "question": "Ch17: How many hours of sleep do most adults need per night?",
                 "options": [
-                    "4-5 hours",
                     "7-9 hours",
-                    "10-12 hours",
-                    "3-4 hours"
+                    "4-5 hours",
+                    "3-4 hours",
+                    "10-12 hours"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Infectious",
                 "emoji": "🦠🌡️",
                 "question": "Which macronutrient is the body's primary energy source generally?",
                 "options": [
-                    "Proteins",
-                    "Vitamins",
+                    "Minerals",
                     "Carbohydrates",
-                    "Minerals"
+                    "Vitamins",
+                    "Proteins"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Infectious",
                 "emoji": "🦠🌡️",
                 "question": "What mineral can be essential for healthy bones and teeth?",
                 "options": [
-                    "Iron",
                     "Zinc",
+                    "Iron",
                     "Calcium",
                     "Sodium"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Infectious",
                 "emoji": "🦠🌡️",
                 "question": "Would you agree that which type of exercise strengthens the heart?",
                 "options": [
-                    "Weight lifting",
-                    "Aerobic exercise",
+                    "Balance training",
                     "Stretching",
-                    "Balance training"
+                    "Weight lifting",
+                    "Aerobic exercise"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Infectious",
                 "emoji": "🦠🌡️",
                 "question": "What is the recommended daily water intake for most adults in your opinion?",
                 "options": [
-                    "2-3 liters",
-                    "5-6 liters",
                     "0.5-1 liter",
-                    "10 liters"
+                    "10 liters",
+                    "2-3 liters",
+                    "5-6 liters"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "hard": [
@@ -8690,10 +8690,10 @@ const healthQuestions = {
                 "emoji": "🦠🌡️",
                 "question": "Ch17: Which vitamin is essential for night vision?",
                 "options": [
-                    "Vitamin A",
+                    "Vitamin D",
                     "Vitamin B",
-                    "Vitamin C",
-                    "Vitamin D"
+                    "Vitamin A",
+                    "Vitamin C"
                 ],
                 "correct": 1
             },
@@ -8702,96 +8702,96 @@ const healthQuestions = {
                 "emoji": "🦠🌡️",
                 "question": "Ch17: What is normal body temperature in Celsius?",
                 "options": [
-                    "35°C",
+                    "40°C",
                     "37°C",
                     "39°C",
-                    "40°C"
+                    "35°C"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Infectious",
                 "emoji": "🦠🌡️",
                 "question": "Ch17: Which organs filter blood to produce urine?",
                 "options": [
-                    "Liver",
-                    "Kidneys",
+                    "Pancreas",
                     "Bladder",
-                    "Pancreas"
+                    "Kidneys",
+                    "Liver"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Infectious",
                 "emoji": "🦠🌡️",
                 "question": "Ch17: What is the primary function of white blood cells?",
                 "options": [
-                    "Carry oxygen",
-                    "Fight infections",
                     "Clot blood",
-                    "Regulate temperature"
+                    "Regulate temperature",
+                    "Carry oxygen",
+                    "Fight infections"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Infectious",
                 "emoji": "🦠🌡️",
                 "question": "Is it correct that how many chambers does the human heart have?",
                 "options": [
-                    "Two",
-                    "Three",
                     "Four",
-                    "Five"
+                    "Five",
+                    "Two",
+                    "Three"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Infectious",
                 "emoji": "🦠🌡️",
                 "question": "Ch17: Is approximately what percentage of the human body water?",
                 "options": [
-                    "30-40%",
                     "50-60%",
-                    "60-70%",
-                    "80-90%"
+                    "80-90%",
+                    "30-40%",
+                    "60-70%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Infectious",
                 "emoji": "🦠🌡️",
                 "question": "Which type of cholesterol is considered beneficial generally?",
                 "options": [
-                    "LDL",
                     "HDL",
+                    "Triglycerides",
                     "VLDL",
-                    "Triglycerides"
+                    "LDL"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Infectious",
                 "emoji": "🦠🌡️",
                 "question": "What can be the normal resting heart rate range for adults?",
                 "options": [
-                    "40-50 bpm",
-                    "60-100 bpm",
                     "110-130 bpm",
-                    "140-160 bpm"
+                    "60-100 bpm",
+                    "140-160 bpm",
+                    "40-50 bpm"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Infectious",
                 "emoji": "🦠🌡️",
                 "question": "Would you agree that which hormone regulates blood sugar levels?",
                 "options": [
-                    "Insulin",
                     "Adrenaline",
+                    "Insulin",
                     "Cortisol",
                     "Melatonin"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -8801,9 +8801,9 @@ const healthQuestions = {
                 "question": "Infectious Diseases expert question 10?",
                 "options": [
                     "A",
-                    "B",
                     "C",
-                    "D"
+                    "D",
+                    "B"
                 ],
                 "correct": 0
             },
@@ -8812,46 +8812,46 @@ const healthQuestions = {
                 "emoji": "🦠🌡️",
                 "question": "What is the medical term for nearsightedness in your opinion?",
                 "options": [
+                    "Presbyopia",
                     "Hyperopia",
-                    "Myopia",
                     "Astigmatism",
-                    "Presbyopia"
+                    "Myopia"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Infectious",
                 "emoji": "🦠🌡️",
                 "question": "Ch17: Which gland regulates other endocrine glands?",
                 "options": [
-                    "Thyroid",
                     "Adrenal",
+                    "Pineal",
                     "Pituitary",
-                    "Pineal"
+                    "Thyroid"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Infectious",
                 "emoji": "🦠🌡️",
                 "question": "Ch17: What is the largest bone in the human body?",
                 "options": [
+                    "Fibula",
                     "Tibia",
                     "Femur",
-                    "Humerus",
-                    "Fibula"
+                    "Humerus"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Infectious",
                 "emoji": "🦠🌡️",
                 "question": "Ch17: Which blood type is the universal donor?",
                 "options": [
-                    "A",
-                    "B",
                     "AB",
-                    "O"
+                    "B",
+                    "O",
+                    "A"
                 ],
                 "correct": 1
             },
@@ -8860,57 +8860,57 @@ const healthQuestions = {
                 "emoji": "🦠🌡️",
                 "question": "Ch17: What is the medical term for the voice box?",
                 "options": [
-                    "Pharynx",
                     "Larynx",
+                    "Esophagus",
                     "Trachea",
-                    "Esophagus"
+                    "Pharynx"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Infectious",
                 "emoji": "🦠🌡️",
                 "question": "Is it correct that which vitamin deficiency causes scurvy?",
                 "options": [
+                    "Vitamin D",
                     "Vitamin A",
-                    "Vitamin B",
                     "Vitamin C",
-                    "Vitamin D"
+                    "Vitamin B"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Infectious",
                 "emoji": "🦠🌡️",
                 "question": "Ch17: What is the primary role of the lymphatic system?",
                 "options": [
-                    "Digestion",
                     "Circulation",
                     "Immunity",
-                    "Respiration"
+                    "Respiration",
+                    "Digestion"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Infectious",
                 "emoji": "🦠🌡️",
                 "question": "Which organ produces insulin in the body generally?",
                 "options": [
-                    "Liver",
-                    "Kidney",
                     "Pancreas",
+                    "Kidney",
+                    "Liver",
                     "Thyroid"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Infectious",
                 "emoji": "🦠🌡️",
                 "question": "What can be the medical term for high blood pressure?",
                 "options": [
-                    "Hypotension",
-                    "Hypertension",
                     "Hyperglycemia",
+                    "Hypertension",
+                    "Hypotension",
                     "Hyperthyroidism"
                 ],
                 "correct": 1
@@ -8986,10 +8986,10 @@ const healthQuestions = {
                 "emoji": "🏥🩺",
                 "question": "Is healthcare Systems topic 10?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Healthcare",
@@ -9006,20 +9006,20 @@ const healthQuestions = {
                 "emoji": "🏥🩺",
                 "question": "Does exercise help strengthen muscles in your opinion?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Healthcare",
                 "emoji": "🏥🩺",
                 "question": "Ch18: Are fruits and vegetables part of a healthy diet?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Healthcare",
@@ -9036,10 +9036,10 @@ const healthQuestions = {
                 "emoji": "🏥🩺",
                 "question": "Ch18: Is smoking harmful to lung health?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Healthcare",
@@ -9066,10 +9066,10 @@ const healthQuestions = {
                 "emoji": "🏥🩺",
                 "question": "Ch18: Is physical activity beneficial for mental health?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Healthcare",
@@ -9099,23 +9099,23 @@ const healthQuestions = {
                 "question": "What can be the recommended weekly amount of moderate exercise?",
                 "options": [
                     "30 minutes",
-                    "150 minutes",
                     "300 minutes",
-                    "500 minutes"
+                    "500 minutes",
+                    "150 minutes"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Healthcare",
                 "emoji": "🏥🩺",
                 "question": "Would you agree that which organ filters toxins from blood?",
                 "options": [
-                    "Heart",
-                    "Liver",
                     "Stomach",
+                    "Liver",
+                    "Heart",
                     "Lungs"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Healthcare",
@@ -9123,23 +9123,23 @@ const healthQuestions = {
                 "question": "What type of fat should be limited in a healthy diet in your opinion?",
                 "options": [
                     "Monounsaturated",
+                    "Omega-3",
                     "Polyunsaturated",
-                    "Saturated",
-                    "Omega-3"
+                    "Saturated"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Healthcare",
                 "emoji": "🏥🩺",
                 "question": "Ch18: Which vitamin is important for immune function?",
                 "options": [
-                    "Vitamin K",
                     "Vitamin C",
-                    "Vitamin A",
-                    "Vitamin E"
+                    "Vitamin E",
+                    "Vitamin K",
+                    "Vitamin A"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Healthcare",
@@ -9148,8 +9148,8 @@ const healthQuestions = {
                 "options": [
                     "4-5 hours",
                     "7-9 hours",
-                    "10-12 hours",
-                    "3-4 hours"
+                    "3-4 hours",
+                    "10-12 hours"
                 ],
                 "correct": 0
             },
@@ -9158,10 +9158,10 @@ const healthQuestions = {
                 "emoji": "🏥🩺",
                 "question": "Ch18: Which macronutrient is the body's primary energy source?",
                 "options": [
-                    "Proteins",
-                    "Vitamins",
                     "Carbohydrates",
-                    "Minerals"
+                    "Vitamins",
+                    "Minerals",
+                    "Proteins"
                 ],
                 "correct": 1
             },
@@ -9170,36 +9170,36 @@ const healthQuestions = {
                 "emoji": "🏥🩺",
                 "question": "Ch18: What mineral is essential for healthy bones and teeth?",
                 "options": [
-                    "Iron",
-                    "Zinc",
                     "Calcium",
-                    "Sodium"
+                    "Zinc",
+                    "Sodium",
+                    "Iron"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Healthcare",
                 "emoji": "🏥🩺",
                 "question": "Is it correct that which type of exercise strengthens the heart?",
                 "options": [
-                    "Weight lifting",
-                    "Aerobic exercise",
+                    "Balance training",
                     "Stretching",
-                    "Balance training"
+                    "Weight lifting",
+                    "Aerobic exercise"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Healthcare",
                 "emoji": "🏥🩺",
                 "question": "Ch18: What is the recommended daily water intake for most adults?",
                 "options": [
-                    "2-3 liters",
                     "5-6 liters",
+                    "2-3 liters",
                     "0.5-1 liter",
                     "10 liters"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -9208,21 +9208,21 @@ const healthQuestions = {
                 "emoji": "🏥🩺",
                 "question": "Healthcare Systems advanced question 10?",
                 "options": [
-                    "B",
                     "A",
+                    "B",
                     "C"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Healthcare",
                 "emoji": "🏥🩺",
                 "question": "Which vitamin is essential for night vision generally?",
                 "options": [
-                    "Vitamin A",
+                    "Vitamin D",
                     "Vitamin B",
-                    "Vitamin C",
-                    "Vitamin D"
+                    "Vitamin A",
+                    "Vitamin C"
                 ],
                 "correct": 1
             },
@@ -9231,12 +9231,12 @@ const healthQuestions = {
                 "emoji": "🏥🩺",
                 "question": "What can be normal body temperature in Celsius?",
                 "options": [
+                    "39°C",
                     "35°C",
                     "37°C",
-                    "39°C",
                     "40°C"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Healthcare",
@@ -9244,83 +9244,83 @@ const healthQuestions = {
                 "question": "Would you agree that which organs filter blood to produce urine?",
                 "options": [
                     "Liver",
-                    "Kidneys",
+                    "Pancreas",
                     "Bladder",
-                    "Pancreas"
+                    "Kidneys"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Healthcare",
                 "emoji": "🏥🩺",
                 "question": "What is the primary function of white blood cells in your opinion?",
                 "options": [
-                    "Carry oxygen",
-                    "Fight infections",
+                    "Regulate temperature",
                     "Clot blood",
-                    "Regulate temperature"
+                    "Fight infections",
+                    "Carry oxygen"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Healthcare",
                 "emoji": "🏥🩺",
                 "question": "Ch18: How many chambers does the human heart have?",
                 "options": [
-                    "Two",
                     "Three",
+                    "Five",
                     "Four",
-                    "Five"
+                    "Two"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Healthcare",
                 "emoji": "🏥🩺",
                 "question": "Ch18: Is approximately what percentage of the human body water?",
                 "options": [
-                    "30-40%",
-                    "50-60%",
                     "60-70%",
-                    "80-90%"
+                    "80-90%",
+                    "30-40%",
+                    "50-60%"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Healthcare",
                 "emoji": "🏥🩺",
                 "question": "Ch18: Which type of cholesterol is considered beneficial?",
                 "options": [
-                    "LDL",
                     "HDL",
                     "VLDL",
-                    "Triglycerides"
+                    "Triglycerides",
+                    "LDL"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Healthcare",
                 "emoji": "🏥🩺",
                 "question": "Ch18: What is the normal resting heart rate range for adults?",
                 "options": [
-                    "40-50 bpm",
                     "60-100 bpm",
                     "110-130 bpm",
+                    "40-50 bpm",
                     "140-160 bpm"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Healthcare",
                 "emoji": "🏥🩺",
                 "question": "Is it correct that which hormone regulates blood sugar levels?",
                 "options": [
-                    "Insulin",
                     "Adrenaline",
                     "Cortisol",
-                    "Melatonin"
+                    "Melatonin",
+                    "Insulin"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -9329,22 +9329,22 @@ const healthQuestions = {
                 "emoji": "🏥🩺",
                 "question": "Healthcare Systems expert question 10?",
                 "options": [
+                    "C",
                     "A",
-                    "B",
                     "D",
-                    "C"
+                    "B"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Healthcare",
                 "emoji": "🏥🩺",
                 "question": "Ch18: What is the medical term for nearsightedness?",
                 "options": [
-                    "Hyperopia",
+                    "Presbyopia",
                     "Myopia",
-                    "Astigmatism",
-                    "Presbyopia"
+                    "Hyperopia",
+                    "Astigmatism"
                 ],
                 "correct": 1
             },
@@ -9353,22 +9353,22 @@ const healthQuestions = {
                 "emoji": "🏥🩺",
                 "question": "Do you think which gland regulates other endocrine glands generally?",
                 "options": [
-                    "Thyroid",
-                    "Adrenal",
                     "Pituitary",
+                    "Adrenal",
+                    "Thyroid",
                     "Pineal"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Healthcare",
                 "emoji": "🏥🩺",
                 "question": "Do you think what can be the largest bone in the human body?",
                 "options": [
-                    "Tibia",
+                    "Fibula",
                     "Femur",
-                    "Humerus",
-                    "Fibula"
+                    "Tibia",
+                    "Humerus"
                 ],
                 "correct": 1
             },
@@ -9378,69 +9378,69 @@ const healthQuestions = {
                 "question": "Do you think which blood type is the universal donor?",
                 "options": [
                     "A",
-                    "B",
+                    "O",
                     "AB",
-                    "O"
+                    "B"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Healthcare",
                 "emoji": "🏥🩺",
                 "question": "Do you think what is the medical term for the voice box in your opinion?",
                 "options": [
-                    "Pharynx",
-                    "Larynx",
                     "Trachea",
-                    "Esophagus"
-                ],
-                "correct": 0
-            },
-            {
-                "topic": "Healthcare",
-                "emoji": "🏥🩺",
-                "question": "Ch18: Which vitamin deficiency causes scurvy?",
-                "options": [
-                    "Vitamin A",
-                    "Vitamin B",
-                    "Vitamin C",
-                    "Vitamin D"
+                    "Pharynx",
+                    "Esophagus",
+                    "Larynx"
                 ],
                 "correct": 1
             },
             {
                 "topic": "Healthcare",
                 "emoji": "🏥🩺",
-                "question": "Ch18: What is the primary role of the lymphatic system?",
+                "question": "Ch18: Which vitamin deficiency causes scurvy?",
                 "options": [
-                    "Digestion",
-                    "Circulation",
-                    "Immunity",
-                    "Respiration"
+                    "Vitamin B",
+                    "Vitamin C",
+                    "Vitamin A",
+                    "Vitamin D"
                 ],
                 "correct": 0
+            },
+            {
+                "topic": "Healthcare",
+                "emoji": "🏥🩺",
+                "question": "Ch18: What is the primary role of the lymphatic system?",
+                "options": [
+                    "Circulation",
+                    "Immunity",
+                    "Respiration",
+                    "Digestion"
+                ],
+                "correct": 3
             },
             {
                 "topic": "Healthcare",
                 "emoji": "🏥🩺",
                 "question": "Ch18: Which organ produces insulin in the body?",
                 "options": [
+                    "Pancreas",
                     "Liver",
                     "Kidney",
-                    "Pancreas",
                     "Thyroid"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Healthcare",
                 "emoji": "🏥🩺",
                 "question": "Ch18: What is the medical term for high blood pressure?",
                 "options": [
-                    "Hypotension",
-                    "Hypertension",
                     "Hyperglycemia",
-                    "Hyperthyroidism"
+                    "Hypertension",
+                    "Hyperthyroidism",
+                    "Hypotension"
                 ],
                 "correct": 1
             }
@@ -9515,20 +9515,20 @@ const healthQuestions = {
                 "emoji": "🌿💊",
                 "question": "Is alternative and Complementary Medicine topic 10?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Alternative",
                 "emoji": "🌿💊",
                 "question": "Do you think is sunscreen important for skin protection?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Alternative",
@@ -9545,10 +9545,10 @@ const healthQuestions = {
                 "emoji": "🌿💊",
                 "question": "Do you think fruits and vegetables part of a healthy diet generally?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Alternative",
@@ -9575,40 +9575,40 @@ const healthQuestions = {
                 "emoji": "🌿💊",
                 "question": "Do you think adequate sleep improve overall health in your opinion?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Alternative",
                 "emoji": "🌿💊",
                 "question": "Ch19: Should you drink water throughout the day?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Alternative",
                 "emoji": "🌿💊",
                 "question": "Ch19: Is physical activity beneficial for mental health?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Alternative",
                 "emoji": "🌿💊",
                 "question": "Ch19: Does vitamin D support bone health?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -9617,46 +9617,46 @@ const healthQuestions = {
                 "emoji": "📚✨",
                 "question": "Ch19: Which vitamin is primarily obtained from sunlight exposure?",
                 "options": [
-                    "Vitamin A",
-                    "Vitamin D",
                     "Vitamin C",
-                    "Vitamin B12"
+                    "Vitamin B12",
+                    "Vitamin A",
+                    "Vitamin D"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "General",
                 "emoji": "📚✨",
                 "question": "Do you think what is the recommended weekly amount of moderate exercise in most cases?",
                 "options": [
-                    "30 minutes",
-                    "150 minutes",
+                    "500 minutes",
                     "300 minutes",
-                    "500 minutes"
+                    "150 minutes",
+                    "30 minutes"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "General",
                 "emoji": "📚✨",
                 "question": "Ch19: Which organ filters toxins from blood?",
                 "options": [
-                    "Heart",
-                    "Liver",
+                    "Lungs",
                     "Stomach",
-                    "Lungs"
+                    "Liver",
+                    "Heart"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "General",
                 "emoji": "📚✨",
                 "question": "Would you say what type of fat should be limited in a healthy diet generally?",
                 "options": [
-                    "Monounsaturated",
+                    "Omega-3",
                     "Polyunsaturated",
-                    "Saturated",
-                    "Omega-3"
+                    "Monounsaturated",
+                    "Saturated"
                 ],
                 "correct": 1
             },
@@ -9667,8 +9667,8 @@ const healthQuestions = {
                 "options": [
                     "Vitamin K",
                     "Vitamin C",
-                    "Vitamin A",
-                    "Vitamin E"
+                    "Vitamin E",
+                    "Vitamin A"
                 ],
                 "correct": 1
             },
@@ -9678,8 +9678,8 @@ const healthQuestions = {
                 "question": "how many hours of sleep do most adults need per night typically?",
                 "options": [
                     "4-5 hours",
-                    "7-9 hours",
                     "10-12 hours",
+                    "7-9 hours",
                     "3-4 hours"
                 ],
                 "correct": 0
@@ -9689,12 +9689,12 @@ const healthQuestions = {
                 "emoji": "📚✨",
                 "question": "Would you say which macronutrient is the body's primary energy source in your opinion?",
                 "options": [
-                    "Proteins",
                     "Vitamins",
+                    "Proteins",
                     "Carbohydrates",
                     "Minerals"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "General",
@@ -9713,24 +9713,24 @@ const healthQuestions = {
                 "emoji": "📚✨",
                 "question": "Ch19: Which type of exercise strengthens the heart?",
                 "options": [
-                    "Weight lifting",
-                    "Aerobic exercise",
                     "Stretching",
-                    "Balance training"
+                    "Aerobic exercise",
+                    "Balance training",
+                    "Weight lifting"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "General",
                 "emoji": "📚✨",
                 "question": "Ch19: What is the recommended daily water intake for most adults?",
                 "options": [
+                    "10 liters",
                     "2-3 liters",
                     "5-6 liters",
-                    "0.5-1 liter",
-                    "10 liters"
+                    "0.5-1 liter"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "hard": [
@@ -9740,8 +9740,8 @@ const healthQuestions = {
                 "question": "Alternative and Complementary Medicine advanced question 10?",
                 "options": [
                     "B",
-                    "C",
-                    "A"
+                    "A",
+                    "C"
                 ],
                 "correct": 0
             },
@@ -9750,10 +9750,10 @@ const healthQuestions = {
                 "emoji": "🌿💊",
                 "question": "Ch19: Which vitamin is essential for night vision?",
                 "options": [
-                    "Vitamin A",
+                    "Vitamin D",
                     "Vitamin B",
-                    "Vitamin C",
-                    "Vitamin D"
+                    "Vitamin A",
+                    "Vitamin C"
                 ],
                 "correct": 1
             },
@@ -9762,36 +9762,36 @@ const healthQuestions = {
                 "emoji": "🌿💊",
                 "question": "Do you think what is normal body temperature in celsius in most cases?",
                 "options": [
-                    "35°C",
-                    "37°C",
                     "39°C",
-                    "40°C"
+                    "37°C",
+                    "40°C",
+                    "35°C"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Alternative",
                 "emoji": "🌿💊",
                 "question": "Ch19: Which organs filter blood to produce urine?",
                 "options": [
-                    "Liver",
                     "Kidneys",
                     "Bladder",
+                    "Liver",
                     "Pancreas"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Alternative",
                 "emoji": "🌿💊",
                 "question": "Would you say what is the primary function of white blood cells generally?",
                 "options": [
-                    "Carry oxygen",
-                    "Fight infections",
+                    "Regulate temperature",
                     "Clot blood",
-                    "Regulate temperature"
+                    "Carry oxygen",
+                    "Fight infections"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Alternative",
@@ -9799,8 +9799,8 @@ const healthQuestions = {
                 "question": "Ch19: How many chambers does the human heart have?",
                 "options": [
                     "Two",
-                    "Three",
                     "Four",
+                    "Three",
                     "Five"
                 ],
                 "correct": 0
@@ -9810,48 +9810,48 @@ const healthQuestions = {
                 "emoji": "🌿💊",
                 "question": "is approximately what percentage of the human body water typically?",
                 "options": [
-                    "30-40%",
                     "50-60%",
-                    "60-70%",
-                    "80-90%"
+                    "30-40%",
+                    "80-90%",
+                    "60-70%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Alternative",
                 "emoji": "🌿💊",
                 "question": "Would you say which type of cholesterol is considered beneficial in your opinion?",
                 "options": [
+                    "Triglycerides",
                     "LDL",
-                    "HDL",
                     "VLDL",
-                    "Triglycerides"
+                    "HDL"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Alternative",
                 "emoji": "🌿💊",
                 "question": "Ch19: What is the normal resting heart rate range for adults?",
                 "options": [
-                    "40-50 bpm",
+                    "140-160 bpm",
                     "60-100 bpm",
                     "110-130 bpm",
-                    "140-160 bpm"
+                    "40-50 bpm"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Alternative",
                 "emoji": "🌿💊",
                 "question": "Ch19: Which hormone regulates blood sugar levels?",
                 "options": [
-                    "Insulin",
-                    "Adrenaline",
                     "Cortisol",
-                    "Melatonin"
+                    "Melatonin",
+                    "Insulin",
+                    "Adrenaline"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "expert": [
@@ -9860,22 +9860,22 @@ const healthQuestions = {
                 "emoji": "🌿💊",
                 "question": "Alternative and Complementary Medicine expert question 10?",
                 "options": [
-                    "A",
-                    "D",
                     "C",
-                    "B"
+                    "D",
+                    "B",
+                    "A"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Alternative",
                 "emoji": "🌿💊",
                 "question": "Ch19: What is the medical term for nearsightedness?",
                 "options": [
-                    "Hyperopia",
+                    "Presbyopia",
                     "Myopia",
-                    "Astigmatism",
-                    "Presbyopia"
+                    "Hyperopia",
+                    "Astigmatism"
                 ],
                 "correct": 1
             },
@@ -9884,22 +9884,22 @@ const healthQuestions = {
                 "emoji": "🌿💊",
                 "question": "Ch19: Which gland regulates other endocrine glands?",
                 "options": [
-                    "Thyroid",
+                    "Pineal",
                     "Adrenal",
-                    "Pituitary",
-                    "Pineal"
+                    "Thyroid",
+                    "Pituitary"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Alternative",
                 "emoji": "🌿💊",
                 "question": "Would you say what is the largest bone in the human body?",
                 "options": [
-                    "Tibia",
+                    "Fibula",
                     "Femur",
                     "Humerus",
-                    "Fibula"
+                    "Tibia"
                 ],
                 "correct": 1
             },
@@ -9909,33 +9909,33 @@ const healthQuestions = {
                 "question": "Ch19: Which blood type is the universal donor?",
                 "options": [
                     "A",
-                    "B",
                     "AB",
+                    "B",
                     "O"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Alternative",
                 "emoji": "🌿💊",
                 "question": "Would you say what is the medical term for the voice box generally?",
                 "options": [
-                    "Pharynx",
                     "Larynx",
-                    "Trachea",
-                    "Esophagus"
+                    "Esophagus",
+                    "Pharynx",
+                    "Trachea"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Alternative",
                 "emoji": "🌿💊",
                 "question": "Ch19: Which vitamin deficiency causes scurvy?",
                 "options": [
-                    "Vitamin A",
+                    "Vitamin D",
                     "Vitamin B",
                     "Vitamin C",
-                    "Vitamin D"
+                    "Vitamin A"
                 ],
                 "correct": 1
             },
@@ -9945,9 +9945,9 @@ const healthQuestions = {
                 "question": "Would you say what is the primary role of the lymphatic system?",
                 "options": [
                     "Digestion",
-                    "Circulation",
                     "Immunity",
-                    "Respiration"
+                    "Respiration",
+                    "Circulation"
                 ],
                 "correct": 0
             },
@@ -9956,24 +9956,24 @@ const healthQuestions = {
                 "emoji": "🌿💊",
                 "question": "Would you say which organ produces insulin in the body in your opinion?",
                 "options": [
-                    "Liver",
-                    "Kidney",
                     "Pancreas",
+                    "Kidney",
+                    "Liver",
                     "Thyroid"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Alternative",
                 "emoji": "🌿💊",
                 "question": "Ch19: What is the medical term for high blood pressure?",
                 "options": [
-                    "Hypotension",
                     "Hypertension",
-                    "Hyperglycemia",
-                    "Hyperthyroidism"
+                    "Hypotension",
+                    "Hyperthyroidism",
+                    "Hyperglycemia"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "extreme": [
@@ -10056,30 +10056,30 @@ const healthQuestions = {
                 "emoji": "👴👵",
                 "question": "Ch20: Is sunscreen important for skin protection?",
                 "options": [
-                    "True",
-                    "False"
-                ],
-                "correct": 1
-            },
-            {
-                "topic": "Aging",
-                "emoji": "👴👵",
-                "question": "Ch20: Does exercise help strengthen muscles?",
-                "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
                 "correct": 0
             },
             {
                 "topic": "Aging",
                 "emoji": "👴👵",
-                "question": "Ch20: Are fruits and vegetables part of a healthy diet?",
+                "question": "Ch20: Does exercise help strengthen muscles?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
                 "correct": 1
+            },
+            {
+                "topic": "Aging",
+                "emoji": "👴👵",
+                "question": "Ch20: Are fruits and vegetables part of a healthy diet?",
+                "options": [
+                    "False",
+                    "True"
+                ],
+                "correct": 0
             },
             {
                 "topic": "Aging",
@@ -10096,10 +10096,10 @@ const healthQuestions = {
                 "emoji": "👴👵",
                 "question": "Ch20: Is smoking harmful to lung health?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Aging",
@@ -10136,10 +10136,10 @@ const healthQuestions = {
                 "emoji": "👴👵",
                 "question": "Would you say vitamin D support bone health in your opinion?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -10148,20 +10148,20 @@ const healthQuestions = {
                 "emoji": "👴👵",
                 "question": "Aging and Wellness question 10?",
                 "options": [
-                    "Option B",
-                    "Option A"
+                    "Option A",
+                    "Option B"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Aging",
                 "emoji": "👴👵",
                 "question": "Ch20: What is the recommended weekly amount of moderate exercise?",
                 "options": [
-                    "30 minutes",
+                    "500 minutes",
                     "150 minutes",
                     "300 minutes",
-                    "500 minutes"
+                    "30 minutes"
                 ],
                 "correct": 1
             },
@@ -10170,48 +10170,48 @@ const healthQuestions = {
                 "emoji": "👴👵",
                 "question": "Ch20: Which organ filters toxins from blood?",
                 "options": [
-                    "Heart",
-                    "Liver",
                     "Stomach",
-                    "Lungs"
+                    "Heart",
+                    "Lungs",
+                    "Liver"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Aging",
                 "emoji": "👴👵",
                 "question": "Ch20: What type of fat should be limited in a healthy diet?",
                 "options": [
-                    "Monounsaturated",
-                    "Polyunsaturated",
                     "Saturated",
-                    "Omega-3"
+                    "Omega-3",
+                    "Polyunsaturated",
+                    "Monounsaturated"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Aging",
                 "emoji": "👴👵",
                 "question": "Ch20: Which vitamin is important for immune function?",
                 "options": [
-                    "Vitamin K",
-                    "Vitamin C",
                     "Vitamin A",
-                    "Vitamin E"
+                    "Vitamin E",
+                    "Vitamin K",
+                    "Vitamin C"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Aging",
                 "emoji": "👴👵",
                 "question": "how many hours of sleep do most adults need per night in most cases?",
                 "options": [
-                    "4-5 hours",
-                    "7-9 hours",
                     "10-12 hours",
-                    "3-4 hours"
+                    "3-4 hours",
+                    "4-5 hours",
+                    "7-9 hours"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Aging",
@@ -10219,35 +10219,35 @@ const healthQuestions = {
                 "question": "Ch20: Which macronutrient is the body's primary energy source?",
                 "options": [
                     "Proteins",
-                    "Vitamins",
                     "Carbohydrates",
+                    "Vitamins",
                     "Minerals"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Aging",
                 "emoji": "👴👵",
                 "question": "What mineral is essential for healthy bones and teeth generally generally?",
                 "options": [
-                    "Iron",
+                    "Sodium",
                     "Zinc",
                     "Calcium",
-                    "Sodium"
+                    "Iron"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Aging",
                 "emoji": "👴👵",
                 "question": "Ch20: Which type of exercise strengthens the heart?",
                 "options": [
-                    "Weight lifting",
-                    "Aerobic exercise",
+                    "Balance training",
                     "Stretching",
-                    "Balance training"
+                    "Aerobic exercise",
+                    "Weight lifting"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Aging",
@@ -10255,11 +10255,11 @@ const healthQuestions = {
                 "question": "what is the recommended daily water intake for most adults in most cases?",
                 "options": [
                     "2-3 liters",
-                    "5-6 liters",
                     "0.5-1 liter",
-                    "10 liters"
+                    "10 liters",
+                    "5-6 liters"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "hard": [
@@ -10268,11 +10268,11 @@ const healthQuestions = {
                 "emoji": "👴👵",
                 "question": "Aging and Wellness advanced question 10?",
                 "options": [
-                    "A",
                     "C",
-                    "B"
+                    "B",
+                    "A"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Aging",
@@ -10280,59 +10280,59 @@ const healthQuestions = {
                 "question": "Which vitamin is essential for night vision in your opinion generally?",
                 "options": [
                     "Vitamin A",
-                    "Vitamin B",
                     "Vitamin C",
+                    "Vitamin B",
                     "Vitamin D"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Aging",
                 "emoji": "👴👵",
                 "question": "Ch20: What is normal body temperature in Celsius?",
                 "options": [
-                    "35°C",
                     "37°C",
-                    "39°C",
-                    "40°C"
+                    "35°C",
+                    "40°C",
+                    "39°C"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Aging",
                 "emoji": "👴👵",
                 "question": "Ch20: Which organs filter blood to produce urine?",
                 "options": [
+                    "Pancreas",
                     "Liver",
-                    "Kidneys",
                     "Bladder",
-                    "Pancreas"
+                    "Kidneys"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Aging",
                 "emoji": "👴👵",
                 "question": "Ch20: What is the primary function of white blood cells?",
                 "options": [
-                    "Carry oxygen",
                     "Fight infections",
+                    "Regulate temperature",
                     "Clot blood",
-                    "Regulate temperature"
+                    "Carry oxygen"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Aging",
                 "emoji": "👴👵",
                 "question": "Ch20: How many chambers does the human heart have?",
                 "options": [
+                    "Four",
                     "Two",
                     "Three",
-                    "Four",
                     "Five"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Aging",
@@ -10340,35 +10340,35 @@ const healthQuestions = {
                 "question": "is approximately what percentage of the human body water in most cases?",
                 "options": [
                     "30-40%",
-                    "50-60%",
                     "60-70%",
+                    "50-60%",
                     "80-90%"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Aging",
                 "emoji": "👴👵",
                 "question": "Ch20: Which type of cholesterol is considered beneficial?",
                 "options": [
-                    "LDL",
+                    "Triglycerides",
                     "HDL",
-                    "VLDL",
-                    "Triglycerides"
+                    "LDL",
+                    "VLDL"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Aging",
                 "emoji": "👴👵",
                 "question": "What is the normal resting heart rate range for adults generally generally?",
                 "options": [
-                    "40-50 bpm",
-                    "60-100 bpm",
+                    "140-160 bpm",
                     "110-130 bpm",
-                    "140-160 bpm"
+                    "60-100 bpm",
+                    "40-50 bpm"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Aging",
@@ -10376,11 +10376,11 @@ const healthQuestions = {
                 "question": "Ch20: Which hormone regulates blood sugar levels?",
                 "options": [
                     "Insulin",
-                    "Adrenaline",
                     "Cortisol",
-                    "Melatonin"
+                    "Melatonin",
+                    "Adrenaline"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "expert": [
@@ -10390,8 +10390,8 @@ const healthQuestions = {
                 "question": "Aging and Wellness expert question 10?",
                 "options": [
                     "B",
-                    "C",
                     "D",
+                    "C",
                     "A"
                 ],
                 "correct": 0
@@ -10401,12 +10401,12 @@ const healthQuestions = {
                 "emoji": "👴👵",
                 "question": "Would you say what is the medical term for nearsightedness?",
                 "options": [
-                    "Hyperopia",
-                    "Myopia",
                     "Astigmatism",
-                    "Presbyopia"
+                    "Presbyopia",
+                    "Myopia",
+                    "Hyperopia"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Aging",
@@ -10415,8 +10415,8 @@ const healthQuestions = {
                 "options": [
                     "Thyroid",
                     "Adrenal",
-                    "Pituitary",
-                    "Pineal"
+                    "Pineal",
+                    "Pituitary"
                 ],
                 "correct": 0
             },
@@ -10425,72 +10425,72 @@ const healthQuestions = {
                 "emoji": "👴👵",
                 "question": "Ch20: What is the largest bone in the human body?",
                 "options": [
+                    "Fibula",
                     "Tibia",
-                    "Femur",
                     "Humerus",
-                    "Fibula"
+                    "Femur"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Aging",
                 "emoji": "👴👵",
                 "question": "Ch20: Which blood type is the universal donor?",
                 "options": [
+                    "O",
                     "A",
-                    "B",
                     "AB",
-                    "O"
+                    "B"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Aging",
                 "emoji": "👴👵",
                 "question": "Ch20: What is the medical term for the voice box?",
                 "options": [
-                    "Pharynx",
-                    "Larynx",
+                    "Esophagus",
                     "Trachea",
-                    "Esophagus"
+                    "Larynx",
+                    "Pharynx"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Aging",
                 "emoji": "👴👵",
                 "question": "Ch20: Which vitamin deficiency causes scurvy?",
                 "options": [
-                    "Vitamin A",
-                    "Vitamin B",
                     "Vitamin C",
-                    "Vitamin D"
+                    "Vitamin D",
+                    "Vitamin B",
+                    "Vitamin A"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Aging",
                 "emoji": "👴👵",
                 "question": "Do you think what is the primary role of the lymphatic system in most cases?",
                 "options": [
-                    "Digestion",
                     "Circulation",
                     "Immunity",
-                    "Respiration"
+                    "Respiration",
+                    "Digestion"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Aging",
                 "emoji": "👴👵",
                 "question": "Ch20: Which organ produces insulin in the body?",
                 "options": [
-                    "Liver",
                     "Kidney",
+                    "Liver",
                     "Pancreas",
                     "Thyroid"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Aging",
@@ -10498,11 +10498,11 @@ const healthQuestions = {
                 "question": "Would you say what is the medical term for high blood pressure generally?",
                 "options": [
                     "Hypotension",
-                    "Hypertension",
                     "Hyperglycemia",
+                    "Hypertension",
                     "Hyperthyroidism"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [

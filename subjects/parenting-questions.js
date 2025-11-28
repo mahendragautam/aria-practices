@@ -36,20 +36,20 @@ const parentingQuestions = {
                 "emoji": "🎈🎂",
                 "question": "Is play important for learning?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "School Age",
                 "emoji": "📚📖",
                 "question": "Does reading help child development?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Newborn",
@@ -66,20 +66,20 @@ const parentingQuestions = {
                 "emoji": "🎨🖌️",
                 "question": "Is toddlers start speaking words?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Preschool",
                 "emoji": "🧩🎲",
                 "question": "Is preschoolers learn social skills?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "School Age",
@@ -96,10 +96,10 @@ const parentingQuestions = {
                 "emoji": "🏐🎾",
                 "question": "Is breastfeeding provides nutrition?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Toddler",
@@ -118,20 +118,20 @@ const parentingQuestions = {
                 "emoji": "🎮🕹️",
                 "question": "How many hours do newborns sleep?",
                 "options": [
-                    "8 hours",
-                    "16-17 hours"
+                    "16-17 hours",
+                    "8 hours"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Toddler",
                 "emoji": "📱💻",
                 "question": "At what age do toddlers typically walk?",
                 "options": [
-                    "12-15 months",
-                    "6 months"
+                    "6 months",
+                    "12-15 months"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Preschool",
@@ -148,40 +148,40 @@ const parentingQuestions = {
                 "emoji": "🍎🥤",
                 "question": "When does elementary school typically start?",
                 "options": [
-                    "Age 3",
-                    "Age 5-6"
+                    "Age 5-6",
+                    "Age 3"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Newborn",
                 "emoji": "🥗🍱",
                 "question": "What is tummy time?",
                 "options": [
-                    "Baby on stomach",
-                    "Feeding time"
+                    "Feeding time",
+                    "Baby on stomach"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Toddler",
                 "emoji": "😴🛌",
                 "question": "What is parallel play?",
                 "options": [
-                    "Playing alongside others",
-                    "Playing alone"
+                    "Playing alone",
+                    "Playing alongside others"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Preschool",
                 "emoji": "🛁🧼",
                 "question": "What skills do preschoolers develop?",
                 "options": [
-                    "Only reading",
-                    "Fine motor skills"
+                    "Fine motor skills",
+                    "Only reading"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "School Age",
@@ -198,20 +198,20 @@ const parentingQuestions = {
                 "emoji": "👞🥿",
                 "question": "How often should newborns eat?",
                 "options": [
-                    "Once daily",
-                    "Every 2-3 hours"
+                    "Every 2-3 hours",
+                    "Once daily"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Toddler",
                 "emoji": "🧦🧤",
                 "question": "What are tantrums?",
                 "options": [
-                    "Emotional outbursts",
-                    "Happy moments"
+                    "Happy moments",
+                    "Emotional outbursts"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -220,44 +220,44 @@ const parentingQuestions = {
                 "emoji": "🎵🎶",
                 "question": "What is the Moro reflex?",
                 "options": [
-                    "Crying reflex",
                     "Startle reflex",
+                    "Crying reflex",
                     "Sleeping pattern"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Toddler",
                 "emoji": "🎤🎧",
                 "question": "What is object permanence?",
                 "options": [
-                    "Sharing toys",
                     "Knowing objects exist when hidden",
+                    "Sharing toys",
                     "Walking skill"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Preschool",
                 "emoji": "📺📻",
                 "question": "What is theory of mind?",
                 "options": [
-                    "Math skills",
                     "Understanding others' thoughts",
+                    "Math skills",
                     "Physical growth"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "School Age",
                 "emoji": "🎬🍿",
                 "question": "What is concrete operational stage?",
                 "options": [
-                    "Teen stage",
                     "Logical thinking (7-11)",
+                    "Teen stage",
                     "Infant stage"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Newborn",
@@ -265,10 +265,10 @@ const parentingQuestions = {
                 "question": "What does the acronym SIDS stand for?",
                 "options": [
                     "Sleep disorder",
-                    "Growth issue",
-                    "Sudden Infant Death"
+                    "Sudden Infant Death",
+                    "Growth issue"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Toddler",
@@ -276,8 +276,8 @@ const parentingQuestions = {
                 "question": "What is telegraphic speech?",
                 "options": [
                     "Full sentences",
-                    "Two-word phrases",
-                    "Baby babbling"
+                    "Baby babbling",
+                    "Two-word phrases"
                 ],
                 "correct": 0
             },
@@ -286,9 +286,9 @@ const parentingQuestions = {
                 "emoji": "🏕️⛺",
                 "question": "What are gross motor skills?",
                 "options": [
-                    "Thinking skills",
+                    "Fine hand movements",
                     "Large muscle movements",
-                    "Fine hand movements"
+                    "Thinking skills"
                 ],
                 "correct": 1
             },
@@ -297,33 +297,33 @@ const parentingQuestions = {
                 "emoji": "🏖️🏝️",
                 "question": "What is growth mindset?",
                 "options": [
-                    "IQ level",
+                    "Fixed abilities",
                     "Belief in improvement",
-                    "Fixed abilities"
+                    "IQ level"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Newborn",
                 "emoji": "🎡🎢",
                 "question": "What does the acronym colostrum stand for?",
                 "options": [
-                    "First breast milk",
                     "Vitamin",
+                    "First breast milk",
                     "Baby food"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Toddler",
                 "emoji": "🎪🎭",
                 "question": "What is separation anxiety?",
                 "options": [
-                    "Fear of parent leaving",
                     "Fear of toys",
+                    "Fear of parent leaving",
                     "Fear of food"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -332,12 +332,12 @@ const parentingQuestions = {
                 "emoji": "👶🍼",
                 "question": "At what age do babies typically double birth weight?",
                 "options": [
-                    "2 years",
                     "1 year",
-                    "3 months",
-                    "5-6 months"
+                    "5-6 months",
+                    "2 years",
+                    "3 months"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Toddler",
@@ -345,35 +345,35 @@ const parentingQuestions = {
                 "question": "Are according to Piaget, what stage toddlers in?",
                 "options": [
                     "Concrete operational",
-                    "Preoperational",
                     "Sensorimotor",
-                    "Formal operational"
+                    "Formal operational",
+                    "Preoperational"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Preschool",
                 "emoji": "🎨📚",
                 "question": "What is scaffolding in learning?",
                 "options": [
-                    "Building blocks",
-                    "Support that's gradually removed",
                     "Punishment",
+                    "Support that's gradually removed",
+                    "Building blocks",
                     "Reward system"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "School Age",
                 "emoji": "📖🎒",
                 "question": "What is executive function?",
                 "options": [
+                    "Planning and self-control",
                     "Reading ability",
                     "Physical ability",
-                    "Planning and self-control",
                     "Social skill"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Newborn",
@@ -381,33 +381,33 @@ const parentingQuestions = {
                 "question": "How many sleep cycles do newborns have?",
                 "options": [
                     "4",
-                    "6",
+                    "2 (REM & Non-REM)",
                     "1",
-                    "2 (REM & Non-REM)"
+                    "6"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Toddler",
                 "emoji": "👧🗣️",
                 "question": "When should toddlers say 50 words?",
                 "options": [
-                    "6 months",
                     "4 years",
-                    "3 years",
-                    "18-24 months"
+                    "6 months",
+                    "18-24 months",
+                    "3 years"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Preschool",
                 "emoji": "🎨👫",
                 "question": "What is egocentrism in preschoolers?",
                 "options": [
-                    "Intelligence",
+                    "Seeing only own perspective",
                     "Sharing",
                     "Selfishness",
-                    "Seeing only own perspective"
+                    "Intelligence"
                 ],
                 "correct": 1
             },
@@ -428,24 +428,24 @@ const parentingQuestions = {
                 "emoji": "👶🤱",
                 "question": "What is the rooting reflex?",
                 "options": [
-                    "Sleeping",
                     "Crying",
-                    "Turning head to find nipple",
-                    "Walking"
+                    "Sleeping",
+                    "Walking",
+                    "Turning head to find nipple"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Toddler",
                 "emoji": "👧🧸",
                 "question": "What is attachment theory?",
                 "options": [
-                    "Eating habits",
                     "Emotional bond with caregiver",
-                    "Sleep pattern",
-                    "Playing with toys"
+                    "Eating habits",
+                    "Playing with toys",
+                    "Sleep pattern"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "extreme": [
@@ -518,20 +518,20 @@ const parentingQuestions = {
                 "emoji": "📏👶",
                 "question": "Is positive discipline works better than punishment?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Behavior",
                 "emoji": "🎭😊",
                 "question": "Is children need clear rules?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Discipline",
@@ -548,40 +548,40 @@ const parentingQuestions = {
                 "emoji": "🎭😡",
                 "question": "Is all behavior communication?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Discipline",
                 "emoji": "📏⏰",
                 "question": "Time-outs can be effective?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Behavior",
                 "emoji": "🎭🌟",
                 "question": "Is praise encourages good behavior?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Discipline",
                 "emoji": "📏🚫",
                 "question": "Is spanking not recommended?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Behavior",
@@ -598,20 +598,20 @@ const parentingQuestions = {
                 "emoji": "📏🗣️",
                 "question": "Is explaining rules helps children understand?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Behavior",
                 "emoji": "🎭👍",
                 "question": "Is modeling behavior teaches children?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -640,10 +640,10 @@ const parentingQuestions = {
                 "emoji": "📏✅",
                 "question": "What does the acronym redirection stand for?",
                 "options": [
-                    "Guide to better choice",
-                    "Ignore behavior"
+                    "Ignore behavior",
+                    "Guide to better choice"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Behavior",
@@ -670,20 +670,20 @@ const parentingQuestions = {
                 "emoji": "🎭🌟",
                 "question": "What is specific praise?",
                 "options": [
-                    "Generic good job",
-                    "Describing exact behavior"
+                    "Describing exact behavior",
+                    "Generic good job"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Discipline",
                 "emoji": "📏🚫",
                 "question": "What is logical consequence?",
                 "options": [
-                    "Related to misbehavior",
-                    "Unrelated punishment"
+                    "Unrelated punishment",
+                    "Related to misbehavior"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Behavior",
@@ -700,20 +700,20 @@ const parentingQuestions = {
                 "emoji": "📏🗣️",
                 "question": "What is active listening?",
                 "options": [
-                    "Half listening",
-                    "Fully focusing on child"
+                    "Fully focusing on child",
+                    "Half listening"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Behavior",
                 "emoji": "🎭👍",
                 "question": "What does the acronym modeling stand for?",
                 "options": [
-                    "Explaining only",
-                    "Demonstrating desired behavior"
+                    "Demonstrating desired behavior",
+                    "Explaining only"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -722,11 +722,11 @@ const parentingQuestions = {
                 "emoji": "📏👶",
                 "question": "What is the 1-2-3 Magic technique?",
                 "options": [
-                    "Magic tricks",
                     "Count to 3 before consequence",
+                    "Magic tricks",
                     "Three punishments"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Behavior",
@@ -756,10 +756,10 @@ const parentingQuestions = {
                 "question": "What is extinction burst?",
                 "options": [
                     "No change",
-                    "Behavior worsens before improving",
-                    "Immediate improvement"
+                    "Immediate improvement",
+                    "Behavior worsens before improving"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Discipline",
@@ -788,33 +788,33 @@ const parentingQuestions = {
                 "emoji": "📏🚫",
                 "question": "What is restorative discipline?",
                 "options": [
-                    "Repair harm and restore relationships",
                     "Only punishment",
-                    "No consequences"
+                    "No consequences",
+                    "Repair harm and restore relationships"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Behavior",
                 "emoji": "🎭💡",
                 "question": "What is token economy?",
                 "options": [
-                    "Real money",
                     "Earn tokens for rewards",
+                    "Real money",
                     "No system"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Discipline",
                 "emoji": "📏🗣️",
                 "question": "What is reflective listening?",
                 "options": [
-                    "Mirror child's feelings",
                     "Just talk",
+                    "Mirror child's feelings",
                     "Lecture"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Behavior",
@@ -822,10 +822,10 @@ const parentingQuestions = {
                 "question": "What is shaping behavior?",
                 "options": [
                     "No change",
-                    "Reinforce gradual progress",
-                    "Expect perfection"
+                    "Expect perfection",
+                    "Reinforce gradual progress"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -834,22 +834,22 @@ const parentingQuestions = {
                 "emoji": "📏👶",
                 "question": "According to research, what percentage of parents use timeouts?",
                 "options": [
-                    "50%",
                     "~85%",
+                    "20%",
                     "100%",
-                    "20%"
+                    "50%"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Behavior",
                 "emoji": "🎭😊",
                 "question": "What is the ABC model in behavior analysis?",
                 "options": [
-                    "Angry Bad Children",
-                    "Antecedent-Behavior-Consequence",
                     "Ask Before Correcting",
-                    "Always Be Calm"
+                    "Antecedent-Behavior-Consequence",
+                    "Always Be Calm",
+                    "Angry Bad Children"
                 ],
                 "correct": 1
             },
@@ -858,12 +858,12 @@ const parentingQuestions = {
                 "emoji": "📏✅",
                 "question": "What did Diana Baumrind identify?",
                 "options": [
+                    "Three parenting styles",
                     "No styles",
-                    "Five stages",
                     "Two types",
-                    "Three parenting styles"
+                    "Five stages"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Behavior",
@@ -872,8 +872,8 @@ const parentingQuestions = {
                 "options": [
                     "1 year",
                     "5 years",
-                    "2-3 years",
-                    "10 years"
+                    "10 years",
+                    "2-3 years"
                 ],
                 "correct": 1
             },
@@ -882,12 +882,12 @@ const parentingQuestions = {
                 "emoji": "📏⏰",
                 "question": "What is the recommended timeout duration for a 4-year-old?",
                 "options": [
+                    "30 minutes",
                     "10 minutes",
                     "4 minutes",
-                    "30 minutes",
                     "1 hour"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Behavior",
@@ -906,24 +906,24 @@ const parentingQuestions = {
                 "emoji": "📏🚫",
                 "question": "What percentage of countries ban corporal punishment?",
                 "options": [
+                    "~65 countries",
                     "No countries",
                     "10 countries",
-                    "~65 countries",
                     "All countries"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Behavior",
                 "emoji": "🎭💡",
                 "question": "What is variable ratio reinforcement?",
                 "options": [
-                    "Never reward",
-                    "Always reward",
                     "Fixed schedule",
-                    "Rewards at unpredictable intervals"
+                    "Rewards at unpredictable intervals",
+                    "Always reward",
+                    "Never reward"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Discipline",
@@ -931,9 +931,9 @@ const parentingQuestions = {
                 "question": "What is emotion coaching?",
                 "options": [
                     "Help children identify and manage emotions",
-                    "Ignore emotions",
                     "Dismiss feelings",
-                    "Punish emotions"
+                    "Punish emotions",
+                    "Ignore emotions"
                 ],
                 "correct": 0
             },
@@ -943,11 +943,11 @@ const parentingQuestions = {
                 "question": "What is the Premack Principle?",
                 "options": [
                     "High-probability behavior reinforces low-probability",
-                    "No principle",
                     "Random rewards",
+                    "No principle",
                     "All behaviors equal"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -1020,20 +1020,20 @@ const parentingQuestions = {
                 "emoji": "🥗🍎",
                 "question": "Are fruits and vegetables healthy?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Health",
                 "emoji": "💉🏥",
                 "question": "Is vaccinations protect children?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Nutrition",
@@ -1070,10 +1070,10 @@ const parentingQuestions = {
                 "emoji": "😷🤧",
                 "question": "Is handwashing prevents illness?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Nutrition",
@@ -1110,10 +1110,10 @@ const parentingQuestions = {
                 "emoji": "☀️🧴",
                 "question": "Is sunscreen protects skin?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -1122,10 +1122,10 @@ const parentingQuestions = {
                 "emoji": "🥗🍎",
                 "question": "How many servings of fruits/vegetables daily?",
                 "options": [
-                    "1 serving",
-                    "5 servings"
+                    "5 servings",
+                    "1 serving"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Health",
@@ -1142,10 +1142,10 @@ const parentingQuestions = {
                 "emoji": "🥛🧀",
                 "question": "What is lactose intolerance?",
                 "options": [
-                    "Cannot digest milk sugar",
-                    "Milk allergy"
+                    "Milk allergy",
+                    "Cannot digest milk sugar"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Health",
@@ -1182,10 +1182,10 @@ const parentingQuestions = {
                 "emoji": "🥤💧",
                 "question": "How much water do kids need?",
                 "options": [
-                    "6-8 glasses daily",
-                    "1 glass"
+                    "1 glass",
+                    "6-8 glasses daily"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Health",
@@ -1224,33 +1224,33 @@ const parentingQuestions = {
                 "emoji": "🥗🍎",
                 "question": "What is the MyPlate recommendation?",
                 "options": [
+                    "Half plate fruits/vegetables",
                     "All protein",
-                    "No vegetables",
-                    "Half plate fruits/vegetables"
+                    "No vegetables"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Health",
                 "emoji": "💉🏥",
                 "question": "What is herd immunity?",
                 "options": [
-                    "Community protection through vaccination",
                     "No immunity",
+                    "Community protection through vaccination",
                     "Individual immunity"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Nutrition",
                 "emoji": "🥛🧀",
                 "question": "What is the difference between allergy and intolerance?",
                 "options": [
-                    "Allergy involves immune system",
                     "No difference",
+                    "Allergy involves immune system",
                     "Same thing"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Health",
@@ -1290,33 +1290,33 @@ const parentingQuestions = {
                 "emoji": "🥤💧",
                 "question": "What causes dehydration in children?",
                 "options": [
-                    "Illness, heat, insufficient intake",
                     "Cold weather",
+                    "Illness, heat, insufficient intake",
                     "Only exercise"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Health",
                 "emoji": "🦷🪥",
                 "question": "When should first dental visit occur?",
                 "options": [
+                    "Age 5",
                     "Age 10",
-                    "First tooth or age 1",
-                    "Age 5"
+                    "First tooth or age 1"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Nutrition",
                 "emoji": "🍞🌾",
                 "question": "What are essential fatty acids?",
                 "options": [
+                    "Omega-3 and Omega-6",
                     "Saturated fats",
-                    "Trans fats",
-                    "Omega-3 and Omega-6"
+                    "Trans fats"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Health",
@@ -1336,12 +1336,12 @@ const parentingQuestions = {
                 "emoji": "🥗🍎",
                 "question": "What percentage of children eat recommended vegetables?",
                 "options": [
-                    "50%",
-                    "90%",
                     "100%",
+                    "90%",
+                    "50%",
                     "Less than 10%"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Health",
@@ -1349,23 +1349,23 @@ const parentingQuestions = {
                 "question": "How many vaccines do children receive by age 6?",
                 "options": [
                     "3 vaccines",
-                    "~14-15 vaccines",
                     "50 vaccines",
-                    "1 vaccine"
+                    "1 vaccine",
+                    "~14-15 vaccines"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Nutrition",
                 "emoji": "🥛🧀",
                 "question": "What is the recommended calcium intake for children 4-8?",
                 "options": [
-                    "100 mg",
                     "5000 mg",
-                    "None",
-                    "1000 mg daily"
+                    "100 mg",
+                    "1000 mg daily",
+                    "None"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Health",
@@ -1373,11 +1373,11 @@ const parentingQuestions = {
                 "question": "What percentage of children meet exercise guidelines?",
                 "options": [
                     "~24%",
-                    "100%",
                     "90%",
+                    "100%",
                     "5%"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Nutrition",
@@ -1397,9 +1397,9 @@ const parentingQuestions = {
                 "question": "What percentage of illness is prevented by handwashing?",
                 "options": [
                     "5%",
+                    "~50%",
                     "100%",
-                    "0%",
-                    "~50%"
+                    "0%"
                 ],
                 "correct": 0
             },
@@ -1408,48 +1408,48 @@ const parentingQuestions = {
                 "emoji": "🥤💧",
                 "question": "What are signs of dehydration?",
                 "options": [
+                    "Only thirst",
                     "Hunger",
                     "Dry mouth, dark urine, fatigue",
-                    "Only thirst",
                     "No signs"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Health",
                 "emoji": "🦷🪥",
                 "question": "What percentage of children have cavities?",
                 "options": [
-                    "100%",
                     "5%",
+                    "~20% by age 5",
                     "0%",
-                    "~20% by age 5"
+                    "100%"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Nutrition",
                 "emoji": "🍞🌾",
                 "question": "What is the gut microbiome?",
                 "options": [
-                    "Only in adults",
-                    "Beneficial bacteria in digestive system",
                     "Harmful bacteria",
-                    "No bacteria"
+                    "Beneficial bacteria in digestive system",
+                    "No bacteria",
+                    "Only in adults"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Health",
                 "emoji": "☀️🧴",
                 "question": "How much vitamin D do children need daily?",
                 "options": [
-                    "None",
                     "600 IU",
+                    "None",
                     "10000 IU",
                     "10 IU"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "extreme": [
@@ -1522,20 +1522,20 @@ const parentingQuestions = {
                 "emoji": "👶📈",
                 "question": "Is children develop at different rates?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Milestones",
                 "emoji": "🎯👣",
                 "question": "Is walking a motor milestone?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Development",
@@ -1552,30 +1552,30 @@ const parentingQuestions = {
                 "emoji": "🎯🗣️",
                 "question": "Is talking a language milestone?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Development",
                 "emoji": "👶🔄",
                 "question": "Is development continuous?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Milestones",
                 "emoji": "🎯✋",
                 "question": "Is grasping objects a milestone?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Development",
@@ -1602,20 +1602,20 @@ const parentingQuestions = {
                 "emoji": "👶🌱",
                 "question": "Is genetics and environment both matter?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Milestones",
                 "emoji": "🎯🚽",
                 "question": "Is potty training a developmental stage?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -1624,20 +1624,20 @@ const parentingQuestions = {
                 "emoji": "👶📈",
                 "question": "What are developmental domains?",
                 "options": [
-                    "Only physical",
-                    "Physical, cognitive, social, emotional"
+                    "Physical, cognitive, social, emotional",
+                    "Only physical"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Milestones",
                 "emoji": "🎯👣",
                 "question": "When do babies typically walk?",
                 "options": [
-                    "12-15 months",
-                    "3 months"
+                    "3 months",
+                    "12-15 months"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Development",
@@ -1664,10 +1664,10 @@ const parentingQuestions = {
                 "emoji": "👶🔄",
                 "question": "What are critical periods?",
                 "options": [
-                    "Crisis times",
-                    "Optimal times for learning"
+                    "Optimal times for learning",
+                    "Crisis times"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Milestones",
@@ -1694,30 +1694,30 @@ const parentingQuestions = {
                 "emoji": "🎯😊",
                 "question": "When do babies smile socially?",
                 "options": [
-                    "6-8 weeks",
-                    "6 months"
+                    "6 months",
+                    "6-8 weeks"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Development",
                 "emoji": "👶🌱",
                 "question": "What is nature vs nurture?",
                 "options": [
-                    "Plant growth",
-                    "Genetics vs environment"
+                    "Genetics vs environment",
+                    "Plant growth"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Milestones",
                 "emoji": "🎯🚽",
                 "question": "What age for potty training readiness?",
                 "options": [
-                    "6 months",
-                    "18-24 months"
+                    "18-24 months",
+                    "6 months"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -1726,33 +1726,33 @@ const parentingQuestions = {
                 "emoji": "👶📈",
                 "question": "What is the Zone of Proximal Development?",
                 "options": [
-                    "Growth chart",
                     "Age range",
-                    "Gap between what child can do alone vs with help"
+                    "Gap between what child can do alone vs with help",
+                    "Growth chart"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Milestones",
                 "emoji": "🎯👣",
                 "question": "What do gross motor skills involve?",
                 "options": [
+                    "Thinking skills",
                     "Large muscle movements",
-                    "Fine hand movements",
-                    "Thinking skills"
+                    "Fine hand movements"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Development",
                 "emoji": "🧠💭",
                 "question": "What is Piaget's preoperational stage?",
                 "options": [
-                    "Ages 2-7, symbolic thinking",
                     "Teens",
-                    "Birth-2 years"
+                    "Birth-2 years",
+                    "Ages 2-7, symbolic thinking"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Milestones",
@@ -1771,21 +1771,21 @@ const parentingQuestions = {
                 "question": "What does the acronym neuroplasticity stand for?",
                 "options": [
                     "Brain's ability to change",
-                    "Bone growth",
-                    "Muscle flexibility"
+                    "Muscle flexibility",
+                    "Bone growth"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Milestones",
                 "emoji": "🎯✋",
                 "question": "What are fine motor skills?",
                 "options": [
-                    "Large movements",
                     "Running",
-                    "Small precise movements"
+                    "Small precise movements",
+                    "Large movements"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Development",
@@ -1793,21 +1793,21 @@ const parentingQuestions = {
                 "question": "What is divergent thinking?",
                 "options": [
                     "One right answer",
-                    "Creative problem-solving",
-                    "No thinking"
+                    "No thinking",
+                    "Creative problem-solving"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Milestones",
                 "emoji": "🎯😊",
                 "question": "What is joint attention?",
                 "options": [
-                    "Parallel play",
+                    "Shared focus on object",
                     "Solitary play",
-                    "Shared focus on object"
+                    "Parallel play"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Development",
@@ -1825,9 +1825,9 @@ const parentingQuestions = {
                 "emoji": "🎯🚽",
                 "question": "What are signs of potty readiness?",
                 "options": [
-                    "Staying dry, interest, communication",
+                    "No signs",
                     "Only age",
-                    "No signs"
+                    "Staying dry, interest, communication"
                 ],
                 "correct": 1
             }
@@ -1838,12 +1838,12 @@ const parentingQuestions = {
                 "emoji": "👶📈",
                 "question": "What percentage of brain development occurs by age 5?",
                 "options": [
-                    "~90%",
-                    "25%",
                     "10%",
-                    "50%"
+                    "50%",
+                    "25%",
+                    "~90%"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Milestones",
@@ -1851,45 +1851,45 @@ const parentingQuestions = {
                 "question": "What is the typical age range for crawling?",
                 "options": [
                     "3 months",
-                    "1 year",
                     "2 years",
-                    "6-10 months"
+                    "6-10 months",
+                    "1 year"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Development",
                 "emoji": "🧠💭",
                 "question": "Who developed the stages of cognitive development?",
                 "options": [
+                    "Sigmund Freud",
                     "Erik Erikson",
                     "B.F. Skinner",
-                    "Jean Piaget",
-                    "Sigmund Freud"
+                    "Jean Piaget"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Milestones",
                 "emoji": "🎯🗣️",
                 "question": "How many words should a 2-year-old know?",
                 "options": [
+                    "~50-200 words",
                     "1000 words",
                     "5 words",
-                    "~50-200 words",
                     "10 words"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Development",
                 "emoji": "👶🔄",
                 "question": "What are the three types of temperament?",
                 "options": [
-                    "Happy, Sad",
+                    "Good, Bad",
                     "Easy, Difficult, Slow-to-warm",
                     "Active, Passive",
-                    "Good, Bad"
+                    "Happy, Sad"
                 ],
                 "correct": 1
             },
@@ -1898,36 +1898,36 @@ const parentingQuestions = {
                 "emoji": "🎯✋",
                 "question": "At what age can children use scissors?",
                 "options": [
+                    "10 years",
                     "3-4 years",
                     "6 months",
-                    "1 year",
-                    "10 years"
+                    "1 year"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Development",
                 "emoji": "🧠🎨",
                 "question": "What is the critical period for language?",
                 "options": [
-                    "Adulthood",
-                    "Age 10+",
+                    "Birth to age 7",
                     "Teen years",
-                    "Birth to age 7"
+                    "Age 10+",
+                    "Adulthood"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Milestones",
                 "emoji": "🎯😊",
                 "question": "What is stranger anxiety age?",
                 "options": [
-                    "1 month",
                     "3 years",
-                    "6-12 months",
-                    "5 years"
+                    "1 month",
+                    "5 years",
+                    "6-12 months"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Development",
@@ -1935,8 +1935,8 @@ const parentingQuestions = {
                 "question": "What is the developmental cascade?",
                 "options": [
                     "One domain affects others",
-                    "No connection",
                     "Isolated development",
+                    "No connection",
                     "Random"
                 ],
                 "correct": 0
@@ -1946,9 +1946,9 @@ const parentingQuestions = {
                 "emoji": "🎯🚽",
                 "question": "What is the average age for daytime dryness?",
                 "options": [
-                    "6 months",
-                    "5 years",
                     "2.5-3 years",
+                    "5 years",
+                    "6 months",
                     "1 year"
                 ],
                 "correct": 1
@@ -2034,10 +2034,10 @@ const parentingQuestions = {
                 "emoji": "🧠📖",
                 "question": "Is children learn through play?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Education",
@@ -2054,10 +2054,10 @@ const parentingQuestions = {
                 "emoji": "🧠🎨",
                 "question": "Is hands-on activities aid learning?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Education",
@@ -2084,10 +2084,10 @@ const parentingQuestions = {
                 "emoji": "📚🏫",
                 "question": "Is preschool benefits children?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Learning",
@@ -2126,10 +2126,10 @@ const parentingQuestions = {
                 "emoji": "📚✏️",
                 "question": "What is phonemic awareness?",
                 "options": [
-                    "Letter names",
-                    "Understanding sounds in words"
+                    "Understanding sounds in words",
+                    "Letter names"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Learning",
@@ -2146,10 +2146,10 @@ const parentingQuestions = {
                 "emoji": "📚🎒",
                 "question": "What is school readiness?",
                 "options": [
-                    "Age only",
-                    "Skills needed for kindergarten"
+                    "Skills needed for kindergarten",
+                    "Age only"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Learning",
@@ -2166,20 +2166,20 @@ const parentingQuestions = {
                 "emoji": "📚👨‍🏫",
                 "question": "What is differentiated instruction?",
                 "options": [
-                    "Same for all",
-                    "Adapt teaching to individual needs"
+                    "Adapt teaching to individual needs",
+                    "Same for all"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Learning",
                 "emoji": "🧠🔢",
                 "question": "What is number sense?",
                 "options": [
-                    "Understanding quantity and operations",
-                    "Counting only"
+                    "Counting only",
+                    "Understanding quantity and operations"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Education",
@@ -2206,10 +2206,10 @@ const parentingQuestions = {
                 "emoji": "📚📝",
                 "question": "What is mastery learning?",
                 "options": [
-                    "Master topic before moving on",
-                    "Skip ahead"
+                    "Skip ahead",
+                    "Master topic before moving on"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Learning",
@@ -2228,44 +2228,44 @@ const parentingQuestions = {
                 "emoji": "📚✏️",
                 "question": "What is the science of reading?",
                 "options": [
-                    "Whole language only",
                     "Evidence-based literacy instruction",
+                    "Whole language only",
                     "Guessing words"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Learning",
                 "emoji": "🧠📖",
                 "question": "What is Vygotsky's sociocultural theory?",
                 "options": [
-                    "Learning through social interaction",
                     "Genetic only",
+                    "Learning through social interaction",
                     "Isolated learning"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Education",
                 "emoji": "📚🎒",
                 "question": "What is an IEP?",
                 "options": [
-                    "Intelligence Evaluation Program",
+                    "Individualized Education Plan",
                     "Initial Education Period",
-                    "Individualized Education Plan"
+                    "Intelligence Evaluation Program"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Learning",
                 "emoji": "🧠🎨",
                 "question": "What is project-based learning?",
                 "options": [
-                    "Worksheets only",
                     "Learn through real-world projects",
-                    "No projects"
+                    "No projects",
+                    "Worksheets only"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Education",
@@ -2305,33 +2305,33 @@ const parentingQuestions = {
                 "emoji": "🧠💡",
                 "question": "How is metacognition defined?",
                 "options": [
-                    "Basic thinking",
                     "Thinking about one's thinking",
+                    "Basic thinking",
                     "No awareness"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Education",
                 "emoji": "📚📝",
                 "question": "What is formative assessment?",
                 "options": [
+                    "Final exam only",
                     "Ongoing feedback during learning",
-                    "No assessment",
-                    "Final exam only"
+                    "No assessment"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Learning",
                 "emoji": "🧠🌟",
                 "question": "What is multiple intelligences theory?",
                 "options": [
-                    "No theory",
                     "Different types of intelligence",
+                    "No theory",
                     "One intelligence"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -2341,8 +2341,8 @@ const parentingQuestions = {
                 "question": "What are the five essential components of reading?",
                 "options": [
                     "Phonemic awareness, Phonics, Fluency, Vocabulary, Comprehension",
-                    "Just phonics",
                     "Only reading",
+                    "Just phonics",
                     "Memorization"
                 ],
                 "correct": 0
@@ -2352,12 +2352,12 @@ const parentingQuestions = {
                 "emoji": "🧠📖",
                 "question": "Who developed the Zone of Proximal Development?",
                 "options": [
-                    "Lev Vygotsky",
                     "Maria Montessori",
+                    "Lev Vygotsky",
                     "Jean Piaget",
                     "Erik Erikson"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Education",
@@ -2365,9 +2365,9 @@ const parentingQuestions = {
                 "question": "What percentage of children attend preschool?",
                 "options": [
                     "10%",
+                    "~68%",
                     "100%",
-                    "25%",
-                    "~68%"
+                    "25%"
                 ],
                 "correct": 0
             },
@@ -2376,12 +2376,12 @@ const parentingQuestions = {
                 "emoji": "🧠🎨",
                 "question": "What is Bloom's Taxonomy?",
                 "options": [
+                    "Levels of learning objectives",
                     "Teaching method",
-                    "Grading system",
                     "Student type",
-                    "Levels of learning objectives"
+                    "Grading system"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Education",
@@ -2389,11 +2389,11 @@ const parentingQuestions = {
                 "question": "What is the recommended student-teacher ratio for preschool?",
                 "options": [
                     "10:1",
-                    "50:1",
                     "100:1",
+                    "50:1",
                     "1:1"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Learning",
@@ -2401,9 +2401,9 @@ const parentingQuestions = {
                 "question": "At what age can children understand one-to-one correspondence?",
                 "options": [
                     "6 months",
-                    "1 year",
                     "10 years",
-                    "3-4 years"
+                    "3-4 years",
+                    "1 year"
                 ],
                 "correct": 0
             },
@@ -2412,36 +2412,36 @@ const parentingQuestions = {
                 "emoji": "📚🏫",
                 "question": "What is the literacy rate goal by 3rd grade?",
                 "options": [
-                    "No goal",
-                    "College level",
+                    "Reading at grade level",
                     "Preschool level",
-                    "Reading at grade level"
+                    "No goal",
+                    "College level"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Learning",
                 "emoji": "🧠💡",
                 "question": "What is spaced repetition?",
                 "options": [
-                    "No repetition",
-                    "Review at increasing intervals",
                     "Random review",
-                    "Constant repetition"
+                    "Constant repetition",
+                    "No repetition",
+                    "Review at increasing intervals"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Education",
                 "emoji": "📚📝",
                 "question": "What is criterion-referenced assessment?",
                 "options": [
-                    "Compare to others",
                     "No standard",
                     "Compare to standard, not peers",
-                    "Random"
+                    "Random",
+                    "Compare to others"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Learning",
@@ -2450,8 +2450,8 @@ const parentingQuestions = {
                 "options": [
                     "IQ only",
                     "One intelligence",
-                    "Multiple intelligences theory",
-                    "No theory"
+                    "No theory",
+                    "Multiple intelligences theory"
                 ],
                 "correct": 1
             }
@@ -2536,20 +2536,20 @@ const parentingQuestions = {
                 "emoji": "🩹💊",
                 "question": "Are first aid kits important?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Safety",
                 "emoji": "🛡️🚗",
                 "question": "Is car seats protect children?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "First Aid",
@@ -2566,10 +2566,10 @@ const parentingQuestions = {
                 "emoji": "🛡️🏊",
                 "question": "Is supervise children near water?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "First Aid",
@@ -2596,20 +2596,20 @@ const parentingQuestions = {
                 "emoji": "🩹😵",
                 "question": "Is call 911 for emergencies?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Safety",
                 "emoji": "🛡️🚴",
                 "question": "Is helmets prevent head injuries?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "First Aid",
@@ -2628,10 +2628,10 @@ const parentingQuestions = {
                 "emoji": "🛡️🏠",
                 "question": "What does the acronym childproofing stand for?",
                 "options": [
-                    "Only locks",
-                    "Making home safe for children"
+                    "Making home safe for children",
+                    "Only locks"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "First Aid",
@@ -2648,10 +2648,10 @@ const parentingQuestions = {
                 "emoji": "🛡️🚗",
                 "question": "When can children face forward in car seat?",
                 "options": [
-                    "Age 2+ and weight limit",
-                    "Birth"
+                    "Birth",
+                    "Age 2+ and weight limit"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "First Aid",
@@ -2668,40 +2668,40 @@ const parentingQuestions = {
                 "emoji": "🛡️🏊",
                 "question": "What is water safety rule?",
                 "options": [
-                    "Never leave children unattended",
-                    "Can leave briefly"
+                    "Can leave briefly",
+                    "Never leave children unattended"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "First Aid",
                 "emoji": "🩹🤕",
                 "question": "How to clean wound?",
                 "options": [
-                    "Soap and water",
-                    "Leave dirty"
+                    "Leave dirty",
+                    "Soap and water"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Safety",
                 "emoji": "🛡️🔌",
                 "question": "What is outlet safety?",
                 "options": [
-                    "No protection needed",
-                    "Use outlet covers"
+                    "Use outlet covers",
+                    "No protection needed"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "First Aid",
                 "emoji": "🩹😵",
                 "question": "When to call 911?",
                 "options": [
-                    "Severe injury, breathing problems",
-                    "Minor cuts"
+                    "Minor cuts",
+                    "Severe injury, breathing problems"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Safety",
@@ -2741,22 +2741,22 @@ const parentingQuestions = {
                 "emoji": "🩹💊",
                 "question": "What is the Heimlich maneuver?",
                 "options": [
-                    "Abdominal thrusts for choking",
                     "Chest compressions",
+                    "Abdominal thrusts for choking",
                     "Back blows only"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Safety",
                 "emoji": "🛡️🚗",
                 "question": "What are car seat stages?",
                 "options": [
+                    "One stage",
                     "Rear-facing, forward-facing, booster, belt",
-                    "No stages",
-                    "One stage"
+                    "No stages"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "First Aid",
@@ -2774,9 +2774,9 @@ const parentingQuestions = {
                 "emoji": "🛡️🏊",
                 "question": "What is touch supervision?",
                 "options": [
-                    "Different room",
+                    "Same room",
                     "Within arm's reach",
-                    "Same room"
+                    "Different room"
                 ],
                 "correct": 1
             },
@@ -2785,20 +2785,20 @@ const parentingQuestions = {
                 "emoji": "🩹🤕",
                 "question": "When do cuts need stitches?",
                 "options": [
+                    "All cuts",
                     "Deep, gaping, won't stop bleeding",
-                    "No cuts",
-                    "All cuts"
+                    "No cuts"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Safety",
                 "emoji": "🛡️🔌",
                 "question": "What is GFCI outlet?",
                 "options": [
-                    "No difference",
+                    "Regular outlet",
                     "Ground Fault Circuit Interrupter",
-                    "Regular outlet"
+                    "No difference"
                 ],
                 "correct": 1
             },
@@ -2808,8 +2808,8 @@ const parentingQuestions = {
                 "question": "What is CPR ratio for children?",
                 "options": [
                     "15:2",
-                    "30 compressions, 2 breaths",
-                    "5:1"
+                    "5:1",
+                    "30 compressions, 2 breaths"
                 ],
                 "correct": 0
             },
@@ -2818,11 +2818,11 @@ const parentingQuestions = {
                 "emoji": "🛡️🚴",
                 "question": "What makes a proper fitting helmet?",
                 "options": [
-                    "Level, snug, 2 fingers above eyebrows",
+                    "Loose",
                     "Tilted",
-                    "Loose"
+                    "Level, snug, 2 fingers above eyebrows"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "First Aid",
@@ -2842,58 +2842,58 @@ const parentingQuestions = {
                 "emoji": "🛡️🏠",
                 "question": "What percentage of injuries happen at home?",
                 "options": [
-                    "~50%",
                     "10%",
-                    "100%",
-                    "5%"
+                    "5%",
+                    "~50%",
+                    "100%"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "First Aid",
                 "emoji": "🩹💊",
                 "question": "What size object is choking hazard?",
                 "options": [
-                    "Smaller than 1.25 inches",
                     "Any size",
-                    "10 inches",
-                    "5 inches"
+                    "Smaller than 1.25 inches",
+                    "5 inches",
+                    "10 inches"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Safety",
                 "emoji": "🛡️🚗",
                 "question": "Until what age rear-facing car seat?",
                 "options": [
-                    "6 months",
                     "At least age 2",
+                    "Birth only",
                     "5 years",
-                    "Birth only"
+                    "6 months"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "First Aid",
                 "emoji": "🩹🔥",
                 "question": "What is Rule of Nines for burns?",
                 "options": [
-                    "Cooling time",
                     "Burn temperature",
+                    "Estimate body surface area burned",
                     "No rule",
-                    "Estimate body surface area burned"
+                    "Cooling time"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Safety",
                 "emoji": "🛡️🏊",
                 "question": "How many children drown in pools annually in US?",
                 "options": [
-                    "~350",
+                    "5000",
                     "50",
-                    "10",
-                    "5000"
+                    "~350",
+                    "10"
                 ],
                 "correct": 1
             },
@@ -2903,9 +2903,9 @@ const parentingQuestions = {
                 "question": "What is the golden hour in trauma?",
                 "options": [
                     "One day",
-                    "First hour after injury most critical",
                     "No significance",
-                    "Second hour"
+                    "Second hour",
+                    "First hour after injury most critical"
                 ],
                 "correct": 0
             },
@@ -2914,24 +2914,24 @@ const parentingQuestions = {
                 "emoji": "🛡️🔌",
                 "question": "Is at what amperage electricity dangerous?",
                 "options": [
-                    "100-200 mA can be fatal",
-                    "10 mA",
                     "1000 mA",
-                    "Not dangerous"
+                    "Not dangerous",
+                    "10 mA",
+                    "100-200 mA can be fatal"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "First Aid",
                 "emoji": "🩹😵",
                 "question": "What is compression depth for child CPR?",
                 "options": [
+                    "Full depth",
                     "5 inches",
                     "2 inches (1/3 chest depth)",
-                    "0.5 inches",
-                    "Full depth"
+                    "0.5 inches"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Safety",
@@ -2940,8 +2940,8 @@ const parentingQuestions = {
                 "options": [
                     "100%",
                     "10%",
-                    "~85%",
-                    "5%"
+                    "5%",
+                    "~85%"
                 ],
                 "correct": 0
             },
@@ -2950,12 +2950,12 @@ const parentingQuestions = {
                 "emoji": "🩹🌡️",
                 "question": "What temperature requires emergency care?",
                 "options": [
+                    "110°F",
                     "98.6°F",
-                    "105°F (40.5°C) or higher",
                     "99°F",
-                    "110°F"
+                    "105°F (40.5°C) or higher"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "extreme": [
@@ -3038,10 +3038,10 @@ const parentingQuestions = {
                 "emoji": "🧠💚",
                 "question": "Emotional intelligence can be taught?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Emotions",
@@ -3068,10 +3068,10 @@ const parentingQuestions = {
                 "emoji": "😡🛑",
                 "question": "Is anger a normal emotion?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "EQ",
@@ -3098,10 +3098,10 @@ const parentingQuestions = {
                 "emoji": "🧠👂",
                 "question": "Is listening validates emotions?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Emotions",
@@ -3130,10 +3130,10 @@ const parentingQuestions = {
                 "emoji": "😊❤️",
                 "question": "What is emotion labeling?",
                 "options": [
-                    "Ignoring emotions",
-                    "Naming feelings"
+                    "Naming feelings",
+                    "Ignoring emotions"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "EQ",
@@ -3160,20 +3160,20 @@ const parentingQuestions = {
                 "emoji": "🧠😌",
                 "question": "What is self-regulation?",
                 "options": [
-                    "Managing own emotions and behavior",
-                    "Always happy"
+                    "Always happy",
+                    "Managing own emotions and behavior"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Emotions",
                 "emoji": "😡🛑",
                 "question": "What is anger management?",
                 "options": [
-                    "Suppressing anger",
-                    "Healthy ways to express anger"
+                    "Healthy ways to express anger",
+                    "Suppressing anger"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "EQ",
@@ -3200,10 +3200,10 @@ const parentingQuestions = {
                 "emoji": "🧠👂",
                 "question": "What does active listening require?",
                 "options": [
-                    "Half paying attention",
-                    "Fully focusing and understanding"
+                    "Fully focusing and understanding",
+                    "Half paying attention"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Emotions",
@@ -3232,22 +3232,22 @@ const parentingQuestions = {
                 "emoji": "😊❤️",
                 "question": "What is the Window of Tolerance?",
                 "options": [
-                    "Time limit",
                     "Optimal arousal zone",
+                    "Time limit",
                     "Anger threshold"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "EQ",
                 "emoji": "🧠💚",
                 "question": "What are the five components of EQ?",
                 "options": [
-                    "Only IQ",
                     "Two components",
-                    "Self-awareness, regulation, motivation, empathy, social skills"
+                    "Self-awareness, regulation, motivation, empathy, social skills",
+                    "Only IQ"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Emotions",
@@ -3276,22 +3276,22 @@ const parentingQuestions = {
                 "emoji": "😡🛑",
                 "question": "What is the amygdala hijack?",
                 "options": [
-                    "Calm state",
                     "No reaction",
+                    "Calm state",
                     "Emotional override of rational brain"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "EQ",
                 "emoji": "🧠🤝",
                 "question": "What is perspective-taking?",
                 "options": [
-                    "No perspective",
                     "Seeing from another's viewpoint",
-                    "Own view only"
+                    "Own view only",
+                    "No perspective"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Emotions",
@@ -3299,10 +3299,10 @@ const parentingQuestions = {
                 "question": "What is separation anxiety disorder?",
                 "options": [
                     "Excessive fear of separation",
-                    "Normal separation",
-                    "No anxiety"
+                    "No anxiety",
+                    "Normal separation"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "EQ",
@@ -3310,8 +3310,8 @@ const parentingQuestions = {
                 "question": "What does reflective listening mean?",
                 "options": [
                     "Mirroring feelings back",
-                    "Only hearing",
-                    "Ignoring"
+                    "Ignoring",
+                    "Only hearing"
                 ],
                 "correct": 0
             },
@@ -3321,8 +3321,8 @@ const parentingQuestions = {
                 "question": "What is positive psychology?",
                 "options": [
                     "Only problems",
-                    "Focus on strengths and wellbeing",
-                    "Ignore challenges"
+                    "Ignore challenges",
+                    "Focus on strengths and wellbeing"
                 ],
                 "correct": 0
             },
@@ -3332,10 +3332,10 @@ const parentingQuestions = {
                 "question": "What does growth mindset mean?",
                 "options": [
                     "Fixed abilities",
-                    "No growth",
-                    "Belief abilities can develop"
+                    "Belief abilities can develop",
+                    "No growth"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -3344,60 +3344,60 @@ const parentingQuestions = {
                 "emoji": "😊❤️",
                 "question": "At what age can children recognize basic emotions?",
                 "options": [
+                    "2-3 years",
                     "15 years",
                     "1 month",
-                    "10 years",
-                    "2-3 years"
+                    "10 years"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "EQ",
                 "emoji": "🧠💚",
                 "question": "Who developed the concept of emotional intelligence?",
                 "options": [
-                    "B.F. Skinner",
-                    "Daniel Goleman",
+                    "Sigmund Freud",
                     "Erik Erikson",
-                    "Sigmund Freud"
+                    "B.F. Skinner",
+                    "Daniel Goleman"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Emotions",
                 "emoji": "😢🤗",
                 "question": "What is the optimal ratio of positive to negative emotions?",
                 "options": [
-                    "1:3",
                     "1:1",
                     "10:1",
+                    "1:3",
                     "3:1 or higher"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "EQ",
                 "emoji": "🧠😌",
                 "question": "Does at what age doe self-regulation fully develop?",
                 "options": [
-                    "Age 5",
                     "Birth",
                     "Age 10",
-                    "Mid-20s"
+                    "Mid-20s",
+                    "Age 5"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Emotions",
                 "emoji": "😡🛑",
                 "question": "What percentage of children experience anger issues?",
                 "options": [
+                    "1%",
                     "90%",
                     "100%",
-                    "1%",
                     "~7-10%"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "EQ",
@@ -3405,9 +3405,9 @@ const parentingQuestions = {
                 "question": "When does empathy begin to develop?",
                 "options": [
                     "10 years",
+                    "5 years",
                     "Birth",
-                    "18-24 months",
-                    "5 years"
+                    "18-24 months"
                 ],
                 "correct": 0
             },
@@ -3416,24 +3416,24 @@ const parentingQuestions = {
                 "emoji": "😰😌",
                 "question": "What percentage of children have anxiety disorders?",
                 "options": [
-                    "50%",
-                    "~7-8%",
+                    "100%",
                     "1%",
-                    "100%"
+                    "50%",
+                    "~7-8%"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "EQ",
                 "emoji": "🧠👂",
                 "question": "What is the impact of emotional validation?",
                 "options": [
-                    "Increases problems",
-                    "No impact",
                     "Reduces intensity and duration of emotions",
-                    "Makes worse"
+                    "No impact",
+                    "Makes worse",
+                    "Increases problems"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Emotions",
@@ -3452,12 +3452,12 @@ const parentingQuestions = {
                 "emoji": "🧠💪",
                 "question": "What is the ACE study?",
                 "options": [
+                    "Art class",
                     "Athletic test",
                     "Adverse Childhood Experiences research",
-                    "Art class",
                     "No study"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -3530,40 +3530,40 @@ const parentingQuestions = {
                 "emoji": "📱⏰",
                 "question": "Is too much screen time harmful?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Technology",
                 "emoji": "💻🧒",
                 "question": "Is children need screen time limits?",
                 "options": [
-                    "False",
-                    "True"
-                ],
-                "correct": 1
-            },
-            {
-                "topic": "Screen Time",
-                "emoji": "📺👀",
-                "question": "Is screen time affects sleep?",
-                "options": [
                     "True",
                     "False"
                 ],
                 "correct": 0
             },
             {
-                "topic": "Technology",
-                "emoji": "🎮🕹️",
-                "question": "Video games can be educational?",
+                "topic": "Screen Time",
+                "emoji": "📺👀",
+                "question": "Is screen time affects sleep?",
                 "options": [
                     "False",
                     "True"
                 ],
                 "correct": 1
+            },
+            {
+                "topic": "Technology",
+                "emoji": "🎮🕹️",
+                "question": "Video games can be educational?",
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "correct": 0
             },
             {
                 "topic": "Screen Time",
@@ -3580,30 +3580,30 @@ const parentingQuestions = {
                 "emoji": "💻🔒",
                 "question": "Is online safety essential?",
                 "options": [
-                    "False",
-                    "True"
-                ],
-                "correct": 0
-            },
-            {
-                "topic": "Screen Time",
-                "emoji": "📺👨‍👩‍👧",
-                "question": "Is co-viewing media benefits children?",
-                "options": [
                     "True",
                     "False"
                 ],
                 "correct": 1
             },
             {
-                "topic": "Technology",
-                "emoji": "📱📚",
-                "question": "Educational apps can aid learning?",
+                "topic": "Screen Time",
+                "emoji": "📺👨‍👩‍👧",
+                "question": "Is co-viewing media benefits children?",
                 "options": [
                     "False",
                     "True"
                 ],
                 "correct": 0
+            },
+            {
+                "topic": "Technology",
+                "emoji": "📱📚",
+                "question": "Educational apps can aid learning?",
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "correct": 1
             },
             {
                 "topic": "Screen Time",
@@ -3620,10 +3620,10 @@ const parentingQuestions = {
                 "emoji": "💻👁️",
                 "question": "Is blue light affects eyes?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -3642,10 +3642,10 @@ const parentingQuestions = {
                 "emoji": "💻🧒",
                 "question": "What is digital citizenship?",
                 "options": [
-                    "Just using tech",
-                    "Responsible online behavior"
+                    "Responsible online behavior",
+                    "Just using tech"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Screen Time",
@@ -3662,30 +3662,30 @@ const parentingQuestions = {
                 "emoji": "🎮🕹️",
                 "question": "What is ESRB rating?",
                 "options": [
-                    "Video game age rating",
-                    "Movie rating"
+                    "Movie rating",
+                    "Video game age rating"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Screen Time",
                 "emoji": "📱🚫",
                 "question": "What are screen-free zones?",
                 "options": [
-                    "Everywhere screens",
-                    "Areas without devices"
+                    "Areas without devices",
+                    "Everywhere screens"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Technology",
                 "emoji": "💻🔒",
                 "question": "What does the acronym cyberbullying stand for?",
                 "options": [
-                    "Online harassment",
-                    "In-person only"
+                    "In-person only",
+                    "Online harassment"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Screen Time",
@@ -3712,10 +3712,10 @@ const parentingQuestions = {
                 "emoji": "📺⏱️",
                 "question": "What is screen time?",
                 "options": [
-                    "Time using electronic devices",
-                    "Homework time"
+                    "Homework time",
+                    "Time using electronic devices"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Technology",
@@ -3735,8 +3735,8 @@ const parentingQuestions = {
                 "question": "What is the AAP recommendation for under 18 months?",
                 "options": [
                     "No screen time except video chat",
-                    "Unlimited",
-                    "5 hours"
+                    "5 hours",
+                    "Unlimited"
                 ],
                 "correct": 0
             },
@@ -3746,10 +3746,10 @@ const parentingQuestions = {
                 "question": "What does the acronym COPPA stand for?",
                 "options": [
                     "Children's Online Privacy Protection Act",
-                    "No law",
-                    "Computer Program"
+                    "Computer Program",
+                    "No law"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Screen Time",
@@ -3757,8 +3757,8 @@ const parentingQuestions = {
                 "question": "How does blue light affect melatonin?",
                 "options": [
                     "Increases melatonin",
-                    "No effect",
-                    "Suppresses production, delays sleep"
+                    "Suppresses production, delays sleep",
+                    "No effect"
                 ],
                 "correct": 0
             },
@@ -3767,11 +3767,11 @@ const parentingQuestions = {
                 "emoji": "🎮🕹️",
                 "question": "What is problematic gaming?",
                 "options": [
+                    "Any gaming",
                     "Gaming interferes with life",
-                    "No issues",
-                    "Any gaming"
+                    "No issues"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Screen Time",
@@ -3779,65 +3779,65 @@ const parentingQuestions = {
                 "question": "What is a media diet?",
                 "options": [
                     "Balanced mix of screen and non-screen",
-                    "Only screens",
-                    "No media"
+                    "No media",
+                    "Only screens"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Technology",
                 "emoji": "💻🔒",
                 "question": "What is digital footprint?",
                 "options": [
-                    "No record",
+                    "Online data trail",
                     "Physical steps",
-                    "Online data trail"
+                    "No record"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Screen Time",
                 "emoji": "📺👨‍👩‍👧",
                 "question": "What is parasocial interaction?",
                 "options": [
-                    "Real friendship",
                     "One-sided relationship with media figures",
+                    "Real friendship",
                     "No interaction"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Technology",
                 "emoji": "📱📚",
                 "question": "What is the app gap?",
                 "options": [
+                    "Quality difference in educational apps",
                     "Storage space",
-                    "No gap",
-                    "Quality difference in educational apps"
+                    "No gap"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Screen Time",
                 "emoji": "📺⏱️",
                 "question": "What is binge-watching?",
                 "options": [
-                    "Watching multiple episodes consecutively",
                     "One episode",
-                    "No watching"
+                    "No watching",
+                    "Watching multiple episodes consecutively"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Technology",
                 "emoji": "💻👁️",
                 "question": "What is the 20-20-20 rule?",
                 "options": [
-                    "No rule",
                     "Random rule",
-                    "Every 20 min, look 20 ft away for 20 sec"
+                    "Every 20 min, look 20 ft away for 20 sec",
+                    "No rule"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -3847,9 +3847,9 @@ const parentingQuestions = {
                 "question": "What percentage of children under 2 use screens daily?",
                 "options": [
                     "10%",
-                    "50%",
                     "~90%",
-                    "0%"
+                    "0%",
+                    "50%"
                 ],
                 "correct": 0
             },
@@ -3858,24 +3858,24 @@ const parentingQuestions = {
                 "emoji": "💻🧒",
                 "question": "At what age should children learn about online safety?",
                 "options": [
-                    "Never",
                     "Age 18",
                     "Age 10",
-                    "As soon as they use devices"
+                    "As soon as they use devices",
+                    "Never"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Screen Time",
                 "emoji": "📺👀",
                 "question": "How much does screen time displace physical activity?",
                 "options": [
-                    "Triple",
-                    "No correlation",
+                    "~1:1 ratio",
                     "No displacement",
-                    "~1:1 ratio"
+                    "No correlation",
+                    "Triple"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Technology",
@@ -3883,11 +3883,11 @@ const parentingQuestions = {
                 "question": "What is the WHO gaming disorder threshold?",
                 "options": [
                     "Any gaming",
+                    "1 hour",
                     "No threshold",
-                    "Impaired control causing significant impairment 12+ months",
-                    "1 hour"
+                    "Impaired control causing significant impairment 12+ months"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Screen Time",
@@ -3895,71 +3895,71 @@ const parentingQuestions = {
                 "question": "What percentage of parents struggle with limits?",
                 "options": [
                     "100%",
-                    "0%",
                     "5%",
+                    "0%",
                     "~60-70%"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Technology",
                 "emoji": "💻🔒",
                 "question": "What percentage of teens have experienced cyberbullying?",
                 "options": [
+                    "100%",
                     "~59%",
                     "1%",
-                    "100%",
                     "10%"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Screen Time",
                 "emoji": "📺👨‍👩‍👧",
                 "question": "What is the impact of background TV?",
                 "options": [
+                    "No impact",
                     "Helps learning",
                     "Reduces quality interactions",
-                    "Always beneficial",
-                    "No impact"
+                    "Always beneficial"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Technology",
                 "emoji": "📱📚",
                 "question": "What percentage of educational apps lack evidence?",
                 "options": [
-                    "10%",
                     "~80%",
-                    "0%",
-                    "100%"
+                    "100%",
+                    "10%",
+                    "0%"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Screen Time",
                 "emoji": "📺⏱️",
                 "question": "What is average daily screen time for teens?",
                 "options": [
-                    "1 hour",
-                    "24 hours",
                     "30 minutes",
-                    "~7-9 hours"
+                    "1 hour",
+                    "~7-9 hours",
+                    "24 hours"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Technology",
                 "emoji": "💻👁️",
                 "question": "What wavelength is blue light?",
                 "options": [
-                    "1000 nm",
-                    "5000 nm",
+                    "380-500 nanometers",
                     "50 nm",
-                    "380-500 nanometers"
+                    "1000 nm",
+                    "5000 nm"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "extreme": [
@@ -4032,20 +4032,20 @@ const parentingQuestions = {
                 "emoji": "😴💤",
                 "question": "Is sleep essential for children?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Bedtime",
                 "emoji": "🌙🛏️",
                 "question": "Is bedtime routines help children sleep?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Sleep",
@@ -4082,20 +4082,20 @@ const parentingQuestions = {
                 "emoji": "🌙🎵",
                 "question": "Is lullabies calm children?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sleep",
                 "emoji": "😴💪",
                 "question": "Is sleep affects growth?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Bedtime",
@@ -4112,10 +4112,10 @@ const parentingQuestions = {
                 "emoji": "😴😫",
                 "question": "Is lack of sleep causes crankiness?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Bedtime",
@@ -4154,10 +4154,10 @@ const parentingQuestions = {
                 "emoji": "😴⏰",
                 "question": "What is circadian rhythm?",
                 "options": [
-                    "Random sleep",
-                    "Internal body clock"
+                    "Internal body clock",
+                    "Random sleep"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Bedtime",
@@ -4174,10 +4174,10 @@ const parentingQuestions = {
                 "emoji": "😴🧠",
                 "question": "What happens during sleep?",
                 "options": [
-                    "Nothing happens",
-                    "Brain consolidates memories"
+                    "Brain consolidates memories",
+                    "Nothing happens"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Bedtime",
@@ -4194,10 +4194,10 @@ const parentingQuestions = {
                 "emoji": "😴💪",
                 "question": "What is growth hormone?",
                 "options": [
-                    "Hormone released during sleep",
-                    "Energy drink"
+                    "Energy drink",
+                    "Hormone released during sleep"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Bedtime",
@@ -4214,20 +4214,20 @@ const parentingQuestions = {
                 "emoji": "😴😫",
                 "question": "What is sleep debt?",
                 "options": [
-                    "Cumulative sleep loss",
-                    "Financial debt"
+                    "Financial debt",
+                    "Cumulative sleep loss"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Bedtime",
                 "emoji": "🌙🚫",
                 "question": "Why avoid screens before bed?",
                 "options": [
-                    "No effect",
-                    "Blue light disrupts melatonin"
+                    "Blue light disrupts melatonin",
+                    "No effect"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -4236,20 +4236,20 @@ const parentingQuestions = {
                 "emoji": "😴💤",
                 "question": "What is REM sleep?",
                 "options": [
-                    "Rapid Eye Movement, dream stage",
+                    "Deep sleep",
                     "Light sleep",
-                    "Deep sleep"
+                    "Rapid Eye Movement, dream stage"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Bedtime",
                 "emoji": "🌙🛏️",
                 "question": "What is sleep association?",
                 "options": [
-                    "Condition needed to fall asleep",
+                    "Any sleep",
                     "No association",
-                    "Any sleep"
+                    "Condition needed to fall asleep"
                 ],
                 "correct": 1
             },
@@ -4258,11 +4258,11 @@ const parentingQuestions = {
                 "emoji": "😴⏰",
                 "question": "What does the acronym melatonin stand for?",
                 "options": [
+                    "Sleep-regulating hormone",
                     "No hormone",
-                    "Wake hormone",
-                    "Sleep-regulating hormone"
+                    "Wake hormone"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Bedtime",
@@ -4270,19 +4270,19 @@ const parentingQuestions = {
                 "question": "What is the Ferber method?",
                 "options": [
                     "Co-sleeping",
-                    "Gradual extinction sleep training",
-                    "Cry it out"
+                    "Cry it out",
+                    "Gradual extinction sleep training"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Sleep",
                 "emoji": "😴🧠",
                 "question": "What is sleep cycle?",
                 "options": [
-                    "One stage",
+                    "Progression through sleep stages",
                     "No cycle",
-                    "Progression through sleep stages"
+                    "One stage"
                 ],
                 "correct": 1
             },
@@ -4291,11 +4291,11 @@ const parentingQuestions = {
                 "emoji": "🌙🎵",
                 "question": "What is sleep regression?",
                 "options": [
-                    "Permanent problem",
                     "No change",
-                    "Temporary sleep disruption"
+                    "Temporary sleep disruption",
+                    "Permanent problem"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Sleep",
@@ -4303,43 +4303,43 @@ const parentingQuestions = {
                 "question": "What is sleep apnea?",
                 "options": [
                     "Normal breathing",
-                    "Breathing stops during sleep",
-                    "Deep sleep"
+                    "Deep sleep",
+                    "Breathing stops during sleep"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Bedtime",
                 "emoji": "🌙🌡️",
                 "question": "What is sleep environment?",
                 "options": [
+                    "No environment",
                     "Physical setting for sleep",
-                    "Daytime activity",
-                    "No environment"
+                    "Daytime activity"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Sleep",
                 "emoji": "😴😫",
                 "question": "What is chronic sleep deprivation?",
                 "options": [
-                    "Too much sleep",
+                    "One bad night",
                     "Ongoing insufficient sleep",
-                    "One bad night"
+                    "Too much sleep"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Bedtime",
                 "emoji": "🌙🚫",
                 "question": "What is delayed sleep phase?",
                 "options": [
+                    "Early sleep",
                     "Normal timing",
-                    "Later natural sleep time",
-                    "Early sleep"
+                    "Later natural sleep time"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -4349,9 +4349,9 @@ const parentingQuestions = {
                 "question": "How many sleep cycles do children have per night?",
                 "options": [
                     "4-6 cycles",
-                    "1 cycle",
                     "No cycles",
-                    "20 cycles"
+                    "20 cycles",
+                    "1 cycle"
                 ],
                 "correct": 0
             },
@@ -4360,10 +4360,10 @@ const parentingQuestions = {
                 "emoji": "🌙🛏️",
                 "question": "What percentage of children resist bedtime?",
                 "options": [
-                    "5%",
+                    "100%",
                     "0%",
-                    "~20-30%",
-                    "100%"
+                    "5%",
+                    "~20-30%"
                 ],
                 "correct": 1
             },
@@ -4372,24 +4372,24 @@ const parentingQuestions = {
                 "emoji": "😴⏰",
                 "question": "When does melatonin production peak?",
                 "options": [
-                    "3 PM",
+                    "9-11 PM",
                     "Noon",
                     "6 AM",
-                    "9-11 PM"
+                    "3 PM"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Bedtime",
                 "emoji": "🌙📖",
                 "question": "How long should bedtime routine be?",
                 "options": [
-                    "2 hours",
-                    "5 minutes",
                     "10 seconds",
-                    "20-30 minutes"
+                    "20-30 minutes",
+                    "5 minutes",
+                    "2 hours"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Sleep",
@@ -4397,71 +4397,71 @@ const parentingQuestions = {
                 "question": "What percentage of learning is consolidated during sleep?",
                 "options": [
                     "5%",
+                    "0%",
                     "Significant portion",
-                    "100%",
-                    "0%"
+                    "100%"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Bedtime",
                 "emoji": "🌙🎵",
                 "question": "At what age do sleep regressions commonly occur?",
                 "options": [
-                    "Only once",
-                    "Age 10",
+                    "4, 8, 12, 18 months, 2 years",
                     "Never",
-                    "4, 8, 12, 18 months, 2 years"
+                    "Only once",
+                    "Age 10"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Sleep",
                 "emoji": "😴💪",
                 "question": "When is growth hormone primarily released?",
                 "options": [
+                    "During deep sleep",
                     "Random",
                     "While awake",
-                    "Never",
-                    "During deep sleep"
+                    "Never"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Bedtime",
                 "emoji": "🌙🌡️",
                 "question": "What percentage of children have sleep problems?",
                 "options": [
-                    "100%",
-                    "0%",
                     "5%",
-                    "~25-40%"
+                    "0%",
+                    "~25-40%",
+                    "100%"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Sleep",
                 "emoji": "😴😫",
                 "question": "How does one hour sleep loss affect children?",
                 "options": [
-                    "Equivalent to 2 years cognitive delay",
-                    "Positive",
                     "Minimal",
-                    "No effect"
+                    "Equivalent to 2 years cognitive delay",
+                    "No effect",
+                    "Positive"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Bedtime",
                 "emoji": "🌙🚫",
                 "question": "How long before bed to avoid screens?",
                 "options": [
-                    "Never",
                     "1-2 hours",
-                    "5 minutes",
-                    "5 hours"
+                    "5 hours",
+                    "Never",
+                    "5 minutes"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "extreme": [
@@ -4534,10 +4534,10 @@ const parentingQuestions = {
                 "emoji": "👫🤝",
                 "question": "Is children learn social skills?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Friendship",
@@ -4554,15 +4554,35 @@ const parentingQuestions = {
                 "emoji": "👫💬",
                 "question": "Is communication a social skill?",
                 "options": [
+                    "False",
+                    "True"
+                ],
+                "correct": 1
+            },
+            {
+                "topic": "Friendship",
+                "emoji": "🤝😊",
+                "question": "Is sharing builds friendships?",
+                "options": [
                     "True",
                     "False"
                 ],
                 "correct": 0
             },
             {
+                "topic": "Social Skills",
+                "emoji": "👫🎭",
+                "question": "Is taking turns important?",
+                "options": [
+                    "False",
+                    "True"
+                ],
+                "correct": 0
+            },
+            {
                 "topic": "Friendship",
-                "emoji": "🤝😊",
-                "question": "Is sharing builds friendships?",
+                "emoji": "👧🗣️",
+                "question": "Does listening help friendships?",
                 "options": [
                     "False",
                     "True"
@@ -4571,33 +4591,13 @@ const parentingQuestions = {
             },
             {
                 "topic": "Social Skills",
-                "emoji": "👫🎭",
-                "question": "Is taking turns important?",
-                "options": [
-                    "True",
-                    "False"
-                ],
-                "correct": 1
-            },
-            {
-                "topic": "Friendship",
-                "emoji": "👧🗣️",
-                "question": "Does listening help friendships?",
-                "options": [
-                    "True",
-                    "False"
-                ],
-                "correct": 0
-            },
-            {
-                "topic": "Social Skills",
                 "emoji": "👫🙏",
                 "question": "Is manners show respect?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Friendship",
@@ -4646,30 +4646,30 @@ const parentingQuestions = {
                 "emoji": "👧👦",
                 "question": "What does parallel play mean?",
                 "options": [
-                    "Playing together",
-                    "Playing alongside others"
+                    "Playing alongside others",
+                    "Playing together"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Social Skills",
                 "emoji": "👫💬",
                 "question": "What does nonverbal communication include?",
                 "options": [
-                    "Body language and gestures",
-                    "Only words"
+                    "Only words",
+                    "Body language and gestures"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Friendship",
                 "emoji": "🤝😊",
                 "question": "What does the acronym reciprocity stand for?",
                 "options": [
-                    "Give and take in relationships",
-                    "Only taking"
+                    "Only taking",
+                    "Give and take in relationships"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Social Skills",
@@ -4686,10 +4686,10 @@ const parentingQuestions = {
                 "emoji": "👧🗣️",
                 "question": "How to practice active listening with friends?",
                 "options": [
-                    "Fully focusing on speaker",
-                    "Waiting to talk"
+                    "Waiting to talk",
+                    "Fully focusing on speaker"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Social Skills",
@@ -4706,30 +4706,30 @@ const parentingQuestions = {
                 "emoji": "🤝❤️",
                 "question": "What is prosocial behavior?",
                 "options": [
-                    "Helping and cooperating",
-                    "Selfish behavior"
+                    "Selfish behavior",
+                    "Helping and cooperating"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Social Skills",
                 "emoji": "👫🎨",
                 "question": "What is cooperative play?",
                 "options": [
-                    "Playing together with common goal",
-                    "Playing alone"
+                    "Playing alone",
+                    "Playing together with common goal"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Friendship",
                 "emoji": "👧💔",
                 "question": "What is conflict resolution?",
                 "options": [
-                    "Ignoring problems",
-                    "Solving disagreements"
+                    "Solving disagreements",
+                    "Ignoring problems"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -4749,22 +4749,22 @@ const parentingQuestions = {
                 "emoji": "👧👦",
                 "question": "What is Parten's stages of play?",
                 "options": [
-                    "No stages",
                     "6 stages from solitary to cooperative",
-                    "2 stages"
+                    "2 stages",
+                    "No stages"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Social Skills",
                 "emoji": "👫💬",
                 "question": "What is pragmatic language?",
                 "options": [
-                    "Grammar only",
+                    "No language",
                     "Using language in social contexts",
-                    "No language"
+                    "Grammar only"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Friendship",
@@ -4783,21 +4783,21 @@ const parentingQuestions = {
                 "question": "What is impulse control?",
                 "options": [
                     "No control",
-                    "Acting immediately",
-                    "Ability to wait and think first"
+                    "Ability to wait and think first",
+                    "Acting immediately"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Friendship",
                 "emoji": "👧🗣️",
                 "question": "What does perspective-taking involve?",
                 "options": [
-                    "Understanding others' viewpoints",
                     "Own view only",
+                    "Understanding others' viewpoints",
                     "No perspective"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Social Skills",
@@ -4815,22 +4815,22 @@ const parentingQuestions = {
                 "emoji": "🤝❤️",
                 "question": "What does the acronym altruism stand for?",
                 "options": [
+                    "Selfish behavior",
                     "Selfless concern for others",
-                    "No concern",
-                    "Selfish behavior"
+                    "No concern"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Social Skills",
                 "emoji": "👫🎨",
                 "question": "What does symbolic play involve?",
                 "options": [
-                    "Using objects to represent other things",
                     "No imagination",
-                    "Literal play"
+                    "Literal play",
+                    "Using objects to represent other things"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Friendship",
@@ -4838,10 +4838,10 @@ const parentingQuestions = {
                 "question": "What is peer mediation?",
                 "options": [
                     "Adult intervention",
-                    "Peers help resolve conflicts",
-                    "Fighting"
+                    "Fighting",
+                    "Peers help resolve conflicts"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -4850,12 +4850,12 @@ const parentingQuestions = {
                 "emoji": "👫🤝",
                 "question": "At what age do children develop theory of mind?",
                 "options": [
-                    "Birth",
-                    "4-5 years",
                     "1 year",
-                    "15 years"
+                    "Birth",
+                    "15 years",
+                    "4-5 years"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Friendship",
@@ -4863,23 +4863,23 @@ const parentingQuestions = {
                 "question": "What percentage of preschoolers have at least one friend?",
                 "options": [
                     "100%",
-                    "~75%",
                     "10%",
+                    "~75%",
                     "0%"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Social Skills",
                 "emoji": "👫💬",
                 "question": "What percentage of communication is nonverbal?",
                 "options": [
-                    "10%",
                     "50%",
+                    "10%",
                     "100%",
                     "~70-93%"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Friendship",
@@ -4887,23 +4887,23 @@ const parentingQuestions = {
                 "question": "When does sharing typically develop?",
                 "options": [
                     "3-4 years",
-                    "10 years",
+                    "Birth",
                     "1 month",
-                    "Birth"
+                    "10 years"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Social Skills",
                 "emoji": "👫🎭",
                 "question": "What is the marshmallow test?",
                 "options": [
-                    "Food preference",
-                    "Delayed gratification study",
                     "No test",
-                    "IQ test"
+                    "IQ test",
+                    "Delayed gratification study",
+                    "Food preference"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Friendship",
@@ -4911,8 +4911,8 @@ const parentingQuestions = {
                 "question": "What is the recommended child-to-child ratio for optimal play?",
                 "options": [
                     "100 children",
-                    "1 child",
                     "20 children",
+                    "1 child",
                     "2-4 children"
                 ],
                 "correct": 0
@@ -4922,24 +4922,24 @@ const parentingQuestions = {
                 "emoji": "👫🙏",
                 "question": "At what age can children say please and thank you?",
                 "options": [
-                    "1 month",
                     "10 years",
                     "15 years",
-                    "2-3 years"
+                    "2-3 years",
+                    "1 month"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Friendship",
                 "emoji": "🤝❤️",
                 "question": "When does empathy fully develop?",
                 "options": [
-                    "Never",
-                    "Birth",
+                    "Continues into adulthood",
                     "Age 5 complete",
-                    "Continues into adulthood"
+                    "Never",
+                    "Birth"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Social Skills",
@@ -4947,8 +4947,8 @@ const parentingQuestions = {
                 "question": "What age range for cooperative play?",
                 "options": [
                     "1 year",
-                    "15 years",
                     "Birth",
+                    "15 years",
                     "4-6 years"
                 ],
                 "correct": 0
@@ -4958,12 +4958,12 @@ const parentingQuestions = {
                 "emoji": "👧💔",
                 "question": "What percentage of children experience peer rejection?",
                 "options": [
+                    "0%",
                     "~10-15%",
                     "100%",
-                    "90%",
-                    "0%"
+                    "90%"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -5066,10 +5066,10 @@ const parentingQuestions = {
                 "emoji": "🧑‍🎓🧠",
                 "question": "Are teen brains still developing?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Adolescence",
@@ -5086,10 +5086,10 @@ const parentingQuestions = {
                 "emoji": "🧑‍🎓💭",
                 "question": "Is teens need privacy?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Adolescence",
@@ -5106,20 +5106,20 @@ const parentingQuestions = {
                 "emoji": "🧑‍🎓🗣️",
                 "question": "Is communication changes with teens?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Adolescence",
                 "emoji": "👦📈",
                 "question": "Is teens grow rapidly?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Teens",
@@ -5138,10 +5138,10 @@ const parentingQuestions = {
                 "emoji": "👦👧",
                 "question": "What age range is adolescence?",
                 "options": [
-                    "1-5 years",
-                    "10-19 years"
+                    "10-19 years",
+                    "1-5 years"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Teens",
@@ -5188,10 +5188,10 @@ const parentingQuestions = {
                 "emoji": "🧑‍🎓💭",
                 "question": "What is appropriate privacy?",
                 "options": [
-                    "Total freedom",
-                    "Balance between trust and safety"
+                    "Balance between trust and safety",
+                    "Total freedom"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Adolescence",
@@ -5208,10 +5208,10 @@ const parentingQuestions = {
                 "emoji": "🧑‍🎓🗣️",
                 "question": "What is active listening for teens?",
                 "options": [
-                    "Hearing without judging",
-                    "Lecturing"
+                    "Lecturing",
+                    "Hearing without judging"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Adolescence",
@@ -5228,10 +5228,10 @@ const parentingQuestions = {
                 "emoji": "🧑‍🎓⚖️",
                 "question": "What are natural consequences?",
                 "options": [
-                    "Results of teen's choices",
-                    "Parent punishment"
+                    "Parent punishment",
+                    "Results of teen's choices"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -5240,11 +5240,11 @@ const parentingQuestions = {
                 "emoji": "👦👧",
                 "question": "What is the adolescent brain development timeline?",
                 "options": [
+                    "Complete at 10",
                     "Complete at birth",
-                    "Continues until mid-20s",
-                    "Complete at 10"
+                    "Continues until mid-20s"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Teens",
@@ -5262,11 +5262,11 @@ const parentingQuestions = {
                 "emoji": "👦💪",
                 "question": "What is the HPG axis?",
                 "options": [
+                    "No system",
                     "Random",
-                    "Hypothalamic-Pituitary-Gonadal hormonal system",
-                    "No system"
+                    "Hypothalamic-Pituitary-Gonadal hormonal system"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Teens",
@@ -5274,43 +5274,43 @@ const parentingQuestions = {
                 "question": "What is synaptic pruning?",
                 "options": [
                     "No change",
-                    "Elimination of unused brain connections",
-                    "Building connections"
+                    "Building connections",
+                    "Elimination of unused brain connections"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Adolescence",
                 "emoji": "👦😊",
                 "question": "What is social identity theory?",
                 "options": [
+                    "No identity",
                     "Individual only",
-                    "Self-concept from group membership",
-                    "No identity"
+                    "Self-concept from group membership"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Teens",
                 "emoji": "🧑‍🎓💭",
                 "question": "What is monitored independence?",
                 "options": [
-                    "Total freedom",
+                    "Freedom with oversight",
                     "No freedom",
-                    "Freedom with oversight"
+                    "Total freedom"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Adolescence",
                 "emoji": "👦🎭",
                 "question": "What is Erikson's adolescent stage?",
                 "options": [
-                    "Identity vs Role Confusion",
                     "No stage",
-                    "Trust vs Mistrust"
+                    "Trust vs Mistrust",
+                    "Identity vs Role Confusion"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Teens",
@@ -5318,8 +5318,8 @@ const parentingQuestions = {
                 "question": "What is motivational interviewing?",
                 "options": [
                     "Ignoring",
-                    "Lecturing",
-                    "Collaborative conversation style"
+                    "Collaborative conversation style",
+                    "Lecturing"
                 ],
                 "correct": 0
             },
@@ -5328,11 +5328,11 @@ const parentingQuestions = {
                 "emoji": "👦📈",
                 "question": "What is asynchronous development?",
                 "options": [
-                    "Even development",
                     "No development",
+                    "Even development",
                     "Uneven physical/emotional development"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Teens",
@@ -5340,10 +5340,10 @@ const parentingQuestions = {
                 "question": "What is collaborative problem-solving?",
                 "options": [
                     "Work together to find solutions",
-                    "No solutions",
-                    "Parent decides"
+                    "Parent decides",
+                    "No solutions"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -5352,12 +5352,12 @@ const parentingQuestions = {
                 "emoji": "👦👧",
                 "question": "When does the prefrontal cortex fully mature?",
                 "options": [
-                    "Age 5",
-                    "Age 25-26",
                     "Age 30",
-                    "Age 10"
+                    "Age 10",
+                    "Age 5",
+                    "Age 25-26"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Teens",
@@ -5365,11 +5365,11 @@ const parentingQuestions = {
                 "question": "What percentage of teens want more independence?",
                 "options": [
                     "5%",
-                    "100%",
+                    "10%",
                     "~85%",
-                    "10%"
+                    "100%"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Adolescence",
@@ -5377,9 +5377,9 @@ const parentingQuestions = {
                 "question": "What is the average age for puberty start?",
                 "options": [
                     "Girls 10-11, Boys 11-12",
-                    "Birth",
                     "Age 5",
-                    "Age 20"
+                    "Age 20",
+                    "Birth"
                 ],
                 "correct": 0
             },
@@ -5388,44 +5388,44 @@ const parentingQuestions = {
                 "emoji": "🧑‍🎓🧠",
                 "question": "What does the acronym myelination stand for?",
                 "options": [
+                    "Random",
                     "No process",
-                    "Insulation of nerve fibers",
-                    "Random"
+                    "Insulation of nerve fibers"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Adolescence",
                 "emoji": "👦😊",
                 "question": "What percentage of teens experience peer pressure?",
                 "options": [
+                    "100%",
                     "0%",
                     "~90%",
-                    "100%",
                     "10%"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Teens",
                 "emoji": "🧑‍🎓💭",
                 "question": "What is the recommended approach to monitoring?",
                 "options": [
+                    "Complete control",
                     "Know friends, activities, whereabouts",
-                    "No monitoring",
                     "Random",
-                    "Complete control"
+                    "No monitoring"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Adolescence",
                 "emoji": "👦🎭",
                 "question": "What is identity moratorium?",
                 "options": [
-                    "No exploration",
+                    "Fixed identity",
                     "Exploring without commitment",
-                    "Fixed identity"
+                    "No exploration"
                 ],
                 "correct": 1
             },
@@ -5434,12 +5434,12 @@ const parentingQuestions = {
                 "emoji": "🧑‍🎓🗣️",
                 "question": "What is the ideal parent-teen communication?",
                 "options": [
-                    "Open, non-judgmental dialogue",
                     "Random",
-                    "No communication",
-                    "One-way lectures"
+                    "Open, non-judgmental dialogue",
+                    "One-way lectures",
+                    "No communication"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Adolescence",
@@ -5448,8 +5448,8 @@ const parentingQuestions = {
                 "options": [
                     "Up to 4 inches",
                     "1 foot",
-                    "1 inch",
-                    "No growth"
+                    "No growth",
+                    "1 inch"
                 ],
                 "correct": 0
             },
@@ -5460,8 +5460,8 @@ const parentingQuestions = {
                 "options": [
                     "Authoritative",
                     "Permissive",
-                    "Uninvolved",
-                    "Authoritarian"
+                    "Authoritarian",
+                    "Uninvolved"
                 ],
                 "correct": 1
             }
@@ -5536,10 +5536,10 @@ const parentingQuestions = {
                 "emoji": "♿🌟",
                 "question": "Is every child unique?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Support",
@@ -5566,10 +5566,10 @@ const parentingQuestions = {
                 "emoji": "🤝🏫",
                 "question": "Is schools provide accommodations?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Special Needs",
@@ -5586,20 +5586,20 @@ const parentingQuestions = {
                 "emoji": "🤝👨‍⚕️",
                 "question": "Do therapies can help development?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Special Needs",
                 "emoji": "♿🎯",
                 "question": "Do children have strengths?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Support",
@@ -5638,20 +5638,20 @@ const parentingQuestions = {
                 "emoji": "♿🌟",
                 "question": "What are special needs?",
                 "options": [
-                    "No support needed",
-                    "Require additional support"
+                    "Require additional support",
+                    "No support needed"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Support",
                 "emoji": "🤝💙",
                 "question": "What is early intervention?",
                 "options": [
-                    "Services for young children with delays",
-                    "School-age only"
+                    "School-age only",
+                    "Services for young children with delays"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Special Needs",
@@ -5668,10 +5668,10 @@ const parentingQuestions = {
                 "emoji": "🤝🏫",
                 "question": "What is a 504 plan?",
                 "options": [
-                    "No plan",
-                    "Accommodations under Section 504"
+                    "Accommodations under Section 504",
+                    "No plan"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Special Needs",
@@ -5718,10 +5718,10 @@ const parentingQuestions = {
                 "emoji": "♿📖",
                 "question": "What does the acronym IDEA stand for?",
                 "options": [
-                    "Individuals with Disabilities Education Act",
-                    "No law"
+                    "No law",
+                    "Individuals with Disabilities Education Act"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Support",
@@ -5751,9 +5751,9 @@ const parentingQuestions = {
                 "emoji": "🤝💙",
                 "question": "What ages qualify for early intervention?",
                 "options": [
-                    "Birth to 3 years",
+                    "5-10 years",
                     "Teens only",
-                    "5-10 years"
+                    "Birth to 3 years"
                 ],
                 "correct": 1
             },
@@ -5762,11 +5762,11 @@ const parentingQuestions = {
                 "emoji": "♿📚",
                 "question": "What does the acronym FAPE stand for?",
                 "options": [
+                    "No acronym",
                     "Fast Learning",
-                    "Free Appropriate Public Education",
-                    "No acronym"
+                    "Free Appropriate Public Education"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Support",
@@ -5774,19 +5774,19 @@ const parentingQuestions = {
                 "question": "What does the acronym LRE stand for?",
                 "options": [
                     "No meaning",
-                    "Least Restrictive Environment",
-                    "Limited Resources"
+                    "Limited Resources",
+                    "Least Restrictive Environment"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Special Needs",
                 "emoji": "♿❤️",
                 "question": "What is person-first language?",
                 "options": [
-                    "Labels first",
+                    "No preference",
                     "Child with autism, not autistic child",
-                    "No preference"
+                    "Labels first"
                 ],
                 "correct": 1
             },
@@ -5796,8 +5796,8 @@ const parentingQuestions = {
                 "question": "What is ABA therapy?",
                 "options": [
                     "Applied Behavior Analysis",
-                    "No therapy",
-                    "Art therapy"
+                    "Art therapy",
+                    "No therapy"
                 ],
                 "correct": 0
             },
@@ -5817,11 +5817,11 @@ const parentingQuestions = {
                 "emoji": "🤝👨‍👩‍👧",
                 "question": "What is family-centered care?",
                 "options": [
+                    "Professional-only decisions",
                     "Family as partners in care",
-                    "No family",
-                    "Professional-only decisions"
+                    "No family"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Special Needs",
@@ -5829,8 +5829,8 @@ const parentingQuestions = {
                 "question": "What is transition planning?",
                 "options": [
                     "School only",
-                    "No planning",
-                    "Plan for post-school life"
+                    "Plan for post-school life",
+                    "No planning"
                 ],
                 "correct": 0
             },
@@ -5839,11 +5839,11 @@ const parentingQuestions = {
                 "emoji": "🤝🌈",
                 "question": "What is universal design for learning?",
                 "options": [
-                    "One-size-fits-all",
                     "Flexible approaches for all learners",
-                    "No design"
+                    "No design",
+                    "One-size-fits-all"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -5852,48 +5852,48 @@ const parentingQuestions = {
                 "emoji": "♿🌟",
                 "question": "What percentage of children have special needs?",
                 "options": [
-                    "90%",
-                    "1%",
                     "0%",
+                    "1%",
+                    "90%",
                     "~15-20%"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Support",
                 "emoji": "🤝💙",
                 "question": "What is the recommended hours for early intervention?",
                 "options": [
-                    "Varies, typically 2-10 hours/week",
-                    "100 hours",
                     "0 hours",
-                    "1 hour/year"
+                    "1 hour/year",
+                    "100 hours",
+                    "Varies, typically 2-10 hours/week"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Special Needs",
                 "emoji": "♿📚",
                 "question": "At what age must IEP transition planning begin?",
                 "options": [
-                    "Never",
-                    "Age 21",
+                    "Age 5",
                     "Age 16 (or earlier)",
-                    "Age 5"
+                    "Never",
+                    "Age 21"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Support",
                 "emoji": "🤝🏫",
                 "question": "What percentage of students have IEPs?",
                 "options": [
+                    "90%",
                     "100%",
-                    "~14%",
                     "1%",
-                    "90%"
+                    "~14%"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Special Needs",
@@ -5912,12 +5912,12 @@ const parentingQuestions = {
                 "emoji": "🤝👨‍⚕️",
                 "question": "How many hours of ABA therapy are recommended?",
                 "options": [
-                    "20-40 hours per week",
-                    "None",
+                    "1 hour",
                     "100 hours",
-                    "1 hour"
+                    "None",
+                    "20-40 hours per week"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Special Needs",
@@ -5937,9 +5937,9 @@ const parentingQuestions = {
                 "question": "What percentage of parents report stress?",
                 "options": [
                     "0%",
-                    "~50% report high stress",
                     "5%",
-                    "100%"
+                    "100%",
+                    "~50% report high stress"
                 ],
                 "correct": 0
             },
@@ -5949,9 +5949,9 @@ const parentingQuestions = {
                 "question": "What did IDEA replace?",
                 "options": [
                     "Education for All Handicapped Children Act",
+                    "NCLB",
                     "No prior law",
-                    "Random",
-                    "NCLB"
+                    "Random"
                 ],
                 "correct": 0
             },
@@ -5960,12 +5960,12 @@ const parentingQuestions = {
                 "emoji": "🤝🌈",
                 "question": "What percentage of students are in inclusive settings?",
                 "options": [
-                    "0%",
-                    "5%",
                     "100%",
-                    "~65%"
+                    "~65%",
+                    "5%",
+                    "0%"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -6048,10 +6048,10 @@ const parentingQuestions = {
                 "emoji": "👧👦",
                 "question": "Are sibling relationships important?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Family",
@@ -6078,10 +6078,10 @@ const parentingQuestions = {
                 "emoji": "👨‍👩‍👧‍👦🍽️",
                 "question": "Is family meals benefit children?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Siblings",
@@ -6128,10 +6128,10 @@ const parentingQuestions = {
                 "emoji": "👧⚖️👦",
                 "question": "Is fairness doesn't mean equal?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "medium": [
@@ -6140,10 +6140,10 @@ const parentingQuestions = {
                 "emoji": "👨‍👩‍👧‍👦❤️",
                 "question": "What is a nuclear family?",
                 "options": [
-                    "Parents and children",
-                    "Extended relatives"
+                    "Extended relatives",
+                    "Parents and children"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Siblings",
@@ -6160,20 +6160,20 @@ const parentingQuestions = {
                 "emoji": "👨‍👩‍👧‍👦🏠",
                 "question": "What are family routines?",
                 "options": [
-                    "Random schedules",
-                    "Regular predictable activities"
+                    "Regular predictable activities",
+                    "Random schedules"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Siblings",
                 "emoji": "👧😡👦",
                 "question": "What causes sibling conflict?",
                 "options": [
-                    "Competition, jealousy, differences",
-                    "Nothing"
+                    "Nothing",
+                    "Competition, jealousy, differences"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Family",
@@ -6200,20 +6200,20 @@ const parentingQuestions = {
                 "emoji": "👨‍👩‍👧‍👦💬",
                 "question": "What is family meeting?",
                 "options": [
-                    "Discuss issues together",
-                    "No discussion"
+                    "No discussion",
+                    "Discuss issues together"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Siblings",
                 "emoji": "👧👶",
                 "question": "What is sibling preparation?",
                 "options": [
-                    "No preparation",
-                    "Helping child adjust to new baby"
+                    "Helping child adjust to new baby",
+                    "No preparation"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Family",
@@ -6243,8 +6243,8 @@ const parentingQuestions = {
                 "question": "What is a blended family?",
                 "options": [
                     "No children",
-                    "Remarriage combining children",
-                    "Original family"
+                    "Original family",
+                    "Remarriage combining children"
                 ],
                 "correct": 0
             },
@@ -6264,56 +6264,56 @@ const parentingQuestions = {
                 "emoji": "👨‍👩‍👧‍👦🏠",
                 "question": "What is family systems theory?",
                 "options": [
-                    "No theory",
                     "Independent individuals",
+                    "No theory",
                     "Family as interconnected system"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Siblings",
                 "emoji": "👧😡👦",
                 "question": "What is sibling deidentification?",
                 "options": [
+                    "No identity",
                     "Developing different identities",
-                    "Being identical",
-                    "No identity"
+                    "Being identical"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Family",
                 "emoji": "👨‍👩‍👧‍👦🍽️",
                 "question": "What is the recommended family meal frequency?",
                 "options": [
-                    "Never",
                     "Once a month",
-                    "5-7 times per week"
+                    "5-7 times per week",
+                    "Never"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Siblings",
                 "emoji": "👧🤝👦",
                 "question": "What is sibling warmth?",
                 "options": [
-                    "Temperature",
                     "Affection and support between siblings",
-                    "No warmth"
+                    "No warmth",
+                    "Temperature"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Family",
                 "emoji": "👨‍👩‍👧‍👦💬",
                 "question": "What is Gottman's ratio for relationships?",
                 "options": [
-                    "No ratio",
                     "5:1 positive to negative",
                     "1:1",
-                    "1:5"
+                    "1:5",
+                    "No ratio"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Siblings",
@@ -6321,8 +6321,8 @@ const parentingQuestions = {
                 "question": "What is sibling regression?",
                 "options": [
                     "Older child acts younger",
-                    "No change",
-                    "Normal development"
+                    "Normal development",
+                    "No change"
                 ],
                 "correct": 0
             },
@@ -6331,22 +6331,22 @@ const parentingQuestions = {
                 "emoji": "👨‍👩‍👧‍👦🎉",
                 "question": "What is intergenerational transmission?",
                 "options": [
-                    "No passing",
                     "Random",
-                    "Passing values across generations"
+                    "Passing values across generations",
+                    "No passing"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Siblings",
                 "emoji": "👧⚖️👦",
                 "question": "What is birth order theory?",
                 "options": [
-                    "Personality affected by birth position",
                     "Random",
+                    "Personality affected by birth position",
                     "No effect"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -6355,60 +6355,60 @@ const parentingQuestions = {
                 "emoji": "👨‍👩‍👧‍👦❤️",
                 "question": "What percentage of children live in two-parent homes?",
                 "options": [
-                    "100%",
-                    "10%",
+                    "~70%",
                     "0%",
-                    "~70%"
+                    "10%",
+                    "100%"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Siblings",
                 "emoji": "👧👦",
                 "question": "What is typical sibling conflict frequency?",
                 "options": [
-                    "3-7 conflicts per hour for young kids",
-                    "Once a year",
                     "Constant",
-                    "Never"
+                    "Never",
+                    "Once a year",
+                    "3-7 conflicts per hour for young kids"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Family",
                 "emoji": "👨‍👩‍👧‍👦🏠",
                 "question": "What percentage of families eat together daily?",
                 "options": [
+                    "0%",
                     "~30%",
                     "90%",
-                    "100%",
-                    "0%"
+                    "100%"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Siblings",
                 "emoji": "👧😡👦",
                 "question": "Is at what age sibling rivalry highest?",
                 "options": [
-                    "15 years",
-                    "3-7 years",
                     "20 years",
-                    "1 month"
+                    "15 years",
+                    "1 month",
+                    "3-7 years"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Family",
                 "emoji": "👨‍👩‍👧‍👦🍽️",
                 "question": "What is the impact of family meals on academics?",
                 "options": [
-                    "Higher grades and vocabulary",
-                    "Random",
                     "No impact",
-                    "Lower grades"
+                    "Lower grades",
+                    "Random",
+                    "Higher grades and vocabulary"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Siblings",
@@ -6416,8 +6416,8 @@ const parentingQuestions = {
                 "question": "What percentage of adults remain close to siblings?",
                 "options": [
                     "~80%",
-                    "100%",
                     "0%",
+                    "100%",
                     "10%"
                 ],
                 "correct": 0
@@ -6428,35 +6428,35 @@ const parentingQuestions = {
                 "question": "What is the recommended family meeting frequency?",
                 "options": [
                     "Yearly",
-                    "Never",
                     "Daily",
-                    "Weekly"
+                    "Weekly",
+                    "Never"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Siblings",
                 "emoji": "👧👶",
                 "question": "What is optimal spacing between siblings?",
                 "options": [
+                    "1 month",
                     "No spacing",
-                    "10 years",
                     "2-4 years",
-                    "1 month"
+                    "10 years"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Family",
                 "emoji": "👨‍👩‍👧‍👦🎉",
                 "question": "What percentage of families have regular traditions?",
                 "options": [
-                    "100%",
-                    "10%",
+                    "0%",
                     "~75%",
-                    "0%"
+                    "10%",
+                    "100%"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Siblings",
@@ -6464,11 +6464,11 @@ const parentingQuestions = {
                 "question": "What does research say about equal treatment?",
                 "options": [
                     "Random",
+                    "Must be equal",
                     "Less important than fairness",
-                    "No importance",
-                    "Must be equal"
+                    "No importance"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -6541,20 +6541,20 @@ const parentingQuestions = {
                 "emoji": "💬👂",
                 "question": "Is listening part of communication?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Talking",
                 "emoji": "🗣️👶",
                 "question": "Is talk to children at their level?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Communication",
@@ -6653,20 +6653,20 @@ const parentingQuestions = {
                 "emoji": "🗣️👶",
                 "question": "What does the acronym parentese stand for?",
                 "options": [
-                    "Baby talk",
-                    "Simplified speech for babies"
+                    "Simplified speech for babies",
+                    "Baby talk"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Communication",
                 "emoji": "💬❤️",
                 "question": "What are I-messages?",
                 "options": [
-                    "Express feelings without blame",
-                    "You-statements"
+                    "You-statements",
+                    "Express feelings without blame"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Talking",
@@ -6693,30 +6693,30 @@ const parentingQuestions = {
                 "emoji": "🗣️❓",
                 "question": "What are open-ended questions?",
                 "options": [
-                    "Require more than yes/no",
-                    "Yes/no only"
+                    "Yes/no only",
+                    "Require more than yes/no"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Communication",
                 "emoji": "💬🚫",
                 "question": "What is constructive feedback?",
                 "options": [
-                    "Helpful, specific suggestions",
-                    "Harsh criticism"
+                    "Harsh criticism",
+                    "Helpful, specific suggestions"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Talking",
                 "emoji": "🗣️💭",
                 "question": "How does reflective listening work?",
                 "options": [
-                    "Ignoring",
-                    "Mirroring back what heard"
+                    "Mirroring back what heard",
+                    "Ignoring"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Communication",
@@ -6733,10 +6733,10 @@ const parentingQuestions = {
                 "emoji": "🗣️👍",
                 "question": "What is positive phrasing?",
                 "options": [
-                    "Say what to do",
-                    "Focus on negatives"
+                    "Focus on negatives",
+                    "Say what to do"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -6745,57 +6745,57 @@ const parentingQuestions = {
                 "emoji": "💬👂",
                 "question": "What is the communication ratio?",
                 "options": [
-                    "No ratio",
+                    "80% listen, 20% talk",
                     "100% talk",
-                    "50-50",
-                    "80% listen, 20% talk"
+                    "No ratio",
+                    "50-50"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Talking",
                 "emoji": "🗣️👶",
                 "question": "What does joint attention involve?",
                 "options": [
+                    "Shared focus with child",
                     "No attention",
-                    "Separate activities",
-                    "Shared focus with child"
+                    "Separate activities"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Communication",
                 "emoji": "💬❤️",
                 "question": "What is the Gottman method?",
                 "options": [
-                    "Build emotional connection",
+                    "Conflict only",
                     "No method",
-                    "Conflict only"
+                    "Build emotional connection"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Talking",
                 "emoji": "🗣️📖",
                 "question": "What is the word gap?",
                 "options": [
+                    "Difference in words heard by income",
                     "Random",
-                    "No gap",
-                    "Difference in words heard by income"
+                    "No gap"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Communication",
                 "emoji": "💬👁️",
                 "question": "How much communication is nonverbal?",
                 "options": [
-                    "~70-93%",
                     "100%",
-                    "0%",
-                    "10%"
+                    "10%",
+                    "~70-93%",
+                    "0%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Talking",
@@ -6803,8 +6803,8 @@ const parentingQuestions = {
                 "question": "What is scaffolding in conversation?",
                 "options": [
                     "No support",
-                    "Support that builds skills",
-                    "Random"
+                    "Random",
+                    "Support that builds skills"
                 ],
                 "correct": 0
             },
@@ -6813,45 +6813,45 @@ const parentingQuestions = {
                 "emoji": "💬🚫",
                 "question": "What is the criticism-to-praise ratio?",
                 "options": [
-                    "1:1",
                     "Should be 1:5 or higher praise",
+                    "All criticism",
                     "Random",
-                    "All criticism"
+                    "1:1"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Talking",
                 "emoji": "🗣️💭",
                 "question": "What is validation vs agreement?",
                 "options": [
-                    "No difference",
                     "Same thing",
-                    "Understand feelings vs agree with behavior"
+                    "Understand feelings vs agree with behavior",
+                    "No difference"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Communication",
                 "emoji": "💬⏰",
                 "question": "What is the repair attempt?",
                 "options": [
+                    "Escalate",
                     "Effort to de-escalate conflict",
-                    "No attempt",
-                    "Escalate"
+                    "No attempt"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Talking",
                 "emoji": "🗣️👍",
                 "question": "What is specific vs general praise?",
                 "options": [
-                    "Describe exact behavior vs generic",
                     "Same thing",
+                    "Describe exact behavior vs generic",
                     "No difference"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -6860,60 +6860,60 @@ const parentingQuestions = {
                 "emoji": "💬👂",
                 "question": "What is the average parent-child conversation time?",
                 "options": [
-                    "~38 minutes per day",
-                    "10 hours",
                     "0",
-                    "1 minute"
+                    "1 minute",
+                    "~38 minutes per day",
+                    "10 hours"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Talking",
                 "emoji": "🗣️👶",
                 "question": "How many words should children hear daily?",
                 "options": [
-                    "100",
                     "100,000",
                     "~21,000",
+                    "100",
                     "1,000"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Communication",
                 "emoji": "💬❤️",
                 "question": "What is the magic ratio by Gottman?",
                 "options": [
-                    "1:1",
                     "5:1 positive to negative",
                     "No ratio",
+                    "1:1",
                     "1:5"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Talking",
                 "emoji": "🗣️📖",
                 "question": "What is the 30 million word gap?",
                 "options": [
+                    "Random",
                     "No gap",
                     "100 word gap",
-                    "Difference by age 3 based on income",
-                    "Random"
+                    "Difference by age 3 based on income"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Communication",
                 "emoji": "💬👁️",
                 "question": "What percentage of message is tone?",
                 "options": [
+                    "10%",
                     "100%",
                     "0%",
-                    "10%",
                     "~38%"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Talking",
@@ -6932,36 +6932,36 @@ const parentingQuestions = {
                 "emoji": "💬🚫",
                 "question": "What is the impact of criticism on children?",
                 "options": [
+                    "No impact",
                     "Random",
-                    "Lowers self-esteem and compliance",
                     "Always positive",
-                    "No impact"
+                    "Lowers self-esteem and compliance"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Talking",
                 "emoji": "🗣️💭",
                 "question": "What is the recommended validation frequency?",
                 "options": [
-                    "Multiple times daily",
-                    "Never",
                     "Once a year",
-                    "Rarely"
+                    "Rarely",
+                    "Multiple times daily",
+                    "Never"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Communication",
                 "emoji": "💬⏰",
                 "question": "What is the best conflict timing?",
                 "options": [
-                    "Random",
-                    "During tantrum",
                     "When calm, not in moment",
-                    "Never"
+                    "During tantrum",
+                    "Never",
+                    "Random"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Talking",
@@ -6969,11 +6969,11 @@ const parentingQuestions = {
                 "question": "What is the ideal praise specificity?",
                 "options": [
                     "Describe specific behavior and impact",
-                    "No praise",
+                    "Random",
                     "Generic only",
-                    "Random"
+                    "No praise"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "extreme": [
@@ -7046,10 +7046,10 @@ const parentingQuestions = {
                 "emoji": "🧘‍♀️💆",
                 "question": "Is parents need self-care?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Wellness",
@@ -7066,20 +7066,20 @@ const parentingQuestions = {
                 "emoji": "🧘‍♀️😌",
                 "question": "Is rest important for parents?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Wellness",
                 "emoji": "💪😴",
                 "question": "Is sleep affects parenting?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Self-Care",
@@ -7096,30 +7096,30 @@ const parentingQuestions = {
                 "emoji": "💪🏃",
                 "question": "Is exercise reduces stress?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Self-Care",
                 "emoji": "🧘‍♀️⏰",
                 "question": "Is me-time not selfish?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Wellness",
                 "emoji": "💪🧠",
                 "question": "Is mental health matters?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Self-Care",
@@ -7148,20 +7148,20 @@ const parentingQuestions = {
                 "emoji": "🧘‍♀️💆",
                 "question": "What is self-care?",
                 "options": [
-                    "Meeting own physical and emotional needs",
-                    "Ignoring needs"
+                    "Ignoring needs",
+                    "Meeting own physical and emotional needs"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Wellness",
                 "emoji": "💪🥗",
                 "question": "What is the oxygen mask principle?",
                 "options": [
-                    "Help others first",
-                    "Help yourself before helping others"
+                    "Help yourself before helping others",
+                    "Help others first"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Self-Care",
@@ -7178,20 +7178,20 @@ const parentingQuestions = {
                 "emoji": "💪😴",
                 "question": "How much sleep do adults need?",
                 "options": [
-                    "7-9 hours",
-                    "3 hours"
+                    "3 hours",
+                    "7-9 hours"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Self-Care",
                 "emoji": "🧘‍♀️🤝",
                 "question": "What is a support system?",
                 "options": [
-                    "No support",
-                    "Network of helping people"
+                    "Network of helping people",
+                    "No support"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Wellness",
@@ -7208,10 +7208,10 @@ const parentingQuestions = {
                 "emoji": "🧘‍♀️⏰",
                 "question": "What is me-time?",
                 "options": [
-                    "Never alone",
-                    "Time for own interests"
+                    "Time for own interests",
+                    "Never alone"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Wellness",
@@ -7238,10 +7238,10 @@ const parentingQuestions = {
                 "emoji": "💪🌈",
                 "question": "What is work-life balance?",
                 "options": [
-                    "Managing multiple roles",
-                    "Work only"
+                    "Work only",
+                    "Managing multiple roles"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -7251,8 +7251,8 @@ const parentingQuestions = {
                 "question": "What is the self-care deficit?",
                 "options": [
                     "Gap between needs and self-care",
-                    "No gap",
-                    "Surplus"
+                    "Surplus",
+                    "No gap"
                 ],
                 "correct": 0
             },
@@ -7271,11 +7271,11 @@ const parentingQuestions = {
                 "emoji": "🧘‍♀️😌",
                 "question": "What does the acronym meditation stand for?",
                 "options": [
-                    "Focused attention practice",
                     "Worry",
+                    "Focused attention practice",
                     "Sleep"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Wellness",
@@ -7302,10 +7302,10 @@ const parentingQuestions = {
                 "emoji": "💪🏃",
                 "question": "What is the mind-body connection?",
                 "options": [
-                    "Physical health affects mental health",
-                    "No connection"
+                    "No connection",
+                    "Physical health affects mental health"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Self-Care",
@@ -7322,30 +7322,30 @@ const parentingQuestions = {
                 "emoji": "💪🧠",
                 "question": "What is postpartum depression?",
                 "options": [
-                    "Normal emotions",
-                    "Depression after childbirth"
+                    "Depression after childbirth",
+                    "Normal emotions"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Self-Care",
                 "emoji": "🧘‍♀️❤️",
                 "question": "What is the self-care wheel?",
                 "options": [
-                    "No wheel",
-                    "Six dimensions of wellness"
+                    "Six dimensions of wellness",
+                    "No wheel"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Wellness",
                 "emoji": "💪🌈",
                 "question": "What is role strain?",
                 "options": [
-                    "No stress",
-                    "Stress from multiple roles"
+                    "Stress from multiple roles",
+                    "No stress"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -7354,24 +7354,24 @@ const parentingQuestions = {
                 "emoji": "🧘‍♀️💆",
                 "question": "What percentage of parents report burnout?",
                 "options": [
-                    "10%",
                     "0%",
                     "100%",
-                    "~66%"
+                    "~66%",
+                    "10%"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Wellness",
                 "emoji": "💪🥗",
                 "question": "What is the recommended water intake?",
                 "options": [
-                    "1 cup",
                     "1 gallon hourly",
+                    "8-12 cups daily",
                     "None",
-                    "8-12 cups daily"
+                    "1 cup"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Self-Care",
@@ -7380,8 +7380,8 @@ const parentingQuestions = {
                 "options": [
                     "No impact",
                     "Random",
-                    "Reduces stress and anxiety",
-                    "Increases stress"
+                    "Increases stress",
+                    "Reduces stress and anxiety"
                 ],
                 "correct": 0
             },
@@ -7390,12 +7390,12 @@ const parentingQuestions = {
                 "emoji": "💪😴",
                 "question": "What percentage of parents are sleep deprived?",
                 "options": [
-                    "100%",
-                    "0%",
                     "5%",
-                    "~60-70%"
+                    "~60-70%",
+                    "0%",
+                    "100%"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Self-Care",
@@ -7403,35 +7403,35 @@ const parentingQuestions = {
                 "question": "What is the isolation rate for new parents?",
                 "options": [
                     "100%",
-                    "0%",
                     "~80% feel isolated",
+                    "0%",
                     "10%"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Wellness",
                 "emoji": "💪🏃",
                 "question": "What is the stress reduction from exercise?",
                 "options": [
-                    "0%",
-                    "100%",
+                    "~20-30% reduction",
                     "5%",
-                    "~20-30% reduction"
+                    "0%",
+                    "100%"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Self-Care",
                 "emoji": "🧘‍♀️⏰",
                 "question": "What is the recommended me-time frequency?",
                 "options": [
-                    "Once a year",
                     "Daily, even 15 minutes",
-                    "Random",
-                    "Never"
+                    "Never",
+                    "Once a year",
+                    "Random"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Wellness",
@@ -7440,8 +7440,8 @@ const parentingQuestions = {
                 "options": [
                     "1%",
                     "0%",
-                    "100%",
-                    "~15-20%"
+                    "~15-20%",
+                    "100%"
                 ],
                 "correct": 0
             },
@@ -7450,24 +7450,24 @@ const parentingQuestions = {
                 "emoji": "🧘‍♀️❤️",
                 "question": "What is the self-compassion benefit?",
                 "options": [
-                    "Worse outcomes",
                     "Better mental health and parenting",
+                    "Worse outcomes",
                     "No benefit",
                     "Random"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Wellness",
                 "emoji": "💪🌈",
                 "question": "What percentage of parents struggle with balance?",
                 "options": [
+                    "100%",
                     "10%",
                     "0%",
-                    "100%",
                     "~75%"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -7540,20 +7540,20 @@ const parentingQuestions = {
                 "emoji": "🚽👶",
                 "question": "Does potty training require readiness?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Milestones",
                 "emoji": "🎯📏",
                 "question": "Is children reach milestones at different ages?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Potty Training",
@@ -7570,40 +7570,40 @@ const parentingQuestions = {
                 "emoji": "🎯👶",
                 "question": "Is tracking milestones helps development?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Potty Training",
                 "emoji": "🚽🎉",
                 "question": "Is praise encourages potty success?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Milestones",
                 "emoji": "🎯🗣️",
                 "question": "Is language develops gradually?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Potty Training",
                 "emoji": "🚽💧",
                 "question": "Are accidents normal?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Milestones",
@@ -7662,30 +7662,30 @@ const parentingQuestions = {
                 "emoji": "🚽✅",
                 "question": "What are readiness signs?",
                 "options": [
-                    "Stays dry, interest, communication",
-                    "Only age"
+                    "Only age",
+                    "Stays dry, interest, communication"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Milestones",
                 "emoji": "🎯👶",
                 "question": "What is red flag for development?",
                 "options": [
-                    "Missing multiple milestones",
-                    "One variation"
+                    "One variation",
+                    "Missing multiple milestones"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Potty Training",
                 "emoji": "🚽🎉",
                 "question": "What is positive reinforcement?",
                 "options": [
-                    "Punishment",
-                    "Praise and rewards"
+                    "Praise and rewards",
+                    "Punishment"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Milestones",
@@ -7702,20 +7702,20 @@ const parentingQuestions = {
                 "emoji": "🚽💧",
                 "question": "How to handle accidents?",
                 "options": [
-                    "Get angry",
-                    "Stay calm, no punishment"
+                    "Stay calm, no punishment",
+                    "Get angry"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Milestones",
                 "emoji": "🎯🚶",
                 "question": "What age for independent walking?",
                 "options": [
-                    "3 months",
-                    "12-15 months"
+                    "12-15 months",
+                    "3 months"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Potty Training",
@@ -7732,10 +7732,10 @@ const parentingQuestions = {
                 "emoji": "🎯🍴",
                 "question": "When can children use utensils?",
                 "options": [
-                    "15-18 months",
-                    "5 years"
+                    "5 years",
+                    "15-18 months"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -7744,10 +7744,10 @@ const parentingQuestions = {
                 "emoji": "🚽👶",
                 "question": "What is child-oriented approach?",
                 "options": [
-                    "Force training",
-                    "Follow child's cues"
+                    "Follow child's cues",
+                    "Force training"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Milestones",
@@ -7794,20 +7794,20 @@ const parentingQuestions = {
                 "emoji": "🎯🗣️",
                 "question": "What is expressive vs receptive language?",
                 "options": [
-                    "Same thing",
-                    "Speaking vs understanding"
+                    "Speaking vs understanding",
+                    "Same thing"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Potty Training",
                 "emoji": "🚽💧",
                 "question": "What does the acronym enuresis stand for?",
                 "options": [
-                    "Normal wetting",
-                    "Bedwetting beyond age 5"
+                    "Bedwetting beyond age 5",
+                    "Normal wetting"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Milestones",
@@ -7824,20 +7824,20 @@ const parentingQuestions = {
                 "emoji": "🚽📚",
                 "question": "What is scheduled toileting?",
                 "options": [
-                    "Regular potty times",
-                    "Random times"
+                    "Random times",
+                    "Regular potty times"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Milestones",
                 "emoji": "🎯🍴",
                 "question": "What is pincer grasp?",
                 "options": [
-                    "Thumb and finger grasp",
-                    "Whole hand"
+                    "Whole hand",
+                    "Thumb and finger grasp"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -7857,31 +7857,31 @@ const parentingQuestions = {
                 "emoji": "🎯📏",
                 "question": "What percentage of children walk by 15 months?",
                 "options": [
-                    "~90%",
                     "10%",
-                    "100%"
+                    "100%",
+                    "~90%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Potty Training",
                 "emoji": "🚽✅",
                 "question": "What percentage achieve daytime dryness by age 3?",
                 "options": [
-                    "100%",
                     "10%",
+                    "100%",
                     "~85%"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Milestones",
                 "emoji": "🎯👶",
                 "question": "When should screening occur?",
                 "options": [
-                    "Once",
+                    "Never",
                     "9, 18, 24, 30 months",
-                    "Never"
+                    "Once"
                 ],
                 "correct": 1
             },
@@ -7890,33 +7890,33 @@ const parentingQuestions = {
                 "emoji": "🚽🎉",
                 "question": "How many accidents are normal during training?",
                 "options": [
+                    "Several daily in early stages",
                     "None",
-                    "Constant",
-                    "Several daily in early stages"
+                    "Constant"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Milestones",
                 "emoji": "🎯🗣️",
                 "question": "How many words at 18 months?",
                 "options": [
-                    "500 words",
+                    "1 word",
                     "~10-20 words",
-                    "1 word"
+                    "500 words"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Potty Training",
                 "emoji": "🚽💧",
                 "question": "What is typical nighttime dryness age?",
                 "options": [
-                    "1 year",
                     "10 years",
-                    "4-5 years"
+                    "4-5 years",
+                    "1 year"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Milestones",
@@ -7934,22 +7934,22 @@ const parentingQuestions = {
                 "emoji": "🚽📚",
                 "question": "How long does potty training typically take?",
                 "options": [
-                    "5 years",
                     "1 week",
+                    "5 years",
                     "3-6 months"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Milestones",
                 "emoji": "🎯🍴",
                 "question": "When can children drink from cup?",
                 "options": [
-                    "3 years",
                     "12-15 months",
-                    "5 years"
+                    "5 years",
+                    "3 years"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "extreme": [
@@ -8022,6 +8022,46 @@ const parentingQuestions = {
                 "emoji": "💰👶",
                 "question": "Children can learn about money?",
                 "options": [
+                    "True",
+                    "False"
+                ],
+                "correct": 1
+            },
+            {
+                "topic": "Allowance",
+                "emoji": "💵📅",
+                "question": "Is allowance teaches financial skills?",
+                "options": [
+                    "False",
+                    "True"
+                ],
+                "correct": 0
+            },
+            {
+                "topic": "Money",
+                "emoji": "💰🏦",
+                "question": "Is saving an important skill?",
+                "options": [
+                    "False",
+                    "True"
+                ],
+                "correct": 1
+            },
+            {
+                "topic": "Allowance",
+                "emoji": "💵🎯",
+                "question": "Children can make spending choices?",
+                "options": [
+                    "False",
+                    "True"
+                ],
+                "correct": 0
+            },
+            {
+                "topic": "Money",
+                "emoji": "💰🛍️",
+                "question": "Does money have limits?",
+                "options": [
                     "False",
                     "True"
                 ],
@@ -8029,53 +8069,13 @@ const parentingQuestions = {
             },
             {
                 "topic": "Allowance",
-                "emoji": "💵📅",
-                "question": "Is allowance teaches financial skills?",
-                "options": [
-                    "True",
-                    "False"
-                ],
-                "correct": 1
-            },
-            {
-                "topic": "Money",
-                "emoji": "💰🏦",
-                "question": "Is saving an important skill?",
-                "options": [
-                    "True",
-                    "False"
-                ],
-                "correct": 0
-            },
-            {
-                "topic": "Allowance",
-                "emoji": "💵🎯",
-                "question": "Children can make spending choices?",
-                "options": [
-                    "True",
-                    "False"
-                ],
-                "correct": 1
-            },
-            {
-                "topic": "Money",
-                "emoji": "💰🛍️",
-                "question": "Does money have limits?",
-                "options": [
-                    "True",
-                    "False"
-                ],
-                "correct": 1
-            },
-            {
-                "topic": "Allowance",
                 "emoji": "💵🏠",
                 "question": "Do chores can tie to allowance?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Money",
@@ -8092,10 +8092,10 @@ const parentingQuestions = {
                 "emoji": "💵💡",
                 "question": "Is mistakes teach money lessons?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Money",
@@ -8144,70 +8144,70 @@ const parentingQuestions = {
                 "emoji": "💰🏦",
                 "question": "What are the three jars?",
                 "options": [
-                    "Only spend",
-                    "Save, Spend, Give"
+                    "Save, Spend, Give",
+                    "Only spend"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Allowance",
                 "emoji": "💵🎯",
                 "question": "What is earned allowance?",
                 "options": [
-                    "Money for completing tasks",
-                    "Free money"
+                    "Free money",
+                    "Money for completing tasks"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Money",
                 "emoji": "💰🛍️",
                 "question": "What is opportunity cost?",
                 "options": [
-                    "No cost",
-                    "What you give up for choice"
+                    "What you give up for choice",
+                    "No cost"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Allowance",
                 "emoji": "💵🏠",
                 "question": "Should chores be paid?",
                 "options": [
-                    "Debatable, varies by family",
-                    "Always"
+                    "Always",
+                    "Debatable, varies by family"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Money",
                 "emoji": "💰📊",
                 "question": "What is a budget?",
                 "options": [
-                    "Plan for spending and saving",
-                    "Unlimited spending"
+                    "Unlimited spending",
+                    "Plan for spending and saving"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Allowance",
                 "emoji": "💵💡",
                 "question": "What if child wastes allowance?",
                 "options": [
-                    "Always rescue",
-                    "Let them experience consequence"
+                    "Let them experience consequence",
+                    "Always rescue"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Money",
                 "emoji": "💰🎁",
                 "question": "What is charitable giving?",
                 "options": [
-                    "Donating to help others",
-                    "Keeping all"
+                    "Keeping all",
+                    "Donating to help others"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Allowance",
@@ -8226,33 +8226,33 @@ const parentingQuestions = {
                 "emoji": "💰👶",
                 "question": "What is delayed gratification?",
                 "options": [
-                    "Waiting for better reward",
                     "No waiting",
-                    "Immediate satisfaction"
+                    "Immediate satisfaction",
+                    "Waiting for better reward"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Allowance",
                 "emoji": "💵📅",
                 "question": "What is commission vs allowance?",
                 "options": [
-                    "No difference",
                     "Same thing",
+                    "No difference",
                     "Earned vs given"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Money",
                 "emoji": "💰🏦",
                 "question": "What is compound interest?",
                 "options": [
-                    "Interest on interest",
+                    "No interest",
                     "Simple interest",
-                    "No interest"
+                    "Interest on interest"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Allowance",
@@ -8260,21 +8260,21 @@ const parentingQuestions = {
                 "question": "What is the save-spend-give ratio?",
                 "options": [
                     "10-10-80 or similar",
-                    "Random",
-                    "All spend"
+                    "All spend",
+                    "Random"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Money",
                 "emoji": "💰🛍️",
                 "question": "What is impulse buying?",
                 "options": [
-                    "Unplanned purchases",
                     "Planned shopping",
+                    "Unplanned purchases",
                     "Saving"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Allowance",
@@ -8282,8 +8282,8 @@ const parentingQuestions = {
                 "question": "What are family contributions?",
                 "options": [
                     "All paid",
-                    "Unpaid chores for household",
-                    "No chores"
+                    "No chores",
+                    "Unpaid chores for household"
                 ],
                 "correct": 0
             },
@@ -8303,11 +8303,11 @@ const parentingQuestions = {
                 "emoji": "💵💡",
                 "question": "What is financial independence?",
                 "options": [
-                    "Total dependence",
                     "No management",
+                    "Total dependence",
                     "Managing own money responsibly"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Money",
@@ -8315,8 +8315,8 @@ const parentingQuestions = {
                 "question": "What is the giving percentage?",
                 "options": [
                     "0%",
-                    "10% often recommended",
-                    "100%"
+                    "100%",
+                    "10% often recommended"
                 ],
                 "correct": 0
             },
@@ -8325,11 +8325,11 @@ const parentingQuestions = {
                 "emoji": "💵⏰",
                 "question": "What is age-appropriate financial responsibility?",
                 "options": [
-                    "No responsibility",
                     "Increasing with age and maturity",
-                    "Same at all ages"
+                    "Same at all ages",
+                    "No responsibility"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -8338,24 +8338,24 @@ const parentingQuestions = {
                 "emoji": "💰👶",
                 "question": "At what age do children understand money?",
                 "options": [
-                    "1 month",
                     "~3-4 years basic concept",
                     "15 years",
-                    "18 years"
+                    "18 years",
+                    "1 month"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Allowance",
                 "emoji": "💵📅",
                 "question": "What percentage of families give allowance?",
                 "options": [
-                    "10%",
                     "100%",
+                    "10%",
                     "0%",
                     "~60%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Money",
@@ -8363,9 +8363,9 @@ const parentingQuestions = {
                 "question": "What is the average teen savings?",
                 "options": [
                     "$100",
-                    "~$500-1000",
+                    "$0",
                     "$10,000",
-                    "$0"
+                    "~$500-1000"
                 ],
                 "correct": 0
             },
@@ -8374,60 +8374,60 @@ const parentingQuestions = {
                 "emoji": "💵🎯",
                 "question": "What is typical weekly allowance for 10-year-old?",
                 "options": [
-                    "$100",
                     "$1000",
+                    "$100",
                     "$10-15",
                     "$1"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Money",
                 "emoji": "💰🛍️",
                 "question": "What percentage of teens overspend?",
                 "options": [
-                    "~30-40%",
-                    "0%",
+                    "5%",
                     "100%",
-                    "5%"
+                    "0%",
+                    "~30-40%"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Allowance",
                 "emoji": "💵🏠",
                 "question": "What is the debate on payment for chores?",
                 "options": [
-                    "Never pay",
                     "Teaches work vs family duty",
-                    "Always pay",
-                    "No debate"
+                    "Never pay",
+                    "No debate",
+                    "Always pay"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Money",
                 "emoji": "💰📊",
                 "question": "What percentage of adults lack financial literacy?",
                 "options": [
-                    "0%",
                     "~60%",
+                    "100%",
                     "10%",
-                    "100%"
+                    "0%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Allowance",
                 "emoji": "💵💡",
                 "question": "What does the marshmallow test measure?",
                 "options": [
-                    "Delayed gratification study",
+                    "Food test",
                     "No test",
-                    "Speed test",
-                    "Food test"
+                    "Delayed gratification study",
+                    "Speed test"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Money",
@@ -8435,9 +8435,9 @@ const parentingQuestions = {
                 "question": "What percentage of allowance should go to giving?",
                 "options": [
                     "100%",
-                    "90%",
                     "10% commonly suggested",
-                    "0%"
+                    "0%",
+                    "90%"
                 ],
                 "correct": 0
             },
@@ -8447,11 +8447,11 @@ const parentingQuestions = {
                 "question": "When should teens have debit cards?",
                 "options": [
                     "Never",
-                    "13-15 with supervision",
                     "Age 2",
-                    "Age 5"
+                    "Age 5",
+                    "13-15 with supervision"
                 ],
-                "correct": 1
+                "correct": 3
             }
         ],
         "extreme": [
@@ -8564,10 +8564,10 @@ const parentingQuestions = {
                 "emoji": "💔🙅",
                 "question": "Is divorce not child's fault?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Co-Parenting",
@@ -8584,30 +8584,30 @@ const parentingQuestions = {
                 "emoji": "💔❤️",
                 "question": "Is parents still love children?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Co-Parenting",
                 "emoji": "👨‍👧🤝👩‍👧",
                 "question": "Is respect between parents matters?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Divorce",
                 "emoji": "💔⏰",
                 "question": "Does adjustment take time?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Co-Parenting",
@@ -8626,10 +8626,10 @@ const parentingQuestions = {
                 "emoji": "💔👨‍👩‍👧",
                 "question": "What percentage of marriages end in divorce?",
                 "options": [
-                    "5%",
-                    "~40-50%"
+                    "~40-50%",
+                    "5%"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Co-Parenting",
@@ -8666,20 +8666,20 @@ const parentingQuestions = {
                 "emoji": "💔🙅",
                 "question": "What do children need to hear?",
                 "options": [
-                    "It's not your fault, we still love you",
-                    "It's your fault"
+                    "It's your fault",
+                    "It's not your fault, we still love you"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Co-Parenting",
                 "emoji": "👨‍👧⚖️👩‍👧",
                 "question": "What is a parenting plan?",
                 "options": [
-                    "No plan",
-                    "Agreement on custody and decisions"
+                    "Agreement on custody and decisions",
+                    "No plan"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Divorce",
@@ -8716,10 +8716,10 @@ const parentingQuestions = {
                 "emoji": "👨‍👧📅👩‍👧",
                 "question": "What is custody schedule?",
                 "options": [
-                    "Time division between parents",
-                    "Random visits"
+                    "Random visits",
+                    "Time division between parents"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -8728,11 +8728,11 @@ const parentingQuestions = {
                 "emoji": "💔👨‍👩‍👧",
                 "question": "What is high-conflict divorce?",
                 "options": [
-                    "Ongoing disputes affecting children",
+                    "Amicable split",
                     "No conflict",
-                    "Amicable split"
+                    "Ongoing disputes affecting children"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Co-Parenting",
@@ -8740,21 +8740,21 @@ const parentingQuestions = {
                 "question": "What is parallel vs cooperative parenting?",
                 "options": [
                     "No difference",
-                    "Low vs high communication",
-                    "Same thing"
+                    "Same thing",
+                    "Low vs high communication"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Divorce",
                 "emoji": "💔😢",
                 "question": "What is parental alienation?",
                 "options": [
-                    "Healthy relationship",
                     "One parent turns child against other",
+                    "Healthy relationship",
                     "No alienation"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Co-Parenting",
@@ -8771,9 +8771,9 @@ const parentingQuestions = {
                 "emoji": "💔🙅",
                 "question": "What does the acronym parentification stand for?",
                 "options": [
-                    "Appropriate roles",
+                    "Child takes adult role",
                     "No change",
-                    "Child takes adult role"
+                    "Appropriate roles"
                 ],
                 "correct": 1
             },
@@ -8783,8 +8783,8 @@ const parentingQuestions = {
                 "question": "What is joint vs sole custody?",
                 "options": [
                     "Shared vs one parent decision-making",
-                    "Same thing",
-                    "No custody"
+                    "No custody",
+                    "Same thing"
                 ],
                 "correct": 0
             },
@@ -8804,22 +8804,22 @@ const parentingQuestions = {
                 "emoji": "👨‍👧🤝👩‍👧",
                 "question": "What is the business relationship model?",
                 "options": [
-                    "No model",
                     "Professional co-parent interaction",
+                    "No model",
                     "Personal relationship"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Divorce",
                 "emoji": "💔⏰",
                 "question": "How long does adjustment typically take?",
                 "options": [
-                    "10 years",
+                    "1 week",
                     "1-2 years",
-                    "1 week"
+                    "10 years"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Co-Parenting",
@@ -8827,10 +8827,10 @@ const parentingQuestions = {
                 "question": "What is a 2-2-3 schedule?",
                 "options": [
                     "No schedule",
-                    "2 days each, 3 days alternating",
-                    "Random"
+                    "Random",
+                    "2 days each, 3 days alternating"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "expert": [
@@ -8839,12 +8839,12 @@ const parentingQuestions = {
                 "emoji": "💔👨‍👩‍👧",
                 "question": "What percentage of children experience parental divorce?",
                 "options": [
-                    "0%",
+                    "~40%",
                     "100%",
                     "5%",
-                    "~40%"
+                    "0%"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Co-Parenting",
@@ -8852,23 +8852,23 @@ const parentingQuestions = {
                 "question": "What is the ideal parenting communication?",
                 "options": [
                     "None",
-                    "Personal",
                     "Respectful, child-focused, business-like",
-                    "Hostile"
+                    "Hostile",
+                    "Personal"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Divorce",
                 "emoji": "💔😢",
                 "question": "What is the biggest predictor of child adjustment?",
                 "options": [
-                    "Parental conflict level",
-                    "Money",
+                    "No predictor",
                     "Custody arrangement",
-                    "No predictor"
+                    "Money",
+                    "Parental conflict level"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Co-Parenting",
@@ -8876,11 +8876,11 @@ const parentingQuestions = {
                 "question": "What percentage of divorced parents co-parent effectively?",
                 "options": [
                     "~25-30%",
-                    "0%",
                     "100%",
+                    "0%",
                     "90%"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Divorce",
@@ -8888,23 +8888,23 @@ const parentingQuestions = {
                 "question": "What percentage of children blame themselves?",
                 "options": [
                     "100%",
-                    "0%",
+                    "5%",
                     "~30-40%",
-                    "5%"
+                    "0%"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Co-Parenting",
                 "emoji": "👨‍👧⚖️👩‍👧",
                 "question": "What is shared physical custody outcome?",
                 "options": [
-                    "Harmful",
                     "Better child adjustment",
+                    "Harmful",
                     "Worse outcomes",
                     "No difference"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Divorce",
@@ -8913,8 +8913,8 @@ const parentingQuestions = {
                 "options": [
                     "Together by both parents, once decided",
                     "Last minute",
-                    "Never",
-                    "By one parent"
+                    "By one parent",
+                    "Never"
                 ],
                 "correct": 1
             },
@@ -8923,36 +8923,36 @@ const parentingQuestions = {
                 "emoji": "👨‍👧🤝👩‍👧",
                 "question": "What is the impact of parental conflict?",
                 "options": [
-                    "Random",
-                    "No impact",
                     "Always helpful",
-                    "More harmful than divorce itself"
+                    "More harmful than divorce itself",
+                    "No impact",
+                    "Random"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Divorce",
                 "emoji": "💔⏰",
                 "question": "What is the crisis period?",
                 "options": [
-                    "First 6-12 months",
-                    "Never",
                     "First 10 years",
-                    "First week"
+                    "First 6-12 months",
+                    "First week",
+                    "Never"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Co-Parenting",
                 "emoji": "👨‍👧📅👩‍👧",
                 "question": "What percentage prefer consistent schedules?",
                 "options": [
-                    "~85% of children",
                     "0%",
+                    "~85% of children",
                     "10%",
                     "100%"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "extreme": [
@@ -9025,30 +9025,30 @@ const parentingQuestions = {
                 "emoji": "😢👊",
                 "question": "Is bullying hurts children?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Peer Pressure",
                 "emoji": "👥⚠️",
                 "question": "Is peer pressure affects decisions?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Bullying",
                 "emoji": "😢🚫",
                 "question": "Is bullying wrong?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Peer Pressure",
@@ -9105,10 +9105,10 @@ const parentingQuestions = {
                 "emoji": "😢👀",
                 "question": "Do bystanders can help?",
                 "options": [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Peer Pressure",
@@ -9137,30 +9137,30 @@ const parentingQuestions = {
                 "emoji": "👥⚠️",
                 "question": "How is peer pressure defined?",
                 "options": [
-                    "No influence",
-                    "Influence from peers to conform"
+                    "Influence from peers to conform",
+                    "No influence"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Bullying",
                 "emoji": "😢🚫",
                 "question": "What are types of bullying?",
                 "options": [
-                    "Physical, verbal, social, cyber",
-                    "Physical only"
+                    "Physical only",
+                    "Physical, verbal, social, cyber"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Peer Pressure",
                 "emoji": "👥💪",
                 "question": "What builds resistance to pressure?",
                 "options": [
-                    "Confidence, values, skills",
-                    "Nothing"
+                    "Nothing",
+                    "Confidence, values, skills"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Bullying",
@@ -9177,30 +9177,30 @@ const parentingQuestions = {
                 "emoji": "👥🤔",
                 "question": "What is positive peer pressure?",
                 "options": [
-                    "Encouragement toward good choices",
-                    "Always negative"
+                    "Always negative",
+                    "Encouragement toward good choices"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Bullying",
                 "emoji": "😢❤️",
                 "question": "What do bullying victims need?",
                 "options": [
-                    "Blame",
-                    "Belief, support, safety"
+                    "Belief, support, safety",
+                    "Blame"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Peer Pressure",
                 "emoji": "👥🛑",
                 "question": "What is an exit strategy?",
                 "options": [
-                    "No strategy",
-                    "Way to leave uncomfortable situation"
+                    "Way to leave uncomfortable situation",
+                    "No strategy"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Bullying",
@@ -9217,10 +9217,10 @@ const parentingQuestions = {
                 "emoji": "👥👍",
                 "question": "What are healthy friendships?",
                 "options": [
-                    "One-sided",
-                    "Mutual respect and support"
+                    "Mutual respect and support",
+                    "One-sided"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "hard": [
@@ -9230,8 +9230,8 @@ const parentingQuestions = {
                 "question": "What is the bullying triangle?",
                 "options": [
                     "Bully, victim, bystander",
-                    "Two people",
-                    "No triangle"
+                    "No triangle",
+                    "Two people"
                 ],
                 "correct": 0
             },
@@ -9240,9 +9240,9 @@ const parentingQuestions = {
                 "emoji": "👥⚠️",
                 "question": "What is the imaginary audience phenomenon?",
                 "options": [
-                    "Teens feel constantly watched",
+                    "Real watchers",
                     "No audience",
-                    "Real watchers"
+                    "Teens feel constantly watched"
                 ],
                 "correct": 1
             },
@@ -9251,22 +9251,22 @@ const parentingQuestions = {
                 "emoji": "😢🚫",
                 "question": "How is cyberbullying defined?",
                 "options": [
-                    "Online harassment",
                     "In-person only",
-                    "No bullying"
+                    "No bullying",
+                    "Online harassment"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Peer Pressure",
                 "emoji": "👥💪",
                 "question": "What does the acronym assertiveness stand for?",
                 "options": [
-                    "Passivity",
                     "Express needs respectfully",
+                    "Passivity",
                     "Aggression"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Bullying",
@@ -9274,10 +9274,10 @@ const parentingQuestions = {
                 "question": "What is an upstander?",
                 "options": [
                     "Someone who intervenes",
-                    "Bully",
-                    "Bystander"
+                    "Bystander",
+                    "Bully"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Peer Pressure",
@@ -9285,8 +9285,8 @@ const parentingQuestions = {
                 "question": "What is social capital?",
                 "options": [
                     "No capital",
-                    "Money",
-                    "Resources from relationships"
+                    "Resources from relationships",
+                    "Money"
                 ],
                 "correct": 0
             },
@@ -9317,11 +9317,11 @@ const parentingQuestions = {
                 "emoji": "😢👀",
                 "question": "What is the bystander effect?",
                 "options": [
-                    "No effect",
+                    "Always help",
                     "Less likely to help in group",
-                    "Always help"
+                    "No effect"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Peer Pressure",
@@ -9341,12 +9341,12 @@ const parentingQuestions = {
                 "emoji": "😢👊",
                 "question": "What percentage of students experience bullying?",
                 "options": [
+                    "5%",
                     "~20-25%",
-                    "0%",
                     "100%",
-                    "5%"
+                    "0%"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Peer Pressure",
@@ -9354,23 +9354,23 @@ const parentingQuestions = {
                 "question": "Is at what age peer pressure strongest?",
                 "options": [
                     "1 year",
-                    "5 years",
+                    "12-14 years",
                     "25 years",
-                    "12-14 years"
+                    "5 years"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Bullying",
                 "emoji": "😢🚫",
                 "question": "What percentage of bullying is cyberbullying?",
                 "options": [
-                    "~15-20%",
-                    "100%",
                     "90%",
-                    "0%"
+                    "~15-20%",
+                    "0%",
+                    "100%"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Peer Pressure",
@@ -9378,83 +9378,83 @@ const parentingQuestions = {
                 "question": "What is the resistance success rate with skills?",
                 "options": [
                     "~60-70% higher",
-                    "0%",
                     "100%",
+                    "0%",
                     "10%"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Bullying",
                 "emoji": "😢🗣️",
                 "question": "What percentage of bullying is reported?",
                 "options": [
-                    "100%",
-                    "0%",
                     "90%",
-                    "~20-30%"
+                    "100%",
+                    "~20-30%",
+                    "0%"
                 ],
-                "correct": 1
+                "correct": 3
             },
             {
                 "topic": "Peer Pressure",
                 "emoji": "👥🤔",
                 "question": "What percentage of peer influence is positive?",
                 "options": [
-                    "0%",
                     "100%",
                     "5%",
+                    "0%",
                     "Can be ~40-60%"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Bullying",
                 "emoji": "😢❤️",
                 "question": "What is suicide risk increase from bullying?",
                 "options": [
+                    "Same",
                     "No increase",
                     "2-9 times higher",
-                    "Lower",
-                    "Same"
+                    "Lower"
                 ],
-                "correct": 1
+                "correct": 2
             },
             {
                 "topic": "Peer Pressure",
                 "emoji": "👥🛑",
                 "question": "What percentage of teens face pressure to drink?",
                 "options": [
-                    "100%",
                     "~40-50%",
                     "5%",
+                    "100%",
                     "0%"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Bullying",
                 "emoji": "😢👀",
                 "question": "What percentage of bystanders do nothing?",
                 "options": [
-                    "100%",
-                    "~80%",
+                    "0%",
                     "10%",
-                    "0%"
+                    "100%",
+                    "~80%"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Peer Pressure",
                 "emoji": "👥👍",
                 "question": "What is the impact of one close friend?",
                 "options": [
-                    "Random",
-                    "No impact",
                     "Negative",
-                    "Significant protection"
+                    "Significant protection",
+                    "No impact",
+                    "Random"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [
@@ -9527,20 +9527,20 @@ const parentingQuestions = {
                 "emoji": "⭐💎",
                 "question": "Is values guide behavior?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Character",
                 "emoji": "🌟💪",
                 "question": "Character can be taught?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Values",
@@ -9577,40 +9577,40 @@ const parentingQuestions = {
                 "emoji": "🌟💡",
                 "question": "Is responsibility important?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Values",
                 "emoji": "⭐🌈",
                 "question": "Is parents model values?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Character",
                 "emoji": "🌟🎯",
                 "question": "Is perseverance leads to success?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Values",
                 "emoji": "⭐🙌",
                 "question": "Is gratitude beneficial?",
                 "options": [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Character",
@@ -9629,30 +9629,30 @@ const parentingQuestions = {
                 "emoji": "⭐💎",
                 "question": "What are values?",
                 "options": [
-                    "Random ideas",
-                    "Beliefs guiding behavior"
+                    "Beliefs guiding behavior",
+                    "Random ideas"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Character",
                 "emoji": "🌟💪",
                 "question": "What is character education?",
                 "options": [
-                    "Academic only",
-                    "Teaching ethical values"
+                    "Teaching ethical values",
+                    "Academic only"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Values",
                 "emoji": "⭐❤️",
                 "question": "How would you define empathy?",
                 "options": [
-                    "No feeling",
-                    "Understanding others' feelings"
+                    "Understanding others' feelings",
+                    "No feeling"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Character",
@@ -9669,20 +9669,20 @@ const parentingQuestions = {
                 "emoji": "⭐🤝",
                 "question": "What does the acronym respect stand for?",
                 "options": [
-                    "Disregard",
-                    "Valuing others and self"
+                    "Valuing others and self",
+                    "Disregard"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Character",
                 "emoji": "🌟💡",
                 "question": "What does the acronym accountability stand for?",
                 "options": [
-                    "Blaming others",
-                    "Taking responsibility for actions"
+                    "Taking responsibility for actions",
+                    "Blaming others"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Values",
@@ -9699,20 +9699,20 @@ const parentingQuestions = {
                 "emoji": "🌟🎯",
                 "question": "What does the acronym grit stand for?",
                 "options": [
-                    "Giving up",
-                    "Passion and perseverance"
+                    "Passion and perseverance",
+                    "Giving up"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Values",
                 "emoji": "⭐🙌",
                 "question": "What is gratitude practice?",
                 "options": [
-                    "Complaining",
-                    "Regularly expressing thankfulness"
+                    "Regularly expressing thankfulness",
+                    "Complaining"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Character",
@@ -9731,42 +9731,42 @@ const parentingQuestions = {
                 "emoji": "⭐💎",
                 "question": "What is the values hierarchy?",
                 "options": [
+                    "No hierarchy",
                     "Prioritized ranking of values",
-                    "All equal",
-                    "No hierarchy"
+                    "All equal"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Character",
                 "emoji": "🌟💪",
                 "question": "What are the six pillars of character?",
                 "options": [
-                    "No pillars",
                     "Trustworthiness, Respect, Responsibility, Fairness, Caring, Citizenship",
+                    "No pillars",
                     "Two pillars"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Values",
                 "emoji": "⭐❤️",
                 "question": "What is moral development theory?",
                 "options": [
+                    "Stages of ethical reasoning (Kohlberg)",
                     "Random",
-                    "No theory",
-                    "Stages of ethical reasoning (Kohlberg)"
+                    "No theory"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Character",
                 "emoji": "🌟🙏",
                 "question": "What is moral courage?",
                 "options": [
-                    "Going along",
+                    "Standing up for values despite risk",
                     "No courage",
-                    "Standing up for values despite risk"
+                    "Going along"
                 ],
                 "correct": 1
             },
@@ -9786,55 +9786,55 @@ const parentingQuestions = {
                 "emoji": "🌟💡",
                 "question": "What is intrinsic vs extrinsic motivation?",
                 "options": [
-                    "Same thing",
+                    "No difference",
                     "Internal values vs external rewards",
-                    "No difference"
+                    "Same thing"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Values",
                 "emoji": "⭐🌈",
                 "question": "What is the hidden curriculum?",
                 "options": [
-                    "No curriculum",
                     "Values taught through example",
+                    "No curriculum",
                     "Formal lessons"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Character",
                 "emoji": "🌟🎯",
                 "question": "What does delayed gratification mean?",
                 "options": [
+                    "Resisting immediate reward for better",
                     "No delay",
-                    "Immediate satisfaction",
-                    "Resisting immediate reward for better"
+                    "Immediate satisfaction"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Values",
                 "emoji": "⭐🙌",
                 "question": "What is the gratitude-happiness link?",
                 "options": [
-                    "No connection",
                     "Gratitude increases wellbeing",
-                    "Decreases"
+                    "Decreases",
+                    "No connection"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Character",
                 "emoji": "🌟⚖️",
                 "question": "What is moral reasoning?",
                 "options": [
-                    "Thinking through ethical issues",
                     "Random",
-                    "No thinking"
+                    "No thinking",
+                    "Thinking through ethical issues"
                 ],
-                "correct": 1
+                "correct": 0
             }
         ],
         "expert": [
@@ -9843,46 +9843,46 @@ const parentingQuestions = {
                 "emoji": "⭐💎",
                 "question": "At what age do children understand values?",
                 "options": [
-                    "20 years",
                     "1 month",
-                    "~5-7 years",
-                    "18 years"
+                    "18 years",
+                    "20 years",
+                    "~5-7 years"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Character",
                 "emoji": "🌟💪",
                 "question": "What percentage of schools have character education?",
                 "options": [
-                    "0%",
                     "10%",
-                    "~70%",
-                    "100%"
+                    "100%",
+                    "0%",
+                    "~70%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Values",
                 "emoji": "⭐❤️",
                 "question": "Does at what age doe empathy fully develop?",
                 "options": [
-                    "Age 5 complete",
+                    "Never",
                     "Birth",
-                    "Continues through adolescence",
-                    "Never"
+                    "Age 5 complete",
+                    "Continues through adolescence"
                 ],
-                "correct": 0
+                "correct": 2
             },
             {
                 "topic": "Character",
                 "emoji": "🌟🙏",
                 "question": "What is the honesty development timeline?",
                 "options": [
-                    "Increases with age and reasoning",
+                    "Static",
                     "Random",
                     "Decreases",
-                    "Static"
+                    "Increases with age and reasoning"
                 ],
                 "correct": 1
             },
@@ -9891,48 +9891,48 @@ const parentingQuestions = {
                 "emoji": "⭐🤝",
                 "question": "What percentage of values come from parents?",
                 "options": [
-                    "10%",
                     "0%",
-                    "100%",
-                    "~70-80% primary influence"
+                    "10%",
+                    "~70-80% primary influence",
+                    "100%"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Character",
                 "emoji": "🌟💡",
                 "question": "What is the impact of responsibility on success?",
                 "options": [
+                    "Strong positive correlation",
                     "Random",
                     "No correlation",
-                    "Strong positive correlation",
                     "Negative"
                 ],
-                "correct": 0
+                "correct": 1
             },
             {
                 "topic": "Values",
                 "emoji": "⭐🌈",
                 "question": "What is the modeling effectiveness?",
                 "options": [
-                    "Equal",
                     "Words more powerful",
                     "Actions more powerful than words",
-                    "No impact"
+                    "No impact",
+                    "Equal"
                 ],
-                "correct": 1
+                "correct": 0
             },
             {
                 "topic": "Character",
                 "emoji": "🌟🎯",
                 "question": "What did Angela Duckworth study?",
                 "options": [
-                    "IQ only",
                     "Random",
+                    "Grit predicts success",
                     "No research",
-                    "Grit predicts success"
+                    "IQ only"
                 ],
-                "correct": 0
+                "correct": 3
             },
             {
                 "topic": "Values",
@@ -9941,8 +9941,8 @@ const parentingQuestions = {
                 "options": [
                     "100% increase",
                     "25% increase in happiness",
-                    "No change",
-                    "Decrease"
+                    "Decrease",
+                    "No change"
                 ],
                 "correct": 0
             },
@@ -9951,12 +9951,12 @@ const parentingQuestions = {
                 "emoji": "🌟⚖️",
                 "question": "What are Kohlberg's stages?",
                 "options": [
-                    "10 stages",
-                    "No stages",
+                    "6 stages of moral development",
                     "2 stages",
-                    "6 stages of moral development"
+                    "No stages",
+                    "10 stages"
                 ],
-                "correct": 1
+                "correct": 2
             }
         ],
         "extreme": [

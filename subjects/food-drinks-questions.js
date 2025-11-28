@@ -16,40 +16,40 @@ const foodDrinksQuestions = {
                 emoji: "🍕🍔",
                 question: "Are bananas yellow when ripe?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Beverages",
                 emoji: "🍟🌭",
                 question: "Is coffee a hot beverage?",
                 options: [
-                    "False",
-                    "True"
-                ],
-                correct: 0
-            },
-            {
-                topic: "Pizza",
-                emoji: "🍿🥨",
-                question: "Does pizza originate from Italy?",
-                options: [
                     "True",
                     "False"
                 ],
                 correct: 1
             },
             {
-                topic: "Water",
-                emoji: "🍩🍪",
-                question: "Is water essential for survival?",
+                topic: "Pizza",
+                emoji: "🍿🥨",
+                question: "Does pizza originate from Italy?",
                 options: [
                     "False",
                     "True"
                 ],
                 correct: 0
+            },
+            {
+                topic: "Water",
+                emoji: "🍩🍪",
+                question: "Is water essential for survival?",
+                options: [
+                    "True",
+                    "False"
+                ],
+                correct: 1
             },
             {
                 topic: "Chocolate",
@@ -66,10 +66,10 @@ const foodDrinksQuestions = {
                 emoji: "🧁🍮",
                 question: "Does tea come from tea leaves?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Bread",
@@ -118,40 +118,40 @@ const foodDrinksQuestions = {
                 emoji: "☕🍵",
                 question: "Is spaghetti a type of pasta?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Smoothies",
                 emoji: "🥛🍼",
                 question: "Are smoothies blended drinks?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Sushi",
                 emoji: "🍺🍻",
                 question: "Is sushi always made with raw fish?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Lemonade",
                 emoji: "🍷🍾",
                 question: "Is lemonade made with lemons?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Cheese",
@@ -188,30 +188,30 @@ const foodDrinksQuestions = {
                 emoji: "🍝🍝",
                 question: "Is hot chocolate served cold?",
                 options: [
-                    "False",
-                    "True"
-                ],
-                correct: 1
-            },
-            {
-                topic: "Rice",
-                emoji: "🍜🍲",
-                question: "Is rice a grain?",
-                options: [
                     "True",
                     "False"
                 ],
                 correct: 0
             },
             {
-                topic: "Coconut Water",
-                emoji: "🍱🍛",
-                question: "Does coconut water come from coconuts?",
+                topic: "Rice",
+                emoji: "🍜🍲",
+                question: "Is rice a grain?",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 0
+                correct: 1
+            },
+            {
+                topic: "Coconut Water",
+                emoji: "🍱🍛",
+                question: "Does coconut water come from coconuts?",
+                options: [
+                    "True",
+                    "False"
+                ],
+                correct: 1
             }
         ],
         hard: [
@@ -240,10 +240,10 @@ const foodDrinksQuestions = {
                 emoji: "🍞🥖",
                 question: "Is quinoa a complete protein?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Kombucha",
@@ -280,20 +280,20 @@ const foodDrinksQuestions = {
                 emoji: "🥞🧇",
                 question: "Is foie gras made from duck liver?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Sake",
                 emoji: "🍎🍏",
                 question: "Is sake made from rice?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Prosciutto",
@@ -310,10 +310,10 @@ const foodDrinksQuestions = {
                 emoji: "🥑🥥",
                 question: "Is kefir a fermented milk drink?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         "expert": [
@@ -322,10 +322,10 @@ const foodDrinksQuestions = {
                 emoji: "😋🍄",
                 question: "Is umami the fifth basic taste?",
                 options: [
-                    "True",
+                    "Never",
                     "False",
-                    "Maybe",
-                    "Never"
+                    "True",
+                    "Maybe"
                 ],
                 correct: 1
             },
@@ -334,93 +334,93 @@ const foodDrinksQuestions = {
                 emoji: "☕🌍",
                 question: "Is Ethiopia considered the birthplace of coffee?",
                 options: [
-                    "False",
-                    "True",
                     "Unknown",
-                    "China"
+                    "False",
+                    "China",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Molecular Gastronomy",
                 emoji: "🔬🍽️",
                 question: "Does molecular gastronomy use scientific techniques in cooking?",
                 options: [
-                    "True",
                     "False",
+                    "True",
                     "Sometimes",
                     "Never"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Wine Terroir",
                 emoji: "🍷🌍",
                 question: "Does terroir refer to environmental factors affecting wine?",
                 options: [
-                    "No",
-                    "Maybe",
+                    "False",
                     "True",
-                    "False"
+                    "Maybe",
+                    "No"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Saffron",
                 emoji: "🌺💰",
                 question: "Is saffron the most expensive spice by weight?",
                 options: [
-                    "False",
                     "True",
+                    "Third most",
                     "Second most",
-                    "Third most"
+                    "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Champagne",
                 emoji: "🍾🇫🇷",
                 question: "Can only sparkling wine from Champagne region be called Champagne?",
                 options: [
-                    "True",
-                    "False",
                     "Any region",
-                    "Only Italy"
+                    "False",
+                    "Only Italy",
+                    "True"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Maillard Reaction",
                 emoji: "🔥🥩",
                 question: "Does the Maillard reaction create browning in cooked foods?",
                 options: [
-                    "False",
-                    "Never",
                     "True",
-                    "Rarely"
+                    "Rarely",
+                    "Never",
+                    "False"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Pu-erh Tea",
                 emoji: "🍵🇨🇳",
                 question: "Is pu-erh tea aged and fermented?",
                 options: [
-                    "True",
-                    "False",
                     "Only dried",
-                    "Only fresh"
+                    "True",
+                    "Only fresh",
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Wagyu Beef",
                 emoji: "🥩🇯🇵",
                 question: "Does wagyu beef have high marbling?",
                 options: [
-                    "No",
-                    "True",
                     "False",
+                    "True",
+                    "No",
                     "Medium"
                 ],
                 correct: 1
@@ -430,12 +430,12 @@ const foodDrinksQuestions = {
                 emoji: "🍸💚",
                 question: "Does absinthe contain wormwood?",
                 options: [
-                    "True",
-                    "False",
                     "Only vintage",
-                    "Never"
+                    "False",
+                    "Never",
+                    "True"
                 ],
-                correct: 0
+                correct: 3
             }
         ],
         "extreme": [
@@ -444,24 +444,24 @@ const foodDrinksQuestions = {
                 emoji: "👨‍🍳🌟",
                 question: "Name three French mother sauces?",
                 options: [
-                    "Béchamel",
                     "Velouté",
-                    "Espagnole",
-                    "Hollandaise"
+                    "Béchamel",
+                    "Hollandaise",
+                    "Espagnole"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Coffee Brewing",
                 emoji: "☕🔧",
                 question: "Name three coffee brewing methods?",
                 options: [
-                    "Espresso",
-                    "French press",
                     "Pour over",
-                    "Cold brew"
+                    "French press",
+                    "Cold brew",
+                    "Espresso"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Knife Skills",
@@ -469,9 +469,9 @@ const foodDrinksQuestions = {
                 question: "Name three basic knife cuts?",
                 options: [
                     "Julienne",
-                    "Brunoise",
+                    "Chiffonade",
                     "Dice",
-                    "Chiffonade"
+                    "Brunoise"
                 ],
                 correct: 0
             },
@@ -480,12 +480,12 @@ const foodDrinksQuestions = {
                 emoji: "🍵🌈",
                 question: "Name three types of tea?",
                 options: [
-                    "Green",
                     "Black",
+                    "Green",
                     "White",
                     "Oolong"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Pasta Shapes",
@@ -493,9 +493,9 @@ const foodDrinksQuestions = {
                 question: "Name three pasta shapes?",
                 options: [
                     "Penne",
-                    "Fusilli",
                     "Farfalle",
-                    "Rigatoni"
+                    "Rigatoni",
+                    "Fusilli"
                 ],
                 correct: 0
             },
@@ -505,9 +505,9 @@ const foodDrinksQuestions = {
                 question: "Name three classic cocktail ingredients?",
                 options: [
                     "Bitters",
-                    "Simple syrup",
+                    "Vermouth",
                     "Citrus",
-                    "Vermouth"
+                    "Simple syrup"
                 ],
                 correct: 0
             },
@@ -516,48 +516,48 @@ const foodDrinksQuestions = {
                 emoji: "🧀🌍",
                 question: "Name three types of cheese?",
                 options: [
-                    "Cheddar",
                     "Brie",
+                    "Cheddar",
                     "Gouda",
                     "Parmesan"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Smoothie Ingredients",
                 emoji: "🥤🍓",
                 question: "Name three common smoothie ingredients?",
                 options: [
-                    "Banana",
-                    "Berries",
+                    "Spinach",
                     "Yogurt",
-                    "Spinach"
+                    "Banana",
+                    "Berries"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Baking Essentials",
                 emoji: "🧁🥄",
                 question: "Name three essential baking ingredients?",
                 options: [
-                    "Flour",
-                    "Sugar",
                     "Eggs",
-                    "Butter"
+                    "Butter",
+                    "Flour",
+                    "Sugar"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Wine Regions",
                 emoji: "🍷🗺️",
                 question: "Name three famous wine regions?",
                 options: [
-                    "Bordeaux",
-                    "Tuscany",
                     "Napa Valley",
+                    "Tuscany",
+                    "Bordeaux",
                     "Rioja"
                 ],
-                correct: 0
+                correct: 2
             }
         ]
     },
@@ -568,20 +568,20 @@ const foodDrinksQuestions = {
                 emoji: "🥦🥕",
                 question: "Are carrots orange vegetables?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Orange Juice",
                 emoji: "🍊🥤",
                 question: "Is orange juice made from oranges?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Hamburger",
@@ -598,20 +598,20 @@ const foodDrinksQuestions = {
                 emoji: "🍵💚",
                 question: "Is green tea green in color?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Ice Cream",
                 emoji: "🍦❄️",
                 question: "Is ice cream served frozen?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Apple Juice",
@@ -628,10 +628,10 @@ const foodDrinksQuestions = {
                 emoji: "🍗🐔",
                 question: "Is chicken a type of poultry?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Mineral Water",
@@ -658,10 +658,10 @@ const foodDrinksQuestions = {
                 emoji: "🧊🍵",
                 question: "Is iced tea served cold?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         medium: [
@@ -700,10 +700,10 @@ const foodDrinksQuestions = {
                 emoji: "⚡🥤",
                 question: "Do energy drinks contain caffeine?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Lasagna",
@@ -720,30 +720,30 @@ const foodDrinksQuestions = {
                 emoji: "🥤🍦",
                 question: "Is a milkshake made with ice cream?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Croissant",
                 emoji: "🥐🇫🇷",
                 question: "Is croissant a French pastry?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Sports Drinks",
                 emoji: "🏃‍♂️🥤",
                 question: "Do sports drinks contain electrolytes?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Tofu",
@@ -772,10 +772,10 @@ const foodDrinksQuestions = {
                 emoji: "🥬🇰🇷",
                 question: "Is kimchi a fermented Korean dish?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Cold Brew",
@@ -822,10 +822,10 @@ const foodDrinksQuestions = {
                 emoji: "🥛🌾",
                 question: "Is horchata made from rice or nuts?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Pho",
@@ -842,30 +842,30 @@ const foodDrinksQuestions = {
                 emoji: "🍺🍞",
                 question: "Is kvass a fermented bread drink?",
                 options: [
-                    "False",
-                    "True"
-                ],
-                correct: 0
-            },
-            {
-                topic: "Escargot",
-                emoji: "🐌🇫🇷",
-                question: "Is escargot cooked snails?",
-                options: [
                     "True",
                     "False"
                 ],
                 correct: 1
             },
             {
-                topic: "Lassi",
-                emoji: "🥤🇮🇳",
-                question: "Is lassi an Indian yogurt beverage?",
+                topic: "Escargot",
+                emoji: "🐌🇫🇷",
+                question: "Is escargot cooked snails?",
                 options: [
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
+            },
+            {
+                topic: "Lassi",
+                emoji: "🥤🇮🇳",
+                question: "Is lassi an Indian yogurt beverage?",
+                options: [
+                    "True",
+                    "False"
+                ],
+                correct: 0
             }
         ],
         "expert": [
@@ -874,48 +874,48 @@ const foodDrinksQuestions = {
                 emoji: "🥣🇯🇵",
                 question: "Is miso a fermented soybean paste?",
                 options: [
-                    "True",
                     "False",
+                    "True",
                     "Only beans",
                     "Only salt"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Amaro",
                 emoji: "🍸🌿",
                 question: "Is amaro a bitter Italian herbal liqueur?",
                 options: [
+                    "Sweet only",
                     "False",
                     "True",
-                    "Sweet only",
                     "No herbs"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Confit",
                 emoji: "🦆🔥",
                 question: "Is confit a method of slow-cooking in fat?",
                 options: [
-                    "True",
                     "False",
                     "Fast cooking",
-                    "No fat"
+                    "No fat",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Oolong Tea",
                 emoji: "🍵🍂",
                 question: "Is oolong tea partially oxidized?",
                 options: [
-                    "Never",
                     "True",
+                    "Never",
                     "False",
                     "Fully only"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Ceviche",
@@ -923,11 +923,11 @@ const foodDrinksQuestions = {
                 question: "Is ceviche raw fish cured in citrus?",
                 options: [
                     "True",
-                    "False",
+                    "No citrus",
                     "Cooked fish",
-                    "No citrus"
+                    "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Mezcal",
@@ -935,11 +935,11 @@ const foodDrinksQuestions = {
                 question: "Is mezcal made from agave plants?",
                 options: [
                     "False",
-                    "Only cactus",
+                    "Corn based",
                     "True",
-                    "Corn based"
+                    "Only cactus"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Sous Vide",
@@ -947,8 +947,8 @@ const foodDrinksQuestions = {
                 question: "Does sous vide involve vacuum-sealed cooking?",
                 options: [
                     "True",
-                    "False",
                     "Open air",
+                    "False",
                     "Grilling"
                 ],
                 correct: 0
@@ -972,8 +972,8 @@ const foodDrinksQuestions = {
                 options: [
                     "True",
                     "False",
-                    "Vegetable only",
-                    "Cheese"
+                    "Cheese",
+                    "Vegetable only"
                 ],
                 correct: 0
             },
@@ -982,12 +982,12 @@ const foodDrinksQuestions = {
                 emoji: "🍵🇿🇦",
                 question: "Is rooibos a caffeine-free herbal tea?",
                 options: [
-                    "High caffeine",
                     "False",
                     "True",
+                    "High caffeine",
                     "Medium caffeine"
                 ],
-                correct: 0
+                correct: 2
             }
         ],
         "extreme": [
@@ -996,12 +996,12 @@ const foodDrinksQuestions = {
                 emoji: "🍜🌏",
                 question: "Name three Asian noodle dishes?",
                 options: [
-                    "Ramen",
                     "Pho",
-                    "Pad Thai",
-                    "Lo Mein"
+                    "Ramen",
+                    "Lo Mein",
+                    "Pad Thai"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Coffee Drinks",
@@ -1009,9 +1009,9 @@ const foodDrinksQuestions = {
                 question: "Name three espresso-based drinks?",
                 options: [
                     "Latte",
+                    "Macchiato",
                     "Cappuccino",
-                    "Americano",
-                    "Macchiato"
+                    "Americano"
                 ],
                 correct: 0
             },
@@ -1021,8 +1021,8 @@ const foodDrinksQuestions = {
                 question: "Name three types of shellfish?",
                 options: [
                     "Shrimp",
-                    "Lobster",
                     "Crab",
+                    "Lobster",
                     "Oysters"
                 ],
                 correct: 0
@@ -1032,12 +1032,12 @@ const foodDrinksQuestions = {
                 emoji: "🍵🌿",
                 question: "Name three herbal tea varieties?",
                 options: [
+                    "Rooibos",
                     "Chamomile",
                     "Peppermint",
-                    "Hibiscus",
-                    "Rooibos"
+                    "Hibiscus"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Mexican Food",
@@ -1045,9 +1045,9 @@ const foodDrinksQuestions = {
                 question: "Name three Mexican dishes?",
                 options: [
                     "Tacos",
+                    "Burritos",
                     "Enchiladas",
-                    "Quesadillas",
-                    "Burritos"
+                    "Quesadillas"
                 ],
                 correct: 0
             },
@@ -1056,60 +1056,60 @@ const foodDrinksQuestions = {
                 emoji: "🧃🍇",
                 question: "Name three types of fruit juice?",
                 options: [
+                    "Cranberry",
                     "Orange",
-                    "Apple",
                     "Grape",
-                    "Cranberry"
+                    "Apple"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Italian Dishes",
                 emoji: "🍝🇮🇹",
                 question: "Name three Italian pasta dishes?",
                 options: [
-                    "Carbonara",
-                    "Bolognese",
                     "Alfredo",
+                    "Bolognese",
+                    "Carbonara",
                     "Marinara"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Hot Beverages",
                 emoji: "☕🔥",
                 question: "Name three hot drinks?",
                 options: [
-                    "Coffee",
                     "Tea",
+                    "Cappuccino",
                     "Hot chocolate",
-                    "Cappuccino"
+                    "Coffee"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Desserts",
                 emoji: "🍰🍨",
                 question: "Name three popular desserts?",
                 options: [
-                    "Cake",
-                    "Ice cream",
                     "Pie",
-                    "Cookies"
+                    "Cookies",
+                    "Ice cream",
+                    "Cake"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Breakfast Drinks",
                 emoji: "🥤🌅",
                 question: "Name three breakfast beverages?",
                 options: [
-                    "Orange juice",
-                    "Coffee",
+                    "Smoothie",
                     "Milk",
-                    "Smoothie"
+                    "Coffee",
+                    "Orange juice"
                 ],
-                correct: 0
+                correct: 3
             }
         ]
     },
@@ -1120,30 +1120,30 @@ const foodDrinksQuestions = {
                 emoji: "🍅🥗",
                 question: "Is tomato red when ripe?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Chocolate Milk",
                 emoji: "🥛🍫",
                 question: "Does chocolate milk contain chocolate?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "French Fries",
                 emoji: "🍟🥔",
                 question: "Are french fries made from potatoes?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Grape Juice",
@@ -1170,10 +1170,10 @@ const foodDrinksQuestions = {
                 emoji: "🍋💧",
                 question: "Does lemon water contain lemon?",
                 options: [
-                  "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Bacon",
@@ -1210,10 +1210,10 @@ const foodDrinksQuestions = {
                 emoji: "🥤🫚",
                 question: "Does ginger ale contain ginger flavor?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         medium: [
@@ -1222,20 +1222,20 @@ const foodDrinksQuestions = {
                 emoji: "🦐🍤",
                 question: "Is shrimp a type of seafood?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Latte",
                 emoji: "☕🥛",
                 question: "Does a latte contain more milk than espresso?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Hummus",
@@ -1262,10 +1262,10 @@ const foodDrinksQuestions = {
                 emoji: "🧆🌱",
                 question: "Is falafel a Middle Eastern food?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Coconut Milk",
@@ -1282,20 +1282,20 @@ const foodDrinksQuestions = {
                 emoji: "🧀🌮",
                 question: "Do nachos typically have cheese?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Chai Latte",
                 emoji: "☕🌶️",
                 question: "Does chai contain spices?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Gyro",
@@ -1344,10 +1344,10 @@ const foodDrinksQuestions = {
                 emoji: "🥔🍝",
                 question: "Is gnocchi made with potato?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Switchel",
@@ -1384,30 +1384,30 @@ const foodDrinksQuestions = {
                 emoji: "🍆🍅",
                 question: "Is ratatouille a vegetable dish?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Agua Fresca",
                 emoji: "🥤🍉",
                 question: "Is agua fresca a Mexican fruit beverage?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Haggis",
                 emoji: "🥘🏴󠁧󠁢󠁳󠁣󠁴󠁿",
                 question: "Is haggis a Scottish dish?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Mate Tea",
@@ -1426,10 +1426,10 @@ const foodDrinksQuestions = {
                 emoji: "🍄👨‍🍳",
                 question: "Is duxelles a finely chopped mushroom mixture?",
                 options: [
-                    "True",
-                    "False",
                     "Only whole",
-                    "No mushrooms"
+                    "False",
+                    "No mushrooms",
+                    "True"
                 ],
                 correct: 1
             },
@@ -1438,10 +1438,10 @@ const foodDrinksQuestions = {
                 emoji: "🍺🌿",
                 question: "Are Cascade hops used in brewing beer?",
                 options: [
-                    "Never",
+                    "Only wine",
                     "True",
                     "False",
-                    "Only wine"
+                    "Never"
                 ],
                 correct: 1
             },
@@ -1450,10 +1450,10 @@ const foodDrinksQuestions = {
                 emoji: "🥕🧅",
                 question: "Is mirepoix a French aromatic vegetable base?",
                 options: [
-                    "True",
+                    "Single vegetable",
                     "False",
                     "Only meat",
-                    "Single vegetable"
+                    "True"
                 ],
                 correct: 1
             },
@@ -1462,33 +1462,33 @@ const foodDrinksQuestions = {
                 emoji: "🍷🇮🇹",
                 question: "Is Barolo made from Nebbiolo grapes?",
                 options: [
+                    "Merlot only",
                     "False",
-                    "Cabernet only",
                     "True",
-                    "Merlot only"
+                    "Cabernet only"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Cassoulet",
                 emoji: "🍲🇫🇷",
                 question: "Is cassoulet a French bean stew?",
                 options: [
-                    "True",
-                    "False",
                     "Only meat",
+                    "False",
+                    "True",
                     "No beans"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Genmai Tea",
                 emoji: "🍵🌾",
                 question: "Does genmai tea contain roasted rice?",
                 options: [
-                    "No rice",
-                    "False",
                     "True",
+                    "False",
+                    "No rice",
                     "Only leaves"
                 ],
                 correct: 1
@@ -1498,12 +1498,12 @@ const foodDrinksQuestions = {
                 emoji: "🐟🥔",
                 question: "Is brandade made with salt cod?",
                 options: [
+                    "No fish",
                     "True",
                     "False",
-                    "Fresh fish only",
-                    "No fish"
+                    "Fresh fish only"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Shochu",
@@ -1512,8 +1512,8 @@ const foodDrinksQuestions = {
                 options: [
                     "Beer",
                     "True",
-                    "False",
-                    "Wine"
+                    "Wine",
+                    "False"
                 ],
                 correct: 0
             },
@@ -1522,24 +1522,24 @@ const foodDrinksQuestions = {
                 emoji: "🥬🇫🇷",
                 question: "Is choucroute fermented cabbage?",
                 options: [
-                    "True",
+                    "Pickled",
                     "False",
                     "Fresh only",
-                    "Pickled"
+                    "True"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Tepache",
                 emoji: "🍍🥤",
                 question: "Is tepache fermented from pineapple?",
                 options: [
+                    "Apple",
                     "Orange",
                     "False",
-                    "True",
-                    "Apple"
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         "extreme": [
@@ -1548,24 +1548,24 @@ const foodDrinksQuestions = {
                 emoji: "🇫🇷👨‍🍳",
                 question: "Name three classic French dishes?",
                 options: [
-                    "Coq au vin",
-                    "Beef bourguignon",
                     "Ratatouille",
-                    "Bouillabaisse"
+                    "Bouillabaisse",
+                    "Beef bourguignon",
+                    "Coq au vin"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Cold Drinks",
                 emoji: "🧊🥤",
                 question: "Name three cold beverages?",
                 options: [
+                    "Iced coffee",
                     "Iced tea",
                     "Lemonade",
-                    "Smoothie",
-                    "Iced coffee"
+                    "Smoothie"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Grains",
@@ -1573,9 +1573,9 @@ const foodDrinksQuestions = {
                 question: "Name three types of grains?",
                 options: [
                     "Rice",
+                    "Oats",
                     "Wheat",
-                    "Quinoa",
-                    "Oats"
+                    "Quinoa"
                 ],
                 correct: 0
             },
@@ -1584,48 +1584,48 @@ const foodDrinksQuestions = {
                 emoji: "🍋🥤",
                 question: "Name three citrus-based drinks?",
                 options: [
-                    "Lemonade",
                     "Orange juice",
-                    "Grapefruit juice",
-                    "Limeade"
+                    "Lemonade",
+                    "Limeade",
+                    "Grapefruit juice"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Street Food",
                 emoji: "🌮🍢",
                 question: "Name three popular street foods?",
                 options: [
-                    "Tacos",
-                    "Hot dogs",
                     "Kebabs",
-                    "Falafel"
+                    "Falafel",
+                    "Tacos",
+                    "Hot dogs"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Dairy Products",
                 emoji: "🥛🧀",
                 question: "Name three dairy products?",
                 options: [
-                    "Milk",
-                    "Cheese",
                     "Yogurt",
-                    "Butter"
+                    "Milk",
+                    "Butter",
+                    "Cheese"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Japanese Food",
                 emoji: "🍣🇯🇵",
                 question: "Name three Japanese dishes?",
                 options: [
-                    "Sushi",
+                    "Teriyaki",
                     "Ramen",
-                    "Tempura",
-                    "Teriyaki"
+                    "Sushi",
+                    "Tempura"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Tropical Drinks",
@@ -1633,9 +1633,9 @@ const foodDrinksQuestions = {
                 question: "Name three tropical beverages?",
                 options: [
                     "Piña colada",
-                    "Coconut water",
                     "Mango juice",
-                    "Passion fruit juice"
+                    "Passion fruit juice",
+                    "Coconut water"
                 ],
                 correct: 0
             },
@@ -1644,12 +1644,12 @@ const foodDrinksQuestions = {
                 emoji: "🌶️🧂",
                 question: "Name three common spices?",
                 options: [
-                    "Pepper",
+                    "Paprika",
                     "Cinnamon",
                     "Cumin",
-                    "Paprika"
+                    "Pepper"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Breakfast Foods",
@@ -1657,9 +1657,9 @@ const foodDrinksQuestions = {
                 question: "Name three breakfast items?",
                 options: [
                     "Eggs",
-                    "Pancakes",
+                    "Toast",
                     "Bacon",
-                    "Toast"
+                    "Pancakes"
                 ],
                 correct: 0
             }
@@ -1682,10 +1682,10 @@ const foodDrinksQuestions = {
                 emoji: "🍵🔥",
                 question: "Is tea served hot?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Hot Dog",
@@ -1702,10 +1702,10 @@ const foodDrinksQuestions = {
                 emoji: "🍍🧃",
                 question: "Is pineapple juice made from pineapples?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Donut",
@@ -1752,10 +1752,10 @@ const foodDrinksQuestions = {
                 emoji: "🥞🍯",
                 question: "Are pancakes a breakfast food?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Sparkling Water",
@@ -1774,40 +1774,40 @@ const foodDrinksQuestions = {
                 emoji: "🦞🌊",
                 question: "Is lobster a shellfish?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Frappuccino",
                 emoji: "☕🧊",
                 question: "Is a frappuccino a blended iced coffee?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Quinoa",
                 emoji: "🌾🥗",
                 question: "Is quinoa a superfood grain?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Freshly Squeezed",
                 emoji: "🍊💪",
                 question: "Is freshly squeezed juice made by hand?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Burrito",
@@ -1834,40 +1834,40 @@ const foodDrinksQuestions = {
                 emoji: "🥟🇨🇳",
                 question: "Is dim sum a Chinese cuisine?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Soy Milk",
                 emoji: "🥛🌱",
                 question: "Is soy milk made from soybeans?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Waffles",
                 emoji: "🧇🍯",
                 question: "Do waffles have a grid pattern?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Pomegranate Juice",
                 emoji: "🍷💎",
                 question: "Is pomegranate juice red in color?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         hard: [
@@ -1876,20 +1876,20 @@ const foodDrinksQuestions = {
                 emoji: "🍚🇰🇷",
                 question: "Is bibimbap a Korean rice bowl?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Cortado",
                 emoji: "☕🥛",
                 question: "Is a cortado equal parts espresso and milk?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Shakshuka",
@@ -1926,20 +1926,20 @@ const foodDrinksQuestions = {
                 emoji: "☕💛",
                 question: "Does turmeric latte contain turmeric spice?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Tagine",
                 emoji: "🍲🇲🇦",
                 question: "Is tagine cooked in a cone-shaped pot?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Shrub Drink",
@@ -1966,10 +1966,10 @@ const foodDrinksQuestions = {
                 emoji: "☕🇮🇳",
                 question: "Does chai latte combine tea with milk?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         "expert": [
@@ -1990,46 +1990,46 @@ const foodDrinksQuestions = {
                 emoji: "🍵🏔️",
                 question: "Is Darjeeling tea from India?",
                 options: [
-                    "China only",
-                    "True",
+                    "Japan only",
                     "False",
-                    "Japan only"
+                    "China only",
+                    "True"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Galantine",
                 emoji: "🍖🎀",
                 question: "Is galantine a boned, stuffed, and poached dish?",
                 options: [
+                    "Roasted only",
                     "True",
                     "False",
-                    "Roasted only",
                     "Fried only"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Riesling Wine",
                 emoji: "🍷🇩🇪",
                 question: "Is Riesling typically a white wine?",
                 options: [
-                    "Red only",
-                    "False",
+                    "Rosé only",
                     "True",
-                    "Rosé only"
+                    "Red only",
+                    "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Soufflé",
                 emoji: "🥚☁️",
                 question: "Does a soufflé rise due to beaten eggs?",
                 options: [
-                    "True",
+                    "Baking powder",
                     "False",
                     "Yeast only",
-                    "Baking powder"
+                    "True"
                 ],
                 correct: 1
             },
@@ -2039,8 +2039,8 @@ const foodDrinksQuestions = {
                 question: "Is Assam tea a strong black tea?",
                 options: [
                     "Green only",
-                    "True",
                     "False",
+                    "True",
                     "White only"
                 ],
                 correct: 0
@@ -2050,24 +2050,24 @@ const foodDrinksQuestions = {
                 emoji: "🍗🎁",
                 question: "Is ballotine a deboned poultry dish?",
                 options: [
-                    "True",
-                    "False",
+                    "Vegetable",
                     "Fish only",
-                    "Vegetable"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Grappa",
                 emoji: "🥃🍇",
                 question: "Is grappa made from grape pomace?",
                 options: [
-                    "Grain based",
-                    "False",
+                    "Potato based",
                     "True",
-                    "Potato based"
+                    "False",
+                    "Grain based"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Charcuterie",
@@ -2075,23 +2075,23 @@ const foodDrinksQuestions = {
                 question: "Does charcuterie involve cured meats?",
                 options: [
                     "True",
-                    "False",
+                    "Vegetables",
                     "Cheese only",
-                    "Vegetables"
+                    "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Sencha Tea",
                 emoji: "🍵🇯🇵",
                 question: "Is sencha a Japanese green tea?",
                 options: [
+                    "Herbal",
                     "Black tea",
                     "False",
-                    "True",
-                    "Herbal"
+                    "True"
                 ],
-                correct: 1
+                correct: 2
             }
         ],
         "extreme": [
@@ -2102,8 +2102,8 @@ const foodDrinksQuestions = {
                 options: [
                     "Curry",
                     "Biryani",
-                    "Tikka masala",
-                    "Samosa"
+                    "Samosa",
+                    "Tikka masala"
                 ],
                 correct: 0
             },
@@ -2112,12 +2112,12 @@ const foodDrinksQuestions = {
                 emoji: "🍵🌈",
                 question: "Name three black tea varieties?",
                 options: [
-                    "Earl Grey",
                     "English breakfast",
+                    "Ceylon",
                     "Assam",
-                    "Ceylon"
+                    "Earl Grey"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Sandwich Types",
@@ -2126,8 +2126,8 @@ const foodDrinksQuestions = {
                 options: [
                     "BLT",
                     "Club",
-                    "Reuben",
-                    "Grilled cheese"
+                    "Grilled cheese",
+                    "Reuben"
                 ],
                 correct: 0
             },
@@ -2136,84 +2136,84 @@ const foodDrinksQuestions = {
                 emoji: "🥤🍌",
                 question: "Name three smoothie base ingredients?",
                 options: [
+                    "Juice",
                     "Banana",
-                    "Yogurt",
                     "Milk",
-                    "Juice"
+                    "Yogurt"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Steak Cuts",
                 emoji: "🥩🔪",
                 question: "Name three cuts of steak?",
                 options: [
-                    "Ribeye",
-                    "Sirloin",
                     "Filet mignon",
-                    "T-bone"
+                    "Ribeye",
+                    "T-bone",
+                    "Sirloin"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Wine Types",
                 emoji: "🍷🍇",
                 question: "Name three types of wine?",
                 options: [
-                    "Red",
                     "White",
-                    "Rosé",
-                    "Sparkling"
+                    "Sparkling",
+                    "Red",
+                    "Rosé"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Soup Varieties",
                 emoji: "🍲🥄",
                 question: "Name three types of soup?",
                 options: [
-                    "Tomato",
-                    "Chicken noodle",
                     "Minestrone",
+                    "Chicken noodle",
+                    "Tomato",
                     "Clam chowder"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Juice Types",
                 emoji: "🧃🍊",
                 question: "Name three fruit juices?",
                 options: [
+                    "Pineapple",
                     "Orange",
-                    "Apple",
                     "Grape",
-                    "Pineapple"
+                    "Apple"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Herbs",
                 emoji: "🌿🍃",
                 question: "Name three cooking herbs?",
                 options: [
-                    "Basil",
                     "Parsley",
-                    "Cilantro",
-                    "Rosemary"
+                    "Rosemary",
+                    "Basil",
+                    "Cilantro"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Fast Food",
                 emoji: "🍔🍟",
                 question: "Name three fast food items?",
                 options: [
-                    "Burger",
-                    "Fries",
+                    "Chicken nuggets",
                     "Pizza",
-                    "Chicken nuggets"
+                    "Burger",
+                    "Fries"
                 ],
-                correct: 0
+                correct: 2
             }
         ]
     },
@@ -2224,10 +2224,10 @@ const foodDrinksQuestions = {
                 emoji: "🍉💚",
                 question: "Is watermelon a juicy fruit?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Herbal Tea",
@@ -2254,60 +2254,60 @@ const foodDrinksQuestions = {
                 emoji: "🫐🥤",
                 question: "Can smoothies contain berries?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Salad",
                 emoji: "🥗🥬",
                 question: "Is salad made with vegetables?",
                 options: [
-                    "True",
-                    "False"
-                ],
-                correct: 0
-            },
-            {
-                topic: "Fruit Punch",
-                emoji: "🧃🍓",
-                question: "Does fruit punch contain fruit flavors?",
-                options: [
-                    "True",
-                    "False"
-                ],
-                correct: 1
-            },
-            {
-                topic: "Omelette",
-                emoji: "🍳🧀",
-                question: "Is an omelette made with eggs?",
-                options: [
                     "False",
                     "True"
                 ],
                 correct: 1
             },
             {
-                topic: "Ginger Tea",
-                emoji: "🍵🫚",
-                question: "Does ginger tea contain ginger?",
+                topic: "Fruit Punch",
+                emoji: "🧃🍓",
+                question: "Does fruit punch contain fruit flavors?",
+                options: [
+                    "False",
+                    "True"
+                ],
+                correct: 0
+            },
+            {
+                topic: "Omelette",
+                emoji: "🍳🧀",
+                question: "Is an omelette made with eggs?",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 0
+            },
+            {
+                topic: "Ginger Tea",
+                emoji: "🍵🫚",
+                question: "Does ginger tea contain ginger?",
+                options: [
+                    "False",
+                    "True"
+                ],
+                correct: 0
             },
             {
                 topic: "Noodles",
                 emoji: "🍜🥢",
                 question: "Are noodles a type of pasta?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Fruit Water",
@@ -2336,10 +2336,10 @@ const foodDrinksQuestions = {
                 emoji: "☕🥛",
                 question: "Is a macchiato espresso with a dollop of foam?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Bruschetta",
@@ -2356,20 +2356,20 @@ const foodDrinksQuestions = {
                 emoji: "🥤💜",
                 question: "Is beetroot juice purple or red?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Stir Fry",
                 emoji: "🥘🥕",
                 question: "Is stir fry cooked quickly at high heat?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Vanilla Latte",
@@ -2386,40 +2386,40 @@ const foodDrinksQuestions = {
                 emoji: "🥬🥕",
                 question: "Are spring rolls wrapped in rice paper?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Tonic Water",
                 emoji: "🥤✨",
                 question: "Does tonic water contain quinine?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Quiche",
                 emoji: "🥧🥚",
                 question: "Is quiche a savory egg tart?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Celery Juice",
                 emoji: "🥤💚",
                 question: "Is celery juice green in color?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         hard: [
@@ -2438,10 +2438,10 @@ const foodDrinksQuestions = {
                 emoji: "☕🇦🇺",
                 question: "Is flat white an Australian coffee drink?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Polenta",
@@ -2458,10 +2458,10 @@ const foodDrinksQuestions = {
                 emoji: "🥤🫚",
                 question: "Is ginger beer a fermented ginger beverage?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Osso Buco",
@@ -2488,10 +2488,10 @@ const foodDrinksQuestions = {
                 emoji: "🍲🇭🇺",
                 question: "Is goulash a Hungarian stew?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Bitters",
@@ -2508,10 +2508,10 @@ const foodDrinksQuestions = {
                 emoji: "🥩🍋",
                 question: "Is carpaccio thinly sliced raw meat or fish?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Tamarind Juice",
@@ -2530,36 +2530,36 @@ const foodDrinksQuestions = {
                 emoji: "🥣🐔",
                 question: "Is velouté a French white stock-based sauce?",
                 options: [
+                    "No stock",
                     "True",
                     "False",
-                    "Red sauce",
-                    "No stock"
+                    "Red sauce"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Silver Needle Tea",
                 emoji: "🍵🤍",
                 question: "Is Silver Needle a premium white tea?",
                 options: [
+                    "Green tea",
                     "Black tea",
                     "True",
-                    "False",
-                    "Green tea"
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Chateaubriand",
                 emoji: "🥩👨‍🍳",
                 question: "Is Chateaubriand a thick cut beef tenderloin?",
                 options: [
-                    "True",
-                    "False",
                     "Pork cut",
-                    "Fish cut"
+                    "Fish cut",
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Chartreuse",
@@ -2568,8 +2568,8 @@ const foodDrinksQuestions = {
                 options: [
                     "Beer",
                     "False",
-                    "True",
-                    "Wine"
+                    "Wine",
+                    "True"
                 ],
                 correct: 1
             },
@@ -2579,23 +2579,23 @@ const foodDrinksQuestions = {
                 question: "Is terrine a loaf of forcemeat?",
                 options: [
                     "True",
-                    "False",
                     "Soup",
+                    "False",
                     "Sauce"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Lapsang Souchong",
                 emoji: "🍵🔥",
                 question: "Is Lapsang Souchong a smoked tea?",
                 options: [
-                    "Herbal",
                     "True",
                     "False",
+                    "Herbal",
                     "Fruit tea"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Tournedos",
@@ -2614,36 +2614,36 @@ const foodDrinksQuestions = {
                 emoji: "🍸😖",
                 question: "Is Fernet a bitter Italian amaro?",
                 options: [
-                    "Sweet only",
                     "False",
                     "True",
-                    "Mild"
+                    "Mild",
+                    "Sweet only"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Confit de Canard",
                 emoji: "🦆🇫🇷",
                 question: "Is confit de canard duck cooked in its own fat?",
                 options: [
-                    "True",
-                    "False",
+                    "Grilled",
                     "Water cooked",
-                    "Grilled"
+                    "True",
+                    "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Gyokuro Tea",
                 emoji: "🍵💎",
                 question: "Is Gyokuro a premium shade-grown Japanese tea?",
                 options: [
+                    "Chinese",
                     "Sun grown",
                     "False",
-                    "True",
-                    "Chinese"
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         "extreme": [
@@ -2665,9 +2665,9 @@ const foodDrinksQuestions = {
                 question: "Name three coffee bean varieties?",
                 options: [
                     "Arabica",
-                    "Robusta",
+                    "Excelsa",
                     "Liberica",
-                    "Excelsa"
+                    "Robusta"
                 ],
                 correct: 0
             },
@@ -2676,96 +2676,96 @@ const foodDrinksQuestions = {
                 emoji: "🥫🍝",
                 question: "Name three pasta sauces?",
                 options: [
-                    "Marinara",
-                    "Alfredo",
+                    "Carbonara",
                     "Pesto",
-                    "Carbonara"
+                    "Marinara",
+                    "Alfredo"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Vegetable Juices",
                 emoji: "🥤🥕",
                 question: "Name three vegetable juices?",
                 options: [
-                    "Carrot",
                     "Tomato",
+                    "Beet",
                     "Celery",
-                    "Beet"
+                    "Carrot"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Cooking Methods",
                 emoji: "🔥🍳",
                 question: "Name three cooking methods?",
                 options: [
-                    "Baking",
                     "Frying",
+                    "Boiling",
                     "Grilling",
-                    "Boiling"
+                    "Baking"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Cold Teas",
                 emoji: "🧊🍵",
                 question: "Name three iced tea varieties?",
                 options: [
-                    "Black iced tea",
-                    "Green iced tea",
+                    "Lemon tea",
                     "Peach tea",
-                    "Lemon tea"
+                    "Green iced tea",
+                    "Black iced tea"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Protein Sources",
                 emoji: "🥩🐟",
                 question: "Name three protein foods?",
                 options: [
+                    "Eggs",
                     "Chicken",
                     "Beef",
-                    "Fish",
-                    "Eggs"
+                    "Fish"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Carbonated Drinks",
                 emoji: "🥤💥",
                 question: "Name three carbonated beverages?",
                 options: [
-                    "Soda",
-                    "Sparkling water",
                     "Cola",
-                    "Ginger ale"
+                    "Ginger ale",
+                    "Soda",
+                    "Sparkling water"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Nuts",
                 emoji: "🥜🌰",
                 question: "Name three types of nuts?",
                 options: [
-                    "Almonds",
                     "Walnuts",
-                    "Cashews",
-                    "Peanuts"
+                    "Peanuts",
+                    "Almonds",
+                    "Cashews"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Salad Types",
                 emoji: "🥗🍃",
                 question: "Name three salad varieties?",
                 options: [
-                    "Caesar",
                     "Greek",
-                    "Cobb",
-                    "Caprese"
+                    "Caprese",
+                    "Caesar",
+                    "Cobb"
                 ],
-                correct: 0
+                correct: 2
             }
         ]
     },
@@ -2796,10 +2796,10 @@ const foodDrinksQuestions = {
                 emoji: "🥪🍞",
                 question: "Does a sandwich have bread?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Tomato Juice",
@@ -2816,10 +2816,10 @@ const foodDrinksQuestions = {
                 emoji: "🍫🟫",
                 question: "Is a brownie a chocolate dessert?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Peach Juice",
@@ -2846,20 +2846,20 @@ const foodDrinksQuestions = {
                 emoji: "🍋🍵",
                 question: "Does lemon tea contain lemon?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Potato",
                 emoji: "🥔🍟",
                 question: "Is potato a vegetable?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Root Beer",
@@ -2888,35 +2888,25 @@ const foodDrinksQuestions = {
                 emoji: "☕💧",
                 question: "Is an Americano espresso with hot water?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Empanada",
                 emoji: "🥟🇦🇷",
                 question: "Is an empanada a stuffed pastry?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Wheat Grass Juice",
                 emoji: "🌾🥤",
                 question: "Is wheatgrass juice green?",
-                options: [
-                    "True",
-                    "False"
-                ],
-                correct: 0
-            },
-            {
-                topic: "Kebab",
-                emoji: " 串🥙",
-                question: "Is kebab meat cooked on skewers?",
                 options: [
                     "False",
                     "True"
@@ -2924,14 +2914,24 @@ const foodDrinksQuestions = {
                 correct: 1
             },
             {
-                topic: "Caramel Latte",
-                emoji: "☕🍯",
-                question: "Does caramel latte contain caramel?",
+                topic: "Kebab",
+                emoji: " 串🥙",
+                question: "Is kebab meat cooked on skewers?",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 1
+                correct: 0
+            },
+            {
+                topic: "Caramel Latte",
+                emoji: "☕🍯",
+                question: "Does caramel latte contain caramel?",
+                options: [
+                    "False",
+                    "True"
+                ],
+                correct: 0
             },
             {
                 topic: "Samosa",
@@ -2948,20 +2948,20 @@ const foodDrinksQuestions = {
                 emoji: "🥛🌾",
                 question: "Is rice milk made from rice?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Pastrami",
                 emoji: "🥩🥪",
                 question: "Is pastrami smoked meat?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Grapefruit Juice",
@@ -2980,10 +2980,10 @@ const foodDrinksQuestions = {
                 emoji: "🥣🍅",
                 question: "Is gazpacho a cold Spanish soup?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Affogato",
@@ -3010,10 +3010,10 @@ const foodDrinksQuestions = {
                 emoji: "🥤🍈",
                 question: "Is soursop juice a tropical beverage?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Bulgogi",
@@ -3030,10 +3030,10 @@ const foodDrinksQuestions = {
                 emoji: "☕🌿",
                 question: "Is chicory coffee made from roasted chicory root?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Baklava",
@@ -3050,10 +3050,10 @@ const foodDrinksQuestions = {
                 emoji: "🥤🍊",
                 question: "Is sea buckthorn juice high in vitamin C?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Croque Monsieur",
@@ -3082,24 +3082,24 @@ const foodDrinksQuestions = {
                 emoji: "🥣🟤",
                 question: "Is Espagnole a brown mother sauce?",
                 options: [
-                    "True",
-                    "False",
                     "White sauce",
-                    "Red sauce"
+                    "True",
+                    "Red sauce",
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Dragon Well Tea",
                 emoji: "🍵🐉",
                 question: "Is Dragon Well a Chinese green tea?",
                 options: [
+                    "False",
                     "Black tea",
                     "True",
-                    "False",
                     "White tea"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Wellington",
@@ -3107,8 +3107,8 @@ const foodDrinksQuestions = {
                 question: "Is Beef Wellington wrapped in puff pastry?",
                 options: [
                     "True",
-                    "False",
                     "Phyllo",
+                    "False",
                     "No pastry"
                 ],
                 correct: 0
@@ -3118,46 +3118,46 @@ const foodDrinksQuestions = {
                 emoji: "🥃🇵🇪",
                 question: "Is Pisco a South American brandy?",
                 options: [
-                    "Beer",
                     "False",
-                    "True",
-                    "Vodka"
+                    "Vodka",
+                    "Beer",
+                    "True"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Roulade",
                 emoji: "🥩🌀",
                 question: "Is roulade a rolled and stuffed meat dish?",
                 options: [
-                    "True",
                     "False",
+                    "Cubed",
                     "Flat only",
-                    "Cubed"
+                    "True"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "First Flush Tea",
                 emoji: "🍵🌸",
                 question: "Is first flush the earliest spring tea harvest?",
                 options: [
-                    "Fall harvest",
-                    "True",
+                    "Winter",
                     "False",
-                    "Winter"
+                    "True",
+                    "Fall harvest"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Paillard",
                 emoji: "🥩🔨",
                 question: "Is paillard a pounded thin cutlet?",
                 options: [
-                    "True",
+                    "Ground",
                     "False",
-                    "Thick cut",
-                    "Ground"
+                    "True",
+                    "Thick cut"
                 ],
                 correct: 1
             },
@@ -3166,12 +3166,12 @@ const foodDrinksQuestions = {
                 emoji: "🥃🍎",
                 question: "Is Calvados apple brandy from France?",
                 options: [
-                    "Grape based",
                     "False",
                     "True",
+                    "Grape based",
                     "Pear only"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Supremes",
@@ -3180,8 +3180,8 @@ const foodDrinksQuestions = {
                 options: [
                     "True",
                     "False",
-                    "With bones",
-                    "Legs"
+                    "Legs",
+                    "With bones"
                 ],
                 correct: 0
             },
@@ -3191,11 +3191,11 @@ const foodDrinksQuestions = {
                 question: "Is Tie Guan Yin a premium oolong tea?",
                 options: [
                     "Green tea",
-                    "False",
+                    "Black tea",
                     "True",
-                    "Black tea"
+                    "False"
                 ],
-                correct: 1
+                correct: 3
             }
         ],
         "extreme": [
@@ -3204,96 +3204,96 @@ const foodDrinksQuestions = {
                 emoji: "🇻🇳🍜",
                 question: "Name three Vietnamese dishes?",
                 options: [
-                    "Pho",
+                    "Bun cha",
                     "Banh mi",
-                    "Spring rolls",
-                    "Bun cha"
+                    "Pho",
+                    "Spring rolls"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Latte Flavors",
                 emoji: "☕🍰",
                 question: "Name three latte flavors?",
                 options: [
-                    "Vanilla",
-                    "Caramel",
+                    "Mocha",
                     "Hazelnut",
-                    "Mocha"
+                    "Vanilla",
+                    "Caramel"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Berries",
                 emoji: "🫐🍓",
                 question: "Name three types of berries?",
                 options: [
-                    "Strawberry",
                     "Blueberry",
-                    "Raspberry",
-                    "Blackberry"
+                    "Blackberry",
+                    "Strawberry",
+                    "Raspberry"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Green Drinks",
                 emoji: "🥤💚",
                 question: "Name three green beverages?",
                 options: [
-                    "Green tea",
-                    "Green smoothie",
+                    "Celery juice",
                     "Wheatgrass juice",
-                    "Celery juice"
+                    "Green tea",
+                    "Green smoothie"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Fried Foods",
                 emoji: "🍟🔥",
                 question: "Name three fried foods?",
                 options: [
+                    "Donuts",
                     "French fries",
                     "Fried chicken",
-                    "Tempura",
-                    "Donuts"
+                    "Tempura"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Milk Alternatives",
                 emoji: "🥛🌱",
                 question: "Name three non-dairy milk options?",
                 options: [
+                    "Coconut milk",
                     "Almond milk",
                     "Soy milk",
-                    "Oat milk",
-                    "Coconut milk"
+                    "Oat milk"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Greek Food",
                 emoji: "🇬🇷🫒",
                 question: "Name three Greek dishes?",
                 options: [
-                    "Gyro",
-                    "Moussaka",
                     "Souvlaki",
-                    "Greek salad"
+                    "Moussaka",
+                    "Greek salad",
+                    "Gyro"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Citrus Fruits",
                 emoji: "🍊🍋",
                 question: "Name three citrus fruits?",
                 options: [
-                    "Orange",
                     "Lemon",
-                    "Lime",
-                    "Grapefruit"
+                    "Grapefruit",
+                    "Orange",
+                    "Lime"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Condiments",
@@ -3301,9 +3301,9 @@ const foodDrinksQuestions = {
                 question: "Name three condiments?",
                 options: [
                     "Ketchup",
+                    "Soy sauce",
                     "Mustard",
-                    "Mayonnaise",
-                    "Soy sauce"
+                    "Mayonnaise"
                 ],
                 correct: 0
             },
@@ -3313,8 +3313,8 @@ const foodDrinksQuestions = {
                 question: "Name three dinner dishes?",
                 options: [
                     "Steak",
-                    "Pasta",
                     "Chicken",
+                    "Pasta",
                     "Fish"
                 ],
                 correct: 0
@@ -3338,20 +3338,20 @@ const foodDrinksQuestions = {
                 emoji: "🍵⚪",
                 question: "Is white tea a type of tea?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Steak",
                 emoji: "🥩🍽️",
                 question: "Is steak a cut of beef?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Cherry Juice",
@@ -3368,10 +3368,10 @@ const foodDrinksQuestions = {
                 emoji: "🧁🎂",
                 question: "Is a cupcake a small cake?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Mint Tea",
@@ -3388,40 +3388,40 @@ const foodDrinksQuestions = {
                 emoji: "🌽🟡",
                 question: "Is corn yellow?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Cola",
                 emoji: "🥤🟤",
                 question: "Is cola a carbonated soft drink?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Garlic Bread",
                 emoji: "🧄🍞",
                 question: "Does garlic bread have garlic?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Mango Juice",
                 emoji: "🥭🧃",
                 question: "Can mango juice be made from mangoes?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         medium: [
@@ -3440,30 +3440,30 @@ const foodDrinksQuestions = {
                 emoji: "☕🍫",
                 question: "Does mocha combine coffee and chocolate?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Pita Bread",
                 emoji: "🫓🥙",
                 question: "Is pita bread a flatbread?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Acai Juice",
                 emoji: "🫐🥤",
                 question: "Is acai juice from the Amazon?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Tikka",
@@ -3480,20 +3480,20 @@ const foodDrinksQuestions = {
                 emoji: "☕🌰",
                 question: "Does hazelnut coffee have hazelnut flavor?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Ravioli",
                 emoji: "🥟🇮🇹",
                 question: "Is ravioli stuffed pasta?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Hemp Milk",
@@ -3510,20 +3510,20 @@ const foodDrinksQuestions = {
                 emoji: "🍪☕",
                 question: "Is biscotti twice-baked Italian cookie?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Guava Juice",
                 emoji: "🥤🍈",
                 question: "Is guava juice tropical?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         hard: [
@@ -3552,60 +3552,60 @@ const foodDrinksQuestions = {
                 emoji: "🥟🇵🇱",
                 question: "Are pierogi Polish dumplings?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Noni Juice",
                 emoji: "🥤🍈",
                 question: "Is noni juice from a Polynesian fruit?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Schnitzel",
                 emoji: "🥩🇦🇹",
                 question: "Is schnitzel breaded and fried meat?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Turkish Coffee",
                 emoji: "☕🇹🇷",
                 question: "Is Turkish coffee brewed with fine grounds?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Spanakopita",
                 emoji: "🥧🇬🇷",
                 question: "Is spanakopita a spinach pie?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Elderflower Cordial",
                 emoji: "🥤🌸",
                 question: "Is elderflower cordial made from elder flowers?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Jambalaya",
@@ -3635,11 +3635,11 @@ const foodDrinksQuestions = {
                 question: "Is Hollandaise an egg-based mother sauce?",
                 options: [
                     "True",
+                    "No eggs",
                     "False",
-                    "Tomato based",
-                    "No eggs"
+                    "Tomato based"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Jin Xuan Tea",
@@ -3647,23 +3647,23 @@ const foodDrinksQuestions = {
                 question: "Does Jin Xuan have a milky flavor?",
                 options: [
                     "Smoky only",
-                    "True",
                     "False",
+                    "True",
                     "Bitter"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Blanquette",
                 emoji: "🍖🥛",
                 question: "Is blanquette a white stew?",
                 options: [
-                    "True",
-                    "False",
                     "Red stew",
-                    "No sauce"
+                    "True",
+                    "No sauce",
+                    "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Cachaça",
@@ -3671,9 +3671,9 @@ const foodDrinksQuestions = {
                 question: "Is cachaça Brazilian sugarcane spirit?",
                 options: [
                     "Vodka",
+                    "Whiskey",
                     "False",
-                    "True",
-                    "Whiskey"
+                    "True"
                 ],
                 correct: 0
             },
@@ -3683,71 +3683,71 @@ const foodDrinksQuestions = {
                 question: "Is fricassee meat in white sauce?",
                 options: [
                     "True",
-                    "False",
                     "Red sauce",
-                    "No sauce"
+                    "No sauce",
+                    "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Yellow Tea",
                 emoji: "🍵💛",
                 question: "Is yellow tea a rare Chinese tea?",
                 options: [
+                    "Not Chinese",
                     "Common",
-                    "True",
                     "False",
-                    "Not Chinese"
+                    "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Noisettes",
                 emoji: "🥩🌰",
                 question: "Are noisettes small round meat cuts?",
                 options: [
+                    "Square cuts",
                     "True",
-                    "False",
                     "Large only",
-                    "Square cuts"
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Aquavit",
                 emoji: "🥃🌿",
                 question: "Is aquavit a Scandinavian spirit?",
                 options: [
-                    "Italian",
+                    "Mexican",
                     "False",
-                    "True",
-                    "Mexican"
+                    "Italian",
+                    "True"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Saltimbocca",
                 emoji: "🥩🇮🇹",
                 question: "Does saltimbocca mean 'jump in the mouth'?",
                 options: [
-                    "True",
                     "False",
-                    "Slow food",
-                    "Heavy dish"
+                    "True",
+                    "Heavy dish",
+                    "Slow food"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Kukicha Tea",
                 emoji: "🍵🌿",
                 question: "Is kukicha made from tea stems?",
                 options: [
-                    "Leaves only",
-                    "False",
                     "True",
-                    "Flowers"
+                    "False",
+                    "Flowers",
+                    "Leaves only"
                 ],
-                correct: 0
+                correct: 3
             }
         ],
         "extreme": [
@@ -3756,12 +3756,12 @@ const foodDrinksQuestions = {
                 emoji: "🇰🇷🍜",
                 question: "Name three Korean dishes?",
                 options: [
-                    "Kimchi",
-                    "Bibimbap",
                     "Bulgogi",
-                    "Japchae"
+                    "Kimchi",
+                    "Japchae",
+                    "Bibimbap"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Hot Drinks",
@@ -3769,9 +3769,9 @@ const foodDrinksQuestions = {
                 question: "Name three hot beverages?",
                 options: [
                     "Coffee",
-                    "Tea",
+                    "Cappuccino",
                     "Hot chocolate",
-                    "Cappuccino"
+                    "Tea"
                 ],
                 correct: 0
             },
@@ -3792,36 +3792,36 @@ const foodDrinksQuestions = {
                 emoji: "⚡🥤",
                 question: "Name three energy drinks or foods?",
                 options: [
-                    "Coffee",
-                    "Energy drink",
+                    "Green tea",
                     "Banana",
-                    "Green tea"
+                    "Energy drink",
+                    "Coffee"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Grilled Foods",
                 emoji: "🔥🍖",
                 question: "Name three grilled foods?",
                 options: [
+                    "Fish",
                     "Steak",
                     "Chicken",
-                    "Fish",
                     "Vegetables"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Plant Milks",
                 emoji: "🥛🌱",
                 question: "Name three plant-based milks?",
                 options: [
-                    "Almond",
                     "Soy",
-                    "Oat",
-                    "Coconut"
+                    "Almond",
+                    "Coconut",
+                    "Oat"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Spanish Food",
@@ -3830,8 +3830,8 @@ const foodDrinksQuestions = {
                 options: [
                     "Paella",
                     "Tapas",
-                    "Gazpacho",
-                    "Tortilla española"
+                    "Tortilla española",
+                    "Gazpacho"
                 ],
                 correct: 0
             },
@@ -3840,12 +3840,12 @@ const foodDrinksQuestions = {
                 emoji: "🍑🍒",
                 question: "Name three stone fruits?",
                 options: [
-                    "Peach",
                     "Cherry",
-                    "Plum",
-                    "Apricot"
+                    "Apricot",
+                    "Peach",
+                    "Plum"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Seasonings",
@@ -3853,9 +3853,9 @@ const foodDrinksQuestions = {
                 question: "Name three seasonings?",
                 options: [
                     "Salt",
+                    "Oregano",
                     "Pepper",
-                    "Garlic powder",
-                    "Oregano"
+                    "Garlic powder"
                 ],
                 correct: 0
             },
@@ -3865,8 +3865,8 @@ const foodDrinksQuestions = {
                 question: "Name three lunch items?",
                 options: [
                     "Sandwich",
-                    "Salad",
                     "Soup",
+                    "Salad",
                     "Wrap"
                 ],
                 correct: 0
@@ -3890,20 +3890,20 @@ const foodDrinksQuestions = {
                 emoji: "💧🧊",
                 question: "Is iced water cold?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Pasta",
                 emoji: "🍝🇮🇹",
                 question: "Is pasta an Italian food?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Carrot Juice",
@@ -3920,20 +3920,20 @@ const foodDrinksQuestions = {
                 emoji: "🥧🍎",
                 question: "Is pie a baked dessert?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Honey Water",
                 emoji: "🍯💧",
                 question: "Does honey water contain honey?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Onion",
@@ -3970,10 +3970,10 @@ const foodDrinksQuestions = {
                 emoji: "🍉🥤",
                 question: "Is watermelon juice refreshing?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         medium: [
@@ -3982,60 +3982,60 @@ const foodDrinksQuestions = {
                 emoji: "🦪🌊",
                 question: "Are mussels shellfish?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Espresso Shot",
                 emoji: "☕💉",
                 question: "Is espresso concentrated coffee?",
                 options: [
-                    "Weak coffee",
-                    "True"
+                    "True",
+                    "Weak coffee"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Naan",
                 emoji: "🫓🇮🇳",
                 question: "Is naan Indian bread?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Aloe Vera Juice",
                 emoji: "🌵🥤",
                 question: "Is aloe vera juice from a plant?",
                 options: [
-                    "Animal source",
-                    "True"
+                    "True",
+                    "Animal source"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Curry",
                 emoji: "🍛🌶️",
                 question: "Is curry spicy?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Pumpkin Spice Latte",
                 emoji: "☕🎃",
                 question: "Is pumpkin spice latte seasonal?",
                 options: [
-                    "Year-round",
-                    "True"
+                    "True",
+                    "Year-round"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Tortilla",
@@ -4052,10 +4052,10 @@ const foodDrinksQuestions = {
                 emoji: "🥛🌰",
                 question: "Is cashew milk creamy?",
                 options: [
-                    "Watery only",
-                    "True"
+                    "True",
+                    "Watery only"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Pretzel",
@@ -4072,10 +4072,10 @@ const foodDrinksQuestions = {
                 emoji: "🫐🥤",
                 question: "Is blackberry juice dark purple?",
                 options: [
-                    "Yellow",
-                    "True"
+                    "True",
+                    "Yellow"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         hard: [
@@ -4084,33 +4084,33 @@ const foodDrinksQuestions = {
                 emoji: "🥣🥔",
                 question: "Is vichyssoise served cold?",
                 options: [
-                    "True",
                     "False",
+                    "True",
                     "Hot only"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Lungo",
                 emoji: "☕💧",
                 question: "Is lungo a longer espresso pull?",
                 options: [
-                    "Shorter",
                     "True",
+                    "Shorter",
                     "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Injera",
                 emoji: "🫓🇪🇹",
                 question: "Is injera Ethiopian flatbread?",
                 options: [
+                    "Italian",
                     "True",
-                    "False",
-                    "Italian"
+                    "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Mangosteen Juice",
@@ -4118,8 +4118,8 @@ const foodDrinksQuestions = {
                 question: "Is mangosteen called queen of fruits?",
                 options: [
                     "King",
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
                 correct: 0
             },
@@ -4129,8 +4129,8 @@ const foodDrinksQuestions = {
                 question: "Is vindaloo a spicy curry?",
                 options: [
                     "True",
-                    "False",
-                    "Mild only"
+                    "Mild only",
+                    "False"
                 ],
                 correct: 0
             },
@@ -4139,33 +4139,33 @@ const foodDrinksQuestions = {
                 emoji: "☕🌶️",
                 question: "Does dirty chai have espresso?",
                 options: [
-                    "No espresso",
+                    "False",
                     "True",
-                    "False"
+                    "No espresso"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Knafeh",
                 emoji: "🥮🧀",
                 question: "Is knafeh a Middle Eastern dessert?",
                 options: [
-                    "True",
                     "False",
-                    "Asian"
+                    "Asian",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Chrysanthemum Tea",
                 emoji: "🍵🌼",
                 question: "Is chrysanthemum tea from flowers?",
                 options: [
-                    "Leaves only",
                     "False",
-                    "True"
+                    "True",
+                    "Leaves only"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Okonomiyaki",
@@ -4184,10 +4184,10 @@ const foodDrinksQuestions = {
                 question: "Is barley water made from barley?",
                 options: [
                     "Wheat",
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 2
             }
         ],
         "expert": [
@@ -4196,36 +4196,36 @@ const foodDrinksQuestions = {
                 emoji: "🍅🥫",
                 question: "Is tomato a mother sauce?",
                 options: [
-                    "True",
                     "False",
+                    "True",
                     "Secondary",
                     "Not classified"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "White Peony Tea",
                 emoji: "🍵🌸",
                 question: "Is White Peony a white tea variety?",
                 options: [
-                    "Green tea",
-                    "True",
+                    "Black tea",
                     "False",
-                    "Black tea"
+                    "True",
+                    "Green tea"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Mirepoix Ratio",
                 emoji: "🥕🧅",
                 question: "Is classic mirepoix 2:1:1 ratio?",
                 options: [
-                    "True",
                     "False",
+                    "True",
                     "1:1:1",
                     "3:2:1"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Soju",
@@ -4233,83 +4233,83 @@ const foodDrinksQuestions = {
                 question: "Is soju Korean distilled beverage?",
                 options: [
                     "Japanese",
-                    "False",
                     "True",
-                    "Chinese"
+                    "Chinese",
+                    "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Quenelle",
                 emoji: "🥄🍨",
                 question: "Is quenelle an oval-shaped scoop?",
                 options: [
-                    "True",
                     "False",
                     "Square",
+                    "True",
                     "Round"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Keemun Tea",
                 emoji: "🍵🇨🇳",
                 question: "Is Keemun a Chinese black tea?",
                 options: [
+                    "White",
                     "Green",
                     "True",
-                    "False",
-                    "White"
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Medallions",
                 emoji: "🥩⭕",
                 question: "Are medallions round meat cuts?",
                 options: [
+                    "Strips",
                     "True",
                     "False",
-                    "Square",
-                    "Strips"
+                    "Square"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Ouzo",
                 emoji: "🥃🇬🇷",
                 question: "Is ouzo anise-flavored Greek spirit?",
                 options: [
+                    "Turkish",
                     "Italian",
                     "False",
-                    "True",
-                    "Turkish"
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Papillote",
                 emoji: "🐟📄",
                 question: "Is en papillote cooked in paper?",
                 options: [
-                    "True",
                     "False",
-                    "Foil only",
-                    "Open pan"
+                    "True",
+                    "Open pan",
+                    "Foil only"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Genmaicha",
                 emoji: "🍵🌾",
                 question: "Does genmaicha have roasted rice?",
                 options: [
+                    "True",
                     "No rice",
                     "False",
-                    "True",
                     "Raw rice"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         "extreme": [
@@ -4318,36 +4318,36 @@ const foodDrinksQuestions = {
                 emoji: "🇨🇳🥢",
                 question: "Name three Chinese dishes?",
                 options: [
-                    "Fried rice",
+                    "Spring rolls",
                     "Kung pao chicken",
-                    "Dim sum",
-                    "Spring rolls"
+                    "Fried rice",
+                    "Dim sum"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Iced Drinks",
                 emoji: "🧊🥤",
                 question: "Name three iced beverages?",
                 options: [
-                    "Iced tea",
                     "Iced coffee",
                     "Lemonade",
-                    "Smoothie"
+                    "Smoothie",
+                    "Iced tea"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Leafy Greens",
                 emoji: "🥬🥗",
                 question: "Name three leafy vegetables?",
                 options: [
-                    "Spinach",
                     "Lettuce",
                     "Kale",
-                    "Cabbage"
+                    "Cabbage",
+                    "Spinach"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Refreshing Drinks",
@@ -4355,9 +4355,9 @@ const foodDrinksQuestions = {
                 question: "Name three refreshing beverages?",
                 options: [
                     "Water",
+                    "Coconut water",
                     "Lemonade",
-                    "Iced tea",
-                    "Coconut water"
+                    "Iced tea"
                 ],
                 correct: 0
             },
@@ -4367,9 +4367,9 @@ const foodDrinksQuestions = {
                 question: "Name three baked items?",
                 options: [
                     "Bread",
-                    "Croissant",
+                    "Cookies",
                     "Muffin",
-                    "Cookies"
+                    "Croissant"
                 ],
                 correct: 0
             },
@@ -4378,24 +4378,24 @@ const foodDrinksQuestions = {
                 emoji: "🥤🫧",
                 question: "Name three probiotic beverages?",
                 options: [
+                    "Lassi",
                     "Kombucha",
                     "Kefir",
-                    "Yogurt drink",
-                    "Lassi"
+                    "Yogurt drink"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Middle Eastern Food",
                 emoji: "🇸🇦🥙",
                 question: "Name three Middle Eastern dishes?",
                 options: [
+                    "Kebab",
                     "Hummus",
-                    "Falafel",
                     "Shawarma",
-                    "Kebab"
+                    "Falafel"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Melons",
@@ -4403,8 +4403,8 @@ const foodDrinksQuestions = {
                 question: "Name three types of melons?",
                 options: [
                     "Watermelon",
-                    "Cantaloupe",
                     "Honeydew",
+                    "Cantaloupe",
                     "Galia"
                 ],
                 correct: 0
@@ -4414,24 +4414,24 @@ const foodDrinksQuestions = {
                 emoji: "🫒💧",
                 question: "Name three cooking oils?",
                 options: [
-                    "Olive oil",
                     "Vegetable oil",
+                    "Canola oil",
                     "Coconut oil",
-                    "Canola oil"
+                    "Olive oil"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Snack Foods",
                 emoji: "🍿🥨",
                 question: "Name three snack items?",
                 options: [
-                    "Chips",
                     "Popcorn",
-                    "Pretzels",
-                    "Crackers"
+                    "Chips",
+                    "Crackers",
+                    "Pretzels"
                 ],
-                correct: 0
+                correct: 1
             }
         ]
     },
@@ -4442,10 +4442,10 @@ const foodDrinksQuestions = {
                 emoji: "🥝💚",
                 question: "Is kiwi a green fruit?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Warm Water",
@@ -4462,10 +4462,10 @@ const foodDrinksQuestions = {
                 emoji: "🐟🥫",
                 question: "Is tuna a fish?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Lime Juice",
@@ -4522,20 +4522,20 @@ const foodDrinksQuestions = {
                 emoji: "🧈🥐",
                 question: "Is butter made from milk?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Strawberry Milk",
                 emoji: "🍓🥛",
                 question: "Is strawberry milk pink?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         medium: [
@@ -4554,10 +4554,10 @@ const foodDrinksQuestions = {
                 emoji: "☕☕",
                 question: "Is double espresso two shots?",
                 options: [
-                    "One shot",
-                    "True"
+                    "True",
+                    "One shot"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Focaccia",
@@ -4584,10 +4584,10 @@ const foodDrinksQuestions = {
                 emoji: "🍜🇯🇵",
                 question: "Is ramen a noodle soup?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Irish Coffee",
@@ -4604,10 +4604,10 @@ const foodDrinksQuestions = {
                 emoji: "🥯🧀",
                 question: "Is bagel ring-shaped bread?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Macadamia Milk",
@@ -4624,10 +4624,10 @@ const foodDrinksQuestions = {
                 emoji: "🥨🍫",
                 question: "Are churros fried dough?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Plum Juice",
@@ -4646,33 +4646,33 @@ const foodDrinksQuestions = {
                 emoji: "🍲🇮🇳",
                 question: "Is mulligatawny an Indian soup?",
                 options: [
+                    "Chinese",
                     "True",
-                    "False",
-                    "Chinese"
+                    "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Red Eye Coffee",
                 emoji: "☕😵",
                 question: "Is red eye coffee with a shot of espresso?",
                 options: [
+                    "False",
                     "No espresso",
-                    "True",
-                    "False"
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Challah",
                 emoji: "🍞✡️",
                 question: "Is challah a Jewish braided bread?",
                 options: [
+                    "French",
                     "True",
-                    "False",
-                    "French"
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Dragon Fruit Juice",
@@ -4691,8 +4691,8 @@ const foodDrinksQuestions = {
                 question: "Is biryani a spiced rice dish?",
                 options: [
                     "True",
-                    "False",
-                    "Pasta"
+                    "Pasta",
+                    "False"
                 ],
                 correct: 0
             },
@@ -4701,11 +4701,11 @@ const foodDrinksQuestions = {
                 emoji: "☕🫧",
                 question: "Is dalgona coffee whipped?",
                 options: [
+                    "False",
                     "Not whipped",
-                    "True",
-                    "False"
+                    "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Panettone",
@@ -4713,8 +4713,8 @@ const foodDrinksQuestions = {
                 question: "Is panettone Italian sweet bread?",
                 options: [
                     "True",
-                    "False",
-                    "Savory"
+                    "Savory",
+                    "False"
                 ],
                 correct: 0
             },
@@ -4723,33 +4723,33 @@ const foodDrinksQuestions = {
                 emoji: "🍵🌺",
                 question: "Is hibiscus tea red?",
                 options: [
-                    "Green",
                     "False",
-                    "True"
+                    "True",
+                    "Green"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Croquette",
                 emoji: "🥔🔥",
                 question: "Are croquettes breaded and fried?",
                 options: [
-                    "True",
                     "False",
-                    "Baked only"
+                    "Baked only",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Lychee Juice",
                 emoji: "🥤🍈",
                 question: "Is lychee juice from Asian fruit?",
                 options: [
-                    "European",
+                    "False",
                     "True",
-                    "False"
+                    "European"
                 ],
-                correct: 0
+                correct: 2
             }
         ],
         "expert": [
@@ -4758,12 +4758,12 @@ const foodDrinksQuestions = {
                 emoji: "🥣🟤",
                 question: "Is demi-glace a reduced brown sauce?",
                 options: [
+                    "White sauce",
                     "True",
                     "False",
-                    "White sauce",
                     "Thin sauce"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Ceylon Tea",
@@ -4771,9 +4771,9 @@ const foodDrinksQuestions = {
                 question: "Is Ceylon tea from Sri Lanka?",
                 options: [
                     "India",
-                    "True",
                     "False",
-                    "China"
+                    "China",
+                    "True"
                 ],
                 correct: 0
             },
@@ -4782,45 +4782,45 @@ const foodDrinksQuestions = {
                 emoji: "🔪🥕",
                 question: "Is brunoise 1-2mm dice?",
                 options: [
-                    "True",
-                    "False",
                     "Large dice",
-                    "Strips"
+                    "Strips",
+                    "True",
+                    "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Baijiu",
                 emoji: "🥃🇨🇳",
                 question: "Is baijiu Chinese grain alcohol?",
                 options: [
-                    "Japanese",
-                    "False",
                     "True",
-                    "Korean"
+                    "Korean",
+                    "Japanese",
+                    "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Rouille",
                 emoji: "🥣🌶️",
                 question: "Is rouille a saffron-garlic sauce?",
                 options: [
+                    "Sweet",
                     "True",
-                    "False",
                     "No garlic",
-                    "Sweet"
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Nilgiri Tea",
                 emoji: "🍵🏔️",
                 question: "Is Nilgiri tea from India?",
                 options: [
-                    "China",
-                    "True",
                     "False",
+                    "True",
+                    "China",
                     "Japan"
                 ],
                 correct: 1
@@ -4831,35 +4831,35 @@ const foodDrinksQuestions = {
                 question: "Is escalope a thin meat slice?",
                 options: [
                     "True",
-                    "False",
+                    "Ground",
                     "Thick cut",
-                    "Ground"
+                    "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Raki",
                 emoji: "🥃🇹🇷",
                 question: "Is raki Turkish anise spirit?",
                 options: [
-                    "Greek",
-                    "False",
                     "True",
-                    "Italian"
+                    "Italian",
+                    "Greek",
+                    "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Mornay Sauce",
                 emoji: "🧀🥛",
                 question: "Is Mornay béchamel with cheese?",
                 options: [
-                    "True",
-                    "False",
                     "No cheese",
-                    "Tomato base"
+                    "Tomato base",
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Phoenix Tea",
@@ -4867,11 +4867,11 @@ const foodDrinksQuestions = {
                 question: "Is Phoenix oolong from China?",
                 options: [
                     "Japan",
-                    "False",
+                    "India",
                     "True",
-                    "India"
+                    "False"
                 ],
-                correct: 1
+                correct: 3
             }
         ],
         "extreme": [
@@ -4880,48 +4880,48 @@ const foodDrinksQuestions = {
                 emoji: "🇹🇷🍢",
                 question: "Name three Turkish dishes?",
                 options: [
-                    "Kebab",
-                    "Baklava",
+                    "Köfte",
                     "Dolma",
-                    "Köfte"
+                    "Kebab",
+                    "Baklava"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Decaf Drinks",
                 emoji: "☕🚫",
                 question: "Name three caffeine-free drinks?",
                 options: [
-                    "Herbal tea",
-                    "Decaf coffee",
                     "Water",
-                    "Juice"
+                    "Decaf coffee",
+                    "Juice",
+                    "Herbal tea"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Cruciferous Vegetables",
                 emoji: "🥦🥬",
                 question: "Name three cruciferous vegetables?",
                 options: [
-                    "Broccoli",
                     "Cauliflower",
-                    "Cabbage",
-                    "Brussels sprouts"
+                    "Brussels sprouts",
+                    "Broccoli",
+                    "Cabbage"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Detox Drinks",
                 emoji: "🥤🌿",
                 question: "Name three detox beverages?",
                 options: [
-                    "Lemon water",
+                    "Ginger tea",
                     "Green tea",
                     "Cucumber water",
-                    "Ginger tea"
+                    "Lemon water"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Steamed Foods",
@@ -4929,9 +4929,9 @@ const foodDrinksQuestions = {
                 question: "Name three steamed dishes?",
                 options: [
                     "Dumplings",
+                    "Rice",
                     "Vegetables",
-                    "Fish",
-                    "Rice"
+                    "Fish"
                 ],
                 correct: 0
             },
@@ -4940,60 +4940,60 @@ const foodDrinksQuestions = {
                 emoji: "🫧🥤",
                 question: "Name three fermented beverages?",
                 options: [
-                    "Kombucha",
                     "Kefir",
                     "Kvass",
-                    "Beer"
+                    "Beer",
+                    "Kombucha"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Turkish Food",
                 emoji: "🇹🇷🥙",
                 question: "Name three Turkish foods?",
                 options: [
-                    "Döner",
-                    "Börek",
                     "Pide",
-                    "Lahmacun"
+                    "Börek",
+                    "Lahmacun",
+                    "Döner"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Exotic Fruits",
                 emoji: "🥭🐉",
                 question: "Name three exotic fruits?",
                 options: [
+                    "Mangosteen",
                     "Dragon fruit",
                     "Passion fruit",
-                    "Rambutan",
-                    "Mangosteen"
+                    "Rambutan"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Baking Techniques",
                 emoji: "🎂👨‍🍳",
                 question: "Name three baking methods?",
                 options: [
-                    "Creaming",
                     "Folding",
-                    "Whisking",
-                    "Proofing"
+                    "Proofing",
+                    "Creaming",
+                    "Whisking"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Party Foods",
                 emoji: "🎉🍕",
                 question: "Name three party food items?",
                 options: [
+                    "Sliders",
                     "Pizza",
-                    "Wings",
                     "Nachos",
-                    "Sliders"
+                    "Wings"
                 ],
-                correct: 0
+                correct: 1
             }
         ]
     },
@@ -5004,10 +5004,10 @@ const foodDrinksQuestions = {
                 emoji: "🫐❤️",
                 question: "Is raspberry a berry?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Cold Water",
@@ -5024,10 +5024,10 @@ const foodDrinksQuestions = {
                 emoji: "🦃🍽️",
                 question: "Is turkey a poultry?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Kiwi Juice",
@@ -5084,20 +5084,20 @@ const foodDrinksQuestions = {
                 emoji: "🥛🫐",
                 question: "Is yogurt a dairy product?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Banana Shake",
                 emoji: "🍌🥤",
                 question: "Is banana shake made with bananas?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         medium: [
@@ -5106,20 +5106,20 @@ const foodDrinksQuestions = {
                 emoji: "🦑🌊",
                 question: "Is squid a cephalopod?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Decaf Coffee",
                 emoji: "☕🚫",
                 question: "Is decaf coffee caffeine-free?",
                 options: [
-                    "Low caffeine",
-                    "True"
+                    "True",
+                    "Low caffeine"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Ciabatta",
@@ -5136,10 +5136,10 @@ const foodDrinksQuestions = {
                 emoji: "🥤🍈",
                 question: "Is papaya juice orange?",
                 options: [
-                    "Green",
-                    "True"
+                    "True",
+                    "Green"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Paella",
@@ -5166,10 +5166,10 @@ const foodDrinksQuestions = {
                 emoji: "🍞🌽",
                 question: "Is cornbread made with cornmeal?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Flax Milk",
@@ -5186,20 +5186,20 @@ const foodDrinksQuestions = {
                 emoji: "🍰☕",
                 question: "Does tiramisu have coffee?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Apricot Juice",
                 emoji: "🥤🍑",
                 question: "Is apricot juice from apricots?",
                 options: [
-                    "From peaches",
-                    "True"
+                    "True",
+                    "From peaches"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         hard: [
@@ -5208,11 +5208,11 @@ const foodDrinksQuestions = {
                 emoji: "🍲🐟",
                 question: "Is bouillabaisse from Marseille?",
                 options: [
-                    "True",
                     "False",
+                    "True",
                     "Paris"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Vienna Coffee",
@@ -5231,8 +5231,8 @@ const foodDrinksQuestions = {
                 question: "Is sourdough naturally leavened?",
                 options: [
                     "True",
-                    "False",
-                    "Yeast only"
+                    "Yeast only",
+                    "False"
                 ],
                 correct: 0
             },
@@ -5252,22 +5252,22 @@ const foodDrinksQuestions = {
                 emoji: "🍜🇲🇾",
                 question: "Is laksa a spicy noodle soup?",
                 options: [
-                    "True",
+                    "Mild only",
                     "False",
-                    "Mild only"
+                    "True"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Bulletproof Coffee",
                 emoji: "☕🧈",
                 question: "Does bulletproof coffee have butter?",
                 options: [
-                    "No fat",
                     "True",
+                    "No fat",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Brioche",
@@ -5286,32 +5286,32 @@ const foodDrinksQuestions = {
                 question: "Is butterfly pea tea blue?",
                 options: [
                     "Red",
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Croquembouche",
                 emoji: "🍰🏔️",
                 question: "Is croquembouche a tower of cream puffs?",
                 options: [
-                    "True",
                     "False",
+                    "True",
                     "Flat cake"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Goji Berry Juice",
                 emoji: "🥤🔴",
                 question: "Is goji berry a superfood?",
                 options: [
-                    "Regular food",
                     "True",
+                    "Regular food",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         "expert": [
@@ -5320,24 +5320,24 @@ const foodDrinksQuestions = {
                 emoji: "🥩🍷",
                 question: "Is Bordelaise made with red wine?",
                 options: [
-                    "True",
                     "False",
                     "White wine",
-                    "No wine"
+                    "No wine",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Yunnan Tea",
                 emoji: "🍵🇨🇳",
                 question: "Is Yunnan famous for pu-erh?",
                 options: [
-                    "Green tea",
-                    "True",
                     "False",
-                    "White tea"
+                    "White tea",
+                    "Green tea",
+                    "True"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Julienne",
@@ -5346,8 +5346,8 @@ const foodDrinksQuestions = {
                 options: [
                     "True",
                     "False",
-                    "Dice",
-                    "Chunks"
+                    "Chunks",
+                    "Dice"
                 ],
                 correct: 0
             },
@@ -5356,22 +5356,22 @@ const foodDrinksQuestions = {
                 emoji: "🥃🇫🇷",
                 question: "Is pastis anise-flavored French aperitif?",
                 options: [
-                    "Italian",
-                    "False",
+                    "Spanish",
                     "True",
-                    "Spanish"
+                    "False",
+                    "Italian"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Chiffonade",
                 emoji: "🔪🌿",
                 question: "Is chiffonade thin ribbon cuts?",
                 options: [
-                    "True",
+                    "Chunks",
                     "False",
                     "Dice",
-                    "Chunks"
+                    "True"
                 ],
                 correct: 1
             },
@@ -5392,48 +5392,48 @@ const foodDrinksQuestions = {
                 emoji: "🥩🌀",
                 question: "Is paupiette a stuffed meat roll?",
                 options: [
-                    "True",
-                    "False",
                     "Flat",
-                    "Ground"
+                    "Ground",
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Limoncello",
                 emoji: "🥃🍋",
                 question: "Is limoncello Italian lemon liqueur?",
                 options: [
-                    "French",
-                    "False",
+                    "Spanish",
                     "True",
-                    "Spanish"
+                    "False",
+                    "French"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Suprême Sauce",
                 emoji: "🥣🐔",
                 question: "Is suprême velouté with cream?",
                 options: [
-                    "True",
                     "False",
                     "No cream",
-                    "Tomato"
+                    "Tomato",
+                    "True"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Kabusecha",
                 emoji: "🍵🌿",
                 question: "Is kabusecha partially shaded tea?",
                 options: [
-                    "Full sun",
-                    "False",
                     "True",
+                    "False",
+                    "Full sun",
                     "Fully shaded"
                 ],
-                correct: 0
+                correct: 2
             }
         ],
         "extreme": [
@@ -5442,24 +5442,24 @@ const foodDrinksQuestions = {
                 emoji: "🇲🇦🥘",
                 question: "Name three Moroccan dishes?",
                 options: [
-                    "Tagine",
                     "Couscous",
-                    "Harira",
-                    "Pastilla"
+                    "Tagine",
+                    "Pastilla",
+                    "Harira"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Breakfast Drinks",
                 emoji: "🌅🥤",
                 question: "Name three morning beverages?",
                 options: [
-                    "Coffee",
                     "Orange juice",
                     "Tea",
-                    "Milk"
+                    "Milk",
+                    "Coffee"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Allium Vegetables",
@@ -5468,8 +5468,8 @@ const foodDrinksQuestions = {
                 options: [
                     "Onion",
                     "Garlic",
-                    "Leek",
-                    "Shallot"
+                    "Shallot",
+                    "Leek"
                 ],
                 correct: 0
             },
@@ -5478,12 +5478,12 @@ const foodDrinksQuestions = {
                 emoji: "☀️🥤",
                 question: "Name three summer beverages?",
                 options: [
-                    "Lemonade",
                     "Iced tea",
+                    "Lemonade",
                     "Smoothie",
                     "Fruit punch"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Boiled Foods",
@@ -5491,9 +5491,9 @@ const foodDrinksQuestions = {
                 question: "Name three boiled foods?",
                 options: [
                     "Eggs",
-                    "Pasta",
                     "Potatoes",
-                    "Vegetables"
+                    "Vegetables",
+                    "Pasta"
                 ],
                 correct: 0
             },
@@ -5502,12 +5502,12 @@ const foodDrinksQuestions = {
                 emoji: "🥤🫧",
                 question: "Name three cultured beverages?",
                 options: [
-                    "Yogurt drink",
-                    "Buttermilk",
                     "Kefir",
-                    "Lassi"
+                    "Yogurt drink",
+                    "Lassi",
+                    "Buttermilk"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "German Food",
@@ -5515,9 +5515,9 @@ const foodDrinksQuestions = {
                 question: "Name three German dishes?",
                 options: [
                     "Sauerkraut",
+                    "Pretzel",
                     "Bratwurst",
-                    "Schnitzel",
-                    "Pretzel"
+                    "Schnitzel"
                 ],
                 correct: 0
             },
@@ -5527,9 +5527,9 @@ const foodDrinksQuestions = {
                 question: "Name three dried fruits?",
                 options: [
                     "Raisins",
-                    "Dates",
+                    "Apricots",
                     "Prunes",
-                    "Apricots"
+                    "Dates"
                 ],
                 correct: 0
             },
@@ -5538,24 +5538,24 @@ const foodDrinksQuestions = {
                 emoji: "🔪📏",
                 question: "Name three knife cuts?",
                 options: [
-                    "Dice",
-                    "Julienne",
                     "Chiffonade",
-                    "Brunoise"
+                    "Julienne",
+                    "Brunoise",
+                    "Dice"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Picnic Foods",
                 emoji: "🧺🥪",
                 question: "Name three picnic items?",
                 options: [
+                    "Cookies",
                     "Sandwiches",
-                    "Fruit",
                     "Chips",
-                    "Cookies"
+                    "Fruit"
                 ],
-                correct: 0
+                correct: 1
             }
         ]
     },
@@ -5566,10 +5566,10 @@ const foodDrinksQuestions = {
                 emoji: "🍈🧡",
                 question: "Is papaya an orange fruit?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Spring Water",
@@ -5596,25 +5596,15 @@ const foodDrinksQuestions = {
                 emoji: "🫐🥤",
                 question: "Is raspberry juice red?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Jelly",
                 emoji: "🍇🥄",
                 question: "Is jelly sweet and wobbly?",
-                options: [
-                    "False",
-                    "True"
-                ],
-                correct: 1
-            },
-            {
-                topic: "Lavender Tea",
-                emoji: "🍵💜",
-                question: "Does lavender tea smell floral?",
                 options: [
                     "True",
                     "False"
@@ -5622,14 +5612,24 @@ const foodDrinksQuestions = {
                 correct: 0
             },
             {
-                topic: "Spinach",
-                emoji: "🥬💪",
-                question: "Is spinach green and leafy?",
+                topic: "Lavender Tea",
+                emoji: "🍵💜",
+                question: "Does lavender tea smell floral?",
                 options: [
                     "False",
                     "True"
                 ],
                 correct: 1
+            },
+            {
+                topic: "Spinach",
+                emoji: "🥬💪",
+                question: "Is spinach green and leafy?",
+                options: [
+                    "True",
+                    "False"
+                ],
+                correct: 0
             },
             {
                 topic: "Orange Soda",
@@ -5678,20 +5678,20 @@ const foodDrinksQuestions = {
                 emoji: "☕🇹🇷",
                 question: "Is Turkish coffee thick and strong?",
                 options: [
-                    "Weak",
-                    "True"
+                    "True",
+                    "Weak"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Baguette",
                 emoji: "🥖🇫🇷",
                 question: "Is baguette French bread?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Passion Fruit Juice",
@@ -5728,20 +5728,20 @@ const foodDrinksQuestions = {
                 emoji: "🍞🌾",
                 question: "Is rye bread made with rye?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Walnut Milk",
                 emoji: "🥛🌰",
                 question: "Is walnut milk from walnuts?",
                 options: [
-                    "From almonds",
-                    "True"
+                    "True",
+                    "From almonds"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Macarons",
@@ -5770,110 +5770,110 @@ const foodDrinksQuestions = {
                 emoji: "🍲🇹🇭",
                 question: "Is tom yum a Thai soup?",
                 options: [
-                    "True",
+                    "Vietnamese",
                     "False",
-                    "Vietnamese"
+                    "True"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Gibraltar Coffee",
                 emoji: "☕🥛",
                 question: "Is Gibraltar served in a glass?",
                 options: [
-                    "Ceramic only",
                     "True",
+                    "Ceramic only",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Pumpernickel",
                 emoji: "🍞🟤",
                 question: "Is pumpernickel dark rye bread?",
                 options: [
-                    "True",
                     "False",
+                    "True",
                     "White bread"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Acerola Juice",
                 emoji: "🥤🍒",
                 question: "Is acerola high in vitamin C?",
                 options: [
-                    "Low vitamin",
                     "False",
-                    "True"
+                    "True",
+                    "Low vitamin"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Rendang",
                 emoji: "🍛🇮🇩",
                 question: "Is rendang Indonesian curry?",
                 options: [
-                    "True",
                     "False",
-                    "Indian"
+                    "Indian",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Moon Milk",
                 emoji: "🥛🌙",
                 question: "Is moon milk an Ayurvedic drink?",
                 options: [
+                    "False",
                     "Modern only",
-                    "True",
-                    "False"
+                    "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Stollen",
                 emoji: "🍞🎄",
                 question: "Is stollen German Christmas bread?",
                 options: [
-                    "True",
                     "False",
+                    "True",
                     "Italian"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Neem Juice",
                 emoji: "🥤🌿",
                 question: "Is neem juice bitter?",
                 options: [
+                    "True",
                     "Sweet",
-                    "False",
-                    "True"
+                    "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Pavlova",
                 emoji: "🍰🇦🇺",
                 question: "Is pavlova a meringue dessert?",
                 options: [
-                    "True",
                     "False",
-                    "Cake"
+                    "Cake",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Calamansi Juice",
                 emoji: "🥤🍋",
                 question: "Is calamansi a Filipino citrus?",
                 options: [
+                    "False",
                     "Mexican",
-                    "True",
-                    "False"
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         "expert": [
@@ -5882,12 +5882,12 @@ const foodDrinksQuestions = {
                 emoji: "🍄🍷",
                 question: "Is chasseur a mushroom hunter sauce?",
                 options: [
-                    "True",
                     "False",
+                    "True",
                     "No mushrooms",
                     "Fish sauce"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Formosa Tea",
@@ -5895,11 +5895,11 @@ const foodDrinksQuestions = {
                 question: "Is Formosa tea from Taiwan?",
                 options: [
                     "Thailand",
-                    "True",
                     "False",
-                    "Malaysia"
+                    "Malaysia",
+                    "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Chiffonade",
@@ -5908,8 +5908,8 @@ const foodDrinksQuestions = {
                 options: [
                     "True",
                     "False",
-                    "Root vegetables",
-                    "Meat"
+                    "Meat",
+                    "Root vegetables"
                 ],
                 correct: 0
             },
@@ -5918,12 +5918,12 @@ const foodDrinksQuestions = {
                 emoji: "🥃🌿",
                 question: "Is arak Middle Eastern spirit?",
                 options: [
-                    "European",
                     "False",
                     "True",
-                    "Asian"
+                    "Asian",
+                    "European"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Bâtonnets",
@@ -5942,9 +5942,9 @@ const foodDrinksQuestions = {
                 emoji: "🧉🌿",
                 question: "Is mate traditionally drunk from gourd?",
                 options: [
-                    "Cup only",
-                    "True",
                     "False",
+                    "True",
+                    "Cup only",
                     "Bottle"
                 ],
                 correct: 1
@@ -5954,24 +5954,24 @@ const foodDrinksQuestions = {
                 emoji: "🔪🥩",
                 question: "Is émincé thinly sliced?",
                 options: [
+                    "Cubed",
                     "True",
-                    "False",
                     "Thick cut",
-                    "Cubed"
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Pernod",
                 emoji: "🥃💚",
                 question: "Is Pernod an anise-flavored aperitif?",
                 options: [
-                    "Whiskey",
                     "False",
-                    "True",
-                    "Vodka"
+                    "Whiskey",
+                    "Vodka",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Lyonnaise",
@@ -5979,23 +5979,23 @@ const foodDrinksQuestions = {
                 question: "Does lyonnaise style include onions?",
                 options: [
                     "True",
-                    "False",
+                    "Tomatoes",
                     "No onions",
-                    "Tomatoes"
+                    "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Longjing Tea",
                 emoji: "🍵🐉",
                 question: "Is Longjing Dragon Well tea?",
                 options: [
-                    "Phoenix",
-                    "False",
                     "True",
-                    "Tiger"
+                    "Phoenix",
+                    "Tiger",
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         "extreme": [
@@ -6004,36 +6004,36 @@ const foodDrinksQuestions = {
                 emoji: "🇱🇧🥙",
                 question: "Name three Lebanese dishes?",
                 options: [
+                    "Falafel",
                     "Hummus",
                     "Tabbouleh",
-                    "Kibbeh",
-                    "Falafel"
+                    "Kibbeh"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Evening Drinks",
                 emoji: "🌙🥤",
                 question: "Name three evening beverages?",
                 options: [
+                    "Hot chocolate",
                     "Herbal tea",
-                    "Warm milk",
                     "Chamomile",
-                    "Hot chocolate"
+                    "Warm milk"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Nightshade Vegetables",
                 emoji: "🍅🫑",
                 question: "Name three nightshade vegetables?",
                 options: [
+                    "Pepper",
                     "Tomato",
                     "Potato",
-                    "Eggplant",
-                    "Pepper"
+                    "Eggplant"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Winter Drinks",
@@ -6041,9 +6041,9 @@ const foodDrinksQuestions = {
                 question: "Name three winter beverages?",
                 options: [
                     "Hot chocolate",
-                    "Mulled wine",
+                    "Coffee",
                     "Hot tea",
-                    "Coffee"
+                    "Mulled wine"
                 ],
                 correct: 0
             },
@@ -6052,72 +6052,72 @@ const foodDrinksQuestions = {
                 emoji: "🥗🌱",
                 question: "Name three raw foods?",
                 options: [
-                    "Salad",
-                    "Sushi",
                     "Fruits",
-                    "Vegetables"
+                    "Vegetables",
+                    "Sushi",
+                    "Salad"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Ancient Grains",
                 emoji: "🌾📜",
                 question: "Name three ancient grains?",
                 options: [
-                    "Quinoa",
                     "Amaranth",
-                    "Spelt",
-                    "Farro"
+                    "Quinoa",
+                    "Farro",
+                    "Spelt"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Russian Food",
                 emoji: "🇷🇺🥟",
                 question: "Name three Russian dishes?",
                 options: [
-                    "Borscht",
                     "Pelmeni",
+                    "Borscht",
                     "Blini",
                     "Beef stroganoff"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Tropical Fruits",
                 emoji: "🥭🌴",
                 question: "Name three tropical fruits?",
                 options: [
-                    "Mango",
                     "Pineapple",
                     "Papaya",
+                    "Mango",
                     "Coconut"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Sauce Techniques",
                 emoji: "🥄👨‍🍳",
                 question: "Name three sauce thickeners?",
                 options: [
-                    "Roux",
                     "Cornstarch",
                     "Egg yolk",
-                    "Reduction"
+                    "Reduction",
+                    "Roux"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "BBQ Foods",
                 emoji: "🔥🍖",
                 question: "Name three BBQ items?",
                 options: [
-                    "Ribs",
-                    "Chicken",
+                    "Sausages",
                     "Burgers",
-                    "Sausages"
+                    "Ribs",
+                    "Chicken"
                 ],
-                correct: 0
+                correct: 2
             }
         ]
     },
@@ -6128,10 +6128,10 @@ const foodDrinksQuestions = {
                 emoji: "🥥🌴",
                 question: "Is coconut brown and hairy?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Filtered Water",
@@ -6148,20 +6148,20 @@ const foodDrinksQuestions = {
                 emoji: "🐑🍖",
                 question: "Is lamb from sheep?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Tangerine Juice",
                 emoji: "🍊🥤",
                 question: "Is tangerine juice citrus?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Pudding",
@@ -6208,10 +6208,10 @@ const foodDrinksQuestions = {
                 emoji: "🍁🥞",
                 question: "Is maple syrup from trees?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Berry Smoothie",
@@ -6230,10 +6230,10 @@ const foodDrinksQuestions = {
                 emoji: "🐟🧂",
                 question: "Are anchovies small salty fish?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Piccolo Latte",
@@ -6250,50 +6250,50 @@ const foodDrinksQuestions = {
                 emoji: "🍞🌾",
                 question: "Does multigrain have multiple grains?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Cantaloupe Juice",
                 emoji: "🥤🍈",
                 question: "Is cantaloupe juice orange?",
                 options: [
-                    "Green",
-                    "True"
+                    "True",
+                    "Green"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Sashimi",
                 emoji: "🐟🍣",
                 question: "Is sashimi raw fish?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Beetroot Latte",
                 emoji: "☕💜",
                 question: "Is beetroot latte pink?",
                 options: [
-                    "Brown",
-                    "True"
+                    "True",
+                    "Brown"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Paratha",
                 emoji: "🫓🇮🇳",
                 question: "Is paratha Indian flatbread?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Pea Milk",
@@ -6320,10 +6320,10 @@ const foodDrinksQuestions = {
                 emoji: "🥤🫐",
                 question: "Is prune juice from dried plums?",
                 options: [
-                    "From grapes",
-                    "True"
+                    "True",
+                    "From grapes"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         hard: [
@@ -6332,20 +6332,20 @@ const foodDrinksQuestions = {
                 emoji: "🍲🇲🇽",
                 question: "Is pozole a Mexican hominy soup?",
                 options: [
+                    "Spanish",
                     "True",
-                    "False",
-                    "Spanish"
+                    "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Mazagran",
                 emoji: "☕🧊",
                 question: "Is mazagran cold coffee drink?",
                 options: [
-                    "Hot only",
+                    "False",
                     "True",
-                    "False"
+                    "Hot only"
                 ],
                 correct: 1
             },
@@ -6355,10 +6355,10 @@ const foodDrinksQuestions = {
                 question: "Is pain de mie French sandwich bread?",
                 options: [
                     "True",
-                    "False",
-                    "Italian"
+                    "Italian",
+                    "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Wolfberry Juice",
@@ -6366,8 +6366,8 @@ const foodDrinksQuestions = {
                 question: "Is wolfberry same as goji?",
                 options: [
                     "Different",
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
                 correct: 0
             },
@@ -6376,20 +6376,20 @@ const foodDrinksQuestions = {
                 emoji: "🍫🌶️",
                 question: "Does mole have chocolate?",
                 options: [
-                    "True",
                     "False",
-                    "Never"
+                    "Never",
+                    "True"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Cascara Tea",
                 emoji: "🍵☕",
                 question: "Is cascara from coffee cherry?",
                 options: [
-                    "Tea leaves",
+                    "False",
                     "True",
-                    "False"
+                    "Tea leaves"
                 ],
                 correct: 1
             },
@@ -6398,20 +6398,20 @@ const foodDrinksQuestions = {
                 emoji: "🍞🍫",
                 question: "Is babka a twisted sweet bread?",
                 options: [
-                    "True",
                     "False",
+                    "True",
                     "Flat"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Noni Juice",
                 emoji: "🥤🍈",
                 question: "Does noni juice smell strong?",
                 options: [
-                    "Mild",
+                    "True",
                     "False",
-                    "True"
+                    "Mild"
                 ],
                 correct: 1
             },
@@ -6420,22 +6420,22 @@ const foodDrinksQuestions = {
                 emoji: "🍧🍋",
                 question: "Is cremolada a frozen dessert?",
                 options: [
+                    "Hot",
                     "True",
-                    "False",
-                    "Hot"
+                    "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Jujube Tea",
                 emoji: "🍵🔴",
                 question: "Is jujube tea from red dates?",
                 options: [
-                    "Green dates",
                     "True",
+                    "Green dates",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         "expert": [
@@ -6445,95 +6445,95 @@ const foodDrinksQuestions = {
                 question: "Does Périgueux have truffles?",
                 options: [
                     "True",
-                    "False",
+                    "Mushrooms only",
                     "No truffles",
-                    "Mushrooms only"
+                    "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Wuyi Tea",
                 emoji: "🍵⛰️",
                 question: "Is Wuyi rock oolong tea?",
                 options: [
+                    "Black tea",
                     "Green tea",
-                    "True",
                     "False",
-                    "Black tea"
+                    "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Paysanne",
                 emoji: "🔪🥕",
                 question: "Is paysanne thin flat cuts?",
                 options: [
-                    "True",
                     "False",
-                    "Thick",
-                    "Strips"
+                    "True",
+                    "Strips",
+                    "Thick"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Absinthe",
                 emoji: "🍸💚",
                 question: "Is absinthe known as green fairy?",
                 options: [
+                    "Red fairy",
                     "Blue fairy",
                     "False",
-                    "True",
-                    "Red fairy"
+                    "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Macedoine",
                 emoji: "🔪🥗",
                 question: "Is macedoine small mixed dice?",
                 options: [
-                    "True",
-                    "False",
                     "Large chunks",
-                    "Strips"
+                    "Strips",
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Rooibos",
                 emoji: "🍵🇿🇦",
                 question: "Is rooibos red bush tea?",
                 options: [
+                    "Black bush",
                     "Green bush",
                     "True",
-                    "False",
-                    "Black bush"
+                    "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Jardinière",
                 emoji: "🥕🔪",
                 question: "Is jardinière mixed vegetables?",
                 options: [
-                    "True",
                     "False",
-                    "Meat only",
-                    "Sauce"
+                    "True",
+                    "Sauce",
+                    "Meat only"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Amaretto",
                 emoji: "🥃🌰",
                 question: "Is amaretto almond-flavored liqueur?",
                 options: [
-                    "Hazelnut",
                     "False",
+                    "Walnut",
                     "True",
-                    "Walnut"
+                    "Hazelnut"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Provençale",
@@ -6541,23 +6541,23 @@ const foodDrinksQuestions = {
                 question: "Does provençale have tomatoes and garlic?",
                 options: [
                     "True",
-                    "False",
                     "No tomato",
-                    "No garlic"
+                    "No garlic",
+                    "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Biluochun Tea",
                 emoji: "🍵🐚",
                 question: "Is Biluochun a green tea?",
                 options: [
-                    "Oolong",
                     "False",
+                    "Black",
                     "True",
-                    "Black"
+                    "Oolong"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         "extreme": [
@@ -6566,12 +6566,12 @@ const foodDrinksQuestions = {
                 emoji: "🇧🇷🍖",
                 question: "Name three Brazilian dishes?",
                 options: [
-                    "Feijoada",
                     "Churrasco",
+                    "Pão de queijo",
                     "Moqueca",
-                    "Pão de queijo"
+                    "Feijoada"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Warm Drinks",
@@ -6579,8 +6579,8 @@ const foodDrinksQuestions = {
                 question: "Name three warm beverages?",
                 options: [
                     "Coffee",
-                    "Tea",
                     "Hot chocolate",
+                    "Tea",
                     "Mulled wine"
                 ],
                 correct: 0
@@ -6590,84 +6590,84 @@ const foodDrinksQuestions = {
                 emoji: "🎃🥒",
                 question: "Name three types of squash?",
                 options: [
-                    "Butternut",
                     "Zucchini",
                     "Pumpkin",
-                    "Acorn"
+                    "Acorn",
+                    "Butternut"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Fall Drinks",
                 emoji: "🍂🥤",
                 question: "Name three autumn beverages?",
                 options: [
-                    "Pumpkin spice latte",
-                    "Apple cider",
                     "Hot tea",
-                    "Mulled wine"
+                    "Pumpkin spice latte",
+                    "Mulled wine",
+                    "Apple cider"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Fermented Foods",
                 emoji: "🥒🫙",
                 question: "Name three fermented foods?",
                 options: [
-                    "Kimchi",
-                    "Sauerkraut",
                     "Pickles",
+                    "Sauerkraut",
+                    "Kimchi",
                     "Yogurt"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Pseudocereals",
                 emoji: "🌾🥗",
                 question: "Name three pseudocereals?",
                 options: [
-                    "Quinoa",
+                    "Chia",
                     "Amaranth",
-                    "Buckwheat",
-                    "Chia"
+                    "Quinoa",
+                    "Buckwheat"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Polish Food",
                 emoji: "🇵🇱🥟",
                 question: "Name three Polish dishes?",
                 options: [
-                    "Pierogi",
                     "Bigos",
+                    "Pierogi",
                     "Kielbasa",
                     "Żurek"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Plating Techniques",
                 emoji: "🍽️🎨",
                 question: "Name three plating methods?",
                 options: [
-                    "Stacking",
+                    "Dotting",
                     "Drizzling",
                     "Swooshing",
-                    "Dotting"
+                    "Stacking"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Camping Foods",
                 emoji: "🏕️🔥",
                 question: "Name three camping food items?",
                 options: [
-                    "S'mores",
+                    "Trail mix",
                     "Hot dogs",
                     "Beans",
-                    "Trail mix"
+                    "S'mores"
                 ],
-                correct: 0
+                correct: 3
             }
         ]
     },
@@ -6678,10 +6678,10 @@ const foodDrinksQuestions = {
                 emoji: "🍋💛",
                 question: "Is lemon sour?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Distilled Water",
@@ -6718,20 +6718,20 @@ const foodDrinksQuestions = {
                 emoji: "🍡❄️",
                 question: "Is a popsicle frozen?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Earl Grey Tea",
                 emoji: "🍵🍊",
                 question: "Does Earl Grey have bergamot?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Cucumber",
@@ -6748,20 +6748,20 @@ const foodDrinksQuestions = {
                 emoji: "🥤🤍",
                 question: "Is cream soda sweet?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Jam",
                 emoji: "🍓🍞",
                 question: "Is jam made from fruit?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Mango Lassi",
@@ -6840,10 +6840,10 @@ const foodDrinksQuestions = {
                 emoji: "🍤🍞",
                 question: "Is panko Japanese breadcrumbs?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Quinoa Milk",
@@ -6870,10 +6870,10 @@ const foodDrinksQuestions = {
                 emoji: "🥤🫐",
                 question: "Is mulberry juice dark purple?",
                 options: [
-                    "Yellow",
-                    "True"
+                    "True",
+                    "Yellow"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         hard: [
@@ -6882,11 +6882,11 @@ const foodDrinksQuestions = {
                 emoji: "🍲✡️",
                 question: "Is cholent a Jewish slow-cooked stew?",
                 options: [
-                    "True",
                     "False",
+                    "True",
                     "Fast cooked"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Café au Lait",
@@ -6894,8 +6894,8 @@ const foodDrinksQuestions = {
                 question: "Is café au lait equal coffee and milk?",
                 options: [
                     "No milk",
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
                 correct: 0
             },
@@ -6904,75 +6904,75 @@ const foodDrinksQuestions = {
                 emoji: "🫓🇦🇲",
                 question: "Is lavash Armenian flatbread?",
                 options: [
+                    "Italian",
                     "True",
-                    "False",
-                    "Italian"
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Camu Camu Juice",
                 emoji: "🥤🍒",
                 question: "Is camu camu highest in vitamin C?",
                 options: [
-                    "Low vitamin",
+                    "True",
                     "False",
-                    "True"
+                    "Low vitamin"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Adobo",
                 emoji: "🍖🇵🇭",
                 question: "Is adobo a Filipino dish?",
                 options: [
-                    "True",
                     "False",
+                    "True",
                     "Chinese"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Cortado",
                 emoji: "☕🥛",
                 question: "Is cortado espresso with warm milk?",
                 options: [
-                    "Cold milk",
+                    "False",
                     "True",
-                    "False"
+                    "Cold milk"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Challah",
                 emoji: "🍞🌀",
                 question: "Is challah braided bread?",
                 options: [
-                    "True",
                     "False",
+                    "True",
                     "Flat"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Pomelo Juice",
                 emoji: "🥤🍊",
                 question: "Is pomelo larger than grapefruit?",
                 options: [
-                    "Smaller",
                     "False",
+                    "Smaller",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Beignet",
                 emoji: "🍩🇫🇷",
                 question: "Is beignet a French donut?",
                 options: [
-                    "True",
+                    "Italian",
                     "False",
-                    "Italian"
+                    "True"
                 ],
                 correct: 1
             },
@@ -6994,12 +6994,12 @@ const foodDrinksQuestions = {
                 emoji: "🧅🍷",
                 question: "Is Robert sauce with onions and mustard?",
                 options: [
+                    "No onions",
                     "True",
                     "False",
-                    "No onions",
                     "No mustard"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Bai Hao Tea",
@@ -7007,11 +7007,11 @@ const foodDrinksQuestions = {
                 question: "Is Bai Hao bitten by leafhoppers?",
                 options: [
                     "No insects",
-                    "True",
+                    "Artificial",
                     "False",
-                    "Artificial"
+                    "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Lardons",
@@ -7019,8 +7019,8 @@ const foodDrinksQuestions = {
                 question: "Are lardons small bacon pieces?",
                 options: [
                     "True",
-                    "False",
                     "Large chunks",
+                    "False",
                     "Not bacon"
                 ],
                 correct: 0
@@ -7030,34 +7030,34 @@ const foodDrinksQuestions = {
                 emoji: "🥃⭐",
                 question: "Is sambuca served with coffee beans?",
                 options: [
-                    "No beans",
-                    "False",
                     "True",
-                    "Tea leaves"
+                    "Tea leaves",
+                    "False",
+                    "No beans"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Paysanne Cut",
                 emoji: "🔪🥕",
                 question: "Is paysanne 1/2 inch thin squares?",
                 options: [
-                    "True",
+                    "Strips",
                     "False",
-                    "Thick",
-                    "Strips"
+                    "True",
+                    "Thick"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Honeybush Tea",
                 emoji: "🍵🍯",
                 question: "Is honeybush from South Africa?",
                 options: [
-                    "Asia",
+                    "Europe",
                     "True",
                     "False",
-                    "Europe"
+                    "Asia"
                 ],
                 correct: 1
             },
@@ -7066,24 +7066,24 @@ const foodDrinksQuestions = {
                 emoji: "🥔🔪",
                 question: "Is tournée a football-shaped cut?",
                 options: [
+                    "Round",
                     "True",
-                    "False",
                     "Square",
-                    "Round"
+                    "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Frangelico",
                 emoji: "🥃🌰",
                 question: "Is Frangelico hazelnut liqueur?",
                 options: [
-                    "Almond",
                     "False",
+                    "Almond",
                     "True",
                     "Walnut"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Florentine Style",
@@ -7102,12 +7102,12 @@ const foodDrinksQuestions = {
                 emoji: "🍵⚪",
                 question: "Is Anji Bai Cha a rare white tea?",
                 options: [
-                    "Common",
                     "False",
+                    "Black tea",
                     "True",
-                    "Black tea"
+                    "Common"
                 ],
-                correct: 0
+                correct: 3
             }
         ],
         "extreme": [
@@ -7116,12 +7116,12 @@ const foodDrinksQuestions = {
                 emoji: "🇪🇹🍛",
                 question: "Name three Ethiopian dishes?",
                 options: [
-                    "Injera",
                     "Doro wat",
                     "Kitfo",
+                    "Injera",
                     "Tibs"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Smoothie Boosters",
@@ -7129,9 +7129,9 @@ const foodDrinksQuestions = {
                 question: "Name three smoothie add-ins?",
                 options: [
                     "Protein powder",
-                    "Chia seeds",
                     "Spinach",
-                    "Flax seeds"
+                    "Flax seeds",
+                    "Chia seeds"
                 ],
                 correct: 0
             },
@@ -7141,9 +7141,9 @@ const foodDrinksQuestions = {
                 question: "Name three gourd vegetables?",
                 options: [
                     "Pumpkin",
-                    "Zucchini",
                     "Cucumber",
-                    "Bottle gourd"
+                    "Bottle gourd",
+                    "Zucchini"
                 ],
                 correct: 0
             },
@@ -7152,36 +7152,36 @@ const foodDrinksQuestions = {
                 emoji: "🌸🥤",
                 question: "Name three spring beverages?",
                 options: [
-                    "Lavender tea",
-                    "Strawberry lemonade",
                     "Green tea",
-                    "Flower tea"
+                    "Flower tea",
+                    "Lavender tea",
+                    "Strawberry lemonade"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Pickled Foods",
                 emoji: "🥒🫙",
                 question: "Name three pickled items?",
                 options: [
-                    "Cucumbers",
                     "Onions",
                     "Peppers",
-                    "Cabbage"
+                    "Cabbage",
+                    "Cucumbers"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Gluten-Free Grains",
                 emoji: "🌾🚫",
                 question: "Name three gluten-free grains?",
                 options: [
-                    "Rice",
                     "Quinoa",
+                    "Rice",
                     "Corn",
                     "Millet"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Hungarian Food",
@@ -7189,9 +7189,9 @@ const foodDrinksQuestions = {
                 question: "Name three Hungarian dishes?",
                 options: [
                     "Goulash",
-                    "Paprikash",
                     "Lángos",
-                    "Dobos torte"
+                    "Dobos torte",
+                    "Paprikash"
                 ],
                 correct: 0
             },
@@ -7201,9 +7201,9 @@ const foodDrinksQuestions = {
                 question: "Name three pome fruits?",
                 options: [
                     "Apple",
+                    "Loquat",
                     "Pear",
-                    "Quince",
-                    "Loquat"
+                    "Quince"
                 ],
                 correct: 0
             },
@@ -7212,12 +7212,12 @@ const foodDrinksQuestions = {
                 emoji: "🌿✨",
                 question: "Name three garnish types?",
                 options: [
-                    "Herbs",
-                    "Edible flowers",
                     "Citrus zest",
+                    "Edible flowers",
+                    "Herbs",
                     "Microgreens"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Buffet Foods",
@@ -7226,8 +7226,8 @@ const foodDrinksQuestions = {
                 options: [
                     "Salads",
                     "Pasta",
-                    "Meats",
-                    "Bread"
+                    "Bread",
+                    "Meats"
                 ],
                 correct: 0
             }
@@ -7240,20 +7240,20 @@ const foodDrinksQuestions = {
                 emoji: "🍋💚",
                 question: "Is lime green and sour?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Tap Water",
                 emoji: "💧🚰",
                 question: "Does tap water come from faucets?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Venison",
@@ -7280,10 +7280,10 @@ const foodDrinksQuestions = {
                 emoji: "🍫🟫",
                 question: "Is fudge soft and sweet?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Rooibos Tea",
@@ -7342,10 +7342,10 @@ const foodDrinksQuestions = {
                 emoji: "🐟🧂",
                 question: "Is herring often pickled?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Consommé",
@@ -7412,10 +7412,10 @@ const foodDrinksQuestions = {
                 emoji: "🥛🌰",
                 question: "Is tiger nut milk dairy-free?",
                 options: [
-                    "Contains dairy",
-                    "True"
+                    "True",
+                    "Contains dairy"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Cannoli",
@@ -7432,10 +7432,10 @@ const foodDrinksQuestions = {
                 emoji: "🥤💎",
                 question: "Is pomegranate juice antioxidant-rich?",
                 options: [
-                    "Low antioxidants",
-                    "True"
+                    "True",
+                    "Low antioxidants"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         hard: [
@@ -7455,11 +7455,11 @@ const foodDrinksQuestions = {
                 emoji: "☕🧊",
                 question: "Is shakerato shaken iced espresso?",
                 options: [
+                    "False",
                     "Stirred",
-                    "True",
-                    "False"
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Tigelle",
@@ -7467,8 +7467,8 @@ const foodDrinksQuestions = {
                 question: "Are tigelle small Italian breads?",
                 options: [
                     "True",
-                    "False",
-                    "Large"
+                    "Large",
+                    "False"
                 ],
                 correct: 0
             },
@@ -7478,43 +7478,43 @@ const foodDrinksQuestions = {
                 question: "Is sea buckthorn juice tangy?",
                 options: [
                     "Bland",
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Satay",
                 emoji: "🍢🥜",
                 question: "Is satay served with peanut sauce?",
                 options: [
-                    "True",
                     "False",
-                    "No sauce"
+                    "No sauce",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Nitro Brew",
                 emoji: "☕💨",
                 question: "Is nitro brew infused with nitrogen?",
                 options: [
-                    "Oxygen",
                     "True",
-                    "False"
+                    "False",
+                    "Oxygen"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Damper Bread",
                 emoji: "🍞🇦🇺",
                 question: "Is damper Australian bush bread?",
                 options: [
-                    "True",
                     "False",
+                    "True",
                     "American"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Moringa Tea",
@@ -7533,8 +7533,8 @@ const foodDrinksQuestions = {
                 question: "Is mochi made from rice?",
                 options: [
                     "True",
-                    "False",
-                    "Wheat"
+                    "Wheat",
+                    "False"
                 ],
                 correct: 0
             },
@@ -7543,9 +7543,9 @@ const foodDrinksQuestions = {
                 emoji: "🥤👑",
                 question: "Is mangosteen purple inside?",
                 options: [
-                    "White inside",
+                    "False",
                     "True",
-                    "False"
+                    "White inside"
                 ],
                 correct: 1
             }
@@ -7556,60 +7556,60 @@ const foodDrinksQuestions = {
                 emoji: "🥗🌿",
                 question: "Is ravigote a herb vinaigrette?",
                 options: [
-                    "True",
                     "False",
+                    "Tomato based",
                     "Cream based",
-                    "Tomato based"
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Huangshan Maofeng",
                 emoji: "🍵⛰️",
                 question: "Is Huangshan Maofeng a green tea?",
                 options: [
-                    "Black tea",
                     "True",
+                    "Black tea",
                     "False",
                     "White tea"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Rondelle",
                 emoji: "🔪🥕",
                 question: "Is rondelle round slices?",
                 options: [
-                    "True",
-                    "False",
                     "Square",
-                    "Strips"
+                    "True",
+                    "Strips",
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Galliano",
                 emoji: "🥃💛",
                 question: "Is Galliano vanilla-flavored liqueur?",
                 options: [
+                    "Coffee",
                     "Chocolate",
-                    "False",
                     "True",
-                    "Coffee"
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Oblique Cut",
                 emoji: "🔪🥕",
                 question: "Is oblique cut diagonal slicing?",
                 options: [
-                    "True",
-                    "False",
                     "Straight",
-                    "Diced"
+                    "True",
+                    "Diced",
+                    "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Essiac Tea",
@@ -7628,24 +7628,24 @@ const foodDrinksQuestions = {
                 emoji: "🥔🔪",
                 question: "Is gaufrette waffle-cut potato?",
                 options: [
-                    "True",
                     "False",
+                    "Mashed",
                     "Thick cut",
-                    "Mashed"
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Strega",
                 emoji: "🥃💛",
                 question: "Is Strega Italian herbal liqueur?",
                 options: [
-                    "French",
+                    "Spanish",
                     "False",
-                    "True",
-                    "Spanish"
+                    "French",
+                    "True"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Milanaise Style",
@@ -7653,23 +7653,23 @@ const foodDrinksQuestions = {
                 question: "Does Milanaise mean breaded and fried?",
                 options: [
                     "True",
-                    "False",
                     "Grilled",
+                    "False",
                     "Boiled"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Junshan Yinzhen",
                 emoji: "🍵💛",
                 question: "Is Junshan Yinzhen a yellow tea?",
                 options: [
-                    "Green",
-                    "False",
                     "True",
-                    "Black"
+                    "Black",
+                    "Green",
+                    "False"
                 ],
-                correct: 0
+                correct: 2
             }
         ],
         "extreme": [
@@ -7679,9 +7679,9 @@ const foodDrinksQuestions = {
                 question: "Name three Peruvian dishes?",
                 options: [
                     "Ceviche",
-                    "Lomo saltado",
+                    "Causa",
                     "Aji de gallina",
-                    "Causa"
+                    "Lomo saltado"
                 ],
                 correct: 0
             },
@@ -7690,24 +7690,24 @@ const foodDrinksQuestions = {
                 emoji: "💪🥤",
                 question: "Name three protein beverages?",
                 options: [
-                    "Protein shake",
-                    "Milk",
+                    "Kefir",
                     "Soy milk",
-                    "Kefir"
+                    "Protein shake",
+                    "Milk"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Brassica Vegetables",
                 emoji: "🥦🥬",
                 question: "Name three brassica vegetables?",
                 options: [
-                    "Broccoli",
-                    "Cabbage",
                     "Cauliflower",
-                    "Kale"
+                    "Kale",
+                    "Cabbage",
+                    "Broccoli"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Hydrating Drinks",
@@ -7726,48 +7726,48 @@ const foodDrinksQuestions = {
                 emoji: "🥫🫙",
                 question: "Name three preserved items?",
                 options: [
-                    "Jam",
-                    "Pickles",
                     "Canned goods",
-                    "Jerky"
+                    "Jerky",
+                    "Jam",
+                    "Pickles"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Whole Grains",
                 emoji: "🌾🍚",
                 question: "Name three whole grains?",
                 options: [
-                    "Brown rice",
                     "Oats",
-                    "Barley",
-                    "Whole wheat"
+                    "Brown rice",
+                    "Whole wheat",
+                    "Barley"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Swedish Food",
                 emoji: "🇸🇪🥘",
                 question: "Name three Swedish dishes?",
                 options: [
-                    "Meatballs",
-                    "Gravlax",
                     "Surströmming",
-                    "Knäckebröd"
+                    "Gravlax",
+                    "Knäckebröd",
+                    "Meatballs"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Drupes",
                 emoji: "🍑🍒",
                 question: "Name three drupe fruits?",
                 options: [
-                    "Peach",
+                    "Apricot",
                     "Plum",
                     "Cherry",
-                    "Apricot"
+                    "Peach"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Flavor Profiles",
@@ -7776,8 +7776,8 @@ const foodDrinksQuestions = {
                 options: [
                     "Sweet",
                     "Salty",
-                    "Sour",
-                    "Bitter"
+                    "Bitter",
+                    "Sour"
                 ],
                 correct: 0
             },
@@ -7786,12 +7786,12 @@ const foodDrinksQuestions = {
                 emoji: "🌭🍢",
                 question: "Name three street snack items?",
                 options: [
-                    "Corn dog",
                     "Skewers",
+                    "Corn dog",
                     "Pretzels",
                     "Tacos"
                 ],
-                correct: 0
+                correct: 1
             }
         ]
     },
@@ -7802,10 +7802,10 @@ const foodDrinksQuestions = {
                 emoji: "🍍💛",
                 question: "Is pineapple sweet and tropical?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Bottled Water",
@@ -7822,10 +7822,10 @@ const foodDrinksQuestions = {
                 emoji: "🐰🍖",
                 question: "Is rabbit a lean meat?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Toffee",
@@ -7842,10 +7842,10 @@ const foodDrinksQuestions = {
                 emoji: "🍵🌿",
                 question: "Does peppermint tea taste minty?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
 {
                 topic: "Eggplant",
@@ -7862,20 +7862,20 @@ const foodDrinksQuestions = {
                 emoji: "🥤🟤",
                 question: "Is Dr Pepper a soft drink?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Peanut Butter",
                 emoji: "🥜🥄",
                 question: "Is peanut butter spreadable?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Vanilla Shake",
@@ -7894,40 +7894,40 @@ const foodDrinksQuestions = {
                 emoji: "🐟🏞️",
                 question: "Is trout a freshwater fish?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Bisque",
                 emoji: "🦞🥣",
                 question: "Is bisque a creamy soup?",
                 options: [
-                    "Clear soup",
-                    "True"
+                    "True",
+                    "Clear soup"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Tortilla",
                 emoji: "🌮🫓",
                 question: "Is tortilla related to food and drinks?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Lychee Juice",
                 emoji: "🥤🍈",
                 question: "Is lychee juice sweet?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Pad Thai",
@@ -7954,20 +7954,20 @@ const foodDrinksQuestions = {
                 emoji: "🥐☕",
                 question: "Are scones British pastries?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Brazil Nut Milk",
                 emoji: "🥛🌰",
                 question: "Is Brazil nut milk from Brazil nuts?",
                 options: [
-                    "From cashews",
-                    "True"
+                    "True",
+                    "From cashews"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Panna Cotta",
@@ -7984,10 +7984,10 @@ const foodDrinksQuestions = {
                 emoji: "🥤🍊",
                 question: "Is persimmon juice orange?",
                 options: [
-                    "Green",
-                    "True"
+                    "True",
+                    "Green"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         hard: [
@@ -7996,20 +7996,20 @@ const foodDrinksQuestions = {
                 emoji: "🍲🇲🇽",
                 question: "Is menudo a Mexican tripe soup?",
                 options: [
-                    "True",
                     "False",
+                    "True",
                     "Spanish"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Breve",
                 emoji: "☕🥛",
                 question: "Is breve made with half-and-half?",
                 options: [
-                    "Skim milk",
+                    "False",
                     "True",
-                    "False"
+                    "Skim milk"
                 ],
                 correct: 1
             },
@@ -8018,55 +8018,55 @@ const foodDrinksQuestions = {
                 emoji: "🫓🇨🇴",
                 question: "Is arepa a corn cake?",
                 options: [
+                    "Wheat",
                     "True",
-                    "False",
-                    "Wheat"
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Yuzu Juice",
                 emoji: "🥤🍋",
                 question: "Is yuzu a Japanese citrus?",
                 options: [
-                    "Chinese",
                     "False",
+                    "Chinese",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Massaman",
                 emoji: "🍛🇹🇭",
                 question: "Is massaman a Thai curry?",
                 options: [
-                    "True",
                     "False",
-                    "Indian"
+                    "Indian",
+                    "True"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Einspänner",
                 emoji: "☕🥛",
                 question: "Is Einspänner Austrian coffee?",
                 options: [
-                    "Italian",
                     "True",
-                    "False"
+                    "False",
+                    "Italian"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Bannock",
                 emoji: "🍞🇨🇦",
                 question: "Is bannock Indigenous flatbread?",
                 options: [
-                    "True",
+                    "European",
                     "False",
-                    "European"
+                    "True"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Dandelion Tea",
@@ -8085,21 +8085,21 @@ const foodDrinksQuestions = {
                 question: "Is gulab jamun an Indian sweet?",
                 options: [
                     "True",
-                    "False",
-                    "Chinese"
+                    "Chinese",
+                    "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Feijoa Juice",
                 emoji: "🥤🍈",
                 question: "Is feijoa from South America?",
                 options: [
-                    "Europe",
                     "True",
-                    "False"
+                    "False",
+                    "Europe"
                 ],
-                correct: 0
+                correct: 2
             }
         ],
         "expert": [
@@ -8108,36 +8108,36 @@ const foodDrinksQuestions = {
                 emoji: "🧅🥛",
                 question: "Is Soubise béchamel with onions?",
                 options: [
-                    "True",
-                    "False",
                     "No onions",
-                    "Tomato base"
+                    "True",
+                    "Tomato base",
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Taiping Houkui",
                 emoji: "🍵🐒",
                 question: "Is Taiping Houkui a green tea?",
                 options: [
-                    "Oolong",
+                    "Black tea",
                     "True",
-                    "False",
-                    "Black tea"
+                    "Oolong",
+                    "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Pont-Neuf",
                 emoji: "🥔🔪",
                 question: "Is Pont-Neuf thick French fries?",
                 options: [
+                    "Not fries",
                     "True",
                     "False",
-                    "Thin",
-                    "Not fries"
+                    "Thin"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Chambord",
@@ -8156,24 +8156,24 @@ const foodDrinksQuestions = {
                 emoji: "🔪🥕",
                 question: "Is bâtonnet 1/4 x 1/4 x 2 inches?",
                 options: [
-                    "True",
-                    "False",
+                    "Larger",
                     "Smaller",
-                    "Larger"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Tulsi Tea",
                 emoji: "🍵🌿",
                 question: "Is tulsi holy basil tea?",
                 options: [
+                    "False",
                     "Mint",
                     "True",
-                    "False",
                     "Regular basil"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Allumette",
@@ -8181,47 +8181,47 @@ const foodDrinksQuestions = {
                 question: "Is allumette matchstick-sized cut?",
                 options: [
                     "True",
-                    "False",
                     "Thick",
+                    "False",
                     "Diced"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Midori",
                 emoji: "🥃💚",
                 question: "Is Midori melon liqueur?",
                 options: [
+                    "Grape",
                     "Apple",
                     "False",
-                    "True",
-                    "Grape"
+                    "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Duglere Style",
                 emoji: "🐟🍅",
                 question: "Does Duglere have tomatoes?",
                 options: [
-                    "True",
-                    "False",
                     "No tomatoes",
-                    "Cream only"
+                    "True",
+                    "Cream only",
+                    "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Liu An Gua Pian",
                 emoji: "🍵🍃",
                 question: "Is Liu An Gua Pian a green tea?",
                 options: [
-                    "White",
-                    "False",
                     "True",
-                    "Yellow"
+                    "White",
+                    "Yellow",
+                    "False"
                 ],
-                correct: 1
+                correct: 3
             }
         ],
         "extreme": [
@@ -8230,22 +8230,22 @@ const foodDrinksQuestions = {
                 emoji: "🇦🇷🥩",
                 question: "Name three Argentine dishes?",
                 options: [
-                    "Asado",
+                    "Dulce de leche",
                     "Empanadas",
-                    "Chimichurri",
-                    "Dulce de leche"
+                    "Asado",
+                    "Chimichurri"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Detox Drinks",
                 emoji: "🥤🌿",
                 question: "Is detox drinks related to food and drinks?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
                 {
                 topic: "Legumes",
@@ -8253,9 +8253,9 @@ const foodDrinksQuestions = {
                 question: "Name three legumes?",
                 options: [
                     "Beans",
+                    "Peas",
                     "Lentils",
-                    "Chickpeas",
-                    "Peas"
+                    "Chickpeas"
                 ],
                 correct: 0
             },
@@ -8264,60 +8264,60 @@ const foodDrinksQuestions = {
                 emoji: "💧🥤",
                 question: "Name three alkaline beverages?",
                 options: [
-                    "Alkaline water",
-                    "Coconut water",
                     "Green juice",
-                    "Aloe vera juice"
+                    "Aloe vera juice",
+                    "Alkaline water",
+                    "Coconut water"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Smoked Foods",
                 emoji: "💨🍖",
                 question: "Name three smoked items?",
                 options: [
-                    "Salmon",
-                    "Bacon",
+                    "Cheese",
                     "Sausage",
-                    "Cheese"
+                    "Bacon",
+                    "Salmon"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Heirloom Grains",
                 emoji: "🌾📜",
                 question: "Name three heirloom grains?",
                 options: [
-                    "Einkorn",
-                    "Emmer",
                     "Kamut",
-                    "Spelt"
+                    "Spelt",
+                    "Emmer",
+                    "Einkorn"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Austrian Food",
                 emoji: "🇦🇹🥨",
                 question: "Name three Austrian dishes?",
                 options: [
-                    "Schnitzel",
-                    "Apfelstrudel",
                     "Sachertorte",
+                    "Apfelstrudel",
+                    "Schnitzel",
                     "Kaiserschmarrn"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Aggregate Fruits",
                 emoji: "🍓🫐",
                 question: "Name three aggregate fruits?",
                 options: [
-                    "Raspberry",
+                    "Mulberry",
                     "Blackberry",
                     "Strawberry",
-                    "Mulberry"
+                    "Raspberry"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Food Pairings",
@@ -8326,8 +8326,8 @@ const foodDrinksQuestions = {
                 options: [
                     "Wine and cheese",
                     "Tomato and basil",
-                    "Peanut butter and jelly",
-                    "Fish and chips"
+                    "Fish and chips",
+                    "Peanut butter and jelly"
                 ],
                 correct: 0
             },
@@ -8336,12 +8336,12 @@ const foodDrinksQuestions = {
                 emoji: "🚚🌮",
                 question: "Name three food truck items?",
                 options: [
-                    "Tacos",
-                    "Burgers",
                     "Hot dogs",
-                    "Falafel"
+                    "Falafel",
+                    "Burgers",
+                    "Tacos"
                 ],
-                correct: 0
+                correct: 3
             }
         ]
     },
@@ -8352,20 +8352,20 @@ const foodDrinksQuestions = {
                 emoji: "🍑💛",
                 question: "Is peach a fuzzy fruit?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Seltzer Water",
                 emoji: "💧✨",
                 question: "Is seltzer water carbonated?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Quail",
@@ -8392,30 +8392,30 @@ const foodDrinksQuestions = {
                 emoji: "🍮🟤",
                 question: "Is caramel made from sugar?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Chamomile Tea",
                 emoji: "🍵🌼",
                 question: "Is chamomile tea calming?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Mushroom",
                 emoji: "🍄🌰",
                 question: "Is mushroom a fungus?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Fanta",
@@ -8442,10 +8442,10 @@ const foodDrinksQuestions = {
                 emoji: "🍓🍋",
                 question: "Does strawberry lemonade have berries?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         medium: [
@@ -8464,10 +8464,10 @@ const foodDrinksQuestions = {
                 emoji: "🥣🐚",
                 question: "Is chowder a thick soup?",
                 options: [
-                    "Thin soup",
-                    "True"
+                    "True",
+                    "Thin soup"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Brioche",
@@ -8514,20 +8514,20 @@ const foodDrinksQuestions = {
                 emoji: "🥞🇬🇧",
                 question: "Is crumpet a British griddle cake?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Pistachio Milk",
                 emoji: "🥛💚",
                 question: "Is pistachio milk from pistachios?",
                 options: [
-                    "From almonds",
-                    "True"
+                    "True",
+                    "From almonds"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Crème Brûlée",
@@ -8544,10 +8544,10 @@ const foodDrinksQuestions = {
                 emoji: "🥤🍐",
                 question: "Is quince juice from quince fruit?",
                 options: [
-                    "From apples",
-                    "True"
+                    "True",
+                    "From apples"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         hard: [
@@ -8557,32 +8557,32 @@ const foodDrinksQuestions = {
                 question: "Is bouillabaisse from Provence?",
                 options: [
                     "True",
-                    "False",
-                    "Normandy"
+                    "Normandy",
+                    "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Café Bombón",
                 emoji: "☕🥛",
                 question: "Is café bombón with condensed milk?",
                 options: [
-                    "Regular milk",
                     "True",
-                    "False"
+                    "False",
+                    "Regular milk"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Mantou",
                 emoji: "🥟🇨🇳",
                 question: "Is mantou a steamed bun?",
                 options: [
-                    "True",
                     "False",
-                    "Fried"
+                    "Fried",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Acai Juice",
@@ -8590,19 +8590,19 @@ const foodDrinksQuestions = {
                 question: "Is acai a superfood berry?",
                 options: [
                     "Regular food",
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Tonkatsu",
                 emoji: "🥩🇯🇵",
                 question: "Is tonkatsu breaded pork cutlet?",
                 options: [
-                    "True",
+                    "Beef",
                     "False",
-                    "Beef"
+                    "True"
                 ],
                 correct: 1
             },
@@ -8612,10 +8612,10 @@ const foodDrinksQuestions = {
                 question: "Is café de olla Mexican spiced coffee?",
                 options: [
                     "Cuban",
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Zopf",
@@ -8623,10 +8623,10 @@ const foodDrinksQuestions = {
                 question: "Is zopf a Swiss braided bread?",
                 options: [
                     "True",
-                    "False",
-                    "German"
+                    "German",
+                    "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Nettle Tea",
@@ -8634,10 +8634,10 @@ const foodDrinksQuestions = {
                 question: "Is nettle tea from stinging nettles?",
                 options: [
                     "Mint",
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Sfogliatelle",
@@ -8655,9 +8655,9 @@ const foodDrinksQuestions = {
                 emoji: "🥤🇧🇷",
                 question: "Is jabuticaba a Brazilian fruit?",
                 options: [
-                    "Mexican",
+                    "False",
                     "True",
-                    "False"
+                    "Mexican"
                 ],
                 correct: 1
             }
@@ -8669,23 +8669,23 @@ const foodDrinksQuestions = {
                 question: "Is Nantua made with crayfish?",
                 options: [
                     "True",
-                    "False",
                     "No shellfish",
+                    "False",
                     "Lobster only"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Xinyang Maojian",
                 emoji: "🍵💚",
                 question: "Is Xinyang Maojian a green tea?",
                 options: [
-                    "Black",
                     "True",
+                    "White",
                     "False",
-                    "White"
+                    "Black"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Mirepoix",
@@ -8693,8 +8693,8 @@ const foodDrinksQuestions = {
                 question: "Is mirepoix 2:1:1 onion:celery:carrot?",
                 options: [
                     "True",
-                    "False",
                     "1:1:1",
+                    "False",
                     "3:2:1"
                 ],
                 correct: 0
@@ -8704,24 +8704,24 @@ const foodDrinksQuestions = {
                 emoji: "🥃🌿",
                 question: "Is Bénédictine herbal liqueur from France?",
                 options: [
-                    "Italy",
-                    "False",
                     "True",
-                    "Spain"
+                    "Spain",
+                    "Italy",
+                    "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Parmentier Cut",
                 emoji: "🥔🔪",
                 question: "Is Parmentier 1/2 inch cube?",
                 options: [
-                    "True",
-                    "False",
                     "1 inch",
-                    "1/4 inch"
+                    "1/4 inch",
+                    "True",
+                    "False"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Jiaogulan Tea",
@@ -8729,33 +8729,33 @@ const foodDrinksQuestions = {
                 question: "Is jiaogulan called immortality herb?",
                 options: [
                     "Common herb",
-                    "True",
                     "False",
-                    "Death herb"
+                    "Death herb",
+                    "True"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Dice Cut",
                 emoji: "🔪🥔",
                 question: "Is large dice 3/4 inch cubes?",
                 options: [
+                    "1/2 inch",
                     "True",
                     "False",
-                    "1/2 inch",
                     "1 inch"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Crème de Violette",
                 emoji: "🥃💜",
                 question: "Is Crème de Violette violet liqueur?",
                 options: [
-                    "Rose",
+                    "Lavender",
                     "False",
                     "True",
-                    "Lavender"
+                    "Rose"
                 ],
                 correct: 1
             },
@@ -8764,24 +8764,24 @@ const foodDrinksQuestions = {
                 emoji: "🐟🍇",
                 question: "Does Véronique include grapes?",
                 options: [
-                    "True",
                     "False",
-                    "No grapes",
-                    "Berries"
+                    "Berries",
+                    "True",
+                    "No grapes"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Bai Mudan Tea",
                 emoji: "🍵🌸",
                 question: "Is Bai Mudan white peony tea?",
                 options: [
-                    "Green",
                     "False",
                     "True",
-                    "Black"
+                    "Black",
+                    "Green"
                 ],
-                correct: 0
+                correct: 3
             }
         ],
         "extreme": [
@@ -8790,36 +8790,36 @@ const foodDrinksQuestions = {
                 emoji: "🇨🇴🍲",
                 question: "Name three Colombian dishes?",
                 options: [
-                    "Bandeja paisa",
                     "Arepas",
                     "Sancocho",
+                    "Bandeja paisa",
                     "Empanadas"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Immune Boosting Drinks",
                 emoji: "💪🥤",
                 question: "Name three immunity drinks?",
                 options: [
-                    "Orange juice",
+                    "Turmeric latte",
                     "Green tea",
-                    "Ginger tea",
-                    "Turmeric latte"
+                    "Orange juice",
+                    "Ginger tea"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Pulses",
                 emoji: "🫘🌾",
                 question: "Name three pulse crops?",
                 options: [
+                    "Black beans",
                     "Lentils",
                     "Chickpeas",
-                    "Split peas",
-                    "Black beans"
+                    "Split peas"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Electrolyte Drinks",
@@ -8827,9 +8827,9 @@ const foodDrinksQuestions = {
                 question: "Name three electrolyte beverages?",
                 options: [
                     "Sports drink",
-                    "Coconut water",
+                    "Electrolyte water",
                     "Pedialyte",
-                    "Electrolyte water"
+                    "Coconut water"
                 ],
                 correct: 0
             },
@@ -8839,9 +8839,9 @@ const foodDrinksQuestions = {
                 question: "Name three cured items?",
                 options: [
                     "Bacon",
-                    "Ham",
+                    "Prosciutto",
                     "Salami",
-                    "Prosciutto"
+                    "Ham"
                 ],
                 correct: 0
             },
@@ -8850,24 +8850,24 @@ const foodDrinksQuestions = {
                 emoji: "🌾⭐",
                 question: "Name three superfood grains?",
                 options: [
-                    "Quinoa",
                     "Amaranth",
-                    "Teff",
-                    "Farro"
+                    "Farro",
+                    "Quinoa",
+                    "Teff"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Swiss Food",
                 emoji: "🇨🇭🧀",
                 question: "Name three Swiss dishes?",
                 options: [
+                    "Zürcher Geschnetzeltes",
                     "Fondue",
-                    "Raclette",
                     "Rösti",
-                    "Zürcher Geschnetzeltes"
+                    "Raclette"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Berry Types",
@@ -8886,8 +8886,8 @@ const foodDrinksQuestions = {
                 options: [
                     "Spherification",
                     "Foaming",
-                    "Gelification",
-                    "Emulsification"
+                    "Emulsification",
+                    "Gelification"
                 ],
                 correct: 0
             },
@@ -8896,12 +8896,12 @@ const foodDrinksQuestions = {
                 emoji: "🎪🍿",
                 question: "Name three festival food items?",
                 options: [
+                    "Fried Oreos",
                     "Funnel cake",
                     "Corn dog",
-                    "Cotton candy",
-                    "Fried Oreos"
+                    "Cotton candy"
                 ],
-                correct: 0
+                correct: 1
             }
         ]
     },
@@ -8942,10 +8942,10 @@ const foodDrinksQuestions = {
                 emoji: "🍊🥤",
                 question: "Is orange juice a breakfast drink?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Marshmallow",
@@ -8962,30 +8962,30 @@ const foodDrinksQuestions = {
                 emoji: "🍵🌺",
                 question: "Is hibiscus tea related to food and drinks?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
                 {
                 topic: "Zucchini",
                 emoji: "🥒💚",
                 question: "Is zucchini a squash?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Pepsi",
                 emoji: "🥤🔵",
                 question: "Is Pepsi a cola drink?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Nutella",
@@ -9002,10 +9002,10 @@ const foodDrinksQuestions = {
                 emoji: "🍋🌿",
                 question: "Does mint lemonade have mint?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         medium: [
@@ -9024,10 +9024,10 @@ const foodDrinksQuestions = {
                 emoji: "🥣🍅",
                 question: "Is gazpacho served cold?",
                 options: [
-                    "Hot",
-                    "True"
+                    "True",
+                    "Hot"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Flatbread",
@@ -9044,20 +9044,20 @@ const foodDrinksQuestions = {
                 emoji: "🥤💎",
                 question: "Is pomegranate juice ruby red?",
                 options: [
-                    "Yellow",
-                    "True"
+                    "True",
+                    "Yellow"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Poke Bowl",
                 emoji: "🐟🍚",
                 question: "Is poke bowl Hawaiian?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Dalgona Coffee",
@@ -9074,20 +9074,20 @@ const foodDrinksQuestions = {
                 emoji: "🫓🇮🇳",
                 question: "Is naan baked in tandoor?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Hazelnut Milk",
                 emoji: "🥛🌰",
                 question: "Is hazelnut milk from hazelnuts?",
                 options: [
-                    "From walnuts",
-                    "True"
+                    "True",
+                    "From walnuts"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Mille-Feuille",
@@ -9104,10 +9104,10 @@ const foodDrinksQuestions = {
                 emoji: "🥤🫐",
                 question: "Is elderberry juice dark purple?",
                 options: [
-                    "Green",
-                    "True"
+                    "True",
+                    "Green"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         hard: [
@@ -9116,11 +9116,11 @@ const foodDrinksQuestions = {
                 emoji: "🍲🇵🇭",
                 question: "Is kare-kare Filipino peanut stew?",
                 options: [
-                    "True",
                     "False",
-                    "Thai"
+                    "Thai",
+                    "True"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Café Noisette",
@@ -9128,8 +9128,8 @@ const foodDrinksQuestions = {
                 question: "Is café noisette espresso with milk?",
                 options: [
                     "No milk",
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
                 correct: 0
             },
@@ -9138,20 +9138,20 @@ const foodDrinksQuestions = {
                 emoji: "🧀🇬🇪",
                 question: "Is khachapuri Georgian cheese bread?",
                 options: [
+                    "Russian",
                     "True",
-                    "False",
-                    "Russian"
+                    "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Guarana Juice",
                 emoji: "🥤⚡",
                 question: "Is guarana high in caffeine?",
                 options: [
-                    "No caffeine",
+                    "True",
                     "False",
-                    "True"
+                    "No caffeine"
                 ],
                 correct: 1
             },
@@ -9160,11 +9160,11 @@ const foodDrinksQuestions = {
                 emoji: "🥞🇯🇵",
                 question: "Is okonomiyaki a savory pancake?",
                 options: [
+                    "Sweet only",
                     "True",
-                    "False",
-                    "Sweet only"
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Wiener Melange",
@@ -9172,21 +9172,21 @@ const foodDrinksQuestions = {
                 question: "Is Wiener Melange Austrian coffee?",
                 options: [
                     "German",
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Karjalanpiirakka",
                 emoji: "🥧🇫🇮",
                 question: "Is karjalanpiirakka Finnish pastry?",
                 options: [
+                    "Swedish",
                     "True",
-                    "False",
-                    "Swedish"
+                    "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Rambutan Juice",
@@ -9194,10 +9194,10 @@ const foodDrinksQuestions = {
                 question: "Is rambutan a hairy fruit?",
                 options: [
                     "Smooth",
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Kladdkaka",
@@ -9205,8 +9205,8 @@ const foodDrinksQuestions = {
                 question: "Is kladdkaka Swedish chocolate cake?",
                 options: [
                     "True",
-                    "False",
-                    "Danish"
+                    "Danish",
+                    "False"
                 ],
                 correct: 0
             },
@@ -9215,11 +9215,11 @@ const foodDrinksQuestions = {
                 emoji: "🥤🇧🇷",
                 question: "Is cupuaçu from Amazon?",
                 options: [
-                    "Africa",
                     "True",
+                    "Africa",
                     "False"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         "expert": [
@@ -9229,33 +9229,33 @@ const foodDrinksQuestions = {
                 question: "Is Bercy made with white wine?",
                 options: [
                     "True",
-                    "False",
                     "Red wine",
-                    "No wine"
+                    "No wine",
+                    "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "Mao Feng Tea",
                 emoji: "🍵⛰️",
                 question: "Is Mao Feng a green tea?",
                 options: [
-                    "Oolong",
-                    "True",
                     "False",
+                    "True",
+                    "Oolong",
                     "Black"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Sofrito",
                 emoji: "🧅🫑",
                 question: "Is sofrito an aromatic base?",
                 options: [
-                    "True",
+                    "Garnish",
                     "False",
-                    "Sauce only",
-                    "Garnish"
+                    "True",
+                    "Sauce only"
                 ],
                 correct: 1
             },
@@ -9276,12 +9276,12 @@ const foodDrinksQuestions = {
                 emoji: "🍅🔪",
                 question: "Is concassé peeled chopped tomatoes?",
                 options: [
+                    "Whole",
                     "True",
                     "False",
-                    "With skin",
-                    "Whole"
+                    "With skin"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Gyokuro Tea",
@@ -9300,48 +9300,48 @@ const foodDrinksQuestions = {
                 emoji: "🥗🔪",
                 question: "Is salpicon finely diced mixture?",
                 options: [
-                    "True",
+                    "Whole",
                     "False",
                     "Large chunks",
-                    "Whole"
+                    "True"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Tia Maria",
                 emoji: "🥃☕",
                 question: "Is Tia Maria coffee liqueur from Jamaica?",
                 options: [
-                    "Mexico",
-                    "False",
+                    "Brazil",
                     "True",
-                    "Brazil"
+                    "Mexico",
+                    "False"
                 ],
-                correct: 1
+                correct: 3
             },
             {
                 topic: "À la Grecque",
                 emoji: "🫒🍋",
                 question: "Is à la grecque cooked in oil and lemon?",
                 options: [
-                    "True",
                     "False",
                     "Water only",
-                    "Cream"
+                    "Cream",
+                    "True"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Gunpowder Tea",
                 emoji: "🍵💥",
                 question: "Is Gunpowder tea rolled into pellets?",
                 options: [
-                    "Flat leaves",
                     "False",
-                    "True",
-                    "Powdered"
+                    "Powdered",
+                    "Flat leaves",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         "extreme": [
@@ -9350,12 +9350,12 @@ const foodDrinksQuestions = {
                 emoji: "🇨🇱🥘",
                 question: "Name three Chilean dishes?",
                 options: [
-                    "Empanadas",
                     "Pastel de choclo",
+                    "Completo",
                     "Cazuela",
-                    "Completo"
+                    "Empanadas"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Pre-Workout Drinks",
@@ -9363,9 +9363,9 @@ const foodDrinksQuestions = {
                 question: "Name three pre-workout beverages?",
                 options: [
                     "Coffee",
+                    "Pre-workout supplement",
                     "Energy drink",
-                    "BCAAs",
-                    "Pre-workout supplement"
+                    "BCAAs"
                 ],
                 correct: 0
             },
@@ -9374,96 +9374,96 @@ const foodDrinksQuestions = {
                 emoji: "🥔🍠",
                 question: "Name three tuber vegetables?",
                 options: [
+                    "Cassava",
                     "Potato",
-                    "Sweet potato",
                     "Yam",
-                    "Cassava"
+                    "Sweet potato"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Recovery Drinks",
                 emoji: "🥤💪",
                 question: "Name three post-workout beverages?",
                 options: [
-                    "Protein shake",
-                    "Chocolate milk",
+                    "Coconut water",
                     "Smoothie",
-                    "Coconut water"
+                    "Protein shake",
+                    "Chocolate milk"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Dehydrated Foods",
                 emoji: "☀️🍎",
                 question: "Name three dehydrated items?",
                 options: [
-                    "Dried fruit",
-                    "Jerky",
                     "Sun-dried tomatoes",
-                    "Dried mushrooms"
+                    "Jerky",
+                    "Dried mushrooms",
+                    "Dried fruit"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Ancient Grains",
                 emoji: "🌾📜",
                 question: "Name three ancient grain varieties?",
                 options: [
-                    "Einkorn",
-                    "Emmer",
                     "Spelt",
-                    "Kamut"
+                    "Einkorn",
+                    "Kamut",
+                    "Emmer"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Dutch Food",
                 emoji: "🇳🇱🧀",
                 question: "Name three Dutch dishes?",
                 options: [
-                    "Stroopwafel",
                     "Bitterballen",
                     "Poffertjes",
+                    "Stroopwafel",
                     "Haring"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Vine Fruits",
                 emoji: "🍇🍉",
                 question: "Name three fruits that grow on vines?",
                 options: [
-                    "Grapes",
                     "Watermelon",
-                    "Cantaloupe",
-                    "Passion fruit"
+                    "Passion fruit",
+                    "Grapes",
+                    "Cantaloupe"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Emulsification",
                 emoji: "🥚🫒",
                 question: "Name three emulsified sauces?",
                 options: [
-                    "Mayonnaise",
-                    "Hollandaise",
                     "Aioli",
-                    "Béarnaise"
+                    "Béarnaise",
+                    "Mayonnaise",
+                    "Hollandaise"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "County Fair Foods",
                 emoji: "🎡🍗",
                 question: "Name three fair food items?",
                 options: [
-                    "Fried chicken",
                     "Corn dog",
                     "Funnel cake",
-                    "Turkey leg"
+                    "Turkey leg",
+                    "Fried chicken"
                 ],
-                correct: 0
+                correct: 3
             }
         ]
     },
@@ -9474,10 +9474,10 @@ const foodDrinksQuestions = {
                 emoji: "🍑🧡",
                 question: "Is apricot orange?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Purified Water",
@@ -9494,40 +9494,40 @@ const foodDrinksQuestions = {
                 emoji: "🦬🍖",
                 question: "Is bison a red meat?",
                 options: [
-                    "True",
-                    "False"
-                ],
-                correct: 1
-            },
-            {
-                topic: "Grape Juice",
-                emoji: "🍇🥤",
-                question: "Is grape juice purple?",
-                options: [
                     "False",
                     "True"
                 ],
                 correct: 0
             },
             {
-                topic: "Gummy Bears",
-                emoji: "🐻🍬",
-                question: "Are gummy bears chewy?",
+                topic: "Grape Juice",
+                emoji: "🍇🥤",
+                question: "Is grape juice purple?",
                 options: [
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
+            },
+            {
+                topic: "Gummy Bears",
+                emoji: "🐻🍬",
+                question: "Are gummy bears chewy?",
+                options: [
+                    "False",
+                    "True"
+                ],
+                correct: 1
             },
             {
                 topic: "Lemon Tea",
                 emoji: "🍵🍋",
                 question: "Does lemon tea have lemon?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Asparagus",
@@ -9544,10 +9544,10 @@ const foodDrinksQuestions = {
                 emoji: "🥤💚",
                 question: "Is 7UP lemon-lime soda?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Ketchup",
@@ -9564,10 +9564,10 @@ const foodDrinksQuestions = {
                 emoji: "🍹🍓",
                 question: "Does fruit punch have mixed fruits?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             }
         ],
         medium: [
@@ -9586,10 +9586,10 @@ const foodDrinksQuestions = {
                 emoji: "🥣🇮🇹",
                 question: "Is minestrone vegetable soup?",
                 options: [
-                    "Meat soup",
-                    "True"
+                    "True",
+                    "Meat soup"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Sourdough Bread",
@@ -9606,10 +9606,10 @@ const foodDrinksQuestions = {
                 emoji: "🥤🔴",
                 question: "Is goji berry juice red?",
                 options: [
-                    "Green",
-                    "True"
+                    "True",
+                    "Green"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Bibimbap",
@@ -9626,10 +9626,10 @@ const foodDrinksQuestions = {
                 emoji: "☕🥛",
                 question: "Is cortado equal espresso and milk?",
                 options: [
-                    "More milk",
-                    "True"
+                    "True",
+                    "More milk"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Pide",
@@ -9646,20 +9646,20 @@ const foodDrinksQuestions = {
                 emoji: "🥤💚",
                 question: "Is pea protein from peas?",
                 options: [
-                    "From beans",
-                    "True"
+                    "True",
+                    "From beans"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Tarte Tatin",
                 emoji: "🍎🥧",
                 question: "Is tarte Tatin upside-down tart?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Blueberry Juice",
@@ -9679,30 +9679,30 @@ const foodDrinksQuestions = {
                 question: "Is bún bò Huế spicy Vietnamese soup?",
                 options: [
                     "True",
-                    "False",
-                    "Mild"
+                    "Mild",
+                    "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Cortado Condensada",
                 emoji: "☕🥛",
                 question: "Is cortado condensada with condensed milk?",
                 options: [
-                    "Regular milk",
                     "True",
-                    "False"
+                    "False",
+                    "Regular milk"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Borodinsky",
                 emoji: "🍞🇷🇺",
                 question: "Is Borodinsky Russian rye bread?",
                 options: [
-                    "True",
+                    "German",
                     "False",
-                    "German"
+                    "True"
                 ],
                 correct: 1
             },
@@ -9722,9 +9722,9 @@ const foodDrinksQuestions = {
                 emoji: "🥟🇬🇪",
                 question: "Is khinkali Georgian dumpling?",
                 options: [
-                    "True",
+                    "Chinese",
                     "False",
-                    "Chinese"
+                    "True"
                 ],
                 correct: 1
             },
@@ -9733,11 +9733,11 @@ const foodDrinksQuestions = {
                 emoji: "☕🇸🇳",
                 question: "Is café Touba Senegalese spiced coffee?",
                 options: [
-                    "Ethiopian",
+                    "False",
                     "True",
-                    "False"
+                    "Ethiopian"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Lefse",
@@ -9755,22 +9755,22 @@ const foodDrinksQuestions = {
                 emoji: "🥤🍈",
                 question: "Is soursop also called guanabana?",
                 options: [
+                    "True",
                     "No",
-                    "False",
-                    "True"
+                    "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Medovik",
                 emoji: "🍰🍯",
                 question: "Is medovik honey cake?",
                 options: [
-                    "True",
                     "False",
+                    "True",
                     "Chocolate"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Lucuma Juice",
@@ -9778,10 +9778,10 @@ const foodDrinksQuestions = {
                 question: "Is lucuma from Peru?",
                 options: [
                     "Mexico",
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 2
             }
         ],
         "expert": [
@@ -9790,36 +9790,36 @@ const foodDrinksQuestions = {
                 emoji: "🍅🥚",
                 question: "Is Choron béarnaise with tomato?",
                 options: [
-                    "True",
                     "False",
+                    "Hollandaise",
                     "No tomato",
-                    "Hollandaise"
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Pi Lo Chun Tea",
                 emoji: "🍵🐚",
                 question: "Is Pi Lo Chun green tea?",
                 options: [
-                    "White",
-                    "True",
+                    "Oolong",
                     "False",
-                    "Oolong"
+                    "White",
+                    "True"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Battuto",
                 emoji: "🧅🥕",
                 question: "Is battuto raw Italian soffritto?",
                 options: [
-                    "True",
                     "False",
-                    "Cooked",
-                    "Spanish"
+                    "Spanish",
+                    "True",
+                    "Cooked"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Cointreau",
@@ -9838,10 +9838,10 @@ const foodDrinksQuestions = {
                 emoji: "🥕🌿",
                 question: "Is printanière spring vegetables?",
                 options: [
-                    "True",
+                    "Fall",
                     "False",
-                    "Winter",
-                    "Fall"
+                    "True",
+                    "Winter"
                 ],
                 correct: 1
             },
@@ -9863,8 +9863,8 @@ const foodDrinksQuestions = {
                 question: "Is duxelles finely chopped mushrooms?",
                 options: [
                     "True",
-                    "False",
                     "Whole",
+                    "False",
                     "Sliced"
                 ],
                 correct: 0
@@ -9874,22 +9874,22 @@ const foodDrinksQuestions = {
                 emoji: "🥃🍊",
                 question: "Is Grand Marnier cognac-based?",
                 options: [
+                    "Rum",
                     "Vodka",
                     "False",
-                    "True",
-                    "Rum"
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Duxbury Style",
                 emoji: "🦞🧈",
                 question: "Does Duxbury involve lobster?",
                 options: [
-                    "True",
+                    "Beef",
                     "False",
                     "Chicken",
-                    "Beef"
+                    "True"
                 ],
                 correct: 1
             },
@@ -9898,12 +9898,12 @@ const foodDrinksQuestions = {
                 emoji: "🍵🌸",
                 question: "Is Pouchong lightly oxidized oolong?",
                 options: [
-                    "Fully oxidized",
                     "False",
+                    "Not oolong",
                     "True",
-                    "Not oolong"
+                    "Fully oxidized"
                 ],
-                correct: 0
+                correct: 3
             }
         ],
         "extreme": [
@@ -9912,24 +9912,24 @@ const foodDrinksQuestions = {
                 emoji: "🇻🇪🥘",
                 question: "Name three Venezuelan dishes?",
                 options: [
-                    "Arepas",
-                    "Pabellón criollo",
                     "Hallacas",
+                    "Pabellón criollo",
+                    "Arepas",
                     "Cachapas"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Meal Replacement Drinks",
                 emoji: "🥤🍽️",
                 question: "Name three meal replacement options?",
                 options: [
-                    "Protein shake",
                     "Smoothie",
                     "Meal shake",
-                    "Soylent"
+                    "Soylent",
+                    "Protein shake"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Bulb Vegetables",
@@ -9937,9 +9937,9 @@ const foodDrinksQuestions = {
                 question: "Name three bulb vegetables?",
                 options: [
                     "Onion",
-                    "Garlic",
                     "Shallot",
-                    "Fennel"
+                    "Fennel",
+                    "Garlic"
                 ],
                 correct: 0
             },
@@ -9948,12 +9948,12 @@ const foodDrinksQuestions = {
                 emoji: "💊🥤",
                 question: "Name three vitamin-rich beverages?",
                 options: [
+                    "Fortified milk",
                     "Orange juice",
-                    "Smoothie",
                     "Vitamin water",
-                    "Fortified milk"
+                    "Smoothie"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Frozen Foods",
@@ -9972,48 +9972,48 @@ const foodDrinksQuestions = {
                 emoji: "🌾👴",
                 question: "Name three heritage grain types?",
                 options: [
-                    "Red Fife wheat",
                     "Turkey Red",
                     "Marquis",
-                    "Sonora"
+                    "Sonora",
+                    "Red Fife wheat"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Belgian Food",
                 emoji: "🇧🇪🍟",
                 question: "Name three Belgian dishes?",
                 options: [
-                    "Frites",
                     "Waffles",
                     "Moules-frites",
-                    "Carbonnade"
+                    "Carbonnade",
+                    "Frites"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Tree Fruits",
                 emoji: "🍎🌳",
                 question: "Name three fruits that grow on trees?",
                 options: [
-                    "Apple",
-                    "Orange",
                     "Peach",
-                    "Cherry"
+                    "Cherry",
+                    "Apple",
+                    "Orange"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Reduction Sauces",
                 emoji: "🍷🔥",
                 question: "Name three reduction-based sauces?",
                 options: [
-                    "Demi-glace",
                     "Beurre blanc",
+                    "Demi-glace",
                     "Red wine reduction",
                     "Balsamic reduction"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Movie Theater Foods",
@@ -10021,9 +10021,9 @@ const foodDrinksQuestions = {
                 question: "Name three movie snack items?",
                 options: [
                     "Popcorn",
+                    "Hot dog",
                     "Candy",
-                    "Nachos",
-                    "Hot dog"
+                    "Nachos"
                 ],
                 correct: 0
             }
@@ -10036,20 +10036,20 @@ const foodDrinksQuestions = {
                 emoji: "🫐⚫",
                 question: "Is blackberry a dark berry?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Alkaline Water",
                 emoji: "💧⚗️",
                 question: "Is alkaline water higher pH?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Elk",
@@ -10066,10 +10066,10 @@ const foodDrinksQuestions = {
                 emoji: "🍍🥤",
                 question: "Is pineapple juice tropical?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Licorice",
@@ -10096,10 +10096,10 @@ const foodDrinksQuestions = {
                 emoji: "🥕❤️",
                 question: "Is radish crunchy?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Ginger Ale",
@@ -10148,10 +10148,10 @@ const foodDrinksQuestions = {
                 emoji: "🍜🇻🇳",
                 question: "Is pho Vietnamese noodle soup?",
                 options: [
-                    "Thai",
-                    "True"
+                    "True",
+                    "Thai"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Pumpernickel Bread",
@@ -10168,10 +10168,10 @@ const foodDrinksQuestions = {
                 emoji: "🍒🥤",
                 question: "Is cherry juice antioxidant-rich?",
                 options: [
-                    "Low antioxidants",
-                    "True"
+                    "True",
+                    "Low antioxidants"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Shawarma",
@@ -10188,30 +10188,30 @@ const foodDrinksQuestions = {
                 emoji: "☕💧",
                 question: "Is ristretto shorter than espresso?",
                 options: [
-                    "Longer",
-                    "True"
+                    "True",
+                    "Longer"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Injera",
                 emoji: "🫓🇪🇹",
                 question: "Is injera spongy flatbread?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Sunflower Milk",
                 emoji: "🥛🌻",
                 question: "Is sunflower milk from sunflower seeds?",
                 options: [
-                    "From nuts",
-                    "True"
+                    "True",
+                    "From nuts"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Baklava",
@@ -10228,10 +10228,10 @@ const foodDrinksQuestions = {
                 emoji: "🫐🥤",
                 question: "Is cranberry juice good for UTIs?",
                 options: [
-                    "No benefits",
-                    "True"
+                    "True",
+                    "No benefits"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         hard: [
@@ -10240,44 +10240,44 @@ const foodDrinksQuestions = {
                 emoji: "🍲🇰🇷",
                 question: "Is samgyetang ginseng chicken soup?",
                 options: [
-                    "True",
-                    "False",
-                    "Beef soup"
-                ],
-                correct: 0
-            },
-            {
-                topic: "Café Zorro",
-                emoji: "☕💧",
-                question: "Is café zorro double espresso with water?",
-                options: [
-                    "Single shot",
+                    "Beef soup",
                     "True",
                     "False"
                 ],
                 correct: 1
             },
             {
+                topic: "Café Zorro",
+                emoji: "☕💧",
+                question: "Is café zorro double espresso with water?",
+                options: [
+                    "True",
+                    "Single shot",
+                    "False"
+                ],
+                correct: 0
+            },
+            {
                 topic: "Tsoureki",
                 emoji: "🍞🇬🇷",
                 question: "Is tsoureki Greek Easter bread?",
                 options: [
-                    "True",
+                    "Italian",
                     "False",
-                    "Italian"
+                    "True"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Aronia Juice",
                 emoji: "🥤🫐",
                 question: "Is aronia also called chokeberry?",
                 options: [
-                    "Blueberry",
+                    "True",
                     "False",
-                    "True"
+                    "Blueberry"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Pelmeni",
@@ -10285,65 +10285,65 @@ const foodDrinksQuestions = {
                 question: "Is pelmeni Russian dumpling?",
                 options: [
                     "True",
-                    "False",
-                    "Chinese"
+                    "Chinese",
+                    "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Café Bombón",
                 emoji: "☕🍯",
                 question: "Is café bombón layered coffee?",
                 options: [
+                    "False",
                     "Mixed",
-                    "True",
-                    "False"
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Pan de Muerto",
                 emoji: "🍞💀",
                 question: "Is pan de muerto Day of the Dead bread?",
                 options: [
-                    "True",
                     "False",
-                    "Christmas"
+                    "Christmas",
+                    "True"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Schisandra Juice",
                 emoji: "🥤🔴",
                 question: "Does schisandra have five flavors?",
                 options: [
+                    "True",
                     "One flavor",
-                    "False",
-                    "True"
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Sacher Torte",
                 emoji: "🍰🇦🇹",
                 question: "Is Sacher torte Austrian chocolate cake?",
                 options: [
+                    "German",
                     "True",
-                    "False",
-                    "German"
+                    "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Karkadé",
                 emoji: "🥤🌺",
                 question: "Is karkadé hibiscus tea drink?",
                 options: [
-                    "Rose tea",
                     "True",
+                    "Rose tea",
                     "False"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         "expert": [
@@ -10353,8 +10353,8 @@ const foodDrinksQuestions = {
                 question: "Is Foyot béarnaise with meat glaze?",
                 options: [
                     "True",
-                    "False",
                     "Hollandaise",
+                    "False",
                     "No glaze"
                 ],
                 correct: 0
@@ -10364,82 +10364,82 @@ const foodDrinksQuestions = {
                 emoji: "🍵💚",
                 question: "Is Mao Jian a green tea?",
                 options: [
-                    "Black",
                     "True",
                     "False",
+                    "Black",
                     "Oolong"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Refogado",
                 emoji: "🧅🍅",
                 question: "Is refogado Portuguese sofrito?",
                 options: [
-                    "True",
-                    "False",
                     "Spanish",
-                    "Italian"
+                    "Italian",
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Campari",
                 emoji: "🥃🔴",
                 question: "Is Campari bitter Italian aperitif?",
                 options: [
-                    "Sweet",
                     "False",
                     "True",
+                    "Sweet",
                     "Mild"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Brunoise Cut",
                 emoji: "🔪🥕",
                 question: "Is brunoise cut related to food and drinks?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
                 {
                 topic: "Bancha Tea",
                 emoji: "🍵🍂",
                 question: "Is bancha everyday Japanese tea?",
                 options: [
+                    "False",
                     "Premium",
                     "True",
-                    "False",
                     "Ceremonial"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Jardinière Cut",
                 emoji: "🥕🔪",
                 question: "Is jardinière bâtonnet-sized vegetables?",
                 options: [
+                    "Dice",
                     "True",
                     "False",
-                    "Dice",
                     "Strips"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Aperol",
                 emoji: "🥃🍊",
                 question: "Is Aperol orange Italian aperitif?",
                 options: [
-                    "Red",
                     "False",
-                    "True",
-                    "Yellow"
+                    "Yellow",
+                    "Red",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "À la King",
@@ -10448,8 +10448,8 @@ const foodDrinksQuestions = {
                 options: [
                     "True",
                     "False",
-                    "Tomato",
-                    "No sauce"
+                    "No sauce",
+                    "Tomato"
                 ],
                 correct: 0
             },
@@ -10459,8 +10459,8 @@ const foodDrinksQuestions = {
                 question: "Is hojicha roasted tea?",
                 options: [
                     "Fresh",
-                    "False",
                     "True",
+                    "False",
                     "Steamed"
                 ],
                 correct: 0
@@ -10472,24 +10472,24 @@ const foodDrinksQuestions = {
                 emoji: "🇺🇾🥩",
                 question: "Name three Uruguayan dishes?",
                 options: [
-                    "Asado",
-                    "Chivito",
+                    "Milanesa",
                     "Empanadas",
-                    "Milanesa"
+                    "Asado",
+                    "Chivito"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Cleanse Drinks",
                 emoji: "🥤🌿",
                 question: "Name three cleansing beverages?",
                 options: [
-                    "Green juice",
-                    "Lemon water",
+                    "Celery juice",
                     "Detox tea",
-                    "Celery juice"
+                    "Lemon water",
+                    "Green juice"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Stem Vegetables",
@@ -10508,34 +10508,34 @@ const foodDrinksQuestions = {
                 emoji: "🫧🥤",
                 question: "Is probiotic drinks related to food and drinks?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
                 {
                 topic: "Candied Foods",
                 emoji: "🍬✨",
                 question: "Name three candied items?",
                 options: [
-                    "Candied fruit",
                     "Candied ginger",
-                    "Candied nuts",
-                    "Candied peel"
+                    "Candied peel",
+                    "Candied fruit",
+                    "Candied nuts"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Sprouted Grains",
                 emoji: "🌾🌱",
                 question: "Name three sprouted grain products?",
                 options: [
-                    "Ezekiel bread",
-                    "Sprouted quinoa",
+                    "Sprouted wheat",
                     "Sprouted rice",
-                    "Sprouted wheat"
+                    "Sprouted quinoa",
+                    "Ezekiel bread"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Norwegian Food",
@@ -10543,9 +10543,9 @@ const foodDrinksQuestions = {
                 question: "Name three Norwegian dishes?",
                 options: [
                     "Gravlax",
-                    "Lutefisk",
+                    "Fårikål",
                     "Rakfisk",
-                    "Fårikål"
+                    "Lutefisk"
                 ],
                 correct: 0
             },
@@ -10566,24 +10566,24 @@ const foodDrinksQuestions = {
                 emoji: "🍳🥄",
                 question: "Name three pan sauce techniques?",
                 options: [
-                    "Deglazing",
-                    "Reduction",
                     "Mounting with butter",
-                    "Cream finish"
+                    "Cream finish",
+                    "Deglazing",
+                    "Reduction"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Airport Foods",
                 emoji: "✈️🍔",
                 question: "Name three airport food items?",
                 options: [
+                    "Pizza",
                     "Sandwiches",
                     "Fast food",
-                    "Coffee",
-                    "Pizza"
+                    "Coffee"
                 ],
-                correct: 0
+                correct: 1
             }
         ]
     },
@@ -10594,10 +10594,10 @@ const foodDrinksQuestions = {
                 emoji: "🍑✨",
                 question: "Is nectarine smooth-skinned?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Vitamin Water",
@@ -10644,10 +10644,10 @@ const foodDrinksQuestions = {
                 emoji: "🍵🌿",
                 question: "Is sage tea herbal?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Turnip",
@@ -10674,20 +10674,20 @@ const foodDrinksQuestions = {
                 emoji: "🥢🟤",
                 question: "Is soy sauce salty?",
                 options: [
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Tropical Smoothie",
                 emoji: "🥤🌴",
                 question: "Does tropical smoothie have tropical fruits?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         medium: [
@@ -10696,10 +10696,10 @@ const foodDrinksQuestions = {
                 emoji: "🐟🇦🇺",
                 question: "Is barramundi Australian fish?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Tom Kha",
@@ -10716,10 +10716,10 @@ const foodDrinksQuestions = {
                 emoji: "🍞🇮🇹",
                 question: "Does ciabatta have holes?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Açaí Juice",
@@ -10746,20 +10746,20 @@ const foodDrinksQuestions = {
                 emoji: "☕💧",
                 question: "Is lungo longer espresso?",
                 options: [
-                    "Shorter",
-                    "True"
+                    "True",
+                    "Shorter"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Focaccia",
                 emoji: "🍞🫒",
                 question: "Is focaccia topped with olive oil?",
                 options: [
-                    "True",
-                    "False"
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Barley Milk",
@@ -10786,10 +10786,10 @@ const foodDrinksQuestions = {
                 emoji: "🍋🥤",
                 question: "Is lime juice citrus?",
                 options: [
-                    "Not citrus",
-                    "True"
+                    "True",
+                    "Not citrus"
                 ],
-                correct: 1
+                correct: 0
             }
         ],
         hard: [
@@ -10798,31 +10798,31 @@ const foodDrinksQuestions = {
                 emoji: "🍲🇵🇰",
                 question: "Is haleem Pakistani meat stew?",
                 options: [
-                    "True",
                     "False",
-                    "Indian"
+                    "Indian",
+                    "True"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Café con Leche",
                 emoji: "☕🥛",
                 question: "Is café con leche equal coffee and milk?",
                 options: [
-                    "More coffee",
                     "True",
+                    "More coffee",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Pandesal",
                 emoji: "🍞🇵🇭",
                 question: "Is pandesal Filipino bread roll?",
                 options: [
-                    "True",
+                    "Mexican",
                     "False",
-                    "Mexican"
+                    "True"
                 ],
                 correct: 1
             },
@@ -10832,32 +10832,32 @@ const foodDrinksQuestions = {
                 question: "Is birch water tapped from trees?",
                 options: [
                     "Fruit juice",
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Manti",
                 emoji: "🥟🇹🇷",
                 question: "Is manti Turkish dumpling?",
                 options: [
-                    "True",
                     "False",
+                    "True",
                     "Chinese"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Café Cubano",
                 emoji: "☕🇨🇺",
                 question: "Is café cubano sweet espresso?",
                 options: [
-                    "Bitter",
+                    "False",
                     "True",
-                    "False"
+                    "Bitter"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Kolache",
@@ -10865,10 +10865,10 @@ const foodDrinksQuestions = {
                 question: "Is kolache Czech pastry?",
                 options: [
                     "True",
-                    "False",
-                    "Polish"
+                    "Polish",
+                    "False"
                 ],
-                correct: 1
+                correct: 2
             },
             {
                 topic: "Pine Needle Tea",
@@ -10876,8 +10876,8 @@ const foodDrinksQuestions = {
                 question: "Is pine needle tea from pine trees?",
                 options: [
                     "Oak trees",
-                    "False",
-                    "True"
+                    "True",
+                    "False"
                 ],
                 correct: 0
             },
@@ -10886,20 +10886,20 @@ const foodDrinksQuestions = {
                 emoji: "🍰🇩🇪",
                 question: "Is baumkuchen tree cake?",
                 options: [
-                    "True",
                     "False",
+                    "True",
                     "Flat cake"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Noni Juice",
                 emoji: "🥤🍈",
                 question: "Is noni juice medicinal?",
                 options: [
-                    "No benefits",
+                    "False",
                     "True",
-                    "False"
+                    "No benefits"
                 ],
                 correct: 1
             }
@@ -10911,9 +10911,9 @@ const foodDrinksQuestions = {
                 question: "Is Paloise béarnaise with mint?",
                 options: [
                     "True",
+                    "No herbs",
                     "False",
-                    "Basil",
-                    "No herbs"
+                    "Basil"
                 ],
                 correct: 0
             },
@@ -10922,48 +10922,48 @@ const foodDrinksQuestions = {
                 emoji: "🍵☂️",
                 question: "Is kabusecha partially shaded?",
                 options: [
-                    "Full sun",
                     "True",
                     "False",
+                    "Full sun",
                     "Fully shaded"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Trinity",
                 emoji: "🧅🫑",
                 question: "Is trinity Cajun aromatic base?",
                 options: [
-                    "True",
-                    "False",
                     "French",
-                    "Italian"
+                    "Italian",
+                    "False",
+                    "True"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Chambord",
                 emoji: "🥃🫐",
                 question: "Is Chambord French raspberry liqueur?",
                 options: [
-                    "Italian",
                     "False",
+                    "Spanish",
                     "True",
-                    "Spanish"
+                    "Italian"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Paysanne Cut",
                 emoji: "🔪🥕",
                 question: "Is paysanne thin flat shapes?",
                 options: [
-                    "True",
+                    "Strips",
                     "False",
                     "Thick cubes",
-                    "Strips"
+                    "True"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Pu-erh Tea",
@@ -10971,8 +10971,8 @@ const foodDrinksQuestions = {
                 question: "Is pu-erh fermented tea?",
                 options: [
                     "Fresh only",
-                    "True",
                     "False",
+                    "True",
                     "Not fermented"
                 ],
                 correct: 0
@@ -10984,8 +10984,8 @@ const foodDrinksQuestions = {
                 options: [
                     "True",
                     "False",
-                    "Large chunks",
-                    "Whole"
+                    "Whole",
+                    "Large chunks"
                 ],
                 correct: 0
             },
@@ -10994,12 +10994,12 @@ const foodDrinksQuestions = {
                 emoji: "🥃🍯",
                 question: "Is Drambuie Scotch-based liqueur?",
                 options: [
-                    "Bourbon",
                     "False",
                     "True",
-                    "Vodka"
+                    "Vodka",
+                    "Bourbon"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Nicoise Style",
@@ -11007,9 +11007,9 @@ const foodDrinksQuestions = {
                 question: "Does Nicoise include tomatoes and olives?",
                 options: [
                     "True",
+                    "No olives",
                     "False",
-                    "No tomatoes",
-                    "No olives"
+                    "No tomatoes"
                 ],
                 correct: 0
             },
@@ -11019,11 +11019,11 @@ const foodDrinksQuestions = {
                 question: "Is Silver Needle premium white tea?",
                 options: [
                     "Green",
+                    "Black",
                     "False",
-                    "True",
-                    "Black"
+                    "True"
                 ],
-                correct: 1
+                correct: 2
             }
         ],
         "extreme": [
@@ -11033,9 +11033,9 @@ const foodDrinksQuestions = {
                 question: "Name three Ecuadorian dishes?",
                 options: [
                     "Ceviche",
-                    "Encebollado",
                     "Llapingachos",
-                    "Hornado"
+                    "Hornado",
+                    "Encebollado"
                 ],
                 correct: 0
             },
@@ -11044,24 +11044,24 @@ const foodDrinksQuestions = {
                 emoji: "🥤😵",
                 question: "Name three hangover remedy beverages?",
                 options: [
-                    "Coconut water",
-                    "Sports drink",
                     "Ginger tea",
-                    "Tomato juice"
+                    "Tomato juice",
+                    "Coconut water",
+                    "Sports drink"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Flower Vegetables",
                 emoji: "🥦🌸",
                 question: "Name three flower vegetables?",
                 options: [
+                    "Artichoke",
                     "Broccoli",
                     "Cauliflower",
-                    "Artichoke",
                     "Broccoli rabe"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Adaptogen Drinks",
@@ -11070,8 +11070,8 @@ const foodDrinksQuestions = {
                 options: [
                     "Ashwagandha tea",
                     "Ginseng tea",
-                    "Reishi tea",
-                    "Maca smoothie"
+                    "Maca smoothie",
+                    "Reishi tea"
                 ],
                 correct: 0
             },
@@ -11080,72 +11080,72 @@ const foodDrinksQuestions = {
                 emoji: "🔥🍯",
                 question: "Name three caramelized items?",
                 options: [
-                    "Caramelized onions",
-                    "Crème brûlée",
                     "Caramel sauce",
+                    "Crème brûlée",
+                    "Caramelized onions",
                     "Caramelized bananas"
                 ],
-                correct: 0
+                correct: 2
             },
             {
                 topic: "Fermented Grains",
                 emoji: "🌾🫧",
                 question: "Name three fermented grain products?",
                 options: [
-                    "Beer",
                     "Sake",
-                    "Sourdough",
-                    "Miso"
+                    "Beer",
+                    "Miso",
+                    "Sourdough"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Portuguese Food",
                 emoji: "🇵🇹🐟",
                 question: "Name three Portuguese dishes?",
                 options: [
-                    "Bacalhau",
                     "Pastéis de nata",
+                    "Bacalhau",
                     "Francesinha",
                     "Caldo verde"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Seed Vegetables",
                 emoji: "🌽🫘",
                 question: "Name three seed vegetables?",
                 options: [
-                    "Corn",
-                    "Peas",
                     "Beans",
-                    "Okra"
+                    "Okra",
+                    "Peas",
+                    "Corn"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Compound Butter",
                 emoji: "🧈🌿",
                 question: "Name three compound butter types?",
                 options: [
-                    "Garlic butter",
                     "Herb butter",
                     "Lemon butter",
-                    "Truffle butter"
+                    "Truffle butter",
+                    "Garlic butter"
                 ],
-                correct: 0
+                correct: 3
             },
             {
                 topic: "Stadium Foods",
                 emoji: "🏟️🌭",
                 question: "Name three stadium food items?",
                 options: [
-                    "Hot dogs",
                     "Nachos",
+                    "Pretzels",
                     "Popcorn",
-                    "Pretzels"
+                    "Hot dogs"
                 ],
-                correct: 0
+                correct: 3
             }
         ]
     }

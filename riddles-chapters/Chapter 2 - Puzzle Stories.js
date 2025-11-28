@@ -920,12 +920,6 @@ window.riddlesQuestions[2] = {
         },
         {
             topic: "Puzzle Stories",
-            emoji: "🎯💫",
-            question: "A man is looking at someone's picture. His friend asks who it is. The man replies, 'I have no brothers or sisters, but that man's father is my father's son.' Who is in the picture?",
-            answer: "His son"
-        },
-        {
-            topic: "Puzzle Stories",
             emoji: "🎪💡",
             question: "A box without hinges, key, or lid, yet golden treasure inside is hid. What is it?",
             answer: "An egg"

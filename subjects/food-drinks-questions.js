@@ -6646,18 +6646,6 @@ const foodDrinksQuestions = {
                 correct: 0
             },
             {
-                topic: "Citrus Varieties",
-                emoji: "🍊🍋",
-                question: "Name three citrus fruits?",
-                options: [
-                    "Orange",
-                    "Lemon",
-                    "Lime",
-                    "Grapefruit"
-                ],
-                correct: 0
-            },
-            {
                 topic: "Plating Techniques",
                 emoji: "🍽️🎨",
                 question: "Name three plating methods?",
@@ -7838,16 +7826,6 @@ const foodDrinksQuestions = {
                     "False"
                 ],
                 correct: 1
-            },
-            {
-                topic: "Blackberry Juice",
-                emoji: "🫐🥤",
-                question: "Is blackberry juice dark purple?",
-                options: [
-                    "True",
-                    "False"
-                ],
-                correct: 0
             },
             {
                 topic: "Toffee",

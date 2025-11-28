@@ -7450,12 +7450,7 @@ const animalsQuestions = {
                 correct: 1
             }
         ],
-        hard: [
-            {
-                topic: "Mammals",
-                emoji: "🦨🦔"
-            }
-        ],
+        hard: [],
         expert: [],
         extreme: [
             {

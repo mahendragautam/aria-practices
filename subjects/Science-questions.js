@@ -1733,9 +1733,6 @@ const scienceQuestions = {
                 correct: 0
             },
             {
-                topic: "Physics",
-                emoji: "👁️👀",
-            {
                 topic: "Chemistry",
                 emoji: "🌤️⛅",
                 question: "What is the atomic number of oxygen?",
@@ -8752,9 +8749,6 @@ const scienceQuestions = {
                 ],
                 correct: 0
             },
-            {
-                topic: "Physics",
-                emoji: "👁️👀",
             {
                 topic: "Chemistry",
                 emoji: "🌤️⛅",

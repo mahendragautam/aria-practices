@@ -112,6 +112,111 @@ const moviesTVQuestions = {
                 correct: 0
             }
         ],
+            {
+                topic: "Movies & TV",
+                emoji: "🎬",
+                question: "Which animated film features a young clownfish searching for his son?",
+                options: ["Finding Nemo", "Shark Tale", "A Bug's Life", "The Little Mermaid"],
+                correct: 0
+            },
+            {
+                topic: "Movies & TV",
+                emoji: "🎬",
+                question: "What is the name of the wizarding school in Harry Potter?",
+                options: ["Beauxbatons", "Durmstrang", "Hogwarts", "Ilvermorny"],
+                correct: 2
+            },
+            {
+                topic: "Movies & TV",
+                emoji: "🎬",
+                question: "Which TV series follows a chemistry teacher turned drug manufacturer?",
+                options: ["Ozark", "Breaking Bad", "Weeds", "The Wire"],
+                correct: 1
+            },
+            {
+                topic: "Movies & TV",
+                emoji: "🎬",
+                question: "Who played Iron Man in the Marvel Cinematic Universe?",
+                options: ["Chris Evans", "Robert Downey Jr.", "Chris Hemsworth", "Mark Ruffalo"],
+                correct: 1
+            },
+            {
+                topic: "Movies & TV",
+                emoji: "🎬",
+                question: "Which film won the Oscar for Best Picture in 2020?",
+                options: ["1917", "Joker", "Parasite", "Once Upon a Time in Hollywood"],
+                correct: 2
+            },
+            {
+                topic: "Movies & TV",
+                emoji: "🎬",
+                question: "In which city is the TV show Friends primarily set?",
+                options: ["Los Angeles", "New York City", "Chicago", "Boston"],
+                correct: 1
+            },
+            {
+                topic: "Movies & TV",
+                emoji: "🎬",
+                question: "Who directed the Lord of the Rings trilogy?",
+                options: ["Steven Spielberg", "James Cameron", "Peter Jackson", "Ridley Scott"],
+                correct: 2
+            },
+            {
+                topic: "Movies & TV",
+                emoji: "🎬",
+                question: "What is the highest-grossing film of all time (unadjusted for inflation)?",
+                options: ["Avengers: Endgame", "Avatar", "Titanic", "Star Wars: The Force Awakens"],
+                correct: 1
+            },
+            {
+                topic: "Movies & TV",
+                emoji: "🎬",
+                question: "Which actress played Hermione Granger in the Harry Potter films?",
+                options: ["Emma Watson", "Emma Stone", "Emma Roberts", "Emily Blunt"],
+                correct: 0
+            },
+            {
+                topic: "Movies & TV",
+                emoji: "🎬",
+                question: "What is the name of the fictional African nation in Black Panther?",
+                options: ["Zamunda", "Wakanda", "Genovia", "Latveria"],
+                correct: 1
+            },
+            {
+                topic: "Movies & TV",
+                emoji: "🎬",
+                question: "Which TV show features the character Walter White?",
+                options: ["Better Call Saul", "Breaking Bad", "The Sopranos", "Mad Men"],
+                correct: 1
+            },
+            {
+                topic: "Movies & TV",
+                emoji: "🎬",
+                question: "Who composed the music for the Star Wars films?",
+                options: ["Hans Zimmer", "John Williams", "Ennio Morricone", "Howard Shore"],
+                correct: 1
+            },
+            {
+                topic: "Movies & TV",
+                emoji: "🎬",
+                question: "In The Matrix, what color pill does Neo take?",
+                options: ["Blue", "Red", "Green", "Yellow"],
+                correct: 1
+            },
+            {
+                topic: "Movies & TV",
+                emoji: "🎬",
+                question: "Which streaming service produces Stranger Things?",
+                options: ["Hulu", "Amazon Prime", "Netflix", "Disney+"],
+                correct: 2
+            },
+            {
+                topic: "Movies & TV",
+                emoji: "🎬",
+                question: "Who directed Inception?",
+                options: ["Christopher Nolan", "Denis Villeneuve", "Darren Aronofsky", "David Fincher"],
+                correct: 0
+            },
         medium: [
             {
                 topic: "Inception",
@@ -1614,16 +1719,6 @@ const moviesTVQuestions = {
     ],
     medium: [
         {
-            topic: "Pulp Fiction",
-            emoji: "💎🏆",
-            question: "Who directed Pulp Fiction?",
-            options: [
-                    "Martin Scorsese",
-                    "Quentin Tarantino"
-                ],
-            correct: 0
-        },
-        {
             topic: "The Sopranos",
             emoji: "🎯🎲",
             question: "What is Tony Soprano's profession?",
@@ -1684,16 +1779,6 @@ const moviesTVQuestions = {
             correct: 1
         },
         {
-            topic: "Arrested Development",
-            emoji: "🛩️🚁",
-            question: "What is the family business?",
-            options: [
-                    "Law firm",
-                    "Real estate"
-                ],
-            correct: 1
-        },
-        {
             topic: "Schindler's List",
             emoji: "⛵🚤",
             question: "Who directed Schindler's List?",
@@ -1747,17 +1832,6 @@ const moviesTVQuestions = {
                     "Bret Easton Ellis"
                 ],
             correct: 2
-        },
-        {
-            topic: "The Twilight Zone",
-            emoji: "🚗💨",
-            question: "Who created The Twilight Zone?",
-            options: [
-                    "Rod Serling",
-                    "Alfred Hitchcock",
-                    "Gene Roddenberry"
-                ],
-            correct: 0
         },
         {
             topic: "Casablanca",
@@ -1852,18 +1926,6 @@ const moviesTVQuestions = {
             correct: 0
         },
         {
-            topic: "2001: A Space Odyssey",
-            emoji: "🍿🥤",
-            question: "Who directed 2001: A Space Odyssey?",
-            options: [
-                    "George Lucas",
-                    "Ridley Scott",
-                    "Stanley Kubrick",
-                    "Steven Spielberg"
-                ],
-            correct: 2
-        },
-        {
             topic: "Twin Peaks",
             emoji: "🎞️📽️",
             question: "Who created Twin Peaks?",
@@ -1896,18 +1958,6 @@ const moviesTVQuestions = {
                     "1880s",
                     "1870s",
                     "1890s"
-                ],
-            correct: 0
-        },
-        {
-            topic: "Vertigo",
-            emoji: "🎵🎶",
-            question: "What is Scottie's phobia in Vertigo?",
-            options: [
-                    "Agoraphobia",
-                    "Nyctophobia",
-                    "Acrophobia",
-                    "Claustrophobia"
                 ],
             correct: 0
         },
@@ -1974,41 +2024,11 @@ const moviesTVQuestions = {
             answer: "Cylons"
         },
         {
-            topic: "8½",
-            emoji: "📺📻",
-            question: "Who directed 8½?",
-            answer: "Federico Fellini"
-        },
-        {
             topic: "The Larry Sanders Show",
             emoji: "🎤🎧",
             question: "What is Larry's catchphrase?",
             answer: "No flipping"
         },
-        {
-            topic: "La Dolce Vita",
-            emoji: "🎵🎶",
-            question: "What does 'La Dolce Vita' mean?",
-            answer: "The Sweet Life"
-        },
-        {
-            topic: "Freaks and Geeks",
-            emoji: "🏆🥇",
-            question: "What year is Freaks and Geeks set in?",
-            answer: "1980"
-        },
-        {
-            topic: "Persona",
-            emoji: "⭐🌟",
-            question: "Who directed Persona?",
-            answer: "Ingmar Bergman"
-        },
-        {
-            topic: "Justified",
-            emoji: "🎨🖼️",
-            question: "What is Raylan Givens' home state?",
-            answer: "Kentucky"
-        }
     ]
 },
   4: {
@@ -2092,16 +2112,6 @@ const moviesTVQuestions = {
                     "False"
                 ],
                 correct: 1
-            },
-            {
-                topic: "The Crown",
-                emoji: "🕷️🕸️",
-                question: "The Crown is about British royalty.",
-                options: [
-                    "True",
-                    "False"
-                ],
-                correct: 0
             },
             {
                 topic: "Moana",
@@ -2476,12 +2486,6 @@ const moviesTVQuestions = {
                 answer: "Leather catsuit or jumpsuit"
             },
             {
-                topic: "Ikiru",
-                emoji: "🎩🎪",
-                question: "What does 'Ikiru' mean in English?",
-                answer: "To Live"
-            },
-            {
                 topic: "Edge of Darkness",
                 emoji: "🌹💔",
                 question: "What year was the original Edge of Darkness series?",
@@ -2616,16 +2620,6 @@ const moviesTVQuestions = {
                 options: [
                     "2029",
                     "2049"
-                ],
-                correct: 0
-            },
-            {
-                topic: "Curb Your Enthusiasm",
-                emoji: "👑💍",
-                question: "Who created Curb Your Enthusiasm?",
-                options: [
-                    "Jerry Seinfeld",
-                    "Larry David"
                 ],
                 correct: 0
             },
@@ -3679,17 +3673,6 @@ const moviesTVQuestions = {
                 correct: 1
             },
             {
-                topic: "Literature",
-                emoji: "🦇🌃",
-                question: "Who wrote 'Pride and Prejudice'?",
-                options: [
-                    "Jane Austen",
-                    "Charlotte Brontë",
-                    "Emily Dickinson"
-                ],
-                correct: 0
-            },
-            {
                 topic: "Dance",
                 emoji: "👮🔍",
                 question: "How many positions are there in classical ballet?",
@@ -4650,17 +4633,6 @@ const moviesTVQuestions = {
                     "Turkish",
                     "Persian",
                     "Arabic"
-                ],
-                correct: 2
-            },
-            {
-                topic: "Top of the Lake",
-                emoji: "🧙🔮",
-                question: "Where is Season 1 set?",
-                options: [
-                    "New Zealand",
-                    "Scotland",
-                    "Australia"
                 ],
                 correct: 2
             },

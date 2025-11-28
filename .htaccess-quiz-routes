@@ -1,0 +1,47 @@
+# =====================================================
+# SPA Routing Rules for Quiz Application
+# =====================================================
+# Add these rules to your WordPress .htaccess file
+# (or WordPress → Rank Math → General Settings → .htaccess Editor)
+#
+# Place BEFORE the "# BEGIN WordPress" section
+# =====================================================
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+# Subject routes: /science, /math, etc.
+RewriteRule ^(science|math|history|geography|english|computer|general-knowledge|economics|psychology|health-fitness|sports|movies|music|art-literature|technology)/?$ /index.php [L]
+
+# Chapter routes: /science/chapter-1, /math/chapter-2, etc.
+RewriteRule ^(science|math|history|geography|english|computer|general-knowledge|economics|psychology|health-fitness|sports|movies|music|art-literature|technology)/chapter-([0-9]+)/?$ /index.php [L]
+
+# Level routes: /science/chapter-1/easy, /math/chapter-2/hard, etc.
+RewriteRule ^(science|math|history|geography|english|computer|general-knowledge|economics|psychology|health-fitness|sports|movies|music|art-literature|technology)/chapter-([0-9]+)/(easy|medium|hard|expert|extreme)/?$ /index.php [L]
+
+# Question routes: /science/chapter-1/easy/question-5, etc.
+RewriteRule ^(science|math|history|geography|english|computer|general-knowledge|economics|psychology|health-fitness|sports|movies|music|art-literature|technology)/chapter-([0-9]+)/(easy|medium|hard|expert|extreme)/question-([0-9]+)/?$ /index.php [L]
+
+# SEO page routes: /science-quiz, /math-quiz, etc.
+RewriteRule ^(science|math|history|geography|english|computer|general-knowledge|economics|psychology|health-fitness|sports|movies|music|art-literature|technology)-quiz/?$ /index.php [L]
+
+</IfModule>
+
+# =====================================================
+# Alternative: Catch-all for quiz.smartfamilypicks.com
+# =====================================================
+# If above rules don't work, use this simple catch-all:
+# (Uncomment if needed)
+
+# <IfModule mod_rewrite.c>
+# RewriteEngine On
+# RewriteBase /
+#
+# # Don't rewrite existing files/directories
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME} !-d
+#
+# # Rewrite all other requests to index.php
+# RewriteRule . /index.php [L]
+# </IfModule>

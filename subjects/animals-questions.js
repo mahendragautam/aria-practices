@@ -39,7 +39,7 @@ const animalsQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 1
+                correct: 0
             },
             {
                 topic: "Reptiles",
@@ -89,7 +89,7 @@ const animalsQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Reptiles",
@@ -99,7 +99,7 @@ const animalsQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 0
+                correct: 1
             },
             {
                 topic: "Mammals",

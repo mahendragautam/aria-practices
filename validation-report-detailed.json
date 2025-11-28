@@ -1,0 +1,347 @@
+{
+  "riddleChapters": [
+    {
+      "file": "Chapter 10 - Wordplay.js",
+      "path": "/home/user/aria-practices/riddles-chapters/Chapter 10 - Wordplay.js",
+      "issues": [],
+      "duplicates": [],
+      "totalQuestions": 94,
+      "status": "OK"
+    },
+    {
+      "file": "Chapter 11 - Visual Riddles.js",
+      "path": "/home/user/aria-practices/riddles-chapters/Chapter 11 - Visual Riddles.js",
+      "issues": [],
+      "duplicates": [],
+      "totalQuestions": 95,
+      "status": "OK"
+    },
+    {
+      "file": "Chapter 12 - Pattern Recognition.js",
+      "path": "/home/user/aria-practices/riddles-chapters/Chapter 12 - Pattern Recognition.js",
+      "issues": [],
+      "duplicates": [],
+      "totalQuestions": 102,
+      "status": "OK"
+    },
+    {
+      "file": "Chapter 13 - Short & Quick Riddles.js",
+      "path": "/home/user/aria-practices/riddles-chapters/Chapter 13 - Short & Quick Riddles.js",
+      "issues": [],
+      "duplicates": [],
+      "totalQuestions": 75,
+      "status": "OK"
+    },
+    {
+      "file": "Chapter 14 - Long Story Riddles.js",
+      "path": "/home/user/aria-practices/riddles-chapters/Chapter 14 - Long Story Riddles.js",
+      "issues": [],
+      "duplicates": [],
+      "totalQuestions": 111,
+      "status": "OK"
+    },
+    {
+      "file": "Chapter 15 - Kids Riddles.js",
+      "path": "/home/user/aria-practices/riddles-chapters/Chapter 15 - Kids Riddles.js",
+      "issues": [],
+      "duplicates": [],
+      "totalQuestions": 49,
+      "status": "OK"
+    },
+    {
+      "file": "Chapter 16 - Hardest Riddles.js",
+      "path": "/home/user/aria-practices/riddles-chapters/Chapter 16 - Hardest Riddles.js",
+      "issues": [],
+      "duplicates": [],
+      "totalQuestions": 61,
+      "status": "OK"
+    },
+    {
+      "file": "Chapter 17 - Mixed Bag.js",
+      "path": "/home/user/aria-practices/riddles-chapters/Chapter 17 - Mixed Bag.js",
+      "issues": [],
+      "duplicates": [],
+      "totalQuestions": 16,
+      "status": "OK"
+    },
+    {
+      "file": "Chapter 18 - Animal Riddles.js",
+      "path": "/home/user/aria-practices/riddles-chapters/Chapter 18 - Animal Riddles.js",
+      "issues": [],
+      "duplicates": [],
+      "totalQuestions": 78,
+      "status": "OK"
+    },
+    {
+      "file": "Chapter 19 - Paradox Riddles.js",
+      "path": "/home/user/aria-practices/riddles-chapters/Chapter 19 - Paradox Riddles.js",
+      "issues": [],
+      "duplicates": [],
+      "totalQuestions": 97,
+      "status": "OK"
+    },
+    {
+      "file": "Chapter 2 - Puzzle Stories.js",
+      "path": "/home/user/aria-practices/riddles-chapters/Chapter 2 - Puzzle Stories.js",
+      "issues": [],
+      "duplicates": [
+        {
+          "question": "a man is looking at someone's picture. his friend asks who i...",
+          "indices": [
+            19,
+            86
+          ],
+          "count": 2
+        }
+      ],
+      "totalQuestions": 100,
+      "status": "ISSUES_FOUND"
+    },
+    {
+      "file": "Chapter 20 - Deduction Riddles.js",
+      "path": "/home/user/aria-practices/riddles-chapters/Chapter 20 - Deduction Riddles.js",
+      "issues": [],
+      "duplicates": [],
+      "totalQuestions": 93,
+      "status": "OK"
+    },
+    {
+      "file": "Chapter 3 - Number Riddles.js",
+      "path": "/home/user/aria-practices/riddles-chapters/Chapter 3 - Number Riddles.js",
+      "issues": [],
+      "duplicates": [],
+      "totalQuestions": 106,
+      "status": "OK"
+    },
+    {
+      "file": "Chapter 4 - Classic Riddles.js",
+      "path": "/home/user/aria-practices/riddles-chapters/Chapter 4 - Classic Riddles.js",
+      "issues": [],
+      "duplicates": [],
+      "totalQuestions": 72,
+      "status": "OK"
+    },
+    {
+      "file": "Chapter 5 - Brain Teasers.js",
+      "path": "/home/user/aria-practices/riddles-chapters/Chapter 5 - Brain Teasers.js",
+      "issues": [],
+      "duplicates": [],
+      "totalQuestions": 78,
+      "status": "OK"
+    },
+    {
+      "file": "Chapter 6 - Funny Riddles.js",
+      "path": "/home/user/aria-practices/riddles-chapters/Chapter 6 - Funny Riddles.js",
+      "issues": [],
+      "duplicates": [],
+      "totalQuestions": 74,
+      "status": "OK"
+    },
+    {
+      "file": "Chapter 7 - Mystery Riddles.js",
+      "path": "/home/user/aria-practices/riddles-chapters/Chapter 7 - Mystery Riddles.js",
+      "issues": [],
+      "duplicates": [],
+      "totalQuestions": 107,
+      "status": "OK"
+    },
+    {
+      "file": "Chapter 8 - Everyday Objects.js",
+      "path": "/home/user/aria-practices/riddles-chapters/Chapter 8 - Everyday Objects.js",
+      "issues": [],
+      "duplicates": [],
+      "totalQuestions": 90,
+      "status": "OK"
+    },
+    {
+      "file": "Chapter 9 - Lateral Thinking.js",
+      "path": "/home/user/aria-practices/riddles-chapters/Chapter 9 - Lateral Thinking.js",
+      "issues": [],
+      "duplicates": [],
+      "totalQuestions": 79,
+      "status": "OK"
+    },
+    {
+      "file": "Chapter-1-Trick-Questions.js",
+      "path": "/home/user/aria-practices/riddles-chapters/Chapter-1-Trick-Questions.js",
+      "issues": [],
+      "duplicates": [],
+      "totalQuestions": 85,
+      "status": "OK"
+    }
+  ],
+  "quizFiles": [
+    {
+      "file": "Science-questions.js",
+      "path": "/home/user/aria-practices/subjects/Science-questions.js",
+      "issues": [
+        "Error: Unexpected token '{'"
+      ],
+      "duplicates": [],
+      "totalQuestions": 0,
+      "status": "ERROR"
+    },
+    {
+      "file": "animals-questions.js",
+      "path": "/home/user/aria-practices/subjects/animals-questions.js",
+      "issues": [
+        "[Ch16/hard] Question 739: Missing or empty question text",
+        "[Ch16/hard] Question 739: Neither 'options' array nor 'answer' field found"
+      ],
+      "duplicates": [],
+      "totalQuestions": 875,
+      "status": "ISSUES_FOUND"
+    },
+    {
+      "file": "art-culture-questions.js",
+      "path": "/home/user/aria-practices/subjects/art-culture-questions.js",
+      "issues": [
+        "Error: Unexpected token ':'"
+      ],
+      "duplicates": [],
+      "totalQuestions": 0,
+      "status": "ERROR"
+    },
+    {
+      "file": "business-questions.js",
+      "path": "/home/user/aria-practices/subjects/business-questions.js",
+      "issues": [
+        "Could not find quiz data in subjectQuestionBank"
+      ],
+      "duplicates": [],
+      "totalQuestions": 0,
+      "status": "ERROR"
+    },
+    {
+      "file": "english-questions.js",
+      "path": "/home/user/aria-practices/subjects/english-questions.js",
+      "issues": [
+        "Could not find quiz data in subjectQuestionBank"
+      ],
+      "duplicates": [],
+      "totalQuestions": 0,
+      "status": "ERROR"
+    },
+    {
+      "file": "environment-questions.js",
+      "path": "/home/user/aria-practices/subjects/environment-questions.js",
+      "issues": [
+        "Could not find quiz data in subjectQuestionBank"
+      ],
+      "duplicates": [],
+      "totalQuestions": 0,
+      "status": "ERROR"
+    },
+    {
+      "file": "food-drinks-questions.js",
+      "path": "/home/user/aria-practices/subjects/food-drinks-questions.js",
+      "issues": [],
+      "duplicates": [
+        {
+          "question": "name three citrus fruits?",
+          "indices": [
+            297,
+            597
+          ],
+          "count": 2
+        },
+        {
+          "question": "is blackberry juice dark purple?",
+          "indices": [
+            369,
+            703
+          ],
+          "count": 2
+        }
+      ],
+      "totalQuestions": 1000,
+      "status": "ISSUES_FOUND"
+    },
+    {
+      "file": "geography-questions.js",
+      "path": "/home/user/aria-practices/subjects/geography-questions.js",
+      "issues": [
+        "Could not find quiz data in subjectQuestionBank"
+      ],
+      "duplicates": [],
+      "totalQuestions": 0,
+      "status": "ERROR"
+    },
+    {
+      "file": "health-questions.js",
+      "path": "/home/user/aria-practices/subjects/health-questions.js",
+      "issues": [
+        "Could not find quiz data in subjectQuestionBank"
+      ],
+      "duplicates": [],
+      "totalQuestions": 0,
+      "status": "ERROR"
+    },
+    {
+      "file": "history-questions.js",
+      "path": "/home/user/aria-practices/subjects/history-questions.js",
+      "issues": [
+        "Could not find quiz data in subjectQuestionBank"
+      ],
+      "duplicates": [],
+      "totalQuestions": 0,
+      "status": "ERROR"
+    },
+    {
+      "file": "math-questions.js",
+      "path": "/home/user/aria-practices/subjects/math-questions.js",
+      "issues": [
+        "Could not find quiz data in subjectQuestionBank"
+      ],
+      "duplicates": [],
+      "totalQuestions": 0,
+      "status": "ERROR"
+    },
+    {
+      "file": "movies-tv-questions.js",
+      "path": "/home/user/aria-practices/subjects/movies-tv-questions.js",
+      "issues": [
+        "Could not find quiz data in subjectQuestionBank"
+      ],
+      "duplicates": [],
+      "totalQuestions": 0,
+      "status": "ERROR"
+    },
+    {
+      "file": "parenting-questions.js",
+      "path": "/home/user/aria-practices/subjects/parenting-questions.js",
+      "issues": [
+        "Could not find quiz data in subjectQuestionBank"
+      ],
+      "duplicates": [],
+      "totalQuestions": 0,
+      "status": "ERROR"
+    },
+    {
+      "file": "sports-questions.js",
+      "path": "/home/user/aria-practices/subjects/sports-questions.js",
+      "issues": [
+        "Error: Unexpected token ':'"
+      ],
+      "duplicates": [],
+      "totalQuestions": 0,
+      "status": "ERROR"
+    },
+    {
+      "file": "technology-questions.js",
+      "path": "/home/user/aria-practices/subjects/technology-questions.js",
+      "issues": [
+        "Could not find quiz data in subjectQuestionBank"
+      ],
+      "duplicates": [],
+      "totalQuestions": 0,
+      "status": "ERROR"
+    }
+  ],
+  "summary": {
+    "totalFiles": 35,
+    "totalQuestions": 3537,
+    "filesWithIssues": 16,
+    "totalIssues": 18
+  }
+}

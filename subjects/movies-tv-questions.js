@@ -29,7 +29,7 @@ const moviesTVQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Friends",
@@ -39,7 +39,7 @@ const moviesTVQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Jurassic Park",
@@ -69,7 +69,7 @@ const moviesTVQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "The Walking Dead",
@@ -109,7 +109,7 @@ const moviesTVQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             }
         ],
         medium: [
@@ -131,7 +131,7 @@ const moviesTVQuestions = {
                     "Dunder Mifflin",
                     "Staples"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "The Matrix",
@@ -161,7 +161,7 @@ const moviesTVQuestions = {
                     "Quentin Tarantino",
                     "Martin Scorsese"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "How I Met Your Mother",
@@ -171,7 +171,7 @@ const moviesTVQuestions = {
                     "Legendary",
                     "Awesome"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Fight Club",
@@ -181,7 +181,7 @@ const moviesTVQuestions = {
                     "Soap",
                     "Clothes"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "The Big Bang Theory",
@@ -191,7 +191,7 @@ const moviesTVQuestions = {
                     "Physicist",
                     "Engineer"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Forrest Gump",
@@ -201,7 +201,7 @@ const moviesTVQuestions = {
                     "Box of chocolates",
                     "Journey"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Parks and Recreation",
@@ -224,7 +224,7 @@ const moviesTVQuestions = {
                     "Martin Scorsese",
                     "Brian De Palma"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "The Wire",
@@ -246,7 +246,7 @@ const moviesTVQuestions = {
                     "20",
                     "27"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Mad Men",
@@ -290,7 +290,7 @@ const moviesTVQuestions = {
                     "Robert De Niro",
                     "Joe Pesci"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "The West Wing",
@@ -301,7 +301,7 @@ const moviesTVQuestions = {
                     "Matt Santos",
                     "Arnold Vinick"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Schindler's List",
@@ -397,7 +397,7 @@ const moviesTVQuestions = {
                     "Gene Roddenberry",
                     "Ray Bradbury"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Seven Samurai",
@@ -421,7 +421,7 @@ const moviesTVQuestions = {
                     "Fred",
                     "Felix"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "2001: A Space Odyssey",
@@ -433,7 +433,7 @@ const moviesTVQuestions = {
                     "Steven Spielberg",
                     "George Lucas"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Seinfeld",
@@ -521,7 +521,7 @@ const moviesTVQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Iron Man",
@@ -571,7 +571,7 @@ const moviesTVQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Grey's Anatomy",
@@ -581,7 +581,7 @@ const moviesTVQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Harry Potter",
@@ -601,7 +601,7 @@ const moviesTVQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Shrek",
@@ -611,7 +611,7 @@ const moviesTVQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             }
         ],
         medium: [
@@ -633,7 +633,7 @@ const moviesTVQuestions = {
                     "Community college",
                     "University"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "The Silence of the Lambs",
@@ -643,7 +643,7 @@ const moviesTVQuestions = {
                     "Psychiatrist",
                     "Surgeon"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Arrested Development",
@@ -653,7 +653,7 @@ const moviesTVQuestions = {
                     "Bluth",
                     "Funke"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Gladiator",
@@ -663,7 +663,7 @@ const moviesTVQuestions = {
                     "General",
                     "Senator"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Brooklyn Nine-Nine",
@@ -673,7 +673,7 @@ const moviesTVQuestions = {
                     "Holt",
                     "Terry"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "The Departed",
@@ -693,7 +693,7 @@ const moviesTVQuestions = {
                     "Realtor",
                     "Architect"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "The Usual Suspects",
@@ -703,7 +703,7 @@ const moviesTVQuestions = {
                     "Verbal Kint",
                     "Dean Keaton"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "It's Always Sunny",
@@ -737,7 +737,7 @@ const moviesTVQuestions = {
                     "5%",
                     "10%"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "No Country for Old Men",
@@ -792,7 +792,7 @@ const moviesTVQuestions = {
                     "Michael Fassbender",
                     "Daniel Brühl"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Boardwalk Empire",
@@ -839,7 +839,7 @@ const moviesTVQuestions = {
                     "Agoraphobia",
                     "Nyctophobia"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "The Wire",
@@ -887,7 +887,7 @@ const moviesTVQuestions = {
                     "Frank Capra",
                     "George Cukor"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Freaks and Geeks",
@@ -899,7 +899,7 @@ const moviesTVQuestions = {
                     "1979",
                     "1982"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "The Double Life of Véronique",
@@ -911,7 +911,7 @@ const moviesTVQuestions = {
                     "Ingmar Bergman",
                     "Theo Angelopoulos"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "The Shield",
@@ -923,7 +923,7 @@ const moviesTVQuestions = {
                     "8",
                     "5"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "The Conformist",
@@ -1024,7 +1024,7 @@ const chapter3 = {
                 "True",
                 "False"
             ],
-            correct: 3
+            correct: 1
         },
         {
             topic: "Black Panther",
@@ -1034,7 +1034,7 @@ const chapter3 = {
                 "False",
                 "True"
             ],
-            correct: 3
+            correct: 1
         },
         {
             topic: "Downton Abbey",
@@ -1054,7 +1054,7 @@ const chapter3 = {
                 "False",
                 "True"
             ],
-            correct: 2
+            correct: 0
         },
         {
             topic: "Supernatural",
@@ -1074,7 +1074,7 @@ const chapter3 = {
                 "False",
                 "True"
             ],
-            correct: 2
+            correct: 0
         },
         {
             topic: "Doctor Who",
@@ -1084,7 +1084,7 @@ const chapter3 = {
                 "True",
                 "False"
             ],
-            correct: 3
+            correct: 1
         },
         {
             topic: "Captain America",
@@ -1126,7 +1126,7 @@ const chapter3 = {
                 "Boston",
                 "New York"
             ],
-            correct: 2
+            correct: 0
         },
         {
             topic: "Scrubs",
@@ -1146,7 +1146,7 @@ const chapter3 = {
                 "Christopher Nolan",
                 "Denis Villeneuve"
             ],
-            correct: 3
+            correct: 1
         },
         {
             topic: "The Good Place",
@@ -1156,7 +1156,7 @@ const chapter3 = {
                 "Michael",
                 "Chidi"
             ],
-            correct: 3
+            correct: 1
         },
         {
             topic: "Saving Private Ryan",
@@ -1166,7 +1166,7 @@ const chapter3 = {
                 "World War II",
                 "Vietnam War"
             ],
-            correct: 3
+            correct: 1
         },
         {
             topic: "The Witcher",
@@ -1206,7 +1206,7 @@ const chapter3 = {
                 "Los Angeles",
                 "San Francisco"
             ],
-            correct: 3
+            correct: 1
         },
         {
             topic: "Arrested Development",
@@ -1216,7 +1216,7 @@ const chapter3 = {
                 "Real estate development",
                 "Frozen bananas"
             ],
-            correct: 2
+            correct: 0
         }
     ],
     hard: [
@@ -1240,7 +1240,7 @@ const chapter3 = {
                 "1986",
                 "1988"
             ],
-            correct: 3
+            correct: 1
         },
         {
             topic: "Oldboy",
@@ -1262,7 +1262,7 @@ const chapter3 = {
                 "Jordan Peele",
                 "Lakeith Stanfield"
             ],
-            correct: 2
+            correct: 0
         },
         {
             topic: "Memento",
@@ -1273,7 +1273,7 @@ const chapter3 = {
                 "Short-term memory loss",
                 "Alzheimer's"
             ],
-            correct: 3
+            correct: 1
         },
         {
             topic: "Fargo",
@@ -1284,7 +1284,7 @@ const chapter3 = {
                 "Minnesota",
                 "Wisconsin"
             ],
-            correct: 2
+            correct: 0
         },
         {
             topic: "Eternal Sunshine",
@@ -1317,7 +1317,7 @@ const chapter3 = {
                 "Spain",
                 "Argentina"
             ],
-            correct: 3
+            correct: 1
         },
         {
             topic: "The Expanse",
@@ -1354,7 +1354,7 @@ const chapter3 = {
                 "Ronnie Gardocki",
                 "Curtis Lemansky"
             ],
-            correct: 3
+            correct: 1
         },
         {
             topic: "Persona",
@@ -1378,7 +1378,7 @@ const chapter3 = {
                 "Game show",
                 "Reality show"
             ],
-            correct: 2
+            correct: 0
         },
         {
             topic: "Rashomon",
@@ -1390,7 +1390,7 @@ const chapter3 = {
                 "4",
                 "5"
             ],
-            correct: 3
+            correct: 1
         },
         {
             topic: "Boardwalk Empire",
@@ -1414,7 +1414,7 @@ const chapter3 = {
                 "Kenji Mizoguchi",
                 "Masaki Kobayashi"
             ],
-            correct: 3
+            correct: 1
         },
         {
             topic: "Rectify",
@@ -1438,7 +1438,7 @@ const chapter3 = {
                 "Vienna",
                 "Prague"
             ],
-            correct: 2
+            correct: 0
         },
         {
             topic: "Justified",
@@ -1523,7 +1523,7 @@ const chapter3 = {
                 "True",
                 "False"
             ],
-            correct: 3
+            correct: 1
         },
         {
             topic: "Stranger Things",
@@ -1543,7 +1543,7 @@ const chapter3 = {
                 "True",
                 "False"
             ],
-            correct: 3
+            correct: 1
         },
         {
             topic: "The Office",
@@ -1573,7 +1573,7 @@ const chapter3 = {
                 "False",
                 "True"
             ],
-            correct: 2
+            correct: 0
         },
         {
             topic: "Inception",
@@ -1593,7 +1593,7 @@ const chapter3 = {
                 "True",
                 "False"
             ],
-            correct: 3
+            correct: 1
         },
         {
             topic: "The Godfather",
@@ -1613,7 +1613,7 @@ const chapter3 = {
                 "True",
                 "False"
             ],
-            correct: 2
+            correct: 0
         }
     ],
     medium: [
@@ -1625,7 +1625,7 @@ const chapter3 = {
                 "Quentin Tarantino",
                 "Martin Scorsese"
             ],
-            correct: 3
+            correct: 1
         },
         {
             topic: "The Sopranos",
@@ -1645,7 +1645,7 @@ const chapter3 = {
                 "Darth Vader",
                 "Obi-Wan"
             ],
-            correct: 2
+            correct: 0
         },
         {
             topic: "The Wire",
@@ -1665,7 +1665,7 @@ const chapter3 = {
                 "Banker",
                 "Lawyer"
             ],
-            correct: 3
+            correct: 1
         },
         {
             topic: "Mad Men",
@@ -1675,7 +1675,7 @@ const chapter3 = {
                 "1960s",
                 "1950s"
             ],
-            correct: 2
+            correct: 0
         },
         {
             topic: "The Dark Knight",
@@ -1685,7 +1685,7 @@ const chapter3 = {
                 "Heath Ledger",
                 "Jack Nicholson"
             ],
-            correct: 3
+            correct: 1
         },
         {
             topic: "Arrested Development",
@@ -1705,7 +1705,7 @@ const chapter3 = {
                 "Steven Spielberg",
                 "Martin Scorsese"
             ],
-            correct: 2
+            correct: 0
         },
         {
             topic: "The West Wing",
@@ -1715,7 +1715,7 @@ const chapter3 = {
                 "White House",
                 "Capitol"
             ],
-            correct: 3
+            correct: 1
         }
     ],
     hard: [
@@ -1728,7 +1728,7 @@ const chapter3 = {
                 "Francis Ford Coppola",
                 "Brian De Palma"
             ],
-            correct: 2
+            correct: 0
         },
         {
             topic: "True Detective",
@@ -1761,7 +1761,7 @@ const chapter3 = {
                 "Alfred Hitchcock",
                 "Gene Roddenberry"
             ],
-            correct: 2
+            correct: 0
         },
         {
             topic: "Casablanca",
@@ -1772,7 +1772,7 @@ const chapter3 = {
                 "1941",
                 "1943"
             ],
-            correct: 2
+            correct: 0
         },
         {
             topic: "The X-Files",
@@ -1783,7 +1783,7 @@ const chapter3 = {
                 "CIA agents",
                 "Police detectives"
             ],
-            correct: 3
+            correct: 1
         },
         {
             topic: "The Silence of the Lambs",
@@ -1794,7 +1794,7 @@ const chapter3 = {
                 "Brian Cox",
                 "Mads Mikkelsen"
             ],
-            correct: 3
+            correct: 1
         },
         {
             topic: "Fargo",
@@ -1827,7 +1827,7 @@ const chapter3 = {
                 "Jerry Seinfeld",
                 "Ricky Gervais"
             ],
-            correct: 3
+            correct: 1
         }
     ],
     expert: [
@@ -1877,7 +1877,7 @@ const chapter3 = {
                 "Chris Carter",
                 "Vince Gilligan"
             ],
-            correct: 2
+            correct: 0
         },
         {
             topic: "The Seventh Seal",
@@ -1889,7 +1889,7 @@ const chapter3 = {
                 "Akira Kurosawa",
                 "Andrei Tarkovsky"
             ],
-            correct: 2
+            correct: 0
         },
         {
             topic: "Deadwood",
@@ -1925,7 +1925,7 @@ const chapter3 = {
                 "Law firm",
                 "Hospital"
             ],
-            correct: 2
+            correct: 0
         },
         {
             topic: "Rashomon",
@@ -1949,7 +1949,7 @@ const chapter3 = {
                 "1990s",
                 "1960s"
             ],
-            correct: 2
+            correct: 0
         }
     ],
     extreme: [
@@ -2025,7 +2025,7 @@ const chapter3 = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Guardians of the Galaxy",
@@ -2035,7 +2035,7 @@ const chapter3 = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "The Fresh Prince",
@@ -2045,7 +2045,7 @@ const chapter3 = {
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Ghostbusters",
@@ -2055,7 +2055,7 @@ const chapter3 = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Suits",
@@ -2065,7 +2065,7 @@ const chapter3 = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Aladdin",
@@ -2095,7 +2095,7 @@ const chapter3 = {
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "The Crown",
@@ -2127,7 +2127,7 @@ const chapter3 = {
                     "Rivals",
                     "Partners"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "30 Rock",
@@ -2137,7 +2137,7 @@ const chapter3 = {
                     "Liz Lemon",
                     "Jack Donaghy"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Django Unchained",
@@ -2167,7 +2167,7 @@ const chapter3 = {
                     "William Wallace",
                     "Robert the Bruce"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "The Boys",
@@ -2187,7 +2187,7 @@ const chapter3 = {
                     "One continuous take",
                     "Multiple scenes"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "The Mandalorian",
@@ -2207,7 +2207,7 @@ const chapter3 = {
                     "Balloons",
                     "Helicopter"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Money Heist",
@@ -2241,7 +2241,7 @@ const chapter3 = {
                     "Surgeon",
                     "Chef"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Drive",
@@ -2252,7 +2252,7 @@ const chapter3 = {
                     "Stunt driver",
                     "Getaway driver"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Band of Brothers",
@@ -2263,7 +2263,7 @@ const chapter3 = {
                     "Baker Company",
                     "Charlie Company"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Whiplash",
@@ -2274,7 +2274,7 @@ const chapter3 = {
                     "Drums",
                     "Trumpet"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Mindhunter",
@@ -2296,7 +2296,7 @@ const chapter3 = {
                     "An AI",
                     "A hologram"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "The Leftovers",
@@ -2403,7 +2403,7 @@ const chapter3 = {
                     "1940s",
                     "1950s"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Synecdoche, New York",
@@ -2418,7 +2418,7 @@ const chapter3 = {
                     "Canada",
                     "Australia"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Harakiri",
@@ -2430,7 +2430,7 @@ const chapter3 = {
                     "Love",
                     "War"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Terriers",
@@ -2442,7 +2442,7 @@ const chapter3 = {
                     "3",
                     "4"
                 ],
-                correct: 2
+                correct: 0
             }
         ],
         extreme: [
@@ -2515,7 +2515,7 @@ const chapter3 = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Doctor Strange",
@@ -2535,7 +2535,7 @@ const chapter3 = {
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "The Terminator",
@@ -2545,7 +2545,7 @@ const chapter3 = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Gilmore Girls",
@@ -2575,7 +2575,7 @@ const chapter3 = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Aquaman",
@@ -2617,7 +2617,7 @@ const chapter3 = {
                     "Catholic Church scandal",
                     "Political corruption"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "It's Always Sunny",
@@ -2640,7 +2640,7 @@ const chapter3 = {
                     "Larry David",
                     "Jerry Seinfeld"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Arrival",
@@ -2650,7 +2650,7 @@ const chapter3 = {
                     "Alien language",
                     "Ancient text"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Battlestar Galactica",
@@ -2660,7 +2660,7 @@ const chapter3 = {
                     "Terminators",
                     "Cylons"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Room",
@@ -2670,7 +2670,7 @@ const chapter3 = {
                     "A room",
                     "A basement"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Rick and Morty",
@@ -2693,7 +2693,7 @@ const chapter3 = {
                     "Horse",
                     "Donkey"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Mad Max: Fury Road",
@@ -2716,7 +2716,7 @@ const chapter3 = {
                     "Infertility",
                     "Plague"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "The Leftovers",
@@ -2727,7 +2727,7 @@ const chapter3 = {
                     "J.J. Abrams",
                     "Carlton Cuse"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Amour",
@@ -2777,7 +2777,7 @@ const chapter3 = {
                     "1980s",
                     "1990s"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Inside Llewyn Davis",
@@ -2788,7 +2788,7 @@ const chapter3 = {
                     "Jazz",
                     "Blues"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "The Americans",
@@ -2825,7 +2825,7 @@ const chapter3 = {
                     "Multiple sclerosis",
                     "ALS"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "In the Mood for Love",
@@ -2849,7 +2849,7 @@ const chapter3 = {
                     "Benedict Cumberbatch",
                     "Tom Hiddleston"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Yi Yi",
@@ -2885,7 +2885,7 @@ const chapter3 = {
                     "Olivier Assayas",
                     "Jacques Audiard"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Top of the Lake",
@@ -2897,7 +2897,7 @@ const chapter3 = {
                     "David Lynch",
                     "Cary Fukunaga"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Once Upon a Time in Anatolia",
@@ -2988,7 +2988,7 @@ const chapter3 = {
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Ant-Man",
@@ -2998,7 +2998,7 @@ const chapter3 = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Two and a Half Men",
@@ -3008,7 +3008,7 @@ const chapter3 = {
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Aliens",
@@ -3028,7 +3028,7 @@ const chapter3 = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Mulan",
@@ -3068,7 +3068,7 @@ const chapter3 = {
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Ratatouille",
@@ -3090,7 +3090,7 @@ const chapter3 = {
                     "Gustave H.",
                     "Zero"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "The IT Crowd",
@@ -3140,7 +3140,7 @@ const chapter3 = {
                     "Eve",
                     "Villanelle"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "The Shape of Water",
@@ -3163,7 +3163,7 @@ const chapter3 = {
                     "Missouri",
                     "Kansas"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Dark",
@@ -3173,7 +3173,7 @@ const chapter3 = {
                     "Austria",
                     "Germany"
                 ],
-                correct: 2
+                correct: 0
             }
         ],
         hard: [
@@ -3186,7 +3186,7 @@ const chapter3 = {
                     "2",
                     "3"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Counterpart",
@@ -3208,7 +3208,7 @@ const chapter3 = {
                     "KGB",
                     "CIA"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Maniac",
@@ -3230,7 +3230,7 @@ const chapter3 = {
                     "Canada",
                     "Lebanon"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "The OA",
@@ -3252,7 +3252,7 @@ const chapter3 = {
                     "Streets",
                     "Hospital"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Patriot",
@@ -3263,7 +3263,7 @@ const chapter3 = {
                     "Folk songs",
                     "Poetry"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Poetry",
@@ -3323,7 +3323,7 @@ const chapter3 = {
                     "Elem Klimov",
                     "Aleksei German"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Gomorrah",
@@ -3335,7 +3335,7 @@ const chapter3 = {
                     "'Ndrangheta",
                     "Sacra Corona Unita"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "The Celebration",
@@ -3347,7 +3347,7 @@ const chapter3 = {
                     "Italian Neorealism",
                     "Cinema Novo"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Enlightened",
@@ -3359,7 +3359,7 @@ const chapter3 = {
                     "Both A and B",
                     "Amy Sherman-Palladino"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Uncle Boonmee",
@@ -3383,7 +3383,7 @@ const chapter3 = {
                     "DGSE",
                     "Mossad"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Winter Sleep",
@@ -3407,7 +3407,7 @@ const chapter3 = {
                     "Locked Up",
                     "The Bridge"
                 ],
-                correct: 3
+                correct: 1
             }
         ],
         extreme: [
@@ -3493,7 +3493,7 @@ const chapter3 = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Architecture",
@@ -3503,7 +3503,7 @@ const chapter3 = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Literature",
@@ -3513,7 +3513,7 @@ const chapter3 = {
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Dance",
@@ -3533,7 +3533,7 @@ const chapter3 = {
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Cinema",
@@ -3573,7 +3573,7 @@ const chapter3 = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             }
         ],
         medium: [
@@ -3595,7 +3595,7 @@ const chapter3 = {
                     "Tenor",
                     "Countertenor"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Architecture",
@@ -3605,7 +3605,7 @@ const chapter3 = {
                     "One World Trade",
                     "Empire State"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Literature",
@@ -3615,7 +3615,7 @@ const chapter3 = {
                     "Hans Christian Andersen",
                     "Brothers Grimm"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Dance",
@@ -3625,7 +3625,7 @@ const chapter3 = {
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Sculpture",
@@ -3645,7 +3645,7 @@ const chapter3 = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Theater",
@@ -3655,7 +3655,7 @@ const chapter3 = {
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Monuments",
@@ -3665,7 +3665,7 @@ const chapter3 = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Music",
@@ -3675,7 +3675,7 @@ const chapter3 = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             }
         ],
         hard: [
@@ -3688,7 +3688,7 @@ const chapter3 = {
                     "Vincent van Gogh",
                     "Salvador Dalí"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Music",
@@ -3710,7 +3710,7 @@ const chapter3 = {
                     "Persian",
                     "Ottoman"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Literature",
@@ -3732,7 +3732,7 @@ const chapter3 = {
                     "7",
                     "8"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Sculpture",
@@ -3754,7 +3754,7 @@ const chapter3 = {
                     "Francis Ford Coppola",
                     "Steven Spielberg"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Theater",
@@ -3765,7 +3765,7 @@ const chapter3 = {
                     "Aeschylus",
                     "Euripides"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "World Heritage",
@@ -3787,7 +3787,7 @@ const chapter3 = {
                     "Batik",
                     "Screen printing"
                 ],
-                correct: 3
+                correct: 1
             }
         ],
         expert: [
@@ -3801,7 +3801,7 @@ const chapter3 = {
                     "1892",
                     "1880"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Music",
@@ -3825,7 +3825,7 @@ const chapter3 = {
                     "Jørn Utzon",
                     "I.M. Pei"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Literature",
@@ -3837,7 +3837,7 @@ const chapter3 = {
                     "Rudyard Kipling",
                     "W.B. Yeats"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Dance",
@@ -3849,7 +3849,7 @@ const chapter3 = {
                     "Mambo",
                     "Salsa"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Sculpture",
@@ -3861,7 +3861,7 @@ const chapter3 = {
                     "Modern",
                     "Classical"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Cinema",
@@ -3897,7 +3897,7 @@ const chapter3 = {
                     "12 years",
                     "20 years"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Museums",
@@ -3909,7 +3909,7 @@ const chapter3 = {
                     "1725",
                     "1789"
                 ],
-                correct: 3
+                correct: 1
             }
         ],
         extreme: [
@@ -4017,7 +4017,7 @@ const chapter3 = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Narcos",
@@ -4037,7 +4037,7 @@ const chapter3 = {
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Smallville",
@@ -4089,7 +4089,7 @@ const chapter3 = {
                     "Three",
                     "Four"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Better Call Saul",
@@ -4099,7 +4099,7 @@ const chapter3 = {
                     "Chuck",
                     "Howard"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Wind River",
@@ -4109,7 +4109,7 @@ const chapter3 = {
                     "Wyoming",
                     "Montana"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Peaky Blinders",
@@ -4129,7 +4129,7 @@ const chapter3 = {
                     "Sacramento",
                     "San Francisco"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Barry",
@@ -4149,7 +4149,7 @@ const chapter3 = {
                     "1970s",
                     "1960s"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "The Handmaid's Tale",
@@ -4192,7 +4192,7 @@ const chapter3 = {
                     "Indonesia",
                     "Vietnam"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "The Young Pope",
@@ -4203,7 +4203,7 @@ const chapter3 = {
                     "John Paul III",
                     "Benedict XVI"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "The Florida Project",
@@ -4217,7 +4217,7 @@ const chapter3 = {
                     "1980s-90s",
                     "1960s-70s"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "First Reformed",
@@ -4239,7 +4239,7 @@ const chapter3 = {
                     "1980s",
                     "1990s"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "The Square",
@@ -4250,7 +4250,7 @@ const chapter3 = {
                     "Sweden",
                     "Norway"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Big Little Lies",
@@ -4261,7 +4261,7 @@ const chapter3 = {
                     "Malibu",
                     "Santa Barbara"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Shoplifters",
@@ -4272,7 +4272,7 @@ const chapter3 = {
                     "Japan",
                     "China"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Succession S1",
@@ -4283,7 +4283,7 @@ const chapter3 = {
                     "Stroke",
                     "Accident"
                 ],
-                correct: 2
+                correct: 0
             }
         ],
         expert: [
@@ -4321,7 +4321,7 @@ const chapter3 = {
                     "Zhang Yimou",
                     "Ang Lee"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "This Is England",
@@ -4333,7 +4333,7 @@ const chapter3 = {
                     "1990s",
                     "1960s"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Secret Sunshine",
@@ -4369,7 +4369,7 @@ const chapter3 = {
                     "Brazil",
                     "Colombia"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Southcliffe",
@@ -4460,7 +4460,7 @@ const chapter3 = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Luke Cage",
@@ -4480,7 +4480,7 @@ const chapter3 = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "RoboCop",
@@ -4500,7 +4500,7 @@ const chapter3 = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Hercules",
@@ -4520,7 +4520,7 @@ const chapter3 = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Joker",
@@ -4540,7 +4540,7 @@ const chapter3 = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Big Hero 6",
@@ -4550,7 +4550,7 @@ const chapter3 = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             }
         ],
         medium: [
@@ -4575,7 +4575,7 @@ const chapter3 = {
                     "Banks",
                     "Stores"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "The Leftovers",
@@ -4585,7 +4585,7 @@ const chapter3 = {
                     "2%",
                     "5%"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Nightcrawler",
@@ -4605,7 +4605,7 @@ const chapter3 = {
                     "No, anthology",
                     "Yes, sequel"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Ex Machina",
@@ -4615,7 +4615,7 @@ const chapter3 = {
                     "Turing test",
                     "IQ test"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Penny Dreadful",
@@ -4625,7 +4625,7 @@ const chapter3 = {
                     "Victorian",
                     "Edwardian"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Whiplash",
@@ -4645,7 +4645,7 @@ const chapter3 = {
                     "FBI",
                     "Police"
                 ],
-                correct: 2
+                correct: 0
             }
         ],
         hard: [
@@ -4680,7 +4680,7 @@ const chapter3 = {
                     "Nicolas Winding Refn",
                     "Shane Carruth"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "The Knick",
@@ -4702,7 +4702,7 @@ const chapter3 = {
                     "Persian",
                     "Turkish"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Top of the Lake",
@@ -4713,7 +4713,7 @@ const chapter3 = {
                     "New Zealand",
                     "Scotland"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "It Follows",
@@ -4735,7 +4735,7 @@ const chapter3 = {
                     "1980s",
                     "1990s"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "The Lobster",
@@ -4746,7 +4746,7 @@ const chapter3 = {
                     "Exiled",
                     "Imprisoned"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Halt and Catch Fire S1",
@@ -4757,7 +4757,7 @@ const chapter3 = {
                     "Software",
                     "Console"
                 ],
-                correct: 3
+                correct: 1
             }
         ],
         expert: [
@@ -4783,7 +4783,7 @@ const chapter3 = {
                     "6 hours",
                     "3.5 hours"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Werckmeister Harmonies",
@@ -4795,7 +4795,7 @@ const chapter3 = {
                     "István Szabó",
                     "Kornél Mundruczó"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Fortitude",
@@ -4807,7 +4807,7 @@ const chapter3 = {
                     "Greenland",
                     "Alaska"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Tropical Malady",
@@ -4819,7 +4819,7 @@ const chapter3 = {
                     "Wisit Sasanatieng",
                     "Anocha Suwichakornpong"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "The Affair",
@@ -4843,7 +4843,7 @@ const chapter3 = {
                     "Theo Angelopoulos",
                     "Aleksandr Sokurov"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Broadchurch",
@@ -4855,7 +4855,7 @@ const chapter3 = {
                     "Australia",
                     "New Zealand"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "The Great Beauty",
@@ -4867,7 +4867,7 @@ const chapter3 = {
                     "Matteo Garrone",
                     "Marco Bellocchio"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Utopia",
@@ -4879,7 +4879,7 @@ const chapter3 = {
                     "Book",
                     "Film"
                 ],
-                correct: 3
+                correct: 1
             }
         ],
         extreme: [
@@ -4956,7 +4956,7 @@ const artCultureChapter10 = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Music",
@@ -4986,7 +4986,7 @@ const artCultureChapter10 = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Dance",
@@ -4996,7 +4996,7 @@ const artCultureChapter10 = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Sculpture",
@@ -5026,7 +5026,7 @@ const artCultureChapter10 = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Monuments",
@@ -5046,7 +5046,7 @@ const artCultureChapter10 = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             }
         ],
         medium: [
@@ -5061,7 +5061,7 @@ const artCultureChapter10 = {
                     "Duet",
                     "Solo"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Architecture",
@@ -5071,7 +5071,7 @@ const artCultureChapter10 = {
                     "Winter Palace",
                     "Peterhof"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Literature",
@@ -5084,7 +5084,7 @@ const artCultureChapter10 = {
                     "Salsa",
                     "Samba"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Sculpture",
@@ -5094,7 +5094,7 @@ const artCultureChapter10 = {
                     "Ceramic",
                     "Bronze"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Cinema",
@@ -5104,7 +5104,7 @@ const artCultureChapter10 = {
                     "National Film Award",
                     "Filmfare Award"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Theater",
@@ -5114,7 +5114,7 @@ const artCultureChapter10 = {
                     "Annie",
                     "Oliver!"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Festivals",
@@ -5134,7 +5134,7 @@ const artCultureChapter10 = {
                     "Vienna",
                     "Berlin"
                 ],
-                correct: 3
+                correct: 1
             }
         ],
         hard: [
@@ -5169,7 +5169,7 @@ const artCultureChapter10 = {
                     "Casa Batlló",
                     "Park Güell"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Literature",
@@ -5208,7 +5208,7 @@ const artCultureChapter10 = {
                     "Kabuki",
                     "Noh"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "World Heritage",
@@ -5283,7 +5283,7 @@ const artCultureChapter10 = {
                     "Michael Bennett",
                     "Twyla Tharp"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Sculpture",
@@ -5313,7 +5313,7 @@ const artCultureChapter10 = {
                     "Kiyomizu-dera",
                     "Kinkaku-ji"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Museums",
@@ -5325,7 +5325,7 @@ const artCultureChapter10 = {
                     "Borghese Gallery",
                     "Accademia"
                 ],
-                correct: 2
+                correct: 0
             }
         ],
         extreme: [
@@ -5412,7 +5412,7 @@ const artCultureChapter10 = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "M*A*S*H",
@@ -5432,7 +5432,7 @@ const artCultureChapter10 = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Homeland",
@@ -5462,7 +5462,7 @@ const artCultureChapter10 = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Suicide Squad",
@@ -5472,7 +5472,7 @@ const artCultureChapter10 = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "The Umbrella Academy",
@@ -5524,7 +5524,7 @@ const artCultureChapter10 = {
                     "Denis Villeneuve",
                     "Taylor Sheridan"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Black Mirror",
@@ -5554,7 +5554,7 @@ const artCultureChapter10 = {
                     "Spy",
                     "Assassin"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Nightcrawler",
@@ -5564,7 +5564,7 @@ const artCultureChapter10 = {
                     "Los Angeles",
                     "New York"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Ozark",
@@ -5607,7 +5607,7 @@ const artCultureChapter10 = {
                     "4.5 hours",
                     "5 hours"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Peaky Blinders",
@@ -5618,7 +5618,7 @@ const artCultureChapter10 = {
                     "1920",
                     "1921"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Certified Copy",
@@ -5640,7 +5640,7 @@ const artCultureChapter10 = {
                     "AC-9",
                     "CID"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Essential Killing",
@@ -5673,7 +5673,7 @@ const artCultureChapter10 = {
                     "Carlos Reygadas",
                     "Alejandro González Iñárritu"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Quarry",
@@ -5720,7 +5720,7 @@ const artCultureChapter10 = {
                     "9.5 hours",
                     "10 hours"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Wallander",
@@ -5756,7 +5756,7 @@ const artCultureChapter10 = {
                     "China",
                     "USA"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Uncle Boonmee",
@@ -5780,7 +5780,7 @@ const artCultureChapter10 = {
                     "Italy-France",
                     "Germany-France"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "The Color of Pomegranates",
@@ -5828,7 +5828,7 @@ const artCultureChapter10 = {
                     "4",
                     "5"
                 ],
-                correct: 3
+                correct: 1
             }
         ],
         extreme: [
@@ -5904,7 +5904,7 @@ const artCultureChapter10 = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "The Punisher",
@@ -5914,7 +5914,7 @@ const artCultureChapter10 = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "All in the Family",
@@ -5924,7 +5924,7 @@ const artCultureChapter10 = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "The Fifth Element",
@@ -5934,7 +5934,7 @@ const artCultureChapter10 = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Person of Interest",
@@ -5944,7 +5944,7 @@ const artCultureChapter10 = {
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Sleeping Beauty",
@@ -5964,7 +5964,7 @@ const artCultureChapter10 = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Birds of Prey",
@@ -5974,7 +5974,7 @@ const artCultureChapter10 = {
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "The Witcher",
@@ -5994,7 +5994,7 @@ const artCultureChapter10 = {
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             }
         ],
         medium: [
@@ -6026,7 +6026,7 @@ const artCultureChapter10 = {
                     "Tracker",
                     "Sheriff"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Mare of Easttown",
@@ -6036,7 +6036,7 @@ const artCultureChapter10 = {
                     "Detective",
                     "FBI Agent"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Dunkirk",
@@ -6131,7 +6131,7 @@ const artCultureChapter10 = {
                     "Tang",
                     "Qing"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Deutschland 83",
@@ -6142,7 +6142,7 @@ const artCultureChapter10 = {
                     "West Germany",
                     "Both"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Tales of the Unexpected",
@@ -6153,7 +6153,7 @@ const artCultureChapter10 = {
                     "Alfred Hitchcock",
                     "Ray Bradbury"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "The Innocents",
@@ -6164,7 +6164,7 @@ const artCultureChapter10 = {
                     "Governess",
                     "Nanny"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "A Ghost Story",
@@ -6186,7 +6186,7 @@ const artCultureChapter10 = {
                     "3",
                     "4"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Personal Shopper",
@@ -6208,7 +6208,7 @@ const artCultureChapter10 = {
                     "19th",
                     "17th"
                 ],
-                correct: 3
+                correct: 1
             }
         ],
         expert: [
@@ -6222,7 +6222,7 @@ const artCultureChapter10 = {
                     "13 hours",
                     "15 hours"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "The Bridge",
@@ -6234,7 +6234,7 @@ const artCultureChapter10 = {
                     "Finland-Sweden",
                     "Germany-Denmark"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Nostalghia",
@@ -6246,7 +6246,7 @@ const artCultureChapter10 = {
                     "Elem Klimov",
                     "Sergei Parajanov"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "The Bureau",
@@ -6258,7 +6258,7 @@ const artCultureChapter10 = {
                     "5",
                     "6"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Mysteries of the Organism",
@@ -6270,7 +6270,7 @@ const artCultureChapter10 = {
                     "Goran Paskaljević",
                     "Srđan Dragojević"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Spiral",
@@ -6306,7 +6306,7 @@ const artCultureChapter10 = {
                     "5",
                     "6"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Dekalog",
@@ -6318,7 +6318,7 @@ const artCultureChapter10 = {
                     "10",
                     "12"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Montag",
@@ -6406,7 +6406,7 @@ const artCultureChapter10 = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Cloak & Dagger",
@@ -6426,7 +6426,7 @@ const artCultureChapter10 = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Total Recall",
@@ -6446,7 +6446,7 @@ const artCultureChapter10 = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Brother Bear",
@@ -6466,7 +6466,7 @@ const artCultureChapter10 = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "The New Mutants",
@@ -6511,7 +6511,7 @@ const artCultureChapter10 = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Taxi",
@@ -6521,7 +6521,7 @@ const artCultureChapter10 = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "The Matrix",
@@ -6531,7 +6531,7 @@ const artCultureChapter10 = {
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Succession",
@@ -6541,7 +6541,7 @@ const artCultureChapter10 = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Luca",
@@ -6551,7 +6551,7 @@ const artCultureChapter10 = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Hawkeye",
@@ -6561,7 +6561,7 @@ const artCultureChapter10 = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Eternals",
@@ -6571,7 +6571,7 @@ const artCultureChapter10 = {
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Yellowjackets",
@@ -6591,7 +6591,7 @@ const artCultureChapter10 = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             }
         ],
         medium: [
@@ -6603,7 +6603,7 @@ const artCultureChapter10 = {
                     "South Korea",
                     "Japan"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Ted Lasso",
@@ -6633,7 +6633,7 @@ const artCultureChapter10 = {
                     "Luxury resort",
                     "Budget hotel"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Dune",
@@ -6663,7 +6663,7 @@ const artCultureChapter10 = {
                     "Child of Deaf Adults",
                     "Center of Drama Arts"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Loki",
@@ -6673,7 +6673,7 @@ const artCultureChapter10 = {
                     "TVA",
                     "SHIELD"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Don't Look Up",
@@ -6683,7 +6683,7 @@ const artCultureChapter10 = {
                     "Comet",
                     "Asteroid"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "The Last of Us",
@@ -6706,7 +6706,7 @@ const artCultureChapter10 = {
                     "South Korea",
                     "China"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Succession S3",
@@ -6717,7 +6717,7 @@ const artCultureChapter10 = {
                     "Greece",
                     "France"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "The Power of the Dog",
@@ -6728,7 +6728,7 @@ const artCultureChapter10 = {
                     "Kelly Reichardt",
                     "Chloé Zhao"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Mare of Easttown",
@@ -6739,7 +6739,7 @@ const artCultureChapter10 = {
                     "Amy Adams",
                     "Frances McDormand"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "The Worst Person in the World",
@@ -6764,7 +6764,7 @@ const artCultureChapter10 = {
                     "Robert Eggers",
                     "Ari Aster"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Dopesick",
@@ -6775,7 +6775,7 @@ const artCultureChapter10 = {
                     "Cocaine",
                     "Methamphetamine"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Spencer",
@@ -6797,7 +6797,7 @@ const artCultureChapter10 = {
                     "Los Angeles",
                     "New York"
                 ],
-                correct: 3
+                correct: 1
             }
         ],
         expert: [
@@ -6823,7 +6823,7 @@ const artCultureChapter10 = {
                     "Steve McQueen",
                     "Ryan Coogler"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "The Card Counter",
@@ -6871,7 +6871,7 @@ const artCultureChapter10 = {
                     "Jed Mercurio",
                     "Russell T Davies"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "The Lost Daughter",
@@ -6895,7 +6895,7 @@ const artCultureChapter10 = {
                     "10",
                     "12"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Bergman Island",
@@ -6907,7 +6907,7 @@ const artCultureChapter10 = {
                     "Claire Denis",
                     "Maren Ade"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Pachinko",
@@ -6995,7 +6995,7 @@ const artCultureChapter10 = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Ms. Marvel",
@@ -7015,7 +7015,7 @@ const artCultureChapter10 = {
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Avatar",
@@ -7025,7 +7025,7 @@ const artCultureChapter10 = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Severance",
@@ -7035,7 +7035,7 @@ const artCultureChapter10 = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Lightyear",
@@ -7055,7 +7055,7 @@ const artCultureChapter10 = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Thor: Love and Thunder",
@@ -7065,7 +7065,7 @@ const artCultureChapter10 = {
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "House of the Dragon",
@@ -7075,7 +7075,7 @@ const artCultureChapter10 = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Strange World",
@@ -7085,7 +7085,7 @@ const artCultureChapter10 = {
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             }
         ],
         medium: [
@@ -7107,7 +7107,7 @@ const artCultureChapter10 = {
                     "Sandwich shop",
                     "Fine dining"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Top Gun: Maverick",
@@ -7170,7 +7170,7 @@ const artCultureChapter10 = {
                     "Benoit Blanc",
                     "Hercule Poirot"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "1899",
@@ -7180,7 +7180,7 @@ const artCultureChapter10 = {
                     "1890s",
                     "1900s"
                 ],
-                correct: 2
+                correct: 0
             }
         ],
         hard: [
@@ -7204,7 +7204,7 @@ const artCultureChapter10 = {
                     "Martin Scorsese",
                     "Francis Ford Coppola"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Triangle of Sadness",
@@ -7248,7 +7248,7 @@ const artCultureChapter10 = {
                     "Training facility",
                     "Headquarters"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "RRR",
@@ -7270,7 +7270,7 @@ const artCultureChapter10 = {
                     "Ari Aster",
                     "David Lowery"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "After Yang",
@@ -7281,7 +7281,7 @@ const artCultureChapter10 = {
                     "Alien",
                     "Clone"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Nope",
@@ -7330,7 +7330,7 @@ const artCultureChapter10 = {
                     "Lee Chang-dong",
                     "Hong Sang-soo"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "The Patient",
@@ -7342,7 +7342,7 @@ const artCultureChapter10 = {
                     "Bob Odenkirk",
                     "Michael C. Hall"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Saint Omer",
@@ -7354,7 +7354,7 @@ const artCultureChapter10 = {
                     "Mia Hansen-Løve",
                     "Céline Sciamma"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Argentina, 1985",
@@ -7366,7 +7366,7 @@ const artCultureChapter10 = {
                     "Military coup",
                     "Human rights"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Blonde",
@@ -7378,7 +7378,7 @@ const artCultureChapter10 = {
                     "Paul Thomas Anderson",
                     "James Gray"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "The Menu",
@@ -7402,7 +7402,7 @@ const artCultureChapter10 = {
                     "1940s Hollywood",
                     "Silent film era"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "The English",
@@ -7414,7 +7414,7 @@ const artCultureChapter10 = {
                     "Carey Mulligan",
                     "Saoirse Ronan"
                 ],
-                correct: 2
+                correct: 0
             }
         ],
         extreme: [
@@ -7516,7 +7516,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Blade Runner",
@@ -7526,7 +7526,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "The Last of Us",
@@ -7566,7 +7566,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "The Crowded Room",
@@ -7586,7 +7586,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             }
         ],
         medium: [
@@ -7681,7 +7681,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "Authoritarian",
                     "Democracy"
                 ],
-                correct: 3
+                correct: 1
             }
         ],
         hard: [
@@ -7694,7 +7694,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "Belgium",
                     "Switzerland"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "The Zone of Interest",
@@ -7793,7 +7793,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "2010",
                     "2020"
                 ],
-                correct: 2
+                correct: 0
             }
         ],
         expert: [
@@ -7831,7 +7831,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "Ruben Östlund",
                     "Joachim Trier"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "The Boy and the Heron",
@@ -7843,7 +7843,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "Mamoru Hosoda",
                     "Satoshi Kon"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Monster",
@@ -7855,7 +7855,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "Naomi Kawase",
                     "Takeshi Kitano"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "The Teachers' Lounge",
@@ -7891,7 +7891,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "Chile",
                     "Uruguay"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "The Sweet East",
@@ -8002,7 +8002,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "E.T.",
@@ -8012,7 +8012,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Shogun",
@@ -8042,7 +8042,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Deadpool & Wolverine",
@@ -8052,7 +8052,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "The Penguin",
@@ -8084,7 +8084,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "Muad'Dib",
                     "Usul"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Baby Reindeer",
@@ -8094,7 +8094,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "Netflix",
                     "HBO"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "The Substance",
@@ -8124,7 +8124,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "Alex Garland",
                     "Denis Villeneuve"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "3 Body Problem",
@@ -8134,7 +8134,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "Game of Thrones creators",
                     "Westworld creators"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "The Brutalist",
@@ -8154,7 +8154,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "Sean Baker",
                     "Barry Jenkins"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Wicked",
@@ -8174,7 +8174,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "Island",
                     "Planet"
                 ],
-                correct: 2
+                correct: 0
             }
         ],
         hard: [
@@ -8187,7 +8187,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "Oscar Isaac",
                     "Adam Driver"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Conclave",
@@ -8264,7 +8264,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "Drama",
                     "Thriller"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "I Saw the TV Glow",
@@ -8275,7 +8275,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "Ari Aster",
                     "Robert Eggers"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Love Lies Bleeding",
@@ -8286,7 +8286,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "Julia Ducournau",
                     "Coralie Fargeat"
                 ],
-                correct: 3
+                correct: 1
             }
         ],
         expert: [
@@ -8312,7 +8312,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "Jafar Panahi",
                     "Abbas Kiarostami"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Dying",
@@ -8324,7 +8324,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "Maren Ade",
                     "Michael Haneke"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Grand Tour",
@@ -8348,7 +8348,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "Naomi Kawase",
                     "Nobuhiro Suwa"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Flow",
@@ -8384,7 +8384,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "Jerzy Skolimowski",
                     "Małgorzata Szumowska"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "The Beast",
@@ -8479,7 +8479,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Columbo",
@@ -8489,7 +8489,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Jaws",
@@ -8499,7 +8499,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Bridgerton",
@@ -8519,7 +8519,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Invincible",
@@ -8601,7 +8601,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "Luke Skywalker",
                     "Yoda"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Minari",
@@ -8611,7 +8611,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "South Korea",
                     "Japan"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Mare of Easttown",
@@ -8621,7 +8621,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "Murder",
                     "Robbery"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Promising Young Woman",
@@ -8641,7 +8641,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "Italian Riviera",
                     "Sicily"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "The Father",
@@ -8661,7 +8661,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "League of Legends",
                     "Overwatch"
                 ],
-                correct: 2
+                correct: 0
             }
         ],
         hard: [
@@ -8685,7 +8685,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "Barry Jenkins",
                     "Ava DuVernay"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Judas and the Black Messiah",
@@ -8707,7 +8707,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "Drug trafficking",
                     "Murder"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "The Trial of the Chicago 7",
@@ -8754,7 +8754,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "1960s",
                     "1980s"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Demon Slayer: Mugen Train",
@@ -8783,7 +8783,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "Jane Campion",
                     "Chloé Zhao"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Another Round",
@@ -8795,7 +8795,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "Meditation",
                     "Exercise regime"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "The Dig",
@@ -8807,7 +8807,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "Pompeii dig",
                     "Rosetta Stone finding"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "The Mauritanian",
@@ -8819,7 +8819,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "Cate Blanchett",
                     "Frances McDormand"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Quo Vadis, Aida?",
@@ -8843,7 +8843,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "Qawwali",
                     "Carnatic"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Preparations to Be Together",
@@ -8855,7 +8855,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "Park Chan-wook",
                     "Bong Joon-ho"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Malmkrog",
@@ -8962,7 +8962,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Hill Street Blues",
@@ -8982,7 +8982,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Squid Game",
@@ -8992,7 +8992,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "The Mitchells vs. the Machines",
@@ -9022,7 +9022,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Ted Lasso",
@@ -9032,7 +9032,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Encanto",
@@ -9094,7 +9094,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "James Gunn",
                     "David Ayer"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Tick, Tick... Boom!",
@@ -9104,7 +9104,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "Lin-Manuel Miranda",
                     "Damien Chazelle"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "The Power of the Dog",
@@ -9117,7 +9117,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "Purdue Pharma",
                     "Johnson & Johnson"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "West Side Story",
@@ -9137,7 +9137,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "Mike Flanagan",
                     "Ryan Murphy"
                 ],
-                correct: 3
+                correct: 1
             }
         ],
         hard: [
@@ -9161,7 +9161,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "Timothée Chalamet",
                     "Oscar Isaac"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Titane",
@@ -9194,7 +9194,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "Missing person",
                     "Recipe"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Spencer",
@@ -9205,7 +9205,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "Summer 1997",
                     "Christmas 1995"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Nightmare Alley",
@@ -9227,7 +9227,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "Professional gambler",
                     "Casino security"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Licorice Pizza",
@@ -9241,7 +9241,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "Paul Thomas Anderson",
                     "Harmony Korine"
                 ],
-                correct: 2
+                correct: 0
             }
         ],
         expert: [
@@ -9255,7 +9255,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "4",
                     "5"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Bergman Island",
@@ -9282,7 +9282,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "60 minutes",
                     "105 minutes"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Memoria",
@@ -9294,7 +9294,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "Hou Hsiao-hsien",
                     "Wong Kar-wai"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "The Worst Person in the World",
@@ -9309,7 +9309,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "Abbas Kiarostami",
                     "Mohammad Rasoulof"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Parallel Mothers",
@@ -9321,7 +9321,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "Alejandro Amenábar",
                     "Pablo Larraín"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Introduction",
@@ -9333,7 +9333,7 @@ console.log(JSON.stringify(chapters14And15, null, 2));
                     "Park Chan-wook",
                     "Bong Joon-ho"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "The Tsugua Diaries",
@@ -9444,7 +9444,7 @@ const chapter20 = {
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Back to the Future",
@@ -9464,7 +9464,7 @@ const chapter20 = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Frozen 2",
@@ -9474,7 +9474,7 @@ const chapter20 = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Moon Knight",
@@ -9484,7 +9484,7 @@ const chapter20 = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Shang-Chi",
@@ -9514,7 +9514,7 @@ const chapter20 = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             }
         ],
         medium: [
@@ -9526,7 +9526,7 @@ const chapter20 = {
                     "Denis Villeneuve",
                     "Christopher Nolan"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Arcane",
@@ -9556,7 +9556,7 @@ const chapter20 = {
                     "Denzel Washington",
                     "Michael Fassbender"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Turning Red",
@@ -9576,7 +9576,7 @@ const chapter20 = {
                     "George Clooney",
                     "Ben Affleck"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Last Night in Soho",
@@ -9606,7 +9606,7 @@ const chapter20 = {
                     "Kenneth Branagh",
                     "Martin McDonagh"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Being the Ricardos",
@@ -9616,7 +9616,7 @@ const chapter20 = {
                     "Nicole Kidman",
                     "Cate Blanchett"
                 ],
-                correct: 3
+                correct: 1
             }
         ],
         hard: [
@@ -9665,7 +9665,7 @@ const chapter20 = {
                     "Matteo Garrone",
                     "Luca Guadagnino"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Passing",
@@ -9698,7 +9698,7 @@ const chapter20 = {
                     "Singer",
                     "Dancer"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Annette",
@@ -9709,7 +9709,7 @@ const chapter20 = {
                     "CGI",
                     "Twin actors"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "The Tragedy of Macbeth",
@@ -9720,7 +9720,7 @@ const chapter20 = {
                     "Color",
                     "Sepia"
                 ],
-                correct: 3
+                correct: 1
             }
         ],
         expert: [
@@ -9737,7 +9737,7 @@ const chapter20 = {
                     "1960s",
                     "1990s"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "The Souvenir Part II",
@@ -9776,7 +9776,7 @@ const chapter20 = {
                     "St. Petersburg",
                     "Helsinki"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Benediction",

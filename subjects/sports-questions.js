@@ -19,7 +19,7 @@ const sportsQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Players",
@@ -29,7 +29,7 @@ const sportsQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Scoring",
@@ -39,7 +39,7 @@ const sportsQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Rules",
@@ -49,7 +49,7 @@ const sportsQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Equipment",
@@ -69,7 +69,7 @@ const sportsQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Officials",
@@ -89,7 +89,7 @@ const sportsQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Tournament",
@@ -99,7 +99,7 @@ const sportsQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Positions",
@@ -109,7 +109,7 @@ const sportsQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             }
         ],
         medium: [
@@ -161,7 +161,7 @@ const sportsQuestions = {
                     "Sent off immediately",
                     "Final warning only"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Corner Kick",
@@ -171,7 +171,7 @@ const sportsQuestions = {
                     "Any time",
                     "Ball crosses goal line off defending team"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Free Kick",
@@ -191,7 +191,7 @@ const sportsQuestions = {
                     "Not necessary",
                     "Yes, required"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Extra Time",
@@ -211,7 +211,7 @@ const sportsQuestions = {
                     "Half is enough",
                     "Yes, completely"
                 ],
-                correct: 3
+                correct: 1
             }
         ],
         hard: [
@@ -257,7 +257,7 @@ const sportsQuestions = {
                     "Never allowed",
                     "Yes, it's allowed"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Back Pass",
@@ -290,7 +290,7 @@ const sportsQuestions = {
                     "Behind halfway line",
                     "Anywhere on field"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Indirect Free Kick",
@@ -301,7 +301,7 @@ const sportsQuestions = {
                     "Only from outside box",
                     "No, must touch another player first"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Penalty Shootout",
@@ -312,7 +312,7 @@ const sportsQuestions = {
                     "3 each team",
                     "7 each team"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Injury Time",
@@ -349,7 +349,7 @@ const sportsQuestions = {
                     "0.3-0.5 bar",
                     "2.0-3.0 bar"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Offside Timing",
@@ -361,7 +361,7 @@ const sportsQuestions = {
                     "When ball is played by teammate",
                     "When player enters opponent's half"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Substitution Rules",
@@ -397,7 +397,7 @@ const sportsQuestions = {
                     "11 laws",
                     "25 laws"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Yellow Cards",
@@ -433,7 +433,7 @@ const sportsQuestions = {
                     "12 meters",
                     "25 meters"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Assistant Referees",
@@ -521,7 +521,7 @@ const sportsQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Teams",
@@ -531,7 +531,7 @@ const sportsQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Scoring",
@@ -541,7 +541,7 @@ const sportsQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Dribbling",
@@ -561,7 +561,7 @@ const sportsQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Free Throws",
@@ -581,7 +581,7 @@ const sportsQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Quarters",
@@ -601,7 +601,7 @@ const sportsQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Ball Handling",
@@ -623,7 +623,7 @@ const sportsQuestions = {
                     "30 seconds",
                     "24 seconds"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Traveling",
@@ -643,7 +643,7 @@ const sportsQuestions = {
                     "5 fouls",
                     "6 fouls"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Three-Point Line",
@@ -683,7 +683,7 @@ const sportsQuestions = {
                     "Staying in backcourt too long",
                     "Ball returned to backcourt after crossing"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Assist",
@@ -693,7 +693,7 @@ const sportsQuestions = {
                     "Pass leading to made basket",
                     "Helping player up"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Rebound",
@@ -713,7 +713,7 @@ const sportsQuestions = {
                     "Unsportsmanlike conduct",
                     "Missing shots"
                 ],
-                correct: 3
+                correct: 1
             }
         ],
         hard: [
@@ -726,7 +726,7 @@ const sportsQuestions = {
                     "3 seconds",
                     "10 seconds"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Goaltending",
@@ -748,7 +748,7 @@ const sportsQuestions = {
                     "Excessive or violent contact",
                     "Arguing with referee"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "And-One",
@@ -803,7 +803,7 @@ const sportsQuestions = {
                     "Only in Europe",
                     "Yes, within two-step rule"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Clear Path Foul",
@@ -814,7 +814,7 @@ const sportsQuestions = {
                     "Fouling on open court",
                     "Any foul in transition"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Shot Clock Reset",
@@ -825,7 +825,7 @@ const sportsQuestions = {
                     "Always full reset",
                     "Offensive rebound in NBA"
                 ],
-                correct: 3
+                correct: 1
             }
         ],
         "expert": [
@@ -851,7 +851,7 @@ const sportsQuestions = {
                     "23.75 feet (7.24m) at top",
                     "20 feet"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Game Duration",
@@ -875,7 +875,7 @@ const sportsQuestions = {
                     "5 feet",
                     "3 feet"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Ball Specifications",
@@ -887,7 +887,7 @@ const sportsQuestions = {
                     "27 inches",
                     "35 inches"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Timeout Rules",
@@ -899,7 +899,7 @@ const sportsQuestions = {
                     "10 timeouts",
                     "3 timeouts"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Five-Second Rule",
@@ -923,7 +923,7 @@ const sportsQuestions = {
                     "Double digits in two statistical categories",
                     "Playing two positions"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Key Dimensions",
@@ -947,7 +947,7 @@ const sportsQuestions = {
                     "Intentionally fouling poor free throw shooter",
                     "Full court press"
                 ],
-                correct: 2
+                correct: 0
             }
         ],
         "extreme": [
@@ -1033,7 +1033,7 @@ const sportsQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Field",
@@ -1053,7 +1053,7 @@ const sportsQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Scoring",
@@ -1073,7 +1073,7 @@ const sportsQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Dismissals",
@@ -1083,7 +1083,7 @@ const sportsQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Equipment",
@@ -1093,7 +1093,7 @@ const sportsQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Bowling",
@@ -1135,7 +1135,7 @@ const sportsQuestions = {
                     "Running six times",
                     "Ball crosses boundary without bouncing"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "LBW",
@@ -1175,7 +1175,7 @@ const sportsQuestions = {
                     "Stands behind stumps to catch ball",
                     "Keeps score"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Caught Out",
@@ -1195,7 +1195,7 @@ const sportsQuestions = {
                     "Nothing happens",
                     "Extra run awarded, must be re-bowled"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Duck",
@@ -1205,7 +1205,7 @@ const sportsQuestions = {
                     "Batsman out without scoring",
                     "Type of shot"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Maiden Over",
@@ -1215,7 +1215,7 @@ const sportsQuestions = {
                     "Over with no runs scored",
                     "First over of match"
                 ],
-                correct: 2
+                correct: 0
             }
         ],
         hard: [
@@ -1261,7 +1261,7 @@ const sportsQuestions = {
                     "100 balls bowled",
                     "100 matches played"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Yorker",
@@ -1294,7 +1294,7 @@ const sportsQuestions = {
                     "Field restrictions period",
                     "Extra runs"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Googly",
@@ -1305,7 +1305,7 @@ const sportsQuestions = {
                     "Spin delivery that turns opposite direction",
                     "Straight ball"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Free Hit",
@@ -1341,7 +1341,7 @@ const sportsQuestions = {
                     "25 yards",
                     "18 yards"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Test Match Duration",
@@ -1389,7 +1389,7 @@ const sportsQuestions = {
                     "100 grams",
                     "250 grams"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "ODI Overs",
@@ -1401,7 +1401,7 @@ const sportsQuestions = {
                     "50 overs per side",
                     "45 overs"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Fielding Positions",
@@ -1425,7 +1425,7 @@ const sportsQuestions = {
                     "Rain-affected match calculation",
                     "Scoring system"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Stumps Height",
@@ -1437,7 +1437,7 @@ const sportsQuestions = {
                     "25 inches",
                     "32 inches"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Super Over",
@@ -1449,7 +1449,7 @@ const sportsQuestions = {
                     "Tie-breaker in limited overs",
                     "Never"
                 ],
-                correct: 2
+                correct: 0
             }
         ],
         "extreme": [
@@ -1585,7 +1585,7 @@ const sportsQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Grand Slams",
@@ -1605,7 +1605,7 @@ const sportsQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Sets",
@@ -1615,7 +1615,7 @@ const sportsQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             }
         ],
         medium: [
@@ -1637,7 +1637,7 @@ const sportsQuestions = {
                     "First point",
                     "Score tied at 40-40"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Ace",
@@ -1657,7 +1657,7 @@ const sportsQuestions = {
                     "Lose the point",
                     "Serve is replayed"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Tiebreak",
@@ -1687,7 +1687,7 @@ const sportsQuestions = {
                     "Point after deuce",
                     "Starting score"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Break Point",
@@ -1697,7 +1697,7 @@ const sportsQuestions = {
                     "Rest period",
                     "Opportunity to win server's game"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Volley",
@@ -1752,7 +1752,7 @@ const sportsQuestions = {
                     "Wimbledon",
                     "US Open"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Golden Set",
@@ -1774,7 +1774,7 @@ const sportsQuestions = {
                     "Soft shot that barely clears net",
                     "Powerful smash"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Foot Fault",
@@ -1785,7 +1785,7 @@ const sportsQuestions = {
                     "Wrong shoes",
                     "Tripping"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Match Point",
@@ -1818,7 +1818,7 @@ const sportsQuestions = {
                     "No tiebreak (before 2019 rule change)",
                     "Double points"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "ATP and WTA",
@@ -1843,7 +1843,7 @@ const sportsQuestions = {
                     "70 feet",
                     "85 feet"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Service Speed",
@@ -1855,7 +1855,7 @@ const sportsQuestions = {
                     "150 mph",
                     "180 mph"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Games to Win Set",
@@ -1879,7 +1879,7 @@ const sportsQuestions = {
                     "3 feet (0.914 meters)",
                     "3 feet 6 inches"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Best of Five",
@@ -1891,7 +1891,7 @@ const sportsQuestions = {
                     "Men's Grand Slams",
                     "Women's Grand Slams"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Ball Changes",
@@ -2027,7 +2027,7 @@ const sportsQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Pool",
@@ -2037,7 +2037,7 @@ const sportsQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Strokes",
@@ -2047,7 +2047,7 @@ const sportsQuestions = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Equipment",
@@ -2057,7 +2057,7 @@ const sportsQuestions = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Races",
@@ -2169,7 +2169,7 @@ const sportsQuestions = {
                     "Swimmer is disqualified",
                     "Nothing happens"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Relay",
@@ -2199,7 +2199,7 @@ const sportsQuestions = {
                     "Spinning jump",
                     "Underwater somersault at wall"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Breaststroke",
@@ -2243,7 +2243,7 @@ const sportsQuestions = {
                     "Arms at sides",
                     "Any position"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Breathing Technique",
@@ -2254,7 +2254,7 @@ const sportsQuestions = {
                     "Turning head to side during stroke",
                     "Lifting head forward"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Open Turn",
@@ -2309,7 +2309,7 @@ const sportsQuestions = {
                     "Never allowed",
                     "All strokes anytime"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Taper",
@@ -2320,7 +2320,7 @@ const sportsQuestions = {
                     "Increasing training",
                     "Changing strokes"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Shaving",
@@ -2345,7 +2345,7 @@ const sportsQuestions = {
                     "100 meters",
                     "75 meters"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Pool Depth",
@@ -2405,7 +2405,7 @@ const sportsQuestions = {
                     "Freestyle (front crawl)",
                     "Backstroke"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "SCM vs LCM",
@@ -2575,7 +2575,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Scoring",
@@ -2595,7 +2595,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Tee",
@@ -2605,7 +2605,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Greens",
@@ -2625,7 +2625,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Tournaments",
@@ -2645,7 +2645,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Caddie",
@@ -2655,7 +2655,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             }
         ],
         medium: [
@@ -2677,7 +2677,7 @@ const sportsQuestionsExtended = {
                     "Hole in one",
                     "One stroke over par"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Driver",
@@ -2687,7 +2687,7 @@ const sportsQuestionsExtended = {
                     "Long distance tee shots",
                     "Short putts"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Fairway",
@@ -2697,7 +2697,7 @@ const sportsQuestionsExtended = {
                     "Rough grass area",
                     "Short grass between tee and green"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Bunker",
@@ -2717,7 +2717,7 @@ const sportsQuestionsExtended = {
                     "Par score",
                     "Two strokes under par"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Handicap",
@@ -2727,7 +2727,7 @@ const sportsQuestionsExtended = {
                     "Player's skill level adjustment",
                     "Number of clubs"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Mulligan",
@@ -2747,7 +2747,7 @@ const sportsQuestionsExtended = {
                     "Medium distance shots",
                     "Putting only"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Slice",
@@ -2757,7 +2757,7 @@ const sportsQuestionsExtended = {
                     "Perfect shot",
                     "Ball curves right (for right-hander)"
                 ],
-                correct: 3
+                correct: 1
             }
         ],
         hard: [
@@ -2781,7 +2781,7 @@ const sportsQuestionsExtended = {
                     "Seaside course with sandy soil",
                     "Forest course"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Stableford",
@@ -2858,7 +2858,7 @@ const sportsQuestionsExtended = {
                     "Perfect shot",
                     "Long drive"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Gimme",
@@ -2895,7 +2895,7 @@ const sportsQuestionsExtended = {
                     "14 clubs",
                     "Unlimited"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Cup Size",
@@ -2907,7 +2907,7 @@ const sportsQuestionsExtended = {
                     "3 inches",
                     "5 inches"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Par 72",
@@ -2931,7 +2931,7 @@ const sportsQuestionsExtended = {
                     "4 majors annually",
                     "10 majors"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Swing Speed",
@@ -2943,7 +2943,7 @@ const sportsQuestionsExtended = {
                     "150 mph",
                     "90 mph"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Green Speed",
@@ -2955,7 +2955,7 @@ const sportsQuestionsExtended = {
                     "Stimpmeter (feet ball rolls)",
                     "Timer"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Course Rating",
@@ -2967,7 +2967,7 @@ const sportsQuestionsExtended = {
                     "Number of holes",
                     "Green fees"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Ball Speed",
@@ -2979,7 +2979,7 @@ const sportsQuestionsExtended = {
                     "200 mph",
                     "50 mph"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Ryder Cup",
@@ -3077,7 +3077,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Scoring",
@@ -3087,7 +3087,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Players",
@@ -3107,7 +3107,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Tackling",
@@ -3117,7 +3117,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Scrum",
@@ -3157,7 +3157,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             }
         ],
         medium: [
@@ -3169,7 +3169,7 @@ const sportsQuestionsExtended = {
                     "5 points",
                     "3 points"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Conversion",
@@ -3179,7 +3179,7 @@ const sportsQuestionsExtended = {
                     "Tackle technique",
                     "Kick after try for extra points"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Lineout",
@@ -3199,7 +3199,7 @@ const sportsQuestionsExtended = {
                     "Score",
                     "Contest for ball on ground"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Penalty Kick",
@@ -3272,7 +3272,7 @@ const sportsQuestionsExtended = {
                     "Anywhere",
                     "10 meters back"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Forward Pass",
@@ -3283,7 +3283,7 @@ const sportsQuestionsExtended = {
                     "Scrum to other team",
                     "Penalty kick"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Collapse Maul",
@@ -3327,7 +3327,7 @@ const sportsQuestionsExtended = {
                     "Extra points",
                     "Time bonus"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Up and Under",
@@ -3338,7 +3338,7 @@ const sportsQuestionsExtended = {
                     "High kick for chasers to contest",
                     "Backwards kick"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Dummy Pass",
@@ -3360,7 +3360,7 @@ const sportsQuestionsExtended = {
                     "Lineout call",
                     "Try celebration"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Grubber Kick",
@@ -3397,7 +3397,7 @@ const sportsQuestionsExtended = {
                     "8 players per team (3-4-1 formation)",
                     "15 players"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "TMO",
@@ -3409,7 +3409,7 @@ const sportsQuestionsExtended = {
                     "Time Management Official",
                     "Tactical Match Observer"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Six Nations",
@@ -3421,7 +3421,7 @@ const sportsQuestionsExtended = {
                     "6 teams (England, France, Ireland, Italy, Scotland, Wales)",
                     "10 teams"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Ball Dimensions",
@@ -3433,7 +3433,7 @@ const sportsQuestionsExtended = {
                     "20 cm",
                     "50 cm"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Props Position",
@@ -3445,7 +3445,7 @@ const sportsQuestionsExtended = {
                     "Kick goals",
                     "Pass only"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Bonus Points",
@@ -3457,7 +3457,7 @@ const sportsQuestionsExtended = {
                     "No tries conceded",
                     "First score"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Flanker",
@@ -3469,7 +3469,7 @@ const sportsQuestionsExtended = {
                     "6 and 7 (back row)",
                     "11 and 14"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Garryowen",
@@ -3481,7 +3481,7 @@ const sportsQuestionsExtended = {
                     "Tackle type",
                     "Formation"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Rugby League",
@@ -3580,7 +3580,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Scoring",
@@ -3590,7 +3590,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Serve",
@@ -3610,7 +3610,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Beach Volleyball",
@@ -3620,7 +3620,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Touches",
@@ -3630,7 +3630,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Olympics",
@@ -3650,7 +3650,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             }
         ],
         medium: [
@@ -3662,7 +3662,7 @@ const sportsQuestionsExtended = {
                     "3 touches maximum",
                     "Unlimited"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Spike",
@@ -3702,7 +3702,7 @@ const sportsQuestionsExtended = {
                     "Defensive save of hard-driven ball",
                     "Serve technique"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Libero",
@@ -3712,7 +3712,7 @@ const sportsQuestionsExtended = {
                     "Coach",
                     "Specialized defensive player"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Ace",
@@ -3732,7 +3732,7 @@ const sportsQuestionsExtended = {
                     "Only serving team scores",
                     "Point scored on every rally"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Match Format",
@@ -3742,7 +3742,7 @@ const sportsQuestionsExtended = {
                     "Best of 5 sets typically",
                     "1 set only"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Back Row Attack",
@@ -3752,7 +3752,7 @@ const sportsQuestionsExtended = {
                     "Never",
                     "Yes, from behind 3-meter line"
                 ],
-                correct: 2
+                correct: 0
             }
         ],
         hard: [
@@ -3776,7 +3776,7 @@ const sportsQuestionsExtended = {
                     "15 points (win by 2)",
                     "10 points"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Double Contact",
@@ -3787,7 +3787,7 @@ const sportsQuestionsExtended = {
                     "Always illegal",
                     "Always legal"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Overhand Receive",
@@ -3798,7 +3798,7 @@ const sportsQuestionsExtended = {
                     "Never allowed",
                     "Only libero"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Foot Fault",
@@ -3809,7 +3809,7 @@ const sportsQuestionsExtended = {
                     "Wrong position",
                     "No such thing"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Antenna",
@@ -3820,7 +3820,7 @@ const sportsQuestionsExtended = {
                     "Decoration",
                     "Scoreboards"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Quick Set",
@@ -3870,7 +3870,7 @@ const sportsQuestionsExtended = {
                     "2 meters",
                     "2.24 meters"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Net Height Women",
@@ -3882,7 +3882,7 @@ const sportsQuestionsExtended = {
                     "2.24 meters (7'4.125\")",
                     "2.50 meters"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Court Dimensions",
@@ -3906,7 +3906,7 @@ const sportsQuestionsExtended = {
                     "3 meters (10 feet)",
                     "6 meters"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Beach Players",
@@ -3954,7 +3954,7 @@ const sportsQuestionsExtended = {
                     "80-120 km/h for elite",
                     "200 km/h"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Libero Restrictions",
@@ -3966,7 +3966,7 @@ const sportsQuestionsExtended = {
                     "Dig",
                     "Rotate"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "FIVB",
@@ -4054,7 +4054,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Diamond",
@@ -4074,7 +4074,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Strikes",
@@ -4084,7 +4084,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Home Run",
@@ -4094,7 +4094,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Pitcher",
@@ -4134,7 +4134,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Teams",
@@ -4176,7 +4176,7 @@ const sportsQuestionsExtended = {
                     "Area over home plate, knees to chest",
                     "Entire field"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Walk",
@@ -4216,7 +4216,7 @@ const sportsQuestionsExtended = {
                     "Soft tap hit",
                     "Home run"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Foul Ball",
@@ -4226,7 +4226,7 @@ const sportsQuestionsExtended = {
                     "Fair hit",
                     "Ball hit outside foul lines"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "RBI",
@@ -4259,7 +4259,7 @@ const sportsQuestionsExtended = {
                     "Strike",
                     "Home run"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Infield Fly Rule",
@@ -4270,7 +4270,7 @@ const sportsQuestionsExtended = {
                     "Any fly ball",
                     "Never applies"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Designated Hitter",
@@ -4314,7 +4314,7 @@ const sportsQuestionsExtended = {
                     "Catching fly ball",
                     "Stealing base"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Passed Ball",
@@ -4336,7 +4336,7 @@ const sportsQuestionsExtended = {
                     "Home run",
                     "Strike out"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Hidden Ball Trick",
@@ -4347,7 +4347,7 @@ const sportsQuestionsExtended = {
                     "Fielder fakes not having ball, tags runner",
                     "Pitching style"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Force Out",
@@ -4372,7 +4372,7 @@ const sportsQuestionsExtended = {
                     "70 feet",
                     "45 feet"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Base Distance",
@@ -4384,7 +4384,7 @@ const sportsQuestionsExtended = {
                     "90 feet (27.43m)",
                     "70 feet"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Fastball Speed",
@@ -4432,7 +4432,7 @@ const sportsQuestionsExtended = {
                     "Three games",
                     "Three innings"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "ERA",
@@ -4480,7 +4480,7 @@ const sportsQuestionsExtended = {
                     "3 home runs",
                     "Perfect defense"
                 ],
-                correct: 2
+                correct: 0
             }
         ],
         "extreme": [
@@ -4576,7 +4576,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Players",
@@ -4586,7 +4586,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Skating",
@@ -4606,7 +4606,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Goalie",
@@ -4626,7 +4626,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Stanley Cup",
@@ -4636,7 +4636,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Helmet",
@@ -4658,7 +4658,7 @@ const sportsQuestionsExtended = {
                     "3 periods of 20 minutes",
                     "4 quarters"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Power Play",
@@ -4678,7 +4678,7 @@ const sportsQuestionsExtended = {
                     "Three goals by one player in a game",
                     "Three assists"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Icing",
@@ -4718,7 +4718,7 @@ const sportsQuestionsExtended = {
                     "Scoring when goalie pulled",
                     "Missing the net"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Assist",
@@ -4731,7 +4731,7 @@ const sportsQuestionsExtended = {
                     "Player alone against goalie",
                     "Breaking stick"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Zamboni",
@@ -4741,7 +4741,7 @@ const sportsQuestionsExtended = {
                     "Scores goals",
                     "Resurfaces ice between periods"
                 ],
-                correct: 2
+                correct: 0
             }
         ],
         hard: [
@@ -4754,7 +4754,7 @@ const sportsQuestionsExtended = {
                     "Passing twice",
                     "Still in effect"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Penalty Shot",
@@ -4765,7 +4765,7 @@ const sportsQuestionsExtended = {
                     "Breakaway denied by foul",
                     "After hat trick"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Five-on-Three",
@@ -4798,7 +4798,7 @@ const sportsQuestionsExtended = {
                     "Late penalty",
                     "No penalty"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Slap Shot",
@@ -4809,7 +4809,7 @@ const sportsQuestionsExtended = {
                     "Powerful shot with wind-up",
                     "Passing technique"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Trap Defense",
@@ -4879,7 +4879,7 @@ const sportsQuestionsExtended = {
                     "4 feet x 3 feet",
                     "10 feet x 8 feet"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Puck Specifications",
@@ -4927,7 +4927,7 @@ const sportsQuestionsExtended = {
                     "Playoff MVP",
                     "Best goalie"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Trapezoid",
@@ -4939,7 +4939,7 @@ const sportsQuestionsExtended = {
                     "Penalty box",
                     "Offensive zone"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Original Six",
@@ -4951,7 +4951,7 @@ const sportsQuestionsExtended = {
                     "6 teams (Bruins, Blackhawks, Red Wings, Canadiens, Rangers, Maple Leafs)",
                     "8 teams"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Art Ross Trophy",
@@ -4963,7 +4963,7 @@ const sportsQuestionsExtended = {
                     "Best goalie",
                     "Rookie of year"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Shootout Format",
@@ -5061,7 +5061,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Gloves",
@@ -5081,7 +5081,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Knockout",
@@ -5091,7 +5091,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Referee",
@@ -5111,7 +5111,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Bell",
@@ -5121,7 +5121,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Punching",
@@ -5131,7 +5131,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Corner",
@@ -5141,7 +5141,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             }
         ],
         medium: [
@@ -5163,7 +5163,7 @@ const sportsQuestionsExtended = {
                     "Total Knockout",
                     "Technical Knockout (referee stops fight)"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Jab",
@@ -5193,7 +5193,7 @@ const sportsQuestionsExtended = {
                     "Referee counts to assess hurt fighter",
                     "Counting punches"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Split Decision",
@@ -5213,7 +5213,7 @@ const sportsQuestionsExtended = {
                     "Boxers holding each other",
                     "Winning punch"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Low Blow",
@@ -5260,7 +5260,7 @@ const sportsQuestionsExtended = {
                     "Rest period",
                     "Training exercise"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Undisputed Champion",
@@ -5271,7 +5271,7 @@ const sportsQuestionsExtended = {
                     "Holds all major organization belts",
                     "Regional champion"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Peek-a-Boo Style",
@@ -5282,7 +5282,7 @@ const sportsQuestionsExtended = {
                     "Aggressive rushing",
                     "Circling opponent"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Body Shot",
@@ -5304,7 +5304,7 @@ const sportsQuestionsExtended = {
                     "Training fight",
                     "Exhibition match"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Rope-a-Dope",
@@ -5362,7 +5362,7 @@ const sportsQuestionsExtended = {
                     "10 feet square",
                     "25 feet square"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Glove Weight",
@@ -5386,7 +5386,7 @@ const sportsQuestionsExtended = {
                     "3 minutes",
                     "10 minutes"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Scoring System",
@@ -5410,7 +5410,7 @@ const sportsQuestionsExtended = {
                     "Over 200 lbs (no upper limit)",
                     "180 lbs"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Lineal Champion",
@@ -5446,7 +5446,7 @@ const sportsQuestionsExtended = {
                     "1,000+ pounds of force",
                     "50 pounds"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Four Major Organizations",
@@ -5458,7 +5458,7 @@ const sportsQuestionsExtended = {
                     "Only one organization",
                     "Ten organizations"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Ring Card Girls",
@@ -5546,7 +5546,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Running",
@@ -5576,7 +5576,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Starting Blocks",
@@ -5586,7 +5586,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Lanes",
@@ -5596,7 +5596,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Olympics",
@@ -5606,7 +5606,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Hurdles",
@@ -5616,7 +5616,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Photo Finish",
@@ -5636,7 +5636,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             }
         ],
         medium: [
@@ -5678,7 +5678,7 @@ const sportsQuestionsExtended = {
                     "Trophy",
                     "Baton"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Shot Put",
@@ -5688,7 +5688,7 @@ const sportsQuestionsExtended = {
                     "Throwing heavy metal ball",
                     "Running event"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Long Jump",
@@ -5698,7 +5698,7 @@ const sportsQuestionsExtended = {
                     "Time",
                     "Distance from takeoff to landing"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "False Start",
@@ -5718,7 +5718,7 @@ const sportsQuestionsExtended = {
                     "Ladder",
                     "Flexible pole to clear bar"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Javelin",
@@ -5728,7 +5728,7 @@ const sportsQuestionsExtended = {
                     "Spear-like throwing event",
                     "Running style"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Steeplechase",
@@ -5773,7 +5773,7 @@ const sportsQuestionsExtended = {
                     "No limit",
                     "Any wind"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Triple Jump",
@@ -5784,7 +5784,7 @@ const sportsQuestionsExtended = {
                     "Hop, step, and jump",
                     "Running only"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Fosbury Flop",
@@ -5795,7 +5795,7 @@ const sportsQuestionsExtended = {
                     "Running style",
                     "Throwing method"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Hammer Throw",
@@ -5817,7 +5817,7 @@ const sportsQuestionsExtended = {
                     "Random placement",
                     "Faster runners start back"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Exchange Zone",
@@ -5839,7 +5839,7 @@ const sportsQuestionsExtended = {
                     "Straight throw",
                     "Underhand toss"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Pace Maker",
@@ -5864,7 +5864,7 @@ const sportsQuestionsExtended = {
                     "300 meters",
                     "200 meters"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Lane Width",
@@ -5876,7 +5876,7 @@ const sportsQuestionsExtended = {
                     "0.5 meters",
                     "3 meters"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Shot Put Weight Men",
@@ -5909,7 +5909,7 @@ const sportsQuestionsExtended = {
                     "3000m",
                     "10000m"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "IAAF",
@@ -6041,7 +6041,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Road Racing",
@@ -6051,7 +6051,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Gears",
@@ -6071,7 +6071,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Wheels",
@@ -6081,7 +6081,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Track Cycling",
@@ -6123,7 +6123,7 @@ const sportsQuestionsExtended = {
                     "Tour de France overall leader",
                     "Last place"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Peloton",
@@ -6133,7 +6133,7 @@ const sportsQuestionsExtended = {
                     "Finish line",
                     "Main group of riders"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Sprint",
@@ -6163,7 +6163,7 @@ const sportsQuestionsExtended = {
                     "Riding behind others to reduce wind resistance",
                     "Drawing race route"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Time Trial",
@@ -6173,7 +6173,7 @@ const sportsQuestionsExtended = {
                     "Practice session",
                     "Individual race against clock"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Breakaway",
@@ -6196,7 +6196,7 @@ const sportsQuestionsExtended = {
                     "Best climber",
                     "Oldest rider"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "BMX",
@@ -6219,7 +6219,7 @@ const sportsQuestionsExtended = {
                     "5 tours",
                     "1 tour"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Echelon",
@@ -6252,7 +6252,7 @@ const sportsQuestionsExtended = {
                     "Mountain race",
                     "Time trial"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Grupetto",
@@ -6274,7 +6274,7 @@ const sportsQuestionsExtended = {
                     "Sprinter only",
                     "Climbing specialist"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Madison",
@@ -6285,7 +6285,7 @@ const sportsQuestionsExtended = {
                     "Road race",
                     "Solo event"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Musette",
@@ -6296,7 +6296,7 @@ const sportsQuestionsExtended = {
                     "Bike part",
                     "Jersey type"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Prologue",
@@ -6307,7 +6307,7 @@ const sportsQuestionsExtended = {
                     "Final stage",
                     "Rest day"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Neutralized",
@@ -6332,7 +6332,7 @@ const sportsQuestionsExtended = {
                     "30 stages",
                     "15 stages"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Velodrome Banking",
@@ -6356,7 +6356,7 @@ const sportsQuestionsExtended = {
                     "100/50",
                     "5/2"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Power Output",
@@ -6368,7 +6368,7 @@ const sportsQuestionsExtended = {
                     "50 watts",
                     "1000 watts"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "UCI",
@@ -6380,7 +6380,7 @@ const sportsQuestionsExtended = {
                     "Race series",
                     "Training program"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Hour Record",
@@ -6404,7 +6404,7 @@ const sportsQuestionsExtended = {
                     "Youngest rider",
                     "Local rider"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Bike Weight",
@@ -6416,7 +6416,7 @@ const sportsQuestionsExtended = {
                     "3 kg",
                     "15 kg"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Average Speed",
@@ -6516,7 +6516,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Apparatus",
@@ -6526,7 +6526,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Floor Exercise",
@@ -6536,7 +6536,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Scoring",
@@ -6556,7 +6556,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Vault",
@@ -6566,7 +6566,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Uneven Bars",
@@ -6576,7 +6576,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Olympics",
@@ -6606,7 +6606,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             }
         ],
         medium: [
@@ -6648,7 +6648,7 @@ const sportsQuestionsExtended = {
                     "Final move off apparatus",
                     "Starting position"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Parallel Bars",
@@ -6668,7 +6668,7 @@ const sportsQuestionsExtended = {
                     "Traditional Olympic apparatus gymnastics",
                     "Dancing only"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Salto",
@@ -6698,7 +6698,7 @@ const sportsQuestionsExtended = {
                     "Floor level",
                     "Men's horizontal bar apparatus"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Pike Position",
@@ -6732,7 +6732,7 @@ const sportsQuestionsExtended = {
                     "Team name",
                     "Routine choreography"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "D-Score",
@@ -6743,7 +6743,7 @@ const sportsQuestionsExtended = {
                     "Final score",
                     "Deduction score"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "E-Score",
@@ -6776,7 +6776,7 @@ const sportsQuestionsExtended = {
                     "Straight vault",
                     "No rotation"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Giant Swing",
@@ -6787,7 +6787,7 @@ const sportsQuestionsExtended = {
                     "Small circle",
                     "Half turn"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Mount",
@@ -6798,7 +6798,7 @@ const sportsQuestionsExtended = {
                     "Getting off",
                     "Middle of routine"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Layout",
@@ -6826,7 +6826,7 @@ const sportsQuestionsExtended = {
                     "50 cm",
                     "5 cm"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Vault Table Height",
@@ -6862,7 +6862,7 @@ const sportsQuestionsExtended = {
                     "Equipment brand",
                     "Scoring app"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Uneven Bars Height",
@@ -6886,7 +6886,7 @@ const sportsQuestionsExtended = {
                     "Weights",
                     "No equipment"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Team Competition Format",
@@ -6910,7 +6910,7 @@ const sportsQuestionsExtended = {
                     "400 cm",
                     "100 cm"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Difficulty Values",
@@ -6922,7 +6922,7 @@ const sportsQuestionsExtended = {
                     "Z",
                     "E"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Simone Biles",
@@ -6934,7 +6934,7 @@ const sportsQuestionsExtended = {
                     "No medals",
                     "20 medals"
                 ],
-                correct: 3
+                correct: 1
             }
         ],
         "extreme": [
@@ -7010,7 +7010,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Skis",
@@ -7020,7 +7020,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Mountains",
@@ -7030,7 +7030,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Poles",
@@ -7070,7 +7070,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Winter Olympics",
@@ -7080,7 +7080,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Goggles",
@@ -7122,7 +7122,7 @@ const sportsQuestionsExtended = {
                     "Easy slope",
                     "Expert/difficult slope"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Slalom",
@@ -7162,7 +7162,7 @@ const sportsQuestionsExtended = {
                     "Icy conditions",
                     "Fresh, soft snow"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Parallel Turn",
@@ -7172,7 +7172,7 @@ const sportsQuestionsExtended = {
                     "Skis together while turning",
                     "Skis apart"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Chairlift",
@@ -7182,7 +7182,7 @@ const sportsQuestionsExtended = {
                     "Restaurant",
                     "Aerial lift with seats"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Après-ski",
@@ -7202,7 +7202,7 @@ const sportsQuestionsExtended = {
                     "Technique move",
                     "Ticket for lift access"
                 ],
-                correct: 2
+                correct: 0
             }
         ],
         hard: [
@@ -7215,7 +7215,7 @@ const sportsQuestionsExtended = {
                     "Straight skiing",
                     "Jumping"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Giant Slalom",
@@ -7237,7 +7237,7 @@ const sportsQuestionsExtended = {
                     "Free-heel skiing with lunging turns",
                     "Snowboarding"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Ski Wax",
@@ -7248,7 +7248,7 @@ const sportsQuestionsExtended = {
                     "Make them shiny",
                     "No purpose"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Off-Piste",
@@ -7259,7 +7259,7 @@ const sportsQuestionsExtended = {
                     "Outside groomed slopes",
                     "Indoor skiing"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "DIN Setting",
@@ -7292,7 +7292,7 @@ const sportsQuestionsExtended = {
                     "Weather forecast",
                     "Music player"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Ski Brake",
@@ -7314,7 +7314,7 @@ const sportsQuestionsExtended = {
                     "Resort skiing only",
                     "Competition"
                 ],
-                correct: 2
+                correct: 0
             }
         ],
         "expert": [
@@ -7352,7 +7352,7 @@ const sportsQuestionsExtended = {
                     "20 events",
                     "1 event"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "FIS",
@@ -7364,7 +7364,7 @@ const sportsQuestionsExtended = {
                     "Equipment brand",
                     "Snow type"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Ski Radius",
@@ -7376,7 +7376,7 @@ const sportsQuestionsExtended = {
                     "Price",
                     "Weight only"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "World Cup",
@@ -7388,7 +7388,7 @@ const sportsQuestionsExtended = {
                     "Training event",
                     "Olympics only"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Ski Edges",
@@ -7412,7 +7412,7 @@ const sportsQuestionsExtended = {
                     "Downward bend",
                     "No shape"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Super-G",
@@ -7424,7 +7424,7 @@ const sportsQuestionsExtended = {
                     "Ski brand",
                     "Lift type"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Ski School Levels",
@@ -7436,7 +7436,7 @@ const sportsQuestionsExtended = {
                     "No levels",
                     "100 levels"
                 ],
-                correct: 2
+                correct: 0
             }
         ],
         "extreme": [
@@ -7532,7 +7532,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Dojo",
@@ -7542,7 +7542,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Bow",
@@ -7552,7 +7552,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Uniform",
@@ -7562,7 +7562,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Self-Defense",
@@ -7572,7 +7572,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Forms",
@@ -7592,7 +7592,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Training",
@@ -7602,7 +7602,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             }
         ],
         medium: [
@@ -7634,7 +7634,7 @@ const sportsQuestionsExtended = {
                     "Controlled practice fighting",
                     "Stretching"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Sensei",
@@ -7664,7 +7664,7 @@ const sportsQuestionsExtended = {
                     "Expert",
                     "Beginner/novice"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Dan",
@@ -7674,7 +7674,7 @@ const sportsQuestionsExtended = {
                     "Black belt degree level",
                     "Colored belt"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Kumite",
@@ -7704,7 +7704,7 @@ const sportsQuestionsExtended = {
                     "Belt",
                     "Striking post for training"
                 ],
-                correct: 2
+                correct: 0
             }
         ],
         hard: [
@@ -7728,7 +7728,7 @@ const sportsQuestionsExtended = {
                     "Full point/winning technique",
                     "Half point"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Randori",
@@ -7739,7 +7739,7 @@ const sportsQuestionsExtended = {
                     "Meditation",
                     "Belt tying"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Ki",
@@ -7750,7 +7750,7 @@ const sportsQuestionsExtended = {
                     "Life energy/force concept",
                     "Uniform"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Tameshiwari",
@@ -7761,7 +7761,7 @@ const sportsQuestionsExtended = {
                     "Kicking drill",
                     "Belt rank"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Uke",
@@ -7772,7 +7772,7 @@ const sportsQuestionsExtended = {
                     "Blocking/receiving technique or training partner",
                     "Meditation"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Zanshin",
@@ -7805,7 +7805,7 @@ const sportsQuestionsExtended = {
                     "Standing bow",
                     "Kick"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Kihon",
@@ -7830,7 +7830,7 @@ const sportsQuestionsExtended = {
                     "Only 2",
                     "100"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Black Belt Dans",
@@ -7842,7 +7842,7 @@ const sportsQuestionsExtended = {
                     "Unlimited",
                     "No levels"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Karate Origins",
@@ -7878,7 +7878,7 @@ const sportsQuestionsExtended = {
                     "Weapons only",
                     "No physical contact"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "BJJ",
@@ -7938,7 +7938,7 @@ const sportsQuestionsExtended = {
                     "Pure competition",
                     "No philosophy"
                 ],
-                correct: 2
+                correct: 0
             }
         ],
         "extreme": [
@@ -8014,7 +8014,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Surfboard",
@@ -8024,7 +8024,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Standing",
@@ -8034,7 +8034,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Waves",
@@ -8064,7 +8064,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Paddling",
@@ -8074,7 +8074,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Balance",
@@ -8084,7 +8084,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Olympics",
@@ -8094,7 +8094,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Leash",
@@ -8104,7 +8104,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             }
         ],
         medium: [
@@ -8116,7 +8116,7 @@ const sportsQuestionsExtended = {
                     "Going from lying to standing on board",
                     "Type of wave"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Barrel",
@@ -8126,7 +8126,7 @@ const sportsQuestionsExtended = {
                     "Surfboard part",
                     "Hollow part of breaking wave"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Wipeout",
@@ -8136,7 +8136,7 @@ const sportsQuestionsExtended = {
                     "Falling off board",
                     "Perfect ride"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Lineup",
@@ -8146,7 +8146,7 @@ const sportsQuestionsExtended = {
                     "Waiting area",
                     "Area where surfers wait for waves"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Duck Dive",
@@ -8156,7 +8156,7 @@ const sportsQuestionsExtended = {
                     "Pushing board under oncoming wave",
                     "Type of turn"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Longboard",
@@ -8176,7 +8176,7 @@ const sportsQuestionsExtended = {
                     "Right foot forward",
                     "Left foot forward"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Set",
@@ -8206,7 +8206,7 @@ const sportsQuestionsExtended = {
                     "Beach wave",
                     "Wave breaking over coral/rock reef"
                 ],
-                correct: 2
+                correct: 0
             }
         ],
         hard: [
@@ -8230,7 +8230,7 @@ const sportsQuestionsExtended = {
                     "Flat surface",
                     "Board brand"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Quiver",
@@ -8241,7 +8241,7 @@ const sportsQuestionsExtended = {
                     "Collection of different surfboards",
                     "Surf shop"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Dropping In",
@@ -8252,7 +8252,7 @@ const sportsQuestionsExtended = {
                     "Good technique",
                     "Encouraged behavior"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Fins",
@@ -8274,7 +8274,7 @@ const sportsQuestionsExtended = {
                     "Perfect wave",
                     "Small wave"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Dawn Patrol",
@@ -8285,7 +8285,7 @@ const sportsQuestionsExtended = {
                     "Night surfing",
                     "Security guards"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Thruster",
@@ -8318,7 +8318,7 @@ const sportsQuestionsExtended = {
                     "Makes waves messy",
                     "Stops waves"
                 ],
-                correct: 3
+                correct: 1
             }
         ],
         "expert": [
@@ -8332,7 +8332,7 @@ const sportsQuestionsExtended = {
                     "No measurement",
                     "From trough to lip"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "WSL",
@@ -8344,7 +8344,7 @@ const sportsQuestionsExtended = {
                     "Wave Size Limit",
                     "Western Surf Location"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Pipeline",
@@ -8380,7 +8380,7 @@ const sportsQuestionsExtended = {
                     "Professional use",
                     "More expensive"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Shortboard Length",
@@ -8404,7 +8404,7 @@ const sportsQuestionsExtended = {
                     "Speed enhancement",
                     "No purpose"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Kelly Slater",
@@ -8428,7 +8428,7 @@ const sportsQuestionsExtended = {
                     "Board type",
                     "Age order"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Aerial",
@@ -8559,7 +8559,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Serve",
@@ -8572,7 +8572,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Fast Sport",
@@ -8614,7 +8614,7 @@ const sportsQuestionsExtended = {
                     "15 points",
                     "21 points (win by 2)"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Smash",
@@ -8637,7 +8637,7 @@ const sportsQuestionsExtended = {
                     "High deep shot to back of court",
                     "Low flat shot"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Service Court",
@@ -8647,7 +8647,7 @@ const sportsQuestionsExtended = {
                     "Same court always",
                     "Yes, right court when even score, left when odd"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Let",
@@ -8657,7 +8657,7 @@ const sportsQuestionsExtended = {
                     "Replay of point",
                     "Lost point"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Fault",
@@ -8667,7 +8667,7 @@ const sportsQuestionsExtended = {
                     "Perfect serve",
                     "Illegal serve"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Best of Three",
@@ -8687,7 +8687,7 @@ const sportsQuestionsExtended = {
                     "High lob",
                     "Flat, fast shot parallel to ground"
                 ],
-                correct: 2
+                correct: 0
             }
         ],
         hard: [
@@ -8700,7 +8700,7 @@ const sportsQuestionsExtended = {
                     "Game over",
                     "Restart"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Service Box",
@@ -8733,7 +8733,7 @@ const sportsQuestionsExtended = {
                     "Rotate after winning rally when receiving",
                     "Switch every point"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Net Cord",
@@ -8766,7 +8766,7 @@ const sportsQuestionsExtended = {
                     "Only net play",
                     "No strategy"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Feather Shuttlecock",
@@ -8799,7 +8799,7 @@ const sportsQuestionsExtended = {
                     "Slow return",
                     "Defensive return"
                 ],
-                correct: 3
+                correct: 1
             }
         ],
         "expert": [
@@ -8813,7 +8813,7 @@ const sportsQuestionsExtended = {
                     "50 km/h",
                     "600 km/h"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Court Dimensions",
@@ -8840,7 +8840,7 @@ const sportsQuestionsExtended = {
                     "1 gram",
                     "20 grams"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "BWF",
@@ -8852,7 +8852,7 @@ const sportsQuestionsExtended = {
                     "British Wrestling Federation",
                     "Ball Weight Factor"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Thomas Cup",
@@ -8864,7 +8864,7 @@ const sportsQuestionsExtended = {
                     "Mixed doubles",
                     "Junior tournament"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Uber Cup",
@@ -8888,7 +8888,7 @@ const sportsQuestionsExtended = {
                     "30 grams",
                     "500 grams"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "All England",
@@ -8900,7 +8900,7 @@ const sportsQuestionsExtended = {
                     "Regional event",
                     "Training camp"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Lin Dan",
@@ -9028,7 +9028,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Helmet",
@@ -9038,7 +9038,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Checkered Flag",
@@ -9068,7 +9068,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Podium",
@@ -9110,7 +9110,7 @@ const sportsQuestionsExtended = {
                     "During dangerous conditions or crashes",
                     "At race start"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Slipstream",
@@ -9120,7 +9120,7 @@ const sportsQuestionsExtended = {
                     "Driving in water",
                     "Following closely to reduce drag"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "DNF",
@@ -9160,7 +9160,7 @@ const sportsQuestionsExtended = {
                     "Only one type",
                     "Yes, soft, medium, hard compounds"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Overtaking",
@@ -9180,7 +9180,7 @@ const sportsQuestionsExtended = {
                     "Driver",
                     "Team that builds the car"
                 ],
-                correct: 2
+                correct: 0
             }
         ],
         hard: [
@@ -9193,7 +9193,7 @@ const sportsQuestionsExtended = {
                     "Pitting last",
                     "No pit stop"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Dirty Air",
@@ -9215,7 +9215,7 @@ const sportsQuestionsExtended = {
                     "Smooth driving",
                     "Turning technique"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Parc Fermé",
@@ -9237,7 +9237,7 @@ const sportsQuestionsExtended = {
                     "Decorations",
                     "Toys"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Box Box",
@@ -9251,7 +9251,7 @@ const sportsQuestionsExtended = {
                     "Emergency Radio System",
                     "Engine Restart Switch"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Apex",
@@ -9310,7 +9310,7 @@ const sportsQuestionsExtended = {
                     "500 km",
                     "50 km"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Points System",
@@ -9334,7 +9334,7 @@ const sportsQuestionsExtended = {
                     "Formula International Alliance",
                     "Fuel Injection Apparatus"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Monaco GP",
@@ -9346,7 +9346,7 @@ const sportsQuestionsExtended = {
                     "Longest track",
                     "Only oval"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "G-Forces",
@@ -9358,7 +9358,7 @@ const sportsQuestionsExtended = {
                     "No G-forces",
                     "20G"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Power Unit",
@@ -9370,7 +9370,7 @@ const sportsQuestionsExtended = {
                     "Electric only",
                     "V8 engine"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Halo Device",
@@ -9382,7 +9382,7 @@ const sportsQuestionsExtended = {
                     "Rear wing",
                     "Fuel system"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Lewis Hamilton",
@@ -9394,7 +9394,7 @@ const sportsQuestionsExtended = {
                     "1 championship",
                     "10 championships"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Constructors Championship",
@@ -9482,7 +9482,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Rope",
@@ -9492,7 +9492,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Harness",
@@ -9522,7 +9522,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Chalk",
@@ -9532,7 +9532,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Holds",
@@ -9552,7 +9552,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Olympics",
@@ -9562,7 +9562,7 @@ const sportsQuestionsExtended = {
                     "True",
                     "False"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Shoes",
@@ -9572,7 +9572,7 @@ const sportsQuestionsExtended = {
                     "False",
                     "True"
                 ],
-                correct: 2
+                correct: 0
             }
         ],
         medium: [
@@ -9604,7 +9604,7 @@ const sportsQuestionsExtended = {
                     "Climber clips rope to protection while ascending",
                     "Following another climber"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Crimping",
@@ -9614,7 +9614,7 @@ const sportsQuestionsExtended = {
                     "Folding equipment",
                     "Gripping small holds with fingertips"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Crux",
@@ -9624,7 +9624,7 @@ const sportsQuestionsExtended = {
                     "Hardest section of climb",
                     "Starting point"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Carabiner",
@@ -9644,7 +9644,7 @@ const sportsQuestionsExtended = {
                     "Successfully completing route after practice",
                     "First attempt"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Beta",
@@ -9698,7 +9698,7 @@ const sportsQuestionsExtended = {
                     "Pulling motion",
                     "Foot technique"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Undercling",
@@ -9709,7 +9709,7 @@ const sportsQuestionsExtended = {
                     "Top grip",
                     "Side grip"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Smearing",
@@ -9720,7 +9720,7 @@ const sportsQuestionsExtended = {
                     "Using chalk",
                     "Rope technique"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Pumped",
@@ -9745,7 +9745,7 @@ const sportsQuestionsExtended = {
                     "Easy route",
                     "Sandy climbing"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Belay Device",
@@ -9778,7 +9778,7 @@ const sportsQuestionsExtended = {
                     "Climbing tool",
                     "Hold type"
                 ],
-                correct: 2
+                correct: 0
             }
         ],
         "expert": [
@@ -9792,7 +9792,7 @@ const sportsQuestionsExtended = {
                     "A-Z scale",
                     "No grades"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "V-Scale",
@@ -9804,7 +9804,7 @@ const sportsQuestionsExtended = {
                     "Speed climbing",
                     "Height measurement"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Sport Climbing Events",
@@ -9816,7 +9816,7 @@ const sportsQuestionsExtended = {
                     "Only bouldering",
                     "Traditional only"
                 ],
-                correct: 2
+                correct: 0
             },
             {
                 topic: "Speed Climbing",
@@ -9864,7 +9864,7 @@ const sportsQuestionsExtended = {
                     "Speed climbing",
                     "No equipment"
                 ],
-                correct: 3
+                correct: 1
             },
             {
                 topic: "Rope Diameter",

@@ -29,11 +29,6 @@ window.riddlesQuestions[3] = {
             },
             {
                 topic: "Number Riddles - Easy",
-                emoji: "🔢💡",
-                correct: 0
-            },
-            {
-                topic: "Number Riddles - Easy",
                 emoji: "🔢✨",
                 question: "What two whole, positive numbers have a one-digit answer when multiplied and a two-digit answer when added?",
                 options: [
@@ -80,11 +75,6 @@ window.riddlesQuestions[3] = {
                     "3",
                     "2"
                 ],
-                correct: 0
-            },
-            {
-                topic: "Number Riddles - Easy",
-                emoji: "🔢🌈",
                 correct: 0
             },
             {
@@ -436,11 +426,6 @@ window.riddlesQuestions[3] = {
                     "13112221"
                 ],
                 correct: 2
-            },
-            {
-                topic: "Number Riddles - Hard",
-                emoji: "🔢✨",
-                correct: 0
             },
             {
                 topic: "Number Riddles - Hard",

@@ -453,61 +453,139 @@ const sportsQuestions = {
                 topic: "Football History",
                 emoji: "⚽📜",
                 question: "Name three countries that have won the FIFA World Cup?",
-                "answer": "Brazil, Germany, Argentina, Italy, France, Uruguay, England, Spain (any 3)"
+                options: [
+                    "Brazil",
+                    "Germany",
+                    "Argentina",
+                    "Italy",
+                    "France",
+                    "Uruguay",
+                    "England",
+                    "Spain",
+                ],
+                correct: 0
             },
             {
                 topic: "Famous Players",
                 emoji: "⚽⭐",
                 question: "Name three legendary football players from history?",
-                "answer": "Pelé, Maradona, Messi, Ronaldo, Cruyff, Beckenbauer, Zidane (any 3)"
+                options: [
+                    "Pelé",
+                    "Maradona",
+                    "Messi",
+                    "Ronaldo",
+                    "Cruyff",
+                    "Beckenbauer",
+                    "Zidane",
+                ],
+                correct: 0
             },
             {
                 topic: "Positions",
                 emoji: "⚽🎯",
                 question: "Name three defensive positions in football?",
-                "answer": "Center back, Full back, Wing back, Sweeper, Defensive midfielder (any 3)"
+                options: [
+                    "Center back",
+                    "Full back",
+                    "Wing back",
+                    "Sweeper",
+                    "Defensive midfielder",
+                ],
+                correct: 0
             },
             {
                 topic: "Leagues",
                 emoji: "⚽🏆",
                 question: "Name three major European football leagues?",
-                "answer": "Premier League, La Liga, Serie A, Bundesliga, Ligue 1 (any 3)"
+                options: [
+                    "Premier League",
+                    "La Liga",
+                    "Serie A",
+                    "Bundesliga",
+                    "Ligue 1",
+                ],
+                correct: 0
             },
             {
                 topic: "Tournaments",
                 emoji: "⚽🌍",
                 question: "Name three international football tournaments?",
-                "answer": "World Cup, UEFA Euro, Copa América, African Cup, Asian Cup (any 3)"
+                options: [
+                    "World Cup",
+                    "UEFA Euro",
+                    "Copa América",
+                    "African Cup",
+                    "Asian Cup",
+                ],
+                correct: 0
             },
             {
                 topic: "Football Skills",
                 emoji: "⚽🎪",
                 question: "Name three basic football skills?",
-                "answer": "Dribbling, Passing, Shooting, Tackling, Heading, Control (any 3)"
+                options: [
+                    "Dribbling",
+                    "Passing",
+                    "Shooting",
+                    "Tackling",
+                    "Heading",
+                    "Control",
+                ],
+                correct: 0
             },
             {
                 topic: "Famous Clubs",
                 emoji: "⚽🏟️",
                 question: "Name three historically successful football clubs?",
-                "answer": "Real Madrid, Barcelona, Manchester United, Bayern Munich, AC Milan, Liverpool (any 3)"
+                options: [
+                    "Real Madrid",
+                    "Barcelona",
+                    "Manchester United",
+                    "Bayern Munich",
+                    "AC Milan",
+                    "Liverpool",
+                ],
+                correct: 0
             },
             {
                 topic: "Set Pieces",
                 emoji: "⚽🎯",
                 question: "Name three types of set pieces in football?",
-                "answer": "Free kick, Corner kick, Penalty kick, Throw-in, Goal kick (any 3)"
+                options: [
+                    "Free kick",
+                    "Corner kick",
+                    "Penalty kick",
+                    "Throw-in",
+                    "Goal kick",
+                ],
+                correct: 0
             },
             {
                 topic: "Fouls",
                 emoji: "⚽⚠️",
                 question: "Name three types of fouls in football?",
-                "answer": "Handball, Tripping, Pushing, Holding, High kick, Offside (any 3)"
+                options: [
+                    "Handball",
+                    "Tripping",
+                    "Pushing",
+                    "Holding",
+                    "High kick",
+                    "Offside",
+                ],
+                correct: 0
             },
             {
                 topic: "Formations",
                 emoji: "⚽📊",
                 question: "Name three common football formations?",
-                "answer": "4-4-2, 4-3-3, 3-5-2, 4-2-3-1, 5-3-2 (any 3)"
+                options: [
+                    "4-4-2",
+                    "4-3-3",
+                    "3-5-2",
+                    "4-2-3-1",
+                    "5-3-2",
+                ],
+                correct: 0
             }
         ]
     },
@@ -955,61 +1033,137 @@ const sportsQuestions = {
                 topic: "NBA Teams",
                 emoji: "🏀🏆",
                 question: "Name three NBA championship-winning teams?",
-                "answer": "Lakers, Celtics, Bulls, Warriors, Spurs, Heat, Pistons (any 3)"
+                options: [
+                    "Lakers",
+                    "Celtics",
+                    "Bulls",
+                    "Warriors",
+                    "Spurs",
+                    "Heat",
+                    "Pistons",
+                ],
+                correct: 0
             },
             {
                 topic: "Legendary Players",
                 emoji: "🏀⭐",
                 question: "Name three basketball legends?",
-                "answer": "Michael Jordan, LeBron James, Magic Johnson, Kobe Bryant, Larry Bird, Kareem Abdul-Jabbar (any 3)"
+                options: [
+                    "Michael Jordan",
+                    "LeBron James",
+                    "Magic Johnson",
+                    "Kobe Bryant",
+                    "Larry Bird",
+                    "Kareem Abdul-Jabbar",
+                ],
+                correct: 0
             },
             {
                 topic: "Positions",
                 emoji: "🏀👤",
                 question: "Name the five basketball positions?",
-                "answer": "Point Guard, Shooting Guard, Small Forward, Power Forward, Center (any 3)"
+                options: [
+                    "Point Guard",
+                    "Shooting Guard",
+                    "Small Forward",
+                    "Power Forward",
+                    "Center",
+                ],
+                correct: 0
             },
             {
                 topic: "Skills",
                 emoji: "🏀🎯",
                 question: "Name three essential basketball skills?",
-                "answer": "Shooting, Dribbling, Passing, Defense, Rebounding (any 3)"
+                options: [
+                    "Shooting",
+                    "Dribbling",
+                    "Passing",
+                    "Defense",
+                    "Rebounding",
+                ],
+                correct: 0
             },
             {
                 topic: "Shot Types",
                 emoji: "🏀🎪",
                 question: "Name three types of basketball shots?",
-                "answer": "Layup, Jump shot, Hook shot, Dunk, Free throw, Three-pointer (any 3)"
+                options: [
+                    "Layup",
+                    "Jump shot",
+                    "Hook shot",
+                    "Dunk",
+                    "Free throw",
+                    "Three-pointer",
+                ],
+                correct: 0
             },
             {
                 topic: "Violations",
                 emoji: "🏀🚫",
                 question: "Name three basketball violations?",
-                "answer": "Traveling, Double dribble, Backcourt, Three seconds, Shot clock, Goaltending (any 3)"
+                options: [
+                    "Traveling",
+                    "Double dribble",
+                    "Backcourt",
+                    "Three seconds",
+                    "Shot clock",
+                    "Goaltending",
+                ],
+                correct: 0
             },
             {
                 topic: "Offensive Plays",
                 emoji: "🏀📋",
                 question: "Name three offensive strategies in basketball?",
-                "answer": "Pick and roll, Isolation, Fast break, Motion offense, Triangle offense (any 3)"
+                options: [
+                    "Pick and roll",
+                    "Isolation",
+                    "Fast break",
+                    "Motion offense",
+                    "Triangle offense",
+                ],
+                correct: 0
             },
             {
                 topic: "Defensive Strategies",
                 emoji: "🏀🛡️",
                 question: "Name three defensive formations?",
-                "answer": "Man-to-man, Zone defense, Press defense, Box-and-one, Full court press (any 3)"
+                options: [
+                    "Man-to-man",
+                    "Zone defense",
+                    "Press defense",
+                    "Box-and-one",
+                    "Full court press",
+                ],
+                correct: 0
             },
             {
                 topic: "Championships",
                 emoji: "🏀🏅",
                 question: "Name three major basketball competitions?",
-                "answer": "NBA Finals, FIBA World Cup, Olympics, EuroLeague, NCAA Tournament (any 3)"
+                options: [
+                    "NBA Finals",
+                    "FIBA World Cup",
+                    "Olympics",
+                    "EuroLeague",
+                    "NCAA Tournament",
+                ],
+                correct: 0
             },
             {
                 topic: "Records",
                 emoji: "🏀📊",
                 question: "Name three basketball statistical categories?",
-                "answer": "Points, Rebounds, Assists, Steals, Blocks, Field goal percentage (any 3)"
+                options: [
+                    "Points",
+                    "Rebounds",
+                    "Assists",
+                    "Steals",
+                    "Blocks",
+                    "Field goal percentage",
+                ],
+                correct: 0
             }
         ]
     },
@@ -1457,61 +1611,136 @@ const sportsQuestions = {
                 topic: "Cricket Formats",
                 emoji: "🏏📋",
                 question: "Name three formats of cricket?",
-                "answer": "Test cricket, One Day International (ODI), Twenty20 (T20)"
+                options: [
+                    "Test cricket",
+                    "One Day International (ODI)",
+                    "Twenty20 (T20)",
+                ],
+                correct: 0
             },
             {
                 topic: "Dismissal Types",
                 emoji: "🏏❌",
                 question: "Name three ways to get out in cricket?",
-                "answer": "Bowled, Caught, LBW, Run out, Stumped, Hit wicket (any 3)"
+                options: [
+                    "Bowled",
+                    "Caught",
+                    "LBW",
+                    "Run out",
+                    "Stumped",
+                    "Hit wicket",
+                ],
+                correct: 0
             },
             {
                 topic: "Cricket Nations",
                 emoji: "🏏🌍",
                 question: "Name three Test-playing nations?",
-                "answer": "India, England, Australia, Pakistan, South Africa, New Zealand, West Indies (any 3)"
+                options: [
+                    "India",
+                    "England",
+                    "Australia",
+                    "Pakistan",
+                    "South Africa",
+                    "New Zealand",
+                    "West Indies",
+                ],
+                correct: 0
             },
             {
                 topic: "Bowling Types",
                 emoji: "🏏🎳",
                 question: "Name three types of bowling?",
-                "answer": "Fast bowling, Spin bowling, Medium pace, Swing bowling, Seam bowling (any 3)"
+                options: [
+                    "Fast bowling",
+                    "Spin bowling",
+                    "Medium pace",
+                    "Swing bowling",
+                    "Seam bowling",
+                ],
+                correct: 0
             },
             {
                 topic: "Cricket Shots",
                 emoji: "🏏🎯",
                 question: "Name three batting shots?",
-                "answer": "Drive, Cut, Pull, Hook, Sweep, Cover drive (any 3)"
+                options: [
+                    "Drive",
+                    "Cut",
+                    "Pull",
+                    "Hook",
+                    "Sweep",
+                    "Cover drive",
+                ],
+                correct: 0
             },
             {
                 topic: "Fielding Positions",
                 emoji: "🏏🗺️",
                 question: "Name three fielding positions?",
-                "answer": "Slip, Mid-off, Point, Cover, Fine leg, Square leg (any 3)"
+                options: [
+                    "Slip",
+                    "Mid-off",
+                    "Point",
+                    "Cover",
+                    "Fine leg",
+                    "Square leg",
+                ],
+                correct: 0
             },
             {
                 topic: "Tournaments",
                 emoji: "🏏🏆",
                 question: "Name three major cricket tournaments?",
-                "answer": "World Cup, T20 World Cup, Champions Trophy, IPL, Ashes (any 3)"
+                options: [
+                    "World Cup",
+                    "T20 World Cup",
+                    "Champions Trophy",
+                    "IPL",
+                    "Ashes",
+                ],
+                correct: 0
             },
             {
                 topic: "Legendary Players",
                 emoji: "🏏⭐",
                 question: "Name three cricket legends?",
-                "answer": "Sachin Tendulkar, Don Bradman, Virat Kohli, Brian Lara, Shane Warne (any 3)"
+                options: [
+                    "Sachin Tendulkar",
+                    "Don Bradman",
+                    "Virat Kohli",
+                    "Brian Lara",
+                    "Shane Warne",
+                ],
+                correct: 0
             },
             {
                 topic: "Cricket Terms",
                 emoji: "🏏📖",
                 question: "Name three cricket terminology terms?",
-                "answer": "Boundary, Wicket, Over, Innings, Duck, Century (any 3)"
+                options: [
+                    "Boundary",
+                    "Wicket",
+                    "Over",
+                    "Innings",
+                    "Duck",
+                    "Century",
+                ],
+                correct: 0
             },
             {
                 topic: "Ball Types",
                 emoji: "🏏⚪",
                 question: "Name three delivery variations?",
-                "answer": "Bouncer, Yorker, Slower ball, Googly, Doosra, Off-break (any 3)"
+                options: [
+                    "Bouncer",
+                    "Yorker",
+                    "Slower ball",
+                    "Googly",
+                    "Doosra",
+                    "Off-break",
+                ],
+                correct: 0
             }
         ]
     },
@@ -1959,61 +2188,129 @@ const sportsQuestions = {
                 topic: "Grand Slams",
                 emoji: "🎾🏆",
                 question: "Name the four Grand Slam tournaments?",
-                "answer": "Australian Open, French Open, Wimbledon, US Open"
+                options: [
+                    "Australian Open",
+                    "French Open",
+                    "Wimbledon",
+                    "US Open",
+                ],
+                correct: 0
             },
             {
                 topic: "Court Surfaces",
                 emoji: "🎾🏟️",
                 question: "Name three types of tennis court surfaces?",
-                "answer": "Hard court, Clay court, Grass court, Carpet"
+                options: [
+                    "Hard court",
+                    "Clay court",
+                    "Grass court",
+                    "Carpet",
+                ],
+                correct: 0
             },
             {
                 topic: "Legendary Players",
                 emoji: "🎾⭐",
                 question: "Name three tennis legends?",
-                "answer": "Roger Federer, Rafael Nadal, Serena Williams, Novak Djokovic, Steffi Graf (any 3)"
+                options: [
+                    "Roger Federer",
+                    "Rafael Nadal",
+                    "Serena Williams",
+                    "Novak Djokovic",
+                    "Steffi Graf",
+                ],
+                correct: 0
             },
             {
                 topic: "Tennis Strokes",
                 emoji: "🎾🎯",
                 question: "Name three tennis shot types?",
-                "answer": "Forehand, Backhand, Serve, Volley, Smash, Lob (any 3)"
+                options: [
+                    "Forehand",
+                    "Backhand",
+                    "Serve",
+                    "Volley",
+                    "Smash",
+                    "Lob",
+                ],
+                correct: 0
             },
             {
                 topic: "Scoring Terms",
                 emoji: "🎾🔢",
                 question: "Name three tennis scoring terms?",
-                "answer": "Love, Deuce, Advantage, Break point, Match point (any 3)"
+                options: [
+                    "Love",
+                    "Deuce",
+                    "Advantage",
+                    "Break point",
+                    "Match point",
+                ],
+                correct: 0
             },
             {
                 topic: "Tennis Strategies",
                 emoji: "🎾🧠",
                 question: "Name three tennis playing strategies?",
-                "answer": "Serve and volley, Baseline play, All-court game, Counter-punching (any 3)"
+                options: [
+                    "Serve and volley",
+                    "Baseline play",
+                    "All-court game",
+                    "Counter-punching",
+                ],
+                correct: 0
             },
             {
                 topic: "Tournament Types",
                 emoji: "🎾🏅",
                 question: "Name three professional tennis tournament categories?",
-                "answer": "Grand Slam, Masters 1000, ATP/WTA 500, Olympics, Davis Cup (any 3)"
+                options: [
+                    "Grand Slam",
+                    "Masters 1000",
+                    "ATP/WTA 500",
+                    "Olympics",
+                    "Davis Cup",
+                ],
+                correct: 0
             },
             {
                 topic: "Equipment",
                 emoji: "🎾🎾",
                 question: "Name three essential tennis equipment items?",
-                "answer": "Racket, Balls, Tennis shoes, Wristbands, Strings (any 3)"
+                options: [
+                    "Racket",
+                    "Balls",
+                    "Tennis shoes",
+                    "Wristbands",
+                    "Strings",
+                ],
+                correct: 0
             },
             {
                 topic: "Tennis Rules",
                 emoji: "🎾⚖️",
                 question: "Name three tennis rule violations?",
-                "answer": "Foot fault, Double fault, Touching net, Hindrance, Time violation (any 3)"
+                options: [
+                    "Foot fault",
+                    "Double fault",
+                    "Touching net",
+                    "Hindrance",
+                    "Time violation",
+                ],
+                correct: 0
             },
             {
                 topic: "Match Records",
                 emoji: "🎾📊",
                 question: "Name three tennis statistics tracked?",
-                "answer": "Aces, Double faults, Winners, Unforced errors, Break points (any 3)"
+                options: [
+                    "Aces",
+                    "Double faults",
+                    "Winners",
+                    "Unforced errors",
+                    "Break points",
+                ],
+                correct: 0
             }
         ]
     },
@@ -2461,85 +2758,183 @@ const sportsQuestions = {
                 topic: "Swimming Strokes",
                 emoji: "🏊‍♂️🌊",
                 question: "Name the four competitive swimming strokes?",
-                "answer": "Freestyle (Front Crawl), Backstroke, Breaststroke, Butterfly"
+                options: [
+                    "Freestyle (Front Crawl)",
+                    "Backstroke",
+                    "Breaststroke",
+                    "Butterfly",
+                ],
+                correct: 0
             },
             {
                 topic: "Swimming Events",
                 emoji: "🏊‍♀️🏁",
                 question: "Name three Olympic swimming distances?",
-                "answer": "50m, 100m, 200m, 400m, 800m, 1500m (any 3)"
+                options: [
+                    "50m",
+                    "100m",
+                    "200m",
+                    "400m",
+                    "800m",
+                    "1500m",
+                ],
+                correct: 0
             },
             {
                 topic: "Swimming Legends",
                 emoji: "🏊‍♂️⭐",
                 question: "Name three legendary swimmers?",
-                "answer": "Michael Phelps, Katie Ledecky, Ian Thorpe, Mark Spitz, Caeleb Dressel (any 3)"
+                options: [
+                    "Michael Phelps",
+                    "Katie Ledecky",
+                    "Ian Thorpe",
+                    "Mark Spitz",
+                    "Caeleb Dressel",
+                ],
+                correct: 0
             },
             {
                 topic: "Swimming Techniques",
                 emoji: "🏊‍♀️🎯",
                 question: "Name three swimming technique elements?",
-                "answer": "Breathing, Kick, Pull, Body position, Streamline, Turns (any 3)"
+                options: [
+                    "Breathing",
+                    "Kick",
+                    "Pull",
+                    "Body position",
+                    "Streamline",
+                    "Turns",
+                ],
+                correct: 0
             },
             {
                 topic: "Swimming Equipment",
                 emoji: "🏊‍♂️🎽",
                 question: "Name three swimming training equipment?",
-                "answer": "Kickboard, Pull buoy, Fins, Paddles, Snorkel (any 3)"
+                options: [
+                    "Kickboard",
+                    "Pull buoy",
+                    "Fins",
+                    "Paddles",
+                    "Snorkel",
+                ],
+                correct: 0
             },
             {
                 topic: "Race Types",
                 emoji: "🏊‍♀️🏆",
                 question: "Name three types of swimming races?",
-                "answer": "Individual events, Relay races, Medley events, Sprint, Distance (any 3)"
+                options: [
+                    "Individual events",
+                    "Relay races",
+                    "Medley events",
+                    "Sprint",
+                    "Distance",
+                ],
+                correct: 0
             },
             {
                 topic: "Swimming Starts",
                 emoji: "🏊‍♂️🚀",
                 question: "Name three components of racing start?",
-                "answer": "Reaction time, Dive entry, Streamline, Underwater kick, Breakout (any 3)"
+                options: [
+                    "Reaction time",
+                    "Dive entry",
+                    "Streamline",
+                    "Underwater kick",
+                    "Breakout",
+                ],
+                correct: 0
             },
             {
                 topic: "Training Methods",
                 emoji: "🏊‍♀️💪",
                 question: "Name three swimming training types?",
-                "answer": "Endurance sets, Sprint sets, Technique drills, Strength training (any 3)"
+                options: [
+                    "Endurance sets",
+                    "Sprint sets",
+                    "Technique drills",
+                    "Strength training",
+                ],
+                correct: 0
             },
             {
                 topic: "Swimming Rules",
                 emoji: "🏊‍♂️⚖️",
                 question: "Name three swimming rule violations?",
-                "answer": "False start, Illegal turn, Wrong stroke, Not touching wall, Stepping on bottom (any 3)"
+                options: [
+                    "False start",
+                    "Illegal turn",
+                    "Wrong stroke",
+                    "Not touching wall",
+                    "Stepping on bottom",
+                ],
+                correct: 0
             },
             {
                 topic: "Major Competitions",
                 emoji: "🏊‍♀️🌍",
                 question: "Name three major swimming competitions?",
-                "answer": "Olympics, World Championships, World Cup, Commonwealth Games, Pan Pacific (any 3)"
+                options: [
+                    "Olympics",
+                    "World Championships",
+                    "World Cup",
+                    "Commonwealth Games",
+                    "Pan Pacific",
+                ],
+                correct: 0
             }
         ]
     }
 };
 
-"answer": "Forward pass, Knock-on, Offside, High tackle, Collapsing scrum (any 3)"
+options: [
+    "Forward pass",
+    "Knock-on",
+    "Offside",
+    "High tackle",
+    "Collapsing scrum",
+],
+correct: 0
             },
             {
                 topic: "Tournaments",
                 emoji: "🏉🏆",
                 question: "Name three major rugby tournaments?",
-                "answer": "Rugby World Cup, Six Nations, Rugby Championship, British & Irish Lions (any 3)"
+                options: [
+                    "Rugby World Cup",
+                    "Six Nations",
+                    "Rugby Championship",
+                    "British & Irish Lions",
+                ],
+                correct: 0
             },
             {
                 topic: "Skills",
                 emoji: "🏉💪",
                 question: "Name three rugby skills?",
-                "answer": "Passing, Tackling, Kicking, Rucking, Scrummaging, Catching (any 3)"
+                options: [
+                    "Passing",
+                    "Tackling",
+                    "Kicking",
+                    "Rucking",
+                    "Scrummaging",
+                    "Catching",
+                ],
+                correct: 0
             },
             {
                 topic: "Ball Handling",
                 emoji: "🏉✋",
                 question: "Name three ball-carrying techniques?",
-                "answer": "Two hands carry, One arm carry, Fend-off, Side-step, Spin pass (any 3)"
+                options: [
+                    "Two hands carry",
+                    "One arm carry",
+                    "Fend-off",
+                    "Side-step",
+                    "Spin pass",
+                ],
+                correct: 0
             }
         ]
     },
@@ -2999,61 +3394,134 @@ const sportsQuestionsExtended = {
                 topic: "Golf Clubs",
                 emoji: "⛳🏑",
                 question: "Name three types of golf clubs?",
-                "answer": "Driver, Irons, Wedges, Putter, Woods, Hybrids (any 3)"
+                options: [
+                    "Driver",
+                    "Irons",
+                    "Wedges",
+                    "Putter",
+                    "Woods",
+                    "Hybrids",
+                ],
+                correct: 0
             },
             {
                 topic: "Major Championships",
                 emoji: "⛳🏆",
                 question: "Name the four men's major golf championships?",
-                "answer": "Masters, US Open, The Open Championship (British Open), PGA Championship"
+                options: [
+                    "Masters",
+                    "US Open",
+                    "The Open Championship (British Open)",
+                    "PGA Championship",
+                ],
+                correct: 0
             },
             {
                 topic: "Scoring Terms",
                 emoji: "⛳🔢",
                 question: "Name three golf scoring terms?",
-                "answer": "Birdie, Eagle, Bogey, Par, Albatross, Hole-in-one (any 3)"
+                options: [
+                    "Birdie",
+                    "Eagle",
+                    "Bogey",
+                    "Par",
+                    "Albatross",
+                    "Hole-in-one",
+                ],
+                correct: 0
             },
             {
                 topic: "Golf Legends",
                 emoji: "⛳⭐",
                 question: "Name three legendary golfers?",
-                "answer": "Tiger Woods, Jack Nicklaus, Arnold Palmer, Phil Mickelson, Rory McIlroy (any 3)"
+                options: [
+                    "Tiger Woods",
+                    "Jack Nicklaus",
+                    "Arnold Palmer",
+                    "Phil Mickelson",
+                    "Rory McIlroy",
+                ],
+                correct: 0
             },
             {
                 topic: "Shot Types",
                 emoji: "⛳🎯",
                 question: "Name three types of golf shots?",
-                "answer": "Drive, Chip, Putt, Pitch, Bunker shot, Fade (any 3)"
+                options: [
+                    "Drive",
+                    "Chip",
+                    "Putt",
+                    "Pitch",
+                    "Bunker shot",
+                    "Fade",
+                ],
+                correct: 0
             },
             {
                 topic: "Course Hazards",
                 emoji: "⛳⚠️",
                 question: "Name three golf course hazards?",
-                "answer": "Water hazard, Sand bunker, Rough, Trees, Out of bounds (any 3)"
+                options: [
+                    "Water hazard",
+                    "Sand bunker",
+                    "Rough",
+                    "Trees",
+                    "Out of bounds",
+                ],
+                correct: 0
             },
             {
                 topic: "Golf Formats",
                 emoji: "⛳🎮",
                 question: "Name three golf competition formats?",
-                "answer": "Stroke play, Match play, Scramble, Best ball, Stableford (any 3)"
+                options: [
+                    "Stroke play",
+                    "Match play",
+                    "Scramble",
+                    "Best ball",
+                    "Stableford",
+                ],
+                correct: 0
             },
             {
                 topic: "Course Parts",
                 emoji: "⛳🏞️",
                 question: "Name three parts of a golf course?",
-                "answer": "Tee box, Fairway, Green, Rough, Bunker, Fringe (any 3)"
+                options: [
+                    "Tee box",
+                    "Fairway",
+                    "Green",
+                    "Rough",
+                    "Bunker",
+                    "Fringe",
+                ],
+                correct: 0
             },
             {
                 topic: "Club Components",
                 emoji: "⛳🔧",
                 question: "Name three parts of a golf club?",
-                "answer": "Grip, Shaft, Clubhead, Clubface, Hosel (any 3)"
+                options: [
+                    "Grip",
+                    "Shaft",
+                    "Clubhead",
+                    "Clubface",
+                    "Hosel",
+                ],
+                correct: 0
             },
             {
                 topic: "Famous Courses",
                 emoji: "⛳🏛️",
                 question: "Name three famous golf courses?",
-                "answer": "Augusta National, St Andrews, Pebble Beach, Pinehurst, Shinnecock Hills (any 3)"
+                options: [
+                    "Augusta National",
+                    "St Andrews",
+                    "Pebble Beach",
+                    "Pinehurst",
+                    "Shinnecock Hills",
+                ],
+                correct: 0
             }
         ]
     },
@@ -3501,43 +3969,92 @@ const sportsQuestionsExtended = {
                 topic: "Scoring Methods",
                 emoji: "🏉🎯",
                 question: "Name three ways to score in rugby?",
-                "answer": "Try, Conversion, Penalty kick, Drop goal"
+                options: [
+                    "Try",
+                    "Conversion",
+                    "Penalty kick",
+                    "Drop goal",
+                ],
+                correct: 0
             },
             {
                 topic: "Player Positions",
                 emoji: "🏉👤",
                 question: "Name three rugby positions?",
-                "answer": "Fly-half, Scrum-half, Prop, Hooker, Lock, Flanker, Winger (any 3)"
+                options: [
+                    "Fly-half",
+                    "Scrum-half",
+                    "Prop",
+                    "Hooker",
+                    "Lock",
+                    "Flanker",
+                    "Winger",
+                ],
+                correct: 0
             },
             {
                 topic: "Set Pieces",
                 emoji: "🏉📋",
                 question: "Name the two main set pieces in rugby?",
-                "answer": "Scrum, Lineout"
+                options: [
+                    "Scrum",
+                    "Lineout",
+                ],
+                correct: 0
             },
             {
                 topic: "Rugby Nations",
                 emoji: "🏉🌍",
                 question: "Name three top rugby-playing nations?",
-                "answer": "New Zealand, South Africa, England, Australia, France, Wales, Ireland (any 3)"
+                options: [
+                    "New Zealand",
+                    "South Africa",
+                    "England",
+                    "Australia",
+                    "France",
+                    "Wales",
+                    "Ireland",
+                ],
+                correct: 0
             },
             {
                 topic: "Rugby Legends",
                 emoji: "🏉⭐",
                 question: "Name three legendary rugby players?",
-                "answer": "Jonah Lomu, Richie McCaw, Dan Carter, Jonny Wilkinson, Brian O'Driscoll (any 3)"
+                options: [
+                    "Jonah Lomu",
+                    "Richie McCaw",
+                    "Dan Carter",
+                    "Jonny Wilkinson",
+                    "Brian O'Driscoll",
+                ],
+                correct: 0
             },
             {
                 topic: "Phases of Play",
                 emoji: "🏉🔄",
                 question: "Name three rugby game situations?",
-                "answer": "Scrum, Ruck, Maul, Lineout, Open play (any 3)"
+                options: [
+                    "Scrum",
+                    "Ruck",
+                    "Maul",
+                    "Lineout",
+                    "Open play",
+                ],
+                correct: 0
             },
             {
                 topic: "Infringements",
                 emoji: "🏉🚫",
                 question: "Name three rugby rule violations?",
-                "answer": "Forward pass, Knock-on, Offside, High tackle, Collapsing scrum (any 3)"
+                options: [
+                    "Forward pass",
+                    "Knock-on",
+                    "Offside",
+                    "High tackle",
+                    "Collapsing scrum",
+                ],
+                correct: 0
             },
             {
                 topic: "Tournaments",
@@ -3986,61 +4503,131 @@ const sportsQuestionsExtended = {
                 topic: "Positions",
                 emoji: "🏐👤",
                 question: "Name three volleyball positions?",
-                "answer": "Setter, Outside hitter, Middle blocker, Opposite, Libero (any 3)"
+                options: [
+                    "Setter",
+                    "Outside hitter",
+                    "Middle blocker",
+                    "Opposite",
+                    "Libero",
+                ],
+                correct: 0
             },
             {
                 topic: "Skills",
                 emoji: "🏐💪",
                 question: "Name three volleyball skills?",
-                "answer": "Serve, Pass, Set, Spike, Block, Dig (any 3)"
+                options: [
+                    "Serve",
+                    "Pass",
+                    "Set",
+                    "Spike",
+                    "Block",
+                    "Dig",
+                ],
+                correct: 0
             },
             {
                 topic: "Serve Types",
                 emoji: "🏐🎾",
                 question: "Name three types of serves?",
-                "answer": "Float serve, Jump serve, Underhand serve, Topspin serve (any 3)"
+                options: [
+                    "Float serve",
+                    "Jump serve",
+                    "Underhand serve",
+                    "Topspin serve",
+                ],
+                correct: 0
             },
             {
                 topic: "Attack Shots",
                 emoji: "🏐💥",
                 question: "Name three attacking shots?",
-                "answer": "Spike, Tip, Roll shot, Cut shot, Line shot (any 3)"
+                options: [
+                    "Spike",
+                    "Tip",
+                    "Roll shot",
+                    "Cut shot",
+                    "Line shot",
+                ],
+                correct: 0
             },
             {
                 topic: "Defensive Moves",
                 emoji: "🏐🛡️",
                 question: "Name three defensive techniques?",
-                "answer": "Dig, Block, Dive, Pancake, Roll (any 3)"
+                options: [
+                    "Dig",
+                    "Block",
+                    "Dive",
+                    "Pancake",
+                    "Roll",
+                ],
+                correct: 0
             },
             {
                 topic: "Violations",
                 emoji: "🏐⚠️",
                 question: "Name three volleyball violations?",
-                "answer": "Double hit, Lift/carry, Net touch, Foot fault, Four touches (any 3)"
+                options: [
+                    "Double hit",
+                    "Lift/carry",
+                    "Net touch",
+                    "Foot fault",
+                    "Four touches",
+                ],
+                correct: 0
             },
             {
                 topic: "Set Types",
                 emoji: "🏐📋",
                 question: "Name three types of sets?",
-                "answer": "High ball, Quick set, Back set, Shoot set, Slide set (any 3)"
+                options: [
+                    "High ball",
+                    "Quick set",
+                    "Back set",
+                    "Shoot set",
+                    "Slide set",
+                ],
+                correct: 0
             },
             {
                 topic: "Tournaments",
                 emoji: "🏐🏆",
                 question: "Name three major volleyball competitions?",
-                "answer": "Olympics, World Championship, Nations League, World Cup (any 3)"
+                options: [
+                    "Olympics",
+                    "World Championship",
+                    "Nations League",
+                    "World Cup",
+                ],
+                correct: 0
             },
             {
                 topic: "Court Areas",
                 emoji: "🏐🏟️",
                 question: "Name three zones on volleyball court?",
-                "answer": "Front row, Back row, Service area, Attack line, Free zone (any 3)"
+                options: [
+                    "Front row",
+                    "Back row",
+                    "Service area",
+                    "Attack line",
+                    "Free zone",
+                ],
+                correct: 0
             },
             {
                 topic: "Famous Nations",
                 emoji: "🏐🌍",
                 question: "Name three strong volleyball nations?",
-                "answer": "Brazil, USA, Russia, Italy, Poland, China (any 3)"
+                options: [
+                    "Brazil",
+                    "USA",
+                    "Russia",
+                    "Italy",
+                    "Poland",
+                    "China",
+                ],
+                correct: 0
             }
         ]
     },
@@ -4488,61 +5075,135 @@ const sportsQuestionsExtended = {
                 topic: "Positions",
                 emoji: "⚾👤",
                 question: "Name three baseball positions?",
-                "answer": "Pitcher, Catcher, First base, Shortstop, Outfielder, Second base (any 3)"
+                options: [
+                    "Pitcher",
+                    "Catcher",
+                    "First base",
+                    "Shortstop",
+                    "Outfielder",
+                    "Second base",
+                ],
+                correct: 0
             },
             {
                 topic: "Pitch Types",
                 emoji: "⚾🎯",
                 question: "Name three types of pitches?",
-                "answer": "Fastball, Curveball, Slider, Changeup, Knuckleball (any 3)"
+                options: [
+                    "Fastball",
+                    "Curveball",
+                    "Slider",
+                    "Changeup",
+                    "Knuckleball",
+                ],
+                correct: 0
             },
             {
                 topic: "Hit Types",
                 emoji: "⚾💥",
                 question: "Name three types of hits?",
-                "answer": "Single, Double, Triple, Home run"
+                options: [
+                    "Single",
+                    "Double",
+                    "Triple",
+                    "Home run",
+                ],
+                correct: 0
             },
             {
                 topic: "Baseball Legends",
                 emoji: "⚾⭐",
                 question: "Name three legendary baseball players?",
-                "answer": "Babe Ruth, Jackie Robinson, Willie Mays, Hank Aaron, Derek Jeter (any 3)"
+                options: [
+                    "Babe Ruth",
+                    "Jackie Robinson",
+                    "Willie Mays",
+                    "Hank Aaron",
+                    "Derek Jeter",
+                ],
+                correct: 0
             },
             {
                 topic: "Out Methods",
                 emoji: "⚾❌",
                 question: "Name three ways to get an out?",
-                "answer": "Strike out, Fly out, Ground out, Tag out, Force out (any 3)"
+                options: [
+                    "Strike out",
+                    "Fly out",
+                    "Ground out",
+                    "Tag out",
+                    "Force out",
+                ],
+                correct: 0
             },
             {
                 topic: "MLB Teams",
                 emoji: "⚾🏆",
                 question: "Name three MLB teams?",
-                "answer": "Yankees, Red Sox, Dodgers, Cubs, Giants, Cardinals (any 3)"
+                options: [
+                    "Yankees",
+                    "Red Sox",
+                    "Dodgers",
+                    "Cubs",
+                    "Giants",
+                    "Cardinals",
+                ],
+                correct: 0
             },
             {
                 topic: "Baseball Stats",
                 emoji: "⚾📊",
                 question: "Name three baseball statistics?",
-                "answer": "Batting average, Home runs, RBIs, Strikeouts, ERA, Stolen bases (any 3)"
+                options: [
+                    "Batting average",
+                    "Home runs",
+                    "RBIs",
+                    "Strikeouts",
+                    "ERA",
+                    "Stolen bases",
+                ],
+                correct: 0
             },
             {
                 topic: "World Series",
                 emoji: "⚾🏆",
                 question: "Name three World Series winning teams?",
-                "answer": "Yankees, Cardinals, Red Sox, Giants, Dodgers, Athletics (any 3)"
+                options: [
+                    "Yankees",
+                    "Cardinals",
+                    "Red Sox",
+                    "Giants",
+                    "Dodgers",
+                    "Athletics",
+                ],
+                correct: 0
             },
             {
                 topic: "Baseball Equipment",
                 emoji: "⚾🎽",
                 question: "Name three pieces of baseball equipment?",
-                "answer": "Bat, Glove, Helmet, Cleats, Catcher's mask, Batting gloves (any 3)"
+                options: [
+                    "Bat",
+                    "Glove",
+                    "Helmet",
+                    "Cleats",
+                    "Catcher's mask",
+                    "Batting gloves",
+                ],
+                correct: 0
             },
             {
                 topic: "Baseball Rules",
                 emoji: "⚾⚖️",
                 question: "Name three baseball rules or violations?",
-                "answer": "Balk, Interference, Strike zone, Infield fly, Force out (any 3)"
+                options: [
+                    "Balk",
+                    "Interference",
+                    "Strike zone",
+                    "Infield fly",
+                    "Force out",
+                ],
+                correct: 0
             }
         ]
     },
@@ -4983,61 +5644,133 @@ const sportsQuestionsExtended = {
                 topic: "Positions",
                 emoji: "🏒👤",
                 question: "Name three hockey positions?",
-                "answer": "Center, Winger, Defenseman, Goalie"
+                options: [
+                    "Center",
+                    "Winger",
+                    "Defenseman",
+                    "Goalie",
+                ],
+                correct: 0
             },
             {
                 topic: "Penalties",
                 emoji: "🏒⚠️",
                 question: "Name three types of penalties?",
-                "answer": "Hooking, Tripping, High-sticking, Slashing, Boarding, Cross-checking (any 3)"
+                options: [
+                    "Hooking",
+                    "Tripping",
+                    "High-sticking",
+                    "Slashing",
+                    "Boarding",
+                    "Cross-checking",
+                ],
+                correct: 0
             },
             {
                 topic: "NHL Teams",
                 emoji: "🏒🏆",
                 question: "Name three NHL teams?",
-                "answer": "Maple Leafs, Canadiens, Bruins, Rangers, Blackhawks, Red Wings (any 3)"
+                options: [
+                    "Maple Leafs",
+                    "Canadiens",
+                    "Bruins",
+                    "Rangers",
+                    "Blackhawks",
+                    "Red Wings",
+                ],
+                correct: 0
             },
             {
                 topic: "Hockey Legends",
                 emoji: "🏒⭐",
                 question: "Name three legendary hockey players?",
-                "answer": "Wayne Gretzky, Mario Lemieux, Bobby Orr, Gordie Howe, Maurice Richard (any 3)"
+                options: [
+                    "Wayne Gretzky",
+                    "Mario Lemieux",
+                    "Bobby Orr",
+                    "Gordie Howe",
+                    "Maurice Richard",
+                ],
+                correct: 0
             },
             {
                 topic: "Shot Types",
                 emoji: "🏒🎯",
                 question: "Name three types of shots?",
-                "answer": "Slap shot, Wrist shot, Backhand, Snap shot, One-timer (any 3)"
+                options: [
+                    "Slap shot",
+                    "Wrist shot",
+                    "Backhand",
+                    "Snap shot",
+                    "One-timer",
+                ],
+                correct: 0
             },
             {
                 topic: "Face-off Locations",
                 emoji: "🏒⭕",
                 question: "Name three face-off circle locations?",
-                "answer": "Center ice, Offensive zone, Defensive zone, Neutral zone"
+                options: [
+                    "Center ice",
+                    "Offensive zone",
+                    "Defensive zone",
+                    "Neutral zone",
+                ],
+                correct: 0
             },
             {
                 topic: "Hockey Equipment",
                 emoji: "🏒🎽",
                 question: "Name three pieces of hockey equipment?",
-                "answer": "Stick, Skates, Helmet, Gloves, Pads, Shoulder pads (any 3)"
+                options: [
+                    "Stick",
+                    "Skates",
+                    "Helmet",
+                    "Gloves",
+                    "Pads",
+                    "Shoulder pads",
+                ],
+                correct: 0
             },
             {
                 topic: "Trophies",
                 emoji: "🏒🏆",
                 question: "Name three NHL trophies?",
-                "answer": "Stanley Cup, Hart Trophy, Vezina Trophy, Norris Trophy, Art Ross Trophy (any 3)"
+                options: [
+                    "Stanley Cup",
+                    "Hart Trophy",
+                    "Vezina Trophy",
+                    "Norris Trophy",
+                    "Art Ross Trophy",
+                ],
+                correct: 0
             },
             {
                 topic: "Hockey Terms",
                 emoji: "🏒📖",
                 question: "Name three hockey terminology terms?",
-                "answer": "Hat trick, Power play, Icing, Offside, Breakaway, Face-off (any 3)"
+                options: [
+                    "Hat trick",
+                    "Power play",
+                    "Icing",
+                    "Offside",
+                    "Breakaway",
+                    "Face-off",
+                ],
+                correct: 0
             },
             {
                 topic: "Saves Types",
                 emoji: "🏒🧤",
                 question: "Name three goalie save techniques?",
-                "answer": "Glove save, Pad save, Blocker save, Stack save, Butterfly (any 3)"
+                options: [
+                    "Glove save",
+                    "Pad save",
+                    "Blocker save",
+                    "Stack save",
+                    "Butterfly",
+                ],
+                correct: 0
             }
         ]
     },
@@ -5478,61 +6211,128 @@ const sportsQuestionsExtended = {
                 topic: "Punch Types",
                 emoji: "🥊👊",
                 question: "Name three types of punches?",
-                "answer": "Jab, Cross, Hook, Uppercut, Overhand (any 3)"
+                options: [
+                    "Jab",
+                    "Cross",
+                    "Hook",
+                    "Uppercut",
+                    "Overhand",
+                ],
+                correct: 0
             },
             {
                 topic: "Weight Classes",
                 emoji: "🥊⚖️",
                 question: "Name three boxing weight classes?",
-                "answer": "Heavyweight, Welterweight, Middleweight, Lightweight, Featherweight (any 3)"
+                options: [
+                    "Heavyweight",
+                    "Welterweight",
+                    "Middleweight",
+                    "Lightweight",
+                    "Featherweight",
+                ],
+                correct: 0
             },
             {
                 topic: "Boxing Legends",
                 emoji: "🥊⭐",
                 question: "Name three legendary boxers?",
-                "answer": "Muhammad Ali, Mike Tyson, Floyd Mayweather, Manny Pacquiao, Sugar Ray Robinson (any 3)"
+                options: [
+                    "Muhammad Ali",
+                    "Mike Tyson",
+                    "Floyd Mayweather",
+                    "Manny Pacquiao",
+                    "Sugar Ray Robinson",
+                ],
+                correct: 0
             },
             {
                 topic: "Victory Methods",
                 emoji: "🥊🏆",
                 question: "Name three ways to win in boxing?",
-                "answer": "Knockout (KO), Technical Knockout (TKO), Decision, Disqualification (any 3)"
+                options: [
+                    "Knockout (KO)",
+                    "Technical Knockout (TKO)",
+                    "Decision",
+                    "Disqualification",
+                ],
+                correct: 0
             },
             {
                 topic: "Defense Techniques",
                 emoji: "🥊🛡️",
                 question: "Name three defensive moves?",
-                "answer": "Slip, Bob and weave, Block, Parry, Roll (any 3)"
+                options: [
+                    "Slip",
+                    "Bob and weave",
+                    "Block",
+                    "Parry",
+                    "Roll",
+                ],
+                correct: 0
             },
             {
                 topic: "Boxing Terms",
                 emoji: "🥊📖",
                 question: "Name three boxing terminology terms?",
-                "answer": "Clinch, Southpaw, Orthodox, Counter punch, Combination (any 3)"
+                options: [
+                    "Clinch",
+                    "Southpaw",
+                    "Orthodox",
+                    "Counter punch",
+                    "Combination",
+                ],
+                correct: 0
             },
             {
                 topic: "Famous Fights",
                 emoji: "🥊🔥",
                 question: "Name three famous boxing rivalries or fights?",
-                "answer": "Ali vs Frazier, Mayweather vs Pacquiao, Tyson vs Holyfield, Hagler vs Hearns (any 3)"
+                options: [
+                    "Ali vs Frazier",
+                    "Mayweather vs Pacquiao",
+                    "Tyson vs Holyfield",
+                    "Hagler vs Hearns",
+                ],
+                correct: 0
             },
             {
                 topic: "Training Equipment",
                 emoji: "🥊🎽",
                 question: "Name three boxing training tools?",
-                "answer": "Heavy bag, Speed bag, Jump rope, Focus mitts, Double-end bag (any 3)"
+                options: [
+                    "Heavy bag",
+                    "Speed bag",
+                    "Jump rope",
+                    "Focus mitts",
+                    "Double-end bag",
+                ],
+                correct: 0
             },
             {
                 topic: "Boxing Organizations",
                 emoji: "🥊🏢",
                 question: "Name three boxing governing bodies?",
-                "answer": "WBC, WBA, IBF, WBO (any 3)"
+                options: [
+                    "WBC",
+                    "WBA",
+                    "IBF",
+                    "WBO",
+                ],
+                correct: 0
             },
             {
                 topic: "Fouls",
                 emoji: "🥊🚫",
                 question: "Name three boxing fouls?",
-                "answer": "Low blow, Rabbit punch, Headbutt, Hitting behind head, Holding and hitting (any 3)"
+                options: [
+                    "Low blow",
+                    "Rabbit punch",
+                    "Headbutt",
+                    "Hitting behind head",
+                    "Holding and hitting",
+                ],
+                correct: 0
             }
         ]
     },
@@ -5953,61 +6753,120 @@ const sportsQuestionsExtended = {
                 topic: "Sprint Events",
                 emoji: "🏃💨",
                 question: "Name the three main sprint distances?",
-                "answer": "100 meters, 200 meters, 400 meters"
+                options: [
+                    "100 meters",
+                    "200 meters",
+                    "400 meters",
+                ],
+                correct: 0
             },
             {
                 topic: "Throwing Events",
                 emoji: "🏃🎯",
                 question: "Name the four throwing events?",
-                "answer": "Shot put, Discus, Javelin, Hammer throw"
+                options: [
+                    "Shot put",
+                    "Discus",
+                    "Javelin",
+                    "Hammer throw",
+                ],
+                correct: 0
             },
             {
                 topic: "Jumping Events",
                 emoji: "🏃⬆️",
                 question: "Name the four jumping events?",
-                "answer": "High jump, Long jump, Triple jump, Pole vault"
+                options: [
+                    "High jump",
+                    "Long jump",
+                    "Triple jump",
+                    "Pole vault",
+                ],
+                correct: 0
             },
             {
                 topic: "Distance Running",
                 emoji: "🏃🌍",
                 question: "Name three long distance events?",
-                "answer": "1500m, 5000m, 10000m, Marathon, Half marathon (any 3)"
+                options: [
+                    "1500m",
+                    "5000m",
+                    "10000m",
+                    "Marathon",
+                    "Half marathon",
+                ],
+                correct: 0
             },
             {
                 topic: "Track Legends",
                 emoji: "🏃⭐",
                 question: "Name three legendary track athletes?",
-                "answer": "Usain Bolt, Carl Lewis, Jesse Owens, Michael Johnson, Florence Griffith-Joyner (any 3)"
+                options: [
+                    "Usain Bolt",
+                    "Carl Lewis",
+                    "Jesse Owens",
+                    "Michael Johnson",
+                    "Florence Griffith-Joyner",
+                ],
+                correct: 0
             },
             {
                 topic: "Hurdle Events",
                 emoji: "🏃🚧",
                 question: "Name three hurdle race distances?",
-                "answer": "100m hurdles (women), 110m hurdles (men), 400m hurdles, 3000m steeplechase (any 3)"
+                options: [
+                    "100m hurdles (women)",
+                    "110m hurdles (men)",
+                    "400m hurdles",
+                    "3000m steeplechase",
+                ],
+                correct: 0
             },
             {
                 topic: "Relay Races",
                 emoji: "🏃🤝",
                 question: "Name the two standard relay races?",
-                "answer": "4x100 meter relay, 4x400 meter relay"
+                options: [
+                    "4x100 meter relay",
+                    "4x400 meter relay",
+                ],
+                correct: 0
             },
             {
                 topic: "Combined Events",
                 emoji: "🏃💪",
                 question: "Name the two main combined events?",
-                "answer": "Decathlon (men - 10 events), Heptathlon (women - 7 events)"
+                options: [
+                    "Decathlon (men - 10 events)",
+                    "Heptathlon (women - 7 events)",
+                ],
+                correct: 0
             },
             {
                 topic: "Track Equipment",
                 emoji: "🏃🎽",
                 question: "Name three pieces of track and field equipment?",
-                "answer": "Starting blocks, Hurdles, Pole vault pole, Javelin, Shot put, Baton (any 3)"
+                options: [
+                    "Starting blocks",
+                    "Hurdles",
+                    "Pole vault pole",
+                    "Javelin",
+                    "Shot put",
+                    "Baton",
+                ],
+                correct: 0
             },
             {
                 topic: "Championships",
                 emoji: "🏃🏆",
                 question: "Name three major track championships?",
-                "answer": "Olympics, World Championships, Diamond League, Continental Championships (any 3)"
+                options: [
+                    "Olympics",
+                    "World Championships",
+                    "Diamond League",
+                    "Continental Championships",
+                ],
+                correct: 0
             }
         ]
     },
@@ -6448,61 +7307,129 @@ const sportsQuestionsExtended = {
                 topic: "Cycling Disciplines",
                 emoji: "🚴🎯",
                 question: "Name three cycling disciplines?",
-                "answer": "Road racing, Track cycling, Mountain biking, BMX, Cyclocross (any 3)"
+                options: [
+                    "Road racing",
+                    "Track cycling",
+                    "Mountain biking",
+                    "BMX",
+                    "Cyclocross",
+                ],
+                correct: 0
             },
             {
                 topic: "Grand Tours",
                 emoji: "🚴🌍",
                 question: "Name the three Grand Tours?",
-                "answer": "Tour de France, Giro d'Italia, Vuelta a España"
+                options: [
+                    "Tour de France",
+                    "Giro d'Italia",
+                    "Vuelta a España",
+                ],
+                correct: 0
             },
             {
                 topic: "Cycling Legends",
                 emoji: "🚴⭐",
                 question: "Name three legendary cyclists?",
-                "answer": "Eddy Merckx, Lance Armstrong, Miguel Indurain, Chris Froome, Peter Sagan (any 3)"
+                options: [
+                    "Eddy Merckx",
+                    "Lance Armstrong",
+                    "Miguel Indurain",
+                    "Chris Froome",
+                    "Peter Sagan",
+                ],
+                correct: 0
             },
             {
                 topic: "Tour Jerseys",
                 emoji: "🚴👕",
                 question: "Name three Tour de France jerseys?",
-                "answer": "Yellow (overall leader), Green (sprinter), Polka dot (climber), White (young rider) (any 3)"
+                options: [
+                    "Yellow (overall leader)",
+                    "Green (sprinter)",
+                    "Polka dot (climber)",
+                    "White (young rider)",
+                ],
+                correct: 0
             },
             {
                 topic: "Bike Components",
                 emoji: "🚴🔧",
                 question: "Name three major bike components?",
-                "answer": "Frame, Wheels, Handlebars, Gears/Drivetrain, Brakes, Pedals (any 3)"
+                options: [
+                    "Frame",
+                    "Wheels",
+                    "Handlebars",
+                    "Gears/Drivetrain",
+                    "Brakes",
+                    "Pedals",
+                ],
+                correct: 0
             },
             {
                 topic: "Track Events",
                 emoji: "🚴🏟️",
                 question: "Name three track cycling events?",
-                "answer": "Sprint, Keirin, Team pursuit, Madison, Omnium (any 3)"
+                options: [
+                    "Sprint",
+                    "Keirin",
+                    "Team pursuit",
+                    "Madison",
+                    "Omnium",
+                ],
+                correct: 0
             },
             {
                 topic: "Cycling Terms",
                 emoji: "🚴📖",
                 question: "Name three cycling terminology terms?",
-                "answer": "Peloton, Breakaway, Drafting, Cadence, Bonking, Domestique (any 3)"
+                options: [
+                    "Peloton",
+                    "Breakaway",
+                    "Drafting",
+                    "Cadence",
+                    "Bonking",
+                    "Domestique",
+                ],
+                correct: 0
             },
             {
                 topic: "Classic Races",
                 emoji: "🚴🏛️",
                 question: "Name three Classic cycling races?",
-                "answer": "Paris-Roubaix, Tour of Flanders, Milan-San Remo, Liège-Bastogne-Liège (any 3)"
+                options: [
+                    "Paris-Roubaix",
+                    "Tour of Flanders",
+                    "Milan-San Remo",
+                    "Liège-Bastogne-Liège",
+                ],
+                correct: 0
             },
             {
                 topic: "Cycling Tactics",
                 emoji: "🚴🧠",
                 question: "Name three cycling racing tactics?",
-                "answer": "Drafting, Breakaway, Lead-out train, Attacking, Counterattack (any 3)"
+                options: [
+                    "Drafting",
+                    "Breakaway",
+                    "Lead-out train",
+                    "Attacking",
+                    "Counterattack",
+                ],
+                correct: 0
             },
             {
                 topic: "Climbing Categories",
                 emoji: "🚴⛰️",
                 question: "Name three types of climbs in cycling?",
-                "answer": "Category 4, Category 3, Category 2, Category 1, Hors Catégorie (HC) (any 3)"
+                options: [
+                    "Category 4",
+                    "Category 3",
+                    "Category 2",
+                    "Category 1",
+                    "Hors Catégorie (HC)",
+                ],
+                correct: 0
             }
         ]
     },
@@ -6942,61 +7869,131 @@ const sportsQuestionsExtended = {
                 topic: "Women's Apparatus",
                 emoji: "🤸‍♀️🏋️",
                 question: "Name the four women's artistic gymnastics events?",
-                "answer": "Vault, Uneven bars, Balance beam, Floor exercise"
+                options: [
+                    "Vault",
+                    "Uneven bars",
+                    "Balance beam",
+                    "Floor exercise",
+                ],
+                correct: 0
             },
             {
                 topic: "Men's Apparatus",
                 emoji: "🤸‍♂️🏋️",
                 question: "Name the six men's artistic gymnastics events?",
-                "answer": "Floor exercise, Pommel horse, Still rings, Vault, Parallel bars, Horizontal bar (any 3)"
+                options: [
+                    "Floor exercise",
+                    "Pommel horse",
+                    "Still rings",
+                    "Vault",
+                    "Parallel bars",
+                    "Horizontal bar",
+                ],
+                correct: 0
             },
             {
                 topic: "Gymnastics Skills",
                 emoji: "🤸‍♀️💪",
                 question: "Name three gymnastics skills?",
-                "answer": "Backflip, Handspring, Cartwheel, Split, Back handspring, Round-off (any 3)"
+                options: [
+                    "Backflip",
+                    "Handspring",
+                    "Cartwheel",
+                    "Split",
+                    "Back handspring",
+                    "Round-off",
+                ],
+                correct: 0
             },
             {
                 topic: "Body Positions",
                 emoji: "🤸‍♂️📐",
                 question: "Name three gymnastics body positions?",
-                "answer": "Pike, Tuck, Layout, Straddle, Arch (any 3)"
+                options: [
+                    "Pike",
+                    "Tuck",
+                    "Layout",
+                    "Straddle",
+                    "Arch",
+                ],
+                correct: 0
             },
             {
                 topic: "Gymnastics Legends",
                 emoji: "🤸‍♀️⭐",
                 question: "Name three legendary gymnasts?",
-                "answer": "Simone Biles, Nadia Comăneci, Olga Korbut, Mary Lou Retton, Kohei Uchimura (any 3)"
+                options: [
+                    "Simone Biles",
+                    "Nadia Comăneci",
+                    "Olga Korbut",
+                    "Mary Lou Retton",
+                    "Kohei Uchimura",
+                ],
+                correct: 0
             },
             {
                 topic: "Gymnastics Types",
                 emoji: "🤸‍♂️🎯",
                 question: "Name three types of gymnastics?",
-                "answer": "Artistic, Rhythmic, Trampoline, Acrobatic, Aerobic (any 3)"
+                options: [
+                    "Artistic",
+                    "Rhythmic",
+                    "Trampoline",
+                    "Acrobatic",
+                    "Aerobic",
+                ],
+                correct: 0
             },
             {
                 topic: "Vault Types",
                 emoji: "🤸‍♀️➡️",
                 question: "Name three types of vaults?",
-                "answer": "Yurchenko, Tsukahara, Handspring, Rudi, Front handspring (any 3)"
+                options: [
+                    "Yurchenko",
+                    "Tsukahara",
+                    "Handspring",
+                    "Rudi",
+                    "Front handspring",
+                ],
+                correct: 0
             },
             {
                 topic: "Floor Tumbling",
                 emoji: "🤸‍♂️🔄",
                 question: "Name three tumbling skills?",
-                "answer": "Back tuck, Layout, Full twist, Double back, Arabian (any 3)"
+                options: [
+                    "Back tuck",
+                    "Layout",
+                    "Full twist",
+                    "Double back",
+                    "Arabian",
+                ],
+                correct: 0
             },
             {
                 topic: "Scoring Components",
                 emoji: "🤸‍♀️📊",
                 question: "Name three factors in gymnastics scoring?",
-                "answer": "Difficulty (D-score), Execution (E-score), Artistry, Deductions, Bonus (any 3)"
+                options: [
+                    "Difficulty (D-score)",
+                    "Execution (E-score)",
+                    "Artistry",
+                    "Deductions",
+                    "Bonus",
+                ],
+                correct: 0
             },
             {
                 topic: "Championships",
                 emoji: "🤸‍♂️🏆",
                 question: "Name three major gymnastics competitions?",
-                "answer": "Olympics, World Championships, World Cup, Continental Championships (any 3)"
+                options: [
+                    "Olympics",
+                    "World Championships",
+                    "World Cup",
+                    "Continental Championships",
+                ],
+                correct: 0
             }
         ]
     },
@@ -7444,61 +8441,130 @@ const sportsQuestionsExtended = {
                 topic: "Skiing Disciplines",
                 emoji: "⛷️🎯",
                 question: "Name three skiing disciplines?",
-                "answer": "Alpine/Downhill, Cross-country/Nordic, Freestyle, Ski jumping, Backcountry (any 3)"
+                options: [
+                    "Alpine/Downhill",
+                    "Cross-country/Nordic",
+                    "Freestyle",
+                    "Ski jumping",
+                    "Backcountry",
+                ],
+                correct: 0
             },
             {
                 topic: "Alpine Events",
                 emoji: "⛷️🏔️",
                 question: "Name three alpine skiing race types?",
-                "answer": "Downhill, Slalom, Giant slalom, Super-G, Combined (any 3)"
+                options: [
+                    "Downhill",
+                    "Slalom",
+                    "Giant slalom",
+                    "Super-G",
+                    "Combined",
+                ],
+                correct: 0
             },
             {
                 topic: "Ski Legends",
                 emoji: "⛷️⭐",
                 question: "Name three legendary skiers?",
-                "answer": "Lindsey Vonn, Ingemar Stenmark, Alberto Tomba, Mikaela Shiffrin, Hermann Maier (any 3)"
+                options: [
+                    "Lindsey Vonn",
+                    "Ingemar Stenmark",
+                    "Alberto Tomba",
+                    "Mikaela Shiffrin",
+                    "Hermann Maier",
+                ],
+                correct: 0
             },
             {
                 topic: "Slope Ratings",
                 emoji: "⛷️🎨",
                 question: "Name the three main slope difficulty levels?",
-                "answer": "Green circle (beginner), Blue square (intermediate), Black diamond (expert/advanced)"
+                options: [
+                    "Green circle (beginner)",
+                    "Blue square (intermediate)",
+                    "Black diamond (expert/advanced)",
+                ],
+                correct: 0
             },
             {
                 topic: "Ski Equipment",
                 emoji: "⛷️🎿",
                 question: "Name three essential skiing equipment items?",
-                "answer": "Skis, Boots, Poles, Bindings, Helmet, Goggles (any 3)"
+                options: [
+                    "Skis",
+                    "Boots",
+                    "Poles",
+                    "Bindings",
+                    "Helmet",
+                    "Goggles",
+                ],
+                correct: 0
             },
             {
                 topic: "Freestyle Skiing",
                 emoji: "⛷️🎪",
                 question: "Name three freestyle skiing events?",
-                "answer": "Moguls, Aerials, Halfpipe, Slopestyle, Ski cross (any 3)"
+                options: [
+                    "Moguls",
+                    "Aerials",
+                    "Halfpipe",
+                    "Slopestyle",
+                    "Ski cross",
+                ],
+                correct: 0
             },
             {
                 topic: "Ski Techniques",
                 emoji: "⛷️💪",
                 question: "Name three skiing techniques?",
-                "answer": "Snowplow, Parallel turn, Carving, Hockey stop, Jump turn (any 3)"
+                options: [
+                    "Snowplow",
+                    "Parallel turn",
+                    "Carving",
+                    "Hockey stop",
+                    "Jump turn",
+                ],
+                correct: 0
             },
             {
                 topic: "Ski Resort Features",
                 emoji: "⛷️🏔️",
                 question: "Name three ski resort features?",
-                "answer": "Ski lifts, Groomed runs, Terrain park, Lodge, Ski patrol (any 3)"
+                options: [
+                    "Ski lifts",
+                    "Groomed runs",
+                    "Terrain park",
+                    "Lodge",
+                    "Ski patrol",
+                ],
+                correct: 0
             },
             {
                 topic: "Safety Equipment",
                 emoji: "⛷️🛡️",
                 question: "Name three skiing safety items?",
-                "answer": "Helmet, Avalanche beacon, Probe, Shovel, First aid kit (any 3)"
+                options: [
+                    "Helmet",
+                    "Avalanche beacon",
+                    "Probe",
+                    "Shovel",
+                    "First aid kit",
+                ],
+                correct: 0
             },
             {
                 topic: "Ski Types",
                 emoji: "⛷️🎿",
                 question: "Name three types of skis?",
-                "answer": "All-mountain, Powder, Racing/Carving, Park/Freestyle, Touring (any 3)"
+                options: [
+                    "All-mountain",
+                    "Powder",
+                    "Racing/Carving",
+                    "Park/Freestyle",
+                    "Touring",
+                ],
+                correct: 0
             }
         ]
     },
@@ -7946,61 +9012,141 @@ const sportsQuestionsExtended = {
                 topic: "Major Martial Arts",
                 emoji: "🥋🌍",
                 question: "Name three popular martial arts?",
-                "answer": "Karate, Judo, Taekwondo, Kung Fu, Brazilian Jiu-Jitsu, Muay Thai (any 3)"
+                options: [
+                    "Karate",
+                    "Judo",
+                    "Taekwondo",
+                    "Kung Fu",
+                    "Brazilian Jiu-Jitsu",
+                    "Muay Thai",
+                ],
+                correct: 0
             },
             {
                 topic: "Striking Arts",
                 emoji: "🥋👊",
                 question: "Name three striking martial arts?",
-                "answer": "Karate, Taekwondo, Muay Thai, Boxing, Kickboxing (any 3)"
+                options: [
+                    "Karate",
+                    "Taekwondo",
+                    "Muay Thai",
+                    "Boxing",
+                    "Kickboxing",
+                ],
+                correct: 0
             },
             {
                 topic: "Grappling Arts",
                 emoji: "🥋🤼",
                 question: "Name three grappling martial arts?",
-                "answer": "Judo, Brazilian Jiu-Jitsu, Wrestling, Sambo, Aikido (any 3)"
+                options: [
+                    "Judo",
+                    "Brazilian Jiu-Jitsu",
+                    "Wrestling",
+                    "Sambo",
+                    "Aikido",
+                ],
+                correct: 0
             },
             {
                 topic: "Belt Colors",
                 emoji: "🥋🎨",
                 question: "Name three common belt colors?",
-                "answer": "White, Yellow, Orange, Green, Blue, Purple, Brown, Red, Black (any 3)"
+                options: [
+                    "White",
+                    "Yellow",
+                    "Orange",
+                    "Green",
+                    "Blue",
+                    "Purple",
+                    "Brown",
+                    "Red",
+                    "Black",
+                ],
+                correct: 0
             },
             {
                 topic: "Techniques",
                 emoji: "🥋💥",
                 question: "Name three martial arts techniques?",
-                "answer": "Punch, Kick, Block, Throw, Submission, Strike, Sweep (any 3)"
+                options: [
+                    "Punch",
+                    "Kick",
+                    "Block",
+                    "Throw",
+                    "Submission",
+                    "Strike",
+                    "Sweep",
+                ],
+                correct: 0
             },
             {
                 topic: "Karate Styles",
                 emoji: "🥋🇯🇵",
                 question: "Name three karate styles?",
-                "answer": "Shotokan, Goju-Ryu, Shito-Ryu, Wado-Ryu, Kyokushin (any 3)"
+                options: [
+                    "Shotokan",
+                    "Goju-Ryu",
+                    "Shito-Ryu",
+                    "Wado-Ryu",
+                    "Kyokushin",
+                ],
+                correct: 0
             },
             {
                 topic: "Training Equipment",
                 emoji: "🥋🎯",
                 question: "Name three martial arts training equipment?",
-                "answer": "Heavy bag, Focus mitts, Makiwara, Dummy, Punching bag, Pads (any 3)"
+                options: [
+                    "Heavy bag",
+                    "Focus mitts",
+                    "Makiwara",
+                    "Dummy",
+                    "Punching bag",
+                    "Pads",
+                ],
+                correct: 0
             },
             {
                 topic: "Martial Arts Values",
                 emoji: "🥋⭐",
                 question: "Name three martial arts values?",
-                "answer": "Respect, Discipline, Perseverance, Integrity, Self-control, Humility (any 3)"
+                options: [
+                    "Respect",
+                    "Discipline",
+                    "Perseverance",
+                    "Integrity",
+                    "Self-control",
+                    "Humility",
+                ],
+                correct: 0
             },
             {
                 topic: "Weapons",
                 emoji: "🥋⚔️",
                 question: "Name three martial arts weapons?",
-                "answer": "Bo staff, Nunchaku, Sword/Katana, Sai, Kama, Tonfa (any 3)"
+                options: [
+                    "Bo staff",
+                    "Nunchaku",
+                    "Sword/Katana",
+                    "Sai",
+                    "Kama",
+                    "Tonfa",
+                ],
+                correct: 0
             },
             {
                 topic: "Competition Types",
                 emoji: "🥋🏆",
                 question: "Name three martial arts competition formats?",
-                "answer": "Kata/Forms, Sparring/Kumite, Point fighting, Full contact, Submission grappling (any 3)"
+                options: [
+                    "Kata/Forms",
+                    "Sparring/Kumite",
+                    "Point fighting",
+                    "Full contact",
+                    "Submission grappling",
+                ],
+                correct: 0
             }
         ]
     },
@@ -8448,61 +9594,135 @@ const sportsQuestionsExtended = {
                 topic: "Surf Spots",
                 emoji: "🏄‍♂️🌍",
                 question: "Name three famous surf locations?",
-                "answer": "Hawaii (Pipeline, Waimea), California (Malibu), Australia (Gold Coast), Indonesia (Bali), Portugal (Nazaré) (any 3)"
+                options: [
+                    "Hawaii (Pipeline",
+                    "Waimea)",
+                    "California (Malibu)",
+                    "Australia (Gold Coast)",
+                    "Indonesia (Bali)",
+                    "Portugal (Nazaré)",
+                ],
+                correct: 0
             },
             {
                 topic: "Surfboard Types",
                 emoji: "🏄‍♀️🏄",
                 question: "Name three types of surfboards?",
-                "answer": "Shortboard, Longboard, Fish, Gun, Funboard, Foam board (any 3)"
+                options: [
+                    "Shortboard",
+                    "Longboard",
+                    "Fish",
+                    "Gun",
+                    "Funboard",
+                    "Foam board",
+                ],
+                correct: 0
             },
             {
                 topic: "Surf Maneuvers",
                 emoji: "🏄‍♂️🎯",
                 question: "Name three surfing maneuvers?",
-                "answer": "Cutback, Bottom turn, Top turn, Aerial, Barrel ride, Floater (any 3)"
+                options: [
+                    "Cutback",
+                    "Bottom turn",
+                    "Top turn",
+                    "Aerial",
+                    "Barrel ride",
+                    "Floater",
+                ],
+                correct: 0
             },
             {
                 topic: "Legendary Surfers",
                 emoji: "🏄‍♀️⭐",
                 question: "Name three legendary surfers?",
-                "answer": "Kelly Slater, Duke Kahanamoku, Laird Hamilton, Stephanie Gilmore, Bethany Hamilton (any 3)"
+                options: [
+                    "Kelly Slater",
+                    "Duke Kahanamoku",
+                    "Laird Hamilton",
+                    "Stephanie Gilmore",
+                    "Bethany Hamilton",
+                ],
+                correct: 0
             },
             {
                 topic: "Wave Types",
                 emoji: "🏄‍♂️🌊",
                 question: "Name three types of waves?",
-                "answer": "Point break, Beach break, Reef break, Closeout, A-frame (any 3)"
+                options: [
+                    "Point break",
+                    "Beach break",
+                    "Reef break",
+                    "Closeout",
+                    "A-frame",
+                ],
+                correct: 0
             },
             {
                 topic: "Surf Equipment",
                 emoji: "🏄‍♀️🎽",
                 question: "Name three surfing equipment items?",
-                "answer": "Surfboard, Leash, Wax, Wetsuit, Fins, Rash guard (any 3)"
+                options: [
+                    "Surfboard",
+                    "Leash",
+                    "Wax",
+                    "Wetsuit",
+                    "Fins",
+                    "Rash guard",
+                ],
+                correct: 0
             },
             {
                 topic: "Surf Terms",
                 emoji: "🏄‍♂️📖",
                 question: "Name three surfing slang terms?",
-                "answer": "Stoked, Gnarly, Shred, Hang ten, Wipeout, Carve (any 3)"
+                options: [
+                    "Stoked",
+                    "Gnarly",
+                    "Shred",
+                    "Hang ten",
+                    "Wipeout",
+                    "Carve",
+                ],
+                correct: 0
             },
             {
                 topic: "Fin Setups",
                 emoji: "🏄‍♀️🦈",
                 question: "Name three fin configurations?",
-                "answer": "Single fin, Twin fin, Thruster (3 fins), Quad (4 fins), Five fin (any 3)"
+                options: [
+                    "Single fin",
+                    "Twin fin",
+                    "Thruster (3 fins)",
+                    "Quad (4 fins)",
+                    "Five fin",
+                ],
+                correct: 0
             },
             {
                 topic: "Surf Conditions",
                 emoji: "🏄‍♂️🌤️",
                 question: "Name three factors affecting surf conditions?",
-                "answer": "Wind direction, Swell size, Tide, Wave period, Bottom contour (any 3)"
+                options: [
+                    "Wind direction",
+                    "Swell size",
+                    "Tide",
+                    "Wave period",
+                    "Bottom contour",
+                ],
+                correct: 0
             },
             {
                 topic: "Competitions",
                 emoji: "🏄‍♀️🏆",
                 question: "Name three major surf competitions?",
-                "answer": "WSL Championship Tour, Pipeline Masters, US Open of Surfing, Rip Curl Pro (any 3)"
+                options: [
+                    "WSL Championship Tour",
+                    "Pipeline Masters",
+                    "US Open of Surfing",
+                    "Rip Curl Pro",
+                ],
+                correct: 0
             }
         ]
     },
@@ -8920,61 +10140,135 @@ const sportsQuestionsExtended = {
                 topic: "Shot Types",
                 emoji: "🏸🎯",
                 question: "Name three badminton shots?",
-                "answer": "Smash, Clear, Drop shot, Drive, Net shot, Lob (any 3)"
+                options: [
+                    "Smash",
+                    "Clear",
+                    "Drop shot",
+                    "Drive",
+                    "Net shot",
+                    "Lob",
+                ],
+                correct: 0
             },
             {
                 topic: "Badminton Events",
                 emoji: "🏸🏆",
                 question: "Name the five Olympic badminton events?",
-                "answer": "Men's singles, Women's singles, Men's doubles, Women's doubles, Mixed doubles (any 3)"
+                options: [
+                    "Men's singles",
+                    "Women's singles",
+                    "Men's doubles",
+                    "Women's doubles",
+                    "Mixed doubles",
+                ],
+                correct: 0
             },
             {
                 topic: "Legendary Players",
                 emoji: "🏸⭐",
                 question: "Name three badminton legends?",
-                "answer": "Lin Dan, Lee Chong Wei, Taufik Hidayat, Saina Nehwal, P.V. Sindhu (any 3)"
+                options: [
+                    "Lin Dan",
+                    "Lee Chong Wei",
+                    "Taufik Hidayat",
+                    "Saina Nehwal",
+                    "P.V. Sindhu",
+                ],
+                correct: 0
             },
             {
                 topic: "Techniques",
                 emoji: "🏸💪",
                 question: "Name three badminton techniques?",
-                "answer": "Forehand grip, Backhand grip, Footwork, Jump smash, Deception (any 3)"
+                options: [
+                    "Forehand grip",
+                    "Backhand grip",
+                    "Footwork",
+                    "Jump smash",
+                    "Deception",
+                ],
+                correct: 0
             },
             {
                 topic: "Court Areas",
                 emoji: "🏸📐",
                 question: "Name three court zones?",
-                "answer": "Service court, Forecourt, Midcourt, Backcourt, Tramlines (any 3)"
+                options: [
+                    "Service court",
+                    "Forecourt",
+                    "Midcourt",
+                    "Backcourt",
+                    "Tramlines",
+                ],
+                correct: 0
             },
             {
                 topic: "Badminton Terms",
                 emoji: "🏸📖",
                 question: "Name three badminton terminology terms?",
-                "answer": "Rally, Fault, Let, Deuce, Service over, Woodshot (any 3)"
+                options: [
+                    "Rally",
+                    "Fault",
+                    "Let",
+                    "Deuce",
+                    "Service over",
+                    "Woodshot",
+                ],
+                correct: 0
             },
             {
                 topic: "Strategies",
                 emoji: "🏸🧠",
                 question: "Name three badminton strategies?",
-                "answer": "Attack, Defense, Deception, Net play, Baseline play, Rotation (any 3)"
+                options: [
+                    "Attack",
+                    "Defense",
+                    "Deception",
+                    "Net play",
+                    "Baseline play",
+                    "Rotation",
+                ],
+                correct: 0
             },
             {
                 topic: "Equipment",
                 emoji: "🏸🎽",
                 question: "Name three badminton equipment items?",
-                "answer": "Racket, Shuttlecock, Shoes, Grip, String, Net (any 3)"
+                options: [
+                    "Racket",
+                    "Shuttlecock",
+                    "Shoes",
+                    "Grip",
+                    "String",
+                    "Net",
+                ],
+                correct: 0
             },
             {
                 topic: "Faults",
                 emoji: "🏸🚫",
                 question: "Name three types of faults?",
-                "answer": "Service fault, Foot fault, Double hit, Net touch, Carry (any 3)"
+                options: [
+                    "Service fault",
+                    "Foot fault",
+                    "Double hit",
+                    "Net touch",
+                    "Carry",
+                ],
+                correct: 0
             },
             {
                 topic: "Major Tournaments",
                 emoji: "🏸🏆",
                 question: "Name three major badminton tournaments?",
-                "answer": "Olympics, World Championships, All England, Thomas Cup, Uber Cup (any 3)"
+                options: [
+                    "Olympics",
+                    "World Championships",
+                    "All England",
+                    "Thomas Cup",
+                    "Uber Cup",
+                ],
+                correct: 0
             }
         ]
     },
@@ -9414,61 +10708,136 @@ const sportsQuestionsExtended = {
                 topic: "Racing Series",
                 emoji: "🏁🏆",
                 question: "Name three major racing series?",
-                "answer": "Formula 1, NASCAR, IndyCar, MotoGP, WEC, Formula E (any 3)"
+                options: [
+                    "Formula 1",
+                    "NASCAR",
+                    "IndyCar",
+                    "MotoGP",
+                    "WEC",
+                    "Formula E",
+                ],
+                correct: 0
             },
             {
                 topic: "F1 Teams",
                 emoji: "🏁🏗️",
                 question: "Name three current F1 teams?",
-                "answer": "Mercedes, Red Bull, Ferrari, McLaren, Alpine, Aston Martin (any 3)"
+                options: [
+                    "Mercedes",
+                    "Red Bull",
+                    "Ferrari",
+                    "McLaren",
+                    "Alpine",
+                    "Aston Martin",
+                ],
+                correct: 0
             },
             {
                 topic: "Racing Legends",
                 emoji: "🏁⭐",
                 question: "Name three legendary race drivers?",
-                "answer": "Ayrton Senna, Michael Schumacher, Lewis Hamilton, Alain Prost, Juan Manuel Fangio (any 3)"
+                options: [
+                    "Ayrton Senna",
+                    "Michael Schumacher",
+                    "Lewis Hamilton",
+                    "Alain Prost",
+                    "Juan Manuel Fangio",
+                ],
+                correct: 0
             },
             {
                 topic: "Circuit Types",
                 emoji: "🏁🛣️",
                 question: "Name three types of racing circuits?",
-                "answer": "Street circuit, Permanent circuit, Road course, Oval, Mixed circuit (any 3)"
+                options: [
+                    "Street circuit",
+                    "Permanent circuit",
+                    "Road course",
+                    "Oval",
+                    "Mixed circuit",
+                ],
+                correct: 0
             },
             {
                 topic: "Car Components",
                 emoji: "🏁🔧",
                 question: "Name three F1 car components?",
-                "answer": "Engine/Power unit, Chassis, Wings, Tires, Gearbox, Suspension (any 3)"
+                options: [
+                    "Engine/Power unit",
+                    "Chassis",
+                    "Wings",
+                    "Tires",
+                    "Gearbox",
+                    "Suspension",
+                ],
+                correct: 0
             },
             {
                 topic: "Flag Signals",
                 emoji: "🏁🚩",
                 question: "Name three racing flag meanings?",
-                "answer": "Green (start/clear), Yellow (caution), Red (stop), Blue (let faster car pass), Black (disqualification) (any 3)"
+                options: [
+                    "Green (start/clear)",
+                    "Yellow (caution)",
+                    "Red (stop)",
+                    "Blue (let faster car pass)",
+                    "Black (disqualification)",
+                ],
+                correct: 0
             },
             {
                 topic: "Famous Circuits",
                 emoji: "🏁🏛️",
                 question: "Name three famous race tracks?",
-                "answer": "Monaco, Silverstone, Spa-Francorchamps, Monza, Suzuka, Indianapolis (any 3)"
+                options: [
+                    "Monaco",
+                    "Silverstone",
+                    "Spa-Francorchamps",
+                    "Monza",
+                    "Suzuka",
+                    "Indianapolis",
+                ],
+                correct: 0
             },
             {
                 topic: "Racing Techniques",
                 emoji: "🏁🎯",
                 question: "Name three racing techniques?",
-                "answer": "Slipstreaming, Trail braking, Heel-toe downshift, Overtaking, Defensive driving (any 3)"
+                options: [
+                    "Slipstreaming",
+                    "Trail braking",
+                    "Heel-toe downshift",
+                    "Overtaking",
+                    "Defensive driving",
+                ],
+                correct: 0
             },
             {
                 topic: "Pit Crew Roles",
                 emoji: "🏁👥",
                 question: "Name three pit crew positions?",
-                "answer": "Tire changers, Jack operators, Fuelers, Mechanics, Lollipop man (any 3)"
+                options: [
+                    "Tire changers",
+                    "Jack operators",
+                    "Fuelers",
+                    "Mechanics",
+                    "Lollipop man",
+                ],
+                correct: 0
             },
             {
                 topic: "Racing Terms",
                 emoji: "🏁📖",
                 question: "Name three motorsport terms?",
-                "answer": "Pole position, Podium, DNF, Fastest lap, Qualifying, Grid (any 3)"
+                options: [
+                    "Pole position",
+                    "Podium",
+                    "DNF",
+                    "Fastest lap",
+                    "Qualifying",
+                    "Grid",
+                ],
+                correct: 0
             }
         ]
     },
@@ -9908,55 +11277,124 @@ const sportsQuestionsExtended = {
                 topic: "Climbing Styles",
                 emoji: "🧗‍♂️🎯",
                 question: "Name three climbing styles?",
-                "answer": "Bouldering, Sport climbing, Trad climbing, Free solo, Aid climbing, Ice climbing (any 3)"
+                options: [
+                    "Bouldering",
+                    "Sport climbing",
+                    "Trad climbing",
+                    "Free solo",
+                    "Aid climbing",
+                    "Ice climbing",
+                ],
+                correct: 0
             },
             {
                 topic: "Climbing Holds",
                 emoji: "🧗‍♀️✊",
                 question: "Name three types of climbing holds?",
-                "answer": "Jug, Crimp, Sloper, Pinch, Pocket, Undercling (any 3)"
+                options: [
+                    "Jug",
+                    "Crimp",
+                    "Sloper",
+                    "Pinch",
+                    "Pocket",
+                    "Undercling",
+                ],
+                correct: 0
             },
             {
                 topic: "Essential Gear",
                 emoji: "🧗‍♂️🎒",
                 question: "Name three essential climbing equipment items?",
-                "answer": "Rope, Harness, Carabiners, Belay device, Helmet, Climbing shoes (any 3)"
+                options: [
+                    "Rope",
+                    "Harness",
+                    "Carabiners",
+                    "Belay device",
+                    "Helmet",
+                    "Climbing shoes",
+                ],
+                correct: 0
             },
             {
                 topic: "Climbing Techniques",
                 emoji: "🧗‍♀️💪",
                 question: "Name three climbing techniques?",
-                "answer": "Crimping, Smearing, Flagging, Heel hook, Toe hook, Dyno (any 3)"
+                options: [
+                    "Crimping",
+                    "Smearing",
+                    "Flagging",
+                    "Heel hook",
+                    "Toe hook",
+                    "Dyno",
+                ],
+                correct: 0
             },
             {
                 topic: "Famous Climbers",
                 emoji: "🧗‍♂️⭐",
                 question: "Name three legendary climbers?",
-                "answer": "Alex Honnold, Adam Ondra, Lynn Hill, Tommy Caldwell, Janja Garnbret (any 3)"
+                options: [
+                    "Alex Honnold",
+                    "Adam Ondra",
+                    "Lynn Hill",
+                    "Tommy Caldwell",
+                    "Janja Garnbret",
+                ],
+                correct: 0
             },
             {
                 topic: "Climbing Locations",
                 emoji: "🧗‍♀️🏔️",
                 question: "Name three famous climbing destinations?",
-                "answer": "Yosemite, Fontainebleau, Kalymnos, Red River Gorge, Frankenjura (any 3)"
+                options: [
+                    "Yosemite",
+                    "Fontainebleau",
+                    "Kalymnos",
+                    "Red River Gorge",
+                    "Frankenjura",
+                ],
+                correct: 0
             },
             {
                 topic: "Knots",
                 emoji: "🧗‍♂️🪢",
                 question: "Name three climbing knots?",
-                "answer": "Figure-eight, Clove hitch, Bowline, Munter hitch, Double fisherman's (any 3)"
+                options: [
+                    "Figure-eight",
+                    "Clove hitch",
+                    "Bowline",
+                    "Munter hitch",
+                    "Double fisherman's",
+                ],
+                correct: 0
             },
             {
                 topic: "Climbing Terms",
                 emoji: "🧗‍♀️📖",
                 question: "Name three climbing terminology terms?",
-                "answer": "Beta, Crux, Redpoint, Flash, Onsight, Whipper (any 3)"
+                options: [
+                    "Beta",
+                    "Crux",
+                    "Redpoint",
+                    "Flash",
+                    "Onsight",
+                    "Whipper",
+                ],
+                correct: 0
             },
             {
                 topic: "Protection Gear",
                 emoji: "🧗‍♂️🔧",
                 question: "Name three types of climbing protection?",
-                "answer": "Cams, Nuts, Quickdraws, Bolts, Slings, Hexes (any 3)"
+                options: [
+                    "Cams",
+                    "Nuts",
+                    "Quickdraws",
+                    "Bolts",
+                    "Slings",
+                    "Hexes",
+                ],
+                correct: 0
             },
             {
                 topic: "Competitions",

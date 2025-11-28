@@ -443,61 +443,121 @@ const foodDrinksQuestions = {
                 topic: "Culinary Arts",
                 emoji: "👨‍🍳🌟",
                 question: "Name three French mother sauces?",
-                "answer": "Béchamel, Velouté, Espagnole, Hollandaise, Tomato (any 3)"
+                options: [
+                    "Béchamel",
+                    "Velouté",
+                    "Espagnole",
+                    "Hollandaise"
+                ],
+                correct: 0
             },
             {
                 topic: "Coffee Brewing",
                 emoji: "☕🔧",
                 question: "Name three coffee brewing methods?",
-                "answer": "Espresso, French press, Pour over, Cold brew, Aeropress (any 3)"
+                options: [
+                    "Espresso",
+                    "French press",
+                    "Pour over",
+                    "Cold brew"
+                ],
+                correct: 0
             },
             {
                 topic: "Knife Skills",
                 emoji: "🔪📏",
                 question: "Name three basic knife cuts?",
-                "answer": "Julienne, Brunoise, Dice, Chiffonade, Mince (any 3)"
+                options: [
+                    "Julienne",
+                    "Brunoise",
+                    "Dice",
+                    "Chiffonade"
+                ],
+                correct: 0
             },
             {
                 topic: "Tea Types",
                 emoji: "🍵🌈",
                 question: "Name three types of tea?",
-                "answer": "Green, Black, White, Oolong, Pu-erh (any 3)"
+                options: [
+                    "Green",
+                    "Black",
+                    "White",
+                    "Oolong"
+                ],
+                correct: 0
             },
             {
                 topic: "Pasta Shapes",
                 emoji: "🍝📐",
                 question: "Name three pasta shapes?",
-                "answer": "Penne, Fusilli, Farfalle, Rigatoni, Linguine (any 3)"
+                options: [
+                    "Penne",
+                    "Fusilli",
+                    "Farfalle",
+                    "Rigatoni"
+                ],
+                correct: 0
             },
             {
                 topic: "Cocktail Ingredients",
                 emoji: "🍸🍋",
                 question: "Name three classic cocktail ingredients?",
-                "answer": "Bitters, Simple syrup, Citrus, Vermouth, Liqueur (any 3)"
+                options: [
+                    "Bitters",
+                    "Simple syrup",
+                    "Citrus",
+                    "Vermouth"
+                ],
+                correct: 0
             },
             {
                 topic: "Cheese Varieties",
                 emoji: "🧀🌍",
                 question: "Name three types of cheese?",
-                "answer": "Cheddar, Brie, Gouda, Parmesan, Mozzarella (any 3)"
+                options: [
+                    "Cheddar",
+                    "Brie",
+                    "Gouda",
+                    "Parmesan"
+                ],
+                correct: 0
             },
             {
                 topic: "Smoothie Ingredients",
                 emoji: "🥤🍓",
                 question: "Name three common smoothie ingredients?",
-                "answer": "Banana, Berries, Yogurt, Spinach, Protein powder (any 3)"
+                options: [
+                    "Banana",
+                    "Berries",
+                    "Yogurt",
+                    "Spinach"
+                ],
+                correct: 0
             },
             {
                 topic: "Baking Essentials",
                 emoji: "🧁🥄",
                 question: "Name three essential baking ingredients?",
-                "answer": "Flour, Sugar, Eggs, Butter, Baking powder (any 3)"
+                options: [
+                    "Flour",
+                    "Sugar",
+                    "Eggs",
+                    "Butter"
+                ],
+                correct: 0
             },
             {
                 topic: "Wine Regions",
                 emoji: "🍷🗺️",
                 question: "Name three famous wine regions?",
-                "answer": "Bordeaux, Tuscany, Napa Valley, Rioja, Champagne (any 3)"
+                options: [
+                    "Bordeaux",
+                    "Tuscany",
+                    "Napa Valley",
+                    "Rioja"
+                ],
+                correct: 0
             }
         ]
     },
@@ -935,61 +995,121 @@ const foodDrinksQuestions = {
                 topic: "Asian Cuisine",
                 emoji: "🍜🌏",
                 question: "Name three Asian noodle dishes?",
-                "answer": "Ramen, Pho, Pad Thai, Lo Mein, Udon (any 3)"
+                options: [
+                    "Ramen",
+                    "Pho",
+                    "Pad Thai",
+                    "Lo Mein"
+                ],
+                correct: 0
             },
             {
                 topic: "Coffee Drinks",
                 emoji: "☕🥤",
                 question: "Name three espresso-based drinks?",
-                "answer": "Latte, Cappuccino, Americano, Macchiato, Mocha (any 3)"
+                options: [
+                    "Latte",
+                    "Cappuccino",
+                    "Americano",
+                    "Macchiato"
+                ],
+                correct: 0
             },
             {
                 topic: "Seafood",
                 emoji: "🦞🐟",
                 question: "Name three types of shellfish?",
-                "answer": "Shrimp, Lobster, Crab, Oysters, Clams (any 3)"
+                options: [
+                    "Shrimp",
+                    "Lobster",
+                    "Crab",
+                    "Oysters"
+                ],
+                correct: 0
             },
             {
                 topic: "Herbal Teas",
                 emoji: "🍵🌿",
                 question: "Name three herbal tea varieties?",
-                "answer": "Chamomile, Peppermint, Hibiscus, Rooibos, Ginger (any 3)"
+                options: [
+                    "Chamomile",
+                    "Peppermint",
+                    "Hibiscus",
+                    "Rooibos"
+                ],
+                correct: 0
             },
             {
                 topic: "Mexican Food",
                 emoji: "🌮🇲🇽",
                 question: "Name three Mexican dishes?",
-                "answer": "Tacos, Enchiladas, Quesadillas, Burritos, Tamales (any 3)"
+                options: [
+                    "Tacos",
+                    "Enchiladas",
+                    "Quesadillas",
+                    "Burritos"
+                ],
+                correct: 0
             },
             {
                 topic: "Fruit Juices",
                 emoji: "🧃🍇",
                 question: "Name three types of fruit juice?",
-                "answer": "Orange, Apple, Grape, Cranberry, Pineapple (any 3)"
+                options: [
+                    "Orange",
+                    "Apple",
+                    "Grape",
+                    "Cranberry"
+                ],
+                correct: 0
             },
             {
                 topic: "Italian Dishes",
                 emoji: "🍝🇮🇹",
                 question: "Name three Italian pasta dishes?",
-                "answer": "Carbonara, Bolognese, Alfredo, Marinara, Pesto (any 3)"
+                options: [
+                    "Carbonara",
+                    "Bolognese",
+                    "Alfredo",
+                    "Marinara"
+                ],
+                correct: 0
             },
             {
                 topic: "Hot Beverages",
                 emoji: "☕🔥",
                 question: "Name three hot drinks?",
-                "answer": "Coffee, Tea, Hot chocolate, Cappuccino, Chai (any 3)"
+                options: [
+                    "Coffee",
+                    "Tea",
+                    "Hot chocolate",
+                    "Cappuccino"
+                ],
+                correct: 0
             },
             {
                 topic: "Desserts",
                 emoji: "🍰🍨",
                 question: "Name three popular desserts?",
-                "answer": "Cake, Ice cream, Pie, Cookies, Brownies (any 3)"
+                options: [
+                    "Cake",
+                    "Ice cream",
+                    "Pie",
+                    "Cookies"
+                ],
+                correct: 0
             },
             {
                 topic: "Breakfast Drinks",
                 emoji: "🥤🌅",
                 question: "Name three breakfast beverages?",
-                "answer": "Orange juice, Coffee, Milk, Smoothie, Tea (any 3)"
+                options: [
+                    "Orange juice",
+                    "Coffee",
+                    "Milk",
+                    "Smoothie"
+                ],
+                correct: 0
             }
         ]
     },
@@ -1427,61 +1547,121 @@ const foodDrinksQuestions = {
                 topic: "French Cooking",
                 emoji: "🇫🇷👨‍🍳",
                 question: "Name three classic French dishes?",
-                "answer": "Coq au vin, Beef bourguignon, Ratatouille, Bouillabaisse, Cassoulet (any 3)"
+                options: [
+                    "Coq au vin",
+                    "Beef bourguignon",
+                    "Ratatouille",
+                    "Bouillabaisse"
+                ],
+                correct: 0
             },
             {
                 topic: "Cold Drinks",
                 emoji: "🧊🥤",
                 question: "Name three cold beverages?",
-                "answer": "Iced tea, Lemonade, Smoothie, Iced coffee, Soda (any 3)"
+                options: [
+                    "Iced tea",
+                    "Lemonade",
+                    "Smoothie",
+                    "Iced coffee"
+                ],
+                correct: 0
             },
             {
                 topic: "Grains",
                 emoji: "🌾🍚",
                 question: "Name three types of grains?",
-                "answer": "Rice, Wheat, Quinoa, Oats, Barley (any 3)"
+                options: [
+                    "Rice",
+                    "Wheat",
+                    "Quinoa",
+                    "Oats"
+                ],
+                correct: 0
             },
             {
                 topic: "Citrus Drinks",
                 emoji: "🍋🥤",
                 question: "Name three citrus-based drinks?",
-                "answer": "Lemonade, Orange juice, Grapefruit juice, Limeade, Citrus punch (any 3)"
+                options: [
+                    "Lemonade",
+                    "Orange juice",
+                    "Grapefruit juice",
+                    "Limeade"
+                ],
+                correct: 0
             },
             {
                 topic: "Street Food",
                 emoji: "🌮🍢",
                 question: "Name three popular street foods?",
-                "answer": "Tacos, Hot dogs, Kebabs, Falafel, Empanadas (any 3)"
+                options: [
+                    "Tacos",
+                    "Hot dogs",
+                    "Kebabs",
+                    "Falafel"
+                ],
+                correct: 0
             },
             {
                 topic: "Dairy Products",
                 emoji: "🥛🧀",
                 question: "Name three dairy products?",
-                "answer": "Milk, Cheese, Yogurt, Butter, Cream (any 3)"
+                options: [
+                    "Milk",
+                    "Cheese",
+                    "Yogurt",
+                    "Butter"
+                ],
+                correct: 0
             },
             {
                 topic: "Japanese Food",
                 emoji: "🍣🇯🇵",
                 question: "Name three Japanese dishes?",
-                "answer": "Sushi, Ramen, Tempura, Teriyaki, Udon (any 3)"
+                options: [
+                    "Sushi",
+                    "Ramen",
+                    "Tempura",
+                    "Teriyaki"
+                ],
+                correct: 0
             },
             {
                 topic: "Tropical Drinks",
                 emoji: "🍹🌴",
                 question: "Name three tropical beverages?",
-                "answer": "Piña colada, Coconut water, Mango juice, Passion fruit juice, Guava juice (any 3)"
+                options: [
+                    "Piña colada",
+                    "Coconut water",
+                    "Mango juice",
+                    "Passion fruit juice"
+                ],
+                correct: 0
             },
             {
                 topic: "Spices",
                 emoji: "🌶️🧂",
                 question: "Name three common spices?",
-                "answer": "Pepper, Cinnamon, Cumin, Paprika, Turmeric (any 3)"
+                options: [
+                    "Pepper",
+                    "Cinnamon",
+                    "Cumin",
+                    "Paprika"
+                ],
+                correct: 0
             },
             {
                 topic: "Breakfast Foods",
                 emoji: "🍳🥐",
                 question: "Name three breakfast items?",
-                "answer": "Eggs, Pancakes, Bacon, Toast, Cereal (any 3)"
+                options: [
+                    "Eggs",
+                    "Pancakes",
+                    "Bacon",
+                    "Toast"
+                ],
+                correct: 0
             }
         ]
     },
@@ -1919,65 +2099,125 @@ const foodDrinksQuestions = {
                 topic: "Indian Cuisine",
                 emoji: "🇮🇳🍛",
                 question: "Name three Indian dishes?",
-                "answer": "Curry, Biryani, Tikka masala, Samosa, Naan (any 3)"
+                options: [
+                    "Curry",
+                    "Biryani",
+                    "Tikka masala",
+                    "Samosa"
+                ],
+                correct: 0
             },
             {
                 topic: "Tea Varieties",
                 emoji: "🍵🌈",
                 question: "Name three black tea varieties?",
-                "answer": "Earl Grey, English breakfast, Assam, Ceylon, Darjeeling (any 3)"
+                options: [
+                    "Earl Grey",
+                    "English breakfast",
+                    "Assam",
+                    "Ceylon"
+                ],
+                correct: 0
             },
             {
                 topic: "Sandwich Types",
                 emoji: "🥪🍞",
                 question: "Name three types of sandwiches?",
-                "answer": "BLT, Club, Reuben, Grilled cheese, Panini (any 3)"
+                options: [
+                    "BLT",
+                    "Club",
+                    "Reuben",
+                    "Grilled cheese"
+                ],
+                correct: 0
             },
             {
                 topic: "Smoothie Bases",
                 emoji: "🥤🍌",
                 question: "Name three smoothie base ingredients?",
-                "answer": "Banana, Yogurt, Milk, Juice, Ice (any 3)"
+                options: [
+                    "Banana",
+                    "Yogurt",
+                    "Milk",
+                    "Juice"
+                ],
+                correct: 0
             },
             {
                 topic: "Steak Cuts",
                 emoji: "🥩🔪",
                 question: "Name three cuts of steak?",
-                "answer": "Ribeye, Sirloin, Filet mignon, T-bone, New York strip (any 3)"
+                options: [
+                    "Ribeye",
+                    "Sirloin",
+                    "Filet mignon",
+                    "T-bone"
+                ],
+                correct: 0
             },
             {
                 topic: "Wine Types",
                 emoji: "🍷🍇",
                 question: "Name three types of wine?",
-                "answer": "Red, White, Rosé, Sparkling, Dessert (any 3)"
+                options: [
+                    "Red",
+                    "White",
+                    "Rosé",
+                    "Sparkling"
+                ],
+                correct: 0
             },
             {
                 topic: "Soup Varieties",
                 emoji: "🍲🥄",
                 question: "Name three types of soup?",
-                "answer": "Tomato, Chicken noodle, Minestrone, Clam chowder, French onion (any 3)"
+                options: [
+                    "Tomato",
+                    "Chicken noodle",
+                    "Minestrone",
+                    "Clam chowder"
+                ],
+                correct: 0
             },
             {
                 topic: "Juice Types",
                 emoji: "🧃🍊",
                 question: "Name three fruit juices?",
-                "answer": "Orange, Apple, Grape, Pineapple, Cranberry (any 3)"
+                options: [
+                    "Orange",
+                    "Apple",
+                    "Grape",
+                    "Pineapple"
+                ],
+                correct: 0
             },
             {
                 topic: "Herbs",
                 emoji: "🌿🍃",
                 question: "Name three cooking herbs?",
-                "answer": "Basil, Parsley, Cilantro, Rosemary, Thyme (any 3)"
+                options: [
+                    "Basil",
+                    "Parsley",
+                    "Cilantro",
+                    "Rosemary"
+                ],
+                correct: 0
             },
             {
                 topic: "Fast Food",
                 emoji: "🍔🍟",
                 question: "Name three fast food items?",
-                "answer": "Burger, Fries, Pizza, Chicken nuggets, Tacos (any 3)"
+                options: [
+                    "Burger",
+                    "Fries",
+                    "Pizza",
+                    "Chicken nuggets"
+                ],
+                correct: 0
             }
         ]
-    }
-];"5": {
+    },
+    "5": {
         "easy": [
             {
                 topic: "Watermelon",
@@ -2411,61 +2651,121 @@ const foodDrinksQuestions = {
                 topic: "Thai Cuisine",
                 emoji: "🇹🇭🍜",
                 question: "Name three Thai dishes?",
-                "answer": "Pad Thai, Green curry, Tom yum, Massaman curry, Som tam (any 3)"
+                options: [
+                    "Pad Thai",
+                    "Green curry",
+                    "Tom yum",
+                    "Massaman curry"
+                ],
+                correct: 0
             },
             {
                 topic: "Coffee Types",
                 emoji: "☕🌍",
                 question: "Name three coffee bean varieties?",
-                "answer": "Arabica, Robusta, Liberica, Excelsa (any 3)"
+                options: [
+                    "Arabica",
+                    "Robusta",
+                    "Liberica",
+                    "Excelsa"
+                ],
+                correct: 0
             },
             {
                 topic: "Sauces",
                 emoji: "🥫🍝",
                 question: "Name three pasta sauces?",
-                "answer": "Marinara, Alfredo, Pesto, Carbonara, Bolognese (any 3)"
+                options: [
+                    "Marinara",
+                    "Alfredo",
+                    "Pesto",
+                    "Carbonara"
+                ],
+                correct: 0
             },
             {
                 topic: "Vegetable Juices",
                 emoji: "🥤🥕",
                 question: "Name three vegetable juices?",
-                "answer": "Carrot, Tomato, Celery, Beet, Spinach (any 3)"
+                options: [
+                    "Carrot",
+                    "Tomato",
+                    "Celery",
+                    "Beet"
+                ],
+                correct: 0
             },
             {
                 topic: "Cooking Methods",
                 emoji: "🔥🍳",
                 question: "Name three cooking methods?",
-                "answer": "Baking, Frying, Grilling, Boiling, Steaming (any 3)"
+                options: [
+                    "Baking",
+                    "Frying",
+                    "Grilling",
+                    "Boiling"
+                ],
+                correct: 0
             },
             {
                 topic: "Cold Teas",
                 emoji: "🧊🍵",
                 question: "Name three iced tea varieties?",
-                "answer": "Black iced tea, Green iced tea, Peach tea, Lemon tea, Raspberry tea (any 3)"
+                options: [
+                    "Black iced tea",
+                    "Green iced tea",
+                    "Peach tea",
+                    "Lemon tea"
+                ],
+                correct: 0
             },
             {
                 topic: "Protein Sources",
                 emoji: "🥩🐟",
                 question: "Name three protein foods?",
-                "answer": "Chicken, Beef, Fish, Eggs, Tofu (any 3)"
+                options: [
+                    "Chicken",
+                    "Beef",
+                    "Fish",
+                    "Eggs"
+                ],
+                correct: 0
             },
             {
                 topic: "Carbonated Drinks",
                 emoji: "🥤💥",
                 question: "Name three carbonated beverages?",
-                "answer": "Soda, Sparkling water, Cola, Ginger ale, Tonic water (any 3)"
+                options: [
+                    "Soda",
+                    "Sparkling water",
+                    "Cola",
+                    "Ginger ale"
+                ],
+                correct: 0
             },
             {
                 topic: "Nuts",
                 emoji: "🥜🌰",
                 question: "Name three types of nuts?",
-                "answer": "Almonds, Walnuts, Cashews, Peanuts, Pistachios (any 3)"
+                options: [
+                    "Almonds",
+                    "Walnuts",
+                    "Cashews",
+                    "Peanuts"
+                ],
+                correct: 0
             },
             {
                 topic: "Salad Types",
                 emoji: "🥗🍃",
                 question: "Name three salad varieties?",
-                "answer": "Caesar, Greek, Cobb, Caprese, Waldorf (any 3)"
+                options: [
+                    "Caesar",
+                    "Greek",
+                    "Cobb",
+                    "Caprese"
+                ],
+                correct: 0
             }
         ]
     },
@@ -2903,61 +3203,121 @@ const foodDrinksQuestions = {
                 topic: "Vietnamese Food",
                 emoji: "🇻🇳🍜",
                 question: "Name three Vietnamese dishes?",
-                "answer": "Pho, Banh mi, Spring rolls, Bun cha, Cao lau (any 3)"
+                options: [
+                    "Pho",
+                    "Banh mi",
+                    "Spring rolls",
+                    "Bun cha"
+                ],
+                correct: 0
             },
             {
                 topic: "Latte Flavors",
                 emoji: "☕🍰",
                 question: "Name three latte flavors?",
-                "answer": "Vanilla, Caramel, Hazelnut, Mocha, Pumpkin spice (any 3)"
+                options: [
+                    "Vanilla",
+                    "Caramel",
+                    "Hazelnut",
+                    "Mocha"
+                ],
+                correct: 0
             },
             {
                 topic: "Berries",
                 emoji: "🫐🍓",
                 question: "Name three types of berries?",
-                "answer": "Strawberry, Blueberry, Raspberry, Blackberry, Cranberry (any 3)"
+                options: [
+                    "Strawberry",
+                    "Blueberry",
+                    "Raspberry",
+                    "Blackberry"
+                ],
+                correct: 0
             },
             {
                 topic: "Green Drinks",
                 emoji: "🥤💚",
                 question: "Name three green beverages?",
-                "answer": "Green tea, Green smoothie, Wheatgrass juice, Celery juice, Matcha (any 3)"
+                options: [
+                    "Green tea",
+                    "Green smoothie",
+                    "Wheatgrass juice",
+                    "Celery juice"
+                ],
+                correct: 0
             },
             {
                 topic: "Fried Foods",
                 emoji: "🍟🔥",
                 question: "Name three fried foods?",
-                "answer": "French fries, Fried chicken, Tempura, Donuts, Fritters (any 3)"
+                options: [
+                    "French fries",
+                    "Fried chicken",
+                    "Tempura",
+                    "Donuts"
+                ],
+                correct: 0
             },
             {
                 topic: "Milk Alternatives",
                 emoji: "🥛🌱",
                 question: "Name three non-dairy milk options?",
-                "answer": "Almond milk, Soy milk, Oat milk, Coconut milk, Rice milk (any 3)"
+                options: [
+                    "Almond milk",
+                    "Soy milk",
+                    "Oat milk",
+                    "Coconut milk"
+                ],
+                correct: 0
             },
             {
                 topic: "Greek Food",
                 emoji: "🇬🇷🫒",
                 question: "Name three Greek dishes?",
-                "answer": "Gyro, Moussaka, Souvlaki, Greek salad, Spanakopita (any 3)"
+                options: [
+                    "Gyro",
+                    "Moussaka",
+                    "Souvlaki",
+                    "Greek salad"
+                ],
+                correct: 0
             },
             {
                 topic: "Citrus Fruits",
                 emoji: "🍊🍋",
                 question: "Name three citrus fruits?",
-                "answer": "Orange, Lemon, Lime, Grapefruit, Tangerine (any 3)"
+                options: [
+                    "Orange",
+                    "Lemon",
+                    "Lime",
+                    "Grapefruit"
+                ],
+                correct: 0
             },
             {
                 topic: "Condiments",
                 emoji: "🧂🍯",
                 question: "Name three condiments?",
-                "answer": "Ketchup, Mustard, Mayonnaise, Soy sauce, Hot sauce (any 3)"
+                options: [
+                    "Ketchup",
+                    "Mustard",
+                    "Mayonnaise",
+                    "Soy sauce"
+                ],
+                correct: 0
             },
             {
                 topic: "Dinner Foods",
                 emoji: "🍽️🌙",
                 question: "Name three dinner dishes?",
-                "answer": "Steak, Pasta, Chicken, Fish, Stir fry (any 3)"
+                options: [
+                    "Steak",
+                    "Pasta",
+                    "Chicken",
+                    "Fish"
+                ],
+                correct: 0
             }
         ]
     },
@@ -3000,7 +3360,8 @@ const foodDrinksQuestions = {
                 options: [
                     "True",
                     "False"
-                ],"correct": 1
+                ],
+                correct: 1
             },
             {
                 topic: "Cupcake",
@@ -3394,61 +3755,121 @@ const foodDrinksQuestions = {
                 topic: "Korean Food",
                 emoji: "🇰🇷🍜",
                 question: "Name three Korean dishes?",
-                "answer": "Kimchi, Bibimbap, Bulgogi, Japchae, Korean BBQ (any 3)"
+                options: [
+                    "Kimchi",
+                    "Bibimbap",
+                    "Bulgogi",
+                    "Japchae"
+                ],
+                correct: 0
             },
             {
                 topic: "Hot Drinks",
                 emoji: "☕🔥",
                 question: "Name three hot beverages?",
-                "answer": "Coffee, Tea, Hot chocolate, Cappuccino, Espresso (any 3)"
+                options: [
+                    "Coffee",
+                    "Tea",
+                    "Hot chocolate",
+                    "Cappuccino"
+                ],
+                correct: 0
             },
             {
                 topic: "Root Vegetables",
                 emoji: "🥕🥔",
                 question: "Name three root vegetables?",
-                "answer": "Carrot, Potato, Beet, Turnip, Radish (any 3)"
+                options: [
+                    "Carrot",
+                    "Potato",
+                    "Beet",
+                    "Turnip"
+                ],
+                correct: 0
             },
             {
                 topic: "Energy Boosters",
                 emoji: "⚡🥤",
                 question: "Name three energy drinks or foods?",
-                "answer": "Coffee, Energy drink, Banana, Green tea, Dark chocolate (any 3)"
+                options: [
+                    "Coffee",
+                    "Energy drink",
+                    "Banana",
+                    "Green tea"
+                ],
+                correct: 0
             },
             {
                 topic: "Grilled Foods",
                 emoji: "🔥🍖",
                 question: "Name three grilled foods?",
-                "answer": "Steak, Chicken, Fish, Vegetables, Burgers (any 3)"
+                options: [
+                    "Steak",
+                    "Chicken",
+                    "Fish",
+                    "Vegetables"
+                ],
+                correct: 0
             },
             {
                 topic: "Plant Milks",
                 emoji: "🥛🌱",
                 question: "Name three plant-based milks?",
-                "answer": "Almond, Soy, Oat, Coconut, Cashew (any 3)"
+                options: [
+                    "Almond",
+                    "Soy",
+                    "Oat",
+                    "Coconut"
+                ],
+                correct: 0
             },
             {
                 topic: "Spanish Food",
                 emoji: "🇪🇸🥘",
                 question: "Name three Spanish dishes?",
-                "answer": "Paella, Tapas, Gazpacho, Tortilla española, Churros (any 3)"
+                options: [
+                    "Paella",
+                    "Tapas",
+                    "Gazpacho",
+                    "Tortilla española"
+                ],
+                correct: 0
             },
             {
                 topic: "Stone Fruits",
                 emoji: "🍑🍒",
                 question: "Name three stone fruits?",
-                "answer": "Peach, Cherry, Plum, Apricot, Nectarine (any 3)"
+                options: [
+                    "Peach",
+                    "Cherry",
+                    "Plum",
+                    "Apricot"
+                ],
+                correct: 0
             },
             {
                 topic: "Seasonings",
                 emoji: "🧂🌿",
                 question: "Name three seasonings?",
-                "answer": "Salt, Pepper, Garlic powder, Oregano, Paprika (any 3)"
+                options: [
+                    "Salt",
+                    "Pepper",
+                    "Garlic powder",
+                    "Oregano"
+                ],
+                correct: 0
             },
             {
                 topic: "Lunch Foods",
                 emoji: "🥪☀️",
                 question: "Name three lunch items?",
-                "answer": "Sandwich, Salad, Soup, Wrap, Pasta (any 3)"
+                options: [
+                    "Sandwich",
+                    "Salad",
+                    "Soup",
+                    "Wrap"
+                ],
+                correct: 0
             }
         ]
     },
@@ -3896,61 +4317,121 @@ const foodDrinksQuestions = {
                 topic: "Chinese Cuisine",
                 emoji: "🇨🇳🥢",
                 question: "Name three Chinese dishes?",
-                "answer": "Fried rice, Kung pao chicken, Dim sum, Spring rolls, Chow mein (any 3)"
+                options: [
+                    "Fried rice",
+                    "Kung pao chicken",
+                    "Dim sum",
+                    "Spring rolls"
+                ],
+                correct: 0
             },
             {
                 topic: "Iced Drinks",
                 emoji: "🧊🥤",
                 question: "Name three iced beverages?",
-                "answer": "Iced tea, Iced coffee, Lemonade, Smoothie, Frappe (any 3)"
+                options: [
+                    "Iced tea",
+                    "Iced coffee",
+                    "Lemonade",
+                    "Smoothie"
+                ],
+                correct: 0
             },
             {
                 topic: "Leafy Greens",
                 emoji: "🥬🥗",
                 question: "Name three leafy vegetables?",
-                "answer": "Spinach, Lettuce, Kale, Cabbage, Arugula (any 3)"
+                options: [
+                    "Spinach",
+                    "Lettuce",
+                    "Kale",
+                    "Cabbage"
+                ],
+                correct: 0
             },
             {
                 topic: "Refreshing Drinks",
                 emoji: "🥤😌",
                 question: "Name three refreshing beverages?",
-                "answer": "Water, Lemonade, Iced tea, Coconut water, Cucumber water (any 3)"
+                options: [
+                    "Water",
+                    "Lemonade",
+                    "Iced tea",
+                    "Coconut water"
+                ],
+                correct: 0
             },
             {
                 topic: "Baked Goods",
                 emoji: "🥐🍞",
                 question: "Name three baked items?",
-                "answer": "Bread, Croissant, Muffin, Cookies, Cake (any 3)"
+                options: [
+                    "Bread",
+                    "Croissant",
+                    "Muffin",
+                    "Cookies"
+                ],
+                correct: 0
             },
             {
                 topic: "Probiotic Drinks",
                 emoji: "🥤🫧",
                 question: "Name three probiotic beverages?",
-                "answer": "Kombucha, Kefir, Yogurt drink, Lassi, Fermented tea (any 3)"
+                options: [
+                    "Kombucha",
+                    "Kefir",
+                    "Yogurt drink",
+                    "Lassi"
+                ],
+                correct: 0
             },
             {
                 topic: "Middle Eastern Food",
                 emoji: "🇸🇦🥙",
                 question: "Name three Middle Eastern dishes?",
-                "answer": "Hummus, Falafel, Shawarma, Kebab, Tabbouleh (any 3)"
+                options: [
+                    "Hummus",
+                    "Falafel",
+                    "Shawarma",
+                    "Kebab"
+                ],
+                correct: 0
             },
             {
                 topic: "Melons",
                 emoji: "🍉🍈",
                 question: "Name three types of melons?",
-                "answer": "Watermelon, Cantaloupe, Honeydew, Galia, Crenshaw (any 3)"
+                options: [
+                    "Watermelon",
+                    "Cantaloupe",
+                    "Honeydew",
+                    "Galia"
+                ],
+                correct: 0
             },
             {
                 topic: "Cooking Oils",
                 emoji: "🫒💧",
                 question: "Name three cooking oils?",
-                "answer": "Olive oil, Vegetable oil, Coconut oil, Canola oil, Sesame oil (any 3)"
+                options: [
+                    "Olive oil",
+                    "Vegetable oil",
+                    "Coconut oil",
+                    "Canola oil"
+                ],
+                correct: 0
             },
             {
                 topic: "Snack Foods",
                 emoji: "🍿🥨",
                 question: "Name three snack items?",
-                "answer": "Chips, Popcorn, Pretzels, Crackers, Nuts (any 3)"
+                options: [
+                    "Chips",
+                    "Popcorn",
+                    "Pretzels",
+                    "Crackers"
+                ],
+                correct: 0
             }
         ]
     },
@@ -4300,7 +4781,7 @@ const foodDrinksQuestions = {
                 topic: "Brunoise",
                 emoji: "🔪🥕",
                 question: "Is brunoise 1-2mm dice?",
-"options": [
+                options: [
                     "True",
                     "False",
                     "Large dice",
@@ -4398,61 +4879,121 @@ const foodDrinksQuestions = {
                 topic: "Turkish Cuisine",
                 emoji: "🇹🇷🍢",
                 question: "Name three Turkish dishes?",
-                "answer": "Kebab, Baklava, Dolma, Köfte, Meze (any 3)"
+                options: [
+                    "Kebab",
+                    "Baklava",
+                    "Dolma",
+                    "Köfte"
+                ],
+                correct: 0
             },
             {
                 topic: "Decaf Drinks",
                 emoji: "☕🚫",
                 question: "Name three caffeine-free drinks?",
-                "answer": "Herbal tea, Decaf coffee, Water, Juice, Milk (any 3)"
+                options: [
+                    "Herbal tea",
+                    "Decaf coffee",
+                    "Water",
+                    "Juice"
+                ],
+                correct: 0
             },
             {
                 topic: "Cruciferous Vegetables",
                 emoji: "🥦🥬",
                 question: "Name three cruciferous vegetables?",
-                "answer": "Broccoli, Cauliflower, Cabbage, Brussels sprouts, Kale (any 3)"
+                options: [
+                    "Broccoli",
+                    "Cauliflower",
+                    "Cabbage",
+                    "Brussels sprouts"
+                ],
+                correct: 0
             },
             {
                 topic: "Detox Drinks",
                 emoji: "🥤🌿",
                 question: "Name three detox beverages?",
-                "answer": "Lemon water, Green tea, Cucumber water, Ginger tea, Detox smoothie (any 3)"
+                options: [
+                    "Lemon water",
+                    "Green tea",
+                    "Cucumber water",
+                    "Ginger tea"
+                ],
+                correct: 0
             },
             {
                 topic: "Steamed Foods",
                 emoji: "♨️🥟",
                 question: "Name three steamed dishes?",
-                "answer": "Dumplings, Vegetables, Fish, Rice, Buns (any 3)"
+                options: [
+                    "Dumplings",
+                    "Vegetables",
+                    "Fish",
+                    "Rice"
+                ],
+                correct: 0
             },
             {
                 topic: "Fermented Drinks",
                 emoji: "🫧🥤",
                 question: "Name three fermented beverages?",
-                "answer": "Kombucha, Kefir, Kvass, Beer, Wine (any 3)"
+                options: [
+                    "Kombucha",
+                    "Kefir",
+                    "Kvass",
+                    "Beer"
+                ],
+                correct: 0
             },
             {
                 topic: "Turkish Food",
                 emoji: "🇹🇷🥙",
                 question: "Name three Turkish foods?",
-                "answer": "Döner, Börek, Pide, Lahmacun, Menemen (any 3)"
+                options: [
+                    "Döner",
+                    "Börek",
+                    "Pide",
+                    "Lahmacun"
+                ],
+                correct: 0
             },
             {
                 topic: "Exotic Fruits",
                 emoji: "🥭🐉",
                 question: "Name three exotic fruits?",
-                "answer": "Dragon fruit, Passion fruit, Rambutan, Mangosteen, Durian (any 3)"
+                options: [
+                    "Dragon fruit",
+                    "Passion fruit",
+                    "Rambutan",
+                    "Mangosteen"
+                ],
+                correct: 0
             },
             {
                 topic: "Baking Techniques",
                 emoji: "🎂👨‍🍳",
                 question: "Name three baking methods?",
-                "answer": "Creaming, Folding, Whisking, Proofing, Kneading (any 3)"
+                options: [
+                    "Creaming",
+                    "Folding",
+                    "Whisking",
+                    "Proofing"
+                ],
+                correct: 0
             },
             {
                 topic: "Party Foods",
                 emoji: "🎉🍕",
                 question: "Name three party food items?",
-                "answer": "Pizza, Wings, Nachos, Sliders, Chips and dip (any 3)"
+                options: [
+                    "Pizza",
+                    "Wings",
+                    "Nachos",
+                    "Sliders"
+                ],
+                correct: 0
             }
         ]
     },
@@ -4900,67 +5441,125 @@ const foodDrinksQuestions = {
                 topic: "Moroccan Cuisine",
                 emoji: "🇲🇦🥘",
                 question: "Name three Moroccan dishes?",
-                "answer": "Tagine, Couscous, Harira, Pastilla, Mechoui (any 3)"
+                options: [
+                    "Tagine",
+                    "Couscous",
+                    "Harira",
+                    "Pastilla"
+                ],
+                correct: 0
             },
             {
                 topic: "Breakfast Drinks",
                 emoji: "🌅🥤",
                 question: "Name three morning beverages?",
-                "answer": "Coffee, Orange juice, Tea, Milk, Smoothie (any 3)"
+                options: [
+                    "Coffee",
+                    "Orange juice",
+                    "Tea",
+                    "Milk"
+                ],
+                correct: 0
             },
             {
                 topic: "Allium Vegetables",
                 emoji: "🧅🧄",
                 question: "Name three allium vegetables?",
-                "answer": "Onion, Garlic, Leek, Shallot, Chives (any 3)"
+                options: [
+                    "Onion",
+                    "Garlic",
+                    "Leek",
+                    "Shallot"
+                ],
+                correct: 0
             },
             {
                 topic: "Summer Drinks",
                 emoji: "☀️🥤",
                 question: "Name three summer beverages?",
-                "answer": "Lemonade, Iced tea, Smoothie, Fruit punch, Iced coffee (any 3)"
+                options: [
+                    "Lemonade",
+                    "Iced tea",
+                    "Smoothie",
+                    "Fruit punch"
+                ],
+                correct: 0
             },
             {
                 topic: "Boiled Foods",
                 emoji: "💧🍳",
                 question: "Name three boiled foods?",
-                "answer": "Eggs, Pasta, Potatoes, Vegetables, Rice (any 3)"
+                options: [
+                    "Eggs",
+                    "Pasta",
+                    "Potatoes",
+                    "Vegetables"
+                ],
+                correct: 0
             },
             {
                 topic: "Cultured Drinks",
                 emoji: "🥤🫧",
                 question: "Name three cultured beverages?",
-                "answer": "Yogurt drink, Buttermilk, Kefir, Lassi, Ayran (any 3)"
+                options: [
+                    "Yogurt drink",
+                    "Buttermilk",
+                    "Kefir",
+                    "Lassi"
+                ],
+                correct: 0
             },
             {
                 topic: "German Food",
                 emoji: "🇩🇪🥨",
                 question: "Name three German dishes?",
-                "answer": "Sauerkraut, Bratwurst, Schnitzel, Pretzel, Spätzle (any 3)"
+                options: [
+                    "Sauerkraut",
+                    "Bratwurst",
+                    "Schnitzel",
+                    "Pretzel"
+                ],
+                correct: 0
             },
             {
                 topic: "Dried Fruits",
                 emoji: "🫐☀️",
                 question: "Name three dried fruits?",
-                "answer": "Raisins, Dates, Prunes, Apricots, Figs (any 3)"
+                options: [
+                    "Raisins",
+                    "Dates",
+                    "Prunes",
+                    "Apricots"
+                ],
+                correct: 0
             },
             {
                 topic: "Knife Skills",
                 emoji: "🔪📏",
                 question: "Name three knife cuts?",
-                "answer": "Dice, Julienne, Chiffonade, Brunoise, Mince (any 3)"
+                options: [
+                    "Dice",
+                    "Julienne",
+                    "Chiffonade",
+                    "Brunoise"
+                ],
+                correct: 0
             },
             {
                 topic: "Picnic Foods",
                 emoji: "🧺🥪",
                 question: "Name three picnic items?",
-                "answer": "Sandwiches, Fruit, Chips, Cookies, Lemonade (any 3)"
+                options: [
+                    "Sandwiches",
+                    "Fruit",
+                    "Chips",
+                    "Cookies"
+                ],
+                correct: 0
             }
         ]
-    }
-];
-
-11: {
+    },
+    11: {
         easy: [
             {
                 topic: "Papaya",
@@ -5404,61 +6003,121 @@ const foodDrinksQuestions = {
                 topic: "Lebanese Cuisine",
                 emoji: "🇱🇧🥙",
                 question: "Name three Lebanese dishes?",
-                "answer": "Hummus, Tabbouleh, Kibbeh, Falafel, Fattoush (any 3)"
+                options: [
+                    "Hummus",
+                    "Tabbouleh",
+                    "Kibbeh",
+                    "Falafel"
+                ],
+                correct: 0
             },
             {
                 topic: "Evening Drinks",
                 emoji: "🌙🥤",
                 question: "Name three evening beverages?",
-                "answer": "Herbal tea, Warm milk, Chamomile, Hot chocolate, Decaf coffee (any 3)"
+                options: [
+                    "Herbal tea",
+                    "Warm milk",
+                    "Chamomile",
+                    "Hot chocolate"
+                ],
+                correct: 0
             },
             {
                 topic: "Nightshade Vegetables",
                 emoji: "🍅🫑",
                 question: "Name three nightshade vegetables?",
-                "answer": "Tomato, Potato, Eggplant, Pepper, Chili (any 3)"
+                options: [
+                    "Tomato",
+                    "Potato",
+                    "Eggplant",
+                    "Pepper"
+                ],
+                correct: 0
             },
             {
                 topic: "Winter Drinks",
                 emoji: "❄️🥤",
                 question: "Name three winter beverages?",
-                "answer": "Hot chocolate, Mulled wine, Hot tea, Coffee, Apple cider (any 3)"
+                options: [
+                    "Hot chocolate",
+                    "Mulled wine",
+                    "Hot tea",
+                    "Coffee"
+                ],
+                correct: 0
             },
             {
                 topic: "Raw Foods",
                 emoji: "🥗🌱",
                 question: "Name three raw foods?",
-                "answer": "Salad, Sushi, Fruits, Vegetables, Nuts (any 3)"
+                options: [
+                    "Salad",
+                    "Sushi",
+                    "Fruits",
+                    "Vegetables"
+                ],
+                correct: 0
             },
             {
                 topic: "Ancient Grains",
                 emoji: "🌾📜",
                 question: "Name three ancient grains?",
-                "answer": "Quinoa, Amaranth, Spelt, Farro, Millet (any 3)"
+                options: [
+                    "Quinoa",
+                    "Amaranth",
+                    "Spelt",
+                    "Farro"
+                ],
+                correct: 0
             },
             {
                 topic: "Russian Food",
                 emoji: "🇷🇺🥟",
                 question: "Name three Russian dishes?",
-                "answer": "Borscht, Pelmeni, Blini, Beef stroganoff, Pirozhki (any 3)"
+                options: [
+                    "Borscht",
+                    "Pelmeni",
+                    "Blini",
+                    "Beef stroganoff"
+                ],
+                correct: 0
             },
             {
                 topic: "Tropical Fruits",
                 emoji: "🥭🌴",
                 question: "Name three tropical fruits?",
-                "answer": "Mango, Pineapple, Papaya, Coconut, Passion fruit (any 3)"
+                options: [
+                    "Mango",
+                    "Pineapple",
+                    "Papaya",
+                    "Coconut"
+                ],
+                correct: 0
             },
             {
                 topic: "Sauce Techniques",
                 emoji: "🥄👨‍🍳",
                 question: "Name three sauce thickeners?",
-                "answer": "Roux, Cornstarch, Egg yolk, Reduction, Cream (any 3)"
+                options: [
+                    "Roux",
+                    "Cornstarch",
+                    "Egg yolk",
+                    "Reduction"
+                ],
+                correct: 0
             },
             {
                 topic: "BBQ Foods",
                 emoji: "🔥🍖",
                 question: "Name three BBQ items?",
-                "answer": "Ribs, Chicken, Burgers, Sausages, Corn (any 3)"
+                options: [
+                    "Ribs",
+                    "Chicken",
+                    "Burgers",
+                    "Sausages"
+                ],
+                correct: 0
             }
         ]
     },
@@ -5517,6 +6176,13 @@ const foodDrinksQuestions = {
             {
                 topic: "Oolong Tea",
                 emoji: "🍵🍂",
+                question: "Is oolong tea partially fermented?",
+                options: [
+                    "True",
+                    "False"
+                ],
+                correct: 0
+            },
             {
                 topic: "Lettuce",
                 emoji: "🥬💚",
@@ -5899,58 +6565,121 @@ const foodDrinksQuestions = {
                 topic: "Brazilian Cuisine",
                 emoji: "🇧🇷🍖",
                 question: "Name three Brazilian dishes?",
-                "answer": "Feijoada, Churrasco, Moqueca, Pão de queijo, Brigadeiro (any 3)"
+                options: [
+                    "Feijoada",
+                    "Churrasco",
+                    "Moqueca",
+                    "Pão de queijo"
+                ],
+                correct: 0
             },
             {
                 topic: "Warm Drinks",
                 emoji: "☕🔥",
                 question: "Name three warm beverages?",
-                "answer": "Coffee, Tea, Hot chocolate, Mulled wine, Hot toddy (any 3)"
+                options: [
+                    "Coffee",
+                    "Tea",
+                    "Hot chocolate",
+                    "Mulled wine"
+                ],
+                correct: 0
             },
             {
                 topic: "Squash Vegetables",
                 emoji: "🎃🥒",
                 question: "Name three types of squash?",
-                "answer": "Butternut, Zucchini, Pumpkin, Acorn, Spaghetti squash (any 3)"
+                options: [
+                    "Butternut",
+                    "Zucchini",
+                    "Pumpkin",
+                    "Acorn"
+                ],
+                correct: 0
             },
             {
                 topic: "Fall Drinks",
                 emoji: "🍂🥤",
                 question: "Name three autumn beverages?",
-                "answer": "Pumpkin spice latte, Apple cider, Hot tea, Mulled wine, Hot chocolate (any 3)"
+                options: [
+                    "Pumpkin spice latte",
+                    "Apple cider",
+                    "Hot tea",
+                    "Mulled wine"
+                ],
+                correct: 0
             },
             {
                 topic: "Fermented Foods",
                 emoji: "🥒🫙",
                 question: "Name three fermented foods?",
-                "answer": "Kimchi, Sauerkraut, Pickles, Yogurt, Miso (any 3)"
+                options: [
+                    "Kimchi",
+                    "Sauerkraut",
+                    "Pickles",
+                    "Yogurt"
+                ],
+                correct: 0
             },
             {
                 topic: "Pseudocereals",
                 emoji: "🌾🥗",
                 question: "Name three pseudocereals?",
-                "answer": "Quinoa, Amaranth, Buckwheat, Chia (any 3)"
+                options: [
+                    "Quinoa",
+                    "Amaranth",
+                    "Buckwheat",
+                    "Chia"
+                ],
+                correct: 0
             },
             {
                 topic: "Polish Food",
                 emoji: "🇵🇱🥟",
                 question: "Name three Polish dishes?",
-                "answer": "Pierogi, Bigos, Kielbasa, Żurek, Gołąbki (any 3)"
+                options: [
+                    "Pierogi",
+                    "Bigos",
+                    "Kielbasa",
+                    "Żurek"
+                ],
+                correct: 0
             },
             {
                 topic: "Citrus Varieties",
                 emoji: "🍊🍋",
+                question: "Name three citrus fruits?",
+                options: [
+                    "Orange",
+                    "Lemon",
+                    "Lime",
+                    "Grapefruit"
+                ],
+                correct: 0
+            },
             {
                 topic: "Plating Techniques",
                 emoji: "🍽️🎨",
                 question: "Name three plating methods?",
-                "answer": "Stacking, Drizzling, Swooshing, Dotting, Garnishing (any 3)"
+                options: [
+                    "Stacking",
+                    "Drizzling",
+                    "Swooshing",
+                    "Dotting"
+                ],
+                correct: 0
             },
             {
                 topic: "Camping Foods",
                 emoji: "🏕️🔥",
                 question: "Name three camping food items?",
-                "answer": "S'mores, Hot dogs, Beans, Trail mix, Canned food (any 3)"
+                options: [
+                    "S'mores",
+                    "Hot dogs",
+                    "Beans",
+                    "Trail mix"
+                ],
+                correct: 0
             }
         ]
     },
@@ -5990,7 +6719,7 @@ const foodDrinksQuestions = {
                 topic: "Melon Juice",
                 emoji: "🍈🥤",
                 question: "Is melon juice sweet?",
-"options": [
+                options: [
                     "True",
                     "False"
                 ],
@@ -6398,61 +7127,121 @@ const foodDrinksQuestions = {
                 topic: "Ethiopian Cuisine",
                 emoji: "🇪🇹🍛",
                 question: "Name three Ethiopian dishes?",
-                "answer": "Injera, Doro wat, Kitfo, Tibs, Shiro (any 3)"
+                options: [
+                    "Injera",
+                    "Doro wat",
+                    "Kitfo",
+                    "Tibs"
+                ],
+                correct: 0
             },
             {
                 topic: "Smoothie Boosters",
                 emoji: "🥤💪",
                 question: "Name three smoothie add-ins?",
-                "answer": "Protein powder, Chia seeds, Spinach, Flax seeds, Spirulina (any 3)"
+                options: [
+                    "Protein powder",
+                    "Chia seeds",
+                    "Spinach",
+                    "Flax seeds"
+                ],
+                correct: 0
             },
             {
                 topic: "Gourd Vegetables",
                 emoji: "🎃🥒",
                 question: "Name three gourd vegetables?",
-                "answer": "Pumpkin, Zucchini, Cucumber, Bottle gourd, Bitter gourd (any 3)"
+                options: [
+                    "Pumpkin",
+                    "Zucchini",
+                    "Cucumber",
+                    "Bottle gourd"
+                ],
+                correct: 0
             },
             {
                 topic: "Spring Drinks",
                 emoji: "🌸🥤",
                 question: "Name three spring beverages?",
-                "answer": "Lavender tea, Strawberry lemonade, Green tea, Flower tea, Fresh juice (any 3)"
+                options: [
+                    "Lavender tea",
+                    "Strawberry lemonade",
+                    "Green tea",
+                    "Flower tea"
+                ],
+                correct: 0
             },
             {
                 topic: "Pickled Foods",
                 emoji: "🥒🫙",
                 question: "Name three pickled items?",
-                "answer": "Cucumbers, Onions, Peppers, Cabbage, Beets (any 3)"
+                options: [
+                    "Cucumbers",
+                    "Onions",
+                    "Peppers",
+                    "Cabbage"
+                ],
+                correct: 0
             },
             {
                 topic: "Gluten-Free Grains",
                 emoji: "🌾🚫",
                 question: "Name three gluten-free grains?",
-                "answer": "Rice, Quinoa, Corn, Millet, Sorghum (any 3)"
+                options: [
+                    "Rice",
+                    "Quinoa",
+                    "Corn",
+                    "Millet"
+                ],
+                correct: 0
             },
             {
                 topic: "Hungarian Food",
                 emoji: "🇭🇺🍲",
                 question: "Name three Hungarian dishes?",
-                "answer": "Goulash, Paprikash, Lángos, Dobos torte, Chicken paprika (any 3)"
+                options: [
+                    "Goulash",
+                    "Paprikash",
+                    "Lángos",
+                    "Dobos torte"
+                ],
+                correct: 0
             },
             {
                 topic: "Pome Fruits",
                 emoji: "🍎🍐",
                 question: "Name three pome fruits?",
-                "answer": "Apple, Pear, Quince, Loquat, Medlar (any 3)"
+                options: [
+                    "Apple",
+                    "Pear",
+                    "Quince",
+                    "Loquat"
+                ],
+                correct: 0
             },
             {
                 topic: "Garnishing",
                 emoji: "🌿✨",
                 question: "Name three garnish types?",
-                "answer": "Herbs, Edible flowers, Citrus zest, Microgreens, Seeds (any 3)"
+                options: [
+                    "Herbs",
+                    "Edible flowers",
+                    "Citrus zest",
+                    "Microgreens"
+                ],
+                correct: 0
             },
             {
                 topic: "Buffet Foods",
                 emoji: "🍽️🎉",
                 question: "Name three buffet items?",
-                "answer": "Salads, Pasta, Meats, Bread, Desserts (any 3)"
+                options: [
+                    "Salads",
+                    "Pasta",
+                    "Meats",
+                    "Bread"
+                ],
+                correct: 0
             }
         ]
     },
@@ -6900,61 +7689,121 @@ const foodDrinksQuestions = {
                 topic: "Peruvian Cuisine",
                 emoji: "🇵🇪🥘",
                 question: "Name three Peruvian dishes?",
-                "answer": "Ceviche, Lomo saltado, Aji de gallina, Causa, Anticuchos (any 3)"
+                options: [
+                    "Ceviche",
+                    "Lomo saltado",
+                    "Aji de gallina",
+                    "Causa"
+                ],
+                correct: 0
             },
             {
                 topic: "Protein Drinks",
                 emoji: "💪🥤",
                 question: "Name three protein beverages?",
-                "answer": "Protein shake, Milk, Soy milk, Kefir, Greek yogurt drink (any 3)"
+                options: [
+                    "Protein shake",
+                    "Milk",
+                    "Soy milk",
+                    "Kefir"
+                ],
+                correct: 0
             },
             {
                 topic: "Brassica Vegetables",
                 emoji: "🥦🥬",
                 question: "Name three brassica vegetables?",
-                "answer": "Broccoli, Cabbage, Cauliflower, Kale, Brussels sprouts (any 3)"
+                options: [
+                    "Broccoli",
+                    "Cabbage",
+                    "Cauliflower",
+                    "Kale"
+                ],
+                correct: 0
             },
             {
                 topic: "Hydrating Drinks",
                 emoji: "💧🥤",
                 question: "Name three hydrating beverages?",
-                "answer": "Water, Coconut water, Sports drink, Herbal tea, Cucumber water (any 3)"
+                options: [
+                    "Water",
+                    "Coconut water",
+                    "Sports drink",
+                    "Herbal tea"
+                ],
+                correct: 0
             },
             {
                 topic: "Preserved Foods",
                 emoji: "🥫🫙",
                 question: "Name three preserved items?",
-                "answer": "Jam, Pickles, Canned goods, Jerky, Dried fruit (any 3)"
+                options: [
+                    "Jam",
+                    "Pickles",
+                    "Canned goods",
+                    "Jerky"
+                ],
+                correct: 0
             },
             {
                 topic: "Whole Grains",
                 emoji: "🌾🍚",
                 question: "Name three whole grains?",
-                "answer": "Brown rice, Oats, Barley, Whole wheat, Rye (any 3)"
+                options: [
+                    "Brown rice",
+                    "Oats",
+                    "Barley",
+                    "Whole wheat"
+                ],
+                correct: 0
             },
             {
                 topic: "Swedish Food",
                 emoji: "🇸🇪🥘",
                 question: "Name three Swedish dishes?",
-                "answer": "Meatballs, Gravlax, Surströmming, Knäckebröd, Köttbullar (any 3)"
+                options: [
+                    "Meatballs",
+                    "Gravlax",
+                    "Surströmming",
+                    "Knäckebröd"
+                ],
+                correct: 0
             },
             {
                 topic: "Drupes",
                 emoji: "🍑🍒",
                 question: "Name three drupe fruits?",
-                "answer": "Peach, Plum, Cherry, Apricot, Mango (any 3)"
+                options: [
+                    "Peach",
+                    "Plum",
+                    "Cherry",
+                    "Apricot"
+                ],
+                correct: 0
             },
             {
                 topic: "Flavor Profiles",
                 emoji: "😋👅",
                 question: "Name three basic tastes?",
-                "answer": "Sweet, Salty, Sour, Bitter, Umami (any 3)"
+                options: [
+                    "Sweet",
+                    "Salty",
+                    "Sour",
+                    "Bitter"
+                ],
+                correct: 0
             },
             {
                 topic: "Street Snacks",
                 emoji: "🌭🍢",
                 question: "Name three street snack items?",
-                "answer": "Corn dog, Skewers, Pretzels, Tacos, Spring rolls (any 3)"
+                options: [
+                    "Corn dog",
+                    "Skewers",
+                    "Pretzels",
+                    "Tacos"
+                ],
+                correct: 0
             }
         ]
     },
@@ -6993,6 +7842,13 @@ const foodDrinksQuestions = {
             {
                 topic: "Blackberry Juice",
                 emoji: "🫐🥤",
+                question: "Is blackberry juice dark purple?",
+                options: [
+                    "True",
+                    "False"
+                ],
+                correct: 0
+            },
             {
                 topic: "Toffee",
                 emoji: "🍬🟤",
@@ -7078,13 +7934,20 @@ const foodDrinksQuestions = {
             {
                 topic: "Tortilla",
                 emoji: "🌮🫓",
+                question: "Is tortilla related to food and drinks?",
+                options: [
+                    "True",
+                    "False"
+                ],
+                correct: 0
+            },
             {
                 topic: "Lychee Juice",
                 emoji: "🥤🍈",
                 question: "Is lychee juice sweet?",
                 options: [
-                    "Bitter",
-                    "True"
+                    "True",
+                    "False"
                 ],
                 correct: 0
             },
@@ -7388,58 +8251,119 @@ const foodDrinksQuestions = {
                 topic: "Argentine Cuisine",
                 emoji: "🇦🇷🥩",
                 question: "Name three Argentine dishes?",
-                "answer": "Asado, Empanadas, Chimichurri, Dulce de leche, Milanesa (any 3)"
+                options: [
+                    "Asado",
+                    "Empanadas",
+                    "Chimichurri",
+                    "Dulce de leche"
+                ],
+                correct: 0
             },
             {
                 topic: "Detox Drinks",
                 emoji: "🥤🌿",
-            {
+                question: "Is detox drinks related to food and drinks?",
+                options: [
+                    "True",
+                    "False"
+                ],
+                correct: 0
+            },
+                {
                 topic: "Legumes",
                 emoji: "🫘🌱",
                 question: "Name three legumes?",
-                "answer": "Beans, Lentils, Chickpeas, Peas, Peanuts (any 3)"
+                options: [
+                    "Beans",
+                    "Lentils",
+                    "Chickpeas",
+                    "Peas"
+                ],
+                correct: 0
             },
             {
                 topic: "Alkaline Drinks",
                 emoji: "💧🥤",
                 question: "Name three alkaline beverages?",
-                "answer": "Alkaline water, Coconut water, Green juice, Aloe vera juice, Lemon water (any 3)"
+                options: [
+                    "Alkaline water",
+                    "Coconut water",
+                    "Green juice",
+                    "Aloe vera juice"
+                ],
+                correct: 0
             },
             {
                 topic: "Smoked Foods",
                 emoji: "💨🍖",
                 question: "Name three smoked items?",
-                "answer": "Salmon, Bacon, Sausage, Cheese, Ribs (any 3)"
+                options: [
+                    "Salmon",
+                    "Bacon",
+                    "Sausage",
+                    "Cheese"
+                ],
+                correct: 0
             },
             {
                 topic: "Heirloom Grains",
                 emoji: "🌾📜",
                 question: "Name three heirloom grains?",
-                "answer": "Einkorn, Emmer, Kamut, Spelt, Freekeh (any 3)"
+                options: [
+                    "Einkorn",
+                    "Emmer",
+                    "Kamut",
+                    "Spelt"
+                ],
+                correct: 0
             },
             {
                 topic: "Austrian Food",
                 emoji: "🇦🇹🥨",
                 question: "Name three Austrian dishes?",
-                "answer": "Schnitzel, Apfelstrudel, Sachertorte, Kaiserschmarrn, Tafelspitz (any 3)"
+                options: [
+                    "Schnitzel",
+                    "Apfelstrudel",
+                    "Sachertorte",
+                    "Kaiserschmarrn"
+                ],
+                correct: 0
             },
             {
                 topic: "Aggregate Fruits",
                 emoji: "🍓🫐",
                 question: "Name three aggregate fruits?",
-                "answer": "Raspberry, Blackberry, Strawberry, Mulberry, Loganberry (any 3)"
+                options: [
+                    "Raspberry",
+                    "Blackberry",
+                    "Strawberry",
+                    "Mulberry"
+                ],
+                correct: 0
             },
             {
                 topic: "Food Pairings",
                 emoji: "🍷🧀",
                 question: "Name three classic food pairings?",
-                "answer": "Wine and cheese, Tomato and basil, Peanut butter and jelly, Fish and chips, Bacon and eggs (any 3)"
+                options: [
+                    "Wine and cheese",
+                    "Tomato and basil",
+                    "Peanut butter and jelly",
+                    "Fish and chips"
+                ],
+                correct: 0
             },
             {
                 topic: "Food Truck Items",
                 emoji: "🚚🌮",
                 question: "Name three food truck items?",
-                "answer": "Tacos, Burgers, Hot dogs, Falafel, Noodles (any 3)"
+                options: [
+                    "Tacos",
+                    "Burgers",
+                    "Hot dogs",
+                    "Falafel"
+                ],
+                correct: 0
             }
         ]
     },
@@ -7887,58 +8811,119 @@ const foodDrinksQuestions = {
                 topic: "Colombian Cuisine",
                 emoji: "🇨🇴🍲",
                 question: "Name three Colombian dishes?",
-                "answer": "Bandeja paisa, Arepas, Sancocho, Empanadas, Ajiaco (any 3)"
+                options: [
+                    "Bandeja paisa",
+                    "Arepas",
+                    "Sancocho",
+                    "Empanadas"
+                ],
+                correct: 0
             },
             {
                 topic: "Immune Boosting Drinks",
                 emoji: "💪🥤",
                 question: "Name three immunity drinks?",
-                "answer": "Orange juice, Green tea, Ginger tea, Turmeric latte, Elderberry juice (any 3)"
+                options: [
+                    "Orange juice",
+                    "Green tea",
+                    "Ginger tea",
+                    "Turmeric latte"
+                ],
+                correct: 0
             },
             {
                 topic: "Pulses",
                 emoji: "🫘🌾",
                 question: "Name three pulse crops?",
-                "answer": "Lentils, Chickpeas, Split peas, Black beans, Kidney beans (any 3)"
+                options: [
+                    "Lentils",
+                    "Chickpeas",
+                    "Split peas",
+                    "Black beans"
+                ],
+                correct: 0
             },
             {
                 topic: "Electrolyte Drinks",
                 emoji: "⚡🥤",
                 question: "Name three electrolyte beverages?",
-                "answer": "Sports drink, Coconut water, Pedialyte, Electrolyte water, Pickle juice (any 3)"
+                options: [
+                    "Sports drink",
+                    "Coconut water",
+                    "Pedialyte",
+                    "Electrolyte water"
+                ],
+                correct: 0
             },
             {
                 topic: "Cured Foods",
                 emoji: "🧂🥩",
                 question: "Name three cured items?",
-                "answer": "Bacon, Ham, Salami, Prosciutto, Jerky (any 3)"
+                options: [
+                    "Bacon",
+                    "Ham",
+                    "Salami",
+                    "Prosciutto"
+                ],
+                correct: 0
             },
             {
                 topic: "Superfood Grains",
                 emoji: "🌾⭐",
                 question: "Name three superfood grains?",
-                "answer": "Quinoa, Amaranth, Teff, Farro, Freekeh (any 3)"
+                options: [
+                    "Quinoa",
+                    "Amaranth",
+                    "Teff",
+                    "Farro"
+                ],
+                correct: 0
             },
             {
                 topic: "Swiss Food",
                 emoji: "🇨🇭🧀",
                 question: "Name three Swiss dishes?",
-                "answer": "Fondue, Raclette, Rösti, Zürcher Geschnetzeltes, Älplermagronen (any 3)"
+                options: [
+                    "Fondue",
+                    "Raclette",
+                    "Rösti",
+                    "Zürcher Geschnetzeltes"
+                ],
+                correct: 0
             },
             {
                 topic: "Berry Types",
                 emoji: "🫐🍓",
-            {
+                question: "Is berry types related to food and drinks?",
+                options: [
+                    "True",
+                    "False"
+                ],
+                correct: 0
+            },
+                {
                 topic: "Molecular Gastronomy",
                 emoji: "🔬🍽️",
                 question: "Name three molecular techniques?",
-                "answer": "Spherification, Foaming, Gelification, Emulsification, Sous vide (any 3)"
+                options: [
+                    "Spherification",
+                    "Foaming",
+                    "Gelification",
+                    "Emulsification"
+                ],
+                correct: 0
             },
             {
                 topic: "Festival Foods",
                 emoji: "🎪🍿",
                 question: "Name three festival food items?",
-                "answer": "Funnel cake, Corn dog, Cotton candy, Fried Oreos, Kettle corn (any 3)"
+                options: [
+                    "Funnel cake",
+                    "Corn dog",
+                    "Cotton candy",
+                    "Fried Oreos"
+                ],
+                correct: 0
             }
         ]
     },
@@ -7997,7 +8982,14 @@ const foodDrinksQuestions = {
             {
                 topic: "Hibiscus Tea",
                 emoji: "🍵🌺",
-            {
+                question: "Is hibiscus tea related to food and drinks?",
+                options: [
+                    "True",
+                    "False"
+                ],
+                correct: 0
+            },
+                {
                 topic: "Zucchini",
                 emoji: "🥒💚",
                 question: "Is zucchini a squash?",
@@ -8092,7 +9084,14 @@ const foodDrinksQuestions = {
             {
                 topic: "Dalgona Coffee",
                 emoji: "☕☁️",
-            {
+                question: "Is dalgona coffee related to food and drinks?",
+                options: [
+                    "True",
+                    "False"
+                ],
+                correct: 0
+            },
+                {
                 topic: "Naan Bread",
                 emoji: "🫓🇮🇳",
                 question: "Is naan baked in tandoor?",
@@ -8372,61 +9371,121 @@ const foodDrinksQuestions = {
                 topic: "Chilean Cuisine",
                 emoji: "🇨🇱🥘",
                 question: "Name three Chilean dishes?",
-                "answer": "Empanadas, Pastel de choclo, Cazuela, Completo, Curanto (any 3)"
+                options: [
+                    "Empanadas",
+                    "Pastel de choclo",
+                    "Cazuela",
+                    "Completo"
+                ],
+                correct: 0
             },
             {
                 topic: "Pre-Workout Drinks",
                 emoji: "💪🥤",
                 question: "Name three pre-workout beverages?",
-                "answer": "Coffee, Energy drink, BCAAs, Pre-workout supplement, Green tea (any 3)"
+                options: [
+                    "Coffee",
+                    "Energy drink",
+                    "BCAAs",
+                    "Pre-workout supplement"
+                ],
+                correct: 0
             },
             {
                 topic: "Tubers",
                 emoji: "🥔🍠",
                 question: "Name three tuber vegetables?",
-                "answer": "Potato, Sweet potato, Yam, Cassava, Taro (any 3)"
+                options: [
+                    "Potato",
+                    "Sweet potato",
+                    "Yam",
+                    "Cassava"
+                ],
+                correct: 0
             },
             {
                 topic: "Recovery Drinks",
                 emoji: "🥤💪",
                 question: "Name three post-workout beverages?",
-                "answer": "Protein shake, Chocolate milk, Smoothie, Coconut water, BCAA drink (any 3)"
+                options: [
+                    "Protein shake",
+                    "Chocolate milk",
+                    "Smoothie",
+                    "Coconut water"
+                ],
+                correct: 0
             },
             {
                 topic: "Dehydrated Foods",
                 emoji: "☀️🍎",
                 question: "Name three dehydrated items?",
-                "answer": "Dried fruit, Jerky, Sun-dried tomatoes, Dried mushrooms, Raisins (any 3)"
+                options: [
+                    "Dried fruit",
+                    "Jerky",
+                    "Sun-dried tomatoes",
+                    "Dried mushrooms"
+                ],
+                correct: 0
             },
             {
                 topic: "Ancient Grains",
                 emoji: "🌾📜",
                 question: "Name three ancient grain varieties?",
-                "answer": "Einkorn, Emmer, Spelt, Kamut, Teff (any 3)"
+                options: [
+                    "Einkorn",
+                    "Emmer",
+                    "Spelt",
+                    "Kamut"
+                ],
+                correct: 0
             },
             {
                 topic: "Dutch Food",
                 emoji: "🇳🇱🧀",
                 question: "Name three Dutch dishes?",
-                "answer": "Stroopwafel, Bitterballen, Poffertjes, Haring, Erwtensoep (any 3)"
+                options: [
+                    "Stroopwafel",
+                    "Bitterballen",
+                    "Poffertjes",
+                    "Haring"
+                ],
+                correct: 0
             },
             {
                 topic: "Vine Fruits",
                 emoji: "🍇🍉",
                 question: "Name three fruits that grow on vines?",
-                "answer": "Grapes, Watermelon, Cantaloupe, Passion fruit, Kiwi (any 3)"
+                options: [
+                    "Grapes",
+                    "Watermelon",
+                    "Cantaloupe",
+                    "Passion fruit"
+                ],
+                correct: 0
             },
             {
                 topic: "Emulsification",
                 emoji: "🥚🫒",
                 question: "Name three emulsified sauces?",
-                "answer": "Mayonnaise, Hollandaise, Aioli, Béarnaise, Vinaigrette (any 3)"
+                options: [
+                    "Mayonnaise",
+                    "Hollandaise",
+                    "Aioli",
+                    "Béarnaise"
+                ],
+                correct: 0
             },
             {
                 topic: "County Fair Foods",
                 emoji: "🎡🍗",
                 question: "Name three fair food items?",
-                "answer": "Fried chicken, Corn dog, Funnel cake, Turkey leg, Deep fried butter (any 3)"
+                options: [
+                    "Fried chicken",
+                    "Corn dog",
+                    "Funnel cake",
+                    "Turkey leg"
+                ],
+                correct: 0
             }
         ]
     },
@@ -8874,61 +9933,121 @@ const foodDrinksQuestions = {
                 topic: "Venezuelan Cuisine",
                 emoji: "🇻🇪🥘",
                 question: "Name three Venezuelan dishes?",
-                "answer": "Arepas, Pabellón criollo, Hallacas, Cachapas, Tequeños (any 3)"
+                options: [
+                    "Arepas",
+                    "Pabellón criollo",
+                    "Hallacas",
+                    "Cachapas"
+                ],
+                correct: 0
             },
             {
                 topic: "Meal Replacement Drinks",
                 emoji: "🥤🍽️",
                 question: "Name three meal replacement options?",
-                "answer": "Protein shake, Smoothie, Meal shake, Soylent, Huel (any 3)"
+                options: [
+                    "Protein shake",
+                    "Smoothie",
+                    "Meal shake",
+                    "Soylent"
+                ],
+                correct: 0
             },
             {
                 topic: "Bulb Vegetables",
                 emoji: "🧅🧄",
                 question: "Name three bulb vegetables?",
-                "answer": "Onion, Garlic, Shallot, Fennel, Leek (any 3)"
+                options: [
+                    "Onion",
+                    "Garlic",
+                    "Shallot",
+                    "Fennel"
+                ],
+                correct: 0
             },
             {
                 topic: "Vitamin Drinks",
                 emoji: "💊🥤",
                 question: "Name three vitamin-rich beverages?",
-                "answer": "Orange juice, Smoothie, Vitamin water, Fortified milk, Green juice (any 3)"
+                options: [
+                    "Orange juice",
+                    "Smoothie",
+                    "Vitamin water",
+                    "Fortified milk"
+                ],
+                correct: 0
             },
             {
                 topic: "Frozen Foods",
                 emoji: "❄️🍕",
                 question: "Name three frozen food items?",
-                "answer": "Ice cream, Frozen pizza, Frozen vegetables, Popsicles, Frozen dinners (any 3)"
+                options: [
+                    "Ice cream",
+                    "Frozen pizza",
+                    "Frozen vegetables",
+                    "Popsicles"
+                ],
+                correct: 0
             },
             {
                 topic: "Heritage Grains",
                 emoji: "🌾👴",
                 question: "Name three heritage grain types?",
-                "answer": "Red Fife wheat, Turkey Red, Marquis, Sonora, Rouge de Bordeaux (any 3)"
+                options: [
+                    "Red Fife wheat",
+                    "Turkey Red",
+                    "Marquis",
+                    "Sonora"
+                ],
+                correct: 0
             },
             {
                 topic: "Belgian Food",
                 emoji: "🇧🇪🍟",
                 question: "Name three Belgian dishes?",
-                "answer": "Frites, Waffles, Moules-frites, Carbonnade, Speculoos (any 3)"
+                options: [
+                    "Frites",
+                    "Waffles",
+                    "Moules-frites",
+                    "Carbonnade"
+                ],
+                correct: 0
             },
             {
                 topic: "Tree Fruits",
                 emoji: "🍎🌳",
                 question: "Name three fruits that grow on trees?",
-                "answer": "Apple, Orange, Peach, Cherry, Mango (any 3)"
+                options: [
+                    "Apple",
+                    "Orange",
+                    "Peach",
+                    "Cherry"
+                ],
+                correct: 0
             },
             {
                 topic: "Reduction Sauces",
                 emoji: "🍷🔥",
                 question: "Name three reduction-based sauces?",
-                "answer": "Demi-glace, Beurre blanc, Red wine reduction, Balsamic reduction, Pan sauce (any 3)"
+                options: [
+                    "Demi-glace",
+                    "Beurre blanc",
+                    "Red wine reduction",
+                    "Balsamic reduction"
+                ],
+                correct: 0
             },
             {
                 topic: "Movie Theater Foods",
                 emoji: "🎬🍿",
                 question: "Name three movie snack items?",
-                "answer": "Popcorn, Candy, Nachos, Hot dog, Soda (any 3)"
+                options: [
+                    "Popcorn",
+                    "Candy",
+                    "Nachos",
+                    "Hot dog"
+                ],
+                correct: 0
             }
         ]
     },
@@ -9301,7 +10420,14 @@ const foodDrinksQuestions = {
             {
                 topic: "Brunoise Cut",
                 emoji: "🔪🥕",
-            {
+                question: "Is brunoise cut related to food and drinks?",
+                options: [
+                    "True",
+                    "False"
+                ],
+                correct: 0
+            },
+                {
                 topic: "Bancha Tea",
                 emoji: "🍵🍂",
                 question: "Is bancha everyday Japanese tea?",
@@ -9367,58 +10493,119 @@ const foodDrinksQuestions = {
                 topic: "Uruguayan Cuisine",
                 emoji: "🇺🇾🥩",
                 question: "Name three Uruguayan dishes?",
-                "answer": "Asado, Chivito, Empanadas, Milanesa, Dulce de leche (any 3)"
+                options: [
+                    "Asado",
+                    "Chivito",
+                    "Empanadas",
+                    "Milanesa"
+                ],
+                correct: 0
             },
             {
                 topic: "Cleanse Drinks",
                 emoji: "🥤🌿",
                 question: "Name three cleansing beverages?",
-                "answer": "Green juice, Lemon water, Detox tea, Celery juice, Apple cider vinegar drink (any 3)"
+                options: [
+                    "Green juice",
+                    "Lemon water",
+                    "Detox tea",
+                    "Celery juice"
+                ],
+                correct: 0
             },
             {
                 topic: "Stem Vegetables",
                 emoji: "🥬🌿",
                 question: "Name three stem vegetables?",
-                "answer": "Asparagus, Celery, Rhubarb, Fennel, Kohlrabi (any 3)"
+                options: [
+                    "Asparagus",
+                    "Celery",
+                    "Rhubarb",
+                    "Fennel"
+                ],
+                correct: 0
             },
             {
                 topic: "Probiotic Drinks",
                 emoji: "🫧🥤",
-            {
+                question: "Is probiotic drinks related to food and drinks?",
+                options: [
+                    "True",
+                    "False"
+                ],
+                correct: 0
+            },
+                {
                 topic: "Candied Foods",
                 emoji: "🍬✨",
                 question: "Name three candied items?",
-                "answer": "Candied fruit, Candied ginger, Candied nuts, Candied peel, Rock candy (any 3)"
+                options: [
+                    "Candied fruit",
+                    "Candied ginger",
+                    "Candied nuts",
+                    "Candied peel"
+                ],
+                correct: 0
             },
             {
                 topic: "Sprouted Grains",
                 emoji: "🌾🌱",
                 question: "Name three sprouted grain products?",
-                "answer": "Ezekiel bread, Sprouted quinoa, Sprouted rice, Sprouted wheat, Sprouted barley (any 3)"
+                options: [
+                    "Ezekiel bread",
+                    "Sprouted quinoa",
+                    "Sprouted rice",
+                    "Sprouted wheat"
+                ],
+                correct: 0
             },
             {
                 topic: "Norwegian Food",
                 emoji: "🇳🇴🐟",
                 question: "Name three Norwegian dishes?",
-                "answer": "Gravlax, Lutefisk, Rakfisk, Fårikål, Lefse (any 3)"
+                options: [
+                    "Gravlax",
+                    "Lutefisk",
+                    "Rakfisk",
+                    "Fårikål"
+                ],
+                correct: 0
             },
             {
                 topic: "Pod Fruits",
                 emoji: "🫛🥜",
                 question: "Name three pod vegetables?",
-                "answer": "Peas, Green beans, Snow peas, Peanuts, Edamame (any 3)"
+                options: [
+                    "Peas",
+                    "Green beans",
+                    "Snow peas",
+                    "Peanuts"
+                ],
+                correct: 0
             },
             {
                 topic: "Pan Sauces",
                 emoji: "🍳🥄",
                 question: "Name three pan sauce techniques?",
-                "answer": "Deglazing, Reduction, Mounting with butter, Cream finish, Wine reduction (any 3)"
+                options: [
+                    "Deglazing",
+                    "Reduction",
+                    "Mounting with butter",
+                    "Cream finish"
+                ],
+                correct: 0
             },
             {
                 topic: "Airport Foods",
                 emoji: "✈️🍔",
                 question: "Name three airport food items?",
-                "answer": "Sandwiches, Fast food, Coffee, Pizza, Salads (any 3)"
+                options: [
+                    "Sandwiches",
+                    "Fast food",
+                    "Coffee",
+                    "Pizza"
+                ],
+                correct: 0
             }
         ]
     },
@@ -9457,7 +10644,14 @@ const foodDrinksQuestions = {
             {
                 topic: "Coconut Juice",
                 emoji: "🥥🥤",
-            {
+                question: "Is coconut juice related to food and drinks?",
+                options: [
+                    "True",
+                    "False"
+                ],
+                correct: 0
+            },
+                {
                 topic: "Cotton Candy",
                 emoji: "🍭☁️",
                 question: "Is cotton candy fluffy?",
@@ -9859,60 +11053,124 @@ const foodDrinksQuestions = {
                 topic: "Ecuadorian Cuisine",
                 emoji: "🇪🇨🍤",
                 question: "Name three Ecuadorian dishes?",
-                "answer": "Ceviche, Encebollado, Llapingachos, Hornado, Bolon de verde (any 3)"
+                options: [
+                    "Ceviche",
+                    "Encebollado",
+                    "Llapingachos",
+                    "Hornado"
+                ],
+                correct: 0
             },
             {
                 topic: "Hangover Drinks",
                 emoji: "🥤😵",
                 question: "Name three hangover remedy beverages?",
-                "answer": "Coconut water, Sports drink, Ginger tea, Tomato juice, Pedialyte (any 3)"
+                options: [
+                    "Coconut water",
+                    "Sports drink",
+                    "Ginger tea",
+                    "Tomato juice"
+                ],
+                correct: 0
             },
             {
                 topic: "Flower Vegetables",
                 emoji: "🥦🌸",
                 question: "Name three flower vegetables?",
-                "answer": "Broccoli, Cauliflower, Artichoke, Broccoli rabe, Romanesco (any 3)"
+                options: [
+                    "Broccoli",
+                    "Cauliflower",
+                    "Artichoke",
+                    "Broccoli rabe"
+                ],
+                correct: 0
             },
             {
                 topic: "Adaptogen Drinks",
                 emoji: "🥤🌿",
                 question: "Name three adaptogenic beverages?",
-                "answer": "Ashwagandha tea, Ginseng tea, Reishi tea, Maca smoothie, Rhodiola tea (any 3)"
+                options: [
+                    "Ashwagandha tea",
+                    "Ginseng tea",
+                    "Reishi tea",
+                    "Maca smoothie"
+                ],
+                correct: 0
             },
             {
                 topic: "Caramelized Foods",
                 emoji: "🔥🍯",
                 question: "Name three caramelized items?",
-                "answer": "Caramelized onions, Crème brûlée, Caramel sauce, Caramelized bananas, Flan (any 3)"
+                options: [
+                    "Caramelized onions",
+                    "Crème brûlée",
+                    "Caramel sauce",
+                    "Caramelized bananas"
+                ],
+                correct: 0
             },
             {
                 topic: "Fermented Grains",
                 emoji: "🌾🫧",
                 question: "Name three fermented grain products?",
-                "answer": "Beer, Sake, Sourdough, Miso, Tempeh (any 3)"
+                options: [
+                    "Beer",
+                    "Sake",
+                    "Sourdough",
+                    "Miso"
+                ],
+                correct: 0
             },
             {
                 topic: "Portuguese Food",
                 emoji: "🇵🇹🐟",
                 question: "Name three Portuguese dishes?",
-                "answer": "Bacalhau, Pastéis de nata, Francesinha, Caldo verde, Arroz de marisco (any 3)"
+                options: [
+                    "Bacalhau",
+                    "Pastéis de nata",
+                    "Francesinha",
+                    "Caldo verde"
+                ],
+                correct: 0
             },
             {
                 topic: "Seed Vegetables",
                 emoji: "🌽🫘",
                 question: "Name three seed vegetables?",
-                "answer": "Corn, Peas, Beans, Okra, Peppers (any 3)"
+                options: [
+                    "Corn",
+                    "Peas",
+                    "Beans",
+                    "Okra"
+                ],
+                correct: 0
             },
             {
                 topic: "Compound Butter",
                 emoji: "🧈🌿",
                 question: "Name three compound butter types?",
-                "answer": "Garlic butter, Herb butter, Lemon butter, Truffle butter, Maitre d'hotel (any 3)"
+                options: [
+                    "Garlic butter",
+                    "Herb butter",
+                    "Lemon butter",
+                    "Truffle butter"
+                ],
+                correct: 0
             },
             {
                 topic: "Stadium Foods",
                 emoji: "🏟️🌭",
                 question: "Name three stadium food items?",
+                options: [
+                    "Hot dogs",
+                    "Nachos",
+                    "Popcorn",
+                    "Pretzels"
+                ],
+                correct: 0
+            }
+        ]
+    }
 };
 
 // Register in global question bank

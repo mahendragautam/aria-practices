@@ -265,9 +265,6 @@ const artCultureQuestions = {
             {
                 topic: "Literature",
                 emoji: "📓📒",
-            {
-                topic: "Dance",
-                emoji: "🖊️✒️",
                 question: "Who wrote 'Disgrace'?",
                 options: [
                     "J.M. Coetzee",
@@ -277,6 +274,9 @@ const artCultureQuestions = {
                 ],
                 correct: 1
             },
+            {
+                topic: "Dance",
+                emoji: "💃🕺",
                 question: "Who founded the Joffrey Ballet?",
                 options: [
                     "Robert Joffrey",
@@ -313,9 +313,6 @@ const artCultureQuestions = {
             {
                 topic: "Theater",
                 emoji: "🎪🎡",
-            {
-                topic: "World Heritage",
-                emoji: "🎨🖼️",
                 question: "Who wrote 'Death of a Salesman'?",
                 options: [
                     "Arthur Miller",
@@ -325,6 +322,9 @@ const artCultureQuestions = {
                 ],
                 correct: 0
             },
+            {
+                topic: "World Heritage",
+                emoji: "🏛️🗿",
                 question: "What is the Armenian monastery complex?",
                 options: [
                     "Geghard",
@@ -1555,17 +1555,6 @@ if (typeof subjectQuestionBank !== 'undefined') {
                     "Akira Kurosawa",
                     "Yasujirō Ozu",
                     "Kenji Mizoguchi"
-                ],
-                correct: 0
-            },
-            {
-                topic: "Theater",
-                emoji: "🎭🎪",
-                question: "Who wrote 'The Importance of Being Earnest'?",
-                options: [
-                    "Oscar Wilde",
-                    "George Bernard Shaw",
-                    "Noël Coward"
                 ],
                 correct: 0
             },
@@ -2931,16 +2920,6 @@ if (typeof subjectQuestionBank !== 'undefined') {
                 correct: 0
             },
             {
-                topic: "Sculpture",
-                emoji: "🎭🎪",
-                question: "Who sculpted 'The Kiss'?",
-                options: [
-                    "Auguste Rodin",
-                    "Camille Claudel"
-                ],
-                correct: 1
-            },
-            {
                 topic: "Cinema",
                 emoji: "📚📖",
                 question: "What award is given at the Venice Film Festival?",
@@ -3541,18 +3520,6 @@ const artCultureChapter7 = {
                 correct: 0
             },
             {
-                topic: "Architecture",
-                emoji: "💃🕺",
-                question: "Who designed the Sydney Opera House?",
-                options: [
-                    "Frank Lloyd Wright",
-                    "Le Corbusier",
-                    "Jørn Utzon",
-                    "I.M. Pei"
-                ],
-                correct: 0
-            },
-            {
                 topic: "Literature",
                 emoji: "🎤🎧",
                 question: "Who won the first Nobel Prize in Literature?",
@@ -3709,16 +3676,6 @@ if (typeof subjectQuestionBank !== 'undefined') {
 }
     8: {
         easy: [
-            {
-                topic: "Painting",
-                emoji: "🎪🎠",
-                question: "Frida Kahlo was a Mexican artist.",
-                options: [
-                    "False",
-                    "True"
-                ],
-                correct: 0
-            },
             {
                 topic: "Music",
                 emoji: "🎬📽️",
@@ -4014,18 +3971,6 @@ if (typeof subjectQuestionBank !== 'undefined') {
             {
                 topic: "Dance",
                 emoji: "🎨🖌️",
-            {
-                topic: "Sculpture",
-                emoji: "🎭🎪",
-                question: "Who created 'The Burghers of Calais'?",
-                options: [
-                    "Auguste Rodin",
-                    "Camille Claudel",
-                    "Antoine Bourdelle",
-                    "Aristide Maillol"
-                ],
-                correct: 1
-            },
             {
                 topic: "Cinema",
                 emoji: "📚📖",
@@ -5861,16 +5806,6 @@ const artCultureChapters14_15 = {
                 correct: 0
             },
             {
-                topic: "Architecture",
-                emoji: "🎪🎡",
-                question: "The Great Wall of China is visible from space.",
-                options: [
-                    "False",
-                    "True"
-                ],
-                correct: 1
-            },
-            {
                 topic: "Literature",
                 emoji: "🌟✨",
                 question: "C.S. Lewis wrote 'The Chronicles of Narnia'.",
@@ -5907,16 +5842,6 @@ const artCultureChapters14_15 = {
                 options: [
                     "False",
                     "True"
-                ],
-                correct: 0
-            },
-            {
-                topic: "Theater",
-                emoji: "🧩🎨",
-                question: "Broadway is in New York City.",
-                options: [
-                    "True",
-                    "False"
                 ],
                 correct: 0
             },
@@ -5968,16 +5893,6 @@ const artCultureChapters14_15 = {
             {
                 topic: "Literature",
                 emoji: "🎨🌈",
-            {
-                topic: "Dance",
-                emoji: "🎪🎠",
-                question: "What dance style did Fred Astaire popularize?",
-                options: [
-                    "Ballroom",
-                    "Tap dance"
-                ],
-                correct: 0
-            },
             {
                 topic: "Sculpture",
                 emoji: "🎬📽️",
@@ -7918,16 +7833,6 @@ const artCultureChapters19_20 = {
                 correct: 1
             },
             {
-                topic: "Literature",
-                emoji: "🎨🌈",
-                question: "J.K. Rowling wrote the Harry Potter series.",
-                options: [
-                    "False",
-                    "True"
-                ],
-                correct: 0
-            },
-            {
                 topic: "Dance",
                 emoji: "🎪🎠",
                 question: "The Bolshoi Ballet is in Moscow.",
@@ -8336,16 +8241,6 @@ const artCultureChapters19_20 = {
                 correct: 0
             },
             {
-                topic: "Sculpture",
-                emoji: "🎯🎲",
-                question: "The Statue of Liberty was a gift from France.",
-                options: [
-                    "False",
-                    "True"
-                ],
-                correct: 0
-            },
-            {
                 topic: "Cinema",
                 emoji: "🃏🎴",
                 question: "Black and white films came before color films.",
@@ -8668,6 +8563,10 @@ const artCultureChapters19_20 = {
                 topic: "Crafts",
                 emoji: "🎭🎪",
                 question: "What is three-dimensional embroidery?",
+                answer: "Stumpwork"
+            }
+        ]
+    }
 };
 
 // Register in global question bank

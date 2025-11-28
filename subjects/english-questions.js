@@ -314,17 +314,7 @@ const englishQuestions = {
                 ],
                 "correct": 2
             },
-            {
-                "topic": "Literature",
-                "emoji": "📱💻",
-                "question": "Who wrote \"1984\"?",
-                "options": [
-                    "George Orwell",
-                    "Ray Bradbury",
-                    "Aldous Huxley"
-                ],
-                "correct": 1
-            }
+            
         ],
         "expert": [
             {
@@ -411,18 +401,7 @@ const englishQuestions = {
                 ],
                 "correct": 1
             },
-            {
-                "topic": "Vocabulary",
-                "emoji": "🔤📝",
-                "question": "What does \"verisimilitude\" mean?",
-                "options": [
-                    "Complete lie",
-                    "Exaggeration",
-                    "Understatement",
-                    "Appearance of truth"
-                ],
-                "correct": 0
-            },
+            
             {
                 "topic": "Composition",
                 "emoji": "✍️📄",
@@ -645,16 +624,7 @@ const englishQuestions = {
                 ],
                 "correct": 1
             },
-            {
-                "topic": "Grammar",
-                "emoji": "⚡📖",
-                "question": "What does \"quickly\" modify in \"ran quickly\"?",
-                "options": [
-                    "Verb",
-                    "Noun"
-                ],
-                "correct": 1
-            },
+            
             {
                 "topic": "Grammar",
                 "emoji": "👤📝",
@@ -2173,16 +2143,7 @@ const englishQuestions = {
                 ],
                 "correct": 1
             },
-            {
-                "topic": "Grammar",
-                "emoji": "🔀📝",
-                "question": "What is past of \"go\"?",
-                "options": [
-                    "Went",
-                    "Goed"
-                ],
-                "correct": 0
-            },
+            
             {
                 "topic": "Grammar",
                 "emoji": "🗣️✍️",

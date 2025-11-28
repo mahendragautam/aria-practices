@@ -546,10 +546,13 @@ function showScreen(screenClass, scrollToTop = true) {
     targetScreen.classList.add('active');
 
     if (scrollToTop) {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        });
+        // FIX 2 & 3: Scroll to show question body, not header
+        setTimeout(() => {
+            window.scrollTo({
+                top: 200, // Scroll down 200px to show question content
+                behavior: 'smooth'
+            });
+        }, 100);
     }
 
     if (!isNavigatingHistory) {
@@ -611,7 +614,9 @@ function displayQuestion() {
     
     // 3-column header: Topic | Timer | Empty
     html += `<div class="topic-header-grid">`;
-    html += `<div class="topic-badge topic-${question.topic.toLowerCase()}">${question.topic}</div>`;
+    
+    // FIX 1: Make topic badge clickable
+    html += `<div class="topic-badge topic-${question.topic.toLowerCase()}" onclick="navigateToTopicLevel('${question.topic}')" style="cursor: pointer;" title="Click to go to ${question.topic} level">${question.topic}</div>`;
     
     // Timer in CENTER column (only if timed mode)
     if (isTimedMode) {
@@ -668,6 +673,25 @@ function displayQuestion() {
 
     document.getElementById('quizContent').innerHTML = html;
     addFloatingEmojis(question.emoji);
+    
+    // FIX 2 & 3: Scroll to show question content after rendering
+    setTimeout(() => {
+        window.scrollTo({
+            top: 200,
+            behavior: 'smooth'
+        });
+    }, 100);
+}
+
+// FIX 1: New function to navigate to topic level selection
+function navigateToTopicLevel(topic) {
+    // If in normal mode, go to level selection
+    if (quizMode === 'normal') {
+        showLevelSelection();
+    } else {
+        // For mixed/timer modes, show a message
+        alert(`You're currently in ${quizMode} mode. Complete the current quiz to select a specific topic.`);
+    }
 }
 
 function selectAnswer(selectedIndex) {
@@ -678,6 +702,20 @@ function selectAnswer(selectedIndex) {
     const options = document.querySelectorAll('.answer-option');
     const feedback = document.getElementById('feedbackMessage');
     const nextBtn = document.getElementById('nextBtn');
+
+    // FIX 4: Validate that the correct index exists
+    if (selectedIndex >= options.length || question.correct >= question.options.length) {
+        console.error('❌ Invalid answer index!', {
+            selectedIndex,
+            correctIndex: question.correct,
+            totalOptions: options.length,
+            question: question.question
+        });
+        feedback.textContent = 'Error: Invalid question data. Please report this issue.';
+        feedback.className = 'feedback-message feedback-incorrect';
+        nextBtn.disabled = false;
+        return;
+    }
 
     options[selectedIndex].classList.add('selected');
 
